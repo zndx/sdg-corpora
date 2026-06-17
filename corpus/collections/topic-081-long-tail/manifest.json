@@ -1,0 +1,127 @@
+{
+  "topic_id": 81,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.3284537196159363,
+  "topic_repr": "Medical Device Services\n\nWho We Are\n\nAt Regulatory Compliance Associates Inc (RCA), we provide worldwide services to the pharmaceutical, medical device, biologics, combination products, and compounding pharmacies industries for resolution of compliance and regulatory challenges.\n\nOur backgrounds include every facet of R&D, operations, regulatory affairs, quality and manufacturing. We are used to w...",
+  "terms": [
+    "subclass_to_descriptive_ice",
+    "subclass_to_information_content_entity",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_subclass_to_descriptive_ice",
+    "t_subclass_to_information_content_entity",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "055167ecf9d6f31c",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "1c4749168e8071f4",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "234b3185a2354bc3",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "524f334ba4f0a3d5",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "6eff8f92c869a712",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "6f232ed1e47c6118",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "7168cdc9f57ce5df",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "9218253a61030629",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "a12fd25cf03c2142",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "b79a4579f53b9785",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "deb2d9297b16ef0f",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    },
+    {
+      "id": "fb3d1647c038cdd8",
+      "family": "01_foundation",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "subclass_to_information_content_entity",
+        "subclass_to_descriptive_ice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "topic_id": 103,
+  "family": "03_directive_governance",
+  "n_chapters": 7,
+  "coverage_score": 0.35077357292175293,
+  "topic_repr": "9716\n\nwith the petition that is the subject of this notice on public display at the Dockets Management Staff (see ADDRESSES) for public review and comment.\n\nWe will also place on public display, in the Dockets Management Staff and at https://www.regulations.gov, any amendments to, or comments on, the petitioner's environmental assessment without further announcement in the Federal Register. If, ba...",
+  "terms": [
+    "measurement_equiv_with_dim_unit",
+    "span_with_parent",
+    "span_with_status",
+    "trace_in_service"
+  ],
+  "tables": [
+    "t_measurement_equiv_with_dim_unit",
+    "t_span_with_parent",
+    "t_span_with_status",
+    "t_trace_in_service"
+  ],
+  "chapters": [
+    {
+      "id": "04ee71b417ec1b90",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "05e4d9210df083a9",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "210c3becacd1e57b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "546eeaa480107e29",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "9474731fb833459e",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "d07ee3b83be79019",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "d6301d8d3d86af6b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "trace_in_service",
+        "span_with_status",
+        "measurement_equiv_with_dim_unit",
+        "span_with_parent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "topic_id": 126,
+  "family": "07_long_tail",
+  "n_chapters": 11,
+  "coverage_score": 0.1168564185500145,
+  "topic_repr": "ISSN: 2321-9653; IC Value: 45.98; SJ Impact Factor: 6.887\n\nVolume 6 Issue III, March 2018- Available at www.ijraset.com\n\nSoil Pollution in Dravyavati River and its Surrounding Areas of Jaipur City, Due to MSW (Municipal Solid Waste) and Industrial Waste\n\nRanjeet Jagariya 1 , Dushyant Mudgal 2 , Akhilesh Rawat 3 , C. P. Singh Chandel 4 1, 2, 3, 4, Department of Chemistry, University of Rajasthan, J...",
+  "terms": [
+    "schemaorg_place_address",
+    "schemaorg_place_longitude",
+    "schemaorg_product_brand",
+    "schemaorg_product_price"
+  ],
+  "tables": [
+    "t_schemaorg_place_address",
+    "t_schemaorg_place_longitude",
+    "t_schemaorg_product_brand",
+    "t_schemaorg_product_price"
+  ],
+  "chapters": [
+    {
+      "id": "210497ff726ab9a8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "3ff320f00cbfb4b3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "487c9a4920846fc7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "511179c5f9a6410b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "65b5a60a4a80b460",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "762f2803db50a959",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "78926113428f556f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "9a94f1995d4b58a1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "a0db32c587f7771f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "bdc579d8dd3d1ea7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    },
+    {
+      "id": "faa03fcc77ae40fb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "schemaorg_product_price",
+        "schemaorg_place_address",
+        "schemaorg_place_longitude"
+      ]
+    }
+  ]
+}

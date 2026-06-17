@@ -1,0 +1,151 @@
+{
+  "topic_id": 62,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.12382981181144714,
+  "topic_repr": "ISSN (E): 2277-7695 ISSN (P): 2349-8242 NAAS Rating: 5.23 TPI 2022; 11(12): 3056-3061 \u00a9 2022 TPI www.thepharmajournal.com Received: 07-10-2022 Accepted: 11-11-2022\n\nKatkar Ankush Haribhau\n\nResearch Scholar, Department of Fruit Science, Pt. Kishori Lal Shukla College of Horticulture and Research Station, IGKV, Raipur Chhattisgarh, India\n\nMS Paikra\n\nProfessor, Department of Fruit Science, Pt. Kishor...",
+  "terms": [
+    "ebpfprogram_verified_safe",
+    "syscall_at_security_tier",
+    "syscall_audited_by",
+    "syscall_equiv_in_subsystem"
+  ],
+  "tables": [
+    "t_ebpfprogram_verified_safe",
+    "t_syscall_at_security_tier",
+    "t_syscall_audited_by",
+    "t_syscall_equiv_in_subsystem"
+  ],
+  "chapters": [
+    {
+      "id": "03dd9fedddcf0df5",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "5dcc7946b737722f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "5e492f8df78f33bd",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "60a94c764da1cafd",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "632a27ff9865548e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "6672d789f4356713",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "683f32f036ea44aa",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "68ba6d5727d7e221",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "8d6366c21d9863ef",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "b314e2a71c06b3c7",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "c2439e945a732405",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "de537b1fadb01da2",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "e8fd9f6dbf01a030",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "ebpfprogram_verified_safe",
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "syscall_audited_by"
+      ]
+    }
+  ]
+}

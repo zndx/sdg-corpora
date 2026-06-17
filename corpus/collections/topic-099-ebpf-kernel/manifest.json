@@ -1,0 +1,89 @@
+{
+  "topic_id": 99,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 9,
+  "coverage_score": 0.27315855026245117,
+  "topic_repr": "511 Impregnator\n\nNatural Look Penetrating Sealer\n\nWater, Stain & Slip Protection for\n\nn Quarry Tile\nn Ceramic Tile\nn\nGlazed Tile\nn Marble\nn Granite\nn\nn Travertine\n\nSlate\n\nn Grout\nn\n\nUses\n\nn Quartz\nn\nn Interior & Exterior\nn\n\nSpecial Features\n\nn Restrooms\nn\nn Salt Resistant\nn Easy-to-Use\n\nBrick\n\nn Terrazzo\n\nKitchen\n\nn Showers\n\nPatios\n\nn Drive Ways\nWeather Resistant\nn Low Toxicity\nn Acid Resistant\nn ...",
+  "terms": [
+    "attestation_signed_by",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "382ed6daee43f45d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "5b59ea46cd3b882f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "60d03701a546818e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "a1ce9c267a3d470c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "a38936981e4a0930",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "cd713e0c0f24acf7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "d13383f30a96074d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "d751ee0fa998ef48",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "fcc6498067ad18f3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "trace_supports_claim"
+      ]
+    }
+  ]
+}

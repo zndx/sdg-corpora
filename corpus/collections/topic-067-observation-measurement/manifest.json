@@ -1,0 +1,133 @@
+{
+  "topic_id": 67,
+  "family": "02_observation_measurement",
+  "n_chapters": 10,
+  "coverage_score": 0.19369207322597504,
+  "topic_repr": "Informaci\u00f3n del Plan Docente\n\nAcademic Year\n\n2018/19\n\nSubject\n\n29915 - Experimentation in Chemistry\n\nFaculty / School\n\n110 - Escuela de Ingenier\u00eda y Arquitectura\n\nDegree\n\n435 - Bachelor's Degree in Chemical Engineering\n\nECTS\n\n6.0\n\nYear\n\n2\n\nSemester\n\nSecond semester\n\nSubject Type\n\nCompulsory\n\nModule\n\n---\n\n1.General information\n\n1.1.Aims of the course\n\nThe subject and its expected results respond th...",
+  "terms": [
+    "syscall_at_security_tier",
+    "syscall_basic",
+    "syscall_equiv_in_subsystem",
+    "syscall_max_one_return",
+    "syscall_traceable"
+  ],
+  "tables": [
+    "t_syscall_at_security_tier",
+    "t_syscall_basic",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_max_one_return",
+    "t_syscall_traceable"
+  ],
+  "chapters": [
+    {
+      "id": "0146efce2074e77d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "121625e11c71e835",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "4e07795850aaa0fe",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "5dde8d4961d86eff",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "69981513b706ccb1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "82b5b4ddd716ea0f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "933f5a3df4a03c19",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "9a1f84eefaac6bd7",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "ba5d6bdc648ffcb1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "fa12e8d826671358",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "syscall_traceable",
+        "syscall_at_security_tier",
+        "syscall_basic"
+      ]
+    }
+  ]
+}

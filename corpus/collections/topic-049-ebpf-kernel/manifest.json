@@ -1,0 +1,171 @@
+{
+  "topic_id": 49,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 15,
+  "coverage_score": 0.22435511648654938,
+  "topic_repr": "Selection & Specification Data\n\nGeneric Type Cycloaliphatic Amine Epoxy\n\nDescription\n\nHighly chemical resistant epoxy mastic coating with exceptionally versatile uses in all industrial markets. Self-priming and suitable for application over most existing coatings, and tightly adherent to rust. Serves as stand-alone system for a variety of chemical environments and is also designed for various imme...",
+  "terms": [
+    "dataset_under_audit",
+    "outlier_claim_basic",
+    "outlier_claim_min_one_attribute",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_dataset_under_audit",
+    "t_outlier_claim_basic",
+    "t_outlier_claim_min_one_attribute",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "09bf62f58b7bb5e7",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "167675de7b90a469",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "2093be677ca5c64c",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "3b4917cf041be91b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "4050e0bd989a0d8c",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "4ae17e6e550940c9",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "5522def0a563027c",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "555a0c53a1eaa76a",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "6224dea3c198daee",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "665137f4b306dc37",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "67b52595cd6e960a",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "7857380a0b0d8943",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "9d23c85751d890f3",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "e3e4bf9d85cdb1df",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "f2e871f45379d04a",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_min_one_attribute",
+        "trace_supports_claim",
+        "outlier_claim_basic",
+        "dataset_under_audit"
+      ]
+    }
+  ]
+}

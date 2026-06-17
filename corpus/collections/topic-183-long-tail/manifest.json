@@ -1,0 +1,166 @@
+{
+  "topic_id": 183,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.44681188464164734,
+  "topic_repr": "Modeling and Reasoning about Service-Oriented Applications via Goals and Commitments\n\nAmit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos\n\nDecember 2009\n\nTechnical Report # DISI-09-068\n\nModeling and Reasoning about Service-Oriented Applications via Goals and Commitments\n\nAmit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos\n\nUniversity of Trento\n\nAbstract. Service-o...",
+  "terms": [
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "iso27001_annexa_subclass",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_iso27001_annexa_subclass",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "1f2481c45c8d748d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "36e4d1101435bee5",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "770ac1fc02497ed6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "9066f961fdc6f23a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "a1dfbc0afa44df4c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "af617aa56fdfdd07",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "b5e5872eea1f3570",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "b65ad38b0faa9b9b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "c78ec3efcb60efb3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "c8e4873785d3d9d9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "ca2fac34154c0960",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "d43096d6a872f41d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "e4adf7967a13348b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "iso27001_annexa_subclass"
+      ]
+    }
+  ]
+}

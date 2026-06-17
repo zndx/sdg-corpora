@@ -1,0 +1,121 @@
+{
+  "topic_id": 176,
+  "family": "03_directive_governance",
+  "n_chapters": 10,
+  "coverage_score": 0.2870461642742157,
+  "topic_repr": "Markets for Applied Research\n\nA comparative analysis of R&D-systems in five countries\n\nEspen Solberg, Katarina Larsen, Ole Wiig, Kaare Aagaard and Gunnar Sivertsen\n\nRapport 46/2012\n\nMarkets for Applied Research\n\nA comparative analysis of R&D-systems in five countries\n\nEspen Solberg, Katarina Larsen, Ole Wiig, Kaare Aagaard and Gunnar Sivertsen\n\nRapport 46/2012\n\nRapport 46/2012\n\nUtgitt av Nordisk i...",
+  "terms": [
+    "attestation_min_one_signer",
+    "audit_basic",
+    "verification_basic",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_audit_basic",
+    "t_verification_basic",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "04abd1dc241c4ffc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "1f8e909d332eef51",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "5382d9deaab928ab",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "57fa49b48878e141",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "72569cc5d083aff7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "90510925a1e5806a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "c0f89035f468b666",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "c374a17f6884b0fd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "c78cdf24a7851da5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "d1d032f568ccefc4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "audit_basic",
+        "attestation_min_one_signer"
+      ]
+    }
+  ]
+}

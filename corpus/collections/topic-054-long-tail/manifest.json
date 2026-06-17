@@ -1,0 +1,133 @@
+{
+  "topic_id": 54,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.2689324617385864,
+  "topic_repr": "Mathieu Blanchette - Curriculum Vitae in a Nutshell\n\nCareer path:\n\n* PhD in computer science (2002) from U. of Washington.\n* Assistant (2003-2008) and associate (2008-now) professor at McGill's School of Computer Science since 2003.\n\nResearch topics and productivity:\n\n* Research area: bioinformatics, with applications in genomics, epigenomics, evolution, phylogenetics, gene regulation, and proteom...",
+  "terms": [
+    "evidence_correlated_with",
+    "lift_with_baseline_rate",
+    "outlier_claim_basic",
+    "outlier_detection_produces_claim",
+    "outlier_detection_with_baseline"
+  ],
+  "tables": [
+    "t_evidence_correlated_with",
+    "t_lift_with_baseline_rate",
+    "t_outlier_claim_basic",
+    "t_outlier_detection_produces_claim",
+    "t_outlier_detection_with_baseline"
+  ],
+  "chapters": [
+    {
+      "id": "3852c4e10ac65540",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "3c28fa72b4de46d6",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "42ff23d3eea76fbc",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "56d36437233fe5f6",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "7d5c46b0cca07556",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "928a88dc424a57dc",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "a6703627b7e99f62",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "cbf5918f318ab4b7",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "e6bbbbdaf30b013f",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "f2b359e4302b1b28",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "evidence_correlated_with",
+        "outlier_detection_produces_claim",
+        "outlier_claim_basic",
+        "outlier_detection_with_baseline",
+        "lift_with_baseline_rate"
+      ]
+    }
+  ]
+}

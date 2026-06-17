@@ -1,0 +1,122 @@
+{
+  "topic_id": 117,
+  "family": "07_long_tail",
+  "n_chapters": 9,
+  "coverage_score": 0.19314365088939667,
+  "topic_repr": "Module & Lecture Descriptions\n\nMODULE ONE| INTRODUCTION TO EVIDENCE-BASED LEARNING AND PRACTICE\n\nThis module has been designed to partner with the Fundamentals of Nutrition (Module 2) to provide the underpinning knowledge and thought processes that are required to move past simple knowledge acquisition and onto wisdom and knowledge synthesis. The term evidence-based does not mean solely relying on...",
+  "terms": [
+    "control_only_addresses_threat_class",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_control_only_addresses_threat_class",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "17c25d6daebc7a1b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "2e7be6695381b43b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "3585d7e1c89bf161",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "4ad32a1eac466b99",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "50afb8a4813d8102",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5cf53a2bc34487c3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "7d014a829f379194",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "82b6822abd26215e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "ba8c584d91706b26",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    }
+  ]
+}

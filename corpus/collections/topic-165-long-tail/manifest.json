@@ -1,0 +1,177 @@
+{
+  "topic_id": 165,
+  "family": "07_long_tail",
+  "n_chapters": 14,
+  "coverage_score": 0.06575850397348404,
+  "topic_repr": "Malaria Journal\n\nBio\n\nMed\n\nCentral\n\nResearch\n\nOpen Access\n\n'A mate or a meal' \u2013 Pre-gravid behaviour of female Anopheles gambiae from the islands of S\u00e3o Tom\u00e9 and Pr\u00edncipe, West Africa\n\nJ Derek Charlwood* 1,2 , Joao Pinto 1 , Carla A Sousa 3 , Conceicao Ferreira 4 , Vincenso Petrarca 5 and Virgilio do E Rosario 1\n\nAddress: 1 Centro de M\u00e1laria e outras Doen\u00e7as Tropicais, Instituto de Higiene e Medic...",
+  "terms": [
+    "attestation_signed_by",
+    "control_only_addresses_threat_class",
+    "pci_dss_requirement",
+    "requirement_equiv_specifies_target",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_control_only_addresses_threat_class",
+    "t_pci_dss_requirement",
+    "t_requirement_equiv_specifies_target",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "0155cb9d9b7da648",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "03c85497e770276e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "163599b1b765aab8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "37e6ba5796a16289",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "543d4f2d15224006",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "77aa87f642f5f4e5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "9040cc081a957182",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "988843e97e9e9abf",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "b56858f997f7e7c0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "d2b1102b5f2c08e5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "d3fd7122c72c2846",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "ebb7f87a4e6131e1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "fd469734ff7949fb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "fe4ca9e46b6eb2f4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_signed_by",
+        "trace_supports_claim",
+        "requirement_equiv_specifies_target",
+        "control_only_addresses_threat_class"
+      ]
+    }
+  ]
+}

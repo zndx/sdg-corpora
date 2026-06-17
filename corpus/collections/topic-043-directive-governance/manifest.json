@@ -1,0 +1,166 @@
+{
+  "topic_id": 43,
+  "family": "03_directive_governance",
+  "n_chapters": 13,
+  "coverage_score": 0.34369605779647827,
+  "topic_repr": "OFFICE OF POLICY AND MANAGEMENT\n\nOFFICE OF THE SECRETARY\n\nJeffrey R. Beckham, Secretary\nPaul E. Potamianos, Deputy Secretary\n\nCharlene Casamento, Undersecretary\nMatthew Dayton, Undersecretary\nMartin Heft, Undersecretary\nDavid Krayeski, Undersecretary\nSusan Sherman, Undersecretary\nClaudio Gualtieri, Senior Policy Advisor to the Secretary\n\nAlexis Aronne, Executive Secretary\nAllison Blancato, Executi...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "audit_conducted_by",
+    "audit_for_period",
+    "requirement_min_one_verification"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_requirement_min_one_verification"
+  ],
+  "chapters": [
+    {
+      "id": "1a101032631ea02c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "1c39b89bf8a10b0b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "2ef69941c37e4dff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "3386e9b965990982",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "3e5f82620e411ead",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "5eeab6adc4042c33",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "63ab140bb3f44f1b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "81ec4825f91608c8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "8ded27293b3665b7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "a1cb48fbb918fe15",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "a7c6152804badf57",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "cfaef61176e1965c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "d08087898e79cafa",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "audit_conducted_by",
+        "attestation_min_one_signer",
+        "attestation_signed_by",
+        "audit_for_period"
+      ]
+    }
+  ]
+}

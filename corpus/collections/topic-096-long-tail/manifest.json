@@ -1,0 +1,166 @@
+{
+  "topic_id": 96,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.10483646392822266,
+  "topic_repr": "2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\n22\n\nFOOD AND DRUG ADMINISTRATION\n\nCENTER FOR DRUG EVALUATION AND RESEARCH\n\nONCOLOGIC DRUGS ADVISORY COMMITTEE (ODAC)\n\nAfternoon Session\n\nThursday, July 13, 2017\n\n1:01 p.m. to 4:09 p.m.\n\nFDA White Oak Campus\n\nWhite Oak Conference Center\n\nThe Great Room\n\nSilver Spring, Maryland\n\n1\n\n```\nBrian I. Rini, MD, FACP 1 (afternoon sessio...",
+  "terms": [
+    "attestation_signed_by",
+    "pci_dss_requirement",
+    "policy_equiv_jurisdiction_and_scope",
+    "policy_min_one_enforcer",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_pci_dss_requirement",
+    "t_policy_equiv_jurisdiction_and_scope",
+    "t_policy_min_one_enforcer",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "0ffb5fd186d8d7cf",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "4232ad0fe41b2b65",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "4af97e67ff04f648",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "5230840182561915",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "5f4455f43352c22f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "6ff8d7b44acfca8c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "72e184056ab0595a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "c4113afabf00ac4c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "c767e212ef441373",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "c7815b9977858f30",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "cc399ae48dc33f27",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "d571f3ca8d212657",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    },
+    {
+      "id": "ec3974191d4c70ed",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "pci_dss_requirement",
+        "policy_equiv_jurisdiction_and_scope",
+        "attestation_signed_by",
+        "policy_min_one_enforcer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "topic_id": 106,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 10,
+  "coverage_score": 0.20377950370311737,
+  "topic_repr": "OPTIMAL CONTROLLER DESIGN FOR MORE-ELECTRIC AIRCRAFT POWER SYSTEMS\n\nby\n\nSinan Yigit\n\nBS, TOBB University of Economics and Technology, 2011\n\nSubmitted to the Graduate Faculty of\nSwanson School of Engineering in partial fulfillment\nof the requirements for the degree of\n\nMaster of Science\n\nUniversity of Pittsburgh\n2014\n\nThis thesis was presented\n\nby\n\nSinan Yigit\n\nIt was defended on\n\nJuly 23, 2014\n\nan...",
+  "terms": [
+    "iso27001_annexa_subclass",
+    "measurement_basic",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_iso27001_annexa_subclass",
+    "t_measurement_basic",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "26d4ca2179a12d57",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "37c17005a49f4d35",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "3847d3c7b14e17ed",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "75906972fc799c33",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "a8ffd8fbd827cb98",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "b7be25a80634e941",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "ba44444d7aad2fb8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "c64c188f36aa0756",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "eb7d2120d274625f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "f54abd1f3752d7eb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "measurement_basic",
+        "iso27001_annexa_subclass"
+      ]
+    }
+  ]
+}

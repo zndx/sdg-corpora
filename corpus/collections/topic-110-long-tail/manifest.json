@@ -1,0 +1,151 @@
+{
+  "topic_id": 110,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.20439459383487701,
+  "topic_repr": "Drug Development Tool (DDT)\nReference Guide\n\nClick here to access the CDER NextGen Portal.\n\nSupported Browsers: Google Chrome, Microsoft Edge and Mozilla Firefox\n\n# Table of Contents\n\n| Section                                                                 | Page |\n|------------------------------------------------------------------------|------|\n| Introduction                                     ...",
+  "terms": [
+    "kernelhook_max_one_program_attached",
+    "syscall_at_security_tier",
+    "syscall_equiv_in_subsystem",
+    "syscall_max_one_return"
+  ],
+  "tables": [
+    "t_kernelhook_max_one_program_attached",
+    "t_syscall_at_security_tier",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_max_one_return"
+  ],
+  "chapters": [
+    {
+      "id": "0e7bfc536aa0fd9b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "1bf57dbe9e806bdd",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "237b7ae17564cd71",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "5445062626132733",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "6d3360d7bf068b7b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "7435900c0fb31828",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "804d02579fdf764b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "88496fdf30d56876",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "89b1470f02f51eb4",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "aa1a0819e3e88ccd",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "bd3b239d9d8aeaf9",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "d0e62bb085abe65a",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "fba235708f7c2b6e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_max_one_return",
+        "kernelhook_max_one_program_attached",
+        "syscall_at_security_tier"
+      ]
+    }
+  ]
+}

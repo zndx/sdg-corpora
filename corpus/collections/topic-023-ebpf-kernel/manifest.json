@@ -1,0 +1,101 @@
+{
+  "topic_id": 23,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 8,
+  "coverage_score": 0.09048061072826385,
+  "topic_repr": "Manipulation of the Elastic Modulus of Polymers at the Nanoscale: Influence of UV\u2013Ozone Cross-Linking and Plasticizer\n\nJessica M. Torres,\u2020 Christopher M. Stafford,\u2021 and Bryan D. Vogt*\u2021,*\n\n\u2020Department of Chemical Engineering, Arizona State University, Tempe, Arizona 85284 and \u2021Polymers Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899\n\nNature utilizes hierarchic...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "constraint_evaluated_during",
+    "control_with_evidence_requirement",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_constraint_evaluated_during",
+    "t_control_with_evidence_requirement",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "113ac40bdbcfd48c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "5f3164a640a03747",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "6c9878c00d8a7047",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "76ee717cc25384c3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "8e1630aa5d1f6c7b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "910f892960a4d5d2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "b9cd175ccdcfb128",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "c7a2f360da04a8eb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "constraint_evaluated_during",
+        "control_with_evidence_requirement"
+      ]
+    }
+  ]
+}

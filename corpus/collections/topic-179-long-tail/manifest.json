@@ -1,0 +1,211 @@
+{
+  "topic_id": 179,
+  "family": "07_long_tail",
+  "n_chapters": 19,
+  "coverage_score": 0.13185709714889526,
+  "topic_repr": "Alzheimer Disease and Glioblastoma\n\nExpression in Glioma\n\nBY\n\nMaada-Korsu Joseph M Kandeh\n\nG20593108\n\nUniversity of Central Lancashire\n\nA thesis submitted in partial fulfilment for the requirements for the degree of MSc (by Research) at the University of Central Lancashire\n\nFebruary 2024\n\nRESEARCH STUDENT DECLARATION FORM\n\nType of Award  Master by Research\nSchool  Pharmacy and Biomedical science\n\n...",
+  "terms": [
+    "audit_conducted_by",
+    "audit_for_period",
+    "audit_subclass",
+    "dataset_under_audit"
+  ],
+  "tables": [
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_audit_subclass",
+    "t_dataset_under_audit"
+  ],
+  "chapters": [
+    {
+      "id": "135fa2f107144e58",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "1cffd88f026d8ffe",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "2abbc7770d3f2e32",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "3592284cf24859d6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "589b51e4590ad166",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "6530c844c084405b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "711e7dee1bf4dca9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "7e8d14b87fb3e622",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8ffde897566c0128",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "9312d9a4571957b8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "ac0d7f8c4fae404a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "ad4d363be20d4f90",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "b34299036992e74e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "b708a3d10ee4c758",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "bba77daa3f4e3545",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "c4ee02709d550c81",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "d3564e6afa5b55ec",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "f1a74b7e84a4b91e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "fde7f591e2543637",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "dataset_under_audit",
+        "audit_conducted_by",
+        "audit_subclass"
+      ]
+    }
+  ]
+}

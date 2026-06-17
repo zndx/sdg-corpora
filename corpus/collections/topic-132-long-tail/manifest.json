@@ -1,0 +1,166 @@
+{
+  "topic_id": 132,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.39288008213043213,
+  "topic_repr": "PROSPECTUS (2022 \u2013 2023)\n\nFor Admissions to Undergraduate, Masters\u2019 & Ph.D. Programmes\n\nGOVIND BALLABH PANT UNIVERSITY OF AGRICULTURE & TECHNOLOGY, PANTNAGAR \u2013 263145, U.S. NAGAR UTTARAKHAND, INDIA\n\n## CONTENTS\n\n| PARTICULARS                                                                 | Page |\n|---------------------------------------------------------------------------|------|\n| SOURCES OF AVA...",
+  "terms": [
+    "attestation_at_period",
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_at_period",
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "00a575aeed59b165",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "09f0a475fad02947",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "1506fdd0ae6cec2a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "2dea2bac65919b67",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "4d4eb8f53beeae58",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "618299eb73a5168b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "62ae9f885325fb4a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "632bf3fe475fd5bd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "6ff0c4b8637e6442",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "8727f7f86d999548",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "8c620ca538b4f540",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "d12b4749781eb657",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "e50f9ebb517c8190",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "attestation_signed_by",
+        "audit_conducted_by"
+      ]
+    }
+  ]
+}

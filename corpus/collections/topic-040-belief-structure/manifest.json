@@ -1,0 +1,131 @@
+{
+  "topic_id": 40,
+  "family": "06_belief_structure",
+  "n_chapters": 11,
+  "coverage_score": 0.1836417019367218,
+  "topic_repr": "CONTINENTAL\n\nBachelor in Pentecostal Theology and Biblical Studies\n\n2021-2022 Academic Handbook\n\nBachelor 1 \u26ab Bachelor 2 \u26ab Bachelor 3\n\nCourse Outline (Pentecostal Theology and Biblical Studies)\n\n*Biblical Language Specialisation *Church Music Specialisation *Missiological Specialisation\n\nA. LEVEL ONE (Bachelor 1)\n\nCORE MODULES\n\nLA101\n\nBiblical Greek I (5 ECTS)\n\nLA102\n\nBiblical Greek II (5 ECTS)\n\nH...",
+  "terms": [
+    "audit_basic",
+    "classification_basic",
+    "process_with_min_one_artifact",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_audit_basic",
+    "t_classification_basic",
+    "t_process_with_min_one_artifact",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "086130f06cff62e4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "306d55ec6caeb660",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "484f126f7ae229f2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "486c4564cc2bf9e0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "581bd42638bf27c0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "627b5cf0cb2059fc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "8064164705a54960",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "9bbf7d2de6c27480",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "d5bc09d8692e1d1b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "f2fc2719838b10dc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "fbaa6e85cb29e4b0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "process_with_min_one_artifact",
+        "classification_basic",
+        "audit_basic"
+      ]
+    }
+  ]
+}

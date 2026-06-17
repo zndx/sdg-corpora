@@ -1,0 +1,190 @@
+{
+  "topic_id": 44,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 19,
+  "coverage_score": 0.10468713939189911,
+  "topic_repr": "INTERNATIONAL TECHNOLOGY ROADMAP FOR SEMICONDUCTORS\n\n2011 EDITION\n\nLITHOGRAPHY\n\nTHE ITRS IS DEVISED AND INTENDED FOR TECHNOLOGY ASSESSMENT ONLY AND IS WITHOUT REGARD TO ANY COMMERCIAL CONSIDERATIONS PERTAINING TO INDIVIDUAL PRODUCTS OR EQUIPMENT.\n\nTABLE OF CONTENTS\n\nLITHOGRAPHY\n\nSCOPE\n\nExtending optical lithography as we know it beyond 2011 is becoming increasingly difficult. Single optical exposu...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_with_findings",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_with_findings",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "207231f9506b99e3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "29f2fdbe31fb4918",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "444e000e7c6ffd18",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "454560a99df6c402",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "51ca2d11d962d776",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "5358f66b1f2b65ac",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "82e5233022c10069",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "8f53f3300dfa76c8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "9f42e16f8b71ef0d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "a1a7cbea27cad651",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "b17c293553dc3560",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "b40742251c3b3d95",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "bdaed131b364cb20",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "bf5fc22d9ca71812",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "bf600874cca7dbde",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "bfa0521390eae566",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "c790750ad6f2c434",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "e2154797a14335aa",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "eb4e17422987cead",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings",
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence"
+      ]
+    }
+  ]
+}

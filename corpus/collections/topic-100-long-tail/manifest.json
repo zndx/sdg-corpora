@@ -1,0 +1,133 @@
+{
+  "topic_id": 100,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.23412778973579407,
+  "topic_repr": "MULTIMODAL FREIGHT DATA SOURCE PROFILES\n\nJUNE 2016\n\nSECTION 2\n\nMULTIMODAL FREIGHT DATA SOURCE PROFILES\n\nAIRPORT COUNCIL INTERNATIONAL (ACI)\n\nAirport Council International (ACI) is an international organization focused on airports worldwide and professional excellence in airport operations. ACI collects and distributes data and statistics on cargo and passenger air traffic. Data include annual and ...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "1a768fbd69a92daf",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "356cee279af42836",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "4a6cb12ef1a0178a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "5b9615026c85768d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "66400c06b752fedd",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "66b34a4c7ac29f7b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "71ab2feb7eedc8b9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "ac66f73a4afb58e1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "e3503d24422b6f5c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "fbce0fdec1f4d23a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical"
+      ]
+    }
+  ]
+}

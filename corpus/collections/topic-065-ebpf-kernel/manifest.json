@@ -1,0 +1,166 @@
+{
+  "topic_id": 65,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 13,
+  "coverage_score": 0.40742993354797363,
+  "topic_repr": "Mapping Streambased Applications to an Intel IXP Network Processor using Compaan\n\n\u2014MASTER'S THESIS\u2014 of\n\nJohan Walters student nr.: 9917047 firstname.lastname@example.org and\n\nDavid Snuijf student nr.: 9921354 email@example.com\n\nSupervisors: Dr. ir. Bart Kienhuis Dr. ir. Todor Stefanov\n\nLIACS Leiden University\n\nAugust 31st, 2006\n\nContents\n\nList of Figures\n\n8.1 Receiving on two sourcenodes . . . . ....",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "audit_for_period",
+    "requirement_min_one_verification",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_audit_for_period",
+    "t_requirement_min_one_verification",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "04b764d2faef3bb5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "1202161ba15ce706",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "1507a983cb6037e4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "1b4b418f3a3a71d5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "3275f636e4c8f6a3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "357bd1e89814baf5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "3e298e1d6cb86f2e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "4483b58f312b06e9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "6d91297d9798306a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "6ea0da24bfec0f27",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "863e4c7b54a04298",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "9ea972c7894513ef",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "c778c60c0d4df61b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "requirement_min_one_verification",
+        "audit_for_period"
+      ]
+    }
+  ]
+}

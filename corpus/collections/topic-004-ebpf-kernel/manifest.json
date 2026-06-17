@@ -1,0 +1,133 @@
+{
+  "topic_id": 4,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 10,
+  "coverage_score": 0.2548006772994995,
+  "topic_repr": "Material Safety Data Sheet\n\nMay be used to Comply with OSHA's\n\nHazard Communication Standard,\n\n29 CFR 1910.1200(q).  Standard must be\n\nConsulted for specific requirements\n\nIdentity (As Used On Label and List)\n\nNote:  Blank spaces are not permitted.  If any item is not applicable, or no information is available, the space must be marked to indicate that\n\nDate Prepared:\n\nG3033 Fragrance Plus\n\n02-14-...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "iso27001_annexa_subclass",
+    "iso27001_clause_subclass",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_iso27001_annexa_subclass",
+    "t_iso27001_clause_subclass",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "43ae6bbcfe481a8b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "53b3599447e34a33",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "5f2f31b4f244cb94",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "6b088057688badb3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "88aea4f54c19ef54",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "8f2b9e9f22400fb3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "9fef941d78338b47",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "c93aca1049f8c426",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "dfc50d43a4011020",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    },
+    {
+      "id": "ef554a3637fbaa21",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "attestation_signed_by",
+        "iso27001_annexa_subclass",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer"
+      ]
+    }
+  ]
+}

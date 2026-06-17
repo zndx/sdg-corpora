@@ -1,0 +1,155 @@
+{
+  "topic_id": 1,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.2448369860649109,
+  "topic_repr": "\"Strides Arcolab Limited Conference Call\"\n\nJuly 27, 2011\n\nMODERATORS: MR. NITIN AGARWAL\n\nMR. ARUN KUMAR\n\nMR. T.S. RANGAN\n\nModerator:\n\nNitin Agarwal\n\nArun Kumar:\n\n:\n\nLadies and gentleman, good day and welcome to the Strides Arcolab Q2 CY'11 post results conference call hosted by IDFC Securities Limited. As a reminder all participants' line will be in the listen-only mode and there will be an opport...",
+  "terms": [
+    "attestation_basic",
+    "attestation_min_one_signer",
+    "audit_basic",
+    "verification_basic",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_basic",
+    "t_attestation_min_one_signer",
+    "t_audit_basic",
+    "t_verification_basic",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "0901ba23d8391cda",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "1674b3960a1d8b7c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "2a4f7600b3c3be88",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "2ac50d33bdaaa3cc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "40cd97314022a2d1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "74a9d12350e3c7ff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "afe4cd4d50054bff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "c2c84e29223c4bed",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "c7a546bc1ef51b98",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "d336ba6b8efc8513",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "ea28803336aa20ef",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "ed296c53578ec3d6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "verification_basic",
+        "attestation_min_one_signer",
+        "audit_basic",
+        "attestation_basic"
+      ]
+    }
+  ]
+}

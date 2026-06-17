@@ -1,0 +1,155 @@
+{
+  "topic_id": 107,
+  "family": "05_provo_lineage",
+  "n_chapters": 12,
+  "coverage_score": 0.19616937637329102,
+  "topic_repr": "Biology 115: Introductory Plant Biology Laboratory\n\nThe University of Tennessee, Spring, 2017\n\n2 credits: 1 credit lab, 1 credit discussion\n\nCatalog Description: Laboratory work will analyze plant structure, morphology, and function, with an emphasis on methods for observation, identification, and data collection.  The discussion will focus on agricultural priority areas of the future: sustainable...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_produces_evidence",
+    "claim_min_one_evidence",
+    "directive_authored_and_applies",
+    "evidence_basic"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_produces_evidence",
+    "t_claim_min_one_evidence",
+    "t_directive_authored_and_applies",
+    "t_evidence_basic"
+  ],
+  "chapters": [
+    {
+      "id": "487f8d4d0e9dbaea",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "4be4642d36c461fe",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "4dda297e0668a44a",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "69b0821beb027150",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "704d30695276e757",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "7488e95dca64673c",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "822608c931b9613e",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "a39b5de71f3ae9d0",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "b23e6f9621a119d6",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "c448e9a204fb0291",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "d998c4dc9bdb3e63",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "df41b12a01a3494c",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "audit_produces_evidence",
+        "directive_authored_and_applies",
+        "evidence_basic",
+        "attestation_with_supporting_evidence",
+        "claim_min_one_evidence"
+      ]
+    }
+  ]
+}

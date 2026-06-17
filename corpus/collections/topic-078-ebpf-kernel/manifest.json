@@ -1,0 +1,243 @@
+{
+  "topic_id": 78,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 20,
+  "coverage_score": 0.29648420214653015,
+  "topic_repr": "ENERGY STAR \u00ae Residential New Construction Programs\n\nHistorical Document\n\nThis document is provided for reference because it has been superseded by a more recent Version or Revision. Please find current program documents on the Program Requirements webpage.\n\nUse of older Versions and Revisions, such as this document, are typically limited to homes and buildings with a permit date (or, for manufact...",
+  "terms": [
+    "control_with_evidence_requirement",
+    "gdpr_lawful_basis",
+    "policy_equiv_jurisdiction_and_scope",
+    "policy_with_jurisdiction",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_control_with_evidence_requirement",
+    "t_gdpr_lawful_basis",
+    "t_policy_equiv_jurisdiction_and_scope",
+    "t_policy_with_jurisdiction",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "01cb5bf014994977",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "07a9c628ee5821d2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "09fe8794e6b55cb1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "108fe5f2fead64f4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "1233938eadb5e5b1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "1717fabd105d0248",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "17a26d4ddb7c4909",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "24f8281aa22e7ab0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "3f07939d95fe4c29",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "5fd44d824a8af271",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "60f6bbd0c72a25f1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "940504782e280f8c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "9e3480bc11de2339",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "bf9744e87f01c2d4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "bfe73f1cfa47771a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "df537c1158b3cc6f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "e396cdbdc7f30334",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "eeed8f1597393b04",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "f3e67dc7bd812648",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    },
+    {
+      "id": "f604dcde17688b92",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "trace_supports_claim",
+        "control_with_evidence_requirement",
+        "policy_equiv_jurisdiction_and_scope"
+      ]
+    }
+  ]
+}

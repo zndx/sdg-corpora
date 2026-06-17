@@ -1,0 +1,118 @@
+{
+  "topic_id": 53,
+  "family": "07_long_tail",
+  "n_chapters": 11,
+  "coverage_score": 0.11951881647109985,
+  "topic_repr": "Rajesh Jha\n\nCollege of Tropical Agriculture and Human Resources\n\nHuman Nutrition, Food and Animal Sciences\n\nFTE Distribution: 50% I; 40% R; 10% E\n\nEducation\n\nProfessional Appointments\n\nCourses Taught\n\nCourse Number and Title (credits)\n\nANSC 244 / FSHN 244: Comparative Nutrition (3 cr)\n\nANSC 321: Applied Animal Nutrition (3 cr)\n\nANSC 642: Advanced Animal Nutrition (3 cr)\n\nFSHN 682: Topics in Nutrit...",
+  "terms": [
+    "column_tag_subclass",
+    "observation_with_participant",
+    "process_min_one_input"
+  ],
+  "tables": [
+    "t_column_tag_subclass",
+    "t_observation_with_participant",
+    "t_process_min_one_input"
+  ],
+  "chapters": [
+    {
+      "id": "16003725e68898f0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "2096225506707059",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "5278cac2bd40045d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "6429e252775b5d2d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "727e0bc0d8458933",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "8a1effcd66273a00",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "9700d2b3fca4b1a0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "a0c698ac92bd1fa1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "b291c66236c43e8a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "cb786f6248e54e8e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    },
+    {
+      "id": "e9c74fe6ce407eaa",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "observation_with_participant",
+        "column_tag_subclass",
+        "process_min_one_input"
+      ]
+    }
+  ]
+}

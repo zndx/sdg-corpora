@@ -1,0 +1,129 @@
+{
+  "topic_id": 90,
+  "family": "03_directive_governance",
+  "n_chapters": 14,
+  "coverage_score": 0.2905086278915405,
+  "topic_repr": "MA IN SOCIAL JUSTICE AND EQUITY STUDIES\n\nGraduate Faculty and Student Handbook\n\n2012 - 2013\n\nSJES Graduate Administrative Coordinator \u2013 Julia Gottli (905) 688-5550 ext. 5591 email@example.com Room STH 400B\n\nSJES Graduate Program Director \u2013 Dr. Susan Tilley (905) 688-5550 ext.  3144 firstname.lastname@example.org Room WH 375\n\nFaculty of Graduate Studies (905) 688-5550 Ext. 4490 http://www.brocku.ca...",
+  "terms": [
+    "syscall_at_security_tier",
+    "syscall_audited_by"
+  ],
+  "tables": [
+    "t_syscall_at_security_tier",
+    "t_syscall_audited_by"
+  ],
+  "chapters": [
+    {
+      "id": "076299c93fbf1ff7",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "208aae9055333bc6",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "344f883e3c5d41ad",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "5583c336467869e3",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "60c5bdeafee330c9",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "69ef9f029695b253",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "79ec9bc11e1856a5",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "8380cc12b120d6d9",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "8b6010880f023cf0",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "93f98cacc702a761",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "980ec5309811018b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "ba6f1e4d33c1fa1d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "e914c80931e2b87c",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "fcc796c49be955b3",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_audited_by"
+      ]
+    }
+  ]
+}

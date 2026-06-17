@@ -1,0 +1,188 @@
+{
+  "topic_id": 50,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.13132724165916443,
+  "topic_repr": "Logical Biological\u2019s purpose is to enable scientists to create a healthier world by being your trusted partner of choice for human biospecimens.\n\nWe specialise in providing human tissues, isolated blood cell populations, PBMCs, serum, plasma, swabs, and other biospecimens for diagnostics and drug development.\n\nWe understand your specific requirements, before condensing our extensive list of materi...",
+  "terms": [
+    "evidence_correlated_with",
+    "evidence_independent_of",
+    "lift_with_baseline_rate",
+    "pci_dss_requirement",
+    "pignistic_transformation"
+  ],
+  "tables": [
+    "t_evidence_correlated_with",
+    "t_evidence_independent_of",
+    "t_lift_with_baseline_rate",
+    "t_pci_dss_requirement",
+    "t_pignistic_transformation"
+  ],
+  "chapters": [
+    {
+      "id": "06f3b768ec1a708c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "19b88ce4883f074f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "23c392c0f9e65e9b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "58ee217ad8914614",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "7b885424b34f25fc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "86d0982beff8acba",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "9c78ef0913501fff",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "b01aa7e90190b38f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "c8ba64f6d00752df",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "e4e304097dc8e9a1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "e8b7776e9be6564e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "edfcd1eaca11a282",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "eee3e763cde0e954",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "f034fd982e40fa99",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    },
+    {
+      "id": "fb1e9e1ff12e65ae",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "pignistic_transformation",
+        "evidence_independent_of"
+      ]
+    }
+  ]
+}

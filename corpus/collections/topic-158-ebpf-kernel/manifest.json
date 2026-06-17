@@ -1,0 +1,122 @@
+{
+  "topic_id": 158,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 9,
+  "coverage_score": 0.09483231604099274,
+  "topic_repr": "Novel Properties of Magnetic Ultrathin Films Studied by In Situ Spectroscopic Methods\n\nDepartment of Materials Molecular Science Division of Electronic Structure\n\nYOKOYAMA, Toshihiko NAKAGAWA, Takeshi TAKAGI, Yasumasa EGUCHI, Keitaro NAKANO, Hirohito FUNAKI, Yumiko TOYAMA, Yu\n\nProfessor\n\nAssistant Professor\n\nAssistant Professor\n\nGraduate Student\n\nGraduate Student*\n\nSecretary\n\nSecretary (Nanotechno...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "policy_min_one_enforcer",
+    "requirement_equiv_specifies_target",
+    "requirement_min_one_verification",
+    "schemaorg_place_address"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_policy_min_one_enforcer",
+    "t_requirement_equiv_specifies_target",
+    "t_requirement_min_one_verification",
+    "t_schemaorg_place_address"
+  ],
+  "chapters": [
+    {
+      "id": "3ce4790cf2f3703d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "46027f92f2d1277d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "6af9dd45ba5f761d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "99318f68bba0bc0c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "9c6f069340cae569",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "a9de4c8462035c2e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "bf5163a42330bb58",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "c881250ce47d17b7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "e041bc41f7a0c805",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "requirement_equiv_specifies_target",
+        "requirement_min_one_verification",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence"
+      ]
+    }
+  ]
+}

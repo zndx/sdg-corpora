@@ -1,0 +1,181 @@
+{
+  "topic_id": 173,
+  "family": "07_long_tail",
+  "n_chapters": 16,
+  "coverage_score": 0.18020933866500854,
+  "topic_repr": "RFA 12-07 CONCEPT PROPOSAL CIRM EARLY TRANSLATIONAL IV RESEARCH AWARDS\n\nThe objective of the CIRM Early Translational Research Awards is to fund and advance promising stem cell discoveries toward clinical development. The Governing Board (ICOC) has funded three cycles of Early Translational Research Awards, most recently in May of 2012 (21 awards).  These programs cover diverse therapeutic areas s...",
+  "terms": [
+    "iso27001_clause_subclass",
+    "labrun_produces_measurement",
+    "measurement_produced_by_run",
+    "state_basic"
+  ],
+  "tables": [
+    "t_iso27001_clause_subclass",
+    "t_labrun_produces_measurement",
+    "t_measurement_produced_by_run",
+    "t_state_basic"
+  ],
+  "chapters": [
+    {
+      "id": "03243df36e3b2783",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "0f9726df051eb191",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "189da7eb2e216c47",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "228c8b7da4d85ade",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "76a77bf3e9580f2b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "7c42c19f513032a8",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "805411d54dfbadba",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "823d9196d32ae258",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "8a8eb0cc2a1ab033",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "8bec546fc4b74ecc",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "8ffc55f313b1473c",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "9b90a33e5ccb54c4",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "a4fb82df5e61c86a",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "b72729e7a91650ff",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "c0db1488e6fd5568",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    },
+    {
+      "id": "e110d532e926b31e",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "iso27001_clause_subclass",
+        "measurement_produced_by_run",
+        "state_basic"
+      ]
+    }
+  ]
+}

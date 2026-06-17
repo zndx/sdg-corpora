@@ -1,0 +1,131 @@
+{
+  "topic_id": 187,
+  "family": "07_long_tail",
+  "n_chapters": 11,
+  "coverage_score": 0.18751561641693115,
+  "topic_repr": "Lara Antonella De Nicolo Savvides\n\nBIOGRAPHY:\n\nLara Antonella De Nicolo Savvides was born in Milan, Italy in 1983 and raised in London, UK since the age of 10. In 2008, she graduated with a B.Sc. (Hons) Neuroscience with specialisation in Neurophysiology & Pediatric Neurophysiology, at King's College London (UK) and in 2015 with a 3year intensive M.Sc. in Neuroimaging for Research which she passed...",
+  "terms": [
+    "attestation_min_one_signer",
+    "audit_basic",
+    "audit_for_period",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_audit_basic",
+    "t_audit_for_period",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "0d6002c20c51756e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "434f76390b017c51",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "47ce13f59e3c898d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "6076440dd79e3a65",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "71a42b3108f38d26",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "966a81dd7bf5a1fe",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "b3068c884eea4d5d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "d6d6cf83857e2fcd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "e00bee0568158755",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "e5fa4385cbf29d64",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "ea4aa4cb49a1cb88",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "audit_for_period",
+        "audit_basic",
+        "verification_min_one_evidence"
+      ]
+    }
+  ]
+}

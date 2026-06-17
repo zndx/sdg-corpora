@@ -1,0 +1,166 @@
+{
+  "topic_id": 71,
+  "family": "05_provo_lineage",
+  "n_chapters": 13,
+  "coverage_score": 0.0780017152428627,
+  "topic_repr": "Research overview\n\nResearch Project Final Evaluation Result\n\nThe following research project underwent a final evaluation in accordance to Clause 10 and 11, Chapter 2 of the Regulations for Research and Development Evaluations (Regulation No. 74, October 1, 2003.)\n\nEvaluation system:\n\n*In this evaluation, it was agreed by the review committee to disclose their names and make clear who made report c...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "iso27001_annexa_subclass",
+    "iso27001_clause_subclass",
+    "requirement_equiv_specifies_target",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_iso27001_annexa_subclass",
+    "t_iso27001_clause_subclass",
+    "t_requirement_equiv_specifies_target",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "01fb787f9369269b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "0d465d2cdde7af5b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "33513afa28678830",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "42b1e603a1c880db",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "4cf1cce5af4a4bb9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "55618ca00ecffdc3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "889248d76bd2e883",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "8fc927a681ee1c82",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "990774cdee08a33e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "c4372a1c79a97925",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "d8cd39c7cb0c3fe8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "e842054c8e7ac44e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "f16f96e0ac4de2ca",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

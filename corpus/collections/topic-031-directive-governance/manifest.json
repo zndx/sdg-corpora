@@ -1,0 +1,111 @@
+{
+  "topic_id": 31,
+  "family": "03_directive_governance",
+  "n_chapters": 8,
+  "coverage_score": 0.3449532389640808,
+  "topic_repr": "JOINT OPERATING COMMITTEE MEETING\nSeptember 4, 2024\n6:30 P.M.\n\nMINUTES\n\nThis meeting was called to order by Ingrid Parker, JOC Chairperson, at 6:30p.m. The Pledge of Allegiance was recited.\n\nPRESENT:\nTroy Chiddick\nChris Epstein\nXaras Collins\nIngrid Parker\nBeth Patruno\nMaggie Philips, Esq.\nWilliam Winchester\n\nALSO PRESENT:\nChris Dormer, Superintendent of Record\nBeth Shore, Solicitor\nDr. Angela King...",
+  "terms": [
+    "ebpfprogram_verified_safe",
+    "labrun_with_protocol",
+    "nist80053_control_subclass",
+    "syscall_at_security_tier",
+    "syscall_equiv_in_subsystem"
+  ],
+  "tables": [
+    "t_ebpfprogram_verified_safe",
+    "t_labrun_with_protocol",
+    "t_nist80053_control_subclass",
+    "t_syscall_at_security_tier",
+    "t_syscall_equiv_in_subsystem"
+  ],
+  "chapters": [
+    {
+      "id": "12fcf14e4199f951",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "3ce154642abe5222",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "477b0a60151a7344",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "656662896671104f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "6c389ad5966bf72b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "92191bf26646e293",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "a800d2af38c7517c",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    },
+    {
+      "id": "be0eb9949d0fba73",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "labrun_with_protocol",
+        "syscall_at_security_tier",
+        "nist80053_control_subclass",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe"
+      ]
+    }
+  ]
+}

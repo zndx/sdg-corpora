@@ -1,0 +1,122 @@
+{
+  "topic_id": 83,
+  "family": "03_directive_governance",
+  "n_chapters": 9,
+  "coverage_score": 0.3020440638065338,
+  "topic_repr": "FOR RELEASE November 14, 2013\n\nFOR FURTHER INFORMATION ON THIS REPORT:\n\nAmy Mitchell,Director of Journalism Research\n\nJesse Holcomb,Senior Researcher\n\nDana Page,Communications Manager\n\n202.419.4372\n\nwww.pewresearch.org\n\nPEW RESEARCH CENTER\n\nAbout This Report\n\nThis is the latest in a multi-part research project by the Pew Research Center and The John S. and the James L. Knight foundation examining ...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "policy_supersedes",
+    "policy_with_jurisdiction",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_policy_supersedes",
+    "t_policy_with_jurisdiction",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "032f407ce8a622a2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "29ef6cc393932c65",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "6285fecc395bc537",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "889c6c76929d7665",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "8d1e48d77225cec6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "b2bef455e5052245",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "d75e9840de7e74d0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "dc51c2477226cace",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    },
+    {
+      "id": "ff6521125578e856",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_supersedes",
+        "verification_produces_evidence",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "policy_with_jurisdiction"
+      ]
+    }
+  ]
+}

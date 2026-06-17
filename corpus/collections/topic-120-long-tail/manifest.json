@@ -1,0 +1,85 @@
+{
+  "topic_id": 120,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.2010359764099121,
+  "topic_repr": "Eastern Canada Seabirds at Sea (ECSAS) standardized protocol for pelagic seabird surveys from moving and stationary platforms\n\nCarina Gjerdrum, David A. Fifield, and Sabina I. Wilhelm\n\nAtlantic Region\n\nCanadian Wildlife Service Technical Report Series Number 515\n\nCANADIAN WILDLIFE SERVICE TECHNICAL REPORT SERIES\n\nThis series of reports, introduced in 1986, contains technical and scientific informa...",
+  "terms": [
+    "schemaorg_place_address"
+  ],
+  "tables": [
+    "t_schemaorg_place_address"
+  ],
+  "chapters": [
+    {
+      "id": "0c9e71ddaaaca317",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "0f76a419fb9cc54a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "21d7500fdb561f60",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "2973f708aab29cbd",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "4d932a95e9ceedf0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "95b0282e5440af9d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "b1b9126e99c66132",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "d5b823dc8bc4c844",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "dbc09d7fddf85acc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    },
+    {
+      "id": "decd541efb417e2a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address"
+      ]
+    }
+  ]
+}

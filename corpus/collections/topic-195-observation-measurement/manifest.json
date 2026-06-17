@@ -1,0 +1,151 @@
+{
+  "topic_id": 195,
+  "family": "02_observation_measurement",
+  "n_chapters": 13,
+  "coverage_score": 0.1181795597076416,
+  "topic_repr": "Global Simulation of Noble Gases and Their Binary Mixtures\n\nInaugural-Dissertation zur Erlangung des Doktorgrades der Mathematisch-Naturwissenschaftlichen Fakult\u00e4t der Universit\u00e4t zu K\u00f6ln\n\nAfshin Eskandari Nasrabad aus Mashad-Iran April 3, 2003\n\nTo my mother and to Rozita, for the love and encouragement that you have given me while I was doing my PhD.\n\nBerichterstatter: Prof. Dr. U. K. Deiters  \nI...",
+  "terms": [
+    "alert_triggered_by",
+    "ebpf_event_min_one_attribute",
+    "metric_emission_subclass",
+    "outlier_detection_targets_dataset"
+  ],
+  "tables": [
+    "t_alert_triggered_by",
+    "t_ebpf_event_min_one_attribute",
+    "t_metric_emission_subclass",
+    "t_outlier_detection_targets_dataset"
+  ],
+  "chapters": [
+    {
+      "id": "052f31a1f74be202",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "096acbd8d1df872f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "0c494cb79fa6446e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "4a8806ad91452b68",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "5b68432006321a74",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "8f46753d967454f7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "921be55b22e15c1a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "9b417611734c02c6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "a237fa15a15a6360",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ac0eb85a27b066f8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ce0bde0207ae08f4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "d019b0a93da111b2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "fae1f49979560def",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "outlier_detection_targets_dataset",
+        "alert_triggered_by",
+        "ebpf_event_min_one_attribute"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "topic_id": 109,
+  "family": "05_provo_lineage",
+  "n_chapters": 13,
+  "coverage_score": 0.41284269094467163,
+  "topic_repr": "International Workshop \"What can FCA do for Artificial Intelligence?\" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013)\nSergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph\n\nTo cite this version:\nSergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph. International Workshop \"What can FCA do for Artificial Intelligence?\" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013). Sergei O. Kuznetsov...",
+  "terms": [
+    "column_tag_subclass",
+    "labrun_produces_measurement",
+    "measurement_with_method",
+    "nist80053_control_subclass",
+    "table_provenance_source"
+  ],
+  "tables": [
+    "t_column_tag_subclass",
+    "t_labrun_produces_measurement",
+    "t_measurement_with_method",
+    "t_nist80053_control_subclass",
+    "t_table_provenance_source"
+  ],
+  "chapters": [
+    {
+      "id": "0995f5c8c656e53c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "0d96830227237edb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "2d5e0a850f3ae8bb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "3c80afcc50d542d9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "52dd926f728cfdcc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "81272dd51c1c478a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "8589e63e4a89f1a7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "9ebe0227e6a51f39",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "a9420181e91066c9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "b9b3ea77540e925a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "c8b4ea1b8b1b086f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "dc8e915351b3445d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    },
+    {
+      "id": "e0ba54c19e5df6d6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "table_provenance_source",
+        "measurement_with_method",
+        "nist80053_control_subclass",
+        "column_tag_subclass"
+      ]
+    }
+  ]
+}

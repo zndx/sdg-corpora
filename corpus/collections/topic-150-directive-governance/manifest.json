@@ -1,0 +1,144 @@
+{
+  "topic_id": 150,
+  "family": "03_directive_governance",
+  "n_chapters": 11,
+  "coverage_score": 0.3443091809749603,
+  "topic_repr": "Special Education: Nonpublic School and Nonpublic Agency Study\n\nFinal Report\n\nThomas Parrish, Project Director\nGina Chen\nHeather Shaw\n\nSeptember 30, 1998\n\nSubmitted to:\nOffice of the Legislative Analyst\n925 L Street, Suite 1000\nSacramento, CA 95814\n\nCalifornia Department of Education\nSpecial Education Division\n515 L Street, Suite 270\nSacramento, CA 95814\n\nCalifornia Department of Finance\n915 L Str...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "audit_conducted_by",
+    "pci_dss_requirement",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_audit_conducted_by",
+    "t_pci_dss_requirement",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "2c0f0bc8501823a7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "3de4e26b13006d0e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "49567b0e3d5f0667",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "49ecb3f8f944bd74",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "5a04fe783c5a4642",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "7826d2cbcd588fff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "8172dadc39bf7711",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a61090979e9dfdea",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "aedcfb550ceccb77",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "d7d02e388c9ec6b6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "f420ef8043e75208",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "pci_dss_requirement",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

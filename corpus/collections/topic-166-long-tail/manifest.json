@@ -1,0 +1,99 @@
+{
+  "topic_id": 166,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.17199544608592987,
+  "topic_repr": "Aspects of phytoplankton spring blooms in northern coastal/shelf areas: Diatoms vs. *Phaeocystis pouchetii* (Hariot, Lagerheim)\n\nGunilla Kristina Eriksen\n\nBIO-3950 Master\u2019s thesis in Biology\n\nNovember 2010\n\nFront - page photo: \"Phaeocystis pouchetii and Chaetoceros socialis\" (Richard Andre Ingebrigtsen)\n\nAcknowledgements\n\nFirst of all I wish to thank my supervisor, Hans Christian Eilertsen, which ...",
+  "terms": [
+    "audit_with_findings"
+  ],
+  "tables": [
+    "t_audit_with_findings"
+  ],
+  "chapters": [
+    {
+      "id": "1b23f1e37289afb1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "1b49fe090bb735b5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "246a4ddec6621427",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "3c182889383081d0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "5eb060aa6ac55d30",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "627bcdbc80da24ff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "88437523391994fa",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "8b44b495c334e487",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "c02549d5ad7a0cef",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "ebc1cb789b026b4e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "f25175d2e8ed22f9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "fe54d9bb54f8ed60",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_with_findings"
+      ]
+    }
+  ]
+}

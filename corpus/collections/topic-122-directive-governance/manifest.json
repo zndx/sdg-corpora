@@ -1,0 +1,155 @@
+{
+  "topic_id": 122,
+  "family": "03_directive_governance",
+  "n_chapters": 12,
+  "coverage_score": 0.3657273054122925,
+  "topic_repr": "Annual report and audited financial statements\n\niShares II PLC\n\nFor the financial year ended 31 October 2024\n\n# CONTENTS\n\n## Overview\n\n| Section                                      | Page |\n|----------------------------------------------|------|\n| General information                          | 3    |\n| Chair's statement                            | 5    |\n| Background                             ...",
+  "terms": [
+    "ebpf_event_observed_pid",
+    "observation_with_participant",
+    "process_max_one_operator",
+    "schemaorg_event_starttime",
+    "trace_subclass"
+  ],
+  "tables": [
+    "t_ebpf_event_observed_pid",
+    "t_observation_with_participant",
+    "t_process_max_one_operator",
+    "t_schemaorg_event_starttime",
+    "t_trace_subclass"
+  ],
+  "chapters": [
+    {
+      "id": "016f5ba7ae8e27e4",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "08670ecb1f13cfbf",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "27b0541c9cf68425",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "40ed011ea82257c2",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "45c8b723e9667635",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "4f384cd6123d54fd",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "729f00ef73a0b220",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "900df399c11e397d",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "99b86bc7b5ac2c6b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "ae43adac41bf3058",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "e0d672fd4764f9cf",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "e55e98444d302145",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "observation_with_participant",
+        "schemaorg_event_starttime",
+        "trace_subclass",
+        "process_max_one_operator",
+        "ebpf_event_observed_pid"
+      ]
+    }
+  ]
+}

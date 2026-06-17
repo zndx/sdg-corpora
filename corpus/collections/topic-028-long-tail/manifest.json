@@ -1,0 +1,122 @@
+{
+  "topic_id": 28,
+  "family": "07_long_tail",
+  "n_chapters": 9,
+  "coverage_score": 0.21871641278266907,
+  "topic_repr": "Improved cardiac and venous pressures during hospital stay in patients with acute heart failure: an echocardiography and biomarkers study\n\nEiichi Akiyama, Rapha\u00ebl Cinotti, Kamil\u0117 \u010cerlinskait\u0117, Lucas van Aelst, Mattia Arrigo, Rui Placido, Tahar Chouihed, Nicolas Girerd, Faiez Zannad, Patrick Rossignol, et al.\n\nTo cite this version:\n\nEiichi Akiyama, Rapha\u00ebl Cinotti, Kamil\u0117 \u010cerlinskait\u0117, Lucas van Ae...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "requirement_min_one_verification",
+    "schemaorg_place_address",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_requirement_min_one_verification",
+    "t_schemaorg_place_address",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "135ad8d03a702500",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "33565e7ae30942c0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "72adc197175eb6fd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "86b19a15ca495cc8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "92e231a99e528250",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "ae88ab5e000d4410",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "b05b41854558634f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "fe26742c4f780bcc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "ff009b7f36851867",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "schemaorg_place_address",
+        "requirement_min_one_verification",
+        "attestation_signed_by",
+        "verification_min_one_evidence"
+      ]
+    }
+  ]
+}

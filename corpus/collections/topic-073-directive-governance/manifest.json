@@ -1,0 +1,133 @@
+{
+  "topic_id": 73,
+  "family": "03_directive_governance",
+  "n_chapters": 10,
+  "coverage_score": 0.36543142795562744,
+  "topic_repr": "1. Evaluation of the judicial systems (2016-2018 cycle)\n\nSerbia\n\nReference data 2016 (01/01/2016 - 31/12/2016)\n\nStart/end date of the data collection campaign : 01/06/2017 - 31/12/2017\n\nObjective :\n\nThe CEPEJ decided, at its 28th plenary meeting, to launch the seventh evaluation cycle 2016 \u2013 2018, focused on 2016 data. The CEPEJ wishes to use the methodology developed in the previous cycles to get...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "gdpr_lawful_basis",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_gdpr_lawful_basis",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "0740f7d3573e2da2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "1ee9f8877137ffa6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "3c9ccb7bb628a678",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "8705cf58eed7351e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "874541d01dca0fcd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "8f638a53b58132ce",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "bf341043f1cf192c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "c0a287e3d60312a1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "d101b18b4694bdc6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "f84ab090b08e958b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "audit_conducted_by",
+        "attestation_signed_by",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

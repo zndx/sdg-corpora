@@ -1,0 +1,144 @@
+{
+  "topic_id": 130,
+  "family": "03_directive_governance",
+  "n_chapters": 11,
+  "coverage_score": 0.15973997116088867,
+  "topic_repr": "Strengthening health systems through nursing: Evidence from 14 European countries\n\nEdited by:\nAnne Marie Rafferty\nReinhard Busse\nBritta Zander-Jentsch\nWalter Sermeus\nLuk Bruyneel\n\nStrengthening health systems through nursing: Evidence from 14 European countries\n\nThe European Observatory on Health Systems and Policies supports and promotes evidence-based health policy-making through comprehensive a...",
+  "terms": [
+    "attestation_about_compliance_claim",
+    "claim_min_one_evidence",
+    "column_lineage_for_compliance_claim",
+    "kernel_anomaly_supports_claim",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_about_compliance_claim",
+    "t_claim_min_one_evidence",
+    "t_column_lineage_for_compliance_claim",
+    "t_kernel_anomaly_supports_claim",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "076bbbfe7df7915a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "11a6dee133c61e73",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "2a2cde39d07057d1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "5f237b6e5eaa6df8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "65346830521b731c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "6f7fb4d5ff79e8bd",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "7c5ee3637a6961a3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "941a4c7e2ec471d8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "a2afb1781f7e4ded",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "be2df11c9bd4c417",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    },
+    {
+      "id": "e40728c82893efd8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "claim_min_one_evidence",
+        "column_lineage_for_compliance_claim",
+        "kernel_anomaly_supports_claim",
+        "attestation_about_compliance_claim"
+      ]
+    }
+  ]
+}

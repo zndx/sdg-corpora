@@ -1,0 +1,133 @@
+{
+  "topic_id": 102,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.17327643930912018,
+  "topic_repr": "UvA-DARE (Digital Academic Repository)\n\nPsychotropic medications and the developing brain\n\nSolleveld, M.M.\n\nPublication date 2018 Document Version Other version License Other\n\nLink to publication\n\nCitation for published version (APA):\n\nSolleveld, M. M. (2018). Psychotropic medications and the developing brain. [Thesis, fully internal, Universiteit van Amsterdam].\n\nGeneral rights\n\nIt is not permitt...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "control_addresses_risk",
+    "control_only_addresses_threat_class",
+    "control_with_evidence_requirement"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_control_addresses_risk",
+    "t_control_only_addresses_threat_class",
+    "t_control_with_evidence_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "016c2e7cc85b7082",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "0a3bb149a4acd25c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "0a82a153dee379f7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "17c0c94f8f838af3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "24d1e3f672fcbf6c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "3162b7ea12d18053",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "74a993034146878c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "9903e0efe657728f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "a82fc7798563835c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "dfe3c01e064632bb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_conducted_by"
+      ]
+    }
+  ]
+}

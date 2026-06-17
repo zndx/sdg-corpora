@@ -1,0 +1,188 @@
+{
+  "topic_id": 108,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.39082837104797363,
+  "topic_repr": "Personalized Medicine\n\nAcademic Year:  ( 2024 / 2025 )\n\nDepartment assigned to the subject: Bioengineering Department\n\nType: Electives  ECTS Credits : 3.0\n\nCoordinating teacher: MU\u00d1OZ BARRUTIA, MARIA ARRATE\n\nYear : 1 Semester : 2\n\nREQUIREMENTS (SUBJECTS THAT ARE ASSUMED TO BE KNOWN)\n\nIt is advised to have completed:\n\n- Biosignals & Bioimages\n- Deep Learning\n- Machine Learning\n\nOBJECTIVES\n\nPersonal...",
+  "terms": [
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "1b3daa7263ee2bc3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "26c1b4a7bd2fafb1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "527cad14b403fdf9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "5472a01ab7ff146f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "59c33076b93e127f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "683df1d20c394ca6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "9de114b7ae61cecc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "a7397370e331628a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "b630d7045dc18365",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "bce477098f2eccbf",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "c558009828505880",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "d1ec09e9c27213f6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "d4f0a752d0e34272",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "fabd0c699daea821",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "ffbe3616270d06af",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "trace_supports_claim"
+      ]
+    }
+  ]
+}

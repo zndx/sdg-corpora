@@ -1,0 +1,243 @@
+{
+  "topic_id": 171,
+  "family": "03_directive_governance",
+  "n_chapters": 20,
+  "coverage_score": 0.3508642911911011,
+  "topic_repr": "JBIMS Spectrum\n\nJamnalal Bajaj Institute of Management Studies\nDepartment of Management Studies\nUniversity of Mumbai\n\nISSN: 2320\u20137272\n\u00a9 JBIMS Spectrum\nVol. VIII, No. I, January \u2013 June 2020\nNo part of this publication may be reproduced or transmitted in any form by any means, electronic or mechanical, including photocopy, recording, or any information storage and retrieval system, without permissio...",
+  "terms": [
+    "attestation_min_one_signer",
+    "audit_conducted_by",
+    "audit_for_period",
+    "requirement_equiv_specifies_target",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_requirement_equiv_specifies_target",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "1fbc6bea2403a8fe",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "248f653a72d805da",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "2936c21de0b8e434",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "2d8269a07d1da5e9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "2f3d0407ab2c9c7a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "335415213768447f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "562ebedff26fd131",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "71d056b417e1dd18",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "7e7ba5f49134215c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "80eea4b6023f9d05",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "911526b87e69997e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "95ea5934ce1d6cf5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "990f9fe7df07ba88",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "9b6eaeabe048f11a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "9f9df5ab77a01361",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a0f90c99d3194f7d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a108683416a579e4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a8cd77f422ee8dc6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "aeea9fa3a3eda68e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "de3c6b606a630081",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "attestation_min_one_signer",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

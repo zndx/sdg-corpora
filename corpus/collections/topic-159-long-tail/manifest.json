@@ -1,0 +1,188 @@
+{
+  "topic_id": 159,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.359910786151886,
+  "topic_repr": "64170\n\nC. Self-Regulatory Organization's Statement on Comments on the Proposed Rule Change Received From Members, Participants, or Others\n\nWritten comments were neither solicited nor received.\n\nIII. Date of Effectiveness of the Proposed Rule Change and Timing for Commission Action\n\nWithin 45 days of the date of publication of this notice in the Federal Register or within such longer period (i) as ...",
+  "terms": [
+    "audit_produces_evidence",
+    "claim_observed_by_event",
+    "evidence_observed_by_process",
+    "mass_function_min_one_focal",
+    "metric_observed_by_event"
+  ],
+  "tables": [
+    "t_audit_produces_evidence",
+    "t_claim_observed_by_event",
+    "t_evidence_observed_by_process",
+    "t_mass_function_min_one_focal",
+    "t_metric_observed_by_event"
+  ],
+  "chapters": [
+    {
+      "id": "17d9b656b8ec840a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "38ebeb07d22a58ff",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "43cbc236096bb237",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "4b6759c00f0b18b8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "505b7bdde684cd82",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "755d3b3f4228d370",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "8a3f94c991b31efc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "8c06e198745c4d7b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "a90569abb97408d0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "c1f55a93c6f9f37d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "d6547a6b897b0fe2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "dcec268d84c70987",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "e27d25add70a51c9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "eafb8f318ad6fb39",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "fb8ec82578000106",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "metric_observed_by_event",
+        "evidence_observed_by_process",
+        "claim_observed_by_event",
+        "audit_produces_evidence"
+      ]
+    }
+  ]
+}

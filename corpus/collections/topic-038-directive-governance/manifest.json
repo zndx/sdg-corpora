@@ -1,0 +1,155 @@
+{
+  "topic_id": 38,
+  "family": "03_directive_governance",
+  "n_chapters": 12,
+  "coverage_score": 0.3490453362464905,
+  "topic_repr": "UNITED STATES ENVIRONMENTAL PROTECTION AGENCY REGIONS\n\n1595 Wynkoop Street DENVER, CO 80202-1129 PhOne 800-227-8917 http://www.epa.govlregion08\n\nPORTIONS OF THIS DOCUMENT HAVE BEEN REDACTED.\n\nTHE AGENCY HAS DETERMINED PORTIONS NOTED AS \"**,, TO BE CONFIDENTIAL BUSINESS INFORMATION AND NOT TO BE RELEASED\n\nREDACTIONS APPEAR ON THE FOLLOWING PAGES OF THE TITLE V PETITION\n\nBEFORE THE ADMINISTRATOR UNI...",
+  "terms": [
+    "audit_basic",
+    "audit_with_findings",
+    "classification_basic",
+    "dataset_under_audit",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_audit_basic",
+    "t_audit_with_findings",
+    "t_classification_basic",
+    "t_dataset_under_audit",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "00548ea20f2d9c19",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "1e2399b5ae7332fa",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "21641d8a218a1477",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "5a2f0a42678195eb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "5d5c30bf29759c2d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "7df66ab9700f7f67",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "aac8cccd82072cd0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "b27b5395e4f77fa7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "bc9c8c69a228c352",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "cad0b896a8e0e582",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "d7ede39ca86fcd5c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "eaab83ca67bb6d51",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_basic",
+        "dataset_under_audit",
+        "verification_min_one_evidence",
+        "classification_basic",
+        "audit_with_findings"
+      ]
+    }
+  ]
+}

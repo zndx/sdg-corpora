@@ -1,0 +1,177 @@
+{
+  "topic_id": 74,
+  "family": "07_long_tail",
+  "n_chapters": 14,
+  "coverage_score": 0.22188006341457367,
+  "topic_repr": "YRG CARE base model report: Integrated prevention, care, and support services\n\nChristopher Castle\n\nFollow this and additional works at: https://knowledgecommons.popcouncil.org/departments_sbsr-hiv\n\nHow does access to this work benefit you? Let us know!\n\nRecommended Citation\nCastle, Christopher. 2003. \"YRG CARE base model report: Integrated prevention, care, and support services,\" Horizons Project ...",
+  "terms": [
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "iso27001_annexa_subclass",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_iso27001_annexa_subclass",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "05b2a443a80268d2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "06a9ce3fde92c908",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "2afe2fb5013890de",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "6e207db64b0e83fb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "711bc792c4fdc7f9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "7be979d4e19cbe8b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "7ce81ad604f0c54e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "80a90cbb9faf4ba7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "9c4bbe8d5b93e255",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "b8c43061bdc52e1a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "d5e6f6bb72ff148b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "e6adc7842af7f7ab",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "f477992a4cc60e4d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "f8002810119872cb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement",
+        "iso27001_annexa_subclass"
+      ]
+    }
+  ]
+}

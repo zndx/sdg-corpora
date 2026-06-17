@@ -1,0 +1,166 @@
+{
+  "topic_id": 57,
+  "family": "03_directive_governance",
+  "n_chapters": 13,
+  "coverage_score": 0.24791762232780457,
+  "topic_repr": "Annual report on the Benefit System for Working-age Adults\n\nAs at 30 June 2017\n\nAppendices\n\nThis report has been produced for the Ministry of Social Development\n\nAnnual report on the Benefit System for Working-age Adults\n\n30 June 2017\n\nThe Appendices provide much of the technical detail of our approach. The following table describes the various appendices supplied with the report.\n\nTable A.1 Descr...",
+  "terms": [
+    "attestation_min_one_signer",
+    "audit_basic",
+    "audit_conducted_by",
+    "audit_for_period",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_audit_basic",
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "02d075dc154adfb0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "08dcbfe9d367b261",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "0f10ff2c581d1bb1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "24cdd9cdd6ecf5bb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "289a4ea86c0a3911",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "28cdf19bb4fe8984",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "3f15180717a25045",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "8642693a1cdf1b10",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "8a137942be1595c1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "9b35c73b915b99c1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "9f89e85717764287",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "dc5a09ad23dddb58",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "e9391b202055cd75",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_for_period",
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "attestation_min_one_signer",
+        "audit_basic"
+      ]
+    }
+  ]
+}

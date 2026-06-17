@@ -1,0 +1,118 @@
+{
+  "topic_id": 125,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 11,
+  "coverage_score": 0.3369975984096527,
+  "topic_repr": "On the E\ufb00iciency Modelling of Cryptographic Protocols by Means of the Quality of Protection Modelling Language (QoP-ML)\n\nBogdan Ksiezopolski, Damian Rusinek, Adam Wierzbicki\n\nTo cite this version:\n\nBogdan Ksiezopolski, Damian Rusinek, Adam Wierzbicki. On the E\ufb00iciency Modelling of Cryptographic Protocols by Means of the Quality of Protection Modelling Language (QoP-ML). 1st International Conferenc...",
+  "terms": [
+    "artifact_min_one_owner",
+    "observation_with_participant",
+    "schemaorg_place_address"
+  ],
+  "tables": [
+    "t_artifact_min_one_owner",
+    "t_observation_with_participant",
+    "t_schemaorg_place_address"
+  ],
+  "chapters": [
+    {
+      "id": "125fdda0f5db56b4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "25861e0a6e405d74",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "30d621b083cdeb20",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "52e498ec1680d9e3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "539a719ba4a2db5e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "6761e1e1c3805f26",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "73ae9dc13266a314",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "ae2c0bf8e04fcd3f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "b8eab43b01cf408f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "ca6dc6e775ae3297",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "ede5ba72fe9c043b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "observation_with_participant",
+        "artifact_min_one_owner"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "topic_id": 61,
+  "family": "01_foundation",
+  "n_chapters": 8,
+  "coverage_score": 0.061044346541166306,
+  "topic_repr": "Solutions Manual Inorganic Chemistry 3rd Edition\n\nEventually, you will certainly discover a new experience and endowment by spending more cash. still when? attain you assume that you require to get those all needs subsequent to having significantly cash? Why dont you try to acquire something basic in the beginning? Thats something that will lead you to comprehend even more on the subject of the gl...",
+  "terms": [
+    "audit_targets_data_artifact",
+    "control_only_addresses_threat_class",
+    "log_record_subclass"
+  ],
+  "tables": [
+    "t_audit_targets_data_artifact",
+    "t_control_only_addresses_threat_class",
+    "t_log_record_subclass"
+  ],
+  "chapters": [
+    {
+      "id": "0358c6e785b8a0b4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "0b7d2950e9d68535",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "54cc1490fe3c8923",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "9699d3849d0dbb95",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "a116be228ee70665",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "d23ca46efbdbfbfe",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "e04dc3d665b01753",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "f38c6e02a68233b3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "log_record_subclass",
+        "audit_targets_data_artifact"
+      ]
+    }
+  ]
+}

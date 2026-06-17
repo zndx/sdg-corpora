@@ -1,0 +1,131 @@
+{
+  "topic_id": 148,
+  "family": "06_belief_structure",
+  "n_chapters": 11,
+  "coverage_score": 0.40415143966674805,
+  "topic_repr": "Author, Philosopher, Poet, Scientist, Director-Moderator of Unarius Science of Life.\n\nUNARIUS\n\nUNiversal ARticulate Interdimensional Understanding of Science\n\nTHE INFINITE CONCEPT of COSMIC CREATION\n\n(An Introduction to the Interdimensional Cosmos)\n\nHOME STUDY LESSON COURSE\n\n(# One course: 1-13 lessons given in 1956)\n\n(Advanced Course: 1-7 lessons written in 1960)\n\n(Addendum written in 1970)\n\nBy E...",
+  "terms": [
+    "lift_basic",
+    "lift_with_baseline_rate",
+    "lift_with_support_count",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_lift_basic",
+    "t_lift_with_baseline_rate",
+    "t_lift_with_support_count",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "059563981c01285d",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "2dad189e7a31d9de",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "4900493362c8b72b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "543ef94f6417e506",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "5cceb454a05670d0",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "607729df54c0ee37",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "ad21d898168935e1",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "b072b306f750599b",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "d58bbed1f9f52a5e",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "d9a704dd5fc31996",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "f232de753ae70e8f",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "pci_dss_requirement",
+        "lift_basic",
+        "lift_with_support_count"
+      ]
+    }
+  ]
+}

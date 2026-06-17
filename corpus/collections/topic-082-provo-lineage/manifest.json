@@ -1,0 +1,99 @@
+{
+  "topic_id": 82,
+  "family": "05_provo_lineage",
+  "n_chapters": 12,
+  "coverage_score": 0.18918102979660034,
+  "topic_repr": "Universal Primers for Amplification of the Complete Mitochondrial 12S rRNA Gene in Vertebrates\n\nHurng-Yi Wang\\textsuperscript{1,2}, Mung-Pei Tsai\\textsuperscript{2}, Ming-Chung Tu\\textsuperscript{1} and Sin-Che Lee\\textsuperscript{2,*}\n\n\\textsuperscript{1}Department of Biology, National Taiwan Normal University, Taipei, Taiwan 106, R.O.C.\n\n\\textsuperscript{2}Institute of Zoology, Academia Sinica, ...",
+  "terms": [
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "004cc15bfc4bfd2a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "3717284116bfd045",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "478817f16f5d2226",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "4eadeab4b3ae576f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "65b4ab518e45befd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "867c2624253f0c7f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "a7e3c3cb22fffa43",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "b7f43e52f2069e4a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "cb2647559e688e63",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "ed834cf5a9b8ec91",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "f5ca60bff14a62af",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "f8fb79fb1964abb1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_min_one_evidence"
+      ]
+    }
+  ]
+}

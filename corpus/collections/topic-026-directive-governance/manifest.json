@@ -1,0 +1,188 @@
+{
+  "topic_id": 26,
+  "family": "03_directive_governance",
+  "n_chapters": 15,
+  "coverage_score": 0.37694817781448364,
+  "topic_repr": "US OFFICE OF PERSONNEL MANAGE1vlENT OFFICE OF THE INSPECTOR GENERAL OFFICE OF AUDITS.\n\nEillalA uditReport\n\nSubject:\n\n.\n\n.,':,.\n\n. \" _;r' ..AUDIT OF THE SECURITY OF PERSONALLY .\u00b7IDltNTIFIABLE.INF01ThiATION IN TIlE FEDERAL \"'~~\u00a5.~S!IG~~IlYE:Stll.VICES DIVISION ()FTHE '.' \u00b7\u00b7';U~S.OFFICEOF.PERSONNELMANAGEMENT' . '. _ ,\"\"., _ '\", ,', .\" \u2022 . ' . , . . .\u2022 . .\n\n\".\n\n..\n\n'\n\n.\u2022..\n\n. \u00b7\u00b7.RePQrtN O~\u00b7 4A~IS~OO-0...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "gdpr_lawful_basis",
+    "policy_with_jurisdiction"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_gdpr_lawful_basis",
+    "t_policy_with_jurisdiction"
+  ],
+  "chapters": [
+    {
+      "id": "277f1973d46d1aa7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "630d6b4ec0217097",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "7516225188c38d41",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "7718b87bfaf2b29d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "80bcf6a3a8d3c24c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "93ab012c5123c687",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "9e87a854d422c861",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "abbc1c916acb2be6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "b311a0f372069ad8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "b67c7360815897b4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "be88cc0afb510a10",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "c724e6007a3c458e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "c74668bd15bf7a66",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "cdd527de7ce70ce9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "fea3a3a41c94ee76",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "policy_with_jurisdiction",
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    }
+  ]
+}

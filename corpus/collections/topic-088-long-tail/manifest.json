@@ -1,0 +1,155 @@
+{
+  "topic_id": 88,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.11231912672519684,
+  "topic_repr": "Activation of the Nrf2/HO-1 signaling pathway contributes to the protective effects of baicalein against oxidative stress-induced DNA damage and apoptosis in HEI193 Schwann cells\n\nJae Yeob Jeong\u00b9#, Hee-Jae Cha\u00b2#, Eun Ok Choi\u00b3, Cheol Hong Kim\u00b9, Gi-Young Kim\u2074, Young Hyun Yoo\u2075, Hye-Jin Hwang\u2076, Hwan Tae Park\u2077\u2709, Hyun Min Yoon\u00b9, Yung Hyun Choi\u00b3\u2709\n\n1. Department of Acupuncture and Moxibustion, Dongeui Uni...",
+  "terms": [
+    "attestation_at_period",
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_at_period",
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "07f1e5efc2cbde0b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "173a4405588a220d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "3d0492611a7bd8e6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "3d4daad924068168",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "47124292e3a75172",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "4f93d4f993a9686b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "5a6ca82ddfc2385d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "62cdd27393f2afd6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "860c82bc7a1a2790",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "8a2efc7d11d7c205",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "d0f95843b1518dbe",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "da9be18ef204edf0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_at_period",
+        "control_with_evidence_requirement",
+        "attestation_signed_by"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "topic_id": 129,
+  "family": "03_directive_governance",
+  "n_chapters": 17,
+  "coverage_score": 0.21280211210250854,
+  "topic_repr": "DOCUMENT OF THE EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT\n\nENERGY SECTOR STRATEGY\n\nAs approved by the Board of Directors at its Meeting on 10 December 2013\n\nTABLE OF CONTENTS\n\nPage\n\nABBREVIATIONS\n\nADB\n\nAsian Development Bank.\n\nAfDB\n\nAfrican Development Bank.\n\nBAT\n\nBest available techniques.\n\nBiH\n\nBosnia and Herzegovina.\n\nCCGT Combined Cycle Gas Turbines.\n\nCCS\n\nCarbon Capture and Storage.\n\nC...",
+  "terms": [
+    "iso27001_annexa_subclass",
+    "iso27001_clause_subclass",
+    "requirement_has_priority",
+    "verification_min_one_evidence",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_iso27001_annexa_subclass",
+    "t_iso27001_clause_subclass",
+    "t_requirement_has_priority",
+    "t_verification_min_one_evidence",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "0c922a7dc66d97ba",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "0e6c2650df89df0a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "207e5691f6c3e372",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "220b1cca0049361d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "25d1a262132148b6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "5d6dea7c84aae963",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "5e42bc8bf91fca36",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "615163674555c04c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "704bb0280c6ff613",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "763d80a99d1b73bc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "7fc6872900250436",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "8a7baebc333a7049",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "9a8c3320bbd82314",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "b43c457ecf1d91ab",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "cab8a2f8ab8d3097",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "e4a54c2184b88556",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    },
+    {
+      "id": "fb23ea9930ac4e5c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "iso27001_annexa_subclass",
+        "requirement_has_priority",
+        "iso27001_clause_subclass",
+        "verification_produces_evidence",
+        "verification_min_one_evidence"
+      ]
+    }
+  ]
+}

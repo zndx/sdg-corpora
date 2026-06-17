@@ -1,0 +1,109 @@
+{
+  "topic_id": 136,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 10,
+  "coverage_score": 0.26877543330192566,
+  "topic_repr": "srobinson on DSK4SPTVN1PROD with NOTICES\n\n53156\n\nNUCLEAR REGULATORY COMMISSION\n\n[NRC\u20132010\u20130383]\n\nAgency Information Collection Activities: Submission for the Office of Management and Budget Review; Comment Request\n\nAGENCY\n\n: Nuclear Regulatory\n\nCommission.\n\nACTION: Notice of Office of Management and Budget review of information collection and solicitation of public comment.\n\nSUMMARY: The U.S. Nucl...",
+  "terms": [
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical"
+  ],
+  "tables": [
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical"
+  ],
+  "chapters": [
+    {
+      "id": "262d32cf2fb377f0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "36dbcafab2894b87",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "3911ca5ee7ca6da8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "45ebbb8255b53138",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "6a9823a425e2d8d1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "c9d87d30ae692b94",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "ce42a90d46e0b529",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "dc01ccb4386f1fb3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "de56e907803b5c9a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "fccffde433f92501",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    }
+  ]
+}

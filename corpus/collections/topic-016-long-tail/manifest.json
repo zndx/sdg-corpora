@@ -1,0 +1,188 @@
+{
+  "topic_id": 16,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.2858917713165283,
+  "topic_repr": "Sustainable investing\n\nSustainable value creation in emerging markets\n\nCIO WM Research | 27 January 2017\n\nAlexander Stiehler, CFA, analyst; Stephen Freedman, CFA, Strategist, firstname.lastname@example.org; Soledad Lopez, strategist, email@example.com\n\n* Emerging market (EM) equities offer investors a good opportunity to add value to their portfolios by incorporating environmental, social, and cor...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_with_findings",
+    "control_addresses_risk",
+    "control_only_addresses_threat_class",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_with_findings",
+    "t_control_addresses_risk",
+    "t_control_only_addresses_threat_class",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "00738d8711952be3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "0516dcb8da8c8c27",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "0807e40e89308d20",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "175f184e51df403e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "1a634b6bca959ded",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "306ccaf8b4fc7515",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "38a2f99d281ee8e4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "42dbd42bfa650dd6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "4f5cec4178755d26",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "5d58e66349f5377f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "65ebf8f06f62c90f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "7f720910d4228549",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "8454e10fa526b055",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "912aef470e410f27",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "9a1096961dd48b11",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_addresses_risk",
+        "audit_with_findings"
+      ]
+    }
+  ]
+}

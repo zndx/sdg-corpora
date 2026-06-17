@@ -1,0 +1,133 @@
+{
+  "topic_id": 127,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 10,
+  "coverage_score": 0.20282447338104248,
+  "topic_repr": "Table of Contents\n\n0. Summary \u2010 Popular version\n\nSAFER is a vehicle and traffic safety centre, inaugurated in 2006. It is comprised of 24 partners from industry, academy and public authorities; Chalmers is the host and Vinnova the funding agency. The vision is to provide excellent multi-disciplinary research and collaboration to eliminate fatalities and serious injuries, making the partners from s...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "requirement_equiv_specifies_target",
+    "requirement_min_one_verification",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_requirement_equiv_specifies_target",
+    "t_requirement_min_one_verification",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "06b1ba883dc7ef08",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "0e36d8cfb15d5286",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "217c1b15fc186639",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "373f70275a6675b5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "46a1863399d85428",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "a4d73b4fc7283a0d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "b3bfea1c244488ae",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "bb71f0ebceb6df13",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "d98c23fe9789fa5c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "f401d41a69f3fb2a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_min_one_signer",
+        "requirement_min_one_verification",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by"
+      ]
+    }
+  ]
+}

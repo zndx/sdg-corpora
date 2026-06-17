@@ -1,0 +1,122 @@
+{
+  "topic_id": 20,
+  "family": "02_observation_measurement",
+  "n_chapters": 9,
+  "coverage_score": 0.3498297333717346,
+  "topic_repr": "Manufacturer declaration\n\nEHEDG and 3-A, Installation and Cleaning Instructions\n\nHygienic process fittings\n\nDocument ID: 63436\n\n# Contents\n\n1 About this document ................................................................. 3\n   1.1 Function ........................................................................... 3\n   1.2 Scope ..................................................................",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "audit_for_period",
+    "policy_min_one_enforcer",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_policy_min_one_enforcer",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "0f9efc9a69b408ca",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "4d3a53408610b322",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "67c6e395133f20aa",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "8d43f28d4d2e0549",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "96c366474411703c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "a40ec41e1525ab27",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "ae9012d135f25cc0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "b32a37f5b17e1b0c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    },
+    {
+      "id": "bd4edaf046fdee86",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "requirement_equiv_specifies_target",
+        "policy_min_one_enforcer",
+        "attestation_with_supporting_evidence",
+        "audit_for_period"
+      ]
+    }
+  ]
+}

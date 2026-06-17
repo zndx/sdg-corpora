@@ -1,0 +1,133 @@
+{
+  "topic_id": 104,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.1266850233078003,
+  "topic_repr": "IJP (2016), Vol. 3, Issue 5\n\n(Research Article)\n\nReceived on 28 April 2016; received in revised form, 17 May 2016; accepted, 25 May 2016; published 31 May 2016\n\nPHARMACOGNOSTIC STUDIES OF DRUG SPERMADICTYON SUAVEOLENS ROXB.\n\nMusmade Kavita, Abhijeet Rakshe and Digambar Mokat *\n\nDepartment of Botany, Savitribai Phule Pune University Pune - 411007, Maharashtra, India.\n\nKeywords:\n\nSpermadictyon suave...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_only_addresses_threat_class",
+    "control_with_evidence_requirement",
+    "gdpr_lawful_basis",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_only_addresses_threat_class",
+    "t_control_with_evidence_requirement",
+    "t_gdpr_lawful_basis",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "11bf5b2ac0a52925",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "2162b14c4b09327a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "4329ed1aa254939b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "4471f7cb325489e6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "7607de8d799c5f87",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "7f408dff813d386d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "880f7a6a097b8ef0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "d69bc7d4ed07c439",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "ec46be9a1f2d33d2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    },
+    {
+      "id": "f2e747b0fd387754",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class",
+        "control_with_evidence_requirement"
+      ]
+    }
+  ]
+}

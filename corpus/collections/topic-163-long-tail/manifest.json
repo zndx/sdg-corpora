@@ -1,0 +1,221 @@
+{
+  "topic_id": 163,
+  "family": "07_long_tail",
+  "n_chapters": 18,
+  "coverage_score": 0.16143955290317535,
+  "topic_repr": "DEPARTMENT OF MICROBIOLOGY ISPAT GENERAL HOSPITAL\n\nSAIL, RSP, ROURKELA\n\nCOVID-19 (RT-PCR) Test Report\n\nSr.\n\nNo.\n\n1\n\n2\n\n3\n\n4\n\n5\n\nPrepared by:\n\nChecked and Approved by:\n\nKrishna Ch. Majhi\n\nNote: The results relate only to the specimens tested and should be correlated with clinical findings. Interpretation guidance:-\n\n* Testing of referred clinical specimens was considered on the basis of request / r...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "gdpr_lawful_basis",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_gdpr_lawful_basis",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "14babf80423c78b4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "203700699426ba6c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "2211bd4be72eeecd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "227b90bcac5aa241",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "28dca2a3ac37e135",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "3b2d76314a5dff7d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "42ae2dbd787248f4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "4cff4b6502d1b79f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "8c60b339c94c3f3c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "90cffa81935cd329",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "949186f3e8366951",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "9ef764d724c92be2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "a032acf992e99fb1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "b0dd913280458759",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "b8363dbb57c745a4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "cef930f44ea8e231",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "d27ee8db3f4a13ff",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "d3333119295d6f75",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "gdpr_lawful_basis",
+        "attestation_signed_by",
+        "verification_produces_evidence",
+        "audit_conducted_by"
+      ]
+    }
+  ]
+}

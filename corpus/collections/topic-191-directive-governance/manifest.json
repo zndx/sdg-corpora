@@ -1,0 +1,144 @@
+{
+  "topic_id": 191,
+  "family": "03_directive_governance",
+  "n_chapters": 11,
+  "coverage_score": 0.4188459515571594,
+  "topic_repr": "SOLICITATION, OFFER AND AWARD\n\n1. THIS CONTRACT IS A RATED ORDER UNDER DPAS (15 CFR 700)\n\n2. CONTRACT NUMBER: TIB-2007-C-002\n3. SOLICITATION NUMBER: TIB-2006-R-002\n4. TYPE OF SOLICITATION: [ ] SEALED BID (IFB) [X] NEGOTIATED (RFP)\n5. DATE ISSUED:\n6. REQUISITION/PURCHASE NUMBER:\n\n7. ISSUED BY: FEDERAL RETIREMENT THRIFT INVESTMENT BOARD\n   1250 H STREET N.W., SUITE 200\n   WASHINGTON, DC 20005\n\n8. AD...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_only_addresses_threat_class",
+    "control_with_evidence_requirement",
+    "requirement_equiv_specifies_target",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_only_addresses_threat_class",
+    "t_control_with_evidence_requirement",
+    "t_requirement_equiv_specifies_target",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "4df17e1aae60b3f7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "734312344e8e461a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "840ea34a0229378b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "98284be0b7a345e2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "c7e19623ac62e61e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "c93ffaed87e2e1a6",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "df443dd17420b172",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "e08ea36aceaf99d8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "e53ef4f8801a64ea",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "f639f63bd2586bc2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "fcaa2aa354716be2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "control_with_evidence_requirement",
+        "requirement_equiv_specifies_target",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "topic_id": 142,
+  "family": "05_provo_lineage",
+  "n_chapters": 10,
+  "coverage_score": 0.1781712919473648,
+  "topic_repr": "E-ISSN: 2200-3592 & P-ISSN: 2200-3452\n\nInternational Journal of Applied Linguistics & English Literature\n\nwww.ijalel.aiac.org.au\n\nFreedom, Choice and Achieving Self-Realisation in the Dystopian World of Parable of the Talents by Octavia Butler\n\nZahra Rezaei, Ida Baizura Bahar*, Zahraa Abdullah Mohan\n\nDepartment of English, Faculty of Modern Languages and Communication, Universiti Putra Malaysia 43...",
+  "terms": [
+    "schemaorg_place_geocoord",
+    "schemaorg_place_latitude",
+    "schemaorg_place_longitude"
+  ],
+  "tables": [
+    "t_schemaorg_place_geocoord",
+    "t_schemaorg_place_latitude",
+    "t_schemaorg_place_longitude"
+  ],
+  "chapters": [
+    {
+      "id": "0aa260e2c2df1653",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "33aed59d48d9ecdc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "65041843276e169c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "90fcd351d6049af4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "983493e7e1ad8e63",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "a3b537da17a91d5b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "eec4ab86766746c1",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "eeee41ebac29e620",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "fdd31ceb4e68064c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    },
+    {
+      "id": "fee805320a139f91",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_geocoord",
+        "schemaorg_place_longitude",
+        "schemaorg_place_latitude"
+      ]
+    }
+  ]
+}

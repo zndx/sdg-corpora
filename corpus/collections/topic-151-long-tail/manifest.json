@@ -1,0 +1,111 @@
+{
+  "topic_id": 151,
+  "family": "07_long_tail",
+  "n_chapters": 8,
+  "coverage_score": 0.15097996592521667,
+  "topic_repr": "First-Strand cDNA Synthesis Master Mix, 4x\n\n(FSDMM)\n\nCatalog #MB6008\n\n50 reactions\n\nIntroduction\n\nScienCell's First-Strand cDNA Synthesis Master Mix, 4x (FSDMM) is optimized to synthesize the first strand cDNA from total RNA or mRNA. ScienCell's engineered reverse transcriptase has mutations which increase sensitivity and thermostability, improve specificity, and reduce RNase H activity. The ready...",
+  "terms": [
+    "classification_basic",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_classification_basic",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "46fc10d4e60dd48f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "48e9f2424fba3914",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5fbb38f0c437f61f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "6acd88386d8a8387",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "98ed6dacd6088d0f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "c2b7a7afaa46c932",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "d32a29a960bb05e8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "f2d8edec907793e4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "classification_basic",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    }
+  ]
+}

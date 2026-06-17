@@ -1,0 +1,166 @@
+{
+  "topic_id": 3,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.10616503655910492,
+  "topic_repr": "Molecular Docking Compounds of Cinnamaldehyde Derivatives as Anticancer Agents\n\nWarsito Warsito\\textsuperscript{1*}, Shinta Murlistyarini\\textsuperscript{2}, Suratmo Suratmo\\textsuperscript{1}, Vina O Azzahra\\textsuperscript{1}, Andrian Sucahyo\\textsuperscript{1}\n\nAbstract\n\n**Objective:** Cinnamaldehyde (CM) has a molecular structure with the main reaction center of an aromatic ring which the bioa...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_for_period",
+    "audit_subclass",
+    "control_with_evidence_requirement",
+    "gdpr_lawful_basis"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_for_period",
+    "t_audit_subclass",
+    "t_control_with_evidence_requirement",
+    "t_gdpr_lawful_basis"
+  ],
+  "chapters": [
+    {
+      "id": "015a74991d0fb336",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "0d7e92697a93a7ce",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "0f838e1a49362469",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "1cb9e695067c03da",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "40eaf8dbb8674e92",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "589c673485bde0c1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "6651ff9f428beba3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8b8700464546f9c9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "9f279349aeed6023",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "a9277da6974e9f5e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "c855a73edc4d5ed7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "f0295c9850fac805",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "ffad6e6daf5d6668",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "attestation_with_supporting_evidence",
+        "audit_for_period",
+        "control_with_evidence_requirement",
+        "audit_subclass"
+      ]
+    }
+  ]
+}

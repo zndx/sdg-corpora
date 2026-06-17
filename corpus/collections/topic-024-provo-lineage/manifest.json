@@ -1,0 +1,109 @@
+{
+  "topic_id": 24,
+  "family": "05_provo_lineage",
+  "n_chapters": 10,
+  "coverage_score": 0.22745533287525177,
+  "topic_repr": "Choreomundus: Master\u2019s Degree in Dance\nHeritage, Knowledge, and Practice\n\nMaster\u2019s Dissertation by\nSarah Amawi\n\nDepoliticisation of Dabke: A Case of Staged Dabke in a European Context\n\nSpring 2020\n\nDEDICATION\n\nThis work is first dedicated to Njoud, my mother, and the warrior who brought me this far. Everything I am, I owe to you..\n\nTo the people of the Levant.. who are carrying their causes and st...",
+  "terms": [
+    "outlier_claim_basic",
+    "outlier_claim_min_one_attribute",
+    "schemaorg_product_price"
+  ],
+  "tables": [
+    "t_outlier_claim_basic",
+    "t_outlier_claim_min_one_attribute",
+    "t_schemaorg_product_price"
+  ],
+  "chapters": [
+    {
+      "id": "08760c17e15dfee9",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "19bbf7650420f148",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "23d1095ef97f4109",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "51460ba799686167",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "5a8071b7c0b0d4cc",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "5d76db7760c6bb58",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "6ffcbd486a146fb7",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "749cdb070da7b147",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "a1fb037d2196017f",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ffcd897f293c2377",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "schemaorg_product_price",
+        "outlier_claim_basic",
+        "outlier_claim_min_one_attribute"
+      ]
+    }
+  ]
+}

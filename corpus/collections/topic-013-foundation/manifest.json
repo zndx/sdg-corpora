@@ -1,0 +1,151 @@
+{
+  "topic_id": 13,
+  "family": "01_foundation",
+  "n_chapters": 13,
+  "coverage_score": 0.15737664699554443,
+  "topic_repr": "Biological effects from exposure to electromagnetic radiation emitted by cell tower base stations and other antenna arrays\n\nB. Blake Levitt and Henry Lai\n\nAbstract: The siting of cellular phone base stations and other cellular infrastructure such as roof-mounted antenna arrays, especially in residential neighborhoods, is a contentious subject in land-use regulation. Local resistance from nearby re...",
+  "terms": [
+    "control_only_addresses_threat_class",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical"
+  ],
+  "tables": [
+    "t_control_only_addresses_threat_class",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical"
+  ],
+  "chapters": [
+    {
+      "id": "0056d6c06d56e439",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "115f33489e7f524b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "11ad96a0b357d5ff",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "1954aa796d7919c2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "22e4ad24193ca971",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "26c9beafcf513902",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "3034b6f364b02c80",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "8c4881acae09211f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "91044ba2d0d28c2c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "afcaad63349ef648",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "bceeb03813259ec4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "d7ebad440712348b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "fa043be97d0c841b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_admin",
+        "hipaa_safeguard_technical"
+      ]
+    }
+  ]
+}

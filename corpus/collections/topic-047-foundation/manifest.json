@@ -1,0 +1,122 @@
+{
+  "topic_id": 47,
+  "family": "01_foundation",
+  "n_chapters": 9,
+  "coverage_score": 0.08621831983327866,
+  "topic_repr": "An Efficient Method for Evaluating the Effect of Lattice Vibrations on the NMR Second Moment\n\nROLF SJ\u00d6BLOM*\n\nInstitute of Chemistry, University of Uppsala, S-75121 Uppsala, Sweden\n\nAND\n\nURI SHMUELI\n\nDepartment of Chemistry, Tel-Aviv University, 61390 Ramat-Aviv, Israel\n\nReceived September 7, 1978\n\nAn improved algorithm for the evaluation of intra- and inter-molecular contributions to the NMR secon...",
+  "terms": [
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "2ae147af95560bc0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "3563cbe4ce6b5615",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "3e2320ac5ab71edb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "52f956f6e6f10eb6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "737d3a561a6658b2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "744a43c551ec79fa",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "d8669ccb5ba7c198",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "f33e32cef762ea79",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    },
+    {
+      "id": "f743bd2befa44bdb",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "topic_id": 98,
+  "family": "07_long_tail",
+  "n_chapters": 16,
+  "coverage_score": 0.13999240100383759,
+  "topic_repr": "Public\u00a0Assessment\u00a0Report\n\nScientific\u00a0discussion\n\nMontelukast\u00a0Amarox\u00a010\u00a0mg,\u00a0film\u2010coated\u00a0tablets\n\n(montelukast)\n\nNL/H/4943/001/DC\n\nDate:\u00a05\u00a0January\u00a02021\n\nThis\u00a0module\u00a0reflects\u00a0the\u00a0scientific\u00a0discussion\u00a0for\u00a0the\u00a0approval\u00a0of\u00a0Montelukast\u00a0Amarox\u00a010 mg,\u00a0film\u2010coated\u00a0tablets.\u00a0The\u00a0procedure\u00a0was\u00a0finalised\u00a0at\u00a015\u00a0October\u00a02020.\u00a0For\u00a0information on\u00a0changes\u00a0after\u00a0this\u00a0date\u00a0please\u00a0refer\u00a0to\u00a0the\u00a0'steps\u00a0taken\u00a0after\u00a0final...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "125b2d623f5ba68a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "23c60f668dbc7351",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "2bef1d6c501e7243",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "389335b2e76b0e95",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "4ac1a322585034c7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "4b23e3a8acbe8508",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "4f8cba661a58b630",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5aafe2878ad7573d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "665e265b5591f14c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "6dc05f2e45b74de0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "71b57e66a50d15bd",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "77ac2ac9d383a840",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "8966a92883a2c514",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "e5184d5eb8b0fe62",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "f426c941994f5bee",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "f660ba08078710d4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "attestation_with_supporting_evidence",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical",
+        "pci_dss_requirement"
+      ]
+    }
+  ]
+}

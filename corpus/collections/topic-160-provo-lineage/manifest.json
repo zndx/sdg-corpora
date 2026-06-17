@@ -1,0 +1,166 @@
+{
+  "topic_id": 160,
+  "family": "05_provo_lineage",
+  "n_chapters": 13,
+  "coverage_score": 0.1405075639486313,
+  "topic_repr": "E-ISSN: 2320-7078\n\nP-ISSN: 2349-6800\n\nJEZS 2017; 5(2): 605-607\n\n\u00a9 2017 JEZS\n\nReceived: 17-01-2017\n\nAccepted: 18-02-2017\n\nR Dinesh\n\nDepartment of Fish Pathology and Health Management, Fisheries College and Research Institute, Thoothukudi - 628008, Tamil Nadu, India\n\nM Rosalind George\n\nDepartment of Fish Pathology and Health Management, Fisheries College and Research Institute, Thoothukudi - 628008,...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "control_only_addresses_threat_class",
+    "requirement_only_satisfied_by",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_control_only_addresses_threat_class",
+    "t_requirement_only_satisfied_by",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "01a1bb27b6855367",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "265f7eb076a4d520",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "5d6ea8d952e97094",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "621759ff7b70b888",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "7240517272b7dd43",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "771814bc5c5117cc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "84f9b461160ba568",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "ac9afc57f5c95f12",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "ad4fe38f27091ab4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "cafc2d8c319772b1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "d8426a37356c441e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "e81ef7d7e98b0de8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    },
+    {
+      "id": "f972774583ff175a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_with_supporting_evidence",
+        "requirement_only_satisfied_by",
+        "verification_produces_evidence",
+        "control_only_addresses_threat_class"
+      ]
+    }
+  ]
+}

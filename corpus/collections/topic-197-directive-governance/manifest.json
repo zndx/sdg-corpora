@@ -1,0 +1,166 @@
+{
+  "topic_id": 197,
+  "family": "03_directive_governance",
+  "n_chapters": 13,
+  "coverage_score": 0.3416919708251953,
+  "topic_repr": "BREAKING THE GLASS CEILING\n\nCHALLENGES TO FEMALE PARTICIPATION IN TECHNICAL DIPLOMA EDUCATION IN BANGLADESH\n\nWorld Bank Office Dhaka\nPlot: E-32, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207\nBangladesh\nTel: 880-2-5566-7777\nFax: 880-2-5566-7778\nwww.worldbank.org/bangladesh\n\nStandard disclaimer:\nThis volume is a product of the staff of the International Bank for Reconstruction and Development/ The World...",
+  "terms": [
+    "aggregation_basic",
+    "measurement_basic",
+    "outlier_claim_basic",
+    "outlier_claim_min_one_attribute",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_aggregation_basic",
+    "t_measurement_basic",
+    "t_outlier_claim_basic",
+    "t_outlier_claim_min_one_attribute",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "0b3702e112218cd1",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "1eaaf699430f5008",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "25fbc158d4cfea97",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "2814dfd732d0994d",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "28f49e39e6395128",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "41c320de0cf609f6",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "82ef548fee65c4e3",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "833d4a0105c7d406",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "92ac4c54f2db5908",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "b1ceb4cbe92332f9",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "d509fd61db608700",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "e6c709bff61c9854",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "e97c4f2d5b9ce06a",
+      "family": "02_observation_measurement",
+      "cited_terms": [
+        "outlier_claim_basic",
+        "pci_dss_requirement",
+        "outlier_claim_min_one_attribute",
+        "measurement_basic",
+        "aggregation_basic"
+      ]
+    }
+  ]
+}

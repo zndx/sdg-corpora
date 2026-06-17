@@ -1,0 +1,131 @@
+{
+  "topic_id": 199,
+  "family": "07_long_tail",
+  "n_chapters": 11,
+  "coverage_score": 0.12596771121025085,
+  "topic_repr": "Topic 2.4\n\nPharmaceuticals and personal care products: A source of endocrine disruption in the environment?*\n\nFlemming Ingerslev \u2021 , Elvira Vaclavik, and Bent Halling-S\u00f8rensen\n\nThe Royal Danish School of Pharmacy, Universitetsparken 2, Copenhagen 2100, Denmark\n\nAbstract: A wide variety of chemicals are used in pharmaceuticals. Most of these are already under thorough control for endocrine activity...",
+  "terms": [
+    "requirement_equiv_specifies_target",
+    "schemaorg_creativework_date",
+    "schemaorg_event_endtime",
+    "schemaorg_event_starttime"
+  ],
+  "tables": [
+    "t_requirement_equiv_specifies_target",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_event_endtime",
+    "t_schemaorg_event_starttime"
+  ],
+  "chapters": [
+    {
+      "id": "018a51a58d0f2dd6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "053abff5e18682c5",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "08699e12b4336d29",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "65243d2525c6821c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "73cad78c87342581",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "845cfa5f82810b42",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "9ddba983605f1b86",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "b2ba7aa53fe4d237",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "c24982d1150f638a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "c2612d5033e29f40",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "f98be3e920a08da9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "requirement_equiv_specifies_target",
+        "schemaorg_event_starttime",
+        "schemaorg_event_endtime"
+      ]
+    }
+  ]
+}

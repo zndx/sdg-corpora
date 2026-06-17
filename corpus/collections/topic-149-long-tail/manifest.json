@@ -1,0 +1,141 @@
+{
+  "topic_id": 149,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.36382806301116943,
+  "topic_repr": "HAZARD COMMUNICATION PROGRAM (MODEL)\n\nINSTRUCTIONS FOR ADAPTING THIS MODEL TO A SPECIFIC PROGRAM FOR AN INDIVIDUAL DEPARTMENT\n\nThis model is available for Southern Illinois University Carbondale campus departments as an aid to complying with the Occupational Safety and Health Administration (OSHA) requirement of maintaining a work place specific written Hazard Communication Program. \"Hazard Commun...",
+  "terms": [
+    "ebpfprogram_attaches_kernelhook_xref",
+    "ebpfprogram_only_attached_to_kprobe",
+    "ebpfprogram_subclass",
+    "kernelhook_max_one_program_attached"
+  ],
+  "tables": [
+    "t_ebpfprogram_attaches_kernelhook_xref",
+    "t_ebpfprogram_only_attached_to_kprobe",
+    "t_ebpfprogram_subclass",
+    "t_kernelhook_max_one_program_attached"
+  ],
+  "chapters": [
+    {
+      "id": "1372bd26cafd801e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "2b76725fe017971e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "2f3522dfc31798bd",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "4d60165dd217a071",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "563df79a7ffd9377",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "851314313059b185",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "9181ae964795730c",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "9cef0995ee2129e6",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "9f677c394fea83e4",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "c5770ec68089adf1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "c9d2172378ac1282",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    },
+    {
+      "id": "d1999c0e470f3506",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "kernelhook_max_one_program_attached",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "ebpfprogram_subclass",
+        "ebpfprogram_only_attached_to_kprobe"
+      ]
+    }
+  ]
+}

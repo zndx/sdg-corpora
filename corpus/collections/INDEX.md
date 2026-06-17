@@ -1,0 +1,209 @@
+# sdg-corpora — collections
+
+155 populated collections (1935 chapters · 655 table DDLs) · 45 gap topics (no chapters yet). Each collection bundles a FinePDFs topic, its chapters (prose + embedded views), the underlying semantic-column tables, and the grounding ontology terms.
+
+## Collections
+
+- [topic 1](topic-001-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 2](topic-002-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 3](topic-003-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 4](topic-004-ebpf-kernel/README.md) — 04_ebpf_kernel · 10 ch · 5 terms · 5 tables
+- [topic 5](topic-005-observation-measurement/README.md) — 02_observation_measurement · 12 ch · 5 terms · 5 tables
+- [topic 6](topic-006-directive-governance/README.md) — 03_directive_governance · 9 ch · 5 terms · 5 tables
+- [topic 7](topic-007-foundation/README.md) — 01_foundation · 17 ch · 5 terms · 5 tables
+- [topic 8](topic-008-long-tail/README.md) — 07_long_tail · 15 ch · 2 terms · 2 tables
+- [topic 13](topic-013-foundation/README.md) — 01_foundation · 13 ch · 4 terms · 4 tables
+- [topic 14](topic-014-directive-governance/README.md) — 03_directive_governance · 17 ch · 5 terms · 5 tables
+- [topic 15](topic-015-long-tail/README.md) — 07_long_tail · 17 ch · 5 terms · 5 tables
+- [topic 16](topic-016-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 19](topic-019-foundation/README.md) — 01_foundation · 16 ch · 5 terms · 5 tables
+- [topic 20](topic-020-observation-measurement/README.md) — 02_observation_measurement · 9 ch · 5 terms · 5 tables
+- [topic 21](topic-021-long-tail/README.md) — 07_long_tail · 18 ch · 4 terms · 4 tables
+- [topic 22](topic-022-directive-governance/README.md) — 03_directive_governance · 15 ch · 3 terms · 3 tables
+- [topic 23](topic-023-ebpf-kernel/README.md) — 04_ebpf_kernel · 8 ch · 4 terms · 4 tables
+- [topic 24](topic-024-provo-lineage/README.md) — 05_provo_lineage · 10 ch · 3 terms · 3 tables
+- [topic 25](topic-025-long-tail/README.md) — 07_long_tail · 14 ch · 2 terms · 2 tables
+- [topic 26](topic-026-directive-governance/README.md) — 03_directive_governance · 15 ch · 5 terms · 5 tables
+- [topic 27](topic-027-observation-measurement/README.md) — 02_observation_measurement · 10 ch · 3 terms · 3 tables
+- [topic 28](topic-028-long-tail/README.md) — 07_long_tail · 9 ch · 5 terms · 5 tables
+- [topic 30](topic-030-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 31](topic-031-directive-governance/README.md) — 03_directive_governance · 8 ch · 5 terms · 5 tables
+- [topic 32](topic-032-directive-governance/README.md) — 03_directive_governance · 15 ch · 5 terms · 5 tables
+- [topic 33](topic-033-observation-measurement/README.md) — 02_observation_measurement · 9 ch · 5 terms · 5 tables
+- [topic 34](topic-034-directive-governance/README.md) — 03_directive_governance · 12 ch · 4 terms · 4 tables
+- [topic 35](topic-035-provo-lineage/README.md) — 05_provo_lineage · 19 ch · 5 terms · 5 tables
+- [topic 37](topic-037-long-tail/README.md) — 07_long_tail · 5 ch · 5 terms · 5 tables
+- [topic 38](topic-038-directive-governance/README.md) — 03_directive_governance · 12 ch · 5 terms · 5 tables
+- [topic 39](topic-039-observation-measurement/README.md) — 02_observation_measurement · 7 ch · 5 terms · 5 tables
+- [topic 40](topic-040-belief-structure/README.md) — 06_belief_structure · 11 ch · 4 terms · 4 tables
+- [topic 43](topic-043-directive-governance/README.md) — 03_directive_governance · 13 ch · 5 terms · 5 tables
+- [topic 44](topic-044-ebpf-kernel/README.md) — 04_ebpf_kernel · 19 ch · 3 terms · 3 tables
+- [topic 46](topic-046-belief-structure/README.md) — 06_belief_structure · 9 ch · 1 terms · 1 tables
+- [topic 47](topic-047-foundation/README.md) — 01_foundation · 9 ch · 5 terms · 5 tables
+- [topic 49](topic-049-ebpf-kernel/README.md) — 04_ebpf_kernel · 15 ch · 4 terms · 4 tables
+- [topic 50](topic-050-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 51](topic-051-long-tail/README.md) — 07_long_tail · 9 ch · 5 terms · 5 tables
+- [topic 52](topic-052-observation-measurement/README.md) — 02_observation_measurement · 12 ch · 5 terms · 5 tables
+- [topic 53](topic-053-long-tail/README.md) — 07_long_tail · 11 ch · 3 terms · 3 tables
+- [topic 54](topic-054-long-tail/README.md) — 07_long_tail · 10 ch · 5 terms · 5 tables
+- [topic 56](topic-056-long-tail/README.md) — 07_long_tail · 15 ch · 4 terms · 4 tables
+- [topic 57](topic-057-directive-governance/README.md) — 03_directive_governance · 13 ch · 5 terms · 5 tables
+- [topic 58](topic-058-directive-governance/README.md) — 03_directive_governance · 19 ch · 5 terms · 5 tables
+- [topic 61](topic-061-foundation/README.md) — 01_foundation · 8 ch · 3 terms · 3 tables
+- [topic 62](topic-062-long-tail/README.md) — 07_long_tail · 13 ch · 4 terms · 4 tables
+- [topic 64](topic-064-observation-measurement/README.md) — 02_observation_measurement · 14 ch · 1 terms · 1 tables
+- [topic 65](topic-065-ebpf-kernel/README.md) — 04_ebpf_kernel · 13 ch · 5 terms · 5 tables
+- [topic 66](topic-066-long-tail/README.md) — 07_long_tail · 12 ch · 1 terms · 1 tables
+- [topic 67](topic-067-observation-measurement/README.md) — 02_observation_measurement · 10 ch · 5 terms · 5 tables
+- [topic 68](topic-068-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 70](topic-070-observation-measurement/README.md) — 02_observation_measurement · 20 ch · 5 terms · 5 tables
+- [topic 71](topic-071-provo-lineage/README.md) — 05_provo_lineage · 13 ch · 5 terms · 5 tables
+- [topic 72](topic-072-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 73](topic-073-directive-governance/README.md) — 03_directive_governance · 10 ch · 5 terms · 5 tables
+- [topic 74](topic-074-long-tail/README.md) — 07_long_tail · 14 ch · 5 terms · 5 tables
+- [topic 75](topic-075-directive-governance/README.md) — 03_directive_governance · 11 ch · 5 terms · 5 tables
+- [topic 76](topic-076-long-tail/README.md) — 07_long_tail · 11 ch · 5 terms · 5 tables
+- [topic 77](topic-077-foundation/README.md) — 01_foundation · 17 ch · 2 terms · 2 tables
+- [topic 78](topic-078-ebpf-kernel/README.md) — 04_ebpf_kernel · 20 ch · 5 terms · 5 tables
+- [topic 80](topic-080-provo-lineage/README.md) — 05_provo_lineage · 9 ch · 5 terms · 5 tables
+- [topic 81](topic-081-long-tail/README.md) — 07_long_tail · 12 ch · 3 terms · 3 tables
+- [topic 82](topic-082-provo-lineage/README.md) — 05_provo_lineage · 12 ch · 1 terms · 1 tables
+- [topic 83](topic-083-directive-governance/README.md) — 03_directive_governance · 9 ch · 5 terms · 5 tables
+- [topic 85](topic-085-directive-governance/README.md) — 03_directive_governance · 16 ch · 5 terms · 5 tables
+- [topic 86](topic-086-long-tail/README.md) — 07_long_tail · 13 ch · 4 terms · 4 tables
+- [topic 88](topic-088-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 89](topic-089-observation-measurement/README.md) — 02_observation_measurement · 8 ch · 5 terms · 5 tables
+- [topic 90](topic-090-directive-governance/README.md) — 03_directive_governance · 14 ch · 2 terms · 2 tables
+- [topic 91](topic-091-observation-measurement/README.md) — 02_observation_measurement · 18 ch · 4 terms · 4 tables
+- [topic 92](topic-092-long-tail/README.md) — 07_long_tail · 7 ch · 5 terms · 5 tables
+- [topic 93](topic-093-long-tail/README.md) — 07_long_tail · 11 ch · 5 terms · 5 tables
+- [topic 94](topic-094-directive-governance/README.md) — 03_directive_governance · 12 ch · 5 terms · 5 tables
+- [topic 95](topic-095-foundation/README.md) — 01_foundation · 16 ch · 5 terms · 5 tables
+- [topic 96](topic-096-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 97](topic-097-long-tail/README.md) — 07_long_tail · 11 ch · 4 terms · 4 tables
+- [topic 98](topic-098-long-tail/README.md) — 07_long_tail · 16 ch · 5 terms · 5 tables
+- [topic 99](topic-099-ebpf-kernel/README.md) — 04_ebpf_kernel · 9 ch · 2 terms · 2 tables
+- [topic 100](topic-100-long-tail/README.md) — 07_long_tail · 10 ch · 5 terms · 5 tables
+- [topic 101](topic-101-long-tail/README.md) — 07_long_tail · 12 ch · 4 terms · 4 tables
+- [topic 102](topic-102-long-tail/README.md) — 07_long_tail · 10 ch · 5 terms · 5 tables
+- [topic 103](topic-103-directive-governance/README.md) — 03_directive_governance · 7 ch · 4 terms · 4 tables
+- [topic 104](topic-104-long-tail/README.md) — 07_long_tail · 10 ch · 5 terms · 5 tables
+- [topic 106](topic-106-ebpf-kernel/README.md) — 04_ebpf_kernel · 10 ch · 3 terms · 3 tables
+- [topic 107](topic-107-provo-lineage/README.md) — 05_provo_lineage · 12 ch · 5 terms · 5 tables
+- [topic 108](topic-108-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 109](topic-109-provo-lineage/README.md) — 05_provo_lineage · 13 ch · 5 terms · 5 tables
+- [topic 110](topic-110-long-tail/README.md) — 07_long_tail · 13 ch · 4 terms · 4 tables
+- [topic 111](topic-111-ebpf-kernel/README.md) — 04_ebpf_kernel · 10 ch · 5 terms · 5 tables
+- [topic 112](topic-112-provo-lineage/README.md) — 05_provo_lineage · 12 ch · 4 terms · 4 tables
+- [topic 113](topic-113-directive-governance/README.md) — 03_directive_governance · 12 ch · 5 terms · 5 tables
+- [topic 114](topic-114-long-tail/README.md) — 07_long_tail · 9 ch · 1 terms · 1 tables
+- [topic 115](topic-115-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 117](topic-117-long-tail/README.md) — 07_long_tail · 9 ch · 5 terms · 5 tables
+- [topic 119](topic-119-observation-measurement/README.md) — 02_observation_measurement · 10 ch · 3 terms · 3 tables
+- [topic 120](topic-120-long-tail/README.md) — 07_long_tail · 10 ch · 1 terms · 1 tables
+- [topic 122](topic-122-directive-governance/README.md) — 03_directive_governance · 12 ch · 5 terms · 5 tables
+- [topic 125](topic-125-ebpf-kernel/README.md) — 04_ebpf_kernel · 11 ch · 3 terms · 3 tables
+- [topic 126](topic-126-long-tail/README.md) — 07_long_tail · 11 ch · 4 terms · 4 tables
+- [topic 127](topic-127-ebpf-kernel/README.md) — 04_ebpf_kernel · 10 ch · 5 terms · 5 tables
+- [topic 128](topic-128-directive-governance/README.md) — 03_directive_governance · 8 ch · 5 terms · 5 tables
+- [topic 129](topic-129-directive-governance/README.md) — 03_directive_governance · 17 ch · 5 terms · 5 tables
+- [topic 130](topic-130-directive-governance/README.md) — 03_directive_governance · 11 ch · 5 terms · 5 tables
+- [topic 131](topic-131-directive-governance/README.md) — 03_directive_governance · 15 ch · 1 terms · 1 tables
+- [topic 132](topic-132-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 133](topic-133-long-tail/README.md) — 07_long_tail · 14 ch · 5 terms · 5 tables
+- [topic 134](topic-134-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 135](topic-135-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 136](topic-136-ebpf-kernel/README.md) — 04_ebpf_kernel · 10 ch · 3 terms · 3 tables
+- [topic 138](topic-138-ebpf-kernel/README.md) — 04_ebpf_kernel · 13 ch · 5 terms · 5 tables
+- [topic 139](topic-139-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 142](topic-142-provo-lineage/README.md) — 05_provo_lineage · 10 ch · 3 terms · 3 tables
+- [topic 143](topic-143-long-tail/README.md) — 07_long_tail · 10 ch · 4 terms · 4 tables
+- [topic 144](topic-144-foundation/README.md) — 01_foundation · 14 ch · 5 terms · 5 tables
+- [topic 145](topic-145-directive-governance/README.md) — 03_directive_governance · 13 ch · 1 terms · 1 tables
+- [topic 146](topic-146-foundation/README.md) — 01_foundation · 10 ch · 1 terms · 1 tables
+- [topic 148](topic-148-belief-structure/README.md) — 06_belief_structure · 11 ch · 4 terms · 4 tables
+- [topic 149](topic-149-long-tail/README.md) — 07_long_tail · 12 ch · 4 terms · 4 tables
+- [topic 150](topic-150-directive-governance/README.md) — 03_directive_governance · 11 ch · 5 terms · 5 tables
+- [topic 151](topic-151-long-tail/README.md) — 07_long_tail · 8 ch · 5 terms · 5 tables
+- [topic 153](topic-153-long-tail/README.md) — 07_long_tail · 19 ch · 3 terms · 3 tables
+- [topic 154](topic-154-directive-governance/README.md) — 03_directive_governance · 15 ch · 5 terms · 5 tables
+- [topic 157](topic-157-long-tail/README.md) — 07_long_tail · 16 ch · 2 terms · 2 tables
+- [topic 158](topic-158-ebpf-kernel/README.md) — 04_ebpf_kernel · 9 ch · 5 terms · 5 tables
+- [topic 159](topic-159-long-tail/README.md) — 07_long_tail · 15 ch · 5 terms · 5 tables
+- [topic 160](topic-160-provo-lineage/README.md) — 05_provo_lineage · 13 ch · 5 terms · 5 tables
+- [topic 162](topic-162-long-tail/README.md) — 07_long_tail · 19 ch · 3 terms · 3 tables
+- [topic 163](topic-163-long-tail/README.md) — 07_long_tail · 18 ch · 5 terms · 5 tables
+- [topic 164](topic-164-long-tail/README.md) — 07_long_tail · 12 ch · 4 terms · 4 tables
+- [topic 165](topic-165-long-tail/README.md) — 07_long_tail · 14 ch · 5 terms · 5 tables
+- [topic 166](topic-166-long-tail/README.md) — 07_long_tail · 12 ch · 1 terms · 1 tables
+- [topic 169](topic-169-directive-governance/README.md) — 03_directive_governance · 10 ch · 1 terms · 1 tables
+- [topic 170](topic-170-observation-measurement/README.md) — 02_observation_measurement · 14 ch · 5 terms · 5 tables
+- [topic 171](topic-171-directive-governance/README.md) — 03_directive_governance · 20 ch · 5 terms · 5 tables
+- [topic 173](topic-173-long-tail/README.md) — 07_long_tail · 16 ch · 4 terms · 4 tables
+- [topic 174](topic-174-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 176](topic-176-directive-governance/README.md) — 03_directive_governance · 10 ch · 4 terms · 4 tables
+- [topic 178](topic-178-long-tail/README.md) — 07_long_tail · 16 ch · 4 terms · 4 tables
+- [topic 179](topic-179-long-tail/README.md) — 07_long_tail · 19 ch · 4 terms · 4 tables
+- [topic 181](topic-181-foundation/README.md) — 01_foundation · 9 ch · 5 terms · 5 tables
+- [topic 183](topic-183-long-tail/README.md) — 07_long_tail · 13 ch · 5 terms · 5 tables
+- [topic 185](topic-185-foundation/README.md) — 01_foundation · 17 ch · 5 terms · 5 tables
+- [topic 186](topic-186-directive-governance/README.md) — 03_directive_governance · 13 ch · 5 terms · 5 tables
+- [topic 187](topic-187-long-tail/README.md) — 07_long_tail · 11 ch · 4 terms · 4 tables
+- [topic 188](topic-188-long-tail/README.md) — 07_long_tail · 9 ch · 4 terms · 4 tables
+- [topic 190](topic-190-directive-governance/README.md) — 03_directive_governance · 5 ch · 5 terms · 5 tables
+- [topic 191](topic-191-directive-governance/README.md) — 03_directive_governance · 11 ch · 5 terms · 5 tables
+- [topic 193](topic-193-long-tail/README.md) — 07_long_tail · 12 ch · 5 terms · 5 tables
+- [topic 194](topic-194-directive-governance/README.md) — 03_directive_governance · 14 ch · 3 terms · 3 tables
+- [topic 195](topic-195-observation-measurement/README.md) — 02_observation_measurement · 13 ch · 4 terms · 4 tables
+- [topic 196](topic-196-observation-measurement/README.md) — 02_observation_measurement · 8 ch · 5 terms · 5 tables
+- [topic 197](topic-197-directive-governance/README.md) — 03_directive_governance · 13 ch · 5 terms · 5 tables
+- [topic 198](topic-198-directive-governance/README.md) — 03_directive_governance · 14 ch · 5 terms · 5 tables
+- [topic 199](topic-199-long-tail/README.md) — 07_long_tail · 11 ch · 4 terms · 4 tables
+
+## Gap topics (coverage holes — curation candidates, no chapters yet)
+
+- topic 0 — 02_observation_measurement · _gap_
+- topic 9 — 07_long_tail · _borderline_
+- topic 10 — 01_foundation · _gap_
+- topic 11 — 03_directive_governance · _gap_
+- topic 12 — 07_long_tail · _gap_
+- topic 17 — 07_long_tail · _gap_
+- topic 18 — 07_long_tail · _gap_
+- topic 29 — 07_long_tail · _borderline_
+- topic 36 — 07_long_tail · _gap_
+- topic 41 — 01_foundation · _gap_
+- topic 42 — 07_long_tail · _gap_
+- topic 45 — 02_observation_measurement · _gap_
+- topic 48 — 07_long_tail · _gap_
+- topic 55 — 07_long_tail · _gap_
+- topic 59 — 07_long_tail · _gap_
+- topic 60 — 05_provo_lineage · _gap_
+- topic 63 — 03_directive_governance · _gap_
+- topic 69 — 03_directive_governance · _borderline_
+- topic 79 — 07_long_tail · _gap_
+- topic 84 — 07_long_tail · _gap_
+- topic 87 — 03_directive_governance · _borderline_
+- topic 105 — 03_directive_governance · _gap_
+- topic 116 — 07_long_tail · _gap_
+- topic 118 — 03_directive_governance · _gap_
+- topic 121 — 07_long_tail · _gap_
+- topic 123 — 07_long_tail · _gap_
+- topic 124 — 07_long_tail · _gap_
+- topic 137 — 07_long_tail · _gap_
+- topic 140 — 06_belief_structure · _gap_
+- topic 141 — 03_directive_governance · _borderline_
+- topic 147 — 02_observation_measurement · _gap_
+- topic 152 — 07_long_tail · _gap_
+- topic 155 — 01_foundation · _gap_
+- topic 156 — 03_directive_governance · _borderline_
+- topic 161 — 02_observation_measurement · _gap_
+- topic 167 — 07_long_tail · _gap_
+- topic 168 — 04_ebpf_kernel · _gap_
+- topic 172 — 07_long_tail · _borderline_
+- topic 175 — 03_directive_governance · _gap_
+- topic 177 — 07_long_tail · _gap_
+- topic 180 — 01_foundation · _gap_
+- topic 182 — 07_long_tail · _gap_
+- topic 184 — 01_foundation · _borderline_
+- topic 189 — 07_long_tail · _gap_
+- topic 192 — 03_directive_governance · _gap_

@@ -1,0 +1,122 @@
+{
+  "topic_id": 181,
+  "family": "01_foundation",
+  "n_chapters": 9,
+  "coverage_score": 0.2105533629655838,
+  "topic_repr": "| This is a Controlled Document that complies with |\n|---|\n| Wesfarmers Chemicals, Energy & Fertilisers formatting and Quality Control standards. |\n| Please check that this is the latest available version before use. |\n| Title: |\n| Number: |\n| Version Number: |\n| Date Revised: |\n| Owner: |\n| Authoriser: |\n| Reasons for Creating |\n| or Amending |\n| Document |\n| Actual Change Details: |\n\nTABLE OF CO...",
+  "terms": [
+    "control_only_addresses_threat_class",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_control_only_addresses_threat_class",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "0f4997c7302f0354",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "2b12c53510019cc5",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5cce3f0dfd1afebc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "7ee5623645efd8c7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "a6d21097180b35d8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "c864e12b014bc43f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "e5e517c9a5085d61",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "f22e27dfb2055560",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "fc27391e0513a900",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_admin",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_physical",
+        "pci_dss_requirement"
+      ]
+    }
+  ]
+}

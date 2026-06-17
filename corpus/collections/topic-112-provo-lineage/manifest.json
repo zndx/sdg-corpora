@@ -1,0 +1,141 @@
+{
+  "topic_id": 112,
+  "family": "05_provo_lineage",
+  "n_chapters": 12,
+  "coverage_score": 0.3072134256362915,
+  "topic_repr": "SOUTHEASTERN ARCHAEOLOGICAL CONFERENCE\n\nBULLETIN 27\n\nBOOK OF ABSTRACTS\n\n41st ANNUAL MEETING\n\nNovember 8-10, 1984\n\nPensacola Hilton\n\nPensacola, Florida\n\nM. Alexander, Friday afternoon, Session A 3:50pm ANALYSIS OF PLANT REMAINS FROM THREE FORT WALTON SITES: HIGH RIDGE, VELDA, AND LAKE JACKSON. The long held assumption that the Fort Walton people practiced a Mississippian type corn-bean-squash subsi...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "claim_not_disconfirmed",
+    "claim_refuted_by_evidence",
+    "mass_function_subclass"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_claim_not_disconfirmed",
+    "t_claim_refuted_by_evidence",
+    "t_mass_function_subclass"
+  ],
+  "chapters": [
+    {
+      "id": "1e06f83f2db99bd4",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "2d258cc402844d4c",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "42cfa6101d1c5986",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "5adf062833c70049",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "5e745452cc33a661",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "6fdb0c6522ddc65b",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "7251f11fdd03a6b1",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "918076f24a63c7ec",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "abcabf309ea4a8c3",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "b40fdff9f1069e9b",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "eb52ed0bd6e7fd59",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    },
+    {
+      "id": "fdf667fbc9ecde30",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_subclass",
+        "attestation_with_supporting_evidence",
+        "claim_refuted_by_evidence",
+        "claim_not_disconfirmed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "topic_id": 56,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.13370391726493835,
+  "topic_repr": "2020-21 Surgery Rese arch Residents\n\nSurgery\n\nW e are proud to present this year's new research residents. Research is a key component of the UW Department of Surgery's residency programs and these residents have each \"paused\" their clinical training in order to complete a two-year research fellowship. Our research residents, along with their clinical peers who work hard to find time to participat...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "designative_subclass_basic",
+    "subclass_to_designative_ice",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_designative_subclass_basic",
+    "t_subclass_to_designative_ice",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "0a56d14e52df46c2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "2a2498047bd619af",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "2d2b4cdb7591972c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "2d469f31030e1740",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "4588a5705d043b9a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "56130a1b42217bac",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "81e27c1dd51f9aca",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "89c8fc3f9bdfe3d7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "9365a5b395cabad5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "99c6876c8f86d929",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "a40c56147630ddec",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "c04a935812e1d7c8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "da47e78bd60bb7ba",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "e2b58a86d1459254",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    },
+    {
+      "id": "fe7d9c44252bc4c3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "verification_produces_evidence",
+        "designative_subclass_basic",
+        "attestation_with_supporting_evidence",
+        "subclass_to_designative_ice"
+      ]
+    }
+  ]
+}

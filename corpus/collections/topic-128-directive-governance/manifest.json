@@ -1,0 +1,111 @@
+{
+  "topic_id": 128,
+  "family": "03_directive_governance",
+  "n_chapters": 8,
+  "coverage_score": 0.21847665309906006,
+  "topic_repr": "EESTI MAJANDUSPOLIITILISED V\u00c4ITLUSED\nArtiklid (CD-ROM)\nKokkuv\u00f5tted\nKroonika\n\nESTNISCHE GESPR\u00c4CHE \u00dcBER WIRTSCHAFTSPOLITIK\nBeitr\u00e4ge (CD-ROM)\nZusammenfassungen\nChronik\n\nDISCUSSIONS ON ESTONIAN ECONOMIC POLICY\nArticles (CD-ROM)\nSummaries\nChronicle\n\nXVIII\n2010\n\nEesti majanduspoliitilised v\u00e4itlused / Estnische Gespr\u00e4che \u00fcber Wirtschaftspolitik / Discussions on Estonian Economic Policy\nAsutatud aastal 19...",
+  "terms": [
+    "designative_subclass_basic",
+    "policy_with_review_cycle",
+    "requirement_has_priority",
+    "subclass_to_designative_ice",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_designative_subclass_basic",
+    "t_policy_with_review_cycle",
+    "t_requirement_has_priority",
+    "t_subclass_to_designative_ice",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "2d05481cda07d5f1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "381e57cd9efec5b2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "44bcd9fb5d3a2dfb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "993d9c8d9ee99c19",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "c1ff28db0fbb6908",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "c919b4c621d7d920",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "ebf931f30c4d9f55",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "ff211f7947c242b9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "designative_subclass_basic",
+        "verification_min_one_evidence",
+        "subclass_to_designative_ice",
+        "requirement_has_priority"
+      ]
+    }
+  ]
+}

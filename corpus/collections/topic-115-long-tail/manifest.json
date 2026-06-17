@@ -1,0 +1,188 @@
+{
+  "topic_id": 115,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.09805123507976532,
+  "topic_repr": "Effect of vitamin D replacement on maternal and neonatal outcomes: a randomised controlled trial in pregnant women with hypovitaminosis D. A protocol\n\nM Chakhtoura,1 A Nassar,2 A Arabi,1 C Cooper,3 N Harvey,3 Z Mahfoud,4 M Nabulsi,5 G El-Hajj Fuleihan1\n\nABSTRACT\n\nIntroduction: The vitamin D recommended doses during pregnancy differ between societies. The WHO guidelines do not recommend routine pre...",
+  "terms": [
+    "column_lineage_for_compliance_claim",
+    "kernel_anomaly_supports_claim",
+    "pci_dss_requirement",
+    "schemaorg_org_taxid",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_column_lineage_for_compliance_claim",
+    "t_kernel_anomaly_supports_claim",
+    "t_pci_dss_requirement",
+    "t_schemaorg_org_taxid",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "08ddda0dbaffb653",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "0c1aef1eee3e1d80",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "1519eeaa1ddc85f7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "18ca0fc9d71d0e58",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "44d940d8299a8c04",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "4b6ccc1455977982",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "603d57c7aa50fab8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "6e3d4218f6175db2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "787c75bf58a9087c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "806b90da6f74fa00",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "aaebc3d751fef4a7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "bce46d770563db90",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "c6ee8d4107aed9fc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "cf06eaab83033875",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    },
+    {
+      "id": "f0cd9ba2777aea9e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "pci_dss_requirement",
+        "schemaorg_org_taxid"
+      ]
+    }
+  ]
+}

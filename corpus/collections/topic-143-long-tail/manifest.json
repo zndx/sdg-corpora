@@ -1,0 +1,121 @@
+{
+  "topic_id": 143,
+  "family": "07_long_tail",
+  "n_chapters": 10,
+  "coverage_score": 0.16768616437911987,
+  "topic_repr": "CTGA Database Information Submission Form\n\nHelp Topics\n\nEveryday the Centre for Arab Genomic Studies receives a variety of publications from scientists in the Arab World or abroad to be considered for the CTGA Database on genetic disorders in Arab populations. Curators of the CTGA Database are working continuously to update each and every record of the database following rigorous steps that includ...",
+  "terms": [
+    "belief_interval_equiv_bel_and_pl",
+    "directive_authored_and_applies",
+    "equiv_intersect_with_negation",
+    "mass_function_equiv_frame_and_assignment"
+  ],
+  "tables": [
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_directive_authored_and_applies",
+    "t_equiv_intersect_with_negation",
+    "t_mass_function_equiv_frame_and_assignment"
+  ],
+  "chapters": [
+    {
+      "id": "05f1fa2cf10cfd2a",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "4396e6ad3f714086",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "4908a5ea9d9dc0ba",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "49e6b1216a8d62c1",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "634287315a31b3c8",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "68c2fbeca17534cf",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "7ddea8311b13bfdd",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "8e722f8564335fc5",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "9e68958a2c4363bd",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    },
+    {
+      "id": "db4b3c23ee46a28d",
+      "family": "06_belief_structure",
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "equiv_intersect_with_negation",
+        "belief_interval_equiv_bel_and_pl",
+        "directive_authored_and_applies"
+      ]
+    }
+  ]
+}

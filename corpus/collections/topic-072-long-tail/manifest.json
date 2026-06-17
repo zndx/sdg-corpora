@@ -1,0 +1,155 @@
+{
+  "topic_id": 72,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.3954564929008484,
+  "topic_repr": "10190\n\nfiled in response to this Notice are limited to five (5) pages in length, inclusive of attachments.\n\nPersons filing written submissions must file the original document electronically on or before the deadlines stated above and submit 8 true paper copies to the Office of the Secretary by noon the next day pursuant to \u00a7 210.4(f) of the Commission's Rules of Practice and Procedure (19 CFR 210....",
+  "terms": [
+    "syscall_at_security_tier",
+    "syscall_equiv_in_subsystem",
+    "syscall_invoked_by_event",
+    "syscall_max_one_return",
+    "syscall_subclass"
+  ],
+  "tables": [
+    "t_syscall_at_security_tier",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_invoked_by_event",
+    "t_syscall_max_one_return",
+    "t_syscall_subclass"
+  ],
+  "chapters": [
+    {
+      "id": "17d5d2f9243260b0",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "193333fdad721da1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "25252a73931ca65b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "312aa4831e8aca08",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "6f7cfd9e19cdd9d8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "91f317f5012f99df",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "9cbfe25eabefe856",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "a9388379da12a859",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "c3d96590cc9552e8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "c6413e1af02e25c8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "d6aa6556835a7eac",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "ea75a71232e0567d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_at_security_tier",
+        "syscall_max_one_return",
+        "syscall_subclass",
+        "syscall_invoked_by_event"
+      ]
+    }
+  ]
+}

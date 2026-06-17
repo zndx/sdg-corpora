@@ -1,0 +1,122 @@
+{
+  "topic_id": 6,
+  "family": "03_directive_governance",
+  "n_chapters": 9,
+  "coverage_score": 0.33626917004585266,
+  "topic_repr": "Disaster Risk Management For Coastal Tourism Destinations Responding To Climate Change\n\nA Practical Guide for Decision Makers\n\nUNEP Manuals on Sustainable Tourism\n\nISDR\nInternational Strategy for Disaster Reduction\n\nCAST\nCaribbean Alliance for Sustainable Tourism\n\nCopyright \u00a9 United Nations Environment Programme, 2008\n\nThis publication may be reproduced in whole or in part and in any form for educ...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "designative_subclass_basic",
+    "identifier_unique",
+    "subclass_to_designative_ice",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_designative_subclass_basic",
+    "t_identifier_unique",
+    "t_subclass_to_designative_ice",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "0c44ced29f130a59",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "14d66af0a9d3181b",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "6f3ca8a1fbab565b",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "8f9e04cf52cccdc8",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "afe6d6316fff2366",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "b5a5ca4e4794e99f",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "ce5d4a00390261eb",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "f20b7b0472cab48d",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "f6e9466982322865",
+      "family": "01_foundation",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "designative_subclass_basic",
+        "verification_produces_evidence",
+        "subclass_to_designative_ice",
+        "identifier_unique"
+      ]
+    }
+  ]
+}

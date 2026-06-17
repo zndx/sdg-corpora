@@ -1,0 +1,155 @@
+{
+  "topic_id": 2,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.3122275769710541,
+  "topic_repr": "The petitioner is seeking the approval of the Site Development Plan package that would allow for the development of this 1.6 acre site into the authorized senior care center housing 95 beds. This Site Development Plan package includes the engineered plan, Landscape Plan, and Lighting Plan.\n\nThe Site Plan Subcommittee is recommending the approval of the Site Development Plan package that would allo...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "pci_dss_requirement",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_pci_dss_requirement",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "2f3b9a22131bacd3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "3c1122083fba4226",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "6e0584ce96d66d66",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "7d3ab751f6ef9603",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "9cb83e217a15b7c3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "ac18dce42af42301",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "ad822831de875c4c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "bc73c4fbc9601508",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "c7e3d432455ce9ee",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "cd1434961aa5e7e5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "e0d781d9f02405bb",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    },
+    {
+      "id": "f00aa1806d2e51cc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "pci_dss_requirement",
+        "requirement_equiv_specifies_target",
+        "attestation_signed_by",
+        "attestation_with_supporting_evidence"
+      ]
+    }
+  ]
+}

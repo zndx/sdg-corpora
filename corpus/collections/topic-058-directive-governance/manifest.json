@@ -1,0 +1,232 @@
+{
+  "topic_id": 58,
+  "family": "03_directive_governance",
+  "n_chapters": 19,
+  "coverage_score": 0.2980822026729584,
+  "topic_repr": "Strength | Stability | Continuity\n\nThird Quarter Report 2023\n\nStrong & Stable Financing Solutions from Accord\n\n**Asset-based Lending**\nAccord\u2019s asset-based lending serves companies of all sizes across North America. Our flexible ABL solutions allow clients to unlock working capital from their accounts receivable, inventory and equipment. Accord also provides financing solutions to other lending co...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "hipaa_safeguard_physical",
+    "pci_dss_requirement",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_hipaa_safeguard_physical",
+    "t_pci_dss_requirement",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "037e5d35f4d3f351",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "05b5ac99c8537bc8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "1dc34e9243ea93c5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "21bf2e1060544c53",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "551c8dc7fb526a72",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "94f0134bfd10c612",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "99b02ba62cac79a4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "a3087943bc4a74c7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "a357e501e734a4e8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "a55f6caf63089b64",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "ae6bafde2244fa65",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "b19ee5549dda452b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "c2b2b93223518e0a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "cb83262f9e5d9ac4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "d88290e3b89ddd72",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "dbd72f7ef9fe92c5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "dd8d6d95fd83d3af",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "e38c36ca9fa93e45",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "e9b144558cc5ea05",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "verification_produces_evidence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "topic_id": 162,
+  "family": "07_long_tail",
+  "n_chapters": 19,
+  "coverage_score": 0.1366121768951416,
+  "topic_repr": "Order of Blood Draw and Specimen Collection Instructions\n\nCAUTION: Do not uncap or open vacutainer tubes. Contact Singulex if cap has been removed or altered. ATTENTION:  There have been recent changes to the clotting time and the number of inversions.\n\nFILL ONE SERUM SEPARATOR TUBE COMPLETELY FOR THE FOLLOWING TEST(S):\n\n* Advanced Lipids\n* NT-proBNP\n* Testosterone\n* Calcium\n* DHEA-S\n* Apo A-1\n* F...",
+  "terms": [
+    "lift_basic",
+    "schemaorg_place_address",
+    "syscall_max_one_return"
+  ],
+  "tables": [
+    "t_lift_basic",
+    "t_schemaorg_place_address",
+    "t_syscall_max_one_return"
+  ],
+  "chapters": [
+    {
+      "id": "20407c1daed6632e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "214627b16a516963",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "2e709ff1ccbdab88",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "2f3b599ffbbc9bea",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "3a498f8bf5ddb0fa",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "6aa6014c13bbc57b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "8555819374b4fda7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "a25f43ede7157297",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "b3a1e0e35323c76e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c430f3e27e02570c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c4ec041a986dabf7",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c55edb85f088c7b2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c9675101acd21ee9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "cae6dac564bf4cc6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "cd6aab8b0746b8e4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "ceb74930d9e93efa",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "d259479b0c3f638b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "dc76b88bcb1f367f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "e18209148431bdee",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "schemaorg_place_address",
+        "lift_basic",
+        "syscall_max_one_return"
+      ]
+    }
+  ]
+}

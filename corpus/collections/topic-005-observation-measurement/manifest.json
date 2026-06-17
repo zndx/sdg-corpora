@@ -1,0 +1,155 @@
+{
+  "topic_id": 5,
+  "family": "02_observation_measurement",
+  "n_chapters": 12,
+  "coverage_score": 0.23499955236911774,
+  "topic_repr": "Daily Comment\n\nBy Patrick Fearon-Hernandez, CFA, and Thomas Wash\n\nLooking for something to read? See our Reading List; these books, separated by category, are ones we find interesting and insightful. We will be adding to the list over time.\n\n[Posted: May 12, 2022\u20149:30 AM EDT] Global equity markets are mostly lower this morning. In Europe, the EuroStoxx 50 index is currently down 2.2% from its prio...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_subclass",
+    "gdpr_article_subclass",
+    "gdpr_data_subject_right"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_subclass",
+    "t_gdpr_article_subclass",
+    "t_gdpr_data_subject_right"
+  ],
+  "chapters": [
+    {
+      "id": "0cc1f56add3be6b7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "1aa78d13bf87f8ec",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "42c054db3f3cafc5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "4493cb809d4cdb5f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "55ead111acf72ad0",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "72583dddc42f608f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "90b575d08febb0ec",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "c858560fb308db74",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "d19f39440068e8ba",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "e56fe6d10b33dea2",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "ea8c5736e5db213c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "f772c77379429a56",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_signed_by",
+        "gdpr_article_subclass",
+        "attestation_with_supporting_evidence",
+        "gdpr_data_subject_right",
+        "audit_subclass"
+      ]
+    }
+  ]
+}

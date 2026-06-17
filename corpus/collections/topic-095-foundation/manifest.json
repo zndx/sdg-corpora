@@ -1,0 +1,199 @@
+{
+  "topic_id": 95,
+  "family": "01_foundation",
+  "n_chapters": 16,
+  "coverage_score": 0.2714560031890869,
+  "topic_repr": "SAS/IML\u00ae 14.3 User\u2019s Guide\n\nThe correct bibliographic citation for this manual is as follows: SAS Institute Inc. 2017. *SAS/IML\u00ae 14.3 User\u2019s Guide*. Cary, NC: SAS Institute Inc.\n\n**SAS/IML\u00ae 14.3 User\u2019s Guide**\n\nCopyright \u00a9 2017, SAS Institute Inc., Cary, NC, USA\n\nAll Rights Reserved. Produced in the United States of America.\n\n**For a hard-copy book:** No part of this publication may be reproduced,...",
+  "terms": [
+    "attestation_min_one_signer",
+    "audit_conducted_by",
+    "requirement_equiv_specifies_target",
+    "requirement_only_satisfied_by",
+    "verification_min_one_evidence"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_audit_conducted_by",
+    "t_requirement_equiv_specifies_target",
+    "t_requirement_only_satisfied_by",
+    "t_verification_min_one_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "011d1f387b1d28d3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "0eef3bc65a47b3f4",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "1927d0ef76d27280",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "2ceee46d52d5d2ae",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "2d05fd02cd039950",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "2f90ddfca812f73d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "4cba791cf9508258",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "70b77232e27ec0d5",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "76dac89ca640e342",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "9589773190d70fa3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "a5d103d55688612b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "a602b48c9d6eb031",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "b2e34ba882692382",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "b86944b50a93e86e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "dba03da8873205a9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    },
+    {
+      "id": "f30a3fe59914764e",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "verification_min_one_evidence",
+        "requirement_equiv_specifies_target",
+        "attestation_min_one_signer",
+        "requirement_only_satisfied_by"
+      ]
+    }
+  ]
+}

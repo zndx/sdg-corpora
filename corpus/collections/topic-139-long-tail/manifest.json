@@ -1,0 +1,188 @@
+{
+  "topic_id": 139,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.19964435696601868,
+  "topic_repr": "February 2016\n\nDrug Court Practitioner Fact Sheet Vol. XI, No. 1\n\nUnderstanding and Detecting Prescription Drug Misuse and Misuse Disorders\n\nBy Sandra Lapham, MD, MPH, DFASAM\n\nSenior Research Scientist, Behavioral Health Research Center of the Southwest, Pacific Institute for Research and Evaluation\n\nT his fact sheet is designed for court professionals. It describes prescription drug misuse and pr...",
+  "terms": [
+    "alert_triggered_by",
+    "ebpfevent_observes_syscall_xref",
+    "labrun_with_protocol",
+    "metric_emission_subclass",
+    "syscall_traceable"
+  ],
+  "tables": [
+    "t_alert_triggered_by",
+    "t_ebpfevent_observes_syscall_xref",
+    "t_labrun_with_protocol",
+    "t_metric_emission_subclass",
+    "t_syscall_traceable"
+  ],
+  "chapters": [
+    {
+      "id": "0374328fe760a2c4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "183cc37a42d11521",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "3a43732ff8aed1a9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "51996ac24434a037",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "536581ac640c2938",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "5eda6ad73ecf47f5",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "7d40692489069563",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "7e5bbbf30529798d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "8d52cdd22478d5d4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "9ac12d876c73a9b6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "9f74a548aeb64144",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "abf66720643d435c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "dada66c6928f2fd6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "ec748184cdf2b493",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "f3c4200fca35b03d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "metric_emission_subclass",
+        "labrun_with_protocol",
+        "syscall_traceable",
+        "alert_triggered_by",
+        "ebpfevent_observes_syscall_xref"
+      ]
+    }
+  ]
+}

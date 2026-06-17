@@ -1,0 +1,232 @@
+{
+  "topic_id": 35,
+  "family": "05_provo_lineage",
+  "n_chapters": 19,
+  "coverage_score": 0.2294936329126358,
+  "topic_repr": "Geophysical Research Abstracts Vol. 19, EGU2017-12278, 2017 EGU General Assembly 2017 \u00a9 Author(s) 2017. CC Attribution 3.0 License.\n\nApplication of LA-MC-ICP-MS for analysis of Sr isotope ratios in speleothems\n\nMichael Weber (1,2), Denis Scholz (1), Jasper A. Wassenburg (1), Klaus Peter Jochum (2), and Sebastian Breitenbach (3)\n\n(1) Johannes Gutenberg-University Mainz, Institute for Geosciences, M...",
+  "terms": [
+    "control_only_addresses_threat_class",
+    "hipaa_safeguard_admin",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_control_only_addresses_threat_class",
+    "t_hipaa_safeguard_admin",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "07114d3072810d7f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "2661f1af3774fe1b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "493778f3ff401a99",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5b01493a443bf73e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "5d834b6cb591d2ea",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "7f441106b5180b70",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "8238e793bb4f898b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "841ee03cfab6d86d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "9e47cb3cb190cf72",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "a83a178204983e7f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "aadf6114f915f648",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "b39cdb3ca60c082e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "b7dce6f651546259",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "bd9c019a8f098b3f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "c6290e41c79fd877",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "c78648ad0b15b86f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "d3d66fdfa3dc1aad",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "ddbd0c4cb2ef5d1f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    },
+    {
+      "id": "fc9c27cc81137c0d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "hipaa_safeguard_physical",
+        "control_only_addresses_threat_class",
+        "hipaa_safeguard_technical",
+        "hipaa_safeguard_admin",
+        "pci_dss_requirement"
+      ]
+    }
+  ]
+}

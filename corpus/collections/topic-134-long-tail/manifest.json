@@ -1,0 +1,166 @@
+{
+  "topic_id": 134,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.2754841446876526,
+  "topic_repr": "November 13, 2014\n\nCBCA 3300, 3354, 3538\n\nBRASFIELD & GORRIE, LLC,\n\nAppellant, v.\n\nDEPARTMENT OF VETERANS AFFAIRS,\n\nRespondent.\n\nLaurence Schor, Dennis C. Ehlers, and Robert D. Pratt of Asmar, Schor & McKenna, PLLC, Washington, DC; and Axel Bolvig III, Luke D. Martin, and J. Christopher Selman of Bradley Arant Boult Cummings, LLP, Birmingham, AL, counsel for Appellant.\n\nStacey North-Willis, Beth C...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "04a7e4f995587d2d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "1f1967875c83a0cd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "4ec08ceecdffd585",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "663496f3ce9d725c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "7a26565ca94fbb15",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "8780defcdd4de946",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "9a6dcc963c578d62",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "b5a9192988411b7c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "d7b4350220512e78",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "db1cbf362a518907",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "e966a09d49e80268",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "f0d60cac2a2bd9a8",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "f6b85d1a41c8ab55",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_technical",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

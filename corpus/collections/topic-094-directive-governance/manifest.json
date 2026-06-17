@@ -1,0 +1,155 @@
+{
+  "topic_id": 94,
+  "family": "03_directive_governance",
+  "n_chapters": 12,
+  "coverage_score": 0.2173084020614624,
+  "topic_repr": "Michael Cooper  \n*Purdue University*\n\nHuseyin Gulen  \n*Virginia Tech*\n\n**Is Time-Series-Based Predictability Evident in Real Time?**\n\nThere now appears to be overwhelming evidence of stock market predictability. A large body of research shows that excess returns on the aggregate market are forecastable from the default spread, dividend yield, dividend payout, the term spread, consumption data, inf...",
+  "terms": [
+    "column_lineage_for_compliance_claim",
+    "dataset_under_audit",
+    "kernel_anomaly_supports_claim",
+    "requirement_min_one_verification",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_column_lineage_for_compliance_claim",
+    "t_dataset_under_audit",
+    "t_kernel_anomaly_supports_claim",
+    "t_requirement_min_one_verification",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "0fde4c1af5cc56dd",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "2b804246265fe732",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "617c60b60600328c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "7aaa73aec92b2fc6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "c604e669d2dabedc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ce9036b6b294495b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "dac146fe4435f40c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ebdb86ccbbed60df",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ed07611419d80234",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ee6b28aa00b619d3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "f1d67694036927b2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "fe7e548ce540a736",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "requirement_min_one_verification",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim",
+        "dataset_under_audit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "topic_id": 135,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.20977869629859924,
+  "topic_repr": "BMC Bioinformatics\n\nIntroduction\n\nOpen Access\n\nTrends in modeling Biomedical Complex Systems\n\nLuciano Milanesi* 1 , Paolo Romano 2 , Gastone Castellani 3 , Daniel Remondini 3 and Pietro Li\u00f2 4\n\nAddress: 1 Institute of Biomedical Technology, National Research Council, Milan, Italy, 2 Bioinformatics, National Cancer Research Institute, Genoa, Italy, 3 Physics Department of Bologna University, Galvani...",
+  "terms": [
+    "evidence_correlated_with",
+    "hipaa_safeguard_physical",
+    "lift_with_baseline_rate",
+    "pci_dss_requirement",
+    "profile_has_null_rate"
+  ],
+  "tables": [
+    "t_evidence_correlated_with",
+    "t_hipaa_safeguard_physical",
+    "t_lift_with_baseline_rate",
+    "t_pci_dss_requirement",
+    "t_profile_has_null_rate"
+  ],
+  "chapters": [
+    {
+      "id": "07545161d5acc10b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "0b0e0dc816f508b9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "0d77d0869b3e7f67",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "359e43bd5f639c07",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "44b94eb9dcfad9de",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "5a5bc78123a96df9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "652f27e19dca3956",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "6a39b8d69bba1398",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "6bcd9ff387c0d687",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "e811ea8ecc839839",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "ea402410e8c2b920",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "fb4f0b21cf3bf7e4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    },
+    {
+      "id": "fc33960451e3c0c6",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "pci_dss_requirement",
+        "lift_with_baseline_rate",
+        "evidence_correlated_with",
+        "profile_has_null_rate",
+        "hipaa_safeguard_physical"
+      ]
+    }
+  ]
+}

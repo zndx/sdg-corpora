@@ -1,0 +1,243 @@
+{
+  "topic_id": 70,
+  "family": "02_observation_measurement",
+  "n_chapters": 20,
+  "coverage_score": 0.31290218234062195,
+  "topic_repr": "Network Working Group                                         S. Bradner Request for Comments: 1752                            Harvard University Category: Standards Track                                      A. Mankin ISI January 1995\n\nThe Recommendation for the IP Next Generation Protocol\n\nStatus of this Memo\n\nThis document specifies an Internet standards track protocol for the Internet communit...",
+  "terms": [
+    "attestation_signed_by",
+    "attestation_with_supporting_evidence",
+    "audit_subclass",
+    "gdpr_article_subclass",
+    "soc2_trust_criterion"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_subclass",
+    "t_gdpr_article_subclass",
+    "t_soc2_trust_criterion"
+  ],
+  "chapters": [
+    {
+      "id": "03d516e292298077",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "0832ff09fd599e95",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "0bea6cc1557e50ef",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "26ed41bbe9e0018c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "37e9ac86b6f267fc",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "5b8d0936679cc508",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "78599f048d7cfb86",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "7d2b220b96938f81",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8335f98f3dcfe808",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8bd364c236aff0c3",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8de1b913c3ae1406",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "8f72e8348effd164",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "9c18963d50fd774a",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "ae057ac8b68e1165",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "db12651419c3863b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "db9bc29a3aa005b7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "de1081c6751ccbf7",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "e103e1c4e9c30b9b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "e54597e38c39538d",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    },
+    {
+      "id": "e5893bee32ac50bd",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "attestation_signed_by",
+        "soc2_trust_criterion",
+        "attestation_with_supporting_evidence",
+        "audit_subclass"
+      ]
+    }
+  ]
+}

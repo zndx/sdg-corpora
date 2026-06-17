@@ -1,0 +1,85 @@
+{
+  "topic_id": 169,
+  "family": "03_directive_governance",
+  "n_chapters": 10,
+  "coverage_score": 0.2517436146736145,
+  "topic_repr": "Entrepreneurship Education Learning By Doing Pdf 1 1 Mb\n\nEntrepreneurship Education\n\nEntrepreneurship Education\n\nEntrepreneurial Learning\n\nEntrepreneurship Skill Building\n\nThe Entrepreneurial Learning Journey and Back Again\n\nEntrepreneurial Learning\n\nInternational Entrepreneurship Education\n\nInnovation and Entrepreneurship in Education\n\nClassroom Exercises for Entrepreneurship\n\nEntrepreneurship Ed...",
+  "terms": [
+    "syscall_basic"
+  ],
+  "tables": [
+    "t_syscall_basic"
+  ],
+  "chapters": [
+    {
+      "id": "0e925fd94fca580a",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "0f397ec03e892d2d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "1eabab72e3e6c9ba",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "34ca184d023a4ba3",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "4aea4aa84713e7fe",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "50c76ddb587d27e4",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "a0ea12a15b9bdc3f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "a24101add4121216",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "d6562eb85dc11995",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "e74acc5a42d0bfd8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    }
+  ]
+}

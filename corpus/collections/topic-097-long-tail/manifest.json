@@ -1,0 +1,131 @@
+{
+  "topic_id": 97,
+  "family": "07_long_tail",
+  "n_chapters": 11,
+  "coverage_score": 0.16501885652542114,
+  "topic_repr": "Journal of species lists and distribution\n\nMammalia, Chiroptera, Phyllostomidae, Artibeus planirostris (Spix, 1823) and Trachops cirrhosus (Spix, 1823): First record for the state of Sergipe, northeastern Brazil\n\nJos\u00e9 Anderson Feij\u00f3 1 * and Hannah Larissa Nunes 1\n\n1 Universidade Federal da Para\u00edba, Centro de Ci\u00eancias Exatas e da Natureza, Departamento de Sistem\u00e1tica e Ecologia, Laborat\u00f3rio de Mast...",
+  "terms": [
+    "syscall_at_security_tier",
+    "syscall_equiv_in_subsystem",
+    "syscall_only_in_kernel_subsystem",
+    "syscall_subclass"
+  ],
+  "tables": [
+    "t_syscall_at_security_tier",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_only_in_kernel_subsystem",
+    "t_syscall_subclass"
+  ],
+  "chapters": [
+    {
+      "id": "09634db2170589e5",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "31702af617a9ce53",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "375d1e40a1ae1689",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "3f6f0abc55e30026",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "4d48f291866608b4",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "7956ed1f937e3bc6",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "a1a9dd8e6bc52733",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "ca882f5ae85518ec",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "ddf3f430093544d6",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "e4c9dbb6a0942809",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "fdf29f8c9eb4a9d9",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_equiv_in_subsystem",
+        "syscall_only_in_kernel_subsystem",
+        "syscall_subclass",
+        "syscall_at_security_tier"
+      ]
+    }
+  ]
+}

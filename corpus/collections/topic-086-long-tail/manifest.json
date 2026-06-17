@@ -1,0 +1,151 @@
+{
+  "topic_id": 86,
+  "family": "07_long_tail",
+  "n_chapters": 13,
+  "coverage_score": 0.2996397912502289,
+  "topic_repr": "Engineered Science\n\nDOI: https://dx.doi.org/10.30919/es8d799\n\nA Novel Multi Regional Reliability Method for COVID-19 Death Forecast\n\nOleg Gaidai1 and Yihan Xing 2,*\n\nAbstract\n\nCoronavirus disease was reported spread worldwide with low morbidity and mortality, presenting certain burden on worldwide public health. The present study describes a novel bio-system reliability approach, particularly suit...",
+  "terms": [
+    "cardinality_max_three_generic",
+    "cardinality_min_two_generic",
+    "equiv_intersect_artifact_with_part",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_cardinality_max_three_generic",
+    "t_cardinality_min_two_generic",
+    "t_equiv_intersect_artifact_with_part",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "0a4df1f063b4a905",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "15a795be5649d9cf",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "1cde1de6e044c1e3",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "28c0d7ec12b2897e",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "29acb60b8e064362",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "3b7ed927168932fc",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "6a1aa0e9895525c2",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "6e588eb7135570a7",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "7491fd3f4132e0f7",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "afc9a9d365d57cea",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "c423785ba9d03e0c",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "dcc7bf3488b10a89",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "df99f8a52ddc55cc",
+      "family": "01_foundation",
+      "cited_terms": [
+        "equiv_intersect_artifact_with_part",
+        "requirement_equiv_specifies_target",
+        "cardinality_max_three_generic",
+        "cardinality_min_two_generic"
+      ]
+    }
+  ]
+}

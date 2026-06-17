@@ -1,0 +1,177 @@
+{
+  "topic_id": 144,
+  "family": "01_foundation",
+  "n_chapters": 14,
+  "coverage_score": 0.3181970417499542,
+  "topic_repr": "JOURNAL OF\nDESIGN FOR RESILIENCE\nIN ARCHITECTURE & PLANNING\n\nResearch Article\n\nOnline: www.drarch.org\n\nVolume 3, Issue 1, (96-111), 2022\n\nDOI: 10.47818/DRArch.2022.v3i1046\n\nA comparative analysis of building large-scale projects in developing countries by emphasizing on land value changes: Tehran-Iran Mall versus IstanbulThird Airport\n\nSomaiyeh Nasrollahzadeh*\n\nAbstract\n\nToday's cities are competi...",
+  "terms": [
+    "attestation_at_period",
+    "attestation_with_supporting_evidence",
+    "audit_conducted_by",
+    "iso27001_annexa_subclass",
+    "requirement_equiv_specifies_target"
+  ],
+  "tables": [
+    "t_attestation_at_period",
+    "t_attestation_with_supporting_evidence",
+    "t_audit_conducted_by",
+    "t_iso27001_annexa_subclass",
+    "t_requirement_equiv_specifies_target"
+  ],
+  "chapters": [
+    {
+      "id": "15690a1cf52e3c12",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "1ce7aab16d829aab",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "1ef816c450f96d3f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "24cb2eed213b1d42",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "2e97e5c52877ff99",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "5658fa2106dc4e94",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "5fa16d3280a35618",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "79f2e052f0c77786",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "7f6be81c04295a04",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a89c7c7a3be753ca",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "a9ca6eed1924d93f",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "aad395b7a2498c00",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "d20ade69c528a617",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "e8db159cedfecae1",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "audit_conducted_by",
+        "iso27001_annexa_subclass",
+        "attestation_with_supporting_evidence",
+        "attestation_at_period",
+        "requirement_equiv_specifies_target"
+      ]
+    }
+  ]
+}

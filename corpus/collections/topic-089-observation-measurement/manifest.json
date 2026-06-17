@@ -1,0 +1,111 @@
+{
+  "topic_id": 89,
+  "family": "02_observation_measurement",
+  "n_chapters": 8,
+  "coverage_score": 0.23837098479270935,
+  "topic_repr": "DATA REQUIREMENTS FOR METROPOLITAN TRANSPORTATION PLANNING\n\nNAS-NAE\nOCT 26 1972\nLIBRARY\n\nHIGWAY RESEARCH BOARD\nRESEARCH COUNCIL\nACADEMY OF SCIENCES\u2014NATIONAL ACADEMY OF ENGINEERING\n\nHIGHWAY RESEARCH BOARD 1971\n\nOfficers\nCHARLES E. SHUMATE, Chairman\nALAN M. VOORHEES, First Vice Chairman\nWILLIAM L. GARRISON, Second Vice Chairman\nW. N. CAREY, JR., Executive Director\n\nExecutive Committee\nF. C. TURNER, ...",
+  "terms": [
+    "control_subclass",
+    "control_with_evidence_requirement",
+    "dempster_conflict_mass",
+    "policy_supersedes",
+    "verification_produces_evidence"
+  ],
+  "tables": [
+    "t_control_subclass",
+    "t_control_with_evidence_requirement",
+    "t_dempster_conflict_mass",
+    "t_policy_supersedes",
+    "t_verification_produces_evidence"
+  ],
+  "chapters": [
+    {
+      "id": "4ce31db5cf8c7288",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "5537c81fecda9e96",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "5d39f6337520079b",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "7f9101fafd473056",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "b6a601414acf3106",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "b9506836e9ca3fea",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "baee8f392a9e68d9",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    },
+    {
+      "id": "fe7baad25fa8939c",
+      "family": "03_directive_governance",
+      "cited_terms": [
+        "control_subclass",
+        "dempster_conflict_mass",
+        "policy_supersedes",
+        "control_with_evidence_requirement",
+        "verification_produces_evidence"
+      ]
+    }
+  ]
+}

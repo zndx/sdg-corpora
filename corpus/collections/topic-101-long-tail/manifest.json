@@ -1,0 +1,141 @@
+{
+  "topic_id": 101,
+  "family": "07_long_tail",
+  "n_chapters": 12,
+  "coverage_score": 0.22165584564208984,
+  "topic_repr": "ADDRESSING BLACK CARBON EMISSION INVENTORIES\n\nA REPORT BY THE CLIMATE AND CLEAN AIR COALITION SCIENTIFIC ADVISORY PANEL\n\nTable of Contents\n\nSummary\n\no Black Carbon (BC) has a strong influence on radiative forcing, affecting the climate globally and regionally, and is responsible for a significant proportion of the global forcing to date. BC deposited on the cryosphere leads to enhanced melting rat...",
+  "terms": [
+    "designative_subclass_basic",
+    "identifier_unique",
+    "requirement_has_priority",
+    "subclass_to_designative_ice"
+  ],
+  "tables": [
+    "t_designative_subclass_basic",
+    "t_identifier_unique",
+    "t_requirement_has_priority",
+    "t_subclass_to_designative_ice"
+  ],
+  "chapters": [
+    {
+      "id": "09277f60271c87e7",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "12fe8f8a2303cd78",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "31a53fe70d041e1c",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "377e986c4de6b342",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "70b00c2ee4d09079",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "739219aa2ab4151c",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "75d0279854383dea",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "7ca7a58efa03f5ee",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "8846d5718148a43b",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "96dbaccad138c024",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "e80d24f0105c26cf",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    },
+    {
+      "id": "ec786c887ff4b503",
+      "family": "01_foundation",
+      "cited_terms": [
+        "requirement_has_priority",
+        "subclass_to_designative_ice",
+        "designative_subclass_basic",
+        "identifier_unique"
+      ]
+    }
+  ]
+}

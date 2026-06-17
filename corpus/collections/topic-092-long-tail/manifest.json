@@ -1,0 +1,100 @@
+{
+  "topic_id": 92,
+  "family": "07_long_tail",
+  "n_chapters": 7,
+  "coverage_score": 0.24604320526123047,
+  "topic_repr": "7 Integrated Drainage Strategy and SUDS Options Appraisal\n\nFlood risk generated as a result of any development is an important consideration with respect to the assessment of development area potential and current national planning policy with regards to flood risk management.\n\nIn areas where development runoff is likely to be discharged to a river system, it is important that new development does...",
+  "terms": [
+    "attestation_with_supporting_evidence",
+    "control_with_evidence_requirement",
+    "hipaa_safeguard_physical",
+    "hipaa_safeguard_technical",
+    "pci_dss_requirement"
+  ],
+  "tables": [
+    "t_attestation_with_supporting_evidence",
+    "t_control_with_evidence_requirement",
+    "t_hipaa_safeguard_physical",
+    "t_hipaa_safeguard_technical",
+    "t_pci_dss_requirement"
+  ],
+  "chapters": [
+    {
+      "id": "5dc9a829c7a2c1ef",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "7c62721d063ce46a",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "a0e08767378cd038",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "a55cebaf50cdbf9c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "adc7688637c3e669",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "e4b202c2b808854f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    },
+    {
+      "id": "e70d5f595063f3ca",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "attestation_with_supporting_evidence",
+        "pci_dss_requirement",
+        "control_with_evidence_requirement",
+        "hipaa_safeguard_physical",
+        "hipaa_safeguard_technical"
+      ]
+    }
+  ]
+}

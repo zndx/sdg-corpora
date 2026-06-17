@@ -1,0 +1,78 @@
+{
+  "topic_id": 114,
+  "family": "07_long_tail",
+  "n_chapters": 9,
+  "coverage_score": 0.16074880957603455,
+  "topic_repr": "Journal of Technology and Exploitation in Mechanical Engineering\n\nVol. 3, no. 1, pp. 8\u201312, 2017\n\nBIOMECHANICS OF THE HUMAN SPINE\n\n\u0141ukasz Jaworski 1 , Robert Karpi\u0144ski 2\n\n1 Poznan University of Technology, Faculty of Mechanical Engineering and Management, Piotrowo 3 Str., 60-965 Pozna\u0144, Poland, email: email@example.com\n\n2 Lublin University of Technology, Faculty of Mechanical Engineering, Biomedica...",
+  "terms": [
+    "syscall_basic"
+  ],
+  "tables": [
+    "t_syscall_basic"
+  ],
+  "chapters": [
+    {
+      "id": "07d5ed9bebc0a12b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "0f08b44337fe5813",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "19f35cec7bbdc626",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "46f0cad0f26c5f0d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "4e4452e57cdba0b3",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "70b876f082785b3d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "7b54038a631b3372",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "95f279af0f795f43",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "cf1fa63887dd757b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic"
+      ]
+    }
+  ]
+}

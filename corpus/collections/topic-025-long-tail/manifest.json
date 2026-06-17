@@ -1,0 +1,129 @@
+{
+  "topic_id": 25,
+  "family": "07_long_tail",
+  "n_chapters": 14,
+  "coverage_score": 0.34244704246520996,
+  "topic_repr": "\u51fa\u5149\n\n2017\n\nRealizing a Sustainable Society\n\nIDEMITSU Group\nIDEMITSU REPORT\n\nAbout the IDEMITSU Report\n\nThe IDEMITSU Report is offered in both print and online versions. This year\u2019s print version focuses on providing easy-to-understand explanations of the importance of Environment, Society, and Governance (ESG) matters in our management policies as well as the relevance of ESG initiatives to the fun...",
+  "terms": [
+    "claim_observed_by_event",
+    "metric_observed_by_event"
+  ],
+  "tables": [
+    "t_claim_observed_by_event",
+    "t_metric_observed_by_event"
+  ],
+  "chapters": [
+    {
+      "id": "0d49411df656757e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "1bf264e52ba5e9e9",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "4cf79ba9102f0d12",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "72c074430d23e959",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "821e66bd2b216e8d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "8ec920e6c5fdd4d0",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "92d1549527a8eb67",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "a278e353f92dca94",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "ab57041bd54a2a27",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "b9ecf3a77d5f34c8",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "bc92eb56fbd6ce51",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "bd225cd0c4fdfde3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "d5e6305ce08e39e3",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    },
+    {
+      "id": "e9affc2d59b2d229",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "claim_observed_by_event",
+        "metric_observed_by_event"
+      ]
+    }
+  ]
+}

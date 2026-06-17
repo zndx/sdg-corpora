@@ -1,0 +1,199 @@
+{
+  "topic_id": 19,
+  "family": "01_foundation",
+  "n_chapters": 16,
+  "coverage_score": 0.336684912443161,
+  "topic_repr": "COLLEGE OF EDUCATION GRADUATE PROGRAMS HANDBOOK 2006-2007\n\nThe College of Education Graduate Programs Handbook is for informational purposes and does not constitute a contract. Programs listed are subject to change, and individual departments and units should be consulted for further information.\n\nThe commitment of the University to the most fundamental principles of academic freedom, equality of ...",
+  "terms": [
+    "ebpfprogram_verified_safe",
+    "syscall_at_security_tier",
+    "syscall_audited_by",
+    "syscall_equiv_in_subsystem",
+    "syscall_max_one_return"
+  ],
+  "tables": [
+    "t_ebpfprogram_verified_safe",
+    "t_syscall_at_security_tier",
+    "t_syscall_audited_by",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_max_one_return"
+  ],
+  "chapters": [
+    {
+      "id": "07e75ef08de682f8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "192299b0c4c5dd7d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "2bf0778fbc3ea24e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "2fb8c8f624f5c1db",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "35a63b9553c80ba3",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "487ff57607996000",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "623eceab445ddaf4",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "69f0caf6a41111a0",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "73fd24a42897d961",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "9b36654c6904c398",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "9e7959db95d0e12d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "b5a53d8607d5a3e2",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c50918f40610ab21",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "c7edca327a223b40",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "f0468c2a12aca05a",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "ff612faf2710a4e7",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "syscall_equiv_in_subsystem",
+        "ebpfprogram_verified_safe",
+        "syscall_audited_by",
+        "syscall_max_one_return"
+      ]
+    }
+  ]
+}

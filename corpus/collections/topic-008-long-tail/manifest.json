@@ -1,0 +1,137 @@
+{
+  "topic_id": 8,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.15704482793807983,
+  "topic_repr": "Metabolic disturbances of non-alcoholic fatty liver resemble the alterations typical for type 2 diabetes\n\nCitation for published version (APA):\nBrouwers, B., Schrauwen-Hinderling, V. B., Jelenik, T., Gemmink, A., Havekes, B., Bruls, Y., Dahlmans, D., Roden, M., Hesselink, M. K. C., & Schrauwen, P. (2017). Metabolic disturbances of non-alcoholic fatty liver resemble the alterations typical for type...",
+  "terms": [
+    "syscall_audited_by",
+    "syscall_basic"
+  ],
+  "tables": [
+    "t_syscall_audited_by",
+    "t_syscall_basic"
+  ],
+  "chapters": [
+    {
+      "id": "160619e7b32206da",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "228407e675f17592",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "24a6f83b778d0ca1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "2baecc8e6b1bf4a1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "3ed03674ef94720b",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "4063181c8c2bdacc",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "421625d88769eb92",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "4932e262586023a8",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "5e53c0bd3f83572d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "7452c16987a7616d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "75d0e31af90e893d",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "9064c855fa587d4e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "93d74314f2528a33",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "bc7601b6217900ff",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "f123c1a51a996392",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_audited_by",
+        "syscall_basic"
+      ]
+    }
+  ]
+}

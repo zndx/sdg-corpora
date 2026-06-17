@@ -1,0 +1,188 @@
+{
+  "topic_id": 30,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.17171046137809753,
+  "topic_repr": "**Basic Information**\n\n- **Catalog Number:** 20536-1-AP\n- **Size:** 150ul, Concentration: 600 ug/ml by Nanodrop;\n- **Source:** Rabbit\n- **Isotype:** IgG\n- **Immunogen Catalog Number:** AC14521\n- **GenBank Accession Number:** BC002409\n- **GeneID (NCBI):** 60\n- **UNIPROT ID:** P60709\n- **Full Name:** actin, beta\n- **Calculated MW:** 375 aa, 42 kDa\n- **Observed MW:** 42 kDa\n\n**Purification Method:** ...",
+  "terms": [
+    "attestation_signed_by",
+    "column_lineage_for_compliance_claim",
+    "gdpr_lawful_basis",
+    "kernel_anomaly_supports_claim",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_signed_by",
+    "t_column_lineage_for_compliance_claim",
+    "t_gdpr_lawful_basis",
+    "t_kernel_anomaly_supports_claim",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "017f3a3e2b1a4e43",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "0285a1ad16df3332",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "075b861d677f4623",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "0a988cd1e6854efc",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "6395ca7978426591",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "76fd4064a063303c",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "82ae605e509d81ff",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "98f0faf23bf53f9e",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "b099c942564d4a1d",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "c843a60d898e2f31",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "cc3686f6c16d4d96",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "ccbbe2beff222995",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "d041d72c2b83ea9f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "e31e7a092acb845f",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "e92a56e82828e215",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "gdpr_lawful_basis",
+        "kernel_anomaly_supports_claim",
+        "column_lineage_for_compliance_claim"
+      ]
+    }
+  ]
+}

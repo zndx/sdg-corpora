@@ -1,0 +1,78 @@
+{
+  "topic_id": 190,
+  "family": "03_directive_governance",
+  "n_chapters": 5,
+  "coverage_score": 0.2556266188621521,
+  "topic_repr": "crop protection crop protection monthly\n\ninternational news, comments, features international news, comments, features international news, comments, features and conference reports and conference reports and conference reports\n\nApril 2017\n\nCrop Protection European Regulatory Conference\n\n15 th -16 th March 2017\n\nCONTENTS\n\nCrop Protection European Regulatory Conference\n\nThe 4th Crop Protection Europ...",
+  "terms": [
+    "attestation_min_one_signer",
+    "attestation_signed_by",
+    "column_lineage_for_compliance_claim",
+    "kernel_anomaly_supports_claim",
+    "trace_supports_claim"
+  ],
+  "tables": [
+    "t_attestation_min_one_signer",
+    "t_attestation_signed_by",
+    "t_column_lineage_for_compliance_claim",
+    "t_kernel_anomaly_supports_claim",
+    "t_trace_supports_claim"
+  ],
+  "chapters": [
+    {
+      "id": "601959f4f1499ad4",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "column_lineage_for_compliance_claim",
+        "attestation_min_one_signer",
+        "kernel_anomaly_supports_claim"
+      ]
+    },
+    {
+      "id": "858e56e9efc24f10",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "column_lineage_for_compliance_claim",
+        "attestation_min_one_signer",
+        "kernel_anomaly_supports_claim"
+      ]
+    },
+    {
+      "id": "df7b11f573b09066",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "column_lineage_for_compliance_claim",
+        "attestation_min_one_signer",
+        "kernel_anomaly_supports_claim"
+      ]
+    },
+    {
+      "id": "f4bbf3b09e72aad2",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "column_lineage_for_compliance_claim",
+        "attestation_min_one_signer",
+        "kernel_anomaly_supports_claim"
+      ]
+    },
+    {
+      "id": "fe90de6e9990e26b",
+      "family": "07_long_tail",
+      "cited_terms": [
+        "trace_supports_claim",
+        "attestation_signed_by",
+        "column_lineage_for_compliance_claim",
+        "attestation_min_one_signer",
+        "kernel_anomaly_supports_claim"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "topic_id": 77,
+  "family": "01_foundation",
+  "n_chapters": 17,
+  "coverage_score": 0.11730901896953583,
+  "topic_repr": "BIOENG-445\n\nBiomedical optics\n\nWagni\u00e8res Georges\n\nSummary\n\nThis course addresses the principles governing the interactions between light and biological tissue, their optical properties and basic concepts of radiometry. Illustrative diagnostic and therapeutic applications of light in medicine and photobiology will also be described.\n\nContent\n\nIntroduction\n\nIntroduction to general optics and tissue ...",
+  "terms": [
+    "syscall_audited_by",
+    "syscall_basic"
+  ],
+  "tables": [
+    "t_syscall_audited_by",
+    "t_syscall_basic"
+  ],
+  "chapters": [
+    {
+      "id": "2838863577b0e00f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "2a8ada5e2e927a2e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "3f60d56a81846087",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "46686197f6e444de",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "5815a14fbe9638ad",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "6231c878cba9c1a9",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "7b3e5ced6d283340",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "99d3818cf4b6d764",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "9a8ef7eeb8ec843f",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "a1b579ba9ba98788",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "b1df21690ca95a24",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "c4b0cbf6d0c3e7a1",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "c9e81c4b1ebcbd8c",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "d2180bbb47da2f7e",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "d3ba0f1fd5ebe142",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "f5d63ce85d7d0962",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "f6b9c6dd44c00c85",
+      "family": "04_ebpf_kernel",
+      "cited_terms": [
+        "syscall_basic",
+        "syscall_audited_by"
+      ]
+    }
+  ]
+}
