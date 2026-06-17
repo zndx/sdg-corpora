@@ -9,11 +9,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has full name {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has full name {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -29,11 +30,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has email {Y}",
-      "mean_verbal_length": 35.0,
+      "verbal_template": "{X} is an artifact that has email {Y}",
+      "mean_verbal_length": 37.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -49,11 +51,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has birthplace {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is an artifact that has birthplace {Y}",
+      "mean_verbal_length": 42.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -69,11 +72,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has affiliation {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has affiliation {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -89,11 +93,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has role at {Y}",
-      "mean_verbal_length": 37.0,
+      "verbal_template": "{X} is an artifact that has role at {Y}",
+      "mean_verbal_length": 39.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -109,11 +114,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has country {Y}",
-      "mean_verbal_length": 37.0,
+      "verbal_template": "{X} is an artifact that has country {Y}",
+      "mean_verbal_length": 39.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -129,11 +135,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has tax id {Y}",
-      "mean_verbal_length": 36.0,
+      "verbal_template": "{X} is an artifact that has tax id {Y}",
+      "mean_verbal_length": 38.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -149,11 +156,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has legal name {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is an artifact that has legal name {Y}",
+      "mean_verbal_length": 42.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -169,11 +177,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has postal address {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has postal address {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -189,11 +198,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has geo coordinates {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is an artifact that has geo coordinates {Y}",
+      "mean_verbal_length": 47.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -209,11 +219,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has latitude {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is an artifact that has latitude {Y}",
+      "mean_verbal_length": 40.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -229,11 +240,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has longitude {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has longitude {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -249,11 +261,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has event start time {Y}",
-      "mean_verbal_length": 46.0,
+      "verbal_template": "{X} is an artifact that has event start time {Y}",
+      "mean_verbal_length": 48.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -269,11 +282,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has event end time {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has event end time {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -289,11 +303,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has event location {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has event location {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -309,11 +324,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has organizer {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has organizer {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -329,11 +345,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has author {Y}",
-      "mean_verbal_length": 36.0,
+      "verbal_template": "{X} is an artifact that has author {Y}",
+      "mean_verbal_length": 38.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -349,11 +366,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has date published {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has date published {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -369,11 +387,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has publisher {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has publisher {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -389,11 +408,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has brand {Y}",
-      "mean_verbal_length": 35.0,
+      "verbal_template": "{X} is an artifact that has brand {Y}",
+      "mean_verbal_length": 37.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -409,11 +429,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has sku {Y}",
-      "mean_verbal_length": 33.0,
+      "verbal_template": "{X} is an artifact that has sku {Y}",
+      "mean_verbal_length": 35.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -429,11 +450,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has price {Y}",
-      "mean_verbal_length": 35.0,
+      "verbal_template": "{X} is an artifact that has price {Y}",
+      "mean_verbal_length": 37.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -449,11 +471,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has review rating {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is an artifact that has review rating {Y}",
+      "mean_verbal_length": 45.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -469,11 +492,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has review author {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is an artifact that has review author {Y}",
+      "mean_verbal_length": 45.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -489,11 +513,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that reviews item {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is an artifact that reviews item {Y}",
+      "mean_verbal_length": 40.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -509,11 +534,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that annotates column {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is a descriptive information content entity that annotates column {Y}",
+      "mean_verbal_length": 73.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -529,11 +555,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has tag confidence {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is a descriptive information content entity that has tag confidence {Y}",
+      "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -549,11 +576,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that by annotator {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is a descriptive information content entity that by annotator {Y}",
+      "mean_verbal_length": 69.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -569,11 +597,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that annotates property of {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is a descriptive information content entity that annotates property of {Y}",
+      "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -589,11 +618,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has subject column {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is a descriptive information content entity that has subject column {Y}",
+      "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -609,11 +639,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has object column {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that has object column {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -629,11 +660,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has table topic {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a descriptive information content entity that has table topic {Y}",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -649,11 +681,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that matches entity {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is a descriptive information content entity that matches entity {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -669,11 +702,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that foreign key to {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is a descriptive information content entity that foreign key to {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -689,11 +723,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that is primary key of {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that is primary key of {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -709,11 +744,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has fdleft hand side {Y}",
-      "mean_verbal_length": 46.0,
+      "verbal_template": "{X} is a descriptive information content entity that has fdleft hand side {Y}",
+      "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -729,11 +765,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has fdright hand side {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is a descriptive information content entity that has fdright hand side {Y}",
+      "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -749,11 +786,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has distinctness ratio {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that has distinctness ratio {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -769,11 +807,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has nullability state {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is a descriptive information content entity that has nullability state {Y}",
+      "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -789,11 +828,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has value distribution {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that has value distribution {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -809,11 +849,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that sourced from table {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is a descriptive information content entity that sourced from table {Y}",
+      "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -829,11 +870,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that entity type belongs to {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that entity type belongs to {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -849,11 +891,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that matches ontology class {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that matches ontology class {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -869,11 +912,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that aligned to schema org label {Y}",
-      "mean_verbal_length": 53.0,
+      "verbal_template": "{X} is a descriptive information content entity that aligned to schema org label {Y}",
+      "mean_verbal_length": 84.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -889,11 +933,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that aligned to dbpedia label {Y}",
-      "mean_verbal_length": 50.0,
+      "verbal_template": "{X} is a descriptive information content entity that aligned to dbpedia label {Y}",
+      "mean_verbal_length": 81.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -909,11 +954,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that nist80053 control {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a directive information content entity that nist80053 control {Y}",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -929,11 +975,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at nistimpact level {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a directive information content entity that at nistimpact level {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -949,11 +996,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at nistimpact level {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a directive information content entity that at nistimpact level {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -969,11 +1017,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at nistimpact level {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a directive information content entity that at nistimpact level {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -989,11 +1038,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that iso27001 clause {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that iso27001 clause {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1009,11 +1059,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that iso27001 annex a {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is a directive information content entity that iso27001 annex a {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1029,11 +1080,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that soc2 trust criterion {Y}",
-      "mean_verbal_length": 46.0,
+      "verbal_template": "{X} is a directive information content entity that soc2 trust criterion {Y}",
+      "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1049,10 +1101,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for soc2 domain {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that for soc2 domain {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "soc2_trust_criterion"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1069,10 +1124,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for soc2 domain {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that for soc2 domain {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "soc2_trust_criterion"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1089,10 +1147,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for soc2 domain {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that for soc2 domain {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "soc2_trust_criterion"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1109,11 +1170,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for soc2 domain {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that for soc2 domain {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1129,10 +1191,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for soc2 domain {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that for soc2 domain {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "soc2_trust_criterion"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1149,11 +1214,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that gdpr article {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is a directive information content entity that gdpr article {Y}",
+      "mean_verbal_length": 67.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1169,10 +1235,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has lawful basis {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is a directive information content entity that has lawful basis {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "gdpr_article_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1189,11 +1258,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that grants data subject right {Y}",
-      "mean_verbal_length": 51.0,
+      "verbal_template": "{X} is a directive information content entity that grants data subject right {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1209,11 +1279,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that hipaa safeguard {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that hipaa safeguard {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1229,11 +1300,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that hipaa safeguard {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that hipaa safeguard {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1249,11 +1321,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that hipaa safeguard {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a directive information content entity that hipaa safeguard {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1269,11 +1342,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that pci dss requirement {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a directive information content entity that pci dss requirement {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1289,10 +1363,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at nistimpact level {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a directive information content entity that at nistimpact level {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
+      ],
+      "broader": [
+        "nist80053_high_impact"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1309,11 +1386,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that combines via dempster {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is a descriptive information content entity that combines via dempster {Y}",
+      "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1329,11 +1407,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has first combinant {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that has first combinant {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1349,11 +1428,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has second combinant {Y}",
-      "mean_verbal_length": 46.0,
+      "verbal_template": "{X} is a descriptive information content entity that has second combinant {Y}",
+      "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1369,11 +1449,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has conflict mass {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that has conflict mass {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1389,11 +1470,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that conjunctively combines {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that conjunctively combines {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1409,11 +1491,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that disjunctively combines {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that disjunctively combines {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1429,11 +1512,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that yager combines {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is a descriptive information content entity that yager combines {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1449,11 +1533,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that refines frame {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is a descriptive information content entity that refines frame {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1469,11 +1554,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that coarsens frame {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is a descriptive information content entity that coarsens frame {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1489,11 +1575,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has pignistic transform {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is a descriptive information content entity that has pignistic transform {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1509,11 +1596,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that plausibility for claim {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that plausibility for claim {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1529,11 +1617,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that belief for claim {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is a descriptive information content entity that belief for claim {Y}",
+      "mean_verbal_length": 73.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1549,11 +1638,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that evidence independent of {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is a descriptive information content entity that evidence independent of {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1569,11 +1659,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that evidence correlated with {Y}",
-      "mean_verbal_length": 50.0,
+      "verbal_template": "{X} is a descriptive information content entity that evidence correlated with {Y}",
+      "mean_verbal_length": 81.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1589,11 +1680,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has normalized form {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that has normalized form {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1609,11 +1701,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has schema version {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has schema version {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1629,11 +1722,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that schema revision of {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that schema revision of {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1649,11 +1743,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has column version {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is a descriptive information content entity that has column version {Y}",
+      "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1669,10 +1764,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that renamed from {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is a descriptive information content entity that renamed from {Y}",
+      "mean_verbal_length": 69.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "nonbreaking_change_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1689,11 +1787,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that type changed from {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that type changed from {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1709,10 +1808,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that added at schema version {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is a descriptive information content entity that added at schema version {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "column_version_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1729,11 +1831,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that dropped at schema version {Y}",
-      "mean_verbal_length": 51.0,
+      "verbal_template": "{X} is a descriptive information content entity that dropped at schema version {Y}",
+      "mean_verbal_length": 82.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1749,11 +1852,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that snapshot of {Y}",
-      "mean_verbal_length": 37.0,
+      "verbal_template": "{X} is an artifact that snapshot of {Y}",
+      "mean_verbal_length": 39.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1769,11 +1873,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at dataset version {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that at dataset version {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1789,11 +1894,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that breaking change for {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that breaking change for {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1809,11 +1915,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that non breaking change for {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is a descriptive information content entity that non breaking change for {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1829,11 +1936,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that migrates schema to {Y}",
+      "verbal_template": "{X} is a process that migrates schema to {Y}",
       "mean_verbal_length": 44.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1849,11 +1957,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that rolls back to {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is a descriptive information content entity that rolls back to {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1869,11 +1978,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that forward compatible with {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is a descriptive information content entity that forward compatible with {Y}",
+      "mean_verbal_length": 80.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1889,11 +1999,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that backward compatible with {Y}",
-      "mean_verbal_length": 50.0,
+      "verbal_template": "{X} is a descriptive information content entity that backward compatible with {Y}",
+      "mean_verbal_length": 81.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1909,11 +2020,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has span context {Y}",
+      "verbal_template": "{X} is a process that has span context {Y}",
       "mean_verbal_length": 42.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1929,11 +2041,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has parent span {Y}",
+      "verbal_template": "{X} is a process that has parent span {Y}",
       "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1949,11 +2062,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has trace id {Y}",
+      "verbal_template": "{X} is a process that has trace id {Y}",
       "mean_verbal_length": 38.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -1969,10 +2083,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has span attribute {Y}",
+      "verbal_template": "{X} is a process that has span attribute {Y}",
       "mean_verbal_length": 44.0,
       "bfo_anchor_path": [
         "bfo:Process"
+      ],
+      "broader": [
+        "opentelemetry_span_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -1989,10 +2106,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has span status {Y}",
+      "verbal_template": "{X} is a process that has span status {Y}",
       "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "bfo:Process"
+      ],
+      "broader": [
+        "opentelemetry_span_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -2009,11 +2129,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that emits metric {Y}",
+      "verbal_template": "{X} is a process that emits metric {Y}",
       "mean_verbal_length": 38.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2029,11 +2150,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has metric unit {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has metric unit {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2049,11 +2171,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has aggregation temporality {Y}",
-      "mean_verbal_length": 53.0,
+      "verbal_template": "{X} is an artifact that has aggregation temporality {Y}",
+      "mean_verbal_length": 55.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2069,11 +2192,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has metric kind {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has metric kind {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2089,11 +2213,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has metric kind {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has metric kind {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2109,11 +2234,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has metric kind {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has metric kind {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2129,11 +2255,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has metric kind {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has metric kind {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2149,11 +2276,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has log severity {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is an artifact that has log severity {Y}",
+      "mean_verbal_length": 44.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2169,11 +2297,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has resource attribute {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is an artifact that has resource attribute {Y}",
+      "mean_verbal_length": 50.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2189,11 +2318,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that within span context {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is an artifact that within span context {Y}",
+      "mean_verbal_length": 47.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2209,11 +2339,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has root span {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has root span {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2229,11 +2360,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has service name {Y}",
-      "mean_verbal_length": 42.0,
+      "verbal_template": "{X} is an artifact that has service name {Y}",
+      "mean_verbal_length": 44.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2249,11 +2381,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that anomaly in metric {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that anomaly in metric {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2269,11 +2402,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that baseline for {Y}",
-      "mean_verbal_length": 38.0,
+      "verbal_template": "{X} is a descriptive information content entity that baseline for {Y}",
+      "mean_verbal_length": 69.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2289,11 +2423,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that triggered by metric {Y}",
+      "verbal_template": "{X} is a process that triggered by metric {Y}",
       "mean_verbal_length": 45.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2309,11 +2444,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that attaches to return hook {Y}",
-      "mean_verbal_length": 49.0,
+      "verbal_template": "{X} is an artifact that attaches to return hook {Y}",
+      "mean_verbal_length": 51.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2329,11 +2465,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has perf event config {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is an artifact that has perf event config {Y}",
+      "mean_verbal_length": 49.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2349,11 +2486,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has bpfhelper function {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is an artifact that has bpfhelper function {Y}",
+      "mean_verbal_length": 50.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2369,11 +2507,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that called by program {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is an artifact that called by program {Y}",
+      "mean_verbal_length": 45.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2389,11 +2528,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has ring buffer config {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is an artifact that has ring buffer config {Y}",
+      "mean_verbal_length": 50.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2409,11 +2549,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has perf buffer config {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is an artifact that has perf buffer config {Y}",
+      "mean_verbal_length": 50.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2429,11 +2570,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has lruhash config {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that has lruhash config {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2449,11 +2591,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has xdpaction {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has xdpaction {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2469,11 +2612,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has xdpaction {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has xdpaction {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2489,11 +2633,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has xdpaction {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is an artifact that has xdpaction {Y}",
+      "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2509,11 +2654,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has tcdirection {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that has tcdirection {Y}",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2529,11 +2675,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that attaches to cgroup {Y}",
-      "mean_verbal_length": 44.0,
+      "verbal_template": "{X} is an artifact that attaches to cgroup {Y}",
+      "mean_verbal_length": 46.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2549,11 +2696,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that with process id {Y}",
+      "verbal_template": "{X} is a process that with process id {Y}",
       "mean_verbal_length": 41.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2569,11 +2717,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that with thread id {Y}",
+      "verbal_template": "{X} is a process that with thread id {Y}",
       "mean_verbal_length": 40.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2589,11 +2738,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that with process comm {Y}",
+      "verbal_template": "{X} is a process that with process comm {Y}",
       "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2608,11 +2758,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that supports claim descriptive information content entity",
+      "verbal_template": "{X} is a process that supports claim descriptive information content entity",
       "mean_verbal_length": 75.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2627,11 +2778,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that produces evidence descriptive information content entity",
+      "verbal_template": "{X} is a process that produces evidence descriptive information content entity",
       "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2646,11 +2798,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
+      "verbal_template": "{X} is a process that governed by directive information content entity",
       "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2665,11 +2818,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
-      "mean_verbal_length": 70.0,
+      "verbal_template": "{X} is an artifact that governed by directive information content entity",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2684,11 +2838,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that describes transformation process",
-      "mean_verbal_length": 54.0,
+      "verbal_template": "{X} is a descriptive information content entity that describes transformation process",
+      "mean_verbal_length": 85.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2703,11 +2858,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
-      "mean_verbal_length": 70.0,
+      "verbal_template": "{X} is a designative information content entity that governed by directive information content entity",
+      "mean_verbal_length": 101.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2727,6 +2883,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2746,6 +2903,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2760,11 +2918,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that attests to artifact artifact",
-      "mean_verbal_length": 50.0,
+      "verbal_template": "{X} is a directive information content entity that attests to artifact artifact",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2779,11 +2938,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that evidence for process process",
-      "mean_verbal_length": 50.0,
+      "verbal_template": "{X} is a descriptive information content entity that evidence for process process",
+      "mean_verbal_length": 81.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2798,11 +2958,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that signs process process",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is an artifact that signs process process",
+      "mean_verbal_length": 45.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2817,11 +2978,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that under audit process",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is an artifact that under audit process",
+      "mean_verbal_length": 43.0,
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2836,11 +2998,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
-      "mean_verbal_length": 70.0,
+      "verbal_template": "{X} is a descriptive information content entity that governed by directive information content entity",
+      "mean_verbal_length": 101.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2855,11 +3018,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that supports claim descriptive information content entity",
-      "mean_verbal_length": 75.0,
+      "verbal_template": "{X} is an artifact that supports claim descriptive information content entity",
+      "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2874,11 +3038,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that observes syscall designative information content entity",
+      "verbal_template": "{X} is a process that observes syscall designative information content entity",
       "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DesignativeICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2893,11 +3058,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that attests to claim descriptive information content entity",
+      "verbal_template": "{X} is a process that attests to claim descriptive information content entity",
       "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2912,11 +3078,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that combines via dempster descriptive information content entity",
-      "mean_verbal_length": 82.0,
+      "verbal_template": "{X} is an artifact that combines via dempster descriptive information content entity",
+      "mean_verbal_length": 84.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2931,11 +3098,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that supports claim descriptive information content entity",
-      "mean_verbal_length": 75.0,
+      "verbal_template": "{X} is an artifact that supports claim descriptive information content entity",
+      "mean_verbal_length": 77.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2950,11 +3118,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
+      "verbal_template": "{X} is a process that governed by directive information content entity",
       "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2969,11 +3138,12 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
-      "mean_verbal_length": 70.0,
+      "verbal_template": "{X} is an artifact that governed by directive information content entity",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -2989,11 +3159,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is a artifact",
-      "mean_verbal_length": 17.0,
+      "verbal_template": "{X} is an artifact",
+      "mean_verbal_length": 18.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3009,11 +3180,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is a artifact",
-      "mean_verbal_length": 17.0,
+      "verbal_template": "{X} is an artifact",
+      "mean_verbal_length": 18.0,
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3029,11 +3201,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that is about {Y}",
-      "mean_verbal_length": 34.0,
+      "verbal_template": "{X} is a descriptive information content entity that is about {Y}",
+      "mean_verbal_length": 65.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3049,11 +3222,12 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governs {Y}",
-      "mean_verbal_length": 33.0,
+      "verbal_template": "{X} is a directive information content entity that governs {Y}",
+      "mean_verbal_length": 62.0,
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3074,6 +3248,7 @@
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3094,6 +3269,7 @@
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3114,6 +3290,7 @@
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3135,6 +3312,7 @@
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3156,6 +3334,7 @@
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3177,6 +3356,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3197,6 +3377,7 @@
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3217,6 +3398,7 @@
       "bfo_anchor_path": [
         "cco:Artifact"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3237,6 +3419,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3257,6 +3440,7 @@
       "bfo_anchor_path": [
         "cco:DirectiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -3278,6 +3462,7 @@
       "bfo_anchor_path": [
         "bfo:Process"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",

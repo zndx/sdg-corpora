@@ -9,10 +9,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that over frame of discernment {Y}",
-      "mean_verbal_length": 51.0,
+      "verbal_template": "{X} is a descriptive information content entity that over frame of discernment {Y}",
+      "mean_verbal_length": 82.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "mass_function_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -29,10 +32,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that assigns mass to {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a descriptive information content entity that assigns mass to {Y}",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "mass_function_only_assigns_subsets"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -49,10 +55,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has normalization constant {Y}",
-      "mean_verbal_length": 52.0,
+      "verbal_template": "{X} is a descriptive information content entity that has normalization constant {Y}",
+      "mean_verbal_length": 83.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "mass_function_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -69,10 +78,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has focal element {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that has focal element {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "mass_function_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -89,10 +101,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that assigns mass to {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a descriptive information content entity that assigns mass to {Y}",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "mass_function_subclass"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -114,6 +129,9 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [
+        "mass_function_with_focal_element"
+      ],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -133,6 +151,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -154,6 +173,9 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [
+        "mass_function_basic"
+      ],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -171,10 +193,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has belief lower bound {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that has belief lower bound {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "belief_interval_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -191,10 +216,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has plausibility upper bound {Y}",
-      "mean_verbal_length": 54.0,
+      "verbal_template": "{X} is a descriptive information content entity that has plausibility upper bound {Y}",
+      "mean_verbal_length": 85.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "belief_interval_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -211,10 +239,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that for claim {Y}",
-      "mean_verbal_length": 35.0,
+      "verbal_template": "{X} is a descriptive information content entity that for claim {Y}",
+      "mean_verbal_length": 66.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "belief_interval_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -231,10 +262,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at confidence level {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that at confidence level {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "belief_interval_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -251,10 +285,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has belief lower bound {Y}",
-      "mean_verbal_length": 48.0,
+      "verbal_template": "{X} is a descriptive information content entity that has belief lower bound {Y}",
+      "mean_verbal_length": 79.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "belief_interval_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -276,6 +313,10 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [
+        "belief_interval_only_unit_range",
+        "belief_interval_with_upper_bound"
+      ],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -295,6 +336,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -316,6 +358,9 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [
+        "belief_interval_only_unit_range"
+      ],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -333,10 +378,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that supports claim {Y}",
-      "mean_verbal_length": 40.0,
+      "verbal_template": "{X} is a descriptive information content entity that supports claim {Y}",
+      "mean_verbal_length": 71.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "evidence_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -353,10 +401,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that refutes claim {Y}",
-      "mean_verbal_length": 39.0,
+      "verbal_template": "{X} is a descriptive information content entity that refutes claim {Y}",
+      "mean_verbal_length": 70.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "evidence_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -373,10 +424,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has evidence source {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that has evidence source {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "evidence_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -393,10 +447,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that at quality tier {Y}",
-      "mean_verbal_length": 41.0,
+      "verbal_template": "{X} is a descriptive information content entity that at quality tier {Y}",
+      "mean_verbal_length": 72.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "evidence_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -413,10 +470,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has mass function {Y}",
-      "mean_verbal_length": 43.0,
+      "verbal_template": "{X} is a descriptive information content entity that has mass function {Y}",
+      "mean_verbal_length": 74.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "evidence_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -437,6 +497,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -458,6 +519,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -473,10 +535,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that claim about {Y}",
-      "mean_verbal_length": 37.0,
+      "verbal_template": "{X} is a descriptive information content entity that claim about {Y}",
+      "mean_verbal_length": 68.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "claim_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -493,10 +558,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that supported by evidence {Y}",
-      "mean_verbal_length": 47.0,
+      "verbal_template": "{X} is a descriptive information content entity that supported by evidence {Y}",
+      "mean_verbal_length": 78.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "claim_min_one_evidence"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -513,10 +581,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that refuted by evidence {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that refuted by evidence {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "claim_min_one_evidence"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -533,10 +604,13 @@
         "Y": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that has belief interval {Y}",
-      "mean_verbal_length": 45.0,
+      "verbal_template": "{X} is a descriptive information content entity that has belief interval {Y}",
+      "mean_verbal_length": 76.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "claim_basic"
       ],
       "provenance": {
         "author": "scaffolding",
@@ -558,6 +632,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -577,6 +652,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -597,6 +673,7 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -616,6 +693,9 @@
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
       ],
+      "broader": [
+        "evidence_basic"
+      ],
       "provenance": {
         "author": "scaffolding",
         "date": "2026-05-10",
@@ -630,10 +710,13 @@
         "X": "Class"
       },
       "is_complex": true,
-      "verbal_template": "{X} is something that governed by directive information content entity",
-      "mean_verbal_length": 70.0,
+      "verbal_template": "{X} is a descriptive information content entity that governed by directive information content entity",
+      "mean_verbal_length": 101.0,
       "bfo_anchor_path": [
         "cco:DescriptiveICE"
+      ],
+      "broader": [
+        "claim_basic"
       ],
       "provenance": {
         "author": "scaffolding",
