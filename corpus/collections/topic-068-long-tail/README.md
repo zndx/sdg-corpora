@@ -1,6 +1,8 @@
 # Collection — topic 68 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 68: topic 4, topic 23, topic 33, topic 34, topic 81, topic 85, topic 89, topic 90, topic 110, topic 113, topic 121, topic 125, topic 133, topic 136, topic 139, topic 142, topic 145, topic 146, topic 148, topic 157, topic 160, topic 163, topic 164, topic 178, topic 181, topic 183, topic 190.
 
 > **Topic gist** (representative FinePDFs text): PRODUCT INFORMATION Contents * 20 µg of lyophilized pLV-SpikeV11 (plasmid DNA) Storage and Stability * Product is shipped at room temperature. * Lyophilized DNA should be stored at -20°C. * Resuspended DNA should be stored at -20°C and is stable for at least 1 year. Quality control * Plasmid construct is confirmed by restriction analysis and full‑length open reading frame (ORF) sequencing. *... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

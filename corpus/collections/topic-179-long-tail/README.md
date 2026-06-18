@@ -1,6 +1,8 @@
 # Collection — topic 179 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **35 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 179: topic 1, topic 6, topic 7, topic 8, topic 13, topic 19, topic 24, topic 47, topic 52, topic 64, topic 66, topic 70, topic 78, topic 82, topic 83, topic 89, topic 94, topic 108, topic 112, topic 115, topic 120, topic 128, topic 131, topic 132, topic 138, topic 139, topic 154, topic 162, topic 173, topic 181, topic 188, topic 190, topic 194, topic 195.
 
 > **Topic gist** (representative FinePDFs text): Alzheimer Disease and Glioblastoma Expression in Glioma BY Maada-Korsu Joseph M Kandeh G20593108 University of Central Lancashire A thesis submitted in partial fulfilment for the requirements for the degree of MSc (by Research) at the University of Central Lancashire February 2024 RESEARCH STUDENT DECLARATION FORM Type of Award Master by Research School Pharmacy and Biomedical science ... …
 
@@ -37,7 +39,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass`
-- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit`
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass` · _shared with 5 other collection(s)_
+- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit` · _shared with 5 other collection(s)_

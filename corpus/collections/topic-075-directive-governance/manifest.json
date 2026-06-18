@@ -18,10 +18,125 @@
     "t_policy_min_one_enforcer",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    32,
+    43,
+    51,
+    52,
+    54,
+    64,
+    75,
+    83,
+    88,
+    92,
+    93,
+    97,
+    102,
+    107,
+    110,
+    117,
+    121,
+    128,
+    131,
+    135,
+    190,
+    196,
+    199
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      43,
+      57,
+      65,
+      68,
+      76,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      190,
+      198
+    ],
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "policy_equiv_jurisdiction_and_scope": [
+      7,
+      78,
+      96
+    ],
+    "policy_min_one_enforcer": [
+      20,
+      93,
+      96,
+      158,
+      193,
+      198
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "17e5013be019aebf",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        102,
+        135
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -33,6 +148,11 @@
     {
       "id": "4d496b6a26b89e5c",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        97,
+        131
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -44,6 +164,11 @@
     {
       "id": "64245dcb73087ced",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        83,
+        110
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -55,6 +180,11 @@
     {
       "id": "6694f4e3f91a3e50",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        93,
+        199
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -66,6 +196,11 @@
     {
       "id": "7bec1cc6db6e70a1",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        121,
+        196
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -77,6 +212,11 @@
     {
       "id": "963f2350c9c2e75b",
       "family": "03_directive_governance",
+      "topics": [
+        51,
+        75,
+        107
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -88,6 +228,11 @@
     {
       "id": "a31de4c40bfc4620",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        88,
+        117
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -99,6 +244,11 @@
     {
       "id": "b65453e32c5f80ec",
       "family": "03_directive_governance",
+      "topics": [
+        52,
+        54,
+        75
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -110,6 +260,11 @@
     {
       "id": "bebf61dcfffc8be1",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        75,
+        92
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -121,6 +276,11 @@
     {
       "id": "c8c05acfc5668f7d",
       "family": "03_directive_governance",
+      "topics": [
+        64,
+        75,
+        128
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",
@@ -132,6 +292,11 @@
     {
       "id": "e0b692ef708e57f1",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        75,
+        190
+      ],
       "cited_terms": [
         "policy_equiv_jurisdiction_and_scope",
         "attestation_signed_by",

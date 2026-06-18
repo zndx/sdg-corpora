@@ -18,10 +18,91 @@
     "t_directive_authored_and_applies",
     "t_evidence_basic"
   ],
+  "topics": [
+    3,
+    13,
+    15,
+    37,
+    52,
+    67,
+    68,
+    76,
+    82,
+    100,
+    101,
+    103,
+    107,
+    108,
+    110,
+    111,
+    123,
+    136,
+    151,
+    160,
+    170,
+    178,
+    181,
+    195,
+    198
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_produces_evidence": [
+      159
+    ],
+    "claim_min_one_evidence": [
+      130,
+      193
+    ],
+    "directive_authored_and_applies": [
+      143,
+      178
+    ]
+  },
   "chapters": [
     {
       "id": "487f8d4d0e9dbaea",
       "family": "06_belief_structure",
+      "topics": [
+        37,
+        107,
+        178
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -33,6 +114,11 @@
     {
       "id": "4be4642d36c461fe",
       "family": "06_belief_structure",
+      "topics": [
+        52,
+        107,
+        111
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -44,6 +130,11 @@
     {
       "id": "4dda297e0668a44a",
       "family": "06_belief_structure",
+      "topics": [
+        3,
+        107,
+        136
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -55,6 +146,11 @@
     {
       "id": "69b0821beb027150",
       "family": "06_belief_structure",
+      "topics": [
+        100,
+        107,
+        151
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -66,6 +162,11 @@
     {
       "id": "704d30695276e757",
       "family": "06_belief_structure",
+      "topics": [
+        82,
+        101,
+        107
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -77,6 +178,11 @@
     {
       "id": "7488e95dca64673c",
       "family": "06_belief_structure",
+      "topics": [
+        68,
+        103,
+        107
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -88,6 +194,11 @@
     {
       "id": "822608c931b9613e",
       "family": "06_belief_structure",
+      "topics": [
+        15,
+        76,
+        107
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -99,6 +210,11 @@
     {
       "id": "a39b5de71f3ae9d0",
       "family": "06_belief_structure",
+      "topics": [
+        107,
+        123,
+        170
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -110,6 +226,11 @@
     {
       "id": "b23e6f9621a119d6",
       "family": "06_belief_structure",
+      "topics": [
+        107,
+        108,
+        110
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -121,6 +242,11 @@
     {
       "id": "c448e9a204fb0291",
       "family": "06_belief_structure",
+      "topics": [
+        107,
+        160,
+        195
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -132,6 +258,11 @@
     {
       "id": "d998c4dc9bdb3e63",
       "family": "06_belief_structure",
+      "topics": [
+        67,
+        107,
+        181
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",
@@ -143,6 +274,11 @@
     {
       "id": "df41b12a01a3494c",
       "family": "06_belief_structure",
+      "topics": [
+        13,
+        107,
+        198
+      ],
       "cited_terms": [
         "audit_produces_evidence",
         "directive_authored_and_applies",

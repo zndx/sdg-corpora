@@ -1,6 +1,8 @@
 # Collection — topic 163 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters** · **34 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 163: topic 1, topic 2, topic 3, topic 4, topic 13, topic 33, topic 34, topic 35, topic 37, topic 39, topic 42, topic 47, topic 49, topic 62, topic 64, topic 71, topic 78, topic 82, topic 94, topic 95, topic 103, topic 112, topic 115, topic 118, topic 119, topic 150, topic 153, topic 160, topic 181, topic 185, topic 188, topic 193, topic 197.
 
 > **Topic gist** (representative FinePDFs text): DEPARTMENT OF MICROBIOLOGY ISPAT GENERAL HOSPITAL SAIL, RSP, ROURKELA COVID-19 (RT-PCR) Test Report Sr. No. 1 2 3 4 5 Prepared by: Checked and Approved by: Krishna Ch. Majhi Note: The results relate only to the specimens tested and should be correlated with clinical findings. Interpretation guidance:- * Testing of referred clinical specimens was considered on the basis of request / r... …
 
@@ -37,8 +39,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

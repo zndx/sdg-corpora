@@ -18,10 +18,100 @@
     "t_kernel_anomaly_supports_claim",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    20,
+    26,
+    31,
+    35,
+    80,
+    121,
+    166,
+    181,
+    190,
+    196,
+    198
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      43,
+      57,
+      65,
+      68,
+      75,
+      76,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      198
+    ],
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165
+    ],
+    "column_lineage_for_compliance_claim": [
+      30,
+      94,
+      115,
+      130,
+      133
+    ],
+    "kernel_anomaly_supports_claim": [
+      30,
+      94,
+      115,
+      130,
+      133
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      94,
+      99,
+      108,
+      115,
+      130,
+      133,
+      154,
+      165,
+      185
+    ]
+  },
   "chapters": [
     {
       "id": "601959f4f1499ad4",
       "family": "07_long_tail",
+      "topics": [
+        121,
+        190,
+        198
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -33,6 +123,11 @@
     {
       "id": "858e56e9efc24f10",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        80,
+        190
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -44,6 +139,11 @@
     {
       "id": "df7b11f573b09066",
       "family": "07_long_tail",
+      "topics": [
+        20,
+        190,
+        196
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -55,6 +155,11 @@
     {
       "id": "f4bbf3b09e72aad2",
       "family": "07_long_tail",
+      "topics": [
+        26,
+        181,
+        190
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -66,6 +171,11 @@
     {
       "id": "fe90de6e9990e26b",
       "family": "07_long_tail",
+      "topics": [
+        31,
+        166,
+        190
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",

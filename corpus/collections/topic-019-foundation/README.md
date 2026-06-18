@@ -1,6 +1,8 @@
 # Collection — topic 19 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **29 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 19: topic 3, topic 5, topic 24, topic 25, topic 37, topic 47, topic 56, topic 64, topic 81, topic 86, topic 88, topic 98, topic 103, topic 115, topic 117, topic 118, topic 120, topic 122, topic 131, topic 133, topic 134, topic 153, topic 158, topic 160, topic 163, topic 165, topic 181, topic 196.
 
 > **Topic gist** (representative FinePDFs text): COLLEGE OF EDUCATION GRADUATE PROGRAMS HANDBOOK 2006-2007 The College of Education Graduate Programs Handbook is for informational purposes and does not constitute a contract. Programs listed are subject to change, and individual departments and units should be consulted for further information. The commitment of the University to the most fundamental principles of academic freedom, equality of .. …
 
@@ -35,8 +37,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe`
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
-- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return`
+- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe` · _shared with 3 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by` · _shared with 6 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_
+- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return` · _shared with 4 other collection(s)_

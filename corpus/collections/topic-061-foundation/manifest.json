@@ -14,10 +14,53 @@
     "t_control_only_addresses_threat_class",
     "t_log_record_subclass"
   ],
+  "topics": [
+    5,
+    30,
+    61,
+    65,
+    101,
+    103,
+    114,
+    125,
+    128,
+    132,
+    136,
+    139,
+    146,
+    154,
+    164,
+    176,
+    188
+  ],
+  "shared_tables": {
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      21,
+      35,
+      85,
+      102,
+      104,
+      113,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ]
+  },
   "chapters": [
     {
       "id": "0358c6e785b8a0b4",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        146,
+        164
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -27,6 +70,11 @@
     {
       "id": "0b7d2950e9d68535",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        136,
+        176
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -36,6 +84,11 @@
     {
       "id": "54cc1490fe3c8923",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        101,
+        125
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -45,6 +98,11 @@
     {
       "id": "9699d3849d0dbb95",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        65,
+        154
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -54,6 +112,11 @@
     {
       "id": "a116be228ee70665",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        103,
+        114
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -63,6 +126,11 @@
     {
       "id": "d23ca46efbdbfbfe",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        61,
+        132
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -72,6 +140,11 @@
     {
       "id": "e04dc3d665b01753",
       "family": "03_directive_governance",
+      "topics": [
+        30,
+        61,
+        188
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",
@@ -81,6 +154,11 @@
     {
       "id": "f38c6e02a68233b3",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        128,
+        139
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "log_record_subclass",

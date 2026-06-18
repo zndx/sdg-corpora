@@ -12,10 +12,51 @@
     "t_claim_observed_by_event",
     "t_metric_observed_by_event"
   ],
+  "topics": [
+    1,
+    4,
+    25,
+    26,
+    28,
+    37,
+    64,
+    66,
+    72,
+    78,
+    82,
+    83,
+    88,
+    110,
+    111,
+    123,
+    127,
+    132,
+    136,
+    138,
+    145,
+    146,
+    150,
+    153,
+    191,
+    195
+  ],
+  "shared_tables": {
+    "claim_observed_by_event": [
+      159
+    ],
+    "metric_observed_by_event": [
+      159
+    ]
+  },
   "chapters": [
     {
       "id": "0d49411df656757e",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        64,
+        195
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -24,6 +65,11 @@
     {
       "id": "1bf264e52ba5e9e9",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        83,
+        136
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -32,6 +78,11 @@
     {
       "id": "4cf79ba9102f0d12",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        66,
+        127
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -40,6 +91,11 @@
     {
       "id": "72c074430d23e959",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        37,
+        123
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -48,6 +104,11 @@
     {
       "id": "821e66bd2b216e8d",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        72,
+        88
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -56,6 +117,11 @@
     {
       "id": "8ec920e6c5fdd4d0",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        78,
+        145
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -64,6 +130,11 @@
     {
       "id": "92d1549527a8eb67",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        110,
+        138
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -72,6 +143,11 @@
     {
       "id": "a278e353f92dca94",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        82,
+        88
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -80,6 +156,11 @@
     {
       "id": "ab57041bd54a2a27",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        72,
+        132
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -88,6 +169,11 @@
     {
       "id": "b9ecf3a77d5f34c8",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        28,
+        111
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -96,6 +182,11 @@
     {
       "id": "bc92eb56fbd6ce51",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        26,
+        146
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -104,6 +195,11 @@
     {
       "id": "bd225cd0c4fdfde3",
       "family": "07_long_tail",
+      "topics": [
+        4,
+        25,
+        191
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -112,6 +208,11 @@
     {
       "id": "d5e6305ce08e39e3",
       "family": "07_long_tail",
+      "topics": [
+        1,
+        25,
+        127
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"
@@ -120,6 +221,11 @@
     {
       "id": "e9affc2d59b2d229",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        150,
+        153
+      ],
       "cited_terms": [
         "claim_observed_by_event",
         "metric_observed_by_event"

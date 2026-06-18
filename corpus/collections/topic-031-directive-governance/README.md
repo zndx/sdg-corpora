@@ -1,6 +1,8 @@
 # Collection — topic 31 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **15 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 31: topic 4, topic 6, topic 14, topic 20, topic 33, topic 100, topic 117, topic 120, topic 130, topic 133, topic 149, topic 155, topic 170, topic 193.
 
 > **Topic gist** (representative FinePDFs text): JOINT OPERATING COMMITTEE MEETING September 4, 2024 6:30 P.M. MINUTES This meeting was called to order by Ingrid Parker, JOC Chairperson, at 6:30p.m. The Pledge of Allegiance was recited. PRESENT: Troy Chiddick Chris Epstein Xaras Collins Ingrid Parker Beth Patruno Maggie Philips, Esq. William Winchester ALSO PRESENT: Chris Dormer, Superintendent of Record Beth Shore, Solicitor Dr. Angela King... …
 
@@ -27,8 +29,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe`
-- [`t_labrun_with_protocol`](tables/t_labrun_with_protocol.sql) — realizes `labrun_with_protocol`
-- [`t_nist80053_control_subclass`](tables/t_nist80053_control_subclass.sql) — realizes `nist80053_control_subclass`
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
+- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe` · _shared with 3 other collection(s)_
+- [`t_labrun_with_protocol`](tables/t_labrun_with_protocol.sql) — realizes `labrun_with_protocol` · _shared with 1 other collection(s)_
+- [`t_nist80053_control_subclass`](tables/t_nist80053_control_subclass.sql) — realizes `nist80053_control_subclass` · _shared with 1 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_

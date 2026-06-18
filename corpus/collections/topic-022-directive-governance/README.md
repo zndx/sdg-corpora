@@ -1,6 +1,8 @@
 # Collection — topic 22 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 22: topic 8, topic 13, topic 27, topic 31, topic 43, topic 46, topic 52, topic 62, topic 67, topic 71, topic 72, topic 74, topic 80, topic 81, topic 82, topic 85, topic 91, topic 96, topic 102, topic 107, topic 113, topic 154, topic 158, topic 164, topic 174, topic 176, topic 187, topic 193.
 
 > **Topic gist** (representative FinePDFs text): James Yost Chair Idaho W. Bill Booth Idaho Guy Norman Washington Tom Karier Washington April 3, 2018 MEMORANDUM TO: Power Committee FROM: Kevin Smit SUBJECT: Analytical Results of Action Item MCS-1 BACKGROUND: Presenter: Kevin Smit, Senior Energy Efficiency Analyst Summary: The Council will be briefed on analytical results of action item MCS-1 from the Seventh Power Plan Action Plan. ... …
 
@@ -32,6 +34,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass`
-- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand`
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass` · _shared with 5 other collection(s)_
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 3 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 114 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **18 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 114: topic 14, topic 44, topic 51, topic 52, topic 62, topic 85, topic 93, topic 95, topic 100, topic 120, topic 128, topic 132, topic 154, topic 179, topic 181, topic 198, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Journal of Technology and Exploitation in Mechanical Engineering Vol. 3, no. 1, pp. 8–12, 2017 BIOMECHANICS OF THE HUMAN SPINE Łukasz Jaworski 1 , Robert Karpiński 2 1 Poznan University of Technology, Faculty of Mechanical Engineering and Management, Piotrowo 3 Str., 60-965 Poznań, Poland, email: email@example.com 2 Lublin University of Technology, Faculty of Mechanical Engineering, Biomedica... …
 
@@ -24,4 +26,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic`
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 4 other collection(s)_

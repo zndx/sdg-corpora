@@ -1,6 +1,8 @@
 # Collection — topic 173 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **30 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 173: topic 16, topic 23, topic 56, topic 58, topic 71, topic 75, topic 78, topic 90, topic 94, topic 99, topic 103, topic 104, topic 114, topic 118, topic 123, topic 125, topic 126, topic 128, topic 129, topic 130, topic 136, topic 144, topic 149, topic 174, topic 176, topic 183, topic 185, topic 194, topic 195.
 
 > **Topic gist** (representative FinePDFs text): RFA 12-07 CONCEPT PROPOSAL CIRM EARLY TRANSLATIONAL IV RESEARCH AWARDS The objective of the CIRM Early Translational Research Awards is to fund and advance promising stem cell discoveries toward clinical development. The Governing Board (ICOC) has funded three cycles of Early Translational Research Awards, most recently in May of 2012 (21 awards). These programs cover diverse therapeutic areas s.. …
 
@@ -34,7 +36,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass`
-- [`t_labrun_produces_measurement`](tables/t_labrun_produces_measurement.sql) — realizes `labrun_produces_measurement`
+- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass` · _shared with 5 other collection(s)_
+- [`t_labrun_produces_measurement`](tables/t_labrun_produces_measurement.sql) — realizes `labrun_produces_measurement` · _shared with 1 other collection(s)_
 - [`t_measurement_produced_by_run`](tables/t_measurement_produced_by_run.sql) — realizes `measurement_produced_by_run`
 - [`t_state_basic`](tables/t_state_basic.sql) — realizes `state_basic`

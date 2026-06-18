@@ -1,6 +1,8 @@
 # Collection — topic 73 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **18 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 73: topic 5, topic 23, topic 27, topic 31, topic 32, topic 42, topic 64, topic 83, topic 101, topic 109, topic 113, topic 122, topic 125, topic 134, topic 162, topic 169, topic 199.
 
 > **Topic gist** (representative FinePDFs text): 1. Evaluation of the judicial systems (2016-2018 cycle) Serbia Reference data 2016 (01/01/2016 - 31/12/2016) Start/end date of the data collection campaign : 01/06/2017 - 31/12/2017 Objective : The CEPEJ decided, at its 28th plenary meeting, to launch the seventh evaluation cycle 2016 – 2018, focused on 2016 data. The CEPEJ wishes to use the methodology developed in the previous cycles to get... …
 
@@ -29,8 +31,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

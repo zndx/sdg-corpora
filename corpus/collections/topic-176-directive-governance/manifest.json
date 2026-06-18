@@ -16,10 +16,85 @@
     "t_verification_basic",
     "t_verification_min_one_evidence"
   ],
+  "topics": [
+    33,
+    34,
+    50,
+    66,
+    70,
+    75,
+    90,
+    103,
+    104,
+    121,
+    135,
+    148,
+    151,
+    159,
+    160,
+    165,
+    174,
+    176,
+    191,
+    199
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      43,
+      57,
+      65,
+      68,
+      75,
+      76,
+      95,
+      127,
+      150,
+      171,
+      187,
+      190,
+      198
+    ],
+    "audit_basic": [
+      1,
+      38,
+      40,
+      57,
+      187
+    ],
+    "verification_basic": [
+      1
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      68,
+      76,
+      81,
+      82,
+      95,
+      127,
+      128,
+      129,
+      171,
+      187
+    ]
+  },
   "chapters": [
     {
       "id": "04abd1dc241c4ffc",
       "family": "03_directive_governance",
+      "topics": [
+        34,
+        103,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -30,6 +105,11 @@
     {
       "id": "1f8e909d332eef51",
       "family": "03_directive_governance",
+      "topics": [
+        75,
+        165,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -40,6 +120,11 @@
     {
       "id": "5382d9deaab928ab",
       "family": "03_directive_governance",
+      "topics": [
+        151,
+        176,
+        199
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -50,6 +135,11 @@
     {
       "id": "57fa49b48878e141",
       "family": "03_directive_governance",
+      "topics": [
+        160,
+        176,
+        191
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -60,6 +150,11 @@
     {
       "id": "72569cc5d083aff7",
       "family": "03_directive_governance",
+      "topics": [
+        90,
+        148,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -70,6 +165,11 @@
     {
       "id": "90510925a1e5806a",
       "family": "03_directive_governance",
+      "topics": [
+        66,
+        174,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -80,6 +180,11 @@
     {
       "id": "c0f89035f468b666",
       "family": "03_directive_governance",
+      "topics": [
+        33,
+        70,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -90,6 +195,11 @@
     {
       "id": "c374a17f6884b0fd",
       "family": "03_directive_governance",
+      "topics": [
+        159,
+        174,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -100,6 +210,11 @@
     {
       "id": "c78cdf24a7851da5",
       "family": "03_directive_governance",
+      "topics": [
+        104,
+        121,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",
@@ -110,6 +225,11 @@
     {
       "id": "d1d032f568ccefc4",
       "family": "03_directive_governance",
+      "topics": [
+        50,
+        135,
+        176
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "verification_basic",

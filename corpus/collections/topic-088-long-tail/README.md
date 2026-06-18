@@ -1,6 +1,8 @@
 # Collection — topic 88 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 88: topic 2, topic 4, topic 7, topic 22, topic 40, topic 51, topic 52, topic 66, topic 71, topic 78, topic 92, topic 94, topic 96, topic 98, topic 113, topic 133, topic 149, topic 171, topic 179, topic 191, topic 193, topic 196.
 
 > **Topic gist** (representative FinePDFs text): Activation of the Nrf2/HO-1 signaling pathway contributes to the protective effects of baicalein against oxidative stress-induced DNA damage and apoptosis in HEI193 Schwann cells Jae Yeob Jeong¹#, Hee-Jae Cha²#, Eun Ok Choi³, Cheol Hong Kim¹, Gi-Young Kim⁴, Young Hyun Yoo⁵, Hye-Jin Hwang⁶, Hwan Tae Park⁷✉, Hyun Min Yoon¹, Yung Hyun Choi³✉ 1. Department of Acupuncture and Moxibustion, Dongeui Uni.. …
 
@@ -31,8 +33,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period` · _shared with 3 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

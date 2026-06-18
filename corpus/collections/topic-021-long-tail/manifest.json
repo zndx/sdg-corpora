@@ -16,10 +16,114 @@
     "t_requirement_equiv_specifies_target",
     "t_requirement_has_priority"
   ],
+  "topics": [
+    3,
+    19,
+    21,
+    37,
+    40,
+    51,
+    54,
+    58,
+    66,
+    67,
+    71,
+    74,
+    82,
+    96,
+    113,
+    114,
+    115,
+    117,
+    121,
+    122,
+    128,
+    134,
+    139,
+    142,
+    143,
+    144,
+    149,
+    163,
+    173,
+    181,
+    187,
+    190,
+    198
+  ],
+  "shared_tables": {
+    "control_addresses_risk": [
+      15,
+      16,
+      85,
+      102,
+      113,
+      196
+    ],
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      35,
+      61,
+      85,
+      102,
+      104,
+      113,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ],
+    "requirement_has_priority": [
+      85,
+      101,
+      113,
+      128,
+      129,
+      196
+    ]
+  },
   "chapters": [
     {
       "id": "021ca5e90343d7ac",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        54,
+        173
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -30,6 +134,11 @@
     {
       "id": "0e0afcbd2c405bd2",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        114,
+        121
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -40,6 +149,11 @@
     {
       "id": "160eb6cf62d7e2c6",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        67,
+        163
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -50,6 +164,11 @@
     {
       "id": "2327e9723f107da3",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        173,
+        187
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -60,6 +179,11 @@
     {
       "id": "2d09f26078b294c1",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        51,
+        122
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -70,6 +194,11 @@
     {
       "id": "3bc3dbba22c847a5",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        82,
+        117
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -80,6 +209,11 @@
     {
       "id": "4c9406bad5f8d96b",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        96,
+        134
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -90,6 +224,11 @@
     {
       "id": "5a62d739bd69962e",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        139,
+        198
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -100,6 +239,11 @@
     {
       "id": "5a6b199991b2b350",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        71,
+        190
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -110,6 +254,11 @@
     {
       "id": "5acbb08d75a288c8",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        74,
+        143
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -120,6 +269,11 @@
     {
       "id": "6214031fd1bb5a35",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        40,
+        149
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -130,6 +284,11 @@
     {
       "id": "6dfc683cbb3a3e49",
       "family": "03_directive_governance",
+      "topics": [
+        19,
+        21,
+        66
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -140,6 +299,11 @@
     {
       "id": "898b1f92e5d9d034",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        58,
+        113
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -150,6 +314,11 @@
     {
       "id": "8a2efabea17819df",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        128,
+        149
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -160,6 +329,11 @@
     {
       "id": "8b1501f394a04fdc",
       "family": "03_directive_governance",
+      "topics": [
+        3,
+        21,
+        144
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -170,6 +344,11 @@
     {
       "id": "8bc5ae8e53a8c3d0",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        37,
+        181
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -180,6 +359,11 @@
     {
       "id": "aa56f23f40740e04",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        122,
+        149
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",
@@ -190,6 +374,11 @@
     {
       "id": "c40976316671b7c4",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        115,
+        142
+      ],
       "cited_terms": [
         "control_only_addresses_threat_class",
         "control_addresses_risk",

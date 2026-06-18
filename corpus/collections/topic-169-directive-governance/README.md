@@ -1,6 +1,8 @@
 # Collection — topic 169 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **21 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 169: topic 5, topic 23, topic 34, topic 38, topic 39, topic 44, topic 56, topic 81, topic 85, topic 99, topic 107, topic 113, topic 122, topic 130, topic 135, topic 136, topic 138, topic 170, topic 174, topic 191.
 
 > **Topic gist** (representative FinePDFs text): Entrepreneurship Education Learning By Doing Pdf 1 1 Mb Entrepreneurship Education Entrepreneurship Education Entrepreneurial Learning Entrepreneurship Skill Building The Entrepreneurial Learning Journey and Back Again Entrepreneurial Learning International Entrepreneurship Education Innovation and Entrepreneurship in Education Classroom Exercises for Entrepreneurship Entrepreneurship Ed... …
 
@@ -25,4 +27,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic`
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 4 other collection(s)_

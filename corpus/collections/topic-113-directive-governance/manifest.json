@@ -18,10 +18,83 @@
     "t_policy_supersedes",
     "t_requirement_has_priority"
   ],
+  "topics": [
+    2,
+    5,
+    20,
+    24,
+    26,
+    27,
+    50,
+    57,
+    58,
+    67,
+    68,
+    85,
+    89,
+    100,
+    106,
+    113,
+    121,
+    129,
+    135,
+    139,
+    146,
+    162,
+    174
+  ],
+  "shared_tables": {
+    "control_addresses_risk": [
+      15,
+      16,
+      21,
+      85,
+      102,
+      196
+    ],
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      21,
+      35,
+      61,
+      85,
+      102,
+      104,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ],
+    "control_subclass": [
+      85,
+      89
+    ],
+    "policy_supersedes": [
+      83,
+      89
+    ],
+    "requirement_has_priority": [
+      21,
+      85,
+      101,
+      128,
+      129,
+      196
+    ]
+  },
   "chapters": [
     {
       "id": "0fb88d9d534ccb0f",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        113,
+        135
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -33,6 +106,11 @@
     {
       "id": "11c2a08ebf2628ab",
       "family": "03_directive_governance",
+      "topics": [
+        57,
+        106,
+        113
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -44,6 +122,11 @@
     {
       "id": "149f083961a6bdfb",
       "family": "03_directive_governance",
+      "topics": [
+        89,
+        113,
+        139
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -55,6 +138,11 @@
     {
       "id": "3099c89a8631e2ca",
       "family": "03_directive_governance",
+      "topics": [
+        50,
+        85,
+        113
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -66,6 +154,11 @@
     {
       "id": "4a5dac907daf68dd",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        113,
+        174
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -77,6 +170,11 @@
     {
       "id": "50695eeed91a02cc",
       "family": "03_directive_governance",
+      "topics": [
+        100,
+        106,
+        113
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -88,6 +186,11 @@
     {
       "id": "71a1f9eaddb5ab15",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        58,
+        113
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -99,6 +202,11 @@
     {
       "id": "79ae2fcd57dafb3c",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        113,
+        121
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -110,6 +218,11 @@
     {
       "id": "7c36b7ba4987e27e",
       "family": "03_directive_governance",
+      "topics": [
+        67,
+        113,
+        146
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -121,6 +234,11 @@
     {
       "id": "bca81777fc9f2f29",
       "family": "03_directive_governance",
+      "topics": [
+        27,
+        113,
+        162
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -132,6 +250,11 @@
     {
       "id": "ccc8317eddf52a31",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        113,
+        146
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",
@@ -143,6 +266,11 @@
     {
       "id": "df17567e3cbbc469",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        113,
+        129
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "policy_supersedes",

@@ -18,10 +18,71 @@
     "t_syscall_max_one_return",
     "t_syscall_subclass"
   ],
+  "topics": [
+    32,
+    34,
+    57,
+    61,
+    66,
+    71,
+    72,
+    74,
+    88,
+    93,
+    101,
+    111,
+    121,
+    122,
+    148,
+    149,
+    153,
+    171,
+    179,
+    185,
+    190,
+    191,
+    196
+  ],
+  "shared_tables": {
+    "syscall_at_security_tier": [
+      19,
+      31,
+      62,
+      67,
+      90,
+      97,
+      110
+    ],
+    "syscall_equiv_in_subsystem": [
+      19,
+      31,
+      62,
+      67,
+      97,
+      110
+    ],
+    "syscall_invoked_by_event": [
+      34
+    ],
+    "syscall_max_one_return": [
+      19,
+      67,
+      110,
+      162
+    ],
+    "syscall_subclass": [
+      97
+    ]
+  },
   "chapters": [
     {
       "id": "17d5d2f9243260b0",
       "family": "04_ebpf_kernel",
+      "topics": [
+        57,
+        72,
+        74
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -33,6 +94,11 @@
     {
       "id": "193333fdad721da1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        101,
+        153
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -44,6 +110,11 @@
     {
       "id": "25252a73931ca65b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        88,
+        148
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -55,6 +126,11 @@
     {
       "id": "312aa4831e8aca08",
       "family": "04_ebpf_kernel",
+      "topics": [
+        71,
+        72,
+        196
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -66,6 +142,11 @@
     {
       "id": "6f7cfd9e19cdd9d8",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        111,
+        122
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -77,6 +158,11 @@
     {
       "id": "91f317f5012f99df",
       "family": "04_ebpf_kernel",
+      "topics": [
+        66,
+        72,
+        191
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -88,6 +174,11 @@
     {
       "id": "9cbfe25eabefe856",
       "family": "04_ebpf_kernel",
+      "topics": [
+        61,
+        72,
+        93
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -99,6 +190,11 @@
     {
       "id": "a9388379da12a859",
       "family": "04_ebpf_kernel",
+      "topics": [
+        71,
+        72,
+        179
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -110,6 +206,11 @@
     {
       "id": "c3d96590cc9552e8",
       "family": "04_ebpf_kernel",
+      "topics": [
+        34,
+        72,
+        149
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -121,6 +222,11 @@
     {
       "id": "c6413e1af02e25c8",
       "family": "04_ebpf_kernel",
+      "topics": [
+        32,
+        72,
+        121
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -132,6 +238,11 @@
     {
       "id": "d6aa6556835a7eac",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        171,
+        190
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",
@@ -143,6 +254,11 @@
     {
       "id": "ea75a71232e0567d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        101,
+        185
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_at_security_tier",

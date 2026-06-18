@@ -1,6 +1,8 @@
 # Collection — topic 181 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **18 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 181: topic 2, topic 14, topic 22, topic 34, topic 73, topic 113, topic 117, topic 118, topic 134, topic 136, topic 144, topic 146, topic 150, topic 155, topic 173, topic 178, topic 191.
 
 > **Topic gist** (representative FinePDFs text): | This is a Controlled Document that complies with | |---| | Wesfarmers Chemicals, Energy & Fertilisers formatting and Quality Control standards. | | Please check that this is the latest available version before use. | | Title: | | Number: | | Version Number: | | Date Revised: | | Owner: | | Authoriser: | | Reasons for Creating | | or Amending | | Document | | Actual Change Details: | TABLE OF CO. …
 
@@ -28,8 +30,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

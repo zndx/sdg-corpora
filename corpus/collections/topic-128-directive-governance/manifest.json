@@ -18,10 +18,71 @@
     "t_subclass_to_designative_ice",
     "t_verification_min_one_evidence"
   ],
+  "topics": [
+    2,
+    16,
+    21,
+    32,
+    85,
+    94,
+    99,
+    109,
+    110,
+    128,
+    130,
+    143,
+    155,
+    159,
+    185,
+    187
+  ],
+  "shared_tables": {
+    "designative_subclass_basic": [
+      6,
+      56,
+      101
+    ],
+    "requirement_has_priority": [
+      21,
+      85,
+      101,
+      113,
+      129,
+      196
+    ],
+    "subclass_to_designative_ice": [
+      6,
+      56,
+      101
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      68,
+      76,
+      81,
+      82,
+      95,
+      127,
+      129,
+      171,
+      176,
+      187
+    ]
+  },
   "chapters": [
     {
       "id": "2d05481cda07d5f1",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        110,
+        128
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -33,6 +94,11 @@
     {
       "id": "381e57cd9efec5b2",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        16,
+        128
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -44,6 +110,11 @@
     {
       "id": "44bcd9fb5d3a2dfb",
       "family": "03_directive_governance",
+      "topics": [
+        94,
+        99,
+        128
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -55,6 +126,11 @@
     {
       "id": "993d9c8d9ee99c19",
       "family": "03_directive_governance",
+      "topics": [
+        128,
+        130,
+        143
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -66,6 +142,11 @@
     {
       "id": "c1ff28db0fbb6908",
       "family": "03_directive_governance",
+      "topics": [
+        109,
+        128,
+        187
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -77,6 +158,11 @@
     {
       "id": "c919b4c621d7d920",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        128,
+        185
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -88,6 +174,11 @@
     {
       "id": "ebf931f30c4d9f55",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        128,
+        159
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",
@@ -99,6 +190,11 @@
     {
       "id": "ff211f7947c242b9",
       "family": "03_directive_governance",
+      "topics": [
+        16,
+        128,
+        155
+      ],
       "cited_terms": [
         "policy_with_review_cycle",
         "designative_subclass_basic",

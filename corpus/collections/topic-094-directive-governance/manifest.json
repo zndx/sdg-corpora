@@ -18,10 +18,89 @@
     "t_requirement_min_one_verification",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    2,
+    21,
+    22,
+    24,
+    38,
+    43,
+    57,
+    68,
+    73,
+    78,
+    92,
+    93,
+    94,
+    107,
+    114,
+    119,
+    138,
+    142,
+    162,
+    163,
+    185,
+    186,
+    187,
+    191
+  ],
+  "shared_tables": {
+    "column_lineage_for_compliance_claim": [
+      30,
+      115,
+      130,
+      133,
+      190
+    ],
+    "dataset_under_audit": [
+      32,
+      37,
+      38,
+      49,
+      179
+    ],
+    "kernel_anomaly_supports_claim": [
+      30,
+      115,
+      130,
+      133,
+      190
+    ],
+    "requirement_min_one_verification": [
+      28,
+      33,
+      43,
+      65,
+      93,
+      127,
+      158,
+      198
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      99,
+      108,
+      115,
+      130,
+      133,
+      154,
+      165,
+      185,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "0fde4c1af5cc56dd",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        94,
+        138
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -33,6 +112,11 @@
     {
       "id": "2b804246265fe732",
       "family": "07_long_tail",
+      "topics": [
+        94,
+        114,
+        186
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -44,6 +128,11 @@
     {
       "id": "617c60b60600328c",
       "family": "07_long_tail",
+      "topics": [
+        93,
+        94,
+        142
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -55,6 +144,11 @@
     {
       "id": "7aaa73aec92b2fc6",
       "family": "07_long_tail",
+      "topics": [
+        38,
+        94,
+        119
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -66,6 +160,11 @@
     {
       "id": "c604e669d2dabedc",
       "family": "07_long_tail",
+      "topics": [
+        73,
+        94,
+        163
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -77,6 +176,11 @@
     {
       "id": "ce9036b6b294495b",
       "family": "07_long_tail",
+      "topics": [
+        43,
+        94,
+        187
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -88,6 +192,11 @@
     {
       "id": "dac146fe4435f40c",
       "family": "07_long_tail",
+      "topics": [
+        94,
+        107,
+        162
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -99,6 +208,11 @@
     {
       "id": "ebdb86ccbbed60df",
       "family": "07_long_tail",
+      "topics": [
+        68,
+        94,
+        163
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -110,6 +224,11 @@
     {
       "id": "ed07611419d80234",
       "family": "07_long_tail",
+      "topics": [
+        57,
+        78,
+        94
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -121,6 +240,11 @@
     {
       "id": "ee6b28aa00b619d3",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        92,
+        94
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -132,6 +256,11 @@
     {
       "id": "f1d67694036927b2",
       "family": "07_long_tail",
+      "topics": [
+        24,
+        94,
+        185
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",
@@ -143,6 +272,11 @@
     {
       "id": "fe7e548ce540a736",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        94,
+        191
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "requirement_min_one_verification",

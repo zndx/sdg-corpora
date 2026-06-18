@@ -16,10 +16,59 @@
     "t_measurement_produced_by_run",
     "t_state_basic"
   ],
+  "topics": [
+    16,
+    23,
+    56,
+    58,
+    71,
+    75,
+    78,
+    90,
+    94,
+    99,
+    103,
+    104,
+    114,
+    118,
+    123,
+    125,
+    126,
+    128,
+    129,
+    130,
+    136,
+    144,
+    149,
+    173,
+    174,
+    176,
+    183,
+    185,
+    194,
+    195
+  ],
+  "shared_tables": {
+    "iso27001_clause_subclass": [
+      4,
+      22,
+      52,
+      71,
+      129
+    ],
+    "labrun_produces_measurement": [
+      109
+    ]
+  },
   "chapters": [
     {
       "id": "03243df36e3b2783",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        114,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -30,6 +79,11 @@
     {
       "id": "0f9726df051eb191",
       "family": "02_observation_measurement",
+      "topics": [
+        173,
+        174,
+        195
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -40,6 +94,11 @@
     {
       "id": "189da7eb2e216c47",
       "family": "02_observation_measurement",
+      "topics": [
+        90,
+        103,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -50,6 +109,11 @@
     {
       "id": "228c8b7da4d85ade",
       "family": "02_observation_measurement",
+      "topics": [
+        144,
+        173,
+        185
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -60,6 +124,11 @@
     {
       "id": "76a77bf3e9580f2b",
       "family": "02_observation_measurement",
+      "topics": [
+        16,
+        78,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -70,6 +139,11 @@
     {
       "id": "7c42c19f513032a8",
       "family": "02_observation_measurement",
+      "topics": [
+        118,
+        173,
+        174
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -80,6 +154,11 @@
     {
       "id": "805411d54dfbadba",
       "family": "02_observation_measurement",
+      "topics": [
+        104,
+        130,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -90,6 +169,11 @@
     {
       "id": "823d9196d32ae258",
       "family": "02_observation_measurement",
+      "topics": [
+        23,
+        71,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -100,6 +184,11 @@
     {
       "id": "8a8eb0cc2a1ab033",
       "family": "02_observation_measurement",
+      "topics": [
+        173,
+        183,
+        194
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -110,6 +199,11 @@
     {
       "id": "8bec546fc4b74ecc",
       "family": "02_observation_measurement",
+      "topics": [
+        136,
+        173,
+        176
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -120,6 +214,11 @@
     {
       "id": "8ffc55f313b1473c",
       "family": "02_observation_measurement",
+      "topics": [
+        56,
+        75,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -130,6 +229,11 @@
     {
       "id": "9b90a33e5ccb54c4",
       "family": "02_observation_measurement",
+      "topics": [
+        58,
+        123,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -140,6 +244,11 @@
     {
       "id": "a4fb82df5e61c86a",
       "family": "02_observation_measurement",
+      "topics": [
+        125,
+        149,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -150,6 +259,11 @@
     {
       "id": "b72729e7a91650ff",
       "family": "02_observation_measurement",
+      "topics": [
+        128,
+        129,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -160,6 +274,11 @@
     {
       "id": "c0db1488e6fd5568",
       "family": "02_observation_measurement",
+      "topics": [
+        71,
+        99,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",
@@ -170,6 +289,11 @@
     {
       "id": "e110d532e926b31e",
       "family": "02_observation_measurement",
+      "topics": [
+        94,
+        126,
+        173
+      ],
       "cited_terms": [
         "labrun_produces_measurement",
         "iso27001_clause_subclass",

@@ -18,10 +18,144 @@
     "t_policy_min_one_enforcer",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    6,
+    20,
+    34,
+    40,
+    64,
+    71,
+    74,
+    80,
+    99,
+    100,
+    119,
+    120,
+    151,
+    154,
+    162,
+    169,
+    170,
+    191
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_conducted_by": [
+      2,
+      32,
+      33,
+      37,
+      43,
+      57,
+      73,
+      76,
+      95,
+      102,
+      111,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "audit_for_period": [
+      3,
+      32,
+      37,
+      43,
+      57,
+      65,
+      76,
+      111,
+      171,
+      179,
+      187
+    ],
+    "policy_min_one_enforcer": [
+      75,
+      93,
+      96,
+      158,
+      193,
+      198
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "0f9efc9a69b408ca",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        34,
+        119
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -33,6 +167,11 @@
     {
       "id": "4d3a53408610b322",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        40,
+        71
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -44,6 +183,11 @@
     {
       "id": "67c6e395133f20aa",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        120,
+        170
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -55,6 +199,11 @@
     {
       "id": "8d43f28d4d2e0549",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        64,
+        100
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -66,6 +215,11 @@
     {
       "id": "96c366474411703c",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        74,
+        162
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -77,6 +231,11 @@
     {
       "id": "a40ec41e1525ab27",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        99,
+        169
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -88,6 +247,11 @@
     {
       "id": "ae9012d135f25cc0",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        20,
+        154
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -99,6 +263,11 @@
     {
       "id": "b32a37f5b17e1b0c",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        151,
+        191
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",
@@ -110,6 +279,11 @@
     {
       "id": "bd4edaf046fdee86",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        80,
+        151
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "requirement_equiv_specifies_target",

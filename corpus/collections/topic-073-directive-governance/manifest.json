@@ -18,10 +18,157 @@
     "t_gdpr_lawful_basis",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    5,
+    23,
+    27,
+    31,
+    32,
+    42,
+    64,
+    73,
+    83,
+    101,
+    109,
+    113,
+    122,
+    125,
+    134,
+    162,
+    169,
+    199
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      37,
+      43,
+      57,
+      76,
+      95,
+      102,
+      111,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "gdpr_lawful_basis": [
+      3,
+      26,
+      30,
+      78,
+      104,
+      133,
+      138,
+      154,
+      163
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "0740f7d3573e2da2",
       "family": "03_directive_governance",
+      "topics": [
+        64,
+        73,
+        122
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -33,6 +180,11 @@
     {
       "id": "1ee9f8877137ffa6",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        73,
+        125
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -44,6 +196,11 @@
     {
       "id": "3c9ccb7bb628a678",
       "family": "03_directive_governance",
+      "topics": [
+        73,
+        101,
+        199
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -55,6 +212,11 @@
     {
       "id": "8705cf58eed7351e",
       "family": "03_directive_governance",
+      "topics": [
+        73,
+        101,
+        109
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -66,6 +228,11 @@
     {
       "id": "874541d01dca0fcd",
       "family": "03_directive_governance",
+      "topics": [
+        31,
+        32,
+        73
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -77,6 +244,11 @@
     {
       "id": "8f638a53b58132ce",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        73,
+        83
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -88,6 +260,11 @@
     {
       "id": "bf341043f1cf192c",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        73,
+        134
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -99,6 +276,11 @@
     {
       "id": "c0a287e3d60312a1",
       "family": "03_directive_governance",
+      "topics": [
+        73,
+        101,
+        162
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -110,6 +292,11 @@
     {
       "id": "d101b18b4694bdc6",
       "family": "03_directive_governance",
+      "topics": [
+        42,
+        73,
+        169
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",
@@ -121,6 +308,11 @@
     {
       "id": "f84ab090b08e958b",
       "family": "03_directive_governance",
+      "topics": [
+        27,
+        73,
+        113
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "gdpr_lawful_basis",

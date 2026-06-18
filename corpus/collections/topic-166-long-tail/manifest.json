@@ -10,10 +10,50 @@
   "tables": [
     "t_audit_with_findings"
   ],
+  "topics": [
+    2,
+    8,
+    25,
+    42,
+    47,
+    52,
+    56,
+    57,
+    61,
+    72,
+    77,
+    80,
+    92,
+    98,
+    109,
+    134,
+    142,
+    143,
+    145,
+    157,
+    166,
+    178,
+    199
+  ],
+  "shared_tables": {
+    "audit_with_findings": [
+      16,
+      32,
+      38,
+      44,
+      76,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "1b23f1e37289afb1",
       "family": "03_directive_governance",
+      "topics": [
+        42,
+        98,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -21,6 +61,11 @@
     {
       "id": "1b49fe090bb735b5",
       "family": "03_directive_governance",
+      "topics": [
+        72,
+        77,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -28,6 +73,11 @@
     {
       "id": "246a4ddec6621427",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        56,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -35,6 +85,11 @@
     {
       "id": "3c182889383081d0",
       "family": "03_directive_governance",
+      "topics": [
+        57,
+        157,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -42,6 +97,11 @@
     {
       "id": "5eb060aa6ac55d30",
       "family": "03_directive_governance",
+      "topics": [
+        92,
+        109,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -49,6 +109,11 @@
     {
       "id": "627bcdbc80da24ff",
       "family": "03_directive_governance",
+      "topics": [
+        47,
+        56,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -56,6 +121,11 @@
     {
       "id": "88437523391994fa",
       "family": "03_directive_governance",
+      "topics": [
+        142,
+        143,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -63,6 +133,11 @@
     {
       "id": "8b44b495c334e487",
       "family": "03_directive_governance",
+      "topics": [
+        52,
+        80,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -70,6 +145,11 @@
     {
       "id": "c02549d5ad7a0cef",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        134,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -77,6 +157,11 @@
     {
       "id": "ebc1cb789b026b4e",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        157,
+        166
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -84,6 +169,11 @@
     {
       "id": "f25175d2e8ed22f9",
       "family": "03_directive_governance",
+      "topics": [
+        25,
+        166,
+        199
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]
@@ -91,6 +181,11 @@
     {
       "id": "fe54d9bb54f8ed60",
       "family": "03_directive_governance",
+      "topics": [
+        145,
+        166,
+        178
+      ],
       "cited_terms": [
         "audit_with_findings"
       ]

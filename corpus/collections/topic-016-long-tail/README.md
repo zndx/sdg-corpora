@@ -1,6 +1,8 @@
 # Collection — topic 16 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 16: topic 6, topic 39, topic 43, topic 53, topic 54, topic 61, topic 64, topic 65, topic 66, topic 70, topic 72, topic 97, topic 101, topic 108, topic 125, topic 126, topic 127, topic 128, topic 129, topic 151, topic 164, topic 165, topic 169, topic 173, topic 181, topic 183, topic 187, topic 194.
 
 > **Topic gist** (representative FinePDFs text): Sustainable investing Sustainable value creation in emerging markets CIO WM Research | 27 January 2017 Alexander Stiehler, CFA, analyst; Stephen Freedman, CFA, Strategist, firstname.lastname@example.org; Soledad Lopez, strategist, email@example.com * Emerging market (EM) equities offer investors a good opportunity to add value to their portfolios by incorporating environmental, social, and cor... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings`
-- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 6 other collection(s)_
+- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk` · _shared with 6 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

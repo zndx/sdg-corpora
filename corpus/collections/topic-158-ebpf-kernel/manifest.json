@@ -18,10 +18,135 @@
     "t_requirement_min_one_verification",
     "t_schemaorg_place_address"
   ],
+  "topics": [
+    2,
+    6,
+    22,
+    28,
+    32,
+    42,
+    43,
+    50,
+    51,
+    58,
+    62,
+    86,
+    102,
+    149,
+    158,
+    159,
+    169,
+    183,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "policy_min_one_enforcer": [
+      20,
+      75,
+      93,
+      96,
+      193,
+      198
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ],
+    "requirement_min_one_verification": [
+      28,
+      33,
+      43,
+      65,
+      93,
+      94,
+      127,
+      198
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      162,
+      170,
+      185,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "3ce4790cf2f3703d",
       "family": "03_directive_governance",
+      "topics": [
+        86,
+        158,
+        169
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -33,6 +158,11 @@
     {
       "id": "46027f92f2d1277d",
       "family": "03_directive_governance",
+      "topics": [
+        28,
+        158,
+        183
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -44,6 +174,11 @@
     {
       "id": "6af9dd45ba5f761d",
       "family": "03_directive_governance",
+      "topics": [
+        42,
+        158,
+        199
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -55,6 +190,11 @@
     {
       "id": "99318f68bba0bc0c",
       "family": "03_directive_governance",
+      "topics": [
+        51,
+        102,
+        158
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -66,6 +206,11 @@
     {
       "id": "9c6f069340cae569",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        62,
+        158
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -77,6 +222,11 @@
     {
       "id": "a9de4c8462035c2e",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        158,
+        159
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -88,6 +238,11 @@
     {
       "id": "bf5163a42330bb58",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        58,
+        158
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -99,6 +254,11 @@
     {
       "id": "c881250ce47d17b7",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        50,
+        158
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",
@@ -110,6 +270,11 @@
     {
       "id": "e041bc41f7a0c805",
       "family": "03_directive_governance",
+      "topics": [
+        22,
+        149,
+        158
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "requirement_equiv_specifies_target",

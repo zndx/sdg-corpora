@@ -18,10 +18,58 @@
     "t_outlier_detection_produces_claim",
     "t_outlier_detection_with_baseline"
   ],
+  "topics": [
+    20,
+    53,
+    54,
+    76,
+    88,
+    89,
+    93,
+    118,
+    120,
+    122,
+    133,
+    144,
+    146,
+    174,
+    179,
+    185,
+    188,
+    193,
+    197
+  ],
+  "shared_tables": {
+    "evidence_correlated_with": [
+      50,
+      135,
+      174,
+      194
+    ],
+    "lift_with_baseline_rate": [
+      39,
+      50,
+      135,
+      148,
+      194
+    ],
+    "outlier_claim_basic": [
+      14,
+      24,
+      49,
+      119,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "3852c4e10ac65540",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        122,
+        144
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -33,6 +81,11 @@
     {
       "id": "3c28fa72b4de46d6",
       "family": "02_observation_measurement",
+      "topics": [
+        20,
+        54,
+        146
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -44,6 +97,11 @@
     {
       "id": "42ff23d3eea76fbc",
       "family": "02_observation_measurement",
+      "topics": [
+        53,
+        54,
+        88
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -55,6 +113,11 @@
     {
       "id": "56d36437233fe5f6",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        93,
+        188
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -66,6 +129,11 @@
     {
       "id": "7d5c46b0cca07556",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        133,
+        193
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -77,6 +145,11 @@
     {
       "id": "928a88dc424a57dc",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        89,
+        118
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -88,6 +161,11 @@
     {
       "id": "a6703627b7e99f62",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        76,
+        179
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -99,6 +177,11 @@
     {
       "id": "cbf5918f318ab4b7",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        76,
+        185
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -110,6 +193,11 @@
     {
       "id": "e6bbbbdaf30b013f",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        120,
+        197
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",
@@ -121,6 +209,11 @@
     {
       "id": "f2b359e4302b1b28",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        144,
+        174
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "outlier_detection_produces_claim",

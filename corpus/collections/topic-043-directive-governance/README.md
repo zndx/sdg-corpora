@@ -1,6 +1,8 @@
 # Collection — topic 43 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 43: topic 3, topic 20, topic 24, topic 25, topic 35, topic 40, topic 49, topic 54, topic 58, topic 66, topic 72, topic 80, topic 81, topic 83, topic 85, topic 102, topic 104, topic 132, topic 138, topic 146, topic 149, topic 173, topic 178, topic 186.
 
 > **Topic gist** (representative FinePDFs text): OFFICE OF POLICY AND MANAGEMENT OFFICE OF THE SECRETARY Jeffrey R. Beckham, Secretary Paul E. Potamianos, Deputy Secretary Charlene Casamento, Undersecretary Matthew Dayton, Undersecretary Martin Heft, Undersecretary David Krayeski, Undersecretary Susan Sherman, Undersecretary Claudio Gualtieri, Senior Policy Advisor to the Secretary Alexis Aronne, Executive Secretary Allison Blancato, Executi... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification` · _shared with 8 other collection(s)_

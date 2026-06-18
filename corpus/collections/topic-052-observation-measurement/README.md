@@ -1,6 +1,8 @@
 # Collection — topic 52 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **20 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 52: topic 4, topic 6, topic 13, topic 26, topic 31, topic 37, topic 47, topic 66, topic 82, topic 83, topic 91, topic 92, topic 93, topic 101, topic 112, topic 144, topic 150, topic 166, topic 197.
 
 > **Topic gist** (representative FinePDFs text): COMPARISON OF SEISMIC SLOPE STABILITY ASSESSMENT METHODS FOR REINFORCED GEOSTRUCTURES I. Tzavara ¹, Y. Tsompanakis ², V. Zania ³, P. N. Psarropoulos ⁴ ¹ PhD Candidate, School of Environmental Engineering, Technical University of Crete, Chania, Greece ² Associate Professor, School of Environmental Engineering, Technical University of Crete, Chania, Greece ³ Assistant Professor, Department of Civi.. …
 
@@ -32,7 +34,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_attribute_set_min_one`](tables/t_attribute_set_min_one.sql) — realizes `attribute_set_min_one`
-- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
-- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid`
-- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price`
+- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_
+- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid` · _shared with 3 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 4 other collection(s)_

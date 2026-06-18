@@ -1,6 +1,8 @@
 # Collection — topic 143 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **21 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 143: topic 6, topic 22, topic 52, topic 71, topic 80, topic 85, topic 96, topic 98, topic 100, topic 110, topic 118, topic 121, topic 139, topic 151, topic 158, topic 159, topic 162, topic 164, topic 174, topic 199.
 
 > **Topic gist** (representative FinePDFs text): CTGA Database Information Submission Form Help Topics Everyday the Centre for Arab Genomic Studies receives a variety of publications from scientists in the Arab World or abroad to be considered for the CTGA Database on genetic disorders in Arab populations. Curators of the CTGA Database are working continuously to update each and every record of the database following rigorous steps that includ.. …
 
@@ -29,6 +31,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_belief_interval_equiv_bel_and_pl`](tables/t_belief_interval_equiv_bel_and_pl.sql) — realizes `belief_interval_equiv_bel_and_pl`
-- [`t_directive_authored_and_applies`](tables/t_directive_authored_and_applies.sql) — realizes `directive_authored_and_applies`
+- [`t_directive_authored_and_applies`](tables/t_directive_authored_and_applies.sql) — realizes `directive_authored_and_applies` · _shared with 2 other collection(s)_
 - [`t_equiv_intersect_with_negation`](tables/t_equiv_intersect_with_negation.sql) — realizes `equiv_intersect_with_negation`
-- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment`
+- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment` · _shared with 2 other collection(s)_

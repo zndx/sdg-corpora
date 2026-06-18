@@ -1,6 +1,8 @@
 # Collection — topic 198 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 198: topic 3, topic 5, topic 6, topic 7, topic 37, topic 51, topic 70, topic 75, topic 77, topic 86, topic 89, topic 95, topic 96, topic 99, topic 102, topic 103, topic 118, topic 125, topic 130, topic 131, topic 142, topic 153, topic 166, topic 170, topic 171, topic 183, topic 193.
 
 > **Topic gist** (representative FinePDFs text): PROSPECTUS OF "THE CANTEEN." "The Canteen" will be published daily, commencing three or four days before the Army Relief Bazaar, and terminating only with the close of the great institution. It will be A Live, Enterprising Paper, And, if it does not publish the latest telegraphic despatches, it will contain numerous sensations quite as reliable and much more interesting. It is confidently expect.. …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_policy_basic`](tables/t_policy_basic.sql) — realizes `policy_basic`
-- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer`
-- [`t_policy_only_governs_artifacts`](tables/t_policy_only_governs_artifacts.sql) — realizes `policy_only_governs_artifacts`
-- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_policy_basic`](tables/t_policy_basic.sql) — realizes `policy_basic` · _shared with 1 other collection(s)_
+- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer` · _shared with 6 other collection(s)_
+- [`t_policy_only_governs_artifacts`](tables/t_policy_only_governs_artifacts.sql) — realizes `policy_only_governs_artifacts` · _shared with 1 other collection(s)_
+- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification` · _shared with 8 other collection(s)_

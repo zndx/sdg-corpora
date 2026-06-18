@@ -14,10 +14,73 @@
     "t_schemaorg_review_rating",
     "t_trace_in_service"
   ],
+  "topics": [
+    2,
+    6,
+    14,
+    21,
+    22,
+    25,
+    32,
+    43,
+    46,
+    52,
+    54,
+    56,
+    66,
+    77,
+    82,
+    88,
+    92,
+    96,
+    97,
+    99,
+    101,
+    109,
+    121,
+    122,
+    130,
+    134,
+    153,
+    158,
+    164,
+    171,
+    179,
+    185,
+    188,
+    190,
+    195,
+    197,
+    198
+  ],
+  "shared_tables": {
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      158,
+      162,
+      170,
+      185,
+      186
+    ],
+    "trace_in_service": [
+      103
+    ]
+  },
   "chapters": [
     {
       "id": "1051547cc6c68047",
       "family": "07_long_tail",
+      "topics": [
+        56,
+        92,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -27,6 +90,11 @@
     {
       "id": "1565b67b96e36700",
       "family": "07_long_tail",
+      "topics": [
+        54,
+        121,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -36,6 +104,11 @@
     {
       "id": "16825d7602a59e0f",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        88,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -45,6 +118,11 @@
     {
       "id": "232bfc3fe5dc3a97",
       "family": "07_long_tail",
+      "topics": [
+        43,
+        99,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -54,6 +132,11 @@
     {
       "id": "388a689b65fc1a71",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        66,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -63,6 +146,11 @@
     {
       "id": "54ec05c61951b2b0",
       "family": "07_long_tail",
+      "topics": [
+        122,
+        153,
+        171
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -72,6 +160,11 @@
     {
       "id": "57ed1a3ec86e542c",
       "family": "07_long_tail",
+      "topics": [
+        130,
+        153,
+        190
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -81,6 +174,11 @@
     {
       "id": "63287b81f41b5713",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        77,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -90,6 +188,11 @@
     {
       "id": "6ac16fa57378a3aa",
       "family": "07_long_tail",
+      "topics": [
+        32,
+        134,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -99,6 +202,11 @@
     {
       "id": "85bb091b4f8a3a78",
       "family": "07_long_tail",
+      "topics": [
+        153,
+        164,
+        188
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -108,6 +216,11 @@
     {
       "id": "9b05487a6db8b2f5",
       "family": "07_long_tail",
+      "topics": [
+        109,
+        153,
+        185
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -117,6 +230,11 @@
     {
       "id": "9da7a86331c38bb0",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        153,
+        179
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -126,6 +244,11 @@
     {
       "id": "a4ec86a6bc9d9fc9",
       "family": "07_long_tail",
+      "topics": [
+        82,
+        153,
+        197
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -135,6 +258,11 @@
     {
       "id": "bea5c366dc7e7837",
       "family": "07_long_tail",
+      "topics": [
+        153,
+        195,
+        198
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -144,6 +272,11 @@
     {
       "id": "c333521d7454858a",
       "family": "07_long_tail",
+      "topics": [
+        6,
+        153,
+        158
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -153,6 +286,11 @@
     {
       "id": "ddbb9e9786cd1e28",
       "family": "07_long_tail",
+      "topics": [
+        14,
+        22,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -162,6 +300,11 @@
     {
       "id": "e8e0652467f79814",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        97,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -171,6 +314,11 @@
     {
       "id": "f0273f5c533f894e",
       "family": "07_long_tail",
+      "topics": [
+        101,
+        153,
+        171
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",
@@ -180,6 +328,11 @@
     {
       "id": "f99b7700d863f497",
       "family": "07_long_tail",
+      "topics": [
+        52,
+        96,
+        153
+      ],
       "cited_terms": [
         "trace_in_service",
         "schemaorg_place_address",

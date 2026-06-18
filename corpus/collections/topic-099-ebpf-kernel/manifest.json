@@ -12,10 +12,73 @@
     "t_attestation_signed_by",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    8,
+    38,
+    46,
+    47,
+    50,
+    81,
+    94,
+    99,
+    112,
+    113,
+    119,
+    130,
+    151,
+    179,
+    187,
+    188
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      94,
+      108,
+      115,
+      130,
+      133,
+      154,
+      165,
+      185,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "382ed6daee43f45d",
       "family": "03_directive_governance",
+      "topics": [
+        94,
+        99,
+        151
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -24,6 +87,11 @@
     {
       "id": "5b59ea46cd3b882f",
       "family": "03_directive_governance",
+      "topics": [
+        47,
+        99,
+        130
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -32,6 +100,11 @@
     {
       "id": "60d03701a546818e",
       "family": "03_directive_governance",
+      "topics": [
+        81,
+        99,
+        179
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -40,6 +113,11 @@
     {
       "id": "a1ce9c267a3d470c",
       "family": "03_directive_governance",
+      "topics": [
+        99,
+        112,
+        113
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -48,6 +126,11 @@
     {
       "id": "a38936981e4a0930",
       "family": "03_directive_governance",
+      "topics": [
+        38,
+        46,
+        99
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -56,6 +139,11 @@
     {
       "id": "cd713e0c0f24acf7",
       "family": "03_directive_governance",
+      "topics": [
+        50,
+        99,
+        187
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -64,6 +152,11 @@
     {
       "id": "d13383f30a96074d",
       "family": "03_directive_governance",
+      "topics": [
+        38,
+        99,
+        119
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -72,6 +165,11 @@
     {
       "id": "d751ee0fa998ef48",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        99,
+        113
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"
@@ -80,6 +178,11 @@
     {
       "id": "fcc6498067ad18f3",
       "family": "03_directive_governance",
+      "topics": [
+        38,
+        99,
+        188
+      ],
       "cited_terms": [
         "attestation_signed_by",
         "trace_supports_claim"

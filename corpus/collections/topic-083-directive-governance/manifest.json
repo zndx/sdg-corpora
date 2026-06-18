@@ -18,10 +18,113 @@
     "t_policy_with_jurisdiction",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    4,
+    13,
+    19,
+    22,
+    26,
+    47,
+    54,
+    61,
+    74,
+    83,
+    118,
+    120,
+    126,
+    135,
+    150,
+    165,
+    173,
+    191
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "control_with_evidence_requirement": [
+      3,
+      23,
+      26,
+      58,
+      78,
+      88,
+      89,
+      92,
+      102,
+      104,
+      134,
+      138,
+      154,
+      191
+    ],
+    "policy_supersedes": [
+      89,
+      113
+    ],
+    "policy_with_jurisdiction": [
+      26,
+      78
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      44,
+      56,
+      58,
+      71,
+      89,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "032f407ce8a622a2",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        19,
+        83
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -33,6 +136,11 @@
     {
       "id": "29ef6cc393932c65",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        83,
+        173
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -44,6 +152,11 @@
     {
       "id": "6285fecc395bc537",
       "family": "03_directive_governance",
+      "topics": [
+        54,
+        83,
+        118
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -55,6 +168,11 @@
     {
       "id": "889c6c76929d7665",
       "family": "03_directive_governance",
+      "topics": [
+        13,
+        83,
+        120
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -66,6 +184,11 @@
     {
       "id": "8d1e48d77225cec6",
       "family": "03_directive_governance",
+      "topics": [
+        83,
+        135,
+        191
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -77,6 +200,11 @@
     {
       "id": "b2bef455e5052245",
       "family": "03_directive_governance",
+      "topics": [
+        22,
+        61,
+        83
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -88,6 +216,11 @@
     {
       "id": "d75e9840de7e74d0",
       "family": "03_directive_governance",
+      "topics": [
+        47,
+        83,
+        165
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -99,6 +232,11 @@
     {
       "id": "dc51c2477226cace",
       "family": "03_directive_governance",
+      "topics": [
+        83,
+        126,
+        150
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",
@@ -110,6 +248,11 @@
     {
       "id": "ff6521125578e856",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        74,
+        83
+      ],
       "cited_terms": [
         "policy_supersedes",
         "verification_produces_evidence",

@@ -1,6 +1,8 @@
 # Collection — topic 186 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **27 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 186: topic 5, topic 24, topic 28, topic 38, topic 54, topic 61, topic 71, topic 81, topic 88, topic 92, topic 94, topic 102, topic 109, topic 110, topic 120, topic 121, topic 127, topic 130, topic 136, topic 159, topic 169, topic 170, topic 171, topic 181, topic 197, topic 199.
 
 > **Topic gist** (representative FinePDFs text): CODE OF ORDINANCES ROCK RIVER WATER RECLAMATION DISTRICT Contents Title 4 Service to Outlying Territories, Permits, Discharge Standards, Section 5. Computation of Basin Connection Charge ......................... 5-4 TITLE 1 ABBREVIATIONS AND DEFINITIONS ARTICLE I. Abbreviations The following abbreviations shall have the designated meanings throughout this Code of Ordinances: AO Administ... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 6 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord` · _shared with 4 other collection(s)_

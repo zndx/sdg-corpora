@@ -16,10 +16,73 @@
     "t_syscall_audited_by",
     "t_syscall_equiv_in_subsystem"
   ],
+  "topics": [
+    4,
+    8,
+    34,
+    42,
+    46,
+    51,
+    52,
+    54,
+    62,
+    66,
+    85,
+    86,
+    97,
+    103,
+    113,
+    114,
+    143,
+    149,
+    174,
+    179,
+    190,
+    194,
+    196,
+    198
+  ],
+  "shared_tables": {
+    "ebpfprogram_verified_safe": [
+      19,
+      31,
+      64
+    ],
+    "syscall_at_security_tier": [
+      19,
+      31,
+      67,
+      72,
+      90,
+      97,
+      110
+    ],
+    "syscall_audited_by": [
+      8,
+      19,
+      46,
+      77,
+      90,
+      131
+    ],
+    "syscall_equiv_in_subsystem": [
+      19,
+      31,
+      67,
+      72,
+      97,
+      110
+    ]
+  },
   "chapters": [
     {
       "id": "03dd9fedddcf0df5",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        113,
+        149
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -30,6 +93,11 @@
     {
       "id": "5dcc7946b737722f",
       "family": "04_ebpf_kernel",
+      "topics": [
+        54,
+        62,
+        174
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -40,6 +108,11 @@
     {
       "id": "5e492f8df78f33bd",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        85,
+        194
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -50,6 +123,11 @@
     {
       "id": "60a94c764da1cafd",
       "family": "04_ebpf_kernel",
+      "topics": [
+        4,
+        62,
+        179
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -60,6 +138,11 @@
     {
       "id": "632a27ff9865548e",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        62,
+        198
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -70,6 +153,11 @@
     {
       "id": "6672d789f4356713",
       "family": "04_ebpf_kernel",
+      "topics": [
+        46,
+        62,
+        196
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -80,6 +168,11 @@
     {
       "id": "683f32f036ea44aa",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        97,
+        114
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -90,6 +183,11 @@
     {
       "id": "68ba6d5727d7e221",
       "family": "04_ebpf_kernel",
+      "topics": [
+        34,
+        62,
+        114
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -100,6 +198,11 @@
     {
       "id": "8d6366c21d9863ef",
       "family": "04_ebpf_kernel",
+      "topics": [
+        52,
+        62,
+        190
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -110,6 +213,11 @@
     {
       "id": "b314e2a71c06b3c7",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        66,
+        86
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -120,6 +228,11 @@
     {
       "id": "c2439e945a732405",
       "family": "04_ebpf_kernel",
+      "topics": [
+        51,
+        62,
+        114
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -130,6 +243,11 @@
     {
       "id": "de537b1fadb01da2",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        66,
+        143
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",
@@ -140,6 +258,11 @@
     {
       "id": "e8fd9f6dbf01a030",
       "family": "04_ebpf_kernel",
+      "topics": [
+        42,
+        62,
+        103
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe",
         "syscall_at_security_tier",

@@ -1,6 +1,8 @@
 # Collection — topic 92 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **14 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 92: topic 13, topic 16, topic 21, topic 42, topic 51, topic 67, topic 74, topic 80, topic 110, topic 119, topic 132, topic 150, topic 176.
 
 > **Topic gist** (representative FinePDFs text): 7 Integrated Drainage Strategy and SUDS Options Appraisal Flood risk generated as a result of any development is an important consideration with respect to the assessment of development area potential and current national planning policy with regards to flood risk management. In areas where development runoff is likely to be discharged to a river system, it is important that new development does.. …
 
@@ -26,8 +28,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

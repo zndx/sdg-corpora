@@ -18,10 +18,79 @@
     "t_schemaorg_place_latitude",
     "t_schemaorg_place_longitude"
   ],
+  "topics": [
+    8,
+    15,
+    28,
+    38,
+    46,
+    57,
+    66,
+    74,
+    76,
+    82,
+    86,
+    90,
+    92,
+    94,
+    97,
+    102,
+    127,
+    129,
+    142,
+    150,
+    164,
+    169,
+    170,
+    171,
+    173,
+    174,
+    188,
+    195
+  ],
+  "shared_tables": {
+    "schemaorg_org_taxid": [
+      52,
+      115,
+      185
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      158,
+      162,
+      185,
+      186
+    ],
+    "schemaorg_place_geocoord": [
+      66,
+      119,
+      142,
+      186
+    ],
+    "schemaorg_place_latitude": [
+      142
+    ],
+    "schemaorg_place_longitude": [
+      126,
+      142
+    ]
+  },
   "chapters": [
     {
       "id": "038e8c9b7b3954d4",
       "family": "07_long_tail",
+      "topics": [
+        92,
+        142,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -33,6 +102,11 @@
     {
       "id": "06284d5d390bee48",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        129,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -44,6 +118,11 @@
     {
       "id": "3b2be5ad576d7961",
       "family": "07_long_tail",
+      "topics": [
+        38,
+        170,
+        171
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -55,6 +134,11 @@
     {
       "id": "447b70960cbd9ccc",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        170,
+        188
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -66,6 +150,11 @@
     {
       "id": "50f8f085bad7b98e",
       "family": "07_long_tail",
+      "topics": [
+        164,
+        170,
+        174
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -77,6 +166,11 @@
     {
       "id": "631d0fe569ed299c",
       "family": "07_long_tail",
+      "topics": [
+        15,
+        150,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -88,6 +182,11 @@
     {
       "id": "813611906c0bf523",
       "family": "07_long_tail",
+      "topics": [
+        94,
+        97,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -99,6 +198,11 @@
     {
       "id": "893c297479c693ad",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        169,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -110,6 +214,11 @@
     {
       "id": "bb95bc50bafa428d",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        90,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -121,6 +230,11 @@
     {
       "id": "bb9f5b34b528d28e",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        170,
+        195
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -132,6 +246,11 @@
     {
       "id": "c102f0f45eb27c8f",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        170,
+        173
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -143,6 +262,11 @@
     {
       "id": "c336b54885a0370f",
       "family": "07_long_tail",
+      "topics": [
+        57,
+        169,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -154,6 +278,11 @@
     {
       "id": "c357dcc6dc7f7e9d",
       "family": "07_long_tail",
+      "topics": [
+        102,
+        127,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",
@@ -165,6 +294,11 @@
     {
       "id": "d1d6095c178fa802",
       "family": "07_long_tail",
+      "topics": [
+        82,
+        86,
+        170
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "schemaorg_place_geocoord",

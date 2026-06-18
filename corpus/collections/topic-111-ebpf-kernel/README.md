@@ -1,6 +1,8 @@
 # Collection — topic 111 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **20 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 111: topic 8, topic 16, topic 20, topic 33, topic 37, topic 42, topic 51, topic 76, topic 89, topic 91, topic 94, topic 104, topic 108, topic 110, topic 134, topic 143, topic 151, topic 164, topic 173.
 
 > **Topic gist** (representative FinePDFs text): Access Free N Avasthi Chemistry Solution Free Download Pdf CBSE Class 12th Chemistry (10 Most Likely Question Papers with Solution) By Career Point Kota Advanced Problems In Physical Chemistry For Competitive Examination Inorganic Chemistry of the Main-Group Elements Indian Journal of Chemistry. Section A. Inorganic, Physical, Theoretical, and Analytical Numerical Chemistry Indian Journal of Chem. …
 
@@ -29,8 +31,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass` · _shared with 5 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

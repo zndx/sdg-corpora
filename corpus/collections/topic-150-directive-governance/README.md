@@ -1,6 +1,8 @@
 # Collection — topic 150 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **22 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 150: topic 2, topic 6, topic 7, topic 26, topic 34, topic 35, topic 43, topic 47, topic 53, topic 57, topic 73, topic 90, topic 103, topic 110, topic 157, topic 163, topic 165, topic 169, topic 187, topic 190, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Special Education: Nonpublic School and Nonpublic Agency Study Final Report Thomas Parrish, Project Director Gina Chen Heather Shaw September 30, 1998 Submitted to: Office of the Legislative Analyst 925 L Street, Suite 1000 Sacramento, CA 95814 California Department of Education Special Education Division 515 L Street, Suite 270 Sacramento, CA 95814 California Department of Finance 915 L Str... …
 
@@ -30,8 +32,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

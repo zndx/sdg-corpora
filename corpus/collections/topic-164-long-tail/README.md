@@ -1,6 +1,8 @@
 # Collection — topic 164 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 164: topic 1, topic 13, topic 16, topic 20, topic 24, topic 33, topic 34, topic 40, topic 49, topic 54, topic 56, topic 67, topic 76, topic 83, topic 85, topic 91, topic 99, topic 104, topic 107, topic 114, topic 151, topic 186.
 
 > **Topic gist** (representative FinePDFs text): Application for the position: CMR Section Vice Chair Elections to the Board 2014-20145 1. Your Identity Title: Professor Family Name(s): Petersen First Name(s): Steffen E. Birth Date: 24 August 1970 Type of address: Business Institute/Organisation: Queen Mary University of London and Barts Health NHS Trust Department: William Harvey Research Institute and Department of Cardiology A... …
 
@@ -30,7 +32,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_measurement_equiv_with_dim_unit`](tables/t_measurement_equiv_with_dim_unit.sql) — realizes `measurement_equiv_with_dim_unit`
-- [`t_process_max_one_operator`](tables/t_process_max_one_operator.sql) — realizes `process_max_one_operator`
-- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input`
-- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output`
+- [`t_measurement_equiv_with_dim_unit`](tables/t_measurement_equiv_with_dim_unit.sql) — realizes `measurement_equiv_with_dim_unit` · _shared with 1 other collection(s)_
+- [`t_process_max_one_operator`](tables/t_process_max_one_operator.sql) — realizes `process_max_one_operator` · _shared with 2 other collection(s)_
+- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input` · _shared with 2 other collection(s)_
+- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output` · _shared with 1 other collection(s)_

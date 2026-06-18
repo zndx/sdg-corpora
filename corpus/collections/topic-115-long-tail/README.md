@@ -1,6 +1,8 @@
 # Collection — topic 115 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **27 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 115: topic 1, topic 3, topic 23, topic 26, topic 32, topic 50, topic 64, topic 66, topic 76, topic 77, topic 81, topic 88, topic 90, topic 94, topic 102, topic 126, topic 130, topic 134, topic 144, topic 153, topic 166, topic 170, topic 173, topic 183, topic 185, topic 186.
 
 > **Topic gist** (representative FinePDFs text): Effect of vitamin D replacement on maternal and neonatal outcomes: a randomised controlled trial in pregnant women with hypovitaminosis D. A protocol M Chakhtoura,1 A Nassar,2 A Arabi,1 C Cooper,3 N Harvey,3 Z Mahfoud,4 M Nabulsi,5 G El-Hajj Fuleihan1 ABSTRACT Introduction: The vitamin D recommended doses during pregnancy differ between societies. The WHO guidelines do not recommend routine pre... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim`
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid` · _shared with 3 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

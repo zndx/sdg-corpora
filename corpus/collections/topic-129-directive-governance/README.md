@@ -1,6 +1,8 @@
 # Collection — topic 129 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **31 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 129: topic 24, topic 25, topic 39, topic 40, topic 52, topic 57, topic 67, topic 70, topic 73, topic 77, topic 81, topic 91, topic 92, topic 98, topic 108, topic 117, topic 130, topic 131, topic 132, topic 143, topic 148, topic 157, topic 158, topic 164, topic 166, topic 173, topic 178, topic 185, topic 187, topic 198.
 
 > **Topic gist** (representative FinePDFs text): DOCUMENT OF THE EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT ENERGY SECTOR STRATEGY As approved by the Board of Directors at its Meeting on 10 December 2013 TABLE OF CONTENTS Page ABBREVIATIONS ADB Asian Development Bank. AfDB African Development Bank. BAT Best available techniques. BiH Bosnia and Herzegovina. CCGT Combined Cycle Gas Turbines. CCS Carbon Capture and Storage. C... …
 
@@ -36,8 +38,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass`
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass` · _shared with 5 other collection(s)_
+- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

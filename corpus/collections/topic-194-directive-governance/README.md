@@ -1,6 +1,8 @@
 # Collection — topic 194 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **26 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 194: topic 6, topic 13, topic 14, topic 20, topic 31, topic 38, topic 44, topic 64, topic 67, topic 70, topic 78, topic 88, topic 90, topic 93, topic 95, topic 96, topic 99, topic 120, topic 121, topic 127, topic 130, topic 170, topic 178, topic 185, topic 197.
 
 > **Topic gist** (representative FinePDFs text): Edith Cowan University Research Online ECU Publications Pre. 2011 2002 Developing An Instructional Design Strategy To Support Generic Skills Development Joseph Luca Edith Cowan University Ron Oliver Edith Cowan University This Conference Proceeding is posted at Research Online. http://ro.ecu.edu.au/ecuworks/6207 DEVELOPING AN INSTRUCTIONAL DESIGN STRATEGY TO SUPPORT GENERIC SKILLS DEVELOPM... …
 
@@ -31,6 +33,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with`
-- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
+- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with` · _shared with 4 other collection(s)_
+- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_

@@ -16,10 +16,40 @@
     "t_span_with_status",
     "t_trace_in_service"
   ],
+  "topics": [
+    3,
+    52,
+    99,
+    100,
+    103,
+    112,
+    115,
+    121,
+    125,
+    127,
+    164,
+    188,
+    190,
+    193,
+    194
+  ],
+  "shared_tables": {
+    "measurement_equiv_with_dim_unit": [
+      164
+    ],
+    "trace_in_service": [
+      153
+    ]
+  },
   "chapters": [
     {
       "id": "04ee71b417ec1b90",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        115,
+        164
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -30,6 +60,11 @@
     {
       "id": "05e4d9210df083a9",
       "family": "02_observation_measurement",
+      "topics": [
+        52,
+        103,
+        121
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -40,6 +75,11 @@
     {
       "id": "210c3becacd1e57b",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        127,
+        194
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -50,6 +90,11 @@
     {
       "id": "546eeaa480107e29",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        125,
+        193
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -60,6 +105,11 @@
     {
       "id": "9474731fb833459e",
       "family": "02_observation_measurement",
+      "topics": [
+        99,
+        100,
+        103
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -70,6 +120,11 @@
     {
       "id": "d07ee3b83be79019",
       "family": "02_observation_measurement",
+      "topics": [
+        3,
+        103,
+        188
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",
@@ -80,6 +135,11 @@
     {
       "id": "d6301d8d3d86af6b",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        112,
+        190
+      ],
       "cited_terms": [
         "trace_in_service",
         "span_with_status",

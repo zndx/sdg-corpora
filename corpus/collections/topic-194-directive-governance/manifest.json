@@ -14,10 +14,65 @@
     "t_lift_with_baseline_rate",
     "t_outlier_claim_min_one_attribute"
   ],
+  "topics": [
+    6,
+    13,
+    14,
+    20,
+    31,
+    38,
+    44,
+    64,
+    67,
+    70,
+    78,
+    88,
+    90,
+    93,
+    95,
+    96,
+    99,
+    120,
+    121,
+    127,
+    130,
+    170,
+    178,
+    185,
+    194,
+    197
+  ],
+  "shared_tables": {
+    "evidence_correlated_with": [
+      50,
+      54,
+      135,
+      174
+    ],
+    "lift_with_baseline_rate": [
+      39,
+      50,
+      54,
+      135,
+      148
+    ],
+    "outlier_claim_min_one_attribute": [
+      14,
+      24,
+      49,
+      52,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "111e0527e7b2c697",
       "family": "02_observation_measurement",
+      "topics": [
+        93,
+        121,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -27,6 +82,11 @@
     {
       "id": "2a6869844a0bf082",
       "family": "02_observation_measurement",
+      "topics": [
+        95,
+        127,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -36,6 +96,11 @@
     {
       "id": "4acc8bb32f2700b5",
       "family": "02_observation_measurement",
+      "topics": [
+        31,
+        88,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -45,6 +110,11 @@
     {
       "id": "742a61b5ff0dfffa",
       "family": "02_observation_measurement",
+      "topics": [
+        44,
+        90,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -54,6 +124,11 @@
     {
       "id": "845b1c230db27772",
       "family": "02_observation_measurement",
+      "topics": [
+        13,
+        38,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -63,6 +138,11 @@
     {
       "id": "8cbe81638a0644d9",
       "family": "02_observation_measurement",
+      "topics": [
+        70,
+        130,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -72,6 +152,11 @@
     {
       "id": "98aba07df113386c",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        120,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -81,6 +166,11 @@
     {
       "id": "a2d17344022c894c",
       "family": "02_observation_measurement",
+      "topics": [
+        64,
+        185,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -90,6 +180,11 @@
     {
       "id": "a7a31cd330dcf877",
       "family": "02_observation_measurement",
+      "topics": [
+        6,
+        99,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -99,6 +194,11 @@
     {
       "id": "b35d84f9e341b07e",
       "family": "02_observation_measurement",
+      "topics": [
+        170,
+        194,
+        197
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -108,6 +208,11 @@
     {
       "id": "c5b8031f27453520",
       "family": "02_observation_measurement",
+      "topics": [
+        13,
+        170,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -117,6 +222,11 @@
     {
       "id": "cf241780186066ce",
       "family": "02_observation_measurement",
+      "topics": [
+        20,
+        178,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -126,6 +236,11 @@
     {
       "id": "dd57bcb133964121",
       "family": "02_observation_measurement",
+      "topics": [
+        67,
+        96,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",
@@ -135,6 +250,11 @@
     {
       "id": "f4f8207aa9cd8c6d",
       "family": "02_observation_measurement",
+      "topics": [
+        44,
+        78,
+        194
+      ],
       "cited_terms": [
         "evidence_correlated_with",
         "lift_with_baseline_rate",

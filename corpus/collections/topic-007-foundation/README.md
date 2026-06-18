@@ -1,6 +1,8 @@
 # Collection — topic 7 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **35 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 7: topic 2, topic 21, topic 30, topic 31, topic 35, topic 46, topic 47, topic 52, topic 53, topic 56, topic 66, topic 72, topic 75, topic 85, topic 92, topic 94, topic 100, topic 110, topic 123, topic 126, topic 129, topic 142, topic 143, topic 145, topic 151, topic 154, topic 155, topic 169, topic 178, topic 179, topic 187, topic 190, topic 194, topic 198.
 
 > **Topic gist** (representative FinePDFs text): 3rd WORLD CONFERENCE on DESIGN, ARTS AND EDUCATION- DAE-2014 May 02-03, 2014 Royal Princess Hotel Conference Center ***** Dubrovnik, Croatia ABSTRACTS BOOK Organization Academic World Education and Research Center Non-profit international organization www.awer-center.org Organizating Committee Prof. Dr. Ayşe Çakır İlhan, Ankara University, Turkey Prof. Dr. Jesus Garcia Laborda, Universidad ... …
 
@@ -36,8 +38,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
 - [`t_directive_not_obsolete`](tables/t_directive_not_obsolete.sql) — realizes `directive_not_obsolete`
-- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope` · _shared with 3 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

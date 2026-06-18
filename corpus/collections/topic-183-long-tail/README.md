@@ -1,6 +1,8 @@
 # Collection — topic 183 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 183: topic 13, topic 20, topic 22, topic 23, topic 30, topic 34, topic 39, topic 62, topic 64, topic 65, topic 74, topic 89, topic 93, topic 101, topic 103, topic 109, topic 111, topic 119, topic 122, topic 128, topic 145, topic 151, topic 162, topic 163, topic 165.
 
 > **Topic gist** (representative FinePDFs text): Modeling and Reasoning about Service-Oriented Applications via Goals and Commitments Amit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos December 2009 Technical Report # DISI-09-068 Modeling and Reasoning about Service-Oriented Applications via Goals and Commitments Amit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos University of Trento Abstract. Service-o... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

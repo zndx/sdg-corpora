@@ -18,10 +18,122 @@
     "t_lift_with_baseline_rate",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    14,
+    16,
+    39,
+    49,
+    50,
+    70,
+    73,
+    113,
+    121,
+    136,
+    144,
+    149,
+    153,
+    171,
+    186
+  ],
+  "shared_tables": {
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      47,
+      68,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      47,
+      58,
+      68,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      47,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181,
+      183
+    ],
+    "lift_with_baseline_rate": [
+      50,
+      54,
+      135,
+      148,
+      194
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "046e3e10fb679aab",
       "family": "07_long_tail",
+      "topics": [
+        16,
+        39,
+        149
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -33,6 +145,11 @@
     {
       "id": "0eeb5a35fd8328d4",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        144,
+        153
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -44,6 +161,11 @@
     {
       "id": "3c407c94623ad5c2",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        136,
+        171
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -55,6 +177,11 @@
     {
       "id": "46a3dd170b650ad2",
       "family": "07_long_tail",
+      "topics": [
+        14,
+        39,
+        186
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -66,6 +193,11 @@
     {
       "id": "52a6ce692cc03d7f",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        49,
+        70
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -77,6 +209,11 @@
     {
       "id": "8127fb2beb6df1dc",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        50,
+        73
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",
@@ -88,6 +225,11 @@
     {
       "id": "d3b6703a98df2acb",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        113,
+        121
+      ],
       "cited_terms": [
         "hipaa_safeguard_technical",
         "lift_with_baseline_rate",

@@ -1,6 +1,8 @@
 # Collection — topic 20 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **18 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 20: topic 6, topic 34, topic 40, topic 64, topic 71, topic 74, topic 80, topic 99, topic 100, topic 119, topic 120, topic 151, topic 154, topic 162, topic 169, topic 170, topic 191.
 
 > **Topic gist** (representative FinePDFs text): Manufacturer declaration EHEDG and 3-A, Installation and Cleaning Instructions Hygienic process fittings Document ID: 63436 # Contents 1 About this document ................................................................. 3 1.1 Function ........................................................................... 3 1.2 Scope .................................................................. …
 
@@ -28,8 +30,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer` · _shared with 6 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

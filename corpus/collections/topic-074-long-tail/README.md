@@ -1,6 +1,8 @@
 # Collection — topic 74 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 74: topic 2, topic 7, topic 20, topic 34, topic 46, topic 49, topic 50, topic 57, topic 65, topic 72, topic 75, topic 78, topic 91, topic 97, topic 106, topic 107, topic 108, topic 117, topic 119, topic 122, topic 123, topic 132, topic 133, topic 174, topic 187, topic 195, topic 196.
 
 > **Topic gist** (representative FinePDFs text): YRG CARE base model report: Integrated prevention, care, and support services Christopher Castle Follow this and additional works at: https://knowledgecommons.popcouncil.org/departments_sbsr-hiv How does access to this work benefit you? Let us know! Recommended Citation Castle, Christopher. 2003. "YRG CARE base model report: Integrated prevention, care, and support services," Horizons Project ... …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

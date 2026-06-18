@@ -1,6 +1,8 @@
 # Collection — topic 93 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 93: topic 6, topic 32, topic 33, topic 38, topic 40, topic 47, topic 54, topic 56, topic 66, topic 70, topic 71, topic 82, topic 90, topic 91, topic 101, topic 117, topic 146, topic 149, topic 173, topic 188, topic 194, topic 198.
 
 > **Topic gist** (representative FinePDFs text): INC. 13463 NOMWAKET Rd, APPLE VALLEY, CA, 92308. AS9100 D 2016 EXTERNAL PROVIDERS QUALITY TERMS AND CONDITIONS REQUIREMENTS. FM-843-001-B INC. 13463 NOMWAKET Rd, APPLE VALLEY, CA, 92308. AS9100 D 2016 EXTERNAL PROVIDERS QUALITY TERMS AND CONDITIONS REQUIREMENTS. FM-843-001-B − their contribution to product safety; − the importance of ethical behavior. TELEXCA CUSTOMER FLOW DOWN REQUIREMENTS A... …
 
@@ -31,7 +33,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_constraint_min_one_check`](tables/t_constraint_min_one_check.sql) — realizes `constraint_min_one_check`
-- [`t_control_min_one_owner`](tables/t_control_min_one_owner.sql) — realizes `control_min_one_owner`
-- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer`
-- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
+- [`t_control_min_one_owner`](tables/t_control_min_one_owner.sql) — realizes `control_min_one_owner` · _shared with 1 other collection(s)_
+- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer` · _shared with 6 other collection(s)_
+- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification` · _shared with 8 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_

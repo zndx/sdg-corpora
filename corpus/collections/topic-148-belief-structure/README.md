@@ -1,6 +1,8 @@
 # Collection — topic 148 · 06_belief_structure
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **20 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 148: topic 2, topic 7, topic 50, topic 52, topic 61, topic 74, topic 92, topic 103, topic 118, topic 121, topic 133, topic 144, topic 155, topic 160, topic 163, topic 186, topic 195, topic 196, topic 197.
 
 > **Topic gist** (representative FinePDFs text): Author, Philosopher, Poet, Scientist, Director-Moderator of Unarius Science of Life. UNARIUS UNiversal ARticulate Interdimensional Understanding of Science THE INFINITE CONCEPT of COSMIC CREATION (An Introduction to the Interdimensional Cosmos) HOME STUDY LESSON COURSE (# One course: 1-13 lessons given in 1956) (Advanced Course: 1-7 lessons written in 1960) (Addendum written in 1970) By E... …
 
@@ -29,7 +31,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_lift_basic`](tables/t_lift_basic.sql) — realizes `lift_basic`
-- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate`
+- [`t_lift_basic`](tables/t_lift_basic.sql) — realizes `lift_basic` · _shared with 1 other collection(s)_
+- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate` · _shared with 5 other collection(s)_
 - [`t_lift_with_support_count`](tables/t_lift_with_support_count.sql) — realizes `lift_with_support_count`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

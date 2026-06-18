@@ -1,6 +1,8 @@
 # Collection — topic 104 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **18 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 104: topic 13, topic 20, topic 26, topic 33, topic 35, topic 49, topic 62, topic 65, topic 72, topic 78, topic 91, topic 106, topic 113, topic 154, topic 169, topic 176, topic 191.
 
 > **Topic gist** (representative FinePDFs text): IJP (2016), Vol. 3, Issue 5 (Research Article) Received on 28 April 2016; received in revised form, 17 May 2016; accepted, 25 May 2016; published 31 May 2016 PHARMACOGNOSTIC STUDIES OF DRUG SPERMADICTYON SUAVEOLENS ROXB. Musmade Kavita, Abhijeet Rakshe and Digambar Mokat * Department of Botany, Savitribai Phule Pune University Pune - 411007, Maharashtra, India. Keywords: Spermadictyon suave... …
 
@@ -29,8 +31,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

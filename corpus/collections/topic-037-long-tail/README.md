@@ -1,6 +1,8 @@
 # Collection — topic 37 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters** · **11 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 37: topic 8, topic 31, topic 95, topic 112, topic 128, topic 143, topic 169, topic 178, topic 183, topic 187.
 
 > **Topic gist** (representative FinePDFs text): AAVP Newsletter American Association of Veterinary Parasitologists Summer, 2021 Volume 43, Number 2 In this issue IN THIS ISSUE ................................................................... 1 FROM THE PRESIDENT ................................................. 2 FROM THE SECRETARY/TREASURER ........ …
 
@@ -24,8 +26,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit` · _shared with 5 other collection(s)_

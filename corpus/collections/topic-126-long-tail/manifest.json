@@ -16,10 +16,70 @@
     "t_schemaorg_product_brand",
     "t_schemaorg_product_price"
   ],
+  "topics": [
+    19,
+    33,
+    47,
+    80,
+    82,
+    94,
+    99,
+    103,
+    114,
+    119,
+    126,
+    135,
+    143,
+    144,
+    150,
+    151,
+    165,
+    169,
+    173,
+    185,
+    193,
+    194
+  ],
+  "shared_tables": {
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      153,
+      158,
+      162,
+      170,
+      185,
+      186
+    ],
+    "schemaorg_place_longitude": [
+      142,
+      170
+    ],
+    "schemaorg_product_brand": [
+      22,
+      51,
+      146
+    ],
+    "schemaorg_product_price": [
+      24,
+      51,
+      52,
+      185
+    ]
+  },
   "chapters": [
     {
       "id": "210497ff726ab9a8",
       "family": "07_long_tail",
+      "topics": [
+        126,
+        151,
+        194
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -30,6 +90,11 @@
     {
       "id": "3ff320f00cbfb4b3",
       "family": "07_long_tail",
+      "topics": [
+        126,
+        135,
+        143
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -40,6 +105,11 @@
     {
       "id": "487c9a4920846fc7",
       "family": "07_long_tail",
+      "topics": [
+        19,
+        103,
+        126
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -50,6 +120,11 @@
     {
       "id": "511179c5f9a6410b",
       "family": "07_long_tail",
+      "topics": [
+        82,
+        126,
+        173
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -60,6 +135,11 @@
     {
       "id": "65b5a60a4a80b460",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        126,
+        144
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -70,6 +150,11 @@
     {
       "id": "762f2803db50a959",
       "family": "07_long_tail",
+      "topics": [
+        80,
+        99,
+        126
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -80,6 +165,11 @@
     {
       "id": "78926113428f556f",
       "family": "07_long_tail",
+      "topics": [
+        119,
+        126,
+        169
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -90,6 +180,11 @@
     {
       "id": "9a94f1995d4b58a1",
       "family": "07_long_tail",
+      "topics": [
+        126,
+        150,
+        193
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -100,6 +195,11 @@
     {
       "id": "a0db32c587f7771f",
       "family": "07_long_tail",
+      "topics": [
+        33,
+        80,
+        126
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -110,6 +210,11 @@
     {
       "id": "bdc579d8dd3d1ea7",
       "family": "07_long_tail",
+      "topics": [
+        114,
+        126,
+        185
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",
@@ -120,6 +225,11 @@
     {
       "id": "faa03fcc77ae40fb",
       "family": "07_long_tail",
+      "topics": [
+        94,
+        126,
+        165
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "schemaorg_product_price",

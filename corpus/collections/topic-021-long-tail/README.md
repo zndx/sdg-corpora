@@ -1,6 +1,8 @@
 # Collection — topic 21 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters** · **33 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 21: topic 3, topic 19, topic 37, topic 40, topic 51, topic 54, topic 58, topic 66, topic 67, topic 71, topic 74, topic 82, topic 96, topic 113, topic 114, topic 115, topic 117, topic 121, topic 122, topic 128, topic 134, topic 139, topic 142, topic 143, topic 144, topic 149, topic 163, topic 173, topic 181, topic 187, topic 190, topic 198.
 
 > **Topic gist** (representative FinePDFs text): Recreating gut-liver axis during NAFLD onset by using a Caco-2/HepG2 co-culture system Marica Meroni¹, Erika Paolini¹,², Miriam Longo¹,³, Roberto Piciotti¹,⁴, Giada Tria¹, Silvia Fargion¹, Anna Ludovica Fracanzani¹,⁴, Paola Dongiovanni¹ ¹General Medicine and Metabolic Diseases, Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan 20122, Italy. ²Department of Pharmacological and Biomo.. …
 
@@ -36,7 +38,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **18 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority`
+- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk` · _shared with 6 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_

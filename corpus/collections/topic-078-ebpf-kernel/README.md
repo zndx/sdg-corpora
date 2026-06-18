@@ -1,6 +1,8 @@
 # Collection — topic 78 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters** · **37 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 78: topic 4, topic 6, topic 7, topic 22, topic 31, topic 32, topic 49, topic 52, topic 56, topic 68, topic 72, topic 73, topic 74, topic 77, topic 89, topic 90, topic 96, topic 98, topic 102, topic 106, topic 111, topic 125, topic 127, topic 128, topic 130, topic 132, topic 138, topic 153, topic 154, topic 163, topic 171, topic 173, topic 174, topic 185, topic 190, topic 194.
 
 > **Topic gist** (representative FinePDFs text): ENERGY STAR ® Residential New Construction Programs Historical Document This document is provided for reference because it has been superseded by a more recent Version or Revision. Please find current program documents on the Program Requirements webpage. Use of older Versions and Revisions, such as this document, are typically limited to homes and buildings with a permit date (or, for manufact... …
 
@@ -39,8 +41,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope`
-- [`t_policy_with_jurisdiction`](tables/t_policy_with_jurisdiction.sql) — realizes `policy_with_jurisdiction`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope` · _shared with 3 other collection(s)_
+- [`t_policy_with_jurisdiction`](tables/t_policy_with_jurisdiction.sql) — realizes `policy_with_jurisdiction` · _shared with 2 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

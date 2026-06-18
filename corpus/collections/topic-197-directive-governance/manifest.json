@@ -18,10 +18,93 @@
     "t_outlier_claim_min_one_attribute",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    2,
+    28,
+    30,
+    31,
+    33,
+    40,
+    49,
+    54,
+    56,
+    67,
+    75,
+    90,
+    94,
+    99,
+    103,
+    108,
+    114,
+    119,
+    139,
+    160,
+    170,
+    179,
+    187,
+    191,
+    197
+  ],
+  "shared_tables": {
+    "aggregation_basic": [
+      14
+    ],
+    "measurement_basic": [
+      106
+    ],
+    "outlier_claim_basic": [
+      14,
+      24,
+      49,
+      54,
+      119
+    ],
+    "outlier_claim_min_one_attribute": [
+      14,
+      24,
+      49,
+      52,
+      194
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185
+    ]
+  },
   "chapters": [
     {
       "id": "0b3702e112218cd1",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        179,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -33,6 +116,11 @@
     {
       "id": "1eaaf699430f5008",
       "family": "02_observation_measurement",
+      "topics": [
+        67,
+        139,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -44,6 +132,11 @@
     {
       "id": "25fbc158d4cfea97",
       "family": "02_observation_measurement",
+      "topics": [
+        2,
+        187,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -55,6 +148,11 @@
     {
       "id": "2814dfd732d0994d",
       "family": "02_observation_measurement",
+      "topics": [
+        33,
+        191,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -66,6 +164,11 @@
     {
       "id": "28f49e39e6395128",
       "family": "02_observation_measurement",
+      "topics": [
+        40,
+        49,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -77,6 +180,11 @@
     {
       "id": "41c320de0cf609f6",
       "family": "02_observation_measurement",
+      "topics": [
+        75,
+        99,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -88,6 +196,11 @@
     {
       "id": "82ef548fee65c4e3",
       "family": "02_observation_measurement",
+      "topics": [
+        28,
+        114,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -99,6 +212,11 @@
     {
       "id": "833d4a0105c7d406",
       "family": "02_observation_measurement",
+      "topics": [
+        56,
+        99,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -110,6 +228,11 @@
     {
       "id": "92ac4c54f2db5908",
       "family": "02_observation_measurement",
+      "topics": [
+        108,
+        160,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -121,6 +244,11 @@
     {
       "id": "b1ceb4cbe92332f9",
       "family": "02_observation_measurement",
+      "topics": [
+        30,
+        170,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -132,6 +260,11 @@
     {
       "id": "d509fd61db608700",
       "family": "02_observation_measurement",
+      "topics": [
+        54,
+        119,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -143,6 +276,11 @@
     {
       "id": "e6c709bff61c9854",
       "family": "02_observation_measurement",
+      "topics": [
+        31,
+        187,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",
@@ -154,6 +292,11 @@
     {
       "id": "e97c4f2d5b9ce06a",
       "family": "02_observation_measurement",
+      "topics": [
+        90,
+        94,
+        197
+      ],
       "cited_terms": [
         "outlier_claim_basic",
         "pci_dss_requirement",

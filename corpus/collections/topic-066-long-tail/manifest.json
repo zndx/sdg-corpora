@@ -10,10 +10,49 @@
   "tables": [
     "t_schemaorg_place_geocoord"
   ],
+  "topics": [
+    21,
+    24,
+    30,
+    31,
+    34,
+    37,
+    42,
+    66,
+    74,
+    80,
+    81,
+    83,
+    88,
+    91,
+    97,
+    99,
+    112,
+    113,
+    114,
+    127,
+    146,
+    183,
+    193,
+    198
+  ],
+  "shared_tables": {
+    "schemaorg_place_geocoord": [
+      119,
+      142,
+      170,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "01d198c9067a6866",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        66,
+        127
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -21,6 +60,11 @@
     {
       "id": "5854643245039e79",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        74,
+        99
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -28,6 +72,11 @@
     {
       "id": "5d3ad3f93ca785bc",
       "family": "07_long_tail",
+      "topics": [
+        42,
+        66,
+        97
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -35,6 +84,11 @@
     {
       "id": "60239c8df52b6be4",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        66,
+        83
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -42,6 +96,11 @@
     {
       "id": "77b3ab044afdca43",
       "family": "07_long_tail",
+      "topics": [
+        31,
+        66,
+        193
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -49,6 +108,11 @@
     {
       "id": "8f05dc04ba3a7bf1",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        24,
+        66
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -56,6 +120,11 @@
     {
       "id": "9314fbb17c1faf13",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        81,
+        91
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -63,6 +132,11 @@
     {
       "id": "aa81dad61c9a56e2",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        88,
+        183
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -70,6 +144,11 @@
     {
       "id": "b5d2beb2adef1540",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        80,
+        198
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -77,6 +156,11 @@
     {
       "id": "b8626adcedd92f05",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        114,
+        146
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -84,6 +168,11 @@
     {
       "id": "b888bfa6f8767ffe",
       "family": "07_long_tail",
+      "topics": [
+        34,
+        66,
+        113
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]
@@ -91,6 +180,11 @@
     {
       "id": "e23537b4b16cde65",
       "family": "07_long_tail",
+      "topics": [
+        66,
+        91,
+        112
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord"
       ]

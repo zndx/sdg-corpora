@@ -1,6 +1,8 @@
 # Collection — topic 133 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 133: topic 15, topic 22, topic 23, topic 24, topic 31, topic 32, topic 35, topic 46, topic 49, topic 57, topic 89, topic 93, topic 97, topic 100, topic 106, topic 108, topic 118, topic 125, topic 144, topic 146, topic 157, topic 158, topic 160, topic 166, topic 178, topic 190, topic 195.
 
 > **Topic gist** (representative FinePDFs text): M.Sc. Zoology, Part-I PAPER–I (Non-Chordates and Chordates) Annual Examination, 2020 Time: 3 Hours. Full Marks: 80 Answer five questions in all, selecting at least Two Questions from each Group. All Questions carry equal marks. GROUP 'A' 1. Describe hydrostatic movement in Coelenterates. 2. Give an account of filter-feeding in Polychaeta. 3. What is Coelom ? Describe organization of Coelom ... …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim`
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim` · _shared with 2 other collection(s)_
+- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

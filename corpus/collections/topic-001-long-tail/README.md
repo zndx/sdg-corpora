@@ -1,6 +1,8 @@
 # Collection — topic 1 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **24 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 1: topic 4, topic 13, topic 24, topic 27, topic 35, topic 47, topic 49, topic 77, topic 81, topic 89, topic 92, topic 103, topic 112, topic 120, topic 139, topic 145, topic 170, topic 183, topic 185, topic 190, topic 197, topic 198, topic 199.
 
 > **Topic gist** (representative FinePDFs text): "Strides Arcolab Limited Conference Call" July 27, 2011 MODERATORS: MR. NITIN AGARWAL MR. ARUN KUMAR MR. T.S. RANGAN Moderator: Nitin Agarwal Arun Kumar: : Ladies and gentleman, good day and welcome to the Strides Arcolab Q2 CY'11 post results conference call hosted by IDFC Securities Limited. As a reminder all participants' line will be in the listen-only mode and there will be an opport... …
 
@@ -32,7 +34,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_attestation_basic`](tables/t_attestation_basic.sql) — realizes `attestation_basic`
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic`
-- [`t_verification_basic`](tables/t_verification_basic.sql) — realizes `verification_basic`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic` · _shared with 5 other collection(s)_
+- [`t_verification_basic`](tables/t_verification_basic.sql) — realizes `verification_basic` · _shared with 1 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

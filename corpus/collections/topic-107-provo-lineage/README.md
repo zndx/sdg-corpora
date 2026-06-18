@@ -1,6 +1,8 @@
 # Collection — topic 107 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 107: topic 3, topic 13, topic 15, topic 37, topic 52, topic 67, topic 68, topic 76, topic 82, topic 100, topic 101, topic 103, topic 108, topic 110, topic 111, topic 123, topic 136, topic 151, topic 160, topic 170, topic 178, topic 181, topic 195, topic 198.
 
 > **Topic gist** (representative FinePDFs text): Biology 115: Introductory Plant Biology Laboratory The University of Tennessee, Spring, 2017 2 credits: 1 credit lab, 1 credit discussion Catalog Description: Laboratory work will analyze plant structure, morphology, and function, with an emphasis on methods for observation, identification, and data collection. The discussion will focus on agricultural priority areas of the future: sustainable... …
 
@@ -31,8 +33,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_produces_evidence`](tables/t_audit_produces_evidence.sql) — realizes `audit_produces_evidence`
-- [`t_claim_min_one_evidence`](tables/t_claim_min_one_evidence.sql) — realizes `claim_min_one_evidence`
-- [`t_directive_authored_and_applies`](tables/t_directive_authored_and_applies.sql) — realizes `directive_authored_and_applies`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_produces_evidence`](tables/t_audit_produces_evidence.sql) — realizes `audit_produces_evidence` · _shared with 1 other collection(s)_
+- [`t_claim_min_one_evidence`](tables/t_claim_min_one_evidence.sql) — realizes `claim_min_one_evidence` · _shared with 2 other collection(s)_
+- [`t_directive_authored_and_applies`](tables/t_directive_authored_and_applies.sql) — realizes `directive_authored_and_applies` · _shared with 2 other collection(s)_
 - [`t_evidence_basic`](tables/t_evidence_basic.sql) — realizes `evidence_basic`

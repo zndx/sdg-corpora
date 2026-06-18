@@ -18,10 +18,112 @@
     "t_kernel_anomaly_supports_claim",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    1,
+    15,
+    23,
+    30,
+    32,
+    34,
+    50,
+    51,
+    62,
+    64,
+    67,
+    68,
+    71,
+    75,
+    76,
+    80,
+    82,
+    99,
+    100,
+    102,
+    108,
+    126,
+    134,
+    144,
+    146,
+    164,
+    169,
+    174,
+    187,
+    190
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "column_lineage_for_compliance_claim": [
+      94,
+      115,
+      130,
+      133,
+      190
+    ],
+    "gdpr_lawful_basis": [
+      3,
+      26,
+      73,
+      78,
+      104,
+      133,
+      138,
+      154,
+      163
+    ],
+    "kernel_anomaly_supports_claim": [
+      94,
+      115,
+      130,
+      133,
+      190
+    ],
+    "trace_supports_claim": [
+      49,
+      65,
+      78,
+      94,
+      99,
+      108,
+      115,
+      130,
+      133,
+      154,
+      165,
+      185,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "017f3a3e2b1a4e43",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        68,
+        76
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -33,6 +135,11 @@
     {
       "id": "0285a1ad16df3332",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        80,
+        126
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -44,6 +151,11 @@
     {
       "id": "075b861d677f4623",
       "family": "07_long_tail",
+      "topics": [
+        23,
+        30,
+        32
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -55,6 +167,11 @@
     {
       "id": "0a988cd1e6854efc",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        169,
+        187
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -66,6 +183,11 @@
     {
       "id": "6395ca7978426591",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        67,
+        99
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -77,6 +199,11 @@
     {
       "id": "76fd4064a063303c",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        82,
+        146
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -88,6 +215,11 @@
     {
       "id": "82ae605e509d81ff",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        134,
+        174
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -99,6 +231,11 @@
     {
       "id": "98f0faf23bf53f9e",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        100,
+        164
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -110,6 +247,11 @@
     {
       "id": "b099c942564d4a1d",
       "family": "07_long_tail",
+      "topics": [
+        1,
+        30,
+        34
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -121,6 +263,11 @@
     {
       "id": "c843a60d898e2f31",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        50,
+        190
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -132,6 +279,11 @@
     {
       "id": "cc3686f6c16d4d96",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        51,
+        144
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -143,6 +295,11 @@
     {
       "id": "ccbbe2beff222995",
       "family": "07_long_tail",
+      "topics": [
+        1,
+        30,
+        64
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -154,6 +311,11 @@
     {
       "id": "d041d72c2b83ea9f",
       "family": "07_long_tail",
+      "topics": [
+        15,
+        30,
+        102
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -165,6 +327,11 @@
     {
       "id": "e31e7a092acb845f",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        62,
+        108
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",
@@ -176,6 +343,11 @@
     {
       "id": "e92a56e82828e215",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        71,
+        75
+      ],
       "cited_terms": [
         "trace_supports_claim",
         "attestation_signed_by",

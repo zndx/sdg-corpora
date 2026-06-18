@@ -1,6 +1,8 @@
 # Collection — topic 53 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **21 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 53: topic 5, topic 6, topic 7, topic 25, topic 28, topic 31, topic 42, topic 54, topic 68, topic 92, topic 99, topic 109, topic 111, topic 121, topic 123, topic 146, topic 170, topic 174, topic 195, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Rajesh Jha College of Tropical Agriculture and Human Resources Human Nutrition, Food and Animal Sciences FTE Distribution: 50% I; 40% R; 10% E Education Professional Appointments Courses Taught Course Number and Title (credits) ANSC 244 / FSHN 244: Comparative Nutrition (3 cr) ANSC 321: Applied Animal Nutrition (3 cr) ANSC 642: Advanced Animal Nutrition (3 cr) FSHN 682: Topics in Nutrit... …
 
@@ -28,6 +30,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_column_tag_subclass`](tables/t_column_tag_subclass.sql) — realizes `column_tag_subclass`
-- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant`
-- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input`
+- [`t_column_tag_subclass`](tables/t_column_tag_subclass.sql) — realizes `column_tag_subclass` · _shared with 1 other collection(s)_
+- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant` · _shared with 3 other collection(s)_
+- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input` · _shared with 2 other collection(s)_

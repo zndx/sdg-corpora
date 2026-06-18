@@ -1,6 +1,8 @@
 # Collection — topic 145 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **25 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 145: topic 14, topic 23, topic 24, topic 38, topic 49, topic 53, topic 54, topic 72, topic 85, topic 90, topic 94, topic 101, topic 111, topic 114, topic 121, topic 126, topic 128, topic 136, topic 142, topic 150, topic 151, topic 169, topic 181, topic 188.
 
 > **Topic gist** (representative FinePDFs text): South Australian Office of the Public Advocate ANNUAL REPORT 2009 The Public Advocate is an Independent Official accountable to the Parliament of South Australia South Australian Office of the Public Advocate Annual Report 2009 ISSN 1837-5480 (Print) ISSN 1837-5499 (Online) Front Cover: ‘Pink Faced’ by Ashoka Chowta - Digital Artist Office of the Public Advocate ABC Building Level 7, 85 Nor... …
 
@@ -28,4 +30,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment`
+- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment` · _shared with 2 other collection(s)_

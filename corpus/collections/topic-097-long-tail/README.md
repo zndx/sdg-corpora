@@ -1,6 +1,8 @@
 # Collection — topic 97 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **20 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 97: topic 3, topic 37, topic 51, topic 56, topic 57, topic 70, topic 73, topic 80, topic 88, topic 91, topic 93, topic 102, topic 103, topic 112, topic 113, topic 121, topic 127, topic 138, topic 155.
 
 > **Topic gist** (representative FinePDFs text): Journal of species lists and distribution Mammalia, Chiroptera, Phyllostomidae, Artibeus planirostris (Spix, 1823) and Trachops cirrhosus (Spix, 1823): First record for the state of Sergipe, northeastern Brazil José Anderson Feijó 1 * and Hannah Larissa Nunes 1 1 Universidade Federal da Paraíba, Centro de Ciências Exatas e da Natureza, Departamento de Sistemática e Ecologia, Laboratório de Mast... …
 
@@ -29,7 +31,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_
 - [`t_syscall_only_in_kernel_subsystem`](tables/t_syscall_only_in_kernel_subsystem.sql) — realizes `syscall_only_in_kernel_subsystem`
-- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass`
+- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass` · _shared with 1 other collection(s)_

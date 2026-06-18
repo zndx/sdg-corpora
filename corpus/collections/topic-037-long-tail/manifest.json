@@ -18,10 +18,130 @@
     "t_audit_for_period",
     "t_dataset_under_audit"
   ],
+  "topics": [
+    8,
+    31,
+    37,
+    95,
+    112,
+    128,
+    143,
+    169,
+    178,
+    183,
+    187
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      43,
+      57,
+      73,
+      76,
+      95,
+      102,
+      111,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "audit_for_period": [
+      3,
+      20,
+      32,
+      43,
+      57,
+      65,
+      76,
+      111,
+      171,
+      179,
+      187
+    ],
+    "dataset_under_audit": [
+      32,
+      38,
+      49,
+      94,
+      179
+    ]
+  },
   "chapters": [
     {
       "id": "2edf0837787ecd22",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        112,
+        187
+      ],
       "cited_terms": [
         "audit_for_period",
         "dataset_under_audit",
@@ -33,6 +153,11 @@
     {
       "id": "a7fcddddf0dc423d",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        169,
+        183
+      ],
       "cited_terms": [
         "audit_for_period",
         "dataset_under_audit",
@@ -44,6 +169,11 @@
     {
       "id": "c08f969003b7bf11",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        31,
+        37
+      ],
       "cited_terms": [
         "audit_for_period",
         "dataset_under_audit",
@@ -55,6 +185,11 @@
     {
       "id": "d4f12121a8a0429d",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        143,
+        178
+      ],
       "cited_terms": [
         "audit_for_period",
         "dataset_under_audit",
@@ -66,6 +201,11 @@
     {
       "id": "dfbf5fdfd28e2ab6",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        95,
+        128
+      ],
       "cited_terms": [
         "audit_for_period",
         "dataset_under_audit",

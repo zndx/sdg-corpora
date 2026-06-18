@@ -18,10 +18,141 @@
     "t_requirement_equiv_specifies_target",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    2,
+    23,
+    37,
+    38,
+    43,
+    51,
+    54,
+    57,
+    71,
+    75,
+    81,
+    86,
+    96,
+    103,
+    106,
+    131,
+    132,
+    136,
+    146,
+    163,
+    179,
+    181,
+    191,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      74,
+      106,
+      129,
+      144,
+      183
+    ],
+    "iso27001_clause_subclass": [
+      4,
+      22,
+      52,
+      129,
+      173
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      44,
+      56,
+      58,
+      83,
+      89,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "01fb787f9369269b",
       "family": "03_directive_governance",
+      "topics": [
+        71,
+        136,
+        191
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -33,6 +164,11 @@
     {
       "id": "0d465d2cdde7af5b",
       "family": "03_directive_governance",
+      "topics": [
+        71,
+        106,
+        163
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -44,6 +180,11 @@
     {
       "id": "33513afa28678830",
       "family": "03_directive_governance",
+      "topics": [
+        51,
+        71,
+        179
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -55,6 +196,11 @@
     {
       "id": "42b1e603a1c880db",
       "family": "03_directive_governance",
+      "topics": [
+        38,
+        71,
+        81
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -66,6 +212,11 @@
     {
       "id": "4cf1cce5af4a4bb9",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        38,
+        71
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -77,6 +228,11 @@
     {
       "id": "55618ca00ecffdc3",
       "family": "03_directive_governance",
+      "topics": [
+        71,
+        86,
+        96
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -88,6 +244,11 @@
     {
       "id": "889248d76bd2e883",
       "family": "03_directive_governance",
+      "topics": [
+        54,
+        71,
+        75
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -99,6 +260,11 @@
     {
       "id": "8fc927a681ee1c82",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        71,
+        146
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -110,6 +276,11 @@
     {
       "id": "990774cdee08a33e",
       "family": "03_directive_governance",
+      "topics": [
+        57,
+        71,
+        136
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -121,6 +292,11 @@
     {
       "id": "c4372a1c79a97925",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        71,
+        181
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -132,6 +308,11 @@
     {
       "id": "d8cd39c7cb0c3fe8",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        71,
+        132
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -143,6 +324,11 @@
     {
       "id": "e842054c8e7ac44e",
       "family": "03_directive_governance",
+      "topics": [
+        71,
+        131,
+        199
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",
@@ -154,6 +340,11 @@
     {
       "id": "f16f96e0ac4de2ca",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        71,
+        103
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "attestation_with_supporting_evidence",

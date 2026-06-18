@@ -1,6 +1,8 @@
 # Collection — topic 162 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **38 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 162: topic 6, topic 14, topic 20, topic 21, topic 31, topic 32, topic 38, topic 42, topic 46, topic 50, topic 58, topic 65, topic 76, topic 78, topic 83, topic 92, topic 96, topic 99, topic 100, topic 103, topic 114, topic 115, topic 117, topic 120, topic 121, topic 129, topic 131, topic 155, topic 157, topic 169, topic 176, topic 179, topic 181, topic 188, topic 191, topic 193, topic 194.
 
 > **Topic gist** (representative FinePDFs text): Order of Blood Draw and Specimen Collection Instructions CAUTION: Do not uncap or open vacutainer tubes. Contact Singulex if cap has been removed or altered. ATTENTION: There have been recent changes to the clotting time and the number of inversions. FILL ONE SERUM SEPARATOR TUBE COMPLETELY FOR THE FOLLOWING TEST(S): * Advanced Lipids * NT-proBNP * Testosterone * Calcium * DHEA-S * Apo A-1 * F... …
 
@@ -36,6 +38,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_lift_basic`](tables/t_lift_basic.sql) — realizes `lift_basic`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return`
+- [`t_lift_basic`](tables/t_lift_basic.sql) — realizes `lift_basic` · _shared with 1 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return` · _shared with 4 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 85 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **31 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 85: topic 1, topic 6, topic 16, topic 19, topic 27, topic 32, topic 34, topic 39, topic 54, topic 57, topic 81, topic 92, topic 97, topic 104, topic 115, topic 120, topic 123, topic 133, topic 135, topic 146, topic 150, topic 154, topic 158, topic 163, topic 169, topic 178, topic 188, topic 195, topic 196, topic 198.
 
 > **Topic gist** (representative FinePDFs text): TIME TO RE THINK RURAL MOBILITY THIS PROJECT IS FUNDED BY THE EUROPEAN UNION SMARTA Sustainable shared mobility interconnected with public transport in European rural areas (developing the concept of ‘smart rural transport areas’ [SMARTA]) Rethinking Rural Mobility Design and Editor: European Integrated Projects Authors: SMARTA consortium: MemEx SRL (lead partner), Vectos GmbH, The University... …
 
@@ -35,8 +37,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_control_subclass`](tables/t_control_subclass.sql) — realizes `control_subclass`
-- [`t_gdpr_article_subclass`](tables/t_gdpr_article_subclass.sql) — realizes `gdpr_article_subclass`
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority`
+- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk` · _shared with 6 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_control_subclass`](tables/t_control_subclass.sql) — realizes `control_subclass` · _shared with 2 other collection(s)_
+- [`t_gdpr_article_subclass`](tables/t_gdpr_article_subclass.sql) — realizes `gdpr_article_subclass` · _shared with 3 other collection(s)_
+- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_

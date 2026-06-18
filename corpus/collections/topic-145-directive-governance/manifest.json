@@ -10,10 +10,48 @@
   "tables": [
     "t_mass_function_equiv_frame_and_assignment"
   ],
+  "topics": [
+    14,
+    23,
+    24,
+    38,
+    49,
+    53,
+    54,
+    72,
+    85,
+    90,
+    94,
+    101,
+    111,
+    114,
+    121,
+    126,
+    128,
+    136,
+    142,
+    145,
+    150,
+    151,
+    169,
+    181,
+    188
+  ],
+  "shared_tables": {
+    "mass_function_equiv_frame_and_assignment": [
+      143,
+      157
+    ]
+  },
   "chapters": [
     {
       "id": "239210471eaef481",
       "family": "06_belief_structure",
+      "topics": [
+        14,
+        128,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -21,6 +59,11 @@
     {
       "id": "3c3fa36616952787",
       "family": "06_belief_structure",
+      "topics": [
+        24,
+        145,
+        188
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -28,6 +71,11 @@
     {
       "id": "5459a8121ddc6f76",
       "family": "06_belief_structure",
+      "topics": [
+        121,
+        145,
+        188
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -35,6 +83,11 @@
     {
       "id": "58837e7fca7dd10b",
       "family": "06_belief_structure",
+      "topics": [
+        23,
+        85,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -42,6 +95,11 @@
     {
       "id": "73156bdf2363b3d8",
       "family": "06_belief_structure",
+      "topics": [
+        53,
+        72,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -49,6 +107,11 @@
     {
       "id": "78380eb45509760e",
       "family": "06_belief_structure",
+      "topics": [
+        54,
+        145,
+        151
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -56,6 +119,11 @@
     {
       "id": "8aac93e77d256458",
       "family": "06_belief_structure",
+      "topics": [
+        111,
+        142,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -63,6 +131,11 @@
     {
       "id": "9298bf11eea70e84",
       "family": "06_belief_structure",
+      "topics": [
+        90,
+        145,
+        169
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -70,6 +143,11 @@
     {
       "id": "98a467934ac051a1",
       "family": "06_belief_structure",
+      "topics": [
+        38,
+        114,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -77,6 +155,11 @@
     {
       "id": "bb70f7b86d5457ac",
       "family": "06_belief_structure",
+      "topics": [
+        94,
+        101,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -84,6 +167,11 @@
     {
       "id": "bc98518a484b5888",
       "family": "06_belief_structure",
+      "topics": [
+        49,
+        126,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -91,6 +179,11 @@
     {
       "id": "c074ec3b17f42440",
       "family": "06_belief_structure",
+      "topics": [
+        121,
+        136,
+        145
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]
@@ -98,6 +191,11 @@
     {
       "id": "cb274d8b5be0fe27",
       "family": "06_belief_structure",
+      "topics": [
+        145,
+        150,
+        181
+      ],
       "cited_terms": [
         "mass_function_equiv_frame_and_assignment"
       ]

@@ -18,10 +18,102 @@
     "t_subclass_to_designative_ice",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    6,
+    13,
+    16,
+    22,
+    27,
+    51,
+    61,
+    62,
+    85,
+    113,
+    119,
+    130,
+    154,
+    157,
+    174,
+    176,
+    195,
+    197
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "designative_subclass_basic": [
+      56,
+      101,
+      128
+    ],
+    "identifier_unique": [
+      101
+    ],
+    "subclass_to_designative_ice": [
+      56,
+      101,
+      128
+    ],
+    "verification_produces_evidence": [
+      16,
+      23,
+      44,
+      56,
+      58,
+      71,
+      83,
+      89,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "0c44ced29f130a59",
       "family": "01_foundation",
+      "topics": [
+        6,
+        51,
+        157
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -33,6 +125,11 @@
     {
       "id": "14d66af0a9d3181b",
       "family": "01_foundation",
+      "topics": [
+        6,
+        62,
+        174
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -44,6 +141,11 @@
     {
       "id": "6f3ca8a1fbab565b",
       "family": "01_foundation",
+      "topics": [
+        6,
+        61,
+        119
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -55,6 +157,11 @@
     {
       "id": "8f9e04cf52cccdc8",
       "family": "01_foundation",
+      "topics": [
+        6,
+        154,
+        195
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -66,6 +173,11 @@
     {
       "id": "afe6d6316fff2366",
       "family": "01_foundation",
+      "topics": [
+        6,
+        113,
+        197
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -77,6 +189,11 @@
     {
       "id": "b5a5ca4e4794e99f",
       "family": "01_foundation",
+      "topics": [
+        6,
+        16,
+        130
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -88,6 +205,11 @@
     {
       "id": "ce5d4a00390261eb",
       "family": "01_foundation",
+      "topics": [
+        6,
+        13,
+        27
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -99,6 +221,11 @@
     {
       "id": "f20b7b0472cab48d",
       "family": "01_foundation",
+      "topics": [
+        6,
+        85,
+        176
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",
@@ -110,6 +237,11 @@
     {
       "id": "f6e9466982322865",
       "family": "01_foundation",
+      "topics": [
+        6,
+        22,
+        61
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "designative_subclass_basic",

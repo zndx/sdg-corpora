@@ -10,10 +10,45 @@
   "tables": [
     "t_schemaorg_product_brand"
   ],
+  "topics": [
+    5,
+    15,
+    21,
+    25,
+    31,
+    51,
+    74,
+    83,
+    89,
+    90,
+    93,
+    112,
+    115,
+    126,
+    146,
+    157,
+    158,
+    179,
+    186,
+    187,
+    198
+  ],
+  "shared_tables": {
+    "schemaorg_product_brand": [
+      22,
+      51,
+      126
+    ]
+  },
   "chapters": [
     {
       "id": "0893696aca774b68",
       "family": "07_long_tail",
+      "topics": [
+        83,
+        146,
+        187
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -21,6 +56,11 @@
     {
       "id": "0f6ecf8452ef090b",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        146,
+        157
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -28,6 +68,11 @@
     {
       "id": "26f6332c1874185d",
       "family": "07_long_tail",
+      "topics": [
+        31,
+        51,
+        146
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -35,6 +80,11 @@
     {
       "id": "64e0cdcc3b1f2007",
       "family": "07_long_tail",
+      "topics": [
+        5,
+        126,
+        146
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -42,6 +92,11 @@
     {
       "id": "80986508e794fdb0",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        146,
+        198
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -49,6 +104,11 @@
     {
       "id": "89627ec7e1af31c3",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        115,
+        146
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -56,6 +116,11 @@
     {
       "id": "8da6739db4ff8a25",
       "family": "07_long_tail",
+      "topics": [
+        15,
+        90,
+        146
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -63,6 +128,11 @@
     {
       "id": "a70d9be35ac3f424",
       "family": "07_long_tail",
+      "topics": [
+        146,
+        158,
+        186
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -70,6 +140,11 @@
     {
       "id": "a8b8343be549e6a8",
       "family": "07_long_tail",
+      "topics": [
+        93,
+        146,
+        179
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]
@@ -77,6 +152,11 @@
     {
       "id": "cdbd1557babfd8cf",
       "family": "07_long_tail",
+      "topics": [
+        89,
+        112,
+        146
+      ],
       "cited_terms": [
         "schemaorg_product_brand"
       ]

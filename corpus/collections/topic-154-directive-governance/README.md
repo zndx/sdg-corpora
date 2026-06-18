@@ -1,6 +1,8 @@
 # Collection — topic 154 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 154: topic 23, topic 30, topic 43, topic 50, topic 53, topic 67, topic 72, topic 73, topic 74, topic 96, topic 111, topic 112, topic 113, topic 114, topic 125, topic 132, topic 134, topic 142, topic 150, topic 160, topic 166, topic 170, topic 176, topic 181, topic 190, topic 194, topic 197, topic 199.
 
 > **Topic gist** (representative FinePDFs text): DOMESTIC ENERGY USERS' NETWORK Members Convenor Age Concern NZ Child Poverty Action Group Grey Power Federation Public Health Association Rural Women NZ: Molly Melhuish, 04-568-4873, 027- 230-5911,firstname.lastname@example.org Secretary: Sarah Free, 04 383 7337 email@example.com To the Electricity Authority: Cross-submission: Transmission Pricing Methodology Molly Melhuish, March 28 2013 ... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim`
-- [`t_claim_refuted_by_evidence`](tables/t_claim_refuted_by_evidence.sql) — realizes `claim_refuted_by_evidence`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim` · _shared with 2 other collection(s)_
+- [`t_claim_refuted_by_evidence`](tables/t_claim_refuted_by_evidence.sql) — realizes `claim_refuted_by_evidence` · _shared with 1 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

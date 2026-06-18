@@ -1,6 +1,8 @@
 # Collection — topic 51 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **19 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 51: topic 1, topic 2, topic 8, topic 21, topic 22, topic 28, topic 32, topic 46, topic 52, topic 67, topic 88, topic 112, topic 114, topic 115, topic 165, topic 169, topic 174, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Teaching guide IDENTIFICATION DETAILS Degree: Gastronomy Field of Knowledge: Science Faculty/School: Legal and Business Science Course: BRAND AND PRODUCT POLICIES Type: Basic Training ECTS credits: 6 Year: 2 Code: 1429 Teaching period: Third semester Area: Business Module: Basic training Teaching type: Classroom-based Language: English Total number of student study hour... …
 
@@ -28,8 +30,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand`
-- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price`
-- [`t_table_provenance_source`](tables/t_table_provenance_source.sql) — realizes `table_provenance_source`
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 3 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 4 other collection(s)_
+- [`t_table_provenance_source`](tables/t_table_provenance_source.sql) — realizes `table_provenance_source` · _shared with 1 other collection(s)_
 - [`t_table_topic_tag`](tables/t_table_topic_tag.sql) — realizes `table_topic_tag`

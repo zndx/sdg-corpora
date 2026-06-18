@@ -1,6 +1,8 @@
 # Collection — topic 75 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 75: topic 32, topic 43, topic 51, topic 52, topic 54, topic 64, topic 83, topic 88, topic 92, topic 93, topic 97, topic 102, topic 107, topic 110, topic 117, topic 121, topic 128, topic 131, topic 135, topic 190, topic 196, topic 199.
 
 > **Topic gist** (representative FinePDFs text): University of Calgary PRISM: University of Calgary's Digital Repository Research Centres, Institutes, Projects and Units Shift: The Project to End Domestic Violence 2020-09 Building a Case for Using "Coercive Control" in Alberta: Discussion Paper Lee, Lianne; Wells, Lana; Gray, Shawna M.; Esina, Elena Lee, L., Wells, L., Gray, S. & Esina, E. (2020). Building a case for using "Coercive Contr... …
 
@@ -30,8 +32,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope`
-- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope` · _shared with 3 other collection(s)_
+- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer` · _shared with 6 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

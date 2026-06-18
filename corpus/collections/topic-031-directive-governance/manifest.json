@@ -18,10 +18,62 @@
     "t_syscall_at_security_tier",
     "t_syscall_equiv_in_subsystem"
   ],
+  "topics": [
+    4,
+    6,
+    14,
+    20,
+    31,
+    33,
+    100,
+    117,
+    120,
+    130,
+    133,
+    149,
+    155,
+    170,
+    193
+  ],
+  "shared_tables": {
+    "ebpfprogram_verified_safe": [
+      19,
+      62,
+      64
+    ],
+    "labrun_with_protocol": [
+      139
+    ],
+    "nist80053_control_subclass": [
+      109
+    ],
+    "syscall_at_security_tier": [
+      19,
+      62,
+      67,
+      72,
+      90,
+      97,
+      110
+    ],
+    "syscall_equiv_in_subsystem": [
+      19,
+      62,
+      67,
+      72,
+      97,
+      110
+    ]
+  },
   "chapters": [
     {
       "id": "12fcf14e4199f951",
       "family": "04_ebpf_kernel",
+      "topics": [
+        31,
+        130,
+        170
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -33,6 +85,11 @@
     {
       "id": "3ce154642abe5222",
       "family": "04_ebpf_kernel",
+      "topics": [
+        31,
+        100,
+        120
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -44,6 +101,11 @@
     {
       "id": "477b0a60151a7344",
       "family": "04_ebpf_kernel",
+      "topics": [
+        14,
+        31,
+        33
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -55,6 +117,11 @@
     {
       "id": "656662896671104f",
       "family": "04_ebpf_kernel",
+      "topics": [
+        14,
+        31,
+        33
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -66,6 +133,11 @@
     {
       "id": "6c389ad5966bf72b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        4,
+        31,
+        193
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -77,6 +149,11 @@
     {
       "id": "92191bf26646e293",
       "family": "04_ebpf_kernel",
+      "topics": [
+        31,
+        133,
+        149
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -88,6 +165,11 @@
     {
       "id": "a800d2af38c7517c",
       "family": "04_ebpf_kernel",
+      "topics": [
+        31,
+        117,
+        155
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",
@@ -99,6 +181,11 @@
     {
       "id": "be0eb9949d0fba73",
       "family": "04_ebpf_kernel",
+      "topics": [
+        6,
+        20,
+        31
+      ],
       "cited_terms": [
         "labrun_with_protocol",
         "syscall_at_security_tier",

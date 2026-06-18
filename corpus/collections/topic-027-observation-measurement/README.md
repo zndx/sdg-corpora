@@ -1,6 +1,8 @@
 # Collection — topic 27 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **19 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 27: topic 1, topic 16, topic 35, topic 42, topic 47, topic 57, topic 58, topic 61, topic 77, topic 80, topic 88, topic 96, topic 97, topic 108, topic 109, topic 155, topic 159, topic 193.
 
 > **Topic gist** (representative FinePDFs text): CHANNEL ASSIGNMENT IN MULTI-HOP TDD W-CDMA CELLULAR NETWORKS BY MOHAMMED K. AL-RIYAMI A thesis submitted to the School of Computing In conformity with the requirement for the degree of Master of Science Queen’s University Kingston, Ontario, Canada April 2004 Copyright © Mohammed K. Al-Riyami, 2004 NOTICE: The author has granted a non-exclusive license allowing Library and Archives Canada to ... …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass`
+- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 3 other collection(s)_
 - [`t_soc2_privacy_subclass`](tables/t_soc2_privacy_subclass.sql) — realizes `soc2_privacy_subclass`
 - [`t_soc2_security_subclass`](tables/t_soc2_security_subclass.sql) — realizes `soc2_security_subclass`

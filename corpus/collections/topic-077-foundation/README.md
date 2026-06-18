@@ -1,6 +1,8 @@
 # Collection — topic 77 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **2 ontology terms** · **2 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **31 topics** (target + style) · **2 ontology terms** · **2 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 77: topic 1, topic 14, topic 19, topic 27, topic 31, topic 33, topic 34, topic 35, topic 53, topic 57, topic 70, topic 88, topic 90, topic 94, topic 98, topic 103, topic 106, topic 117, topic 128, topic 130, topic 131, topic 142, topic 144, topic 148, topic 149, topic 160, topic 165, topic 174, topic 195, topic 196.
 
 > **Topic gist** (representative FinePDFs text): BIOENG-445 Biomedical optics Wagnières Georges Summary This course addresses the principles governing the interactions between light and biological tissue, their optical properties and basic concepts of radiometry. Illustrative diagnostic and therapeutic applications of light in medicine and photobiology will also be described. Content Introduction Introduction to general optics and tissue ... …
 
@@ -33,5 +35,5 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by`
-- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic`
+- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by` · _shared with 6 other collection(s)_
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 4 other collection(s)_

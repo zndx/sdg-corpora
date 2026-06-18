@@ -1,6 +1,8 @@
 # Collection — topic 119 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **20 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 119: topic 2, topic 13, topic 27, topic 34, topic 40, topic 44, topic 51, topic 75, topic 77, topic 82, topic 113, topic 127, topic 130, topic 145, topic 154, topic 183, topic 187, topic 193, topic 197.
 
 > **Topic gist** (representative FinePDFs text): CALL FOR SUBMISSIONS The submission of a proposal implies a commitment to attend the virtual meeting and provide the presentation if it is accepted. All attendees, presenters, and guests are required to register for the meeting. Proposals will be accepted or rejected on the basis of peer review. NEPA Priority Submission Deadline: February 1, 2021 through March 21, 2021, for symposia and papers r.. …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord`
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord` · _shared with 4 other collection(s)_

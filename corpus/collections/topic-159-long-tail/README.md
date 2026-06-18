@@ -1,6 +1,8 @@
 # Collection — topic 159 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 159: topic 28, topic 31, topic 35, topic 43, topic 46, topic 47, topic 66, topic 81, topic 86, topic 91, topic 95, topic 99, topic 100, topic 104, topic 107, topic 117, topic 121, topic 125, topic 136, topic 142, topic 146, topic 151, topic 153, topic 160, topic 162, topic 173, topic 199.
 
 > **Topic gist** (representative FinePDFs text): 64170 C. Self-Regulatory Organization's Statement on Comments on the Proposed Rule Change Received From Members, Participants, or Others Written comments were neither solicited nor received. III. Date of Effectiveness of the Proposed Rule Change and Timing for Commission Action Within 45 days of the date of publication of this notice in the Federal Register or within such longer period (i) as ... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_audit_produces_evidence`](tables/t_audit_produces_evidence.sql) — realizes `audit_produces_evidence`
-- [`t_claim_observed_by_event`](tables/t_claim_observed_by_event.sql) — realizes `claim_observed_by_event`
+- [`t_audit_produces_evidence`](tables/t_audit_produces_evidence.sql) — realizes `audit_produces_evidence` · _shared with 1 other collection(s)_
+- [`t_claim_observed_by_event`](tables/t_claim_observed_by_event.sql) — realizes `claim_observed_by_event` · _shared with 1 other collection(s)_
 - [`t_evidence_observed_by_process`](tables/t_evidence_observed_by_process.sql) — realizes `evidence_observed_by_process`
 - [`t_mass_function_min_one_focal`](tables/t_mass_function_min_one_focal.sql) — realizes `mass_function_min_one_focal`
-- [`t_metric_observed_by_event`](tables/t_metric_observed_by_event.sql) — realizes `metric_observed_by_event`
+- [`t_metric_observed_by_event`](tables/t_metric_observed_by_event.sql) — realizes `metric_observed_by_event` · _shared with 1 other collection(s)_

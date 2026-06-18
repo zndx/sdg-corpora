@@ -1,6 +1,8 @@
 # Collection — topic 160 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 160: topic 6, topic 8, topic 15, topic 20, topic 25, topic 39, topic 47, topic 71, topic 77, topic 81, topic 88, topic 98, topic 102, topic 104, topic 107, topic 109, topic 115, topic 130, topic 138, topic 149, topic 151, topic 171, topic 181, topic 186, topic 188.
 
 > **Topic gist** (representative FinePDFs text): E-ISSN: 2320-7078 P-ISSN: 2349-6800 JEZS 2017; 5(2): 605-607 © 2017 JEZS Received: 17-01-2017 Accepted: 18-02-2017 R Dinesh Department of Fish Pathology and Health Management, Fisheries College and Research Institute, Thoothukudi - 628008, Tamil Nadu, India M Rosalind George Department of Fish Pathology and Health Management, Fisheries College and Research Institute, Thoothukudi - 628008,... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_requirement_only_satisfied_by`](tables/t_requirement_only_satisfied_by.sql) — realizes `requirement_only_satisfied_by`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_requirement_only_satisfied_by`](tables/t_requirement_only_satisfied_by.sql) — realizes `requirement_only_satisfied_by` · _shared with 2 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

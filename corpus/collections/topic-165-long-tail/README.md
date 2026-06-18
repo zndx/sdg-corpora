@@ -1,6 +1,8 @@
 # Collection — topic 165 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 165: topic 15, topic 21, topic 22, topic 24, topic 42, topic 53, topic 68, topic 72, topic 77, topic 78, topic 83, topic 103, topic 106, topic 110, topic 118, topic 133, topic 134, topic 143, topic 145, topic 146, topic 159, topic 169, topic 174, topic 188.
 
 > **Topic gist** (representative FinePDFs text): Malaria Journal Bio Med Central Research Open Access 'A mate or a meal' – Pre-gravid behaviour of female Anopheles gambiae from the islands of São Tomé and Príncipe, West Africa J Derek Charlwood* 1,2 , Joao Pinto 1 , Carla A Sousa 3 , Conceicao Ferreira 4 , Vincenso Petrarca 5 and Virgilio do E Rosario 1 Address: 1 Centro de Málaria e outras Doenças Tropicais, Instituto de Higiene e Medic... …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

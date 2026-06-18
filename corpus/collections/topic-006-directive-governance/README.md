@@ -1,6 +1,8 @@
 # Collection — topic 6 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **18 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 6: topic 13, topic 16, topic 22, topic 27, topic 51, topic 61, topic 62, topic 85, topic 113, topic 119, topic 130, topic 154, topic 157, topic 174, topic 176, topic 195, topic 197.
 
 > **Topic gist** (representative FinePDFs text): Disaster Risk Management For Coastal Tourism Destinations Responding To Climate Change A Practical Guide for Decision Makers UNEP Manuals on Sustainable Tourism ISDR International Strategy for Disaster Reduction CAST Caribbean Alliance for Sustainable Tourism Copyright © United Nations Environment Programme, 2008 This publication may be reproduced in whole or in part and in any form for educ... …
 
@@ -28,8 +30,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic`
-- [`t_identifier_unique`](tables/t_identifier_unique.sql) — realizes `identifier_unique`
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
+- [`t_identifier_unique`](tables/t_identifier_unique.sql) — realizes `identifier_unique` · _shared with 1 other collection(s)_
+- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

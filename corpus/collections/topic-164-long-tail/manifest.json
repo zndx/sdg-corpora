@@ -16,10 +16,56 @@
     "t_process_min_one_input",
     "t_process_min_one_output"
   ],
+  "topics": [
+    1,
+    13,
+    16,
+    20,
+    24,
+    33,
+    34,
+    40,
+    49,
+    54,
+    56,
+    67,
+    76,
+    83,
+    85,
+    91,
+    99,
+    104,
+    107,
+    114,
+    151,
+    164,
+    186
+  ],
+  "shared_tables": {
+    "measurement_equiv_with_dim_unit": [
+      103
+    ],
+    "process_max_one_operator": [
+      80,
+      122
+    ],
+    "process_min_one_input": [
+      53,
+      188
+    ],
+    "process_min_one_output": [
+      188
+    ]
+  },
   "chapters": [
     {
       "id": "0e304e26193b1d65",
       "family": "07_long_tail",
+      "topics": [
+        34,
+        151,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -30,6 +76,11 @@
     {
       "id": "17b1bdc6543ef6ad",
       "family": "07_long_tail",
+      "topics": [
+        13,
+        33,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -40,6 +91,11 @@
     {
       "id": "2268aaacc9f7774a",
       "family": "07_long_tail",
+      "topics": [
+        1,
+        24,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -50,6 +106,11 @@
     {
       "id": "26af9b179265ced1",
       "family": "07_long_tail",
+      "topics": [
+        40,
+        83,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -60,6 +121,11 @@
     {
       "id": "59a8827fa8ceb477",
       "family": "07_long_tail",
+      "topics": [
+        104,
+        164,
+        186
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -70,6 +136,11 @@
     {
       "id": "682827ef27491600",
       "family": "07_long_tail",
+      "topics": [
+        91,
+        107,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -80,6 +151,11 @@
     {
       "id": "7b721d6cd2d4fb4b",
       "family": "07_long_tail",
+      "topics": [
+        85,
+        99,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -90,6 +166,11 @@
     {
       "id": "933b79a03d0d81c2",
       "family": "07_long_tail",
+      "topics": [
+        16,
+        20,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -100,6 +181,11 @@
     {
       "id": "bcff25362e8955e9",
       "family": "07_long_tail",
+      "topics": [
+        54,
+        56,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -110,6 +196,11 @@
     {
       "id": "be0380b177962c40",
       "family": "07_long_tail",
+      "topics": [
+        67,
+        76,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -120,6 +211,11 @@
     {
       "id": "c2f0701b593c6533",
       "family": "07_long_tail",
+      "topics": [
+        49,
+        76,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",
@@ -130,6 +226,11 @@
     {
       "id": "fff217318b8b86b4",
       "family": "07_long_tail",
+      "topics": [
+        91,
+        114,
+        164
+      ],
       "cited_terms": [
         "process_min_one_input",
         "measurement_equiv_with_dim_unit",

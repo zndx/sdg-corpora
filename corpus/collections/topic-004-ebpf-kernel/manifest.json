@@ -18,10 +18,127 @@
     "t_iso27001_clause_subclass",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    4,
+    14,
+    26,
+    32,
+    43,
+    50,
+    61,
+    78,
+    80,
+    85,
+    93,
+    101,
+    108,
+    109,
+    117,
+    122,
+    155,
+    160,
+    190,
+    193,
+    196
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      28,
+      43,
+      57,
+      65,
+      68,
+      75,
+      76,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      190,
+      198
+    ],
+    "attestation_signed_by": [
+      2,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "iso27001_annexa_subclass": [
+      15,
+      22,
+      71,
+      74,
+      106,
+      129,
+      144,
+      183
+    ],
+    "iso27001_clause_subclass": [
+      22,
+      52,
+      71,
+      129,
+      173
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "43ae6bbcfe481a8b",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        93,
+        155
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -33,6 +150,11 @@
     {
       "id": "53b3599447e34a33",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        109,
+        190
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -44,6 +166,11 @@
     {
       "id": "5f2f31b4f244cb94",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        85,
+        117
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -55,6 +182,11 @@
     {
       "id": "6b088057688badb3",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        14,
+        32
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -66,6 +198,11 @@
     {
       "id": "88aea4f54c19ef54",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        61,
+        78
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -77,6 +214,11 @@
     {
       "id": "8f2b9e9f22400fb3",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        26,
+        80
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -88,6 +230,11 @@
     {
       "id": "9fef941d78338b47",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        50,
+        196
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -99,6 +246,11 @@
     {
       "id": "c93aca1049f8c426",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        43,
+        108
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -110,6 +262,11 @@
     {
       "id": "dfc50d43a4011020",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        101,
+        160
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",
@@ -121,6 +278,11 @@
     {
       "id": "ef554a3637fbaa21",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        122,
+        193
+      ],
       "cited_terms": [
         "iso27001_clause_subclass",
         "attestation_signed_by",

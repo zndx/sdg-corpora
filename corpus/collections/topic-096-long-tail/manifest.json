@@ -18,10 +18,139 @@
     "t_policy_min_one_enforcer",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    6,
+    14,
+    23,
+    24,
+    33,
+    39,
+    76,
+    83,
+    93,
+    94,
+    96,
+    99,
+    101,
+    112,
+    114,
+    120,
+    123,
+    126,
+    132,
+    153,
+    154,
+    159,
+    162,
+    163,
+    164,
+    166
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ],
+    "policy_equiv_jurisdiction_and_scope": [
+      7,
+      75,
+      78
+    ],
+    "policy_min_one_enforcer": [
+      20,
+      75,
+      93,
+      158,
+      193,
+      198
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "0ffb5fd186d8d7cf",
       "family": "03_directive_governance",
+      "topics": [
+        33,
+        96,
+        154
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -33,6 +162,11 @@
     {
       "id": "4232ad0fe41b2b65",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        94,
+        96
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -44,6 +178,11 @@
     {
       "id": "4af97e67ff04f648",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        96,
+        114
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -55,6 +194,11 @@
     {
       "id": "5230840182561915",
       "family": "03_directive_governance",
+      "topics": [
+        93,
+        96,
+        162
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -66,6 +210,11 @@
     {
       "id": "5f4455f43352c22f",
       "family": "03_directive_governance",
+      "topics": [
+        39,
+        96,
+        114
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -77,6 +226,11 @@
     {
       "id": "6ff8d7b44acfca8c",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        96,
+        164
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -88,6 +242,11 @@
     {
       "id": "72e184056ab0595a",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        96,
+        166
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -99,6 +258,11 @@
     {
       "id": "c4113afabf00ac4c",
       "family": "03_directive_governance",
+      "topics": [
+        96,
+        132,
+        163
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -110,6 +274,11 @@
     {
       "id": "c767e212ef441373",
       "family": "03_directive_governance",
+      "topics": [
+        96,
+        101,
+        159
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -121,6 +290,11 @@
     {
       "id": "c7815b9977858f30",
       "family": "03_directive_governance",
+      "topics": [
+        83,
+        96,
+        120
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -132,6 +306,11 @@
     {
       "id": "cc399ae48dc33f27",
       "family": "03_directive_governance",
+      "topics": [
+        96,
+        99,
+        112
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -143,6 +322,11 @@
     {
       "id": "d571f3ca8d212657",
       "family": "03_directive_governance",
+      "topics": [
+        14,
+        96,
+        153
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",
@@ -154,6 +338,11 @@
     {
       "id": "ec3974191d4c70ed",
       "family": "03_directive_governance",
+      "topics": [
+        96,
+        123,
+        126
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "pci_dss_requirement",

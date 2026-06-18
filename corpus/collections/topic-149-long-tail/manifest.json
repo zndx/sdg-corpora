@@ -16,10 +16,45 @@
     "t_ebpfprogram_subclass",
     "t_kernelhook_max_one_program_attached"
   ],
+  "topics": [
+    2,
+    19,
+    21,
+    26,
+    38,
+    44,
+    70,
+    76,
+    83,
+    100,
+    106,
+    112,
+    129,
+    130,
+    132,
+    149,
+    150,
+    164,
+    166,
+    181,
+    188,
+    193,
+    198
+  ],
+  "shared_tables": {
+    "kernelhook_max_one_program_attached": [
+      110
+    ]
+  },
   "chapters": [
     {
       "id": "1372bd26cafd801e",
       "family": "04_ebpf_kernel",
+      "topics": [
+        19,
+        130,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -30,6 +65,11 @@
     {
       "id": "2b76725fe017971e",
       "family": "04_ebpf_kernel",
+      "topics": [
+        112,
+        149,
+        150
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -40,6 +80,11 @@
     {
       "id": "2f3522dfc31798bd",
       "family": "04_ebpf_kernel",
+      "topics": [
+        44,
+        129,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -50,6 +95,11 @@
     {
       "id": "4d60165dd217a071",
       "family": "04_ebpf_kernel",
+      "topics": [
+        83,
+        149,
+        181
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -60,6 +110,11 @@
     {
       "id": "563df79a7ffd9377",
       "family": "04_ebpf_kernel",
+      "topics": [
+        26,
+        149,
+        198
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -70,6 +125,11 @@
     {
       "id": "851314313059b185",
       "family": "04_ebpf_kernel",
+      "topics": [
+        38,
+        132,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -80,6 +140,11 @@
     {
       "id": "9181ae964795730c",
       "family": "04_ebpf_kernel",
+      "topics": [
+        2,
+        129,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -90,6 +155,11 @@
     {
       "id": "9cef0995ee2129e6",
       "family": "04_ebpf_kernel",
+      "topics": [
+        149,
+        166,
+        181
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -100,6 +170,11 @@
     {
       "id": "9f677c394fea83e4",
       "family": "04_ebpf_kernel",
+      "topics": [
+        106,
+        149,
+        164
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -110,6 +185,11 @@
     {
       "id": "c5770ec68089adf1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        70,
+        100,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -120,6 +200,11 @@
     {
       "id": "c9d2172378ac1282",
       "family": "04_ebpf_kernel",
+      "topics": [
+        21,
+        76,
+        149
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",
@@ -130,6 +215,11 @@
     {
       "id": "d1999c0e470f3506",
       "family": "04_ebpf_kernel",
+      "topics": [
+        149,
+        188,
+        193
+      ],
       "cited_terms": [
         "kernelhook_max_one_program_attached",
         "ebpfprogram_attaches_kernelhook_xref",

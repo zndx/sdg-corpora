@@ -14,10 +14,66 @@
     "t_schemaorg_place_address",
     "t_schemaorg_place_geocoord"
   ],
+  "topics": [
+    2,
+    13,
+    27,
+    34,
+    40,
+    44,
+    51,
+    75,
+    77,
+    82,
+    113,
+    119,
+    127,
+    130,
+    145,
+    154,
+    183,
+    187,
+    193,
+    197
+  ],
+  "shared_tables": {
+    "outlier_claim_basic": [
+      14,
+      24,
+      49,
+      54,
+      197
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      120,
+      125,
+      126,
+      153,
+      158,
+      162,
+      170,
+      185,
+      186
+    ],
+    "schemaorg_place_geocoord": [
+      66,
+      142,
+      170,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "0cc6eaa943642230",
       "family": "07_long_tail",
+      "topics": [
+        13,
+        34,
+        119
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -27,6 +83,11 @@
     {
       "id": "0dfbca20f395e21c",
       "family": "07_long_tail",
+      "topics": [
+        44,
+        119,
+        127
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -36,6 +97,11 @@
     {
       "id": "1548a876134953d1",
       "family": "07_long_tail",
+      "topics": [
+        119,
+        130,
+        193
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -45,6 +111,11 @@
     {
       "id": "1bb12d4ad0d527b6",
       "family": "07_long_tail",
+      "topics": [
+        40,
+        75,
+        119
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -54,6 +125,11 @@
     {
       "id": "3b23d51654204c94",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        119,
+        183
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -63,6 +139,11 @@
     {
       "id": "4b990600e4592e76",
       "family": "07_long_tail",
+      "topics": [
+        82,
+        119,
+        145
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -72,6 +153,11 @@
     {
       "id": "5876f74bcd208495",
       "family": "07_long_tail",
+      "topics": [
+        77,
+        119,
+        154
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -81,6 +167,11 @@
     {
       "id": "77325b2a25d7caca",
       "family": "07_long_tail",
+      "topics": [
+        13,
+        119,
+        187
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -90,6 +181,11 @@
     {
       "id": "ce896370a9904303",
       "family": "07_long_tail",
+      "topics": [
+        113,
+        119,
+        197
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",
@@ -99,6 +195,11 @@
     {
       "id": "d79cd4dc3402943b",
       "family": "07_long_tail",
+      "topics": [
+        27,
+        51,
+        119
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "outlier_claim_basic",

@@ -18,10 +18,147 @@
     "t_requirement_equiv_specifies_target",
     "t_verification_min_one_evidence"
   ],
+  "topics": [
+    4,
+    23,
+    33,
+    34,
+    68,
+    81,
+    85,
+    89,
+    90,
+    110,
+    113,
+    121,
+    125,
+    133,
+    136,
+    139,
+    142,
+    145,
+    146,
+    148,
+    157,
+    160,
+    163,
+    164,
+    178,
+    181,
+    183,
+    190
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      43,
+      57,
+      65,
+      75,
+      76,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      190,
+      198
+    ],
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      47,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      47,
+      58,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      76,
+      81,
+      82,
+      95,
+      127,
+      128,
+      129,
+      171,
+      176,
+      187
+    ]
+  },
   "chapters": [
     {
       "id": "0fb4418d47d22000",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        146,
+        190
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -33,6 +170,11 @@
     {
       "id": "1c9796830827a5f1",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        89,
+        121
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -44,6 +186,11 @@
     {
       "id": "1ceb3cf9bbf7548d",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        160,
+        183
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -55,6 +202,11 @@
     {
       "id": "4af7f4fa1822374c",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        68,
+        157
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -66,6 +218,11 @@
     {
       "id": "70d98c842391fb0d",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        68,
+        190
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -77,6 +234,11 @@
     {
       "id": "7901f20e9ddb0859",
       "family": "03_directive_governance",
+      "topics": [
+        33,
+        68,
+        164
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -88,6 +250,11 @@
     {
       "id": "7e39d28335cd5577",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        90,
+        125
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -99,6 +266,11 @@
     {
       "id": "98d8974dc3582067",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        163,
+        178
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -110,6 +282,11 @@
     {
       "id": "9ac77da2b335bf81",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        81,
+        164
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -121,6 +298,11 @@
     {
       "id": "a4d43c5a2686eeae",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        136,
+        148
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -132,6 +314,11 @@
     {
       "id": "c2d7f96226abaa46",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        146,
+        181
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -143,6 +330,11 @@
     {
       "id": "dd497fa7c24f630b",
       "family": "03_directive_governance",
+      "topics": [
+        34,
+        68,
+        142
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -154,6 +346,11 @@
     {
       "id": "f50094bc8139627f",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        85,
+        110
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -165,6 +362,11 @@
     {
       "id": "f736b8fc8d81a6a4",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        113,
+        145
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",
@@ -176,6 +378,11 @@
     {
       "id": "fd35ca03eaa783e0",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        133,
+        139
+      ],
       "cited_terms": [
         "requirement_equiv_specifies_target",
         "hipaa_safeguard_physical",

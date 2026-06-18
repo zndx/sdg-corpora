@@ -10,10 +10,52 @@
   "tables": [
     "t_schemaorg_place_address"
   ],
+  "topics": [
+    25,
+    52,
+    58,
+    62,
+    76,
+    83,
+    85,
+    91,
+    94,
+    98,
+    107,
+    114,
+    120,
+    129,
+    135,
+    159,
+    176,
+    185,
+    193
+  ],
+  "shared_tables": {
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      125,
+      126,
+      153,
+      158,
+      162,
+      170,
+      185,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "0c9e71ddaaaca317",
       "family": "07_long_tail",
+      "topics": [
+        83,
+        120,
+        176
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -21,6 +63,11 @@
     {
       "id": "0f76a419fb9cc54a",
       "family": "07_long_tail",
+      "topics": [
+        98,
+        114,
+        120
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -28,6 +75,11 @@
     {
       "id": "21d7500fdb561f60",
       "family": "07_long_tail",
+      "topics": [
+        94,
+        120,
+        129
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -35,6 +87,11 @@
     {
       "id": "2973f708aab29cbd",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        85,
+        120
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -42,6 +99,11 @@
     {
       "id": "4d932a95e9ceedf0",
       "family": "07_long_tail",
+      "topics": [
+        91,
+        120,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -49,6 +111,11 @@
     {
       "id": "95b0282e5440af9d",
       "family": "07_long_tail",
+      "topics": [
+        58,
+        120,
+        135
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -56,6 +123,11 @@
     {
       "id": "b1b9126e99c66132",
       "family": "07_long_tail",
+      "topics": [
+        52,
+        120,
+        176
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -63,6 +135,11 @@
     {
       "id": "d5b823dc8bc4c844",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        62,
+        120
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -70,6 +147,11 @@
     {
       "id": "dbc09d7fddf85acc",
       "family": "07_long_tail",
+      "topics": [
+        107,
+        120,
+        193
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]
@@ -77,6 +159,11 @@
     {
       "id": "decd541efb417e2a",
       "family": "07_long_tail",
+      "topics": [
+        62,
+        120,
+        159
+      ],
       "cited_terms": [
         "schemaorg_place_address"
       ]

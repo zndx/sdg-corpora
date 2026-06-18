@@ -1,6 +1,8 @@
 # Collection — topic 14 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **33 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 14: topic 5, topic 7, topic 27, topic 32, topic 33, topic 37, topic 71, topic 75, topic 76, topic 82, topic 85, topic 86, topic 97, topic 115, topic 120, topic 121, topic 130, topic 133, topic 139, topic 148, topic 153, topic 154, topic 158, topic 164, topic 165, topic 170, topic 181, topic 183, topic 188, topic 190, topic 191, topic 194.
 
 > **Topic gist** (representative FinePDFs text): DRAFT AQUACULTURE PLAN FOR SHARK BAY FISHERIES MANAGEMENT PAPER NO. 171 Department of Fisheries 168 St. George's Terrace Perth WA 6000 April 2004 ISSN 0819-4327 Draft Aquaculture Plan For Shark Bay April 2004 Fisheries Management Paper No. 171 ISSN 0819-4327 AN INVITATION TO COMMENT The Department of Fisheries invites people to make a submission on the issues discussed in this report - *... …
 
@@ -36,8 +38,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_aggregation_basic`](tables/t_aggregation_basic.sql) — realizes `aggregation_basic`
-- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by`
-- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass`
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
+- [`t_aggregation_basic`](tables/t_aggregation_basic.sql) — realizes `aggregation_basic` · _shared with 1 other collection(s)_
+- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by` · _shared with 3 other collection(s)_
+- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 3 other collection(s)_
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_

@@ -18,10 +18,157 @@
     "t_requirement_equiv_specifies_target",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    15,
+    21,
+    22,
+    24,
+    42,
+    53,
+    68,
+    72,
+    77,
+    78,
+    83,
+    103,
+    106,
+    110,
+    118,
+    133,
+    134,
+    143,
+    145,
+    146,
+    159,
+    165,
+    169,
+    174,
+    188
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      190
+    ],
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      21,
+      35,
+      61,
+      85,
+      102,
+      104,
+      113,
+      117,
+      160,
+      181,
+      191,
+      196
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      181,
+      183,
+      185,
+      197
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      171,
+      178,
+      186,
+      191,
+      199
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      94,
+      99,
+      108,
+      115,
+      130,
+      133,
+      154,
+      185,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "0155cb9d9b7da648",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        165,
+        169
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -33,6 +180,11 @@
     {
       "id": "03c85497e770276e",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        146,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -44,6 +196,11 @@
     {
       "id": "163599b1b765aab8",
       "family": "03_directive_governance",
+      "topics": [
+        118,
+        143,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -55,6 +212,11 @@
     {
       "id": "37e6ba5796a16289",
       "family": "03_directive_governance",
+      "topics": [
+        72,
+        165,
+        188
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -66,6 +228,11 @@
     {
       "id": "543d4f2d15224006",
       "family": "03_directive_governance",
+      "topics": [
+        22,
+        134,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -77,6 +244,11 @@
     {
       "id": "77aa87f642f5f4e5",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        77,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -88,6 +260,11 @@
     {
       "id": "9040cc081a957182",
       "family": "03_directive_governance",
+      "topics": [
+        106,
+        145,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -99,6 +276,11 @@
     {
       "id": "988843e97e9e9abf",
       "family": "03_directive_governance",
+      "topics": [
+        133,
+        143,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -110,6 +292,11 @@
     {
       "id": "b56858f997f7e7c0",
       "family": "03_directive_governance",
+      "topics": [
+        78,
+        103,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -121,6 +308,11 @@
     {
       "id": "d2b1102b5f2c08e5",
       "family": "03_directive_governance",
+      "topics": [
+        83,
+        134,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -132,6 +324,11 @@
     {
       "id": "d3fd7122c72c2846",
       "family": "03_directive_governance",
+      "topics": [
+        165,
+        174,
+        188
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -143,6 +340,11 @@
     {
       "id": "ebb7f87a4e6131e1",
       "family": "03_directive_governance",
+      "topics": [
+        68,
+        110,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -154,6 +356,11 @@
     {
       "id": "fd469734ff7949fb",
       "family": "03_directive_governance",
+      "topics": [
+        21,
+        42,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",
@@ -165,6 +372,11 @@
     {
       "id": "fe4ca9e46b6eb2f4",
       "family": "03_directive_governance",
+      "topics": [
+        53,
+        159,
+        165
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "attestation_signed_by",

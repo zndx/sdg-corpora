@@ -14,10 +14,116 @@
     "t_audit_with_findings",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    3,
+    4,
+    5,
+    7,
+    13,
+    15,
+    27,
+    30,
+    34,
+    37,
+    44,
+    49,
+    53,
+    66,
+    76,
+    80,
+    88,
+    106,
+    107,
+    114,
+    118,
+    121,
+    123,
+    135,
+    136,
+    138,
+    142,
+    143,
+    149,
+    159,
+    160,
+    170,
+    171,
+    173,
+    190,
+    197,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_with_findings": [
+      16,
+      32,
+      38,
+      76,
+      166,
+      186
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      56,
+      58,
+      71,
+      83,
+      89,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "207231f9506b99e3",
       "family": "03_directive_governance",
+      "topics": [
+        27,
+        44,
+        135
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -27,6 +133,11 @@
     {
       "id": "29f2fdbe31fb4918",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        66,
+        136
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -36,6 +147,11 @@
     {
       "id": "444e000e7c6ffd18",
       "family": "03_directive_governance",
+      "topics": [
+        7,
+        44,
+        149
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -45,6 +161,11 @@
     {
       "id": "454560a99df6c402",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        76,
+        199
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -54,6 +175,11 @@
     {
       "id": "51ca2d11d962d776",
       "family": "03_directive_governance",
+      "topics": [
+        30,
+        44,
+        138
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -63,6 +189,11 @@
     {
       "id": "5358f66b1f2b65ac",
       "family": "03_directive_governance",
+      "topics": [
+        13,
+        44,
+        160
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -72,6 +203,11 @@
     {
       "id": "82e5233022c10069",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        44,
+        171
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -81,6 +217,11 @@
     {
       "id": "8f53f3300dfa76c8",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        107,
+        121
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -90,6 +231,11 @@
     {
       "id": "9f42e16f8b71ef0d",
       "family": "03_directive_governance",
+      "topics": [
+        3,
+        44,
+        190
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -99,6 +245,11 @@
     {
       "id": "a1a7cbea27cad651",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        142,
+        173
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -108,6 +259,11 @@
     {
       "id": "b17c293553dc3560",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        114,
+        170
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -117,6 +273,11 @@
     {
       "id": "b40742251c3b3d95",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        44,
+        143
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -126,6 +287,11 @@
     {
       "id": "bdaed131b364cb20",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        34,
+        44
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -135,6 +301,11 @@
     {
       "id": "bf5fc22d9ca71812",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        53,
+        143
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -144,6 +315,11 @@
     {
       "id": "bf600874cca7dbde",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        106,
+        159
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -153,6 +329,11 @@
     {
       "id": "bfa0521390eae566",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        44,
+        197
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -162,6 +343,11 @@
     {
       "id": "c790750ad6f2c434",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        49,
+        138
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -171,6 +357,11 @@
     {
       "id": "e2154797a14335aa",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        80,
+        123
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",
@@ -180,6 +371,11 @@
     {
       "id": "eb4e17422987cead",
       "family": "03_directive_governance",
+      "topics": [
+        44,
+        88,
+        118
+      ],
       "cited_terms": [
         "audit_with_findings",
         "attestation_with_supporting_evidence",

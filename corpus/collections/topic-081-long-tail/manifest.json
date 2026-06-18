@@ -14,10 +14,64 @@
     "t_subclass_to_information_content_entity",
     "t_verification_min_one_evidence"
   ],
+  "topics": [
+    6,
+    7,
+    39,
+    42,
+    62,
+    71,
+    74,
+    81,
+    88,
+    91,
+    95,
+    97,
+    98,
+    99,
+    100,
+    111,
+    114,
+    127,
+    138,
+    139,
+    149,
+    160,
+    186,
+    193
+  ],
+  "shared_tables": {
+    "subclass_to_descriptive_ice": [
+      178
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      68,
+      76,
+      82,
+      95,
+      127,
+      128,
+      129,
+      171,
+      176,
+      187
+    ]
+  },
   "chapters": [
     {
       "id": "055167ecf9d6f31c",
       "family": "01_foundation",
+      "topics": [
+        81,
+        88,
+        186
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -27,6 +81,11 @@
     {
       "id": "1c4749168e8071f4",
       "family": "01_foundation",
+      "topics": [
+        6,
+        81,
+        95
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -36,6 +95,11 @@
     {
       "id": "234b3185a2354bc3",
       "family": "01_foundation",
+      "topics": [
+        39,
+        81,
+        91
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -45,6 +109,11 @@
     {
       "id": "524f334ba4f0a3d5",
       "family": "01_foundation",
+      "topics": [
+        7,
+        81,
+        98
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -54,6 +123,11 @@
     {
       "id": "6eff8f92c869a712",
       "family": "01_foundation",
+      "topics": [
+        62,
+        81,
+        97
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -63,6 +137,11 @@
     {
       "id": "6f232ed1e47c6118",
       "family": "01_foundation",
+      "topics": [
+        81,
+        138,
+        149
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -72,6 +151,11 @@
     {
       "id": "7168cdc9f57ce5df",
       "family": "01_foundation",
+      "topics": [
+        71,
+        81,
+        160
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -81,6 +165,11 @@
     {
       "id": "9218253a61030629",
       "family": "01_foundation",
+      "topics": [
+        81,
+        99,
+        139
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -90,6 +179,11 @@
     {
       "id": "a12fd25cf03c2142",
       "family": "01_foundation",
+      "topics": [
+        81,
+        100,
+        114
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -99,6 +193,11 @@
     {
       "id": "b79a4579f53b9785",
       "family": "01_foundation",
+      "topics": [
+        71,
+        74,
+        81
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -108,6 +207,11 @@
     {
       "id": "deb2d9297b16ef0f",
       "family": "01_foundation",
+      "topics": [
+        81,
+        111,
+        127
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",
@@ -117,6 +221,11 @@
     {
       "id": "fb3d1647c038cdd8",
       "family": "01_foundation",
+      "topics": [
+        42,
+        81,
+        193
+      ],
       "cited_terms": [
         "verification_min_one_evidence",
         "subclass_to_information_content_entity",

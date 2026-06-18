@@ -1,6 +1,8 @@
 # Collection — topic 157 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **2 ontology terms** · **2 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **30 topics** (target + style) · **2 ontology terms** · **2 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 157: topic 1, topic 4, topic 5, topic 7, topic 20, topic 25, topic 42, topic 51, topic 52, topic 56, topic 57, topic 62, topic 66, topic 76, topic 78, topic 86, topic 99, topic 102, topic 107, topic 114, topic 118, topic 128, topic 151, topic 158, topic 159, topic 165, topic 170, topic 187, topic 194.
 
 > **Topic gist** (representative FinePDFs text): Electronic Supplementary Material (ESI) for Biomaterials Science. This journal is © The Royal Society of Chemistry 2020 Electronic Supplementary Information Selective capture and noninvasive release of cells using a thermoresponsive polymer brush with affinity peptides Kenichi Nagase* ,a Masaki Shimura a , Ruka Shimane a , Kengo Hanaya a , Sota Yamada a , Aya Mizutani Akimoto b , Takeshi Sugai... …
 
@@ -33,4 +35,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_kernel_event_with_tid`](tables/t_kernel_event_with_tid.sql) — realizes `kernel_event_with_tid`
-- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment`
+- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment` · _shared with 2 other collection(s)_

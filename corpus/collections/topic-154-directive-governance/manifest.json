@@ -18,10 +18,97 @@
     "t_gdpr_lawful_basis",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    23,
+    30,
+    43,
+    50,
+    53,
+    67,
+    72,
+    73,
+    74,
+    96,
+    111,
+    112,
+    113,
+    114,
+    125,
+    132,
+    134,
+    142,
+    150,
+    154,
+    160,
+    166,
+    170,
+    176,
+    181,
+    190,
+    194,
+    197,
+    199
+  ],
+  "shared_tables": {
+    "attestation_about_compliance_claim": [
+      130,
+      133
+    ],
+    "claim_refuted_by_evidence": [
+      112
+    ],
+    "control_with_evidence_requirement": [
+      3,
+      23,
+      26,
+      58,
+      78,
+      83,
+      88,
+      89,
+      92,
+      102,
+      104,
+      134,
+      138,
+      191
+    ],
+    "gdpr_lawful_basis": [
+      3,
+      26,
+      30,
+      73,
+      78,
+      104,
+      133,
+      138,
+      163
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      94,
+      99,
+      108,
+      115,
+      130,
+      133,
+      165,
+      185,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "028226b278b3a3dd",
       "family": "07_long_tail",
+      "topics": [
+        67,
+        111,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -33,6 +120,11 @@
     {
       "id": "1ffaa40e6d33845c",
       "family": "07_long_tail",
+      "topics": [
+        154,
+        170,
+        176
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -44,6 +136,11 @@
     {
       "id": "249a7e62cb258cc8",
       "family": "07_long_tail",
+      "topics": [
+        73,
+        132,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -55,6 +152,11 @@
     {
       "id": "39bc7e9703afba9a",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        154,
+        199
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -66,6 +168,11 @@
     {
       "id": "42c3ef84ae332b15",
       "family": "07_long_tail",
+      "topics": [
+        114,
+        154,
+        160
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -77,6 +184,11 @@
     {
       "id": "5556c2cb5fe5a1d1",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        142,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -88,6 +200,11 @@
     {
       "id": "588e696d6b97c1e5",
       "family": "07_long_tail",
+      "topics": [
+        53,
+        154,
+        166
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -99,6 +216,11 @@
     {
       "id": "6f9dc9078eaf4fbb",
       "family": "07_long_tail",
+      "topics": [
+        112,
+        113,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -110,6 +232,11 @@
     {
       "id": "8b28693cdabe13b6",
       "family": "07_long_tail",
+      "topics": [
+        43,
+        134,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -121,6 +248,11 @@
     {
       "id": "9991b9e7a576fb91",
       "family": "07_long_tail",
+      "topics": [
+        154,
+        160,
+        166
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -132,6 +264,11 @@
     {
       "id": "9dc9b74c9076e52a",
       "family": "07_long_tail",
+      "topics": [
+        23,
+        154,
+        190
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -143,6 +280,11 @@
     {
       "id": "a50fdf49a03214e7",
       "family": "07_long_tail",
+      "topics": [
+        72,
+        150,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -154,6 +296,11 @@
     {
       "id": "b4d046e7b882f0ec",
       "family": "07_long_tail",
+      "topics": [
+        125,
+        154,
+        181
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -165,6 +312,11 @@
     {
       "id": "cc1de5f6b50dabff",
       "family": "07_long_tail",
+      "topics": [
+        154,
+        194,
+        197
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",
@@ -176,6 +328,11 @@
     {
       "id": "ccb5e3af56d712ca",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        96,
+        154
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "control_with_evidence_requirement",

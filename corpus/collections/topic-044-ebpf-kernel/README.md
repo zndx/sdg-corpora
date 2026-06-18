@@ -1,6 +1,8 @@
 # Collection — topic 44 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **37 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 44: topic 3, topic 4, topic 5, topic 7, topic 13, topic 15, topic 27, topic 30, topic 34, topic 37, topic 49, topic 53, topic 66, topic 76, topic 80, topic 88, topic 106, topic 107, topic 114, topic 118, topic 121, topic 123, topic 135, topic 136, topic 138, topic 142, topic 143, topic 149, topic 159, topic 160, topic 170, topic 171, topic 173, topic 190, topic 197, topic 199.
 
 > **Topic gist** (representative FinePDFs text): INTERNATIONAL TECHNOLOGY ROADMAP FOR SEMICONDUCTORS 2011 EDITION LITHOGRAPHY THE ITRS IS DEVISED AND INTENDED FOR TECHNOLOGY ASSESSMENT ONLY AND IS WITHOUT REGARD TO ANY COMMERCIAL CONSIDERATIONS PERTAINING TO INDIVIDUAL PRODUCTS OR EQUIPMENT. TABLE OF CONTENTS LITHOGRAPHY SCOPE Extending optical lithography as we know it beyond 2011 is becoming increasingly difficult. Single optical exposu... …
 
@@ -36,6 +38,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 6 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

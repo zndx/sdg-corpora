@@ -18,10 +18,169 @@
     "t_hipaa_safeguard_technical",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    8,
+    24,
+    28,
+    30,
+    37,
+    39,
+    62,
+    66,
+    67,
+    73,
+    74,
+    75,
+    76,
+    83,
+    85,
+    96,
+    98,
+    99,
+    104,
+    122,
+    135,
+    138,
+    139,
+    144,
+    148,
+    150,
+    154,
+    181,
+    186,
+    187,
+    190,
+    195,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      47,
+      68,
+      74,
+      91,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      47,
+      58,
+      68,
+      74,
+      91,
+      92,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      39,
+      47,
+      74,
+      91,
+      92,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "125b2d623f5ba68a",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        98,
+        150
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -33,6 +192,11 @@
     {
       "id": "23c60f668dbc7351",
       "family": "07_long_tail",
+      "topics": [
+        98,
+        99,
+        199
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -44,6 +208,11 @@
     {
       "id": "2bef1d6c501e7243",
       "family": "07_long_tail",
+      "topics": [
+        62,
+        98,
+        195
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -55,6 +224,11 @@
     {
       "id": "389335b2e76b0e95",
       "family": "07_long_tail",
+      "topics": [
+        96,
+        98,
+        181
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -66,6 +240,11 @@
     {
       "id": "4ac1a322585034c7",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        98,
+        186
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -77,6 +256,11 @@
     {
       "id": "4b23e3a8acbe8508",
       "family": "07_long_tail",
+      "topics": [
+        75,
+        98,
+        187
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -88,6 +272,11 @@
     {
       "id": "4f8cba661a58b630",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        98,
+        138
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -99,6 +288,11 @@
     {
       "id": "5aafe2878ad7573d",
       "family": "07_long_tail",
+      "topics": [
+        98,
+        144,
+        148
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -110,6 +304,11 @@
     {
       "id": "665e265b5591f14c",
       "family": "07_long_tail",
+      "topics": [
+        67,
+        98,
+        122
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -121,6 +320,11 @@
     {
       "id": "6dc05f2e45b74de0",
       "family": "07_long_tail",
+      "topics": [
+        24,
+        66,
+        98
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -132,6 +336,11 @@
     {
       "id": "71b57e66a50d15bd",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        83,
+        98
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -143,6 +352,11 @@
     {
       "id": "77ac2ac9d383a840",
       "family": "07_long_tail",
+      "topics": [
+        98,
+        135,
+        190
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -154,6 +368,11 @@
     {
       "id": "8966a92883a2c514",
       "family": "07_long_tail",
+      "topics": [
+        85,
+        98,
+        154
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -165,6 +384,11 @@
     {
       "id": "e5184d5eb8b0fe62",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        98,
+        139
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -176,6 +400,11 @@
     {
       "id": "f426c941994f5bee",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        73,
+        98
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",
@@ -187,6 +416,11 @@
     {
       "id": "f660ba08078710d4",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        98,
+        104
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "attestation_with_supporting_evidence",

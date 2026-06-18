@@ -1,6 +1,8 @@
 # Collection — topic 95 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 95: topic 1, topic 14, topic 21, topic 31, topic 40, topic 49, topic 58, topic 68, topic 71, topic 83, topic 85, topic 115, topic 120, topic 132, topic 133, topic 135, topic 138, topic 142, topic 148, topic 151, topic 173, topic 178, topic 183, topic 188, topic 195, topic 198, topic 199.
 
 > **Topic gist** (representative FinePDFs text): SAS/IML® 14.3 User’s Guide The correct bibliographic citation for this manual is as follows: SAS Institute Inc. 2017. *SAS/IML® 14.3 User’s Guide*. Cary, NC: SAS Institute Inc. **SAS/IML® 14.3 User’s Guide** Copyright © 2017, SAS Institute Inc., Cary, NC, USA All Rights Reserved. Produced in the United States of America. **For a hard-copy book:** No part of this publication may be reproduced,... …
 
@@ -35,8 +37,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
-- [`t_requirement_only_satisfied_by`](tables/t_requirement_only_satisfied_by.sql) — realizes `requirement_only_satisfied_by`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_requirement_only_satisfied_by`](tables/t_requirement_only_satisfied_by.sql) — realizes `requirement_only_satisfied_by` · _shared with 2 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

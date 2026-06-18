@@ -18,10 +18,136 @@
     "t_iso27001_annexa_subclass",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    13,
+    20,
+    22,
+    23,
+    30,
+    34,
+    39,
+    62,
+    64,
+    65,
+    74,
+    89,
+    93,
+    101,
+    103,
+    109,
+    111,
+    119,
+    122,
+    128,
+    145,
+    151,
+    162,
+    163,
+    165,
+    183
+  ],
+  "shared_tables": {
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      47,
+      68,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      47,
+      58,
+      68,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      39,
+      47,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181
+    ],
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      71,
+      74,
+      106,
+      129,
+      144
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "1f2481c45c8d748d",
       "family": "07_long_tail",
+      "topics": [
+        62,
+        93,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -33,6 +159,11 @@
     {
       "id": "36e4d1101435bee5",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        103,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -44,6 +175,11 @@
     {
       "id": "770ac1fc02497ed6",
       "family": "07_long_tail",
+      "topics": [
+        65,
+        89,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -55,6 +191,11 @@
     {
       "id": "9066f961fdc6f23a",
       "family": "07_long_tail",
+      "topics": [
+        89,
+        111,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -66,6 +207,11 @@
     {
       "id": "a1dfbc0afa44df4c",
       "family": "07_long_tail",
+      "topics": [
+        64,
+        109,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -77,6 +223,11 @@
     {
       "id": "af617aa56fdfdd07",
       "family": "07_long_tail",
+      "topics": [
+        13,
+        145,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -88,6 +239,11 @@
     {
       "id": "b5e5872eea1f3570",
       "family": "07_long_tail",
+      "topics": [
+        151,
+        162,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -99,6 +255,11 @@
     {
       "id": "b65ad38b0faa9b9b",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        34,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -110,6 +271,11 @@
     {
       "id": "c78ec3efcb60efb3",
       "family": "07_long_tail",
+      "topics": [
+        122,
+        163,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -121,6 +287,11 @@
     {
       "id": "c8e4873785d3d9d9",
       "family": "07_long_tail",
+      "topics": [
+        20,
+        23,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -132,6 +303,11 @@
     {
       "id": "ca2fac34154c0960",
       "family": "07_long_tail",
+      "topics": [
+        39,
+        101,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -143,6 +319,11 @@
     {
       "id": "d43096d6a872f41d",
       "family": "07_long_tail",
+      "topics": [
+        119,
+        128,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",
@@ -154,6 +335,11 @@
     {
       "id": "e4adf7967a13348b",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        165,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "hipaa_safeguard_technical",

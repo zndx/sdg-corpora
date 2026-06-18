@@ -16,10 +16,83 @@
     "t_claim_refuted_by_evidence",
     "t_mass_function_subclass"
   ],
+  "topics": [
+    2,
+    15,
+    16,
+    19,
+    20,
+    21,
+    25,
+    43,
+    77,
+    80,
+    82,
+    93,
+    94,
+    95,
+    98,
+    112,
+    125,
+    128,
+    131,
+    135,
+    148,
+    155,
+    162,
+    166,
+    174
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "claim_refuted_by_evidence": [
+      154
+    ]
+  },
   "chapters": [
     {
       "id": "1e06f83f2db99bd4",
       "family": "06_belief_structure",
+      "topics": [
+        20,
+        80,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -30,6 +103,11 @@
     {
       "id": "2d258cc402844d4c",
       "family": "06_belief_structure",
+      "topics": [
+        112,
+        128,
+        174
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -40,6 +118,11 @@
     {
       "id": "42cfa6101d1c5986",
       "family": "06_belief_structure",
+      "topics": [
+        43,
+        112,
+        148
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -50,6 +133,11 @@
     {
       "id": "5adf062833c70049",
       "family": "06_belief_structure",
+      "topics": [
+        94,
+        98,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -60,6 +148,11 @@
     {
       "id": "5e745452cc33a661",
       "family": "06_belief_structure",
+      "topics": [
+        25,
+        93,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -70,6 +163,11 @@
     {
       "id": "6fdb0c6522ddc65b",
       "family": "06_belief_structure",
+      "topics": [
+        15,
+        112,
+        131
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -80,6 +178,11 @@
     {
       "id": "7251f11fdd03a6b1",
       "family": "06_belief_structure",
+      "topics": [
+        112,
+        135,
+        162
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -90,6 +193,11 @@
     {
       "id": "918076f24a63c7ec",
       "family": "06_belief_structure",
+      "topics": [
+        21,
+        77,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -100,6 +208,11 @@
     {
       "id": "abcabf309ea4a8c3",
       "family": "06_belief_structure",
+      "topics": [
+        19,
+        82,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -110,6 +223,11 @@
     {
       "id": "b40fdff9f1069e9b",
       "family": "06_belief_structure",
+      "topics": [
+        2,
+        16,
+        112
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -120,6 +238,11 @@
     {
       "id": "eb52ed0bd6e7fd59",
       "family": "06_belief_structure",
+      "topics": [
+        95,
+        112,
+        125
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",
@@ -130,6 +253,11 @@
     {
       "id": "fdf667fbc9ecde30",
       "family": "06_belief_structure",
+      "topics": [
+        112,
+        155,
+        166
+      ],
       "cited_terms": [
         "mass_function_subclass",
         "attestation_with_supporting_evidence",

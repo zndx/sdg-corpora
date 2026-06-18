@@ -18,10 +18,138 @@
     "t_iso27001_annexa_subclass",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    2,
+    7,
+    20,
+    34,
+    46,
+    49,
+    50,
+    57,
+    65,
+    72,
+    74,
+    75,
+    78,
+    91,
+    97,
+    106,
+    107,
+    108,
+    117,
+    119,
+    122,
+    123,
+    132,
+    133,
+    174,
+    187,
+    195,
+    196
+  ],
+  "shared_tables": {
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      47,
+      68,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      47,
+      58,
+      68,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      39,
+      47,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181,
+      183
+    ],
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      71,
+      106,
+      129,
+      144,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "05b2a443a80268d2",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        132,
+        195
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -33,6 +161,11 @@
     {
       "id": "06a9ce3fde92c908",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        75,
+        187
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -44,6 +177,11 @@
     {
       "id": "2afe2fb5013890de",
       "family": "07_long_tail",
+      "topics": [
+        7,
+        65,
+        74
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -55,6 +193,11 @@
     {
       "id": "6e207db64b0e83fb",
       "family": "07_long_tail",
+      "topics": [
+        20,
+        74,
+        97
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -66,6 +209,11 @@
     {
       "id": "711bc792c4fdc7f9",
       "family": "07_long_tail",
+      "topics": [
+        57,
+        74,
+        107
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -77,6 +225,11 @@
     {
       "id": "7be979d4e19cbe8b",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        74,
+        133
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -88,6 +241,11 @@
     {
       "id": "7ce81ad604f0c54e",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        78,
+        108
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -99,6 +257,11 @@
     {
       "id": "80a90cbb9faf4ba7",
       "family": "07_long_tail",
+      "topics": [
+        72,
+        74,
+        119
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -110,6 +273,11 @@
     {
       "id": "9c4bbe8d5b93e255",
       "family": "07_long_tail",
+      "topics": [
+        34,
+        49,
+        74
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -121,6 +289,11 @@
     {
       "id": "b8c43061bdc52e1a",
       "family": "07_long_tail",
+      "topics": [
+        49,
+        74,
+        106
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -132,6 +305,11 @@
     {
       "id": "d5e6f6bb72ff148b",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        91,
+        117
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -143,6 +321,11 @@
     {
       "id": "e6adc7842af7f7ab",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        74,
+        174
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -154,6 +337,11 @@
     {
       "id": "f477992a4cc60e4d",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        122,
+        123
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",
@@ -165,6 +353,11 @@
     {
       "id": "f8002810119872cb",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        74,
+        196
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "hipaa_safeguard_technical",

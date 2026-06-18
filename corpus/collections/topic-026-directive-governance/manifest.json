@@ -18,10 +18,138 @@
     "t_gdpr_lawful_basis",
     "t_policy_with_jurisdiction"
   ],
+  "topics": [
+    8,
+    19,
+    26,
+    28,
+    32,
+    34,
+    35,
+    54,
+    56,
+    80,
+    102,
+    103,
+    107,
+    110,
+    112,
+    117,
+    119,
+    139,
+    151,
+    155,
+    163,
+    166,
+    173,
+    185,
+    188,
+    195,
+    196,
+    197,
+    198
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "control_with_evidence_requirement": [
+      3,
+      23,
+      58,
+      78,
+      83,
+      88,
+      89,
+      92,
+      102,
+      104,
+      134,
+      138,
+      154,
+      191
+    ],
+    "gdpr_lawful_basis": [
+      3,
+      30,
+      73,
+      78,
+      104,
+      133,
+      138,
+      154,
+      163
+    ],
+    "policy_with_jurisdiction": [
+      78,
+      83
+    ]
+  },
   "chapters": [
     {
       "id": "277f1973d46d1aa7",
       "family": "03_directive_governance",
+      "topics": [
+        19,
+        26,
+        117
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -33,6 +161,11 @@
     {
       "id": "630d6b4ec0217097",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        26,
+        188
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -44,6 +177,11 @@
     {
       "id": "7516225188c38d41",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        56,
+        166
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -55,6 +193,11 @@
     {
       "id": "7718b87bfaf2b29d",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        80,
+        155
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -66,6 +209,11 @@
     {
       "id": "80bcf6a3a8d3c24c",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        35,
+        102
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -77,6 +225,11 @@
     {
       "id": "93ab012c5123c687",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        107,
+        166
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -88,6 +241,11 @@
     {
       "id": "9e87a854d422c861",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        110,
+        112
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -99,6 +257,11 @@
     {
       "id": "abbc1c916acb2be6",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        103,
+        197
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -110,6 +273,11 @@
     {
       "id": "b311a0f372069ad8",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        139,
+        185
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -121,6 +289,11 @@
     {
       "id": "b67c7360815897b4",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        34,
+        54
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -132,6 +305,11 @@
     {
       "id": "be88cc0afb510a10",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        173,
+        196
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -143,6 +321,11 @@
     {
       "id": "c724e6007a3c458e",
       "family": "03_directive_governance",
+      "topics": [
+        19,
+        26,
+        32
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -154,6 +337,11 @@
     {
       "id": "c74668bd15bf7a66",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        28,
+        163
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -165,6 +353,11 @@
     {
       "id": "cdd527de7ce70ce9",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        195,
+        198
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",
@@ -176,6 +369,11 @@
     {
       "id": "fea3a3a41c94ee76",
       "family": "03_directive_governance",
+      "topics": [
+        26,
+        119,
+        151
+      ],
       "cited_terms": [
         "gdpr_lawful_basis",
         "policy_with_jurisdiction",

@@ -1,6 +1,8 @@
 # Collection — topic 40 · 06_belief_structure
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **23 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 40: topic 4, topic 15, topic 25, topic 32, topic 50, topic 67, topic 71, topic 83, topic 85, topic 89, topic 92, topic 119, topic 120, topic 121, topic 133, topic 136, topic 138, topic 150, topic 164, topic 187, topic 194, topic 198.
 
 > **Topic gist** (representative FinePDFs text): CONTINENTAL Bachelor in Pentecostal Theology and Biblical Studies 2021-2022 Academic Handbook Bachelor 1 ⚫ Bachelor 2 ⚫ Bachelor 3 Course Outline (Pentecostal Theology and Biblical Studies) *Biblical Language Specialisation *Church Music Specialisation *Missiological Specialisation A. LEVEL ONE (Bachelor 1) CORE MODULES LA101 Biblical Greek I (5 ECTS) LA102 Biblical Greek II (5 ECTS) H... …
 
@@ -29,7 +31,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic`
-- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic`
+- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic` · _shared with 5 other collection(s)_
+- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic` · _shared with 2 other collection(s)_
 - [`t_process_with_min_one_artifact`](tables/t_process_with_min_one_artifact.sql) — realizes `process_with_min_one_artifact`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 25 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **2 ontology terms** · **2 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **26 topics** (target + style) · **2 ontology terms** · **2 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 25: topic 1, topic 4, topic 26, topic 28, topic 37, topic 64, topic 66, topic 72, topic 78, topic 82, topic 83, topic 88, topic 110, topic 111, topic 123, topic 127, topic 132, topic 136, topic 138, topic 145, topic 146, topic 150, topic 153, topic 191, topic 195.
 
 > **Topic gist** (representative FinePDFs text): 出光 2017 Realizing a Sustainable Society IDEMITSU Group IDEMITSU REPORT About the IDEMITSU Report The IDEMITSU Report is offered in both print and online versions. This year’s print version focuses on providing easy-to-understand explanations of the importance of Environment, Society, and Governance (ESG) matters in our management policies as well as the relevance of ESG initiatives to the fun... …
 
@@ -30,5 +32,5 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_claim_observed_by_event`](tables/t_claim_observed_by_event.sql) — realizes `claim_observed_by_event`
-- [`t_metric_observed_by_event`](tables/t_metric_observed_by_event.sql) — realizes `metric_observed_by_event`
+- [`t_claim_observed_by_event`](tables/t_claim_observed_by_event.sql) — realizes `claim_observed_by_event` · _shared with 1 other collection(s)_
+- [`t_metric_observed_by_event`](tables/t_metric_observed_by_event.sql) — realizes `metric_observed_by_event` · _shared with 1 other collection(s)_

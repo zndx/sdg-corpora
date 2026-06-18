@@ -18,10 +18,153 @@
     "t_hipaa_safeguard_technical",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    2,
+    5,
+    21,
+    25,
+    34,
+    35,
+    39,
+    53,
+    56,
+    57,
+    64,
+    66,
+    68,
+    72,
+    75,
+    82,
+    85,
+    86,
+    97,
+    99,
+    103,
+    113,
+    123,
+    126,
+    127,
+    131,
+    143,
+    159,
+    163,
+    164,
+    170,
+    174,
+    176,
+    181,
+    191,
+    199
+  ],
+  "shared_tables": {
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      21,
+      61,
+      85,
+      102,
+      104,
+      113,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ],
+    "hipaa_safeguard_admin": [
+      13,
+      39,
+      47,
+      68,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      39,
+      47,
+      58,
+      68,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      39,
+      47,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "07114d3072810d7f",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        75,
+        99
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -33,6 +176,11 @@
     {
       "id": "2661f1af3774fe1b",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        85,
+        163
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -44,6 +192,11 @@
     {
       "id": "493778f3ff401a99",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        39,
+        176
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -55,6 +208,11 @@
     {
       "id": "5b01493a443bf73e",
       "family": "07_long_tail",
+      "topics": [
+        5,
+        35,
+        143
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -66,6 +224,11 @@
     {
       "id": "5d834b6cb591d2ea",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        126,
+        181
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -77,6 +240,11 @@
     {
       "id": "7f441106b5180b70",
       "family": "07_long_tail",
+      "topics": [
+        25,
+        35,
+        164
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -88,6 +256,11 @@
     {
       "id": "8238e793bb4f898b",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        35,
+        103
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -99,6 +272,11 @@
     {
       "id": "841ee03cfab6d86d",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        86,
+        97
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -110,6 +288,11 @@
     {
       "id": "9e47cb3cb190cf72",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        64,
+        113
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -121,6 +304,11 @@
     {
       "id": "a83a178204983e7f",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        57,
+        72
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -132,6 +320,11 @@
     {
       "id": "aadf6114f915f648",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        68,
+        127
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -143,6 +336,11 @@
     {
       "id": "b39cdb3ca60c082e",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        66,
+        82
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -154,6 +352,11 @@
     {
       "id": "b7dce6f651546259",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        159,
+        174
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -165,6 +368,11 @@
     {
       "id": "bd9c019a8f098b3f",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        35,
+        123
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -176,6 +384,11 @@
     {
       "id": "c6290e41c79fd877",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        56,
+        123
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -187,6 +400,11 @@
     {
       "id": "c78648ad0b15b86f",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        53,
+        181
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -198,6 +416,11 @@
     {
       "id": "d3d66fdfa3dc1aad",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        170,
+        199
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -209,6 +432,11 @@
     {
       "id": "ddbd0c4cb2ef5d1f",
       "family": "07_long_tail",
+      "topics": [
+        34,
+        35,
+        191
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",
@@ -220,6 +448,11 @@
     {
       "id": "fc9c27cc81137c0d",
       "family": "07_long_tail",
+      "topics": [
+        35,
+        123,
+        131
+      ],
       "cited_terms": [
         "hipaa_safeguard_physical",
         "control_only_addresses_threat_class",

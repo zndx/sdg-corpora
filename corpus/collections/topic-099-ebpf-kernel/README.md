@@ -1,6 +1,8 @@
 # Collection — topic 99 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **2 ontology terms** · **2 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **16 topics** (target + style) · **2 ontology terms** · **2 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 99: topic 8, topic 38, topic 46, topic 47, topic 50, topic 81, topic 94, topic 112, topic 113, topic 119, topic 130, topic 151, topic 179, topic 187, topic 188.
 
 > **Topic gist** (representative FinePDFs text): 511 Impregnator Natural Look Penetrating Sealer Water, Stain & Slip Protection for n Quarry Tile n Ceramic Tile n Glazed Tile n Marble n Granite n n Travertine Slate n Grout n Uses n Quartz n n Interior & Exterior n Special Features n Restrooms n n Salt Resistant n Easy-to-Use Brick n Terrazzo Kitchen n Showers Patios n Drive Ways Weather Resistant n Low Toxicity n Acid Resistant n ... …
 
@@ -25,5 +27,5 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

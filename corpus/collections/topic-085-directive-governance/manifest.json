@@ -18,10 +18,92 @@
     "t_gdpr_article_subclass",
     "t_requirement_has_priority"
   ],
+  "topics": [
+    1,
+    6,
+    16,
+    19,
+    27,
+    32,
+    34,
+    39,
+    54,
+    57,
+    81,
+    85,
+    92,
+    97,
+    104,
+    115,
+    120,
+    123,
+    133,
+    135,
+    146,
+    150,
+    154,
+    158,
+    163,
+    169,
+    178,
+    188,
+    195,
+    196,
+    198
+  ],
+  "shared_tables": {
+    "control_addresses_risk": [
+      15,
+      16,
+      21,
+      102,
+      113,
+      196
+    ],
+    "control_only_addresses_threat_class": [
+      13,
+      15,
+      16,
+      21,
+      35,
+      61,
+      102,
+      104,
+      113,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ],
+    "control_subclass": [
+      89,
+      113
+    ],
+    "gdpr_article_subclass": [
+      5,
+      70,
+      138
+    ],
+    "requirement_has_priority": [
+      21,
+      101,
+      113,
+      128,
+      129,
+      196
+    ]
+  },
   "chapters": [
     {
       "id": "014b52f4ecf33639",
       "family": "03_directive_governance",
+      "topics": [
+        19,
+        85,
+        169
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -33,6 +115,11 @@
     {
       "id": "02a0ccb35a995943",
       "family": "03_directive_governance",
+      "topics": [
+        1,
+        85,
+        104
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -44,6 +131,11 @@
     {
       "id": "02df1c557aa22db3",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        133,
+        154
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -55,6 +147,11 @@
     {
       "id": "0302e680815705fe",
       "family": "03_directive_governance",
+      "topics": [
+        34,
+        85,
+        115
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -66,6 +163,11 @@
     {
       "id": "4919cd7c7099553b",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        92,
+        120
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -77,6 +179,11 @@
     {
       "id": "6dec7bf2b595131e",
       "family": "03_directive_governance",
+      "topics": [
+        81,
+        85,
+        123
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -88,6 +195,11 @@
     {
       "id": "96e17468b48f79e1",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        85,
+        154
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -99,6 +211,11 @@
     {
       "id": "a09cd3e8a9b63134",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        178,
+        188
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -110,6 +227,11 @@
     {
       "id": "aca5b2fc350f1d80",
       "family": "03_directive_governance",
+      "topics": [
+        16,
+        27,
+        85
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -121,6 +243,11 @@
     {
       "id": "b5024ef0838bbce4",
       "family": "03_directive_governance",
+      "topics": [
+        54,
+        85,
+        97
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -132,6 +259,11 @@
     {
       "id": "bb741d571b49bbdb",
       "family": "03_directive_governance",
+      "topics": [
+        57,
+        85,
+        195
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -143,6 +275,11 @@
     {
       "id": "bdeccc63022b4a4b",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        150,
+        169
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -154,6 +291,11 @@
     {
       "id": "ce8a4d63e0fff7d0",
       "family": "03_directive_governance",
+      "topics": [
+        39,
+        85,
+        146
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -165,6 +307,11 @@
     {
       "id": "e6a9843e03f7800f",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        163,
+        198
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -176,6 +323,11 @@
     {
       "id": "e99cee1a11586254",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        85,
+        158
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",
@@ -187,6 +339,11 @@
     {
       "id": "fb77ffe9e0cd9caf",
       "family": "03_directive_governance",
+      "topics": [
+        85,
+        135,
+        196
+      ],
       "cited_terms": [
         "gdpr_article_subclass",
         "control_only_addresses_threat_class",

@@ -1,6 +1,8 @@
 # Collection — topic 106 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **20 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 106: topic 14, topic 28, topic 37, topic 47, topic 50, topic 61, topic 67, topic 71, topic 76, topic 78, topic 82, topic 96, topic 148, topic 149, topic 155, topic 160, topic 170, topic 173, topic 195.
 
 > **Topic gist** (representative FinePDFs text): OPTIMAL CONTROLLER DESIGN FOR MORE-ELECTRIC AIRCRAFT POWER SYSTEMS by Sinan Yigit BS, TOBB University of Economics and Technology, 2011 Submitted to the Graduate Faculty of Swanson School of Engineering in partial fulfillment of the requirements for the degree of Master of Science University of Pittsburgh 2014 This thesis was presented by Sinan Yigit It was defended on July 23, 2014 an... …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_measurement_basic`](tables/t_measurement_basic.sql) — realizes `measurement_basic`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_measurement_basic`](tables/t_measurement_basic.sql) — realizes `measurement_basic` · _shared with 1 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 86 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **26 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 86: topic 1, topic 31, topic 42, topic 68, topic 70, topic 73, topic 75, topic 89, topic 92, topic 96, topic 99, topic 101, topic 102, topic 103, topic 110, topic 122, topic 125, topic 131, topic 132, topic 149, topic 163, topic 169, topic 191, topic 194, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Engineered Science DOI: https://dx.doi.org/10.30919/es8d799 A Novel Multi Regional Reliability Method for COVID-19 Death Forecast Oleg Gaidai1 and Yihan Xing 2,* Abstract Coronavirus disease was reported spread worldwide with low morbidity and mortality, presenting certain burden on worldwide public health. The present study describes a novel bio-system reliability approach, particularly suit... …
 
@@ -33,5 +35,5 @@ _The tables the chapters' embedded views project from — the current semantic-c
 
 - [`t_cardinality_max_three_generic`](tables/t_cardinality_max_three_generic.sql) — realizes `cardinality_max_three_generic`
 - [`t_cardinality_min_two_generic`](tables/t_cardinality_min_two_generic.sql) — realizes `cardinality_min_two_generic`
-- [`t_equiv_intersect_artifact_with_part`](tables/t_equiv_intersect_artifact_with_part.sql) — realizes `equiv_intersect_artifact_with_part`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_equiv_intersect_artifact_with_part`](tables/t_equiv_intersect_artifact_with_part.sql) — realizes `equiv_intersect_artifact_with_part` · _shared with 1 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

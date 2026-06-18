@@ -14,10 +14,49 @@
     "t_schemaorg_place_latitude",
     "t_schemaorg_place_longitude"
   ],
+  "topics": [
+    3,
+    8,
+    16,
+    27,
+    50,
+    61,
+    65,
+    80,
+    81,
+    97,
+    110,
+    119,
+    142,
+    143,
+    164,
+    194,
+    197
+  ],
+  "shared_tables": {
+    "schemaorg_place_geocoord": [
+      66,
+      119,
+      170,
+      186
+    ],
+    "schemaorg_place_latitude": [
+      170
+    ],
+    "schemaorg_place_longitude": [
+      126,
+      170
+    ]
+  },
   "chapters": [
     {
       "id": "0aa260e2c2df1653",
       "family": "07_long_tail",
+      "topics": [
+        3,
+        142,
+        197
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -27,6 +66,11 @@
     {
       "id": "33aed59d48d9ecdc",
       "family": "07_long_tail",
+      "topics": [
+        61,
+        110,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -36,6 +80,11 @@
     {
       "id": "65041843276e169c",
       "family": "07_long_tail",
+      "topics": [
+        142,
+        143,
+        164
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -45,6 +94,11 @@
     {
       "id": "90fcd351d6049af4",
       "family": "07_long_tail",
+      "topics": [
+        27,
+        81,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -54,6 +108,11 @@
     {
       "id": "983493e7e1ad8e63",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        142,
+        194
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -63,6 +122,11 @@
     {
       "id": "a3b537da17a91d5b",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        65,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -72,6 +136,11 @@
     {
       "id": "eec4ab86766746c1",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        81,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -81,6 +150,11 @@
     {
       "id": "eeee41ebac29e620",
       "family": "07_long_tail",
+      "topics": [
+        119,
+        142,
+        143
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -90,6 +164,11 @@
     {
       "id": "fdd31ceb4e68064c",
       "family": "07_long_tail",
+      "topics": [
+        16,
+        97,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",
@@ -99,6 +178,11 @@
     {
       "id": "fee805320a139f91",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        80,
+        142
+      ],
       "cited_terms": [
         "schemaorg_place_geocoord",
         "schemaorg_place_longitude",

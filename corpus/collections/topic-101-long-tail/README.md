@@ -1,6 +1,8 @@
 # Collection — topic 101 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **22 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 101: topic 16, topic 32, topic 40, topic 58, topic 67, topic 72, topic 77, topic 81, topic 95, topic 109, topic 111, topic 114, topic 115, topic 128, topic 131, topic 132, topic 142, topic 148, topic 160, topic 171, topic 196.
 
 > **Topic gist** (representative FinePDFs text): ADDRESSING BLACK CARBON EMISSION INVENTORIES A REPORT BY THE CLIMATE AND CLEAN AIR COALITION SCIENTIFIC ADVISORY PANEL Table of Contents Summary o Black Carbon (BC) has a strong influence on radiative forcing, affecting the climate globally and regionally, and is responsible for a significant proportion of the global forcing to date. BC deposited on the cryosphere leads to enhanced melting rat... …
 
@@ -30,7 +32,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic`
-- [`t_identifier_unique`](tables/t_identifier_unique.sql) — realizes `identifier_unique`
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority`
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice`
+- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
+- [`t_identifier_unique`](tables/t_identifier_unique.sql) — realizes `identifier_unique` · _shared with 1 other collection(s)_
+- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_
+- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 15 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **31 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 15: topic 7, topic 8, topic 21, topic 22, topic 26, topic 32, topic 42, topic 47, topic 54, topic 71, topic 73, topic 75, topic 83, topic 100, topic 104, topic 111, topic 120, topic 122, topic 125, topic 128, topic 134, topic 144, topic 155, topic 160, topic 162, topic 166, topic 171, topic 191, topic 193, topic 196.
 
 > **Topic gist** (representative FinePDFs text): Warwick Research in Nursing Warwick Medical School University of Warwick 17th Annual Report 1st August 2023 to 31st July 2024 | Contents | Page | |-----------------------------------------------|------| | Director’s Message | 3 | | Summary of Progress | 4 | | Senior staff - Warwick Research in Nursin... …
 
@@ -36,8 +38,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk`
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_control_addresses_risk`](tables/t_control_addresses_risk.sql) — realizes `control_addresses_risk` · _shared with 6 other collection(s)_
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

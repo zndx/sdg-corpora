@@ -10,10 +10,57 @@
   "tables": [
     "t_syscall_audited_by"
   ],
+  "topics": [
+    7,
+    21,
+    24,
+    26,
+    27,
+    28,
+    31,
+    37,
+    38,
+    49,
+    52,
+    62,
+    68,
+    80,
+    83,
+    86,
+    93,
+    98,
+    103,
+    110,
+    112,
+    113,
+    115,
+    131,
+    149,
+    151,
+    163,
+    171,
+    183,
+    191
+  ],
+  "shared_tables": {
+    "syscall_audited_by": [
+      8,
+      19,
+      46,
+      62,
+      77,
+      90
+    ]
+  },
   "chapters": [
     {
       "id": "0edb0eb9961eb92c",
       "family": "04_ebpf_kernel",
+      "topics": [
+        86,
+        131,
+        149
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -21,6 +68,11 @@
     {
       "id": "3a8c75aaf4fa87c1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        24,
+        112,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -28,6 +80,11 @@
     {
       "id": "3c63efd47351fc72",
       "family": "04_ebpf_kernel",
+      "topics": [
+        68,
+        110,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -35,6 +92,11 @@
     {
       "id": "4c7f949cb9ecc9fb",
       "family": "04_ebpf_kernel",
+      "topics": [
+        28,
+        37,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -42,6 +104,11 @@
     {
       "id": "58f2b726342bfd6b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        37,
+        131,
+        151
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -49,6 +116,11 @@
     {
       "id": "72328889c21c3232",
       "family": "04_ebpf_kernel",
+      "topics": [
+        98,
+        131,
+        191
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -56,6 +128,11 @@
     {
       "id": "747c5e10e71f985b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        7,
+        93,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -63,6 +140,11 @@
     {
       "id": "c101bf34017bc9ef",
       "family": "04_ebpf_kernel",
+      "topics": [
+        52,
+        80,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -70,6 +152,11 @@
     {
       "id": "d55c355dca295254",
       "family": "04_ebpf_kernel",
+      "topics": [
+        26,
+        131,
+        183
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -77,6 +164,11 @@
     {
       "id": "dd703ab291679c34",
       "family": "04_ebpf_kernel",
+      "topics": [
+        38,
+        131,
+        171
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -84,6 +176,11 @@
     {
       "id": "e392a1b4658d511e",
       "family": "04_ebpf_kernel",
+      "topics": [
+        31,
+        113,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -91,6 +188,11 @@
     {
       "id": "e74b6951639f0100",
       "family": "04_ebpf_kernel",
+      "topics": [
+        27,
+        49,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -98,6 +200,11 @@
     {
       "id": "ee0f61daab1309d8",
       "family": "04_ebpf_kernel",
+      "topics": [
+        21,
+        103,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -105,6 +212,11 @@
     {
       "id": "f7b34eab9cf906dc",
       "family": "04_ebpf_kernel",
+      "topics": [
+        83,
+        131,
+        163
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]
@@ -112,6 +224,11 @@
     {
       "id": "fda4b1520f0f4df9",
       "family": "04_ebpf_kernel",
+      "topics": [
+        62,
+        115,
+        131
+      ],
       "cited_terms": [
         "syscall_audited_by"
       ]

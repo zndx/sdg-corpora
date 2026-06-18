@@ -18,10 +18,146 @@
     "t_iso27001_annexa_subclass",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    4,
+    14,
+    25,
+    31,
+    32,
+    40,
+    46,
+    51,
+    75,
+    89,
+    91,
+    113,
+    115,
+    122,
+    127,
+    134,
+    135,
+    144,
+    145,
+    149,
+    150,
+    157,
+    163,
+    166,
+    179,
+    195
+  ],
+  "shared_tables": {
+    "attestation_at_period": [
+      33,
+      88,
+      132
+    ],
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      37,
+      43,
+      57,
+      73,
+      76,
+      95,
+      102,
+      111,
+      132,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      71,
+      74,
+      106,
+      129,
+      183
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "15690a1cf52e3c12",
       "family": "03_directive_governance",
+      "topics": [
+        144,
+        145,
+        179
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -33,6 +169,11 @@
     {
       "id": "1ce7aab16d829aab",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        144,
+        195
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -44,6 +185,11 @@
     {
       "id": "1ef816c450f96d3f",
       "family": "03_directive_governance",
+      "topics": [
+        31,
+        135,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -55,6 +201,11 @@
     {
       "id": "24cb2eed213b1d42",
       "family": "03_directive_governance",
+      "topics": [
+        134,
+        135,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -66,6 +217,11 @@
     {
       "id": "2e97e5c52877ff99",
       "family": "03_directive_governance",
+      "topics": [
+        32,
+        144,
+        163
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -77,6 +233,11 @@
     {
       "id": "5658fa2106dc4e94",
       "family": "03_directive_governance",
+      "topics": [
+        14,
+        144,
+        150
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -88,6 +249,11 @@
     {
       "id": "5fa16d3280a35618",
       "family": "03_directive_governance",
+      "topics": [
+        40,
+        115,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -99,6 +265,11 @@
     {
       "id": "79f2e052f0c77786",
       "family": "03_directive_governance",
+      "topics": [
+        31,
+        89,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -110,6 +281,11 @@
     {
       "id": "7f6be81c04295a04",
       "family": "03_directive_governance",
+      "topics": [
+        144,
+        163,
+        166
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -121,6 +297,11 @@
     {
       "id": "a89c7c7a3be753ca",
       "family": "03_directive_governance",
+      "topics": [
+        46,
+        144,
+        157
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -132,6 +313,11 @@
     {
       "id": "a9ca6eed1924d93f",
       "family": "03_directive_governance",
+      "topics": [
+        25,
+        91,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -143,6 +329,11 @@
     {
       "id": "aad395b7a2498c00",
       "family": "03_directive_governance",
+      "topics": [
+        122,
+        144,
+        149
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -154,6 +345,11 @@
     {
       "id": "d20ade69c528a617",
       "family": "03_directive_governance",
+      "topics": [
+        113,
+        127,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",
@@ -165,6 +361,11 @@
     {
       "id": "e8db159cedfecae1",
       "family": "03_directive_governance",
+      "topics": [
+        51,
+        75,
+        144
+      ],
       "cited_terms": [
         "audit_conducted_by",
         "iso27001_annexa_subclass",

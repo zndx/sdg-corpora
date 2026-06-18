@@ -1,6 +1,8 @@
 # Collection — topic 2 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **24 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 2: topic 24, topic 25, topic 33, topic 37, topic 38, topic 42, topic 43, topic 47, topic 58, topic 78, topic 81, topic 88, topic 92, topic 103, topic 122, topic 133, topic 151, topic 170, topic 181, topic 185, topic 186, topic 196, topic 197.
 
 > **Topic gist** (representative FinePDFs text): The petitioner is seeking the approval of the Site Development Plan package that would allow for the development of this 1.6 acre site into the authorized senior care center housing 95 beds. This Site Development Plan package includes the engineered plan, Landscape Plan, and Lighting Plan. The Site Plan Subcommittee is recommending the approval of the Site Development Plan package that would allo. …
 
@@ -31,8 +33,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

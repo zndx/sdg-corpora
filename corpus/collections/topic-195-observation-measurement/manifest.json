@@ -16,10 +16,57 @@
     "t_metric_emission_subclass",
     "t_outlier_detection_targets_dataset"
   ],
+  "topics": [
+    3,
+    23,
+    32,
+    37,
+    56,
+    62,
+    67,
+    68,
+    75,
+    83,
+    97,
+    100,
+    104,
+    107,
+    113,
+    117,
+    118,
+    135,
+    142,
+    148,
+    163,
+    166,
+    178,
+    187,
+    195
+  ],
+  "shared_tables": {
+    "alert_triggered_by": [
+      14,
+      34,
+      139
+    ],
+    "ebpf_event_min_one_attribute": [
+      34
+    ],
+    "metric_emission_subclass": [
+      14,
+      27,
+      139
+    ]
+  },
   "chapters": [
     {
       "id": "052f31a1f74be202",
       "family": "07_long_tail",
+      "topics": [
+        32,
+        163,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -30,6 +77,11 @@
     {
       "id": "096acbd8d1df872f",
       "family": "07_long_tail",
+      "topics": [
+        56,
+        118,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -40,6 +92,11 @@
     {
       "id": "0c494cb79fa6446e",
       "family": "07_long_tail",
+      "topics": [
+        67,
+        75,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -50,6 +107,11 @@
     {
       "id": "4a8806ad91452b68",
       "family": "07_long_tail",
+      "topics": [
+        3,
+        187,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -60,6 +122,11 @@
     {
       "id": "5b68432006321a74",
       "family": "07_long_tail",
+      "topics": [
+        32,
+        113,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -70,6 +137,11 @@
     {
       "id": "8f46753d967454f7",
       "family": "07_long_tail",
+      "topics": [
+        62,
+        166,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -80,6 +152,11 @@
     {
       "id": "921be55b22e15c1a",
       "family": "07_long_tail",
+      "topics": [
+        97,
+        142,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -90,6 +167,11 @@
     {
       "id": "9b417611734c02c6",
       "family": "07_long_tail",
+      "topics": [
+        104,
+        107,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -100,6 +182,11 @@
     {
       "id": "a237fa15a15a6360",
       "family": "07_long_tail",
+      "topics": [
+        68,
+        100,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -110,6 +197,11 @@
     {
       "id": "ac0eb85a27b066f8",
       "family": "07_long_tail",
+      "topics": [
+        117,
+        148,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -120,6 +212,11 @@
     {
       "id": "ce0bde0207ae08f4",
       "family": "07_long_tail",
+      "topics": [
+        23,
+        178,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -130,6 +227,11 @@
     {
       "id": "d019b0a93da111b2",
       "family": "07_long_tail",
+      "topics": [
+        83,
+        135,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",
@@ -140,6 +242,11 @@
     {
       "id": "fae1f49979560def",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        166,
+        195
+      ],
       "cited_terms": [
         "metric_emission_subclass",
         "outlier_detection_targets_dataset",

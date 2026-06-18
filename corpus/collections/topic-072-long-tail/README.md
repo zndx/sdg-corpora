@@ -1,6 +1,8 @@
 # Collection — topic 72 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 72: topic 32, topic 34, topic 57, topic 61, topic 66, topic 71, topic 74, topic 88, topic 93, topic 101, topic 111, topic 121, topic 122, topic 148, topic 149, topic 153, topic 171, topic 179, topic 185, topic 190, topic 191, topic 196.
 
 > **Topic gist** (representative FinePDFs text): 10190 filed in response to this Notice are limited to five (5) pages in length, inclusive of attachments. Persons filing written submissions must file the original document electronically on or before the deadlines stated above and submit 8 true paper copies to the Office of the Secretary by noon the next day pursuant to § 210.4(f) of the Commission's Rules of Practice and Procedure (19 CFR 210... …
 
@@ -31,8 +33,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
-- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event`
-- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return`
-- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass`
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_
+- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event` · _shared with 1 other collection(s)_
+- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return` · _shared with 4 other collection(s)_
+- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass` · _shared with 1 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 58 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **36 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 58: topic 20, topic 23, topic 26, topic 30, topic 32, topic 35, topic 43, topic 46, topic 50, topic 51, topic 53, topic 54, topic 61, topic 64, topic 67, topic 71, topic 78, topic 81, topic 83, topic 89, topic 96, topic 101, topic 106, topic 107, topic 111, topic 114, topic 128, topic 143, topic 150, topic 158, topic 166, topic 181, topic 187, topic 195, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Strength | Stability | Continuity Third Quarter Report 2023 Strong & Stable Financing Solutions from Accord **Asset-based Lending** Accord’s asset-based lending serves companies of all sizes across North America. Our flexible ABL solutions allow clients to unlock working capital from their accounts receivable, inventory and equipment. Accord also provides financing solutions to other lending co... …
 
@@ -38,8 +40,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

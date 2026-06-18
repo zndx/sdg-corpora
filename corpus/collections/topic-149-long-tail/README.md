@@ -1,6 +1,8 @@
 # Collection — topic 149 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 149: topic 2, topic 19, topic 21, topic 26, topic 38, topic 44, topic 70, topic 76, topic 83, topic 100, topic 106, topic 112, topic 129, topic 130, topic 132, topic 150, topic 164, topic 166, topic 181, topic 188, topic 193, topic 198.
 
 > **Topic gist** (representative FinePDFs text): HAZARD COMMUNICATION PROGRAM (MODEL) INSTRUCTIONS FOR ADAPTING THIS MODEL TO A SPECIFIC PROGRAM FOR AN INDIVIDUAL DEPARTMENT This model is available for Southern Illinois University Carbondale campus departments as an aid to complying with the Occupational Safety and Health Administration (OSHA) requirement of maintaining a work place specific written Hazard Communication Program. "Hazard Commun.. …
 
@@ -33,4 +35,4 @@ _The tables the chapters' embedded views project from — the current semantic-c
 - [`t_ebpfprogram_attaches_kernelhook_xref`](tables/t_ebpfprogram_attaches_kernelhook_xref.sql) — realizes `ebpfprogram_attaches_kernelhook_xref`
 - [`t_ebpfprogram_only_attached_to_kprobe`](tables/t_ebpfprogram_only_attached_to_kprobe.sql) — realizes `ebpfprogram_only_attached_to_kprobe`
 - [`t_ebpfprogram_subclass`](tables/t_ebpfprogram_subclass.sql) — realizes `ebpfprogram_subclass`
-- [`t_kernelhook_max_one_program_attached`](tables/t_kernelhook_max_one_program_attached.sql) — realizes `kernelhook_max_one_program_attached`
+- [`t_kernelhook_max_one_program_attached`](tables/t_kernelhook_max_one_program_attached.sql) — realizes `kernelhook_max_one_program_attached` · _shared with 1 other collection(s)_

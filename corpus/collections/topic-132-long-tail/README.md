@@ -1,6 +1,8 @@
 # Collection — topic 132 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **24 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 132: topic 3, topic 4, topic 20, topic 38, topic 53, topic 56, topic 65, topic 73, topic 80, topic 89, topic 93, topic 97, topic 106, topic 122, topic 133, topic 134, topic 145, topic 154, topic 164, topic 165, topic 181, topic 186, topic 187.
 
 > **Topic gist** (representative FinePDFs text): PROSPECTUS (2022 – 2023) For Admissions to Undergraduate, Masters’ & Ph.D. Programmes GOVIND BALLABH PANT UNIVERSITY OF AGRICULTURE & TECHNOLOGY, PANTNAGAR – 263145, U.S. NAGAR UTTARAKHAND, INDIA ## CONTENTS | PARTICULARS | Page | |---------------------------------------------------------------------------|------| | SOURCES OF AVA... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period` · _shared with 3 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

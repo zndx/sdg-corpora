@@ -1,6 +1,8 @@
 # Collection — topic 166 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 166: topic 2, topic 8, topic 25, topic 42, topic 47, topic 52, topic 56, topic 57, topic 61, topic 72, topic 77, topic 80, topic 92, topic 98, topic 109, topic 134, topic 142, topic 143, topic 145, topic 157, topic 178, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Aspects of phytoplankton spring blooms in northern coastal/shelf areas: Diatoms vs. *Phaeocystis pouchetii* (Hariot, Lagerheim) Gunilla Kristina Eriksen BIO-3950 Master’s thesis in Biology November 2010 Front - page photo: "Phaeocystis pouchetii and Chaetoceros socialis" (Richard Andre Ingebrigtsen) Acknowledgements First of all I wish to thank my supervisor, Hans Christian Eilertsen, which ... …
 
@@ -27,4 +29,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings`
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 6 other collection(s)_

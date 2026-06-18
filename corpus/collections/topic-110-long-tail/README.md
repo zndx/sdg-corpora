@@ -1,6 +1,8 @@
 # Collection — topic 110 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **24 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 110: topic 1, topic 4, topic 6, topic 28, topic 31, topic 50, topic 53, topic 62, topic 65, topic 86, topic 88, topic 97, topic 113, topic 119, topic 132, topic 145, topic 146, topic 155, topic 160, topic 178, topic 185, topic 188, topic 197.
 
 > **Topic gist** (representative FinePDFs text): Drug Development Tool (DDT) Reference Guide Click here to access the CDER NextGen Portal. Supported Browsers: Google Chrome, Microsoft Edge and Mozilla Firefox # Table of Contents | Section | Page | |------------------------------------------------------------------------|------| | Introduction ... …
 
@@ -31,7 +33,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_kernelhook_max_one_program_attached`](tables/t_kernelhook_max_one_program_attached.sql) — realizes `kernelhook_max_one_program_attached`
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
-- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return`
+- [`t_kernelhook_max_one_program_attached`](tables/t_kernelhook_max_one_program_attached.sql) — realizes `kernelhook_max_one_program_attached` · _shared with 1 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_
+- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return` · _shared with 4 other collection(s)_

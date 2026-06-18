@@ -14,10 +14,60 @@
     "t_observation_with_participant",
     "t_schemaorg_place_address"
   ],
+  "topics": [
+    5,
+    8,
+    26,
+    28,
+    40,
+    44,
+    46,
+    62,
+    70,
+    74,
+    76,
+    77,
+    78,
+    82,
+    98,
+    100,
+    108,
+    125,
+    139,
+    150,
+    155,
+    188
+  ],
+  "shared_tables": {
+    "observation_with_participant": [
+      53,
+      122,
+      188
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      126,
+      153,
+      158,
+      162,
+      170,
+      185,
+      186
+    ]
+  },
   "chapters": [
     {
       "id": "125fdda0f5db56b4",
       "family": "07_long_tail",
+      "topics": [
+        62,
+        77,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -27,6 +77,11 @@
     {
       "id": "25861e0a6e405d74",
       "family": "07_long_tail",
+      "topics": [
+        44,
+        46,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -36,6 +91,11 @@
     {
       "id": "30d621b083cdeb20",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        125,
+        155
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -45,6 +105,11 @@
     {
       "id": "52e498ec1680d9e3",
       "family": "07_long_tail",
+      "topics": [
+        5,
+        40,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -54,6 +119,11 @@
     {
       "id": "539a719ba4a2db5e",
       "family": "07_long_tail",
+      "topics": [
+        44,
+        82,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -63,6 +133,11 @@
     {
       "id": "6761e1e1c3805f26",
       "family": "07_long_tail",
+      "topics": [
+        78,
+        125,
+        150
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -72,6 +147,11 @@
     {
       "id": "73ae9dc13266a314",
       "family": "07_long_tail",
+      "topics": [
+        70,
+        125,
+        188
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -81,6 +161,11 @@
     {
       "id": "ae2c0bf8e04fcd3f",
       "family": "07_long_tail",
+      "topics": [
+        26,
+        76,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -90,6 +175,11 @@
     {
       "id": "b8eab43b01cf408f",
       "family": "07_long_tail",
+      "topics": [
+        98,
+        100,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -99,6 +189,11 @@
     {
       "id": "ca6dc6e775ae3297",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        125,
+        139
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",
@@ -108,6 +203,11 @@
     {
       "id": "ede5ba72fe9c043b",
       "family": "07_long_tail",
+      "topics": [
+        74,
+        108,
+        125
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "observation_with_participant",

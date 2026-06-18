@@ -1,6 +1,8 @@
 # Collection — topic 109 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **24 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 109: topic 26, topic 30, topic 33, topic 37, topic 42, topic 44, topic 49, topic 50, topic 57, topic 64, topic 65, topic 76, topic 83, topic 120, topic 128, topic 143, topic 149, topic 155, topic 171, topic 174, topic 178, topic 190, topic 196.
 
 > **Topic gist** (representative FinePDFs text): International Workshop "What can FCA do for Artificial Intelligence?" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013) Sergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph To cite this version: Sergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph. International Workshop "What can FCA do for Artificial Intelligence?" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013). Sergei O. Kuznetsov. …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_column_tag_subclass`](tables/t_column_tag_subclass.sql) — realizes `column_tag_subclass`
-- [`t_labrun_produces_measurement`](tables/t_labrun_produces_measurement.sql) — realizes `labrun_produces_measurement`
+- [`t_column_tag_subclass`](tables/t_column_tag_subclass.sql) — realizes `column_tag_subclass` · _shared with 1 other collection(s)_
+- [`t_labrun_produces_measurement`](tables/t_labrun_produces_measurement.sql) — realizes `labrun_produces_measurement` · _shared with 1 other collection(s)_
 - [`t_measurement_with_method`](tables/t_measurement_with_method.sql) — realizes `measurement_with_method`
-- [`t_nist80053_control_subclass`](tables/t_nist80053_control_subclass.sql) — realizes `nist80053_control_subclass`
-- [`t_table_provenance_source`](tables/t_table_provenance_source.sql) — realizes `table_provenance_source`
+- [`t_nist80053_control_subclass`](tables/t_nist80053_control_subclass.sql) — realizes `nist80053_control_subclass` · _shared with 1 other collection(s)_
+- [`t_table_provenance_source`](tables/t_table_provenance_source.sql) — realizes `table_provenance_source` · _shared with 1 other collection(s)_

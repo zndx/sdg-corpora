@@ -1,6 +1,8 @@
 # Collection — topic 146 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **21 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 146: topic 5, topic 15, topic 21, topic 25, topic 31, topic 51, topic 74, topic 83, topic 89, topic 90, topic 93, topic 112, topic 115, topic 126, topic 157, topic 158, topic 179, topic 186, topic 187, topic 198.
 
 > **Topic gist** (representative FinePDFs text): MAGAZINE GALLERIES EVENTS CALENDAR NEWSLETTER ABOUT ADVERTISE Art Monthly 393: February 2016 SEARCH DONATE BUY Letters to the Editor Redaction Francis Frascina On Critique Dave Beech Artist and Empire Virginia Whiles Radio Activity Lauren Velvick Buy Now – select: UK (incl P&P): £7.50 >>Read this issue online now at Exact Editions Contents FEATURE Redacted Francis Frascina o... …
 
@@ -25,4 +27,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand`
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 3 other collection(s)_

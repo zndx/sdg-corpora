@@ -16,10 +16,78 @@
     "t_lift_with_support_count",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    2,
+    7,
+    50,
+    52,
+    61,
+    74,
+    92,
+    103,
+    118,
+    121,
+    133,
+    144,
+    148,
+    155,
+    160,
+    163,
+    186,
+    195,
+    196,
+    197
+  ],
+  "shared_tables": {
+    "lift_basic": [
+      162
+    ],
+    "lift_with_baseline_rate": [
+      39,
+      50,
+      54,
+      135,
+      194
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "059563981c01285d",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        148,
+        195
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -30,6 +98,11 @@
     {
       "id": "2dad189e7a31d9de",
       "family": "02_observation_measurement",
+      "topics": [
+        61,
+        148,
+        195
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -40,6 +113,11 @@
     {
       "id": "4900493362c8b72b",
       "family": "02_observation_measurement",
+      "topics": [
+        92,
+        103,
+        148
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -50,6 +128,11 @@
     {
       "id": "543ef94f6417e506",
       "family": "02_observation_measurement",
+      "topics": [
+        50,
+        148,
+        163
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -60,6 +143,11 @@
     {
       "id": "5cceb454a05670d0",
       "family": "02_observation_measurement",
+      "topics": [
+        74,
+        148,
+        196
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -70,6 +158,11 @@
     {
       "id": "607729df54c0ee37",
       "family": "02_observation_measurement",
+      "topics": [
+        7,
+        144,
+        148
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -80,6 +173,11 @@
     {
       "id": "ad21d898168935e1",
       "family": "02_observation_measurement",
+      "topics": [
+        118,
+        121,
+        148
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -90,6 +188,11 @@
     {
       "id": "b072b306f750599b",
       "family": "02_observation_measurement",
+      "topics": [
+        103,
+        148,
+        160
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -100,6 +203,11 @@
     {
       "id": "d58bbed1f9f52a5e",
       "family": "02_observation_measurement",
+      "topics": [
+        52,
+        148,
+        197
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -110,6 +218,11 @@
     {
       "id": "d9a704dd5fc31996",
       "family": "02_observation_measurement",
+      "topics": [
+        2,
+        133,
+        148
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",
@@ -120,6 +233,11 @@
     {
       "id": "f232de753ae70e8f",
       "family": "02_observation_measurement",
+      "topics": [
+        148,
+        155,
+        186
+      ],
       "cited_terms": [
         "lift_with_baseline_rate",
         "pci_dss_requirement",

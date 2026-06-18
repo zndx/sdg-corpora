@@ -1,6 +1,8 @@
 # Collection — topic 170 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **28 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 170: topic 8, topic 15, topic 28, topic 38, topic 46, topic 57, topic 66, topic 74, topic 76, topic 82, topic 86, topic 90, topic 92, topic 94, topic 97, topic 102, topic 127, topic 129, topic 142, topic 150, topic 164, topic 169, topic 171, topic 173, topic 174, topic 188, topic 195.
 
 > **Topic gist** (representative FinePDFs text): 1 ECGlib: Library for Processing Electrocardiograms Lars Johannesen 1 , 2 , Jose Vicente 3 , Loriano Galeotti 3 , David G Strauss 3 Division of Pharmacometrics, Ofﬁce of Clinical Pharmacology, Ofﬁce of Translational Sciences, Center for Drug Evaluation and Research, US Food and Drug Administration, USA 3 Division of Physics, Ofﬁce of Science and Engineering Laboratories, Center for Devices an... …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord`
-- [`t_schemaorg_place_latitude`](tables/t_schemaorg_place_latitude.sql) — realizes `schemaorg_place_latitude`
-- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude`
+- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid` · _shared with 3 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord` · _shared with 4 other collection(s)_
+- [`t_schemaorg_place_latitude`](tables/t_schemaorg_place_latitude.sql) — realizes `schemaorg_place_latitude` · _shared with 1 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 2 other collection(s)_

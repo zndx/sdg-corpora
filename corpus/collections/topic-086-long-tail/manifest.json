@@ -16,10 +16,77 @@
     "t_equiv_intersect_artifact_with_part",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    1,
+    31,
+    42,
+    68,
+    70,
+    73,
+    75,
+    86,
+    89,
+    92,
+    96,
+    99,
+    101,
+    102,
+    103,
+    110,
+    122,
+    125,
+    131,
+    132,
+    149,
+    163,
+    169,
+    191,
+    194,
+    199
+  ],
+  "shared_tables": {
+    "equiv_intersect_artifact_with_part": [
+      178
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "0a4df1f063b4a905",
       "family": "01_foundation",
+      "topics": [
+        86,
+        102,
+        194
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -30,6 +97,11 @@
     {
       "id": "15a795be5649d9cf",
       "family": "01_foundation",
+      "topics": [
+        68,
+        86,
+        191
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -40,6 +112,11 @@
     {
       "id": "1cde1de6e044c1e3",
       "family": "01_foundation",
+      "topics": [
+        75,
+        86,
+        149
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -50,6 +127,11 @@
     {
       "id": "28c0d7ec12b2897e",
       "family": "01_foundation",
+      "topics": [
+        31,
+        73,
+        86
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -60,6 +142,11 @@
     {
       "id": "29acb60b8e064362",
       "family": "01_foundation",
+      "topics": [
+        70,
+        86,
+        89
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -70,6 +157,11 @@
     {
       "id": "3b7ed927168932fc",
       "family": "01_foundation",
+      "topics": [
+        1,
+        86,
+        199
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -80,6 +172,11 @@
     {
       "id": "6a1aa0e9895525c2",
       "family": "01_foundation",
+      "topics": [
+        86,
+        101,
+        169
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -90,6 +187,11 @@
     {
       "id": "6e588eb7135570a7",
       "family": "01_foundation",
+      "topics": [
+        86,
+        96,
+        103
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -100,6 +202,11 @@
     {
       "id": "7491fd3f4132e0f7",
       "family": "01_foundation",
+      "topics": [
+        86,
+        92,
+        125
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -110,6 +217,11 @@
     {
       "id": "afc9a9d365d57cea",
       "family": "01_foundation",
+      "topics": [
+        31,
+        86,
+        110
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -120,6 +232,11 @@
     {
       "id": "c423785ba9d03e0c",
       "family": "01_foundation",
+      "topics": [
+        86,
+        122,
+        131
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -130,6 +247,11 @@
     {
       "id": "dcc7bf3488b10a89",
       "family": "01_foundation",
+      "topics": [
+        42,
+        86,
+        163
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -140,6 +262,11 @@
     {
       "id": "df99f8a52ddc55cc",
       "family": "01_foundation",
+      "topics": [
+        86,
+        99,
+        132
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",

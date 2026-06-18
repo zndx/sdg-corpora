@@ -1,6 +1,8 @@
 # Collection — topic 188 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **17 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 188: topic 2, topic 28, topic 46, topic 50, topic 98, topic 108, topic 112, topic 120, topic 133, topic 148, topic 150, topic 165, topic 174, topic 178, topic 193, topic 195.
 
 > **Topic gist** (representative FinePDFs text): III. Materials and methods 1. Antibodies Rabbit polyclonal antibodies against VILIP-1 and hippocalcin raised against recombinant Histagged VILIP-1 or hippocalcin fusion proteins and affinity-purified as previously described (Braunewell et al., 2001; Bernstein et al., 2003) were used. Other antibodies were purchased from indicating companies: Chicken polyclonal antibody against NCS-1 Calbiochem... …
 
@@ -27,7 +29,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant`
-- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input`
-- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output`
-- [`t_schemaorg_event_starttime`](tables/t_schemaorg_event_starttime.sql) — realizes `schemaorg_event_starttime`
+- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant` · _shared with 3 other collection(s)_
+- [`t_process_min_one_input`](tables/t_process_min_one_input.sql) — realizes `process_min_one_input` · _shared with 2 other collection(s)_
+- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output` · _shared with 1 other collection(s)_
+- [`t_schemaorg_event_starttime`](tables/t_schemaorg_event_starttime.sql) — realizes `schemaorg_event_starttime` · _shared with 2 other collection(s)_

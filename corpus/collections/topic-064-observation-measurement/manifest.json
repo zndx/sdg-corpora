@@ -10,10 +10,51 @@
   "tables": [
     "t_ebpfprogram_verified_safe"
   ],
+  "topics": [
+    8,
+    39,
+    42,
+    43,
+    46,
+    56,
+    58,
+    64,
+    67,
+    72,
+    76,
+    80,
+    82,
+    86,
+    99,
+    101,
+    102,
+    111,
+    112,
+    117,
+    133,
+    142,
+    146,
+    164,
+    166,
+    171,
+    181
+  ],
+  "shared_tables": {
+    "ebpfprogram_verified_safe": [
+      19,
+      31,
+      62
+    ]
+  },
   "chapters": [
     {
       "id": "07ed89486ab04f4a",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        101,
+        133
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -21,6 +62,11 @@
     {
       "id": "0da7ccfdda19aefe",
       "family": "04_ebpf_kernel",
+      "topics": [
+        39,
+        64,
+        82
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -28,6 +74,11 @@
     {
       "id": "4ad8344c6a77a66c",
       "family": "04_ebpf_kernel",
+      "topics": [
+        42,
+        58,
+        64
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -35,6 +86,11 @@
     {
       "id": "4d4f74d8083627e1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        72,
+        86
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -42,6 +98,11 @@
     {
       "id": "65c36baf764e879b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        56,
+        64,
+        166
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -49,6 +110,11 @@
     {
       "id": "6b9de69f513dc49b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        46,
+        64,
+        76
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -56,6 +122,11 @@
     {
       "id": "6c4d56eb600643d6",
       "family": "04_ebpf_kernel",
+      "topics": [
+        39,
+        64,
+        142
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -63,6 +134,11 @@
     {
       "id": "7b52c61101ee4141",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        117,
+        181
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -70,6 +146,11 @@
     {
       "id": "991fbec10c1a513d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        111,
+        146
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -77,6 +158,11 @@
     {
       "id": "a37109d104b37e96",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        102,
+        171
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -84,6 +170,11 @@
     {
       "id": "c5e43171bcc98002",
       "family": "04_ebpf_kernel",
+      "topics": [
+        43,
+        56,
+        64
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -91,6 +182,11 @@
     {
       "id": "c96c926190d208bb",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        67,
+        99
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -98,6 +194,11 @@
     {
       "id": "dc951bd6baf8c89a",
       "family": "04_ebpf_kernel",
+      "topics": [
+        64,
+        80,
+        112
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]
@@ -105,6 +206,11 @@
     {
       "id": "eddfa0dc71b3f3f4",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        64,
+        164
+      ],
       "cited_terms": [
         "ebpfprogram_verified_safe"
       ]

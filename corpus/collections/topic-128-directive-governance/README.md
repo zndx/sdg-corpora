@@ -1,6 +1,8 @@
 # Collection — topic 128 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **16 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 128: topic 2, topic 16, topic 21, topic 32, topic 85, topic 94, topic 99, topic 109, topic 110, topic 130, topic 143, topic 155, topic 159, topic 185, topic 187.
 
 > **Topic gist** (representative FinePDFs text): EESTI MAJANDUSPOLIITILISED VÄITLUSED Artiklid (CD-ROM) Kokkuvõtted Kroonika ESTNISCHE GESPRÄCHE ÜBER WIRTSCHAFTSPOLITIK Beiträge (CD-ROM) Zusammenfassungen Chronik DISCUSSIONS ON ESTONIAN ECONOMIC POLICY Articles (CD-ROM) Summaries Chronicle XVIII 2010 Eesti majanduspoliitilised väitlused / Estnische Gespräche über Wirtschaftspolitik / Discussions on Estonian Economic Policy Asutatud aastal 19... …
 
@@ -27,8 +29,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic`
+- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
 - [`t_policy_with_review_cycle`](tables/t_policy_with_review_cycle.sql) — realizes `policy_with_review_cycle`
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority`
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_
+- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

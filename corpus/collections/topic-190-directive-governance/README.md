@@ -1,6 +1,8 @@
 # Collection — topic 190 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters** · **11 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 190: topic 20, topic 26, topic 31, topic 35, topic 80, topic 121, topic 166, topic 181, topic 196, topic 198.
 
 > **Topic gist** (representative FinePDFs text): crop protection crop protection monthly international news, comments, features international news, comments, features international news, comments, features and conference reports and conference reports and conference reports April 2017 Crop Protection European Regulatory Conference 15 th -16 th March 2017 CONTENTS Crop Protection European Regulatory Conference The 4th Crop Protection Europ... …
 
@@ -24,8 +26,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim`
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

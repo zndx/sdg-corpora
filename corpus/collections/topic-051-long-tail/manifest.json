@@ -18,10 +18,66 @@
     "t_table_provenance_source",
     "t_table_topic_tag"
   ],
+  "topics": [
+    1,
+    2,
+    8,
+    21,
+    22,
+    28,
+    32,
+    46,
+    51,
+    52,
+    67,
+    88,
+    112,
+    114,
+    115,
+    165,
+    169,
+    174,
+    199
+  ],
+  "shared_tables": {
+    "schemaorg_place_address": [
+      28,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      158,
+      162,
+      170,
+      185,
+      186
+    ],
+    "schemaorg_product_brand": [
+      22,
+      126,
+      146
+    ],
+    "schemaorg_product_price": [
+      24,
+      52,
+      126,
+      185
+    ],
+    "table_provenance_source": [
+      109
+    ]
+  },
   "chapters": [
     {
       "id": "17beb290cee0f1e8",
       "family": "07_long_tail",
+      "topics": [
+        1,
+        51,
+        169
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -33,6 +89,11 @@
     {
       "id": "2cf28f3b7dbb6f1b",
       "family": "07_long_tail",
+      "topics": [
+        51,
+        114,
+        115
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -44,6 +105,11 @@
     {
       "id": "57234d9651517734",
       "family": "07_long_tail",
+      "topics": [
+        32,
+        51,
+        67
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -55,6 +121,11 @@
     {
       "id": "7aebdd77dbda31cd",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        51,
+        52
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -66,6 +137,11 @@
     {
       "id": "7d37c862d30e0b07",
       "family": "07_long_tail",
+      "topics": [
+        51,
+        88,
+        174
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -77,6 +153,11 @@
     {
       "id": "7fa6f55ebea0ee57",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        51,
+        199
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -88,6 +169,11 @@
     {
       "id": "7fd880e11864ac8a",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        51,
+        165
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -99,6 +185,11 @@
     {
       "id": "84ef3a4e6e62887d",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        51,
+        112
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",
@@ -110,6 +201,11 @@
     {
       "id": "8504eb0ab03fa814",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        22,
+        51
+      ],
       "cited_terms": [
         "table_topic_tag",
         "table_provenance_source",

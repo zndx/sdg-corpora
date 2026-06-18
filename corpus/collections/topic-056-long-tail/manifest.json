@@ -16,10 +16,110 @@
     "t_subclass_to_designative_ice",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    4,
+    20,
+    56,
+    72,
+    78,
+    82,
+    90,
+    97,
+    107,
+    108,
+    111,
+    117,
+    119,
+    126,
+    128,
+    135,
+    142,
+    146,
+    151,
+    153,
+    154,
+    157,
+    170,
+    173,
+    179,
+    181,
+    185,
+    188,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "designative_subclass_basic": [
+      6,
+      101,
+      128
+    ],
+    "subclass_to_designative_ice": [
+      6,
+      101,
+      128
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      44,
+      58,
+      71,
+      83,
+      89,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "0a56d14e52df46c2",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        78,
+        181
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -30,6 +130,11 @@
     {
       "id": "2a2498047bd619af",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        56,
+        153
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -40,6 +145,11 @@
     {
       "id": "2d2b4cdb7591972c",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        135,
+        188
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -50,6 +160,11 @@
     {
       "id": "2d469f31030e1740",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        111,
+        142
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -60,6 +175,11 @@
     {
       "id": "4588a5705d043b9a",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        151,
+        157
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -70,6 +190,11 @@
     {
       "id": "56130a1b42217bac",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        56,
+        199
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -80,6 +205,11 @@
     {
       "id": "81e27c1dd51f9aca",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        107,
+        173
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -90,6 +220,11 @@
     {
       "id": "89c8fc3f9bdfe3d7",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        97,
+        108
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -100,6 +235,11 @@
     {
       "id": "9365a5b395cabad5",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        90,
+        146
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -110,6 +250,11 @@
     {
       "id": "99c6876c8f86d929",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        128,
+        170
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -120,6 +265,11 @@
     {
       "id": "a40c56147630ddec",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        154,
+        185
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -130,6 +280,11 @@
     {
       "id": "c04a935812e1d7c8",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        72,
+        119
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -140,6 +295,11 @@
     {
       "id": "da47e78bd60bb7ba",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        107,
+        179
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -150,6 +310,11 @@
     {
       "id": "e2b58a86d1459254",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        82,
+        126
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",
@@ -160,6 +325,11 @@
     {
       "id": "fe7d9c44252bc4c3",
       "family": "03_directive_governance",
+      "topics": [
+        56,
+        90,
+        117
+      ],
       "cited_terms": [
         "verification_produces_evidence",
         "designative_subclass_basic",

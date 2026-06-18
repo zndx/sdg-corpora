@@ -18,10 +18,143 @@
     "t_pci_dss_requirement",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    7,
+    8,
+    15,
+    21,
+    22,
+    26,
+    32,
+    42,
+    47,
+    54,
+    71,
+    73,
+    75,
+    83,
+    100,
+    104,
+    111,
+    120,
+    122,
+    125,
+    128,
+    134,
+    144,
+    155,
+    160,
+    162,
+    166,
+    171,
+    191,
+    193,
+    196
+  ],
+  "shared_tables": {
+    "control_addresses_risk": [
+      16,
+      21,
+      85,
+      102,
+      113,
+      196
+    ],
+    "control_only_addresses_threat_class": [
+      13,
+      16,
+      21,
+      35,
+      61,
+      85,
+      102,
+      104,
+      113,
+      117,
+      160,
+      165,
+      181,
+      191,
+      196
+    ],
+    "iso27001_annexa_subclass": [
+      4,
+      22,
+      71,
+      74,
+      106,
+      129,
+      144,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "07c04ecf1c3bb572",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        100,
+        196
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -33,6 +166,11 @@
     {
       "id": "26a54cdfcc2903e6",
       "family": "03_directive_governance",
+      "topics": [
+        7,
+        15,
+        166
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -44,6 +182,11 @@
     {
       "id": "55d5047a72f43213",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        22,
+        75
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -55,6 +198,11 @@
     {
       "id": "56d825fe0606453a",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        83,
+        160
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -66,6 +214,11 @@
     {
       "id": "645a24a815425969",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        128,
+        171
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -77,6 +230,11 @@
     {
       "id": "702547556dd39336",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        104,
+        162
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -88,6 +246,11 @@
     {
       "id": "78c495359583f6c4",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        47,
+        111
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -99,6 +262,11 @@
     {
       "id": "7b09d6476879774b",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        15,
+        54
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -110,6 +278,11 @@
     {
       "id": "84adb009c9ad3b86",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        42,
+        155
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -121,6 +294,11 @@
     {
       "id": "87b1a8a28d91067d",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        32,
+        125
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -132,6 +310,11 @@
     {
       "id": "b4a71635cbf7f942",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        120,
+        193
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -143,6 +326,11 @@
     {
       "id": "bea39248f81a6b1b",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        21,
+        26
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -154,6 +342,11 @@
     {
       "id": "d07a5ff649e3895c",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        73,
+        111
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -165,6 +358,11 @@
     {
       "id": "e40e2846d1d59d79",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        83,
+        191
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -176,6 +374,11 @@
     {
       "id": "e55d9c0323cb5fda",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        71,
+        122
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -187,6 +390,11 @@
     {
       "id": "e7aba18262ed0bc6",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        15,
+        144
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",
@@ -198,6 +406,11 @@
     {
       "id": "f16678b654ab4233",
       "family": "03_directive_governance",
+      "topics": [
+        15,
+        54,
+        134
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "control_only_addresses_threat_class",

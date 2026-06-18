@@ -1,6 +1,8 @@
 # Collection — topic 38 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 38: topic 15, topic 20, topic 24, topic 33, topic 37, topic 44, topic 47, topic 62, topic 91, topic 94, topic 97, topic 101, topic 120, topic 122, topic 126, topic 127, topic 130, topic 131, topic 163, topic 170, topic 194, topic 196.
 
 > **Topic gist** (representative FinePDFs text): UNITED STATES ENVIRONMENTAL PROTECTION AGENCY REGIONS 1595 Wynkoop Street DENVER, CO 80202-1129 PhOne 800-227-8917 http://www.epa.govlregion08 PORTIONS OF THIS DOCUMENT HAVE BEEN REDACTED. THE AGENCY HAS DETERMINED PORTIONS NOTED AS "**,, TO BE CONFIDENTIAL BUSINESS INFORMATION AND NOT TO BE RELEASED REDACTIONS APPEAR ON THE FOLLOWING PAGES OF THE TITLE V PETITION BEFORE THE ADMINISTRATOR UNI... …
 
@@ -31,8 +33,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic`
-- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings`
-- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic`
-- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic` · _shared with 5 other collection(s)_
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 6 other collection(s)_
+- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic` · _shared with 2 other collection(s)_
+- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit` · _shared with 5 other collection(s)_
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

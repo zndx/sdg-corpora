@@ -1,6 +1,8 @@
 # Collection — topic 49 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 49: topic 5, topic 7, topic 25, topic 31, topic 34, topic 35, topic 40, topic 43, topic 47, topic 53, topic 65, topic 74, topic 75, topic 82, topic 85, topic 94, topic 95, topic 107, topic 109, topic 113, topic 117, topic 122, topic 123, topic 145, topic 154, topic 158, topic 185, topic 187.
 
 > **Topic gist** (representative FinePDFs text): Selection & Specification Data Generic Type Cycloaliphatic Amine Epoxy Description Highly chemical resistant epoxy mastic coating with exceptionally versatile uses in all industrial markets. Self-priming and suitable for application over most existing coatings, and tightly adherent to rust. Serves as stand-alone system for a variety of chemical environments and is also designed for various imme... …
 
@@ -33,7 +35,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit`
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_dataset_under_audit`](tables/t_dataset_under_audit.sql) — realizes `dataset_under_audit` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

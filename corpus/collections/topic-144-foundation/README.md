@@ -1,6 +1,8 @@
 # Collection — topic 144 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 144: topic 4, topic 14, topic 25, topic 31, topic 32, topic 40, topic 46, topic 51, topic 75, topic 89, topic 91, topic 113, topic 115, topic 122, topic 127, topic 134, topic 135, topic 145, topic 149, topic 150, topic 157, topic 163, topic 166, topic 179, topic 195.
 
 > **Topic gist** (representative FinePDFs text): JOURNAL OF DESIGN FOR RESILIENCE IN ARCHITECTURE & PLANNING Research Article Online: www.drarch.org Volume 3, Issue 1, (96-111), 2022 DOI: 10.47818/DRArch.2022.v3i1046 A comparative analysis of building large-scale projects in developing countries by emphasizing on land value changes: Tehran-Iran Mall versus IstanbulThird Airport Somaiyeh Nasrollahzadeh* Abstract Today's cities are competi... …
 
@@ -33,8 +35,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **14 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by`
-- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period` · _shared with 3 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 8 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

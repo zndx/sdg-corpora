@@ -1,6 +1,8 @@
 # Collection — topic 125 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **22 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 125: topic 5, topic 8, topic 26, topic 28, topic 40, topic 44, topic 46, topic 62, topic 70, topic 74, topic 76, topic 77, topic 78, topic 82, topic 98, topic 100, topic 108, topic 139, topic 150, topic 155, topic 188.
 
 > **Topic gist** (representative FinePDFs text): On the Eﬀiciency Modelling of Cryptographic Protocols by Means of the Quality of Protection Modelling Language (QoP-ML) Bogdan Ksiezopolski, Damian Rusinek, Adam Wierzbicki To cite this version: Bogdan Ksiezopolski, Damian Rusinek, Adam Wierzbicki. On the Eﬀiciency Modelling of Cryptographic Protocols by Means of the Quality of Protection Modelling Language (QoP-ML). 1st International Conferenc... …
 
@@ -29,5 +31,5 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_artifact_min_one_owner`](tables/t_artifact_min_one_owner.sql) — realizes `artifact_min_one_owner`
-- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
+- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant` · _shared with 3 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_

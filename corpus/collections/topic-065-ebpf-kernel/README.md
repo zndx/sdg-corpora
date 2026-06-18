@@ -1,6 +1,8 @@
 # Collection — topic 65 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 65: topic 19, topic 27, topic 38, topic 39, topic 49, topic 66, topic 67, topic 68, topic 77, topic 91, topic 94, topic 95, topic 97, topic 106, topic 118, topic 119, topic 121, topic 134, topic 146, topic 149, topic 163, topic 165, topic 187, topic 190, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Mapping Streambased Applications to an Intel IXP Network Processor using Compaan —MASTER'S THESIS— of Johan Walters student nr.: 9917047 firstname.lastname@example.org and David Snuijf student nr.: 9921354 email@example.com Supervisors: Dr. ir. Bart Kienhuis Dr. ir. Todor Stefanov LIACS Leiden University August 31st, 2006 Contents List of Figures 8.1 Receiving on two sourcenodes . . . . .... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer`
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_requirement_min_one_verification`](tables/t_requirement_min_one_verification.sql) — realizes `requirement_min_one_verification` · _shared with 8 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

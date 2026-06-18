@@ -1,6 +1,8 @@
 # Collection — topic 23 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **17 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 23: topic 1, topic 6, topic 14, topic 19, topic 26, topic 44, topic 86, topic 92, topic 98, topic 110, topic 126, topic 142, topic 173, topic 176, topic 181, topic 195.
 
 > **Topic gist** (representative FinePDFs text): Manipulation of the Elastic Modulus of Polymers at the Nanoscale: Influence of UV–Ozone Cross-Linking and Plasticizer Jessica M. Torres,† Christopher M. Stafford,‡ and Bryan D. Vogt*‡,* †Department of Chemical Engineering, Arizona State University, Tempe, Arizona 85284 and ‡Polymers Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899 Nature utilizes hierarchic... …
 
@@ -26,7 +28,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
 - [`t_constraint_evaluated_during`](tables/t_constraint_evaluated_during.sql) — realizes `constraint_evaluated_during`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

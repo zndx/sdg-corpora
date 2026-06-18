@@ -18,10 +18,129 @@
     "t_audit_for_period",
     "t_requirement_min_one_verification"
   ],
+  "topics": [
+    3,
+    20,
+    24,
+    25,
+    35,
+    40,
+    43,
+    49,
+    54,
+    58,
+    66,
+    72,
+    80,
+    81,
+    83,
+    85,
+    102,
+    104,
+    132,
+    138,
+    146,
+    149,
+    173,
+    178,
+    186
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      57,
+      65,
+      68,
+      75,
+      76,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      190,
+      198
+    ],
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      37,
+      57,
+      73,
+      76,
+      95,
+      102,
+      111,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "audit_for_period": [
+      3,
+      20,
+      32,
+      37,
+      57,
+      65,
+      76,
+      111,
+      171,
+      179,
+      187
+    ],
+    "requirement_min_one_verification": [
+      28,
+      33,
+      65,
+      93,
+      94,
+      127,
+      158,
+      198
+    ]
+  },
   "chapters": [
     {
       "id": "1a101032631ea02c",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        66,
+        102
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -33,6 +152,11 @@
     {
       "id": "1c39b89bf8a10b0b",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        104,
+        178
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -44,6 +168,11 @@
     {
       "id": "2ef69941c37e4dff",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        43,
+        149
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -55,6 +184,11 @@
     {
       "id": "3386e9b965990982",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        81,
+        132
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -66,6 +200,11 @@
     {
       "id": "3e5f82620e411ead",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        85,
+        146
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -77,6 +216,11 @@
     {
       "id": "5eeab6adc4042c33",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        43,
+        80
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -88,6 +232,11 @@
     {
       "id": "63ab140bb3f44f1b",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        81,
+        83
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -99,6 +248,11 @@
     {
       "id": "81ec4825f91608c8",
       "family": "03_directive_governance",
+      "topics": [
+        3,
+        43,
+        138
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -110,6 +264,11 @@
     {
       "id": "8ded27293b3665b7",
       "family": "03_directive_governance",
+      "topics": [
+        25,
+        43,
+        186
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -121,6 +280,11 @@
     {
       "id": "a1cb48fbb918fe15",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        58,
+        72
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -132,6 +296,11 @@
     {
       "id": "a7c6152804badf57",
       "family": "03_directive_governance",
+      "topics": [
+        40,
+        43,
+        49
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -143,6 +312,11 @@
     {
       "id": "cfaef61176e1965c",
       "family": "03_directive_governance",
+      "topics": [
+        35,
+        43,
+        173
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",
@@ -154,6 +328,11 @@
     {
       "id": "d08087898e79cafa",
       "family": "03_directive_governance",
+      "topics": [
+        43,
+        54,
+        58
+      ],
       "cited_terms": [
         "requirement_min_one_verification",
         "audit_conducted_by",

@@ -1,6 +1,8 @@
 # Collection — topic 54 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **19 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 54: topic 20, topic 53, topic 76, topic 88, topic 89, topic 93, topic 118, topic 120, topic 122, topic 133, topic 144, topic 146, topic 174, topic 179, topic 185, topic 188, topic 193, topic 197.
 
 > **Topic gist** (representative FinePDFs text): Mathieu Blanchette - Curriculum Vitae in a Nutshell Career path: * PhD in computer science (2002) from U. of Washington. * Assistant (2003-2008) and associate (2008-now) professor at McGill's School of Computer Science since 2003. Research topics and productivity: * Research area: bioinformatics, with applications in genomics, epigenomics, evolution, phylogenetics, gene regulation, and proteom... …
 
@@ -29,8 +31,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with`
-- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate`
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
+- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with` · _shared with 4 other collection(s)_
+- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
 - [`t_outlier_detection_produces_claim`](tables/t_outlier_detection_produces_claim.sql) — realizes `outlier_detection_produces_claim`
 - [`t_outlier_detection_with_baseline`](tables/t_outlier_detection_with_baseline.sql) — realizes `outlier_detection_with_baseline`

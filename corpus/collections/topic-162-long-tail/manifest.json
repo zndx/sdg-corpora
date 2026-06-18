@@ -14,10 +14,80 @@
     "t_schemaorg_place_address",
     "t_syscall_max_one_return"
   ],
+  "topics": [
+    6,
+    14,
+    20,
+    21,
+    31,
+    32,
+    38,
+    42,
+    46,
+    50,
+    58,
+    65,
+    76,
+    78,
+    83,
+    92,
+    96,
+    99,
+    100,
+    103,
+    114,
+    115,
+    117,
+    120,
+    121,
+    129,
+    131,
+    155,
+    157,
+    162,
+    169,
+    176,
+    179,
+    181,
+    188,
+    191,
+    193,
+    194
+  ],
+  "shared_tables": {
+    "lift_basic": [
+      148
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      158,
+      170,
+      185,
+      186
+    ],
+    "syscall_max_one_return": [
+      19,
+      67,
+      72,
+      110
+    ]
+  },
   "chapters": [
     {
       "id": "20407c1daed6632e",
       "family": "07_long_tail",
+      "topics": [
+        32,
+        96,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -27,6 +97,11 @@
     {
       "id": "214627b16a516963",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        117,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -36,6 +111,11 @@
     {
       "id": "2e709ff1ccbdab88",
       "family": "07_long_tail",
+      "topics": [
+        20,
+        58,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -45,6 +125,11 @@
     {
       "id": "2f3b599ffbbc9bea",
       "family": "07_long_tail",
+      "topics": [
+        120,
+        162,
+        169
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -54,6 +139,11 @@
     {
       "id": "3a498f8bf5ddb0fa",
       "family": "07_long_tail",
+      "topics": [
+        14,
+        78,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -63,6 +153,11 @@
     {
       "id": "6aa6014c13bbc57b",
       "family": "07_long_tail",
+      "topics": [
+        42,
+        162,
+        179
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -72,6 +167,11 @@
     {
       "id": "8555819374b4fda7",
       "family": "07_long_tail",
+      "topics": [
+        21,
+        129,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -81,6 +181,11 @@
     {
       "id": "a25f43ede7157297",
       "family": "07_long_tail",
+      "topics": [
+        83,
+        114,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -90,6 +195,11 @@
     {
       "id": "b3a1e0e35323c76e",
       "family": "07_long_tail",
+      "topics": [
+        38,
+        121,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -99,6 +209,11 @@
     {
       "id": "c430f3e27e02570c",
       "family": "07_long_tail",
+      "topics": [
+        6,
+        162,
+        176
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -108,6 +223,11 @@
     {
       "id": "c4ec041a986dabf7",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        65,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -117,6 +237,11 @@
     {
       "id": "c55edb85f088c7b2",
       "family": "07_long_tail",
+      "topics": [
+        103,
+        162,
+        191
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -126,6 +251,11 @@
     {
       "id": "c9675101acd21ee9",
       "family": "07_long_tail",
+      "topics": [
+        58,
+        155,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -135,6 +265,11 @@
     {
       "id": "cae6dac564bf4cc6",
       "family": "07_long_tail",
+      "topics": [
+        131,
+        162,
+        181
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -144,6 +279,11 @@
     {
       "id": "cd6aab8b0746b8e4",
       "family": "07_long_tail",
+      "topics": [
+        100,
+        162,
+        188
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -153,6 +293,11 @@
     {
       "id": "ceb74930d9e93efa",
       "family": "07_long_tail",
+      "topics": [
+        92,
+        162,
+        193
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -162,6 +307,11 @@
     {
       "id": "d259479b0c3f638b",
       "family": "07_long_tail",
+      "topics": [
+        99,
+        162,
+        194
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -171,6 +321,11 @@
     {
       "id": "dc76b88bcb1f367f",
       "family": "07_long_tail",
+      "topics": [
+        31,
+        157,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",
@@ -180,6 +335,11 @@
     {
       "id": "e18209148431bdee",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        115,
+        162
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "lift_basic",

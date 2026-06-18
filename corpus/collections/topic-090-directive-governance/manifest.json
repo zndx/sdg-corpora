@@ -12,10 +12,64 @@
     "t_syscall_at_security_tier",
     "t_syscall_audited_by"
   ],
+  "topics": [
+    19,
+    21,
+    22,
+    35,
+    39,
+    40,
+    43,
+    51,
+    53,
+    57,
+    72,
+    73,
+    85,
+    90,
+    91,
+    101,
+    104,
+    122,
+    123,
+    127,
+    131,
+    143,
+    145,
+    166,
+    169,
+    176,
+    190,
+    199
+  ],
+  "shared_tables": {
+    "syscall_at_security_tier": [
+      19,
+      31,
+      62,
+      67,
+      72,
+      97,
+      110
+    ],
+    "syscall_audited_by": [
+      8,
+      19,
+      46,
+      62,
+      77,
+      131
+    ]
+  },
   "chapters": [
     {
       "id": "076299c93fbf1ff7",
       "family": "04_ebpf_kernel",
+      "topics": [
+        21,
+        90,
+        199
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -24,6 +78,11 @@
     {
       "id": "208aae9055333bc6",
       "family": "04_ebpf_kernel",
+      "topics": [
+        90,
+        176,
+        190
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -32,6 +91,11 @@
     {
       "id": "344f883e3c5d41ad",
       "family": "04_ebpf_kernel",
+      "topics": [
+        73,
+        90,
+        101
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -40,6 +104,11 @@
     {
       "id": "5583c336467869e3",
       "family": "04_ebpf_kernel",
+      "topics": [
+        22,
+        53,
+        90
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -48,6 +117,11 @@
     {
       "id": "60c5bdeafee330c9",
       "family": "04_ebpf_kernel",
+      "topics": [
+        90,
+        143,
+        145
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -56,6 +130,11 @@
     {
       "id": "69ef9f029695b253",
       "family": "04_ebpf_kernel",
+      "topics": [
+        19,
+        90,
+        127
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -64,6 +143,11 @@
     {
       "id": "79ec9bc11e1856a5",
       "family": "04_ebpf_kernel",
+      "topics": [
+        39,
+        90,
+        166
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -72,6 +156,11 @@
     {
       "id": "8380cc12b120d6d9",
       "family": "04_ebpf_kernel",
+      "topics": [
+        51,
+        90,
+        122
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -80,6 +169,11 @@
     {
       "id": "8b6010880f023cf0",
       "family": "04_ebpf_kernel",
+      "topics": [
+        57,
+        90,
+        131
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -88,6 +182,11 @@
     {
       "id": "93f98cacc702a761",
       "family": "04_ebpf_kernel",
+      "topics": [
+        40,
+        90,
+        169
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -96,6 +195,11 @@
     {
       "id": "980ec5309811018b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        72,
+        90,
+        123
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -104,6 +208,11 @@
     {
       "id": "ba6f1e4d33c1fa1d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        35,
+        90,
+        104
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -112,6 +221,11 @@
     {
       "id": "e914c80931e2b87c",
       "family": "04_ebpf_kernel",
+      "topics": [
+        90,
+        91,
+        104
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"
@@ -120,6 +234,11 @@
     {
       "id": "fcc796c49be955b3",
       "family": "04_ebpf_kernel",
+      "topics": [
+        43,
+        85,
+        90
+      ],
       "cited_terms": [
         "syscall_at_security_tier",
         "syscall_audited_by"

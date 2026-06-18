@@ -1,6 +1,8 @@
 # Collection — topic 81 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **24 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 81: topic 6, topic 7, topic 39, topic 42, topic 62, topic 71, topic 74, topic 88, topic 91, topic 95, topic 97, topic 98, topic 99, topic 100, topic 111, topic 114, topic 127, topic 138, topic 139, topic 149, topic 160, topic 186, topic 193.
 
 > **Topic gist** (representative FinePDFs text): Medical Device Services Who We Are At Regulatory Compliance Associates Inc (RCA), we provide worldwide services to the pharmaceutical, medical device, biologics, combination products, and compounding pharmacies industries for resolution of compliance and regulatory challenges. Our backgrounds include every facet of R&D, operations, regulatory affairs, quality and manufacturing. We are used to w... …
 
@@ -29,6 +31,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_subclass_to_descriptive_ice`](tables/t_subclass_to_descriptive_ice.sql) — realizes `subclass_to_descriptive_ice`
+- [`t_subclass_to_descriptive_ice`](tables/t_subclass_to_descriptive_ice.sql) — realizes `subclass_to_descriptive_ice` · _shared with 1 other collection(s)_
 - [`t_subclass_to_information_content_entity`](tables/t_subclass_to_information_content_entity.sql) — realizes `subclass_to_information_content_entity`
-- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence`
+- [`t_verification_min_one_evidence`](tables/t_verification_min_one_evidence.sql) — realizes `verification_min_one_evidence` · _shared with 16 other collection(s)_

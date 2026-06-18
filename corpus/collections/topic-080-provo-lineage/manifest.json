@@ -18,10 +18,49 @@
     "t_process_max_one_operator",
     "t_subclass_to_independent_continuant"
   ],
+  "topics": [
+    22,
+    28,
+    37,
+    56,
+    70,
+    80,
+    88,
+    109,
+    118,
+    120,
+    130,
+    134,
+    149,
+    151,
+    159,
+    174,
+    178,
+    181,
+    190
+  ],
+  "shared_tables": {
+    "column_distinctness": [
+      174
+    ],
+    "pignistic_transformation": [
+      50,
+      174
+    ],
+    "process_max_one_operator": [
+      122,
+      164
+    ]
+  },
   "chapters": [
     {
       "id": "05714cd5083da009",
       "family": "07_long_tail",
+      "topics": [
+        80,
+        149,
+        159
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -33,6 +72,11 @@
     {
       "id": "130f231fa50cd9ee",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        80,
+        190
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -44,6 +88,11 @@
     {
       "id": "1bdf94139dff998d",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        80,
+        134
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -55,6 +104,11 @@
     {
       "id": "23c72fcf730aa0c3",
       "family": "07_long_tail",
+      "topics": [
+        70,
+        80,
+        151
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -66,6 +120,11 @@
     {
       "id": "3dcce99ee261d115",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        80,
+        120
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -77,6 +136,11 @@
     {
       "id": "5f07e00b9bf809fd",
       "family": "07_long_tail",
+      "topics": [
+        80,
+        88,
+        178
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -88,6 +152,11 @@
     {
       "id": "79aada19539a5de0",
       "family": "07_long_tail",
+      "topics": [
+        80,
+        174,
+        181
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -99,6 +168,11 @@
     {
       "id": "9c722737ccf7163a",
       "family": "07_long_tail",
+      "topics": [
+        80,
+        109,
+        130
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",
@@ -110,6 +184,11 @@
     {
       "id": "c099273ccce7d252",
       "family": "07_long_tail",
+      "topics": [
+        56,
+        80,
+        118
+      ],
       "cited_terms": [
         "subclass_to_independent_continuant",
         "mass_function_with_normalization",

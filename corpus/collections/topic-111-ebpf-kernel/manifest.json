@@ -18,10 +18,132 @@
     "t_audit_subclass",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    8,
+    16,
+    20,
+    33,
+    37,
+    42,
+    51,
+    76,
+    89,
+    91,
+    94,
+    104,
+    108,
+    110,
+    111,
+    134,
+    143,
+    151,
+    164,
+    173
+  ],
+  "shared_tables": {
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      88,
+      96,
+      99,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      37,
+      43,
+      57,
+      73,
+      76,
+      95,
+      102,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "audit_for_period": [
+      3,
+      20,
+      32,
+      37,
+      43,
+      57,
+      65,
+      76,
+      171,
+      179,
+      187
+    ],
+    "audit_subclass": [
+      3,
+      5,
+      32,
+      70,
+      179
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "28018f0f5fc4ac68",
       "family": "03_directive_governance",
+      "topics": [
+        110,
+        111,
+        143
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -33,6 +155,11 @@
     {
       "id": "2f20a5db47d58116",
       "family": "03_directive_governance",
+      "topics": [
+        20,
+        91,
+        111
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -44,6 +171,11 @@
     {
       "id": "4eee8295b1b47a03",
       "family": "03_directive_governance",
+      "topics": [
+        37,
+        42,
+        111
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -55,6 +187,11 @@
     {
       "id": "509e4c76401a8196",
       "family": "03_directive_governance",
+      "topics": [
+        89,
+        111,
+        164
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -66,6 +203,11 @@
     {
       "id": "59521679bc16cf8e",
       "family": "03_directive_governance",
+      "topics": [
+        8,
+        111,
+        151
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -77,6 +219,11 @@
     {
       "id": "5b92f7b87b6251cd",
       "family": "03_directive_governance",
+      "topics": [
+        33,
+        51,
+        111
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -88,6 +235,11 @@
     {
       "id": "8180cc719afa6b3d",
       "family": "03_directive_governance",
+      "topics": [
+        108,
+        111,
+        134
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -99,6 +251,11 @@
     {
       "id": "d70cbe66f751e52f",
       "family": "03_directive_governance",
+      "topics": [
+        16,
+        94,
+        111
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -110,6 +267,11 @@
     {
       "id": "edddb10a4da29e35",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        111,
+        173
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",
@@ -121,6 +283,11 @@
     {
       "id": "f3a261cb114c53e7",
       "family": "03_directive_governance",
+      "topics": [
+        91,
+        104,
+        111
+      ],
       "cited_terms": [
         "audit_for_period",
         "audit_conducted_by",

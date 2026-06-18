@@ -1,6 +1,8 @@
 # Collection — topic 103 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **15 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 103: topic 3, topic 52, topic 99, topic 100, topic 112, topic 115, topic 121, topic 125, topic 127, topic 164, topic 188, topic 190, topic 193, topic 194.
 
 > **Topic gist** (representative FinePDFs text): 9716 with the petition that is the subject of this notice on public display at the Dockets Management Staff (see ADDRESSES) for public review and comment. We will also place on public display, in the Dockets Management Staff and at https://www.regulations.gov, any amendments to, or comments on, the petitioner's environmental assessment without further announcement in the Federal Register. If, ba.. …
 
@@ -25,7 +27,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_measurement_equiv_with_dim_unit`](tables/t_measurement_equiv_with_dim_unit.sql) — realizes `measurement_equiv_with_dim_unit`
+- [`t_measurement_equiv_with_dim_unit`](tables/t_measurement_equiv_with_dim_unit.sql) — realizes `measurement_equiv_with_dim_unit` · _shared with 1 other collection(s)_
 - [`t_span_with_parent`](tables/t_span_with_parent.sql) — realizes `span_with_parent`
 - [`t_span_with_status`](tables/t_span_with_status.sql) — realizes `span_with_status`
-- [`t_trace_in_service`](tables/t_trace_in_service.sql) — realizes `trace_in_service`
+- [`t_trace_in_service`](tables/t_trace_in_service.sql) — realizes `trace_in_service` · _shared with 1 other collection(s)_

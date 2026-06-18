@@ -1,6 +1,8 @@
 # Collection — topic 134 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **27 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 134: topic 2, topic 3, topic 13, topic 21, topic 22, topic 24, topic 25, topic 39, topic 44, topic 51, topic 70, topic 73, topic 75, topic 77, topic 80, topic 85, topic 90, topic 94, topic 109, topic 111, topic 115, topic 128, topic 148, topic 170, topic 187, topic 195.
 
 > **Topic gist** (representative FinePDFs text): November 13, 2014 CBCA 3300, 3354, 3538 BRASFIELD & GORRIE, LLC, Appellant, v. DEPARTMENT OF VETERANS AFFAIRS, Respondent. Laurence Schor, Dennis C. Ehlers, and Robert D. Pratt of Asmar, Schor & McKenna, PLLC, Washington, DC; and Axel Bolvig III, Luke D. Martin, and J. Christopher Selman of Bradley Arant Boult Cummings, LLP, Birmingham, AL, counsel for Appellant. Stacey North-Willis, Beth C... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_

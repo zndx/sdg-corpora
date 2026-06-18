@@ -1,6 +1,8 @@
 # Collection — topic 174 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 174: topic 7, topic 22, topic 27, topic 28, topic 33, topic 37, topic 39, topic 46, topic 51, topic 67, topic 75, topic 83, topic 99, topic 107, topic 111, topic 112, topic 118, topic 122, topic 130, topic 153, topic 158, topic 169, topic 183, topic 186.
 
 > **Topic gist** (representative FinePDFs text): Concepts in Vaccine Practice Gary S. Marshall, M.D. Professor of Pediatrics Chief, Division of Pediatric Infectious Diseases Director, Pediatric Clinical Trials Unit University of Louisville School of Medicine Disclosures I have the following financial relationships with the manufacturers of commercial products and/or provider of commercial services discussed in this CME activity: Research sup... …
 
@@ -32,7 +34,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
 - [`t_classification_under_taxonomy`](tables/t_classification_under_taxonomy.sql) — realizes `classification_under_taxonomy`
-- [`t_column_distinctness`](tables/t_column_distinctness.sql) — realizes `column_distinctness`
-- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with`
+- [`t_column_distinctness`](tables/t_column_distinctness.sql) — realizes `column_distinctness` · _shared with 1 other collection(s)_
+- [`t_evidence_correlated_with`](tables/t_evidence_correlated_with.sql) — realizes `evidence_correlated_with` · _shared with 4 other collection(s)_
 - [`t_evidence_with_mass_function`](tables/t_evidence_with_mass_function.sql) — realizes `evidence_with_mass_function`
-- [`t_pignistic_transformation`](tables/t_pignistic_transformation.sql) — realizes `pignistic_transformation`
+- [`t_pignistic_transformation`](tables/t_pignistic_transformation.sql) — realizes `pignistic_transformation` · _shared with 2 other collection(s)_

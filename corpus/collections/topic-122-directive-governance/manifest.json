@@ -18,10 +18,55 @@
     "t_schemaorg_event_starttime",
     "t_trace_subclass"
   ],
+  "topics": [
+    2,
+    5,
+    23,
+    31,
+    34,
+    37,
+    46,
+    56,
+    66,
+    68,
+    72,
+    81,
+    93,
+    97,
+    110,
+    114,
+    122,
+    126,
+    139,
+    162,
+    185,
+    187,
+    195
+  ],
+  "shared_tables": {
+    "observation_with_participant": [
+      53,
+      125,
+      188
+    ],
+    "process_max_one_operator": [
+      80,
+      164
+    ],
+    "schemaorg_event_starttime": [
+      188,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "016f5ba7ae8e27e4",
       "family": "02_observation_measurement",
+      "topics": [
+        93,
+        122,
+        126
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -33,6 +78,11 @@
     {
       "id": "08670ecb1f13cfbf",
       "family": "02_observation_measurement",
+      "topics": [
+        31,
+        122,
+        195
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -44,6 +94,11 @@
     {
       "id": "27b0541c9cf68425",
       "family": "02_observation_measurement",
+      "topics": [
+        66,
+        68,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -55,6 +110,11 @@
     {
       "id": "40ed011ea82257c2",
       "family": "02_observation_measurement",
+      "topics": [
+        2,
+        56,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -66,6 +126,11 @@
     {
       "id": "45c8b723e9667635",
       "family": "02_observation_measurement",
+      "topics": [
+        37,
+        122,
+        162
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -77,6 +142,11 @@
     {
       "id": "4f384cd6123d54fd",
       "family": "02_observation_measurement",
+      "topics": [
+        97,
+        122,
+        139
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -88,6 +158,11 @@
     {
       "id": "729f00ef73a0b220",
       "family": "02_observation_measurement",
+      "topics": [
+        72,
+        114,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -99,6 +174,11 @@
     {
       "id": "900df399c11e397d",
       "family": "02_observation_measurement",
+      "topics": [
+        23,
+        34,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -110,6 +190,11 @@
     {
       "id": "99b86bc7b5ac2c6b",
       "family": "02_observation_measurement",
+      "topics": [
+        81,
+        122,
+        187
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -121,6 +206,11 @@
     {
       "id": "ae43adac41bf3058",
       "family": "02_observation_measurement",
+      "topics": [
+        68,
+        110,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -132,6 +222,11 @@
     {
       "id": "e0d672fd4764f9cf",
       "family": "02_observation_measurement",
+      "topics": [
+        66,
+        122,
+        185
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",
@@ -143,6 +238,11 @@
     {
       "id": "e55e98444d302145",
       "family": "02_observation_measurement",
+      "topics": [
+        5,
+        46,
+        122
+      ],
       "cited_terms": [
         "observation_with_participant",
         "schemaorg_event_starttime",

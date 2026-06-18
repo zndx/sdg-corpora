@@ -18,10 +18,139 @@
     "t_schemaorg_place_address",
     "t_schemaorg_place_geocoord"
   ],
+  "topics": [
+    5,
+    24,
+    28,
+    38,
+    54,
+    61,
+    71,
+    81,
+    88,
+    92,
+    94,
+    102,
+    109,
+    110,
+    120,
+    121,
+    127,
+    130,
+    136,
+    159,
+    169,
+    170,
+    171,
+    181,
+    186,
+    197,
+    199
+  ],
+  "shared_tables": {
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      88,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      191,
+      196
+    ],
+    "audit_with_findings": [
+      16,
+      32,
+      38,
+      44,
+      76,
+      166
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      191,
+      199
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      158,
+      162,
+      170,
+      185
+    ],
+    "schemaorg_place_geocoord": [
+      66,
+      119,
+      142,
+      170
+    ]
+  },
   "chapters": [
     {
       "id": "1c2edc3c31f7298c",
       "family": "03_directive_governance",
+      "topics": [
+        170,
+        181,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -33,6 +162,11 @@
     {
       "id": "1fb9b017b6b098bc",
       "family": "03_directive_governance",
+      "topics": [
+        92,
+        171,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -44,6 +178,11 @@
     {
       "id": "34a53f88c92573f7",
       "family": "03_directive_governance",
+      "topics": [
+        110,
+        120,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -55,6 +194,11 @@
     {
       "id": "516d8deb624fc8d5",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        71,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -66,6 +210,11 @@
     {
       "id": "5416c4b27b2299d5",
       "family": "03_directive_governance",
+      "topics": [
+        81,
+        127,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -77,6 +226,11 @@
     {
       "id": "59c6dd48b2e4cea1",
       "family": "03_directive_governance",
+      "topics": [
+        159,
+        186,
+        199
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -88,6 +242,11 @@
     {
       "id": "7b7a7297dc953e73",
       "family": "03_directive_governance",
+      "topics": [
+        102,
+        136,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -99,6 +258,11 @@
     {
       "id": "bc5494cbbe4cd3ac",
       "family": "03_directive_governance",
+      "topics": [
+        88,
+        186,
+        197
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -110,6 +274,11 @@
     {
       "id": "bcbb3557248729f1",
       "family": "03_directive_governance",
+      "topics": [
+        130,
+        169,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -121,6 +290,11 @@
     {
       "id": "d6c175be451f5af6",
       "family": "03_directive_governance",
+      "topics": [
+        54,
+        94,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -132,6 +306,11 @@
     {
       "id": "d8c86829ffbdd1dc",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        28,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -143,6 +322,11 @@
     {
       "id": "e8e55768ac030526",
       "family": "03_directive_governance",
+      "topics": [
+        38,
+        121,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",
@@ -154,6 +338,11 @@
     {
       "id": "fbd0279dcf9a6193",
       "family": "03_directive_governance",
+      "topics": [
+        61,
+        109,
+        186
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "attestation_with_supporting_evidence",

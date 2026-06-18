@@ -14,10 +14,70 @@
     "t_iso27001_clause_subclass",
     "t_schemaorg_product_brand"
   ],
+  "topics": [
+    8,
+    13,
+    22,
+    27,
+    31,
+    43,
+    46,
+    52,
+    62,
+    67,
+    71,
+    72,
+    74,
+    80,
+    81,
+    82,
+    85,
+    91,
+    96,
+    102,
+    107,
+    113,
+    154,
+    158,
+    164,
+    174,
+    176,
+    187,
+    193
+  ],
+  "shared_tables": {
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      71,
+      74,
+      106,
+      129,
+      144,
+      183
+    ],
+    "iso27001_clause_subclass": [
+      4,
+      52,
+      71,
+      129,
+      173
+    ],
+    "schemaorg_product_brand": [
+      51,
+      126,
+      146
+    ]
+  },
   "chapters": [
     {
       "id": "09cae14e0b80f791",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        96,
+        158
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -27,6 +87,11 @@
     {
       "id": "1851a7e95709425d",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        85,
+        164
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -36,6 +101,11 @@
     {
       "id": "394d52bacac5ed6e",
       "family": "07_long_tail",
+      "topics": [
+        13,
+        22,
+        154
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -45,6 +115,11 @@
     {
       "id": "4025fd01dc1da731",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        27,
+        113
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -54,6 +129,11 @@
     {
       "id": "5582518217cdbf68",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        31,
+        176
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -63,6 +143,11 @@
     {
       "id": "5b0ee24989e4c87c",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        62,
+        74
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -72,6 +157,11 @@
     {
       "id": "5cb035a7ec36c13a",
       "family": "07_long_tail",
+      "topics": [
+        8,
+        22,
+        80
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -81,6 +171,11 @@
     {
       "id": "65878d5d3d1bfbdf",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        43,
+        187
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -90,6 +185,11 @@
     {
       "id": "67278fbddec48756",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        46,
+        102
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -99,6 +199,11 @@
     {
       "id": "751c15969e57bdd7",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        52,
+        82
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -108,6 +213,11 @@
     {
       "id": "a333bcd7f51e062b",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        72,
+        174
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -117,6 +227,11 @@
     {
       "id": "b3b8fbdfecdd0cf2",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        71,
+        193
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -126,6 +241,11 @@
     {
       "id": "bc3bd1e93f765954",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        71,
+        81
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -135,6 +255,11 @@
     {
       "id": "e6c3e9b87cfeb27c",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        67,
+        85
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",
@@ -144,6 +269,11 @@
     {
       "id": "eaf20062312a0779",
       "family": "07_long_tail",
+      "topics": [
+        22,
+        91,
+        107
+      ],
       "cited_terms": [
         "schemaorg_product_brand",
         "iso27001_annexa_subclass",

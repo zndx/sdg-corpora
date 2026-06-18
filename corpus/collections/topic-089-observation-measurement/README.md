@@ -1,6 +1,8 @@
 # Collection — topic 89 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **16 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 89: topic 14, topic 16, topic 23, topic 53, topic 92, topic 94, topic 101, topic 102, topic 114, topic 119, topic 126, topic 138, topic 149, topic 169, topic 171.
 
 > **Topic gist** (representative FinePDFs text): DATA REQUIREMENTS FOR METROPOLITAN TRANSPORTATION PLANNING NAS-NAE OCT 26 1972 LIBRARY HIGWAY RESEARCH BOARD RESEARCH COUNCIL ACADEMY OF SCIENCES—NATIONAL ACADEMY OF ENGINEERING HIGHWAY RESEARCH BOARD 1971 Officers CHARLES E. SHUMATE, Chairman ALAN M. VOORHEES, First Vice Chairman WILLIAM L. GARRISON, Second Vice Chairman W. N. CAREY, JR., Executive Director Executive Committee F. C. TURNER, ... …
 
@@ -27,8 +29,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_subclass`](tables/t_control_subclass.sql) — realizes `control_subclass`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
+- [`t_control_subclass`](tables/t_control_subclass.sql) — realizes `control_subclass` · _shared with 2 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
 - [`t_dempster_conflict_mass`](tables/t_dempster_conflict_mass.sql) — realizes `dempster_conflict_mass`
-- [`t_policy_supersedes`](tables/t_policy_supersedes.sql) — realizes `policy_supersedes`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_policy_supersedes`](tables/t_policy_supersedes.sql) — realizes `policy_supersedes` · _shared with 2 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

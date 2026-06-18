@@ -18,10 +18,95 @@
     "t_pci_dss_requirement",
     "t_pignistic_transformation"
   ],
+  "topics": [
+    2,
+    3,
+    15,
+    23,
+    24,
+    30,
+    37,
+    43,
+    50,
+    51,
+    57,
+    65,
+    73,
+    96,
+    107,
+    111,
+    123,
+    126,
+    133,
+    138,
+    143,
+    148,
+    155,
+    157,
+    159,
+    169,
+    176,
+    183,
+    194,
+    199
+  ],
+  "shared_tables": {
+    "evidence_correlated_with": [
+      54,
+      135,
+      174,
+      194
+    ],
+    "lift_with_baseline_rate": [
+      39,
+      54,
+      135,
+      148,
+      194
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ],
+    "pignistic_transformation": [
+      80,
+      174
+    ]
+  },
   "chapters": [
     {
       "id": "06f3b768ec1a708c",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        51,
+        133
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -33,6 +118,11 @@
     {
       "id": "19b88ce4883f074f",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        50,
+        73
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -44,6 +134,11 @@
     {
       "id": "23c392c0f9e65e9b",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        65,
+        169
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -55,6 +150,11 @@
     {
       "id": "58ee217ad8914614",
       "family": "07_long_tail",
+      "topics": [
+        43,
+        50,
+        176
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -66,6 +166,11 @@
     {
       "id": "7b885424b34f25fc",
       "family": "07_long_tail",
+      "topics": [
+        24,
+        50,
+        123
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -77,6 +182,11 @@
     {
       "id": "86d0982beff8acba",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        107,
+        148
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -88,6 +198,11 @@
     {
       "id": "9c78ef0913501fff",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        96,
+        199
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -99,6 +214,11 @@
     {
       "id": "b01aa7e90190b38f",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        143,
+        194
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -110,6 +230,11 @@
     {
       "id": "c8ba64f6d00752df",
       "family": "07_long_tail",
+      "topics": [
+        15,
+        50,
+        183
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -121,6 +246,11 @@
     {
       "id": "e4e304097dc8e9a1",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        126,
+        159
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -132,6 +262,11 @@
     {
       "id": "e8b7776e9be6564e",
       "family": "07_long_tail",
+      "topics": [
+        3,
+        50,
+        65
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -143,6 +278,11 @@
     {
       "id": "edfcd1eaca11a282",
       "family": "07_long_tail",
+      "topics": [
+        23,
+        50,
+        138
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -154,6 +294,11 @@
     {
       "id": "eee3e763cde0e954",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        155,
+        157
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -165,6 +310,11 @@
     {
       "id": "f034fd982e40fa99",
       "family": "07_long_tail",
+      "topics": [
+        30,
+        50,
+        111
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",
@@ -176,6 +326,11 @@
     {
       "id": "fb1e9e1ff12e65ae",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        50,
+        57
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "lift_with_baseline_rate",

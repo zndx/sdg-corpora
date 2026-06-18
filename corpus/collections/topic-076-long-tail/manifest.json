@@ -18,10 +18,118 @@
     "t_audit_with_findings",
     "t_verification_min_one_evidence"
   ],
+  "topics": [
+    5,
+    14,
+    27,
+    34,
+    52,
+    73,
+    76,
+    95,
+    98,
+    99,
+    119,
+    122,
+    127,
+    136,
+    142,
+    153,
+    165,
+    185,
+    187,
+    193,
+    194
+  ],
+  "shared_tables": {
+    "attestation_min_one_signer": [
+      1,
+      4,
+      28,
+      43,
+      57,
+      65,
+      68,
+      75,
+      95,
+      127,
+      150,
+      171,
+      176,
+      187,
+      190,
+      198
+    ],
+    "audit_conducted_by": [
+      2,
+      20,
+      32,
+      33,
+      37,
+      43,
+      57,
+      73,
+      95,
+      102,
+      111,
+      132,
+      144,
+      150,
+      160,
+      163,
+      171,
+      179,
+      196
+    ],
+    "audit_for_period": [
+      3,
+      20,
+      32,
+      37,
+      43,
+      57,
+      65,
+      111,
+      171,
+      179,
+      187
+    ],
+    "audit_with_findings": [
+      16,
+      32,
+      38,
+      44,
+      166,
+      186
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      68,
+      81,
+      82,
+      95,
+      127,
+      128,
+      129,
+      171,
+      176,
+      187
+    ]
+  },
   "chapters": [
     {
       "id": "1b34716e058c1d49",
       "family": "03_directive_governance",
+      "topics": [
+        73,
+        76,
+        153
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -33,6 +141,11 @@
     {
       "id": "5d246fe46b251493",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        99,
+        165
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -44,6 +157,11 @@
     {
       "id": "5ff30b03d019624f",
       "family": "03_directive_governance",
+      "topics": [
+        27,
+        76,
+        95
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -55,6 +173,11 @@
     {
       "id": "81f1c32dd0039a91",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        127,
+        187
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -66,6 +189,11 @@
     {
       "id": "8697e95f58064135",
       "family": "03_directive_governance",
+      "topics": [
+        14,
+        76,
+        185
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -77,6 +205,11 @@
     {
       "id": "90cdf454fa758b7b",
       "family": "03_directive_governance",
+      "topics": [
+        5,
+        76,
+        95
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -88,6 +221,11 @@
     {
       "id": "aa287defeeeb5e21",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        98,
+        119
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -99,6 +237,11 @@
     {
       "id": "afb5dc548e47c49d",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        122,
+        142
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -110,6 +253,11 @@
     {
       "id": "c8861c5b1fcc81bf",
       "family": "03_directive_governance",
+      "topics": [
+        52,
+        76,
+        193
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -121,6 +269,11 @@
     {
       "id": "cd0e22c7247afb66",
       "family": "03_directive_governance",
+      "topics": [
+        34,
+        76,
+        99
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",
@@ -132,6 +285,11 @@
     {
       "id": "e989e0f64961dc8b",
       "family": "03_directive_governance",
+      "topics": [
+        76,
+        136,
+        194
+      ],
       "cited_terms": [
         "audit_for_period",
         "verification_min_one_evidence",

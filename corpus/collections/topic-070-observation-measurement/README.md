@@ -1,6 +1,8 @@
 # Collection — topic 70 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters** · **37 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 70: topic 5, topic 6, topic 19, topic 40, topic 43, topic 44, topic 47, topic 49, topic 56, topic 58, topic 61, topic 72, topic 73, topic 77, topic 80, topic 81, topic 83, topic 88, topic 93, topic 103, topic 106, topic 112, topic 117, topic 122, topic 126, topic 136, topic 144, topic 146, topic 150, topic 158, topic 165, topic 171, topic 174, topic 186, topic 193, topic 194.
 
 > **Topic gist** (representative FinePDFs text): Network Working Group S. Bradner Request for Comments: 1752 Harvard University Category: Standards Track A. Mankin ISI January 1995 The Recommendation for the IP Next Generation Protocol Status of this Memo This document specifies an Internet standards track protocol for the Internet communit... …
 
@@ -39,8 +41,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass`
-- [`t_gdpr_article_subclass`](tables/t_gdpr_article_subclass.sql) — realizes `gdpr_article_subclass`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass` · _shared with 5 other collection(s)_
+- [`t_gdpr_article_subclass`](tables/t_gdpr_article_subclass.sql) — realizes `gdpr_article_subclass` · _shared with 3 other collection(s)_
 - [`t_soc2_trust_criterion`](tables/t_soc2_trust_criterion.sql) — realizes `soc2_trust_criterion`

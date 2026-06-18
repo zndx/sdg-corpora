@@ -1,6 +1,8 @@
 # Collection — topic 30 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **30 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 30: topic 1, topic 15, topic 23, topic 32, topic 34, topic 50, topic 51, topic 62, topic 64, topic 67, topic 68, topic 71, topic 75, topic 76, topic 80, topic 82, topic 99, topic 100, topic 102, topic 108, topic 126, topic 134, topic 144, topic 146, topic 164, topic 169, topic 174, topic 187, topic 190.
 
 > **Topic gist** (representative FinePDFs text): **Basic Information** - **Catalog Number:** 20536-1-AP - **Size:** 150ul, Concentration: 600 ug/ml by Nanodrop; - **Source:** Rabbit - **Isotype:** IgG - **Immunogen Catalog Number:** AC14521 - **GenBank Accession Number:** BC002409 - **GeneID (NCBI):** 60 - **UNIPROT ID:** P60709 - **Full Name:** actin, beta - **Calculated MW:** 375 aa, 42 kDa - **Observed MW:** 42 kDa **Purification Method:** .. …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by`
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
+- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

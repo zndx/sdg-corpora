@@ -16,10 +16,62 @@
     "t_requirement_has_priority",
     "t_subclass_to_designative_ice"
   ],
+  "topics": [
+    16,
+    32,
+    40,
+    58,
+    67,
+    72,
+    77,
+    81,
+    95,
+    101,
+    109,
+    111,
+    114,
+    115,
+    128,
+    131,
+    132,
+    142,
+    148,
+    160,
+    171,
+    196
+  ],
+  "shared_tables": {
+    "designative_subclass_basic": [
+      6,
+      56,
+      128
+    ],
+    "identifier_unique": [
+      6
+    ],
+    "requirement_has_priority": [
+      21,
+      85,
+      113,
+      128,
+      129,
+      196
+    ],
+    "subclass_to_designative_ice": [
+      6,
+      56,
+      128
+    ]
+  },
   "chapters": [
     {
       "id": "09277f60271c87e7",
       "family": "01_foundation",
+      "topics": [
+        40,
+        101,
+        160
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -30,6 +82,11 @@
     {
       "id": "12fe8f8a2303cd78",
       "family": "01_foundation",
+      "topics": [
+        16,
+        101,
+        142
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -40,6 +97,11 @@
     {
       "id": "31a53fe70d041e1c",
       "family": "01_foundation",
+      "topics": [
+        81,
+        95,
+        101
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -50,6 +112,11 @@
     {
       "id": "377e986c4de6b342",
       "family": "01_foundation",
+      "topics": [
+        32,
+        77,
+        101
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -60,6 +127,11 @@
     {
       "id": "70b00c2ee4d09079",
       "family": "01_foundation",
+      "topics": [
+        101,
+        109,
+        196
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -70,6 +142,11 @@
     {
       "id": "739219aa2ab4151c",
       "family": "01_foundation",
+      "topics": [
+        101,
+        111,
+        115
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -80,6 +157,11 @@
     {
       "id": "75d0279854383dea",
       "family": "01_foundation",
+      "topics": [
+        72,
+        101,
+        128
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -90,6 +172,11 @@
     {
       "id": "7ca7a58efa03f5ee",
       "family": "01_foundation",
+      "topics": [
+        58,
+        101,
+        114
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -100,6 +187,11 @@
     {
       "id": "8846d5718148a43b",
       "family": "01_foundation",
+      "topics": [
+        72,
+        101,
+        132
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -110,6 +202,11 @@
     {
       "id": "96dbaccad138c024",
       "family": "01_foundation",
+      "topics": [
+        67,
+        101,
+        115
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -120,6 +217,11 @@
     {
       "id": "e80d24f0105c26cf",
       "family": "01_foundation",
+      "topics": [
+        101,
+        114,
+        148
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",
@@ -130,6 +232,11 @@
     {
       "id": "ec786c887ff4b503",
       "family": "01_foundation",
+      "topics": [
+        101,
+        131,
+        171
+      ],
       "cited_terms": [
         "requirement_has_priority",
         "subclass_to_designative_ice",

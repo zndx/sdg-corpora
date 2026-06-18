@@ -1,6 +1,8 @@
 # Collection — topic 197 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 197: topic 2, topic 28, topic 30, topic 31, topic 33, topic 40, topic 49, topic 54, topic 56, topic 67, topic 75, topic 90, topic 94, topic 99, topic 103, topic 108, topic 114, topic 119, topic 139, topic 160, topic 170, topic 179, topic 187, topic 191.
 
 > **Topic gist** (representative FinePDFs text): BREAKING THE GLASS CEILING CHALLENGES TO FEMALE PARTICIPATION IN TECHNICAL DIPLOMA EDUCATION IN BANGLADESH World Bank Office Dhaka Plot: E-32, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207 Bangladesh Tel: 880-2-5566-7777 Fax: 880-2-5566-7778 www.worldbank.org/bangladesh Standard disclaimer: This volume is a product of the staff of the International Bank for Reconstruction and Development/ The World... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_aggregation_basic`](tables/t_aggregation_basic.sql) — realizes `aggregation_basic`
-- [`t_measurement_basic`](tables/t_measurement_basic.sql) — realizes `measurement_basic`
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_aggregation_basic`](tables/t_aggregation_basic.sql) — realizes `aggregation_basic` · _shared with 1 other collection(s)_
+- [`t_measurement_basic`](tables/t_measurement_basic.sql) — realizes `measurement_basic` · _shared with 1 other collection(s)_
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

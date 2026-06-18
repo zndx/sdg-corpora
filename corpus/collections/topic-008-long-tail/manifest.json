@@ -12,10 +12,63 @@
     "t_syscall_audited_by",
     "t_syscall_basic"
   ],
+  "topics": [
+    1,
+    4,
+    7,
+    8,
+    13,
+    15,
+    24,
+    30,
+    35,
+    39,
+    50,
+    53,
+    57,
+    62,
+    83,
+    88,
+    108,
+    110,
+    111,
+    112,
+    114,
+    125,
+    136,
+    142,
+    143,
+    150,
+    171,
+    174,
+    183,
+    198
+  ],
+  "shared_tables": {
+    "syscall_audited_by": [
+      19,
+      46,
+      62,
+      77,
+      90,
+      131
+    ],
+    "syscall_basic": [
+      67,
+      77,
+      114,
+      169
+    ]
+  },
   "chapters": [
     {
       "id": "160619e7b32206da",
       "family": "04_ebpf_kernel",
+      "topics": [
+        1,
+        8,
+        83
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -24,6 +77,11 @@
     {
       "id": "228407e675f17592",
       "family": "04_ebpf_kernel",
+      "topics": [
+        7,
+        8,
+        171
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -32,6 +90,11 @@
     {
       "id": "24a6f83b778d0ca1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        110,
+        174
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -40,6 +103,11 @@
     {
       "id": "2baecc8e6b1bf4a1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        13,
+        35
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -48,6 +116,11 @@
     {
       "id": "3ed03674ef94720b",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        114,
+        143
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -56,6 +129,11 @@
     {
       "id": "4063181c8c2bdacc",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        53,
+        108
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -64,6 +142,11 @@
     {
       "id": "421625d88769eb92",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        24,
+        111
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -72,6 +155,11 @@
     {
       "id": "4932e262586023a8",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        62,
+        183
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -80,6 +168,11 @@
     {
       "id": "5e53c0bd3f83572d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        57,
+        198
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -88,6 +181,11 @@
     {
       "id": "7452c16987a7616d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        39,
+        53
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -96,6 +194,11 @@
     {
       "id": "75d0e31af90e893d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        125,
+        150
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -104,6 +207,11 @@
     {
       "id": "9064c855fa587d4e",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        112,
+        142
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -112,6 +220,11 @@
     {
       "id": "93d74314f2528a33",
       "family": "04_ebpf_kernel",
+      "topics": [
+        4,
+        8,
+        136
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -120,6 +233,11 @@
     {
       "id": "bc7601b6217900ff",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        30,
+        88
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"
@@ -128,6 +246,11 @@
     {
       "id": "f123c1a51a996392",
       "family": "04_ebpf_kernel",
+      "topics": [
+        8,
+        15,
+        50
+      ],
       "cited_terms": [
         "syscall_audited_by",
         "syscall_basic"

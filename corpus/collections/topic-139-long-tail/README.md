@@ -1,6 +1,8 @@
 # Collection — topic 139 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 139: topic 19, topic 26, topic 27, topic 32, topic 38, topic 43, topic 44, topic 46, topic 53, topic 64, topic 74, topic 76, topic 98, topic 104, topic 109, topic 111, topic 120, topic 144, topic 158, topic 160, topic 165, topic 179, topic 194, topic 197, topic 199.
 
 > **Topic gist** (representative FinePDFs text): February 2016 Drug Court Practitioner Fact Sheet Vol. XI, No. 1 Understanding and Detecting Prescription Drug Misuse and Misuse Disorders By Sandra Lapham, MD, MPH, DFASAM Senior Research Scientist, Behavioral Health Research Center of the Southwest, Pacific Institute for Research and Evaluation T his fact sheet is designed for court professionals. It describes prescription drug misuse and pr... …
 
@@ -34,8 +36,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by`
-- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref`
-- [`t_labrun_with_protocol`](tables/t_labrun_with_protocol.sql) — realizes `labrun_with_protocol`
-- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass`
-- [`t_syscall_traceable`](tables/t_syscall_traceable.sql) — realizes `syscall_traceable`
+- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by` · _shared with 3 other collection(s)_
+- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref` · _shared with 1 other collection(s)_
+- [`t_labrun_with_protocol`](tables/t_labrun_with_protocol.sql) — realizes `labrun_with_protocol` · _shared with 1 other collection(s)_
+- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 3 other collection(s)_
+- [`t_syscall_traceable`](tables/t_syscall_traceable.sql) — realizes `syscall_traceable` · _shared with 1 other collection(s)_

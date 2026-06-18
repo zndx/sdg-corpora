@@ -18,10 +18,64 @@
     "t_policy_min_one_enforcer",
     "t_policy_only_governs_artifacts"
   ],
+  "topics": [
+    1,
+    4,
+    6,
+    22,
+    27,
+    28,
+    35,
+    39,
+    47,
+    57,
+    58,
+    72,
+    99,
+    101,
+    103,
+    108,
+    109,
+    110,
+    130,
+    139,
+    153,
+    155,
+    183,
+    193
+  ],
+  "shared_tables": {
+    "claim_min_one_evidence": [
+      107,
+      130
+    ],
+    "control_min_one_owner": [
+      93
+    ],
+    "policy_basic": [
+      198
+    ],
+    "policy_min_one_enforcer": [
+      20,
+      75,
+      93,
+      96,
+      158,
+      198
+    ],
+    "policy_only_governs_artifacts": [
+      198
+    ]
+  },
   "chapters": [
     {
       "id": "247c68651333e779",
       "family": "03_directive_governance",
+      "topics": [
+        57,
+        130,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -33,6 +87,11 @@
     {
       "id": "33e745a7b3c9e43c",
       "family": "03_directive_governance",
+      "topics": [
+        139,
+        183,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -44,6 +103,11 @@
     {
       "id": "65738a55c35623cc",
       "family": "03_directive_governance",
+      "topics": [
+        110,
+        155,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -55,6 +119,11 @@
     {
       "id": "68cf051e1ce377fe",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        108,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -66,6 +135,11 @@
     {
       "id": "8ad2757960cad270",
       "family": "03_directive_governance",
+      "topics": [
+        28,
+        58,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -77,6 +151,11 @@
     {
       "id": "8b1d8fea6d3e2845",
       "family": "03_directive_governance",
+      "topics": [
+        27,
+        72,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -88,6 +167,11 @@
     {
       "id": "99187ddba8ab5496",
       "family": "03_directive_governance",
+      "topics": [
+        35,
+        153,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -99,6 +183,11 @@
     {
       "id": "da87b8e6b11913ee",
       "family": "03_directive_governance",
+      "topics": [
+        1,
+        109,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -110,6 +199,11 @@
     {
       "id": "e42b25df5526907c",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        101,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -121,6 +215,11 @@
     {
       "id": "eaaf6f36a96b63dc",
       "family": "03_directive_governance",
+      "topics": [
+        39,
+        103,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -132,6 +231,11 @@
     {
       "id": "f919a91c0643f692",
       "family": "03_directive_governance",
+      "topics": [
+        47,
+        99,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",
@@ -143,6 +247,11 @@
     {
       "id": "fbf807219e0f2fde",
       "family": "03_directive_governance",
+      "topics": [
+        6,
+        22,
+        193
+      ],
       "cited_terms": [
         "policy_min_one_enforcer",
         "claim_min_one_evidence",

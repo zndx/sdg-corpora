@@ -18,10 +18,120 @@
     "t_schemaorg_product_price",
     "t_trace_supports_claim"
   ],
+  "topics": [
+    2,
+    7,
+    14,
+    15,
+    23,
+    26,
+    28,
+    33,
+    44,
+    46,
+    47,
+    53,
+    67,
+    73,
+    89,
+    100,
+    106,
+    112,
+    131,
+    132,
+    134,
+    136,
+    138,
+    144,
+    150,
+    151,
+    155,
+    157,
+    160,
+    174,
+    185,
+    194
+  ],
+  "shared_tables": {
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      197
+    ],
+    "schemaorg_org_taxid": [
+      52,
+      115,
+      170
+    ],
+    "schemaorg_place_address": [
+      28,
+      51,
+      93,
+      119,
+      120,
+      125,
+      126,
+      153,
+      158,
+      162,
+      170,
+      186
+    ],
+    "schemaorg_product_price": [
+      24,
+      51,
+      52,
+      126
+    ],
+    "trace_supports_claim": [
+      30,
+      49,
+      65,
+      78,
+      94,
+      99,
+      108,
+      115,
+      130,
+      133,
+      154,
+      165,
+      190
+    ]
+  },
   "chapters": [
     {
       "id": "020253604196f294",
       "family": "07_long_tail",
+      "topics": [
+        67,
+        106,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -33,6 +143,11 @@
     {
       "id": "2712cb4d33948555",
       "family": "07_long_tail",
+      "topics": [
+        53,
+        160,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -44,6 +159,11 @@
     {
       "id": "62f5c84524aa2967",
       "family": "07_long_tail",
+      "topics": [
+        44,
+        134,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -55,6 +175,11 @@
     {
       "id": "898b9d16f9f4f598",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        132,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -66,6 +191,11 @@
     {
       "id": "8bd684b98478a84f",
       "family": "07_long_tail",
+      "topics": [
+        23,
+        157,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -77,6 +207,11 @@
     {
       "id": "8fd031a4cb3d5df0",
       "family": "07_long_tail",
+      "topics": [
+        73,
+        100,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -88,6 +223,11 @@
     {
       "id": "90108d0a3eb57325",
       "family": "07_long_tail",
+      "topics": [
+        7,
+        155,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -99,6 +239,11 @@
     {
       "id": "93fced9cfc8f27f0",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        138,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -110,6 +255,11 @@
     {
       "id": "98d4fe0fe563334e",
       "family": "07_long_tail",
+      "topics": [
+        112,
+        151,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -121,6 +271,11 @@
     {
       "id": "a21696a680edd514",
       "family": "07_long_tail",
+      "topics": [
+        112,
+        150,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -132,6 +287,11 @@
     {
       "id": "adf810ba31f27aa1",
       "family": "07_long_tail",
+      "topics": [
+        2,
+        174,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -143,6 +303,11 @@
     {
       "id": "c29dc8bbc32ccdbc",
       "family": "07_long_tail",
+      "topics": [
+        15,
+        89,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -154,6 +319,11 @@
     {
       "id": "ca89f468bd9055af",
       "family": "07_long_tail",
+      "topics": [
+        46,
+        89,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -165,6 +335,11 @@
     {
       "id": "d3caa27f6bc0c4c7",
       "family": "07_long_tail",
+      "topics": [
+        33,
+        131,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -176,6 +351,11 @@
     {
       "id": "d9a4033c37e992ff",
       "family": "07_long_tail",
+      "topics": [
+        26,
+        134,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -187,6 +367,11 @@
     {
       "id": "e1825683744d341d",
       "family": "07_long_tail",
+      "topics": [
+        14,
+        136,
+        185
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",
@@ -198,6 +383,11 @@
     {
       "id": "f33babe7c1343e27",
       "family": "07_long_tail",
+      "topics": [
+        144,
+        185,
+        194
+      ],
       "cited_terms": [
         "schemaorg_place_address",
         "pci_dss_requirement",

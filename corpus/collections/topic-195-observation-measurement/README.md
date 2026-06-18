@@ -1,6 +1,8 @@
 # Collection — topic 195 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **25 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 195: topic 3, topic 23, topic 32, topic 37, topic 56, topic 62, topic 67, topic 68, topic 75, topic 83, topic 97, topic 100, topic 104, topic 107, topic 113, topic 117, topic 118, topic 135, topic 142, topic 148, topic 163, topic 166, topic 178, topic 187.
 
 > **Topic gist** (representative FinePDFs text): Global Simulation of Noble Gases and Their Binary Mixtures Inaugural-Dissertation zur Erlangung des Doktorgrades der Mathematisch-Naturwissenschaftlichen Fakultät der Universität zu Köln Afshin Eskandari Nasrabad aus Mashad-Iran April 3, 2003 To my mother and to Rozita, for the love and encouragement that you have given me while I was doing my PhD. Berichterstatter: Prof. Dr. U. K. Deiters I... …
 
@@ -31,7 +33,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by`
-- [`t_ebpf_event_min_one_attribute`](tables/t_ebpf_event_min_one_attribute.sql) — realizes `ebpf_event_min_one_attribute`
-- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass`
+- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by` · _shared with 3 other collection(s)_
+- [`t_ebpf_event_min_one_attribute`](tables/t_ebpf_event_min_one_attribute.sql) — realizes `ebpf_event_min_one_attribute` · _shared with 1 other collection(s)_
+- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 3 other collection(s)_
 - [`t_outlier_detection_targets_dataset`](tables/t_outlier_detection_targets_dataset.sql) — realizes `outlier_detection_targets_dataset`

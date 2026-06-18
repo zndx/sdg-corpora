@@ -1,6 +1,8 @@
 # Collection — topic 153 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **37 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 153: topic 2, topic 6, topic 14, topic 21, topic 22, topic 25, topic 32, topic 43, topic 46, topic 52, topic 54, topic 56, topic 66, topic 77, topic 82, topic 88, topic 92, topic 96, topic 97, topic 99, topic 101, topic 109, topic 121, topic 122, topic 130, topic 134, topic 158, topic 164, topic 171, topic 179, topic 185, topic 188, topic 190, topic 195, topic 197, topic 198.
 
 > **Topic gist** (representative FinePDFs text): 2021. Volume 2. Issue 2 (June). Article CID e0204 DOI: 10.15275/sarmj.2021.0204 Original article Reprint Experimental method for burn skin wound modeling in pigs, Sergey B. Bogdanov 1, 2 , Anton V. Karakulev 1, 2 , Yuliya A. Bogdanova 2 , Alexander S. Sotnichenko 2 Irina V. Gilevich 1, 2 , Karina I. Melkonyan 2 , Valeriya A. Aladyina 1, 2 1 S.V. Ochapovsky Regional Clinical Hospital No.1 2 K... …
 
@@ -36,6 +38,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
 - [`t_schemaorg_review_rating`](tables/t_schemaorg_review_rating.sql) — realizes `schemaorg_review_rating`
-- [`t_trace_in_service`](tables/t_trace_in_service.sql) — realizes `trace_in_service`
+- [`t_trace_in_service`](tables/t_trace_in_service.sql) — realizes `trace_in_service` · _shared with 1 other collection(s)_

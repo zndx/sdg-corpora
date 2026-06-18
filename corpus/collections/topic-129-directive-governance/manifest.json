@@ -18,10 +18,109 @@
     "t_verification_min_one_evidence",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    24,
+    25,
+    39,
+    40,
+    52,
+    57,
+    67,
+    70,
+    73,
+    77,
+    81,
+    91,
+    92,
+    98,
+    108,
+    117,
+    129,
+    130,
+    131,
+    132,
+    143,
+    148,
+    157,
+    158,
+    164,
+    166,
+    173,
+    178,
+    185,
+    187,
+    198
+  ],
+  "shared_tables": {
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      71,
+      74,
+      106,
+      144,
+      183
+    ],
+    "iso27001_clause_subclass": [
+      4,
+      22,
+      52,
+      71,
+      173
+    ],
+    "requirement_has_priority": [
+      21,
+      85,
+      101,
+      113,
+      128,
+      196
+    ],
+    "verification_min_one_evidence": [
+      1,
+      7,
+      28,
+      38,
+      40,
+      57,
+      68,
+      76,
+      81,
+      82,
+      95,
+      127,
+      128,
+      171,
+      176,
+      187
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      44,
+      56,
+      58,
+      71,
+      83,
+      89,
+      104,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "0c922a7dc66d97ba",
       "family": "03_directive_governance",
+      "topics": [
+        129,
+        130,
+        198
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -33,6 +132,11 @@
     {
       "id": "0e6c2650df89df0a",
       "family": "03_directive_governance",
+      "topics": [
+        25,
+        129,
+        132
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -44,6 +148,11 @@
     {
       "id": "207e5691f6c3e372",
       "family": "03_directive_governance",
+      "topics": [
+        40,
+        70,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -55,6 +164,11 @@
     {
       "id": "220b1cca0049361d",
       "family": "03_directive_governance",
+      "topics": [
+        73,
+        77,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -66,6 +180,11 @@
     {
       "id": "25d1a262132148b6",
       "family": "03_directive_governance",
+      "topics": [
+        24,
+        57,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -77,6 +196,11 @@
     {
       "id": "5d6dea7c84aae963",
       "family": "03_directive_governance",
+      "topics": [
+        129,
+        148,
+        185
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -88,6 +212,11 @@
     {
       "id": "5e42bc8bf91fca36",
       "family": "03_directive_governance",
+      "topics": [
+        91,
+        129,
+        148
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -99,6 +228,11 @@
     {
       "id": "615163674555c04c",
       "family": "03_directive_governance",
+      "topics": [
+        81,
+        117,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -110,6 +244,11 @@
     {
       "id": "704bb0280c6ff613",
       "family": "03_directive_governance",
+      "topics": [
+        52,
+        129,
+        148
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -121,6 +260,11 @@
     {
       "id": "763d80a99d1b73bc",
       "family": "03_directive_governance",
+      "topics": [
+        129,
+        173,
+        187
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -132,6 +276,11 @@
     {
       "id": "7fc6872900250436",
       "family": "03_directive_governance",
+      "topics": [
+        108,
+        129,
+        166
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -143,6 +292,11 @@
     {
       "id": "8a7baebc333a7049",
       "family": "03_directive_governance",
+      "topics": [
+        39,
+        129,
+        157
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -154,6 +308,11 @@
     {
       "id": "9a8c3320bbd82314",
       "family": "03_directive_governance",
+      "topics": [
+        129,
+        143,
+        178
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -165,6 +324,11 @@
     {
       "id": "b43c457ecf1d91ab",
       "family": "03_directive_governance",
+      "topics": [
+        39,
+        129,
+        164
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -176,6 +340,11 @@
     {
       "id": "cab8a2f8ab8d3097",
       "family": "03_directive_governance",
+      "topics": [
+        129,
+        131,
+        158
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -187,6 +356,11 @@
     {
       "id": "e4a54c2184b88556",
       "family": "03_directive_governance",
+      "topics": [
+        25,
+        92,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",
@@ -198,6 +372,11 @@
     {
       "id": "fb23ea9930ac4e5c",
       "family": "03_directive_governance",
+      "topics": [
+        67,
+        98,
+        129
+      ],
       "cited_terms": [
         "iso27001_annexa_subclass",
         "requirement_has_priority",

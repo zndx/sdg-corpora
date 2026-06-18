@@ -1,6 +1,8 @@
 # Collection — topic 130 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **22 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 130: topic 5, topic 6, topic 14, topic 35, topic 40, topic 72, topic 77, topic 78, topic 80, topic 94, topic 99, topic 104, topic 107, topic 109, topic 110, topic 120, topic 129, topic 155, topic 158, topic 183, topic 196.
 
 > **Topic gist** (representative FinePDFs text): Strengthening health systems through nursing: Evidence from 14 European countries Edited by: Anne Marie Rafferty Reinhard Busse Britta Zander-Jentsch Walter Sermeus Luk Bruyneel Strengthening health systems through nursing: Evidence from 14 European countries The European Observatory on Health Systems and Policies supports and promotes evidence-based health policy-making through comprehensive a... …
 
@@ -30,8 +32,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim`
-- [`t_claim_min_one_evidence`](tables/t_claim_min_one_evidence.sql) — realizes `claim_min_one_evidence`
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim`
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim` · _shared with 2 other collection(s)_
+- [`t_claim_min_one_evidence`](tables/t_claim_min_one_evidence.sql) — realizes `claim_min_one_evidence` · _shared with 2 other collection(s)_
+- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

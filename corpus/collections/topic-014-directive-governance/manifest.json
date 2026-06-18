@@ -18,10 +18,79 @@
     "t_outlier_claim_basic",
     "t_outlier_claim_min_one_attribute"
   ],
+  "topics": [
+    5,
+    7,
+    14,
+    27,
+    32,
+    33,
+    37,
+    71,
+    75,
+    76,
+    82,
+    85,
+    86,
+    97,
+    115,
+    120,
+    121,
+    130,
+    133,
+    139,
+    148,
+    153,
+    154,
+    158,
+    164,
+    165,
+    170,
+    181,
+    183,
+    188,
+    190,
+    191,
+    194
+  ],
+  "shared_tables": {
+    "aggregation_basic": [
+      197
+    ],
+    "alert_triggered_by": [
+      34,
+      139,
+      195
+    ],
+    "metric_emission_subclass": [
+      27,
+      139,
+      195
+    ],
+    "outlier_claim_basic": [
+      24,
+      49,
+      54,
+      119,
+      197
+    ],
+    "outlier_claim_min_one_attribute": [
+      24,
+      49,
+      52,
+      194,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "09a6d2fff884e47a",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        37,
+        188
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -33,6 +102,11 @@
     {
       "id": "24258fcab4b7e4c4",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        32,
+        130
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -44,6 +118,11 @@
     {
       "id": "545aeee17721037c",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        170,
+        191
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -55,6 +134,11 @@
     {
       "id": "5f39185782e08180",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        82,
+        139
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -66,6 +150,11 @@
     {
       "id": "63e135fd9485614d",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        97,
+        165
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -77,6 +166,11 @@
     {
       "id": "6c032b999bf2a7ec",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        153,
+        154
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -88,6 +182,11 @@
     {
       "id": "6cc5debe0ed1a273",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        75,
+        164
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -99,6 +198,11 @@
     {
       "id": "6d4200ca08af0b17",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        76,
+        181
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -110,6 +214,11 @@
     {
       "id": "7af0068b463e1c2c",
       "family": "02_observation_measurement",
+      "topics": [
+        5,
+        14,
+        121
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -121,6 +230,11 @@
     {
       "id": "8d594a9ecd6c66f8",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        33,
+        85
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -132,6 +246,11 @@
     {
       "id": "a81659b46f6c8c6f",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        115,
+        158
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -143,6 +262,11 @@
     {
       "id": "ab880618d04c47f9",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        130,
+        183
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -154,6 +278,11 @@
     {
       "id": "b796e52869f6ac04",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        133,
+        190
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -165,6 +294,11 @@
     {
       "id": "c20adca3fba377ea",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        75,
+        86
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -176,6 +310,11 @@
     {
       "id": "d3898ab9362151b4",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        27,
+        71
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -187,6 +326,11 @@
     {
       "id": "e5d5fd696b2dfd57",
       "family": "02_observation_measurement",
+      "topics": [
+        7,
+        14,
+        148
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",
@@ -198,6 +342,11 @@
     {
       "id": "f89be7c7189b6038",
       "family": "02_observation_measurement",
+      "topics": [
+        14,
+        120,
+        194
+      ],
       "cited_terms": [
         "outlier_claim_min_one_attribute",
         "alert_triggered_by",

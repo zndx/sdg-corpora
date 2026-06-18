@@ -18,10 +18,75 @@
     "t_policy_supersedes",
     "t_verification_produces_evidence"
   ],
+  "topics": [
+    14,
+    16,
+    23,
+    53,
+    89,
+    92,
+    94,
+    101,
+    102,
+    114,
+    119,
+    126,
+    138,
+    149,
+    169,
+    171
+  ],
+  "shared_tables": {
+    "control_subclass": [
+      85,
+      113
+    ],
+    "control_with_evidence_requirement": [
+      3,
+      23,
+      26,
+      58,
+      78,
+      83,
+      88,
+      92,
+      102,
+      104,
+      134,
+      138,
+      154,
+      191
+    ],
+    "policy_supersedes": [
+      83,
+      113
+    ],
+    "verification_produces_evidence": [
+      6,
+      16,
+      23,
+      44,
+      56,
+      58,
+      71,
+      83,
+      104,
+      129,
+      138,
+      160,
+      163,
+      191
+    ]
+  },
   "chapters": [
     {
       "id": "4ce31db5cf8c7288",
       "family": "03_directive_governance",
+      "topics": [
+        14,
+        89,
+        138
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -33,6 +98,11 @@
     {
       "id": "5537c81fecda9e96",
       "family": "03_directive_governance",
+      "topics": [
+        89,
+        92,
+        114
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -44,6 +114,11 @@
     {
       "id": "5d39f6337520079b",
       "family": "03_directive_governance",
+      "topics": [
+        23,
+        89,
+        126
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -55,6 +130,11 @@
     {
       "id": "7f9101fafd473056",
       "family": "03_directive_governance",
+      "topics": [
+        14,
+        89,
+        169
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -66,6 +146,11 @@
     {
       "id": "b6a601414acf3106",
       "family": "03_directive_governance",
+      "topics": [
+        89,
+        102,
+        149
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -77,6 +162,11 @@
     {
       "id": "b9506836e9ca3fea",
       "family": "03_directive_governance",
+      "topics": [
+        89,
+        94,
+        171
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -88,6 +178,11 @@
     {
       "id": "baee8f392a9e68d9",
       "family": "03_directive_governance",
+      "topics": [
+        16,
+        89,
+        119
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",
@@ -99,6 +194,11 @@
     {
       "id": "fe7baad25fa8939c",
       "family": "03_directive_governance",
+      "topics": [
+        53,
+        89,
+        101
+      ],
       "cited_terms": [
         "control_subclass",
         "dempster_conflict_mass",

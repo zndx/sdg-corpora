@@ -18,10 +18,71 @@
     "t_syscall_max_one_return",
     "t_syscall_traceable"
   ],
+  "topics": [
+    16,
+    52,
+    67,
+    72,
+    80,
+    83,
+    104,
+    106,
+    112,
+    127,
+    131,
+    143,
+    155,
+    169,
+    171,
+    173,
+    186,
+    195,
+    197,
+    198
+  ],
+  "shared_tables": {
+    "syscall_at_security_tier": [
+      19,
+      31,
+      62,
+      72,
+      90,
+      97,
+      110
+    ],
+    "syscall_basic": [
+      8,
+      77,
+      114,
+      169
+    ],
+    "syscall_equiv_in_subsystem": [
+      19,
+      31,
+      62,
+      72,
+      97,
+      110
+    ],
+    "syscall_max_one_return": [
+      19,
+      72,
+      110,
+      162
+    ],
+    "syscall_traceable": [
+      139
+    ]
+  },
   "chapters": [
     {
       "id": "0146efce2074e77d",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        80,
+        195
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -33,6 +94,11 @@
     {
       "id": "121625e11c71e835",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        104,
+        197
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -44,6 +110,11 @@
     {
       "id": "4e07795850aaa0fe",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        131,
+        186
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -55,6 +126,11 @@
     {
       "id": "5dde8d4961d86eff",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        72,
+        143
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -66,6 +142,11 @@
     {
       "id": "69981513b706ccb1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        106,
+        173
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -77,6 +158,11 @@
     {
       "id": "82b5b4ddd716ea0f",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        127,
+        198
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -88,6 +174,11 @@
     {
       "id": "933f5a3df4a03c19",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        169,
+        197
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -99,6 +190,11 @@
     {
       "id": "9a1f84eefaac6bd7",
       "family": "04_ebpf_kernel",
+      "topics": [
+        67,
+        155,
+        171
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -110,6 +206,11 @@
     {
       "id": "ba5d6bdc648ffcb1",
       "family": "04_ebpf_kernel",
+      "topics": [
+        52,
+        67,
+        112
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",
@@ -121,6 +222,11 @@
     {
       "id": "fa12e8d826671358",
       "family": "04_ebpf_kernel",
+      "topics": [
+        16,
+        67,
+        83
+      ],
       "cited_terms": [
         "syscall_equiv_in_subsystem",
         "syscall_max_one_return",

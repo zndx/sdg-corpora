@@ -18,10 +18,119 @@
     "t_hipaa_safeguard_technical",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    37,
+    64,
+    65,
+    68,
+    73,
+    76,
+    118,
+    133,
+    138,
+    151,
+    154,
+    159,
+    163,
+    169,
+    185
+  ],
+  "shared_tables": {
+    "classification_basic": [
+      38,
+      40
+    ],
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      47,
+      68,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      47,
+      58,
+      68,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      39,
+      47,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      181,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "46fc10d4e60dd48f",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        151,
+        159
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -33,6 +142,11 @@
     {
       "id": "48e9f2424fba3914",
       "family": "07_long_tail",
+      "topics": [
+        65,
+        73,
+        151
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -44,6 +158,11 @@
     {
       "id": "5fbb38f0c437f61f",
       "family": "07_long_tail",
+      "topics": [
+        68,
+        73,
+        151
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -55,6 +174,11 @@
     {
       "id": "6acd88386d8a8387",
       "family": "07_long_tail",
+      "topics": [
+        118,
+        138,
+        151
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -66,6 +190,11 @@
     {
       "id": "98ed6dacd6088d0f",
       "family": "07_long_tail",
+      "topics": [
+        64,
+        151,
+        185
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -77,6 +206,11 @@
     {
       "id": "c2b7a7afaa46c932",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        151,
+        154
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -88,6 +222,11 @@
     {
       "id": "d32a29a960bb05e8",
       "family": "07_long_tail",
+      "topics": [
+        133,
+        151,
+        163
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",
@@ -99,6 +238,11 @@
     {
       "id": "f2d8edec907793e4",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        151,
+        169
+      ],
       "cited_terms": [
         "hipaa_safeguard_admin",
         "classification_basic",

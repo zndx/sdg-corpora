@@ -18,10 +18,151 @@
     "t_control_with_evidence_requirement",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    2,
+    4,
+    7,
+    22,
+    40,
+    51,
+    52,
+    66,
+    71,
+    78,
+    88,
+    92,
+    94,
+    96,
+    98,
+    113,
+    133,
+    149,
+    171,
+    179,
+    191,
+    193,
+    196
+  ],
+  "shared_tables": {
+    "attestation_at_period": [
+      33,
+      132,
+      144
+    ],
+    "attestation_signed_by": [
+      2,
+      4,
+      5,
+      26,
+      28,
+      30,
+      37,
+      43,
+      65,
+      70,
+      73,
+      75,
+      96,
+      99,
+      111,
+      127,
+      132,
+      150,
+      163,
+      165,
+      190
+    ],
+    "attestation_with_supporting_evidence": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      16,
+      20,
+      23,
+      26,
+      37,
+      44,
+      56,
+      58,
+      70,
+      71,
+      73,
+      83,
+      92,
+      98,
+      100,
+      102,
+      104,
+      107,
+      112,
+      132,
+      134,
+      138,
+      144,
+      158,
+      160,
+      163,
+      186,
+      191,
+      196
+    ],
+    "control_with_evidence_requirement": [
+      3,
+      23,
+      26,
+      58,
+      78,
+      83,
+      89,
+      92,
+      102,
+      104,
+      134,
+      138,
+      154,
+      191
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "07f1e5efc2cbde0b",
       "family": "03_directive_governance",
+      "topics": [
+        22,
+        88,
+        149
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -33,6 +174,11 @@
     {
       "id": "173a4405588a220d",
       "family": "03_directive_governance",
+      "topics": [
+        4,
+        66,
+        88
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -44,6 +190,11 @@
     {
       "id": "3d0492611a7bd8e6",
       "family": "03_directive_governance",
+      "topics": [
+        88,
+        149,
+        171
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -55,6 +206,11 @@
     {
       "id": "3d4daad924068168",
       "family": "03_directive_governance",
+      "topics": [
+        88,
+        179,
+        191
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -66,6 +222,11 @@
     {
       "id": "47124292e3a75172",
       "family": "03_directive_governance",
+      "topics": [
+        78,
+        88,
+        92
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -77,6 +238,11 @@
     {
       "id": "4f93d4f993a9686b",
       "family": "03_directive_governance",
+      "topics": [
+        88,
+        98,
+        133
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -88,6 +254,11 @@
     {
       "id": "5a6ca82ddfc2385d",
       "family": "03_directive_governance",
+      "topics": [
+        71,
+        88,
+        96
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -99,6 +270,11 @@
     {
       "id": "62cdd27393f2afd6",
       "family": "03_directive_governance",
+      "topics": [
+        88,
+        193,
+        196
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -110,6 +286,11 @@
     {
       "id": "860c82bc7a1a2790",
       "family": "03_directive_governance",
+      "topics": [
+        2,
+        40,
+        88
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -121,6 +302,11 @@
     {
       "id": "8a2efc7d11d7c205",
       "family": "03_directive_governance",
+      "topics": [
+        78,
+        88,
+        94
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -132,6 +318,11 @@
     {
       "id": "d0f95843b1518dbe",
       "family": "03_directive_governance",
+      "topics": [
+        7,
+        52,
+        88
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",
@@ -143,6 +334,11 @@
     {
       "id": "da9be18ef204edf0",
       "family": "03_directive_governance",
+      "topics": [
+        51,
+        88,
+        113
+      ],
       "cited_terms": [
         "attestation_with_supporting_evidence",
         "requirement_equiv_specifies_target",

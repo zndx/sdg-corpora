@@ -14,10 +14,81 @@
     "t_measurement_basic",
     "t_pci_dss_requirement"
   ],
+  "topics": [
+    14,
+    28,
+    37,
+    47,
+    50,
+    61,
+    67,
+    71,
+    76,
+    78,
+    82,
+    96,
+    106,
+    148,
+    149,
+    155,
+    160,
+    170,
+    173,
+    195
+  ],
+  "shared_tables": {
+    "iso27001_annexa_subclass": [
+      4,
+      15,
+      22,
+      71,
+      74,
+      129,
+      144,
+      183
+    ],
+    "measurement_basic": [
+      197
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      47,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ]
+  },
   "chapters": [
     {
       "id": "26d4ca2179a12d57",
       "family": "07_long_tail",
+      "topics": [
+        50,
+        106,
+        148
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -27,6 +98,11 @@
     {
       "id": "37c17005a49f4d35",
       "family": "07_long_tail",
+      "topics": [
+        28,
+        71,
+        106
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -36,6 +112,11 @@
     {
       "id": "3847d3c7b14e17ed",
       "family": "07_long_tail",
+      "topics": [
+        78,
+        106,
+        149
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -45,6 +126,11 @@
     {
       "id": "75906972fc799c33",
       "family": "07_long_tail",
+      "topics": [
+        14,
+        106,
+        148
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -54,6 +140,11 @@
     {
       "id": "a8ffd8fbd827cb98",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        106,
+        170
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -63,6 +154,11 @@
     {
       "id": "b7be25a80634e941",
       "family": "07_long_tail",
+      "topics": [
+        61,
+        67,
+        106
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -72,6 +168,11 @@
     {
       "id": "ba44444d7aad2fb8",
       "family": "07_long_tail",
+      "topics": [
+        82,
+        106,
+        173
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -81,6 +182,11 @@
     {
       "id": "c64c188f36aa0756",
       "family": "07_long_tail",
+      "topics": [
+        76,
+        106,
+        155
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -90,6 +196,11 @@
     {
       "id": "eb7d2120d274625f",
       "family": "07_long_tail",
+      "topics": [
+        37,
+        106,
+        160
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",
@@ -99,6 +210,11 @@
     {
       "id": "f54abd1f3752d7eb",
       "family": "07_long_tail",
+      "topics": [
+        96,
+        106,
+        195
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "measurement_basic",

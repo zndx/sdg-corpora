@@ -1,6 +1,8 @@
 # Collection — topic 151 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters** · **15 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 151: topic 37, topic 64, topic 65, topic 68, topic 73, topic 76, topic 118, topic 133, topic 138, topic 154, topic 159, topic 163, topic 169, topic 185.
 
 > **Topic gist** (representative FinePDFs text): First-Strand cDNA Synthesis Master Mix, 4x (FSDMM) Catalog #MB6008 50 reactions Introduction ScienCell's First-Strand cDNA Synthesis Master Mix, 4x (FSDMM) is optimized to synthesize the first strand cDNA from total RNA or mRNA. ScienCell's engineered reverse transcriptase has mutations which increase sensitivity and thermostability, improve specificity, and reduce RNase H activity. The ready... …
 
@@ -27,8 +29,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **8 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic`
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_classification_basic`](tables/t_classification_basic.sql) — realizes `classification_basic` · _shared with 2 other collection(s)_
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

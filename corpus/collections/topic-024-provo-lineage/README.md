@@ -1,6 +1,8 @@
 # Collection — topic 24 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **19 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 24: topic 1, topic 14, topic 19, topic 21, topic 43, topic 46, topic 50, topic 80, topic 103, topic 120, topic 125, topic 127, topic 150, topic 158, topic 159, topic 169, topic 173, topic 188.
 
 > **Topic gist** (representative FinePDFs text): Choreomundus: Master’s Degree in Dance Heritage, Knowledge, and Practice Master’s Dissertation by Sarah Amawi Depoliticisation of Dabke: A Case of Staged Dabke in a European Context Spring 2020 DEDICATION This work is first dedicated to Njoud, my mother, and the warrior who brought me this far. Everything I am, I owe to you.. To the people of the Levant.. who are carrying their causes and st... …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic`
-- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute`
-- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price`
+- [`t_outlier_claim_basic`](tables/t_outlier_claim_basic.sql) — realizes `outlier_claim_basic` · _shared with 5 other collection(s)_
+- [`t_outlier_claim_min_one_attribute`](tables/t_outlier_claim_min_one_attribute.sql) — realizes `outlier_claim_min_one_attribute` · _shared with 5 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 4 other collection(s)_

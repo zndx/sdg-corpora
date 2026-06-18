@@ -1,6 +1,8 @@
 # Collection — topic 126 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **22 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 126: topic 19, topic 33, topic 47, topic 80, topic 82, topic 94, topic 99, topic 103, topic 114, topic 119, topic 135, topic 143, topic 144, topic 150, topic 151, topic 165, topic 169, topic 173, topic 185, topic 193, topic 194.
 
 > **Topic gist** (representative FinePDFs text): ISSN: 2321-9653; IC Value: 45.98; SJ Impact Factor: 6.887 Volume 6 Issue III, March 2018- Available at www.ijraset.com Soil Pollution in Dravyavati River and its Surrounding Areas of Jaipur City, Due to MSW (Municipal Solid Waste) and Industrial Waste Ranjeet Jagariya 1 , Dushyant Mudgal 2 , Akhilesh Rawat 3 , C. P. Singh Chandel 4 1, 2, 3, 4, Department of Chemistry, University of Rajasthan, J... …
 
@@ -29,7 +31,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude`
-- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand`
-- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price`
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 2 other collection(s)_
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 3 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 4 other collection(s)_

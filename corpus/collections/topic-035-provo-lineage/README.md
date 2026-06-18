@@ -1,6 +1,8 @@
 # Collection — topic 35 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters** · **36 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 35: topic 2, topic 5, topic 21, topic 25, topic 34, topic 39, topic 53, topic 56, topic 57, topic 64, topic 66, topic 68, topic 72, topic 75, topic 82, topic 85, topic 86, topic 97, topic 99, topic 103, topic 113, topic 123, topic 126, topic 127, topic 131, topic 143, topic 159, topic 163, topic 164, topic 170, topic 174, topic 176, topic 181, topic 191, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Geophysical Research Abstracts Vol. 19, EGU2017-12278, 2017 EGU General Assembly 2017 © Author(s) 2017. CC Attribution 3.0 License. Application of LA-MC-ICP-MS for analysis of Sr isotope ratios in speleothems Michael Weber (1,2), Denis Scholz (1), Jasper A. Wassenburg (1), Klaus Peter Jochum (2), and Sebastian Breitenbach (3) (1) Johannes Gutenberg-University Mainz, Institute for Geosciences, M... …
 
@@ -38,8 +40,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **19 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class`
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_control_only_addresses_threat_class`](tables/t_control_only_addresses_threat_class.sql) — realizes `control_only_addresses_threat_class` · _shared with 15 other collection(s)_
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

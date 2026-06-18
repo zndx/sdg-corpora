@@ -14,10 +14,58 @@
     "t_outlier_claim_min_one_attribute",
     "t_schemaorg_product_price"
   ],
+  "topics": [
+    1,
+    14,
+    19,
+    21,
+    24,
+    43,
+    46,
+    50,
+    80,
+    103,
+    120,
+    125,
+    127,
+    150,
+    158,
+    159,
+    169,
+    173,
+    188
+  ],
+  "shared_tables": {
+    "outlier_claim_basic": [
+      14,
+      49,
+      54,
+      119,
+      197
+    ],
+    "outlier_claim_min_one_attribute": [
+      14,
+      49,
+      52,
+      194,
+      197
+    ],
+    "schemaorg_product_price": [
+      51,
+      52,
+      126,
+      185
+    ]
+  },
   "chapters": [
     {
       "id": "08760c17e15dfee9",
       "family": "02_observation_measurement",
+      "topics": [
+        19,
+        24,
+        50
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -27,6 +75,11 @@
     {
       "id": "19bbf7650420f148",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        46,
+        103
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -36,6 +89,11 @@
     {
       "id": "23d1095ef97f4109",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        43,
+        80
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -45,6 +103,11 @@
     {
       "id": "51460ba799686167",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        127,
+        169
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -54,6 +117,11 @@
     {
       "id": "5a8071b7c0b0d4cc",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        127,
+        173
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -63,6 +131,11 @@
     {
       "id": "5d76db7760c6bb58",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        120,
+        158
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -72,6 +145,11 @@
     {
       "id": "6ffcbd486a146fb7",
       "family": "02_observation_measurement",
+      "topics": [
+        21,
+        24,
+        150
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -81,6 +159,11 @@
     {
       "id": "749cdb070da7b147",
       "family": "02_observation_measurement",
+      "topics": [
+        1,
+        14,
+        24
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -90,6 +173,11 @@
     {
       "id": "a1fb037d2196017f",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        125,
+        159
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",
@@ -99,6 +187,11 @@
     {
       "id": "ffcd897f293c2377",
       "family": "02_observation_measurement",
+      "topics": [
+        24,
+        80,
+        188
+      ],
       "cited_terms": [
         "schemaorg_product_price",
         "outlier_claim_basic",

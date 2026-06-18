@@ -18,10 +18,146 @@
     "t_pci_dss_requirement",
     "t_requirement_equiv_specifies_target"
   ],
+  "topics": [
+    5,
+    24,
+    34,
+    47,
+    56,
+    65,
+    70,
+    71,
+    75,
+    95,
+    96,
+    106,
+    110,
+    169,
+    195,
+    197,
+    199
+  ],
+  "shared_tables": {
+    "hipaa_safeguard_admin": [
+      13,
+      35,
+      39,
+      68,
+      74,
+      91,
+      98,
+      100,
+      108,
+      117,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_physical": [
+      13,
+      35,
+      39,
+      58,
+      68,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      135,
+      136,
+      151,
+      181,
+      183
+    ],
+    "hipaa_safeguard_technical": [
+      13,
+      35,
+      39,
+      74,
+      91,
+      92,
+      98,
+      100,
+      108,
+      117,
+      134,
+      136,
+      151,
+      181,
+      183
+    ],
+    "pci_dss_requirement": [
+      2,
+      15,
+      33,
+      35,
+      39,
+      50,
+      58,
+      74,
+      91,
+      92,
+      96,
+      98,
+      100,
+      106,
+      108,
+      115,
+      117,
+      134,
+      135,
+      148,
+      150,
+      151,
+      165,
+      181,
+      183,
+      185,
+      197
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      178,
+      186,
+      191,
+      199
+    ]
+  },
   "chapters": [
     {
       "id": "2ae147af95560bc0",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        65,
+        197
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -33,6 +169,11 @@
     {
       "id": "3563cbe4ce6b5615",
       "family": "07_long_tail",
+      "topics": [
+        5,
+        24,
+        47
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -44,6 +185,11 @@
     {
       "id": "3e2320ac5ab71edb",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        75,
+        199
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -55,6 +201,11 @@
     {
       "id": "52f956f6e6f10eb6",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        65,
+        169
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -66,6 +217,11 @@
     {
       "id": "737d3a561a6658b2",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        70,
+        96
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -77,6 +233,11 @@
     {
       "id": "744a43c551ec79fa",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        71,
+        106
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -88,6 +249,11 @@
     {
       "id": "d8669ccb5ba7c198",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        195,
+        197
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -99,6 +265,11 @@
     {
       "id": "f33e32cef762ea79",
       "family": "07_long_tail",
+      "topics": [
+        34,
+        47,
+        56
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",
@@ -110,6 +281,11 @@
     {
       "id": "f743bd2befa44bdb",
       "family": "07_long_tail",
+      "topics": [
+        47,
+        95,
+        110
+      ],
       "cited_terms": [
         "pci_dss_requirement",
         "requirement_equiv_specifies_target",

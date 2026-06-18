@@ -1,6 +1,8 @@
 # Collection — topic 39 · 02_observation_measurement
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **15 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 39: topic 14, topic 16, topic 49, topic 50, topic 70, topic 73, topic 113, topic 121, topic 136, topic 144, topic 149, topic 153, topic 171, topic 186.
 
 > **Topic gist** (representative FinePDFs text): SNOQUALMIE WATERSHED AQUATIC HABITAT CONDITIONS REPORT: SUMMARY OF 1999-2001 DATA November 2002 Fran Solomon and Melissa Boles King County Department of Natural Resources and Parks Water and Land Resources Division LIST OF ABBREVIATIONS AND ACRONYMS ACOE....... Army Corps of Engineers AFS ........ American Fisheries Society APD ......... Agricultural Production District C ............ Celsius... …
 
@@ -26,8 +28,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters*
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_lift_with_baseline_rate`](tables/t_lift_with_baseline_rate.sql) — realizes `lift_with_baseline_rate` · _shared with 5 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

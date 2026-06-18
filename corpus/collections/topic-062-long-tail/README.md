@@ -1,6 +1,8 @@
 # Collection — topic 62 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **24 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 62: topic 4, topic 8, topic 34, topic 42, topic 46, topic 51, topic 52, topic 54, topic 66, topic 85, topic 86, topic 97, topic 103, topic 113, topic 114, topic 143, topic 149, topic 174, topic 179, topic 190, topic 194, topic 196, topic 198.
 
 > **Topic gist** (representative FinePDFs text): ISSN (E): 2277-7695 ISSN (P): 2349-8242 NAAS Rating: 5.23 TPI 2022; 11(12): 3056-3061 © 2022 TPI www.thepharmajournal.com Received: 07-10-2022 Accepted: 11-11-2022 Katkar Ankush Haribhau Research Scholar, Department of Fruit Science, Pt. Kishori Lal Shukla College of Horticulture and Research Station, IGKV, Raipur Chhattisgarh, India MS Paikra Professor, Department of Fruit Science, Pt. Kishor... …
 
@@ -31,7 +33,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe`
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier`
-- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by`
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem`
+- [`t_ebpfprogram_verified_safe`](tables/t_ebpfprogram_verified_safe.sql) — realizes `ebpfprogram_verified_safe` · _shared with 3 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
+- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by` · _shared with 6 other collection(s)_
+- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_

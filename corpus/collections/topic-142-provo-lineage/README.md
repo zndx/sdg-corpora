@@ -1,6 +1,8 @@
 # Collection — topic 142 · 05_provo_lineage
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **17 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 142: topic 3, topic 8, topic 16, topic 27, topic 50, topic 61, topic 65, topic 80, topic 81, topic 97, topic 110, topic 119, topic 143, topic 164, topic 194, topic 197.
 
 > **Topic gist** (representative FinePDFs text): E-ISSN: 2200-3592 & P-ISSN: 2200-3452 International Journal of Applied Linguistics & English Literature www.ijalel.aiac.org.au Freedom, Choice and Achieving Self-Realisation in the Dystopian World of Parable of the Talents by Octavia Butler Zahra Rezaei, Ida Baizura Bahar*, Zahraa Abdullah Mohan Department of English, Faculty of Modern Languages and Communication, Universiti Putra Malaysia 43... …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord`
-- [`t_schemaorg_place_latitude`](tables/t_schemaorg_place_latitude.sql) — realizes `schemaorg_place_latitude`
-- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude`
+- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord` · _shared with 4 other collection(s)_
+- [`t_schemaorg_place_latitude`](tables/t_schemaorg_place_latitude.sql) — realizes `schemaorg_place_latitude` · _shared with 1 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 2 other collection(s)_

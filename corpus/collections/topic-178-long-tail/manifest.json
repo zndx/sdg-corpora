@@ -16,10 +16,88 @@
     "t_requirement_equiv_specifies_target",
     "t_subclass_to_descriptive_ice"
   ],
+  "topics": [
+    3,
+    4,
+    6,
+    23,
+    31,
+    42,
+    53,
+    58,
+    71,
+    85,
+    94,
+    95,
+    97,
+    98,
+    108,
+    112,
+    126,
+    128,
+    132,
+    139,
+    154,
+    157,
+    169,
+    171,
+    174,
+    176,
+    178,
+    181,
+    193,
+    194
+  ],
+  "shared_tables": {
+    "directive_authored_and_applies": [
+      107,
+      143
+    ],
+    "equiv_intersect_artifact_with_part": [
+      86
+    ],
+    "requirement_equiv_specifies_target": [
+      2,
+      4,
+      7,
+      15,
+      20,
+      21,
+      47,
+      68,
+      71,
+      73,
+      75,
+      86,
+      88,
+      95,
+      96,
+      111,
+      127,
+      132,
+      134,
+      144,
+      150,
+      158,
+      165,
+      171,
+      186,
+      191,
+      199
+    ],
+    "subclass_to_descriptive_ice": [
+      81
+    ]
+  },
   "chapters": [
     {
       "id": "2b945e2dd0d1b461",
       "family": "01_foundation",
+      "topics": [
+        23,
+        178,
+        181
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -30,6 +108,11 @@
     {
       "id": "4c04b334ade572ba",
       "family": "01_foundation",
+      "topics": [
+        53,
+        174,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -40,6 +123,11 @@
     {
       "id": "54b294fb9c17cf07",
       "family": "01_foundation",
+      "topics": [
+        3,
+        139,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -50,6 +138,11 @@
     {
       "id": "604692a36953b926",
       "family": "01_foundation",
+      "topics": [
+        94,
+        97,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -60,6 +153,11 @@
     {
       "id": "62fb110c442df6c7",
       "family": "01_foundation",
+      "topics": [
+        176,
+        178,
+        193
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -70,6 +168,11 @@
     {
       "id": "6cf0715063c7e2f9",
       "family": "01_foundation",
+      "topics": [
+        98,
+        154,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -80,6 +183,11 @@
     {
       "id": "72b30b410dd718e6",
       "family": "01_foundation",
+      "topics": [
+        71,
+        169,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -90,6 +198,11 @@
     {
       "id": "7347a47a53ed8b2b",
       "family": "01_foundation",
+      "topics": [
+        42,
+        95,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -100,6 +213,11 @@
     {
       "id": "94652d8404acae96",
       "family": "01_foundation",
+      "topics": [
+        85,
+        178,
+        194
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -110,6 +228,11 @@
     {
       "id": "b64853991d0364ca",
       "family": "01_foundation",
+      "topics": [
+        3,
+        108,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -120,6 +243,11 @@
     {
       "id": "d2df0cf32a241aa3",
       "family": "01_foundation",
+      "topics": [
+        4,
+        95,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -130,6 +258,11 @@
     {
       "id": "e5ebb0061ca76741",
       "family": "01_foundation",
+      "topics": [
+        128,
+        171,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -140,6 +273,11 @@
     {
       "id": "e8ba6840d45c13d6",
       "family": "01_foundation",
+      "topics": [
+        6,
+        132,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -150,6 +288,11 @@
     {
       "id": "ee24373b23efc968",
       "family": "01_foundation",
+      "topics": [
+        58,
+        157,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -160,6 +303,11 @@
     {
       "id": "fa93fde09590d160",
       "family": "01_foundation",
+      "topics": [
+        31,
+        112,
+        178
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",
@@ -170,6 +318,11 @@
     {
       "id": "fc5b52f03e750997",
       "family": "01_foundation",
+      "topics": [
+        126,
+        178,
+        194
+      ],
       "cited_terms": [
         "equiv_intersect_artifact_with_part",
         "requirement_equiv_specifies_target",

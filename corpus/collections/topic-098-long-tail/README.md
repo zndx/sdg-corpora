@@ -1,6 +1,8 @@
 # Collection — topic 98 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters** · **33 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 98: topic 8, topic 24, topic 28, topic 30, topic 37, topic 39, topic 62, topic 66, topic 67, topic 73, topic 74, topic 75, topic 76, topic 83, topic 85, topic 96, topic 99, topic 104, topic 122, topic 135, topic 138, topic 139, topic 144, topic 148, topic 150, topic 154, topic 181, topic 186, topic 187, topic 190, topic 195, topic 199.
 
 > **Topic gist** (representative FinePDFs text): Public Assessment Report Scientific discussion Montelukast Amarox 10 mg, film‐coated tablets (montelukast) NL/H/4943/001/DC Date: 5 January 2021 This module reflects the scientific discussion for the approval of Montelukast Amarox 10 mg, film‐coated tablets. The procedure was finalised at 15 October 2020. For information on changes after this date please refer to the 'steps taken after final... …
 
@@ -35,8 +37,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **16 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_

@@ -1,6 +1,8 @@
 # Collection — topic 66 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **1 ontology terms** · **1 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **24 topics** (target + style) · **1 ontology terms** · **1 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 66: topic 21, topic 24, topic 30, topic 31, topic 34, topic 37, topic 42, topic 74, topic 80, topic 81, topic 83, topic 88, topic 91, topic 97, topic 99, topic 112, topic 113, topic 114, topic 127, topic 146, topic 183, topic 193, topic 198.
 
 > **Topic gist** (representative FinePDFs text): EDITORIAL Open Access Rohan Fernando: a road from Sri Lanka to Ames Daniel Gianola 1* , Rodolfo J. Cantet 2 , Jack C. M. Dekkers 3 and Miguel Pérez‑Enciso 4 About one year ago, some of us learned that Rohan Fernando had announced his intention to retire from his position as Professor of Animal Science at Iowa State University. We felt that it would be appropriate to prepare a volume honoring h... …
 
@@ -27,4 +29,4 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord`
+- [`t_schemaorg_place_geocoord`](tables/t_schemaorg_place_geocoord.sql) — realizes `schemaorg_place_geocoord` · _shared with 4 other collection(s)_

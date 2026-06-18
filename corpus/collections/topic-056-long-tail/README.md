@@ -1,6 +1,8 @@
 # Collection — topic 56 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 56: topic 4, topic 20, topic 72, topic 78, topic 82, topic 90, topic 97, topic 107, topic 108, topic 111, topic 117, topic 119, topic 126, topic 128, topic 135, topic 142, topic 146, topic 151, topic 153, topic 154, topic 157, topic 170, topic 173, topic 179, topic 181, topic 185, topic 188, topic 199.
 
 > **Topic gist** (representative FinePDFs text): 2020-21 Surgery Rese arch Residents Surgery W e are proud to present this year's new research residents. Research is a key component of the UW Department of Surgery's residency programs and these residents have each "paused" their clinical training in order to complete a two-year research fellowship. Our research residents, along with their clinical peers who work hard to find time to participat.. …
 
@@ -33,7 +35,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic`
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice`
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
+- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_
+- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_

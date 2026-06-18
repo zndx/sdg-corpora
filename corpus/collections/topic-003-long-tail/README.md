@@ -1,6 +1,8 @@
 # Collection — topic 3 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters** · **25 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 3: topic 16, topic 19, topic 26, topic 27, topic 33, topic 34, topic 35, topic 38, topic 61, topic 64, topic 74, topic 80, topic 82, topic 89, topic 99, topic 101, topic 113, topic 118, topic 129, topic 135, topic 170, topic 171, topic 178, topic 179.
 
 > **Topic gist** (representative FinePDFs text): Molecular Docking Compounds of Cinnamaldehyde Derivatives as Anticancer Agents Warsito Warsito\textsuperscript{1*}, Shinta Murlistyarini\textsuperscript{2}, Suratmo Suratmo\textsuperscript{1}, Vina O Azzahra\textsuperscript{1}, Andrian Sucahyo\textsuperscript{1} Abstract **Objective:** Cinnamaldehyde (CM) has a molecular structure with the main reaction center of an aromatic ring which the bioa... …
 
@@ -32,8 +34,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **13 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence`
-- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period`
-- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass`
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement`
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis`
+- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 11 other collection(s)_
+- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass` · _shared with 5 other collection(s)_
+- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
+- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_

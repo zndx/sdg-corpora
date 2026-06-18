@@ -1,6 +1,8 @@
 # Collection — topic 185 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters** · **32 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 185: topic 2, topic 7, topic 14, topic 15, topic 23, topic 26, topic 28, topic 33, topic 44, topic 46, topic 47, topic 53, topic 67, topic 73, topic 89, topic 100, topic 106, topic 112, topic 131, topic 132, topic 134, topic 136, topic 138, topic 144, topic 150, topic 151, topic 155, topic 157, topic 160, topic 174, topic 194.
 
 > **Topic gist** (representative FinePDFs text): Volume 5, Issue 5, May 2024 https://www.ijramt.com | ISSN (Online): 2582-7839 Partial Replacement of Coarse Aggregate with Coconut Shell and Cement with Coconut Shell Ash Ashwani Arul 1 , Y. M. Irfana 2* , Nafih Salim 3 , R. Siddique 4 , P. S. Neena 5 1,2,3,4UG Student, Department of Civil Engineering, Travancore Engineering College, Oyoor, Kollam, India 5Assistant Professor, Department of Civ... …
 
@@ -36,8 +38,8 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **17 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement`
-- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid`
-- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address`
-- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price`
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim`
+- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
+- [`t_schemaorg_org_taxid`](tables/t_schemaorg_org_taxid.sql) — realizes `schemaorg_org_taxid` · _shared with 3 other collection(s)_
+- [`t_schemaorg_place_address`](tables/t_schemaorg_place_address.sql) — realizes `schemaorg_place_address` · _shared with 12 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 4 other collection(s)_
+- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_

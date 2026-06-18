@@ -1,6 +1,8 @@
 # Collection — topic 136 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **3 ontology terms** · **3 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **21 topics** (target + style) · **3 ontology terms** · **3 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 136: topic 21, topic 24, topic 27, topic 30, topic 49, topic 50, topic 52, topic 65, topic 71, topic 72, topic 89, topic 107, topic 120, topic 128, topic 129, topic 139, topic 144, topic 149, topic 150, topic 194.
 
 > **Topic gist** (representative FinePDFs text): srobinson on DSK4SPTVN1PROD with NOTICES 53156 NUCLEAR REGULATORY COMMISSION [NRC–2010–0383] Agency Information Collection Activities: Submission for the Office of Management and Budget Review; Comment Request AGENCY : Nuclear Regulatory Commission. ACTION: Notice of Office of Management and Budget review of information collection and solicitation of public comment. SUMMARY: The U.S. Nucl... …
 
@@ -27,6 +29,6 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin`
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical`
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical`
+- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
+- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
+- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_

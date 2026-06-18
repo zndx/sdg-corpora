@@ -1,6 +1,8 @@
 # Collection — topic 34 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **25 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 34: topic 13, topic 14, topic 19, topic 27, topic 28, topic 30, topic 31, topic 51, topic 53, topic 68, topic 78, topic 83, topic 85, topic 88, topic 89, topic 91, topic 96, topic 99, topic 123, topic 126, topic 144, topic 150, topic 162, topic 164.
 
 > **Topic gist** (representative FinePDFs text): Computer Security Division 2010 Annual Report # Table of Contents **Welcome** **Division Organization** **The Computer Security Division Implements the Federal Information Security Management Act of 2002** **Security Management and Assurance Group** - Federal Information Security Management Act Implementation Project - FISMA Implementation Project – Phase I - FISMA Implementation Projec... …
 
@@ -30,7 +32,7 @@ FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by`
-- [`t_ebpf_event_min_one_attribute`](tables/t_ebpf_event_min_one_attribute.sql) — realizes `ebpf_event_min_one_attribute`
-- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref`
-- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event`
+- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by` · _shared with 3 other collection(s)_
+- [`t_ebpf_event_min_one_attribute`](tables/t_ebpf_event_min_one_attribute.sql) — realizes `ebpf_event_min_one_attribute` · _shared with 1 other collection(s)_
+- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref` · _shared with 1 other collection(s)_
+- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event` · _shared with 1 other collection(s)_
