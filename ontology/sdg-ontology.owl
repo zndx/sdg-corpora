@@ -1,0 +1,3944 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://signals360.example.org/sdg#"
+     xml:base="https://signals360.example.org/sdg"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://signals360.example.org/sdg"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdfs:label>part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+        <rdfs:label>has participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- https://signals360.example.org/sdg#acquiresLand -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#acquiresLand">
+        <rdfs:label>acquires land</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#addressesStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#addressesStakeholder">
+        <rdfs:label>addresses stakeholder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#addressesUsageMetric -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#addressesUsageMetric">
+        <rdfs:label>addresses usage metric</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#affectsCultivationSystem -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#affectsCultivationSystem">
+        <rdfs:label>affects cultivation system</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#appliesTo -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#appliesTo">
+        <rdfs:label>applies to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#appliesToVehicleClass -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#appliesToVehicleClass">
+        <rdfs:label>applies to vehicle class</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#articulates -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#articulates">
+        <rdfs:label>articulates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assessesAssetCondition -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assessesAssetCondition">
+        <rdfs:label>assesses asset condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assessesExposureTo -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assessesExposureTo">
+        <rdfs:label>assesses exposure to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assignsAdministrator -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assignsAdministrator">
+        <rdfs:label>assigns administrator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assignsAthlete -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assignsAthlete">
+        <rdfs:label>assigns athlete</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assignsDivision -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assignsDivision">
+        <rdfs:label>assigns division</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assists -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assists">
+        <rdfs:label>assists</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#associatedWith -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#associatedWith">
+        <rdfs:label>associated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#augmentsExistingDataset -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#augmentsExistingDataset">
+        <rdfs:label>augments existing dataset</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#benefits -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#benefits">
+        <rdfs:label>benefits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#bufferSize -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#bufferSize">
+        <rdfs:label>buffer size</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#capturesProfileAttribute -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#capturesProfileAttribute">
+        <rdfs:label>captures profile attribute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#comprises -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#comprises">
+        <rdfs:label>comprises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#contains -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#contains">
+        <rdfs:label>contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#containsComponent -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#containsComponent">
+        <rdfs:label>contains component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#containsDataElement -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#containsDataElement">
+        <rdfs:label>contains data element</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#correspondsToTariff -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#correspondsToTariff">
+        <rdfs:label>corresponds to tariff</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#coversSector -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#coversSector">
+        <rdfs:label>covers sector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#creditVolume -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#creditVolume">
+        <rdfs:label>credit volume</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#degrades -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#degrades">
+        <rdfs:label>degrades</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#deliversPresentation -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#deliversPresentation">
+        <rdfs:label>delivers presentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#dependsOnImpedanceTermination -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#dependsOnImpedanceTermination">
+        <rdfs:label>depends on impedance termination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#derivesFromProject -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#derivesFromProject">
+        <rdfs:label>derives from project</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#directs -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#directs">
+        <rdfs:label>directs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#employs -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#employs">
+        <rdfs:label>employs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#employsDevice -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#employsDevice">
+        <rdfs:label>employs device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#employsValidationProcess -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#employsValidationProcess">
+        <rdfs:label>employs validation process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#estimatesImpactOn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#estimatesImpactOn">
+        <rdfs:label>estimates impact on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#evaluates -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#evaluates">
+        <rdfs:label>evaluates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#evaluationMetric -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#evaluationMetric">
+        <rdfs:label>evaluation metric</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#exhibitsAmpliation -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#exhibitsAmpliation">
+        <rdfs:label>exhibits ampliation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#funds -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#funds">
+        <rdfs:label>funds</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#generatesPredicate -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#generatesPredicate">
+        <rdfs:label>generates predicate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#generatesResponse -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#generatesResponse">
+        <rdfs:label>generates response</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasAnnualIncomeValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasAnnualIncomeValue">
+        <rdfs:label>has annual income value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasDeliveredPresentation -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDeliveredPresentation">
+        <rdfs:label>has delivered presentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasDensityValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDensityValue">
+        <rdfs:label>has density value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasDimensionValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDimensionValue">
+        <rdfs:label>has dimension value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasDurationYears -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDurationYears">
+        <rdfs:label>has duration years</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasHolder -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasHolder">
+        <rdfs:label>has holder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasInsertionLossValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasInsertionLossValue">
+        <rdfs:label>has insertion loss value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasIntegrationConfidence -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasIntegrationConfidence">
+        <rdfs:label>has integration confidence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasIsolationDecibelValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasIsolationDecibelValue">
+        <rdfs:label>has isolation decibel value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasLowerToleranceLimit -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasLowerToleranceLimit">
+        <rdfs:label>has lower tolerance limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasMaximumThreshold -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasMaximumThreshold">
+        <rdfs:label>has maximum threshold</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasMinimumThreshold -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasMinimumThreshold">
+        <rdfs:label>has minimum threshold</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasOperator -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasOperator">
+        <rdfs:label>has operator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasOrganization -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasOrganization">
+        <rdfs:label>has organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasPhaseRelationshipValue -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasPhaseRelationshipValue">
+        <rdfs:label>has phase relationship value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasQualifyingIndividual -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasQualifyingIndividual">
+        <rdfs:label>has qualifying individual</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasRoleBearer -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasRoleBearer">
+        <rdfs:label>has role bearer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasRoleHolder -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasRoleHolder">
+        <rdfs:label>has role holder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasSalaryAmount -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasSalaryAmount">
+        <rdfs:label>has salary amount</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#hasUpperToleranceLimit -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasUpperToleranceLimit">
+        <rdfs:label>has upper tolerance limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#holdsRoleIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#holdsRoleIn">
+        <rdfs:label>holds role in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#identifiesVulnerabilityState -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#identifiesVulnerabilityState">
+        <rdfs:label>identifies vulnerability state</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#impactsTarget -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#impactsTarget">
+        <rdfs:label>impacts target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#improves -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#improves">
+        <rdfs:label>improves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#includesSurvey -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#includesSurvey">
+        <rdfs:label>includes survey</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#incorporatesIndigenousKnowledge -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#incorporatesIndigenousKnowledge">
+        <rdfs:label>incorporates indigenous knowledge</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#incorporatesObservationSource -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#incorporatesObservationSource">
+        <rdfs:label>incorporates observation source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#incorporatesScientificKnowledge -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#incorporatesScientificKnowledge">
+        <rdfs:label>incorporates scientific knowledge</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involves -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involves">
+        <rdfs:label>involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesEarthObservationData -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesEarthObservationData">
+        <rdfs:label>involves earth observation data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesHost -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesHost">
+        <rdfs:label>involves host</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesOperator -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesOperator">
+        <rdfs:label>involves operator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesParticipant -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesParticipant">
+        <rdfs:label>involves participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesScreening -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesScreening">
+        <rdfs:label>involves screening</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#involvesVector -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesVector">
+        <rdfs:label>involves vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#mandatesComponent -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#mandatesComponent">
+        <rdfs:label>mandates component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#measuresPortIsolation -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#measuresPortIsolation">
+        <rdfs:label>measures port isolation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#memberOf -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#memberOf">
+        <rdfs:label>member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#monitors -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#monitors">
+        <rdfs:label>monitors</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#monitorsIndoorEnvironment -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#monitorsIndoorEnvironment">
+        <rdfs:label>monitors indoor environment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#mustSatisfy -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#mustSatisfy">
+        <rdfs:label>must satisfy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#occursDuringPeriod -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#occursDuringPeriod">
+        <rdfs:label>occurs during period</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#occursOnStreetType -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#occursOnStreetType">
+        <rdfs:label>occurs on street type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#optimizes -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#optimizes">
+        <rdfs:label>optimizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#oversees -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#oversees">
+        <rdfs:label>oversees</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#parasitisesHost -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#parasitisesHost">
+        <rdfs:label>parasitises host</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#producesPlanningArtifact -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#producesPlanningArtifact">
+        <rdfs:label>produces planning artifact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#providesFunction -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesFunction">
+        <rdfs:label>provides function</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#providesServiceType -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesServiceType">
+        <rdfs:label>provides service type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#publishedOnDate -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#publishedOnDate">
+        <rdfs:label>published on date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#pursuesObjective -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#pursuesObjective">
+        <rdfs:label>pursues objective</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#quantifiesRiskMagnitude -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#quantifiesRiskMagnitude">
+        <rdfs:label>quantifies risk magnitude</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#quantifiesVolume -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#quantifiesVolume">
+        <rdfs:label>quantifies volume</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#reachesAudience -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reachesAudience">
+        <rdfs:label>reaches audience</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#realizedInActivity -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#realizedInActivity">
+        <rdfs:label>realized in activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#realizes -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#realizes">
+        <rdfs:label>realizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#recordsServiceCategory -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#recordsServiceCategory">
+        <rdfs:label>records service category</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#registersApplication -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#registersApplication">
+        <rdfs:label>registers application</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#reliesOnIntuition -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reliesOnIntuition">
+        <rdfs:label>relies on intuition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#reportsOn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reportsOn">
+        <rdfs:label>reports on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#reportsTo -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reportsTo">
+        <rdfs:label>reports to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#requiresDanLevel -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#requiresDanLevel">
+        <rdfs:label>requires dan level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#requiresMembership -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#requiresMembership">
+        <rdfs:label>requires membership</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#requiresValidityMonths -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#requiresValidityMonths">
+        <rdfs:label>requires validity months</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#resultsIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#resultsIn">
+        <rdfs:label>results in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#retentionPeriod -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#retentionPeriod">
+        <rdfs:label>retention period</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#specifies -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifies">
+        <rdfs:label>specifies</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#specifiesPlatform -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifiesPlatform">
+        <rdfs:label>specifies platform</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#studiesDomainAspect -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#studiesDomainAspect">
+        <rdfs:label>studies domain aspect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#supportsStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#supportsStakeholder">
+        <rdfs:label>supports stakeholder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targets -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targets">
+        <rdfs:label>targets</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsArtifact -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsArtifact">
+        <rdfs:label>targets artifact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsBusinessDivision -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsBusinessDivision">
+        <rdfs:label>targets business division</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsDemographic -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsDemographic">
+        <rdfs:label>targets demographic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsGoal -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsGoal">
+        <rdfs:label>targets goal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsInvestor -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsInvestor">
+        <rdfs:label>targets investor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsParticipant -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsParticipant">
+        <rdfs:label>targets participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsPollution -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsPollution">
+        <rdfs:label>targets pollution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsSector -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsSector">
+        <rdfs:label>targets sector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#targetsUser -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsUser">
+        <rdfs:label>targets user</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#tracksSector -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#tracksSector">
+        <rdfs:label>tracks sector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#transferredTo -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#transferredTo">
+        <rdfs:label>transferred to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#transformsSubject -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#transformsSubject">
+        <rdfs:label>transforms subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#usesMonitoringProtocol -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#usesMonitoringProtocol">
+        <rdfs:label>uses monitoring protocol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#utilizes -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#utilizes">
+        <rdfs:label>utilizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#utilizesChannel -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#utilizesChannel">
+        <rdfs:label>utilizes channel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#utilizesService -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#utilizesService">
+        <rdfs:label>utilizes service</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#verifiedByMetric -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#verifiedByMetric">
+        <rdfs:label>verified by metric</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#visualizes -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#visualizes">
+        <rdfs:label>visualizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#yieldsChampionshipEntry -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#yieldsChampionshipEntry">
+        <rdfs:label>yields championship entry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>independent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:label>process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:label>role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_Continuant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_Continuant">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_Occurrent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_IndependentContinuant -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_IndependentContinuant">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_Continuant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_Occurrent -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_Occurrent"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_Process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_Process">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_Occurrent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.commoncoreontologies.org/Artifact -->
+
+    <owl:Class rdf:about="http://www.commoncoreontologies.org/Artifact">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_IndependentContinuant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.commoncoreontologies.org/DescriptiveICE -->
+
+    <owl:Class rdf:about="http://www.commoncoreontologies.org/DescriptiveICE">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:label>descriptive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.commoncoreontologies.org/DesignativeICE -->
+
+    <owl:Class rdf:about="http://www.commoncoreontologies.org/DesignativeICE">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.commoncoreontologies.org/DirectiveICE -->
+
+    <owl:Class rdf:about="http://www.commoncoreontologies.org/DirectiveICE">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:label>directive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.commoncoreontologies.org/InformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.commoncoreontologies.org/InformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_Continuant"/>
+        <rdfs:label>information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#decimal -->
+
+    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+        <rdfs:label>decimal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AccountAuthorizationRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AccountAuthorizationRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assignsAdministrator"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StaffAdministrator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#registersApplication"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SocialNetworkingApplication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>account authorization record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AedesAegyptiVector -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AedesAegyptiVector">
+        <rdfs:label>aedes aegypti vector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AffiliatedOrganization -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AffiliatedOrganization">
+        <rdfs:label>affiliated organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AgriculturalHousehold -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AgriculturalHousehold">
+        <rdfs:label>agricultural household</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AgriculturalLandParcel -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AgriculturalLandParcel">
+        <rdfs:label>agricultural land parcel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AmpliativeContent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AmpliativeContent">
+        <rdfs:label>ampliative content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AnonymousDemographicInformation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AnonymousDemographicInformation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#DemographicInformation"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://signals360.example.org/sdg#PersonallyIdentifiableInformation"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>anonymous demographic information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ApoliticalIslam -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ApoliticalIslam">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#DoctrinalNarrative"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://signals360.example.org/sdg#PoliticalIslamStance"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>apolitical islam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#AppointmentSchedulingProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#AppointmentSchedulingProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasOperator"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ReceptionistAgent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsArtifact"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PatientAppointmentSchedule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>appointment scheduling process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#Athlete -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#Athlete">
+        <rdfs:label>athlete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#BlackBeltCertificationRequirement -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#BlackBeltCertificationRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#requiresDanLevel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#requiresValidityMonths"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>black belt certification requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#BoardMembership -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#BoardMembership">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>board membership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#BullyingResponseProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#BullyingResponseProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SchoolStaffRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>bullying response process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#BusinessDivision -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#BusinessDivision">
+        <rdfs:label>business division</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CampusEvent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CampusEvent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ParticipantGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>campus event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CarbonCreditProject -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CarbonCreditProject">
+        <rdfs:label>carbon credit project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CarbonCreditTransaction -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CarbonCreditTransaction">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#creditVolume"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#derivesFromProject"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CarbonCreditProject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#transferredTo"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PurchasingEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>carbon credit transaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CensusDataCollectionProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CensusDataCollectionProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#includesSurvey"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#RepresentativeSurveyActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesScreening"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationalScreeningActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>census data collection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CensusPeriod -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CensusPeriod">
+        <rdfs:label>census period</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CensusReportingEvent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CensusReportingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#publishedOnDate"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ReportingDate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#occursDuringPeriod"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#CensusPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#tracksSector"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#SocialEnterpriseSector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>census reporting event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ChampionshipEntry -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ChampionshipEntry">
+        <rdfs:label>championship entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ChemicalExposureRiskProfile -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ChemicalExposureRiskProfile">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assessesExposureTo"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ToxicIndustrialChemical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#estimatesImpactOn"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HumanHealthOutcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#quantifiesRiskMagnitude"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>chemical exposure risk profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ChiefExecutiveOfficerRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ChiefExecutiveOfficerRole">
+        <rdfs:label>chief executive officer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClientDataRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClientDataRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#contains"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClientStatisticalInformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>client data record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClientStatisticalInformation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClientStatisticalInformation">
+        <rdfs:label>client statistical information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClinicalCare -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalCare">
+        <rdfs:label>clinical care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClinicalPerformanceData -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalPerformanceData">
+        <rdfs:label>clinical performance data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClinicalPerformanceEvaluation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalPerformanceEvaluation">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#evaluates"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClinicalPerformanceData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#evaluationMetric"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#utilizes"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#QuantitativeAnalyticTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>clinical performance evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClinicalQualityData -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalQualityData">
+        <rdfs:label>clinical quality data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ClinicalQualityResearchRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalQualityResearchRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#appliesTo"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClinicalQualityData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#holdsRoleIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#EMSAuthority"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>clinical quality research role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CommunicationChannel -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CommunicationChannel">
+        <rdfs:label>communication channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CommunicationSecurityAspect -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CommunicationSecurityAspect">
+        <rdfs:label>communication security aspect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CompetitionDivision -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CompetitionDivision">
+        <rdfs:label>competition division</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ConceptualConstructionProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ConceptualConstructionProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#generatesPredicate"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConstructedPredicate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#transformsSubject"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SubjectConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>conceptual construction process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ConnectiveTissueRegion -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ConnectiveTissueRegion">
+        <rdfs:label>connective tissue region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ConnectiveTissueStructure -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ConnectiveTissueStructure">
+        <rdfs:label>connective tissue structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ConstitutionalConstraint -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ConstitutionalConstraint">
+        <rdfs:label>constitutional constraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ConstructedPredicate -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ConstructedPredicate">
+        <rdfs:label>constructed predicate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CopernicusObservationSource -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CopernicusObservationSource">
+        <rdfs:label>copernicus observation source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CrisisInterventionMethod -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CrisisInterventionMethod">
+        <rdfs:label>crisis intervention method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CropParasitismImpact -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CropParasitismImpact">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#impactsTarget"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AgriculturalHousehold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#affectsCultivationSystem"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#RiceCultivationSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#parasitisesHost"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#ParasiticWeed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>crop parasitism impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#CrossDivisionTransfer -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#CrossDivisionTransfer">
+        <rdfs:label>cross division transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DatabaseContainer -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DatabaseContainer">
+        <rdfs:label>database container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DemographicInformation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DemographicInformation">
+        <rdfs:label>demographic information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DengueTransmissionProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DengueTransmissionProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesHost"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HumanPopulation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesVector"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AedesAegyptiVector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>dengue transmission process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DigitalMediaService -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DigitalMediaService">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesFunction"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ServiceFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>digital media service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DirectoryQueryService -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DirectoryQueryService">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#generatesResponse"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DirectoryResponse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsUser"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#NetworkUser"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>directory query service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DirectoryResponse -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DirectoryResponse">
+        <rdfs:label>directory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DisseminationChannel -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DisseminationChannel">
+        <rdfs:label>dissemination channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DivisionAssignmentRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DivisionAssignmentRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assignsAthlete"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#Athlete"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assignsDivision"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#CompetitionDivision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>division assignment record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DivisionEligibilityConstraint -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DivisionEligibilityConstraint">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#QualifiedAthleteStatus"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://signals360.example.org/sdg#CrossDivisionTransfer"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>division eligibility constraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DoctrinalNarrative -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DoctrinalNarrative">
+        <rdfs:label>doctrinal narrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#DomesticViolenceSurvivor -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#DomesticViolenceSurvivor">
+        <rdfs:label>domestic violence survivor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EMSAuthority -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EMSAuthority">
+        <rdfs:label>e m s authority</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EarthObservationData -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EarthObservationData">
+        <rdfs:label>earth observation data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EducationalGoal -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EducationalGoal">
+        <rdfs:label>educational goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EducationalInstitution -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EducationalInstitution">
+        <rdfs:label>educational institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EducationalPresentation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EducationalPresentation">
+        <rdfs:label>educational presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EnterpriseSocialMedia -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EnterpriseSocialMedia">
+        <rdfs:label>enterprise social media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#EntomologicalSurveillanceRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#EntomologicalSurveillanceRecord">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#associatedWith"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SurveillanceLocation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#realizes"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#VectorSpeciesIdentification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>entomological surveillance record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ExecutiveLeadershipRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ExecutiveLeadershipRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#memberOf"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ExecutiveTeam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reportsTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#ChiefExecutiveOfficerRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>executive leadership role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ExecutiveTeam -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ExecutiveTeam">
+        <rdfs:label>executive team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ExistingNationalDataset -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ExistingNationalDataset">
+        <rdfs:label>existing national dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ExternalBusinessPartner -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ExternalBusinessPartner">
+        <rdfs:label>external business partner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FarmlandAcquisitionProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FarmlandAcquisitionProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#acquiresLand"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AgriculturalLandParcel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsInvestor"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#InstitutionalInvestor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>farmland acquisition process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FinancialActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FinancialActivity">
+        <rdfs:label>financial activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FinancialInstitution -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FinancialInstitution">
+        <rdfs:label>financial institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FinancialStrategyOversight -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FinancialStrategyOversight">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#directs"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FinancialActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#oversees"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#RiskManagementActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>financial strategy oversight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FindingEntity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FindingEntity">
+        <rdfs:label>finding entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FloodAssetCondition -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FloodAssetCondition">
+        <rdfs:label>flood asset condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assessesAssetCondition"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FloodAssetCondition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#identifiesVulnerabilityState"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#VulnerabilityState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>flood asset vulnerability assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#FloodDefenceConditionCharacterisation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#FloodDefenceConditionCharacterisation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#employsValidationProcess"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ValidationProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesEarthObservationData"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EarthObservationData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>flood defence condition characterisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#GanglionCystFormation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#GanglionCystFormation">
+        <rdfs:label>ganglion cyst formation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#GanglionCystImagingFinding -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#GanglionCystImagingFinding">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#visualizes"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MagneticResonanceImagingModality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ganglion cyst imaging finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#GanglionCystTissueOrigin -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#GanglionCystTissueOrigin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConnectiveTissueStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ganglion cyst tissue origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HealthOutcomeMetric -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HealthOutcomeMetric">
+        <rdfs:label>health outcome metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HigherEducationInstitution -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HigherEducationInstitution">
+        <rdfs:label>higher education institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HostConnectionProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HostConnectionProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ParasiticPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>host connection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HouseholdParticipant -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HouseholdParticipant">
+        <rdfs:label>household participant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HumanHealthOutcome -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HumanHealthOutcome">
+        <rdfs:label>human health outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HumanPopulation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HumanPopulation">
+        <rdfs:label>human population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#HumanRightsImpactReport -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#HumanRightsImpactReport">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reportsOn"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FindingEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>human rights impact report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ImpedanceTermination -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ImpedanceTermination">
+        <rdfs:label>impedance termination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndigenousKnowledgeBase -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndigenousKnowledgeBase">
+        <rdfs:label>indigenous knowledge base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndoorAirPollution -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndoorAirPollution">
+        <rdfs:label>indoor air pollution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndoorAirQualityActionPlan -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndoorAirQualityActionPlan">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsPollution"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorAirPollution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#verifiedByMetric"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HealthOutcomeMetric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>indoor air quality action plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndoorEnvironment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndoorEnvironment">
+        <rdfs:label>indoor environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#monitorsIndoorEnvironment"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usesMonitoringProtocol"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MonitoringProtocol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>indoor environmental monitoring process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndustryAssociationMember -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndustryAssociationMember">
+        <rdfs:label>industry association member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IndustrySector -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IndustrySector">
+        <rdfs:label>industry sector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InformationDisseminationEvent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InformationDisseminationEvent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TemporalInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reachesAudience"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TargetAudience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#utilizesChannel"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DisseminationChannel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>information dissemination event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InsertionLossSpecification -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InsertionLossSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasInsertionLossValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasPhaseRelationshipValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>insertion loss specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InstitutionalInvestor -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InstitutionalInvestor">
+        <rdfs:label>institutional investor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InstitutionalVisionStatement -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InstitutionalVisionStatement">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#addressesStakeholder"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StakeholderGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsGoal"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EducationalGoal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>institutional vision statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InsuranceInformationItem -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InsuranceInformationItem">
+        <rdfs:label>insurance information item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IntermediateFloorAssembly -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IntermediateFloorAssembly">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#containsComponent"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LateralRestraintStrap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>intermediate floor assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#InternalCommunicationRequirement -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#InternalCommunicationRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#specifiesPlatform"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EnterpriseSocialMedia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsGoal"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationalCommunicationGoal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>internal communication requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#IntuitiveFoundation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#IntuitiveFoundation">
+        <rdfs:label>intuitive foundation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#KnowledgeBaseIntegration -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#KnowledgeBaseIntegration">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasIntegrationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#incorporatesIndigenousKnowledge"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndigenousKnowledgeBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#incorporatesScientificKnowledge"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ScientificKnowledgeBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>knowledge base integration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#LaneComplianceBehavior -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#LaneComplianceBehavior">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesOperator"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#VehicleOperator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#occursOnStreetType"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StreetTrafficConfiguration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>lane compliance behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#LateralRestraintStrap -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#LateralRestraintStrap">
+        <rdfs:label>lateral restraint strap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#LearningOutcome -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#LearningOutcome">
+        <rdfs:label>learning outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#LeberOpticAtrophy -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#LeberOpticAtrophy">
+        <rdfs:label>leber optic atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#LegalAdvocateRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#LegalAdvocateRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assists"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DomesticViolenceSurvivor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasRoleBearer"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>legal advocate role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MagneticResonanceImagingModality -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MagneticResonanceImagingModality">
+        <rdfs:label>magnetic resonance imaging modality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MarketingDirectorRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MarketingDirectorRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#realizedInActivity"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationalActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasRoleHolder"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>marketing director role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MaterialDensitySpecification -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MaterialDensitySpecification">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDensityValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>material density specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MembershipRegistration -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MembershipRegistration">
+        <rdfs:label>membership registration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MentalHealthEducationProgram -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MentalHealthEducationProgram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDeliveredPresentation"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EducationalPresentation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsDemographic"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#YouthDemographic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>mental health education program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MonitoringProtocol -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MonitoringProtocol">
+        <rdfs:label>monitoring protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MotorVehicleClass -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MotorVehicleClass">
+        <rdfs:label>motor vehicle class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#MyxoidDegenerationProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#MyxoidDegenerationProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#degrades"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConnectiveTissueRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#resultsIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#GanglionCystFormation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>myxoid degeneration process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#NationalDatasetAugmentationProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#NationalDatasetAugmentationProcess">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#augmentsExistingDataset"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ExistingNationalDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#incorporatesObservationSource"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CopernicusObservationSource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>national dataset augmentation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#NetworkUser -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#NetworkUser">
+        <rdfs:label>network user</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#OpticNerveDysfunction -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#OpticNerveDysfunction">
+        <rdfs:label>optic nerve dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#Organization -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#Organization">
+        <rdfs:label>organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#OrganizationalActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#OrganizationalActivity">
+        <rdfs:label>organizational activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#OrganizationalCommunicationGoal -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#OrganizationalCommunicationGoal">
+        <rdfs:label>organizational communication goal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#OrganizationalObjective -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#OrganizationalObjective">
+        <rdfs:label>organizational objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#OrganizationalScreeningActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#OrganizationalScreeningActivity">
+        <rdfs:label>organizational screening activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PDSAImprovementModel -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PDSAImprovementModel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#improves"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClinicalCare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#optimizes"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PatientOutcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>p d s a improvement model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ParasiticPlant -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ParasiticPlant">
+        <rdfs:label>parasitic plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ParasiticWeed -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ParasiticWeed">
+        <rdfs:label>parasitic weed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ParticipantGroup -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ParticipantGroup">
+        <rdfs:label>participant group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PatientAppointmentSchedule -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PatientAppointmentSchedule">
+        <rdfs:label>patient appointment schedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PatientInsuranceRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PatientInsuranceRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#containsDataElement"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#InsuranceInformationItem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>patient insurance record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PatientOutcome -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PatientOutcome">
+        <rdfs:label>patient outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PerformanceTuningConfiguration -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PerformanceTuningConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#bufferSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#retentionPeriod"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>performance tuning configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#Person -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#Person">
+        <rdfs:label>person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PersonallyIdentifiableInformation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PersonallyIdentifiableInformation">
+        <rdfs:label>personally identifiable information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PlanningArtifact -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PlanningArtifact">
+        <rdfs:label>planning artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PoliticalIslamStance -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PoliticalIslamStance">
+        <rdfs:label>political islam stance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PortIsolationMeasurement -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PortIsolationMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#dependsOnImpedanceTermination"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ImpedanceTermination"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasIsolationDecibelValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#measuresPortIsolation"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PortPair"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>port isolation measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PortPair -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PortPair">
+        <rdfs:label>port pair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ProfessionalExperience -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ProfessionalExperience">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDurationYears"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasHolder"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasOrganization"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>professional experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ProfessionalExpertiseDomain -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ProfessionalExpertiseDomain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#coversSector"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndustrySector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesServiceType"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ServiceType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>professional expertise domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ProtectedLocation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ProtectedLocation">
+        <rdfs:label>protected location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#PurchasingEntity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#PurchasingEntity">
+        <rdfs:label>purchasing entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QualificationLevel -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QualificationLevel">
+        <rdfs:label>qualification level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QualificationProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QualificationProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#requiresMembership"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MembershipRegistration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#yieldsChampionshipEntry"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ChampionshipEntry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>qualification process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QualifiedAthleteStatus -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QualifiedAthleteStatus">
+        <rdfs:label>qualified athlete status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QuantitativeAnalyticTool -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QuantitativeAnalyticTool">
+        <rdfs:label>quantitative analytic tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QuantumComputer -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QuantumComputer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Qubit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>quantum computer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#QuantumCyberSecurityField -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#QuantumCyberSecurityField">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#studiesDomainAspect"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CommunicationSecurityAspect"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>quantum cyber security field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#Qubit -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#Qubit">
+        <rdfs:label>qubit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#RadicalizationProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#RadicalizationProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AffiliatedOrganization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>radicalization process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ReceptionistAgent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ReceptionistAgent">
+        <rdfs:label>receptionist agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ReductionProgram -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ReductionProgram">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#addressesUsageMetric"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TargetedUsageMetric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HouseholdParticipant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>reduction program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ReportingDate -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ReportingDate">
+        <rdfs:label>reporting date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#RepresentativeSurveyActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#RepresentativeSurveyActivity">
+        <rdfs:label>representative survey activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ResearcherProfileAttribute -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ResearcherProfileAttribute">
+        <rdfs:label>researcher profile attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#RiceCultivationSystem -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#RiceCultivationSystem">
+        <rdfs:label>rice cultivation system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#RiskManagementActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#RiskManagementActivity">
+        <rdfs:label>risk management activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#S -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#S">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#articulates"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LearningOutcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#specifies"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#QualificationLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SafetyObjective -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SafetyObjective">
+        <rdfs:label>safety objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SafetyPlanningProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SafetyPlanningProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#employs"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CrisisInterventionMethod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targets"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DomesticViolenceSurvivor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>safety planning process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SalaryRequirement -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SalaryRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasSalaryAmount"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>salary requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SchoolEnvironment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SchoolEnvironment">
+        <rdfs:label>school environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SchoolSecurityPolicy -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SchoolSecurityPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#mustSatisfy"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConstitutionalConstraint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targets"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SafetyObjective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>school security policy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SchoolStaffRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SchoolStaffRole">
+        <rdfs:label>school staff role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ScientificKnowledgeBase -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ScientificKnowledgeBase">
+        <rdfs:label>scientific knowledge base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ServiceFunction -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ServiceFunction">
+        <rdfs:label>service function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ServiceType -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ServiceType">
+        <rdfs:label>service type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ServiceUsageCategory -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ServiceUsageCategory">
+        <rdfs:label>service usage category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SettlementFinancingActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SettlementFinancingActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#benefits"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SettlementProject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#funds"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FinancialInstitution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>settlement financing activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SettlementProject -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SettlementProject">
+        <rdfs:label>settlement project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ShellDimensionSpecification -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ShellDimensionSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDimensionValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>shell dimension specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SocialEnterpriseAnnualIncome -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SocialEnterpriseAnnualIncome">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasAnnualIncomeValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>social enterprise annual income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SocialEnterpriseSector -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SocialEnterpriseSector">
+        <rdfs:label>social enterprise sector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SocialNetworkingApplication -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SocialNetworkingApplication">
+        <rdfs:label>social networking application</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SocialNetworkingService -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SocialNetworkingService">
+        <rdfs:label>social networking service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SocialNetworkingServiceUsage -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SocialNetworkingServiceUsage">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StaffMember"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#utilizesService"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SocialNetworkingService"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>social networking service usage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StaffAdministrator -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StaffAdministrator">
+        <rdfs:label>staff administrator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StaffMember -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StaffMember">
+        <rdfs:label>staff member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StakeholderGroup -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StakeholderGroup">
+        <rdfs:label>stakeholder group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StorageStructureComposition -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StorageStructureComposition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#comprises"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#DatabaseContainer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>storage structure composition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StrategicCommitment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StrategicCommitment">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#pursuesObjective"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationalObjective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#supportsStakeholder"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndustryAssociationMember"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>strategic commitment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StrategicPlanningProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StrategicPlanningProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#producesPlanningArtifact"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PlanningArtifact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsBusinessDivision"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#BusinessDivision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>strategic planning process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StreetTrafficConfiguration -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StreetTrafficConfiguration">
+        <rdfs:label>street traffic configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#StudentPrivacyExpectation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#StudentPrivacyExpectation">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#appliesTo"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ProtectedLocation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>student privacy expectation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SubjectConcept -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SubjectConcept">
+        <rdfs:label>subject concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SurveillanceDevice -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SurveillanceDevice">
+        <rdfs:label>surveillance device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SurveillanceLocation -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SurveillanceLocation">
+        <rdfs:label>surveillance location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SurveyResponseRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SurveyResponseRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#capturesProfileAttribute"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ResearcherProfileAttribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>survey response record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#SyntheticAprioriJudgment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#SyntheticAprioriJudgment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#exhibitsAmpliation"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AmpliativeContent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reliesOnIntuition"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IntuitiveFoundation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>synthetic apriori judgment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TaperToleranceConstraint -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TaperToleranceConstraint">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasLowerToleranceLimit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasUpperToleranceLimit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>taper tolerance constraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TargetAudience -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TargetAudience">
+        <rdfs:label>target audience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TargetedUsageMetric -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TargetedUsageMetric">
+        <rdfs:label>targeted usage metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TariffStructure -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TariffStructure">
+        <rdfs:label>tariff structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TechnologyPromotionInitiative -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TechnologyPromotionInitiative">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsSector"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndustrySector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#utilizesChannel"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CommunicationChannel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>technology promotion initiative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TemporalInterval -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TemporalInterval">
+        <rdfs:label>temporal interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ThirdPartyDataSharing -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ThirdPartyDataSharing">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ExternalBusinessPartner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>third party data sharing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ToxicIndustrialChemical -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ToxicIndustrialChemical">
+        <rdfs:label>toxic industrial chemical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#TrainingPartnershipDevelopment -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#TrainingPartnershipDevelopment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EducationalInstitution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>training partnership development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#UsagePatternRecord -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#UsagePatternRecord">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#correspondsToTariff"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TariffStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#quantifiesVolume"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#recordsServiceCategory"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ServiceUsageCategory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>usage pattern record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#ValidationProcess -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#ValidationProcess">
+        <rdfs:label>validation process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VectorSpeciesIdentification -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VectorSpeciesIdentification">
+        <rdfs:label>vector species identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VehicleComponent -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VehicleComponent">
+        <rdfs:label>vehicle component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VehicleEquipmentSpecification -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VehicleEquipmentSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DirectiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#appliesToVehicleClass"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MotorVehicleClass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#mandatesComponent"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#VehicleComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>vehicle equipment specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VehicleOperator -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VehicleOperator">
+        <rdfs:label>vehicle operator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VideoSurveillanceActivity -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VideoSurveillanceActivity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#employsDevice"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SurveillanceDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#monitors"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SchoolEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>video surveillance activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#VulnerabilityState -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#VulnerabilityState">
+        <rdfs:label>vulnerability state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#X -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#X">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#OpticNerveDysfunction"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="https://signals360.example.org/sdg#LeberOpticAtrophy"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/DescriptiveICE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasMaximumThreshold"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasMinimumThreshold"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involves"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StaffMember"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targets"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HigherEducationInstitution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>x</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#YoungAdultIndividual -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#YoungAdultIndividual">
+        <rdfs:label>young adult individual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#YoungAdultSpeakerRole -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#YoungAdultSpeakerRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#deliversPresentation"/>
+                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EducationalPresentation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasQualifyingIndividual"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals360.example.org/sdg#YoungAdultIndividual"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>young adult speaker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals360.example.org/sdg#YouthDemographic -->
+
+    <owl:Class rdf:about="https://signals360.example.org/sdg#YouthDemographic">
+        <rdfs:label>youth demographic</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.22.2022-05-07T21:32:11Z) https://github.com/owlcs/owlapi -->
+

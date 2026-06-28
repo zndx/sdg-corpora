@@ -1,0 +1,1576 @@
+Prefix: : <http://example.org/aegir-probe#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+Prefix: prov: <http://www.w3.org/ns/prov#>
+Prefix: dcterms: <http://purl.org/dc/terms/>
+Prefix: bfo: <http://purl.obolibrary.org/obo/BFO_>
+Prefix: cco: <http://www.commoncoreontologies.org/>
+Prefix: iao: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: obi: <http://purl.obolibrary.org/obo/OBI_>
+Prefix: schema: <https://schema.org/>
+Prefix: dbo: <http://dbpedia.org/ontology/>
+Prefix: sdg: <https://signals360.example.org/sdg#>
+
+Ontology: <https://signals360.example.org/sdg>
+
+Class: bfo:0000001
+Class: bfo:0000002 SubClassOf: bfo:0000001
+Class: bfo:0000003 SubClassOf: bfo:0000001
+DisjointClasses: bfo:0000002, bfo:0000003
+Class: bfo:0000015 SubClassOf: bfo:0000003
+Class: bfo:0000004 SubClassOf: bfo:0000002
+Class: bfo:0000017 SubClassOf: bfo:0000002
+Class: bfo:0000019 SubClassOf: bfo:0000020
+Class: bfo:0000020 SubClassOf: bfo:0000002
+Class: bfo:0000023 SubClassOf: bfo:0000017
+Class: bfo:0000031 SubClassOf: bfo:0000002
+Class: bfo:0000040 SubClassOf: bfo:0000004
+ObjectProperty: bfo:0000050
+ObjectProperty: bfo:0000051
+ObjectProperty: bfo:0000054
+ObjectProperty: bfo:0000055
+ObjectProperty: bfo:0000056
+ObjectProperty: bfo:0000057
+ObjectProperty: bfo:0000066
+
+
+
+Class: bfo:Occurrent
+Class: bfo:Continuant
+DisjointClasses: bfo:Occurrent, bfo:Continuant
+Class: bfo:Process SubClassOf: bfo:Occurrent
+Class: bfo:IndependentContinuant SubClassOf: bfo:Continuant
+Class: cco:Artifact SubClassOf: bfo:IndependentContinuant
+Class: cco:InformationContentEntity SubClassOf: bfo:Continuant
+Class: cco:DescriptiveICE SubClassOf: cco:InformationContentEntity
+Class: cco:DirectiveICE SubClassOf: cco:InformationContentEntity
+Class: cco:DesignativeICE SubClassOf: cco:InformationContentEntity
+
+
+Class: <https://signals360.example.org/sdg#HostConnectionProcess>
+    Annotations: rdfs:label "host connection process"
+
+Class: <https://signals360.example.org/sdg#ParasiticPlant>
+    Annotations: rdfs:label "parasitic plant"
+
+Class: <https://signals360.example.org/sdg#HostConnectionProcess> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#ParasiticPlant>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#CropParasitismImpact>
+    Annotations: rdfs:label "crop parasitism impact"
+
+Class: <https://signals360.example.org/sdg#RiceCultivationSystem>
+    Annotations: rdfs:label "rice cultivation system"
+
+Class: <https://signals360.example.org/sdg#ParasiticWeed>
+    Annotations: rdfs:label "parasitic weed"
+
+Class: <https://signals360.example.org/sdg#AgriculturalHousehold>
+    Annotations: rdfs:label "agricultural household"
+
+Class: <https://signals360.example.org/sdg#CropParasitismImpact> SubClassOf: cco:InformationContentEntity, sdg:affectsCultivationSystem exactly 1 <https://signals360.example.org/sdg#RiceCultivationSystem>, sdg:parasitisesHost exactly 1 <https://signals360.example.org/sdg#ParasiticWeed>, sdg:impactsTarget some <https://signals360.example.org/sdg#AgriculturalHousehold>
+ObjectProperty: sdg:affectsCultivationSystem
+    Annotations: rdfs:label "affects cultivation system"
+
+ObjectProperty: sdg:impactsTarget
+    Annotations: rdfs:label "impacts target"
+
+ObjectProperty: sdg:parasitisesHost
+    Annotations: rdfs:label "parasitises host"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#VehicleEquipmentSpecification>
+    Annotations: rdfs:label "vehicle equipment specification"
+
+Class: <https://signals360.example.org/sdg#MotorVehicleClass>
+    Annotations: rdfs:label "motor vehicle class"
+
+Class: <https://signals360.example.org/sdg#VehicleComponent>
+    Annotations: rdfs:label "vehicle component"
+
+Class: <https://signals360.example.org/sdg#VehicleEquipmentSpecification> SubClassOf: cco:DirectiveICE, sdg:appliesToVehicleClass some <https://signals360.example.org/sdg#MotorVehicleClass>, sdg:mandatesComponent some <https://signals360.example.org/sdg#VehicleComponent>
+ObjectProperty: sdg:appliesToVehicleClass
+    Annotations: rdfs:label "applies to vehicle class"
+
+ObjectProperty: sdg:mandatesComponent
+    Annotations: rdfs:label "mandates component"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#LaneComplianceBehavior>
+    Annotations: rdfs:label "lane compliance behavior"
+
+Class: <https://signals360.example.org/sdg#VehicleOperator>
+    Annotations: rdfs:label "vehicle operator"
+
+Class: <https://signals360.example.org/sdg#StreetTrafficConfiguration>
+    Annotations: rdfs:label "street traffic configuration"
+
+Class: <https://signals360.example.org/sdg#LaneComplianceBehavior> SubClassOf: bfo:0000015, sdg:involvesOperator some <https://signals360.example.org/sdg#VehicleOperator>, sdg:occursOnStreetType some <https://signals360.example.org/sdg#StreetTrafficConfiguration>
+ObjectProperty: sdg:involvesOperator
+    Annotations: rdfs:label "involves operator"
+
+ObjectProperty: sdg:occursOnStreetType
+    Annotations: rdfs:label "occurs on street type"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#AppointmentSchedulingProcess>
+    Annotations: rdfs:label "appointment scheduling process"
+
+Class: <https://signals360.example.org/sdg#ReceptionistAgent>
+    Annotations: rdfs:label "receptionist agent"
+
+Class: <https://signals360.example.org/sdg#PatientAppointmentSchedule>
+    Annotations: rdfs:label "patient appointment schedule"
+
+Class: <https://signals360.example.org/sdg#AppointmentSchedulingProcess> SubClassOf: bfo:0000015, sdg:hasOperator some <https://signals360.example.org/sdg#ReceptionistAgent>, sdg:targetsArtifact some <https://signals360.example.org/sdg#PatientAppointmentSchedule>
+ObjectProperty: sdg:hasOperator
+    Annotations: rdfs:label "has operator"
+
+ObjectProperty: sdg:targetsArtifact
+    Annotations: rdfs:label "targets artifact"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#PatientInsuranceRecord>
+    Annotations: rdfs:label "patient insurance record"
+
+Class: <https://signals360.example.org/sdg#InsuranceInformationItem>
+    Annotations: rdfs:label "insurance information item"
+
+Class: <https://signals360.example.org/sdg#PatientInsuranceRecord> SubClassOf: cco:InformationContentEntity, sdg:containsDataElement some <https://signals360.example.org/sdg#InsuranceInformationItem>
+ObjectProperty: sdg:containsDataElement
+    Annotations: rdfs:label "contains data element"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#DivisionAssignmentRecord>
+    Annotations: rdfs:label "division assignment record"
+
+Class: <https://signals360.example.org/sdg#Athlete>
+    Annotations: rdfs:label "athlete"
+
+Class: <https://signals360.example.org/sdg#CompetitionDivision>
+    Annotations: rdfs:label "competition division"
+
+Class: <https://signals360.example.org/sdg#DivisionAssignmentRecord> SubClassOf: cco:DescriptiveICE, sdg:assignsAthlete exactly 1 <https://signals360.example.org/sdg#Athlete>, sdg:assignsDivision exactly 1 <https://signals360.example.org/sdg#CompetitionDivision>
+ObjectProperty: sdg:assignsAthlete
+    Annotations: rdfs:label "assigns athlete"
+
+ObjectProperty: sdg:assignsDivision
+    Annotations: rdfs:label "assigns division"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#QualificationProcess>
+    Annotations: rdfs:label "qualification process"
+
+Class: <https://signals360.example.org/sdg#MembershipRegistration>
+    Annotations: rdfs:label "membership registration"
+
+Class: <https://signals360.example.org/sdg#ChampionshipEntry>
+    Annotations: rdfs:label "championship entry"
+
+Class: <https://signals360.example.org/sdg#QualificationProcess> SubClassOf: bfo:0000015, sdg:requiresMembership some <https://signals360.example.org/sdg#MembershipRegistration>, sdg:yieldsChampionshipEntry some <https://signals360.example.org/sdg#ChampionshipEntry>
+ObjectProperty: sdg:requiresMembership
+    Annotations: rdfs:label "requires membership"
+
+ObjectProperty: sdg:yieldsChampionshipEntry
+    Annotations: rdfs:label "yields championship entry"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#DivisionEligibilityConstraint>
+    Annotations: rdfs:label "division eligibility constraint"
+
+Class: <https://signals360.example.org/sdg#QualifiedAthleteStatus>
+    Annotations: rdfs:label "qualified athlete status"
+
+Class: <https://signals360.example.org/sdg#CrossDivisionTransfer>
+    Annotations: rdfs:label "cross division transfer"
+
+Class: <https://signals360.example.org/sdg#DivisionEligibilityConstraint> EquivalentTo: <https://signals360.example.org/sdg#QualifiedAthleteStatus> and not <https://signals360.example.org/sdg#CrossDivisionTransfer>
+
+
+Class: <https://signals360.example.org/sdg#BlackBeltCertificationRequirement>
+    Annotations: rdfs:label "black belt certification requirement"
+
+Class: <https://signals360.example.org/sdg#BlackBeltCertificationRequirement> SubClassOf: cco:DescriptiveICE, sdg:requiresDanLevel some xsd:decimal, sdg:requiresValidityMonths some xsd:decimal
+ObjectProperty: sdg:requiresDanLevel
+    Annotations: rdfs:label "requires dan level"
+
+ObjectProperty: sdg:requiresValidityMonths
+    Annotations: rdfs:label "requires validity months"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#MentalHealthEducationProgram>
+    Annotations: rdfs:label "mental health education program"
+
+Class: <https://signals360.example.org/sdg#EducationalPresentation>
+    Annotations: rdfs:label "educational presentation"
+
+Class: <https://signals360.example.org/sdg#YouthDemographic>
+    Annotations: rdfs:label "youth demographic"
+
+Class: <https://signals360.example.org/sdg#MentalHealthEducationProgram> SubClassOf: bfo:0000015, sdg:hasDeliveredPresentation some <https://signals360.example.org/sdg#EducationalPresentation>, sdg:targetsDemographic some <https://signals360.example.org/sdg#YouthDemographic>
+ObjectProperty: sdg:hasDeliveredPresentation
+    Annotations: rdfs:label "has delivered presentation"
+
+ObjectProperty: sdg:targetsDemographic
+    Annotations: rdfs:label "targets demographic"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#YoungAdultSpeakerRole>
+    Annotations: rdfs:label "young adult speaker role"
+
+Class: <https://signals360.example.org/sdg#YoungAdultIndividual>
+    Annotations: rdfs:label "young adult individual"
+
+Class: <https://signals360.example.org/sdg#EducationalPresentation>
+    Annotations: rdfs:label "educational presentation"
+
+Class: <https://signals360.example.org/sdg#YoungAdultSpeakerRole> SubClassOf: bfo:0000023, sdg:hasQualifyingIndividual exactly 1 <https://signals360.example.org/sdg#YoungAdultIndividual>, sdg:deliversPresentation some <https://signals360.example.org/sdg#EducationalPresentation>
+ObjectProperty: sdg:deliversPresentation
+    Annotations: rdfs:label "delivers presentation"
+
+ObjectProperty: sdg:hasQualifyingIndividual
+    Annotations: rdfs:label "has qualifying individual"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals360.example.org/sdg#ClinicalQualityResearchRole>
+    Annotations: rdfs:label "clinical quality research role"
+
+Class: <https://signals360.example.org/sdg#EMSAuthority>
+    Annotations: rdfs:label "e m s authority"
+
+Class: <https://signals360.example.org/sdg#ClinicalQualityData>
+    Annotations: rdfs:label "clinical quality data"
+
+Class: <https://signals360.example.org/sdg#ClinicalQualityResearchRole> SubClassOf: bfo:0000023, sdg:holdsRoleIn exactly 1 <https://signals360.example.org/sdg#EMSAuthority>, sdg:appliesTo some <https://signals360.example.org/sdg#ClinicalQualityData>
+ObjectProperty: sdg:appliesTo
+    Annotations: rdfs:label "applies to"
+
+ObjectProperty: sdg:holdsRoleIn
+    Annotations: rdfs:label "holds role in"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals360.example.org/sdg#PDSAImprovementModel>
+    Annotations: rdfs:label "p d s a improvement model"
+
+Class: <https://signals360.example.org/sdg#ClinicalCare>
+    Annotations: rdfs:label "clinical care"
+
+Class: <https://signals360.example.org/sdg#PatientOutcome>
+    Annotations: rdfs:label "patient outcome"
+
+Class: <https://signals360.example.org/sdg#PDSAImprovementModel> SubClassOf: bfo:0000015, sdg:improves some <https://signals360.example.org/sdg#ClinicalCare>, sdg:optimizes some <https://signals360.example.org/sdg#PatientOutcome>
+ObjectProperty: sdg:improves
+    Annotations: rdfs:label "improves"
+
+ObjectProperty: sdg:optimizes
+    Annotations: rdfs:label "optimizes"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#ClinicalPerformanceEvaluation>
+    Annotations: rdfs:label "clinical performance evaluation"
+
+Class: <https://signals360.example.org/sdg#QuantitativeAnalyticTool>
+    Annotations: rdfs:label "quantitative analytic tool"
+
+Class: <https://signals360.example.org/sdg#ClinicalPerformanceData>
+    Annotations: rdfs:label "clinical performance data"
+
+Class: <https://signals360.example.org/sdg#ClinicalPerformanceEvaluation> SubClassOf: cco:InformationContentEntity, sdg:utilizes some <https://signals360.example.org/sdg#QuantitativeAnalyticTool>, sdg:evaluates some <https://signals360.example.org/sdg#ClinicalPerformanceData>, sdg:evaluationMetric some xsd:decimal
+ObjectProperty: sdg:evaluates
+    Annotations: rdfs:label "evaluates"
+
+ObjectProperty: sdg:evaluationMetric
+    Annotations: rdfs:label "evaluation metric"
+
+ObjectProperty: sdg:utilizes
+    Annotations: rdfs:label "utilizes"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#IntermediateFloorAssembly>
+    Annotations: rdfs:label "intermediate floor assembly"
+
+Class: <https://signals360.example.org/sdg#LateralRestraintStrap>
+    Annotations: rdfs:label "lateral restraint strap"
+
+Class: <https://signals360.example.org/sdg#IntermediateFloorAssembly> SubClassOf: bfo:0000004, sdg:containsComponent some <https://signals360.example.org/sdg#LateralRestraintStrap>
+ObjectProperty: sdg:containsComponent
+    Annotations: rdfs:label "contains component"
+
+Class: bfo:0000004
+    Annotations: rdfs:label "independent continuant"
+
+
+Class: <https://signals360.example.org/sdg#AnonymousDemographicInformation>
+    Annotations: rdfs:label "anonymous demographic information"
+
+Class: <https://signals360.example.org/sdg#DemographicInformation>
+    Annotations: rdfs:label "demographic information"
+
+Class: <https://signals360.example.org/sdg#PersonallyIdentifiableInformation>
+    Annotations: rdfs:label "personally identifiable information"
+
+Class: <https://signals360.example.org/sdg#AnonymousDemographicInformation> EquivalentTo: <https://signals360.example.org/sdg#DemographicInformation> and not <https://signals360.example.org/sdg#PersonallyIdentifiableInformation>
+
+
+Class: <https://signals360.example.org/sdg#ThirdPartyDataSharing>
+    Annotations: rdfs:label "third party data sharing"
+
+Class: <https://signals360.example.org/sdg#ExternalBusinessPartner>
+    Annotations: rdfs:label "external business partner"
+
+Class: <https://signals360.example.org/sdg#ThirdPartyDataSharing> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#ExternalBusinessPartner>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#VideoSurveillanceActivity>
+    Annotations: rdfs:label "video surveillance activity"
+
+Class: <https://signals360.example.org/sdg#SchoolEnvironment>
+    Annotations: rdfs:label "school environment"
+
+Class: <https://signals360.example.org/sdg#SurveillanceDevice>
+    Annotations: rdfs:label "surveillance device"
+
+Class: <https://signals360.example.org/sdg#VideoSurveillanceActivity> SubClassOf: bfo:0000015, sdg:monitors some <https://signals360.example.org/sdg#SchoolEnvironment>, sdg:employsDevice some <https://signals360.example.org/sdg#SurveillanceDevice>
+ObjectProperty: sdg:employsDevice
+    Annotations: rdfs:label "employs device"
+
+ObjectProperty: sdg:monitors
+    Annotations: rdfs:label "monitors"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#StudentPrivacyExpectation>
+    Annotations: rdfs:label "student privacy expectation"
+
+Class: <https://signals360.example.org/sdg#ProtectedLocation>
+    Annotations: rdfs:label "protected location"
+
+Class: <https://signals360.example.org/sdg#StudentPrivacyExpectation> SubClassOf: cco:DescriptiveICE, sdg:appliesTo some <https://signals360.example.org/sdg#ProtectedLocation>
+ObjectProperty: sdg:appliesTo
+    Annotations: rdfs:label "applies to"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#SchoolSecurityPolicy>
+    Annotations: rdfs:label "school security policy"
+
+Class: <https://signals360.example.org/sdg#SafetyObjective>
+    Annotations: rdfs:label "safety objective"
+
+Class: <https://signals360.example.org/sdg#ConstitutionalConstraint>
+    Annotations: rdfs:label "constitutional constraint"
+
+Class: <https://signals360.example.org/sdg#SchoolSecurityPolicy> SubClassOf: cco:DirectiveICE, sdg:targets some <https://signals360.example.org/sdg#SafetyObjective>, sdg:mustSatisfy some <https://signals360.example.org/sdg#ConstitutionalConstraint>
+ObjectProperty: sdg:mustSatisfy
+    Annotations: rdfs:label "must satisfy"
+
+ObjectProperty: sdg:targets
+    Annotations: rdfs:label "targets"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#ChemicalExposureRiskProfile>
+    Annotations: rdfs:label "chemical exposure risk profile"
+
+Class: <https://signals360.example.org/sdg#ToxicIndustrialChemical>
+    Annotations: rdfs:label "toxic industrial chemical"
+
+Class: <https://signals360.example.org/sdg#HumanHealthOutcome>
+    Annotations: rdfs:label "human health outcome"
+
+Class: <https://signals360.example.org/sdg#ChemicalExposureRiskProfile> SubClassOf: cco:InformationContentEntity, sdg:assessesExposureTo some <https://signals360.example.org/sdg#ToxicIndustrialChemical>, sdg:estimatesImpactOn some <https://signals360.example.org/sdg#HumanHealthOutcome>, sdg:quantifiesRiskMagnitude some xsd:decimal
+ObjectProperty: sdg:assessesExposureTo
+    Annotations: rdfs:label "assesses exposure to"
+
+ObjectProperty: sdg:estimatesImpactOn
+    Annotations: rdfs:label "estimates impact on"
+
+ObjectProperty: sdg:quantifiesRiskMagnitude
+    Annotations: rdfs:label "quantifies risk magnitude"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#InstitutionalVisionStatement>
+    Annotations: rdfs:label "institutional vision statement"
+
+Class: <https://signals360.example.org/sdg#EducationalGoal>
+    Annotations: rdfs:label "educational goal"
+
+Class: <https://signals360.example.org/sdg#StakeholderGroup>
+    Annotations: rdfs:label "stakeholder group"
+
+Class: <https://signals360.example.org/sdg#InstitutionalVisionStatement> SubClassOf: cco:DirectiveICE, sdg:targetsGoal some <https://signals360.example.org/sdg#EducationalGoal>, sdg:addressesStakeholder some <https://signals360.example.org/sdg#StakeholderGroup>
+ObjectProperty: sdg:addressesStakeholder
+    Annotations: rdfs:label "addresses stakeholder"
+
+ObjectProperty: sdg:targetsGoal
+    Annotations: rdfs:label "targets goal"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#MaterialDensitySpecification>
+    Annotations: rdfs:label "material density specification"
+
+Class: <https://signals360.example.org/sdg#MaterialDensitySpecification> SubClassOf: cco:DescriptiveICE, sdg:hasDensityValue exactly 1 xsd:decimal
+ObjectProperty: sdg:hasDensityValue
+    Annotations: rdfs:label "has density value"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#X>
+    Annotations: rdfs:label "x"
+
+Class: <https://signals360.example.org/sdg#OpticNerveDysfunction>
+    Annotations: rdfs:label "optic nerve dysfunction"
+
+Class: <https://signals360.example.org/sdg#LeberOpticAtrophy>
+    Annotations: rdfs:label "leber optic atrophy"
+
+Class: <https://signals360.example.org/sdg#X> EquivalentTo: <https://signals360.example.org/sdg#OpticNerveDysfunction> and not <https://signals360.example.org/sdg#LeberOpticAtrophy>
+
+
+Class: <https://signals360.example.org/sdg#StrategicCommitment>
+    Annotations: rdfs:label "strategic commitment"
+
+Class: <https://signals360.example.org/sdg#OrganizationalObjective>
+    Annotations: rdfs:label "organizational objective"
+
+Class: <https://signals360.example.org/sdg#IndustryAssociationMember>
+    Annotations: rdfs:label "industry association member"
+
+Class: <https://signals360.example.org/sdg#StrategicCommitment> SubClassOf: cco:DirectiveICE, sdg:pursuesObjective some <https://signals360.example.org/sdg#OrganizationalObjective>, sdg:supportsStakeholder some <https://signals360.example.org/sdg#IndustryAssociationMember>
+ObjectProperty: sdg:pursuesObjective
+    Annotations: rdfs:label "pursues objective"
+
+ObjectProperty: sdg:supportsStakeholder
+    Annotations: rdfs:label "supports stakeholder"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#TechnologyPromotionInitiative>
+    Annotations: rdfs:label "technology promotion initiative"
+
+Class: <https://signals360.example.org/sdg#IndustrySector>
+    Annotations: rdfs:label "industry sector"
+
+Class: <https://signals360.example.org/sdg#CommunicationChannel>
+    Annotations: rdfs:label "communication channel"
+
+Class: <https://signals360.example.org/sdg#TechnologyPromotionInitiative> SubClassOf: bfo:0000015, sdg:targetsSector some <https://signals360.example.org/sdg#IndustrySector>, sdg:utilizesChannel some <https://signals360.example.org/sdg#CommunicationChannel>
+ObjectProperty: sdg:targetsSector
+    Annotations: rdfs:label "targets sector"
+
+ObjectProperty: sdg:utilizesChannel
+    Annotations: rdfs:label "utilizes channel"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#TrainingPartnershipDevelopment>
+    Annotations: rdfs:label "training partnership development"
+
+Class: <https://signals360.example.org/sdg#EducationalInstitution>
+    Annotations: rdfs:label "educational institution"
+
+Class: <https://signals360.example.org/sdg#TrainingPartnershipDevelopment> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#EducationalInstitution>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#GanglionCystTissueOrigin>
+    Annotations: rdfs:label "ganglion cyst tissue origin"
+
+Class: <https://signals360.example.org/sdg#ConnectiveTissueStructure>
+    Annotations: rdfs:label "connective tissue structure"
+
+Class: <https://signals360.example.org/sdg#GanglionCystTissueOrigin> SubClassOf: bfo:0000004, bfo:0000050 some <https://signals360.example.org/sdg#ConnectiveTissueStructure>
+ObjectProperty: bfo:0000050
+    Annotations: rdfs:label "part of"
+
+Class: bfo:0000004
+    Annotations: rdfs:label "independent continuant"
+
+
+Class: <https://signals360.example.org/sdg#MyxoidDegenerationProcess>
+    Annotations: rdfs:label "myxoid degeneration process"
+
+Class: <https://signals360.example.org/sdg#ConnectiveTissueRegion>
+    Annotations: rdfs:label "connective tissue region"
+
+Class: <https://signals360.example.org/sdg#GanglionCystFormation>
+    Annotations: rdfs:label "ganglion cyst formation"
+
+Class: <https://signals360.example.org/sdg#MyxoidDegenerationProcess> SubClassOf: bfo:0000015, sdg:degrades some <https://signals360.example.org/sdg#ConnectiveTissueRegion>, sdg:resultsIn some <https://signals360.example.org/sdg#GanglionCystFormation>
+ObjectProperty: sdg:degrades
+    Annotations: rdfs:label "degrades"
+
+ObjectProperty: sdg:resultsIn
+    Annotations: rdfs:label "results in"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#GanglionCystImagingFinding>
+    Annotations: rdfs:label "ganglion cyst imaging finding"
+
+Class: <https://signals360.example.org/sdg#MagneticResonanceImagingModality>
+    Annotations: rdfs:label "magnetic resonance imaging modality"
+
+Class: <https://signals360.example.org/sdg#GanglionCystImagingFinding> SubClassOf: cco:InformationContentEntity, sdg:visualizes some <https://signals360.example.org/sdg#MagneticResonanceImagingModality>
+ObjectProperty: sdg:visualizes
+    Annotations: rdfs:label "visualizes"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess>
+    Annotations: rdfs:label "indoor environmental monitoring process"
+
+Class: <https://signals360.example.org/sdg#IndoorEnvironment>
+    Annotations: rdfs:label "indoor environment"
+
+Class: <https://signals360.example.org/sdg#MonitoringProtocol>
+    Annotations: rdfs:label "monitoring protocol"
+
+Class: <https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess> SubClassOf: bfo:0000015, sdg:monitorsIndoorEnvironment some <https://signals360.example.org/sdg#IndoorEnvironment>, sdg:usesMonitoringProtocol some <https://signals360.example.org/sdg#MonitoringProtocol>
+ObjectProperty: sdg:monitorsIndoorEnvironment
+    Annotations: rdfs:label "monitors indoor environment"
+
+ObjectProperty: sdg:usesMonitoringProtocol
+    Annotations: rdfs:label "uses monitoring protocol"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#IndoorAirQualityActionPlan>
+    Annotations: rdfs:label "indoor air quality action plan"
+
+Class: <https://signals360.example.org/sdg#IndoorAirPollution>
+    Annotations: rdfs:label "indoor air pollution"
+
+Class: <https://signals360.example.org/sdg#HealthOutcomeMetric>
+    Annotations: rdfs:label "health outcome metric"
+
+Class: <https://signals360.example.org/sdg#IndoorAirQualityActionPlan> SubClassOf: cco:DirectiveICE, sdg:targetsPollution some <https://signals360.example.org/sdg#IndoorAirPollution>, sdg:verifiedByMetric some <https://signals360.example.org/sdg#HealthOutcomeMetric>
+ObjectProperty: sdg:targetsPollution
+    Annotations: rdfs:label "targets pollution"
+
+ObjectProperty: sdg:verifiedByMetric
+    Annotations: rdfs:label "verified by metric"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#DirectoryQueryService>
+    Annotations: rdfs:label "directory query service"
+
+Class: <https://signals360.example.org/sdg#NetworkUser>
+    Annotations: rdfs:label "network user"
+
+Class: <https://signals360.example.org/sdg#DirectoryResponse>
+    Annotations: rdfs:label "directory response"
+
+Class: <https://signals360.example.org/sdg#DirectoryQueryService> SubClassOf: bfo:0000015, sdg:targetsUser some <https://signals360.example.org/sdg#NetworkUser>, sdg:generatesResponse some <https://signals360.example.org/sdg#DirectoryResponse>
+ObjectProperty: sdg:generatesResponse
+    Annotations: rdfs:label "generates response"
+
+ObjectProperty: sdg:targetsUser
+    Annotations: rdfs:label "targets user"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#DigitalMediaService>
+    Annotations: rdfs:label "digital media service"
+
+Class: <https://signals360.example.org/sdg#ServiceFunction>
+    Annotations: rdfs:label "service function"
+
+Class: <https://signals360.example.org/sdg#DigitalMediaService> SubClassOf: cco:InformationContentEntity, sdg:providesFunction some <https://signals360.example.org/sdg#ServiceFunction>
+ObjectProperty: sdg:providesFunction
+    Annotations: rdfs:label "provides function"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#DengueTransmissionProcess>
+    Annotations: rdfs:label "dengue transmission process"
+
+Class: <https://signals360.example.org/sdg#HumanPopulation>
+    Annotations: rdfs:label "human population"
+
+Class: <https://signals360.example.org/sdg#AedesAegyptiVector>
+    Annotations: rdfs:label "aedes aegypti vector"
+
+Class: <https://signals360.example.org/sdg#DengueTransmissionProcess> SubClassOf: bfo:0000015, sdg:involvesHost some <https://signals360.example.org/sdg#HumanPopulation>, sdg:involvesVector some <https://signals360.example.org/sdg#AedesAegyptiVector>
+ObjectProperty: sdg:involvesHost
+    Annotations: rdfs:label "involves host"
+
+ObjectProperty: sdg:involvesVector
+    Annotations: rdfs:label "involves vector"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#EntomologicalSurveillanceRecord>
+    Annotations: rdfs:label "entomological surveillance record"
+
+Class: <https://signals360.example.org/sdg#VectorSpeciesIdentification>
+    Annotations: rdfs:label "vector species identification"
+
+Class: <https://signals360.example.org/sdg#SurveillanceLocation>
+    Annotations: rdfs:label "surveillance location"
+
+Class: <https://signals360.example.org/sdg#EntomologicalSurveillanceRecord> SubClassOf: bfo:0000004, sdg:realizes some <https://signals360.example.org/sdg#VectorSpeciesIdentification>, sdg:associatedWith some <https://signals360.example.org/sdg#SurveillanceLocation>
+ObjectProperty: sdg:associatedWith
+    Annotations: rdfs:label "associated with"
+
+ObjectProperty: sdg:realizes
+    Annotations: rdfs:label "realizes"
+
+Class: bfo:0000004
+    Annotations: rdfs:label "independent continuant"
+
+
+Class: <https://signals360.example.org/sdg#InternalCommunicationRequirement>
+    Annotations: rdfs:label "internal communication requirement"
+
+Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia>
+    Annotations: rdfs:label "enterprise social media"
+
+Class: <https://signals360.example.org/sdg#OrganizationalCommunicationGoal>
+    Annotations: rdfs:label "organizational communication goal"
+
+Class: <https://signals360.example.org/sdg#InternalCommunicationRequirement> SubClassOf: cco:DirectiveICE, sdg:specifiesPlatform some <https://signals360.example.org/sdg#EnterpriseSocialMedia>, sdg:targetsGoal some <https://signals360.example.org/sdg#OrganizationalCommunicationGoal>
+ObjectProperty: sdg:specifiesPlatform
+    Annotations: rdfs:label "specifies platform"
+
+ObjectProperty: sdg:targetsGoal
+    Annotations: rdfs:label "targets goal"
+
+Class: cco:DirectiveICE
+    Annotations: rdfs:label "directive information content entity"
+
+
+Class: <https://signals360.example.org/sdg#StrategicPlanningProcess>
+    Annotations: rdfs:label "strategic planning process"
+
+Class: <https://signals360.example.org/sdg#BusinessDivision>
+    Annotations: rdfs:label "business division"
+
+Class: <https://signals360.example.org/sdg#PlanningArtifact>
+    Annotations: rdfs:label "planning artifact"
+
+Class: <https://signals360.example.org/sdg#StrategicPlanningProcess> SubClassOf: bfo:0000015, sdg:targetsBusinessDivision some <https://signals360.example.org/sdg#BusinessDivision>, sdg:producesPlanningArtifact some <https://signals360.example.org/sdg#PlanningArtifact>
+ObjectProperty: sdg:producesPlanningArtifact
+    Annotations: rdfs:label "produces planning artifact"
+
+ObjectProperty: sdg:targetsBusinessDivision
+    Annotations: rdfs:label "targets business division"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#X>
+    Annotations: rdfs:label "x"
+
+Class: <https://signals360.example.org/sdg#X> SubClassOf: cco:DescriptiveICE, sdg:hasMinimumThreshold some xsd:decimal, sdg:hasMaximumThreshold some xsd:decimal
+ObjectProperty: sdg:hasMaximumThreshold
+    Annotations: rdfs:label "has maximum threshold"
+
+ObjectProperty: sdg:hasMinimumThreshold
+    Annotations: rdfs:label "has minimum threshold"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#S>
+    Annotations: rdfs:label "s"
+
+Class: <https://signals360.example.org/sdg#LearningOutcome>
+    Annotations: rdfs:label "learning outcome"
+
+Class: <https://signals360.example.org/sdg#QualificationLevel>
+    Annotations: rdfs:label "qualification level"
+
+Class: <https://signals360.example.org/sdg#S> SubClassOf: cco:InformationContentEntity, sdg:articulates some <https://signals360.example.org/sdg#LearningOutcome>, sdg:specifies some <https://signals360.example.org/sdg#QualificationLevel>
+ObjectProperty: sdg:articulates
+    Annotations: rdfs:label "articulates"
+
+ObjectProperty: sdg:specifies
+    Annotations: rdfs:label "specifies"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#X>
+    Annotations: rdfs:label "x"
+
+Class: <https://signals360.example.org/sdg#HigherEducationInstitution>
+    Annotations: rdfs:label "higher education institution"
+
+Class: <https://signals360.example.org/sdg#StaffMember>
+    Annotations: rdfs:label "staff member"
+
+Class: <https://signals360.example.org/sdg#X> SubClassOf: bfo:0000015, sdg:targets some <https://signals360.example.org/sdg#HigherEducationInstitution>, sdg:involves some <https://signals360.example.org/sdg#StaffMember>
+ObjectProperty: sdg:involves
+    Annotations: rdfs:label "involves"
+
+ObjectProperty: sdg:targets
+    Annotations: rdfs:label "targets"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#CarbonCreditTransaction>
+    Annotations: rdfs:label "carbon credit transaction"
+
+Class: <https://signals360.example.org/sdg#CarbonCreditProject>
+    Annotations: rdfs:label "carbon credit project"
+
+Class: <https://signals360.example.org/sdg#PurchasingEntity>
+    Annotations: rdfs:label "purchasing entity"
+
+Class: <https://signals360.example.org/sdg#CarbonCreditTransaction> SubClassOf: cco:InformationContentEntity, sdg:derivesFromProject some <https://signals360.example.org/sdg#CarbonCreditProject>, sdg:transferredTo some <https://signals360.example.org/sdg#PurchasingEntity>, sdg:creditVolume some xsd:decimal
+ObjectProperty: sdg:creditVolume
+    Annotations: rdfs:label "credit volume"
+
+ObjectProperty: sdg:derivesFromProject
+    Annotations: rdfs:label "derives from project"
+
+ObjectProperty: sdg:transferredTo
+    Annotations: rdfs:label "transferred to"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#LegalAdvocateRole>
+    Annotations: rdfs:label "legal advocate role"
+
+Class: <https://signals360.example.org/sdg#Person>
+    Annotations: rdfs:label "person"
+
+Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
+    Annotations: rdfs:label "domestic violence survivor"
+
+Class: <https://signals360.example.org/sdg#LegalAdvocateRole> SubClassOf: bfo:0000023, sdg:hasRoleBearer exactly 1 <https://signals360.example.org/sdg#Person>, sdg:assists some <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
+ObjectProperty: sdg:assists
+    Annotations: rdfs:label "assists"
+
+ObjectProperty: sdg:hasRoleBearer
+    Annotations: rdfs:label "has role bearer"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals360.example.org/sdg#SafetyPlanningProcess>
+    Annotations: rdfs:label "safety planning process"
+
+Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
+    Annotations: rdfs:label "domestic violence survivor"
+
+Class: <https://signals360.example.org/sdg#CrisisInterventionMethod>
+    Annotations: rdfs:label "crisis intervention method"
+
+Class: <https://signals360.example.org/sdg#SafetyPlanningProcess> SubClassOf: bfo:0000015, sdg:targets some <https://signals360.example.org/sdg#DomesticViolenceSurvivor>, sdg:employs some <https://signals360.example.org/sdg#CrisisInterventionMethod>
+ObjectProperty: sdg:employs
+    Annotations: rdfs:label "employs"
+
+ObjectProperty: sdg:targets
+    Annotations: rdfs:label "targets"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#ClientDataRecord>
+    Annotations: rdfs:label "client data record"
+
+Class: <https://signals360.example.org/sdg#ClientStatisticalInformation>
+    Annotations: rdfs:label "client statistical information"
+
+Class: <https://signals360.example.org/sdg#ClientDataRecord> SubClassOf: cco:InformationContentEntity, sdg:contains some <https://signals360.example.org/sdg#ClientStatisticalInformation>
+ObjectProperty: sdg:contains
+    Annotations: rdfs:label "contains"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#QuantumComputer>
+    Annotations: rdfs:label "quantum computer"
+
+Class: <https://signals360.example.org/sdg#Qubit>
+    Annotations: rdfs:label "qubit"
+
+Class: <https://signals360.example.org/sdg#QuantumComputer> SubClassOf: bfo:0000004, bfo:0000050 some <https://signals360.example.org/sdg#Qubit>
+ObjectProperty: bfo:0000050
+    Annotations: rdfs:label "part of"
+
+Class: bfo:0000004
+    Annotations: rdfs:label "independent continuant"
+
+
+Class: <https://signals360.example.org/sdg#QuantumCyberSecurityField>
+    Annotations: rdfs:label "quantum cyber security field"
+
+Class: <https://signals360.example.org/sdg#CommunicationSecurityAspect>
+    Annotations: rdfs:label "communication security aspect"
+
+Class: <https://signals360.example.org/sdg#QuantumCyberSecurityField> SubClassOf: cco:InformationContentEntity, sdg:studiesDomainAspect some <https://signals360.example.org/sdg#CommunicationSecurityAspect>
+ObjectProperty: sdg:studiesDomainAspect
+    Annotations: rdfs:label "studies domain aspect"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#CampusEvent>
+    Annotations: rdfs:label "campus event"
+
+Class: <https://signals360.example.org/sdg#ParticipantGroup>
+    Annotations: rdfs:label "participant group"
+
+Class: <https://signals360.example.org/sdg#CampusEvent> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#ParticipantGroup>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#FarmlandAcquisitionProcess>
+    Annotations: rdfs:label "farmland acquisition process"
+
+Class: <https://signals360.example.org/sdg#InstitutionalInvestor>
+    Annotations: rdfs:label "institutional investor"
+
+Class: <https://signals360.example.org/sdg#AgriculturalLandParcel>
+    Annotations: rdfs:label "agricultural land parcel"
+
+Class: <https://signals360.example.org/sdg#FarmlandAcquisitionProcess> SubClassOf: bfo:0000015, sdg:targetsInvestor some <https://signals360.example.org/sdg#InstitutionalInvestor>, sdg:acquiresLand some <https://signals360.example.org/sdg#AgriculturalLandParcel>
+ObjectProperty: sdg:acquiresLand
+    Annotations: rdfs:label "acquires land"
+
+ObjectProperty: sdg:targetsInvestor
+    Annotations: rdfs:label "targets investor"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#TaperToleranceConstraint>
+    Annotations: rdfs:label "taper tolerance constraint"
+
+Class: <https://signals360.example.org/sdg#TaperToleranceConstraint> SubClassOf: cco:DescriptiveICE, sdg:hasUpperToleranceLimit some xsd:decimal, sdg:hasLowerToleranceLimit some xsd:decimal
+ObjectProperty: sdg:hasLowerToleranceLimit
+    Annotations: rdfs:label "has lower tolerance limit"
+
+ObjectProperty: sdg:hasUpperToleranceLimit
+    Annotations: rdfs:label "has upper tolerance limit"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#SyntheticAprioriJudgment>
+    Annotations: rdfs:label "synthetic apriori judgment"
+
+Class: <https://signals360.example.org/sdg#IntuitiveFoundation>
+    Annotations: rdfs:label "intuitive foundation"
+
+Class: <https://signals360.example.org/sdg#AmpliativeContent>
+    Annotations: rdfs:label "ampliative content"
+
+Class: <https://signals360.example.org/sdg#SyntheticAprioriJudgment> SubClassOf: sdg:reliesOnIntuition some <https://signals360.example.org/sdg#IntuitiveFoundation>, sdg:exhibitsAmpliation some <https://signals360.example.org/sdg#AmpliativeContent>
+ObjectProperty: sdg:exhibitsAmpliation
+    Annotations: rdfs:label "exhibits ampliation"
+
+ObjectProperty: sdg:reliesOnIntuition
+    Annotations: rdfs:label "relies on intuition"
+
+
+Class: <https://signals360.example.org/sdg#ConceptualConstructionProcess>
+    Annotations: rdfs:label "conceptual construction process"
+
+Class: <https://signals360.example.org/sdg#SubjectConcept>
+    Annotations: rdfs:label "subject concept"
+
+Class: <https://signals360.example.org/sdg#ConstructedPredicate>
+    Annotations: rdfs:label "constructed predicate"
+
+Class: <https://signals360.example.org/sdg#ConceptualConstructionProcess> SubClassOf: bfo:0000015, sdg:transformsSubject some <https://signals360.example.org/sdg#SubjectConcept>, sdg:generatesPredicate some <https://signals360.example.org/sdg#ConstructedPredicate>
+ObjectProperty: sdg:generatesPredicate
+    Annotations: rdfs:label "generates predicate"
+
+ObjectProperty: sdg:transformsSubject
+    Annotations: rdfs:label "transforms subject"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#ExecutiveLeadershipRole>
+    Annotations: rdfs:label "executive leadership role"
+
+Class: <https://signals360.example.org/sdg#ChiefExecutiveOfficerRole>
+    Annotations: rdfs:label "chief executive officer role"
+
+Class: <https://signals360.example.org/sdg#ExecutiveTeam>
+    Annotations: rdfs:label "executive team"
+
+Class: <https://signals360.example.org/sdg#ExecutiveLeadershipRole> SubClassOf: bfo:0000023, sdg:reportsTo exactly 1 <https://signals360.example.org/sdg#ChiefExecutiveOfficerRole>, sdg:memberOf some <https://signals360.example.org/sdg#ExecutiveTeam>
+ObjectProperty: sdg:memberOf
+    Annotations: rdfs:label "member of"
+
+ObjectProperty: sdg:reportsTo
+    Annotations: rdfs:label "reports to"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals360.example.org/sdg#FinancialStrategyOversight>
+    Annotations: rdfs:label "financial strategy oversight"
+
+Class: <https://signals360.example.org/sdg#FinancialActivity>
+    Annotations: rdfs:label "financial activity"
+
+Class: <https://signals360.example.org/sdg#RiskManagementActivity>
+    Annotations: rdfs:label "risk management activity"
+
+Class: <https://signals360.example.org/sdg#FinancialStrategyOversight> SubClassOf: bfo:0000015, sdg:directs some <https://signals360.example.org/sdg#FinancialActivity>, sdg:oversees some <https://signals360.example.org/sdg#RiskManagementActivity>
+ObjectProperty: sdg:directs
+    Annotations: rdfs:label "directs"
+
+ObjectProperty: sdg:oversees
+    Annotations: rdfs:label "oversees"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#SalaryRequirement>
+    Annotations: rdfs:label "salary requirement"
+
+Class: <https://signals360.example.org/sdg#SalaryRequirement> SubClassOf: cco:DescriptiveICE, sdg:hasSalaryAmount exactly 1 xsd:decimal
+ObjectProperty: sdg:hasSalaryAmount
+    Annotations: rdfs:label "has salary amount"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#SocialNetworkingServiceUsage>
+    Annotations: rdfs:label "social networking service usage"
+
+Class: <https://signals360.example.org/sdg#StaffMember>
+    Annotations: rdfs:label "staff member"
+
+Class: <https://signals360.example.org/sdg#SocialNetworkingService>
+    Annotations: rdfs:label "social networking service"
+
+Class: <https://signals360.example.org/sdg#SocialNetworkingServiceUsage> SubClassOf: bfo:0000015, sdg:involvesParticipant some <https://signals360.example.org/sdg#StaffMember>, sdg:utilizesService some <https://signals360.example.org/sdg#SocialNetworkingService>
+ObjectProperty: sdg:involvesParticipant
+    Annotations: rdfs:label "involves participant"
+
+ObjectProperty: sdg:utilizesService
+    Annotations: rdfs:label "utilizes service"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#AccountAuthorizationRecord>
+    Annotations: rdfs:label "account authorization record"
+
+Class: <https://signals360.example.org/sdg#SocialNetworkingApplication>
+    Annotations: rdfs:label "social networking application"
+
+Class: <https://signals360.example.org/sdg#StaffAdministrator>
+    Annotations: rdfs:label "staff administrator"
+
+Class: <https://signals360.example.org/sdg#AccountAuthorizationRecord> SubClassOf: cco:InformationContentEntity, sdg:registersApplication some <https://signals360.example.org/sdg#SocialNetworkingApplication>, sdg:assignsAdministrator some <https://signals360.example.org/sdg#StaffAdministrator>
+ObjectProperty: sdg:assignsAdministrator
+    Annotations: rdfs:label "assigns administrator"
+
+ObjectProperty: sdg:registersApplication
+    Annotations: rdfs:label "registers application"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#ShellDimensionSpecification>
+    Annotations: rdfs:label "shell dimension specification"
+
+Class: <https://signals360.example.org/sdg#ShellDimensionSpecification> SubClassOf: cco:DescriptiveICE, sdg:hasDimensionValue exactly 1 xsd:decimal
+ObjectProperty: sdg:hasDimensionValue
+    Annotations: rdfs:label "has dimension value"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#InsertionLossSpecification>
+    Annotations: rdfs:label "insertion loss specification"
+
+Class: <https://signals360.example.org/sdg#InsertionLossSpecification> SubClassOf: cco:DescriptiveICE, sdg:hasInsertionLossValue some xsd:decimal, sdg:hasPhaseRelationshipValue some xsd:decimal
+ObjectProperty: sdg:hasInsertionLossValue
+    Annotations: rdfs:label "has insertion loss value"
+
+ObjectProperty: sdg:hasPhaseRelationshipValue
+    Annotations: rdfs:label "has phase relationship value"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#PortIsolationMeasurement>
+    Annotations: rdfs:label "port isolation measurement"
+
+Class: <https://signals360.example.org/sdg#PortPair>
+    Annotations: rdfs:label "port pair"
+
+Class: <https://signals360.example.org/sdg#ImpedanceTermination>
+    Annotations: rdfs:label "impedance termination"
+
+Class: <https://signals360.example.org/sdg#PortIsolationMeasurement> SubClassOf: cco:InformationContentEntity, sdg:measuresPortIsolation some <https://signals360.example.org/sdg#PortPair>, sdg:dependsOnImpedanceTermination some <https://signals360.example.org/sdg#ImpedanceTermination>, sdg:hasIsolationDecibelValue some xsd:decimal
+ObjectProperty: sdg:dependsOnImpedanceTermination
+    Annotations: rdfs:label "depends on impedance termination"
+
+ObjectProperty: sdg:hasIsolationDecibelValue
+    Annotations: rdfs:label "has isolation decibel value"
+
+ObjectProperty: sdg:measuresPortIsolation
+    Annotations: rdfs:label "measures port isolation"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#FloodDefenceConditionCharacterisation>
+    Annotations: rdfs:label "flood defence condition characterisation"
+
+Class: <https://signals360.example.org/sdg#EarthObservationData>
+    Annotations: rdfs:label "earth observation data"
+
+Class: <https://signals360.example.org/sdg#ValidationProcess>
+    Annotations: rdfs:label "validation process"
+
+Class: <https://signals360.example.org/sdg#FloodDefenceConditionCharacterisation> SubClassOf: bfo:0000015, sdg:involvesEarthObservationData some <https://signals360.example.org/sdg#EarthObservationData>, sdg:employsValidationProcess some <https://signals360.example.org/sdg#ValidationProcess>
+ObjectProperty: sdg:employsValidationProcess
+    Annotations: rdfs:label "employs validation process"
+
+ObjectProperty: sdg:involvesEarthObservationData
+    Annotations: rdfs:label "involves earth observation data"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment>
+    Annotations: rdfs:label "flood asset vulnerability assessment"
+
+Class: <https://signals360.example.org/sdg#FloodAssetCondition>
+    Annotations: rdfs:label "flood asset condition"
+
+Class: <https://signals360.example.org/sdg#VulnerabilityState>
+    Annotations: rdfs:label "vulnerability state"
+
+Class: <https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment> SubClassOf: cco:InformationContentEntity, sdg:assessesAssetCondition some <https://signals360.example.org/sdg#FloodAssetCondition>, sdg:identifiesVulnerabilityState some <https://signals360.example.org/sdg#VulnerabilityState>
+ObjectProperty: sdg:assessesAssetCondition
+    Annotations: rdfs:label "assesses asset condition"
+
+ObjectProperty: sdg:identifiesVulnerabilityState
+    Annotations: rdfs:label "identifies vulnerability state"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#NationalDatasetAugmentationProcess>
+    Annotations: rdfs:label "national dataset augmentation process"
+
+Class: <https://signals360.example.org/sdg#CopernicusObservationSource>
+    Annotations: rdfs:label "copernicus observation source"
+
+Class: <https://signals360.example.org/sdg#ExistingNationalDataset>
+    Annotations: rdfs:label "existing national dataset"
+
+Class: <https://signals360.example.org/sdg#NationalDatasetAugmentationProcess> SubClassOf: sdg:incorporatesObservationSource some <https://signals360.example.org/sdg#CopernicusObservationSource>, sdg:augmentsExistingDataset some <https://signals360.example.org/sdg#ExistingNationalDataset>
+ObjectProperty: sdg:augmentsExistingDataset
+    Annotations: rdfs:label "augments existing dataset"
+
+ObjectProperty: sdg:incorporatesObservationSource
+    Annotations: rdfs:label "incorporates observation source"
+
+
+Class: <https://signals360.example.org/sdg#KnowledgeBaseIntegration>
+    Annotations: rdfs:label "knowledge base integration"
+
+Class: <https://signals360.example.org/sdg#IndigenousKnowledgeBase>
+    Annotations: rdfs:label "indigenous knowledge base"
+
+Class: <https://signals360.example.org/sdg#ScientificKnowledgeBase>
+    Annotations: rdfs:label "scientific knowledge base"
+
+Class: <https://signals360.example.org/sdg#KnowledgeBaseIntegration> SubClassOf: cco:InformationContentEntity, sdg:incorporatesIndigenousKnowledge some <https://signals360.example.org/sdg#IndigenousKnowledgeBase>, sdg:incorporatesScientificKnowledge some <https://signals360.example.org/sdg#ScientificKnowledgeBase>, sdg:hasIntegrationConfidence some xsd:decimal
+ObjectProperty: sdg:hasIntegrationConfidence
+    Annotations: rdfs:label "has integration confidence"
+
+ObjectProperty: sdg:incorporatesIndigenousKnowledge
+    Annotations: rdfs:label "incorporates indigenous knowledge"
+
+ObjectProperty: sdg:incorporatesScientificKnowledge
+    Annotations: rdfs:label "incorporates scientific knowledge"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#PerformanceTuningConfiguration>
+    Annotations: rdfs:label "performance tuning configuration"
+
+Class: <https://signals360.example.org/sdg#PerformanceTuningConfiguration> SubClassOf: cco:DescriptiveICE, sdg:retentionPeriod some xsd:decimal, sdg:bufferSize some xsd:decimal
+ObjectProperty: sdg:bufferSize
+    Annotations: rdfs:label "buffer size"
+
+ObjectProperty: sdg:retentionPeriod
+    Annotations: rdfs:label "retention period"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#StorageStructureComposition>
+    Annotations: rdfs:label "storage structure composition"
+
+Class: <https://signals360.example.org/sdg#DatabaseContainer>
+    Annotations: rdfs:label "database container"
+
+Class: <https://signals360.example.org/sdg#StorageStructureComposition> SubClassOf: bfo:0000004, sdg:comprises exactly 1 <https://signals360.example.org/sdg#DatabaseContainer>
+ObjectProperty: sdg:comprises
+    Annotations: rdfs:label "comprises"
+
+Class: bfo:0000004
+    Annotations: rdfs:label "independent continuant"
+
+
+Class: <https://signals360.example.org/sdg#ProfessionalExperience>
+    Annotations: rdfs:label "professional experience"
+
+Class: <https://signals360.example.org/sdg#Person>
+    Annotations: rdfs:label "person"
+
+Class: <https://signals360.example.org/sdg#Organization>
+    Annotations: rdfs:label "organization"
+
+Class: <https://signals360.example.org/sdg#ProfessionalExperience> SubClassOf: cco:InformationContentEntity, sdg:hasHolder some <https://signals360.example.org/sdg#Person>, sdg:hasOrganization some <https://signals360.example.org/sdg#Organization>, sdg:hasDurationYears some xsd:decimal
+ObjectProperty: sdg:hasDurationYears
+    Annotations: rdfs:label "has duration years"
+
+ObjectProperty: sdg:hasHolder
+    Annotations: rdfs:label "has holder"
+
+ObjectProperty: sdg:hasOrganization
+    Annotations: rdfs:label "has organization"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#BoardMembership>
+    Annotations: rdfs:label "board membership"
+
+Class: <https://signals360.example.org/sdg#Organization>
+    Annotations: rdfs:label "organization"
+
+Class: <https://signals360.example.org/sdg#BoardMembership> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#Organization>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#MarketingDirectorRole>
+    Annotations: rdfs:label "marketing director role"
+
+Class: <https://signals360.example.org/sdg#Person>
+    Annotations: rdfs:label "person"
+
+Class: <https://signals360.example.org/sdg#OrganizationalActivity>
+    Annotations: rdfs:label "organizational activity"
+
+Class: <https://signals360.example.org/sdg#MarketingDirectorRole> SubClassOf: bfo:0000023, sdg:hasRoleHolder exactly 1 <https://signals360.example.org/sdg#Person>, sdg:realizedInActivity some <https://signals360.example.org/sdg#OrganizationalActivity>
+ObjectProperty: sdg:hasRoleHolder
+    Annotations: rdfs:label "has role holder"
+
+ObjectProperty: sdg:realizedInActivity
+    Annotations: rdfs:label "realized in activity"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals360.example.org/sdg#ProfessionalExpertiseDomain>
+    Annotations: rdfs:label "professional expertise domain"
+
+Class: <https://signals360.example.org/sdg#IndustrySector>
+    Annotations: rdfs:label "industry sector"
+
+Class: <https://signals360.example.org/sdg#ServiceType>
+    Annotations: rdfs:label "service type"
+
+Class: <https://signals360.example.org/sdg#ProfessionalExpertiseDomain> SubClassOf: sdg:coversSector some <https://signals360.example.org/sdg#IndustrySector>, sdg:providesServiceType some <https://signals360.example.org/sdg#ServiceType>
+ObjectProperty: sdg:coversSector
+    Annotations: rdfs:label "covers sector"
+
+ObjectProperty: sdg:providesServiceType
+    Annotations: rdfs:label "provides service type"
+
+
+Class: <https://signals360.example.org/sdg#RadicalizationProcess>
+    Annotations: rdfs:label "radicalization process"
+
+Class: <https://signals360.example.org/sdg#AffiliatedOrganization>
+    Annotations: rdfs:label "affiliated organization"
+
+Class: <https://signals360.example.org/sdg#RadicalizationProcess> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#AffiliatedOrganization>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#ApoliticalIslam>
+    Annotations: rdfs:label "apolitical islam"
+
+Class: <https://signals360.example.org/sdg#DoctrinalNarrative>
+    Annotations: rdfs:label "doctrinal narrative"
+
+Class: <https://signals360.example.org/sdg#PoliticalIslamStance>
+    Annotations: rdfs:label "political islam stance"
+
+Class: <https://signals360.example.org/sdg#ApoliticalIslam> EquivalentTo: <https://signals360.example.org/sdg#DoctrinalNarrative> and not <https://signals360.example.org/sdg#PoliticalIslamStance>
+
+
+Class: <https://signals360.example.org/sdg#HumanRightsImpactReport>
+    Annotations: rdfs:label "human rights impact report"
+
+Class: <https://signals360.example.org/sdg#FindingEntity>
+    Annotations: rdfs:label "finding entity"
+
+Class: <https://signals360.example.org/sdg#HumanRightsImpactReport> SubClassOf: cco:InformationContentEntity, sdg:reportsOn some <https://signals360.example.org/sdg#FindingEntity>
+ObjectProperty: sdg:reportsOn
+    Annotations: rdfs:label "reports on"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#SettlementFinancingActivity>
+    Annotations: rdfs:label "settlement financing activity"
+
+Class: <https://signals360.example.org/sdg#FinancialInstitution>
+    Annotations: rdfs:label "financial institution"
+
+Class: <https://signals360.example.org/sdg#SettlementProject>
+    Annotations: rdfs:label "settlement project"
+
+Class: <https://signals360.example.org/sdg#SettlementFinancingActivity> SubClassOf: bfo:0000015, sdg:funds some <https://signals360.example.org/sdg#FinancialInstitution>, sdg:benefits some <https://signals360.example.org/sdg#SettlementProject>
+ObjectProperty: sdg:benefits
+    Annotations: rdfs:label "benefits"
+
+ObjectProperty: sdg:funds
+    Annotations: rdfs:label "funds"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#ReductionProgram>
+    Annotations: rdfs:label "reduction program"
+
+Class: <https://signals360.example.org/sdg#HouseholdParticipant>
+    Annotations: rdfs:label "household participant"
+
+Class: <https://signals360.example.org/sdg#TargetedUsageMetric>
+    Annotations: rdfs:label "targeted usage metric"
+
+Class: <https://signals360.example.org/sdg#ReductionProgram> SubClassOf: bfo:0000015, sdg:targetsParticipant some <https://signals360.example.org/sdg#HouseholdParticipant>, sdg:addressesUsageMetric some <https://signals360.example.org/sdg#TargetedUsageMetric>
+ObjectProperty: sdg:addressesUsageMetric
+    Annotations: rdfs:label "addresses usage metric"
+
+ObjectProperty: sdg:targetsParticipant
+    Annotations: rdfs:label "targets participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#UsagePatternRecord>
+    Annotations: rdfs:label "usage pattern record"
+
+Class: <https://signals360.example.org/sdg#ServiceUsageCategory>
+    Annotations: rdfs:label "service usage category"
+
+Class: <https://signals360.example.org/sdg#TariffStructure>
+    Annotations: rdfs:label "tariff structure"
+
+Class: <https://signals360.example.org/sdg#UsagePatternRecord> SubClassOf: cco:InformationContentEntity, sdg:recordsServiceCategory some <https://signals360.example.org/sdg#ServiceUsageCategory>, sdg:correspondsToTariff some <https://signals360.example.org/sdg#TariffStructure>, sdg:quantifiesVolume some xsd:decimal
+ObjectProperty: sdg:correspondsToTariff
+    Annotations: rdfs:label "corresponds to tariff"
+
+ObjectProperty: sdg:quantifiesVolume
+    Annotations: rdfs:label "quantifies volume"
+
+ObjectProperty: sdg:recordsServiceCategory
+    Annotations: rdfs:label "records service category"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#BullyingResponseProcess>
+    Annotations: rdfs:label "bullying response process"
+
+Class: <https://signals360.example.org/sdg#SchoolStaffRole>
+    Annotations: rdfs:label "school staff role"
+
+Class: <https://signals360.example.org/sdg#BullyingResponseProcess> SubClassOf: bfo:0000015, bfo:0000057 some <https://signals360.example.org/sdg#SchoolStaffRole>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#CensusDataCollectionProcess>
+    Annotations: rdfs:label "census data collection process"
+
+Class: <https://signals360.example.org/sdg#OrganizationalScreeningActivity>
+    Annotations: rdfs:label "organizational screening activity"
+
+Class: <https://signals360.example.org/sdg#RepresentativeSurveyActivity>
+    Annotations: rdfs:label "representative survey activity"
+
+Class: <https://signals360.example.org/sdg#CensusDataCollectionProcess> SubClassOf: bfo:0000015, sdg:involvesScreening some <https://signals360.example.org/sdg#OrganizationalScreeningActivity>, sdg:includesSurvey some <https://signals360.example.org/sdg#RepresentativeSurveyActivity>
+ObjectProperty: sdg:includesSurvey
+    Annotations: rdfs:label "includes survey"
+
+ObjectProperty: sdg:involvesScreening
+    Annotations: rdfs:label "involves screening"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals360.example.org/sdg#SocialEnterpriseAnnualIncome>
+    Annotations: rdfs:label "social enterprise annual income"
+
+Class: <https://signals360.example.org/sdg#SocialEnterpriseAnnualIncome> SubClassOf: cco:DescriptiveICE, sdg:hasAnnualIncomeValue exactly 1 xsd:decimal
+ObjectProperty: sdg:hasAnnualIncomeValue
+    Annotations: rdfs:label "has annual income value"
+
+Class: cco:DescriptiveICE
+    Annotations: rdfs:label "descriptive information content entity"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals360.example.org/sdg#CensusReportingEvent>
+    Annotations: rdfs:label "census reporting event"
+
+Class: <https://signals360.example.org/sdg#CensusPeriod>
+    Annotations: rdfs:label "census period"
+
+Class: <https://signals360.example.org/sdg#SocialEnterpriseSector>
+    Annotations: rdfs:label "social enterprise sector"
+
+Class: <https://signals360.example.org/sdg#ReportingDate>
+    Annotations: rdfs:label "reporting date"
+
+Class: <https://signals360.example.org/sdg#CensusReportingEvent> SubClassOf: cco:InformationContentEntity, sdg:occursDuringPeriod exactly 1 <https://signals360.example.org/sdg#CensusPeriod>, sdg:tracksSector exactly 1 <https://signals360.example.org/sdg#SocialEnterpriseSector>, sdg:publishedOnDate some <https://signals360.example.org/sdg#ReportingDate>
+ObjectProperty: sdg:occursDuringPeriod
+    Annotations: rdfs:label "occurs during period"
+
+ObjectProperty: sdg:publishedOnDate
+    Annotations: rdfs:label "published on date"
+
+ObjectProperty: sdg:tracksSector
+    Annotations: rdfs:label "tracks sector"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#SurveyResponseRecord>
+    Annotations: rdfs:label "survey response record"
+
+Class: <https://signals360.example.org/sdg#ResearcherProfileAttribute>
+    Annotations: rdfs:label "researcher profile attribute"
+
+Class: <https://signals360.example.org/sdg#SurveyResponseRecord> SubClassOf: cco:InformationContentEntity, sdg:capturesProfileAttribute some <https://signals360.example.org/sdg#ResearcherProfileAttribute>
+ObjectProperty: sdg:capturesProfileAttribute
+    Annotations: rdfs:label "captures profile attribute"
+
+Class: cco:InformationContentEntity
+    Annotations: rdfs:label "information content entity"
+
+
+Class: <https://signals360.example.org/sdg#InformationDisseminationEvent>
+    Annotations: rdfs:label "information dissemination event"
+
+Class: <https://signals360.example.org/sdg#DisseminationChannel>
+    Annotations: rdfs:label "dissemination channel"
+
+Class: <https://signals360.example.org/sdg#TargetAudience>
+    Annotations: rdfs:label "target audience"
+
+Class: <https://signals360.example.org/sdg#TemporalInterval>
+    Annotations: rdfs:label "temporal interval"
+
+Class: <https://signals360.example.org/sdg#InformationDisseminationEvent> SubClassOf: bfo:0000015, sdg:utilizesChannel some <https://signals360.example.org/sdg#DisseminationChannel>, sdg:reachesAudience some <https://signals360.example.org/sdg#TargetAudience>, bfo:0000057 some <https://signals360.example.org/sdg#TemporalInterval>
+ObjectProperty: bfo:0000057
+    Annotations: rdfs:label "has participant"
+
+ObjectProperty: sdg:reachesAudience
+    Annotations: rdfs:label "reaches audience"
+
+ObjectProperty: sdg:utilizesChannel
+    Annotations: rdfs:label "utilizes channel"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"

@@ -64,7 +64,8 @@ refinement loop** and re-grounds the ontology in the inputs:
 | `chapters` | 1,977 × 2 registers = **3,954** | textbook chapters — markdown prose + woven RI-true tables, in *natural* and *semantic* registers |
 | `columns` | (regenerated from the 4,116-table spine) | a **blind** column-classification benchmark — columns carry *values only*; classify each into `vocabulary` |
 | `vocabulary` | **623** template leaves (+ BFO/CCO upper anchors) | the **SKOS** column-type label space |
-| `ontology/` | **623 templates** (8 families) | the source ontology + `sdg-vocab.ttl` |
+| `ontology/` (templates) | **623 templates** (8 families) | the generative source ontology (Manchester templates) + `sdg-vocab.ttl` |
+| `ontology/sdg-ontology.{omn,owl}` | **227 classes** | the **realized, HermiT-validated** domain ontology — the FinePDFs-derived templates instantiated into concrete OWL axioms, **consistent** under BFO 2020 (continuant ⊥ occurrent) + CCO. Load it and re-run the reasoner; `HERMIT_CERTIFICATE.md` records the verdict. |
 
 Headline: **1,977 chapters · 4,116 relational tables · 11.3M corpus tokens**, generated on local
 (solar-powered) GPUs. Membrane pass rate on the production run: **98.8%**.
@@ -76,6 +77,9 @@ Headline: **1,977 chapters · 4,116 relational tables · 11.3M corpus tokens**, 
   of proposals pass the full HermiT/RI/prose membrane.
 - every column is slot-typed from the ontology; the relational schema is referentially intact and
   DDL-valid; claims trace to cited Manchester-syntax axioms.
+- the **realized ontology** (227 classes from the derived templates) is **HermiT-consistent, 0
+  unsatisfiable**, and ships as a loadable `sdg-ontology.owl` — so the BFO/CCO grounding is *checkable*
+  by the consumer, not merely asserted.
 
 **Not yet established (stated plainly):**
 - **Downstream utility is unvalidated.** These are *proxy* quality gains. Whether the corpus lifts
