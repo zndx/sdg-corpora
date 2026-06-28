@@ -1,0 +1,243 @@
+{
+  "topic_id": 51,
+  "family": "03_directive_governance",
+  "n_chapters": 6,
+  "coverage_score": 0.2738038897514343,
+  "topic_repr": "Teaching guide\n\nIDENTIFICATION DETAILS\n\nDegree:\n\nGastronomy\n\nField of Knowledge:\n\nScience\n\nFaculty/School:\n\nLegal and Business Science\n\nCourse:\n\nBRAND AND PRODUCT POLICIES\n\nType:\n\nBasic Training\n\nECTS credits:\n\n6\n\nYear:\n\n2\n\nCode:\n\n1429\n\nTeaching period:\n\nThird semester\n\nArea:\n\nBusiness\n\nModule:\n\nBasic training\n\nTeaching type:\n\nClassroom-based\n\nLanguage:\n\nEnglish\n\nTotal number of student study hour...",
+  "terms": [
+    "annotation_classifies_artifact",
+    "directory_query_service",
+    "ebpfmap_with_key_type",
+    "entity_type_belongs_to",
+    "equiv_union_three",
+    "evidence_at_quality_tier",
+    "evidence_basic",
+    "histogram_metric_subclass",
+    "kernelhook_subclass",
+    "lift_with_support_count",
+    "mass_function_assigns_to_subset",
+    "qualifications_framework",
+    "soc2_confidentiality_subclass",
+    "transformation_informed_by"
+  ],
+  "tables": [
+    "t_annotation_classifies_artifact",
+    "t_directory_query_service",
+    "t_ebpfmap_with_key_type",
+    "t_entity_type_belongs_to",
+    "t_equiv_union_three",
+    "t_evidence_at_quality_tier",
+    "t_evidence_basic",
+    "t_histogram_metric_subclass",
+    "t_kernelhook_subclass",
+    "t_lift_with_support_count",
+    "t_mass_function_assigns_to_subset",
+    "t_qualifications_framework",
+    "t_soc2_confidentiality_subclass",
+    "t_transformation_informed_by"
+  ],
+  "topics": [
+    51,
+    140,
+    148,
+    155,
+    188
+  ],
+  "shared_tables": {
+    "annotation_classifies_artifact": [
+      26,
+      78,
+      101,
+      119,
+      158,
+      186
+    ],
+    "directory_query_service": [
+      2,
+      4,
+      26,
+      65,
+      74,
+      159
+    ],
+    "ebpfmap_with_key_type": [
+      0,
+      26,
+      106,
+      158,
+      183,
+      185,
+      188
+    ],
+    "entity_type_belongs_to": [
+      4,
+      7,
+      26,
+      36,
+      65,
+      109,
+      183,
+      185,
+      186
+    ],
+    "equiv_union_three": [
+      10,
+      21,
+      135,
+      183,
+      186
+    ],
+    "evidence_at_quality_tier": [
+      1,
+      23,
+      26,
+      40
+    ],
+    "evidence_basic": [
+      2,
+      4,
+      26,
+      45,
+      65,
+      67,
+      109,
+      120,
+      125,
+      191
+    ],
+    "histogram_metric_subclass": [
+      1,
+      10,
+      23,
+      38,
+      46,
+      92,
+      123,
+      155,
+      186
+    ],
+    "kernelhook_subclass": [
+      7,
+      42,
+      188
+    ],
+    "lift_with_support_count": [
+      12,
+      67,
+      92,
+      97,
+      181,
+      183,
+      185,
+      186,
+      187
+    ],
+    "mass_function_assigns_to_subset": [
+      4,
+      11,
+      26,
+      143
+    ],
+    "qualifications_framework": [
+      1,
+      4,
+      26,
+      35,
+      183
+    ],
+    "soc2_confidentiality_subclass": [
+      19,
+      34,
+      44,
+      95,
+      140,
+      158,
+      181,
+      186
+    ],
+    "transformation_informed_by": [
+      23,
+      41,
+      42,
+      140
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_directory_query_service_741aa6",
+      "family": "08_derived",
+      "topics": [
+        51
+      ],
+      "cited_terms": [
+        "directory_query_service",
+        "lift_with_support_count",
+        "evidence_at_quality_tier"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_union_three_d41c13",
+      "family": "01_foundation",
+      "topics": [
+        51
+      ],
+      "cited_terms": [
+        "equiv_union_three",
+        "evidence_at_quality_tier",
+        "evidence_basic"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_at_quality_tier_361de3",
+      "family": "06_belief_structure",
+      "topics": [
+        51
+      ],
+      "cited_terms": [
+        "evidence_at_quality_tier",
+        "entity_type_belongs_to",
+        "annotation_classifies_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_at_quality_tier_8c58b2",
+      "family": "06_belief_structure",
+      "topics": [
+        51
+      ],
+      "cited_terms": [
+        "evidence_at_quality_tier",
+        "histogram_metric_subclass",
+        "soc2_confidentiality_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_at_quality_tier_e5e1ad",
+      "family": "06_belief_structure",
+      "topics": [
+        51,
+        140,
+        148,
+        155,
+        188
+      ],
+      "cited_terms": [
+        "evidence_at_quality_tier",
+        "kernelhook_subclass",
+        "transformation_informed_by"
+      ]
+    },
+    {
+      "id": "ch_live_qualifications_framework_919c26",
+      "family": "08_derived",
+      "topics": [
+        51
+      ],
+      "cited_terms": [
+        "qualifications_framework",
+        "mass_function_assigns_to_subset",
+        "ebpfmap_with_key_type"
+      ]
+    }
+  ]
+}

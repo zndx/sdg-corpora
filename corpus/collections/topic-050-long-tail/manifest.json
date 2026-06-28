@@ -1,342 +1,69 @@
 {
   "topic_id": 50,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.13132724165916443,
+  "n_chapters": 1,
+  "coverage_score": 0.09399588406085968,
   "topic_repr": "Logical Biological\u2019s purpose is to enable scientists to create a healthier world by being your trusted partner of choice for human biospecimens.\n\nWe specialise in providing human tissues, isolated blood cell populations, PBMCs, serum, plasma, swabs, and other biospecimens for diagnostics and drug development.\n\nWe understand your specific requirements, before condensing our extensive list of materi...",
   "terms": [
-    "evidence_correlated_with",
-    "evidence_independent_of",
-    "lift_with_baseline_rate",
-    "pci_dss_requirement",
-    "pignistic_transformation"
+    "ganglion_cyst_imaging_finding",
+    "labrun_subclass",
+    "transformation_generates_entity"
   ],
   "tables": [
-    "t_evidence_correlated_with",
-    "t_evidence_independent_of",
-    "t_lift_with_baseline_rate",
-    "t_pci_dss_requirement",
-    "t_pignistic_transformation"
+    "t_ganglion_cyst_imaging_finding",
+    "t_labrun_subclass",
+    "t_transformation_generates_entity"
   ],
   "topics": [
-    2,
-    3,
-    15,
-    23,
-    24,
-    30,
-    37,
-    43,
-    50,
-    51,
-    57,
-    65,
-    73,
-    96,
-    107,
-    111,
-    123,
-    126,
-    133,
-    138,
-    143,
-    148,
-    155,
-    157,
-    159,
-    169,
-    176,
-    183,
-    194,
-    199
+    50
   ],
   "shared_tables": {
-    "evidence_correlated_with": [
-      54,
-      135,
-      174,
-      194
-    ],
-    "lift_with_baseline_rate": [
-      39,
-      54,
-      135,
-      148,
-      194
-    ],
-    "pci_dss_requirement": [
+    "ganglion_cyst_imaging_finding": [
       2,
-      15,
-      33,
-      35,
-      39,
+      4,
+      30,
       47,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
-      106,
-      108,
-      115,
-      117,
-      134,
+      81,
+      109,
       135,
-      148,
-      150,
-      151,
-      165,
+      139,
       181,
       183,
-      185,
-      197
+      186
     ],
-    "pignistic_transformation": [
-      80,
-      174
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      12,
+      14,
+      67,
+      72,
+      78,
+      135,
+      163
+    ],
+    "transformation_generates_entity": [
+      11,
+      26,
+      42,
+      44,
+      183,
+      185,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "06f3b768ec1a708c",
-      "family": "07_long_tail",
+      "id": "ch_live_labrun_subclass_63fb5d",
+      "family": "02_observation_measurement",
       "topics": [
-        50,
-        51,
-        133
+        50
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "19b88ce4883f074f",
-      "family": "07_long_tail",
-      "topics": [
-        37,
-        50,
-        73
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "23c392c0f9e65e9b",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        65,
-        169
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "58ee217ad8914614",
-      "family": "07_long_tail",
-      "topics": [
-        43,
-        50,
-        176
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "7b885424b34f25fc",
-      "family": "07_long_tail",
-      "topics": [
-        24,
-        50,
-        123
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "86d0982beff8acba",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        107,
-        148
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "9c78ef0913501fff",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        96,
-        199
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "b01aa7e90190b38f",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        143,
-        194
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "c8ba64f6d00752df",
-      "family": "07_long_tail",
-      "topics": [
-        15,
-        50,
-        183
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "e4e304097dc8e9a1",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        126,
-        159
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "e8b7776e9be6564e",
-      "family": "07_long_tail",
-      "topics": [
-        3,
-        50,
-        65
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "edfcd1eaca11a282",
-      "family": "07_long_tail",
-      "topics": [
-        23,
-        50,
-        138
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "eee3e763cde0e954",
-      "family": "07_long_tail",
-      "topics": [
-        50,
-        155,
-        157
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "f034fd982e40fa99",
-      "family": "07_long_tail",
-      "topics": [
-        30,
-        50,
-        111
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
-      ]
-    },
-    {
-      "id": "fb1e9e1ff12e65ae",
-      "family": "07_long_tail",
-      "topics": [
-        2,
-        50,
-        57
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "lift_with_baseline_rate",
-        "evidence_correlated_with",
-        "pignistic_transformation",
-        "evidence_independent_of"
+        "labrun_subclass",
+        "ganglion_cyst_imaging_finding",
+        "transformation_generates_entity"
       ]
     }
   ]

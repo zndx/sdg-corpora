@@ -1,43 +1,601 @@
 # Collection — topic 26 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **125 chapters** · **11 topics** (target + style) · **229 ontology terms** · **229 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 26: topic 8, topic 19, topic 28, topic 32, topic 34, topic 35, topic 54, topic 56, topic 80, topic 102, topic 103, topic 107, topic 110, topic 112, topic 117, topic 119, topic 139, topic 151, topic 155, topic 163, topic 166, topic 173, topic 185, topic 188, topic 195, topic 196, topic 197, topic 198.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 26: topic 31, topic 36, topic 40, topic 43, topic 51, topic 53, topic 87, topic 92, topic 103, topic 122.
 
 > **Topic gist** (representative FinePDFs text): US OFFICE OF PERSONNEL MANAGE1vlENT OFFICE OF THE INSPECTOR GENERAL OFFICE OF AUDITS. EillalA uditReport Subject: . .,':,. . " _;r' ..AUDIT OF THE SECURITY OF PERSONALLY .·IDltNTIFIABLE.INF01ThiATION IN TIlE FEDERAL "'~~¥.~S!IG~~IlYE:Stll.VICES DIVISION ()FTHE '.' ··';U~S.OFFICEOF.PERSONNELMANAGEMENT' . '. _ ,""., _ '", ,', ." • . ' . , . . .• . . ". .. ' .•.. . ··.RePQrtN O~· 4A~IS~OO-0... …
 
 ## Chapters
 
-- [Directive Governance Models in Regulatory Audit Systems](chapters/277f1973d46d1aa7.md)
-- [Chapter 4: Governance Frameworks and Evidence Integrity in Compliance Protocols](chapters/630d6b4ec0217097.md)
-- [Chapter 4. Directive Governance in Audit Trail Systems](chapters/7516225188c38d41.md)
-- [Chapter 7: Regulatory Compliance and Evidence Governance Frameworks](chapters/7718b87bfaf2b29d.md)
-- [Chapter 4: Governance Frameworks and Evidence Verification in Regulatory Compliance](chapters/80bcf6a3a8d3c24c.md)
-- [Chapter 4: Governance Frameworks and the Ontology of Compliance Evidence](chapters/93ab012c5123c687.md)
-- [Chapter 4: Formalizing Regulatory Compliance in Ontological Frameworks](chapters/9e87a854d422c861.md)
-- [Chapter 4: Governance Frameworks and Evidence Verification in Cross-Border Compliance](chapters/abbc1c916acb2be6.md)
-- [Chapter 4: Ontological Mapping of Compliance Directives and Evidence Chains](chapters/b311a0f372069ad8.md)
-- [Chapter 4: Governance Frameworks and Evidence Alignment in Regulatory Compliance](chapters/b67c7360815897b4.md)
-- [Chapter 4: Ontological Structures in Governance and Compliance Frameworks](chapters/be88cc0afb510a10.md)
-- [Chapter 4: Ontological Structures in Regulatory Compliance and Evidence Management](chapters/c724e6007a3c458e.md)
-- [Chapter 4: Regulatory Compliance and Evidence Management in Distributed Systems](chapters/c74668bd15bf7a66.md)
-- [Chapter 4: Governance Frameworks and Evidence-Based Compliance Mechanisms](chapters/cdd527de7ce70ce9.md)
-- [Chapter 4: Governance Frameworks and Compliance Axioms in Directive Implementation](chapters/fea3a3a41c94ee76.md)
+- [ch_live_account_authorization_record_16073a](chapters/ch_live_account_authorization_record_16073a.md)
+- [ch_live_aggregation_grouped_by_2ed1de](chapters/ch_live_aggregation_grouped_by_2ed1de.md)
+- [ch_live_allocation_associated_with_agent_2b9458](chapters/ch_live_allocation_associated_with_agent_2b9458.md)
+- [ch_live_allocation_associated_with_agent_498976](chapters/ch_live_allocation_associated_with_agent_498976.md)
+- [ch_live_allocation_at_run_id_0dd3d4](chapters/ch_live_allocation_at_run_id_0dd3d4.md)
+- [ch_live_allocation_at_run_id_8f13f2](chapters/ch_live_allocation_at_run_id_8f13f2.md)
+- [ch_live_annotation_assigned_by_884b61](chapters/ch_live_annotation_assigned_by_884b61.md)
+- [ch_live_annotation_basic_0a6aa1](chapters/ch_live_annotation_basic_0a6aa1.md)
+- [ch_live_annotation_basic_c6f199](chapters/ch_live_annotation_basic_c6f199.md)
+- [ch_live_annotation_classifies_artifact_fc1104](chapters/ch_live_annotation_classifies_artifact_fc1104.md)
+- [ch_live_annotation_classifies_class_c04fed](chapters/ch_live_annotation_classifies_class_c04fed.md)
+- [ch_live_anonymous_demographic_information_0a26b4](chapters/ch_live_anonymous_demographic_information_0a26b4.md)
+- [ch_live_appointment_scheduling_process_0df95f](chapters/ch_live_appointment_scheduling_process_0df95f.md)
+- [ch_live_appointment_scheduling_process_228349](chapters/ch_live_appointment_scheduling_process_228349.md)
+- [ch_live_appointment_scheduling_process_f888ad](chapters/ch_live_appointment_scheduling_process_f888ad.md)
+- [ch_live_artifact_governed_by_policy_b0b609](chapters/ch_live_artifact_governed_by_policy_b0b609.md)
+- [ch_live_artifact_not_revoked_24d623](chapters/ch_live_artifact_not_revoked_24d623.md)
+- [ch_live_artifact_not_revoked_3f53b0](chapters/ch_live_artifact_not_revoked_3f53b0.md)
+- [ch_live_artifact_with_universal_002e14](chapters/ch_live_artifact_with_universal_002e14.md)
+- [ch_live_attribute_set_max_attrs_a007df](chapters/ch_live_attribute_set_max_attrs_a007df.md)
+- [ch_live_audit_basic_c19955](chapters/ch_live_audit_basic_c19955.md)
+- [ch_live_audit_basic_d9f0a5](chapters/ch_live_audit_basic_d9f0a5.md)
+- [ch_live_audit_for_period_3754b3](chapters/ch_live_audit_for_period_3754b3.md)
+- [ch_live_audit_for_period_81a01a](chapters/ch_live_audit_for_period_81a01a.md)
+- [ch_live_audit_for_period_919ff9](chapters/ch_live_audit_for_period_919ff9.md)
+- [ch_live_audit_for_period_9bc387](chapters/ch_live_audit_for_period_9bc387.md)
+- [ch_live_audit_for_period_b0c69f](chapters/ch_live_audit_for_period_b0c69f.md)
+- [ch_live_audit_for_period_c27953](chapters/ch_live_audit_for_period_c27953.md)
+- [ch_live_audit_for_period_dbfec4](chapters/ch_live_audit_for_period_dbfec4.md)
+- [ch_live_audit_for_period_dcfb93](chapters/ch_live_audit_for_period_dcfb93.md)
+- [ch_live_audit_subclass_2555c7](chapters/ch_live_audit_subclass_2555c7.md)
+- [ch_live_audit_subclass_e5393d](chapters/ch_live_audit_subclass_e5393d.md)
+- [ch_live_audit_subclass_fd27e4](chapters/ch_live_audit_subclass_fd27e4.md)
+- [ch_live_belief_interval_basic_336a07](chapters/ch_live_belief_interval_basic_336a07.md)
+- [ch_live_cardinality_min_two_generic_66aa97](chapters/ch_live_cardinality_min_two_generic_66aa97.md)
+- [ch_live_column_added_at_version_041232](chapters/ch_live_column_added_at_version_041232.md)
+- [ch_live_column_added_at_version_28ee87](chapters/ch_live_column_added_at_version_28ee87.md)
+- [ch_live_constraint_check_subclass_94efcb](chapters/ch_live_constraint_check_subclass_94efcb.md)
+- [ch_live_constraint_subclass_45d7ed](chapters/ch_live_constraint_subclass_45d7ed.md)
+- [ch_live_constraint_with_severity_classification_b1897c](chapters/ch_live_constraint_with_severity_classification_b1897c.md)
+- [ch_live_control_basic_7b5663](chapters/ch_live_control_basic_7b5663.md)
+- [ch_live_control_observed_via_6dbdbf](chapters/ch_live_control_observed_via_6dbdbf.md)
+- [ch_live_dataset_snapshot_subclass_f672c5](chapters/ch_live_dataset_snapshot_subclass_f672c5.md)
+- [ch_live_descriptive_either_evidence_or_claim_14688f](chapters/ch_live_descriptive_either_evidence_or_claim_14688f.md)
+- [ch_live_directive_not_superseded_20d9ab](chapters/ch_live_directive_not_superseded_20d9ab.md)
+- [ch_live_directory_query_service_9004b8](chapters/ch_live_directory_query_service_9004b8.md)
+- [ch_live_directory_query_service_d4f5ee](chapters/ch_live_directory_query_service_d4f5ee.md)
+- [ch_live_ebpfmap_with_key_type_17d850](chapters/ch_live_ebpfmap_with_key_type_17d850.md)
+- [ch_live_ebpfmap_with_max_entries_01723e](chapters/ch_live_ebpfmap_with_max_entries_01723e.md)
+- [ch_live_entity_match_link_9a01f8](chapters/ch_live_entity_match_link_9a01f8.md)
+- [ch_live_entomological_surveillance_record_805342](chapters/ch_live_entomological_surveillance_record_805342.md)
+- [ch_live_executive_leadership_role_2a302c](chapters/ch_live_executive_leadership_role_2a302c.md)
+- [ch_live_executive_leadership_role_563d54](chapters/ch_live_executive_leadership_role_563d54.md)
+- [ch_live_existential_generic_2cdaeb](chapters/ch_live_existential_generic_2cdaeb.md)
+- [ch_live_financial_strategy_oversight_555433](chapters/ch_live_financial_strategy_oversight_555433.md)
+- [ch_live_ganglion_cyst_tissue_origin_516fbf](chapters/ch_live_ganglion_cyst_tissue_origin_516fbf.md)
+- [ch_live_ice_subclass_with_part_045eff](chapters/ch_live_ice_subclass_with_part_045eff.md)
+- [ch_live_information_dissemination_event_731679](chapters/ch_live_information_dissemination_event_731679.md)
+- [ch_live_kernel_event_with_comm_876007](chapters/ch_live_kernel_event_with_comm_876007.md)
+- [ch_live_kernelhook_observes_syscall_xref_179689](chapters/ch_live_kernelhook_observes_syscall_xref_179689.md)
+- [ch_live_labrun_has_operator_1e6ec1](chapters/ch_live_labrun_has_operator_1e6ec1.md)
+- [ch_live_labrun_has_operator_3e53a7](chapters/ch_live_labrun_has_operator_3e53a7.md)
+- [ch_live_legal_advocate_role_6850ba](chapters/ch_live_legal_advocate_role_6850ba.md)
+- [ch_live_lineage_edge_at_run_time_bffe22](chapters/ch_live_lineage_edge_at_run_time_bffe22.md)
+- [ch_live_log_within_span_context_3c4fd8](chapters/ch_live_log_within_span_context_3c4fd8.md)
+- [ch_live_marketing_director_role_470b4e](chapters/ch_live_marketing_director_role_470b4e.md)
+- [ch_live_measurement_with_op_artifact_67cb22](chapters/ch_live_measurement_with_op_artifact_67cb22.md)
+- [ch_live_metric_observed_by_event_2dd0a5](chapters/ch_live_metric_observed_by_event_2dd0a5.md)
+- [ch_live_metric_with_aggregation_bc9384](chapters/ch_live_metric_with_aggregation_bc9384.md)
+- [ch_live_observation_precedes_other_2f6d96](chapters/ch_live_observation_precedes_other_2f6d96.md)
+- [ch_live_observation_with_participant_768b64](chapters/ch_live_observation_with_participant_768b64.md)
+- [ch_live_patient_insurance_record_8063f3](chapters/ch_live_patient_insurance_record_8063f3.md)
+- [ch_live_policy_basic_4f17aa](chapters/ch_live_policy_basic_4f17aa.md)
+- [ch_live_policy_constrains_only_artifact_313e00](chapters/ch_live_policy_constrains_only_artifact_313e00.md)
+- [ch_live_policy_effective_period_299fba](chapters/ch_live_policy_effective_period_299fba.md)
+- [ch_live_policy_effective_period_cdf4bf](chapters/ch_live_policy_effective_period_cdf4bf.md)
+- [ch_live_policy_enforced_by_5dc722](chapters/ch_live_policy_enforced_by_5dc722.md)
+- [ch_live_policy_min_one_enforcer_bc55f0](chapters/ch_live_policy_min_one_enforcer_bc55f0.md)
+- [ch_live_policy_only_applies_to_6ec258](chapters/ch_live_policy_only_applies_to_6ec258.md)
+- [ch_live_policy_only_governs_artifacts_6ef0c0](chapters/ch_live_policy_only_governs_artifacts_6ef0c0.md)
+- [ch_live_policy_only_governs_artifacts_a036a2](chapters/ch_live_policy_only_governs_artifacts_a036a2.md)
+- [ch_live_process_max_one_operator_b51dde](chapters/ch_live_process_max_one_operator_b51dde.md)
+- [ch_live_profiling_produces_profile_ebb31b](chapters/ch_live_profiling_produces_profile_ebb31b.md)
+- [ch_live_program_with_entry_exactly_one_0055df](chapters/ch_live_program_with_entry_exactly_one_0055df.md)
+- [ch_live_provenance_agent_subclass_9c8020](chapters/ch_live_provenance_agent_subclass_9c8020.md)
+- [ch_live_quality_assurance_initiative_db61f8](chapters/ch_live_quality_assurance_initiative_db61f8.md)
+- [ch_live_radicalization_process_0b69a0](chapters/ch_live_radicalization_process_0b69a0.md)
+- [ch_live_radicalization_process_cd1c9a](chapters/ch_live_radicalization_process_cd1c9a.md)
+- [ch_live_regional_quality_benchmark_60f6e5](chapters/ch_live_regional_quality_benchmark_60f6e5.md)
+- [ch_live_requirement_traces_to_46dbbb](chapters/ch_live_requirement_traces_to_46dbbb.md)
+- [ch_live_requirement_verified_by_69f7dd](chapters/ch_live_requirement_verified_by_69f7dd.md)
+- [ch_live_schema_revision_of_6ce587](chapters/ch_live_schema_revision_of_6ce587.md)
+- [ch_live_schemaorg_creativework_author_dba724](chapters/ch_live_schemaorg_creativework_author_dba724.md)
+- [ch_live_schemaorg_org_country_fba0a8](chapters/ch_live_schemaorg_org_country_fba0a8.md)
+- [ch_live_schemaorg_person_affiliation_28fcd1](chapters/ch_live_schemaorg_person_affiliation_28fcd1.md)
+- [ch_live_schemaorg_person_roleat_64bb9c](chapters/ch_live_schemaorg_person_roleat_64bb9c.md)
+- [ch_live_schemaorg_product_brand_efba21](chapters/ch_live_schemaorg_product_brand_efba21.md)
+- [ch_live_schemaorg_product_price_e0f715](chapters/ch_live_schemaorg_product_price_e0f715.md)
+- [ch_live_schemaorg_product_sku_4a4b15](chapters/ch_live_schemaorg_product_sku_4a4b15.md)
+- [ch_live_schemaorg_review_target_420c0c](chapters/ch_live_schemaorg_review_target_420c0c.md)
+- [ch_live_schemaorg_review_target_4d1321](chapters/ch_live_schemaorg_review_target_4d1321.md)
+- [ch_live_schemaorg_review_target_756b7f](chapters/ch_live_schemaorg_review_target_756b7f.md)
+- [ch_live_school_security_policy_2aacff](chapters/ch_live_school_security_policy_2aacff.md)
+- [ch_live_soc2_processing_integrity_6a44b1](chapters/ch_live_soc2_processing_integrity_6a44b1.md)
+- [ch_live_soc2_processing_integrity_f55fb4](chapters/ch_live_soc2_processing_integrity_f55fb4.md)
+- [ch_live_span_with_attribute_a83455](chapters/ch_live_span_with_attribute_a83455.md)
+- [ch_live_state_observed_at_time_8f81ea](chapters/ch_live_state_observed_at_time_8f81ea.md)
+- [ch_live_state_of_system_block_581879](chapters/ch_live_state_of_system_block_581879.md)
+- [ch_live_student_privacy_expectation_2a219d](chapters/ch_live_student_privacy_expectation_2a219d.md)
+- [ch_live_survey_response_record_65e510](chapters/ch_live_survey_response_record_65e510.md)
+- [ch_live_syscall_subclass_a8e739](chapters/ch_live_syscall_subclass_a8e739.md)
+- [ch_live_syscall_subclass_d39406](chapters/ch_live_syscall_subclass_d39406.md)
+- [ch_live_telemetry_span_observes_syscall_bc6c16](chapters/ch_live_telemetry_span_observes_syscall_bc6c16.md)
+- [ch_live_third_party_data_sharing_8e6300](chapters/ch_live_third_party_data_sharing_8e6300.md)
+- [ch_live_trace_basic_68aeb9](chapters/ch_live_trace_basic_68aeb9.md)
+- [ch_live_trace_subclass_6dfc54](chapters/ch_live_trace_subclass_6dfc54.md)
+- [ch_live_trace_with_root_span_f48dfa](chapters/ch_live_trace_with_root_span_f48dfa.md)
+- [ch_live_trace_with_service_name_a4f618](chapters/ch_live_trace_with_service_name_a4f618.md)
+- [ch_live_trace_with_service_name_cb1f90](chapters/ch_live_trace_with_service_name_cb1f90.md)
+- [ch_live_universal_combined_with_existential_1d16db](chapters/ch_live_universal_combined_with_existential_1d16db.md)
+- [ch_live_video_surveillance_activity_03b75c](chapters/ch_live_video_surveillance_activity_03b75c.md)
+- [ch_live_video_surveillance_activity_bcd903](chapters/ch_live_video_surveillance_activity_bcd903.md)
+- [ch_live_young_adult_speaker_role_3d8e38](chapters/ch_live_young_adult_speaker_role_3d8e38.md)
+- [ch_live_young_adult_speaker_role_f46182](chapters/ch_live_young_adult_speaker_role_f46182.md)
+- [ch_live_young_adult_speaker_role_f54f2e](chapters/ch_live_young_adult_speaker_role_f54f2e.md)
 
 ## Ontology terms grounding this collection
 
-- `attestation_signed_by` — {X} is a process that signed by person
-- `attestation_with_supporting_evidence` — {X} is a process that with supporting evidence {Y}
-- `control_with_evidence_requirement` — {X} is a directive information content entity that requires evidence {Y}
-- `gdpr_lawful_basis` — {X} is a directive information content entity that has lawful basis {Y}
-- `policy_with_jurisdiction` — {X} is a directive information content entity that has jurisdiction {Y}
+- `account_authorization_record` — An AccountAuthorizationRecord is an information content entity that registers a SocialNetworkingApplication and assigns 
+- `agent_with_role` — {X} is an artifact that has agent role {Y}
+- `aggregation_grouped_by` — {X} is a descriptive information content entity that grouped by designative information content entity
+- `aggregation_over_time_window` — {X} is a descriptive information content entity that over time window {Y}
+- `allocation_associated_with_agent` — {X} is a process that was associated with {Y}
+- `allocation_at_run_id` — {X} is a process that at run identifier {Y}
+- `allocation_basic` — {X} is a process
+- `allocation_completed_at` — {X} is a process that completed at {Y}
+- `allocation_subclass` — {X} is a process that executes transformation {Y}
+- `allocation_succeeded_or_failed` — {X} is equivalent to process and {Y} or {Z}
+- `allocation_with_run_status` — {X} is a process that has run status {Y}
+- `annotation_assigned_by` — {X} is a descriptive information content entity that assigned by {Y}
+- `annotation_at_tier` — {X} is a descriptive information content entity that at tier {Y}
+- `annotation_basic` — {X} is a descriptive information content entity
+- `annotation_classifies_artifact` — {X} is a descriptive information content entity
+- `annotation_classifies_class` — {X} is a descriptive information content entity that classifies {Y}
+- `annotation_governed_by_classification_policy` — {X} is a descriptive information content entity that governed by directive information content entity
+- `annotation_only_about_artifact` — {X} is a descriptive information content entity
+- `anonymous_demographic_information` — AnonymousDemographicInformation is equivalent to DemographicInformation and not PersonallyIdentifiableInformation.
+- `appointment_scheduling_process` — AppointmentSchedulingProcess is a process operated by a ReceptionistAgent that targets a PatientAppointmentSchedule.
+- `artifact_governed_by_policy` — {X} is an artifact that governed by directive information content entity
+- `artifact_max_one_owner` — {X} is an artifact
+- `artifact_not_revoked` — {X} is not {Y}
+- `artifact_with_min_two_parts` — {X} is an artifact
+- `artifact_with_universal` — {X} is an artifact that {p} {Y}
+- `attribute_set_max_attrs` — {X} is a descriptive information content entity
+- `attribute_set_min_one` — {X} is a descriptive information content entity
+- `attribute_set_supports_outlier_claim` — {X} is a descriptive information content entity that supports {Y}
+- `attrkey_subclass` — {X} is a designative information content entity that describes property {Y}
+- `audit_basic` — {X} is a process
+- `audit_for_period` — {X} is a process that for audit period {Y}
+- `audit_subclass` — {X} is a process that audits control directive information content entity
+- `audit_targets_data_artifact` — {X} is a process that audits control artifact
+- `baseline_for_metric` — {X} is a descriptive information content entity that baseline for {Y}
+- `belief_function_for` — {X} is a descriptive information content entity that belief for claim {Y}
+- `belief_interval_basic` — {X} is a descriptive information content entity
+- `belief_interval_equiv_bel_and_pl` — Class: {X:Class} EquivalentTo: cco:DescriptiveICE and (sdg:hasBeliefLowerBound some {Y:Class}) and (sdg:hasPlausibilityU
+- `belief_interval_exactly_two_bounds` — {X} is a descriptive information content entity
+- `bullying_response_process` — A BullyingResponseProcess is an Occurrent that has a participant who is a SchoolStaffRole.
+- `cardinality_exactly_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} exactly 1 {Y:Class}
+- `cardinality_max_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} max 1 {Y:Class}
+- `cardinality_min_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} min 1 {Y:Class}
+- `cardinality_min_two_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} min 2 {Y:Class}
+- `census_reporting_event` — A CensusReportingEvent is an InformationContentEntity that occurs during a CensusPeriod, tracks a SocialEnterpriseSector
+- `claim_basic` — {X} is a descriptive information content entity
+- `claim_not_disconfirmed` — {X} is not {Y}
+- `claim_subclass` — {X} is a descriptive information content entity that claim about {Y}
+- `claim_supported_by_evidence` — {X} is a descriptive information content entity that supported by evidence {Y}
+- `claim_with_belief_interval` — {X} is a descriptive information content entity that has belief interval {Y}
+- `classification_assigns_tier` — {X} is a process that assigns tier {Y}
+- `client_data_record` — A ClientDataRecord is an information content entity that contains some ClientStatisticalInformation.
+- `clinical_performance_evaluation` — A ClinicalPerformanceEvaluation is an InformationContentEntity that utilizes some QuantitativeAnalyticTool, evaluates so
+- `column_added_at_version` — {X} is a descriptive information content entity that added at schema version {Y}
+- `conjunctive_combination` — {X} is a descriptive information content entity that conjunctively combines {Y}
+- `constraint_check_subclass` — {X} is a directive information content entity that checks {Y}
+- `constraint_subclass` — {X} is a directive information content entity that constrains {Y}
+- `constraint_with_severity_classification` — {X} is a directive information content entity that has severity {Y}
+- `control_basic` — {X} is a directive information content entity
+- `control_equiv_implements_with_owner` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:implements some {Y:Class}) and (sdg:hasOwner some cco:Person)
+- `control_implements` — {X} is a directive information content entity that implements {Y}
+- `control_min_one_owner` — {X} is a directive information content entity
+- `control_observed_via` — {X} is a directive information content entity that observed via {Y}
+- `control_with_owner` — {X} is a directive information content entity
+- `counter_metric_subclass` — {X} is an artifact that has metric kind {Y}
+- `dataset_snapshot_subclass` — {X} is an artifact that snapshot of {Y}
+- `dbpedia_label_alignment` — {X} is a descriptive information content entity that aligned to dbpedia label {Y}
+- `dempster_combinant_first` — {X} is a descriptive information content entity that has first combinant {Y}
+- `dempster_combination_subclass` — {X} is a descriptive information content entity that combines via dempster {Y}
+- `dengue_transmission_process` — A DengueTransmissionProcess is a BFO process that involves a HumanPopulation via sdg:involvesHost and an AedesAegyptiVec
+- `descriptive_either_evidence_or_claim` — {X} is equivalent to descriptive information content entity and {Y} or {Z}
+- `descriptive_not_retracted` — {X} is not {Y}
+- `directive_not_obsolete` — {X} is not {Y}
+- `directive_not_superseded` — {X} is not {Y}
+- `directive_only_governs_artifact` — {X} is a directive information content entity that governs {Y}
+- `directive_union_constraint_or_policy` — {X} is equivalent to directive information content entity and {Y} or {Z}
+- `directory_query_service` — A DirectoryQueryService is a behavioral process that targets a NetworkUser and generates a DirectoryResponse.
+- `division_eligibility_constraint` — A DivisionEligibilityConstraint is equivalent to a qualified athlete status that explicitly excludes cross-division tran
+- `ebpf_event_observed_pid` — {X} is a process that observes pid {Y}
+- `ebpf_event_subclass` — {X} is a process that captured by {Y}
+- `ebpfevent_at_kernel_hook_xref` — {X} is a process that at kernel hook artifact
+- `ebpfmap_with_key_type` — {X} is an artifact that has key type {Y}
+- `ebpfmap_with_max_entries` — {X} is an artifact that has max entries {Y}
+- `ebpfmap_with_value_type` — {X} is an artifact that has value type map {Y}
+- `ebpfprogram_exactly_one_type` — {X} is an artifact
+- `ebpfprogram_loaded_in_kernel` — {X} is an artifact that loaded in {Y}
+- `ebpfprogram_observes_syscall` — {X} is an artifact that observes syscall {Y}
+- `entity_match_link` — {X} is a descriptive information content entity that matches entity {Y}
+- `entity_type_belongs_to` — {X} is a descriptive information content entity that entity type belongs to {Y}
+- `entomological_surveillance_record` — An EntomologicalSurveillanceRecord is a BFO continuant that realizes a VectorSpeciesIdentification via sdg:realizes and 
+- `equiv_intersect_with_two_restrictions` — {X} is equivalent to {Y} that {p} {Z} and {q} {W}
+- `evidence_at_quality_tier` — {X} is a descriptive information content entity that at quality tier {Y}
+- `evidence_basic` — {X} is a descriptive information content entity
+- `evidence_for_audit` — {X} is a descriptive information content entity that evidence for process process
+- `executive_leadership_role` — An ExecutiveLeadershipRole is a Role that reports exactly one ChiefExecutiveOfficerRole and is a member of some Executiv
+- `existential_anchored_to_artifact_via_part` — {X} is something that part of artifact
+- `existential_generic` — {X} is something that {p} {Y}
+- `existential_with_has_part` — {X} is something that has part {Y}
+- `existential_with_part_of` — {X} is something that part of {Y}
+- `financial_strategy_oversight` — A FinancialStrategyOversight is a Process that directs some FinancialActivity and oversees some RiskManagementActivity.
+- `flood_defence_condition_characterisation` — FloodDefenceConditionCharacterisation is a process that involves EarthObservationData and employs ValidationProcess.
+- `frame_refinement` — {X} is a descriptive information content entity that refines frame {Y}
+- `functional_dependency_lhs` — {X} is a descriptive information content entity that has fdleft hand side {Y}
+- `ganglion_cyst_tissue_origin` — GanglionCystTissueOrigin is a continuant that bears the part-of relation to some ConnectiveTissueStructure.
+- `gauge_metric_subclass` — {X} is an artifact that has metric kind {Y}
+- `home_electricity_reduction_program` — A ReductionProgram is a behavioral process that targets a HouseholdParticipant and addresses a TargetedUsageMetric.
+- `host_connection_process` — HostConnectionProcess is a process that participates in ParasiticPlant.
+- `ice_subclass_with_part` — {X} is an information content entity that has part information content entity
+- `indoor_environmental_monitoring_process` — An IndoorEnvironmentalMonitoringProcess is an Occurrent that monitors an IndoorEnvironment and uses a MonitoringProtocol
+- `information_dissemination_event` — InformationDisseminationEvent is an occurrent that utilizes a DisseminationChannel, reaches a TargetAudience, and occurs
+- `institutional_vision_statement` — An InstitutionalVisionStatement is a cco:DirectiveICE that targetsGoal some EducationalGoal and addressesStakeholder som
+- `intermediate_floor_assembly` — IntermediateFloorAssembly is a material continuant that contains a LateralRestraintStrap component.
+- `internal_communication_requirement` — InternalCommunicationRequirement is a directive ICE that specifies an EnterpriseSocialMedia and targets an Organizationa
+- `kernel_event_with_comm` — {X} is a process that with process comm {Y}
+- `kernelhook_observes_syscall_xref` — {X} is an artifact that observes syscall designative information content entity
+- `labrun_has_operator` — {X} is a process that has operator {Y}
+- `legal_advocate_role` — A LegalAdvocateRole is an agent_role that has exactly one Person as its bearer and assists some DomesticViolenceSurvivor
+- `lineage_edge_at_run_time` — {X} is a descriptive information content entity that at run time {Y}
+- `lineage_edge_max_one_target` — {X} is a descriptive information content entity
+- `lineage_edge_to_target` — {X} is a descriptive information content entity that to target {Y}
+- `log_within_span_context` — {X} is an artifact that within span context {Y}
+- `marketing_director_role` — A MarketingDirectorRole is a Role that has exactly one Person as its holder and is realized in some OrganizationalActivi
+- `mass_function_assigns_to_subset` — {X} is a descriptive information content entity that assigns mass to {Y}
+- `mass_function_basic` — {X} is a descriptive information content entity
+- `mass_function_equiv_frame_and_assignment` — Class: {X:Class} EquivalentTo: cco:DescriptiveICE and (sdg:overFrameOfDiscernment some {Y:Class}) and (sdg:assignsMassTo
+- `mass_function_min_one_focal` — {X} is a descriptive information content entity
+- `mass_function_normalized_form` — {X} is a descriptive information content entity that has normalized form {Y}
+- `measurement_subclass` — {X} is a descriptive information content entity that has dimension {Y}
+- `measurement_with_op_artifact` — {X} is a descriptive information content entity that is about {Y}
+- `measurement_with_precision` — {X} is a descriptive information content entity that has precision {Y}
+- `measurement_with_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `mental_health_education_program` — A MentalHealthEducationProgram is an Occurrent that hasDeliveredPresentation some EducationalPresentation and targetsDem
+- `metric_observed_by_event` — {X} is a descriptive information content entity
+- `metric_with_aggregation` — {X} is an artifact that has aggregation temporality {Y}
+- `nist80053_control_subclass` — {X} is a directive information content entity that nist80053 control {Y}
+- `nist80053_high_impact` — {X} is a directive information content entity that at nistimpact level {Y}
+- `observation_precedes_other` — {X} is a process that precedes {Y}
+- `observation_records_state` — {X} is a process that records {Y}
+- `observation_with_participant` — {X} is a process that has participant artifact
+- `outlier_claim_supported_by` — {X} is a descriptive information content entity that supported by {Y}
+- `patient_insurance_record` — PatientInsuranceRecord is an information content entity containing at least one InsuranceInformationItem.
+- `pdsa_improvement_model` — A PDSAImprovementModel is a Process that improves some ClinicalCare and optimizes some PatientOutcome.
+- `perf_event_subclass` — {X} is an artifact that has perf event config {Y}
+- `policy_basic` — {X} is a directive information content entity
+- `policy_classification_tier` — {X} is a directive information content entity that at classification tier {Y}
+- `policy_constrains_only_artifact` — {X} is a directive information content entity
+- `policy_effective_period` — {X} is a directive information content entity
+- `policy_enforced_by` — {X} is a directive information content entity that enforced by {Y}
+- `policy_min_one_enforcer` — {X} is a directive information content entity
+- `policy_only_applies_to` — {X} is a directive information content entity that applies to {Y}
+- `policy_only_governs_artifacts` — {X} is a directive information content entity
+- `policy_subclass` — {X} is a directive information content entity that governs {Y}
+- `primary_key_designation` — {X} is a descriptive information content entity that is primary key of {Y}
+- `process_max_one_operator` — {X} is a process
+- `process_with_participant` — {X} is a process that {p} {Y}
+- `professional_expertise_domain` — A ProfessionalExpertiseDomain is a DescriptiveICE that covers some IndustrySector and provides some ServiceType.
+- `profile_has_cardinality` — {X} is a descriptive information content entity that has cardinality {Y}
+- `profile_has_distribution` — {X} is a descriptive information content entity that has distribution {Y}
+- `profile_of_column` — {X} is a descriptive information content entity that is about {Y}
+- `profile_of_dataset` — {X} is a descriptive information content entity
+- `profiling_produces_profile` — {X} is a process that produces {Y}
+- `profiling_with_method` — {X} is a process that applies method {Y}
+- `program_with_entry_exactly_one` — {X} is an artifact
+- `provenance_agent_subclass` — {X} is an artifact that has responsibility {Y}
+- `qualification_process` — A QualificationProcess is an occurrent behavior that requires a membership registration and yields a championship entry.
+- `qualifications_framework` — A QualificationsFramework is an InformationContentEntity that articulates a LearningOutcome and specifies a Qualificatio
+- `quality_assurance_initiative` — A QualityAssuranceInitiative is a Process that targets a HigherEducationInstitution and involves a StaffMember.
+- `quantum_computer` — A QuantumComputer is a continuant that has part some Qubit.
+- `quantum_cyber_security_field` — A QuantumCyberSecurityField is an information content entity that studies some CommunicationSecurityAspect.
+- `radicalization_process` — A RadicalizationProcess is a Process that involves some AffiliatedOrganization.
+- `regional_quality_benchmark` — A RegionalQualityBenchmark is a DescriptiveICE that has a minimum threshold and a maximum threshold.
+- `requirement_traces_to` — {X} is a directive information content entity that traces to {Y}
+- `requirement_under_standard` — {X} is a directive information content entity that under standard {Y}
+- `requirement_verified_by` — {X} is a directive information content entity that verified by {Y}
+- `responsive_optic_nerve_dysfunction` — ResponsiveOpticNerveDysfunction is equivalent to OpticNerveDysfunction and not LeberOpticAtrophy.
+- `rollback_relation` — {X} is a descriptive information content entity that rolls back to {Y}
+- `schema_revision_of` — {X} is an artifact that schema revision of {Y}
+- `schema_version_subclass` — {X} is an artifact that has schema version {Y}
+- `schemaorg_creativework_author` — {X} is an artifact that has author {Y}
+- `schemaorg_creativework_date` — {X} is an artifact that has date published {Y}
+- `schemaorg_event_starttime` — {X} is an artifact that has event start time {Y}
+- `schemaorg_org_country` — {X} is an artifact that has country {Y}
+- `schemaorg_person_affiliation` — {X} is an artifact that has affiliation {Y}
+- `schemaorg_person_email` — {X} is an artifact that has email {Y}
+- `schemaorg_person_roleat` — {X} is an artifact that has role at {Y}
+- `schemaorg_place_longitude` — {X} is an artifact that has longitude {Y}
+- `schemaorg_product_brand` — {X} is an artifact that has brand {Y}
+- `schemaorg_product_price` — {X} is an artifact that has price {Y}
+- `schemaorg_product_sku` — {X} is an artifact that has sku {Y}
+- `schemaorg_review_target` — {X} is an artifact that reviews item {Y}
+- `school_security_policy` — SchoolSecurityPolicy is a DirectiveICE that targets some SafetyObjective and mustSatisfy some ConstitutionalConstraint.
+- `settlement_financing_activity` — A SettlementFinancingActivity is an Occurrent that funds some FinancialInstitution and benefits some SettlementProject.
+- `soc2_availability_subclass` — {X} is a directive information content entity that for soc2 domain {Y}
+- `soc2_processing_integrity` — {X} is a directive information content entity that for soc2 domain {Y}
+- `soc2_security_subclass` — {X} is a directive information content entity that for soc2 domain {Y}
+- `social_enterprise_annual_income` — A SocialEnterpriseAnnualIncome is a DescriptiveICE that has an AnnualIncomeValue of type decimal.
+- `span_with_attribute` — {X} is a process that has span attribute {Y}
+- `span_with_parent` — {X} is a process that has parent span {Y}
+- `span_with_status` — {X} is a process that has span status {Y}
+- `state_observed_at_time` — {X} is a descriptive information content entity that observed at {Y}
+- `state_of_system_block` — {X} is a descriptive information content entity
+- `state_transitions_from` — {X} is a descriptive information content entity that transitions from {Y}
+- `strategic_commitment` — A StrategicCommitment is a DirectiveICE that pursuesObjective some OrganizationalObjective and supportsStakeholder some 
+- `strategic_planning_process` — A StrategicPlanningProcess is a Process that targets a BusinessDivision and produces a PlanningArtifact.
+- `student_privacy_expectation` — StudentPrivacyExpectation is a DescriptiveICE that appliesTo some ProtectedLocation.
+- `subclass_not_basic` — {X} is not {Y}
+- `subclass_to_artifact` — {X} is an artifact
+- `subclass_to_independent_continuant` — {X} is an independent continuant
+- `subclass_to_process` — {X} is a process
+- `survey_response_record` — SurveyResponseRecord is a subclass of cco:InformationContentEntity that captures at least one ResearcherProfileAttribute
+- `syscall_basic` — {X} is a designative information content entity
+- `syscall_subclass` — {X} is a designative information content entity that in syscall subsystem {Y}
+- `table_provenance_source` — {X} is a descriptive information content entity that sourced from table {Y}
+- `tc_classifier_subclass` — {X} is an artifact that has tcdirection {Y}
+- `telemetry_span_observes_syscall` — {X} is a process that observes syscall designative information content entity
+- `third_party_data_sharing` — ThirdPartyDataSharing is a Process that participates in an ExternalBusinessPartner.
+- `trace_basic` — {X} is a process that has observed at {Y}
+- `trace_min_one_span` — {X} is a process
+- `trace_subclass` — {X} is a process that has spans {Y}
+- `trace_with_root_span` — {X} is an artifact that has root span {Y}
+- `trace_with_service_name` — {X} is an artifact that has service name {Y}
+- `training_partnership_development` — A TrainingPartnershipDevelopment is a Process that participatesIn some EducationalInstitution.
+- `transformation_generates_entity` — {X} is a process that generates entity {Y}
+- `universal_combined_with_existential` — {X} is something that {p} {Y}
+- `verification_basic` — {X} is a process
+- `verification_targets_artifact` — {X} is a process that targets artifact {Y}
+- `video_surveillance_activity` — VideoSurveillanceActivity is a Process that monitors some SchoolEnvironment and employs some SurveillanceDevice.
+- `xdp_action_drop` — {X} is an artifact that has xdpaction {Y}
+- `yager_combination` — {X} is a descriptive information content entity that yager combines {Y}
+- `young_adult_speaker_role` — A YoungAdultSpeakerRole is a Role that hasQualifyingIndividual exactly 1 YoungAdultIndividual and deliversPresentation s
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
-- [`t_policy_with_jurisdiction`](tables/t_policy_with_jurisdiction.sql) — realizes `policy_with_jurisdiction` · _shared with 2 other collection(s)_
+- [`t_account_authorization_record`](tables/t_account_authorization_record.sql) — realizes `account_authorization_record` · _shared with 5 other collection(s)_
+- [`t_agent_with_role`](tables/t_agent_with_role.sql) — realizes `agent_with_role` · _shared with 7 other collection(s)_
+- [`t_aggregation_grouped_by`](tables/t_aggregation_grouped_by.sql) — realizes `aggregation_grouped_by` · _shared with 6 other collection(s)_
+- [`t_aggregation_over_time_window`](tables/t_aggregation_over_time_window.sql) — realizes `aggregation_over_time_window` · _shared with 10 other collection(s)_
+- [`t_allocation_associated_with_agent`](tables/t_allocation_associated_with_agent.sql) — realizes `allocation_associated_with_agent` · _shared with 7 other collection(s)_
+- [`t_allocation_at_run_id`](tables/t_allocation_at_run_id.sql) — realizes `allocation_at_run_id` · _shared with 6 other collection(s)_
+- [`t_allocation_basic`](tables/t_allocation_basic.sql) — realizes `allocation_basic` · _shared with 3 other collection(s)_
+- [`t_allocation_completed_at`](tables/t_allocation_completed_at.sql) — realizes `allocation_completed_at` · _shared with 8 other collection(s)_
+- [`t_allocation_subclass`](tables/t_allocation_subclass.sql) — realizes `allocation_subclass` · _shared with 12 other collection(s)_
+- [`t_allocation_succeeded_or_failed`](tables/t_allocation_succeeded_or_failed.sql) — realizes `allocation_succeeded_or_failed` · _shared with 7 other collection(s)_
+- [`t_allocation_with_run_status`](tables/t_allocation_with_run_status.sql) — realizes `allocation_with_run_status` · _shared with 6 other collection(s)_
+- [`t_annotation_assigned_by`](tables/t_annotation_assigned_by.sql) — realizes `annotation_assigned_by` · _shared with 6 other collection(s)_
+- [`t_annotation_at_tier`](tables/t_annotation_at_tier.sql) — realizes `annotation_at_tier` · _shared with 4 other collection(s)_
+- [`t_annotation_basic`](tables/t_annotation_basic.sql) — realizes `annotation_basic` · _shared with 7 other collection(s)_
+- [`t_annotation_classifies_artifact`](tables/t_annotation_classifies_artifact.sql) — realizes `annotation_classifies_artifact` · _shared with 6 other collection(s)_
+- [`t_annotation_classifies_class`](tables/t_annotation_classifies_class.sql) — realizes `annotation_classifies_class` · _shared with 7 other collection(s)_
+- [`t_annotation_governed_by_classification_policy`](tables/t_annotation_governed_by_classification_policy.sql) — realizes `annotation_governed_by_classification_policy` · _shared with 5 other collection(s)_
+- [`t_annotation_only_about_artifact`](tables/t_annotation_only_about_artifact.sql) — realizes `annotation_only_about_artifact` · _shared with 8 other collection(s)_
+- [`t_anonymous_demographic_information`](tables/t_anonymous_demographic_information.sql) — realizes `anonymous_demographic_information` · _shared with 10 other collection(s)_
+- [`t_appointment_scheduling_process`](tables/t_appointment_scheduling_process.sql) — realizes `appointment_scheduling_process` · _shared with 7 other collection(s)_
+- [`t_artifact_governed_by_policy`](tables/t_artifact_governed_by_policy.sql) — realizes `artifact_governed_by_policy` · _shared with 5 other collection(s)_
+- [`t_artifact_max_one_owner`](tables/t_artifact_max_one_owner.sql) — realizes `artifact_max_one_owner` · _shared with 7 other collection(s)_
+- [`t_artifact_not_revoked`](tables/t_artifact_not_revoked.sql) — realizes `artifact_not_revoked` · _shared with 8 other collection(s)_
+- [`t_artifact_with_min_two_parts`](tables/t_artifact_with_min_two_parts.sql) — realizes `artifact_with_min_two_parts` · _shared with 6 other collection(s)_
+- [`t_artifact_with_universal`](tables/t_artifact_with_universal.sql) — realizes `artifact_with_universal` · _shared with 11 other collection(s)_
+- [`t_attribute_set_max_attrs`](tables/t_attribute_set_max_attrs.sql) — realizes `attribute_set_max_attrs` · _shared with 6 other collection(s)_
+- [`t_attribute_set_min_one`](tables/t_attribute_set_min_one.sql) — realizes `attribute_set_min_one` · _shared with 7 other collection(s)_
+- [`t_attribute_set_supports_outlier_claim`](tables/t_attribute_set_supports_outlier_claim.sql) — realizes `attribute_set_supports_outlier_claim` · _shared with 9 other collection(s)_
+- [`t_attrkey_subclass`](tables/t_attrkey_subclass.sql) — realizes `attrkey_subclass` · _shared with 9 other collection(s)_
+- [`t_audit_basic`](tables/t_audit_basic.sql) — realizes `audit_basic` · _shared with 8 other collection(s)_
+- [`t_audit_for_period`](tables/t_audit_for_period.sql) — realizes `audit_for_period` · _shared with 2 other collection(s)_
+- [`t_audit_subclass`](tables/t_audit_subclass.sql) — realizes `audit_subclass` · _shared with 2 other collection(s)_
+- [`t_audit_targets_data_artifact`](tables/t_audit_targets_data_artifact.sql) — realizes `audit_targets_data_artifact` · _shared with 5 other collection(s)_
+- [`t_baseline_for_metric`](tables/t_baseline_for_metric.sql) — realizes `baseline_for_metric` · _shared with 6 other collection(s)_
+- [`t_belief_function_for`](tables/t_belief_function_for.sql) — realizes `belief_function_for` · _shared with 4 other collection(s)_
+- [`t_belief_interval_basic`](tables/t_belief_interval_basic.sql) — realizes `belief_interval_basic` · _shared with 9 other collection(s)_
+- [`t_belief_interval_equiv_bel_and_pl`](tables/t_belief_interval_equiv_bel_and_pl.sql) — realizes `belief_interval_equiv_bel_and_pl` · _shared with 13 other collection(s)_
+- [`t_belief_interval_exactly_two_bounds`](tables/t_belief_interval_exactly_two_bounds.sql) — realizes `belief_interval_exactly_two_bounds` · _shared with 6 other collection(s)_
+- [`t_bullying_response_process`](tables/t_bullying_response_process.sql) — realizes `bullying_response_process` · _shared with 5 other collection(s)_
+- [`t_cardinality_exactly_one_generic`](tables/t_cardinality_exactly_one_generic.sql) — realizes `cardinality_exactly_one_generic` · _shared with 10 other collection(s)_
+- [`t_cardinality_max_one_generic`](tables/t_cardinality_max_one_generic.sql) — realizes `cardinality_max_one_generic` · _shared with 9 other collection(s)_
+- [`t_cardinality_min_one_generic`](tables/t_cardinality_min_one_generic.sql) — realizes `cardinality_min_one_generic` · _shared with 6 other collection(s)_
+- [`t_cardinality_min_two_generic`](tables/t_cardinality_min_two_generic.sql) — realizes `cardinality_min_two_generic` · _shared with 8 other collection(s)_
+- [`t_census_reporting_event`](tables/t_census_reporting_event.sql) — realizes `census_reporting_event` · _shared with 11 other collection(s)_
+- [`t_claim_basic`](tables/t_claim_basic.sql) — realizes `claim_basic` · _shared with 15 other collection(s)_
+- [`t_claim_not_disconfirmed`](tables/t_claim_not_disconfirmed.sql) — realizes `claim_not_disconfirmed` · _shared with 2 other collection(s)_
+- [`t_claim_subclass`](tables/t_claim_subclass.sql) — realizes `claim_subclass` · _shared with 12 other collection(s)_
+- [`t_claim_supported_by_evidence`](tables/t_claim_supported_by_evidence.sql) — realizes `claim_supported_by_evidence` · _shared with 4 other collection(s)_
+- [`t_claim_with_belief_interval`](tables/t_claim_with_belief_interval.sql) — realizes `claim_with_belief_interval` · _shared with 6 other collection(s)_
+- [`t_classification_assigns_tier`](tables/t_classification_assigns_tier.sql) — realizes `classification_assigns_tier` · _shared with 2 other collection(s)_
+- [`t_client_data_record`](tables/t_client_data_record.sql) — realizes `client_data_record` · _shared with 4 other collection(s)_
+- [`t_clinical_performance_evaluation`](tables/t_clinical_performance_evaluation.sql) — realizes `clinical_performance_evaluation` · _shared with 5 other collection(s)_
+- [`t_column_added_at_version`](tables/t_column_added_at_version.sql) — realizes `column_added_at_version` · _shared with 4 other collection(s)_
+- [`t_conjunctive_combination`](tables/t_conjunctive_combination.sql) — realizes `conjunctive_combination` · _shared with 10 other collection(s)_
+- [`t_constraint_check_subclass`](tables/t_constraint_check_subclass.sql) — realizes `constraint_check_subclass` · _shared with 12 other collection(s)_
+- [`t_constraint_subclass`](tables/t_constraint_subclass.sql) — realizes `constraint_subclass` · _shared with 5 other collection(s)_
+- [`t_constraint_with_severity_classification`](tables/t_constraint_with_severity_classification.sql) — realizes `constraint_with_severity_classification` · _shared with 5 other collection(s)_
+- [`t_control_basic`](tables/t_control_basic.sql) — realizes `control_basic` · _shared with 8 other collection(s)_
+- [`t_control_equiv_implements_with_owner`](tables/t_control_equiv_implements_with_owner.sql) — realizes `control_equiv_implements_with_owner` · _shared with 4 other collection(s)_
+- [`t_control_implements`](tables/t_control_implements.sql) — realizes `control_implements` · _shared with 10 other collection(s)_
+- [`t_control_min_one_owner`](tables/t_control_min_one_owner.sql) — realizes `control_min_one_owner` · _shared with 10 other collection(s)_
+- [`t_control_observed_via`](tables/t_control_observed_via.sql) — realizes `control_observed_via` · _shared with 6 other collection(s)_
+- [`t_control_with_owner`](tables/t_control_with_owner.sql) — realizes `control_with_owner` · _shared with 9 other collection(s)_
+- [`t_counter_metric_subclass`](tables/t_counter_metric_subclass.sql) — realizes `counter_metric_subclass` · _shared with 9 other collection(s)_
+- [`t_dataset_snapshot_subclass`](tables/t_dataset_snapshot_subclass.sql) — realizes `dataset_snapshot_subclass` · _shared with 10 other collection(s)_
+- [`t_dbpedia_label_alignment`](tables/t_dbpedia_label_alignment.sql) — realizes `dbpedia_label_alignment` · _shared with 2 other collection(s)_
+- [`t_dempster_combinant_first`](tables/t_dempster_combinant_first.sql) — realizes `dempster_combinant_first` · _shared with 8 other collection(s)_
+- [`t_dempster_combination_subclass`](tables/t_dempster_combination_subclass.sql) — realizes `dempster_combination_subclass` · _shared with 5 other collection(s)_
+- [`t_dengue_transmission_process`](tables/t_dengue_transmission_process.sql) — realizes `dengue_transmission_process` · _shared with 9 other collection(s)_
+- [`t_descriptive_either_evidence_or_claim`](tables/t_descriptive_either_evidence_or_claim.sql) — realizes `descriptive_either_evidence_or_claim` · _shared with 8 other collection(s)_
+- [`t_descriptive_not_retracted`](tables/t_descriptive_not_retracted.sql) — realizes `descriptive_not_retracted` · _shared with 14 other collection(s)_
+- [`t_directive_not_obsolete`](tables/t_directive_not_obsolete.sql) — realizes `directive_not_obsolete` · _shared with 5 other collection(s)_
+- [`t_directive_not_superseded`](tables/t_directive_not_superseded.sql) — realizes `directive_not_superseded` · _shared with 4 other collection(s)_
+- [`t_directive_only_governs_artifact`](tables/t_directive_only_governs_artifact.sql) — realizes `directive_only_governs_artifact` · _shared with 8 other collection(s)_
+- [`t_directive_union_constraint_or_policy`](tables/t_directive_union_constraint_or_policy.sql) — realizes `directive_union_constraint_or_policy` · _shared with 6 other collection(s)_
+- [`t_directory_query_service`](tables/t_directory_query_service.sql) — realizes `directory_query_service` · _shared with 6 other collection(s)_
+- [`t_division_eligibility_constraint`](tables/t_division_eligibility_constraint.sql) — realizes `division_eligibility_constraint` · _shared with 11 other collection(s)_
+- [`t_ebpf_event_observed_pid`](tables/t_ebpf_event_observed_pid.sql) — realizes `ebpf_event_observed_pid` · _shared with 9 other collection(s)_
+- [`t_ebpf_event_subclass`](tables/t_ebpf_event_subclass.sql) — realizes `ebpf_event_subclass` · _shared with 3 other collection(s)_
+- [`t_ebpfevent_at_kernel_hook_xref`](tables/t_ebpfevent_at_kernel_hook_xref.sql) — realizes `ebpfevent_at_kernel_hook_xref` · _shared with 7 other collection(s)_
+- [`t_ebpfmap_with_key_type`](tables/t_ebpfmap_with_key_type.sql) — realizes `ebpfmap_with_key_type` · _shared with 7 other collection(s)_
+- [`t_ebpfmap_with_max_entries`](tables/t_ebpfmap_with_max_entries.sql) — realizes `ebpfmap_with_max_entries` · _shared with 7 other collection(s)_
+- [`t_ebpfmap_with_value_type`](tables/t_ebpfmap_with_value_type.sql) — realizes `ebpfmap_with_value_type` · _shared with 5 other collection(s)_
+- [`t_ebpfprogram_exactly_one_type`](tables/t_ebpfprogram_exactly_one_type.sql) — realizes `ebpfprogram_exactly_one_type` · _shared with 5 other collection(s)_
+- [`t_ebpfprogram_loaded_in_kernel`](tables/t_ebpfprogram_loaded_in_kernel.sql) — realizes `ebpfprogram_loaded_in_kernel` · _shared with 7 other collection(s)_
+- [`t_ebpfprogram_observes_syscall`](tables/t_ebpfprogram_observes_syscall.sql) — realizes `ebpfprogram_observes_syscall` · _shared with 4 other collection(s)_
+- [`t_entity_match_link`](tables/t_entity_match_link.sql) — realizes `entity_match_link` · _shared with 11 other collection(s)_
+- [`t_entity_type_belongs_to`](tables/t_entity_type_belongs_to.sql) — realizes `entity_type_belongs_to` · _shared with 9 other collection(s)_
+- [`t_entomological_surveillance_record`](tables/t_entomological_surveillance_record.sql) — realizes `entomological_surveillance_record` · _shared with 5 other collection(s)_
+- [`t_equiv_intersect_with_two_restrictions`](tables/t_equiv_intersect_with_two_restrictions.sql) — realizes `equiv_intersect_with_two_restrictions` · _shared with 12 other collection(s)_
+- [`t_evidence_at_quality_tier`](tables/t_evidence_at_quality_tier.sql) — realizes `evidence_at_quality_tier` · _shared with 4 other collection(s)_
+- [`t_evidence_basic`](tables/t_evidence_basic.sql) — realizes `evidence_basic` · _shared with 10 other collection(s)_
+- [`t_evidence_for_audit`](tables/t_evidence_for_audit.sql) — realizes `evidence_for_audit` · _shared with 7 other collection(s)_
+- [`t_executive_leadership_role`](tables/t_executive_leadership_role.sql) — realizes `executive_leadership_role` · _shared with 4 other collection(s)_
+- [`t_existential_anchored_to_artifact_via_part`](tables/t_existential_anchored_to_artifact_via_part.sql) — realizes `existential_anchored_to_artifact_via_part` · _shared with 12 other collection(s)_
+- [`t_existential_generic`](tables/t_existential_generic.sql) — realizes `existential_generic` · _shared with 5 other collection(s)_
+- [`t_existential_with_has_part`](tables/t_existential_with_has_part.sql) — realizes `existential_with_has_part` · _shared with 7 other collection(s)_
+- [`t_existential_with_part_of`](tables/t_existential_with_part_of.sql) — realizes `existential_with_part_of` · _shared with 8 other collection(s)_
+- [`t_financial_strategy_oversight`](tables/t_financial_strategy_oversight.sql) — realizes `financial_strategy_oversight` · _shared with 7 other collection(s)_
+- [`t_flood_defence_condition_characterisation`](tables/t_flood_defence_condition_characterisation.sql) — realizes `flood_defence_condition_characterisation` · _shared with 6 other collection(s)_
+- [`t_frame_refinement`](tables/t_frame_refinement.sql) — realizes `frame_refinement` · _shared with 8 other collection(s)_
+- [`t_functional_dependency_lhs`](tables/t_functional_dependency_lhs.sql) — realizes `functional_dependency_lhs` · _shared with 8 other collection(s)_
+- [`t_ganglion_cyst_tissue_origin`](tables/t_ganglion_cyst_tissue_origin.sql) — realizes `ganglion_cyst_tissue_origin` · _shared with 13 other collection(s)_
+- [`t_gauge_metric_subclass`](tables/t_gauge_metric_subclass.sql) — realizes `gauge_metric_subclass` · _shared with 9 other collection(s)_
+- [`t_home_electricity_reduction_program`](tables/t_home_electricity_reduction_program.sql) — realizes `home_electricity_reduction_program` · _shared with 7 other collection(s)_
+- [`t_host_connection_process`](tables/t_host_connection_process.sql) — realizes `host_connection_process` · _shared with 8 other collection(s)_
+- [`t_ice_subclass_with_part`](tables/t_ice_subclass_with_part.sql) — realizes `ice_subclass_with_part` · _shared with 9 other collection(s)_
+- [`t_indoor_environmental_monitoring_process`](tables/t_indoor_environmental_monitoring_process.sql) — realizes `indoor_environmental_monitoring_process` · _shared with 5 other collection(s)_
+- [`t_information_dissemination_event`](tables/t_information_dissemination_event.sql) — realizes `information_dissemination_event` · _shared with 8 other collection(s)_
+- [`t_institutional_vision_statement`](tables/t_institutional_vision_statement.sql) — realizes `institutional_vision_statement` · _shared with 12 other collection(s)_
+- [`t_intermediate_floor_assembly`](tables/t_intermediate_floor_assembly.sql) — realizes `intermediate_floor_assembly` · _shared with 7 other collection(s)_
+- [`t_internal_communication_requirement`](tables/t_internal_communication_requirement.sql) — realizes `internal_communication_requirement` · _shared with 9 other collection(s)_
+- [`t_kernel_event_with_comm`](tables/t_kernel_event_with_comm.sql) — realizes `kernel_event_with_comm` · _shared with 6 other collection(s)_
+- [`t_kernelhook_observes_syscall_xref`](tables/t_kernelhook_observes_syscall_xref.sql) — realizes `kernelhook_observes_syscall_xref` · _shared with 5 other collection(s)_
+- [`t_labrun_has_operator`](tables/t_labrun_has_operator.sql) — realizes `labrun_has_operator` · _shared with 9 other collection(s)_
+- [`t_legal_advocate_role`](tables/t_legal_advocate_role.sql) — realizes `legal_advocate_role` · _shared with 5 other collection(s)_
+- [`t_lineage_edge_at_run_time`](tables/t_lineage_edge_at_run_time.sql) — realizes `lineage_edge_at_run_time` · _shared with 5 other collection(s)_
+- [`t_lineage_edge_max_one_target`](tables/t_lineage_edge_max_one_target.sql) — realizes `lineage_edge_max_one_target` · _shared with 11 other collection(s)_
+- [`t_lineage_edge_to_target`](tables/t_lineage_edge_to_target.sql) — realizes `lineage_edge_to_target` · _shared with 8 other collection(s)_
+- [`t_log_within_span_context`](tables/t_log_within_span_context.sql) — realizes `log_within_span_context` · _shared with 9 other collection(s)_
+- [`t_marketing_director_role`](tables/t_marketing_director_role.sql) — realizes `marketing_director_role` · _shared with 5 other collection(s)_
+- [`t_mass_function_assigns_to_subset`](tables/t_mass_function_assigns_to_subset.sql) — realizes `mass_function_assigns_to_subset` · _shared with 4 other collection(s)_
+- [`t_mass_function_basic`](tables/t_mass_function_basic.sql) — realizes `mass_function_basic` · _shared with 3 other collection(s)_
+- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment` · _shared with 6 other collection(s)_
+- [`t_mass_function_min_one_focal`](tables/t_mass_function_min_one_focal.sql) — realizes `mass_function_min_one_focal` · _shared with 9 other collection(s)_
+- [`t_mass_function_normalized_form`](tables/t_mass_function_normalized_form.sql) — realizes `mass_function_normalized_form` · _shared with 2 other collection(s)_
+- [`t_measurement_subclass`](tables/t_measurement_subclass.sql) — realizes `measurement_subclass` · _shared with 10 other collection(s)_
+- [`t_measurement_with_op_artifact`](tables/t_measurement_with_op_artifact.sql) — realizes `measurement_with_op_artifact` · _shared with 7 other collection(s)_
+- [`t_measurement_with_precision`](tables/t_measurement_with_precision.sql) — realizes `measurement_with_precision` · _shared with 5 other collection(s)_
+- [`t_measurement_with_unit`](tables/t_measurement_with_unit.sql) — realizes `measurement_with_unit` · _shared with 9 other collection(s)_
+- [`t_mental_health_education_program`](tables/t_mental_health_education_program.sql) — realizes `mental_health_education_program` · _shared with 9 other collection(s)_
+- [`t_metric_observed_by_event`](tables/t_metric_observed_by_event.sql) — realizes `metric_observed_by_event` · _shared with 7 other collection(s)_
+- [`t_metric_with_aggregation`](tables/t_metric_with_aggregation.sql) — realizes `metric_with_aggregation` · _shared with 8 other collection(s)_
+- [`t_nist80053_control_subclass`](tables/t_nist80053_control_subclass.sql) — realizes `nist80053_control_subclass` · _shared with 5 other collection(s)_
+- [`t_nist80053_high_impact`](tables/t_nist80053_high_impact.sql) — realizes `nist80053_high_impact` · _shared with 8 other collection(s)_
+- [`t_observation_precedes_other`](tables/t_observation_precedes_other.sql) — realizes `observation_precedes_other` · _shared with 8 other collection(s)_
+- [`t_observation_records_state`](tables/t_observation_records_state.sql) — realizes `observation_records_state` · _shared with 14 other collection(s)_
+- [`t_observation_with_participant`](tables/t_observation_with_participant.sql) — realizes `observation_with_participant` · _shared with 8 other collection(s)_
+- [`t_outlier_claim_supported_by`](tables/t_outlier_claim_supported_by.sql) — realizes `outlier_claim_supported_by` · _shared with 10 other collection(s)_
+- [`t_patient_insurance_record`](tables/t_patient_insurance_record.sql) — realizes `patient_insurance_record` · _shared with 9 other collection(s)_
+- [`t_pdsa_improvement_model`](tables/t_pdsa_improvement_model.sql) — realizes `pdsa_improvement_model` · _shared with 10 other collection(s)_
+- [`t_perf_event_subclass`](tables/t_perf_event_subclass.sql) — realizes `perf_event_subclass` · _shared with 6 other collection(s)_
+- [`t_policy_basic`](tables/t_policy_basic.sql) — realizes `policy_basic` · _shared with 6 other collection(s)_
+- [`t_policy_classification_tier`](tables/t_policy_classification_tier.sql) — realizes `policy_classification_tier` · _shared with 9 other collection(s)_
+- [`t_policy_constrains_only_artifact`](tables/t_policy_constrains_only_artifact.sql) — realizes `policy_constrains_only_artifact` · _shared with 9 other collection(s)_
+- [`t_policy_effective_period`](tables/t_policy_effective_period.sql) — realizes `policy_effective_period` · _shared with 8 other collection(s)_
+- [`t_policy_enforced_by`](tables/t_policy_enforced_by.sql) — realizes `policy_enforced_by` · _shared with 12 other collection(s)_
+- [`t_policy_min_one_enforcer`](tables/t_policy_min_one_enforcer.sql) — realizes `policy_min_one_enforcer` · _shared with 7 other collection(s)_
+- [`t_policy_only_applies_to`](tables/t_policy_only_applies_to.sql) — realizes `policy_only_applies_to` · _shared with 5 other collection(s)_
+- [`t_policy_only_governs_artifacts`](tables/t_policy_only_governs_artifacts.sql) — realizes `policy_only_governs_artifacts` · _shared with 12 other collection(s)_
+- [`t_policy_subclass`](tables/t_policy_subclass.sql) — realizes `policy_subclass` · _shared with 9 other collection(s)_
+- [`t_primary_key_designation`](tables/t_primary_key_designation.sql) — realizes `primary_key_designation` · _shared with 7 other collection(s)_
+- [`t_process_max_one_operator`](tables/t_process_max_one_operator.sql) — realizes `process_max_one_operator` · _shared with 4 other collection(s)_
+- [`t_process_with_participant`](tables/t_process_with_participant.sql) — realizes `process_with_participant` · _shared with 10 other collection(s)_
+- [`t_professional_expertise_domain`](tables/t_professional_expertise_domain.sql) — realizes `professional_expertise_domain` · _shared with 7 other collection(s)_
+- [`t_profile_has_cardinality`](tables/t_profile_has_cardinality.sql) — realizes `profile_has_cardinality` · _shared with 7 other collection(s)_
+- [`t_profile_has_distribution`](tables/t_profile_has_distribution.sql) — realizes `profile_has_distribution` · _shared with 8 other collection(s)_
+- [`t_profile_of_column`](tables/t_profile_of_column.sql) — realizes `profile_of_column` · _shared with 6 other collection(s)_
+- [`t_profile_of_dataset`](tables/t_profile_of_dataset.sql) — realizes `profile_of_dataset` · _shared with 7 other collection(s)_
+- [`t_profiling_produces_profile`](tables/t_profiling_produces_profile.sql) — realizes `profiling_produces_profile` · _shared with 8 other collection(s)_
+- [`t_profiling_with_method`](tables/t_profiling_with_method.sql) — realizes `profiling_with_method` · _shared with 9 other collection(s)_
+- [`t_program_with_entry_exactly_one`](tables/t_program_with_entry_exactly_one.sql) — realizes `program_with_entry_exactly_one` · _shared with 10 other collection(s)_
+- [`t_provenance_agent_subclass`](tables/t_provenance_agent_subclass.sql) — realizes `provenance_agent_subclass` · _shared with 4 other collection(s)_
+- [`t_qualification_process`](tables/t_qualification_process.sql) — realizes `qualification_process` · _shared with 6 other collection(s)_
+- [`t_qualifications_framework`](tables/t_qualifications_framework.sql) — realizes `qualifications_framework` · _shared with 5 other collection(s)_
+- [`t_quality_assurance_initiative`](tables/t_quality_assurance_initiative.sql) — realizes `quality_assurance_initiative` · _shared with 7 other collection(s)_
+- [`t_quantum_computer`](tables/t_quantum_computer.sql) — realizes `quantum_computer` · _shared with 6 other collection(s)_
+- [`t_quantum_cyber_security_field`](tables/t_quantum_cyber_security_field.sql) — realizes `quantum_cyber_security_field` · _shared with 9 other collection(s)_
+- [`t_radicalization_process`](tables/t_radicalization_process.sql) — realizes `radicalization_process` · _shared with 11 other collection(s)_
+- [`t_regional_quality_benchmark`](tables/t_regional_quality_benchmark.sql) — realizes `regional_quality_benchmark` · _shared with 18 other collection(s)_
+- [`t_requirement_traces_to`](tables/t_requirement_traces_to.sql) — realizes `requirement_traces_to` · _shared with 15 other collection(s)_
+- [`t_requirement_under_standard`](tables/t_requirement_under_standard.sql) — realizes `requirement_under_standard` · _shared with 7 other collection(s)_
+- [`t_requirement_verified_by`](tables/t_requirement_verified_by.sql) — realizes `requirement_verified_by` · _shared with 7 other collection(s)_
+- [`t_responsive_optic_nerve_dysfunction`](tables/t_responsive_optic_nerve_dysfunction.sql) — realizes `responsive_optic_nerve_dysfunction` · _shared with 10 other collection(s)_
+- [`t_rollback_relation`](tables/t_rollback_relation.sql) — realizes `rollback_relation` · _shared with 6 other collection(s)_
+- [`t_schema_revision_of`](tables/t_schema_revision_of.sql) — realizes `schema_revision_of` · _shared with 9 other collection(s)_
+- [`t_schema_version_subclass`](tables/t_schema_version_subclass.sql) — realizes `schema_version_subclass` · _shared with 7 other collection(s)_
+- [`t_schemaorg_creativework_author`](tables/t_schemaorg_creativework_author.sql) — realizes `schemaorg_creativework_author` · _shared with 8 other collection(s)_
+- [`t_schemaorg_creativework_date`](tables/t_schemaorg_creativework_date.sql) — realizes `schemaorg_creativework_date` · _shared with 7 other collection(s)_
+- [`t_schemaorg_event_starttime`](tables/t_schemaorg_event_starttime.sql) — realizes `schemaorg_event_starttime` · _shared with 10 other collection(s)_
+- [`t_schemaorg_org_country`](tables/t_schemaorg_org_country.sql) — realizes `schemaorg_org_country` · _shared with 4 other collection(s)_
+- [`t_schemaorg_person_affiliation`](tables/t_schemaorg_person_affiliation.sql) — realizes `schemaorg_person_affiliation` · _shared with 5 other collection(s)_
+- [`t_schemaorg_person_email`](tables/t_schemaorg_person_email.sql) — realizes `schemaorg_person_email` · _shared with 3 other collection(s)_
+- [`t_schemaorg_person_roleat`](tables/t_schemaorg_person_roleat.sql) — realizes `schemaorg_person_roleat` · _shared with 7 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 8 other collection(s)_
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 9 other collection(s)_
+- [`t_schemaorg_product_price`](tables/t_schemaorg_product_price.sql) — realizes `schemaorg_product_price` · _shared with 6 other collection(s)_
+- [`t_schemaorg_product_sku`](tables/t_schemaorg_product_sku.sql) — realizes `schemaorg_product_sku` · _shared with 6 other collection(s)_
+- [`t_schemaorg_review_target`](tables/t_schemaorg_review_target.sql) — realizes `schemaorg_review_target` · _shared with 5 other collection(s)_
+- [`t_school_security_policy`](tables/t_school_security_policy.sql) — realizes `school_security_policy` · _shared with 8 other collection(s)_
+- [`t_settlement_financing_activity`](tables/t_settlement_financing_activity.sql) — realizes `settlement_financing_activity` · _shared with 4 other collection(s)_
+- [`t_soc2_availability_subclass`](tables/t_soc2_availability_subclass.sql) — realizes `soc2_availability_subclass` · _shared with 9 other collection(s)_
+- [`t_soc2_processing_integrity`](tables/t_soc2_processing_integrity.sql) — realizes `soc2_processing_integrity` · _shared with 5 other collection(s)_
+- [`t_soc2_security_subclass`](tables/t_soc2_security_subclass.sql) — realizes `soc2_security_subclass` · _shared with 9 other collection(s)_
+- [`t_social_enterprise_annual_income`](tables/t_social_enterprise_annual_income.sql) — realizes `social_enterprise_annual_income` · _shared with 5 other collection(s)_
+- [`t_span_with_attribute`](tables/t_span_with_attribute.sql) — realizes `span_with_attribute` · _shared with 8 other collection(s)_
+- [`t_span_with_parent`](tables/t_span_with_parent.sql) — realizes `span_with_parent` · _shared with 5 other collection(s)_
+- [`t_span_with_status`](tables/t_span_with_status.sql) — realizes `span_with_status` · _shared with 5 other collection(s)_
+- [`t_state_observed_at_time`](tables/t_state_observed_at_time.sql) — realizes `state_observed_at_time` · _shared with 9 other collection(s)_
+- [`t_state_of_system_block`](tables/t_state_of_system_block.sql) — realizes `state_of_system_block` · _shared with 5 other collection(s)_
+- [`t_state_transitions_from`](tables/t_state_transitions_from.sql) — realizes `state_transitions_from` · _shared with 8 other collection(s)_
+- [`t_strategic_commitment`](tables/t_strategic_commitment.sql) — realizes `strategic_commitment` · _shared with 6 other collection(s)_
+- [`t_strategic_planning_process`](tables/t_strategic_planning_process.sql) — realizes `strategic_planning_process` · _shared with 9 other collection(s)_
+- [`t_student_privacy_expectation`](tables/t_student_privacy_expectation.sql) — realizes `student_privacy_expectation` · _shared with 10 other collection(s)_
+- [`t_subclass_not_basic`](tables/t_subclass_not_basic.sql) — realizes `subclass_not_basic` · _shared with 11 other collection(s)_
+- [`t_subclass_to_artifact`](tables/t_subclass_to_artifact.sql) — realizes `subclass_to_artifact` · _shared with 5 other collection(s)_
+- [`t_subclass_to_independent_continuant`](tables/t_subclass_to_independent_continuant.sql) — realizes `subclass_to_independent_continuant` · _shared with 7 other collection(s)_
+- [`t_subclass_to_process`](tables/t_subclass_to_process.sql) — realizes `subclass_to_process` · _shared with 13 other collection(s)_
+- [`t_survey_response_record`](tables/t_survey_response_record.sql) — realizes `survey_response_record` · _shared with 10 other collection(s)_
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 8 other collection(s)_
+- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass` · _shared with 11 other collection(s)_
+- [`t_table_provenance_source`](tables/t_table_provenance_source.sql) — realizes `table_provenance_source` · _shared with 2 other collection(s)_
+- [`t_tc_classifier_subclass`](tables/t_tc_classifier_subclass.sql) — realizes `tc_classifier_subclass` · _shared with 12 other collection(s)_
+- [`t_telemetry_span_observes_syscall`](tables/t_telemetry_span_observes_syscall.sql) — realizes `telemetry_span_observes_syscall` · _shared with 7 other collection(s)_
+- [`t_third_party_data_sharing`](tables/t_third_party_data_sharing.sql) — realizes `third_party_data_sharing` · _shared with 6 other collection(s)_
+- [`t_trace_basic`](tables/t_trace_basic.sql) — realizes `trace_basic` · _shared with 5 other collection(s)_
+- [`t_trace_min_one_span`](tables/t_trace_min_one_span.sql) — realizes `trace_min_one_span` · _shared with 5 other collection(s)_
+- [`t_trace_subclass`](tables/t_trace_subclass.sql) — realizes `trace_subclass` · _shared with 6 other collection(s)_
+- [`t_trace_with_root_span`](tables/t_trace_with_root_span.sql) — realizes `trace_with_root_span` · _shared with 10 other collection(s)_
+- [`t_trace_with_service_name`](tables/t_trace_with_service_name.sql) — realizes `trace_with_service_name` · _shared with 7 other collection(s)_
+- [`t_training_partnership_development`](tables/t_training_partnership_development.sql) — realizes `training_partnership_development` · _shared with 7 other collection(s)_
+- [`t_transformation_generates_entity`](tables/t_transformation_generates_entity.sql) — realizes `transformation_generates_entity` · _shared with 7 other collection(s)_
+- [`t_universal_combined_with_existential`](tables/t_universal_combined_with_existential.sql) — realizes `universal_combined_with_existential` · _shared with 11 other collection(s)_
+- [`t_verification_basic`](tables/t_verification_basic.sql) — realizes `verification_basic` · _shared with 12 other collection(s)_
+- [`t_verification_targets_artifact`](tables/t_verification_targets_artifact.sql) — realizes `verification_targets_artifact` · _shared with 7 other collection(s)_
+- [`t_video_surveillance_activity`](tables/t_video_surveillance_activity.sql) — realizes `video_surveillance_activity` · _shared with 7 other collection(s)_
+- [`t_xdp_action_drop`](tables/t_xdp_action_drop.sql) — realizes `xdp_action_drop` · _shared with 9 other collection(s)_
+- [`t_yager_combination`](tables/t_yager_combination.sql) — realizes `yager_combination` · _shared with 5 other collection(s)_
+- [`t_young_adult_speaker_role`](tables/t_young_adult_speaker_role.sql) — realizes `young_adult_speaker_role` · _shared with 6 other collection(s)_

@@ -1,224 +1,579 @@
 {
   "topic_id": 106,
   "family": "04_ebpf_kernel",
-  "n_chapters": 10,
+  "n_chapters": 15,
   "coverage_score": 0.20377950370311737,
   "topic_repr": "OPTIMAL CONTROLLER DESIGN FOR MORE-ELECTRIC AIRCRAFT POWER SYSTEMS\n\nby\n\nSinan Yigit\n\nBS, TOBB University of Economics and Technology, 2011\n\nSubmitted to the Graduate Faculty of\nSwanson School of Engineering in partial fulfillment\nof the requirements for the degree of\n\nMaster of Science\n\nUniversity of Pittsburgh\n2014\n\nThis thesis was presented\n\nby\n\nSinan Yigit\n\nIt was defended on\n\nJuly 23, 2014\n\nan...",
   "terms": [
-    "iso27001_annexa_subclass",
-    "measurement_basic",
-    "pci_dss_requirement"
+    "allocation_at_run_id",
+    "artifact_with_universal",
+    "attestation_basic",
+    "attribute_set_basic",
+    "cardinality_exactly_one_generic",
+    "cardinality_min_one_generic",
+    "census_data_collection_process",
+    "column_dropped_at_version",
+    "column_property_subclass",
+    "crop_parasitism_impact",
+    "ebpf_event_min_one_attribute",
+    "ebpf_event_observed_pid",
+    "ebpf_event_subclass",
+    "ebpfmap_with_key_type",
+    "existential_anchored_to_artifact_via_part",
+    "host_connection_process",
+    "lineage_edge_via_transformation",
+    "lineage_edge_with_provenance",
+    "log_within_span_context",
+    "process_min_one_output",
+    "professional_experience",
+    "professional_expertise_domain",
+    "profile_has_cardinality",
+    "profiling_basic",
+    "profiling_with_method",
+    "span_with_attribute",
+    "strategic_planning_process",
+    "syscall_invoked_by_event",
+    "syscall_max_one_return",
+    "syscall_only_in_kernel_subsystem",
+    "transformation_ends_at",
+    "verification_min_one_evidence"
   ],
   "tables": [
-    "t_iso27001_annexa_subclass",
-    "t_measurement_basic",
-    "t_pci_dss_requirement"
+    "t_allocation_at_run_id",
+    "t_artifact_with_universal",
+    "t_attestation_basic",
+    "t_attribute_set_basic",
+    "t_cardinality_exactly_one_generic",
+    "t_cardinality_min_one_generic",
+    "t_census_data_collection_process",
+    "t_column_dropped_at_version",
+    "t_column_property_subclass",
+    "t_crop_parasitism_impact",
+    "t_ebpf_event_min_one_attribute",
+    "t_ebpf_event_observed_pid",
+    "t_ebpf_event_subclass",
+    "t_ebpfmap_with_key_type",
+    "t_existential_anchored_to_artifact_via_part",
+    "t_host_connection_process",
+    "t_lineage_edge_via_transformation",
+    "t_lineage_edge_with_provenance",
+    "t_log_within_span_context",
+    "t_process_min_one_output",
+    "t_professional_experience",
+    "t_professional_expertise_domain",
+    "t_profile_has_cardinality",
+    "t_profiling_basic",
+    "t_profiling_with_method",
+    "t_span_with_attribute",
+    "t_strategic_planning_process",
+    "t_syscall_invoked_by_event",
+    "t_syscall_max_one_return",
+    "t_syscall_only_in_kernel_subsystem",
+    "t_transformation_ends_at",
+    "t_verification_min_one_evidence"
   ],
   "topics": [
-    14,
-    28,
-    37,
-    47,
-    50,
-    61,
-    67,
-    71,
-    76,
-    78,
-    82,
-    96,
+    65,
+    95,
     106,
-    148,
-    149,
-    155,
-    160,
-    170,
-    173,
-    195
+    129,
+    135,
+    140,
+    142,
+    181,
+    195,
+    196
   ],
   "shared_tables": {
-    "iso27001_annexa_subclass": [
+    "allocation_at_run_id": [
+      24,
+      26,
+      60,
+      66,
+      183,
+      186
+    ],
+    "artifact_with_universal": [
       4,
-      15,
-      22,
-      71,
-      74,
-      129,
-      144,
+      10,
+      26,
+      33,
+      34,
+      44,
+      65,
+      69,
+      109,
+      183,
+      186
+    ],
+    "attestation_basic": [
+      7,
+      11,
+      19,
+      47,
+      80,
+      123,
+      181,
+      191
+    ],
+    "attribute_set_basic": [
+      1,
+      4,
+      6,
+      92,
+      183,
+      186
+    ],
+    "cardinality_exactly_one_generic": [
+      11,
+      26,
+      33,
+      40,
+      161,
+      163,
+      172,
+      184,
+      186,
+      190
+    ],
+    "cardinality_min_one_generic": [
+      1,
+      26,
+      42,
+      117,
+      143,
+      186
+    ],
+    "census_data_collection_process": [
+      2,
+      11,
+      46,
+      65,
+      109,
+      159,
+      163,
+      186
+    ],
+    "column_dropped_at_version": [
+      1,
+      4,
+      16,
+      20,
+      94,
+      97,
+      181
+    ],
+    "column_property_subclass": [
+      4,
+      45,
+      100,
+      109,
+      181,
       183
     ],
-    "measurement_basic": [
-      197
-    ],
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
+    "crop_parasitism_impact": [
+      23,
+      24,
+      25,
+      46,
       47,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
-      108,
-      115,
-      117,
-      134,
-      135,
-      148,
-      150,
-      151,
-      165,
-      181,
+      90,
+      125,
+      187,
+      190
+    ],
+    "ebpf_event_min_one_attribute": [
+      2,
+      19,
+      21,
+      38,
+      46,
+      49
+    ],
+    "ebpf_event_observed_pid": [
+      7,
+      26,
+      31,
+      44,
+      46,
+      80,
+      123,
+      186,
+      188
+    ],
+    "ebpf_event_subclass": [
+      26,
+      42,
+      186
+    ],
+    "ebpfmap_with_key_type": [
+      0,
+      26,
+      51,
+      158,
       183,
       185,
-      197
+      188
+    ],
+    "existential_anchored_to_artifact_via_part": [
+      0,
+      4,
+      6,
+      19,
+      23,
+      26,
+      40,
+      58,
+      61,
+      80,
+      94,
+      104
+    ],
+    "host_connection_process": [
+      4,
+      26,
+      107,
+      159,
+      172,
+      183,
+      186,
+      188
+    ],
+    "lineage_edge_via_transformation": [
+      1,
+      23,
+      65,
+      79,
+      86,
+      94,
+      97,
+      105,
+      107,
+      140,
+      142
+    ],
+    "lineage_edge_with_provenance": [
+      1,
+      42,
+      46,
+      47,
+      60,
+      67,
+      184
+    ],
+    "log_within_span_context": [
+      1,
+      4,
+      10,
+      19,
+      26,
+      35,
+      65,
+      180,
+      183
+    ],
+    "process_min_one_output": [
+      19,
+      23,
+      35,
+      40,
+      47,
+      72,
+      135
+    ],
+    "professional_experience": [
+      4,
+      7,
+      79,
+      91,
+      139,
+      149,
+      183,
+      186
+    ],
+    "professional_expertise_domain": [
+      1,
+      24,
+      26,
+      62,
+      81,
+      105,
+      183
+    ],
+    "profile_has_cardinality": [
+      4,
+      23,
+      26,
+      30,
+      62,
+      100,
+      186
+    ],
+    "profiling_basic": [
+      38,
+      47,
+      69,
+      80,
+      86,
+      168,
+      195
+    ],
+    "profiling_with_method": [
+      4,
+      5,
+      26,
+      47,
+      86,
+      139,
+      168,
+      180,
+      186
+    ],
+    "span_with_attribute": [
+      1,
+      26,
+      38,
+      66,
+      168,
+      181,
+      184,
+      186
+    ],
+    "strategic_planning_process": [
+      5,
+      26,
+      34,
+      44,
+      67,
+      97,
+      183,
+      186,
+      191
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      31,
+      35,
+      42,
+      105,
+      107,
+      161
+    ],
+    "syscall_max_one_return": [
+      0
+    ],
+    "syscall_only_in_kernel_subsystem": [
+      5,
+      38,
+      61,
+      65
+    ],
+    "transformation_ends_at": [
+      4,
+      34,
+      42,
+      45,
+      143,
+      186
+    ],
+    "verification_min_one_evidence": [
+      16,
+      129
     ]
   },
   "chapters": [
     {
-      "id": "26d4ca2179a12d57",
-      "family": "07_long_tail",
+      "id": "ch_live_artifact_with_universal_88d636",
+      "family": "01_foundation",
       "topics": [
-        50,
         106,
-        148
+        196
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "artifact_with_universal",
+        "ebpf_event_min_one_attribute",
+        "log_within_span_context"
       ]
     },
     {
-      "id": "37c17005a49f4d35",
-      "family": "07_long_tail",
+      "id": "ch_live_census_data_collection_process_6cfaad",
+      "family": "08_derived",
       "topics": [
-        28,
-        71,
         106
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "census_data_collection_process",
+        "column_dropped_at_version",
+        "syscall_max_one_return"
       ]
     },
     {
-      "id": "3847d3c7b14e17ed",
-      "family": "07_long_tail",
+      "id": "ch_live_crop_parasitism_impact_5d33d9",
+      "family": "08_derived",
       "topics": [
-        78,
-        106,
-        149
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
-      ]
-    },
-    {
-      "id": "75906972fc799c33",
-      "family": "07_long_tail",
-      "topics": [
-        14,
-        106,
-        148
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
-      ]
-    },
-    {
-      "id": "a8ffd8fbd827cb98",
-      "family": "07_long_tail",
-      "topics": [
-        47,
-        106,
-        170
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
-      ]
-    },
-    {
-      "id": "b7be25a80634e941",
-      "family": "07_long_tail",
-      "topics": [
-        61,
-        67,
         106
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "crop_parasitism_impact",
+        "profile_has_cardinality",
+        "syscall_max_one_return"
       ]
     },
     {
-      "id": "ba44444d7aad2fb8",
-      "family": "07_long_tail",
+      "id": "ch_live_ebpf_event_min_one_attribute_4396e4",
+      "family": "02_observation_measurement",
       "topics": [
-        82,
         106,
-        173
+        196
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "ebpf_event_min_one_attribute",
+        "ebpf_event_observed_pid",
+        "ebpf_event_subclass"
       ]
     },
     {
-      "id": "c64c188f36aa0756",
-      "family": "07_long_tail",
+      "id": "ch_live_ebpf_event_min_one_attribute_922693",
+      "family": "02_observation_measurement",
       "topics": [
-        76,
         106,
-        155
+        135,
+        196
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "ebpf_event_min_one_attribute",
+        "process_min_one_output",
+        "cardinality_exactly_one_generic"
       ]
     },
     {
-      "id": "eb7d2120d274625f",
-      "family": "07_long_tail",
+      "id": "ch_live_ebpf_event_min_one_attribute_cfb30a",
+      "family": "02_observation_measurement",
       "topics": [
-        37,
         106,
-        160
+        196
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "ebpf_event_min_one_attribute",
+        "allocation_at_run_id",
+        "column_property_subclass"
       ]
     },
     {
-      "id": "f54abd1f3752d7eb",
-      "family": "07_long_tail",
+      "id": "ch_live_existential_anchored_to_artifact_via_part_1f9c7d",
+      "family": "01_foundation",
       "topics": [
-        96,
         106,
-        195
+        181
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "measurement_basic",
-        "iso27001_annexa_subclass"
+        "existential_anchored_to_artifact_via_part",
+        "attestation_basic",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "ch_live_host_connection_process_bc2d97",
+      "family": "08_derived",
+      "topics": [
+        106
+      ],
+      "cited_terms": [
+        "host_connection_process",
+        "syscall_max_one_return",
+        "cardinality_min_one_generic"
+      ]
+    },
+    {
+      "id": "ch_live_professional_experience_f16f1f",
+      "family": "08_derived",
+      "topics": [
+        106
+      ],
+      "cited_terms": [
+        "professional_experience",
+        "lineage_edge_with_provenance",
+        "syscall_max_one_return"
+      ]
+    },
+    {
+      "id": "ch_live_professional_expertise_domain_d9d8c1",
+      "family": "08_derived",
+      "topics": [
+        106,
+        196
+      ],
+      "cited_terms": [
+        "professional_expertise_domain",
+        "attribute_set_basic",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_invoked_by_event_579336",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        65,
+        95,
+        106
+      ],
+      "cited_terms": [
+        "syscall_invoked_by_event",
+        "syscall_max_one_return",
+        "syscall_only_in_kernel_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_max_one_return_b0a9c3",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        106,
+        140,
+        142
+      ],
+      "cited_terms": [
+        "syscall_max_one_return",
+        "ebpfmap_with_key_type",
+        "lineage_edge_via_transformation"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_max_one_return_fa3555",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        106
+      ],
+      "cited_terms": [
+        "syscall_max_one_return",
+        "strategic_planning_process",
+        "span_with_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_ends_at_7882f2",
+      "family": "05_provo_lineage",
+      "topics": [
+        106,
+        195,
+        196
+      ],
+      "cited_terms": [
+        "transformation_ends_at",
+        "profiling_basic",
+        "ebpf_event_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_verification_min_one_evidence_6feb50",
+      "family": "03_directive_governance",
+      "topics": [
+        106,
+        129
+      ],
+      "cited_terms": [
+        "verification_min_one_evidence",
+        "profiling_with_method",
+        "syscall_max_one_return"
       ]
     }
   ]

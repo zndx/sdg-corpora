@@ -1,229 +1,1748 @@
 {
   "topic_id": 23,
   "family": "04_ebpf_kernel",
-  "n_chapters": 8,
-  "coverage_score": 0.09048061072826385,
+  "n_chapters": 50,
+  "coverage_score": 0.10101985186338425,
   "topic_repr": "Manipulation of the Elastic Modulus of Polymers at the Nanoscale: Influence of UV\u2013Ozone Cross-Linking and Plasticizer\n\nJessica M. Torres,\u2020 Christopher M. Stafford,\u2021 and Bryan D. Vogt*\u2021,*\n\n\u2020Department of Chemical Engineering, Arizona State University, Tempe, Arizona 85284 and \u2021Polymers Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899\n\nNature utilizes hierarchic...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "constraint_evaluated_during",
-    "control_with_evidence_requirement",
-    "verification_produces_evidence"
+    "agent_basic",
+    "annotation_assigned_by",
+    "anonymous_demographic_information",
+    "artifact_min_one_owner",
+    "artifact_with_min_two_parts",
+    "attribute_set_supports_outlier_claim",
+    "attrkey_subclass",
+    "audit_basic",
+    "audit_subclass",
+    "audit_targets_data_artifact",
+    "belief_function_for",
+    "belief_interval_subclass",
+    "campus_event_participation",
+    "carbon_credit_transaction",
+    "cardinality_max_three_generic",
+    "claim_governed_by_directive",
+    "claim_min_one_evidence",
+    "column_pair_subject",
+    "column_tag_from_annotator",
+    "column_value_distribution",
+    "column_version_subclass",
+    "constraint_only_constrains",
+    "constraint_with_violation_consequence",
+    "control_with_owner",
+    "crop_parasitism_impact",
+    "designative_for_specific_role",
+    "directive_traces_to_requirement",
+    "directive_union_constraint_or_policy",
+    "ebpf_event_writes_to_map",
+    "ebpf_program_governed_by_directive",
+    "ebpfevent_at_kernel_hook_xref",
+    "ebpfmap_pinned_at_path",
+    "ebpfmap_subclass",
+    "ebpfmap_used_by_program",
+    "ebpfprogram_attaches_kernelhook_xref",
+    "ebpfprogram_equiv_typed_with_hook",
+    "ebpfprogram_governed_by_security_policy",
+    "ebpfprogram_union_kprobe_or_xdp",
+    "entity_match_link",
+    "equiv_intersect_with_negation",
+    "evidence_at_quality_tier",
+    "evidence_observed_by_process",
+    "evidence_refutes_claim",
+    "existential_anchored_to_artifact_via_part",
+    "frame_coarsening",
+    "frame_refinement",
+    "frozen_artifact_governed_by",
+    "functional_dependency_rhs",
+    "gdpr_data_subject_right",
+    "histogram_metric_subclass",
+    "home_electricity_reduction_program",
+    "ice_exactly_one_subject",
+    "identifier_uniquely_identifies",
+    "indoor_environmental_monitoring_process",
+    "kernelhook_observes_syscall_xref",
+    "labrun_with_protocol",
+    "lineage_edge_basic",
+    "lineage_edge_via_transformation",
+    "log_with_resource_attribute",
+    "measurement_subclass",
+    "measurement_with_method",
+    "observation_governed_by_policy",
+    "observation_records_state",
+    "outlier_claim_has_confidence",
+    "outlier_claim_min_one_attribute",
+    "outlier_claim_supported_by",
+    "outlier_detection_with_baseline",
+    "performance_tuning_configuration",
+    "policy_applies_to",
+    "policy_attests_artifact",
+    "policy_authored_by",
+    "policy_equiv_jurisdiction_and_scope",
+    "process_min_one_output",
+    "profile_has_cardinality",
+    "profile_of_dataset",
+    "profiling_targets_dataset",
+    "requirement_traces_to",
+    "safety_planning_process",
+    "schemaorg_creativework_author",
+    "schemaorg_place_address",
+    "schemaorg_review_rating",
+    "social_enterprise_annual_income",
+    "span_with_parent",
+    "strategic_commitment",
+    "subclass_disjoint_from_artifact",
+    "syscall_audited_by",
+    "transformation_governed_by",
+    "transformation_informed_by",
+    "transformation_not_recoverable",
+    "transformation_with_output_dataset",
+    "universal_combined_with_existential",
+    "verification_basic",
+    "verification_concludes_with",
+    "verification_subclass",
+    "xdp_action_pass"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_constraint_evaluated_during",
-    "t_control_with_evidence_requirement",
-    "t_verification_produces_evidence"
+    "t_agent_basic",
+    "t_annotation_assigned_by",
+    "t_anonymous_demographic_information",
+    "t_artifact_min_one_owner",
+    "t_artifact_with_min_two_parts",
+    "t_attribute_set_supports_outlier_claim",
+    "t_attrkey_subclass",
+    "t_audit_basic",
+    "t_audit_subclass",
+    "t_audit_targets_data_artifact",
+    "t_belief_function_for",
+    "t_belief_interval_subclass",
+    "t_campus_event_participation",
+    "t_carbon_credit_transaction",
+    "t_cardinality_max_three_generic",
+    "t_claim_governed_by_directive",
+    "t_claim_min_one_evidence",
+    "t_column_pair_subject",
+    "t_column_tag_from_annotator",
+    "t_column_value_distribution",
+    "t_column_version_subclass",
+    "t_constraint_only_constrains",
+    "t_constraint_with_violation_consequence",
+    "t_control_with_owner",
+    "t_crop_parasitism_impact",
+    "t_designative_for_specific_role",
+    "t_directive_traces_to_requirement",
+    "t_directive_union_constraint_or_policy",
+    "t_ebpf_event_writes_to_map",
+    "t_ebpf_program_governed_by_directive",
+    "t_ebpfevent_at_kernel_hook_xref",
+    "t_ebpfmap_pinned_at_path",
+    "t_ebpfmap_subclass",
+    "t_ebpfmap_used_by_program",
+    "t_ebpfprogram_attaches_kernelhook_xref",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_ebpfprogram_governed_by_security_policy",
+    "t_ebpfprogram_union_kprobe_or_xdp",
+    "t_entity_match_link",
+    "t_equiv_intersect_with_negation",
+    "t_evidence_at_quality_tier",
+    "t_evidence_observed_by_process",
+    "t_evidence_refutes_claim",
+    "t_existential_anchored_to_artifact_via_part",
+    "t_frame_coarsening",
+    "t_frame_refinement",
+    "t_frozen_artifact_governed_by",
+    "t_functional_dependency_rhs",
+    "t_gdpr_data_subject_right",
+    "t_histogram_metric_subclass",
+    "t_home_electricity_reduction_program",
+    "t_ice_exactly_one_subject",
+    "t_identifier_uniquely_identifies",
+    "t_indoor_environmental_monitoring_process",
+    "t_kernelhook_observes_syscall_xref",
+    "t_labrun_with_protocol",
+    "t_lineage_edge_basic",
+    "t_lineage_edge_via_transformation",
+    "t_log_with_resource_attribute",
+    "t_measurement_subclass",
+    "t_measurement_with_method",
+    "t_observation_governed_by_policy",
+    "t_observation_records_state",
+    "t_outlier_claim_has_confidence",
+    "t_outlier_claim_min_one_attribute",
+    "t_outlier_claim_supported_by",
+    "t_outlier_detection_with_baseline",
+    "t_performance_tuning_configuration",
+    "t_policy_applies_to",
+    "t_policy_attests_artifact",
+    "t_policy_authored_by",
+    "t_policy_equiv_jurisdiction_and_scope",
+    "t_process_min_one_output",
+    "t_profile_has_cardinality",
+    "t_profile_of_dataset",
+    "t_profiling_targets_dataset",
+    "t_requirement_traces_to",
+    "t_safety_planning_process",
+    "t_schemaorg_creativework_author",
+    "t_schemaorg_place_address",
+    "t_schemaorg_review_rating",
+    "t_social_enterprise_annual_income",
+    "t_span_with_parent",
+    "t_strategic_commitment",
+    "t_subclass_disjoint_from_artifact",
+    "t_syscall_audited_by",
+    "t_transformation_governed_by",
+    "t_transformation_informed_by",
+    "t_transformation_not_recoverable",
+    "t_transformation_with_output_dataset",
+    "t_universal_combined_with_existential",
+    "t_verification_basic",
+    "t_verification_concludes_with",
+    "t_verification_subclass",
+    "t_xdp_action_pass"
   ],
   "topics": [
-    1,
-    6,
-    14,
-    19,
     23,
     26,
+    27,
+    35,
+    38,
+    39,
+    41,
+    42,
+    43,
     44,
+    45,
+    47,
+    49,
+    51,
+    54,
+    60,
+    61,
+    62,
+    65,
+    69,
+    70,
+    71,
+    78,
+    82,
     86,
-    92,
-    98,
-    110,
-    126,
+    87,
+    94,
+    97,
+    100,
+    103,
+    115,
+    119,
+    123,
+    128,
+    129,
+    135,
+    136,
+    138,
+    140,
     142,
-    173,
-    176,
-    181,
-    195
+    143,
+    147,
+    148,
+    155,
+    157,
+    158,
+    160,
+    163,
+    166,
+    170,
+    186,
+    196
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "agent_basic": [
+      1,
+      12,
+      35
+    ],
+    "annotation_assigned_by": [
+      26,
+      45,
+      49,
+      79,
+      183,
+      186
+    ],
+    "anonymous_demographic_information": [
+      1,
+      2,
+      7,
+      10,
+      12,
+      26,
+      54,
+      74,
+      154,
+      186
+    ],
+    "artifact_min_one_owner": [
+      0,
+      1,
+      46,
+      120,
+      122,
+      183,
+      186,
+      195
+    ],
+    "artifact_with_min_two_parts": [
+      4,
+      16,
+      26,
+      46,
+      135,
+      186
+    ],
+    "attribute_set_supports_outlier_claim": [
+      24,
+      26,
+      34,
+      36,
+      161,
+      172,
+      181,
+      185,
+      186
+    ],
+    "attrkey_subclass": [
+      7,
+      12,
+      20,
+      26,
+      67,
+      129,
+      185,
+      186,
+      187
+    ],
+    "audit_basic": [
+      3,
+      4,
+      24,
+      26,
+      31,
+      54,
+      94,
+      172
+    ],
+    "audit_subclass": [
+      12,
+      26
+    ],
+    "audit_targets_data_artifact": [
+      1,
+      6,
+      12,
+      26,
+      191
+    ],
+    "belief_function_for": [
+      26,
+      44,
+      94,
+      181
+    ],
+    "belief_interval_subclass": [
+      2,
+      7,
+      46,
+      66,
+      79,
+      90,
+      109,
+      128,
+      183,
+      186
+    ],
+    "campus_event_participation": [
+      31,
+      33,
+      42,
+      83,
+      92,
+      123,
+      180,
+      186
+    ],
+    "carbon_credit_transaction": [
+      12,
+      33,
+      54,
+      58,
+      60,
+      61,
+      91,
+      181
+    ],
+    "cardinality_max_three_generic": [
+      4,
+      46,
+      65,
+      75,
+      100,
+      143,
+      165,
+      183,
+      186
+    ],
+    "claim_governed_by_directive": [
+      21,
+      40,
+      83,
+      92,
+      186
+    ],
+    "claim_min_one_evidence": [
+      4,
+      40,
+      44,
+      97,
+      138
+    ],
+    "column_pair_subject": [
+      0,
+      4,
+      5,
+      45,
+      46,
+      47,
+      83,
+      154,
+      186
+    ],
+    "column_tag_from_annotator": [
+      4,
+      21,
+      47,
+      69,
+      184,
+      186
+    ],
+    "column_value_distribution": [
+      27,
+      34,
+      46,
+      49,
+      62,
+      75,
+      129,
+      183,
+      186
+    ],
+    "column_version_subclass": [
+      0,
+      1,
+      11,
+      12,
+      62
+    ],
+    "constraint_only_constrains": [
+      2,
+      11,
+      35,
+      111,
+      159,
+      181,
+      183,
+      186,
+      195
+    ],
+    "constraint_with_violation_consequence": [
+      5,
+      36,
+      38,
+      42,
+      45,
+      47,
+      61,
+      86
+    ],
+    "control_with_owner": [
+      2,
+      10,
+      20,
+      26,
+      46,
+      65,
+      120,
+      129,
+      186
+    ],
+    "crop_parasitism_impact": [
+      24,
+      25,
+      46,
+      47,
+      90,
+      106,
+      125,
+      187,
+      190
+    ],
+    "designative_for_specific_role": [
+      1,
+      67,
+      119,
+      138
+    ],
+    "directive_traces_to_requirement": [
+      0,
+      4,
+      35,
+      40,
+      46,
+      101,
+      104,
+      159,
+      180,
+      185
+    ],
+    "directive_union_constraint_or_policy": [
+      24,
+      26,
+      97,
+      159,
+      181,
+      186
+    ],
+    "ebpf_event_writes_to_map": [
+      5,
+      34,
+      61,
+      65
+    ],
+    "ebpfevent_at_kernel_hook_xref": [
+      24,
+      26,
+      40,
+      72,
+      74,
+      161,
+      183
+    ],
+    "ebpfmap_pinned_at_path": [
+      5,
+      7,
+      8
+    ],
+    "ebpfmap_subclass": [
+      14,
+      34,
+      100,
+      102,
+      161,
+      181,
+      186
+    ],
+    "ebpfmap_used_by_program": [
+      1,
+      30,
+      36,
+      44,
+      45
+    ],
+    "ebpfprogram_attaches_kernelhook_xref": [
+      1
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      8,
+      11,
+      41,
+      79,
+      100,
+      143
+    ],
+    "ebpfprogram_governed_by_security_policy": [
+      0,
+      24,
+      44
+    ],
+    "ebpfprogram_union_kprobe_or_xdp": [
+      34,
+      49,
+      94,
+      135,
+      183,
+      186,
+      188
+    ],
+    "entity_match_link": [
       2,
       3,
       5,
-      6,
+      26,
+      60,
+      66,
+      81,
+      140,
+      161,
+      172,
+      186
+    ],
+    "equiv_intersect_with_negation": [
+      25,
+      62,
+      122,
+      186
+    ],
+    "evidence_at_quality_tier": [
+      1,
+      26,
+      40,
+      51
+    ],
+    "evidence_observed_by_process": [
+      1,
+      4,
+      47,
+      97,
+      109,
+      135,
+      187
+    ],
+    "evidence_refutes_claim": [
       7,
-      16,
-      20,
-      26,
-      37,
+      27,
       44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
+      61,
+      97
     ],
-    "control_with_evidence_requirement": [
-      3,
-      26,
-      58,
-      78,
-      83,
-      88,
-      89,
-      92,
-      102,
-      104,
-      134,
-      138,
-      154,
-      191
-    ],
-    "verification_produces_evidence": [
+    "existential_anchored_to_artifact_via_part": [
+      0,
+      4,
       6,
-      16,
-      44,
-      56,
+      19,
+      26,
+      40,
       58,
-      71,
-      83,
-      89,
+      61,
+      80,
+      94,
       104,
+      106
+    ],
+    "frame_coarsening": [
+      4,
+      25,
+      101,
+      102,
+      186
+    ],
+    "frame_refinement": [
+      24,
+      26,
+      44,
+      47,
+      79,
+      100,
+      140,
+      186
+    ],
+    "frozen_artifact_governed_by": [
+      5,
+      12
+    ],
+    "functional_dependency_rhs": [
+      4,
+      20,
+      42,
+      61,
+      139,
+      163,
+      181,
+      186
+    ],
+    "gdpr_data_subject_right": [
+      1,
+      7,
+      65,
       129,
       138,
-      160,
+      146,
+      186
+    ],
+    "histogram_metric_subclass": [
+      1,
+      10,
+      38,
+      46,
+      51,
+      92,
+      123,
+      155,
+      186
+    ],
+    "home_electricity_reduction_program": [
+      26,
+      33,
+      60,
+      61,
+      128,
+      183,
+      186
+    ],
+    "ice_exactly_one_subject": [
+      11,
+      35,
+      38,
+      44,
+      47
+    ],
+    "identifier_uniquely_identifies": [
+      7,
+      41,
+      45,
+      46,
+      60,
+      78,
+      100,
+      186
+    ],
+    "indoor_environmental_monitoring_process": [
+      26,
+      33,
+      119,
+      186,
+      188
+    ],
+    "kernelhook_observes_syscall_xref": [
+      7,
+      26,
+      155,
+      166,
+      186
+    ],
+    "labrun_with_protocol": [
+      7,
+      12,
+      27
+    ],
+    "lineage_edge_basic": [
+      1,
+      80,
+      107,
+      142
+    ],
+    "lineage_edge_via_transformation": [
+      1,
+      65,
+      79,
+      86,
+      94,
+      97,
+      105,
+      106,
+      107,
+      140,
+      142
+    ],
+    "log_with_resource_attribute": [
+      6,
+      56,
+      61,
+      107,
+      128,
       163,
-      191
+      168,
+      180,
+      181,
+      183
+    ],
+    "measurement_subclass": [
+      4,
+      10,
+      11,
+      26,
+      39,
+      45,
+      109,
+      140,
+      142,
+      186
+    ],
+    "measurement_with_method": [
+      4,
+      38,
+      39,
+      78,
+      86,
+      97,
+      159,
+      168,
+      183
+    ],
+    "observation_governed_by_policy": [
+      60,
+      123
+    ],
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      26,
+      67,
+      91,
+      123,
+      125,
+      129,
+      135,
+      163,
+      183,
+      185,
+      186
+    ],
+    "outlier_claim_has_confidence": [
+      40,
+      94,
+      120,
+      124
+    ],
+    "outlier_claim_min_one_attribute": [
+      1,
+      8,
+      39,
+      126
+    ],
+    "outlier_claim_supported_by": [
+      5,
+      26,
+      39,
+      60,
+      67,
+      79,
+      81,
+      97,
+      183,
+      186
+    ],
+    "outlier_detection_with_baseline": [
+      0,
+      1,
+      10,
+      42,
+      60
+    ],
+    "performance_tuning_configuration": [
+      6,
+      10,
+      60,
+      183,
+      186
+    ],
+    "policy_applies_to": [
+      19,
+      44,
+      80,
+      119,
+      150,
+      158,
+      183
+    ],
+    "policy_authored_by": [
+      1,
+      6,
+      35,
+      111,
+      120,
+      128,
+      135,
+      155,
+      158,
+      183
+    ],
+    "policy_equiv_jurisdiction_and_scope": [
+      10,
+      92,
+      128
+    ],
+    "process_min_one_output": [
+      19,
+      35,
+      40,
+      47,
+      72,
+      106,
+      135
+    ],
+    "profile_has_cardinality": [
+      4,
+      26,
+      30,
+      62,
+      100,
+      106,
+      186
+    ],
+    "profile_of_dataset": [
+      2,
+      10,
+      24,
+      26,
+      44,
+      80,
+      183
+    ],
+    "profiling_targets_dataset": [
+      2,
+      7,
+      147
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      105,
+      161,
+      168,
+      183,
+      186,
+      188
+    ],
+    "safety_planning_process": [
+      2,
+      10,
+      25,
+      27,
+      168,
+      183,
+      186
+    ],
+    "schemaorg_creativework_author": [
+      26,
+      27,
+      45,
+      61,
+      122,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_place_address": [
+      100
+    ],
+    "schemaorg_review_rating": [
+      24,
+      40,
+      56,
+      60,
+      109,
+      163
+    ],
+    "social_enterprise_annual_income": [
+      26,
+      36,
+      46,
+      54,
+      125
+    ],
+    "span_with_parent": [
+      12,
+      26,
+      109,
+      119,
+      172
+    ],
+    "strategic_commitment": [
+      1,
+      7,
+      26,
+      183,
+      184,
+      186
+    ],
+    "subclass_disjoint_from_artifact": [
+      0,
+      19,
+      40,
+      61
+    ],
+    "syscall_audited_by": [
+      40,
+      41,
+      78
+    ],
+    "transformation_governed_by": [
+      1,
+      11,
+      45,
+      67,
+      135
+    ],
+    "transformation_informed_by": [
+      41,
+      42,
+      51,
+      140
+    ],
+    "transformation_not_recoverable": [
+      2,
+      11,
+      42
+    ],
+    "transformation_with_output_dataset": [
+      12,
+      25,
+      38,
+      54
+    ],
+    "universal_combined_with_existential": [
+      7,
+      26,
+      34,
+      54,
+      73,
+      81,
+      140,
+      158,
+      183,
+      186,
+      188
+    ],
+    "verification_basic": [
+      7,
+      24,
+      26,
+      41,
+      46,
+      90,
+      97,
+      105,
+      125,
+      129,
+      135,
+      147
+    ],
+    "verification_concludes_with": [
+      20,
+      47,
+      69,
+      129
+    ],
+    "verification_subclass": [
+      0,
+      6,
+      10,
+      38
+    ],
+    "xdp_action_pass": [
+      6,
+      24,
+      56,
+      65,
+      105,
+      107,
+      135,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "113ac40bdbcfd48c",
-      "family": "03_directive_governance",
+      "id": "ch_live_anonymous_demographic_information_01a91a",
+      "family": "08_derived",
       "topics": [
         23,
-        92,
-        126
+        35,
+        41,
+        71,
+        82
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
+        "anonymous_demographic_information",
+        "policy_attests_artifact",
+        "agent_basic"
       ]
     },
     {
-      "id": "5f3164a640a03747",
-      "family": "03_directive_governance",
+      "id": "ch_live_artifact_min_one_owner_2d5ad3",
+      "family": "07_long_tail",
       "topics": [
         23,
-        98,
-        110
+        140,
+        148,
+        155
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
+        "artifact_min_one_owner",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "transformation_informed_by"
       ]
     },
     {
-      "id": "6c9878c00d8a7047",
+      "id": "ch_live_artifact_with_min_two_parts_db10f1",
+      "family": "01_foundation",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "artifact_with_min_two_parts",
+        "frozen_artifact_governed_by",
+        "crop_parasitism_impact"
+      ]
+    },
+    {
+      "id": "ch_live_attribute_set_supports_outlier_claim_2fbe07",
+      "family": "02_observation_measurement",
+      "topics": [
+        23,
+        41
+      ],
+      "cited_terms": [
+        "attribute_set_supports_outlier_claim",
+        "policy_attests_artifact",
+        "outlier_claim_supported_by"
+      ]
+    },
+    {
+      "id": "ch_live_attrkey_subclass_287cd8",
+      "family": "01_foundation",
+      "topics": [
+        23,
+        123
+      ],
+      "cited_terms": [
+        "attrkey_subclass",
+        "ebpf_program_governed_by_directive",
+        "observation_governed_by_policy"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_subclass_86f7f0",
+      "family": "06_belief_structure",
+      "topics": [
+        23,
+        44,
+        71,
+        142,
+        157
+      ],
+      "cited_terms": [
+        "belief_interval_subclass",
+        "lineage_edge_basic",
+        "ebpfmap_pinned_at_path"
+      ]
+    },
+    {
+      "id": "ch_live_carbon_credit_transaction_d21222",
+      "family": "08_derived",
+      "topics": [
+        23,
+        41,
+        143
+      ],
+      "cited_terms": [
+        "carbon_credit_transaction",
+        "ebpfprogram_equiv_typed_with_hook",
+        "policy_attests_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_claim_governed_by_directive_8c8a85",
+      "family": "06_belief_structure",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "claim_governed_by_directive",
+        "ebpf_program_governed_by_directive",
+        "column_value_distribution"
+      ]
+    },
+    {
+      "id": "ch_live_column_version_subclass_7be93a",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        60,
+        62,
+        86,
+        170
+      ],
+      "cited_terms": [
+        "column_version_subclass",
+        "ebpf_program_governed_by_directive",
+        "outlier_detection_with_baseline"
+      ]
+    },
+    {
+      "id": "ch_live_control_with_owner_3824ac",
+      "family": "03_directive_governance",
+      "topics": [
+        23,
+        135
+      ],
+      "cited_terms": [
+        "control_with_owner",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "transformation_governed_by"
+      ]
+    },
+    {
+      "id": "ch_live_directive_traces_to_requirement_c2ba2f",
       "family": "03_directive_governance",
       "topics": [
         23,
         26,
-        173
+        43,
+        87,
+        103
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
+        "directive_traces_to_requirement",
+        "audit_subclass",
+        "ebpf_program_governed_by_directive"
       ]
     },
     {
-      "id": "76ee717cc25384c3",
+      "id": "ch_live_directive_union_constraint_or_policy_72cdc9",
       "family": "03_directive_governance",
       "topics": [
         23,
-        142,
-        195
+        47
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
+        "directive_union_constraint_or_policy",
+        "frozen_artifact_governed_by",
+        "ice_exactly_one_subject"
       ]
     },
     {
-      "id": "8e1630aa5d1f6c7b",
+      "id": "ch_live_ebpf_event_writes_to_map_a96000",
+      "family": "02_observation_measurement",
+      "topics": [
+        23,
+        65
+      ],
+      "cited_terms": [
+        "ebpf_event_writes_to_map",
+        "ebpf_program_governed_by_directive",
+        "ebpfevent_at_kernel_hook_xref"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_program_governed_by_directive_5f3a17",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        97,
+        115
+      ],
+      "cited_terms": [
+        "ebpf_program_governed_by_directive",
+        "measurement_subclass",
+        "evidence_refutes_claim"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_program_governed_by_directive_650427",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "ebpf_program_governed_by_directive",
+        "identifier_uniquely_identifies",
+        "column_pair_subject"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_program_governed_by_directive_8bb960",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "ebpf_program_governed_by_directive",
+        "audit_targets_data_artifact",
+        "evidence_observed_by_process"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_program_governed_by_directive_ad8a5f",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "ebpf_program_governed_by_directive",
+        "observation_records_state",
+        "anonymous_demographic_information"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_1af88d",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        71,
+        157,
+        158
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "cardinality_max_three_generic",
+        "profile_has_cardinality"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_29d1e1",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        45,
+        49,
+        71
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "ebpfmap_subclass",
+        "ebpfmap_used_by_program"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_5bf5c1",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        51,
+        71,
+        135
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "process_min_one_output",
+        "evidence_at_quality_tier"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_909a2a",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        71,
+        140,
+        142
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "gdpr_data_subject_right",
+        "lineage_edge_via_transformation"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_94d52b",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        71,
+        157,
+        158
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "kernelhook_observes_syscall_xref",
+        "ebpfprogram_union_kprobe_or_xdp"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_pinned_at_path_d3085d",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        44,
+        71,
+        157,
+        158
+      ],
+      "cited_terms": [
+        "ebpfmap_pinned_at_path",
+        "existential_anchored_to_artifact_via_part",
+        "profile_has_cardinality"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_attaches_kernelhook_xref_674ef7",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        100
+      ],
+      "cited_terms": [
+        "ebpfprogram_attaches_kernelhook_xref",
+        "schemaorg_place_address",
+        "claim_min_one_evidence"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_attaches_kernelhook_xref_d3eef6",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        27,
+        70
+      ],
+      "cited_terms": [
+        "ebpfprogram_attaches_kernelhook_xref",
+        "labrun_with_protocol",
+        "performance_tuning_configuration"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_attaches_kernelhook_xref_e3a9fb",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "ebpfprogram_attaches_kernelhook_xref",
+        "social_enterprise_annual_income",
+        "functional_dependency_rhs"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_governed_by_security_policy_ed3b68",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        23,
+        41,
+        44,
+        49,
+        142
+      ],
+      "cited_terms": [
+        "ebpfprogram_governed_by_security_policy",
+        "lineage_edge_basic",
+        "policy_attests_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_entity_match_link_d85d6d",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        42,
+        160
+      ],
+      "cited_terms": [
+        "entity_match_link",
+        "frozen_artifact_governed_by",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_intersect_with_negation_5088a4",
+      "family": "01_foundation",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "equiv_intersect_with_negation",
+        "constraint_with_violation_consequence",
+        "frozen_artifact_governed_by"
+      ]
+    },
+    {
+      "id": "ch_live_frame_coarsening_a2b53b",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "frame_coarsening",
+        "frame_refinement",
+        "frozen_artifact_governed_by"
+      ]
+    },
+    {
+      "id": "ch_live_frozen_artifact_governed_by_31b6c1",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        138
+      ],
+      "cited_terms": [
+        "frozen_artifact_governed_by",
+        "designative_for_specific_role",
+        "belief_function_for"
+      ]
+    },
+    {
+      "id": "ch_live_frozen_artifact_governed_by_4a0a72",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "frozen_artifact_governed_by",
+        "strategic_commitment",
+        "histogram_metric_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_frozen_artifact_governed_by_5145bf",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        94,
+        119
+      ],
+      "cited_terms": [
+        "frozen_artifact_governed_by",
+        "outlier_claim_has_confidence",
+        "constraint_only_constrains"
+      ]
+    },
+    {
+      "id": "ch_live_frozen_artifact_governed_by_7028de",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        54,
+        60
+      ],
+      "cited_terms": [
+        "frozen_artifact_governed_by",
+        "transformation_with_output_dataset",
+        "universal_combined_with_existential"
+      ]
+    },
+    {
+      "id": "ch_live_frozen_artifact_governed_by_a6df65",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "frozen_artifact_governed_by",
+        "span_with_parent",
+        "profile_of_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_home_electricity_reduction_program_0f71e6",
+      "family": "08_derived",
+      "topics": [
+        23,
+        163,
+        166
+      ],
+      "cited_terms": [
+        "home_electricity_reduction_program",
+        "frozen_artifact_governed_by",
+        "schemaorg_review_rating"
+      ]
+    },
+    {
+      "id": "ch_live_indoor_environmental_monitoring_process_e137d9",
+      "family": "08_derived",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "indoor_environmental_monitoring_process",
+        "annotation_assigned_by",
+        "ebpf_program_governed_by_directive"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_via_transformation_d27c75",
+      "family": "05_provo_lineage",
+      "topics": [
+        23,
+        78,
+        140,
+        142
+      ],
+      "cited_terms": [
+        "lineage_edge_via_transformation",
+        "syscall_audited_by",
+        "frozen_artifact_governed_by"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_subclass_196dbb",
+      "family": "02_observation_measurement",
+      "topics": [
+        23,
+        39,
+        44,
+        71,
+        157
+      ],
+      "cited_terms": [
+        "measurement_subclass",
+        "ebpfmap_pinned_at_path",
+        "outlier_claim_min_one_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_detection_with_baseline_cefcc9",
+      "family": "02_observation_measurement",
+      "topics": [
+        23,
+        60,
+        86,
+        170,
+        196
+      ],
+      "cited_terms": [
+        "outlier_detection_with_baseline",
+        "ebpfprogram_attaches_kernelhook_xref",
+        "log_with_resource_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_policy_applies_to_05f584",
+      "family": "01_foundation",
+      "topics": [
+        23,
+        41
+      ],
+      "cited_terms": [
+        "policy_applies_to",
+        "policy_attests_artifact",
+        "policy_authored_by"
+      ]
+    },
+    {
+      "id": "ch_live_policy_attests_artifact_a5e105",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        41,
+        61
+      ],
+      "cited_terms": [
+        "policy_attests_artifact",
+        "xdp_action_pass",
+        "subclass_disjoint_from_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_policy_attests_artifact_a8ce9d",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        38,
+        41,
+        136,
+        186
+      ],
+      "cited_terms": [
+        "policy_attests_artifact",
+        "audit_basic",
+        "verification_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_policy_equiv_jurisdiction_and_scope_10c026",
+      "family": "03_directive_governance",
+      "topics": [
+        23,
+        41,
+        128,
+        147
+      ],
+      "cited_terms": [
+        "policy_equiv_jurisdiction_and_scope",
+        "policy_attests_artifact",
+        "profiling_targets_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_traces_to_85d433",
+      "family": "03_directive_governance",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "requirement_traces_to",
+        "column_tag_from_annotator",
+        "ebpf_program_governed_by_directive"
+      ]
+    },
+    {
+      "id": "ch_live_safety_planning_process_94378c",
+      "family": "08_derived",
+      "topics": [
+        23,
+        38,
+        44,
+        71,
+        136
+      ],
+      "cited_terms": [
+        "safety_planning_process",
+        "ebpfmap_pinned_at_path",
+        "verification_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_author_5753a8",
+      "family": "07_long_tail",
+      "topics": [
+        23
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_author",
+        "ebpf_program_governed_by_directive",
+        "measurement_with_method"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_author_b6c94a",
+      "family": "07_long_tail",
+      "topics": [
+        23,
+        41,
+        147
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_author",
+        "policy_attests_artifact",
+        "profiling_targets_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_verification_basic_1b7134",
+      "family": "03_directive_governance",
+      "topics": [
+        23,
+        138
+      ],
+      "cited_terms": [
+        "verification_basic",
+        "designative_for_specific_role",
+        "frozen_artifact_governed_by"
+      ]
+    },
+    {
+      "id": "ch_live_verification_concludes_with_6b3160",
       "family": "03_directive_governance",
       "topics": [
         23,
         44,
-        176
+        69,
+        71,
+        129
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "910f892960a4d5d2",
-      "family": "03_directive_governance",
-      "topics": [
-        1,
-        14,
-        23
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "b9cd175ccdcfb128",
-      "family": "03_directive_governance",
-      "topics": [
-        6,
-        19,
-        23
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "c7a2f360da04a8eb",
-      "family": "03_directive_governance",
-      "topics": [
-        23,
-        86,
-        181
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "verification_produces_evidence",
-        "constraint_evaluated_during",
-        "control_with_evidence_requirement"
+        "verification_concludes_with",
+        "ebpfmap_pinned_at_path",
+        "campus_event_participation"
       ]
     }
   ]

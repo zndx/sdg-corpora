@@ -1,33 +1,33 @@
 # Collection — topic 190 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **5 chapters** · **11 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
-
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 190: topic 20, topic 26, topic 31, topic 35, topic 80, topic 121, topic 166, topic 181, topic 196, topic 198.
+FinePDFs-grounded topic (carried forward from the coverage audit). **3 chapters** · **1 topics** (target + style) · **7 ontology terms** · **7 underlying tables**.
 
 > **Topic gist** (representative FinePDFs text): crop protection crop protection monthly international news, comments, features international news, comments, features international news, comments, features and conference reports and conference reports and conference reports April 2017 Crop Protection European Regulatory Conference 15 th -16 th March 2017 CONTENTS Crop Protection European Regulatory Conference The 4th Crop Protection Europ... …
 
 ## Chapters
 
-- [Chapter 4: Ontological Structures for Audit Evidence and Attestation](chapters/601959f4f1499ad4.md)
-- [Chapter 7: Ontological Foundations of Compliance Evidentiary Frameworks](chapters/858e56e9efc24f10.md)
-- [Chapter 4: Evidentiary Frameworks for Audit Trails and Compliance Verification](chapters/df7b11f573b09066.md)
-- [Chapter 7: Ontological Formalization of Audit Evidence and Attestation](chapters/f4bbf3b09e72aad2.md)
-- [Chapter 4: Evidentiary Frameworks and Attestation Protocols in System Governance](chapters/fe90de6e9990e26b.md)
+- [ch_live_crop_parasitism_impact_9617f3](chapters/ch_live_crop_parasitism_impact_9617f3.md)
+- [ch_live_crop_parasitism_impact_b77a0e](chapters/ch_live_crop_parasitism_impact_b77a0e.md)
+- [ch_live_crop_parasitism_impact_d25943](chapters/ch_live_crop_parasitism_impact_d25943.md)
 
 ## Ontology terms grounding this collection
 
-- `attestation_min_one_signer` — {X} is a process
-- `attestation_signed_by` — {X} is a process that signed by person
-- `column_lineage_for_compliance_claim` — {X} is an artifact that supports claim descriptive information content entity
-- `kernel_anomaly_supports_claim` — {X} is an artifact that supports claim descriptive information content entity
-- `trace_supports_claim` — {X} is a process that supports claim descriptive information content entity
+- `cardinality_exactly_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} exactly 1 {Y:Class}
+- `conjunctive_combination` — {X} is a descriptive information content entity that conjunctively combines {Y}
+- `crop_parasitism_impact` — CropParasitismImpact is an information content entity that affects exactly one RiceCultivationSystem, parasitises exactl
+- `ebpfmap_equiv_kv_typed` — Class: {X:Class} EquivalentTo: cco:Artifact and (sdg:hasKeyType some {Y:Class}) and (sdg:hasValueTypeMap some {Z:Class})
+- `ebpfprogram_observes_syscall` — {X} is an artifact that observes syscall {Y}
+- `observation_precedes_other` — {X} is a process that precedes {Y}
+- `schemaorg_product_sku` — {X} is an artifact that has sku {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
-- [`t_column_lineage_for_compliance_claim`](tables/t_column_lineage_for_compliance_claim.sql) — realizes `column_lineage_for_compliance_claim` · _shared with 5 other collection(s)_
-- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 5 other collection(s)_
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_
+- [`t_cardinality_exactly_one_generic`](tables/t_cardinality_exactly_one_generic.sql) — realizes `cardinality_exactly_one_generic` · _shared with 10 other collection(s)_
+- [`t_conjunctive_combination`](tables/t_conjunctive_combination.sql) — realizes `conjunctive_combination` · _shared with 10 other collection(s)_
+- [`t_crop_parasitism_impact`](tables/t_crop_parasitism_impact.sql) — realizes `crop_parasitism_impact` · _shared with 9 other collection(s)_
+- [`t_ebpfmap_equiv_kv_typed`](tables/t_ebpfmap_equiv_kv_typed.sql) — realizes `ebpfmap_equiv_kv_typed` · _shared with 8 other collection(s)_
+- [`t_ebpfprogram_observes_syscall`](tables/t_ebpfprogram_observes_syscall.sql) — realizes `ebpfprogram_observes_syscall` · _shared with 4 other collection(s)_
+- [`t_observation_precedes_other`](tables/t_observation_precedes_other.sql) — realizes `observation_precedes_other` · _shared with 8 other collection(s)_
+- [`t_schemaorg_product_sku`](tables/t_schemaorg_product_sku.sql) — realizes `schemaorg_product_sku` · _shared with 6 other collection(s)_

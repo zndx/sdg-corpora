@@ -1,39 +1,35 @@
 # Collection — topic 150 · 03_directive_governance
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **11 chapters** · **22 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
-
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 150: topic 2, topic 6, topic 7, topic 26, topic 34, topic 35, topic 43, topic 47, topic 53, topic 57, topic 73, topic 90, topic 103, topic 110, topic 157, topic 163, topic 165, topic 169, topic 187, topic 190, topic 199.
+FinePDFs-grounded topic (carried forward from the coverage audit). **3 chapters** · **1 topics** (target + style) · **8 ontology terms** · **8 underlying tables**.
 
 > **Topic gist** (representative FinePDFs text): Special Education: Nonpublic School and Nonpublic Agency Study Final Report Thomas Parrish, Project Director Gina Chen Heather Shaw September 30, 1998 Submitted to: Office of the Legislative Analyst 925 L Street, Suite 1000 Sacramento, CA 95814 California Department of Education Special Education Division 515 L Street, Suite 270 Sacramento, CA 95814 California Department of Finance 915 L Str... …
 
 ## Chapters
 
-- [Chapter 4: Directive Governance and Attestation Structures in Compliance Audits](chapters/2c0f0bc8501823a7.md)
-- [Chapter 4: Ontological Formalization of Governance and Audit Frameworks](chapters/3de4e26b13006d0e.md)
-- [Chapter 4: Governance Frameworks and Audit Trail Integrity in PCI-DSS Environments](chapters/49567b0e3d5f0667.md)
-- [Chapter 4: Formal Ontologies in Governance and Compliance Assurance](chapters/49ecb3f8f944bd74.md)
-- [Chapter 4: Formal Ontology of Governance and Compliance Mechanisms](chapters/5a04fe783c5a4642.md)
-- [Chapter 7: Ontological Formalization of Governance and Compliance Protocols](chapters/7826d2cbcd588fff.md)
-- [Chapter 4: Governance Mechanisms and Attestation Protocols in PCI-DSS Compliance Frameworks](chapters/8172dadc39bf7711.md)
-- [Chapter 7: Directive Governance in PCI DSS Audit Trails](chapters/a61090979e9dfdea.md)
-- [Chapter 7: Formal Ontology of Governance and Compliance Mechanisms](chapters/aedcfb550ceccb77.md)
-- [Chapter 4: Governance Frameworks and Compliance Verification Protocols](chapters/d7d02e388c9ec6b6.md)
-- [Chapter 4: Governance Frameworks and Compliance Verification Protocols](chapters/f420ef8043e75208.md)
+- [ch_live_mental_health_education_program_35c5f3](chapters/ch_live_mental_health_education_program_35c5f3.md)
+- [ch_live_mental_health_education_program_8ae60c](chapters/ch_live_mental_health_education_program_8ae60c.md)
+- [ch_live_young_adult_speaker_role_176ca5](chapters/ch_live_young_adult_speaker_role_176ca5.md)
 
 ## Ontology terms grounding this collection
 
-- `attestation_min_one_signer` — {X} is a process
-- `attestation_signed_by` — {X} is a process that signed by person
-- `audit_conducted_by` — {X} is a process that conducted by person
-- `pci_dss_requirement` — {X} is a directive information content entity that pci dss requirement {Y}
-- `requirement_equiv_specifies_target` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:specifies some {Y:Class}) and (sdg:appliesTo some {Z:Class})
+- `bpf_helper_called_by` — {X} is an artifact that called by program {Y}
+- `mental_health_education_program` — A MentalHealthEducationProgram is an Occurrent that hasDeliveredPresentation some EducationalPresentation and targetsDem
+- `nist80053_low_impact` — {X} is a directive information content entity that at nistimpact level {Y}
+- `policy_applies_to` — {X} is a directive information content entity that applies to {Y}
+- `profiling_produces_profile` — {X} is a process that produces {Y}
+- `soc2_availability_subclass` — {X} is a directive information content entity that for soc2 domain {Y}
+- `student_privacy_expectation` — StudentPrivacyExpectation is a DescriptiveICE that appliesTo some ProtectedLocation.
+- `young_adult_speaker_role` — A YoungAdultSpeakerRole is a Role that hasQualifyingIndividual exactly 1 YoungAdultIndividual and deliversPresentation s
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_min_one_signer`](tables/t_attestation_min_one_signer.sql) — realizes `attestation_min_one_signer` · _shared with 16 other collection(s)_
-- [`t_attestation_signed_by`](tables/t_attestation_signed_by.sql) — realizes `attestation_signed_by` · _shared with 21 other collection(s)_
-- [`t_audit_conducted_by`](tables/t_audit_conducted_by.sql) — realizes `audit_conducted_by` · _shared with 19 other collection(s)_
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_bpf_helper_called_by`](tables/t_bpf_helper_called_by.sql) — realizes `bpf_helper_called_by` · _shared with 7 other collection(s)_
+- [`t_mental_health_education_program`](tables/t_mental_health_education_program.sql) — realizes `mental_health_education_program` · _shared with 9 other collection(s)_
+- [`t_nist80053_low_impact`](tables/t_nist80053_low_impact.sql) — realizes `nist80053_low_impact` · _shared with 6 other collection(s)_
+- [`t_policy_applies_to`](tables/t_policy_applies_to.sql) — realizes `policy_applies_to` · _shared with 7 other collection(s)_
+- [`t_profiling_produces_profile`](tables/t_profiling_produces_profile.sql) — realizes `profiling_produces_profile` · _shared with 8 other collection(s)_
+- [`t_soc2_availability_subclass`](tables/t_soc2_availability_subclass.sql) — realizes `soc2_availability_subclass` · _shared with 9 other collection(s)_
+- [`t_student_privacy_expectation`](tables/t_student_privacy_expectation.sql) — realizes `student_privacy_expectation` · _shared with 10 other collection(s)_
+- [`t_young_adult_speaker_role`](tables/t_young_adult_speaker_role.sql) — realizes `young_adult_speaker_role` · _shared with 6 other collection(s)_

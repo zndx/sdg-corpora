@@ -1,394 +1,64 @@
 {
   "topic_id": 68,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.12998980283737183,
+  "n_chapters": 1,
+  "coverage_score": 0.11954472213983536,
   "topic_repr": "PRODUCT INFORMATION\n\nContents\n\n* 20 \u00b5g of lyophilized pLV-SpikeV11 (plasmid DNA)\n\nStorage and Stability\n\n* Product is shipped at room temperature.\n* Lyophilized DNA should be stored at -20\u00b0C.\n* Resuspended DNA should be stored at -20\u00b0C and is stable for at least 1 year.\n\nQuality control\n\n* Plasmid construct is confirmed by restriction analysis and full\u2011length open reading frame (ORF) sequencing.\n*...",
   "terms": [
-    "attestation_min_one_signer",
-    "hipaa_safeguard_admin",
-    "hipaa_safeguard_physical",
-    "requirement_equiv_specifies_target",
-    "verification_min_one_evidence"
+    "artifact_either_internal_or_external",
+    "quality_assurance_initiative",
+    "subclass_basic"
   ],
   "tables": [
-    "t_attestation_min_one_signer",
-    "t_hipaa_safeguard_admin",
-    "t_hipaa_safeguard_physical",
-    "t_requirement_equiv_specifies_target",
-    "t_verification_min_one_evidence"
+    "t_artifact_either_internal_or_external",
+    "t_quality_assurance_initiative",
+    "t_subclass_basic"
   ],
   "topics": [
-    4,
-    23,
-    33,
-    34,
-    68,
-    81,
-    85,
-    89,
-    90,
-    110,
-    113,
-    121,
-    125,
-    133,
-    136,
-    139,
-    142,
-    145,
-    146,
-    148,
-    157,
-    160,
-    163,
-    164,
-    178,
-    181,
-    183,
-    190
+    68
   ],
   "shared_tables": {
-    "attestation_min_one_signer": [
-      1,
+    "artifact_either_internal_or_external": [
       4,
-      28,
-      43,
-      57,
-      65,
-      75,
-      76,
-      95,
-      127,
-      150,
-      171,
-      176,
-      187,
-      190,
-      198
+      10,
+      72,
+      140
     ],
-    "hipaa_safeguard_admin": [
-      13,
-      35,
-      39,
-      47,
-      74,
-      91,
-      98,
-      100,
-      108,
-      117,
-      136,
-      151,
-      181,
-      183
-    ],
-    "hipaa_safeguard_physical": [
-      13,
-      35,
-      39,
-      47,
-      58,
-      74,
-      91,
-      92,
-      98,
-      100,
-      108,
-      117,
-      135,
-      136,
-      151,
-      181,
-      183
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
-      4,
-      7,
-      15,
-      20,
-      21,
-      47,
+    "quality_assurance_initiative": [
+      10,
+      11,
+      26,
+      34,
       71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
       186,
-      191,
-      199
-    ],
-    "verification_min_one_evidence": [
-      1,
-      7,
-      28,
-      38,
-      40,
-      57,
-      76,
-      81,
-      82,
-      95,
-      127,
-      128,
-      129,
-      171,
-      176,
       187
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
+      81,
+      86,
+      91,
+      128,
+      161,
+      183,
+      185,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "0fb4418d47d22000",
-      "family": "03_directive_governance",
+      "id": "ch_live_artifact_either_internal_or_external_dd5c06",
+      "family": "07_long_tail",
       "topics": [
-        68,
-        146,
-        190
+        68
       ],
       "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "1c9796830827a5f1",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        89,
-        121
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "1ceb3cf9bbf7548d",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        160,
-        183
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "4af7f4fa1822374c",
-      "family": "03_directive_governance",
-      "topics": [
-        23,
-        68,
-        157
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "70d98c842391fb0d",
-      "family": "03_directive_governance",
-      "topics": [
-        4,
-        68,
-        190
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "7901f20e9ddb0859",
-      "family": "03_directive_governance",
-      "topics": [
-        33,
-        68,
-        164
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "7e39d28335cd5577",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        90,
-        125
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "98d8974dc3582067",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        163,
-        178
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "9ac77da2b335bf81",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        81,
-        164
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "a4d43c5a2686eeae",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        136,
-        148
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "c2d7f96226abaa46",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        146,
-        181
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "dd497fa7c24f630b",
-      "family": "03_directive_governance",
-      "topics": [
-        34,
-        68,
-        142
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "f50094bc8139627f",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        85,
-        110
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "f736b8fc8d81a6a4",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        113,
-        145
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "fd35ca03eaa783e0",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        133,
-        139
-      ],
-      "cited_terms": [
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "verification_min_one_evidence",
-        "hipaa_safeguard_admin",
-        "attestation_min_one_signer"
+        "artifact_either_internal_or_external",
+        "quality_assurance_initiative",
+        "subclass_basic"
       ]
     }
   ]

@@ -1,359 +1,400 @@
 {
   "topic_id": 30,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.17171046137809753,
+  "n_chapters": 10,
+  "coverage_score": 0.15598930418491364,
   "topic_repr": "**Basic Information**\n\n- **Catalog Number:** 20536-1-AP\n- **Size:** 150ul, Concentration: 600 ug/ml by Nanodrop;\n- **Source:** Rabbit\n- **Isotype:** IgG\n- **Immunogen Catalog Number:** AC14521\n- **GenBank Accession Number:** BC002409\n- **GeneID (NCBI):** 60\n- **UNIPROT ID:** P60709\n- **Full Name:** actin, beta\n- **Calculated MW:** 375 aa, 42 kDa\n- **Observed MW:** 42 kDa\n\n**Purification Method:** ...",
   "terms": [
-    "attestation_signed_by",
-    "column_lineage_for_compliance_claim",
-    "gdpr_lawful_basis",
-    "kernel_anomaly_supports_claim",
-    "trace_supports_claim"
+    "agent_responsible_for",
+    "agent_with_role",
+    "attestation_min_one_signer",
+    "control_basic",
+    "dataset_snapshot_subclass",
+    "ebpfevent_via_program_xref",
+    "ebpfmap_used_by_program",
+    "ebpfprogram_writes_to_map",
+    "equiv_intersect_with_two_restrictions",
+    "existential_two_clauses",
+    "ganglion_cyst_imaging_finding",
+    "kernelhook_in_kernel_module",
+    "lineage_edge_max_one_target",
+    "process_max_one_operator",
+    "profile_has_cardinality",
+    "qualification_process",
+    "regional_quality_benchmark",
+    "schemaorg_creativework_date",
+    "schemaorg_event_location",
+    "two_disjoint_artifacts"
   ],
   "tables": [
-    "t_attestation_signed_by",
-    "t_column_lineage_for_compliance_claim",
-    "t_gdpr_lawful_basis",
-    "t_kernel_anomaly_supports_claim",
-    "t_trace_supports_claim"
+    "t_agent_responsible_for",
+    "t_agent_with_role",
+    "t_attestation_min_one_signer",
+    "t_control_basic",
+    "t_dataset_snapshot_subclass",
+    "t_ebpfevent_via_program_xref",
+    "t_ebpfmap_used_by_program",
+    "t_ebpfprogram_writes_to_map",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_existential_two_clauses",
+    "t_ganglion_cyst_imaging_finding",
+    "t_kernelhook_in_kernel_module",
+    "t_lineage_edge_max_one_target",
+    "t_process_max_one_operator",
+    "t_profile_has_cardinality",
+    "t_qualification_process",
+    "t_regional_quality_benchmark",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_event_location",
+    "t_two_disjoint_artifacts"
   ],
   "topics": [
-    1,
-    15,
-    23,
     30,
-    32,
-    34,
-    50,
-    51,
-    62,
-    64,
-    67,
-    68,
-    71,
-    75,
-    76,
-    80,
+    35,
+    44,
+    45,
+    49,
+    61,
+    66,
     82,
-    99,
-    100,
-    102,
-    108,
-    126,
-    134,
-    144,
-    146,
-    164,
-    169,
-    174,
-    187,
-    190
+    107,
+    111,
+    188,
+    191
   ],
   "shared_tables": {
-    "attestation_signed_by": [
+    "agent_responsible_for": [
+      35
+    ],
+    "agent_with_role": [
+      7,
+      26,
+      38,
+      66,
+      125,
+      146,
+      186
+    ],
+    "attestation_min_one_signer": [
+      1,
+      40,
+      155,
+      191
+    ],
+    "control_basic": [
+      2,
+      26,
+      27,
+      100,
+      140,
+      159,
+      183,
+      186
+    ],
+    "dataset_snapshot_subclass": [
+      5,
+      17,
+      26,
+      46,
+      80,
+      123,
+      138,
+      168,
+      183,
+      186
+    ],
+    "ebpfevent_via_program_xref": [
+      10,
+      21,
+      40,
+      62,
+      105,
+      186,
+      188
+    ],
+    "ebpfmap_used_by_program": [
+      1,
+      23,
+      36,
+      44,
+      45
+    ],
+    "ebpfprogram_writes_to_map": [
+      0,
+      19,
+      20,
+      44
+    ],
+    "equiv_intersect_with_two_restrictions": [
       2,
       4,
-      5,
+      7,
+      12,
+      14,
       26,
-      28,
-      37,
-      43,
+      34,
+      61,
+      66,
+      181,
+      183,
+      186
+    ],
+    "existential_two_clauses": [
+      47,
       65,
-      70,
-      73,
-      75,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      150,
-      163,
-      165,
-      190
+      146,
+      186
     ],
-    "column_lineage_for_compliance_claim": [
-      94,
-      115,
-      130,
-      133,
-      190
+    "ganglion_cyst_imaging_finding": [
+      2,
+      4,
+      47,
+      50,
+      81,
+      109,
+      135,
+      139,
+      181,
+      183,
+      186
     ],
-    "gdpr_lawful_basis": [
+    "kernelhook_in_kernel_module": [
+      21,
+      111
+    ],
+    "lineage_edge_max_one_target": [
+      12,
+      26,
+      40,
+      46,
+      79,
+      80,
+      109,
+      140,
+      159,
+      183,
+      186
+    ],
+    "process_max_one_operator": [
+      26,
+      36,
+      135,
+      186
+    ],
+    "profile_has_cardinality": [
+      4,
+      23,
+      26,
+      62,
+      100,
+      106,
+      186
+    ],
+    "qualification_process": [
+      7,
+      26,
+      125,
+      128,
+      186,
+      191
+    ],
+    "regional_quality_benchmark": [
+      0,
       3,
+      10,
+      20,
       26,
-      73,
-      78,
-      104,
-      133,
-      138,
-      154,
-      163
-    ],
-    "kernel_anomaly_supports_claim": [
-      94,
-      115,
-      130,
-      133,
-      190
-    ],
-    "trace_supports_claim": [
-      49,
-      65,
-      78,
-      94,
-      99,
-      108,
-      115,
-      130,
-      133,
-      154,
-      165,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
       185,
-      190
+      186
+    ],
+    "schemaorg_creativework_date": [
+      12,
+      26,
+      69,
+      72,
+      100,
+      163,
+      183
+    ],
+    "schemaorg_event_location": [
+      6,
+      20,
+      34,
+      41,
+      65,
+      69,
+      155,
+      168,
+      183,
+      186
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      12,
+      24,
+      42,
+      47,
+      54,
+      61
     ]
   },
   "chapters": [
     {
-      "id": "017f3a3e2b1a4e43",
-      "family": "07_long_tail",
+      "id": "ch_live_agent_responsible_for_f65661",
+      "family": "05_provo_lineage",
       "topics": [
         30,
-        68,
-        76
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
-      ]
-    },
-    {
-      "id": "0285a1ad16df3332",
-      "family": "07_long_tail",
-      "topics": [
-        30,
-        80,
-        126
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
-      ]
-    },
-    {
-      "id": "075b861d677f4623",
-      "family": "07_long_tail",
-      "topics": [
-        23,
-        30,
-        32
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
-      ]
-    },
-    {
-      "id": "0a988cd1e6854efc",
-      "family": "07_long_tail",
-      "topics": [
-        30,
-        169,
-        187
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
-      ]
-    },
-    {
-      "id": "6395ca7978426591",
-      "family": "07_long_tail",
-      "topics": [
-        30,
-        67,
-        99
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
-      ]
-    },
-    {
-      "id": "76fd4064a063303c",
-      "family": "07_long_tail",
-      "topics": [
-        30,
+        35,
+        66,
         82,
-        146
+        107
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "agent_responsible_for",
+        "kernelhook_in_kernel_module",
+        "lineage_edge_max_one_target"
       ]
     },
     {
-      "id": "82ae605e509d81ff",
-      "family": "07_long_tail",
+      "id": "ch_live_control_basic_ed4de4",
+      "family": "03_directive_governance",
       "topics": [
         30,
-        134,
-        174
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "control_basic",
+        "kernelhook_in_kernel_module",
+        "process_max_one_operator"
       ]
     },
     {
-      "id": "98f0faf23bf53f9e",
-      "family": "07_long_tail",
+      "id": "ch_live_equiv_intersect_with_two_restrictions_90237e",
+      "family": "01_foundation",
       "topics": [
         30,
-        100,
-        164
+        45,
+        49,
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "equiv_intersect_with_two_restrictions",
+        "kernelhook_in_kernel_module",
+        "ebpfmap_used_by_program"
       ]
     },
     {
-      "id": "b099c942564d4a1d",
-      "family": "07_long_tail",
+      "id": "ch_live_existential_two_clauses_98deb6",
+      "family": "01_foundation",
       "topics": [
-        1,
         30,
-        34
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "existential_two_clauses",
+        "qualification_process",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "c843a60d898e2f31",
-      "family": "07_long_tail",
+      "id": "ch_live_kernelhook_in_kernel_module_2a6e38",
+      "family": "04_ebpf_kernel",
       "topics": [
         30,
-        50,
-        190
+        111,
+        188,
+        191
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "kernelhook_in_kernel_module",
+        "dataset_snapshot_subclass",
+        "attestation_min_one_signer"
       ]
     },
     {
-      "id": "cc3686f6c16d4d96",
-      "family": "07_long_tail",
+      "id": "ch_live_kernelhook_in_kernel_module_8fdc62",
+      "family": "04_ebpf_kernel",
       "topics": [
         30,
-        51,
-        144
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "kernelhook_in_kernel_module",
+        "ebpfevent_via_program_xref",
+        "schemaorg_creativework_date"
       ]
     },
     {
-      "id": "ccbbe2beff222995",
-      "family": "07_long_tail",
+      "id": "ch_live_profile_has_cardinality_708cef",
+      "family": "02_observation_measurement",
       "topics": [
-        1,
         30,
-        64
+        61,
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "profile_has_cardinality",
+        "two_disjoint_artifacts",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "d041d72c2b83ea9f",
-      "family": "07_long_tail",
+      "id": "ch_live_regional_quality_benchmark_46df89",
+      "family": "08_derived",
       "topics": [
-        15,
         30,
-        102
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "regional_quality_benchmark",
+        "agent_with_role",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "e31e7a092acb845f",
+      "id": "ch_live_schemaorg_creativework_date_c3c169",
       "family": "07_long_tail",
       "topics": [
         30,
-        62,
-        108
+        44,
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "schemaorg_creativework_date",
+        "ebpfprogram_writes_to_map",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "e92a56e82828e215",
+      "id": "ch_live_schemaorg_event_location_28aba6",
       "family": "07_long_tail",
       "topics": [
         30,
-        71,
-        75
+        111,
+        188
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "gdpr_lawful_basis",
-        "kernel_anomaly_supports_claim",
-        "column_lineage_for_compliance_claim"
+        "schemaorg_event_location",
+        "kernelhook_in_kernel_module",
+        "ganglion_cyst_imaging_finding"
       ]
     }
   ]

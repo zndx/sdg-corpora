@@ -1,343 +1,365 @@
 {
   "topic_id": 138,
   "family": "04_ebpf_kernel",
-  "n_chapters": 13,
-  "coverage_score": 0.4382777810096741,
+  "n_chapters": 9,
+  "coverage_score": 0.46312400698661804,
   "topic_repr": "Lingnan College Hong Kong: calendar 1995-1996\n\nFollow this and additional works at: https://commons.ln.edu.hk/lingnan_calendar\n\nPart of the Education Commons\n\nRecommended Citation\nLingnan College (1995). Lingnan College Hong Kong: calendar 1995-1996. Hong Kong: Lingnan College.\n\nThis Book is brought to you for free and open access by the Lingnan University (Hong Kong): Publications at Digital Comm...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "control_with_evidence_requirement",
-    "gdpr_article_subclass",
-    "gdpr_lawful_basis",
-    "verification_produces_evidence"
+    "artifact_with_role",
+    "cardinality_max_one_generic",
+    "claim_min_one_evidence",
+    "dataset_snapshot_subclass",
+    "descriptive_not_retracted",
+    "descriptive_only_about_artifact",
+    "designative_for_specific_role",
+    "directive_only_governs_artifact",
+    "equiv_intersect_basic",
+    "equiv_intersect_with_restriction",
+    "gdpr_data_subject_right",
+    "ice_about_artifact",
+    "measurement_observed_at",
+    "nist80053_control_subclass",
+    "pignistic_transformation",
+    "span_within_trace",
+    "state_observed_at_time",
+    "syscall_at_security_tier",
+    "syscall_traceable",
+    "trace_with_service_name",
+    "transformation_basic"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_control_with_evidence_requirement",
-    "t_gdpr_article_subclass",
-    "t_gdpr_lawful_basis",
-    "t_verification_produces_evidence"
+    "t_artifact_with_role",
+    "t_cardinality_max_one_generic",
+    "t_claim_min_one_evidence",
+    "t_dataset_snapshot_subclass",
+    "t_descriptive_not_retracted",
+    "t_descriptive_only_about_artifact",
+    "t_designative_for_specific_role",
+    "t_directive_only_governs_artifact",
+    "t_equiv_intersect_basic",
+    "t_equiv_intersect_with_restriction",
+    "t_gdpr_data_subject_right",
+    "t_ice_about_artifact",
+    "t_measurement_observed_at",
+    "t_nist80053_control_subclass",
+    "t_pignistic_transformation",
+    "t_span_within_trace",
+    "t_state_observed_at_time",
+    "t_syscall_at_security_tier",
+    "t_syscall_traceable",
+    "t_trace_with_service_name",
+    "t_transformation_basic"
   ],
   "topics": [
-    3,
-    15,
-    27,
-    35,
-    43,
-    52,
-    71,
-    72,
-    77,
-    82,
-    96,
-    97,
-    101,
-    108,
-    113,
-    131,
-    136,
+    34,
+    44,
+    49,
     138,
-    143,
-    146,
-    154,
-    157,
-    158,
-    194,
-    199
+    183,
+    184,
+    188
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "artifact_with_role": [
       2,
-      3,
-      5,
-      6,
       7,
-      16,
-      20,
-      23,
+      35,
+      61,
+      155,
+      181,
+      183,
+      186
+    ],
+    "cardinality_max_one_generic": [
+      7,
       26,
-      37,
+      34,
+      42,
       44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
+      86,
+      117,
+      143,
+      186
     ],
-    "control_with_evidence_requirement": [
-      3,
+    "claim_min_one_evidence": [
+      4,
       23,
-      26,
-      58,
-      78,
-      83,
-      88,
-      89,
-      92,
-      102,
-      104,
-      134,
-      154,
-      191
+      40,
+      44,
+      97
     ],
-    "gdpr_article_subclass": [
+    "dataset_snapshot_subclass": [
       5,
-      70,
-      85
-    ],
-    "gdpr_lawful_basis": [
-      3,
+      17,
       26,
       30,
-      73,
-      78,
-      104,
-      133,
-      154,
-      163
+      46,
+      80,
+      123,
+      168,
+      183,
+      186
     ],
-    "verification_produces_evidence": [
-      6,
-      16,
-      23,
-      44,
-      56,
-      58,
-      71,
-      83,
-      89,
-      104,
-      129,
-      160,
-      163,
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      47,
+      67,
+      69,
+      94,
+      161,
+      181,
+      186,
+      187,
       191
+    ],
+    "descriptive_only_about_artifact": [
+      2,
+      10,
+      16,
+      19,
+      45,
+      74,
+      188
+    ],
+    "designative_for_specific_role": [
+      1,
+      23,
+      67,
+      119
+    ],
+    "directive_only_governs_artifact": [
+      3,
+      12,
+      26,
+      40,
+      42,
+      47,
+      186,
+      187
+    ],
+    "equiv_intersect_basic": [
+      1,
+      11,
+      186
+    ],
+    "equiv_intersect_with_restriction": [
+      1,
+      44,
+      92,
+      109,
+      181,
+      186
+    ],
+    "gdpr_data_subject_right": [
+      1,
+      7,
+      23,
+      65,
+      129,
+      146,
+      186
+    ],
+    "ice_about_artifact": [
+      2,
+      34,
+      47,
+      102
+    ],
+    "measurement_observed_at": [
+      4,
+      33,
+      45,
+      80,
+      119,
+      161,
+      186
+    ],
+    "nist80053_control_subclass": [
+      5,
+      14,
+      26,
+      80,
+      188
+    ],
+    "pignistic_transformation": [
+      35,
+      45,
+      60,
+      109
+    ],
+    "span_within_trace": [
+      2,
+      8,
+      19,
+      40,
+      149,
+      183,
+      186
+    ],
+    "state_observed_at_time": [
+      5,
+      26,
+      33,
+      46,
+      72,
+      86,
+      97,
+      100,
+      183
+    ],
+    "syscall_at_security_tier": [
+      7,
+      10,
+      12,
+      24,
+      34,
+      78
+    ],
+    "syscall_traceable": [
+      6,
+      42,
+      90,
+      100
+    ],
+    "trace_with_service_name": [
+      5,
+      26,
+      83,
+      102,
+      107,
+      155,
+      183
+    ],
+    "transformation_basic": [
+      7,
+      42,
+      54,
+      129,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "011b8541fa41da25",
-      "family": "03_directive_governance",
+      "id": "ch_live_descriptive_not_retracted_31c393",
+      "family": "07_long_tail",
       "topics": [
-        136,
-        138,
-        157
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "19d9c17224e8d24f",
-      "family": "03_directive_governance",
-      "topics": [
-        113,
-        138,
-        194
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "2db51e37d578a115",
-      "family": "03_directive_governance",
-      "topics": [
-        82,
-        138,
-        199
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "ae774092d70ed27f",
-      "family": "03_directive_governance",
-      "topics": [
-        108,
-        138,
-        143
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "ae8a9a3f8a9178c6",
-      "family": "03_directive_governance",
-      "topics": [
-        43,
-        77,
         138
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "descriptive_not_retracted",
+        "descriptive_only_about_artifact",
+        "designative_for_specific_role"
       ]
     },
     {
-      "id": "b60cf8a7614099b3",
-      "family": "03_directive_governance",
+      "id": "ch_live_designative_for_specific_role_b21c30",
+      "family": "01_foundation",
       "topics": [
-        15,
-        96,
         138
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "designative_for_specific_role",
+        "artifact_with_role",
+        "trace_with_service_name"
       ]
     },
     {
-      "id": "beb3e4265e19cad2",
-      "family": "03_directive_governance",
+      "id": "ch_live_designative_for_specific_role_ce0609",
+      "family": "01_foundation",
       "topics": [
-        97,
-        138,
-        158
+        138
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "designative_for_specific_role",
+        "equiv_intersect_with_restriction",
+        "ice_about_artifact"
       ]
     },
     {
-      "id": "db51dab397ade19a",
-      "family": "03_directive_governance",
+      "id": "ch_live_directive_only_governs_artifact_868284",
+      "family": "07_long_tail",
       "topics": [
         138,
-        154,
-        157
+        183,
+        184
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "directive_only_governs_artifact",
+        "syscall_traceable",
+        "claim_min_one_evidence"
       ]
     },
     {
-      "id": "eb8f2b8d54ac2a0c",
-      "family": "03_directive_governance",
+      "id": "ch_live_gdpr_data_subject_right_f1792e",
+      "family": "07_long_tail",
       "topics": [
-        71,
-        131,
         138
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "gdpr_data_subject_right",
+        "designative_for_specific_role",
+        "dataset_snapshot_subclass"
       ]
     },
     {
-      "id": "f00ada164a3ff384",
-      "family": "03_directive_governance",
+      "id": "ch_live_measurement_observed_at_ac8844",
+      "family": "02_observation_measurement",
       "topics": [
-        27,
-        52,
-        138
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "f3d0607166c9b74b",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        101,
-        138
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "fd4372f67c28a461",
-      "family": "03_directive_governance",
-      "topics": [
-        101,
         138,
-        146
+        183,
+        184
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "measurement_observed_at",
+        "syscall_traceable",
+        "cardinality_max_one_generic"
       ]
     },
     {
-      "id": "fe5d7a8071a1dc73",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_at_security_tier_7b848e",
+      "family": "04_ebpf_kernel",
       "topics": [
-        35,
-        72,
+        34,
+        44,
+        49,
+        138,
+        184
+      ],
+      "cited_terms": [
+        "syscall_at_security_tier",
+        "state_observed_at_time",
+        "pignistic_transformation"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_traceable_22a4cf",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        138,
+        183,
+        184,
+        188
+      ],
+      "cited_terms": [
+        "syscall_traceable",
+        "nist80053_control_subclass",
+        "span_within_trace"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_basic_09cb6d",
+      "family": "05_provo_lineage",
+      "topics": [
         138
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "gdpr_article_subclass",
-        "control_with_evidence_requirement"
+        "transformation_basic",
+        "equiv_intersect_basic",
+        "designative_for_specific_role"
       ]
     }
   ]

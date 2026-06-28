@@ -1,344 +1,147 @@
 {
   "topic_id": 150,
   "family": "03_directive_governance",
-  "n_chapters": 11,
-  "coverage_score": 0.3443091809749603,
+  "n_chapters": 3,
+  "coverage_score": 0.3726930618286133,
   "topic_repr": "Special Education: Nonpublic School and Nonpublic Agency Study\n\nFinal Report\n\nThomas Parrish, Project Director\nGina Chen\nHeather Shaw\n\nSeptember 30, 1998\n\nSubmitted to:\nOffice of the Legislative Analyst\n925 L Street, Suite 1000\nSacramento, CA 95814\n\nCalifornia Department of Education\nSpecial Education Division\n515 L Street, Suite 270\nSacramento, CA 95814\n\nCalifornia Department of Finance\n915 L Str...",
   "terms": [
-    "attestation_min_one_signer",
-    "attestation_signed_by",
-    "audit_conducted_by",
-    "pci_dss_requirement",
-    "requirement_equiv_specifies_target"
+    "bpf_helper_called_by",
+    "mental_health_education_program",
+    "nist80053_low_impact",
+    "policy_applies_to",
+    "profiling_produces_profile",
+    "soc2_availability_subclass",
+    "student_privacy_expectation",
+    "young_adult_speaker_role"
   ],
   "tables": [
-    "t_attestation_min_one_signer",
-    "t_attestation_signed_by",
-    "t_audit_conducted_by",
-    "t_pci_dss_requirement",
-    "t_requirement_equiv_specifies_target"
+    "t_bpf_helper_called_by",
+    "t_mental_health_education_program",
+    "t_nist80053_low_impact",
+    "t_policy_applies_to",
+    "t_profiling_produces_profile",
+    "t_soc2_availability_subclass",
+    "t_student_privacy_expectation",
+    "t_young_adult_speaker_role"
   ],
   "topics": [
-    2,
-    6,
-    7,
-    26,
-    34,
-    35,
-    43,
-    47,
-    53,
-    57,
-    73,
-    90,
-    103,
-    110,
-    150,
-    157,
-    163,
-    165,
-    169,
-    187,
-    190,
-    199
+    150
   ],
   "shared_tables": {
-    "attestation_min_one_signer": [
+    "bpf_helper_called_by": [
+      0,
       1,
-      4,
-      28,
-      43,
-      57,
-      65,
-      68,
-      75,
-      76,
-      95,
-      127,
-      171,
-      176,
-      187,
-      190,
-      198
+      34,
+      54,
+      155,
+      165,
+      183
     ],
-    "attestation_signed_by": [
-      2,
-      4,
-      5,
+    "mental_health_education_program": [
       26,
-      28,
-      30,
-      37,
-      43,
+      27,
+      42,
+      46,
       65,
-      70,
-      73,
-      75,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      163,
-      165,
-      190
+      79,
+      81,
+      125,
+      159
     ],
-    "audit_conducted_by": [
-      2,
+    "nist80053_low_impact": [
+      1,
       20,
-      32,
-      33,
-      37,
-      43,
-      57,
-      73,
-      76,
-      95,
-      102,
-      111,
-      132,
-      144,
-      160,
-      163,
-      171,
-      179,
-      196
-    ],
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
-      47,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
-      106,
-      108,
-      115,
-      117,
-      134,
-      135,
-      148,
-      151,
-      165,
+      41,
+      172,
       181,
+      191
+    ],
+    "policy_applies_to": [
+      19,
+      23,
+      44,
+      80,
+      119,
+      158,
+      183
+    ],
+    "profiling_produces_profile": [
+      12,
+      24,
+      26,
+      33,
+      46,
+      65,
+      66,
+      186
+    ],
+    "soc2_availability_subclass": [
+      19,
+      26,
+      34,
+      95,
+      107,
+      109,
+      136,
+      183,
+      186
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      69,
       183,
       185,
-      197
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
-      4,
-      7,
-      15,
-      20,
-      21,
-      47,
-      68,
-      71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      158,
-      165,
-      171,
-      178,
       186,
-      191,
-      199
+      187
+    ],
+    "young_adult_speaker_role": [
+      0,
+      2,
+      26,
+      79,
+      80,
+      183
     ]
   },
   "chapters": [
     {
-      "id": "2c0f0bc8501823a7",
-      "family": "03_directive_governance",
+      "id": "ch_live_mental_health_education_program_35c5f3",
+      "family": "08_derived",
       "topics": [
-        43,
-        103,
         150
       ],
       "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
+        "mental_health_education_program",
+        "nist80053_low_impact",
+        "student_privacy_expectation"
       ]
     },
     {
-      "id": "3de4e26b13006d0e",
-      "family": "03_directive_governance",
+      "id": "ch_live_mental_health_education_program_8ae60c",
+      "family": "08_derived",
       "topics": [
-        110,
-        150,
-        163
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "49567b0e3d5f0667",
-      "family": "03_directive_governance",
-      "topics": [
-        150,
-        169,
-        199
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "49ecb3f8f944bd74",
-      "family": "03_directive_governance",
-      "topics": [
-        34,
-        150,
-        187
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "5a04fe783c5a4642",
-      "family": "03_directive_governance",
-      "topics": [
-        73,
-        150,
-        157
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "7826d2cbcd588fff",
-      "family": "03_directive_governance",
-      "topics": [
-        26,
-        90,
         150
       ],
       "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
+        "mental_health_education_program",
+        "soc2_availability_subclass",
+        "policy_applies_to"
       ]
     },
     {
-      "id": "8172dadc39bf7711",
-      "family": "03_directive_governance",
+      "id": "ch_live_young_adult_speaker_role_176ca5",
+      "family": "08_derived",
       "topics": [
-        35,
-        57,
         150
       ],
       "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "a61090979e9dfdea",
-      "family": "03_directive_governance",
-      "topics": [
-        2,
-        150,
-        165
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "aedcfb550ceccb77",
-      "family": "03_directive_governance",
-      "topics": [
-        6,
-        150,
-        190
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "d7d02e388c9ec6b6",
-      "family": "03_directive_governance",
-      "topics": [
-        47,
-        53,
-        150
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "f420ef8043e75208",
-      "family": "03_directive_governance",
-      "topics": [
-        7,
-        73,
-        150
-      ],
-      "cited_terms": [
-        "attestation_signed_by",
-        "pci_dss_requirement",
-        "attestation_min_one_signer",
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target"
+        "young_adult_speaker_role",
+        "bpf_helper_called_by",
+        "profiling_produces_profile"
       ]
     }
   ]

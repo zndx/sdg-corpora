@@ -1,247 +1,247 @@
 {
   "topic_id": 101,
   "family": "07_long_tail",
-  "n_chapters": 12,
-  "coverage_score": 0.22165584564208984,
+  "n_chapters": 6,
+  "coverage_score": 0.21392971277236938,
   "topic_repr": "ADDRESSING BLACK CARBON EMISSION INVENTORIES\n\nA REPORT BY THE CLIMATE AND CLEAN AIR COALITION SCIENTIFIC ADVISORY PANEL\n\nTable of Contents\n\nSummary\n\no Black Carbon (BC) has a strong influence on radiative forcing, affecting the climate globally and regionally, and is responsible for a significant proportion of the global forcing to date. BC deposited on the cryosphere leads to enhanced melting rat...",
   "terms": [
-    "designative_subclass_basic",
-    "identifier_unique",
-    "requirement_has_priority",
-    "subclass_to_designative_ice"
+    "annotation_classifies_artifact",
+    "directive_traces_to_requirement",
+    "division_eligibility_constraint",
+    "ebpfmap_with_max_entries",
+    "evidence_with_mass_function",
+    "frame_coarsening",
+    "ganglion_cyst_tissue_origin",
+    "iso27001_annexa_subclass",
+    "iso27001_clause_subclass",
+    "kernel_anomaly_supports_claim",
+    "kernelhook_observes_event_class",
+    "lineage_edge_subclass",
+    "trace_with_attributes"
   ],
   "tables": [
-    "t_designative_subclass_basic",
-    "t_identifier_unique",
-    "t_requirement_has_priority",
-    "t_subclass_to_designative_ice"
+    "t_annotation_classifies_artifact",
+    "t_directive_traces_to_requirement",
+    "t_division_eligibility_constraint",
+    "t_ebpfmap_with_max_entries",
+    "t_evidence_with_mass_function",
+    "t_frame_coarsening",
+    "t_ganglion_cyst_tissue_origin",
+    "t_iso27001_annexa_subclass",
+    "t_iso27001_clause_subclass",
+    "t_kernel_anomaly_supports_claim",
+    "t_kernelhook_observes_event_class",
+    "t_lineage_edge_subclass",
+    "t_trace_with_attributes"
   ],
   "topics": [
+    8,
     16,
-    32,
-    40,
-    58,
-    67,
-    72,
-    77,
-    81,
-    95,
+    20,
     101,
-    109,
-    111,
-    114,
-    115,
-    128,
-    131,
-    132,
-    142,
-    148,
-    160,
-    171,
-    196
+    155,
+    189
   ],
   "shared_tables": {
-    "designative_subclass_basic": [
+    "annotation_classifies_artifact": [
+      26,
+      51,
+      78,
+      119,
+      158,
+      186
+    ],
+    "directive_traces_to_requirement": [
+      0,
+      4,
+      23,
+      35,
+      40,
+      46,
+      104,
+      159,
+      180,
+      185
+    ],
+    "division_eligibility_constraint": [
       6,
-      56,
-      128
+      7,
+      8,
+      26,
+      34,
+      100,
+      125,
+      140,
+      149,
+      183,
+      186
     ],
-    "identifier_unique": [
-      6
+    "ebpfmap_with_max_entries": [
+      20,
+      26,
+      40,
+      45,
+      94,
+      186,
+      188
     ],
-    "requirement_has_priority": [
-      21,
-      85,
-      113,
-      128,
-      129,
-      196
+    "evidence_with_mass_function": [
+      4,
+      24,
+      35,
+      40,
+      42,
+      46,
+      47,
+      67,
+      94,
+      187
     ],
-    "subclass_to_designative_ice": [
+    "frame_coarsening": [
+      4,
+      23,
+      25,
+      102,
+      186
+    ],
+    "ganglion_cyst_tissue_origin": [
+      0,
       6,
-      56,
-      128
+      7,
+      26,
+      42,
+      44,
+      46,
+      81,
+      125,
+      135,
+      181,
+      183,
+      186
+    ],
+    "iso27001_annexa_subclass": [
+      0,
+      8
+    ],
+    "iso27001_clause_subclass": [
+      0,
+      34,
+      45
+    ],
+    "kernel_anomaly_supports_claim": [
+      41,
+      44,
+      67,
+      79
+    ],
+    "kernelhook_observes_event_class": [
+      10,
+      20,
+      38,
+      94,
+      155
+    ],
+    "lineage_edge_subclass": [
+      20,
+      67,
+      140,
+      159,
+      183
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      11,
+      61,
+      94,
+      100,
+      143,
+      168,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "09277f60271c87e7",
-      "family": "01_foundation",
+      "id": "ch_live_annotation_classifies_artifact_4fe605",
+      "family": "02_observation_measurement",
       "topics": [
-        40,
         101,
-        160
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "annotation_classifies_artifact",
+        "division_eligibility_constraint",
+        "iso27001_clause_subclass"
       ]
     },
     {
-      "id": "12fe8f8a2303cd78",
-      "family": "01_foundation",
+      "id": "ch_live_iso27001_annexa_subclass_b81a62",
+      "family": "07_long_tail",
       "topics": [
+        8,
         16,
+        20,
         101,
-        142
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "iso27001_annexa_subclass",
+        "iso27001_clause_subclass",
+        "kernel_anomaly_supports_claim"
       ]
     },
     {
-      "id": "31a53fe70d041e1c",
-      "family": "01_foundation",
-      "topics": [
-        81,
-        95,
-        101
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "377e986c4de6b342",
-      "family": "01_foundation",
-      "topics": [
-        32,
-        77,
-        101
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "70b00c2ee4d09079",
-      "family": "01_foundation",
+      "id": "ch_live_iso27001_clause_subclass_4dc10b",
+      "family": "07_long_tail",
       "topics": [
         101,
-        109,
-        196
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "iso27001_clause_subclass",
+        "frame_coarsening",
+        "ebpfmap_with_max_entries"
       ]
     },
     {
-      "id": "739219aa2ab4151c",
-      "family": "01_foundation",
+      "id": "ch_live_iso27001_clause_subclass_7bb1b3",
+      "family": "07_long_tail",
       "topics": [
         101,
-        111,
-        115
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "iso27001_clause_subclass",
+        "directive_traces_to_requirement",
+        "evidence_with_mass_function"
       ]
     },
     {
-      "id": "75d0279854383dea",
-      "family": "01_foundation",
+      "id": "ch_live_iso27001_clause_subclass_b83937",
+      "family": "07_long_tail",
       "topics": [
-        72,
         101,
-        128
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "iso27001_clause_subclass",
+        "ganglion_cyst_tissue_origin",
+        "lineage_edge_subclass"
       ]
     },
     {
-      "id": "7ca7a58efa03f5ee",
-      "family": "01_foundation",
-      "topics": [
-        58,
-        101,
-        114
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "8846d5718148a43b",
-      "family": "01_foundation",
-      "topics": [
-        72,
-        101,
-        132
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "96dbaccad138c024",
-      "family": "01_foundation",
-      "topics": [
-        67,
-        101,
-        115
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "e80d24f0105c26cf",
-      "family": "01_foundation",
+      "id": "ch_live_trace_with_attributes_7aa24c",
+      "family": "02_observation_measurement",
       "topics": [
         101,
-        114,
-        148
+        155,
+        189
       ],
       "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
-      ]
-    },
-    {
-      "id": "ec786c887ff4b503",
-      "family": "01_foundation",
-      "topics": [
-        101,
-        131,
-        171
-      ],
-      "cited_terms": [
-        "requirement_has_priority",
-        "subclass_to_designative_ice",
-        "designative_subclass_basic",
-        "identifier_unique"
+        "trace_with_attributes",
+        "kernelhook_observes_event_class",
+        "iso27001_clause_subclass"
       ]
     }
   ]

@@ -1,0 +1,1254 @@
+{
+  "topic_id": 42,
+  "family": "05_provo_lineage",
+  "n_chapters": 34,
+  "coverage_score": 0.13039955496788025,
+  "topic_repr": "The question paper is divided into Sections A and B.\n\nAll answers should be written in the answer sheet booklet only which will be collected at the end of the examination.\n\nThe question paper need not be submitted to the examiner.\n\n**Section A**\n\n- Section A consists of 20 questions carrying 1 point each.\n- All 20 questions are of multiple choice type, with only one correct answer for each questio...",
+  "terms": [
+    "allocation_subclass",
+    "belief_interval_basic",
+    "campus_event_participation",
+    "cardinality_max_one_generic",
+    "cardinality_min_one_generic",
+    "cardinality_min_two_generic",
+    "claim_basic",
+    "claim_observed_by_event",
+    "column_lineage_for_table_column",
+    "constraint_with_violation_consequence",
+    "control_at_severity",
+    "directive_only_governs_artifact",
+    "ebpf_event_subclass",
+    "equiv_union_basic",
+    "evidence_independent_or_correlated",
+    "evidence_with_mass_function",
+    "flood_defence_condition_characterisation",
+    "foreign_key_relation",
+    "functional_dependency_lhs",
+    "functional_dependency_rhs",
+    "ganglion_cyst_tissue_origin",
+    "kernelhook_basic",
+    "kernelhook_subclass",
+    "kernelhook_with_attached_program",
+    "kernelhook_with_hook_kind",
+    "lineage_edge_with_provenance",
+    "log_record_subclass",
+    "lru_hash_map_subclass",
+    "mass_function_equiv_frame_and_assignment",
+    "mass_function_min_one_focal",
+    "mass_function_with_normalization",
+    "mental_health_education_program",
+    "metric_with_aggregation",
+    "observation_precedes_other",
+    "outlier_detection_basic",
+    "outlier_detection_with_baseline",
+    "plausibility_function_for",
+    "policy_min_one_enforcer",
+    "policy_with_review_cycle",
+    "port_isolation_measurement",
+    "profile_has_distribution",
+    "profile_has_null_rate",
+    "provenance_agent_signs_audit",
+    "requirement_subclass",
+    "schemaorg_event_starttime",
+    "schemaorg_review_author",
+    "subclass_to_process",
+    "syscall_invoked_by_event",
+    "syscall_subclass",
+    "syscall_traceable",
+    "taper_tolerance_constraint",
+    "tc_classifier_subclass",
+    "telemetry_span_observes_syscall",
+    "trace_min_one_span",
+    "training_partnership_development",
+    "transformation_basic",
+    "transformation_ends_at",
+    "transformation_equiv_io_intersection",
+    "transformation_generates_entity",
+    "transformation_informed_by",
+    "transformation_min_one_input",
+    "transformation_min_one_output",
+    "transformation_not_recoverable",
+    "transformation_only_uses_datasets",
+    "two_disjoint_artifacts"
+  ],
+  "tables": [
+    "t_allocation_subclass",
+    "t_belief_interval_basic",
+    "t_campus_event_participation",
+    "t_cardinality_max_one_generic",
+    "t_cardinality_min_one_generic",
+    "t_cardinality_min_two_generic",
+    "t_claim_basic",
+    "t_claim_observed_by_event",
+    "t_column_lineage_for_table_column",
+    "t_constraint_with_violation_consequence",
+    "t_control_at_severity",
+    "t_directive_only_governs_artifact",
+    "t_ebpf_event_subclass",
+    "t_equiv_union_basic",
+    "t_evidence_independent_or_correlated",
+    "t_evidence_with_mass_function",
+    "t_flood_defence_condition_characterisation",
+    "t_foreign_key_relation",
+    "t_functional_dependency_lhs",
+    "t_functional_dependency_rhs",
+    "t_ganglion_cyst_tissue_origin",
+    "t_kernelhook_basic",
+    "t_kernelhook_subclass",
+    "t_kernelhook_with_attached_program",
+    "t_kernelhook_with_hook_kind",
+    "t_lineage_edge_with_provenance",
+    "t_log_record_subclass",
+    "t_lru_hash_map_subclass",
+    "t_mass_function_equiv_frame_and_assignment",
+    "t_mass_function_min_one_focal",
+    "t_mass_function_with_normalization",
+    "t_mental_health_education_program",
+    "t_metric_with_aggregation",
+    "t_observation_precedes_other",
+    "t_outlier_detection_basic",
+    "t_outlier_detection_with_baseline",
+    "t_plausibility_function_for",
+    "t_policy_min_one_enforcer",
+    "t_policy_with_review_cycle",
+    "t_port_isolation_measurement",
+    "t_profile_has_distribution",
+    "t_profile_has_null_rate",
+    "t_provenance_agent_signs_audit",
+    "t_requirement_subclass",
+    "t_schemaorg_event_starttime",
+    "t_schemaorg_review_author",
+    "t_subclass_to_process",
+    "t_syscall_invoked_by_event",
+    "t_syscall_subclass",
+    "t_syscall_traceable",
+    "t_taper_tolerance_constraint",
+    "t_tc_classifier_subclass",
+    "t_telemetry_span_observes_syscall",
+    "t_trace_min_one_span",
+    "t_training_partnership_development",
+    "t_transformation_basic",
+    "t_transformation_ends_at",
+    "t_transformation_equiv_io_intersection",
+    "t_transformation_generates_entity",
+    "t_transformation_informed_by",
+    "t_transformation_min_one_input",
+    "t_transformation_min_one_output",
+    "t_transformation_not_recoverable",
+    "t_transformation_only_uses_datasets",
+    "t_two_disjoint_artifacts"
+  ],
+  "topics": [
+    42,
+    54,
+    56,
+    60,
+    61,
+    66,
+    68,
+    71,
+    86,
+    109,
+    111,
+    129,
+    138,
+    140,
+    143,
+    151,
+    160,
+    165,
+    180,
+    183,
+    188
+  ],
+  "shared_tables": {
+    "allocation_subclass": [
+      7,
+      8,
+      10,
+      26,
+      34,
+      46,
+      94,
+      105,
+      149,
+      183,
+      184,
+      186
+    ],
+    "belief_interval_basic": [
+      1,
+      14,
+      26,
+      94,
+      119,
+      135,
+      149,
+      183,
+      187
+    ],
+    "campus_event_participation": [
+      23,
+      31,
+      33,
+      83,
+      92,
+      123,
+      180,
+      186
+    ],
+    "cardinality_max_one_generic": [
+      7,
+      26,
+      34,
+      44,
+      86,
+      117,
+      138,
+      143,
+      186
+    ],
+    "cardinality_min_one_generic": [
+      1,
+      26,
+      106,
+      117,
+      143,
+      186
+    ],
+    "cardinality_min_two_generic": [
+      11,
+      26,
+      38,
+      73,
+      80,
+      94,
+      109,
+      186
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      60,
+      94,
+      105,
+      128,
+      135,
+      136,
+      159,
+      161,
+      168,
+      181,
+      183,
+      186
+    ],
+    "claim_observed_by_event": [
+      0,
+      1,
+      4,
+      27,
+      36,
+      40,
+      49,
+      79,
+      97,
+      125,
+      155
+    ],
+    "column_lineage_for_table_column": [
+      7,
+      67,
+      140,
+      186
+    ],
+    "constraint_with_violation_consequence": [
+      5,
+      23,
+      36,
+      38,
+      45,
+      47,
+      61,
+      86
+    ],
+    "control_at_severity": [
+      0,
+      5,
+      47,
+      65,
+      183,
+      186
+    ],
+    "directive_only_governs_artifact": [
+      3,
+      12,
+      26,
+      40,
+      47,
+      138,
+      186,
+      187
+    ],
+    "ebpf_event_subclass": [
+      26,
+      106,
+      186
+    ],
+    "equiv_union_basic": [
+      3,
+      16,
+      20,
+      92,
+      97,
+      102,
+      165,
+      183,
+      186
+    ],
+    "evidence_independent_or_correlated": [
+      46,
+      97,
+      100,
+      155,
+      165
+    ],
+    "evidence_with_mass_function": [
+      4,
+      24,
+      35,
+      40,
+      46,
+      47,
+      67,
+      94,
+      101,
+      187
+    ],
+    "flood_defence_condition_characterisation": [
+      19,
+      21,
+      26,
+      92,
+      97,
+      186
+    ],
+    "foreign_key_relation": [
+      80,
+      92,
+      125,
+      129,
+      168,
+      183
+    ],
+    "functional_dependency_lhs": [
+      7,
+      26,
+      47,
+      54,
+      97,
+      125,
+      139,
+      186
+    ],
+    "functional_dependency_rhs": [
+      4,
+      20,
+      23,
+      61,
+      139,
+      163,
+      181,
+      186
+    ],
+    "ganglion_cyst_tissue_origin": [
+      0,
+      6,
+      7,
+      26,
+      44,
+      46,
+      81,
+      101,
+      125,
+      135,
+      181,
+      183,
+      186
+    ],
+    "kernelhook_basic": [
+      10,
+      11,
+      12,
+      24,
+      60,
+      61,
+      111
+    ],
+    "kernelhook_subclass": [
+      7,
+      51,
+      188
+    ],
+    "kernelhook_with_attached_program": [
+      4,
+      10,
+      20,
+      24,
+      44,
+      46,
+      86,
+      159,
+      186
+    ],
+    "kernelhook_with_hook_kind": [
+      3,
+      24,
+      46,
+      65,
+      67
+    ],
+    "lineage_edge_with_provenance": [
+      1,
+      46,
+      47,
+      60,
+      67,
+      106,
+      184
+    ],
+    "log_record_subclass": [
+      1,
+      2,
+      19,
+      41,
+      61,
+      100,
+      120,
+      125,
+      186
+    ],
+    "lru_hash_map_subclass": [
+      1,
+      25,
+      104,
+      180
+    ],
+    "mass_function_equiv_frame_and_assignment": [
+      0,
+      7,
+      26,
+      61,
+      62,
+      165
+    ],
+    "mass_function_min_one_focal": [
+      4,
+      26,
+      34,
+      44,
+      60,
+      111,
+      165,
+      183,
+      186
+    ],
+    "mass_function_with_normalization": [
+      4,
+      19,
+      40,
+      67,
+      109
+    ],
+    "mental_health_education_program": [
+      26,
+      27,
+      46,
+      65,
+      79,
+      81,
+      125,
+      150,
+      159
+    ],
+    "metric_with_aggregation": [
+      16,
+      20,
+      26,
+      44,
+      67,
+      94,
+      186,
+      191
+    ],
+    "observation_precedes_other": [
+      4,
+      26,
+      60,
+      123,
+      143,
+      183,
+      186,
+      190
+    ],
+    "outlier_detection_basic": [
+      1,
+      47,
+      72,
+      86
+    ],
+    "outlier_detection_with_baseline": [
+      0,
+      1,
+      10,
+      23,
+      60
+    ],
+    "plausibility_function_for": [
+      7,
+      45,
+      60,
+      92,
+      105,
+      149,
+      159,
+      186
+    ],
+    "policy_min_one_enforcer": [
+      26,
+      34,
+      46,
+      125,
+      165,
+      180,
+      185
+    ],
+    "policy_with_review_cycle": [
+      2,
+      10,
+      21,
+      34,
+      35,
+      40,
+      61,
+      129
+    ],
+    "port_isolation_measurement": [
+      20,
+      56,
+      105,
+      184,
+      186
+    ],
+    "profile_has_distribution": [
+      24,
+      25,
+      26,
+      45,
+      65,
+      91,
+      107,
+      186
+    ],
+    "profile_has_null_rate": [
+      2,
+      7,
+      40,
+      56,
+      69,
+      80,
+      159,
+      186
+    ],
+    "provenance_agent_signs_audit": [
+      5,
+      12,
+      168
+    ],
+    "requirement_subclass": [
+      4,
+      44,
+      119,
+      183,
+      186
+    ],
+    "schemaorg_event_starttime": [
+      14,
+      26,
+      46,
+      97,
+      105,
+      155,
+      159,
+      161,
+      186,
+      191
+    ],
+    "schemaorg_review_author": [
+      10,
+      12,
+      46,
+      56
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      45,
+      46,
+      47,
+      100,
+      102,
+      105,
+      123,
+      159,
+      183,
+      191
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      31,
+      35,
+      105,
+      106,
+      107,
+      161
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      46,
+      66,
+      104,
+      111,
+      147,
+      154,
+      168,
+      183,
+      186
+    ],
+    "syscall_traceable": [
+      6,
+      90,
+      100,
+      138
+    ],
+    "taper_tolerance_constraint": [
+      6,
+      7,
+      45,
+      58,
+      78,
+      155,
+      168
+    ],
+    "tc_classifier_subclass": [
+      1,
+      2,
+      10,
+      12,
+      20,
+      26,
+      46,
+      92,
+      102,
+      158,
+      168,
+      184
+    ],
+    "telemetry_span_observes_syscall": [
+      24,
+      26,
+      35,
+      41,
+      79,
+      81,
+      183
+    ],
+    "trace_min_one_span": [
+      26,
+      45,
+      80,
+      100,
+      183
+    ],
+    "training_partnership_development": [
+      26,
+      36,
+      44,
+      54,
+      83,
+      183,
+      186
+    ],
+    "transformation_basic": [
+      7,
+      54,
+      129,
+      138,
+      186
+    ],
+    "transformation_ends_at": [
+      4,
+      34,
+      45,
+      106,
+      143,
+      186
+    ],
+    "transformation_equiv_io_intersection": [
+      2
+    ],
+    "transformation_generates_entity": [
+      11,
+      26,
+      44,
+      50,
+      183,
+      185,
+      186
+    ],
+    "transformation_informed_by": [
+      23,
+      41,
+      51,
+      140
+    ],
+    "transformation_min_one_input": [
+      0
+    ],
+    "transformation_min_one_output": [
+      0,
+      7,
+      35
+    ],
+    "transformation_not_recoverable": [
+      2,
+      11,
+      23
+    ],
+    "transformation_only_uses_datasets": [
+      1,
+      19,
+      34,
+      35,
+      41,
+      78,
+      163,
+      186
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      12,
+      24,
+      30,
+      47,
+      54,
+      61
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_allocation_subclass_7f4559",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "allocation_subclass",
+        "transformation_min_one_output",
+        "transformation_min_one_input"
+      ]
+    },
+    {
+      "id": "ch_live_campus_event_participation_2aef93",
+      "family": "08_derived",
+      "topics": [
+        42,
+        54,
+        138,
+        160,
+        183
+      ],
+      "cited_terms": [
+        "campus_event_participation",
+        "syscall_traceable",
+        "transformation_min_one_input"
+      ]
+    },
+    {
+      "id": "ch_live_cardinality_min_one_generic_d9408d",
+      "family": "01_foundation",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "cardinality_min_one_generic",
+        "mass_function_min_one_focal",
+        "transformation_min_one_output"
+      ]
+    },
+    {
+      "id": "ch_live_control_at_severity_e7d488",
+      "family": "03_directive_governance",
+      "topics": [
+        42,
+        61,
+        66,
+        68,
+        143
+      ],
+      "cited_terms": [
+        "control_at_severity",
+        "transformation_equiv_io_intersection",
+        "two_disjoint_artifacts"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_event_subclass_e0cbeb",
+      "family": "02_observation_measurement",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "ebpf_event_subclass",
+        "functional_dependency_lhs",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_union_basic_6a78c5",
+      "family": "01_foundation",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "equiv_union_basic",
+        "transformation_equiv_io_intersection",
+        "plausibility_function_for"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_independent_or_correlated_810d93",
+      "family": "06_belief_structure",
+      "topics": [
+        42,
+        54,
+        160,
+        165
+      ],
+      "cited_terms": [
+        "evidence_independent_or_correlated",
+        "belief_interval_basic",
+        "transformation_min_one_output"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_with_mass_function_e939d9",
+      "family": "06_belief_structure",
+      "topics": [
+        42,
+        54,
+        109,
+        140,
+        160
+      ],
+      "cited_terms": [
+        "evidence_with_mass_function",
+        "mass_function_with_normalization",
+        "transformation_min_one_input"
+      ]
+    },
+    {
+      "id": "ch_live_functional_dependency_rhs_faea63",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "functional_dependency_rhs",
+        "transformation_equiv_io_intersection",
+        "claim_observed_by_event"
+      ]
+    },
+    {
+      "id": "ch_live_kernelhook_with_hook_kind_400085",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "kernelhook_with_hook_kind",
+        "transformation_not_recoverable",
+        "log_record_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_with_provenance_7e9927",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "lineage_edge_with_provenance",
+        "kernelhook_with_attached_program",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_lru_hash_map_subclass_7e24d5",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        54,
+        160,
+        180
+      ],
+      "cited_terms": [
+        "lru_hash_map_subclass",
+        "transformation_min_one_output",
+        "subclass_to_process"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_equiv_frame_and_assignment_ef7751",
+      "family": "06_belief_structure",
+      "topics": [
+        42,
+        160,
+        165
+      ],
+      "cited_terms": [
+        "mass_function_equiv_frame_and_assignment",
+        "trace_min_one_span",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_metric_with_aggregation_bb3f82",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "metric_with_aggregation",
+        "transformation_min_one_input",
+        "claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_policy_min_one_enforcer_570559",
+      "family": "03_directive_governance",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "policy_min_one_enforcer",
+        "transformation_min_one_input",
+        "cardinality_min_two_generic"
+      ]
+    },
+    {
+      "id": "ch_live_policy_with_review_cycle_5c9e71",
+      "family": "03_directive_governance",
+      "topics": [
+        42,
+        129,
+        160
+      ],
+      "cited_terms": [
+        "policy_with_review_cycle",
+        "transformation_not_recoverable",
+        "claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_profile_has_distribution_cf6268",
+      "family": "02_observation_measurement",
+      "topics": [
+        42,
+        66,
+        68,
+        86,
+        143
+      ],
+      "cited_terms": [
+        "profile_has_distribution",
+        "transformation_equiv_io_intersection",
+        "outlier_detection_basic"
+      ]
+    },
+    {
+      "id": "ch_live_taper_tolerance_constraint_faafe9",
+      "family": "08_derived",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "taper_tolerance_constraint",
+        "profile_has_null_rate",
+        "transformation_min_one_output"
+      ]
+    },
+    {
+      "id": "ch_live_tc_classifier_subclass_36ff21",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "tc_classifier_subclass",
+        "transformation_equiv_io_intersection",
+        "provenance_agent_signs_audit"
+      ]
+    },
+    {
+      "id": "ch_live_tc_classifier_subclass_87223b",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "tc_classifier_subclass",
+        "transformation_not_recoverable",
+        "foreign_key_relation"
+      ]
+    },
+    {
+      "id": "ch_live_telemetry_span_observes_syscall_f9f14f",
+      "family": "07_long_tail",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "telemetry_span_observes_syscall",
+        "transformation_equiv_io_intersection",
+        "column_lineage_for_table_column"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_basic_d6e945",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "transformation_basic",
+        "ganglion_cyst_tissue_origin",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_ends_at_58e2f4",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "transformation_ends_at",
+        "transformation_equiv_io_intersection",
+        "transformation_generates_entity"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_equiv_io_intersection_707552",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "transformation_equiv_io_intersection",
+        "training_partnership_development",
+        "schemaorg_event_starttime"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_equiv_io_intersection_b8a55a",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        66,
+        68,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "transformation_equiv_io_intersection",
+        "mental_health_education_program",
+        "syscall_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_informed_by_64b6b2",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        60,
+        86,
+        140
+      ],
+      "cited_terms": [
+        "transformation_informed_by",
+        "outlier_detection_with_baseline",
+        "transformation_min_one_output"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_input_c2d686",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        160,
+        188
+      ],
+      "cited_terms": [
+        "transformation_min_one_input",
+        "constraint_with_violation_consequence",
+        "kernelhook_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_25f1c3",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        66,
+        68,
+        160
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "observation_precedes_other",
+        "transformation_equiv_io_intersection"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_3f9286",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "belief_interval_basic",
+        "port_isolation_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_70d5b7",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "transformation_not_recoverable",
+        "transformation_only_uses_datasets"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_c95352",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        61,
+        71,
+        111
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "lru_hash_map_subclass",
+        "kernelhook_basic"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_cab627",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        56,
+        160
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "flood_defence_condition_characterisation",
+        "schemaorg_review_author"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_f0ca6b",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        54,
+        160
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "requirement_subclass",
+        "syscall_invoked_by_event"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_not_recoverable_c98388",
+      "family": "05_provo_lineage",
+      "topics": [
+        42,
+        160
+      ],
+      "cited_terms": [
+        "transformation_not_recoverable",
+        "cardinality_max_one_generic",
+        "directive_only_governs_artifact"
+      ]
+    }
+  ]
+}

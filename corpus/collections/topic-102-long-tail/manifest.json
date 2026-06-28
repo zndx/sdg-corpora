@@ -1,303 +1,352 @@
 {
   "topic_id": 102,
   "family": "07_long_tail",
-  "n_chapters": 10,
-  "coverage_score": 0.17327643930912018,
+  "n_chapters": 9,
+  "coverage_score": 0.16534321010112762,
   "topic_repr": "UvA-DARE (Digital Academic Repository)\n\nPsychotropic medications and the developing brain\n\nSolleveld, M.M.\n\nPublication date 2018 Document Version Other version License Other\n\nLink to publication\n\nCitation for published version (APA):\n\nSolleveld, M. M. (2018). Psychotropic medications and the developing brain. [Thesis, fully internal, Universiteit van Amsterdam].\n\nGeneral rights\n\nIt is not permitt...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "audit_conducted_by",
-    "control_addresses_risk",
-    "control_only_addresses_threat_class",
-    "control_with_evidence_requirement"
+    "aggregation_over_time_window",
+    "annotation_classifies_class",
+    "belief_interval_equiv_bel_and_pl",
+    "census_reporting_event",
+    "ebpf_event_at_hook",
+    "ebpfmap_subclass",
+    "equiv_union_basic",
+    "frame_coarsening",
+    "ice_about_artifact",
+    "kernel_event_with_comm",
+    "lineage_edge_at_run_time",
+    "nist80053_high_impact",
+    "outlier_claim_subclass",
+    "responsive_optic_nerve_dysfunction",
+    "schemaorg_creativework_publisher",
+    "subclass_to_process",
+    "tc_classifier_subclass",
+    "trace_with_root_span",
+    "trace_with_service_name"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_audit_conducted_by",
-    "t_control_addresses_risk",
-    "t_control_only_addresses_threat_class",
-    "t_control_with_evidence_requirement"
+    "t_aggregation_over_time_window",
+    "t_annotation_classifies_class",
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_census_reporting_event",
+    "t_ebpf_event_at_hook",
+    "t_ebpfmap_subclass",
+    "t_equiv_union_basic",
+    "t_frame_coarsening",
+    "t_ice_about_artifact",
+    "t_kernel_event_with_comm",
+    "t_lineage_edge_at_run_time",
+    "t_nist80053_high_impact",
+    "t_outlier_claim_subclass",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_schemaorg_creativework_publisher",
+    "t_subclass_to_process",
+    "t_tc_classifier_subclass",
+    "t_trace_with_root_span",
+    "t_trace_with_service_name"
   ],
   "topics": [
-    14,
-    30,
-    40,
-    49,
-    71,
-    90,
-    95,
-    96,
-    102,
-    114,
-    115,
-    119,
-    123,
-    126,
-    129,
-    138,
-    145,
-    174,
-    176
+    102
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
-      2,
-      3,
-      5,
-      6,
+    "aggregation_over_time_window": [
+      26,
+      27,
+      36,
+      40,
+      65,
+      94,
+      122,
+      147,
+      161,
+      186
+    ],
+    "annotation_classifies_class": [
+      4,
+      26,
+      54,
+      66,
+      67,
+      105,
+      186
+    ],
+    "belief_interval_equiv_bel_and_pl": [
       7,
-      16,
+      8,
+      12,
       20,
-      23,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
+      34,
       83,
-      88,
-      92,
-      98,
-      100,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
+      86,
+      91,
+      97,
+      125,
+      143,
+      147
     ],
-    "audit_conducted_by": [
-      2,
-      20,
-      32,
+    "census_reporting_event": [
+      5,
+      10,
+      11,
+      26,
       33,
-      37,
-      43,
-      57,
-      73,
-      76,
-      95,
-      111,
-      132,
-      144,
-      150,
-      160,
-      163,
-      171,
-      179,
-      196
+      36,
+      65,
+      69,
+      79,
+      183,
+      186
     ],
-    "control_addresses_risk": [
-      15,
-      16,
-      21,
-      85,
-      113,
-      196
+    "ebpf_event_at_hook": [
+      24,
+      65,
+      186
     ],
-    "control_only_addresses_threat_class": [
-      13,
-      15,
-      16,
-      21,
-      35,
-      61,
-      85,
-      104,
-      113,
-      117,
-      160,
-      165,
-      181,
-      191,
-      196
-    ],
-    "control_with_evidence_requirement": [
-      3,
+    "ebpfmap_subclass": [
+      14,
       23,
-      26,
-      58,
-      78,
-      83,
-      88,
-      89,
+      34,
+      100,
+      161,
+      181,
+      186
+    ],
+    "equiv_union_basic": [
+      3,
+      16,
+      20,
+      42,
       92,
-      104,
-      134,
-      138,
-      154,
+      97,
+      165,
+      183,
+      186
+    ],
+    "frame_coarsening": [
+      4,
+      23,
+      25,
+      101,
+      186
+    ],
+    "ice_about_artifact": [
+      2,
+      34,
+      47,
+      138
+    ],
+    "kernel_event_with_comm": [
+      19,
+      26,
+      54,
+      83,
+      168,
+      183
+    ],
+    "lineage_edge_at_run_time": [
+      12,
+      26,
+      60,
+      168,
+      186
+    ],
+    "nist80053_high_impact": [
+      1,
+      7,
+      26,
+      80,
+      81,
+      123,
+      186,
+      188
+    ],
+    "outlier_claim_subclass": [
+      2,
+      24,
+      39,
+      92
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      0,
+      1,
+      2,
+      26,
+      47,
+      81,
+      97,
+      180,
+      181,
+      183
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      36,
+      143,
+      180,
+      181,
+      183,
+      186
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      45,
+      46,
+      47,
+      100,
+      105,
+      123,
+      159,
+      183,
       191
+    ],
+    "tc_classifier_subclass": [
+      1,
+      2,
+      10,
+      12,
+      20,
+      26,
+      42,
+      46,
+      92,
+      158,
+      168,
+      184
+    ],
+    "trace_with_root_span": [
+      0,
+      4,
+      24,
+      26,
+      34,
+      44,
+      46,
+      61,
+      183,
+      186
+    ],
+    "trace_with_service_name": [
+      5,
+      26,
+      83,
+      107,
+      138,
+      155,
+      183
     ]
   },
   "chapters": [
     {
-      "id": "016c2e7cc85b7082",
-      "family": "03_directive_governance",
+      "id": "ch_live_ebpf_event_at_hook_ec6dcb",
+      "family": "02_observation_measurement",
       "topics": [
-        14,
-        90,
         102
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
+        "ebpf_event_at_hook",
+        "frame_coarsening",
+        "outlier_claim_subclass"
       ]
     },
     {
-      "id": "0a3bb149a4acd25c",
-      "family": "03_directive_governance",
+      "id": "ch_live_lineage_edge_at_run_time_54bffb",
+      "family": "05_provo_lineage",
       "topics": [
-        102,
-        145,
-        176
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "0a82a153dee379f7",
-      "family": "03_directive_governance",
-      "topics": [
-        102,
-        129,
-        145
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "17c0c94f8f838af3",
-      "family": "03_directive_governance",
-      "topics": [
-        102,
-        138,
-        174
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "24d1e3f672fcbf6c",
-      "family": "03_directive_governance",
-      "topics": [
-        40,
-        102,
-        115
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "3162b7ea12d18053",
-      "family": "03_directive_governance",
-      "topics": [
-        102,
-        114,
-        123
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "74a993034146878c",
-      "family": "03_directive_governance",
-      "topics": [
-        95,
-        102,
-        126
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "9903e0efe657728f",
-      "family": "03_directive_governance",
-      "topics": [
-        30,
-        71,
         102
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
+        "lineage_edge_at_run_time",
+        "outlier_claim_subclass",
+        "nist80053_high_impact"
       ]
     },
     {
-      "id": "a82fc7798563835c",
-      "family": "03_directive_governance",
+      "id": "ch_live_outlier_claim_subclass_067342",
+      "family": "02_observation_measurement",
       "topics": [
-        30,
-        96,
         102
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
+        "outlier_claim_subclass",
+        "kernel_event_with_comm",
+        "aggregation_over_time_window"
       ]
     },
     {
-      "id": "dfe3c01e064632bb",
-      "family": "03_directive_governance",
+      "id": "ch_live_outlier_claim_subclass_bfb29a",
+      "family": "02_observation_measurement",
       "topics": [
-        49,
-        102,
-        119
+        102
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "control_with_evidence_requirement",
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "audit_conducted_by"
+        "outlier_claim_subclass",
+        "trace_with_service_name",
+        "annotation_classifies_class"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_subclass_c05cd4",
+      "family": "02_observation_measurement",
+      "topics": [
+        102
+      ],
+      "cited_terms": [
+        "outlier_claim_subclass",
+        "ebpfmap_subclass",
+        "equiv_union_basic"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_subclass_fab1cf",
+      "family": "02_observation_measurement",
+      "topics": [
+        102
+      ],
+      "cited_terms": [
+        "outlier_claim_subclass",
+        "schemaorg_creativework_publisher",
+        "tc_classifier_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_responsive_optic_nerve_dysfunction_a6752c",
+      "family": "08_derived",
+      "topics": [
+        102
+      ],
+      "cited_terms": [
+        "responsive_optic_nerve_dysfunction",
+        "ice_about_artifact",
+        "outlier_claim_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_process_d6a474",
+      "family": "01_foundation",
+      "topics": [
+        102
+      ],
+      "cited_terms": [
+        "subclass_to_process",
+        "belief_interval_equiv_bel_and_pl",
+        "outlier_claim_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_trace_with_root_span_79c758",
+      "family": "07_long_tail",
+      "topics": [
+        102
+      ],
+      "cited_terms": [
+        "trace_with_root_span",
+        "outlier_claim_subclass",
+        "census_reporting_event"
       ]
     }
   ]

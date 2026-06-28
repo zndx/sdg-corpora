@@ -1,40 +1,50 @@
 # Collection — topic 72 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **23 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **6 chapters** · **7 topics** (target + style) · **13 ontology terms** · **13 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 72: topic 32, topic 34, topic 57, topic 61, topic 66, topic 71, topic 74, topic 88, topic 93, topic 101, topic 111, topic 121, topic 122, topic 148, topic 149, topic 153, topic 171, topic 179, topic 185, topic 190, topic 191, topic 196.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 72: topic 86, topic 92, topic 109, topic 134, topic 135, topic 182.
 
 > **Topic gist** (representative FinePDFs text): 10190 filed in response to this Notice are limited to five (5) pages in length, inclusive of attachments. Persons filing written submissions must file the original document electronically on or before the deadlines stated above and submit 8 true paper copies to the Office of the Secretary by noon the next day pursuant to § 210.4(f) of the Commission's Rules of Practice and Procedure (19 CFR 210... …
 
 ## Chapters
 
-- [Chapter 4: Kernel Interface Taxonomy and Security Classification](chapters/17d5d2f9243260b0.md)
-- [Chapter 4: Ontological Classification of Kernel Interface Entities](chapters/193333fdad721da1.md)
-- [Chapter 4: Formal Taxonomy of Kernel Interface Entities](chapters/25252a73931ca65b.md)
-- [Chapter 4: Ontological Mapping of Kernel Interface Governance](chapters/312aa4831e8aca08.md)
-- [Chapter 4: Kernel Interface Ontology and Security Classification Framework](chapters/6f7cfd9e19cdd9d8.md)
-- [Chapter 4: Taxonomy of Kernel System Calls and Security Classification](chapters/91f317f5012f99df.md)
-- [Kernel Interface Classification and Security Stratification](chapters/9cbfe25eabefe856.md)
-- [Chapter 4: System Call Classification and Security Tiering Protocols](chapters/a9388379da12a859.md)
-- [Chapter 4: Formal Classification of Kernel Syscalls within Security Domains](chapters/c3d96590cc9552e8.md)
-- [Chapter 7: Formal Ontology of eBPF Syscall Entities and Security Stratification](chapters/c6413e1af02e25c8.md)
-- [Kernel Syscall Classification in eBPF Audit Trails](chapters/d6aa6556835a7eac.md)
-- [Syscall Designative Information Content Entities](chapters/ea75a71232e0567d.md)
+- [ch_live_artifact_either_internal_or_external_b1e6a2](chapters/ch_live_artifact_either_internal_or_external_b1e6a2.md)
+- [ch_live_ebpfevent_at_kernel_hook_xref_d5f9fe](chapters/ch_live_ebpfevent_at_kernel_hook_xref_d5f9fe.md)
+- [ch_live_labrun_subclass_a09aa9](chapters/ch_live_labrun_subclass_a09aa9.md)
+- [ch_live_process_min_one_output_7d4576](chapters/ch_live_process_min_one_output_7d4576.md)
+- [ch_live_schemaorg_creativework_date_af2eff](chapters/ch_live_schemaorg_creativework_date_af2eff.md)
+- [ch_live_state_observed_at_time_769327](chapters/ch_live_state_observed_at_time_769327.md)
 
 ## Ontology terms grounding this collection
 
-- `syscall_at_security_tier` — {X} is a designative information content entity that at security tier {Y}
-- `syscall_equiv_in_subsystem` — Class: {X:Class} EquivalentTo: cco:DesignativeICE and (sdg:inSyscallSubsystem some {Y:Class})
-- `syscall_invoked_by_event` — {X} is a designative information content entity that invoked by event {Y}
-- `syscall_max_one_return` — {X} is a designative information content entity
-- `syscall_subclass` — {X} is a designative information content entity that in syscall subsystem {Y}
+- `artifact_either_internal_or_external` — {X} is equivalent to artifact and {Y} or {Z}
+- `artifact_not_revoked` — {X} is not {Y}
+- `attestation_about_compliance_claim` — {X} is a process that attests to claim descriptive information content entity
+- `baseline_for_metric` — {X} is a descriptive information content entity that baseline for {Y}
+- `belief_interval_only_unit_range` — {X} is a descriptive information content entity that has belief lower bound {Y}
+- `ebpfevent_at_kernel_hook_xref` — {X} is a process that at kernel hook artifact
+- `labrun_subclass` — {X} is a process that has input sample {Y}
+- `outlier_detection_basic` — {X} is a process
+- `process_min_one_output` — {X} is a process
+- `requirement_traces_to` — {X} is a directive information content entity that traces to {Y}
+- `requirement_under_standard` — {X} is a directive information content entity that under standard {Y}
+- `schemaorg_creativework_date` — {X} is an artifact that has date published {Y}
+- `state_observed_at_time` — {X} is a descriptive information content entity that observed at {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 7 other collection(s)_
-- [`t_syscall_equiv_in_subsystem`](tables/t_syscall_equiv_in_subsystem.sql) — realizes `syscall_equiv_in_subsystem` · _shared with 6 other collection(s)_
-- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event` · _shared with 1 other collection(s)_
-- [`t_syscall_max_one_return`](tables/t_syscall_max_one_return.sql) — realizes `syscall_max_one_return` · _shared with 4 other collection(s)_
-- [`t_syscall_subclass`](tables/t_syscall_subclass.sql) — realizes `syscall_subclass` · _shared with 1 other collection(s)_
+- [`t_artifact_either_internal_or_external`](tables/t_artifact_either_internal_or_external.sql) — realizes `artifact_either_internal_or_external` · _shared with 4 other collection(s)_
+- [`t_artifact_not_revoked`](tables/t_artifact_not_revoked.sql) — realizes `artifact_not_revoked` · _shared with 8 other collection(s)_
+- [`t_attestation_about_compliance_claim`](tables/t_attestation_about_compliance_claim.sql) — realizes `attestation_about_compliance_claim` · _shared with 3 other collection(s)_
+- [`t_baseline_for_metric`](tables/t_baseline_for_metric.sql) — realizes `baseline_for_metric` · _shared with 6 other collection(s)_
+- [`t_belief_interval_only_unit_range`](tables/t_belief_interval_only_unit_range.sql) — realizes `belief_interval_only_unit_range` · _shared with 5 other collection(s)_
+- [`t_ebpfevent_at_kernel_hook_xref`](tables/t_ebpfevent_at_kernel_hook_xref.sql) — realizes `ebpfevent_at_kernel_hook_xref` · _shared with 7 other collection(s)_
+- [`t_labrun_subclass`](tables/t_labrun_subclass.sql) — realizes `labrun_subclass` · _shared with 10 other collection(s)_
+- [`t_outlier_detection_basic`](tables/t_outlier_detection_basic.sql) — realizes `outlier_detection_basic` · _shared with 4 other collection(s)_
+- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output` · _shared with 7 other collection(s)_
+- [`t_requirement_traces_to`](tables/t_requirement_traces_to.sql) — realizes `requirement_traces_to` · _shared with 15 other collection(s)_
+- [`t_requirement_under_standard`](tables/t_requirement_under_standard.sql) — realizes `requirement_under_standard` · _shared with 7 other collection(s)_
+- [`t_schemaorg_creativework_date`](tables/t_schemaorg_creativework_date.sql) — realizes `schemaorg_creativework_date` · _shared with 7 other collection(s)_
+- [`t_state_observed_at_time`](tables/t_state_observed_at_time.sql) — realizes `state_observed_at_time` · _shared with 9 other collection(s)_

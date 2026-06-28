@@ -2,266 +2,414 @@
   "topic_id": 187,
   "family": "07_long_tail",
   "n_chapters": 11,
-  "coverage_score": 0.18751561641693115,
+  "coverage_score": 0.1908680498600006,
   "topic_repr": "Lara Antonella De Nicolo Savvides\n\nBIOGRAPHY:\n\nLara Antonella De Nicolo Savvides was born in Milan, Italy in 1983 and raised in London, UK since the age of 10. In 2008, she graduated with a B.Sc. (Hons) Neuroscience with specialisation in Neurophysiology & Pediatric Neurophysiology, at King's College London (UK) and in 2015 with a 3year intensive M.Sc. in Neuroimaging for Research which she passed...",
   "terms": [
-    "attestation_min_one_signer",
-    "audit_basic",
-    "audit_for_period",
-    "verification_min_one_evidence"
+    "attrkey_subclass",
+    "belief_interval_basic",
+    "crop_parasitism_impact",
+    "descriptive_not_retracted",
+    "directive_only_governs_artifact",
+    "evidence_correlated_with",
+    "evidence_for_audit",
+    "evidence_independent_of",
+    "evidence_observed_by_process",
+    "evidence_subclass",
+    "evidence_with_mass_function",
+    "evidence_with_source",
+    "insertion_loss_specification",
+    "intermediate_floor_assembly",
+    "lane_compliance_behavior",
+    "lift_with_support_count",
+    "lineage_governed_by_directive",
+    "measurement_with_op_artifact",
+    "outlier_detection_uses_explainer",
+    "process_min_one_input",
+    "quality_assurance_initiative",
+    "student_privacy_expectation",
+    "trace_originates_from"
   ],
   "tables": [
-    "t_attestation_min_one_signer",
-    "t_audit_basic",
-    "t_audit_for_period",
-    "t_verification_min_one_evidence"
+    "t_attrkey_subclass",
+    "t_belief_interval_basic",
+    "t_crop_parasitism_impact",
+    "t_descriptive_not_retracted",
+    "t_directive_only_governs_artifact",
+    "t_evidence_correlated_with",
+    "t_evidence_for_audit",
+    "t_evidence_independent_of",
+    "t_evidence_observed_by_process",
+    "t_evidence_subclass",
+    "t_evidence_with_mass_function",
+    "t_evidence_with_source",
+    "t_insertion_loss_specification",
+    "t_intermediate_floor_assembly",
+    "t_lane_compliance_behavior",
+    "t_lift_with_support_count",
+    "t_lineage_governed_by_directive",
+    "t_measurement_with_op_artifact",
+    "t_outlier_detection_uses_explainer",
+    "t_process_min_one_input",
+    "t_quality_assurance_initiative",
+    "t_student_privacy_expectation",
+    "t_trace_originates_from"
   ],
   "topics": [
-    19,
-    25,
-    26,
-    28,
-    30,
-    32,
-    34,
-    40,
-    47,
-    52,
-    53,
-    57,
-    73,
-    89,
-    94,
-    97,
-    109,
-    118,
-    129,
-    144,
-    179,
+    5,
+    12,
+    37,
+    86,
     187
   ],
   "shared_tables": {
-    "attestation_min_one_signer": [
+    "attrkey_subclass": [
+      7,
+      12,
+      20,
+      23,
+      26,
+      67,
+      129,
+      185,
+      186
+    ],
+    "belief_interval_basic": [
+      1,
+      14,
+      26,
+      42,
+      94,
+      119,
+      135,
+      149,
+      183
+    ],
+    "crop_parasitism_impact": [
+      23,
+      24,
+      25,
+      46,
+      47,
+      90,
+      106,
+      125,
+      190
+    ],
+    "descriptive_not_retracted": [
       1,
       4,
-      28,
-      43,
-      57,
-      65,
-      68,
-      75,
-      76,
-      95,
-      127,
-      150,
-      171,
-      176,
-      190,
-      198
-    ],
-    "audit_basic": [
-      1,
-      38,
+      12,
+      26,
       40,
-      57,
-      176
+      47,
+      67,
+      69,
+      94,
+      138,
+      161,
+      181,
+      186,
+      191
     ],
-    "audit_for_period": [
+    "directive_only_governs_artifact": [
       3,
-      20,
-      32,
-      37,
-      43,
-      57,
-      65,
-      76,
-      111,
-      171,
-      179
-    ],
-    "verification_min_one_evidence": [
-      1,
-      7,
-      28,
-      38,
+      12,
+      26,
       40,
-      57,
-      68,
-      76,
-      81,
-      82,
-      95,
-      127,
-      128,
+      42,
+      47,
+      138,
+      186
+    ],
+    "evidence_correlated_with": [
+      5,
+      117
+    ],
+    "evidence_for_audit": [
+      2,
+      26,
+      35,
+      46,
+      69,
       129,
-      171,
-      176
+      185
+    ],
+    "evidence_independent_of": [
+      10,
+      35,
+      44,
+      184
+    ],
+    "evidence_observed_by_process": [
+      1,
+      4,
+      23,
+      47,
+      97,
+      109,
+      135
+    ],
+    "evidence_subclass": [
+      46,
+      66,
+      94,
+      105
+    ],
+    "evidence_with_mass_function": [
+      4,
+      24,
+      35,
+      40,
+      42,
+      46,
+      47,
+      67,
+      94,
+      101
+    ],
+    "insertion_loss_specification": [
+      11,
+      45,
+      69,
+      159,
+      172,
+      183
+    ],
+    "intermediate_floor_assembly": [
+      26,
+      46,
+      155,
+      166,
+      168,
+      172,
+      183
+    ],
+    "lane_compliance_behavior": [
+      0,
+      10,
+      27,
+      60,
+      107,
+      158,
+      165,
+      183,
+      186
+    ],
+    "lift_with_support_count": [
+      12,
+      51,
+      67,
+      92,
+      97,
+      181,
+      183,
+      185,
+      186
+    ],
+    "lineage_governed_by_directive": [
+      41,
+      45,
+      46,
+      109,
+      120,
+      129,
+      155,
+      186
+    ],
+    "measurement_with_op_artifact": [
+      4,
+      26,
+      58,
+      62,
+      67,
+      183,
+      186
+    ],
+    "outlier_detection_uses_explainer": [
+      4,
+      40,
+      65,
+      168,
+      183,
+      186
+    ],
+    "process_min_one_input": [
+      34,
+      38,
+      135,
+      183,
+      185,
+      186,
+      188
+    ],
+    "quality_assurance_initiative": [
+      10,
+      11,
+      26,
+      34,
+      68,
+      71,
+      186
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      69,
+      150,
+      183,
+      185,
+      186
+    ],
+    "trace_originates_from": [
+      19,
+      35,
+      46,
+      60,
+      61,
+      120,
+      165,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "0d6002c20c51756e",
-      "family": "03_directive_governance",
+      "id": "ch_live_attrkey_subclass_4370c8",
+      "family": "01_foundation",
       "topics": [
-        26,
-        179,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "attrkey_subclass",
+        "evidence_with_source",
+        "lineage_governed_by_directive"
       ]
     },
     {
-      "id": "434f76390b017c51",
-      "family": "03_directive_governance",
+      "id": "ch_live_descriptive_not_retracted_4bf939",
+      "family": "07_long_tail",
       "topics": [
-        30,
-        32,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "descriptive_not_retracted",
+        "directive_only_governs_artifact",
+        "evidence_with_source"
       ]
     },
     {
-      "id": "47ce13f59e3c898d",
-      "family": "03_directive_governance",
+      "id": "ch_live_evidence_correlated_with_92a000",
+      "family": "07_long_tail",
       "topics": [
-        97,
-        129,
+        5,
+        12,
+        37,
+        86,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "evidence_correlated_with",
+        "evidence_for_audit",
+        "evidence_independent_of"
       ]
     },
     {
-      "id": "6076440dd79e3a65",
-      "family": "03_directive_governance",
+      "id": "ch_live_evidence_independent_of_b2ab34",
+      "family": "07_long_tail",
       "topics": [
-        52,
-        57,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "evidence_independent_of",
+        "measurement_with_op_artifact",
+        "crop_parasitism_impact"
       ]
     },
     {
-      "id": "71a42b3108f38d26",
-      "family": "03_directive_governance",
+      "id": "ch_live_evidence_subclass_c29936",
+      "family": "06_belief_structure",
       "topics": [
-        53,
-        94,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "evidence_subclass",
+        "evidence_with_mass_function",
+        "evidence_with_source"
       ]
     },
     {
-      "id": "966a81dd7bf5a1fe",
-      "family": "03_directive_governance",
+      "id": "ch_live_evidence_with_source_c7a47f",
+      "family": "06_belief_structure",
       "topics": [
-        89,
-        144,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "evidence_with_source",
+        "lane_compliance_behavior",
+        "outlier_detection_uses_explainer"
       ]
     },
     {
-      "id": "b3068c884eea4d5d",
-      "family": "03_directive_governance",
+      "id": "ch_live_insertion_loss_specification_1404db",
+      "family": "08_derived",
       "topics": [
-        19,
-        47,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "insertion_loss_specification",
+        "process_min_one_input",
+        "evidence_independent_of"
       ]
     },
     {
-      "id": "d6d6cf83857e2fcd",
-      "family": "03_directive_governance",
+      "id": "ch_live_intermediate_floor_assembly_a3f3af",
+      "family": "08_derived",
       "topics": [
-        34,
-        109,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "intermediate_floor_assembly",
+        "student_privacy_expectation",
+        "evidence_with_source"
       ]
     },
     {
-      "id": "e00bee0568158755",
-      "family": "03_directive_governance",
+      "id": "ch_live_quality_assurance_initiative_e1f505",
+      "family": "08_derived",
       "topics": [
-        40,
-        73,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "quality_assurance_initiative",
+        "lift_with_support_count",
+        "evidence_independent_of"
       ]
     },
     {
-      "id": "e5fa4385cbf29d64",
-      "family": "03_directive_governance",
+      "id": "ch_live_student_privacy_expectation_3f11f7",
+      "family": "08_derived",
       "topics": [
-        25,
-        118,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "student_privacy_expectation",
+        "evidence_independent_of",
+        "belief_interval_basic"
       ]
     },
     {
-      "id": "ea4aa4cb49a1cb88",
-      "family": "03_directive_governance",
+      "id": "ch_live_trace_originates_from_cb1dcb",
+      "family": "02_observation_measurement",
       "topics": [
-        28,
-        118,
         187
       ],
       "cited_terms": [
-        "attestation_min_one_signer",
-        "audit_for_period",
-        "audit_basic",
-        "verification_min_one_evidence"
+        "trace_originates_from",
+        "evidence_independent_of",
+        "evidence_observed_by_process"
       ]
     }
   ]

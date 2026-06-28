@@ -1,0 +1,1366 @@
+{
+  "topic_id": 0,
+  "family": "01_foundation",
+  "n_chapters": 37,
+  "coverage_score": 0.25127726793289185,
+  "topic_repr": "A&A 487, 1081\u20131093 (2008)\n\nDOI: 10.1051/0004-6361:200809670\n\nc \u20dd ESO 2008\n\nAstronomy&\nAstrophysics\n\nFour-colour photometry of eclipsing binaries. XLI.\n\nuvby light curves for AD Bootis, HW Canis Majoris, SW Canis Majoris, V636 Centauri, VZ Hydrae, and WZ Ophiuchi \u22c6,\u22c6\u22c6,\u22c6\u22c6\u22c6\n\nJ. V. Clausen 1 , L. P. R. Vaz 2 , J. M. Garc\u00eda 3 , A. Gim\u00e9nez 4 , 5 , B. E. Helt 1 , E. H. Olsen 1 , and J. Andersen 1 , 6\n\n1 ...",
+  "terms": [
+    "agent_identified_by_uri",
+    "aggregation_aggregates_measurement",
+    "annotation_basic",
+    "apolitical_islam",
+    "artifact_min_one_owner",
+    "attestation_signed_by",
+    "attestation_subclass",
+    "attribute_set_max_attrs",
+    "attribute_set_min_one",
+    "baseline_for_metric",
+    "bpf_helper_called_by",
+    "breaking_change_subclass",
+    "claim_observed_by_event",
+    "claim_refuted_by_evidence",
+    "clinical_quality_research_role",
+    "column_pair_subject",
+    "column_tag_at_confidence",
+    "column_version_subclass",
+    "control_at_severity",
+    "control_subclass",
+    "dataset_at_version",
+    "dempster_combinant_second",
+    "descriptive_either_evidence_or_claim",
+    "designative_subclass_basic",
+    "directive_traces_to_requirement",
+    "ebpfmap_with_key_type",
+    "ebpfprogram_exactly_one_type",
+    "ebpfprogram_governed_by_security_policy",
+    "ebpfprogram_writes_to_map",
+    "entomological_surveillance_record",
+    "equiv_intersect_three",
+    "existential_anchored_to_artifact_via_part",
+    "ganglion_cyst_tissue_origin",
+    "instrument_emits_signal",
+    "instrument_only_emits_type",
+    "instrument_subclass",
+    "iso27001_annexa_subclass",
+    "iso27001_clause_subclass",
+    "kernel_event_with_tid",
+    "lane_compliance_behavior",
+    "mass_function_equiv_frame_and_assignment",
+    "material_density_specification",
+    "observation_with_participant",
+    "outlier_detection_targets_dataset",
+    "outlier_detection_with_baseline",
+    "pdsa_improvement_model",
+    "perf_event_subclass",
+    "primary_key_designation",
+    "process_with_participant",
+    "profile_of_column",
+    "profiling_only_targets_datasets",
+    "regional_quality_benchmark",
+    "requirement_under_standard",
+    "responsive_optic_nerve_dysfunction",
+    "schemaorg_label_alignment",
+    "schemaorg_org_legalname",
+    "schemaorg_place_latitude",
+    "shell_dimension_specification",
+    "soc2_security_subclass",
+    "state_basic",
+    "state_transitions_from",
+    "student_privacy_expectation",
+    "subclass_disjoint_from_artifact",
+    "subclass_to_independent_continuant",
+    "subclass_to_process",
+    "summary_metric_subclass",
+    "syscall_max_one_return",
+    "trace_with_root_span",
+    "transformation_min_one_input",
+    "transformation_min_one_output",
+    "universal_generic",
+    "verification_subclass",
+    "verification_traces_requirement",
+    "young_adult_speaker_role"
+  ],
+  "tables": [
+    "t_agent_identified_by_uri",
+    "t_aggregation_aggregates_measurement",
+    "t_annotation_basic",
+    "t_apolitical_islam",
+    "t_artifact_min_one_owner",
+    "t_attestation_signed_by",
+    "t_attestation_subclass",
+    "t_attribute_set_max_attrs",
+    "t_attribute_set_min_one",
+    "t_baseline_for_metric",
+    "t_bpf_helper_called_by",
+    "t_breaking_change_subclass",
+    "t_claim_observed_by_event",
+    "t_claim_refuted_by_evidence",
+    "t_clinical_quality_research_role",
+    "t_column_pair_subject",
+    "t_column_tag_at_confidence",
+    "t_column_version_subclass",
+    "t_control_at_severity",
+    "t_control_subclass",
+    "t_dataset_at_version",
+    "t_dempster_combinant_second",
+    "t_descriptive_either_evidence_or_claim",
+    "t_designative_subclass_basic",
+    "t_directive_traces_to_requirement",
+    "t_ebpfmap_with_key_type",
+    "t_ebpfprogram_exactly_one_type",
+    "t_ebpfprogram_governed_by_security_policy",
+    "t_ebpfprogram_writes_to_map",
+    "t_entomological_surveillance_record",
+    "t_equiv_intersect_three",
+    "t_existential_anchored_to_artifact_via_part",
+    "t_ganglion_cyst_tissue_origin",
+    "t_instrument_emits_signal",
+    "t_instrument_only_emits_type",
+    "t_instrument_subclass",
+    "t_iso27001_annexa_subclass",
+    "t_iso27001_clause_subclass",
+    "t_kernel_event_with_tid",
+    "t_lane_compliance_behavior",
+    "t_mass_function_equiv_frame_and_assignment",
+    "t_material_density_specification",
+    "t_observation_with_participant",
+    "t_outlier_detection_targets_dataset",
+    "t_outlier_detection_with_baseline",
+    "t_pdsa_improvement_model",
+    "t_perf_event_subclass",
+    "t_primary_key_designation",
+    "t_process_with_participant",
+    "t_profile_of_column",
+    "t_profiling_only_targets_datasets",
+    "t_regional_quality_benchmark",
+    "t_requirement_under_standard",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_schemaorg_label_alignment",
+    "t_schemaorg_org_legalname",
+    "t_schemaorg_place_latitude",
+    "t_shell_dimension_specification",
+    "t_soc2_security_subclass",
+    "t_state_basic",
+    "t_state_transitions_from",
+    "t_student_privacy_expectation",
+    "t_subclass_disjoint_from_artifact",
+    "t_subclass_to_independent_continuant",
+    "t_subclass_to_process",
+    "t_summary_metric_subclass",
+    "t_syscall_max_one_return",
+    "t_trace_with_root_span",
+    "t_transformation_min_one_input",
+    "t_transformation_min_one_output",
+    "t_universal_generic",
+    "t_verification_subclass",
+    "t_verification_traces_requirement",
+    "t_young_adult_speaker_role"
+  ],
+  "topics": [
+    0,
+    3,
+    7,
+    8,
+    13,
+    16,
+    19,
+    20,
+    22,
+    27,
+    33,
+    35,
+    38,
+    39,
+    42,
+    44,
+    49,
+    51,
+    54,
+    60,
+    61,
+    62,
+    67,
+    77,
+    78,
+    80,
+    86,
+    92,
+    95,
+    101,
+    104,
+    105,
+    106,
+    125,
+    136,
+    147,
+    165,
+    168,
+    169,
+    170,
+    181,
+    186,
+    191,
+    195
+  ],
+  "shared_tables": {
+    "agent_identified_by_uri": [
+      2,
+      3,
+      35,
+      124,
+      126
+    ],
+    "aggregation_aggregates_measurement": [
+      3,
+      39,
+      46,
+      66,
+      161,
+      186
+    ],
+    "annotation_basic": [
+      4,
+      10,
+      26,
+      91,
+      172,
+      186,
+      188
+    ],
+    "apolitical_islam": [
+      5,
+      12,
+      46,
+      73,
+      83,
+      119,
+      155,
+      158,
+      183,
+      185,
+      186
+    ],
+    "artifact_min_one_owner": [
+      1,
+      23,
+      46,
+      120,
+      122,
+      183,
+      186,
+      195
+    ],
+    "attestation_signed_by": [
+      7,
+      36,
+      123,
+      125,
+      191
+    ],
+    "attestation_subclass": [
+      6,
+      11,
+      24,
+      47,
+      56,
+      136
+    ],
+    "attribute_set_max_attrs": [
+      4,
+      7,
+      26,
+      65,
+      91,
+      92
+    ],
+    "attribute_set_min_one": [
+      4,
+      26,
+      56,
+      86,
+      139,
+      180,
+      186
+    ],
+    "baseline_for_metric": [
+      6,
+      7,
+      14,
+      26,
+      72,
+      92
+    ],
+    "bpf_helper_called_by": [
+      1,
+      34,
+      54,
+      150,
+      155,
+      165,
+      183
+    ],
+    "breaking_change_subclass": [
+      14,
+      27,
+      36,
+      41
+    ],
+    "claim_observed_by_event": [
+      1,
+      4,
+      27,
+      36,
+      40,
+      42,
+      49,
+      79,
+      97,
+      125,
+      155
+    ],
+    "claim_refuted_by_evidence": [
+      11,
+      92,
+      97
+    ],
+    "clinical_quality_research_role": [
+      2,
+      61,
+      81,
+      139,
+      185
+    ],
+    "column_pair_subject": [
+      4,
+      5,
+      23,
+      45,
+      46,
+      47,
+      83,
+      154,
+      186
+    ],
+    "column_tag_at_confidence": [
+      4,
+      20,
+      45,
+      168
+    ],
+    "column_version_subclass": [
+      1,
+      11,
+      12,
+      23,
+      62
+    ],
+    "control_at_severity": [
+      5,
+      42,
+      47,
+      65,
+      183,
+      186
+    ],
+    "control_subclass": [
+      4,
+      16
+    ],
+    "dataset_at_version": [
+      14,
+      24,
+      45,
+      183,
+      186,
+      191
+    ],
+    "dempster_combinant_second": [
+      1,
+      11,
+      47,
+      56,
+      83,
+      91,
+      159
+    ],
+    "descriptive_either_evidence_or_claim": [
+      11,
+      26,
+      80,
+      83,
+      92,
+      104,
+      142,
+      186
+    ],
+    "designative_subclass_basic": [
+      7,
+      80
+    ],
+    "directive_traces_to_requirement": [
+      4,
+      23,
+      35,
+      40,
+      46,
+      101,
+      104,
+      159,
+      180,
+      185
+    ],
+    "ebpfmap_with_key_type": [
+      26,
+      51,
+      106,
+      158,
+      183,
+      185,
+      188
+    ],
+    "ebpfprogram_exactly_one_type": [
+      2,
+      26,
+      44,
+      129,
+      186
+    ],
+    "ebpfprogram_governed_by_security_policy": [
+      23,
+      24,
+      44
+    ],
+    "ebpfprogram_writes_to_map": [
+      19,
+      20,
+      30,
+      44
+    ],
+    "entomological_surveillance_record": [
+      26,
+      41,
+      81,
+      184,
+      186
+    ],
+    "equiv_intersect_three": [
+      4,
+      5,
+      128,
+      186
+    ],
+    "existential_anchored_to_artifact_via_part": [
+      4,
+      6,
+      19,
+      23,
+      26,
+      40,
+      58,
+      61,
+      80,
+      94,
+      104,
+      106
+    ],
+    "ganglion_cyst_tissue_origin": [
+      6,
+      7,
+      26,
+      42,
+      44,
+      46,
+      81,
+      101,
+      125,
+      135,
+      181,
+      183,
+      186
+    ],
+    "instrument_subclass": [
+      4,
+      7,
+      79,
+      80,
+      83,
+      183,
+      186
+    ],
+    "iso27001_annexa_subclass": [
+      8,
+      101
+    ],
+    "iso27001_clause_subclass": [
+      34,
+      45,
+      101
+    ],
+    "kernel_event_with_tid": [
+      19,
+      25,
+      41,
+      80,
+      168
+    ],
+    "lane_compliance_behavior": [
+      10,
+      27,
+      60,
+      107,
+      158,
+      165,
+      183,
+      186,
+      187
+    ],
+    "mass_function_equiv_frame_and_assignment": [
+      7,
+      26,
+      42,
+      61,
+      62,
+      165
+    ],
+    "material_density_specification": [
+      4,
+      54,
+      79,
+      109,
+      155
+    ],
+    "observation_with_participant": [
+      26,
+      86,
+      104,
+      135,
+      159,
+      168,
+      172,
+      184
+    ],
+    "outlier_detection_with_baseline": [
+      1,
+      10,
+      23,
+      42,
+      60
+    ],
+    "pdsa_improvement_model": [
+      4,
+      26,
+      36,
+      56,
+      60,
+      65,
+      83,
+      147,
+      186,
+      188
+    ],
+    "perf_event_subclass": [
+      16,
+      26,
+      34,
+      47,
+      183,
+      186
+    ],
+    "primary_key_designation": [
+      5,
+      7,
+      26,
+      46,
+      149,
+      183,
+      186
+    ],
+    "process_with_participant": [
+      1,
+      11,
+      24,
+      26,
+      36,
+      60,
+      79,
+      125,
+      183,
+      186
+    ],
+    "profile_of_column": [
+      3,
+      26,
+      34,
+      159,
+      165,
+      188
+    ],
+    "profiling_only_targets_datasets": [
+      67,
+      195
+    ],
+    "regional_quality_benchmark": [
+      3,
+      10,
+      20,
+      26,
+      30,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
+      185,
+      186
+    ],
+    "requirement_under_standard": [
+      8,
+      20,
+      26,
+      36,
+      72,
+      163,
+      186
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      1,
+      2,
+      26,
+      47,
+      81,
+      97,
+      102,
+      180,
+      181,
+      183
+    ],
+    "schemaorg_label_alignment": [
+      11,
+      45,
+      54,
+      62
+    ],
+    "schemaorg_org_legalname": [
+      2,
+      46,
+      62,
+      65,
+      94,
+      104
+    ],
+    "shell_dimension_specification": [
+      2,
+      4,
+      25,
+      36,
+      46,
+      95,
+      105,
+      119,
+      136,
+      183,
+      186,
+      191
+    ],
+    "soc2_security_subclass": [
+      5,
+      26,
+      34,
+      46,
+      49,
+      129,
+      165,
+      183,
+      186
+    ],
+    "state_basic": [
+      19
+    ],
+    "state_transitions_from": [
+      7,
+      14,
+      25,
+      26,
+      44,
+      161,
+      183,
+      186
+    ],
+    "student_privacy_expectation": [
+      4,
+      26,
+      36,
+      60,
+      69,
+      150,
+      183,
+      185,
+      186,
+      187
+    ],
+    "subclass_disjoint_from_artifact": [
+      19,
+      23,
+      40,
+      61
+    ],
+    "subclass_to_independent_continuant": [
+      12,
+      26,
+      47,
+      97,
+      135,
+      183,
+      191
+    ],
+    "subclass_to_process": [
+      7,
+      26,
+      42,
+      45,
+      46,
+      47,
+      100,
+      102,
+      105,
+      123,
+      159,
+      183,
+      191
+    ],
+    "summary_metric_subclass": [
+      4,
+      66,
+      135,
+      140,
+      186
+    ],
+    "syscall_max_one_return": [
+      106
+    ],
+    "trace_with_root_span": [
+      4,
+      24,
+      26,
+      34,
+      44,
+      46,
+      61,
+      102,
+      183,
+      186
+    ],
+    "transformation_min_one_input": [
+      42
+    ],
+    "transformation_min_one_output": [
+      7,
+      35,
+      42
+    ],
+    "universal_generic": [
+      4,
+      19,
+      61,
+      186
+    ],
+    "verification_subclass": [
+      6,
+      10,
+      23,
+      38
+    ],
+    "verification_traces_requirement": [
+      10,
+      16,
+      20,
+      33
+    ],
+    "young_adult_speaker_role": [
+      2,
+      26,
+      79,
+      80,
+      150,
+      183
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_agent_identified_by_uri_0f8950",
+      "family": "05_provo_lineage",
+      "topics": [
+        0,
+        3,
+        13,
+        27,
+        35
+      ],
+      "cited_terms": [
+        "agent_identified_by_uri",
+        "breaking_change_subclass",
+        "instrument_emits_signal"
+      ]
+    },
+    {
+      "id": "ch_live_artifact_min_one_owner_b7c658",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        13,
+        27,
+        61,
+        77
+      ],
+      "cited_terms": [
+        "artifact_min_one_owner",
+        "subclass_disjoint_from_artifact",
+        "instrument_only_emits_type"
+      ]
+    },
+    {
+      "id": "ch_live_baseline_for_metric_6ce0f9",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        92
+      ],
+      "cited_terms": [
+        "baseline_for_metric",
+        "apolitical_islam",
+        "instrument_only_emits_type"
+      ]
+    },
+    {
+      "id": "ch_live_claim_refuted_by_evidence_12bd5d",
+      "family": "06_belief_structure",
+      "topics": [
+        0,
+        3,
+        13,
+        27,
+        35
+      ],
+      "cited_terms": [
+        "claim_refuted_by_evidence",
+        "agent_identified_by_uri",
+        "instrument_only_emits_type"
+      ]
+    },
+    {
+      "id": "ch_live_control_subclass_54fe75",
+      "family": "03_directive_governance",
+      "topics": [
+        0,
+        16,
+        22,
+        62,
+        105
+      ],
+      "cited_terms": [
+        "control_subclass",
+        "column_version_subclass",
+        "outlier_detection_targets_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_at_version_ee6bf1",
+      "family": "07_long_tail",
+      "topics": [
+        0
+      ],
+      "cited_terms": [
+        "dataset_at_version",
+        "schemaorg_place_latitude",
+        "directive_traces_to_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_designative_subclass_basic_336d5b",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        7,
+        51,
+        67,
+        78
+      ],
+      "cited_terms": [
+        "designative_subclass_basic",
+        "profiling_only_targets_datasets",
+        "dempster_combinant_second"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_with_key_type_f2cd65",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        0,
+        67,
+        105,
+        147,
+        195
+      ],
+      "cited_terms": [
+        "ebpfmap_with_key_type",
+        "aggregation_aggregates_measurement",
+        "profiling_only_targets_datasets"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_exactly_one_type_e3bbfe",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        95
+      ],
+      "cited_terms": [
+        "ebpfprogram_exactly_one_type",
+        "trace_with_root_span",
+        "instrument_emits_signal"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_writes_to_map_efc36d",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        0,
+        44,
+        67,
+        105,
+        147
+      ],
+      "cited_terms": [
+        "ebpfprogram_writes_to_map",
+        "profiling_only_targets_datasets",
+        "control_at_severity"
+      ]
+    },
+    {
+      "id": "ch_live_entomological_surveillance_record_547715",
+      "family": "08_derived",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        95
+      ],
+      "cited_terms": [
+        "entomological_surveillance_record",
+        "shell_dimension_specification",
+        "instrument_emits_signal"
+      ]
+    },
+    {
+      "id": "ch_live_ganglion_cyst_tissue_origin_a79fd0",
+      "family": "08_derived",
+      "topics": [
+        0,
+        67,
+        105,
+        147,
+        195
+      ],
+      "cited_terms": [
+        "ganglion_cyst_tissue_origin",
+        "profiling_only_targets_datasets",
+        "dempster_combinant_second"
+      ]
+    },
+    {
+      "id": "ch_live_instrument_emits_signal_195e73",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        95
+      ],
+      "cited_terms": [
+        "instrument_emits_signal",
+        "instrument_only_emits_type",
+        "instrument_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_instrument_emits_signal_4e6df0",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        95
+      ],
+      "cited_terms": [
+        "instrument_emits_signal",
+        "attribute_set_max_attrs",
+        "column_pair_subject"
+      ]
+    },
+    {
+      "id": "ch_live_instrument_only_emits_type_1012df",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        8,
+        13,
+        16,
+        20
+      ],
+      "cited_terms": [
+        "instrument_only_emits_type",
+        "claim_observed_by_event",
+        "iso27001_annexa_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_instrument_only_emits_type_4b73b2",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        13,
+        27,
+        44,
+        49
+      ],
+      "cited_terms": [
+        "instrument_only_emits_type",
+        "ebpfprogram_governed_by_security_policy",
+        "bpf_helper_called_by"
+      ]
+    },
+    {
+      "id": "ch_live_iso27001_clause_subclass_fde68a",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        101,
+        104,
+        105,
+        147
+      ],
+      "cited_terms": [
+        "iso27001_clause_subclass",
+        "outlier_detection_targets_dataset",
+        "schemaorg_org_legalname"
+      ]
+    },
+    {
+      "id": "ch_live_lane_compliance_behavior_1ee33f",
+      "family": "08_derived",
+      "topics": [
+        0,
+        105,
+        147
+      ],
+      "cited_terms": [
+        "lane_compliance_behavior",
+        "outlier_detection_targets_dataset",
+        "existential_anchored_to_artifact_via_part"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_detection_targets_dataset_4ca5e2",
+      "family": "02_observation_measurement",
+      "topics": [
+        0,
+        62,
+        105,
+        147
+      ],
+      "cited_terms": [
+        "outlier_detection_targets_dataset",
+        "profile_of_column",
+        "schemaorg_label_alignment"
+      ]
+    },
+    {
+      "id": "ch_live_perf_event_subclass_15a3eb",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        67,
+        105,
+        147,
+        195
+      ],
+      "cited_terms": [
+        "perf_event_subclass",
+        "annotation_basic",
+        "profiling_only_targets_datasets"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_participant_4f90a4",
+      "family": "01_foundation",
+      "topics": [
+        0
+      ],
+      "cited_terms": [
+        "process_with_participant",
+        "schemaorg_place_latitude",
+        "subclass_to_process"
+      ]
+    },
+    {
+      "id": "ch_live_regional_quality_benchmark_3e55e6",
+      "family": "08_derived",
+      "topics": [
+        0,
+        80,
+        105,
+        147,
+        168
+      ],
+      "cited_terms": [
+        "regional_quality_benchmark",
+        "outlier_detection_targets_dataset",
+        "kernel_event_with_tid"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_under_standard_0152fb",
+      "family": "03_directive_governance",
+      "topics": [
+        0,
+        33,
+        38,
+        181,
+        186
+      ],
+      "cited_terms": [
+        "requirement_under_standard",
+        "schemaorg_place_latitude",
+        "verification_traces_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_responsive_optic_nerve_dysfunction_23a615",
+      "family": "08_derived",
+      "topics": [
+        0,
+        67,
+        105,
+        147,
+        195
+      ],
+      "cited_terms": [
+        "responsive_optic_nerve_dysfunction",
+        "profiling_only_targets_datasets",
+        "primary_key_designation"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_place_latitude_08c40a",
+      "family": "07_long_tail",
+      "topics": [
+        0
+      ],
+      "cited_terms": [
+        "schemaorg_place_latitude",
+        "subclass_to_independent_continuant",
+        "pdsa_improvement_model"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_place_latitude_98b8f5",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        60,
+        86,
+        165,
+        170
+      ],
+      "cited_terms": [
+        "schemaorg_place_latitude",
+        "mass_function_equiv_frame_and_assignment",
+        "outlier_detection_with_baseline"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_place_latitude_c2743b",
+      "family": "07_long_tail",
+      "topics": [
+        0
+      ],
+      "cited_terms": [
+        "schemaorg_place_latitude",
+        "state_transitions_from",
+        "material_density_specification"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_place_latitude_d9f571",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        125,
+        136,
+        169,
+        191
+      ],
+      "cited_terms": [
+        "schemaorg_place_latitude",
+        "attestation_signed_by",
+        "attestation_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_state_basic_6e576a",
+      "family": "02_observation_measurement",
+      "topics": [
+        0,
+        13,
+        19,
+        27,
+        39
+      ],
+      "cited_terms": [
+        "state_basic",
+        "instrument_only_emits_type",
+        "equiv_intersect_three"
+      ]
+    },
+    {
+      "id": "ch_live_student_privacy_expectation_55a1ea",
+      "family": "08_derived",
+      "topics": [
+        0,
+        13,
+        27,
+        77,
+        95
+      ],
+      "cited_terms": [
+        "student_privacy_expectation",
+        "instrument_only_emits_type",
+        "soc2_security_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_summary_metric_subclass_feb98c",
+      "family": "07_long_tail",
+      "topics": [
+        0,
+        105,
+        147
+      ],
+      "cited_terms": [
+        "summary_metric_subclass",
+        "outlier_detection_targets_dataset",
+        "attribute_set_min_one"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_max_one_return_014dab",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        0,
+        67,
+        105,
+        106,
+        147
+      ],
+      "cited_terms": [
+        "syscall_max_one_return",
+        "column_tag_at_confidence",
+        "profiling_only_targets_datasets"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_input_2129d0",
+      "family": "05_provo_lineage",
+      "topics": [
+        0,
+        13,
+        27,
+        42,
+        54
+      ],
+      "cited_terms": [
+        "transformation_min_one_input",
+        "instrument_only_emits_type",
+        "observation_with_participant"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_min_one_output_761160",
+      "family": "05_provo_lineage",
+      "topics": [
+        0,
+        42,
+        54,
+        67,
+        105
+      ],
+      "cited_terms": [
+        "transformation_min_one_output",
+        "profiling_only_targets_datasets",
+        "clinical_quality_research_role"
+      ]
+    },
+    {
+      "id": "ch_live_universal_generic_b3bee3",
+      "family": "01_foundation",
+      "topics": [
+        0,
+        13,
+        27,
+        42,
+        54
+      ],
+      "cited_terms": [
+        "universal_generic",
+        "transformation_min_one_output",
+        "instrument_emits_signal"
+      ]
+    },
+    {
+      "id": "ch_live_verification_subclass_f312cc",
+      "family": "03_directive_governance",
+      "topics": [
+        0,
+        13,
+        27,
+        38,
+        77
+      ],
+      "cited_terms": [
+        "verification_subclass",
+        "descriptive_either_evidence_or_claim",
+        "instrument_emits_signal"
+      ]
+    },
+    {
+      "id": "ch_live_young_adult_speaker_role_4352cd",
+      "family": "08_derived",
+      "topics": [
+        0,
+        105,
+        147,
+        165
+      ],
+      "cited_terms": [
+        "young_adult_speaker_role",
+        "outlier_detection_targets_dataset",
+        "mass_function_equiv_frame_and_assignment"
+      ]
+    }
+  ]
+}

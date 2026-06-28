@@ -1,308 +1,97 @@
 {
   "topic_id": 75,
   "family": "03_directive_governance",
-  "n_chapters": 11,
-  "coverage_score": 0.26053452491760254,
+  "n_chapters": 2,
+  "coverage_score": 0.28341561555862427,
   "topic_repr": "University of Calgary\n\nPRISM: University of Calgary's Digital Repository\n\nResearch Centres, Institutes, Projects and Units\n\nShift: The Project to End Domestic Violence\n\n2020-09\n\nBuilding a Case for Using \"Coercive Control\" in Alberta: Discussion Paper\n\nLee, Lianne; Wells, Lana; Gray, Shawna M.; Esina, Elena\n\nLee, L., Wells, L., Gray, S. & Esina, E. (2020). Building a case for using \"Coercive Contr...",
   "terms": [
-    "attestation_min_one_signer",
-    "attestation_signed_by",
-    "policy_equiv_jurisdiction_and_scope",
-    "policy_min_one_enforcer",
-    "requirement_equiv_specifies_target"
+    "bullying_response_process",
+    "cardinality_max_three_generic",
+    "column_value_distribution",
+    "kernelhook_max_one_program_attached",
+    "survey_response_record"
   ],
   "tables": [
-    "t_attestation_min_one_signer",
-    "t_attestation_signed_by",
-    "t_policy_equiv_jurisdiction_and_scope",
-    "t_policy_min_one_enforcer",
-    "t_requirement_equiv_specifies_target"
+    "t_bullying_response_process",
+    "t_cardinality_max_three_generic",
+    "t_column_value_distribution",
+    "t_kernelhook_max_one_program_attached",
+    "t_survey_response_record"
   ],
   "topics": [
-    32,
-    43,
-    51,
-    52,
-    54,
-    64,
-    75,
-    83,
-    88,
-    92,
-    93,
-    97,
-    102,
-    107,
-    110,
-    117,
-    121,
-    128,
-    131,
-    135,
-    190,
-    196,
-    199
+    75
   ],
   "shared_tables": {
-    "attestation_min_one_signer": [
-      1,
-      4,
-      28,
-      43,
-      57,
-      65,
-      68,
-      76,
-      95,
-      127,
-      150,
-      171,
-      176,
-      187,
-      190,
-      198
-    ],
-    "attestation_signed_by": [
-      2,
-      4,
-      5,
+    "bullying_response_process": [
       26,
-      28,
-      30,
-      37,
-      43,
-      65,
-      70,
-      73,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      150,
-      163,
-      165,
-      190
+      41,
+      44,
+      45,
+      105
     ],
-    "policy_equiv_jurisdiction_and_scope": [
-      7,
-      78,
-      96
-    ],
-    "policy_min_one_enforcer": [
-      20,
-      93,
-      96,
-      158,
-      193,
-      198
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
+    "cardinality_max_three_generic": [
       4,
-      7,
-      15,
-      20,
-      21,
-      47,
-      68,
-      71,
-      73,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
+      23,
+      46,
+      65,
+      100,
+      143,
       165,
-      171,
-      178,
-      186,
-      191,
-      199
+      183,
+      186
+    ],
+    "column_value_distribution": [
+      23,
+      27,
+      34,
+      46,
+      49,
+      62,
+      129,
+      183,
+      186
+    ],
+    "kernelhook_max_one_program_attached": [
+      120,
+      155,
+      183
+    ],
+    "survey_response_record": [
+      26,
+      35,
+      41,
+      60,
+      97,
+      166,
+      181,
+      183,
+      184,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "17e5013be019aebf",
-      "family": "03_directive_governance",
+      "id": "ch_live_column_value_distribution_f4b4cc",
+      "family": "07_long_tail",
       "topics": [
-        75,
-        102,
-        135
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "4d496b6a26b89e5c",
-      "family": "03_directive_governance",
-      "topics": [
-        75,
-        97,
-        131
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "64245dcb73087ced",
-      "family": "03_directive_governance",
-      "topics": [
-        75,
-        83,
-        110
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "6694f4e3f91a3e50",
-      "family": "03_directive_governance",
-      "topics": [
-        75,
-        93,
-        199
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "7bec1cc6db6e70a1",
-      "family": "03_directive_governance",
-      "topics": [
-        75,
-        121,
-        196
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "963f2350c9c2e75b",
-      "family": "03_directive_governance",
-      "topics": [
-        51,
-        75,
-        107
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "a31de4c40bfc4620",
-      "family": "03_directive_governance",
-      "topics": [
-        75,
-        88,
-        117
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "b65453e32c5f80ec",
-      "family": "03_directive_governance",
-      "topics": [
-        52,
-        54,
         75
       ],
       "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
+        "column_value_distribution",
+        "bullying_response_process",
+        "cardinality_max_three_generic"
       ]
     },
     {
-      "id": "bebf61dcfffc8be1",
-      "family": "03_directive_governance",
+      "id": "ch_live_survey_response_record_91fc25",
+      "family": "08_derived",
       "topics": [
-        43,
-        75,
-        92
+        75
       ],
       "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "c8c05acfc5668f7d",
-      "family": "03_directive_governance",
-      "topics": [
-        64,
-        75,
-        128
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
-      ]
-    },
-    {
-      "id": "e0b692ef708e57f1",
-      "family": "03_directive_governance",
-      "topics": [
-        32,
-        75,
-        190
-      ],
-      "cited_terms": [
-        "policy_equiv_jurisdiction_and_scope",
-        "attestation_signed_by",
-        "policy_min_one_enforcer",
-        "requirement_equiv_specifies_target",
-        "attestation_min_one_signer"
+        "survey_response_record",
+        "kernelhook_max_one_program_attached",
+        "bullying_response_process"
       ]
     }
   ]

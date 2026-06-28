@@ -1,300 +1,289 @@
 {
   "topic_id": 104,
   "family": "07_long_tail",
-  "n_chapters": 10,
-  "coverage_score": 0.1266850233078003,
+  "n_chapters": 7,
+  "coverage_score": 0.10366389900445938,
   "topic_repr": "IJP (2016), Vol. 3, Issue 5\n\n(Research Article)\n\nReceived on 28 April 2016; received in revised form, 17 May 2016; accepted, 25 May 2016; published 31 May 2016\n\nPHARMACOGNOSTIC STUDIES OF DRUG SPERMADICTYON SUAVEOLENS ROXB.\n\nMusmade Kavita, Abhijeet Rakshe and Digambar Mokat *\n\nDepartment of Botany, Savitribai Phule Pune University Pune - 411007, Maharashtra, India.\n\nKeywords:\n\nSpermadictyon suave...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "control_only_addresses_threat_class",
-    "control_with_evidence_requirement",
-    "gdpr_lawful_basis",
-    "verification_produces_evidence"
+    "attribute_set_subclass",
+    "cgroup_skb_subclass",
+    "claim_subclass",
+    "column_added_at_version",
+    "descriptive_either_evidence_or_claim",
+    "directive_traces_to_requirement",
+    "disjunctive_combination",
+    "existential_anchored_to_artifact_via_part",
+    "lineage_edge_to_target",
+    "lru_hash_map_subclass",
+    "metric_observed_by_event",
+    "national_dataset_augmentation_process",
+    "observation_with_participant",
+    "schemaorg_org_legalname",
+    "syscall_subclass"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_control_only_addresses_threat_class",
-    "t_control_with_evidence_requirement",
-    "t_gdpr_lawful_basis",
-    "t_verification_produces_evidence"
+    "t_attribute_set_subclass",
+    "t_cgroup_skb_subclass",
+    "t_claim_subclass",
+    "t_column_added_at_version",
+    "t_descriptive_either_evidence_or_claim",
+    "t_directive_traces_to_requirement",
+    "t_disjunctive_combination",
+    "t_existential_anchored_to_artifact_via_part",
+    "t_lineage_edge_to_target",
+    "t_lru_hash_map_subclass",
+    "t_metric_observed_by_event",
+    "t_national_dataset_augmentation_process",
+    "t_observation_with_participant",
+    "t_schemaorg_org_legalname",
+    "t_syscall_subclass"
   ],
   "topics": [
-    13,
-    20,
-    26,
-    33,
-    35,
-    49,
-    62,
-    65,
-    72,
-    78,
-    91,
     104,
-    106,
-    113,
-    154,
-    169,
-    176,
-    191
+    180
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "attribute_set_subclass": [
+      1,
       2,
-      3,
-      5,
-      6,
-      7,
-      16,
-      20,
-      23,
-      26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
-    ],
-    "control_only_addresses_threat_class": [
-      13,
-      15,
-      16,
-      21,
-      35,
-      61,
-      85,
-      102,
-      113,
-      117,
-      160,
-      165,
+      4,
+      46,
+      78,
+      155,
       181,
-      191,
-      196
+      186
     ],
-    "control_with_evidence_requirement": [
-      3,
-      23,
-      26,
-      58,
-      78,
-      83,
-      88,
-      89,
-      92,
-      102,
-      134,
-      138,
-      154,
-      191
-    ],
-    "gdpr_lawful_basis": [
-      3,
-      26,
-      30,
-      73,
-      78,
-      133,
-      138,
-      154,
-      163
-    ],
-    "verification_produces_evidence": [
-      6,
-      16,
-      23,
-      44,
+    "cgroup_skb_subclass": [
+      4,
+      25,
+      40,
+      45,
       56,
-      58,
-      71,
+      183
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      20,
+      26,
+      56,
+      61,
+      69,
+      97,
+      100,
+      186,
+      188
+    ],
+    "column_added_at_version": [
+      10,
+      26,
+      97,
+      183
+    ],
+    "descriptive_either_evidence_or_claim": [
+      0,
+      11,
+      26,
+      80,
       83,
-      89,
-      129,
-      138,
-      160,
-      163,
-      191
+      92,
+      142,
+      186
+    ],
+    "directive_traces_to_requirement": [
+      0,
+      4,
+      23,
+      35,
+      40,
+      46,
+      101,
+      159,
+      180,
+      185
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      11,
+      20,
+      34,
+      38,
+      165,
+      180,
+      181,
+      183
+    ],
+    "existential_anchored_to_artifact_via_part": [
+      0,
+      4,
+      6,
+      19,
+      23,
+      26,
+      40,
+      58,
+      61,
+      80,
+      94,
+      106
+    ],
+    "lineage_edge_to_target": [
+      1,
+      24,
+      25,
+      26,
+      81,
+      140,
+      168,
+      186
+    ],
+    "lru_hash_map_subclass": [
+      1,
+      25,
+      42,
+      180
+    ],
+    "metric_observed_by_event": [
+      1,
+      8,
+      26,
+      27,
+      159,
+      161,
+      186
+    ],
+    "national_dataset_augmentation_process": [
+      4,
+      24,
+      39,
+      46,
+      47,
+      79,
+      125,
+      136,
+      155,
+      186,
+      188
+    ],
+    "observation_with_participant": [
+      0,
+      26,
+      86,
+      135,
+      159,
+      168,
+      172,
+      184
+    ],
+    "schemaorg_org_legalname": [
+      0,
+      2,
+      46,
+      62,
+      65,
+      94
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      42,
+      46,
+      66,
+      111,
+      147,
+      154,
+      168,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "11bf5b2ac0a52925",
-      "family": "03_directive_governance",
+      "id": "ch_live_cgroup_skb_subclass_e72bc2",
+      "family": "07_long_tail",
       "topics": [
-        33,
-        91,
         104
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
+        "cgroup_skb_subclass",
+        "syscall_subclass",
+        "schemaorg_org_legalname"
       ]
     },
     {
-      "id": "2162b14c4b09327a",
-      "family": "03_directive_governance",
+      "id": "ch_live_lru_hash_map_subclass_dfd06a",
+      "family": "07_long_tail",
       "topics": [
-        49,
-        72,
+        104,
+        180
+      ],
+      "cited_terms": [
+        "lru_hash_map_subclass",
+        "schemaorg_org_legalname",
+        "directive_traces_to_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_metric_observed_by_event_1cd835",
+      "family": "07_long_tail",
+      "topics": [
         104
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
+        "metric_observed_by_event",
+        "claim_subclass",
+        "schemaorg_org_legalname"
       ]
     },
     {
-      "id": "4329ed1aa254939b",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_org_legalname_1947f4",
+      "family": "07_long_tail",
       "topics": [
-        26,
-        104,
-        106
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "4471f7cb325489e6",
-      "family": "03_directive_governance",
-      "topics": [
-        104,
-        169,
-        191
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "7607de8d799c5f87",
-      "family": "03_directive_governance",
-      "topics": [
-        62,
-        104,
-        154
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "7f408dff813d386d",
-      "family": "03_directive_governance",
-      "topics": [
-        35,
-        104,
-        191
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "880f7a6a097b8ef0",
-      "family": "03_directive_governance",
-      "topics": [
-        20,
-        104,
-        106
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
-      ]
-    },
-    {
-      "id": "d69bc7d4ed07c439",
-      "family": "03_directive_governance",
-      "topics": [
-        13,
-        65,
         104
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
+        "schemaorg_org_legalname",
+        "descriptive_either_evidence_or_claim",
+        "column_added_at_version"
       ]
     },
     {
-      "id": "ec46be9a1f2d33d2",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_org_legalname_471710",
+      "family": "07_long_tail",
       "topics": [
-        104,
-        113,
-        176
+        104
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
+        "schemaorg_org_legalname",
+        "existential_anchored_to_artifact_via_part",
+        "disjunctive_combination"
       ]
     },
     {
-      "id": "f2e747b0fd387754",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_org_legalname_4da873",
+      "family": "07_long_tail",
       "topics": [
-        78,
-        104,
-        113
+        104
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "verification_produces_evidence",
-        "control_only_addresses_threat_class",
-        "control_with_evidence_requirement"
+        "schemaorg_org_legalname",
+        "lineage_edge_to_target",
+        "national_dataset_augmentation_process"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_org_legalname_b12200",
+      "family": "07_long_tail",
+      "topics": [
+        104
+      ],
+      "cited_terms": [
+        "schemaorg_org_legalname",
+        "observation_with_participant",
+        "attribute_set_subclass"
       ]
     }
   ]

@@ -1,0 +1,1125 @@
+{
+  "topic_id": 12,
+  "family": "07_long_tail",
+  "n_chapters": 30,
+  "coverage_score": 0.1663815677165985,
+  "topic_repr": "Dr. Mohd.  Hanief\n\nDesignation:\n\nAssistant Professor\n\nAddress     : Department of Botany School of Biosciences & Biotechnology Baba Ghulam Shah Badshah University Rajouri (J&K), India-185234\n\nContact Details:\n\nE-mail Id: email@example.com, hanief786@ bgsbu.ac.in\n\nMobile number: (0) 7889584665, 9711052845\n\nSpecialization\n\nPlant Ecology and Eco-physiology\n\nAreas of Interest\n\nLand use/cover dynamics,...",
+  "terms": [
+    "agent_acts_on_behalf_of",
+    "agent_basic",
+    "agent_software_or_human",
+    "allocation_associated_with_agent",
+    "anonymous_demographic_information",
+    "apolitical_islam",
+    "appointment_scheduling_process",
+    "artifact_governed_by_policy",
+    "attrkey_subclass",
+    "audit_produces_evidence",
+    "audit_subclass",
+    "audit_targets_data_artifact",
+    "belief_interval_equiv_bel_and_pl",
+    "belief_interval_only_unit_range",
+    "board_membership",
+    "carbon_credit_transaction",
+    "classification_subclass",
+    "classification_under_taxonomy",
+    "column_version_subclass",
+    "constraint_with_predicate",
+    "control_with_classification_tier",
+    "dataset_was_derived_from",
+    "dengue_transmission_process",
+    "descriptive_not_retracted",
+    "directive_only_governs",
+    "directive_only_governs_artifact",
+    "ebpf_event_for_syscall",
+    "ebpfprogram_basic",
+    "ebpfprogram_with_license",
+    "equiv_intersect_with_two_restrictions",
+    "frozen_artifact_governed_by",
+    "kernelhook_basic",
+    "labrun_basic",
+    "labrun_produces_measurement",
+    "labrun_subclass",
+    "labrun_uses_instrument",
+    "labrun_with_protocol",
+    "lift_with_support_count",
+    "lineage_describes_transformation",
+    "lineage_edge_at_run_time",
+    "lineage_edge_max_one_target",
+    "measurement_subclass_only_one_unit",
+    "myxoid_degeneration_process",
+    "process_uses_artifact",
+    "profiling_produces_profile",
+    "provenance_agent_signs_audit",
+    "reference_within_dataset",
+    "requirement_min_one_verification",
+    "ringbuf_map_subclass",
+    "schemaorg_creativework_date",
+    "schemaorg_person_affiliation",
+    "schemaorg_review_author",
+    "settlement_financing_activity",
+    "span_with_parent",
+    "subclass_to_artifact",
+    "subclass_to_independent_continuant",
+    "synthetic_apriori_judgment",
+    "syscall_at_security_tier",
+    "syscall_governed_by_directive",
+    "tc_classifier_subclass",
+    "trace_in_service",
+    "transformation_with_output_dataset",
+    "two_disjoint_artifacts"
+  ],
+  "tables": [
+    "t_agent_acts_on_behalf_of",
+    "t_agent_basic",
+    "t_agent_software_or_human",
+    "t_allocation_associated_with_agent",
+    "t_anonymous_demographic_information",
+    "t_apolitical_islam",
+    "t_appointment_scheduling_process",
+    "t_artifact_governed_by_policy",
+    "t_attrkey_subclass",
+    "t_audit_produces_evidence",
+    "t_audit_subclass",
+    "t_audit_targets_data_artifact",
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_belief_interval_only_unit_range",
+    "t_board_membership",
+    "t_carbon_credit_transaction",
+    "t_classification_subclass",
+    "t_classification_under_taxonomy",
+    "t_column_version_subclass",
+    "t_constraint_with_predicate",
+    "t_control_with_classification_tier",
+    "t_dataset_was_derived_from",
+    "t_dengue_transmission_process",
+    "t_descriptive_not_retracted",
+    "t_directive_only_governs",
+    "t_directive_only_governs_artifact",
+    "t_ebpf_event_for_syscall",
+    "t_ebpfprogram_basic",
+    "t_ebpfprogram_with_license",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_frozen_artifact_governed_by",
+    "t_kernelhook_basic",
+    "t_labrun_basic",
+    "t_labrun_produces_measurement",
+    "t_labrun_subclass",
+    "t_labrun_uses_instrument",
+    "t_labrun_with_protocol",
+    "t_lift_with_support_count",
+    "t_lineage_describes_transformation",
+    "t_lineage_edge_at_run_time",
+    "t_lineage_edge_max_one_target",
+    "t_measurement_subclass_only_one_unit",
+    "t_myxoid_degeneration_process",
+    "t_process_uses_artifact",
+    "t_profiling_produces_profile",
+    "t_provenance_agent_signs_audit",
+    "t_reference_within_dataset",
+    "t_requirement_min_one_verification",
+    "t_ringbuf_map_subclass",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_person_affiliation",
+    "t_schemaorg_review_author",
+    "t_settlement_financing_activity",
+    "t_span_with_parent",
+    "t_subclass_to_artifact",
+    "t_subclass_to_independent_continuant",
+    "t_synthetic_apriori_judgment",
+    "t_syscall_at_security_tier",
+    "t_syscall_governed_by_directive",
+    "t_tc_classifier_subclass",
+    "t_trace_in_service",
+    "t_transformation_with_output_dataset",
+    "t_two_disjoint_artifacts"
+  ],
+  "topics": [
+    12,
+    14,
+    23,
+    24,
+    26,
+    27,
+    34,
+    35,
+    36,
+    39,
+    40,
+    43,
+    44,
+    46,
+    47,
+    49,
+    54,
+    56,
+    61,
+    62,
+    65,
+    66,
+    67,
+    70,
+    71,
+    82,
+    83,
+    91,
+    105,
+    109,
+    111,
+    112,
+    118,
+    121,
+    129,
+    168,
+    181
+  ],
+  "shared_tables": {
+    "agent_acts_on_behalf_of": [
+      24,
+      40
+    ],
+    "agent_basic": [
+      1,
+      23,
+      35
+    ],
+    "agent_software_or_human": [
+      66
+    ],
+    "allocation_associated_with_agent": [
+      10,
+      26,
+      66,
+      111,
+      159,
+      183,
+      186
+    ],
+    "anonymous_demographic_information": [
+      1,
+      2,
+      7,
+      10,
+      23,
+      26,
+      54,
+      74,
+      154,
+      186
+    ],
+    "apolitical_islam": [
+      0,
+      5,
+      46,
+      73,
+      83,
+      119,
+      155,
+      158,
+      183,
+      185,
+      186
+    ],
+    "appointment_scheduling_process": [
+      2,
+      10,
+      19,
+      24,
+      26,
+      45,
+      195
+    ],
+    "artifact_governed_by_policy": [
+      10,
+      26,
+      94,
+      155,
+      186
+    ],
+    "attrkey_subclass": [
+      7,
+      20,
+      23,
+      26,
+      67,
+      129,
+      185,
+      186,
+      187
+    ],
+    "audit_produces_evidence": [
+      10,
+      166
+    ],
+    "audit_subclass": [
+      23,
+      26
+    ],
+    "audit_targets_data_artifact": [
+      1,
+      6,
+      23,
+      26,
+      191
+    ],
+    "belief_interval_equiv_bel_and_pl": [
+      7,
+      8,
+      20,
+      26,
+      34,
+      83,
+      86,
+      91,
+      97,
+      102,
+      125,
+      143,
+      147
+    ],
+    "belief_interval_only_unit_range": [
+      2,
+      10,
+      72,
+      83,
+      109
+    ],
+    "board_membership": [
+      34,
+      35,
+      155,
+      159,
+      183,
+      186
+    ],
+    "carbon_credit_transaction": [
+      23,
+      33,
+      54,
+      58,
+      60,
+      61,
+      91,
+      181
+    ],
+    "classification_subclass": [
+      41,
+      91,
+      105
+    ],
+    "classification_under_taxonomy": [
+      91
+    ],
+    "column_version_subclass": [
+      0,
+      1,
+      11,
+      23,
+      62
+    ],
+    "constraint_with_predicate": [
+      1,
+      49,
+      65,
+      105,
+      135,
+      155,
+      183,
+      186
+    ],
+    "control_with_classification_tier": [
+      4,
+      16,
+      21,
+      34,
+      47,
+      61,
+      65,
+      79,
+      97,
+      186
+    ],
+    "dataset_was_derived_from": [
+      24
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      5,
+      26,
+      47,
+      66,
+      83,
+      181,
+      183
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      26,
+      40,
+      47,
+      67,
+      69,
+      94,
+      138,
+      161,
+      181,
+      186,
+      187,
+      191
+    ],
+    "directive_only_governs": [
+      11,
+      47
+    ],
+    "directive_only_governs_artifact": [
+      3,
+      26,
+      40,
+      42,
+      47,
+      138,
+      186,
+      187
+    ],
+    "ebpf_event_for_syscall": [
+      11,
+      40,
+      65
+    ],
+    "ebpfprogram_basic": [
+      1,
+      2,
+      97,
+      111
+    ],
+    "ebpfprogram_with_license": [
+      24,
+      49
+    ],
+    "equiv_intersect_with_two_restrictions": [
+      2,
+      4,
+      7,
+      14,
+      26,
+      30,
+      34,
+      61,
+      66,
+      181,
+      183,
+      186
+    ],
+    "frozen_artifact_governed_by": [
+      5,
+      23
+    ],
+    "kernelhook_basic": [
+      10,
+      11,
+      24,
+      42,
+      60,
+      61,
+      111
+    ],
+    "labrun_basic": [
+      47,
+      67
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      14,
+      50,
+      67,
+      72,
+      78,
+      135,
+      163
+    ],
+    "labrun_uses_instrument": [
+      47,
+      67
+    ],
+    "labrun_with_protocol": [
+      7,
+      23,
+      27
+    ],
+    "lift_with_support_count": [
+      51,
+      67,
+      92,
+      97,
+      181,
+      183,
+      185,
+      186,
+      187
+    ],
+    "lineage_describes_transformation": [
+      11
+    ],
+    "lineage_edge_at_run_time": [
+      26,
+      60,
+      102,
+      168,
+      186
+    ],
+    "lineage_edge_max_one_target": [
+      26,
+      30,
+      40,
+      46,
+      79,
+      80,
+      109,
+      140,
+      159,
+      183,
+      186
+    ],
+    "measurement_subclass_only_one_unit": [
+      11,
+      39,
+      47,
+      143,
+      185,
+      186,
+      191
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      20,
+      24,
+      45,
+      46,
+      47,
+      54
+    ],
+    "process_uses_artifact": [
+      36,
+      40,
+      86,
+      155,
+      185
+    ],
+    "profiling_produces_profile": [
+      24,
+      26,
+      33,
+      46,
+      65,
+      66,
+      150,
+      186
+    ],
+    "provenance_agent_signs_audit": [
+      5,
+      42,
+      168
+    ],
+    "reference_within_dataset": [
+      2,
+      7,
+      45,
+      46,
+      47,
+      56,
+      79,
+      136
+    ],
+    "requirement_min_one_verification": [
+      7,
+      11,
+      120,
+      129,
+      166,
+      191
+    ],
+    "ringbuf_map_subclass": [
+      1,
+      61,
+      166,
+      180
+    ],
+    "schemaorg_creativework_date": [
+      26,
+      30,
+      69,
+      72,
+      100,
+      163,
+      183
+    ],
+    "schemaorg_person_affiliation": [
+      26,
+      35,
+      92,
+      186,
+      188
+    ],
+    "schemaorg_review_author": [
+      10,
+      42,
+      46,
+      56
+    ],
+    "settlement_financing_activity": [
+      20,
+      26,
+      86,
+      181
+    ],
+    "span_with_parent": [
+      23,
+      26,
+      109,
+      119,
+      172
+    ],
+    "subclass_to_artifact": [
+      19,
+      26,
+      61,
+      183,
+      186
+    ],
+    "subclass_to_independent_continuant": [
+      0,
+      26,
+      47,
+      97,
+      135,
+      183,
+      191
+    ],
+    "synthetic_apriori_judgment": [
+      35,
+      117,
+      140,
+      183,
+      186
+    ],
+    "syscall_at_security_tier": [
+      7,
+      10,
+      24,
+      34,
+      78,
+      138
+    ],
+    "syscall_governed_by_directive": [
+      10,
+      20,
+      45,
+      47,
+      61,
+      83
+    ],
+    "tc_classifier_subclass": [
+      1,
+      2,
+      10,
+      20,
+      26,
+      42,
+      46,
+      92,
+      102,
+      158,
+      168,
+      184
+    ],
+    "trace_in_service": [
+      34,
+      100
+    ],
+    "transformation_with_output_dataset": [
+      23,
+      25,
+      38,
+      54
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      24,
+      30,
+      42,
+      47,
+      54,
+      61
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_apolitical_islam_9e0387",
+      "family": "08_derived",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        111
+      ],
+      "cited_terms": [
+        "apolitical_islam",
+        "classification_under_taxonomy",
+        "ebpfprogram_basic"
+      ]
+    },
+    {
+      "id": "ch_live_attrkey_subclass_075dc2",
+      "family": "01_foundation",
+      "topics": [
+        12,
+        36,
+        46,
+        56,
+        91
+      ],
+      "cited_terms": [
+        "attrkey_subclass",
+        "schemaorg_review_author",
+        "classification_under_taxonomy"
+      ]
+    },
+    {
+      "id": "ch_live_audit_produces_evidence_05df92",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        14,
+        26,
+        39,
+        43
+      ],
+      "cited_terms": [
+        "audit_produces_evidence",
+        "audit_subclass",
+        "audit_targets_data_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_audit_produces_evidence_4c80d2",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        14,
+        39,
+        46,
+        61
+      ],
+      "cited_terms": [
+        "audit_produces_evidence",
+        "kernelhook_basic",
+        "myxoid_degeneration_process"
+      ]
+    },
+    {
+      "id": "ch_live_audit_produces_evidence_c558e0",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        14,
+        23,
+        39,
+        46
+      ],
+      "cited_terms": [
+        "audit_produces_evidence",
+        "frozen_artifact_governed_by",
+        "directive_only_governs_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_carbon_credit_transaction_01e800",
+      "family": "08_derived",
+      "topics": [
+        12
+      ],
+      "cited_terms": [
+        "carbon_credit_transaction",
+        "descriptive_not_retracted",
+        "lineage_describes_transformation"
+      ]
+    },
+    {
+      "id": "ch_live_classification_under_taxonomy_210a9e",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        118
+      ],
+      "cited_terms": [
+        "classification_under_taxonomy",
+        "profiling_produces_profile",
+        "dengue_transmission_process"
+      ]
+    },
+    {
+      "id": "ch_live_classification_under_taxonomy_76a6a5",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        36,
+        46,
+        65,
+        91
+      ],
+      "cited_terms": [
+        "classification_under_taxonomy",
+        "trace_in_service",
+        "ebpf_event_for_syscall"
+      ]
+    },
+    {
+      "id": "ch_live_classification_under_taxonomy_cf2c66",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        24,
+        36,
+        46,
+        66
+      ],
+      "cited_terms": [
+        "classification_under_taxonomy",
+        "dataset_was_derived_from",
+        "artifact_governed_by_policy"
+      ]
+    },
+    {
+      "id": "ch_live_classification_under_taxonomy_e7a922",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        118
+      ],
+      "cited_terms": [
+        "classification_under_taxonomy",
+        "anonymous_demographic_information",
+        "span_with_parent"
+      ]
+    },
+    {
+      "id": "ch_live_constraint_with_predicate_899ec3",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        46,
+        91,
+        121,
+        129
+      ],
+      "cited_terms": [
+        "constraint_with_predicate",
+        "labrun_produces_measurement",
+        "control_with_classification_tier"
+      ]
+    },
+    {
+      "id": "ch_live_directive_only_governs_f826aa",
+      "family": "01_foundation",
+      "topics": [
+        12,
+        14,
+        39,
+        46,
+        47
+      ],
+      "cited_terms": [
+        "directive_only_governs",
+        "audit_produces_evidence",
+        "belief_interval_equiv_bel_and_pl"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_with_license_4fe780",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        12,
+        36,
+        46,
+        49,
+        91
+      ],
+      "cited_terms": [
+        "ebpfprogram_with_license",
+        "tc_classifier_subclass",
+        "classification_under_taxonomy"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_intersect_with_two_restrictions_d71510",
+      "family": "01_foundation",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        118
+      ],
+      "cited_terms": [
+        "equiv_intersect_with_two_restrictions",
+        "schemaorg_person_affiliation",
+        "classification_under_taxonomy"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_basic_26e519",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        14,
+        39,
+        46,
+        54
+      ],
+      "cited_terms": [
+        "labrun_basic",
+        "transformation_with_output_dataset",
+        "audit_produces_evidence"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_produces_measurement_0d0535",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        46,
+        91,
+        121,
+        129
+      ],
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "myxoid_degeneration_process",
+        "lineage_edge_max_one_target"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_produces_measurement_911fbd",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        46,
+        91,
+        121,
+        129
+      ],
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "process_uses_artifact",
+        "ringbuf_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_produces_measurement_def4d9",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        46,
+        67,
+        91,
+        121
+      ],
+      "cited_terms": [
+        "labrun_produces_measurement",
+        "labrun_subclass",
+        "labrun_uses_instrument"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_with_protocol_ca61d2",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        27,
+        70,
+        168,
+        181
+      ],
+      "cited_terms": [
+        "labrun_with_protocol",
+        "provenance_agent_signs_audit",
+        "lineage_describes_transformation"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_support_count_27bbc4",
+      "family": "02_observation_measurement",
+      "topics": [
+        12
+      ],
+      "cited_terms": [
+        "lift_with_support_count",
+        "lineage_describes_transformation",
+        "lineage_edge_at_run_time"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_describes_transformation_1af43f",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        105,
+        181
+      ],
+      "cited_terms": [
+        "lineage_describes_transformation",
+        "reference_within_dataset",
+        "classification_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_describes_transformation_7a9b25",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        40
+      ],
+      "cited_terms": [
+        "lineage_describes_transformation",
+        "board_membership",
+        "agent_acts_on_behalf_of"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_describes_transformation_88af7b",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        62
+      ],
+      "cited_terms": [
+        "lineage_describes_transformation",
+        "column_version_subclass",
+        "allocation_associated_with_agent"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_describes_transformation_ba4456",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        35,
+        71,
+        82,
+        112
+      ],
+      "cited_terms": [
+        "lineage_describes_transformation",
+        "subclass_to_independent_continuant",
+        "agent_basic"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_subclass_only_one_unit_b93476",
+      "family": "02_observation_measurement",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        118
+      ],
+      "cited_terms": [
+        "measurement_subclass_only_one_unit",
+        "subclass_to_artifact",
+        "classification_under_taxonomy"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_min_one_verification_9c5a9e",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        46,
+        91,
+        121,
+        129
+      ],
+      "cited_terms": [
+        "requirement_min_one_verification",
+        "labrun_produces_measurement",
+        "settlement_financing_activity"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_date_95176d",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        14,
+        34,
+        39,
+        44
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "audit_produces_evidence",
+        "syscall_at_security_tier"
+      ]
+    },
+    {
+      "id": "ch_live_synthetic_apriori_judgment_42d519",
+      "family": "08_derived",
+      "topics": [
+        12,
+        46,
+        91,
+        121,
+        129
+      ],
+      "cited_terms": [
+        "synthetic_apriori_judgment",
+        "appointment_scheduling_process",
+        "labrun_produces_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_governed_by_directive_7e9296",
+      "family": "07_long_tail",
+      "topics": [
+        12,
+        46,
+        66,
+        82,
+        83
+      ],
+      "cited_terms": [
+        "syscall_governed_by_directive",
+        "labrun_produces_measurement",
+        "agent_software_or_human"
+      ]
+    },
+    {
+      "id": "ch_live_two_disjoint_artifacts_bed674",
+      "family": "01_foundation",
+      "topics": [
+        12,
+        46,
+        61,
+        91,
+        109
+      ],
+      "cited_terms": [
+        "two_disjoint_artifacts",
+        "labrun_produces_measurement",
+        "belief_interval_only_unit_range"
+      ]
+    }
+  ]
+}

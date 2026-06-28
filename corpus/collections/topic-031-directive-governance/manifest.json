@@ -1,197 +1,156 @@
 {
   "topic_id": 31,
   "family": "03_directive_governance",
-  "n_chapters": 8,
-  "coverage_score": 0.3449532389640808,
+  "n_chapters": 3,
+  "coverage_score": 0.3705841898918152,
   "topic_repr": "JOINT OPERATING COMMITTEE MEETING\nSeptember 4, 2024\n6:30 P.M.\n\nMINUTES\n\nThis meeting was called to order by Ingrid Parker, JOC Chairperson, at 6:30p.m. The Pledge of Allegiance was recited.\n\nPRESENT:\nTroy Chiddick\nChris Epstein\nXaras Collins\nIngrid Parker\nBeth Patruno\nMaggie Philips, Esq.\nWilliam Winchester\n\nALSO PRESENT:\nChris Dormer, Superintendent of Record\nBeth Shore, Solicitor\nDr. Angela King...",
   "terms": [
-    "ebpfprogram_verified_safe",
-    "labrun_with_protocol",
-    "nist80053_control_subclass",
-    "syscall_at_security_tier",
-    "syscall_equiv_in_subsystem"
+    "audit_basic",
+    "audit_conducted_by",
+    "audit_for_period",
+    "campus_event_participation",
+    "ebpf_event_observed_pid",
+    "internal_communication_requirement",
+    "subclass_not_basic",
+    "syscall_invoked_by_event",
+    "transformation_starts_at"
   ],
   "tables": [
-    "t_ebpfprogram_verified_safe",
-    "t_labrun_with_protocol",
-    "t_nist80053_control_subclass",
-    "t_syscall_at_security_tier",
-    "t_syscall_equiv_in_subsystem"
+    "t_audit_basic",
+    "t_audit_conducted_by",
+    "t_audit_for_period",
+    "t_campus_event_participation",
+    "t_ebpf_event_observed_pid",
+    "t_internal_communication_requirement",
+    "t_subclass_not_basic",
+    "t_syscall_invoked_by_event",
+    "t_transformation_starts_at"
   ],
   "topics": [
-    4,
-    6,
-    14,
-    20,
     31,
-    33,
-    100,
-    117,
-    120,
-    130,
-    133,
-    149,
-    155,
-    170,
-    193
+    87,
+    122,
+    145,
+    156
   ],
   "shared_tables": {
-    "ebpfprogram_verified_safe": [
-      19,
-      62,
-      64
+    "audit_basic": [
+      3,
+      4,
+      23,
+      24,
+      26,
+      54,
+      94,
+      172
     ],
-    "labrun_with_protocol": [
-      139
+    "audit_conducted_by": [
+      1,
+      11
     ],
-    "nist80053_control_subclass": [
-      109
+    "audit_for_period": [
+      24,
+      26
     ],
-    "syscall_at_security_tier": [
-      19,
-      62,
-      67,
-      72,
-      90,
-      97,
-      110
+    "campus_event_participation": [
+      23,
+      33,
+      42,
+      83,
+      92,
+      123,
+      180,
+      186
     ],
-    "syscall_equiv_in_subsystem": [
-      19,
-      62,
-      67,
-      72,
-      97,
-      110
+    "ebpf_event_observed_pid": [
+      7,
+      26,
+      44,
+      46,
+      80,
+      106,
+      123,
+      186,
+      188
+    ],
+    "internal_communication_requirement": [
+      20,
+      26,
+      38,
+      40,
+      86,
+      155,
+      181,
+      183,
+      186
+    ],
+    "subclass_not_basic": [
+      7,
+      24,
+      26,
+      41,
+      44,
+      60,
+      61,
+      91,
+      123,
+      183,
+      186
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      35,
+      42,
+      105,
+      106,
+      107,
+      161
+    ],
+    "transformation_starts_at": [
+      54,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "12fcf14e4199f951",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_audit_basic_386210",
+      "family": "03_directive_governance",
       "topics": [
         31,
-        130,
-        170
+        87,
+        122,
+        145,
+        156
       ],
       "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
+        "audit_basic",
+        "audit_conducted_by",
+        "audit_for_period"
       ]
     },
     {
-      "id": "3ce154642abe5222",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_subclass_not_basic_df6a64",
+      "family": "01_foundation",
       "topics": [
-        31,
-        100,
-        120
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "477b0a60151a7344",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        14,
-        31,
-        33
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "656662896671104f",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        14,
-        31,
-        33
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "6c389ad5966bf72b",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        4,
-        31,
-        193
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "92191bf26646e293",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        31,
-        133,
-        149
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "a800d2af38c7517c",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        31,
-        117,
-        155
-      ],
-      "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
-      ]
-    },
-    {
-      "id": "be0eb9949d0fba73",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        6,
-        20,
         31
       ],
       "cited_terms": [
-        "labrun_with_protocol",
-        "syscall_at_security_tier",
-        "nist80053_control_subclass",
-        "syscall_equiv_in_subsystem",
-        "ebpfprogram_verified_safe"
+        "subclass_not_basic",
+        "campus_event_participation",
+        "ebpf_event_observed_pid"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_invoked_by_event_e0bbaf",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        31
+      ],
+      "cited_terms": [
+        "syscall_invoked_by_event",
+        "internal_communication_requirement",
+        "transformation_starts_at"
       ]
     }
   ]

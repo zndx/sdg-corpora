@@ -1,38 +1,50 @@
 # Collection — topic 101 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **22 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **6 chapters** · **6 topics** (target + style) · **13 ontology terms** · **13 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 101: topic 16, topic 32, topic 40, topic 58, topic 67, topic 72, topic 77, topic 81, topic 95, topic 109, topic 111, topic 114, topic 115, topic 128, topic 131, topic 132, topic 142, topic 148, topic 160, topic 171, topic 196.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 101: topic 8, topic 16, topic 20, topic 155, topic 189.
 
 > **Topic gist** (representative FinePDFs text): ADDRESSING BLACK CARBON EMISSION INVENTORIES A REPORT BY THE CLIMATE AND CLEAN AIR COALITION SCIENTIFIC ADVISORY PANEL Table of Contents Summary o Black Carbon (BC) has a strong influence on radiative forcing, affecting the climate globally and regionally, and is responsible for a significant proportion of the global forcing to date. BC deposited on the cryosphere leads to enhanced melting rat... …
 
 ## Chapters
 
-- [Chapter 4: Ontological Foundations of Directive Governance and Priority Structuring](chapters/09277f60271c87e7.md)
-- [Chapter 4: Ontological Foundations of Directive Governance and Information Designation](chapters/12fe8f8a2303cd78.md)
-- [Chapter 4: Ontological Structuring of Regulatory Directives and Designative Entities](chapters/31a53fe70d041e1c.md)
-- [Chapter 7: Ontological Formalization of Governance Directives and Designative Entities](chapters/377e986c4de6b342.md)
-- [Chapter 7: Formal Ontology of Governance Directives and Designative Entities](chapters/70b00c2ee4d09079.md)
-- [Chapter 4: Formal Ontologies in Governance: Structuring Directives and Identifiers](chapters/739219aa2ab4151c.md)
-- [Chapter 4: Ontological Mapping of Compliance Directives](chapters/75d0279854383dea.md)
-- [Chapter 7: Ontological Structures for Regulatory Governance and Information Content Entities](chapters/7ca7a58efa03f5ee.md)
-- [Chapter 4: Ontological Structuring of Governance Directives and Designative Entities](chapters/8846d5718148a43b.md)
-- [Chapter 4: Ontological Structures in Regulatory Compliance and Directive Governance](chapters/96dbaccad138c024.md)
-- [Chapter 7: Ontological Structuring of Regulatory Directives](chapters/e80d24f0105c26cf.md)
-- [Chapter 4: Ontological Structuring of Governance Directives and Designative Entities](chapters/ec786c887ff4b503.md)
+- [ch_live_annotation_classifies_artifact_4fe605](chapters/ch_live_annotation_classifies_artifact_4fe605.md)
+- [ch_live_iso27001_annexa_subclass_b81a62](chapters/ch_live_iso27001_annexa_subclass_b81a62.md)
+- [ch_live_iso27001_clause_subclass_4dc10b](chapters/ch_live_iso27001_clause_subclass_4dc10b.md)
+- [ch_live_iso27001_clause_subclass_7bb1b3](chapters/ch_live_iso27001_clause_subclass_7bb1b3.md)
+- [ch_live_iso27001_clause_subclass_b83937](chapters/ch_live_iso27001_clause_subclass_b83937.md)
+- [ch_live_trace_with_attributes_7aa24c](chapters/ch_live_trace_with_attributes_7aa24c.md)
 
 ## Ontology terms grounding this collection
 
-- `designative_subclass_basic` — {X} is a designative information content entity
-- `identifier_unique` — {X} is a designative information content entity
-- `requirement_has_priority` — {X} is a directive information content entity that has priority {Y}
-- `subclass_to_designative_ice` — {X} is a designative information content entity
+- `annotation_classifies_artifact` — {X} is a descriptive information content entity
+- `directive_traces_to_requirement` — {X} is a directive information content entity that traces to directive information content entity
+- `division_eligibility_constraint` — A DivisionEligibilityConstraint is equivalent to a qualified athlete status that explicitly excludes cross-division tran
+- `ebpfmap_with_max_entries` — {X} is an artifact that has max entries {Y}
+- `evidence_with_mass_function` — {X} is a descriptive information content entity that has mass function {Y}
+- `frame_coarsening` — {X} is a descriptive information content entity that coarsens frame {Y}
+- `ganglion_cyst_tissue_origin` — GanglionCystTissueOrigin is a continuant that bears the part-of relation to some ConnectiveTissueStructure.
+- `iso27001_annexa_subclass` — {X} is a directive information content entity that iso27001 annex a {Y}
+- `iso27001_clause_subclass` — {X} is a directive information content entity that iso27001 clause {Y}
+- `kernel_anomaly_supports_claim` — {X} is an artifact that supports claim descriptive information content entity
+- `kernelhook_observes_event_class` — {X} is an artifact that observes event {Y}
+- `lineage_edge_subclass` — {X} is a descriptive information content entity that from source {Y}
+- `trace_with_attributes` — {X} is a process that has attribute designative information content entity
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
-- [`t_identifier_unique`](tables/t_identifier_unique.sql) — realizes `identifier_unique` · _shared with 1 other collection(s)_
-- [`t_requirement_has_priority`](tables/t_requirement_has_priority.sql) — realizes `requirement_has_priority` · _shared with 6 other collection(s)_
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_
+- [`t_annotation_classifies_artifact`](tables/t_annotation_classifies_artifact.sql) — realizes `annotation_classifies_artifact` · _shared with 6 other collection(s)_
+- [`t_directive_traces_to_requirement`](tables/t_directive_traces_to_requirement.sql) — realizes `directive_traces_to_requirement` · _shared with 10 other collection(s)_
+- [`t_division_eligibility_constraint`](tables/t_division_eligibility_constraint.sql) — realizes `division_eligibility_constraint` · _shared with 11 other collection(s)_
+- [`t_ebpfmap_with_max_entries`](tables/t_ebpfmap_with_max_entries.sql) — realizes `ebpfmap_with_max_entries` · _shared with 7 other collection(s)_
+- [`t_evidence_with_mass_function`](tables/t_evidence_with_mass_function.sql) — realizes `evidence_with_mass_function` · _shared with 10 other collection(s)_
+- [`t_frame_coarsening`](tables/t_frame_coarsening.sql) — realizes `frame_coarsening` · _shared with 5 other collection(s)_
+- [`t_ganglion_cyst_tissue_origin`](tables/t_ganglion_cyst_tissue_origin.sql) — realizes `ganglion_cyst_tissue_origin` · _shared with 13 other collection(s)_
+- [`t_iso27001_annexa_subclass`](tables/t_iso27001_annexa_subclass.sql) — realizes `iso27001_annexa_subclass` · _shared with 2 other collection(s)_
+- [`t_iso27001_clause_subclass`](tables/t_iso27001_clause_subclass.sql) — realizes `iso27001_clause_subclass` · _shared with 3 other collection(s)_
+- [`t_kernel_anomaly_supports_claim`](tables/t_kernel_anomaly_supports_claim.sql) — realizes `kernel_anomaly_supports_claim` · _shared with 4 other collection(s)_
+- [`t_kernelhook_observes_event_class`](tables/t_kernelhook_observes_event_class.sql) — realizes `kernelhook_observes_event_class` · _shared with 5 other collection(s)_
+- [`t_lineage_edge_subclass`](tables/t_lineage_edge_subclass.sql) — realizes `lineage_edge_subclass` · _shared with 5 other collection(s)_
+- [`t_trace_with_attributes`](tables/t_trace_with_attributes.sql) — realizes `trace_with_attributes` · _shared with 10 other collection(s)_

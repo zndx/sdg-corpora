@@ -1,0 +1,335 @@
+{
+  "topic_id": 16,
+  "family": "03_directive_governance",
+  "n_chapters": 8,
+  "coverage_score": 0.2974495589733124,
+  "topic_repr": "Sustainable investing\n\nSustainable value creation in emerging markets\n\nCIO WM Research | 27 January 2017\n\nAlexander Stiehler, CFA, analyst; Stephen Freedman, CFA, Strategist, firstname.lastname@example.org; Soledad Lopez, strategist, email@example.com\n\n* Emerging market (EM) equities offer investors a good opportunity to add value to their portfolios by incorporating environmental, social, and cor...",
+  "terms": [
+    "allocation_completed_at",
+    "artifact_with_min_two_parts",
+    "black_belt_certification_requirement",
+    "column_dropped_at_version",
+    "control_subclass",
+    "control_under_framework",
+    "control_with_classification_tier",
+    "descriptive_only_about_artifact",
+    "equiv_union_basic",
+    "equiv_union_ice_branches",
+    "gdpr_lawful_basis",
+    "measurement_of_artifact",
+    "metric_with_aggregation",
+    "perf_event_subclass",
+    "quantum_cyber_security_field",
+    "verification_min_one_evidence",
+    "verification_traces_requirement",
+    "video_surveillance_activity"
+  ],
+  "tables": [
+    "t_allocation_completed_at",
+    "t_artifact_with_min_two_parts",
+    "t_black_belt_certification_requirement",
+    "t_column_dropped_at_version",
+    "t_control_subclass",
+    "t_control_under_framework",
+    "t_control_with_classification_tier",
+    "t_descriptive_only_about_artifact",
+    "t_equiv_union_basic",
+    "t_equiv_union_ice_branches",
+    "t_gdpr_lawful_basis",
+    "t_measurement_of_artifact",
+    "t_metric_with_aggregation",
+    "t_perf_event_subclass",
+    "t_quantum_cyber_security_field",
+    "t_verification_min_one_evidence",
+    "t_verification_traces_requirement",
+    "t_video_surveillance_activity"
+  ],
+  "topics": [
+    16,
+    22,
+    33,
+    34,
+    38,
+    43,
+    128,
+    131
+  ],
+  "shared_tables": {
+    "allocation_completed_at": [
+      1,
+      6,
+      7,
+      26,
+      62,
+      105,
+      180,
+      183
+    ],
+    "artifact_with_min_two_parts": [
+      4,
+      23,
+      26,
+      46,
+      135,
+      186
+    ],
+    "black_belt_certification_requirement": [
+      4,
+      24,
+      94,
+      161,
+      183,
+      186,
+      188
+    ],
+    "column_dropped_at_version": [
+      1,
+      4,
+      20,
+      94,
+      97,
+      106,
+      181
+    ],
+    "control_subclass": [
+      0,
+      4
+    ],
+    "control_under_framework": [
+      11,
+      34,
+      100,
+      186
+    ],
+    "control_with_classification_tier": [
+      4,
+      12,
+      21,
+      34,
+      47,
+      61,
+      65,
+      79,
+      97,
+      186
+    ],
+    "descriptive_only_about_artifact": [
+      2,
+      10,
+      19,
+      45,
+      74,
+      138,
+      188
+    ],
+    "equiv_union_basic": [
+      3,
+      20,
+      42,
+      92,
+      97,
+      102,
+      165,
+      183,
+      186
+    ],
+    "equiv_union_ice_branches": [
+      34,
+      65,
+      142,
+      168,
+      183,
+      186
+    ],
+    "gdpr_lawful_basis": [
+      1,
+      7
+    ],
+    "measurement_of_artifact": [
+      4,
+      10,
+      36,
+      44,
+      65,
+      100,
+      161,
+      183,
+      186
+    ],
+    "metric_with_aggregation": [
+      20,
+      26,
+      42,
+      44,
+      67,
+      94,
+      186,
+      191
+    ],
+    "perf_event_subclass": [
+      0,
+      26,
+      34,
+      47,
+      183,
+      186
+    ],
+    "quantum_cyber_security_field": [
+      7,
+      26,
+      46,
+      65,
+      71,
+      109,
+      125,
+      129,
+      186
+    ],
+    "verification_min_one_evidence": [
+      106,
+      129
+    ],
+    "verification_traces_requirement": [
+      0,
+      10,
+      20,
+      33
+    ],
+    "video_surveillance_activity": [
+      7,
+      10,
+      26,
+      33,
+      60,
+      119,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_black_belt_certification_requirement_c0b79e",
+      "family": "08_derived",
+      "topics": [
+        16,
+        22,
+        128,
+        131
+      ],
+      "cited_terms": [
+        "black_belt_certification_requirement",
+        "control_subclass",
+        "descriptive_only_about_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_control_subclass_9f3d30",
+      "family": "03_directive_governance",
+      "topics": [
+        16,
+        22,
+        128,
+        131
+      ],
+      "cited_terms": [
+        "control_subclass",
+        "artifact_with_min_two_parts",
+        "equiv_union_basic"
+      ]
+    },
+    {
+      "id": "ch_live_control_subclass_a8f86f",
+      "family": "03_directive_governance",
+      "topics": [
+        16,
+        22,
+        128,
+        131
+      ],
+      "cited_terms": [
+        "control_subclass",
+        "control_under_framework",
+        "control_with_classification_tier"
+      ]
+    },
+    {
+      "id": "ch_live_gdpr_lawful_basis_aadad9",
+      "family": "07_long_tail",
+      "topics": [
+        16,
+        22,
+        34,
+        38,
+        43
+      ],
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "allocation_completed_at",
+        "measurement_of_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_gdpr_lawful_basis_ad1b54",
+      "family": "07_long_tail",
+      "topics": [
+        16,
+        22,
+        34,
+        38,
+        43
+      ],
+      "cited_terms": [
+        "gdpr_lawful_basis",
+        "equiv_union_ice_branches",
+        "metric_with_aggregation"
+      ]
+    },
+    {
+      "id": "ch_live_perf_event_subclass_653345",
+      "family": "07_long_tail",
+      "topics": [
+        16,
+        22,
+        34,
+        38,
+        43
+      ],
+      "cited_terms": [
+        "perf_event_subclass",
+        "column_dropped_at_version",
+        "gdpr_lawful_basis"
+      ]
+    },
+    {
+      "id": "ch_live_quantum_cyber_security_field_ac39cc",
+      "family": "08_derived",
+      "topics": [
+        16,
+        22,
+        33,
+        38,
+        128
+      ],
+      "cited_terms": [
+        "quantum_cyber_security_field",
+        "control_subclass",
+        "verification_traces_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_video_surveillance_activity_c38995",
+      "family": "08_derived",
+      "topics": [
+        16,
+        22,
+        34,
+        38,
+        43
+      ],
+      "cited_terms": [
+        "video_surveillance_activity",
+        "verification_min_one_evidence",
+        "gdpr_lawful_basis"
+      ]
+    }
+  ]
+}

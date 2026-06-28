@@ -1,257 +1,238 @@
 {
   "topic_id": 195,
   "family": "02_observation_measurement",
-  "n_chapters": 13,
-  "coverage_score": 0.1181795597076416,
+  "n_chapters": 6,
+  "coverage_score": 0.1260862946510315,
   "topic_repr": "Global Simulation of Noble Gases and Their Binary Mixtures\n\nInaugural-Dissertation zur Erlangung des Doktorgrades der Mathematisch-Naturwissenschaftlichen Fakult\u00e4t der Universit\u00e4t zu K\u00f6ln\n\nAfshin Eskandari Nasrabad aus Mashad-Iran April 3, 2003\n\nTo my mother and to Rozita, for the love and encouragement that you have given me while I was doing my PhD.\n\nBerichterstatter: Prof. Dr. U. K. Deiters  \nI...",
   "terms": [
-    "alert_triggered_by",
-    "ebpf_event_min_one_attribute",
-    "metric_emission_subclass",
-    "outlier_detection_targets_dataset"
+    "appointment_scheduling_process",
+    "artifact_either_active_or_archived",
+    "artifact_min_one_owner",
+    "constraint_only_constrains",
+    "directive_not_superseded",
+    "ebpf_event_basic",
+    "labrun_has_operator",
+    "profile_over_time_window",
+    "profiling_basic",
+    "profiling_only_targets_datasets",
+    "program_subclass",
+    "sysblock_subclass",
+    "transformation_associated_with_agent",
+    "uretprobe_subclass"
   ],
   "tables": [
-    "t_alert_triggered_by",
-    "t_ebpf_event_min_one_attribute",
-    "t_metric_emission_subclass",
-    "t_outlier_detection_targets_dataset"
+    "t_appointment_scheduling_process",
+    "t_artifact_either_active_or_archived",
+    "t_artifact_min_one_owner",
+    "t_constraint_only_constrains",
+    "t_directive_not_superseded",
+    "t_ebpf_event_basic",
+    "t_labrun_has_operator",
+    "t_profile_over_time_window",
+    "t_profiling_basic",
+    "t_profiling_only_targets_datasets",
+    "t_program_subclass",
+    "t_sysblock_subclass",
+    "t_transformation_associated_with_agent",
+    "t_uretprobe_subclass"
   ],
   "topics": [
-    3,
-    23,
-    32,
-    37,
-    56,
-    62,
+    0,
     67,
-    68,
-    75,
-    83,
-    97,
-    100,
-    104,
-    107,
-    113,
-    117,
-    118,
-    135,
-    142,
-    148,
-    163,
-    166,
-    178,
-    187,
+    105,
+    147,
     195
   ],
   "shared_tables": {
-    "alert_triggered_by": [
-      14,
-      34,
-      139
+    "appointment_scheduling_process": [
+      2,
+      10,
+      12,
+      19,
+      24,
+      26,
+      45
     ],
-    "ebpf_event_min_one_attribute": [
-      34
+    "artifact_either_active_or_archived": [
+      10,
+      44,
+      46,
+      79,
+      105,
+      183,
+      186
     ],
-    "metric_emission_subclass": [
-      14,
-      27,
-      139
+    "artifact_min_one_owner": [
+      0,
+      1,
+      23,
+      46,
+      120,
+      122,
+      183,
+      186
+    ],
+    "constraint_only_constrains": [
+      2,
+      11,
+      23,
+      35,
+      111,
+      159,
+      181,
+      183,
+      186
+    ],
+    "directive_not_superseded": [
+      26,
+      40,
+      56,
+      129
+    ],
+    "ebpf_event_basic": [
+      65,
+      67,
+      120
+    ],
+    "labrun_has_operator": [
+      2,
+      4,
+      26,
+      67,
+      74,
+      94,
+      181,
+      185,
+      186
+    ],
+    "profile_over_time_window": [
+      4,
+      20,
+      38,
+      65
+    ],
+    "profiling_basic": [
+      38,
+      47,
+      69,
+      80,
+      86,
+      106,
+      168
+    ],
+    "profiling_only_targets_datasets": [
+      0,
+      67
+    ],
+    "program_subclass": [
+      46,
+      47,
+      67,
+      100,
+      168,
+      186
+    ],
+    "sysblock_subclass": [
+      35,
+      56,
+      78,
+      79,
+      184,
+      186
+    ],
+    "transformation_associated_with_agent": [
+      8,
+      38,
+      41,
+      45,
+      54,
+      183,
+      186,
+      191
+    ],
+    "uretprobe_subclass": [
+      67,
+      94,
+      161,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "052f31a1f74be202",
-      "family": "07_long_tail",
+      "id": "ch_live_appointment_scheduling_process_b78ca6",
+      "family": "08_derived",
       "topics": [
-        32,
-        163,
         195
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
+        "appointment_scheduling_process",
+        "artifact_min_one_owner",
+        "profiling_basic"
       ]
     },
     {
-      "id": "096acbd8d1df872f",
+      "id": "ch_live_artifact_either_active_or_archived_de422f",
       "family": "07_long_tail",
       "topics": [
-        56,
-        118,
         195
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
+        "artifact_either_active_or_archived",
+        "profiling_basic",
+        "labrun_has_operator"
       ]
     },
     {
-      "id": "0c494cb79fa6446e",
+      "id": "ch_live_directive_not_superseded_cd604a",
       "family": "07_long_tail",
       "topics": [
+        195
+      ],
+      "cited_terms": [
+        "directive_not_superseded",
+        "program_subclass",
+        "profiling_basic"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_event_basic_d20ab5",
+      "family": "02_observation_measurement",
+      "topics": [
+        195
+      ],
+      "cited_terms": [
+        "ebpf_event_basic",
+        "uretprobe_subclass",
+        "constraint_only_constrains"
+      ]
+    },
+    {
+      "id": "ch_live_profile_over_time_window_200f0d",
+      "family": "02_observation_measurement",
+      "topics": [
+        0,
         67,
-        75,
+        105,
+        147,
         195
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
+        "profile_over_time_window",
+        "profiling_basic",
+        "profiling_only_targets_datasets"
       ]
     },
     {
-      "id": "4a8806ad91452b68",
-      "family": "07_long_tail",
+      "id": "ch_live_sysblock_subclass_09cf61",
+      "family": "01_foundation",
       "topics": [
-        3,
-        187,
         195
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "5b68432006321a74",
-      "family": "07_long_tail",
-      "topics": [
-        32,
-        113,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "8f46753d967454f7",
-      "family": "07_long_tail",
-      "topics": [
-        62,
-        166,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "921be55b22e15c1a",
-      "family": "07_long_tail",
-      "topics": [
-        97,
-        142,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "9b417611734c02c6",
-      "family": "07_long_tail",
-      "topics": [
-        104,
-        107,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "a237fa15a15a6360",
-      "family": "07_long_tail",
-      "topics": [
-        68,
-        100,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "ac0eb85a27b066f8",
-      "family": "07_long_tail",
-      "topics": [
-        117,
-        148,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "ce0bde0207ae08f4",
-      "family": "07_long_tail",
-      "topics": [
-        23,
-        178,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "d019b0a93da111b2",
-      "family": "07_long_tail",
-      "topics": [
-        83,
-        135,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
-      ]
-    },
-    {
-      "id": "fae1f49979560def",
-      "family": "07_long_tail",
-      "topics": [
-        37,
-        166,
-        195
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "outlier_detection_targets_dataset",
-        "alert_triggered_by",
-        "ebpf_event_min_one_attribute"
+        "sysblock_subclass",
+        "ebpf_event_basic",
+        "transformation_associated_with_agent"
       ]
     }
   ]

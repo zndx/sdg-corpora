@@ -1,0 +1,482 @@
+{
+  "topic_id": 188,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 12,
+  "coverage_score": 0.11492370069026947,
+  "topic_repr": "III. Materials and methods\n\n1. Antibodies\n\nRabbit polyclonal antibodies against VILIP-1 and hippocalcin raised against recombinant Histagged VILIP-1 or hippocalcin fusion proteins and affinity-purified as previously described (Braunewell et al., 2001; Bernstein et al., 2003) were used. Other antibodies were purchased from indicating companies:\n\nChicken polyclonal antibody against NCS-1\n\nCalbiochem...",
+  "terms": [
+    "annotation_basic",
+    "black_belt_certification_requirement",
+    "claim_subclass",
+    "claim_with_belief_interval",
+    "constraint_basic",
+    "descriptive_only_about_artifact",
+    "ebpf_event_observed_pid",
+    "ebpfevent_via_program_xref",
+    "ebpfmap_with_key_type",
+    "ebpfmap_with_max_entries",
+    "ebpfprogram_union_kprobe_or_xdp",
+    "host_connection_process",
+    "indoor_environmental_monitoring_process",
+    "kernelhook_for_subsystem",
+    "kernelhook_subclass",
+    "national_dataset_augmentation_process",
+    "nist80053_control_subclass",
+    "nist80053_high_impact",
+    "pdsa_improvement_model",
+    "policy_enforced_by",
+    "process_min_one_input",
+    "profile_of_column",
+    "requirement_traces_to",
+    "schemaorg_person_affiliation",
+    "school_security_policy",
+    "soc2_privacy_subclass",
+    "universal_combined_with_existential"
+  ],
+  "tables": [
+    "t_annotation_basic",
+    "t_black_belt_certification_requirement",
+    "t_claim_subclass",
+    "t_claim_with_belief_interval",
+    "t_constraint_basic",
+    "t_descriptive_only_about_artifact",
+    "t_ebpf_event_observed_pid",
+    "t_ebpfevent_via_program_xref",
+    "t_ebpfmap_with_key_type",
+    "t_ebpfmap_with_max_entries",
+    "t_ebpfprogram_union_kprobe_or_xdp",
+    "t_host_connection_process",
+    "t_indoor_environmental_monitoring_process",
+    "t_kernelhook_for_subsystem",
+    "t_kernelhook_subclass",
+    "t_national_dataset_augmentation_process",
+    "t_nist80053_control_subclass",
+    "t_nist80053_high_impact",
+    "t_pdsa_improvement_model",
+    "t_policy_enforced_by",
+    "t_process_min_one_input",
+    "t_profile_of_column",
+    "t_requirement_traces_to",
+    "t_schemaorg_person_affiliation",
+    "t_school_security_policy",
+    "t_soc2_privacy_subclass",
+    "t_universal_combined_with_existential"
+  ],
+  "topics": [
+    188
+  ],
+  "shared_tables": {
+    "annotation_basic": [
+      0,
+      4,
+      10,
+      26,
+      91,
+      172,
+      186
+    ],
+    "black_belt_certification_requirement": [
+      4,
+      16,
+      24,
+      94,
+      161,
+      183,
+      186
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      20,
+      26,
+      56,
+      61,
+      69,
+      97,
+      100,
+      104,
+      186
+    ],
+    "claim_with_belief_interval": [
+      6,
+      25,
+      26,
+      35,
+      56,
+      92
+    ],
+    "constraint_basic": [
+      2,
+      19,
+      46,
+      107,
+      125,
+      183
+    ],
+    "descriptive_only_about_artifact": [
+      2,
+      10,
+      16,
+      19,
+      45,
+      74,
+      138
+    ],
+    "ebpf_event_observed_pid": [
+      7,
+      26,
+      31,
+      44,
+      46,
+      80,
+      106,
+      123,
+      186
+    ],
+    "ebpfevent_via_program_xref": [
+      10,
+      21,
+      30,
+      40,
+      62,
+      105,
+      186
+    ],
+    "ebpfmap_with_key_type": [
+      0,
+      26,
+      51,
+      106,
+      158,
+      183,
+      185
+    ],
+    "ebpfmap_with_max_entries": [
+      20,
+      26,
+      40,
+      45,
+      94,
+      101,
+      186
+    ],
+    "ebpfprogram_union_kprobe_or_xdp": [
+      23,
+      34,
+      49,
+      94,
+      135,
+      183,
+      186
+    ],
+    "host_connection_process": [
+      4,
+      26,
+      106,
+      107,
+      159,
+      172,
+      183,
+      186
+    ],
+    "indoor_environmental_monitoring_process": [
+      23,
+      26,
+      33,
+      119,
+      186
+    ],
+    "kernelhook_for_subsystem": [
+      5,
+      7,
+      10,
+      19,
+      24,
+      61,
+      65,
+      100,
+      111
+    ],
+    "kernelhook_subclass": [
+      7,
+      42,
+      51
+    ],
+    "national_dataset_augmentation_process": [
+      4,
+      24,
+      39,
+      46,
+      47,
+      79,
+      104,
+      125,
+      136,
+      155,
+      186
+    ],
+    "nist80053_control_subclass": [
+      5,
+      14,
+      26,
+      80,
+      138
+    ],
+    "nist80053_high_impact": [
+      1,
+      7,
+      26,
+      80,
+      81,
+      102,
+      123,
+      186
+    ],
+    "pdsa_improvement_model": [
+      0,
+      4,
+      26,
+      36,
+      56,
+      60,
+      65,
+      83,
+      147,
+      186
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      128,
+      161,
+      181,
+      185
+    ],
+    "process_min_one_input": [
+      34,
+      38,
+      135,
+      183,
+      185,
+      186,
+      187
+    ],
+    "profile_of_column": [
+      0,
+      3,
+      26,
+      34,
+      159,
+      165
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      105,
+      161,
+      168,
+      183,
+      186
+    ],
+    "schemaorg_person_affiliation": [
+      12,
+      26,
+      35,
+      92,
+      186
+    ],
+    "school_security_policy": [
+      10,
+      26,
+      34,
+      38,
+      45,
+      136,
+      184,
+      186
+    ],
+    "soc2_privacy_subclass": [
+      4,
+      19,
+      34,
+      81,
+      125,
+      161,
+      183
+    ],
+    "universal_combined_with_existential": [
+      7,
+      23,
+      26,
+      34,
+      54,
+      73,
+      81,
+      140,
+      158,
+      183,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_annotation_basic_08881b",
+      "family": "02_observation_measurement",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "annotation_basic",
+        "profile_of_column",
+        "kernelhook_for_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_constraint_basic_c957c5",
+      "family": "03_directive_governance",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "constraint_basic",
+        "soc2_privacy_subclass",
+        "kernelhook_for_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_event_observed_pid_7e7afb",
+      "family": "02_observation_measurement",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "ebpf_event_observed_pid",
+        "school_security_policy",
+        "kernelhook_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_indoor_environmental_monitoring_process_da0b38",
+      "family": "08_derived",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "indoor_environmental_monitoring_process",
+        "nist80053_control_subclass",
+        "ebpfmap_with_max_entries"
+      ]
+    },
+    {
+      "id": "ch_live_national_dataset_augmentation_process_fa4713",
+      "family": "08_derived",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "national_dataset_augmentation_process",
+        "nist80053_control_subclass",
+        "nist80053_high_impact"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_control_subclass_114ded",
+      "family": "07_long_tail",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "nist80053_control_subclass",
+        "policy_enforced_by",
+        "black_belt_certification_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_control_subclass_88849d",
+      "family": "07_long_tail",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "nist80053_control_subclass",
+        "ebpfprogram_union_kprobe_or_xdp",
+        "ebpfmap_with_key_type"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_control_subclass_d7ea10",
+      "family": "07_long_tail",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "nist80053_control_subclass",
+        "host_connection_process",
+        "claim_with_belief_interval"
+      ]
+    },
+    {
+      "id": "ch_live_pdsa_improvement_model_ae8d8f",
+      "family": "08_derived",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "pdsa_improvement_model",
+        "descriptive_only_about_artifact",
+        "kernelhook_for_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_process_min_one_input_d9019f",
+      "family": "07_long_tail",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "process_min_one_input",
+        "schemaorg_person_affiliation",
+        "nist80053_control_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_traces_to_a920c9",
+      "family": "03_directive_governance",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "requirement_traces_to",
+        "kernelhook_subclass",
+        "ebpfevent_via_program_xref"
+      ]
+    },
+    {
+      "id": "ch_live_universal_combined_with_existential_20f87f",
+      "family": "01_foundation",
+      "topics": [
+        188
+      ],
+      "cited_terms": [
+        "universal_combined_with_existential",
+        "claim_subclass",
+        "kernelhook_for_subsystem"
+      ]
+    }
+  ]
+}

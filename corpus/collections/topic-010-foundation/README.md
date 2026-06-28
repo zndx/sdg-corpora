@@ -1,0 +1,221 @@
+# Collection — topic 10 · 01_foundation
+
+FinePDFs-grounded topic (carried forward from the coverage audit). **41 chapters** · **39 topics** (target + style) · **81 ontology terms** · **81 underlying tables**.
+
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 10: topic 12, topic 14, topic 27, topic 32, topic 33, topic 34, topic 36, topic 38, topic 39, topic 41, topic 44, topic 45, topic 46, topic 49, topic 52, topic 54, topic 56, topic 60, topic 61, topic 65, topic 69, topic 70, topic 71, topic 80, topic 83, topic 86, topic 96, topic 102, topic 111, topic 128, topic 129, topic 146, topic 155, topic 157, topic 158, topic 168, topic 173, topic 185.
+
+> **Topic gist** (representative FinePDFs text): INTERNATIONAL UNION OF PURE AND APPLIED CHEMISTRY ANALYTICAL CHEMISTRY DIVISION COMMISSION ON ELECTROANALYTICAL CHEMISTRY* POTENTIOMETRIC SELECTIVITY COEFFICIENTS OF ION-SELECTIVE ELECTRODES PART I. INORGANIC CATIONS (Technical Report) Prepared for publication by YOSHIO UMEZAWA 1 , PHILIPPE BÜHLMANN 1 , KAYOKO UMEZAWA 2 , KOJI TOHDA 1 , AND SHIGERU AMEMIYA 1 1 Department of Chemistry, The Un... …
+
+## Chapters
+
+- [ch_live_allocation_subclass_2d6af5](chapters/ch_live_allocation_subclass_2d6af5.md)
+- [ch_live_annotation_basic_fd0a81](chapters/ch_live_annotation_basic_fd0a81.md)
+- [ch_live_anonymous_demographic_information_947246](chapters/ch_live_anonymous_demographic_information_947246.md)
+- [ch_live_appointment_scheduling_process_e7dad6](chapters/ch_live_appointment_scheduling_process_e7dad6.md)
+- [ch_live_artifact_described_by_attrkey_6c62d1](chapters/ch_live_artifact_described_by_attrkey_6c62d1.md)
+- [ch_live_artifact_either_internal_or_external_5d0986](chapters/ch_live_artifact_either_internal_or_external_5d0986.md)
+- [ch_live_artifact_has_id_8cec56](chapters/ch_live_artifact_has_id_8cec56.md)
+- [ch_live_artifact_with_universal_b3d0a6](chapters/ch_live_artifact_with_universal_b3d0a6.md)
+- [ch_live_attestation_at_period_8a3403](chapters/ch_live_attestation_at_period_8a3403.md)
+- [ch_live_audit_produces_evidence_7827c4](chapters/ch_live_audit_produces_evidence_7827c4.md)
+- [ch_live_audit_produces_evidence_ace0e9](chapters/ch_live_audit_produces_evidence_ace0e9.md)
+- [ch_live_audit_with_findings_db3643](chapters/ch_live_audit_with_findings_db3643.md)
+- [ch_live_census_reporting_event_ccadb0](chapters/ch_live_census_reporting_event_ccadb0.md)
+- [ch_live_claim_subclass_38f6b7](chapters/ch_live_claim_subclass_38f6b7.md)
+- [ch_live_column_added_at_version_5d4c6f](chapters/ch_live_column_added_at_version_5d4c6f.md)
+- [ch_live_control_with_owner_22e814](chapters/ch_live_control_with_owner_22e814.md)
+- [ch_live_control_with_owner_98deb8](chapters/ch_live_control_with_owner_98deb8.md)
+- [ch_live_ebpfevent_observes_syscall_xref_ec0cd0](chapters/ch_live_ebpfevent_observes_syscall_xref_ec0cd0.md)
+- [ch_live_ebpfmap_basic_748c98](chapters/ch_live_ebpfmap_basic_748c98.md)
+- [ch_live_ebpfmap_basic_e88c24](chapters/ch_live_ebpfmap_basic_e88c24.md)
+- [ch_live_ebpfmap_basic_fcd2c3](chapters/ch_live_ebpfmap_basic_fcd2c3.md)
+- [ch_live_ebpfprogram_has_program_type_74405c](chapters/ch_live_ebpfprogram_has_program_type_74405c.md)
+- [ch_live_ebpfprogram_not_unloaded_8cb7e5](chapters/ch_live_ebpfprogram_not_unloaded_8cb7e5.md)
+- [ch_live_ebpfprogram_observes_syscall_091a66](chapters/ch_live_ebpfprogram_observes_syscall_091a66.md)
+- [ch_live_histogram_metric_subclass_5b06bb](chapters/ch_live_histogram_metric_subclass_5b06bb.md)
+- [ch_live_kernelhook_for_subsystem_d1a5cd](chapters/ch_live_kernelhook_for_subsystem_d1a5cd.md)
+- [ch_live_kernelhook_observes_event_class_54c54c](chapters/ch_live_kernelhook_observes_event_class_54c54c.md)
+- [ch_live_lane_compliance_behavior_44dbb0](chapters/ch_live_lane_compliance_behavior_44dbb0.md)
+- [ch_live_measurement_with_precision_4fdfd5](chapters/ch_live_measurement_with_precision_4fdfd5.md)
+- [ch_live_performance_tuning_configuration_c80a3c](chapters/ch_live_performance_tuning_configuration_c80a3c.md)
+- [ch_live_policy_classification_tier_b3e6e7](chapters/ch_live_policy_classification_tier_b3e6e7.md)
+- [ch_live_policy_effective_period_ac2e0d](chapters/ch_live_policy_effective_period_ac2e0d.md)
+- [ch_live_policy_equiv_jurisdiction_and_scope_0758cd](chapters/ch_live_policy_equiv_jurisdiction_and_scope_0758cd.md)
+- [ch_live_process_either_started_or_completed_ebe689](chapters/ch_live_process_either_started_or_completed_ebe689.md)
+- [ch_live_program_with_entry_exactly_one_eefcab](chapters/ch_live_program_with_entry_exactly_one_eefcab.md)
+- [ch_live_safety_planning_process_6950d9](chapters/ch_live_safety_planning_process_6950d9.md)
+- [ch_live_sample_subclass_81e9e2](chapters/ch_live_sample_subclass_81e9e2.md)
+- [ch_live_syscall_at_security_tier_d28de1](chapters/ch_live_syscall_at_security_tier_d28de1.md)
+- [ch_live_transformation_with_input_dataset_03570b](chapters/ch_live_transformation_with_input_dataset_03570b.md)
+- [ch_live_verification_subclass_b2b44d](chapters/ch_live_verification_subclass_b2b44d.md)
+- [ch_live_verification_traces_requirement_4b4f02](chapters/ch_live_verification_traces_requirement_4b4f02.md)
+
+## Ontology terms grounding this collection
+
+- `allocation_associated_with_agent` — {X} is a process that was associated with {Y}
+- `allocation_subclass` — {X} is a process that executes transformation {Y}
+- `allocation_with_run_status` — {X} is a process that has run status {Y}
+- `annotation_basic` — {X} is a descriptive information content entity
+- `anonymous_demographic_information` — AnonymousDemographicInformation is equivalent to DemographicInformation and not PersonallyIdentifiableInformation.
+- `appointment_scheduling_process` — AppointmentSchedulingProcess is a process operated by a ReceptionistAgent that targets a PatientAppointmentSchedule.
+- `artifact_described_by_attrkey` — {X} is an artifact that described by designative information content entity
+- `artifact_either_active_or_archived` — {X} is equivalent to artifact and {Y} or {Z}
+- `artifact_either_internal_or_external` — {X} is equivalent to artifact and {Y} or {Z}
+- `artifact_governed_by_policy` — {X} is an artifact that governed by directive information content entity
+- `artifact_has_id` — {X} is an artifact that has identifier designative information content entity
+- `artifact_with_universal` — {X} is an artifact that {p} {Y}
+- `attestation_at_period` — {X} is a process that at attestation period {Y}
+- `audit_produces_evidence` — {X} is a process that produces evidence descriptive information content entity
+- `audit_with_findings` — {X} is a process that has findings {Y}
+- `belief_interval_only_unit_range` — {X} is a descriptive information content entity that has belief lower bound {Y}
+- `census_reporting_event` — A CensusReportingEvent is an InformationContentEntity that occurs during a CensusPeriod, tracks a SocialEnterpriseSector
+- `claim_subclass` — {X} is a descriptive information content entity that claim about {Y}
+- `column_added_at_version` — {X} is a descriptive information content entity that added at schema version {Y}
+- `column_nullability_state` — {X} is a descriptive information content entity that has nullability state {Y}
+- `control_with_owner` — {X} is a directive information content entity
+- `descriptive_only_about_artifact` — {X} is a descriptive information content entity that is about {Y}
+- `digital_media_service` — DigitalMediaService is an information content entity that provides at least one ServiceFunction.
+- `ebpfevent_observes_syscall_xref` — {X} is a process that observes syscall designative information content entity
+- `ebpfevent_via_program_xref` — {X} is a process that via program artifact
+- `ebpfmap_basic` — {X} is an artifact
+- `ebpfprogram_has_program_type` — {X} is an artifact that has program type {Y}
+- `ebpfprogram_not_unloaded` — {X} is not {Y}
+- `ebpfprogram_observes_syscall` — {X} is an artifact that observes syscall {Y}
+- `ebpfprogram_only_attached_to_kprobe` — {X} is an artifact that attaches to hook {Y}
+- `ebpfprogram_subclass` — {X} is an artifact that attaches to hook {Y}
+- `equiv_union_three` — {X} is equivalent to {W} or {Y} or {Z}
+- `evidence_independent_of` — {X} is a descriptive information content entity that evidence independent of {Y}
+- `histogram_metric_subclass` — {X} is an artifact that has metric kind {Y}
+- `kernelhook_basic` — {X} is an artifact
+- `kernelhook_for_subsystem` — {X} is an artifact that for kernel subsystem {Y}
+- `kernelhook_observes_event_class` — {X} is an artifact that observes event {Y}
+- `kernelhook_with_attached_program` — {X} is an artifact that has attached program {Y}
+- `lane_compliance_behavior` — LaneComplianceBehavior is a Process that involvesOperator some VehicleOperator and occursOnStreetType some StreetTraffic
+- `log_within_span_context` — {X} is an artifact that within span context {Y}
+- `measurement_of_artifact` — {X} is a descriptive information content entity
+- `measurement_subclass` — {X} is a descriptive information content entity that has dimension {Y}
+- `measurement_with_precision` — {X} is a descriptive information content entity that has precision {Y}
+- `measurement_with_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `metric_emission_subclass` — {X} is a process that emits metric {Y}
+- `observation_records_state` — {X} is a process that records {Y}
+- `opentelemetry_span_subclass` — {X} is a process that has span context {Y}
+- `outlier_claim_supported_by_lift` — {X} is a descriptive information content entity that has attribute set {Z}
+- `outlier_claim_with_attribute_set` — {X} is a descriptive information content entity that has attribute set {Y}
+- `outlier_detection_with_baseline` — {X} is a process that against {Y}
+- `performance_tuning_configuration` — A PerformanceTuningConfiguration is a DescriptiveICE that specifies some retentionPeriod as a decimal and some bufferSiz
+- `policy_basic` — {X} is a directive information content entity
+- `policy_classification_tier` — {X} is a directive information content entity that at classification tier {Y}
+- `policy_effective_period` — {X} is a directive information content entity
+- `policy_equiv_jurisdiction_and_scope` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:hasJurisdiction some {Y:Class}) and (sdg:governsScope some {Z:C
+- `policy_subclass_governs` — {X} is a directive information content entity that governs scope {Y}
+- `policy_with_review_cycle` — {X} is a directive information content entity that has review cycle {Y}
+- `process_either_started_or_completed` — {X} is equivalent to process and {Y} or {Z}
+- `process_produces_ice` — {X} is a process that produces information content entity
+- `profile_of_dataset` — {X} is a descriptive information content entity
+- `program_with_entry_exactly_one` — {X} is an artifact
+- `quality_assurance_initiative` — A QualityAssuranceInitiative is a Process that targets a HigherEducationInstitution and involves a StaffMember.
+- `regional_quality_benchmark` — A RegionalQualityBenchmark is a DescriptiveICE that has a minimum threshold and a maximum threshold.
+- `requirement_traces_to` — {X} is a directive information content entity that traces to {Y}
+- `safety_planning_process` — A SafetyPlanningProcess is an action that targets some DomesticViolenceSurvivor and employs some CrisisInterventionMetho
+- `sample_subclass` — {X} is an artifact that collected from {Y}
+- `schemaorg_review_author` — {X} is an artifact that has review author {Y}
+- `school_security_policy` — SchoolSecurityPolicy is a DirectiveICE that targets some SafetyObjective and mustSatisfy some ConstitutionalConstraint.
+- `state_of_system_block` — {X} is a descriptive information content entity
+- `syscall_at_security_tier` — {X} is a designative information content entity that at security tier {Y}
+- `syscall_governed_by_directive` — {X} is a designative information content entity that governed by directive information content entity
+- `syscall_invoked_by_event` — {X} is a designative information content entity that invoked by event {Y}
+- `syscall_with_argument_count` — {X} is a designative information content entity that has argument count {Y}
+- `tc_classifier_subclass` — {X} is an artifact that has tcdirection {Y}
+- `technology_promotion_initiative` — A TechnologyPromotionInitiative is a Process that targetsSector some IndustrySector and utilizesChannel some Communicati
+- `trace_basic` — {X} is a process that has observed at {Y}
+- `trace_with_attributes` — {X} is a process that has attribute designative information content entity
+- `transformation_with_input_dataset` — {X} is a process that has input dataset {Y}
+- `verification_subclass` — {X} is a process that verifies directive information content entity
+- `verification_traces_requirement` — {X} is a process that verifies directive information content entity
+- `video_surveillance_activity` — VideoSurveillanceActivity is a Process that monitors some SchoolEnvironment and employs some SurveillanceDevice.
+
+## Underlying relational tables (semantic columns)
+
+_The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
+
+- [`t_allocation_associated_with_agent`](tables/t_allocation_associated_with_agent.sql) — realizes `allocation_associated_with_agent` · _shared with 7 other collection(s)_
+- [`t_allocation_subclass`](tables/t_allocation_subclass.sql) — realizes `allocation_subclass` · _shared with 12 other collection(s)_
+- [`t_allocation_with_run_status`](tables/t_allocation_with_run_status.sql) — realizes `allocation_with_run_status` · _shared with 6 other collection(s)_
+- [`t_annotation_basic`](tables/t_annotation_basic.sql) — realizes `annotation_basic` · _shared with 7 other collection(s)_
+- [`t_anonymous_demographic_information`](tables/t_anonymous_demographic_information.sql) — realizes `anonymous_demographic_information` · _shared with 10 other collection(s)_
+- [`t_appointment_scheduling_process`](tables/t_appointment_scheduling_process.sql) — realizes `appointment_scheduling_process` · _shared with 7 other collection(s)_
+- [`t_artifact_described_by_attrkey`](tables/t_artifact_described_by_attrkey.sql) — realizes `artifact_described_by_attrkey`
+- [`t_artifact_either_active_or_archived`](tables/t_artifact_either_active_or_archived.sql) — realizes `artifact_either_active_or_archived` · _shared with 7 other collection(s)_
+- [`t_artifact_either_internal_or_external`](tables/t_artifact_either_internal_or_external.sql) — realizes `artifact_either_internal_or_external` · _shared with 4 other collection(s)_
+- [`t_artifact_governed_by_policy`](tables/t_artifact_governed_by_policy.sql) — realizes `artifact_governed_by_policy` · _shared with 5 other collection(s)_
+- [`t_artifact_has_id`](tables/t_artifact_has_id.sql) — realizes `artifact_has_id` · _shared with 1 other collection(s)_
+- [`t_artifact_with_universal`](tables/t_artifact_with_universal.sql) — realizes `artifact_with_universal` · _shared with 11 other collection(s)_
+- [`t_attestation_at_period`](tables/t_attestation_at_period.sql) — realizes `attestation_at_period` · _shared with 3 other collection(s)_
+- [`t_audit_produces_evidence`](tables/t_audit_produces_evidence.sql) — realizes `audit_produces_evidence` · _shared with 2 other collection(s)_
+- [`t_audit_with_findings`](tables/t_audit_with_findings.sql) — realizes `audit_with_findings` · _shared with 2 other collection(s)_
+- [`t_belief_interval_only_unit_range`](tables/t_belief_interval_only_unit_range.sql) — realizes `belief_interval_only_unit_range` · _shared with 5 other collection(s)_
+- [`t_census_reporting_event`](tables/t_census_reporting_event.sql) — realizes `census_reporting_event` · _shared with 11 other collection(s)_
+- [`t_claim_subclass`](tables/t_claim_subclass.sql) — realizes `claim_subclass` · _shared with 12 other collection(s)_
+- [`t_column_added_at_version`](tables/t_column_added_at_version.sql) — realizes `column_added_at_version` · _shared with 4 other collection(s)_
+- [`t_column_nullability_state`](tables/t_column_nullability_state.sql) — realizes `column_nullability_state` · _shared with 5 other collection(s)_
+- [`t_control_with_owner`](tables/t_control_with_owner.sql) — realizes `control_with_owner` · _shared with 9 other collection(s)_
+- [`t_descriptive_only_about_artifact`](tables/t_descriptive_only_about_artifact.sql) — realizes `descriptive_only_about_artifact` · _shared with 7 other collection(s)_
+- [`t_digital_media_service`](tables/t_digital_media_service.sql) — realizes `digital_media_service` · _shared with 5 other collection(s)_
+- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref` · _shared with 4 other collection(s)_
+- [`t_ebpfevent_via_program_xref`](tables/t_ebpfevent_via_program_xref.sql) — realizes `ebpfevent_via_program_xref` · _shared with 7 other collection(s)_
+- [`t_ebpfmap_basic`](tables/t_ebpfmap_basic.sql) — realizes `ebpfmap_basic` · _shared with 1 other collection(s)_
+- [`t_ebpfprogram_has_program_type`](tables/t_ebpfprogram_has_program_type.sql) — realizes `ebpfprogram_has_program_type` · _shared with 2 other collection(s)_
+- [`t_ebpfprogram_not_unloaded`](tables/t_ebpfprogram_not_unloaded.sql) — realizes `ebpfprogram_not_unloaded`
+- [`t_ebpfprogram_observes_syscall`](tables/t_ebpfprogram_observes_syscall.sql) — realizes `ebpfprogram_observes_syscall` · _shared with 4 other collection(s)_
+- [`t_ebpfprogram_only_attached_to_kprobe`](tables/t_ebpfprogram_only_attached_to_kprobe.sql) — realizes `ebpfprogram_only_attached_to_kprobe`
+- [`t_ebpfprogram_subclass`](tables/t_ebpfprogram_subclass.sql) — realizes `ebpfprogram_subclass` · _shared with 4 other collection(s)_
+- [`t_equiv_union_three`](tables/t_equiv_union_three.sql) — realizes `equiv_union_three` · _shared with 5 other collection(s)_
+- [`t_evidence_independent_of`](tables/t_evidence_independent_of.sql) — realizes `evidence_independent_of` · _shared with 4 other collection(s)_
+- [`t_histogram_metric_subclass`](tables/t_histogram_metric_subclass.sql) — realizes `histogram_metric_subclass` · _shared with 9 other collection(s)_
+- [`t_kernelhook_basic`](tables/t_kernelhook_basic.sql) — realizes `kernelhook_basic` · _shared with 7 other collection(s)_
+- [`t_kernelhook_for_subsystem`](tables/t_kernelhook_for_subsystem.sql) — realizes `kernelhook_for_subsystem` · _shared with 9 other collection(s)_
+- [`t_kernelhook_observes_event_class`](tables/t_kernelhook_observes_event_class.sql) — realizes `kernelhook_observes_event_class` · _shared with 5 other collection(s)_
+- [`t_kernelhook_with_attached_program`](tables/t_kernelhook_with_attached_program.sql) — realizes `kernelhook_with_attached_program` · _shared with 9 other collection(s)_
+- [`t_lane_compliance_behavior`](tables/t_lane_compliance_behavior.sql) — realizes `lane_compliance_behavior` · _shared with 9 other collection(s)_
+- [`t_log_within_span_context`](tables/t_log_within_span_context.sql) — realizes `log_within_span_context` · _shared with 9 other collection(s)_
+- [`t_measurement_of_artifact`](tables/t_measurement_of_artifact.sql) — realizes `measurement_of_artifact` · _shared with 9 other collection(s)_
+- [`t_measurement_subclass`](tables/t_measurement_subclass.sql) — realizes `measurement_subclass` · _shared with 10 other collection(s)_
+- [`t_measurement_with_precision`](tables/t_measurement_with_precision.sql) — realizes `measurement_with_precision` · _shared with 5 other collection(s)_
+- [`t_measurement_with_unit`](tables/t_measurement_with_unit.sql) — realizes `measurement_with_unit` · _shared with 9 other collection(s)_
+- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 4 other collection(s)_
+- [`t_observation_records_state`](tables/t_observation_records_state.sql) — realizes `observation_records_state` · _shared with 14 other collection(s)_
+- [`t_opentelemetry_span_subclass`](tables/t_opentelemetry_span_subclass.sql) — realizes `opentelemetry_span_subclass` · _shared with 7 other collection(s)_
+- [`t_outlier_claim_supported_by_lift`](tables/t_outlier_claim_supported_by_lift.sql) — realizes `outlier_claim_supported_by_lift` · _shared with 8 other collection(s)_
+- [`t_outlier_claim_with_attribute_set`](tables/t_outlier_claim_with_attribute_set.sql) — realizes `outlier_claim_with_attribute_set` · _shared with 5 other collection(s)_
+- [`t_outlier_detection_with_baseline`](tables/t_outlier_detection_with_baseline.sql) — realizes `outlier_detection_with_baseline` · _shared with 5 other collection(s)_
+- [`t_performance_tuning_configuration`](tables/t_performance_tuning_configuration.sql) — realizes `performance_tuning_configuration` · _shared with 5 other collection(s)_
+- [`t_policy_basic`](tables/t_policy_basic.sql) — realizes `policy_basic` · _shared with 6 other collection(s)_
+- [`t_policy_classification_tier`](tables/t_policy_classification_tier.sql) — realizes `policy_classification_tier` · _shared with 9 other collection(s)_
+- [`t_policy_effective_period`](tables/t_policy_effective_period.sql) — realizes `policy_effective_period` · _shared with 8 other collection(s)_
+- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope` · _shared with 3 other collection(s)_
+- [`t_policy_subclass_governs`](tables/t_policy_subclass_governs.sql) — realizes `policy_subclass_governs` · _shared with 6 other collection(s)_
+- [`t_policy_with_review_cycle`](tables/t_policy_with_review_cycle.sql) — realizes `policy_with_review_cycle` · _shared with 8 other collection(s)_
+- [`t_process_either_started_or_completed`](tables/t_process_either_started_or_completed.sql) — realizes `process_either_started_or_completed` · _shared with 7 other collection(s)_
+- [`t_process_produces_ice`](tables/t_process_produces_ice.sql) — realizes `process_produces_ice` · _shared with 3 other collection(s)_
+- [`t_profile_of_dataset`](tables/t_profile_of_dataset.sql) — realizes `profile_of_dataset` · _shared with 7 other collection(s)_
+- [`t_program_with_entry_exactly_one`](tables/t_program_with_entry_exactly_one.sql) — realizes `program_with_entry_exactly_one` · _shared with 10 other collection(s)_
+- [`t_quality_assurance_initiative`](tables/t_quality_assurance_initiative.sql) — realizes `quality_assurance_initiative` · _shared with 7 other collection(s)_
+- [`t_regional_quality_benchmark`](tables/t_regional_quality_benchmark.sql) — realizes `regional_quality_benchmark` · _shared with 18 other collection(s)_
+- [`t_requirement_traces_to`](tables/t_requirement_traces_to.sql) — realizes `requirement_traces_to` · _shared with 15 other collection(s)_
+- [`t_safety_planning_process`](tables/t_safety_planning_process.sql) — realizes `safety_planning_process` · _shared with 7 other collection(s)_
+- [`t_sample_subclass`](tables/t_sample_subclass.sql) — realizes `sample_subclass` · _shared with 5 other collection(s)_
+- [`t_schemaorg_review_author`](tables/t_schemaorg_review_author.sql) — realizes `schemaorg_review_author` · _shared with 4 other collection(s)_
+- [`t_school_security_policy`](tables/t_school_security_policy.sql) — realizes `school_security_policy` · _shared with 8 other collection(s)_
+- [`t_state_of_system_block`](tables/t_state_of_system_block.sql) — realizes `state_of_system_block` · _shared with 5 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 6 other collection(s)_
+- [`t_syscall_governed_by_directive`](tables/t_syscall_governed_by_directive.sql) — realizes `syscall_governed_by_directive` · _shared with 6 other collection(s)_
+- [`t_syscall_invoked_by_event`](tables/t_syscall_invoked_by_event.sql) — realizes `syscall_invoked_by_event` · _shared with 7 other collection(s)_
+- [`t_syscall_with_argument_count`](tables/t_syscall_with_argument_count.sql) — realizes `syscall_with_argument_count` · _shared with 8 other collection(s)_
+- [`t_tc_classifier_subclass`](tables/t_tc_classifier_subclass.sql) — realizes `tc_classifier_subclass` · _shared with 12 other collection(s)_
+- [`t_technology_promotion_initiative`](tables/t_technology_promotion_initiative.sql) — realizes `technology_promotion_initiative` · _shared with 9 other collection(s)_
+- [`t_trace_basic`](tables/t_trace_basic.sql) — realizes `trace_basic` · _shared with 5 other collection(s)_
+- [`t_trace_with_attributes`](tables/t_trace_with_attributes.sql) — realizes `trace_with_attributes` · _shared with 10 other collection(s)_
+- [`t_transformation_with_input_dataset`](tables/t_transformation_with_input_dataset.sql) — realizes `transformation_with_input_dataset` · _shared with 3 other collection(s)_
+- [`t_verification_subclass`](tables/t_verification_subclass.sql) — realizes `verification_subclass` · _shared with 4 other collection(s)_
+- [`t_verification_traces_requirement`](tables/t_verification_traces_requirement.sql) — realizes `verification_traces_requirement` · _shared with 4 other collection(s)_
+- [`t_video_surveillance_activity`](tables/t_video_surveillance_activity.sql) — realizes `video_surveillance_activity` · _shared with 7 other collection(s)_

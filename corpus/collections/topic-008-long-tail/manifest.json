@@ -1,259 +1,342 @@
 {
   "topic_id": 8,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.15704482793807983,
+  "n_chapters": 8,
+  "coverage_score": 0.15981709957122803,
   "topic_repr": "Metabolic disturbances of non-alcoholic fatty liver resemble the alterations typical for type 2 diabetes\n\nCitation for published version (APA):\nBrouwers, B., Schrauwen-Hinderling, V. B., Jelenik, T., Gemmink, A., Havekes, B., Bruls, Y., Dahlmans, D., Roden, M., Hesselink, M. K. C., & Schrauwen, P. (2017). Metabolic disturbances of non-alcoholic fatty liver resemble the alterations typical for type...",
   "terms": [
-    "syscall_audited_by",
-    "syscall_basic"
+    "allocation_subclass",
+    "belief_interval_equiv_bel_and_pl",
+    "belief_interval_with_upper_bound",
+    "division_eligibility_constraint",
+    "ebpfmap_pinned_at_path",
+    "ebpfprogram_equiv_typed_with_hook",
+    "hipaa_safeguard_physical",
+    "institutional_vision_statement",
+    "iso27001_annexa_subclass",
+    "legal_advocate_role",
+    "metric_observed_by_event",
+    "outlier_claim_min_one_attribute",
+    "policy_enforced_by",
+    "requirement_under_standard",
+    "span_within_trace",
+    "technology_promotion_initiative",
+    "transformation_associated_with_agent"
   ],
   "tables": [
-    "t_syscall_audited_by",
-    "t_syscall_basic"
+    "t_allocation_subclass",
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_belief_interval_with_upper_bound",
+    "t_division_eligibility_constraint",
+    "t_ebpfmap_pinned_at_path",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_hipaa_safeguard_physical",
+    "t_institutional_vision_statement",
+    "t_iso27001_annexa_subclass",
+    "t_legal_advocate_role",
+    "t_metric_observed_by_event",
+    "t_outlier_claim_min_one_attribute",
+    "t_policy_enforced_by",
+    "t_requirement_under_standard",
+    "t_span_within_trace",
+    "t_technology_promotion_initiative",
+    "t_transformation_associated_with_agent"
   ],
   "topics": [
-    1,
-    4,
-    7,
     8,
-    13,
-    15,
-    24,
-    30,
-    35,
+    16,
+    20,
+    23,
+    25,
     39,
-    50,
-    53,
-    57,
-    62,
-    83,
+    55,
+    76,
     88,
-    108,
-    110,
-    111,
-    112,
-    114,
-    125,
-    136,
-    142,
-    143,
-    150,
-    171,
-    174,
-    183,
-    198
+    93
   ],
   "shared_tables": {
-    "syscall_audited_by": [
-      19,
+    "allocation_subclass": [
+      7,
+      10,
+      26,
+      34,
+      42,
       46,
-      62,
-      77,
-      90,
-      131
+      94,
+      105,
+      149,
+      183,
+      184,
+      186
     ],
-    "syscall_basic": [
+    "belief_interval_equiv_bel_and_pl": [
+      7,
+      12,
+      20,
+      26,
+      34,
+      83,
+      86,
+      91,
+      97,
+      102,
+      125,
+      143,
+      147
+    ],
+    "belief_interval_with_upper_bound": [
+      109
+    ],
+    "division_eligibility_constraint": [
+      6,
+      7,
+      26,
+      34,
+      100,
+      101,
+      125,
+      140,
+      149,
+      183,
+      186
+    ],
+    "ebpfmap_pinned_at_path": [
+      5,
+      7,
+      23
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      11,
+      23,
+      41,
+      79,
+      100,
+      143
+    ],
+    "hipaa_safeguard_physical": [
+      1
+    ],
+    "institutional_vision_statement": [
+      4,
+      19,
+      26,
+      35,
       67,
-      77,
-      114,
-      169
+      100,
+      107,
+      128,
+      140,
+      159,
+      165,
+      186
+    ],
+    "iso27001_annexa_subclass": [
+      0,
+      101
+    ],
+    "legal_advocate_role": [
+      26,
+      27,
+      34,
+      60,
+      186
+    ],
+    "metric_observed_by_event": [
+      1,
+      26,
+      27,
+      104,
+      159,
+      161,
+      186
+    ],
+    "outlier_claim_min_one_attribute": [
+      1,
+      23,
+      39,
+      126
+    ],
+    "policy_enforced_by": [
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      128,
+      161,
+      181,
+      185,
+      188
+    ],
+    "requirement_under_standard": [
+      0,
+      20,
+      26,
+      36,
+      72,
+      163,
+      186
+    ],
+    "span_within_trace": [
+      2,
+      19,
+      40,
+      138,
+      149,
+      183,
+      186
+    ],
+    "technology_promotion_initiative": [
+      10,
+      45,
+      47,
+      80,
+      81,
+      159,
+      165,
+      168,
+      186
+    ],
+    "transformation_associated_with_agent": [
+      38,
+      41,
+      45,
+      54,
+      183,
+      186,
+      191,
+      195
     ]
   },
   "chapters": [
     {
-      "id": "160619e7b32206da",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_allocation_subclass_65f8ef",
+      "family": "05_provo_lineage",
       "topics": [
-        1,
         8,
-        83
+        16,
+        20,
+        25,
+        55
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "allocation_subclass",
+        "iso27001_annexa_subclass",
+        "span_within_trace"
       ]
     },
     {
-      "id": "228407e675f17592",
+      "id": "ch_live_ebpfmap_pinned_at_path_7a4981",
       "family": "04_ebpf_kernel",
       "topics": [
-        7,
         8,
-        171
+        16,
+        20,
+        23,
+        25
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "ebpfmap_pinned_at_path",
+        "belief_interval_with_upper_bound",
+        "iso27001_annexa_subclass"
       ]
     },
     {
-      "id": "24a6f83b778d0ca1",
+      "id": "ch_live_ebpfprogram_equiv_typed_with_hook_3eeead",
       "family": "04_ebpf_kernel",
       "topics": [
         8,
-        110,
-        174
+        16,
+        20,
+        25,
+        55
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "ebpfprogram_equiv_typed_with_hook",
+        "belief_interval_equiv_bel_and_pl",
+        "iso27001_annexa_subclass"
       ]
     },
     {
-      "id": "2baecc8e6b1bf4a1",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_iso27001_annexa_subclass_4b45ea",
+      "family": "07_long_tail",
       "topics": [
         8,
-        13,
-        35
+        16,
+        20,
+        25,
+        55
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "iso27001_annexa_subclass",
+        "legal_advocate_role",
+        "transformation_associated_with_agent"
       ]
     },
     {
-      "id": "3ed03674ef94720b",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_iso27001_annexa_subclass_709f69",
+      "family": "07_long_tail",
       "topics": [
         8,
-        114,
-        143
+        16,
+        20,
+        25,
+        55
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "iso27001_annexa_subclass",
+        "division_eligibility_constraint",
+        "technology_promotion_initiative"
       ]
     },
     {
-      "id": "4063181c8c2bdacc",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_metric_observed_by_event_5f3649",
+      "family": "07_long_tail",
       "topics": [
         8,
-        53,
-        108
+        16,
+        20,
+        25,
+        55
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "metric_observed_by_event",
+        "iso27001_annexa_subclass",
+        "requirement_under_standard"
       ]
     },
     {
-      "id": "421625d88769eb92",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_outlier_claim_min_one_attribute_002f23",
+      "family": "02_observation_measurement",
       "topics": [
         8,
-        24,
-        111
+        16,
+        20,
+        25,
+        39
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "outlier_claim_min_one_attribute",
+        "iso27001_annexa_subclass",
+        "institutional_vision_statement"
       ]
     },
     {
-      "id": "4932e262586023a8",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_policy_enforced_by_3e4184",
+      "family": "03_directive_governance",
       "topics": [
         8,
-        62,
-        183
+        55,
+        76,
+        88,
+        93
       ],
       "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "5e53c0bd3f83572d",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        57,
-        198
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "7452c16987a7616d",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        39,
-        53
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "75d0e31af90e893d",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        125,
-        150
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "9064c855fa587d4e",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        112,
-        142
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "93d74314f2528a33",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        4,
-        8,
-        136
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "bc7601b6217900ff",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        30,
-        88
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
-      ]
-    },
-    {
-      "id": "f123c1a51a996392",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        8,
-        15,
-        50
-      ],
-      "cited_terms": [
-        "syscall_audited_by",
-        "syscall_basic"
+        "policy_enforced_by",
+        "hipaa_safeguard_physical",
+        "iso27001_annexa_subclass"
       ]
     }
   ]

@@ -1,287 +1,101 @@
 {
   "topic_id": 117,
   "family": "07_long_tail",
-  "n_chapters": 9,
-  "coverage_score": 0.19314365088939667,
+  "n_chapters": 2,
+  "coverage_score": 0.1949792355298996,
   "topic_repr": "Module & Lecture Descriptions\n\nMODULE ONE| INTRODUCTION TO EVIDENCE-BASED LEARNING AND PRACTICE\n\nThis module has been designed to partner with the Fundamentals of Nutrition (Module 2) to provide the underpinning knowledge and thought processes that are required to move past simple knowledge acquisition and onto wisdom and knowledge synthesis. The term evidence-based does not mean solely relying on...",
   "terms": [
-    "control_only_addresses_threat_class",
-    "hipaa_safeguard_admin",
-    "hipaa_safeguard_physical",
-    "hipaa_safeguard_technical",
-    "pci_dss_requirement"
+    "attestation_with_supporting_evidence",
+    "cardinality_max_one_generic",
+    "cardinality_min_one_generic",
+    "evidence_correlated_with",
+    "marketing_director_role",
+    "synthetic_apriori_judgment"
   ],
   "tables": [
-    "t_control_only_addresses_threat_class",
-    "t_hipaa_safeguard_admin",
-    "t_hipaa_safeguard_physical",
-    "t_hipaa_safeguard_technical",
-    "t_pci_dss_requirement"
+    "t_attestation_with_supporting_evidence",
+    "t_cardinality_max_one_generic",
+    "t_cardinality_min_one_generic",
+    "t_evidence_correlated_with",
+    "t_marketing_director_role",
+    "t_synthetic_apriori_judgment"
   ],
   "topics": [
-    2,
-    31,
-    33,
-    91,
-    92,
-    97,
-    98,
-    104,
-    109,
-    110,
-    111,
     117,
-    126,
-    127,
-    129,
-    133,
-    143,
-    151,
-    186
+    118,
+    119,
+    167,
+    176
   ],
   "shared_tables": {
-    "control_only_addresses_threat_class": [
-      13,
-      15,
-      16,
-      21,
-      35,
-      61,
-      85,
-      102,
-      104,
-      113,
-      160,
-      165,
-      181,
-      191,
-      196
+    "attestation_with_supporting_evidence": [
+      6
     ],
-    "hipaa_safeguard_admin": [
-      13,
-      35,
-      39,
-      47,
-      68,
-      74,
-      91,
-      98,
-      100,
-      108,
-      136,
-      151,
-      181,
-      183
+    "cardinality_max_one_generic": [
+      7,
+      26,
+      34,
+      42,
+      44,
+      86,
+      138,
+      143,
+      186
     ],
-    "hipaa_safeguard_physical": [
-      13,
-      35,
-      39,
-      47,
-      58,
-      68,
-      74,
-      91,
-      92,
-      98,
-      100,
-      108,
-      135,
-      136,
-      151,
-      181,
-      183
-    ],
-    "hipaa_safeguard_technical": [
-      13,
-      35,
-      39,
-      47,
-      74,
-      91,
-      92,
-      98,
-      100,
-      108,
-      134,
-      136,
-      151,
-      181,
-      183
-    ],
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
-      47,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
+    "cardinality_min_one_generic": [
+      1,
+      26,
+      42,
       106,
-      108,
-      115,
-      134,
-      135,
-      148,
-      150,
-      151,
-      165,
-      181,
+      143,
+      186
+    ],
+    "evidence_correlated_with": [
+      5,
+      187
+    ],
+    "marketing_director_role": [
+      4,
+      6,
+      26,
       183,
-      185,
-      197
+      186
+    ],
+    "synthetic_apriori_judgment": [
+      12,
+      35,
+      140,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "17c25d6daebc7a1b",
-      "family": "07_long_tail",
+      "id": "ch_live_cardinality_min_one_generic_06f0f4",
+      "family": "01_foundation",
       "topics": [
-        97,
-        117,
-        133
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "2e7be6695381b43b",
-      "family": "07_long_tail",
-      "topics": [
-        33,
-        104,
         117
       ],
       "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
+        "cardinality_min_one_generic",
+        "synthetic_apriori_judgment",
+        "marketing_director_role"
       ]
     },
     {
-      "id": "3585d7e1c89bf161",
-      "family": "07_long_tail",
-      "topics": [
-        2,
-        31,
-        117
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "4ad32a1eac466b99",
-      "family": "07_long_tail",
-      "topics": [
-        91,
-        98,
-        117
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "50afb8a4813d8102",
+      "id": "ch_live_evidence_correlated_with_99aaed",
       "family": "07_long_tail",
       "topics": [
         117,
-        129,
-        143
+        118,
+        119,
+        167,
+        176
       ],
       "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "5cf53a2bc34487c3",
-      "family": "07_long_tail",
-      "topics": [
-        117,
-        151,
-        186
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "7d014a829f379194",
-      "family": "07_long_tail",
-      "topics": [
-        111,
-        117,
-        127
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "82b6822abd26215e",
-      "family": "07_long_tail",
-      "topics": [
-        92,
-        109,
-        117
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
-      ]
-    },
-    {
-      "id": "ba8c584d91706b26",
-      "family": "07_long_tail",
-      "topics": [
-        110,
-        117,
-        126
-      ],
-      "cited_terms": [
-        "hipaa_safeguard_admin",
-        "control_only_addresses_threat_class",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "pci_dss_requirement"
+        "evidence_correlated_with",
+        "cardinality_max_one_generic",
+        "attestation_with_supporting_evidence"
       ]
     }
   ]

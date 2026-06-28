@@ -1,48 +1,50 @@
 # Collection — topic 78 · 04_ebpf_kernel
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **20 chapters** · **37 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **6 chapters** · **7 topics** (target + style) · **13 ontology terms** · **13 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 78: topic 4, topic 6, topic 7, topic 22, topic 31, topic 32, topic 49, topic 52, topic 56, topic 68, topic 72, topic 73, topic 74, topic 77, topic 89, topic 90, topic 96, topic 98, topic 102, topic 106, topic 111, topic 125, topic 127, topic 128, topic 130, topic 132, topic 138, topic 153, topic 154, topic 163, topic 171, topic 173, topic 174, topic 185, topic 190, topic 194.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 78: topic 34, topic 44, topic 49, topic 70, topic 120, topic 142.
 
 > **Topic gist** (representative FinePDFs text): ENERGY STAR ® Residential New Construction Programs Historical Document This document is provided for reference because it has been superseded by a more recent Version or Revision. Please find current program documents on the Program Requirements webpage. Use of older Versions and Revisions, such as this document, are typically limited to homes and buildings with a permit date (or, for manufact... …
 
 ## Chapters
 
-- [Directive Governance in Regulatory Compliance Ontologies](chapters/01cb5bf014994977.md)
-- [Chapter 4: Relational Modeling of Compliance Directives and Evidence Chains](chapters/07a9c628ee5821d2.md)
-- [Chapter 4: Governance Directives and Evidentiary Compliance Frameworks](chapters/09fe8794e6b55cb1.md)
-- [Chapter 4: Governance Frameworks and the Ontology of Compliance](chapters/108fe5f2fead64f4.md)
-- [Chapter 4: Ontological Foundations of Compliance Governance](chapters/1233938eadb5e5b1.md)
-- [Directive Governance in Data Protection Compliance](chapters/1717fabd105d0248.md)
-- [Modeling Directive Information Content Entities in Audit Governance Schemas](chapters/17a26d4ddb7c4909.md)
-- [Chapter 7: Ontological Mapping of Regulatory Directives and Evidentiary Controls](chapters/24f8281aa22e7ab0.md)
-- [Chapter 4: Governance Frameworks and Evidence Traceability in Compliance Architectures](chapters/3f07939d95fe4c29.md)
-- [Chapter 4: Regulatory Compliance and Evidence Management in Distributed Systems](chapters/5fd44d824a8af271.md)
-- [Chapter 4: Jurisdictional Directives and Evidentiary Compliance](chapters/60f6bbd0c72a25f1.md)
-- [Chapter 4: Formalization of Regulatory Directives and Evidentiary Traceability](chapters/940504782e280f8c.md)
-- [Chapter 4: Governance Frameworks and Evidence Traceability in Compliance Architectures](chapters/9e3480bc11de2339.md)
-- [Chapter 4: Governance Frameworks and Evidence Traceability in Regulatory Compliance](chapters/bf9744e87f01c2d4.md)
-- [Chapter 4: Governance Directives and Evidence Traceability in Regulatory Compliance Frameworks](chapters/bfe73f1cfa47771a.md)
-- [Chapter 4: Ontological Foundations of Regulatory Compliance and Evidence Management](chapters/df537c1158b3cc6f.md)
-- [Chapter 7: Governance Frameworks and Regulatory Compliance Mapping](chapters/e396cdbdc7f30334.md)
-- [Chapter 9: Directive Information Content Entities in Regulatory Audit Trails](chapters/eeed8f1597393b04.md)
-- [Chapter 4: Regulatory Alignment and Evidence Governance Frameworks](chapters/f3e67dc7bd812648.md)
-- [Governance Frameworks: Jurisdictional Scope and Evidence Traceability](chapters/f604dcde17688b92.md)
+- [ch_live_identifier_uniquely_identifies_2e3131](chapters/ch_live_identifier_uniquely_identifies_2e3131.md)
+- [ch_live_indoor_air_quality_action_plan_9c1e7d](chapters/ch_live_indoor_air_quality_action_plan_9c1e7d.md)
+- [ch_live_sysblock_subclass_9abf3d](chapters/ch_live_sysblock_subclass_9abf3d.md)
+- [ch_live_syscall_audited_by_639fbd](chapters/ch_live_syscall_audited_by_639fbd.md)
+- [ch_live_syscall_audited_by_894bbb](chapters/ch_live_syscall_audited_by_894bbb.md)
+- [ch_live_syscall_audited_by_e4dea6](chapters/ch_live_syscall_audited_by_e4dea6.md)
 
 ## Ontology terms grounding this collection
 
-- `control_with_evidence_requirement` — {X} is a directive information content entity that requires evidence {Y}
-- `gdpr_lawful_basis` — {X} is a directive information content entity that has lawful basis {Y}
-- `policy_equiv_jurisdiction_and_scope` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:hasJurisdiction some {Y:Class}) and (sdg:governsScope some {Z:C
-- `policy_with_jurisdiction` — {X} is a directive information content entity that has jurisdiction {Y}
-- `trace_supports_claim` — {X} is a process that supports claim descriptive information content entity
+- `annotation_classifies_artifact` — {X} is a descriptive information content entity
+- `attribute_set_subclass` — {X} is a descriptive information content entity that has attribute designative information content entity
+- `identifier_uniquely_identifies` — {X} is a designative information content entity
+- `indoor_air_quality_action_plan` — An IndoorAirQualityActionPlan is a DirectiveICE that targets IndoorAirPollution and is verified by a HealthOutcomeMetric
+- `labrun_subclass` — {X} is a process that has input sample {Y}
+- `measurement_with_method` — {X} is a descriptive information content entity that via method {Y}
+- `outlier_claim_against_baseline` — {X} is a descriptive information content entity that against {Y}
+- `soc2_processing_integrity` — {X} is a directive information content entity that for soc2 domain {Y}
+- `sysblock_subclass` — {X} is an artifact that has part {Y}
+- `syscall_at_security_tier` — {X} is a designative information content entity that at security tier {Y}
+- `syscall_audited_by` — {X} is a designative information content entity
+- `taper_tolerance_constraint` — TaperToleranceConstraint is a descriptive information content entity defined by upper and lower tolerance limits express
+- `transformation_only_uses_datasets` — {X} is a process that uses entity {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_control_with_evidence_requirement`](tables/t_control_with_evidence_requirement.sql) — realizes `control_with_evidence_requirement` · _shared with 14 other collection(s)_
-- [`t_gdpr_lawful_basis`](tables/t_gdpr_lawful_basis.sql) — realizes `gdpr_lawful_basis` · _shared with 9 other collection(s)_
-- [`t_policy_equiv_jurisdiction_and_scope`](tables/t_policy_equiv_jurisdiction_and_scope.sql) — realizes `policy_equiv_jurisdiction_and_scope` · _shared with 3 other collection(s)_
-- [`t_policy_with_jurisdiction`](tables/t_policy_with_jurisdiction.sql) — realizes `policy_with_jurisdiction` · _shared with 2 other collection(s)_
-- [`t_trace_supports_claim`](tables/t_trace_supports_claim.sql) — realizes `trace_supports_claim` · _shared with 13 other collection(s)_
+- [`t_annotation_classifies_artifact`](tables/t_annotation_classifies_artifact.sql) — realizes `annotation_classifies_artifact` · _shared with 6 other collection(s)_
+- [`t_attribute_set_subclass`](tables/t_attribute_set_subclass.sql) — realizes `attribute_set_subclass` · _shared with 8 other collection(s)_
+- [`t_identifier_uniquely_identifies`](tables/t_identifier_uniquely_identifies.sql) — realizes `identifier_uniquely_identifies` · _shared with 8 other collection(s)_
+- [`t_indoor_air_quality_action_plan`](tables/t_indoor_air_quality_action_plan.sql) — realizes `indoor_air_quality_action_plan` · _shared with 6 other collection(s)_
+- [`t_labrun_subclass`](tables/t_labrun_subclass.sql) — realizes `labrun_subclass` · _shared with 10 other collection(s)_
+- [`t_measurement_with_method`](tables/t_measurement_with_method.sql) — realizes `measurement_with_method` · _shared with 9 other collection(s)_
+- [`t_outlier_claim_against_baseline`](tables/t_outlier_claim_against_baseline.sql) — realizes `outlier_claim_against_baseline` · _shared with 5 other collection(s)_
+- [`t_soc2_processing_integrity`](tables/t_soc2_processing_integrity.sql) — realizes `soc2_processing_integrity` · _shared with 5 other collection(s)_
+- [`t_sysblock_subclass`](tables/t_sysblock_subclass.sql) — realizes `sysblock_subclass` · _shared with 6 other collection(s)_
+- [`t_syscall_at_security_tier`](tables/t_syscall_at_security_tier.sql) — realizes `syscall_at_security_tier` · _shared with 6 other collection(s)_
+- [`t_syscall_audited_by`](tables/t_syscall_audited_by.sql) — realizes `syscall_audited_by` · _shared with 3 other collection(s)_
+- [`t_taper_tolerance_constraint`](tables/t_taper_tolerance_constraint.sql) — realizes `taper_tolerance_constraint` · _shared with 7 other collection(s)_
+- [`t_transformation_only_uses_datasets`](tables/t_transformation_only_uses_datasets.sql) — realizes `transformation_only_uses_datasets` · _shared with 8 other collection(s)_

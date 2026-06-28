@@ -1,295 +1,891 @@
 {
   "topic_id": 20,
   "family": "02_observation_measurement",
-  "n_chapters": 9,
+  "n_chapters": 23,
   "coverage_score": 0.3498297333717346,
   "topic_repr": "Manufacturer declaration\n\nEHEDG and 3-A, Installation and Cleaning Instructions\n\nHygienic process fittings\n\nDocument ID: 63436\n\n# Contents\n\n1 About this document ................................................................. 3\n   1.1 Function ........................................................................... 3\n   1.2 Scope ..................................................................",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "audit_conducted_by",
-    "audit_for_period",
-    "policy_min_one_enforcer",
-    "requirement_equiv_specifies_target"
+    "artifact_min_one_id",
+    "artifact_not_deprecated",
+    "attrkey_subclass",
+    "belief_interval_equiv_bel_and_pl",
+    "claim_subclass",
+    "column_dropped_at_version",
+    "column_nullability_state",
+    "column_tag_at_confidence",
+    "control_with_owner",
+    "disjunctive_combination",
+    "ebpfmap_with_max_entries",
+    "ebpfprogram_writes_to_map",
+    "equiv_union_basic",
+    "financial_strategy_oversight",
+    "functional_dependency_rhs",
+    "internal_communication_requirement",
+    "kernelhook_observes_event_class",
+    "kernelhook_with_attached_program",
+    "lineage_edge_subclass",
+    "lineage_observed_by_event",
+    "mass_function_basic",
+    "measurement_aggregated_into",
+    "measurement_basic",
+    "measurement_equiv_with_dim_unit",
+    "measurement_max_one_value",
+    "metric_emission_subclass",
+    "metric_with_aggregation",
+    "metric_with_unit",
+    "myxoid_degeneration_process",
+    "nist80053_low_impact",
+    "patient_insurance_record",
+    "policy_basic",
+    "policy_only_for_high_impact",
+    "port_isolation_measurement",
+    "profile_over_time_window",
+    "quantum_computer",
+    "regional_quality_benchmark",
+    "requirement_under_standard",
+    "schemaorg_event_location",
+    "schemaorg_product_brand",
+    "schemaorg_review_target",
+    "settlement_financing_activity",
+    "subclass_to_information_content_entity",
+    "syscall_basic",
+    "syscall_equiv_in_subsystem",
+    "syscall_governed_by_directive",
+    "tc_classifier_subclass",
+    "verification_concludes_with",
+    "verification_traces_requirement"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_audit_conducted_by",
-    "t_audit_for_period",
-    "t_policy_min_one_enforcer",
-    "t_requirement_equiv_specifies_target"
+    "t_artifact_min_one_id",
+    "t_artifact_not_deprecated",
+    "t_attrkey_subclass",
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_claim_subclass",
+    "t_column_dropped_at_version",
+    "t_column_nullability_state",
+    "t_column_tag_at_confidence",
+    "t_control_with_owner",
+    "t_disjunctive_combination",
+    "t_ebpfmap_with_max_entries",
+    "t_ebpfprogram_writes_to_map",
+    "t_equiv_union_basic",
+    "t_financial_strategy_oversight",
+    "t_functional_dependency_rhs",
+    "t_internal_communication_requirement",
+    "t_kernelhook_observes_event_class",
+    "t_kernelhook_with_attached_program",
+    "t_lineage_edge_subclass",
+    "t_lineage_observed_by_event",
+    "t_mass_function_basic",
+    "t_measurement_aggregated_into",
+    "t_measurement_basic",
+    "t_measurement_equiv_with_dim_unit",
+    "t_measurement_max_one_value",
+    "t_metric_emission_subclass",
+    "t_metric_with_aggregation",
+    "t_metric_with_unit",
+    "t_myxoid_degeneration_process",
+    "t_nist80053_low_impact",
+    "t_patient_insurance_record",
+    "t_policy_basic",
+    "t_policy_only_for_high_impact",
+    "t_port_isolation_measurement",
+    "t_profile_over_time_window",
+    "t_quantum_computer",
+    "t_regional_quality_benchmark",
+    "t_requirement_under_standard",
+    "t_schemaorg_event_location",
+    "t_schemaorg_product_brand",
+    "t_schemaorg_review_target",
+    "t_settlement_financing_activity",
+    "t_subclass_to_information_content_entity",
+    "t_syscall_basic",
+    "t_syscall_equiv_in_subsystem",
+    "t_syscall_governed_by_directive",
+    "t_tc_classifier_subclass",
+    "t_verification_concludes_with",
+    "t_verification_traces_requirement"
   ],
   "topics": [
-    6,
     20,
-    34,
-    40,
-    64,
-    71,
-    74,
+    27,
+    28,
+    33,
+    37,
+    38,
+    47,
+    65,
+    69,
+    70,
+    78,
     80,
-    99,
+    95,
+    97,
     100,
-    119,
-    120,
-    151,
-    154,
-    162,
+    129,
+    155,
+    161,
+    164,
     169,
-    170,
-    191
+    181,
+    186,
+    194
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
-      2,
-      3,
+    "artifact_min_one_id": [
+      4,
+      49,
+      92,
+      183,
+      186
+    ],
+    "artifact_not_deprecated": [
+      4,
       5,
-      6,
+      35,
+      46,
+      56,
+      81,
+      91,
+      158,
+      181,
+      183
+    ],
+    "attrkey_subclass": [
       7,
-      16,
+      12,
       23,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
+      67,
+      129,
+      185,
       186,
-      191,
-      196
-    ],
-    "audit_conducted_by": [
-      2,
-      32,
-      33,
-      37,
-      43,
-      57,
-      73,
-      76,
-      95,
-      102,
-      111,
-      132,
-      144,
-      150,
-      160,
-      163,
-      171,
-      179,
-      196
-    ],
-    "audit_for_period": [
-      3,
-      32,
-      37,
-      43,
-      57,
-      65,
-      76,
-      111,
-      171,
-      179,
       187
     ],
-    "policy_min_one_enforcer": [
-      75,
-      93,
-      96,
-      158,
-      193,
-      198
+    "belief_interval_equiv_bel_and_pl": [
+      7,
+      8,
+      12,
+      26,
+      34,
+      83,
+      86,
+      91,
+      97,
+      102,
+      125,
+      143,
+      147
     ],
-    "requirement_equiv_specifies_target": [
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      26,
+      56,
+      61,
+      69,
+      97,
+      100,
+      104,
+      186,
+      188
+    ],
+    "column_dropped_at_version": [
+      1,
+      4,
+      16,
+      94,
+      97,
+      106,
+      181
+    ],
+    "column_nullability_state": [
+      4,
+      10,
+      46,
+      183,
+      186
+    ],
+    "column_tag_at_confidence": [
+      0,
+      4,
+      45,
+      168
+    ],
+    "control_with_owner": [
       2,
+      10,
+      23,
+      26,
+      46,
+      65,
+      120,
+      129,
+      186
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      11,
+      34,
+      38,
+      104,
+      165,
+      180,
+      181,
+      183
+    ],
+    "ebpfmap_with_max_entries": [
+      26,
+      40,
+      45,
+      94,
+      101,
+      186,
+      188
+    ],
+    "ebpfprogram_writes_to_map": [
+      0,
+      19,
+      30,
+      44
+    ],
+    "equiv_union_basic": [
+      3,
+      16,
+      42,
+      92,
+      97,
+      102,
+      165,
+      183,
+      186
+    ],
+    "financial_strategy_oversight": [
+      25,
+      26,
+      91,
+      92,
+      122,
+      135,
+      191
+    ],
+    "functional_dependency_rhs": [
+      4,
+      23,
+      42,
+      61,
+      139,
+      163,
+      181,
+      186
+    ],
+    "internal_communication_requirement": [
+      26,
+      31,
+      38,
+      40,
+      86,
+      155,
+      181,
+      183,
+      186
+    ],
+    "kernelhook_observes_event_class": [
+      10,
+      38,
+      94,
+      101,
+      155
+    ],
+    "kernelhook_with_attached_program": [
+      4,
+      10,
+      24,
+      42,
+      44,
+      46,
+      86,
+      159,
+      186
+    ],
+    "lineage_edge_subclass": [
+      67,
+      101,
+      140,
+      159,
+      183
+    ],
+    "lineage_observed_by_event": [
+      7,
+      120
+    ],
+    "mass_function_basic": [
       4,
       7,
-      15,
-      21,
-      47,
-      68,
-      71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
+      26
+    ],
+    "measurement_aggregated_into": [
+      4,
+      44,
+      109,
+      122,
+      140,
+      181,
+      186
+    ],
+    "measurement_basic": [
+      1,
+      4,
+      11,
+      65,
+      123,
+      125,
+      186
+    ],
+    "measurement_max_one_value": [
+      44,
+      100,
+      109,
+      161
+    ],
+    "metric_emission_subclass": [
+      2,
+      7,
+      10,
+      27
+    ],
+    "metric_with_aggregation": [
+      16,
+      26,
+      42,
+      44,
+      67,
+      94,
       186,
-      191,
-      199
+      191
+    ],
+    "metric_with_unit": [
+      14
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      12,
+      24,
+      45,
+      46,
+      47,
+      54
+    ],
+    "nist80053_low_impact": [
+      1,
+      41,
+      150,
+      172,
+      181,
+      191
+    ],
+    "patient_insurance_record": [
+      1,
+      7,
+      11,
+      26,
+      61,
+      79,
+      105,
+      181,
+      183
+    ],
+    "policy_basic": [
+      4,
+      10,
+      26,
+      168,
+      180,
+      186
+    ],
+    "policy_only_for_high_impact": [
+      2,
+      34,
+      45,
+      159,
+      186
+    ],
+    "port_isolation_measurement": [
+      42,
+      56,
+      105,
+      184,
+      186
+    ],
+    "profile_over_time_window": [
+      4,
+      38,
+      65,
+      195
+    ],
+    "quantum_computer": [
+      26,
+      62,
+      71,
+      97,
+      183,
+      186
+    ],
+    "regional_quality_benchmark": [
+      0,
+      3,
+      10,
+      26,
+      30,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
+      185,
+      186
+    ],
+    "requirement_under_standard": [
+      0,
+      8,
+      26,
+      36,
+      72,
+      163,
+      186
+    ],
+    "schemaorg_event_location": [
+      6,
+      30,
+      34,
+      41,
+      65,
+      69,
+      155,
+      168,
+      183,
+      186
+    ],
+    "schemaorg_product_brand": [
+      7,
+      26,
+      35,
+      46,
+      47,
+      109,
+      165,
+      183,
+      186
+    ],
+    "schemaorg_review_target": [
+      24,
+      26,
+      67,
+      69,
+      186
+    ],
+    "settlement_financing_activity": [
+      12,
+      26,
+      86,
+      181
+    ],
+    "subclass_to_information_content_entity": [
+      4,
+      11,
+      47
+    ],
+    "syscall_basic": [
+      24,
+      26,
+      35,
+      40,
+      79,
+      139,
+      181,
+      186
+    ],
+    "syscall_governed_by_directive": [
+      10,
+      12,
+      45,
+      47,
+      61,
+      83
+    ],
+    "tc_classifier_subclass": [
+      1,
+      2,
+      10,
+      12,
+      26,
+      42,
+      46,
+      92,
+      102,
+      158,
+      168,
+      184
+    ],
+    "verification_concludes_with": [
+      23,
+      47,
+      69,
+      129
+    ],
+    "verification_traces_requirement": [
+      0,
+      10,
+      16,
+      33
     ]
   },
   "chapters": [
     {
-      "id": "0f9efc9a69b408ca",
-      "family": "03_directive_governance",
+      "id": "ch_live_artifact_not_deprecated_39bec1",
+      "family": "07_long_tail",
       "topics": [
         20,
-        34,
-        119
+        69,
+        129,
+        169,
+        194
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "artifact_not_deprecated",
+        "verification_concludes_with",
+        "metric_with_unit"
       ]
     },
     {
-      "id": "4d3a53408610b322",
-      "family": "03_directive_governance",
+      "id": "ch_live_attrkey_subclass_d23c8d",
+      "family": "01_foundation",
       "topics": [
-        20,
-        40,
-        71
+        20
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "attrkey_subclass",
+        "port_isolation_measurement",
+        "column_tag_at_confidence"
       ]
     },
     {
-      "id": "67c6e395133f20aa",
-      "family": "03_directive_governance",
+      "id": "ch_live_claim_subclass_408ea9",
+      "family": "06_belief_structure",
       "topics": [
         20,
-        120,
-        170
+        33,
+        38,
+        181,
+        186
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "claim_subclass",
+        "verification_traces_requirement",
+        "metric_with_unit"
       ]
     },
     {
-      "id": "8d43f28d4d2e0549",
+      "id": "ch_live_column_dropped_at_version_b629d5",
+      "family": "07_long_tail",
+      "topics": [
+        20
+      ],
+      "cited_terms": [
+        "column_dropped_at_version",
+        "schemaorg_product_brand",
+        "port_isolation_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_with_max_entries_13aba7",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        20
+      ],
+      "cited_terms": [
+        "ebpfmap_with_max_entries",
+        "patient_insurance_record",
+        "metric_with_unit"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_writes_to_map_32a42b",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        20,
+        28,
+        33,
+        37,
+        38
+      ],
+      "cited_terms": [
+        "ebpfprogram_writes_to_map",
+        "measurement_equiv_with_dim_unit",
+        "verification_traces_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_union_basic_e7cfa4",
+      "family": "01_foundation",
+      "topics": [
+        20,
+        28,
+        37,
+        97,
+        164
+      ],
+      "cited_terms": [
+        "equiv_union_basic",
+        "measurement_equiv_with_dim_unit",
+        "belief_interval_equiv_bel_and_pl"
+      ]
+    },
+    {
+      "id": "ch_live_functional_dependency_rhs_cab59e",
+      "family": "07_long_tail",
+      "topics": [
+        20
+      ],
+      "cited_terms": [
+        "functional_dependency_rhs",
+        "kernelhook_with_attached_program",
+        "regional_quality_benchmark"
+      ]
+    },
+    {
+      "id": "ch_live_internal_communication_requirement_473d71",
+      "family": "08_derived",
+      "topics": [
+        20,
+        28,
+        37,
+        97,
+        164
+      ],
+      "cited_terms": [
+        "internal_communication_requirement",
+        "control_with_owner",
+        "measurement_equiv_with_dim_unit"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_subclass_f92b3e",
+      "family": "05_provo_lineage",
+      "topics": [
+        20,
+        65,
+        70,
+        78,
+        80
+      ],
+      "cited_terms": [
+        "lineage_edge_subclass",
+        "syscall_equiv_in_subsystem",
+        "measurement_aggregated_into"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_observed_by_event_f75368",
+      "family": "05_provo_lineage",
+      "topics": [
+        20,
+        65,
+        70,
+        78,
+        80
+      ],
+      "cited_terms": [
+        "lineage_observed_by_event",
+        "artifact_min_one_id",
+        "syscall_equiv_in_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_basic_f54e78",
+      "family": "06_belief_structure",
+      "topics": [
+        20,
+        65,
+        70,
+        78,
+        80
+      ],
+      "cited_terms": [
+        "mass_function_basic",
+        "nist80053_low_impact",
+        "syscall_equiv_in_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_basic_794757",
+      "family": "02_observation_measurement",
+      "topics": [
+        20,
+        28,
+        37,
+        97,
+        161
+      ],
+      "cited_terms": [
+        "measurement_basic",
+        "measurement_equiv_with_dim_unit",
+        "measurement_max_one_value"
+      ]
+    },
+    {
+      "id": "ch_live_metric_with_aggregation_ee76a7",
+      "family": "07_long_tail",
+      "topics": [
+        20
+      ],
+      "cited_terms": [
+        "metric_with_aggregation",
+        "metric_with_unit",
+        "myxoid_degeneration_process"
+      ]
+    },
+    {
+      "id": "ch_live_metric_with_unit_897fd0",
+      "family": "07_long_tail",
+      "topics": [
+        20
+      ],
+      "cited_terms": [
+        "metric_with_unit",
+        "settlement_financing_activity",
+        "quantum_computer"
+      ]
+    },
+    {
+      "id": "ch_live_metric_with_unit_bceff5",
+      "family": "07_long_tail",
+      "topics": [
+        20,
+        155
+      ],
+      "cited_terms": [
+        "metric_with_unit",
+        "kernelhook_observes_event_class",
+        "disjunctive_combination"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_for_high_impact_9b9e1b",
+      "family": "07_long_tail",
+      "topics": [
+        20,
+        65,
+        70,
+        78,
+        80
+      ],
+      "cited_terms": [
+        "policy_only_for_high_impact",
+        "syscall_equiv_in_subsystem",
+        "financial_strategy_oversight"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_under_standard_1e61fb",
       "family": "03_directive_governance",
       "topics": [
         20,
-        64,
+        65,
+        70,
+        78,
+        80
+      ],
+      "cited_terms": [
+        "requirement_under_standard",
+        "schemaorg_review_target",
+        "syscall_equiv_in_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_event_location_deb330",
+      "family": "07_long_tail",
+      "topics": [
+        20,
+        27,
+        70,
+        95,
         100
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "schemaorg_event_location",
+        "metric_emission_subclass",
+        "metric_with_unit"
       ]
     },
     {
-      "id": "96c366474411703c",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_basic_64a535",
+      "family": "04_ebpf_kernel",
       "topics": [
         20,
-        74,
-        162
+        65,
+        70,
+        78,
+        80
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "syscall_basic",
+        "syscall_equiv_in_subsystem",
+        "syscall_governed_by_directive"
       ]
     },
     {
-      "id": "a40ec41e1525ab27",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_equiv_in_subsystem_2d0134",
+      "family": "04_ebpf_kernel",
       "topics": [
         20,
-        99,
-        169
+        65,
+        70,
+        78,
+        80
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "syscall_equiv_in_subsystem",
+        "column_nullability_state",
+        "policy_basic"
       ]
     },
     {
-      "id": "ae9012d135f25cc0",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_equiv_in_subsystem_4ffd8c",
+      "family": "04_ebpf_kernel",
       "topics": [
-        6,
         20,
-        154
+        65,
+        70,
+        78,
+        80
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "syscall_equiv_in_subsystem",
+        "profile_over_time_window",
+        "disjunctive_combination"
       ]
     },
     {
-      "id": "b32a37f5b17e1b0c",
-      "family": "03_directive_governance",
+      "id": "ch_live_tc_classifier_subclass_fb8abc",
+      "family": "07_long_tail",
       "topics": [
         20,
-        151,
-        191
+        47
       ],
       "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
-      ]
-    },
-    {
-      "id": "bd4edaf046fdee86",
-      "family": "03_directive_governance",
-      "topics": [
-        20,
-        80,
-        151
-      ],
-      "cited_terms": [
-        "audit_conducted_by",
-        "requirement_equiv_specifies_target",
-        "policy_min_one_enforcer",
-        "attestation_with_supporting_evidence",
-        "audit_for_period"
+        "tc_classifier_subclass",
+        "metric_with_unit",
+        "subclass_to_information_content_entity"
       ]
     }
   ]

@@ -1,0 +1,1060 @@
+{
+  "topic_id": 181,
+  "family": "07_long_tail",
+  "n_chapters": 25,
+  "coverage_score": 0.2137831747531891,
+  "topic_repr": "| This is a Controlled Document that complies with |\n|---|\n| Wesfarmers Chemicals, Energy & Fertilisers formatting and Quality Control standards. |\n| Please check that this is the latest available version before use. |\n| Title: |\n| Number: |\n| Version Number: |\n| Date Revised: |\n| Owner: |\n| Authoriser: |\n| Reasons for Creating |\n| or Amending |\n| Document |\n| Actual Change Details: |\n\nTABLE OF CO...",
+  "terms": [
+    "aggregation_grouped_by",
+    "allocation_with_input_facets",
+    "allocation_with_output_facets",
+    "artifact_not_deprecated",
+    "artifact_not_revoked",
+    "artifact_subclass_two_parents",
+    "artifact_with_role",
+    "attestation_basic",
+    "attribute_set_subclass",
+    "attribute_set_supports_outlier_claim",
+    "belief_function_for",
+    "carbon_credit_transaction",
+    "claim_basic",
+    "column_dropped_at_version",
+    "column_property_subclass",
+    "constraint_check_subclass",
+    "constraint_only_constrains",
+    "control_observed_via",
+    "dempster_combination_subclass",
+    "dengue_transmission_process",
+    "descriptive_not_retracted",
+    "directive_supersedes_directive",
+    "directive_union_constraint_or_policy",
+    "disjunctive_combination",
+    "ebpfmap_equiv_kv_typed",
+    "ebpfmap_subclass",
+    "equiv_intersect_with_restriction",
+    "equiv_intersect_with_two_restrictions",
+    "functional_dependency_rhs",
+    "ganglion_cyst_imaging_finding",
+    "ganglion_cyst_tissue_origin",
+    "gdpr_article_subclass",
+    "ice_subclass_with_part",
+    "internal_communication_requirement",
+    "labrun_has_operator",
+    "lift_with_support_count",
+    "log_with_resource_attribute",
+    "measurement_aggregated_into",
+    "measurement_with_unit",
+    "nist80053_low_impact",
+    "patient_insurance_record",
+    "policy_enforced_by",
+    "policy_only_governs_artifacts",
+    "process_either_started_or_completed",
+    "program_with_entry_exactly_one",
+    "regional_quality_benchmark",
+    "responsive_optic_nerve_dysfunction",
+    "schema_revision_of",
+    "schema_version_subclass",
+    "schemaorg_creativework_author",
+    "schemaorg_creativework_publisher",
+    "schemaorg_event_organizer",
+    "schemaorg_place_longitude",
+    "settlement_financing_activity",
+    "soc2_confidentiality_subclass",
+    "span_with_attribute",
+    "state_transitions_to",
+    "storage_structure_composition",
+    "survey_response_record",
+    "syscall_basic"
+  ],
+  "tables": [
+    "t_aggregation_grouped_by",
+    "t_allocation_with_input_facets",
+    "t_allocation_with_output_facets",
+    "t_artifact_not_deprecated",
+    "t_artifact_not_revoked",
+    "t_artifact_subclass_two_parents",
+    "t_artifact_with_role",
+    "t_attestation_basic",
+    "t_attribute_set_subclass",
+    "t_attribute_set_supports_outlier_claim",
+    "t_belief_function_for",
+    "t_carbon_credit_transaction",
+    "t_claim_basic",
+    "t_column_dropped_at_version",
+    "t_column_property_subclass",
+    "t_constraint_check_subclass",
+    "t_constraint_only_constrains",
+    "t_control_observed_via",
+    "t_dempster_combination_subclass",
+    "t_dengue_transmission_process",
+    "t_descriptive_not_retracted",
+    "t_directive_supersedes_directive",
+    "t_directive_union_constraint_or_policy",
+    "t_disjunctive_combination",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_ebpfmap_subclass",
+    "t_equiv_intersect_with_restriction",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_functional_dependency_rhs",
+    "t_ganglion_cyst_imaging_finding",
+    "t_ganglion_cyst_tissue_origin",
+    "t_gdpr_article_subclass",
+    "t_ice_subclass_with_part",
+    "t_internal_communication_requirement",
+    "t_labrun_has_operator",
+    "t_lift_with_support_count",
+    "t_log_with_resource_attribute",
+    "t_measurement_aggregated_into",
+    "t_measurement_with_unit",
+    "t_nist80053_low_impact",
+    "t_patient_insurance_record",
+    "t_policy_enforced_by",
+    "t_policy_only_governs_artifacts",
+    "t_process_either_started_or_completed",
+    "t_program_with_entry_exactly_one",
+    "t_regional_quality_benchmark",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_schema_revision_of",
+    "t_schema_version_subclass",
+    "t_schemaorg_creativework_author",
+    "t_schemaorg_creativework_publisher",
+    "t_schemaorg_event_organizer",
+    "t_schemaorg_place_longitude",
+    "t_settlement_financing_activity",
+    "t_soc2_confidentiality_subclass",
+    "t_span_with_attribute",
+    "t_state_transitions_to",
+    "t_storage_structure_composition",
+    "t_survey_response_record",
+    "t_syscall_basic"
+  ],
+  "topics": [
+    181
+  ],
+  "shared_tables": {
+    "aggregation_grouped_by": [
+      24,
+      26,
+      62,
+      123,
+      161,
+      186
+    ],
+    "allocation_with_input_facets": [
+      46,
+      135,
+      186
+    ],
+    "allocation_with_output_facets": [
+      46,
+      65,
+      100,
+      119,
+      146,
+      186
+    ],
+    "artifact_not_deprecated": [
+      4,
+      5,
+      20,
+      35,
+      46,
+      56,
+      81,
+      91,
+      158,
+      183
+    ],
+    "artifact_not_revoked": [
+      2,
+      21,
+      26,
+      44,
+      61,
+      72,
+      128,
+      180
+    ],
+    "artifact_subclass_two_parents": [
+      46,
+      109,
+      183,
+      186
+    ],
+    "artifact_with_role": [
+      2,
+      7,
+      35,
+      61,
+      138,
+      155,
+      183,
+      186
+    ],
+    "attestation_basic": [
+      7,
+      11,
+      19,
+      47,
+      80,
+      106,
+      123,
+      191
+    ],
+    "attribute_set_subclass": [
+      1,
+      2,
+      4,
+      46,
+      78,
+      104,
+      155,
+      186
+    ],
+    "attribute_set_supports_outlier_claim": [
+      23,
+      24,
+      26,
+      34,
+      36,
+      161,
+      172,
+      185,
+      186
+    ],
+    "belief_function_for": [
+      23,
+      26,
+      44,
+      94
+    ],
+    "carbon_credit_transaction": [
+      12,
+      23,
+      33,
+      54,
+      58,
+      60,
+      61,
+      91
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      105,
+      128,
+      135,
+      136,
+      159,
+      161,
+      168,
+      183,
+      186
+    ],
+    "column_dropped_at_version": [
+      1,
+      4,
+      16,
+      20,
+      94,
+      97,
+      106
+    ],
+    "column_property_subclass": [
+      4,
+      45,
+      100,
+      106,
+      109,
+      183
+    ],
+    "constraint_check_subclass": [
+      3,
+      4,
+      11,
+      26,
+      46,
+      56,
+      65,
+      67,
+      81,
+      139,
+      183,
+      186
+    ],
+    "constraint_only_constrains": [
+      2,
+      11,
+      23,
+      35,
+      111,
+      159,
+      183,
+      186,
+      195
+    ],
+    "control_observed_via": [
+      1,
+      19,
+      26,
+      67,
+      159,
+      186
+    ],
+    "dempster_combination_subclass": [
+      1,
+      26,
+      47,
+      60,
+      100
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      5,
+      12,
+      26,
+      47,
+      66,
+      83,
+      183
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      47,
+      67,
+      69,
+      94,
+      138,
+      161,
+      186,
+      187,
+      191
+    ],
+    "directive_supersedes_directive": [
+      47,
+      94,
+      100,
+      146,
+      165,
+      186
+    ],
+    "directive_union_constraint_or_policy": [
+      23,
+      24,
+      26,
+      97,
+      159,
+      186
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      11,
+      20,
+      34,
+      38,
+      104,
+      165,
+      180,
+      183
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      21,
+      24,
+      34,
+      45,
+      105,
+      184,
+      186,
+      190
+    ],
+    "ebpfmap_subclass": [
+      14,
+      23,
+      34,
+      100,
+      102,
+      161,
+      186
+    ],
+    "equiv_intersect_with_restriction": [
+      1,
+      44,
+      92,
+      109,
+      138,
+      186
+    ],
+    "equiv_intersect_with_two_restrictions": [
+      2,
+      4,
+      7,
+      12,
+      14,
+      26,
+      30,
+      34,
+      61,
+      66,
+      183,
+      186
+    ],
+    "functional_dependency_rhs": [
+      4,
+      20,
+      23,
+      42,
+      61,
+      139,
+      163,
+      186
+    ],
+    "ganglion_cyst_imaging_finding": [
+      2,
+      4,
+      30,
+      47,
+      50,
+      81,
+      109,
+      135,
+      139,
+      183,
+      186
+    ],
+    "ganglion_cyst_tissue_origin": [
+      0,
+      6,
+      7,
+      26,
+      42,
+      44,
+      46,
+      81,
+      101,
+      125,
+      135,
+      183,
+      186
+    ],
+    "gdpr_article_subclass": [
+      6,
+      14,
+      17,
+      35,
+      44,
+      67,
+      81,
+      97,
+      186
+    ],
+    "ice_subclass_with_part": [
+      4,
+      14,
+      26,
+      46,
+      47,
+      60,
+      83,
+      168,
+      184
+    ],
+    "internal_communication_requirement": [
+      20,
+      26,
+      31,
+      38,
+      40,
+      86,
+      155,
+      183,
+      186
+    ],
+    "labrun_has_operator": [
+      2,
+      4,
+      26,
+      67,
+      74,
+      94,
+      185,
+      186,
+      195
+    ],
+    "lift_with_support_count": [
+      12,
+      51,
+      67,
+      92,
+      97,
+      183,
+      185,
+      186,
+      187
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      107,
+      128,
+      163,
+      168,
+      180,
+      183
+    ],
+    "measurement_aggregated_into": [
+      4,
+      20,
+      44,
+      109,
+      122,
+      140,
+      186
+    ],
+    "measurement_with_unit": [
+      10,
+      26,
+      47,
+      61,
+      62,
+      65,
+      125,
+      149,
+      168
+    ],
+    "nist80053_low_impact": [
+      1,
+      20,
+      41,
+      150,
+      172,
+      191
+    ],
+    "patient_insurance_record": [
+      1,
+      7,
+      11,
+      20,
+      26,
+      61,
+      79,
+      105,
+      183
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      128,
+      161,
+      185,
+      188
+    ],
+    "policy_only_governs_artifacts": [
+      4,
+      14,
+      24,
+      26,
+      44,
+      46,
+      66,
+      67,
+      140,
+      142,
+      146,
+      186
+    ],
+    "process_either_started_or_completed": [
+      3,
+      10,
+      27,
+      41,
+      168,
+      183,
+      186
+    ],
+    "program_with_entry_exactly_one": [
+      7,
+      10,
+      11,
+      26,
+      56,
+      135,
+      136,
+      168,
+      183,
+      186
+    ],
+    "regional_quality_benchmark": [
+      0,
+      3,
+      10,
+      20,
+      26,
+      30,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      183,
+      185,
+      186
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      0,
+      1,
+      2,
+      26,
+      47,
+      81,
+      97,
+      102,
+      180,
+      183
+    ],
+    "schema_revision_of": [
+      4,
+      26,
+      46,
+      47,
+      60,
+      100,
+      161,
+      163,
+      186
+    ],
+    "schema_version_subclass": [
+      1,
+      19,
+      25,
+      26,
+      46,
+      183,
+      186
+    ],
+    "schemaorg_creativework_author": [
+      23,
+      26,
+      27,
+      45,
+      61,
+      122,
+      183,
+      186
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      36,
+      102,
+      143,
+      180,
+      183,
+      186
+    ],
+    "schemaorg_event_organizer": [
+      4,
+      90,
+      92,
+      186
+    ],
+    "schemaorg_place_longitude": [
+      26,
+      34,
+      36,
+      66,
+      94,
+      143,
+      158,
+      186
+    ],
+    "settlement_financing_activity": [
+      12,
+      20,
+      26,
+      86
+    ],
+    "soc2_confidentiality_subclass": [
+      19,
+      34,
+      44,
+      51,
+      95,
+      140,
+      158,
+      186
+    ],
+    "span_with_attribute": [
+      1,
+      26,
+      38,
+      66,
+      106,
+      168,
+      184,
+      186
+    ],
+    "state_transitions_to": [
+      44,
+      80,
+      91,
+      97,
+      183
+    ],
+    "storage_structure_composition": [
+      3,
+      35,
+      41,
+      46,
+      109,
+      120,
+      183,
+      186
+    ],
+    "survey_response_record": [
+      26,
+      35,
+      41,
+      60,
+      75,
+      97,
+      166,
+      183,
+      184,
+      186
+    ],
+    "syscall_basic": [
+      20,
+      24,
+      26,
+      35,
+      40,
+      79,
+      139,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_artifact_not_deprecated_c80480",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "artifact_not_deprecated",
+        "artifact_not_revoked",
+        "artifact_subclass_two_parents"
+      ]
+    },
+    {
+      "id": "ch_live_artifact_not_revoked_e7e777",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "artifact_not_revoked",
+        "settlement_financing_activity",
+        "constraint_only_constrains"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_basic_3a4129",
+      "family": "03_directive_governance",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "attestation_basic",
+        "control_observed_via",
+        "span_with_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_basic_f48e2b",
+      "family": "03_directive_governance",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "attestation_basic",
+        "policy_enforced_by",
+        "descriptive_not_retracted"
+      ]
+    },
+    {
+      "id": "ch_live_belief_function_for_fd1db9",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "belief_function_for",
+        "column_property_subclass",
+        "process_either_started_or_completed"
+      ]
+    },
+    {
+      "id": "ch_live_claim_basic_5bc73f",
+      "family": "06_belief_structure",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "claim_basic",
+        "allocation_with_output_facets",
+        "carbon_credit_transaction"
+      ]
+    },
+    {
+      "id": "ch_live_column_dropped_at_version_b68e25",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "column_dropped_at_version",
+        "equiv_intersect_with_two_restrictions",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "ch_live_directive_supersedes_directive_7197e6",
+      "family": "03_directive_governance",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "directive_supersedes_directive",
+        "dempster_combination_subclass",
+        "soc2_confidentiality_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_directive_union_constraint_or_policy_7c3123",
+      "family": "03_directive_governance",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "directive_union_constraint_or_policy",
+        "patient_insurance_record",
+        "dengue_transmission_process"
+      ]
+    },
+    {
+      "id": "ch_live_disjunctive_combination_56ef2f",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "disjunctive_combination",
+        "schemaorg_place_longitude",
+        "constraint_check_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_equiv_kv_typed_9a58a4",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "ebpfmap_equiv_kv_typed",
+        "schemaorg_event_organizer",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "ch_live_functional_dependency_rhs_ab1b57",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "functional_dependency_rhs",
+        "attestation_basic",
+        "artifact_subclass_two_parents"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_support_count_ca8b58",
+      "family": "02_observation_measurement",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "lift_with_support_count",
+        "attribute_set_supports_outlier_claim",
+        "survey_response_record"
+      ]
+    },
+    {
+      "id": "ch_live_log_with_resource_attribute_57cbee",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "log_with_resource_attribute",
+        "aggregation_grouped_by",
+        "labrun_has_operator"
+      ]
+    },
+    {
+      "id": "ch_live_program_with_entry_exactly_one_c020b8",
+      "family": "01_foundation",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "program_with_entry_exactly_one",
+        "ebpfmap_subclass",
+        "attestation_basic"
+      ]
+    },
+    {
+      "id": "ch_live_schema_revision_of_037c16",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schema_revision_of",
+        "schema_version_subclass",
+        "schemaorg_creativework_author"
+      ]
+    },
+    {
+      "id": "ch_live_schema_revision_of_3e1e1b",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schema_revision_of",
+        "ganglion_cyst_imaging_finding",
+        "gdpr_article_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_schema_revision_of_538b35",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schema_revision_of",
+        "regional_quality_benchmark",
+        "measurement_aggregated_into"
+      ]
+    },
+    {
+      "id": "ch_live_schema_version_subclass_c0b946",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schema_version_subclass",
+        "equiv_intersect_with_restriction",
+        "internal_communication_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_author_40a868",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_author",
+        "nist80053_low_impact",
+        "ice_subclass_with_part"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_author_e02501",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_author",
+        "ganglion_cyst_tissue_origin",
+        "policy_only_governs_artifacts"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_publisher_9d3db3",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_publisher",
+        "nist80053_low_impact",
+        "artifact_with_role"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_publisher_ec679d",
+      "family": "07_long_tail",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_publisher",
+        "attribute_set_subclass",
+        "responsive_optic_nerve_dysfunction"
+      ]
+    },
+    {
+      "id": "ch_live_state_transitions_to_e2aa60",
+      "family": "02_observation_measurement",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "state_transitions_to",
+        "policy_only_governs_artifacts",
+        "allocation_with_input_facets"
+      ]
+    },
+    {
+      "id": "ch_live_storage_structure_composition_8d1caf",
+      "family": "08_derived",
+      "topics": [
+        181
+      ],
+      "cited_terms": [
+        "storage_structure_composition",
+        "measurement_with_unit",
+        "attestation_basic"
+      ]
+    }
+  ]
+}

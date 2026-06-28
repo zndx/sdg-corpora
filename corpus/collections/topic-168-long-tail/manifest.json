@@ -1,0 +1,739 @@
+{
+  "topic_id": 168,
+  "family": "07_long_tail",
+  "n_chapters": 18,
+  "coverage_score": 0.15923020243644714,
+  "topic_repr": "Iso 286 1\n\nMechanical Tolerance Stackup and Analysis Bryan R. Fischer.2011-04-26 Use Tolerance Analysis Techniques to Avoid Design, Quality, and Manufacturing Problems Before They Happen Often overlooked and misunderstood, tolerance analysis is a critical part of improving products and their design processes. Because all manufactured products are subject to variation, it is crucial that designers ...",
+  "terms": [
+    "attrkey_with_value_type",
+    "claim_basic",
+    "column_renamed_from",
+    "column_tag_at_confidence",
+    "control_min_one_owner",
+    "dataset_snapshot_subclass",
+    "dempster_combinant_first",
+    "ebpfprogram_observes_syscall",
+    "equiv_union_ice_branches",
+    "foreign_key_relation",
+    "ice_subclass_with_part",
+    "information_dissemination_event",
+    "intermediate_floor_assembly",
+    "kernel_event_with_comm",
+    "kernel_event_with_pid",
+    "kernel_event_with_tid",
+    "lineage_edge_at_run_time",
+    "lineage_edge_to_target",
+    "log_with_resource_attribute",
+    "measurement_with_method",
+    "measurement_with_unit",
+    "observation_with_participant",
+    "ontology_class_match",
+    "outlier_detection_uses_explainer",
+    "policy_basic",
+    "policy_classification_tier",
+    "process_either_started_or_completed",
+    "profiling_basic",
+    "profiling_with_method",
+    "program_subclass",
+    "program_with_entry_exactly_one",
+    "provenance_agent_signs_audit",
+    "requirement_traces_to",
+    "safety_planning_process",
+    "sample_subclass",
+    "schemaorg_event_location",
+    "span_with_attribute",
+    "syscall_subclass",
+    "taper_tolerance_constraint",
+    "tc_classifier_subclass",
+    "technology_promotion_initiative",
+    "trace_with_attributes"
+  ],
+  "tables": [
+    "t_attrkey_with_value_type",
+    "t_claim_basic",
+    "t_column_renamed_from",
+    "t_column_tag_at_confidence",
+    "t_control_min_one_owner",
+    "t_dataset_snapshot_subclass",
+    "t_dempster_combinant_first",
+    "t_ebpfprogram_observes_syscall",
+    "t_equiv_union_ice_branches",
+    "t_foreign_key_relation",
+    "t_ice_subclass_with_part",
+    "t_information_dissemination_event",
+    "t_intermediate_floor_assembly",
+    "t_kernel_event_with_comm",
+    "t_kernel_event_with_pid",
+    "t_kernel_event_with_tid",
+    "t_lineage_edge_at_run_time",
+    "t_lineage_edge_to_target",
+    "t_log_with_resource_attribute",
+    "t_measurement_with_method",
+    "t_measurement_with_unit",
+    "t_observation_with_participant",
+    "t_ontology_class_match",
+    "t_outlier_detection_uses_explainer",
+    "t_policy_basic",
+    "t_policy_classification_tier",
+    "t_process_either_started_or_completed",
+    "t_profiling_basic",
+    "t_profiling_with_method",
+    "t_program_subclass",
+    "t_program_with_entry_exactly_one",
+    "t_provenance_agent_signs_audit",
+    "t_requirement_traces_to",
+    "t_safety_planning_process",
+    "t_sample_subclass",
+    "t_schemaorg_event_location",
+    "t_span_with_attribute",
+    "t_syscall_subclass",
+    "t_taper_tolerance_constraint",
+    "t_tc_classifier_subclass",
+    "t_technology_promotion_initiative",
+    "t_trace_with_attributes"
+  ],
+  "topics": [
+    80,
+    168,
+    181,
+    185,
+    195
+  ],
+  "shared_tables": {
+    "attrkey_with_value_type": [
+      185
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      105,
+      128,
+      135,
+      136,
+      159,
+      161,
+      181,
+      183,
+      186
+    ],
+    "column_renamed_from": [
+      4,
+      66,
+      109,
+      120,
+      125,
+      186
+    ],
+    "column_tag_at_confidence": [
+      0,
+      4,
+      20,
+      45
+    ],
+    "control_min_one_owner": [
+      1,
+      4,
+      26,
+      44,
+      46,
+      67,
+      92,
+      119,
+      185,
+      186
+    ],
+    "dataset_snapshot_subclass": [
+      5,
+      17,
+      26,
+      30,
+      46,
+      80,
+      123,
+      138,
+      183,
+      186
+    ],
+    "dempster_combinant_first": [
+      2,
+      3,
+      26,
+      38,
+      100,
+      105,
+      161,
+      183
+    ],
+    "ebpfprogram_observes_syscall": [
+      10,
+      26,
+      83,
+      190
+    ],
+    "equiv_union_ice_branches": [
+      16,
+      34,
+      65,
+      142,
+      183,
+      186
+    ],
+    "foreign_key_relation": [
+      42,
+      80,
+      92,
+      125,
+      129,
+      183
+    ],
+    "ice_subclass_with_part": [
+      4,
+      14,
+      26,
+      46,
+      47,
+      60,
+      83,
+      181,
+      184
+    ],
+    "information_dissemination_event": [
+      5,
+      25,
+      26,
+      34,
+      47,
+      69,
+      159,
+      186
+    ],
+    "intermediate_floor_assembly": [
+      26,
+      46,
+      155,
+      166,
+      172,
+      183,
+      187
+    ],
+    "kernel_event_with_comm": [
+      19,
+      26,
+      54,
+      83,
+      102,
+      183
+    ],
+    "kernel_event_with_pid": [
+      60,
+      129,
+      165
+    ],
+    "kernel_event_with_tid": [
+      0,
+      19,
+      25,
+      41,
+      80
+    ],
+    "lineage_edge_at_run_time": [
+      12,
+      26,
+      60,
+      102,
+      186
+    ],
+    "lineage_edge_to_target": [
+      1,
+      24,
+      25,
+      26,
+      81,
+      104,
+      140,
+      186
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      107,
+      128,
+      163,
+      180,
+      181,
+      183
+    ],
+    "measurement_with_method": [
+      4,
+      23,
+      38,
+      39,
+      78,
+      86,
+      97,
+      159,
+      183
+    ],
+    "measurement_with_unit": [
+      10,
+      26,
+      47,
+      61,
+      62,
+      65,
+      125,
+      149,
+      181
+    ],
+    "observation_with_participant": [
+      0,
+      26,
+      86,
+      104,
+      135,
+      159,
+      172,
+      184
+    ],
+    "ontology_class_match": [
+      4,
+      35,
+      40,
+      86,
+      109,
+      120,
+      128,
+      183,
+      186
+    ],
+    "outlier_detection_uses_explainer": [
+      4,
+      40,
+      65,
+      183,
+      186,
+      187
+    ],
+    "policy_basic": [
+      4,
+      10,
+      20,
+      26,
+      180,
+      186
+    ],
+    "policy_classification_tier": [
+      7,
+      10,
+      24,
+      26,
+      34,
+      47,
+      69,
+      79,
+      186
+    ],
+    "process_either_started_or_completed": [
+      3,
+      10,
+      27,
+      41,
+      181,
+      183,
+      186
+    ],
+    "profiling_basic": [
+      38,
+      47,
+      69,
+      80,
+      86,
+      106,
+      195
+    ],
+    "profiling_with_method": [
+      4,
+      5,
+      26,
+      47,
+      86,
+      106,
+      139,
+      180,
+      186
+    ],
+    "program_subclass": [
+      46,
+      47,
+      67,
+      100,
+      186,
+      195
+    ],
+    "program_with_entry_exactly_one": [
+      7,
+      10,
+      11,
+      26,
+      56,
+      135,
+      136,
+      181,
+      183,
+      186
+    ],
+    "provenance_agent_signs_audit": [
+      5,
+      12,
+      42
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      105,
+      161,
+      183,
+      186,
+      188
+    ],
+    "safety_planning_process": [
+      2,
+      10,
+      23,
+      25,
+      27,
+      183,
+      186
+    ],
+    "sample_subclass": [
+      4,
+      10,
+      46,
+      56,
+      125
+    ],
+    "schemaorg_event_location": [
+      6,
+      20,
+      30,
+      34,
+      41,
+      65,
+      69,
+      155,
+      183,
+      186
+    ],
+    "span_with_attribute": [
+      1,
+      26,
+      38,
+      66,
+      106,
+      181,
+      184,
+      186
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      42,
+      46,
+      66,
+      104,
+      111,
+      147,
+      154,
+      183,
+      186
+    ],
+    "taper_tolerance_constraint": [
+      6,
+      7,
+      42,
+      45,
+      58,
+      78,
+      155
+    ],
+    "tc_classifier_subclass": [
+      1,
+      2,
+      10,
+      12,
+      20,
+      26,
+      42,
+      46,
+      92,
+      102,
+      158,
+      184
+    ],
+    "technology_promotion_initiative": [
+      8,
+      10,
+      45,
+      47,
+      80,
+      81,
+      159,
+      165,
+      186
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      11,
+      61,
+      94,
+      100,
+      101,
+      143,
+      183,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_attrkey_with_value_type_d9f0a8",
+      "family": "01_foundation",
+      "topics": [
+        168,
+        185
+      ],
+      "cited_terms": [
+        "attrkey_with_value_type",
+        "foreign_key_relation",
+        "kernel_event_with_pid"
+      ]
+    },
+    {
+      "id": "ch_live_column_tag_at_confidence_aa6402",
+      "family": "07_long_tail",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "column_tag_at_confidence",
+        "measurement_with_method",
+        "column_renamed_from"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_union_ice_branches_eb291a",
+      "family": "01_foundation",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "equiv_union_ice_branches",
+        "trace_with_attributes",
+        "provenance_agent_signs_audit"
+      ]
+    },
+    {
+      "id": "ch_live_information_dissemination_event_cdd68b",
+      "family": "08_derived",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "information_dissemination_event",
+        "foreign_key_relation",
+        "provenance_agent_signs_audit"
+      ]
+    },
+    {
+      "id": "ch_live_intermediate_floor_assembly_a0a0a8",
+      "family": "08_derived",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "intermediate_floor_assembly",
+        "program_with_entry_exactly_one",
+        "syscall_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_kernel_event_with_comm_af63f5",
+      "family": "07_long_tail",
+      "topics": [
+        80,
+        168
+      ],
+      "cited_terms": [
+        "kernel_event_with_comm",
+        "kernel_event_with_pid",
+        "kernel_event_with_tid"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_to_target_5a07b1",
+      "family": "05_provo_lineage",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "lineage_edge_to_target",
+        "provenance_agent_signs_audit",
+        "safety_planning_process"
+      ]
+    },
+    {
+      "id": "ch_live_log_with_resource_attribute_4a0ad3",
+      "family": "07_long_tail",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "log_with_resource_attribute",
+        "ice_subclass_with_part",
+        "profiling_with_method"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_detection_uses_explainer_2b648e",
+      "family": "02_observation_measurement",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "outlier_detection_uses_explainer",
+        "sample_subclass",
+        "requirement_traces_to"
+      ]
+    },
+    {
+      "id": "ch_live_policy_classification_tier_74ffe2",
+      "family": "03_directive_governance",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "policy_classification_tier",
+        "ontology_class_match",
+        "dempster_combinant_first"
+      ]
+    },
+    {
+      "id": "ch_live_profiling_with_method_c04738",
+      "family": "02_observation_measurement",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "profiling_with_method",
+        "policy_basic",
+        "schemaorg_event_location"
+      ]
+    },
+    {
+      "id": "ch_live_program_subclass_b469a3",
+      "family": "01_foundation",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "program_subclass",
+        "program_with_entry_exactly_one",
+        "provenance_agent_signs_audit"
+      ]
+    },
+    {
+      "id": "ch_live_provenance_agent_signs_audit_7855a0",
+      "family": "07_long_tail",
+      "topics": [
+        168,
+        181,
+        195
+      ],
+      "cited_terms": [
+        "provenance_agent_signs_audit",
+        "profiling_basic",
+        "ebpfprogram_observes_syscall"
+      ]
+    },
+    {
+      "id": "ch_live_provenance_agent_signs_audit_87c6a5",
+      "family": "07_long_tail",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "provenance_agent_signs_audit",
+        "control_min_one_owner",
+        "dataset_snapshot_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_provenance_agent_signs_audit_ed09b9",
+      "family": "07_long_tail",
+      "topics": [
+        168,
+        181
+      ],
+      "cited_terms": [
+        "provenance_agent_signs_audit",
+        "column_renamed_from",
+        "measurement_with_unit"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_attribute_6cb357",
+      "family": "07_long_tail",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "span_with_attribute",
+        "process_either_started_or_completed",
+        "lineage_edge_at_run_time"
+      ]
+    },
+    {
+      "id": "ch_live_taper_tolerance_constraint_1063e4",
+      "family": "08_derived",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "taper_tolerance_constraint",
+        "tc_classifier_subclass",
+        "technology_promotion_initiative"
+      ]
+    },
+    {
+      "id": "ch_live_taper_tolerance_constraint_bae257",
+      "family": "08_derived",
+      "topics": [
+        168
+      ],
+      "cited_terms": [
+        "taper_tolerance_constraint",
+        "observation_with_participant",
+        "claim_basic"
+      ]
+    }
+  ]
+}

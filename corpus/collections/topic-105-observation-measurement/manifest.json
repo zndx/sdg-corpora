@@ -1,0 +1,583 @@
+{
+  "topic_id": 105,
+  "family": "02_observation_measurement",
+  "n_chapters": 14,
+  "coverage_score": 0.2758622467517853,
+  "topic_repr": "William K. Honker, Chief\nRCRA Permits Branch\nU. S. Environmental Protection Agency\nRegion 6\n1445 Ross Ave., Suite 1200\nDallas, Texas 75202-2733\n\nRE: Response to Notice of Deficiency (NOD) for OU 1082 RCRA Facility Investigation (RFI) Work Plan\n\nDear Mr. Honker:\n\nEnclosed is the response to the NOD for the OU 1082 RFI Work Plan which was submitted to your office for review on July 16, 1993. Environ...",
+  "terms": [
+    "allocation_completed_at",
+    "allocation_subclass",
+    "annotation_classifies_class",
+    "artifact_either_active_or_archived",
+    "belief_interval_exactly_two_bounds",
+    "bullying_response_process",
+    "claim_basic",
+    "classification_subclass",
+    "constraint_with_predicate",
+    "constraint_with_severity_classification",
+    "dataset_under_audit",
+    "dempster_combinant_first",
+    "ebpfevent_via_program_xref",
+    "ebpfmap_equiv_kv_typed",
+    "evidence_subclass",
+    "executive_leadership_role",
+    "lineage_edge_via_transformation",
+    "measurement_with_precision",
+    "outlier_claim_against_baseline",
+    "patient_insurance_record",
+    "plausibility_function_for",
+    "port_isolation_measurement",
+    "professional_expertise_domain",
+    "requirement_traces_to",
+    "schemaorg_event_starttime",
+    "shell_dimension_specification",
+    "subclass_to_process",
+    "syscall_invoked_by_event",
+    "verification_basic",
+    "verification_targets_artifact",
+    "xdp_action_pass"
+  ],
+  "tables": [
+    "t_allocation_completed_at",
+    "t_allocation_subclass",
+    "t_annotation_classifies_class",
+    "t_artifact_either_active_or_archived",
+    "t_belief_interval_exactly_two_bounds",
+    "t_bullying_response_process",
+    "t_claim_basic",
+    "t_classification_subclass",
+    "t_constraint_with_predicate",
+    "t_constraint_with_severity_classification",
+    "t_dataset_under_audit",
+    "t_dempster_combinant_first",
+    "t_ebpfevent_via_program_xref",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_evidence_subclass",
+    "t_executive_leadership_role",
+    "t_lineage_edge_via_transformation",
+    "t_measurement_with_precision",
+    "t_outlier_claim_against_baseline",
+    "t_patient_insurance_record",
+    "t_plausibility_function_for",
+    "t_port_isolation_measurement",
+    "t_professional_expertise_domain",
+    "t_requirement_traces_to",
+    "t_schemaorg_event_starttime",
+    "t_shell_dimension_specification",
+    "t_subclass_to_process",
+    "t_syscall_invoked_by_event",
+    "t_verification_basic",
+    "t_verification_targets_artifact",
+    "t_xdp_action_pass"
+  ],
+  "topics": [
+    105,
+    120,
+    140,
+    142,
+    156,
+    162,
+    178,
+    181,
+    183
+  ],
+  "shared_tables": {
+    "allocation_completed_at": [
+      1,
+      6,
+      7,
+      16,
+      26,
+      62,
+      180,
+      183
+    ],
+    "allocation_subclass": [
+      7,
+      8,
+      10,
+      26,
+      34,
+      42,
+      46,
+      94,
+      149,
+      183,
+      184,
+      186
+    ],
+    "annotation_classifies_class": [
+      4,
+      26,
+      54,
+      66,
+      67,
+      102,
+      186
+    ],
+    "artifact_either_active_or_archived": [
+      10,
+      44,
+      46,
+      79,
+      183,
+      186,
+      195
+    ],
+    "belief_interval_exactly_two_bounds": [
+      1,
+      26,
+      39,
+      80,
+      125,
+      186
+    ],
+    "bullying_response_process": [
+      26,
+      41,
+      44,
+      45,
+      75
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      128,
+      135,
+      136,
+      159,
+      161,
+      168,
+      181,
+      183,
+      186
+    ],
+    "classification_subclass": [
+      12,
+      41,
+      91
+    ],
+    "constraint_with_predicate": [
+      1,
+      12,
+      49,
+      65,
+      135,
+      155,
+      183,
+      186
+    ],
+    "constraint_with_severity_classification": [
+      24,
+      26,
+      47,
+      143,
+      186
+    ],
+    "dataset_under_audit": [
+      17
+    ],
+    "dempster_combinant_first": [
+      2,
+      3,
+      26,
+      38,
+      100,
+      161,
+      168,
+      183
+    ],
+    "ebpfevent_via_program_xref": [
+      10,
+      21,
+      30,
+      40,
+      62,
+      186,
+      188
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      21,
+      24,
+      34,
+      45,
+      181,
+      184,
+      186,
+      190
+    ],
+    "evidence_subclass": [
+      46,
+      66,
+      94,
+      187
+    ],
+    "executive_leadership_role": [
+      1,
+      2,
+      24,
+      26
+    ],
+    "lineage_edge_via_transformation": [
+      1,
+      23,
+      65,
+      79,
+      86,
+      94,
+      97,
+      106,
+      107,
+      140,
+      142
+    ],
+    "measurement_with_precision": [
+      10,
+      26,
+      40,
+      60,
+      186
+    ],
+    "outlier_claim_against_baseline": [
+      7,
+      67,
+      78,
+      92,
+      120
+    ],
+    "patient_insurance_record": [
+      1,
+      7,
+      11,
+      20,
+      26,
+      61,
+      79,
+      181,
+      183
+    ],
+    "plausibility_function_for": [
+      7,
+      42,
+      45,
+      60,
+      92,
+      149,
+      159,
+      186
+    ],
+    "port_isolation_measurement": [
+      20,
+      42,
+      56,
+      184,
+      186
+    ],
+    "professional_expertise_domain": [
+      1,
+      24,
+      26,
+      62,
+      81,
+      106,
+      183
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      161,
+      168,
+      183,
+      186,
+      188
+    ],
+    "schemaorg_event_starttime": [
+      14,
+      26,
+      42,
+      46,
+      97,
+      155,
+      159,
+      161,
+      186,
+      191
+    ],
+    "shell_dimension_specification": [
+      0,
+      2,
+      4,
+      25,
+      36,
+      46,
+      95,
+      119,
+      136,
+      183,
+      186,
+      191
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      45,
+      46,
+      47,
+      100,
+      102,
+      123,
+      159,
+      183,
+      191
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      31,
+      35,
+      42,
+      106,
+      107,
+      161
+    ],
+    "verification_basic": [
+      7,
+      23,
+      24,
+      26,
+      41,
+      46,
+      90,
+      97,
+      125,
+      129,
+      135,
+      147
+    ],
+    "verification_targets_artifact": [
+      1,
+      6,
+      24,
+      26,
+      27,
+      35,
+      62
+    ],
+    "xdp_action_pass": [
+      6,
+      23,
+      24,
+      56,
+      65,
+      107,
+      135,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_classification_subclass_377549",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        181
+      ],
+      "cited_terms": [
+        "classification_subclass",
+        "artifact_either_active_or_archived",
+        "xdp_action_pass"
+      ]
+    },
+    {
+      "id": "ch_live_classification_subclass_653441",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        181
+      ],
+      "cited_terms": [
+        "classification_subclass",
+        "executive_leadership_role",
+        "claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_classification_subclass_67d4a3",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        181
+      ],
+      "cited_terms": [
+        "classification_subclass",
+        "ebpfmap_equiv_kv_typed",
+        "patient_insurance_record"
+      ]
+    },
+    {
+      "id": "ch_live_classification_subclass_df41f5",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        181
+      ],
+      "cited_terms": [
+        "classification_subclass",
+        "bullying_response_process",
+        "allocation_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_under_audit_384ccc",
+      "family": "07_long_tail",
+      "topics": [
+        105,
+        156,
+        162,
+        178
+      ],
+      "cited_terms": [
+        "dataset_under_audit",
+        "syscall_invoked_by_event",
+        "shell_dimension_specification"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_subclass_44a6df",
+      "family": "06_belief_structure",
+      "topics": [
+        105
+      ],
+      "cited_terms": [
+        "evidence_subclass",
+        "belief_interval_exactly_two_bounds",
+        "dempster_combinant_first"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_against_baseline_ee030c",
+      "family": "02_observation_measurement",
+      "topics": [
+        105,
+        120,
+        142,
+        181
+      ],
+      "cited_terms": [
+        "outlier_claim_against_baseline",
+        "classification_subclass",
+        "verification_basic"
+      ]
+    },
+    {
+      "id": "ch_live_plausibility_function_for_49abaa",
+      "family": "07_long_tail",
+      "topics": [
+        105,
+        156,
+        162,
+        178
+      ],
+      "cited_terms": [
+        "plausibility_function_for",
+        "constraint_with_severity_classification",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ch_live_port_isolation_measurement_adab3e",
+      "family": "08_derived",
+      "topics": [
+        105,
+        140,
+        142,
+        181
+      ],
+      "cited_terms": [
+        "port_isolation_measurement",
+        "lineage_edge_via_transformation",
+        "classification_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_traces_to_b29483",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        156,
+        162,
+        178
+      ],
+      "cited_terms": [
+        "requirement_traces_to",
+        "measurement_with_precision",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_event_starttime_e2dcf5",
+      "family": "07_long_tail",
+      "topics": [
+        105,
+        181
+      ],
+      "cited_terms": [
+        "schemaorg_event_starttime",
+        "classification_subclass",
+        "ebpfevent_via_program_xref"
+      ]
+    },
+    {
+      "id": "ch_live_shell_dimension_specification_fcd64d",
+      "family": "08_derived",
+      "topics": [
+        105,
+        183
+      ],
+      "cited_terms": [
+        "shell_dimension_specification",
+        "verification_targets_artifact",
+        "subclass_to_process"
+      ]
+    },
+    {
+      "id": "ch_live_verification_targets_artifact_14a691",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        183
+      ],
+      "cited_terms": [
+        "verification_targets_artifact",
+        "allocation_completed_at",
+        "annotation_classifies_class"
+      ]
+    },
+    {
+      "id": "ch_live_verification_targets_artifact_20f485",
+      "family": "03_directive_governance",
+      "topics": [
+        105,
+        183
+      ],
+      "cited_terms": [
+        "verification_targets_artifact",
+        "constraint_with_predicate",
+        "professional_expertise_domain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "topic_id": 36,
+  "family": "01_foundation",
+  "n_chapters": 13,
+  "coverage_score": 0.12498759478330612,
+  "topic_repr": "REDUCING SILICA CONTENT IN RICE HUSK BY DECANTATION METHODS\n\nMaster thesis for Sustainable Biotechnology\n\nMaria Candelaria Dorta Delgado\n\nMain supervisor: Mette\n\nL\u00fcbeck\n\nCo-supervisor: Yohanna Cabrera Orozco\n\nCollaborator: Andr\u00e9s Cabrera Orozco\n\nAcknowledgments\n\nThroughout the writing of this thesis, I have received incredible support from many people, and I would like to express my gratitude to a...",
+  "terms": [
+    "aggregation_over_time_window",
+    "attestation_signed_by",
+    "attribute_set_supports_outlier_claim",
+    "breaking_change_subclass",
+    "census_reporting_event",
+    "claim_observed_by_event",
+    "column_lineage_describes_pair",
+    "constraint_with_violation_consequence",
+    "control_equiv_implements_with_owner",
+    "ebpfmap_used_by_program",
+    "entity_type_belongs_to",
+    "existential_with_part_of",
+    "measurement_of_artifact",
+    "pdsa_improvement_model",
+    "process_max_one_operator",
+    "process_produces_ice",
+    "process_uses_artifact",
+    "process_with_min_one_artifact",
+    "process_with_participant",
+    "requirement_under_standard",
+    "schemaorg_creativework_publisher",
+    "schemaorg_place_longitude",
+    "shell_dimension_specification",
+    "social_enterprise_annual_income",
+    "student_privacy_expectation",
+    "table_provenance_source",
+    "training_partnership_development",
+    "transformation_with_input_dataset",
+    "xdp_action_drop"
+  ],
+  "tables": [
+    "t_aggregation_over_time_window",
+    "t_attestation_signed_by",
+    "t_attribute_set_supports_outlier_claim",
+    "t_breaking_change_subclass",
+    "t_census_reporting_event",
+    "t_claim_observed_by_event",
+    "t_column_lineage_describes_pair",
+    "t_constraint_with_violation_consequence",
+    "t_control_equiv_implements_with_owner",
+    "t_ebpfmap_used_by_program",
+    "t_entity_type_belongs_to",
+    "t_existential_with_part_of",
+    "t_measurement_of_artifact",
+    "t_pdsa_improvement_model",
+    "t_process_max_one_operator",
+    "t_process_produces_ice",
+    "t_process_uses_artifact",
+    "t_process_with_min_one_artifact",
+    "t_process_with_participant",
+    "t_requirement_under_standard",
+    "t_schemaorg_creativework_publisher",
+    "t_schemaorg_place_longitude",
+    "t_shell_dimension_specification",
+    "t_social_enterprise_annual_income",
+    "t_student_privacy_expectation",
+    "t_table_provenance_source",
+    "t_training_partnership_development",
+    "t_transformation_with_input_dataset",
+    "t_xdp_action_drop"
+  ],
+  "topics": [
+    36,
+    41,
+    45,
+    49,
+    52,
+    53,
+    54,
+    60,
+    62,
+    91,
+    125,
+    126,
+    137,
+    169,
+    181,
+    185,
+    191
+  ],
+  "shared_tables": {
+    "aggregation_over_time_window": [
+      26,
+      27,
+      40,
+      65,
+      94,
+      102,
+      122,
+      147,
+      161,
+      186
+    ],
+    "attestation_signed_by": [
+      0,
+      7,
+      123,
+      125,
+      191
+    ],
+    "attribute_set_supports_outlier_claim": [
+      23,
+      24,
+      26,
+      34,
+      161,
+      172,
+      181,
+      185,
+      186
+    ],
+    "breaking_change_subclass": [
+      0,
+      14,
+      27,
+      41
+    ],
+    "census_reporting_event": [
+      5,
+      10,
+      11,
+      26,
+      33,
+      65,
+      69,
+      79,
+      102,
+      183,
+      186
+    ],
+    "claim_observed_by_event": [
+      0,
+      1,
+      4,
+      27,
+      40,
+      42,
+      49,
+      79,
+      97,
+      125,
+      155
+    ],
+    "constraint_with_violation_consequence": [
+      5,
+      23,
+      38,
+      42,
+      45,
+      47,
+      61,
+      86
+    ],
+    "control_equiv_implements_with_owner": [
+      1,
+      26,
+      91,
+      186
+    ],
+    "ebpfmap_used_by_program": [
+      1,
+      23,
+      30,
+      44,
+      45
+    ],
+    "entity_type_belongs_to": [
+      4,
+      7,
+      26,
+      51,
+      65,
+      109,
+      183,
+      185,
+      186
+    ],
+    "existential_with_part_of": [
+      5,
+      7,
+      26,
+      61,
+      67,
+      69,
+      109,
+      186
+    ],
+    "measurement_of_artifact": [
+      4,
+      10,
+      16,
+      44,
+      65,
+      100,
+      161,
+      183,
+      186
+    ],
+    "pdsa_improvement_model": [
+      0,
+      4,
+      26,
+      56,
+      60,
+      65,
+      83,
+      147,
+      186,
+      188
+    ],
+    "process_max_one_operator": [
+      26,
+      30,
+      135,
+      186
+    ],
+    "process_produces_ice": [
+      1,
+      10,
+      19
+    ],
+    "process_uses_artifact": [
+      12,
+      40,
+      86,
+      155,
+      185
+    ],
+    "process_with_min_one_artifact": [
+      4,
+      65,
+      91
+    ],
+    "process_with_participant": [
+      0,
+      1,
+      11,
+      24,
+      26,
+      60,
+      79,
+      125,
+      183,
+      186
+    ],
+    "requirement_under_standard": [
+      0,
+      8,
+      20,
+      26,
+      72,
+      163,
+      186
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      102,
+      143,
+      180,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_place_longitude": [
+      26,
+      34,
+      66,
+      94,
+      143,
+      158,
+      181,
+      186
+    ],
+    "shell_dimension_specification": [
+      0,
+      2,
+      4,
+      25,
+      46,
+      95,
+      105,
+      119,
+      136,
+      183,
+      186,
+      191
+    ],
+    "social_enterprise_annual_income": [
+      23,
+      26,
+      46,
+      54,
+      125
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      60,
+      69,
+      150,
+      183,
+      185,
+      186,
+      187
+    ],
+    "table_provenance_source": [
+      7,
+      26
+    ],
+    "training_partnership_development": [
+      26,
+      42,
+      44,
+      54,
+      83,
+      183,
+      186
+    ],
+    "transformation_with_input_dataset": [
+      1,
+      10,
+      54
+    ],
+    "xdp_action_drop": [
+      2,
+      26,
+      58,
+      61,
+      65,
+      86,
+      94,
+      143,
+      183
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_aggregation_over_time_window_eb62e0",
+      "family": "02_observation_measurement",
+      "topics": [
+        36,
+        62,
+        126
+      ],
+      "cited_terms": [
+        "aggregation_over_time_window",
+        "column_lineage_describes_pair",
+        "requirement_under_standard"
+      ]
+    },
+    {
+      "id": "ch_live_census_reporting_event_e6e188",
+      "family": "08_derived",
+      "topics": [
+        36,
+        53,
+        62,
+        126,
+        137
+      ],
+      "cited_terms": [
+        "census_reporting_event",
+        "table_provenance_source",
+        "student_privacy_expectation"
+      ]
+    },
+    {
+      "id": "ch_live_claim_observed_by_event_374c19",
+      "family": "07_long_tail",
+      "topics": [
+        36,
+        53,
+        62,
+        126,
+        137
+      ],
+      "cited_terms": [
+        "claim_observed_by_event",
+        "social_enterprise_annual_income",
+        "table_provenance_source"
+      ]
+    },
+    {
+      "id": "ch_live_column_lineage_describes_pair_da1c6c",
+      "family": "05_provo_lineage",
+      "topics": [
+        36,
+        45,
+        49,
+        62,
+        126
+      ],
+      "cited_terms": [
+        "column_lineage_describes_pair",
+        "xdp_action_drop",
+        "ebpfmap_used_by_program"
+      ]
+    },
+    {
+      "id": "ch_live_existential_with_part_of_100255",
+      "family": "01_foundation",
+      "topics": [
+        36,
+        54,
+        60
+      ],
+      "cited_terms": [
+        "existential_with_part_of",
+        "transformation_with_input_dataset",
+        "process_produces_ice"
+      ]
+    },
+    {
+      "id": "ch_live_pdsa_improvement_model_de0ae4",
+      "family": "08_derived",
+      "topics": [
+        36
+      ],
+      "cited_terms": [
+        "pdsa_improvement_model",
+        "process_produces_ice",
+        "constraint_with_violation_consequence"
+      ]
+    },
+    {
+      "id": "ch_live_process_produces_ice_3383ce",
+      "family": "01_foundation",
+      "topics": [
+        36,
+        41,
+        52
+      ],
+      "cited_terms": [
+        "process_produces_ice",
+        "breaking_change_subclass",
+        "control_equiv_implements_with_owner"
+      ]
+    },
+    {
+      "id": "ch_live_process_produces_ice_840573",
+      "family": "01_foundation",
+      "topics": [
+        36,
+        91,
+        181,
+        185
+      ],
+      "cited_terms": [
+        "process_produces_ice",
+        "process_uses_artifact",
+        "process_with_min_one_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_process_produces_ice_ad2270",
+      "family": "01_foundation",
+      "topics": [
+        36
+      ],
+      "cited_terms": [
+        "process_produces_ice",
+        "schemaorg_creativework_publisher",
+        "measurement_of_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_participant_203f59",
+      "family": "01_foundation",
+      "topics": [
+        36,
+        53,
+        62,
+        126,
+        137
+      ],
+      "cited_terms": [
+        "process_with_participant",
+        "schemaorg_place_longitude",
+        "table_provenance_source"
+      ]
+    },
+    {
+      "id": "ch_live_shell_dimension_specification_6d88ff",
+      "family": "08_derived",
+      "topics": [
+        36,
+        125,
+        169,
+        191
+      ],
+      "cited_terms": [
+        "shell_dimension_specification",
+        "process_produces_ice",
+        "attestation_signed_by"
+      ]
+    },
+    {
+      "id": "ch_live_table_provenance_source_5137b3",
+      "family": "07_long_tail",
+      "topics": [
+        36,
+        53,
+        62,
+        126,
+        137
+      ],
+      "cited_terms": [
+        "table_provenance_source",
+        "process_max_one_operator",
+        "attribute_set_supports_outlier_claim"
+      ]
+    },
+    {
+      "id": "ch_live_training_partnership_development_667cb2",
+      "family": "08_derived",
+      "topics": [
+        36
+      ],
+      "cited_terms": [
+        "training_partnership_development",
+        "entity_type_belongs_to",
+        "process_produces_ice"
+      ]
+    }
+  ]
+}

@@ -1,37 +1,185 @@
 # Collection — topic 47 · 01_foundation
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **9 chapters** · **17 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **33 chapters** · **18 topics** (target + style) · **67 ontology terms** · **67 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 47: topic 5, topic 24, topic 34, topic 56, topic 65, topic 70, topic 71, topic 75, topic 95, topic 96, topic 106, topic 110, topic 169, topic 195, topic 197, topic 199.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 47: topic 56, topic 61, topic 67, topic 69, topic 83, topic 86, topic 91, topic 126, topic 129, topic 135, topic 136, topic 140, topic 142, topic 146, topic 181, topic 184, topic 195.
 
 > **Topic gist** (representative FinePDFs text): An Efficient Method for Evaluating the Effect of Lattice Vibrations on the NMR Second Moment ROLF SJÖBLOM* Institute of Chemistry, University of Uppsala, S-75121 Uppsala, Sweden AND URI SHMUELI Department of Chemistry, Tel-Aviv University, 61390 Ramat-Aviv, Israel Received September 7, 1978 An improved algorithm for the evaluation of intra- and inter-molecular contributions to the NMR secon... …
 
 ## Chapters
 
-- [Chapter 4: Compliance Frameworks and Directive Ontology in Multi-Regulatory Environments](chapters/2ae147af95560bc0.md)
-- [Chapter 4: Formal Ontology of Compliance Directives](chapters/3563cbe4ce6b5615.md)
-- [4 Directive Governance in Relational Form](chapters/3e2320ac5ab71edb.md)
-- [Chapter 4: Formalization of Regulatory Directives and Safeguard Implementation](chapters/52f956f6e6f10eb6.md)
-- [Chapter 4: Ontological Formalization of Cross-Regulatory Compliance Directives](chapters/737d3a561a6658b2.md)
-- [Regulatory Directive Compliance Schema](chapters/744a43c551ec79fa.md)
-- [Chapter 4: Regulatory Directive Mapping and Ontological Formalization](chapters/d8669ccb5ba7c198.md)
-- [Chapter 4: Regulatory Directives and Compliance Frameworks](chapters/f33e32cef762ea79.md)
-- [Chapter 4: Regulatory Directive Mapping and Control Equivalence Frameworks](chapters/f743bd2befa44bdb.md)
+- [ch_live_attestation_basic_f47c69](chapters/ch_live_attestation_basic_f47c69.md)
+- [ch_live_control_with_classification_tier_da0831](chapters/ch_live_control_with_classification_tier_da0831.md)
+- [ch_live_dempster_combinant_second_7de518](chapters/ch_live_dempster_combinant_second_7de518.md)
+- [ch_live_descriptive_not_retracted_6f1138](chapters/ch_live_descriptive_not_retracted_6f1138.md)
+- [ch_live_directive_only_governs_324ad3](chapters/ch_live_directive_only_governs_324ad3.md)
+- [ch_live_directive_only_governs_d1da8b](chapters/ch_live_directive_only_governs_d1da8b.md)
+- [ch_live_ebpfprogram_subclass_e3c9b0](chapters/ch_live_ebpfprogram_subclass_e3c9b0.md)
+- [ch_live_ganglion_cyst_imaging_finding_5bda5e](chapters/ch_live_ganglion_cyst_imaging_finding_5bda5e.md)
+- [ch_live_ice_about_artifact_7afce5](chapters/ch_live_ice_about_artifact_7afce5.md)
+- [ch_live_ice_exactly_one_subject_06e779](chapters/ch_live_ice_exactly_one_subject_06e779.md)
+- [ch_live_ice_exactly_one_subject_2f91b1](chapters/ch_live_ice_exactly_one_subject_2f91b1.md)
+- [ch_live_information_dissemination_event_fdaeb2](chapters/ch_live_information_dissemination_event_fdaeb2.md)
+- [ch_live_labrun_basic_023e74](chapters/ch_live_labrun_basic_023e74.md)
+- [ch_live_labrun_uses_instrument_3c0a96](chapters/ch_live_labrun_uses_instrument_3c0a96.md)
+- [ch_live_myxoid_degeneration_process_6616d7](chapters/ch_live_myxoid_degeneration_process_6616d7.md)
+- [ch_live_national_dataset_augmentation_process_48d276](chapters/ch_live_national_dataset_augmentation_process_48d276.md)
+- [ch_live_outlier_detection_basic_e004ea](chapters/ch_live_outlier_detection_basic_e004ea.md)
+- [ch_live_perf_event_subclass_1c7dc5](chapters/ch_live_perf_event_subclass_1c7dc5.md)
+- [ch_live_policy_classification_tier_1ac374](chapters/ch_live_policy_classification_tier_1ac374.md)
+- [ch_live_profiling_basic_85ad28](chapters/ch_live_profiling_basic_85ad28.md)
+- [ch_live_requirement_basic_cb8be5](chapters/ch_live_requirement_basic_cb8be5.md)
+- [ch_live_responsive_optic_nerve_dysfunction_566153](chapters/ch_live_responsive_optic_nerve_dysfunction_566153.md)
+- [ch_live_schema_migration_subclass_5e9784](chapters/ch_live_schema_migration_subclass_5e9784.md)
+- [ch_live_subclass_basic_c0ef84](chapters/ch_live_subclass_basic_c0ef84.md)
+- [ch_live_subclass_to_directive_ice_6e2dd2](chapters/ch_live_subclass_to_directive_ice_6e2dd2.md)
+- [ch_live_subclass_to_directive_ice_f89263](chapters/ch_live_subclass_to_directive_ice_f89263.md)
+- [ch_live_subclass_to_independent_continuant_1f1553](chapters/ch_live_subclass_to_independent_continuant_1f1553.md)
+- [ch_live_subclass_to_information_content_entity_30f9cd](chapters/ch_live_subclass_to_information_content_entity_30f9cd.md)
+- [ch_live_subclass_to_information_content_entity_70d19f](chapters/ch_live_subclass_to_information_content_entity_70d19f.md)
+- [ch_live_subclass_to_information_content_entity_75dc3d](chapters/ch_live_subclass_to_information_content_entity_75dc3d.md)
+- [ch_live_subclass_to_information_content_entity_d19ab7](chapters/ch_live_subclass_to_information_content_entity_d19ab7.md)
+- [ch_live_subclass_to_information_content_entity_f67902](chapters/ch_live_subclass_to_information_content_entity_f67902.md)
+- [ch_live_two_disjoint_artifacts_941a4f](chapters/ch_live_two_disjoint_artifacts_941a4f.md)
 
 ## Ontology terms grounding this collection
 
-- `hipaa_safeguard_admin` — {X} is a directive information content entity that hipaa safeguard {Y}
-- `hipaa_safeguard_physical` — {X} is a directive information content entity that hipaa safeguard {Y}
-- `hipaa_safeguard_technical` — {X} is a directive information content entity that hipaa safeguard {Y}
-- `pci_dss_requirement` — {X} is a directive information content entity that pci dss requirement {Y}
-- `requirement_equiv_specifies_target` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:specifies some {Y:Class}) and (sdg:appliesTo some {Z:Class})
+- `annotation_only_about_artifact` — {X} is a descriptive information content entity
+- `attestation_basic` — {X} is a process
+- `attestation_subclass` — {X} is a process that attests to control directive information content entity
+- `column_pair_subject` — {X} is a descriptive information content entity that has subject column {Y}
+- `column_tag_from_annotator` — {X} is a descriptive information content entity that by annotator {Y}
+- `constraint_with_severity_classification` — {X} is a directive information content entity that has severity {Y}
+- `constraint_with_violation_consequence` — {X} is a directive information content entity that on violation {Z}
+- `control_at_severity` — {X} is a directive information content entity that at severity {Y}
+- `control_with_classification_tier` — {X} is a directive information content entity that at classification tier designative information content entity
+- `crop_parasitism_impact` — CropParasitismImpact is an information content entity that affects exactly one RiceCultivationSystem, parasitises exactl
+- `dempster_combinant_second` — {X} is a descriptive information content entity that has second combinant {Y}
+- `dempster_combination_subclass` — {X} is a descriptive information content entity that combines via dempster {Y}
+- `dempster_conflict_mass` — {X} is a descriptive information content entity that has conflict mass {Y}
+- `dengue_transmission_process` — A DengueTransmissionProcess is a BFO process that involves a HumanPopulation via sdg:involvesHost and an AedesAegyptiVec
+- `descriptive_not_retracted` — {X} is not {Y}
+- `digital_media_service` — DigitalMediaService is an information content entity that provides at least one ServiceFunction.
+- `directive_only_governs` — {X} is a directive information content entity that {p} {Y}
+- `directive_only_governs_artifact` — {X} is a directive information content entity that governs {Y}
+- `directive_supersedes_directive` — {X} is a directive information content entity that supersedes directive information content entity
+- `ebpfprogram_subclass` — {X} is an artifact that attaches to hook {Y}
+- `evidence_observed_by_process` — {X} is a descriptive information content entity
+- `evidence_with_mass_function` — {X} is a descriptive information content entity that has mass function {Y}
+- `existential_two_clauses` — {X} is something that {p} {Y}
+- `existential_with_has_part` — {X} is something that has part {Y}
+- `farmland_acquisition_process` — A FarmlandAcquisitionProcess is a Process that targets an InstitutionalInvestor and acquires an AgriculturalLandParcel.
+- `frame_refinement` — {X} is a descriptive information content entity that refines frame {Y}
+- `functional_dependency_lhs` — {X} is a descriptive information content entity that has fdleft hand side {Y}
+- `ganglion_cyst_imaging_finding` — GanglionCystImagingFinding is an information content entity that visualizes some MagneticResonanceImagingModality.
+- `ice_about_artifact` — {X} is an information content entity that is about artifact
+- `ice_exactly_one_subject` — {X} is an information content entity
+- `ice_subclass_with_part` — {X} is an information content entity that has part information content entity
+- `identifier_subclass` — {X} is a designative information content entity that identifies {Y}
+- `information_dissemination_event` — InformationDisseminationEvent is an occurrent that utilizes a DisseminationChannel, reaches a TargetAudience, and occurs
+- `labrun_basic` — {X} is a process
+- `labrun_uses_instrument` — {X} is a process that uses {Y}
+- `lineage_edge_with_provenance` — {X} is a descriptive information content entity that with provenance {Y}
+- `mass_function_subclass` — {X} is a descriptive information content entity that over frame of discernment {Y}
+- `mass_function_with_focal_element` — {X} is a descriptive information content entity that has focal element {Y}
+- `measurement_subclass_only_one_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `measurement_with_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `myxoid_degeneration_process` — MyxoidDegenerationProcess is a process that degrades some ConnectiveTissueRegion and results in some GanglionCystFormati
+- `national_dataset_augmentation_process` — NationalDatasetAugmentationProcess is a process that incorporates CopernicusObservationSource and augments ExistingNatio
+- `outlier_detection_basic` — {X} is a process
+- `perf_event_subclass` — {X} is an artifact that has perf event config {Y}
+- `policy_classification_tier` — {X} is a directive information content entity that at classification tier {Y}
+- `process_min_one_output` — {X} is a process
+- `profiling_basic` — {X} is a process
+- `profiling_with_method` — {X} is a process that applies method {Y}
+- `program_subclass` — {X} is an artifact that has input {Y}
+- `reference_within_dataset` — {X} is a designative information content entity that points to {Y}
+- `requirement_applies_to_system` — {X} is a directive information content entity
+- `requirement_basic` — {X} is a directive information content entity
+- `responsive_optic_nerve_dysfunction` — ResponsiveOpticNerveDysfunction is equivalent to OpticNerveDysfunction and not LeberOpticAtrophy.
+- `schema_migration_subclass` — {X} is a process that migrates schema to {Y}
+- `schema_revision_of` — {X} is an artifact that schema revision of {Y}
+- `schemaorg_person_roleat` — {X} is an artifact that has role at {Y}
+- `schemaorg_product_brand` — {X} is an artifact that has brand {Y}
+- `subclass_basic` — {X} is a {Y}
+- `subclass_to_directive_ice` — {X} is a directive information content entity
+- `subclass_to_independent_continuant` — {X} is an independent continuant
+- `subclass_to_information_content_entity` — {X} is an information content entity
+- `subclass_to_process` — {X} is a process
+- `syscall_governed_by_directive` — {X} is a designative information content entity that governed by directive information content entity
+- `table_topic_tag` — {X} is a descriptive information content entity that has table topic {Y}
+- `technology_promotion_initiative` — A TechnologyPromotionInitiative is a Process that targetsSector some IndustrySector and utilizesChannel some Communicati
+- `two_disjoint_artifacts` — {X} is not {Y}
+- `verification_concludes_with` — {X} is a process that concludes with {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_hipaa_safeguard_admin`](tables/t_hipaa_safeguard_admin.sql) — realizes `hipaa_safeguard_admin` · _shared with 14 other collection(s)_
-- [`t_hipaa_safeguard_physical`](tables/t_hipaa_safeguard_physical.sql) — realizes `hipaa_safeguard_physical` · _shared with 17 other collection(s)_
-- [`t_hipaa_safeguard_technical`](tables/t_hipaa_safeguard_technical.sql) — realizes `hipaa_safeguard_technical` · _shared with 15 other collection(s)_
-- [`t_pci_dss_requirement`](tables/t_pci_dss_requirement.sql) — realizes `pci_dss_requirement` · _shared with 27 other collection(s)_
-- [`t_requirement_equiv_specifies_target`](tables/t_requirement_equiv_specifies_target.sql) — realizes `requirement_equiv_specifies_target` · _shared with 27 other collection(s)_
+- [`t_annotation_only_about_artifact`](tables/t_annotation_only_about_artifact.sql) — realizes `annotation_only_about_artifact` · _shared with 8 other collection(s)_
+- [`t_attestation_basic`](tables/t_attestation_basic.sql) — realizes `attestation_basic` · _shared with 8 other collection(s)_
+- [`t_attestation_subclass`](tables/t_attestation_subclass.sql) — realizes `attestation_subclass` · _shared with 6 other collection(s)_
+- [`t_column_pair_subject`](tables/t_column_pair_subject.sql) — realizes `column_pair_subject` · _shared with 9 other collection(s)_
+- [`t_column_tag_from_annotator`](tables/t_column_tag_from_annotator.sql) — realizes `column_tag_from_annotator` · _shared with 6 other collection(s)_
+- [`t_constraint_with_severity_classification`](tables/t_constraint_with_severity_classification.sql) — realizes `constraint_with_severity_classification` · _shared with 5 other collection(s)_
+- [`t_constraint_with_violation_consequence`](tables/t_constraint_with_violation_consequence.sql) — realizes `constraint_with_violation_consequence` · _shared with 8 other collection(s)_
+- [`t_control_at_severity`](tables/t_control_at_severity.sql) — realizes `control_at_severity` · _shared with 6 other collection(s)_
+- [`t_control_with_classification_tier`](tables/t_control_with_classification_tier.sql) — realizes `control_with_classification_tier` · _shared with 10 other collection(s)_
+- [`t_crop_parasitism_impact`](tables/t_crop_parasitism_impact.sql) — realizes `crop_parasitism_impact` · _shared with 9 other collection(s)_
+- [`t_dempster_combinant_second`](tables/t_dempster_combinant_second.sql) — realizes `dempster_combinant_second` · _shared with 7 other collection(s)_
+- [`t_dempster_combination_subclass`](tables/t_dempster_combination_subclass.sql) — realizes `dempster_combination_subclass` · _shared with 5 other collection(s)_
+- [`t_dempster_conflict_mass`](tables/t_dempster_conflict_mass.sql) — realizes `dempster_conflict_mass` · _shared with 5 other collection(s)_
+- [`t_dengue_transmission_process`](tables/t_dengue_transmission_process.sql) — realizes `dengue_transmission_process` · _shared with 9 other collection(s)_
+- [`t_descriptive_not_retracted`](tables/t_descriptive_not_retracted.sql) — realizes `descriptive_not_retracted` · _shared with 14 other collection(s)_
+- [`t_digital_media_service`](tables/t_digital_media_service.sql) — realizes `digital_media_service` · _shared with 5 other collection(s)_
+- [`t_directive_only_governs`](tables/t_directive_only_governs.sql) — realizes `directive_only_governs` · _shared with 2 other collection(s)_
+- [`t_directive_only_governs_artifact`](tables/t_directive_only_governs_artifact.sql) — realizes `directive_only_governs_artifact` · _shared with 8 other collection(s)_
+- [`t_directive_supersedes_directive`](tables/t_directive_supersedes_directive.sql) — realizes `directive_supersedes_directive` · _shared with 6 other collection(s)_
+- [`t_ebpfprogram_subclass`](tables/t_ebpfprogram_subclass.sql) — realizes `ebpfprogram_subclass` · _shared with 4 other collection(s)_
+- [`t_evidence_observed_by_process`](tables/t_evidence_observed_by_process.sql) — realizes `evidence_observed_by_process` · _shared with 7 other collection(s)_
+- [`t_evidence_with_mass_function`](tables/t_evidence_with_mass_function.sql) — realizes `evidence_with_mass_function` · _shared with 10 other collection(s)_
+- [`t_existential_two_clauses`](tables/t_existential_two_clauses.sql) — realizes `existential_two_clauses` · _shared with 4 other collection(s)_
+- [`t_existential_with_has_part`](tables/t_existential_with_has_part.sql) — realizes `existential_with_has_part` · _shared with 7 other collection(s)_
+- [`t_farmland_acquisition_process`](tables/t_farmland_acquisition_process.sql) — realizes `farmland_acquisition_process` · _shared with 5 other collection(s)_
+- [`t_frame_refinement`](tables/t_frame_refinement.sql) — realizes `frame_refinement` · _shared with 8 other collection(s)_
+- [`t_functional_dependency_lhs`](tables/t_functional_dependency_lhs.sql) — realizes `functional_dependency_lhs` · _shared with 8 other collection(s)_
+- [`t_ganglion_cyst_imaging_finding`](tables/t_ganglion_cyst_imaging_finding.sql) — realizes `ganglion_cyst_imaging_finding` · _shared with 11 other collection(s)_
+- [`t_ice_about_artifact`](tables/t_ice_about_artifact.sql) — realizes `ice_about_artifact` · _shared with 4 other collection(s)_
+- [`t_ice_exactly_one_subject`](tables/t_ice_exactly_one_subject.sql) — realizes `ice_exactly_one_subject` · _shared with 5 other collection(s)_
+- [`t_ice_subclass_with_part`](tables/t_ice_subclass_with_part.sql) — realizes `ice_subclass_with_part` · _shared with 9 other collection(s)_
+- [`t_identifier_subclass`](tables/t_identifier_subclass.sql) — realizes `identifier_subclass` · _shared with 3 other collection(s)_
+- [`t_information_dissemination_event`](tables/t_information_dissemination_event.sql) — realizes `information_dissemination_event` · _shared with 8 other collection(s)_
+- [`t_labrun_basic`](tables/t_labrun_basic.sql) — realizes `labrun_basic` · _shared with 2 other collection(s)_
+- [`t_labrun_uses_instrument`](tables/t_labrun_uses_instrument.sql) — realizes `labrun_uses_instrument` · _shared with 2 other collection(s)_
+- [`t_lineage_edge_with_provenance`](tables/t_lineage_edge_with_provenance.sql) — realizes `lineage_edge_with_provenance` · _shared with 7 other collection(s)_
+- [`t_mass_function_subclass`](tables/t_mass_function_subclass.sql) — realizes `mass_function_subclass` · _shared with 3 other collection(s)_
+- [`t_mass_function_with_focal_element`](tables/t_mass_function_with_focal_element.sql) — realizes `mass_function_with_focal_element` · _shared with 4 other collection(s)_
+- [`t_measurement_subclass_only_one_unit`](tables/t_measurement_subclass_only_one_unit.sql) — realizes `measurement_subclass_only_one_unit` · _shared with 7 other collection(s)_
+- [`t_measurement_with_unit`](tables/t_measurement_with_unit.sql) — realizes `measurement_with_unit` · _shared with 9 other collection(s)_
+- [`t_myxoid_degeneration_process`](tables/t_myxoid_degeneration_process.sql) — realizes `myxoid_degeneration_process` · _shared with 7 other collection(s)_
+- [`t_national_dataset_augmentation_process`](tables/t_national_dataset_augmentation_process.sql) — realizes `national_dataset_augmentation_process` · _shared with 11 other collection(s)_
+- [`t_outlier_detection_basic`](tables/t_outlier_detection_basic.sql) — realizes `outlier_detection_basic` · _shared with 4 other collection(s)_
+- [`t_perf_event_subclass`](tables/t_perf_event_subclass.sql) — realizes `perf_event_subclass` · _shared with 6 other collection(s)_
+- [`t_policy_classification_tier`](tables/t_policy_classification_tier.sql) — realizes `policy_classification_tier` · _shared with 9 other collection(s)_
+- [`t_process_min_one_output`](tables/t_process_min_one_output.sql) — realizes `process_min_one_output` · _shared with 7 other collection(s)_
+- [`t_profiling_basic`](tables/t_profiling_basic.sql) — realizes `profiling_basic` · _shared with 7 other collection(s)_
+- [`t_profiling_with_method`](tables/t_profiling_with_method.sql) — realizes `profiling_with_method` · _shared with 9 other collection(s)_
+- [`t_program_subclass`](tables/t_program_subclass.sql) — realizes `program_subclass` · _shared with 6 other collection(s)_
+- [`t_reference_within_dataset`](tables/t_reference_within_dataset.sql) — realizes `reference_within_dataset` · _shared with 8 other collection(s)_
+- [`t_requirement_applies_to_system`](tables/t_requirement_applies_to_system.sql) — realizes `requirement_applies_to_system` · _shared with 8 other collection(s)_
+- [`t_requirement_basic`](tables/t_requirement_basic.sql) — realizes `requirement_basic` · _shared with 6 other collection(s)_
+- [`t_responsive_optic_nerve_dysfunction`](tables/t_responsive_optic_nerve_dysfunction.sql) — realizes `responsive_optic_nerve_dysfunction` · _shared with 10 other collection(s)_
+- [`t_schema_migration_subclass`](tables/t_schema_migration_subclass.sql) — realizes `schema_migration_subclass` · _shared with 2 other collection(s)_
+- [`t_schema_revision_of`](tables/t_schema_revision_of.sql) — realizes `schema_revision_of` · _shared with 9 other collection(s)_
+- [`t_schemaorg_person_roleat`](tables/t_schemaorg_person_roleat.sql) — realizes `schemaorg_person_roleat` · _shared with 7 other collection(s)_
+- [`t_schemaorg_product_brand`](tables/t_schemaorg_product_brand.sql) — realizes `schemaorg_product_brand` · _shared with 9 other collection(s)_
+- [`t_subclass_basic`](tables/t_subclass_basic.sql) — realizes `subclass_basic` · _shared with 12 other collection(s)_
+- [`t_subclass_to_directive_ice`](tables/t_subclass_to_directive_ice.sql) — realizes `subclass_to_directive_ice` · _shared with 3 other collection(s)_
+- [`t_subclass_to_independent_continuant`](tables/t_subclass_to_independent_continuant.sql) — realizes `subclass_to_independent_continuant` · _shared with 7 other collection(s)_
+- [`t_subclass_to_information_content_entity`](tables/t_subclass_to_information_content_entity.sql) — realizes `subclass_to_information_content_entity` · _shared with 3 other collection(s)_
+- [`t_subclass_to_process`](tables/t_subclass_to_process.sql) — realizes `subclass_to_process` · _shared with 13 other collection(s)_
+- [`t_syscall_governed_by_directive`](tables/t_syscall_governed_by_directive.sql) — realizes `syscall_governed_by_directive` · _shared with 6 other collection(s)_
+- [`t_table_topic_tag`](tables/t_table_topic_tag.sql) — realizes `table_topic_tag` · _shared with 2 other collection(s)_
+- [`t_technology_promotion_initiative`](tables/t_technology_promotion_initiative.sql) — realizes `technology_promotion_initiative` · _shared with 9 other collection(s)_
+- [`t_two_disjoint_artifacts`](tables/t_two_disjoint_artifacts.sql) — realizes `two_disjoint_artifacts` · _shared with 7 other collection(s)_
+- [`t_verification_concludes_with`](tables/t_verification_concludes_with.sql) — realizes `verification_concludes_with` · _shared with 4 other collection(s)_

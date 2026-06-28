@@ -1,322 +1,709 @@
 {
   "topic_id": 100,
   "family": "07_long_tail",
-  "n_chapters": 10,
-  "coverage_score": 0.23412778973579407,
+  "n_chapters": 19,
+  "coverage_score": 0.23893840610980988,
   "topic_repr": "MULTIMODAL FREIGHT DATA SOURCE PROFILES\n\nJUNE 2016\n\nSECTION 2\n\nMULTIMODAL FREIGHT DATA SOURCE PROFILES\n\nAIRPORT COUNCIL INTERNATIONAL (ACI)\n\nAirport Council International (ACI) is an international organization focused on airports worldwide and professional excellence in airport operations. ACI collects and distributes data and statistics on cargo and passenger air traffic. Data include annual and ...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "hipaa_safeguard_admin",
-    "hipaa_safeguard_physical",
-    "hipaa_safeguard_technical",
-    "pci_dss_requirement"
+    "alert_governed_by_runbook",
+    "allocation_with_output_facets",
+    "cardinality_max_three_generic",
+    "claim_subclass",
+    "column_property_subclass",
+    "constraint_subclass",
+    "control_basic",
+    "control_under_framework",
+    "dempster_combinant_first",
+    "dempster_combination_subclass",
+    "directive_supersedes_directive",
+    "division_eligibility_constraint",
+    "ebpfmap_exactly_one_type",
+    "ebpfmap_subclass",
+    "ebpfprogram_equiv_typed_with_hook",
+    "electricity_usage_pattern_record",
+    "evidence_independent_or_correlated",
+    "frame_refinement",
+    "identifier_uniquely_identifies",
+    "institutional_vision_statement",
+    "kernelhook_for_subsystem",
+    "log_record_subclass",
+    "measurement_max_one_value",
+    "measurement_of_artifact",
+    "outlier_claim_supported_by_lift",
+    "outlier_claim_with_attribute_set",
+    "policy_constrains_only_artifact",
+    "profile_has_cardinality",
+    "program_subclass",
+    "requirement_refines",
+    "schema_revision_of",
+    "schemaorg_creativework_date",
+    "schemaorg_place_address",
+    "span_with_trace_id",
+    "state_observed_at_time",
+    "subclass_to_process",
+    "syscall_traceable",
+    "trace_has_resource",
+    "trace_in_service",
+    "trace_min_one_span",
+    "trace_with_attributes"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_hipaa_safeguard_admin",
-    "t_hipaa_safeguard_physical",
-    "t_hipaa_safeguard_technical",
-    "t_pci_dss_requirement"
+    "t_alert_governed_by_runbook",
+    "t_allocation_with_output_facets",
+    "t_cardinality_max_three_generic",
+    "t_claim_subclass",
+    "t_column_property_subclass",
+    "t_constraint_subclass",
+    "t_control_basic",
+    "t_control_under_framework",
+    "t_dempster_combinant_first",
+    "t_dempster_combination_subclass",
+    "t_directive_supersedes_directive",
+    "t_division_eligibility_constraint",
+    "t_ebpfmap_exactly_one_type",
+    "t_ebpfmap_subclass",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_electricity_usage_pattern_record",
+    "t_evidence_independent_or_correlated",
+    "t_frame_refinement",
+    "t_identifier_uniquely_identifies",
+    "t_institutional_vision_statement",
+    "t_kernelhook_for_subsystem",
+    "t_log_record_subclass",
+    "t_measurement_max_one_value",
+    "t_measurement_of_artifact",
+    "t_outlier_claim_supported_by_lift",
+    "t_outlier_claim_with_attribute_set",
+    "t_policy_constrains_only_artifact",
+    "t_profile_has_cardinality",
+    "t_program_subclass",
+    "t_requirement_refines",
+    "t_schema_revision_of",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_place_address",
+    "t_span_with_trace_id",
+    "t_state_observed_at_time",
+    "t_subclass_to_process",
+    "t_syscall_traceable",
+    "t_trace_has_resource",
+    "t_trace_in_service",
+    "t_trace_min_one_span",
+    "t_trace_with_attributes"
   ],
   "topics": [
-    23,
-    49,
-    52,
-    58,
-    70,
-    78,
-    82,
-    89,
-    90,
-    94,
-    95,
     100,
-    102,
-    125,
-    139,
-    148,
-    164,
-    173,
-    197
+    135,
+    138,
+    143,
+    161,
+    165,
+    183,
+    184,
+    188
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "alert_governed_by_runbook": [
+      35,
+      67,
+      90,
+      119,
+      135
+    ],
+    "allocation_with_output_facets": [
+      46,
+      65,
+      119,
+      146,
+      181,
+      186
+    ],
+    "cardinality_max_three_generic": [
+      4,
+      23,
+      46,
+      65,
+      75,
+      143,
+      165,
+      183,
+      186
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      20,
+      26,
+      56,
+      61,
+      69,
+      97,
+      104,
+      186,
+      188
+    ],
+    "column_property_subclass": [
+      4,
+      45,
+      106,
+      109,
+      181,
+      183
+    ],
+    "constraint_subclass": [
+      26,
+      92,
+      119,
+      128,
+      186
+    ],
+    "control_basic": [
+      2,
+      26,
+      27,
+      30,
+      140,
+      159,
+      183,
+      186
+    ],
+    "control_under_framework": [
+      11,
+      16,
+      34,
+      186
+    ],
+    "dempster_combinant_first": [
       2,
       3,
-      5,
-      6,
-      7,
-      16,
-      20,
-      23,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
-    ],
-    "hipaa_safeguard_admin": [
-      13,
-      35,
-      39,
-      47,
-      68,
-      74,
-      91,
-      98,
-      108,
-      117,
-      136,
-      151,
-      181,
+      38,
+      105,
+      161,
+      168,
       183
     ],
-    "hipaa_safeguard_physical": [
-      13,
-      35,
-      39,
+    "dempster_combination_subclass": [
+      1,
+      26,
       47,
-      58,
-      68,
-      74,
-      91,
-      92,
-      98,
-      108,
-      117,
-      135,
-      136,
-      151,
-      181,
-      183
+      60,
+      181
     ],
-    "hipaa_safeguard_technical": [
-      13,
-      35,
-      39,
+    "directive_supersedes_directive": [
       47,
-      74,
-      91,
-      92,
-      98,
-      108,
-      117,
-      134,
-      136,
-      151,
-      181,
-      183
-    ],
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
-      47,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      106,
-      108,
-      115,
-      117,
-      134,
-      135,
-      148,
-      150,
-      151,
+      94,
+      146,
       165,
       181,
+      186
+    ],
+    "division_eligibility_constraint": [
+      6,
+      7,
+      8,
+      26,
+      34,
+      101,
+      125,
+      140,
+      149,
       183,
-      185,
-      197
+      186
+    ],
+    "ebpfmap_exactly_one_type": [
+      4,
+      7,
+      44,
+      45,
+      128,
+      186
+    ],
+    "ebpfmap_subclass": [
+      14,
+      23,
+      34,
+      102,
+      161,
+      181,
+      186
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      8,
+      11,
+      23,
+      41,
+      79,
+      143
+    ],
+    "electricity_usage_pattern_record": [
+      11,
+      34,
+      91,
+      183,
+      186
+    ],
+    "evidence_independent_or_correlated": [
+      42,
+      46,
+      97,
+      155,
+      165
+    ],
+    "frame_refinement": [
+      23,
+      24,
+      26,
+      44,
+      47,
+      79,
+      140,
+      186
+    ],
+    "identifier_uniquely_identifies": [
+      7,
+      23,
+      41,
+      45,
+      46,
+      60,
+      78,
+      186
+    ],
+    "institutional_vision_statement": [
+      4,
+      8,
+      19,
+      26,
+      35,
+      67,
+      107,
+      128,
+      140,
+      159,
+      165,
+      186
+    ],
+    "kernelhook_for_subsystem": [
+      5,
+      7,
+      10,
+      19,
+      24,
+      61,
+      65,
+      111,
+      188
+    ],
+    "log_record_subclass": [
+      1,
+      2,
+      19,
+      41,
+      42,
+      61,
+      120,
+      125,
+      186
+    ],
+    "measurement_max_one_value": [
+      20,
+      44,
+      109,
+      161
+    ],
+    "measurement_of_artifact": [
+      4,
+      10,
+      16,
+      36,
+      44,
+      65,
+      161,
+      183,
+      186
+    ],
+    "outlier_claim_supported_by_lift": [
+      10,
+      40,
+      41,
+      80,
+      86,
+      159,
+      183,
+      186
+    ],
+    "outlier_claim_with_attribute_set": [
+      10,
+      61,
+      86,
+      94,
+      186
+    ],
+    "policy_constrains_only_artifact": [
+      5,
+      26,
+      46,
+      62,
+      83,
+      109,
+      125,
+      135,
+      186
+    ],
+    "profile_has_cardinality": [
+      4,
+      23,
+      26,
+      30,
+      62,
+      106,
+      186
+    ],
+    "program_subclass": [
+      46,
+      47,
+      67,
+      168,
+      186,
+      195
+    ],
+    "requirement_refines": [
+      25,
+      60,
+      69,
+      140,
+      155,
+      159,
+      183,
+      186
+    ],
+    "schema_revision_of": [
+      4,
+      26,
+      46,
+      47,
+      60,
+      161,
+      163,
+      181,
+      186
+    ],
+    "schemaorg_creativework_date": [
+      12,
+      26,
+      30,
+      69,
+      72,
+      163,
+      183
+    ],
+    "schemaorg_place_address": [
+      23
+    ],
+    "span_with_trace_id": [
+      6,
+      19
+    ],
+    "state_observed_at_time": [
+      5,
+      26,
+      33,
+      46,
+      72,
+      86,
+      97,
+      138,
+      183
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      45,
+      46,
+      47,
+      102,
+      105,
+      123,
+      159,
+      183,
+      191
+    ],
+    "syscall_traceable": [
+      6,
+      42,
+      90,
+      138
+    ],
+    "trace_has_resource": [
+      1,
+      5,
+      6,
+      46,
+      65,
+      186
+    ],
+    "trace_in_service": [
+      12,
+      34
+    ],
+    "trace_min_one_span": [
+      26,
+      42,
+      45,
+      80,
+      183
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      11,
+      61,
+      94,
+      101,
+      143,
+      168,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "1a768fbd69a92daf",
-      "family": "07_long_tail",
+      "id": "ch_live_allocation_with_output_facets_8a6978",
+      "family": "05_provo_lineage",
       "topics": [
-        23,
-        100,
-        148
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
-      ]
-    },
-    {
-      "id": "356cee279af42836",
-      "family": "07_long_tail",
-      "topics": [
-        70,
-        100,
-        173
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
-      ]
-    },
-    {
-      "id": "4a6cb12ef1a0178a",
-      "family": "07_long_tail",
-      "topics": [
-        100,
-        164,
-        197
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
-      ]
-    },
-    {
-      "id": "5b9615026c85768d",
-      "family": "07_long_tail",
-      "topics": [
-        82,
-        100,
-        102
-      ],
-      "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
-      ]
-    },
-    {
-      "id": "66400c06b752fedd",
-      "family": "07_long_tail",
-      "topics": [
-        49,
-        90,
         100
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "allocation_with_output_facets",
+        "ebpfmap_subclass",
+        "trace_in_service"
       ]
     },
     {
-      "id": "66b34a4c7ac29f7b",
-      "family": "07_long_tail",
+      "id": "ch_live_control_basic_d7608b",
+      "family": "03_directive_governance",
       "topics": [
-        49,
-        52,
         100
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "control_basic",
+        "outlier_claim_with_attribute_set",
+        "span_with_trace_id"
       ]
     },
     {
-      "id": "71ab2feb7eedc8b9",
+      "id": "ch_live_dempster_combination_subclass_2d6464",
       "family": "07_long_tail",
       "topics": [
         100,
-        125,
-        139
+        165
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "dempster_combination_subclass",
+        "evidence_independent_or_correlated",
+        "trace_in_service"
       ]
     },
     {
-      "id": "ac66f73a4afb58e1",
-      "family": "07_long_tail",
+      "id": "ch_live_directive_supersedes_directive_d3066d",
+      "family": "03_directive_governance",
       "topics": [
-        23,
-        78,
         100
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "directive_supersedes_directive",
+        "measurement_of_artifact",
+        "trace_in_service"
       ]
     },
     {
-      "id": "e3503d24422b6f5c",
-      "family": "07_long_tail",
+      "id": "ch_live_division_eligibility_constraint_51dafa",
+      "family": "08_derived",
       "topics": [
-        58,
-        95,
         100
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "division_eligibility_constraint",
+        "schema_revision_of",
+        "schemaorg_place_address"
       ]
     },
     {
-      "id": "fbce0fdec1f4d23a",
-      "family": "07_long_tail",
+      "id": "ch_live_ebpfmap_exactly_one_type_0ed8e1",
+      "family": "04_ebpf_kernel",
       "topics": [
-        89,
-        94,
         100
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "attestation_with_supporting_evidence",
-        "hipaa_safeguard_admin",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_physical"
+        "ebpfmap_exactly_one_type",
+        "trace_in_service",
+        "electricity_usage_pattern_record"
+      ]
+    },
+    {
+      "id": "ch_live_institutional_vision_statement_79c833",
+      "family": "08_derived",
+      "topics": [
+        100,
+        161
+      ],
+      "cited_terms": [
+        "institutional_vision_statement",
+        "span_with_trace_id",
+        "measurement_max_one_value"
+      ]
+    },
+    {
+      "id": "ch_live_kernelhook_for_subsystem_759593",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        100,
+        138,
+        183,
+        184,
+        188
+      ],
+      "cited_terms": [
+        "kernelhook_for_subsystem",
+        "syscall_traceable",
+        "trace_in_service"
+      ]
+    },
+    {
+      "id": "ch_live_profile_has_cardinality_fabc38",
+      "family": "02_observation_measurement",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "profile_has_cardinality",
+        "schemaorg_place_address",
+        "outlier_claim_supported_by_lift"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_place_address_047871",
+      "family": "07_long_tail",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "schemaorg_place_address",
+        "trace_with_attributes",
+        "column_property_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_trace_id_6a3ac0",
+      "family": "07_long_tail",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "span_with_trace_id",
+        "policy_constrains_only_artifact",
+        "program_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_trace_id_74334b",
+      "family": "07_long_tail",
+      "topics": [
+        100,
+        143
+      ],
+      "cited_terms": [
+        "span_with_trace_id",
+        "ebpfprogram_equiv_typed_with_hook",
+        "identifier_uniquely_identifies"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_trace_id_8ad67f",
+      "family": "07_long_tail",
+      "topics": [
+        100,
+        135
+      ],
+      "cited_terms": [
+        "span_with_trace_id",
+        "schemaorg_creativework_date",
+        "alert_governed_by_runbook"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_trace_id_d1c0b6",
+      "family": "07_long_tail",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "span_with_trace_id",
+        "state_observed_at_time",
+        "cardinality_max_three_generic"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_process_08379b",
+      "family": "01_foundation",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "subclass_to_process",
+        "schemaorg_place_address",
+        "control_under_framework"
+      ]
+    },
+    {
+      "id": "ch_live_trace_has_resource_3839f1",
+      "family": "02_observation_measurement",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "trace_has_resource",
+        "trace_in_service",
+        "trace_min_one_span"
+      ]
+    },
+    {
+      "id": "ch_live_trace_in_service_57c29b",
+      "family": "02_observation_measurement",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "trace_in_service",
+        "dempster_combinant_first",
+        "constraint_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_trace_in_service_a4eae7",
+      "family": "02_observation_measurement",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "trace_in_service",
+        "claim_subclass",
+        "frame_refinement"
+      ]
+    },
+    {
+      "id": "ch_live_trace_in_service_aa4fe8",
+      "family": "02_observation_measurement",
+      "topics": [
+        100
+      ],
+      "cited_terms": [
+        "trace_in_service",
+        "log_record_subclass",
+        "requirement_refines"
       ]
     }
   ]

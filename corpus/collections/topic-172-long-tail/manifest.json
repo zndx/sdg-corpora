@@ -1,0 +1,240 @@
+{
+  "topic_id": 172,
+  "family": "07_long_tail",
+  "n_chapters": 5,
+  "coverage_score": 0.44083845615386963,
+  "topic_repr": "INTERNATIONAL CENTRE FOR SETTLEMENT OF INVESTMENT DISPUTES\n\nICSID Case No. ARB/19/34\n\nAMEC FOSTER WHEELER USA CORPORATION, PROCESS CONSULTANTS, INC., AND JOINT VENTURE FOSTER WHEELER USA CORPORATION AND PROCESS CONSULTANTS, INC.\n\nClaimants v.\n\nREPUBLIC OF COLOMBIA\n\nRespondent\n\nRESPONDENT'S ANSWER TO CLAIMANTS' APPLICATION FOR PROVISIONAL MEASURES\n\nCounsel for Respondent\n\nAna Mar\u00eda Ordo\u00f1ez Puentes ...",
+  "terms": [
+    "annotation_basic",
+    "attribute_set_supports_outlier_claim",
+    "audit_basic",
+    "cardinality_exactly_one_generic",
+    "constraint_min_one_check",
+    "entity_match_link",
+    "host_connection_process",
+    "insertion_loss_specification",
+    "intermediate_floor_assembly",
+    "nist80053_low_impact",
+    "observation_with_participant",
+    "soc2_processing_integrity",
+    "span_with_parent",
+    "syscall_with_argument_count"
+  ],
+  "tables": [
+    "t_annotation_basic",
+    "t_attribute_set_supports_outlier_claim",
+    "t_audit_basic",
+    "t_cardinality_exactly_one_generic",
+    "t_constraint_min_one_check",
+    "t_entity_match_link",
+    "t_host_connection_process",
+    "t_insertion_loss_specification",
+    "t_intermediate_floor_assembly",
+    "t_nist80053_low_impact",
+    "t_observation_with_participant",
+    "t_soc2_processing_integrity",
+    "t_span_with_parent",
+    "t_syscall_with_argument_count"
+  ],
+  "topics": [
+    172
+  ],
+  "shared_tables": {
+    "annotation_basic": [
+      0,
+      4,
+      10,
+      26,
+      91,
+      186,
+      188
+    ],
+    "attribute_set_supports_outlier_claim": [
+      23,
+      24,
+      26,
+      34,
+      36,
+      161,
+      181,
+      185,
+      186
+    ],
+    "audit_basic": [
+      3,
+      4,
+      23,
+      24,
+      26,
+      31,
+      54,
+      94
+    ],
+    "cardinality_exactly_one_generic": [
+      11,
+      26,
+      33,
+      40,
+      106,
+      161,
+      163,
+      184,
+      186,
+      190
+    ],
+    "constraint_min_one_check": [
+      2,
+      33,
+      40,
+      44,
+      46,
+      97,
+      159,
+      186
+    ],
+    "entity_match_link": [
+      2,
+      3,
+      5,
+      23,
+      26,
+      60,
+      66,
+      81,
+      140,
+      161,
+      186
+    ],
+    "host_connection_process": [
+      4,
+      26,
+      106,
+      107,
+      159,
+      183,
+      186,
+      188
+    ],
+    "insertion_loss_specification": [
+      11,
+      45,
+      69,
+      159,
+      183,
+      187
+    ],
+    "intermediate_floor_assembly": [
+      26,
+      46,
+      155,
+      166,
+      168,
+      183,
+      187
+    ],
+    "nist80053_low_impact": [
+      1,
+      20,
+      41,
+      150,
+      181,
+      191
+    ],
+    "observation_with_participant": [
+      0,
+      26,
+      86,
+      104,
+      135,
+      159,
+      168,
+      184
+    ],
+    "soc2_processing_integrity": [
+      24,
+      26,
+      34,
+      78,
+      81
+    ],
+    "span_with_parent": [
+      12,
+      23,
+      26,
+      109,
+      119
+    ],
+    "syscall_with_argument_count": [
+      4,
+      6,
+      10,
+      109,
+      120,
+      159,
+      183,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_entity_match_link_4bfb65",
+      "family": "07_long_tail",
+      "topics": [
+        172
+      ],
+      "cited_terms": [
+        "entity_match_link",
+        "cardinality_exactly_one_generic",
+        "intermediate_floor_assembly"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_low_impact_1b4d7e",
+      "family": "07_long_tail",
+      "topics": [
+        172
+      ],
+      "cited_terms": [
+        "nist80053_low_impact",
+        "constraint_min_one_check",
+        "attribute_set_supports_outlier_claim"
+      ]
+    },
+    {
+      "id": "ch_live_soc2_processing_integrity_cadfcd",
+      "family": "07_long_tail",
+      "topics": [
+        172
+      ],
+      "cited_terms": [
+        "soc2_processing_integrity",
+        "host_connection_process",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_parent_3f1902",
+      "family": "07_long_tail",
+      "topics": [
+        172
+      ],
+      "cited_terms": [
+        "span_with_parent",
+        "annotation_basic",
+        "insertion_loss_specification"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_with_argument_count_a500ef",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        172
+      ],
+      "cited_terms": [
+        "syscall_with_argument_count",
+        "span_with_parent",
+        "observation_with_participant"
+      ]
+    }
+  ]
+}

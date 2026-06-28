@@ -1,0 +1,352 @@
+{
+  "topic_id": 180,
+  "family": "01_foundation",
+  "n_chapters": 9,
+  "coverage_score": 0.10433945059776306,
+  "topic_repr": "Philip H. Bucksbaum\n\nFaculty Annual Report 2019-20 section listing accomplishments (papers, talks, service activities) for 2019-2020 are on the next and following pages pp. FAR-1 to FAR-10\n\nCurriculum Vita\n\nEducation:\n\n1975, A.B. magna cum laude in Physics, Harvard University.\n\n1980, Ph.D. in Physics, University of California, Berkeley, CA.\n\n1978, M.A. in Physics, University of California, Berkele...",
+  "terms": [
+    "allocation_completed_at",
+    "artifact_not_revoked",
+    "attribute_set_min_one",
+    "campus_event_participation",
+    "directive_traces_to_requirement",
+    "disjunctive_combination",
+    "ice_with_existential",
+    "log_with_resource_attribute",
+    "log_within_span_context",
+    "lru_hash_map_subclass",
+    "policy_basic",
+    "policy_min_one_enforcer",
+    "profiling_with_method",
+    "provenance_agent_subclass",
+    "requirement_applies_to_system",
+    "requirement_verified_by",
+    "responsive_optic_nerve_dysfunction",
+    "ringbuf_map_subclass",
+    "schemaorg_creativework_publisher",
+    "schemaorg_product_price"
+  ],
+  "tables": [
+    "t_allocation_completed_at",
+    "t_artifact_not_revoked",
+    "t_attribute_set_min_one",
+    "t_campus_event_participation",
+    "t_directive_traces_to_requirement",
+    "t_disjunctive_combination",
+    "t_ice_with_existential",
+    "t_log_with_resource_attribute",
+    "t_log_within_span_context",
+    "t_lru_hash_map_subclass",
+    "t_policy_basic",
+    "t_policy_min_one_enforcer",
+    "t_profiling_with_method",
+    "t_provenance_agent_subclass",
+    "t_requirement_applies_to_system",
+    "t_requirement_verified_by",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_ringbuf_map_subclass",
+    "t_schemaorg_creativework_publisher",
+    "t_schemaorg_product_price"
+  ],
+  "topics": [
+    180
+  ],
+  "shared_tables": {
+    "allocation_completed_at": [
+      1,
+      6,
+      7,
+      16,
+      26,
+      62,
+      105,
+      183
+    ],
+    "artifact_not_revoked": [
+      2,
+      21,
+      26,
+      44,
+      61,
+      72,
+      128,
+      181
+    ],
+    "attribute_set_min_one": [
+      0,
+      4,
+      26,
+      56,
+      86,
+      139,
+      186
+    ],
+    "campus_event_participation": [
+      23,
+      31,
+      33,
+      42,
+      83,
+      92,
+      123,
+      186
+    ],
+    "directive_traces_to_requirement": [
+      0,
+      4,
+      23,
+      35,
+      40,
+      46,
+      101,
+      104,
+      159,
+      185
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      11,
+      20,
+      34,
+      38,
+      104,
+      165,
+      181,
+      183
+    ],
+    "ice_with_existential": [
+      19,
+      146,
+      186
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      107,
+      128,
+      163,
+      168,
+      181,
+      183
+    ],
+    "log_within_span_context": [
+      1,
+      4,
+      10,
+      19,
+      26,
+      35,
+      65,
+      106,
+      183
+    ],
+    "lru_hash_map_subclass": [
+      1,
+      25,
+      42,
+      104
+    ],
+    "policy_basic": [
+      4,
+      10,
+      20,
+      26,
+      168,
+      186
+    ],
+    "policy_min_one_enforcer": [
+      26,
+      34,
+      42,
+      46,
+      125,
+      165,
+      185
+    ],
+    "profiling_with_method": [
+      4,
+      5,
+      26,
+      47,
+      86,
+      106,
+      139,
+      168,
+      186
+    ],
+    "provenance_agent_subclass": [
+      26,
+      66,
+      109,
+      186
+    ],
+    "requirement_applies_to_system": [
+      2,
+      45,
+      47,
+      97,
+      159,
+      183,
+      185,
+      186
+    ],
+    "requirement_verified_by": [
+      2,
+      24,
+      25,
+      26,
+      79,
+      86,
+      186
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      0,
+      1,
+      2,
+      26,
+      47,
+      81,
+      97,
+      102,
+      181,
+      183
+    ],
+    "ringbuf_map_subclass": [
+      1,
+      12,
+      61,
+      166
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      36,
+      102,
+      143,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_product_price": [
+      4,
+      26,
+      58,
+      60,
+      135,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_attribute_set_min_one_9dcbfb",
+      "family": "02_observation_measurement",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "attribute_set_min_one",
+        "profiling_with_method",
+        "ringbuf_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_directive_traces_to_requirement_e83621",
+      "family": "03_directive_governance",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "directive_traces_to_requirement",
+        "lru_hash_map_subclass",
+        "policy_basic"
+      ]
+    },
+    {
+      "id": "ch_live_disjunctive_combination_d35429",
+      "family": "07_long_tail",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "disjunctive_combination",
+        "ice_with_existential",
+        "lru_hash_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_log_with_resource_attribute_1fca7e",
+      "family": "07_long_tail",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "log_with_resource_attribute",
+        "log_within_span_context",
+        "lru_hash_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_lru_hash_map_subclass_07a19c",
+      "family": "07_long_tail",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "lru_hash_map_subclass",
+        "campus_event_participation",
+        "provenance_agent_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_lru_hash_map_subclass_deced8",
+      "family": "07_long_tail",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "lru_hash_map_subclass",
+        "policy_min_one_enforcer",
+        "schemaorg_creativework_publisher"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_applies_to_system_02a39c",
+      "family": "03_directive_governance",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "requirement_applies_to_system",
+        "ringbuf_map_subclass",
+        "schemaorg_product_price"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_verified_by_b269cb",
+      "family": "03_directive_governance",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "requirement_verified_by",
+        "responsive_optic_nerve_dysfunction",
+        "ringbuf_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_ringbuf_map_subclass_51c78b",
+      "family": "07_long_tail",
+      "topics": [
+        180
+      ],
+      "cited_terms": [
+        "ringbuf_map_subclass",
+        "artifact_not_revoked",
+        "allocation_completed_at"
+      ]
+    }
+  ]
+}

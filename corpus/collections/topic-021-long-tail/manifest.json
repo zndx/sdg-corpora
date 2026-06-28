@@ -1,389 +1,293 @@
 {
   "topic_id": 21,
   "family": "07_long_tail",
-  "n_chapters": 18,
-  "coverage_score": 0.17857638001441956,
+  "n_chapters": 8,
+  "coverage_score": 0.1785895824432373,
   "topic_repr": "Recreating gut-liver axis during NAFLD onset by using a Caco-2/HepG2 co-culture system\n\nMarica Meroni\u00b9, Erika Paolini\u00b9,\u00b2, Miriam Longo\u00b9,\u00b3, Roberto Piciotti\u00b9,\u2074, Giada Tria\u00b9, Silvia Fargion\u00b9, Anna Ludovica Fracanzani\u00b9,\u2074, Paola Dongiovanni\u00b9\n\n\u00b9General Medicine and Metabolic Diseases, Fondazione IRCCS Ca\u2019 Granda Ospedale Maggiore Policlinico, Milan 20122, Italy.\n\u00b2Department of Pharmacological and Biomo...",
   "terms": [
-    "control_addresses_risk",
-    "control_only_addresses_threat_class",
-    "requirement_equiv_specifies_target",
-    "requirement_has_priority"
+    "artifact_not_revoked",
+    "claim_governed_by_directive",
+    "column_tag_from_annotator",
+    "column_tag_subclass",
+    "column_type_changed_from",
+    "control_with_classification_tier",
+    "ebpf_event_min_one_attribute",
+    "ebpfevent_via_program_xref",
+    "ebpfmap_equiv_kv_typed",
+    "ebpfprogram_min_one_hook",
+    "equiv_union_three",
+    "flood_defence_condition_characterisation",
+    "kernelhook_in_kernel_module",
+    "policy_with_review_cycle",
+    "schemaorg_event_endtime",
+    "schemaorg_person_birthplace",
+    "yager_combination"
   ],
   "tables": [
-    "t_control_addresses_risk",
-    "t_control_only_addresses_threat_class",
-    "t_requirement_equiv_specifies_target",
-    "t_requirement_has_priority"
+    "t_artifact_not_revoked",
+    "t_claim_governed_by_directive",
+    "t_column_tag_from_annotator",
+    "t_column_tag_subclass",
+    "t_column_type_changed_from",
+    "t_control_with_classification_tier",
+    "t_ebpf_event_min_one_attribute",
+    "t_ebpfevent_via_program_xref",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_ebpfprogram_min_one_hook",
+    "t_equiv_union_three",
+    "t_flood_defence_condition_characterisation",
+    "t_kernelhook_in_kernel_module",
+    "t_policy_with_review_cycle",
+    "t_schemaorg_event_endtime",
+    "t_schemaorg_person_birthplace",
+    "t_yager_combination"
   ],
   "topics": [
-    3,
-    19,
     21,
-    37,
-    40,
-    51,
-    54,
-    58,
-    66,
-    67,
-    71,
-    74,
-    82,
-    96,
-    113,
-    114,
-    115,
-    117,
-    121,
-    122,
-    128,
-    134,
-    139,
-    142,
-    143,
-    144,
-    149,
-    163,
-    173,
-    181,
-    187,
-    190,
-    198
+    30,
+    106,
+    107,
+    111,
+    129,
+    158,
+    188,
+    196
   ],
   "shared_tables": {
-    "control_addresses_risk": [
-      15,
-      16,
-      85,
-      102,
-      113,
-      196
-    ],
-    "control_only_addresses_threat_class": [
-      13,
-      15,
-      16,
-      35,
+    "artifact_not_revoked": [
+      2,
+      26,
+      44,
       61,
-      85,
-      102,
-      104,
-      113,
-      117,
-      160,
-      165,
-      181,
-      191,
-      196
+      72,
+      128,
+      180,
+      181
     ],
-    "requirement_equiv_specifies_target": [
+    "claim_governed_by_directive": [
+      23,
+      40,
+      83,
+      92,
+      186
+    ],
+    "column_tag_from_annotator": [
+      4,
+      23,
+      47,
+      69,
+      184,
+      186
+    ],
+    "column_tag_subclass": [
+      7
+    ],
+    "column_type_changed_from": [
       2,
       4,
-      7,
-      15,
-      20,
-      47,
-      68,
-      71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
-      186,
-      191,
-      199
+      58,
+      92,
+      183,
+      186
     ],
-    "requirement_has_priority": [
-      85,
-      101,
-      113,
-      128,
-      129,
-      196
+    "control_with_classification_tier": [
+      4,
+      12,
+      16,
+      34,
+      47,
+      61,
+      65,
+      79,
+      97,
+      186
+    ],
+    "ebpf_event_min_one_attribute": [
+      2,
+      19,
+      38,
+      46,
+      49,
+      106
+    ],
+    "ebpfevent_via_program_xref": [
+      10,
+      30,
+      40,
+      62,
+      105,
+      186,
+      188
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      24,
+      34,
+      45,
+      105,
+      181,
+      184,
+      186,
+      190
+    ],
+    "ebpfprogram_min_one_hook": [
+      4,
+      67,
+      79,
+      97,
+      158
+    ],
+    "equiv_union_three": [
+      10,
+      51,
+      135,
+      183,
+      186
+    ],
+    "flood_defence_condition_characterisation": [
+      19,
+      26,
+      42,
+      92,
+      97,
+      186
+    ],
+    "kernelhook_in_kernel_module": [
+      30,
+      111
+    ],
+    "policy_with_review_cycle": [
+      2,
+      10,
+      34,
+      35,
+      40,
+      42,
+      61,
+      129
+    ],
+    "schemaorg_event_endtime": [
+      46,
+      142,
+      159,
+      183,
+      186
+    ],
+    "schemaorg_person_birthplace": [
+      11,
+      92,
+      107
+    ],
+    "yager_combination": [
+      26,
+      40,
+      46,
+      79,
+      183
     ]
   },
   "chapters": [
     {
-      "id": "021ca5e90343d7ac",
-      "family": "03_directive_governance",
+      "id": "ch_live_artifact_not_revoked_f7dc11",
+      "family": "07_long_tail",
       "topics": [
         21,
-        54,
-        173
+        107
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "artifact_not_revoked",
+        "column_tag_subclass",
+        "schemaorg_person_birthplace"
       ]
     },
     {
-      "id": "0e0afcbd2c405bd2",
-      "family": "03_directive_governance",
+      "id": "ch_live_claim_governed_by_directive_050271",
+      "family": "06_belief_structure",
       "topics": [
         21,
-        114,
-        121
+        158
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "claim_governed_by_directive",
+        "ebpfprogram_min_one_hook",
+        "column_tag_subclass"
       ]
     },
     {
-      "id": "160eb6cf62d7e2c6",
-      "family": "03_directive_governance",
+      "id": "ch_live_column_tag_from_annotator_c15a9b",
+      "family": "07_long_tail",
       "topics": [
-        21,
-        67,
-        163
+        21
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "column_tag_from_annotator",
+        "column_tag_subclass",
+        "column_type_changed_from"
       ]
     },
     {
-      "id": "2327e9723f107da3",
-      "family": "03_directive_governance",
+      "id": "ch_live_column_tag_subclass_fa462f",
+      "family": "07_long_tail",
       "topics": [
         21,
-        173,
-        187
+        30,
+        111,
+        188
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "column_tag_subclass",
+        "equiv_union_three",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "2d09f26078b294c1",
+      "id": "ch_live_control_with_classification_tier_a69161",
       "family": "03_directive_governance",
       "topics": [
-        21,
-        51,
-        122
+        21
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "control_with_classification_tier",
+        "ebpfmap_equiv_kv_typed",
+        "column_tag_subclass"
       ]
     },
     {
-      "id": "3bc3dbba22c847a5",
-      "family": "03_directive_governance",
+      "id": "ch_live_ebpf_event_min_one_attribute_7e72b9",
+      "family": "02_observation_measurement",
       "topics": [
         21,
-        82,
-        117
+        106,
+        196
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "ebpf_event_min_one_attribute",
+        "column_tag_subclass",
+        "flood_defence_condition_characterisation"
       ]
     },
     {
-      "id": "4c9406bad5f8d96b",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_event_endtime_f79446",
+      "family": "07_long_tail",
       "topics": [
         21,
-        96,
-        134
+        129
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "schemaorg_event_endtime",
+        "policy_with_review_cycle",
+        "column_tag_subclass"
       ]
     },
     {
-      "id": "5a62d739bd69962e",
-      "family": "03_directive_governance",
+      "id": "ch_live_yager_combination_657921",
+      "family": "07_long_tail",
       "topics": [
-        21,
-        139,
-        198
+        21
       ],
       "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "5a6b199991b2b350",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        71,
-        190
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "5acbb08d75a288c8",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        74,
-        143
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "6214031fd1bb5a35",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        40,
-        149
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "6dfc683cbb3a3e49",
-      "family": "03_directive_governance",
-      "topics": [
-        19,
-        21,
-        66
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "898b1f92e5d9d034",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        58,
-        113
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8a2efabea17819df",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        128,
-        149
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8b1501f394a04fdc",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        21,
-        144
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8bc5ae8e53a8c3d0",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        37,
-        181
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "aa56f23f40740e04",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        122,
-        149
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "c40976316671b7c4",
-      "family": "03_directive_governance",
-      "topics": [
-        21,
-        115,
-        142
-      ],
-      "cited_terms": [
-        "control_only_addresses_threat_class",
-        "control_addresses_risk",
-        "requirement_has_priority",
-        "requirement_equiv_specifies_target"
+        "yager_combination",
+        "ebpfevent_via_program_xref",
+        "column_tag_subclass"
       ]
     }
   ]

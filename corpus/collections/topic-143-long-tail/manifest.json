@@ -1,203 +1,284 @@
 {
   "topic_id": 143,
   "family": "07_long_tail",
-  "n_chapters": 10,
-  "coverage_score": 0.16768616437911987,
+  "n_chapters": 7,
+  "coverage_score": 0.15600591897964478,
   "topic_repr": "CTGA Database Information Submission Form\n\nHelp Topics\n\nEveryday the Centre for Arab Genomic Studies receives a variety of publications from scientists in the Arab World or abroad to be considered for the CTGA Database on genetic disorders in Arab populations. Curators of the CTGA Database are working continuously to update each and every record of the database following rigorous steps that includ...",
   "terms": [
     "belief_interval_equiv_bel_and_pl",
-    "directive_authored_and_applies",
-    "equiv_intersect_with_negation",
-    "mass_function_equiv_frame_and_assignment"
+    "belief_interval_for_claim",
+    "cardinality_max_one_generic",
+    "cardinality_max_three_generic",
+    "cardinality_min_one_generic",
+    "constraint_with_severity_classification",
+    "ebpfprogram_equiv_typed_with_hook",
+    "mass_function_assigns_to_subset",
+    "measurement_subclass_only_one_unit",
+    "observation_precedes_other",
+    "rollback_relation",
+    "schemaorg_creativework_publisher",
+    "schemaorg_place_longitude",
+    "trace_with_attributes",
+    "transformation_ends_at",
+    "xdp_action_drop"
   ],
   "tables": [
     "t_belief_interval_equiv_bel_and_pl",
-    "t_directive_authored_and_applies",
-    "t_equiv_intersect_with_negation",
-    "t_mass_function_equiv_frame_and_assignment"
+    "t_belief_interval_for_claim",
+    "t_cardinality_max_one_generic",
+    "t_cardinality_max_three_generic",
+    "t_cardinality_min_one_generic",
+    "t_constraint_with_severity_classification",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_mass_function_assigns_to_subset",
+    "t_measurement_subclass_only_one_unit",
+    "t_observation_precedes_other",
+    "t_rollback_relation",
+    "t_schemaorg_creativework_publisher",
+    "t_schemaorg_place_longitude",
+    "t_trace_with_attributes",
+    "t_transformation_ends_at",
+    "t_xdp_action_drop"
   ],
   "topics": [
-    6,
-    22,
-    52,
-    71,
-    80,
-    85,
-    96,
-    98,
-    100,
-    110,
-    118,
-    121,
-    139,
-    143,
-    151,
-    158,
-    159,
-    162,
-    164,
-    174,
-    199
+    143
   ],
   "shared_tables": {
-    "directive_authored_and_applies": [
-      107,
-      178
+    "belief_interval_equiv_bel_and_pl": [
+      7,
+      8,
+      12,
+      20,
+      26,
+      34,
+      83,
+      86,
+      91,
+      97,
+      102,
+      125,
+      147
     ],
-    "mass_function_equiv_frame_and_assignment": [
-      145,
-      157
+    "belief_interval_for_claim": [
+      1,
+      34,
+      92,
+      125,
+      165,
+      186
+    ],
+    "cardinality_max_one_generic": [
+      7,
+      26,
+      34,
+      42,
+      44,
+      86,
+      117,
+      138,
+      186
+    ],
+    "cardinality_max_three_generic": [
+      4,
+      23,
+      46,
+      65,
+      75,
+      100,
+      165,
+      183,
+      186
+    ],
+    "cardinality_min_one_generic": [
+      1,
+      26,
+      42,
+      106,
+      117,
+      186
+    ],
+    "constraint_with_severity_classification": [
+      24,
+      26,
+      47,
+      105,
+      186
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      8,
+      11,
+      23,
+      41,
+      79,
+      100
+    ],
+    "mass_function_assigns_to_subset": [
+      4,
+      11,
+      26,
+      51
+    ],
+    "measurement_subclass_only_one_unit": [
+      11,
+      12,
+      39,
+      47,
+      185,
+      186,
+      191
+    ],
+    "observation_precedes_other": [
+      4,
+      26,
+      42,
+      60,
+      123,
+      183,
+      186,
+      190
+    ],
+    "rollback_relation": [
+      2,
+      26,
+      46,
+      125,
+      183,
+      186
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      36,
+      102,
+      180,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_place_longitude": [
+      26,
+      34,
+      36,
+      66,
+      94,
+      158,
+      181,
+      186
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      11,
+      61,
+      94,
+      100,
+      101,
+      168,
+      183,
+      186
+    ],
+    "transformation_ends_at": [
+      4,
+      34,
+      42,
+      45,
+      106,
+      186
+    ],
+    "xdp_action_drop": [
+      2,
+      26,
+      36,
+      58,
+      61,
+      65,
+      86,
+      94,
+      183
     ]
   },
   "chapters": [
     {
-      "id": "05f1fa2cf10cfd2a",
-      "family": "06_belief_structure",
+      "id": "ch_live_cardinality_max_one_generic_ca5b6d",
+      "family": "01_foundation",
       "topics": [
-        71,
-        110,
         143
       ],
       "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
+        "cardinality_max_one_generic",
+        "cardinality_max_three_generic",
+        "cardinality_min_one_generic"
       ]
     },
     {
-      "id": "4396e6ad3f714086",
-      "family": "06_belief_structure",
+      "id": "ch_live_constraint_with_severity_classification_254cb2",
+      "family": "03_directive_governance",
       "topics": [
-        80,
-        143,
-        174
-      ],
-      "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
-      ]
-    },
-    {
-      "id": "4908a5ea9d9dc0ba",
-      "family": "06_belief_structure",
-      "topics": [
-        143,
-        158,
-        164
-      ],
-      "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
-      ]
-    },
-    {
-      "id": "49e6b1216a8d62c1",
-      "family": "06_belief_structure",
-      "topics": [
-        96,
-        139,
         143
       ],
       "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
+        "constraint_with_severity_classification",
+        "ebpfprogram_equiv_typed_with_hook",
+        "belief_interval_equiv_bel_and_pl"
       ]
     },
     {
-      "id": "634287315a31b3c8",
-      "family": "06_belief_structure",
+      "id": "ch_live_ebpfprogram_equiv_typed_with_hook_06ddea",
+      "family": "04_ebpf_kernel",
       "topics": [
-        121,
-        143,
-        159
-      ],
-      "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
-      ]
-    },
-    {
-      "id": "68c2fbeca17534cf",
-      "family": "06_belief_structure",
-      "topics": [
-        143,
-        162,
-        199
-      ],
-      "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
-      ]
-    },
-    {
-      "id": "7ddea8311b13bfdd",
-      "family": "06_belief_structure",
-      "topics": [
-        22,
-        143,
-        151
-      ],
-      "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
-      ]
-    },
-    {
-      "id": "8e722f8564335fc5",
-      "family": "06_belief_structure",
-      "topics": [
-        52,
-        85,
         143
       ],
       "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
+        "ebpfprogram_equiv_typed_with_hook",
+        "rollback_relation",
+        "schemaorg_creativework_publisher"
       ]
     },
     {
-      "id": "9e68958a2c4363bd",
-      "family": "06_belief_structure",
+      "id": "ch_live_measurement_subclass_only_one_unit_179d31",
+      "family": "02_observation_measurement",
       "topics": [
-        100,
-        118,
         143
       ],
       "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
+        "measurement_subclass_only_one_unit",
+        "trace_with_attributes",
+        "ebpfprogram_equiv_typed_with_hook"
       ]
     },
     {
-      "id": "db4b3c23ee46a28d",
-      "family": "06_belief_structure",
+      "id": "ch_live_observation_precedes_other_dc5904",
+      "family": "02_observation_measurement",
       "topics": [
-        6,
-        98,
         143
       ],
       "cited_terms": [
-        "mass_function_equiv_frame_and_assignment",
-        "equiv_intersect_with_negation",
-        "belief_interval_equiv_bel_and_pl",
-        "directive_authored_and_applies"
+        "observation_precedes_other",
+        "belief_interval_for_claim",
+        "ebpfprogram_equiv_typed_with_hook"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_ends_at_63aaba",
+      "family": "05_provo_lineage",
+      "topics": [
+        143
+      ],
+      "cited_terms": [
+        "transformation_ends_at",
+        "ebpfprogram_equiv_typed_with_hook",
+        "mass_function_assigns_to_subset"
+      ]
+    },
+    {
+      "id": "ch_live_xdp_action_drop_38b3b6",
+      "family": "07_long_tail",
+      "topics": [
+        143
+      ],
+      "cited_terms": [
+        "xdp_action_drop",
+        "ebpfprogram_equiv_typed_with_hook",
+        "schemaorg_place_longitude"
       ]
     }
   ]

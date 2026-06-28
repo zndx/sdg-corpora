@@ -1,399 +1,489 @@
 {
   "topic_id": 185,
   "family": "01_foundation",
-  "n_chapters": 17,
-  "coverage_score": 0.15008069574832916,
+  "n_chapters": 12,
+  "coverage_score": 0.1527879536151886,
   "topic_repr": "Volume 5, Issue 5, May 2024\n\nhttps://www.ijramt.com | ISSN (Online): 2582-7839\n\nPartial Replacement of Coarse Aggregate with Coconut Shell and Cement with Coconut Shell Ash\n\nAshwani Arul 1 , Y. M. Irfana 2* , Nafih Salim 3 , R. Siddique 4 , P. S. Neena 5\n\n1,2,3,4UG Student, Department of Civil Engineering, Travancore Engineering College, Oyoor, Kollam, India 5Assistant Professor, Department of Civ...",
   "terms": [
-    "pci_dss_requirement",
-    "schemaorg_org_taxid",
-    "schemaorg_place_address",
-    "schemaorg_product_price",
-    "trace_supports_claim"
+    "annotation_at_tier",
+    "apolitical_islam",
+    "attribute_set_supports_outlier_claim",
+    "attrkey_subclass",
+    "attrkey_with_value_type",
+    "clinical_quality_research_role",
+    "control_min_one_owner",
+    "dempster_combines_audit_evidences",
+    "directive_traces_to_requirement",
+    "division_assignment_record",
+    "ebpfmap_with_key_type",
+    "entity_type_belongs_to",
+    "evidence_for_audit",
+    "labrun_has_operator",
+    "lift_with_support_count",
+    "measurement_subclass_only_one_unit",
+    "observation_records_state",
+    "policy_enforced_by",
+    "policy_min_one_enforcer",
+    "process_min_one_input",
+    "process_uses_artifact",
+    "regional_quality_benchmark",
+    "requirement_applies_to_system",
+    "schema_evolution_under_directive",
+    "student_privacy_expectation",
+    "subclass_basic",
+    "transformation_generates_entity"
   ],
   "tables": [
-    "t_pci_dss_requirement",
-    "t_schemaorg_org_taxid",
-    "t_schemaorg_place_address",
-    "t_schemaorg_product_price",
-    "t_trace_supports_claim"
+    "t_annotation_at_tier",
+    "t_apolitical_islam",
+    "t_attribute_set_supports_outlier_claim",
+    "t_attrkey_subclass",
+    "t_attrkey_with_value_type",
+    "t_clinical_quality_research_role",
+    "t_control_min_one_owner",
+    "t_dempster_combines_audit_evidences",
+    "t_directive_traces_to_requirement",
+    "t_division_assignment_record",
+    "t_ebpfmap_with_key_type",
+    "t_entity_type_belongs_to",
+    "t_evidence_for_audit",
+    "t_labrun_has_operator",
+    "t_lift_with_support_count",
+    "t_measurement_subclass_only_one_unit",
+    "t_observation_records_state",
+    "t_policy_enforced_by",
+    "t_policy_min_one_enforcer",
+    "t_process_min_one_input",
+    "t_process_uses_artifact",
+    "t_regional_quality_benchmark",
+    "t_requirement_applies_to_system",
+    "t_schema_evolution_under_directive",
+    "t_student_privacy_expectation",
+    "t_subclass_basic",
+    "t_transformation_generates_entity"
   ],
   "topics": [
-    2,
-    7,
-    14,
-    15,
-    23,
-    26,
-    28,
-    33,
-    44,
-    46,
-    47,
-    53,
-    67,
-    73,
-    89,
-    100,
-    106,
-    112,
-    131,
-    132,
-    134,
-    136,
-    138,
-    144,
-    150,
-    151,
-    155,
-    157,
-    160,
-    174,
-    185,
-    194
+    185
   ],
   "shared_tables": {
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
-      47,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
-      106,
-      108,
-      115,
-      117,
-      134,
-      135,
-      148,
-      150,
-      151,
-      165,
-      181,
+    "annotation_at_tier": [
+      26,
+      94,
       183,
-      197
-    ],
-    "schemaorg_org_taxid": [
-      52,
-      115,
-      170
-    ],
-    "schemaorg_place_address": [
-      28,
-      51,
-      93,
-      119,
-      120,
-      125,
-      126,
-      153,
-      158,
-      162,
-      170,
       186
     ],
-    "schemaorg_product_price": [
-      24,
-      51,
-      52,
-      126
+    "apolitical_islam": [
+      0,
+      5,
+      12,
+      46,
+      73,
+      83,
+      119,
+      155,
+      158,
+      183,
+      186
     ],
-    "trace_supports_claim": [
-      30,
-      49,
+    "attribute_set_supports_outlier_claim": [
+      23,
+      24,
+      26,
+      34,
+      36,
+      161,
+      172,
+      181,
+      186
+    ],
+    "attrkey_subclass": [
+      7,
+      12,
+      20,
+      23,
+      26,
+      67,
+      129,
+      186,
+      187
+    ],
+    "attrkey_with_value_type": [
+      168
+    ],
+    "clinical_quality_research_role": [
+      0,
+      2,
+      61,
+      81,
+      139
+    ],
+    "control_min_one_owner": [
+      1,
+      4,
+      26,
+      44,
+      46,
+      67,
+      92,
+      119,
+      168,
+      186
+    ],
+    "dempster_combines_audit_evidences": [
+      67,
+      90
+    ],
+    "directive_traces_to_requirement": [
+      0,
+      4,
+      23,
+      35,
+      40,
+      46,
+      101,
+      104,
+      159,
+      180
+    ],
+    "division_assignment_record": [
+      19,
+      34,
+      45,
+      67,
+      80,
+      86,
+      159
+    ],
+    "ebpfmap_with_key_type": [
+      0,
+      26,
+      51,
+      106,
+      158,
+      183,
+      188
+    ],
+    "entity_type_belongs_to": [
+      4,
+      7,
+      26,
+      36,
+      51,
       65,
-      78,
+      109,
+      183,
+      186
+    ],
+    "evidence_for_audit": [
+      2,
+      26,
+      35,
+      46,
+      69,
+      129,
+      187
+    ],
+    "labrun_has_operator": [
+      2,
+      4,
+      26,
+      67,
+      74,
       94,
-      99,
-      108,
-      115,
-      130,
-      133,
-      154,
+      181,
+      186,
+      195
+    ],
+    "lift_with_support_count": [
+      12,
+      51,
+      67,
+      92,
+      97,
+      181,
+      183,
+      186,
+      187
+    ],
+    "measurement_subclass_only_one_unit": [
+      11,
+      12,
+      39,
+      47,
+      143,
+      186,
+      191
+    ],
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      23,
+      26,
+      67,
+      91,
+      123,
+      125,
+      129,
+      135,
+      163,
+      183,
+      186
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      128,
+      161,
+      181,
+      188
+    ],
+    "policy_min_one_enforcer": [
+      26,
+      34,
+      42,
+      46,
+      125,
       165,
-      190
+      180
+    ],
+    "process_min_one_input": [
+      34,
+      38,
+      135,
+      183,
+      186,
+      187,
+      188
+    ],
+    "process_uses_artifact": [
+      12,
+      36,
+      40,
+      86,
+      155
+    ],
+    "regional_quality_benchmark": [
+      0,
+      3,
+      10,
+      20,
+      26,
+      30,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
+      186
+    ],
+    "requirement_applies_to_system": [
+      2,
+      45,
+      47,
+      97,
+      159,
+      180,
+      183,
+      186
+    ],
+    "schema_evolution_under_directive": [
+      4,
+      38,
+      56,
+      183
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      69,
+      150,
+      183,
+      186,
+      187
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
+      68,
+      81,
+      86,
+      91,
+      128,
+      161,
+      183,
+      186
+    ],
+    "transformation_generates_entity": [
+      11,
+      26,
+      42,
+      44,
+      50,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "020253604196f294",
-      "family": "07_long_tail",
+      "id": "ch_live_attribute_set_supports_outlier_claim_b931c3",
+      "family": "02_observation_measurement",
       "topics": [
-        67,
-        106,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "attribute_set_supports_outlier_claim",
+        "attrkey_subclass",
+        "attrkey_with_value_type"
       ]
     },
     {
-      "id": "2712cb4d33948555",
-      "family": "07_long_tail",
+      "id": "ch_live_attrkey_with_value_type_697d37",
+      "family": "01_foundation",
       "topics": [
-        53,
-        160,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "attrkey_with_value_type",
+        "entity_type_belongs_to",
+        "control_min_one_owner"
       ]
     },
     {
-      "id": "62f5c84524aa2967",
-      "family": "07_long_tail",
+      "id": "ch_live_clinical_quality_research_role_76faa1",
+      "family": "08_derived",
       "topics": [
-        44,
-        134,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "clinical_quality_research_role",
+        "dempster_combines_audit_evidences",
+        "measurement_subclass_only_one_unit"
       ]
     },
     {
-      "id": "898b9d16f9f4f598",
+      "id": "ch_live_dempster_combines_audit_evidences_8c9b38",
       "family": "07_long_tail",
       "topics": [
-        28,
-        132,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "dempster_combines_audit_evidences",
+        "lift_with_support_count",
+        "directive_traces_to_requirement"
       ]
     },
     {
-      "id": "8bd684b98478a84f",
+      "id": "ch_live_dempster_combines_audit_evidences_b6cdc4",
       "family": "07_long_tail",
       "topics": [
-        23,
-        157,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "dempster_combines_audit_evidences",
+        "apolitical_islam",
+        "regional_quality_benchmark"
       ]
     },
     {
-      "id": "8fd031a4cb3d5df0",
-      "family": "07_long_tail",
+      "id": "ch_live_observation_records_state_b03d8f",
+      "family": "02_observation_measurement",
       "topics": [
-        73,
-        100,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "observation_records_state",
+        "attrkey_with_value_type",
+        "annotation_at_tier"
       ]
     },
     {
-      "id": "90108d0a3eb57325",
-      "family": "07_long_tail",
+      "id": "ch_live_policy_enforced_by_bbd8e9",
+      "family": "03_directive_governance",
       "topics": [
-        7,
-        155,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "policy_enforced_by",
+        "process_min_one_input",
+        "attrkey_with_value_type"
       ]
     },
     {
-      "id": "93fced9cfc8f27f0",
-      "family": "07_long_tail",
+      "id": "ch_live_policy_min_one_enforcer_da940b",
+      "family": "03_directive_governance",
       "topics": [
-        47,
-        138,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "policy_min_one_enforcer",
+        "schema_evolution_under_directive",
+        "dempster_combines_audit_evidences"
       ]
     },
     {
-      "id": "98d4fe0fe563334e",
-      "family": "07_long_tail",
+      "id": "ch_live_process_uses_artifact_041cd6",
+      "family": "01_foundation",
       "topics": [
-        112,
-        151,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "process_uses_artifact",
+        "transformation_generates_entity",
+        "evidence_for_audit"
       ]
     },
     {
-      "id": "a21696a680edd514",
-      "family": "07_long_tail",
+      "id": "ch_live_process_uses_artifact_d54bd3",
+      "family": "01_foundation",
       "topics": [
-        112,
-        150,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "process_uses_artifact",
+        "labrun_has_operator",
+        "subclass_basic"
       ]
     },
     {
-      "id": "adf810ba31f27aa1",
-      "family": "07_long_tail",
+      "id": "ch_live_requirement_applies_to_system_36ffe8",
+      "family": "03_directive_governance",
       "topics": [
-        2,
-        174,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "requirement_applies_to_system",
+        "ebpfmap_with_key_type",
+        "attrkey_with_value_type"
       ]
     },
     {
-      "id": "c29dc8bbc32ccdbc",
-      "family": "07_long_tail",
+      "id": "ch_live_student_privacy_expectation_3094ae",
+      "family": "08_derived",
       "topics": [
-        15,
-        89,
         185
       ],
       "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
-      ]
-    },
-    {
-      "id": "ca89f468bd9055af",
-      "family": "07_long_tail",
-      "topics": [
-        46,
-        89,
-        185
-      ],
-      "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
-      ]
-    },
-    {
-      "id": "d3caa27f6bc0c4c7",
-      "family": "07_long_tail",
-      "topics": [
-        33,
-        131,
-        185
-      ],
-      "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
-      ]
-    },
-    {
-      "id": "d9a4033c37e992ff",
-      "family": "07_long_tail",
-      "topics": [
-        26,
-        134,
-        185
-      ],
-      "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
-      ]
-    },
-    {
-      "id": "e1825683744d341d",
-      "family": "07_long_tail",
-      "topics": [
-        14,
-        136,
-        185
-      ],
-      "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
-      ]
-    },
-    {
-      "id": "f33babe7c1343e27",
-      "family": "07_long_tail",
-      "topics": [
-        144,
-        185,
-        194
-      ],
-      "cited_terms": [
-        "schemaorg_place_address",
-        "pci_dss_requirement",
-        "schemaorg_product_price",
-        "schemaorg_org_taxid",
-        "trace_supports_claim"
+        "student_privacy_expectation",
+        "division_assignment_record",
+        "dempster_combines_audit_evidences"
       ]
     }
   ]

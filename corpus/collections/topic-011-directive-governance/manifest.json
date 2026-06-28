@@ -1,0 +1,961 @@
+{
+  "topic_id": 11,
+  "family": "03_directive_governance",
+  "n_chapters": 26,
+  "coverage_score": 0.25050443410873413,
+  "topic_repr": "Human Development Indices and Indicators: 2018 Statistical Update\n\nBriefing note for countries on the 2018 Statistical Update\n\nArgentina\n\nIntroduction\n\nThis briefing note is organized into ten sections. The first section presents information on the country coverage and methodology of the 2018 Statistical Update. The next five sections provide information about key indicators of human development i...",
+  "terms": [
+    "annotation_with_confidence",
+    "attestation_about_compliance_claim",
+    "attestation_basic",
+    "attestation_subclass",
+    "audit_conducted_by",
+    "bpf_helper_subclass",
+    "cardinality_exactly_one_generic",
+    "cardinality_min_two_generic",
+    "census_data_collection_process",
+    "census_reporting_event",
+    "claim_refuted_by_evidence",
+    "claim_subclass",
+    "column_version_subclass",
+    "constraint_check_subclass",
+    "constraint_only_constrains",
+    "control_under_framework",
+    "dempster_combinant_second",
+    "descriptive_either_evidence_or_claim",
+    "directive_only_governs",
+    "disjunctive_combination",
+    "ebpf_event_for_syscall",
+    "ebpfmap_only_one_value_type",
+    "ebpfprogram_equiv_typed_with_hook",
+    "electricity_usage_pattern_record",
+    "equiv_intersect_artifact_with_part",
+    "equiv_intersect_basic",
+    "ice_exactly_one_subject",
+    "insertion_loss_specification",
+    "kernelhook_basic",
+    "labrun_subclass",
+    "lineage_describes_transformation",
+    "mass_function_assigns_to_subset",
+    "measurement_basic",
+    "measurement_subclass",
+    "measurement_subclass_only_one_unit",
+    "patient_insurance_record",
+    "process_with_participant",
+    "profile_basic",
+    "program_with_entry_exactly_one",
+    "quality_assurance_initiative",
+    "requirement_basic",
+    "requirement_equiv_specifies_target",
+    "requirement_has_priority",
+    "requirement_min_one_verification",
+    "schemaorg_label_alignment",
+    "schemaorg_person_birthplace",
+    "subclass_to_information_content_entity",
+    "trace_subclass",
+    "trace_with_attributes",
+    "transformation_generates_entity",
+    "transformation_governed_by",
+    "transformation_not_recoverable"
+  ],
+  "tables": [
+    "t_annotation_with_confidence",
+    "t_attestation_about_compliance_claim",
+    "t_attestation_basic",
+    "t_attestation_subclass",
+    "t_audit_conducted_by",
+    "t_bpf_helper_subclass",
+    "t_cardinality_exactly_one_generic",
+    "t_cardinality_min_two_generic",
+    "t_census_data_collection_process",
+    "t_census_reporting_event",
+    "t_claim_refuted_by_evidence",
+    "t_claim_subclass",
+    "t_column_version_subclass",
+    "t_constraint_check_subclass",
+    "t_constraint_only_constrains",
+    "t_control_under_framework",
+    "t_dempster_combinant_second",
+    "t_descriptive_either_evidence_or_claim",
+    "t_directive_only_governs",
+    "t_disjunctive_combination",
+    "t_ebpf_event_for_syscall",
+    "t_ebpfmap_only_one_value_type",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_electricity_usage_pattern_record",
+    "t_equiv_intersect_artifact_with_part",
+    "t_equiv_intersect_basic",
+    "t_ice_exactly_one_subject",
+    "t_insertion_loss_specification",
+    "t_kernelhook_basic",
+    "t_labrun_subclass",
+    "t_lineage_describes_transformation",
+    "t_mass_function_assigns_to_subset",
+    "t_measurement_basic",
+    "t_measurement_subclass",
+    "t_measurement_subclass_only_one_unit",
+    "t_patient_insurance_record",
+    "t_process_with_participant",
+    "t_profile_basic",
+    "t_program_with_entry_exactly_one",
+    "t_quality_assurance_initiative",
+    "t_requirement_basic",
+    "t_requirement_equiv_specifies_target",
+    "t_requirement_has_priority",
+    "t_requirement_min_one_verification",
+    "t_schemaorg_label_alignment",
+    "t_schemaorg_person_birthplace",
+    "t_subclass_to_information_content_entity",
+    "t_trace_subclass",
+    "t_trace_with_attributes",
+    "t_transformation_generates_entity",
+    "t_transformation_governed_by",
+    "t_transformation_not_recoverable"
+  ],
+  "topics": [
+    11,
+    12,
+    31,
+    32,
+    42,
+    45,
+    47,
+    57,
+    61,
+    62,
+    65,
+    69,
+    71,
+    85,
+    94,
+    97,
+    102,
+    111,
+    119,
+    128,
+    136,
+    148,
+    154,
+    198
+  ],
+  "shared_tables": {
+    "annotation_with_confidence": [
+      19,
+      61,
+      94
+    ],
+    "attestation_about_compliance_claim": [
+      1,
+      69,
+      72
+    ],
+    "attestation_basic": [
+      7,
+      19,
+      47,
+      80,
+      106,
+      123,
+      181,
+      191
+    ],
+    "attestation_subclass": [
+      0,
+      6,
+      24,
+      47,
+      56,
+      136
+    ],
+    "audit_conducted_by": [
+      1,
+      31
+    ],
+    "bpf_helper_subclass": [
+      41,
+      69,
+      186
+    ],
+    "cardinality_exactly_one_generic": [
+      26,
+      33,
+      40,
+      106,
+      161,
+      163,
+      172,
+      184,
+      186,
+      190
+    ],
+    "cardinality_min_two_generic": [
+      26,
+      38,
+      42,
+      73,
+      80,
+      94,
+      109,
+      186
+    ],
+    "census_data_collection_process": [
+      2,
+      46,
+      65,
+      106,
+      109,
+      159,
+      163,
+      186
+    ],
+    "census_reporting_event": [
+      5,
+      10,
+      26,
+      33,
+      36,
+      65,
+      69,
+      79,
+      102,
+      183,
+      186
+    ],
+    "claim_refuted_by_evidence": [
+      0,
+      92,
+      97
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      20,
+      26,
+      56,
+      61,
+      69,
+      97,
+      100,
+      104,
+      186,
+      188
+    ],
+    "column_version_subclass": [
+      0,
+      1,
+      12,
+      23,
+      62
+    ],
+    "constraint_check_subclass": [
+      3,
+      4,
+      26,
+      46,
+      56,
+      65,
+      67,
+      81,
+      139,
+      181,
+      183,
+      186
+    ],
+    "constraint_only_constrains": [
+      2,
+      23,
+      35,
+      111,
+      159,
+      181,
+      183,
+      186,
+      195
+    ],
+    "control_under_framework": [
+      16,
+      34,
+      100,
+      186
+    ],
+    "dempster_combinant_second": [
+      0,
+      1,
+      47,
+      56,
+      83,
+      91,
+      159
+    ],
+    "descriptive_either_evidence_or_claim": [
+      0,
+      26,
+      80,
+      83,
+      92,
+      104,
+      142,
+      186
+    ],
+    "directive_only_governs": [
+      12,
+      47
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      20,
+      34,
+      38,
+      104,
+      165,
+      180,
+      181,
+      183
+    ],
+    "ebpf_event_for_syscall": [
+      12,
+      40,
+      65
+    ],
+    "ebpfmap_only_one_value_type": [
+      7,
+      45
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      8,
+      23,
+      41,
+      79,
+      100,
+      143
+    ],
+    "electricity_usage_pattern_record": [
+      34,
+      91,
+      100,
+      183,
+      186
+    ],
+    "equiv_intersect_artifact_with_part": [
+      81,
+      136,
+      186
+    ],
+    "equiv_intersect_basic": [
+      1,
+      138,
+      186
+    ],
+    "ice_exactly_one_subject": [
+      23,
+      35,
+      38,
+      44,
+      47
+    ],
+    "insertion_loss_specification": [
+      45,
+      69,
+      159,
+      172,
+      183,
+      187
+    ],
+    "kernelhook_basic": [
+      10,
+      12,
+      24,
+      42,
+      60,
+      61,
+      111
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      12,
+      14,
+      50,
+      67,
+      72,
+      78,
+      135,
+      163
+    ],
+    "lineage_describes_transformation": [
+      12
+    ],
+    "mass_function_assigns_to_subset": [
+      4,
+      26,
+      51,
+      143
+    ],
+    "measurement_basic": [
+      1,
+      4,
+      20,
+      65,
+      123,
+      125,
+      186
+    ],
+    "measurement_subclass": [
+      4,
+      10,
+      23,
+      26,
+      39,
+      45,
+      109,
+      140,
+      142,
+      186
+    ],
+    "measurement_subclass_only_one_unit": [
+      12,
+      39,
+      47,
+      143,
+      185,
+      186,
+      191
+    ],
+    "patient_insurance_record": [
+      1,
+      7,
+      20,
+      26,
+      61,
+      79,
+      105,
+      181,
+      183
+    ],
+    "process_with_participant": [
+      0,
+      1,
+      24,
+      26,
+      36,
+      60,
+      79,
+      125,
+      183,
+      186
+    ],
+    "profile_basic": [
+      19,
+      186
+    ],
+    "program_with_entry_exactly_one": [
+      7,
+      10,
+      26,
+      56,
+      135,
+      136,
+      168,
+      181,
+      183,
+      186
+    ],
+    "quality_assurance_initiative": [
+      10,
+      26,
+      34,
+      68,
+      71,
+      186,
+      187
+    ],
+    "requirement_basic": [
+      47,
+      83,
+      125,
+      159,
+      183,
+      186
+    ],
+    "requirement_equiv_specifies_target": [
+      7
+    ],
+    "requirement_min_one_verification": [
+      7,
+      12,
+      120,
+      129,
+      166,
+      191
+    ],
+    "schemaorg_label_alignment": [
+      0,
+      45,
+      54,
+      62
+    ],
+    "schemaorg_person_birthplace": [
+      21,
+      92,
+      107
+    ],
+    "subclass_to_information_content_entity": [
+      4,
+      20,
+      47
+    ],
+    "trace_subclass": [
+      5,
+      26,
+      60,
+      94,
+      109,
+      186
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      61,
+      94,
+      100,
+      101,
+      143,
+      168,
+      183,
+      186
+    ],
+    "transformation_generates_entity": [
+      26,
+      42,
+      44,
+      50,
+      183,
+      185,
+      186
+    ],
+    "transformation_governed_by": [
+      1,
+      23,
+      45,
+      67,
+      135
+    ],
+    "transformation_not_recoverable": [
+      2,
+      23,
+      42
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_annotation_with_confidence_3a0fea",
+      "family": "02_observation_measurement",
+      "topics": [
+        11,
+        85,
+        94,
+        119,
+        154
+      ],
+      "cited_terms": [
+        "annotation_with_confidence",
+        "requirement_has_priority",
+        "claim_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_annotation_with_confidence_6e0385",
+      "family": "02_observation_measurement",
+      "topics": [
+        11,
+        31,
+        32,
+        42,
+        57
+      ],
+      "cited_terms": [
+        "annotation_with_confidence",
+        "audit_conducted_by",
+        "transformation_not_recoverable"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_subclass_cbee30",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        85,
+        136,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "attestation_subclass",
+        "requirement_has_priority",
+        "measurement_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_audit_conducted_by_b5ce91",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        32,
+        57,
+        69
+      ],
+      "cited_terms": [
+        "audit_conducted_by",
+        "attestation_about_compliance_claim",
+        "control_under_framework"
+      ]
+    },
+    {
+      "id": "ch_live_audit_conducted_by_ba8242",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        32,
+        57,
+        69
+      ],
+      "cited_terms": [
+        "audit_conducted_by",
+        "transformation_governed_by",
+        "ebpfprogram_equiv_typed_with_hook"
+      ]
+    },
+    {
+      "id": "ch_live_audit_conducted_by_e5e96f",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        32,
+        57,
+        69
+      ],
+      "cited_terms": [
+        "audit_conducted_by",
+        "schemaorg_person_birthplace",
+        "labrun_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_bpf_helper_subclass_2c8b43",
+      "family": "07_long_tail",
+      "topics": [
+        11,
+        31,
+        57,
+        128,
+        198
+      ],
+      "cited_terms": [
+        "bpf_helper_subclass",
+        "requirement_equiv_specifies_target",
+        "equiv_intersect_artifact_with_part"
+      ]
+    },
+    {
+      "id": "ch_live_cardinality_min_two_generic_78e0be",
+      "family": "01_foundation",
+      "topics": [
+        11
+      ],
+      "cited_terms": [
+        "cardinality_min_two_generic",
+        "census_data_collection_process",
+        "census_reporting_event"
+      ]
+    },
+    {
+      "id": "ch_live_claim_refuted_by_evidence_a786da",
+      "family": "06_belief_structure",
+      "topics": [
+        11,
+        85,
+        97,
+        102,
+        148
+      ],
+      "cited_terms": [
+        "claim_refuted_by_evidence",
+        "attestation_basic",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "ch_live_constraint_only_constrains_a2d2e5",
+      "family": "01_foundation",
+      "topics": [
+        11,
+        31,
+        57,
+        128,
+        198
+      ],
+      "cited_terms": [
+        "constraint_only_constrains",
+        "requirement_equiv_specifies_target",
+        "mass_function_assigns_to_subset"
+      ]
+    },
+    {
+      "id": "ch_live_dempster_combinant_second_a311d5",
+      "family": "07_long_tail",
+      "topics": [
+        11,
+        31,
+        32,
+        57,
+        69
+      ],
+      "cited_terms": [
+        "dempster_combinant_second",
+        "transformation_generates_entity",
+        "audit_conducted_by"
+      ]
+    },
+    {
+      "id": "ch_live_directive_only_governs_f550af",
+      "family": "01_foundation",
+      "topics": [
+        11,
+        31,
+        47,
+        57,
+        128
+      ],
+      "cited_terms": [
+        "directive_only_governs",
+        "requirement_basic",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "ch_live_disjunctive_combination_ec83e2",
+      "family": "07_long_tail",
+      "topics": [
+        11,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "disjunctive_combination",
+        "mass_function_assigns_to_subset",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_basic_d3a37b",
+      "family": "02_observation_measurement",
+      "topics": [
+        11,
+        31,
+        57,
+        62,
+        128
+      ],
+      "cited_terms": [
+        "measurement_basic",
+        "requirement_equiv_specifies_target",
+        "column_version_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_subclass_only_one_unit_edc1f8",
+      "family": "02_observation_measurement",
+      "topics": [
+        11,
+        31,
+        57,
+        85,
+        198
+      ],
+      "cited_terms": [
+        "measurement_subclass_only_one_unit",
+        "requirement_equiv_specifies_target",
+        "requirement_has_priority"
+      ]
+    },
+    {
+      "id": "ch_live_patient_insurance_record_8a984d",
+      "family": "08_derived",
+      "topics": [
+        11,
+        12,
+        31,
+        57,
+        128
+      ],
+      "cited_terms": [
+        "patient_insurance_record",
+        "lineage_describes_transformation",
+        "requirement_equiv_specifies_target"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_participant_616395",
+      "family": "01_foundation",
+      "topics": [
+        11,
+        61,
+        71,
+        85,
+        111
+      ],
+      "cited_terms": [
+        "process_with_participant",
+        "requirement_has_priority",
+        "kernelhook_basic"
+      ]
+    },
+    {
+      "id": "ch_live_program_with_entry_exactly_one_9b0294",
+      "family": "01_foundation",
+      "topics": [
+        11,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "program_with_entry_exactly_one",
+        "requirement_has_priority",
+        "trace_with_attributes"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_equiv_specifies_target_6e5ea5",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        57,
+        62,
+        65
+      ],
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "schemaorg_label_alignment",
+        "ebpf_event_for_syscall"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_equiv_specifies_target_9e0da8",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        57,
+        128,
+        198
+      ],
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "quality_assurance_initiative",
+        "profile_basic"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_equiv_specifies_target_f3cbfa",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        47,
+        57,
+        128
+      ],
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "descriptive_either_evidence_or_claim",
+        "subclass_to_information_content_entity"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_equiv_specifies_target_f7c73d",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        31,
+        57,
+        85,
+        198
+      ],
+      "cited_terms": [
+        "requirement_equiv_specifies_target",
+        "requirement_has_priority",
+        "requirement_min_one_verification"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_has_priority_00fa40",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        47,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "requirement_has_priority",
+        "electricity_usage_pattern_record",
+        "ice_exactly_one_subject"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_has_priority_2ea5d0",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        45,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "requirement_has_priority",
+        "constraint_check_subclass",
+        "ebpfmap_only_one_value_type"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_has_priority_e669f9",
+      "family": "03_directive_governance",
+      "topics": [
+        11,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "requirement_has_priority",
+        "equiv_intersect_basic",
+        "cardinality_exactly_one_generic"
+      ]
+    },
+    {
+      "id": "ch_live_trace_subclass_390620",
+      "family": "02_observation_measurement",
+      "topics": [
+        11,
+        85,
+        154,
+        198
+      ],
+      "cited_terms": [
+        "trace_subclass",
+        "requirement_has_priority",
+        "insertion_loss_specification"
+      ]
+    }
+  ]
+}

@@ -1,36 +1,55 @@
 # Collection — topic 143 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **10 chapters** · **21 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
-
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 143: topic 6, topic 22, topic 52, topic 71, topic 80, topic 85, topic 96, topic 98, topic 100, topic 110, topic 118, topic 121, topic 139, topic 151, topic 158, topic 159, topic 162, topic 164, topic 174, topic 199.
+FinePDFs-grounded topic (carried forward from the coverage audit). **7 chapters** · **1 topics** (target + style) · **16 ontology terms** · **16 underlying tables**.
 
 > **Topic gist** (representative FinePDFs text): CTGA Database Information Submission Form Help Topics Everyday the Centre for Arab Genomic Studies receives a variety of publications from scientists in the Arab World or abroad to be considered for the CTGA Database on genetic disorders in Arab populations. Curators of the CTGA Database are working continuously to update each and every record of the database following rigorous steps that includ.. …
 
 ## Chapters
 
-- [Chapter 4: Formalization of Belief Structures and Directives in Semantic Governance](chapters/05f1fa2cf10cfd2a.md)
-- [Chapter 4: Axiomatic Mapping of Evidence Structures to Relational Schemas](chapters/4396e6ad3f714086.md)
-- [Chapter 4: Formalization of Belief Structures and Governance Directives](chapters/4908a5ea9d9dc0ba.md)
-- [Chapter 7: Formalization of Belief Structures and Governance Directives](chapters/49e6b1216a8d62c1.md)
-- [Chapter 4: Formal Ontology of Uncertainty and Evidence-Based Governance](chapters/634287315a31b3c8.md)
-- [Chapter 4: Formal Specification of Belief Structures and Governance Directives](chapters/68c2fbeca17534cf.md)
-- [Chapter 4: Formal Ontologies of Evidence and Governance](chapters/7ddea8311b13bfdd.md)
-- [Chapter 4: Formalization of Belief Structures and Governance Directives](chapters/8e722f8564335fc5.md)
-- [Chapter 4: Ontological Formalization of Belief Structures and Compliance Directives](chapters/9e68958a2c4363bd.md)
-- [Chapter 4: Formal Representation of Uncertainty and Directives in Governance Frameworks](chapters/db4b3c23ee46a28d.md)
+- [ch_live_cardinality_max_one_generic_ca5b6d](chapters/ch_live_cardinality_max_one_generic_ca5b6d.md)
+- [ch_live_constraint_with_severity_classification_254cb2](chapters/ch_live_constraint_with_severity_classification_254cb2.md)
+- [ch_live_ebpfprogram_equiv_typed_with_hook_06ddea](chapters/ch_live_ebpfprogram_equiv_typed_with_hook_06ddea.md)
+- [ch_live_measurement_subclass_only_one_unit_179d31](chapters/ch_live_measurement_subclass_only_one_unit_179d31.md)
+- [ch_live_observation_precedes_other_dc5904](chapters/ch_live_observation_precedes_other_dc5904.md)
+- [ch_live_transformation_ends_at_63aaba](chapters/ch_live_transformation_ends_at_63aaba.md)
+- [ch_live_xdp_action_drop_38b3b6](chapters/ch_live_xdp_action_drop_38b3b6.md)
 
 ## Ontology terms grounding this collection
 
 - `belief_interval_equiv_bel_and_pl` — Class: {X:Class} EquivalentTo: cco:DescriptiveICE and (sdg:hasBeliefLowerBound some {Y:Class}) and (sdg:hasPlausibilityU
-- `directive_authored_and_applies` — Class: {X:Class} EquivalentTo: cco:DirectiveICE and (sdg:authoredBy some {Y:Class}) and (sdg:appliesTo some {Z:Class})
-- `equiv_intersect_with_negation` — {X} is equivalent to {Y} and not {Z}
-- `mass_function_equiv_frame_and_assignment` — Class: {X:Class} EquivalentTo: cco:DescriptiveICE and (sdg:overFrameOfDiscernment some {Y:Class}) and (sdg:assignsMassTo
+- `belief_interval_for_claim` — {X} is a descriptive information content entity that for claim {Y}
+- `cardinality_max_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} max 1 {Y:Class}
+- `cardinality_max_three_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} max 3 {Y:Class}
+- `cardinality_min_one_generic` — Class: {X:Class} SubClassOf: {p:ObjectProperty} min 1 {Y:Class}
+- `constraint_with_severity_classification` — {X} is a directive information content entity that has severity {Y}
+- `ebpfprogram_equiv_typed_with_hook` — Class: {X:Class} EquivalentTo: cco:Artifact and (sdg:hasProgramType some {Y:Class}) and (sdg:attachesToHook some {Z:Clas
+- `mass_function_assigns_to_subset` — {X} is a descriptive information content entity that assigns mass to {Y}
+- `measurement_subclass_only_one_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `observation_precedes_other` — {X} is a process that precedes {Y}
+- `rollback_relation` — {X} is a descriptive information content entity that rolls back to {Y}
+- `schemaorg_creativework_publisher` — {X} is an artifact that has publisher {Y}
+- `schemaorg_place_longitude` — {X} is an artifact that has longitude {Y}
+- `trace_with_attributes` — {X} is a process that has attribute designative information content entity
+- `transformation_ends_at` — {X} is a process that ended at time {Y}
+- `xdp_action_drop` — {X} is an artifact that has xdpaction {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_belief_interval_equiv_bel_and_pl`](tables/t_belief_interval_equiv_bel_and_pl.sql) — realizes `belief_interval_equiv_bel_and_pl`
-- [`t_directive_authored_and_applies`](tables/t_directive_authored_and_applies.sql) — realizes `directive_authored_and_applies` · _shared with 2 other collection(s)_
-- [`t_equiv_intersect_with_negation`](tables/t_equiv_intersect_with_negation.sql) — realizes `equiv_intersect_with_negation`
-- [`t_mass_function_equiv_frame_and_assignment`](tables/t_mass_function_equiv_frame_and_assignment.sql) — realizes `mass_function_equiv_frame_and_assignment` · _shared with 2 other collection(s)_
+- [`t_belief_interval_equiv_bel_and_pl`](tables/t_belief_interval_equiv_bel_and_pl.sql) — realizes `belief_interval_equiv_bel_and_pl` · _shared with 13 other collection(s)_
+- [`t_belief_interval_for_claim`](tables/t_belief_interval_for_claim.sql) — realizes `belief_interval_for_claim` · _shared with 6 other collection(s)_
+- [`t_cardinality_max_one_generic`](tables/t_cardinality_max_one_generic.sql) — realizes `cardinality_max_one_generic` · _shared with 9 other collection(s)_
+- [`t_cardinality_max_three_generic`](tables/t_cardinality_max_three_generic.sql) — realizes `cardinality_max_three_generic` · _shared with 9 other collection(s)_
+- [`t_cardinality_min_one_generic`](tables/t_cardinality_min_one_generic.sql) — realizes `cardinality_min_one_generic` · _shared with 6 other collection(s)_
+- [`t_constraint_with_severity_classification`](tables/t_constraint_with_severity_classification.sql) — realizes `constraint_with_severity_classification` · _shared with 5 other collection(s)_
+- [`t_ebpfprogram_equiv_typed_with_hook`](tables/t_ebpfprogram_equiv_typed_with_hook.sql) — realizes `ebpfprogram_equiv_typed_with_hook` · _shared with 6 other collection(s)_
+- [`t_mass_function_assigns_to_subset`](tables/t_mass_function_assigns_to_subset.sql) — realizes `mass_function_assigns_to_subset` · _shared with 4 other collection(s)_
+- [`t_measurement_subclass_only_one_unit`](tables/t_measurement_subclass_only_one_unit.sql) — realizes `measurement_subclass_only_one_unit` · _shared with 7 other collection(s)_
+- [`t_observation_precedes_other`](tables/t_observation_precedes_other.sql) — realizes `observation_precedes_other` · _shared with 8 other collection(s)_
+- [`t_rollback_relation`](tables/t_rollback_relation.sql) — realizes `rollback_relation` · _shared with 6 other collection(s)_
+- [`t_schemaorg_creativework_publisher`](tables/t_schemaorg_creativework_publisher.sql) — realizes `schemaorg_creativework_publisher` · _shared with 7 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 8 other collection(s)_
+- [`t_trace_with_attributes`](tables/t_trace_with_attributes.sql) — realizes `trace_with_attributes` · _shared with 10 other collection(s)_
+- [`t_transformation_ends_at`](tables/t_transformation_ends_at.sql) — realizes `transformation_ends_at` · _shared with 6 other collection(s)_
+- [`t_xdp_action_drop`](tables/t_xdp_action_drop.sql) — realizes `xdp_action_drop` · _shared with 9 other collection(s)_

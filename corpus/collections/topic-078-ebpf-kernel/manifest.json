@@ -1,434 +1,240 @@
 {
   "topic_id": 78,
   "family": "04_ebpf_kernel",
-  "n_chapters": 20,
-  "coverage_score": 0.29648420214653015,
+  "n_chapters": 6,
+  "coverage_score": 0.29650020599365234,
   "topic_repr": "ENERGY STAR \u00ae Residential New Construction Programs\n\nHistorical Document\n\nThis document is provided for reference because it has been superseded by a more recent Version or Revision. Please find current program documents on the Program Requirements webpage.\n\nUse of older Versions and Revisions, such as this document, are typically limited to homes and buildings with a permit date (or, for manufact...",
   "terms": [
-    "control_with_evidence_requirement",
-    "gdpr_lawful_basis",
-    "policy_equiv_jurisdiction_and_scope",
-    "policy_with_jurisdiction",
-    "trace_supports_claim"
+    "annotation_classifies_artifact",
+    "attribute_set_subclass",
+    "identifier_uniquely_identifies",
+    "indoor_air_quality_action_plan",
+    "labrun_subclass",
+    "measurement_with_method",
+    "outlier_claim_against_baseline",
+    "soc2_processing_integrity",
+    "sysblock_subclass",
+    "syscall_at_security_tier",
+    "syscall_audited_by",
+    "taper_tolerance_constraint",
+    "transformation_only_uses_datasets"
   ],
   "tables": [
-    "t_control_with_evidence_requirement",
-    "t_gdpr_lawful_basis",
-    "t_policy_equiv_jurisdiction_and_scope",
-    "t_policy_with_jurisdiction",
-    "t_trace_supports_claim"
+    "t_annotation_classifies_artifact",
+    "t_attribute_set_subclass",
+    "t_identifier_uniquely_identifies",
+    "t_indoor_air_quality_action_plan",
+    "t_labrun_subclass",
+    "t_measurement_with_method",
+    "t_outlier_claim_against_baseline",
+    "t_soc2_processing_integrity",
+    "t_sysblock_subclass",
+    "t_syscall_at_security_tier",
+    "t_syscall_audited_by",
+    "t_taper_tolerance_constraint",
+    "t_transformation_only_uses_datasets"
   ],
   "topics": [
-    4,
-    6,
-    7,
-    22,
-    31,
-    32,
+    34,
+    44,
     49,
-    52,
-    56,
-    68,
-    72,
-    73,
-    74,
-    77,
+    70,
     78,
-    89,
-    90,
-    96,
-    98,
-    102,
-    106,
-    111,
-    125,
-    127,
-    128,
-    130,
-    132,
-    138,
-    153,
-    154,
-    163,
-    171,
-    173,
-    174,
-    185,
-    190,
-    194
+    120,
+    142
   ],
   "shared_tables": {
-    "control_with_evidence_requirement": [
-      3,
-      23,
+    "annotation_classifies_artifact": [
       26,
-      58,
-      83,
-      88,
-      89,
-      92,
-      102,
-      104,
-      134,
-      138,
-      154,
-      191
+      51,
+      101,
+      119,
+      158,
+      186
     ],
-    "gdpr_lawful_basis": [
-      3,
-      26,
-      30,
-      73,
+    "attribute_set_subclass": [
+      1,
+      2,
+      4,
+      46,
       104,
-      133,
-      138,
-      154,
+      155,
+      181,
+      186
+    ],
+    "identifier_uniquely_identifies": [
+      7,
+      23,
+      41,
+      45,
+      46,
+      60,
+      100,
+      186
+    ],
+    "indoor_air_quality_action_plan": [
+      4,
+      39,
+      83,
+      123,
+      149,
+      186
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      12,
+      14,
+      50,
+      67,
+      72,
+      135,
       163
     ],
-    "policy_equiv_jurisdiction_and_scope": [
+    "measurement_with_method": [
+      4,
+      23,
+      38,
+      39,
+      86,
+      97,
+      159,
+      168,
+      183
+    ],
+    "outlier_claim_against_baseline": [
       7,
-      75,
-      96
+      67,
+      92,
+      105,
+      120
     ],
-    "policy_with_jurisdiction": [
+    "soc2_processing_integrity": [
+      24,
       26,
-      83
+      34,
+      81,
+      172
     ],
-    "trace_supports_claim": [
-      30,
-      49,
-      65,
-      94,
-      99,
-      108,
-      115,
-      130,
-      133,
-      154,
-      165,
-      185,
-      190
+    "sysblock_subclass": [
+      35,
+      56,
+      79,
+      184,
+      186,
+      195
+    ],
+    "syscall_at_security_tier": [
+      7,
+      10,
+      12,
+      24,
+      34,
+      138
+    ],
+    "syscall_audited_by": [
+      23,
+      40,
+      41
+    ],
+    "taper_tolerance_constraint": [
+      6,
+      7,
+      42,
+      45,
+      58,
+      155,
+      168
+    ],
+    "transformation_only_uses_datasets": [
+      1,
+      19,
+      34,
+      35,
+      41,
+      42,
+      163,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "01cb5bf014994977",
-      "family": "03_directive_governance",
+      "id": "ch_live_identifier_uniquely_identifies_2e3131",
+      "family": "01_foundation",
       "topics": [
+        78
+      ],
+      "cited_terms": [
+        "identifier_uniquely_identifies",
+        "measurement_with_method",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "ch_live_indoor_air_quality_action_plan_9c1e7d",
+      "family": "08_derived",
+      "topics": [
+        78
+      ],
+      "cited_terms": [
+        "indoor_air_quality_action_plan",
+        "transformation_only_uses_datasets",
+        "syscall_audited_by"
+      ]
+    },
+    {
+      "id": "ch_live_sysblock_subclass_9abf3d",
+      "family": "01_foundation",
+      "topics": [
+        34,
+        44,
         49,
-        78,
-        153
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "07a9c628ee5821d2",
-      "family": "03_directive_governance",
-      "topics": [
-        7,
-        78,
-        173
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "09fe8794e6b55cb1",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        132,
-        194
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "108fe5f2fead64f4",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        174,
-        185
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "1233938eadb5e5b1",
-      "family": "03_directive_governance",
-      "topics": [
-        72,
-        78,
-        132
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "1717fabd105d0248",
-      "family": "03_directive_governance",
-      "topics": [
-        52,
-        56,
+        70,
         78
       ],
       "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
+        "sysblock_subclass",
+        "syscall_at_security_tier",
+        "syscall_audited_by"
       ]
     },
     {
-      "id": "17a26d4ddb7c4909",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_audited_by_639fbd",
+      "family": "04_ebpf_kernel",
       "topics": [
-        78,
-        111,
-        154
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "24f8281aa22e7ab0",
-      "family": "03_directive_governance",
-      "topics": [
-        68,
-        78,
-        173
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "3f07939d95fe4c29",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        128,
-        153
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "5fd44d824a8af271",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        98,
-        138
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "60f6bbd0c72a25f1",
-      "family": "03_directive_governance",
-      "topics": [
-        77,
-        78,
-        171
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "940504782e280f8c",
-      "family": "03_directive_governance",
-      "topics": [
-        4,
-        6,
         78
       ],
       "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
+        "syscall_audited_by",
+        "taper_tolerance_constraint",
+        "annotation_classifies_artifact"
       ]
     },
     {
-      "id": "9e3480bc11de2339",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_audited_by_894bbb",
+      "family": "04_ebpf_kernel",
       "topics": [
-        22,
         78,
-        127
+        120,
+        142
       ],
       "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
+        "syscall_audited_by",
+        "labrun_subclass",
+        "outlier_claim_against_baseline"
       ]
     },
     {
-      "id": "bf9744e87f01c2d4",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_audited_by_e4dea6",
+      "family": "04_ebpf_kernel",
       "topics": [
-        78,
-        90,
-        163
+        78
       ],
       "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "bfe73f1cfa47771a",
-      "family": "03_directive_governance",
-      "topics": [
-        73,
-        78,
-        102
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "df537c1158b3cc6f",
-      "family": "03_directive_governance",
-      "topics": [
-        74,
-        78,
-        138
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "e396cdbdc7f30334",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        106,
-        130
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "eeed8f1597393b04",
-      "family": "03_directive_governance",
-      "topics": [
-        78,
-        125,
-        190
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "f3e67dc7bd812648",
-      "family": "03_directive_governance",
-      "topics": [
-        32,
-        78,
-        96
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
-      ]
-    },
-    {
-      "id": "f604dcde17688b92",
-      "family": "03_directive_governance",
-      "topics": [
-        31,
-        78,
-        89
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "policy_with_jurisdiction",
-        "trace_supports_claim",
-        "control_with_evidence_requirement",
-        "policy_equiv_jurisdiction_and_scope"
+        "syscall_audited_by",
+        "attribute_set_subclass",
+        "soc2_processing_integrity"
       ]
     }
   ]

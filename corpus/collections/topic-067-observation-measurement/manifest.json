@@ -1,238 +1,992 @@
 {
   "topic_id": 67,
   "family": "02_observation_measurement",
-  "n_chapters": 10,
+  "n_chapters": 27,
   "coverage_score": 0.19369207322597504,
   "topic_repr": "Informaci\u00f3n del Plan Docente\n\nAcademic Year\n\n2018/19\n\nSubject\n\n29915 - Experimentation in Chemistry\n\nFaculty / School\n\n110 - Escuela de Ingenier\u00eda y Arquitectura\n\nDegree\n\n435 - Bachelor's Degree in Chemical Engineering\n\nECTS\n\n6.0\n\nYear\n\n2\n\nSemester\n\nSecond semester\n\nSubject Type\n\nCompulsory\n\nModule\n\n---\n\n1.General information\n\n1.1.Aims of the course\n\nThe subject and its expected results respond th...",
   "terms": [
-    "syscall_at_security_tier",
-    "syscall_basic",
-    "syscall_equiv_in_subsystem",
-    "syscall_max_one_return",
-    "syscall_traceable"
+    "alert_governed_by_runbook",
+    "allocation_exactly_one_run_id",
+    "annotation_classifies_class",
+    "attrkey_subclass",
+    "column_lineage_for_table_column",
+    "constraint_check_subclass",
+    "control_min_one_owner",
+    "control_observed_via",
+    "dempster_combines_audit_evidences",
+    "dempster_conflict_mass",
+    "descriptive_not_retracted",
+    "designative_for_specific_role",
+    "division_assignment_record",
+    "ebpf_event_basic",
+    "ebpfprogram_min_one_hook",
+    "evidence_basic",
+    "evidence_with_mass_function",
+    "existential_with_has_part",
+    "existential_with_part_of",
+    "gdpr_article_subclass",
+    "institutional_vision_statement",
+    "kernel_anomaly_supports_claim",
+    "kernelhook_with_hook_kind",
+    "knowledge_base_integration",
+    "labrun_basic",
+    "labrun_has_operator",
+    "labrun_min_one_sample",
+    "labrun_observed_at_site",
+    "labrun_subclass",
+    "labrun_uses_instrument",
+    "lift_with_support_count",
+    "lineage_edge_subclass",
+    "lineage_edge_with_confidence",
+    "lineage_edge_with_provenance",
+    "mass_function_with_normalization",
+    "measurement_with_op_artifact",
+    "metric_with_aggregation",
+    "observation_records_state",
+    "opentelemetry_span_subclass",
+    "outlier_claim_against_baseline",
+    "outlier_claim_supported_by",
+    "policy_only_governs_artifacts",
+    "policy_subclass",
+    "profiling_only_targets_datasets",
+    "program_subclass",
+    "radicalization_process",
+    "requirement_traces_to",
+    "schemaorg_org_country",
+    "schemaorg_review_target",
+    "strategic_planning_process",
+    "transformation_governed_by",
+    "uretprobe_subclass",
+    "vehicle_equipment_specification"
   ],
   "tables": [
-    "t_syscall_at_security_tier",
-    "t_syscall_basic",
-    "t_syscall_equiv_in_subsystem",
-    "t_syscall_max_one_return",
-    "t_syscall_traceable"
+    "t_alert_governed_by_runbook",
+    "t_allocation_exactly_one_run_id",
+    "t_annotation_classifies_class",
+    "t_attrkey_subclass",
+    "t_column_lineage_for_table_column",
+    "t_constraint_check_subclass",
+    "t_control_min_one_owner",
+    "t_control_observed_via",
+    "t_dempster_combines_audit_evidences",
+    "t_dempster_conflict_mass",
+    "t_descriptive_not_retracted",
+    "t_designative_for_specific_role",
+    "t_division_assignment_record",
+    "t_ebpf_event_basic",
+    "t_ebpfprogram_min_one_hook",
+    "t_evidence_basic",
+    "t_evidence_with_mass_function",
+    "t_existential_with_has_part",
+    "t_existential_with_part_of",
+    "t_gdpr_article_subclass",
+    "t_institutional_vision_statement",
+    "t_kernel_anomaly_supports_claim",
+    "t_kernelhook_with_hook_kind",
+    "t_knowledge_base_integration",
+    "t_labrun_basic",
+    "t_labrun_has_operator",
+    "t_labrun_min_one_sample",
+    "t_labrun_observed_at_site",
+    "t_labrun_subclass",
+    "t_labrun_uses_instrument",
+    "t_lift_with_support_count",
+    "t_lineage_edge_subclass",
+    "t_lineage_edge_with_confidence",
+    "t_lineage_edge_with_provenance",
+    "t_mass_function_with_normalization",
+    "t_measurement_with_op_artifact",
+    "t_metric_with_aggregation",
+    "t_observation_records_state",
+    "t_opentelemetry_span_subclass",
+    "t_outlier_claim_against_baseline",
+    "t_outlier_claim_supported_by",
+    "t_policy_only_governs_artifacts",
+    "t_policy_subclass",
+    "t_profiling_only_targets_datasets",
+    "t_program_subclass",
+    "t_radicalization_process",
+    "t_requirement_traces_to",
+    "t_schemaorg_org_country",
+    "t_schemaorg_review_target",
+    "t_strategic_planning_process",
+    "t_transformation_governed_by",
+    "t_uretprobe_subclass",
+    "t_vehicle_equipment_specification"
   ],
   "topics": [
-    16,
-    52,
+    0,
     67,
-    72,
-    80,
+    79,
     83,
-    104,
+    91,
+    105,
     106,
-    112,
-    127,
-    131,
-    143,
-    155,
-    169,
-    171,
-    173,
-    186,
-    195,
-    197,
-    198
+    109,
+    119,
+    120,
+    135,
+    138,
+    140,
+    142,
+    158,
+    178,
+    185,
+    195
   ],
   "shared_tables": {
-    "syscall_at_security_tier": [
-      19,
-      31,
-      62,
-      72,
+    "alert_governed_by_runbook": [
+      35,
       90,
-      97,
-      110
+      100,
+      119,
+      135
     ],
-    "syscall_basic": [
+    "allocation_exactly_one_run_id": [
+      35,
+      79,
+      165,
+      183,
+      186
+    ],
+    "annotation_classifies_class": [
+      4,
+      26,
+      54,
+      66,
+      102,
+      105,
+      186
+    ],
+    "attrkey_subclass": [
+      7,
+      12,
+      20,
+      23,
+      26,
+      129,
+      185,
+      186,
+      187
+    ],
+    "column_lineage_for_table_column": [
+      7,
+      42,
+      140,
+      186
+    ],
+    "constraint_check_subclass": [
+      3,
+      4,
+      11,
+      26,
+      46,
+      56,
+      65,
+      81,
+      139,
+      181,
+      183,
+      186
+    ],
+    "control_min_one_owner": [
+      1,
+      4,
+      26,
+      44,
+      46,
+      92,
+      119,
+      168,
+      185,
+      186
+    ],
+    "control_observed_via": [
+      1,
+      19,
+      26,
+      159,
+      181,
+      186
+    ],
+    "dempster_combines_audit_evidences": [
+      90,
+      185
+    ],
+    "dempster_conflict_mass": [
+      1,
+      47,
+      54,
+      83,
+      109
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      47,
+      69,
+      94,
+      138,
+      161,
+      181,
+      186,
+      187,
+      191
+    ],
+    "designative_for_specific_role": [
+      1,
+      23,
+      119,
+      138
+    ],
+    "division_assignment_record": [
+      19,
+      34,
+      45,
+      80,
+      86,
+      159,
+      185
+    ],
+    "ebpf_event_basic": [
+      65,
+      120,
+      195
+    ],
+    "ebpfprogram_min_one_hook": [
+      4,
+      21,
+      79,
+      97,
+      158
+    ],
+    "evidence_basic": [
+      2,
+      4,
+      26,
+      45,
+      51,
+      65,
+      109,
+      120,
+      125,
+      191
+    ],
+    "evidence_with_mass_function": [
+      4,
+      24,
+      35,
+      40,
+      42,
+      46,
+      47,
+      94,
+      101,
+      187
+    ],
+    "existential_with_has_part": [
+      26,
+      45,
+      47,
+      79,
+      111,
+      140,
+      186
+    ],
+    "existential_with_part_of": [
+      5,
+      7,
+      26,
+      36,
+      61,
+      69,
+      109,
+      186
+    ],
+    "gdpr_article_subclass": [
+      6,
+      14,
+      17,
+      35,
+      44,
+      81,
+      97,
+      181,
+      186
+    ],
+    "institutional_vision_statement": [
+      4,
       8,
-      77,
-      114,
-      169
-    ],
-    "syscall_equiv_in_subsystem": [
       19,
-      31,
-      62,
+      26,
+      35,
+      100,
+      107,
+      128,
+      140,
+      159,
+      165,
+      186
+    ],
+    "kernel_anomaly_supports_claim": [
+      41,
+      44,
+      79,
+      101
+    ],
+    "kernelhook_with_hook_kind": [
+      3,
+      24,
+      42,
+      46,
+      65
+    ],
+    "knowledge_base_integration": [
+      4,
+      45,
+      46,
+      61,
+      83,
+      97
+    ],
+    "labrun_basic": [
+      12,
+      47
+    ],
+    "labrun_has_operator": [
+      2,
+      4,
+      26,
+      74,
+      94,
+      181,
+      185,
+      186,
+      195
+    ],
+    "labrun_min_one_sample": [
+      1,
+      2,
+      33,
+      45
+    ],
+    "labrun_observed_at_site": [
+      4,
+      7,
+      35,
+      46,
+      61,
+      146,
+      183,
+      186
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      12,
+      14,
+      50,
       72,
+      78,
+      135,
+      163
+    ],
+    "labrun_uses_instrument": [
+      12,
+      47
+    ],
+    "lift_with_support_count": [
+      12,
+      51,
+      92,
       97,
-      110
+      181,
+      183,
+      185,
+      186,
+      187
     ],
-    "syscall_max_one_return": [
+    "lineage_edge_subclass": [
+      20,
+      101,
+      140,
+      159,
+      183
+    ],
+    "lineage_edge_with_confidence": [
+      2,
+      60,
+      65,
+      119
+    ],
+    "lineage_edge_with_provenance": [
+      1,
+      42,
+      46,
+      47,
+      60,
+      106,
+      184
+    ],
+    "mass_function_with_normalization": [
+      4,
       19,
-      72,
-      110,
-      162
+      40,
+      42,
+      109
     ],
-    "syscall_traceable": [
-      139
+    "measurement_with_op_artifact": [
+      4,
+      26,
+      58,
+      62,
+      183,
+      186,
+      187
+    ],
+    "metric_with_aggregation": [
+      16,
+      20,
+      26,
+      42,
+      44,
+      94,
+      186,
+      191
+    ],
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      23,
+      26,
+      91,
+      123,
+      125,
+      129,
+      135,
+      163,
+      183,
+      185,
+      186
+    ],
+    "opentelemetry_span_subclass": [
+      4,
+      10,
+      33,
+      86,
+      159,
+      186,
+      191
+    ],
+    "outlier_claim_against_baseline": [
+      7,
+      78,
+      92,
+      105,
+      120
+    ],
+    "outlier_claim_supported_by": [
+      5,
+      23,
+      26,
+      39,
+      60,
+      79,
+      81,
+      97,
+      183,
+      186
+    ],
+    "policy_only_governs_artifacts": [
+      4,
+      14,
+      24,
+      26,
+      44,
+      46,
+      66,
+      140,
+      142,
+      146,
+      181,
+      186
+    ],
+    "policy_subclass": [
+      1,
+      5,
+      26,
+      34,
+      35,
+      41,
+      60,
+      183,
+      186
+    ],
+    "profiling_only_targets_datasets": [
+      0,
+      195
+    ],
+    "program_subclass": [
+      46,
+      47,
+      100,
+      168,
+      186,
+      195
+    ],
+    "radicalization_process": [
+      1,
+      5,
+      7,
+      26,
+      40,
+      65,
+      83,
+      109,
+      128,
+      136,
+      186
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      72,
+      86,
+      94,
+      105,
+      161,
+      168,
+      183,
+      186,
+      188
+    ],
+    "schemaorg_org_country": [
+      26,
+      46,
+      62,
+      107
+    ],
+    "schemaorg_review_target": [
+      20,
+      24,
+      26,
+      69,
+      186
+    ],
+    "strategic_planning_process": [
+      5,
+      26,
+      34,
+      44,
+      97,
+      106,
+      183,
+      186,
+      191
+    ],
+    "transformation_governed_by": [
+      1,
+      11,
+      23,
+      45,
+      135
+    ],
+    "uretprobe_subclass": [
+      94,
+      161,
+      183,
+      186,
+      195
+    ],
+    "vehicle_equipment_specification": [
+      24,
+      65,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "0146efce2074e77d",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_alert_governed_by_runbook_8c4c51",
+      "family": "07_long_tail",
       "topics": [
         67,
-        80,
+        91,
+        135,
         195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "alert_governed_by_runbook",
+        "labrun_basic",
+        "labrun_subclass"
       ]
     },
     {
-      "id": "121625e11c71e835",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_attrkey_subclass_e9f25f",
+      "family": "01_foundation",
       "topics": [
         67,
-        104,
-        197
+        91,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "attrkey_subclass",
+        "measurement_with_op_artifact",
+        "labrun_basic"
       ]
     },
     {
-      "id": "4e07795850aaa0fe",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_division_assignment_record_faaf7f",
+      "family": "08_derived",
       "topics": [
         67,
-        131,
-        186
+        91,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "division_assignment_record",
+        "labrun_basic",
+        "observation_records_state"
       ]
     },
     {
-      "id": "5dde8d4961d86eff",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_evidence_basic_64a67d",
+      "family": "06_belief_structure",
       "topics": [
         67,
-        72,
-        143
+        106
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "evidence_basic",
+        "labrun_min_one_sample",
+        "constraint_check_subclass"
       ]
     },
     {
-      "id": "69981513b706ccb1",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_evidence_with_mass_function_616d19",
+      "family": "06_belief_structure",
+      "topics": [
+        67,
+        91,
+        195
+      ],
+      "cited_terms": [
+        "evidence_with_mass_function",
+        "annotation_classifies_class",
+        "labrun_basic"
+      ]
+    },
+    {
+      "id": "ch_live_existential_with_has_part_f17a1c",
+      "family": "01_foundation",
+      "topics": [
+        67,
+        91,
+        195
+      ],
+      "cited_terms": [
+        "existential_with_has_part",
+        "vehicle_equipment_specification",
+        "labrun_basic"
+      ]
+    },
+    {
+      "id": "ch_live_existential_with_part_of_ff7b7d",
+      "family": "01_foundation",
+      "topics": [
+        67,
+        185
+      ],
+      "cited_terms": [
+        "existential_with_part_of",
+        "labrun_uses_instrument",
+        "dempster_combines_audit_evidences"
+      ]
+    },
+    {
+      "id": "ch_live_gdpr_article_subclass_21f8b0",
+      "family": "07_long_tail",
       "topics": [
         67,
         106,
-        173
+        119
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "gdpr_article_subclass",
+        "lineage_edge_with_confidence",
+        "labrun_min_one_sample"
       ]
     },
     {
-      "id": "82b5b4ddd716ea0f",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_kernel_anomaly_supports_claim_91564e",
+      "family": "07_long_tail",
       "topics": [
         67,
-        127,
-        198
+        79,
+        178
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "kernel_anomaly_supports_claim",
+        "institutional_vision_statement",
+        "labrun_uses_instrument"
       ]
     },
     {
-      "id": "933f5a3df4a03c19",
+      "id": "ch_live_kernelhook_with_hook_kind_29778d",
       "family": "04_ebpf_kernel",
       "topics": [
         67,
-        169,
-        197
+        91,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "kernelhook_with_hook_kind",
+        "knowledge_base_integration",
+        "labrun_basic"
       ]
     },
     {
-      "id": "9a1f84eefaac6bd7",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_labrun_basic_2a7ac0",
+      "family": "02_observation_measurement",
       "topics": [
         67,
-        155,
-        171
+        91,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "labrun_basic",
+        "uretprobe_subclass",
+        "schemaorg_org_country"
       ]
     },
     {
-      "id": "ba5d6bdc648ffcb1",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_labrun_basic_547904",
+      "family": "02_observation_measurement",
       "topics": [
-        52,
         67,
-        112
+        91,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "labrun_basic",
+        "strategic_planning_process",
+        "control_min_one_owner"
       ]
     },
     {
-      "id": "fa12e8d826671358",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_labrun_basic_cd6c9a",
+      "family": "02_observation_measurement",
       "topics": [
-        16,
         67,
-        83
+        91,
+        138,
+        158,
+        195
       ],
       "cited_terms": [
-        "syscall_equiv_in_subsystem",
-        "syscall_max_one_return",
-        "syscall_traceable",
-        "syscall_at_security_tier",
-        "syscall_basic"
+        "labrun_basic",
+        "designative_for_specific_role",
+        "ebpfprogram_min_one_hook"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_has_operator_ec6471",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "labrun_has_operator",
+        "labrun_min_one_sample",
+        "labrun_observed_at_site"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_min_one_sample_4f7df3",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        106,
+        195
+      ],
+      "cited_terms": [
+        "labrun_min_one_sample",
+        "ebpf_event_basic",
+        "allocation_exactly_one_run_id"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_min_one_sample_d24745",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "labrun_min_one_sample",
+        "descriptive_not_retracted",
+        "vehicle_equipment_specification"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_min_one_sample_d6864a",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        106,
+        109,
+        140
+      ],
+      "cited_terms": [
+        "labrun_min_one_sample",
+        "mass_function_with_normalization",
+        "radicalization_process"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_support_count_dc8087",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "lift_with_support_count",
+        "existential_with_has_part",
+        "labrun_min_one_sample"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_subclass_d0f4eb",
+      "family": "05_provo_lineage",
+      "topics": [
+        67,
+        83,
+        91,
+        142,
+        195
+      ],
+      "cited_terms": [
+        "lineage_edge_subclass",
+        "dempster_conflict_mass",
+        "labrun_basic"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_with_provenance_484695",
+      "family": "05_provo_lineage",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "lineage_edge_with_provenance",
+        "labrun_min_one_sample",
+        "control_observed_via"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_with_provenance_d19c08",
+      "family": "05_provo_lineage",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "lineage_edge_with_provenance",
+        "labrun_min_one_sample",
+        "outlier_claim_supported_by"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_against_baseline_42a6de",
+      "family": "02_observation_measurement",
+      "topics": [
+        67,
+        91,
+        120,
+        142,
+        195
+      ],
+      "cited_terms": [
+        "outlier_claim_against_baseline",
+        "column_lineage_for_table_column",
+        "labrun_basic"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_governs_artifacts_faf3f9",
+      "family": "03_directive_governance",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "policy_only_governs_artifacts",
+        "labrun_min_one_sample",
+        "opentelemetry_span_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_profiling_only_targets_datasets_48a6b5",
+      "family": "02_observation_measurement",
+      "topics": [
+        0,
+        67,
+        105,
+        106,
+        135
+      ],
+      "cited_terms": [
+        "profiling_only_targets_datasets",
+        "transformation_governed_by",
+        "labrun_min_one_sample"
+      ]
+    },
+    {
+      "id": "ch_live_program_subclass_8ebab4",
+      "family": "01_foundation",
+      "topics": [
+        67
+      ],
+      "cited_terms": [
+        "program_subclass",
+        "labrun_uses_instrument",
+        "metric_with_aggregation"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_traces_to_8c5da3",
+      "family": "03_directive_governance",
+      "topics": [
+        67,
+        106
+      ],
+      "cited_terms": [
+        "requirement_traces_to",
+        "labrun_min_one_sample",
+        "policy_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_review_target_3b59d0",
+      "family": "07_long_tail",
+      "topics": [
+        67
+      ],
+      "cited_terms": [
+        "schemaorg_review_target",
+        "existential_with_part_of",
+        "labrun_uses_instrument"
       ]
     }
   ]

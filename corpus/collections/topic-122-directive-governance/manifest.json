@@ -1,254 +1,109 @@
 {
   "topic_id": 122,
   "family": "03_directive_governance",
-  "n_chapters": 12,
-  "coverage_score": 0.3657273054122925,
+  "n_chapters": 2,
+  "coverage_score": 0.38035306334495544,
   "topic_repr": "Annual report and audited financial statements\n\niShares II PLC\n\nFor the financial year ended 31 October 2024\n\n# CONTENTS\n\n## Overview\n\n| Section                                      | Page |\n|----------------------------------------------|------|\n| General information                          | 3    |\n| Chair's statement                            | 5    |\n| Background                             ...",
   "terms": [
-    "ebpf_event_observed_pid",
-    "observation_with_participant",
-    "process_max_one_operator",
-    "schemaorg_event_starttime",
-    "trace_subclass"
+    "aggregation_over_time_window",
+    "artifact_min_one_owner",
+    "equiv_intersect_with_negation",
+    "financial_strategy_oversight",
+    "measurement_aggregated_into",
+    "schemaorg_creativework_author"
   ],
   "tables": [
-    "t_ebpf_event_observed_pid",
-    "t_observation_with_participant",
-    "t_process_max_one_operator",
-    "t_schemaorg_event_starttime",
-    "t_trace_subclass"
+    "t_aggregation_over_time_window",
+    "t_artifact_min_one_owner",
+    "t_equiv_intersect_with_negation",
+    "t_financial_strategy_oversight",
+    "t_measurement_aggregated_into",
+    "t_schemaorg_creativework_author"
   ],
   "topics": [
-    2,
-    5,
-    23,
-    31,
-    34,
-    37,
-    46,
-    56,
-    66,
-    68,
-    72,
-    81,
-    93,
-    97,
-    110,
-    114,
-    122,
-    126,
-    139,
-    162,
-    185,
-    187,
-    195
+    122
   ],
   "shared_tables": {
-    "observation_with_participant": [
-      53,
-      125,
-      188
+    "aggregation_over_time_window": [
+      26,
+      27,
+      36,
+      40,
+      65,
+      94,
+      102,
+      147,
+      161,
+      186
     ],
-    "process_max_one_operator": [
-      80,
-      164
+    "artifact_min_one_owner": [
+      0,
+      1,
+      23,
+      46,
+      120,
+      183,
+      186,
+      195
     ],
-    "schemaorg_event_starttime": [
-      188,
-      199
+    "equiv_intersect_with_negation": [
+      23,
+      25,
+      62,
+      186
+    ],
+    "financial_strategy_oversight": [
+      20,
+      25,
+      26,
+      91,
+      92,
+      135,
+      191
+    ],
+    "measurement_aggregated_into": [
+      4,
+      20,
+      44,
+      109,
+      140,
+      181,
+      186
+    ],
+    "schemaorg_creativework_author": [
+      23,
+      26,
+      27,
+      45,
+      61,
+      181,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "016f5ba7ae8e27e4",
-      "family": "02_observation_measurement",
+      "id": "ch_live_financial_strategy_oversight_f8b1c9",
+      "family": "08_derived",
       "topics": [
-        93,
-        122,
-        126
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "08670ecb1f13cfbf",
-      "family": "02_observation_measurement",
-      "topics": [
-        31,
-        122,
-        195
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "27b0541c9cf68425",
-      "family": "02_observation_measurement",
-      "topics": [
-        66,
-        68,
         122
       ],
       "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
+        "financial_strategy_oversight",
+        "aggregation_over_time_window",
+        "schemaorg_creativework_author"
       ]
     },
     {
-      "id": "40ed011ea82257c2",
+      "id": "ch_live_measurement_aggregated_into_e04cbb",
       "family": "02_observation_measurement",
       "topics": [
-        2,
-        56,
         122
       ],
       "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "45c8b723e9667635",
-      "family": "02_observation_measurement",
-      "topics": [
-        37,
-        122,
-        162
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "4f384cd6123d54fd",
-      "family": "02_observation_measurement",
-      "topics": [
-        97,
-        122,
-        139
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "729f00ef73a0b220",
-      "family": "02_observation_measurement",
-      "topics": [
-        72,
-        114,
-        122
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "900df399c11e397d",
-      "family": "02_observation_measurement",
-      "topics": [
-        23,
-        34,
-        122
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "99b86bc7b5ac2c6b",
-      "family": "02_observation_measurement",
-      "topics": [
-        81,
-        122,
-        187
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "ae43adac41bf3058",
-      "family": "02_observation_measurement",
-      "topics": [
-        68,
-        110,
-        122
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "e0d672fd4764f9cf",
-      "family": "02_observation_measurement",
-      "topics": [
-        66,
-        122,
-        185
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
-      ]
-    },
-    {
-      "id": "e55e98444d302145",
-      "family": "02_observation_measurement",
-      "topics": [
-        5,
-        46,
-        122
-      ],
-      "cited_terms": [
-        "observation_with_participant",
-        "schemaorg_event_starttime",
-        "trace_subclass",
-        "process_max_one_operator",
-        "ebpf_event_observed_pid"
+        "measurement_aggregated_into",
+        "equiv_intersect_with_negation",
+        "artifact_min_one_owner"
       ]
     }
   ]

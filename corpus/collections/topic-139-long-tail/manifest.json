@@ -1,311 +1,194 @@
 {
   "topic_id": 139,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.19964435696601868,
+  "n_chapters": 4,
+  "coverage_score": 0.1980588734149933,
   "topic_repr": "February 2016\n\nDrug Court Practitioner Fact Sheet Vol. XI, No. 1\n\nUnderstanding and Detecting Prescription Drug Misuse and Misuse Disorders\n\nBy Sandra Lapham, MD, MPH, DFASAM\n\nSenior Research Scientist, Behavioral Health Research Center of the Southwest, Pacific Institute for Research and Evaluation\n\nT his fact sheet is designed for court professionals. It describes prescription drug misuse and pr...",
   "terms": [
-    "alert_triggered_by",
-    "ebpfevent_observes_syscall_xref",
-    "labrun_with_protocol",
-    "metric_emission_subclass",
-    "syscall_traceable"
+    "attribute_set_min_one",
+    "client_data_record",
+    "clinical_performance_evaluation",
+    "clinical_quality_research_role",
+    "constraint_check_subclass",
+    "functional_dependency_lhs",
+    "functional_dependency_rhs",
+    "ganglion_cyst_imaging_finding",
+    "professional_experience",
+    "profiling_with_method",
+    "syscall_basic"
   ],
   "tables": [
-    "t_alert_triggered_by",
-    "t_ebpfevent_observes_syscall_xref",
-    "t_labrun_with_protocol",
-    "t_metric_emission_subclass",
-    "t_syscall_traceable"
+    "t_attribute_set_min_one",
+    "t_client_data_record",
+    "t_clinical_performance_evaluation",
+    "t_clinical_quality_research_role",
+    "t_constraint_check_subclass",
+    "t_functional_dependency_lhs",
+    "t_functional_dependency_rhs",
+    "t_ganglion_cyst_imaging_finding",
+    "t_professional_experience",
+    "t_profiling_with_method",
+    "t_syscall_basic"
   ],
   "topics": [
-    19,
-    26,
-    27,
-    32,
-    38,
-    43,
-    44,
-    46,
-    53,
-    64,
-    74,
-    76,
-    98,
-    104,
-    109,
-    111,
-    120,
-    139,
-    144,
-    158,
-    160,
-    165,
-    179,
-    194,
-    197,
-    199
+    139
   ],
   "shared_tables": {
-    "alert_triggered_by": [
-      14,
-      34,
-      195
+    "attribute_set_min_one": [
+      0,
+      4,
+      26,
+      56,
+      86,
+      180,
+      186
     ],
-    "ebpfevent_observes_syscall_xref": [
-      34
+    "client_data_record": [
+      6,
+      24,
+      26,
+      183
     ],
-    "labrun_with_protocol": [
-      31
+    "clinical_performance_evaluation": [
+      26,
+      60,
+      81,
+      140,
+      163
     ],
-    "metric_emission_subclass": [
-      14,
-      27,
-      195
+    "clinical_quality_research_role": [
+      0,
+      2,
+      61,
+      81,
+      185
     ],
-    "syscall_traceable": [
-      67
+    "constraint_check_subclass": [
+      3,
+      4,
+      11,
+      26,
+      46,
+      56,
+      65,
+      67,
+      81,
+      181,
+      183,
+      186
+    ],
+    "functional_dependency_lhs": [
+      7,
+      26,
+      42,
+      47,
+      54,
+      97,
+      125,
+      186
+    ],
+    "functional_dependency_rhs": [
+      4,
+      20,
+      23,
+      42,
+      61,
+      163,
+      181,
+      186
+    ],
+    "ganglion_cyst_imaging_finding": [
+      2,
+      4,
+      30,
+      47,
+      50,
+      81,
+      109,
+      135,
+      181,
+      183,
+      186
+    ],
+    "professional_experience": [
+      4,
+      7,
+      79,
+      91,
+      106,
+      149,
+      183,
+      186
+    ],
+    "profiling_with_method": [
+      4,
+      5,
+      26,
+      47,
+      86,
+      106,
+      168,
+      180,
+      186
+    ],
+    "syscall_basic": [
+      20,
+      24,
+      26,
+      35,
+      40,
+      79,
+      181,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "0374328fe760a2c4",
-      "family": "07_long_tail",
+      "id": "ch_live_client_data_record_903ef2",
+      "family": "08_derived",
       "topics": [
-        76,
-        139,
-        179
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "183cc37a42d11521",
-      "family": "07_long_tail",
-      "topics": [
-        32,
-        109,
         139
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
+        "client_data_record",
+        "clinical_performance_evaluation",
+        "clinical_quality_research_role"
       ]
     },
     {
-      "id": "3a43732ff8aed1a9",
-      "family": "07_long_tail",
+      "id": "ch_live_clinical_performance_evaluation_55364f",
+      "family": "08_derived",
       "topics": [
-        53,
-        139,
-        165
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "51996ac24434a037",
-      "family": "07_long_tail",
-      "topics": [
-        74,
-        111,
         139
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
+        "clinical_performance_evaluation",
+        "constraint_check_subclass",
+        "syscall_basic"
       ]
     },
     {
-      "id": "536581ac640c2938",
+      "id": "ch_live_functional_dependency_lhs_b26bc9",
       "family": "07_long_tail",
       "topics": [
-        19,
-        139,
-        194
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "5eda6ad73ecf47f5",
-      "family": "07_long_tail",
-      "topics": [
-        38,
-        139,
-        199
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "7d40692489069563",
-      "family": "07_long_tail",
-      "topics": [
-        27,
-        64,
         139
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
+        "functional_dependency_lhs",
+        "functional_dependency_rhs",
+        "ganglion_cyst_imaging_finding"
       ]
     },
     {
-      "id": "7e5bbbf30529798d",
-      "family": "07_long_tail",
+      "id": "ch_live_profiling_with_method_256327",
+      "family": "02_observation_measurement",
       "topics": [
-        64,
-        139,
-        160
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "8d52cdd22478d5d4",
-      "family": "07_long_tail",
-      "topics": [
-        26,
-        104,
         139
       ],
       "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "9ac12d876c73a9b6",
-      "family": "07_long_tail",
-      "topics": [
-        43,
-        120,
-        139
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "9f74a548aeb64144",
-      "family": "07_long_tail",
-      "topics": [
-        76,
-        139,
-        197
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "abf66720643d435c",
-      "family": "07_long_tail",
-      "topics": [
-        46,
-        139,
-        158
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "dada66c6928f2fd6",
-      "family": "07_long_tail",
-      "topics": [
-        44,
-        139,
-        144
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "ec748184cdf2b493",
-      "family": "07_long_tail",
-      "topics": [
-        38,
-        98,
-        139
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
-      ]
-    },
-    {
-      "id": "f3c4200fca35b03d",
-      "family": "07_long_tail",
-      "topics": [
-        120,
-        139,
-        160
-      ],
-      "cited_terms": [
-        "metric_emission_subclass",
-        "labrun_with_protocol",
-        "syscall_traceable",
-        "alert_triggered_by",
-        "ebpfevent_observes_syscall_xref"
+        "profiling_with_method",
+        "professional_experience",
+        "attribute_set_min_one"
       ]
     }
   ]

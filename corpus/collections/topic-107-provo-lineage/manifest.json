@@ -1,290 +1,291 @@
 {
   "topic_id": 107,
   "family": "05_provo_lineage",
-  "n_chapters": 12,
-  "coverage_score": 0.19616937637329102,
+  "n_chapters": 7,
+  "coverage_score": 0.1805238425731659,
   "topic_repr": "Biology 115: Introductory Plant Biology Laboratory\n\nThe University of Tennessee, Spring, 2017\n\n2 credits: 1 credit lab, 1 credit discussion\n\nCatalog Description: Laboratory work will analyze plant structure, morphology, and function, with an emphasis on methods for observation, identification, and data collection.  The discussion will focus on agricultural priority areas of the future: sustainable...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "audit_produces_evidence",
-    "claim_min_one_evidence",
-    "directive_authored_and_applies",
-    "evidence_basic"
+    "constraint_basic",
+    "control_implements",
+    "directive_not_obsolete",
+    "host_connection_process",
+    "institutional_vision_statement",
+    "lane_compliance_behavior",
+    "lineage_edge_basic",
+    "lineage_edge_via_transformation",
+    "log_with_resource_attribute",
+    "profile_has_distribution",
+    "schemaorg_org_country",
+    "schemaorg_person_birthplace",
+    "soc2_availability_subclass",
+    "syscall_invoked_by_event",
+    "trace_with_service_name",
+    "xdp_action_pass"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_audit_produces_evidence",
-    "t_claim_min_one_evidence",
-    "t_directive_authored_and_applies",
-    "t_evidence_basic"
+    "t_constraint_basic",
+    "t_control_implements",
+    "t_directive_not_obsolete",
+    "t_host_connection_process",
+    "t_institutional_vision_statement",
+    "t_lane_compliance_behavior",
+    "t_lineage_edge_basic",
+    "t_lineage_edge_via_transformation",
+    "t_log_with_resource_attribute",
+    "t_profile_has_distribution",
+    "t_schemaorg_org_country",
+    "t_schemaorg_person_birthplace",
+    "t_soc2_availability_subclass",
+    "t_syscall_invoked_by_event",
+    "t_trace_with_service_name",
+    "t_xdp_action_pass"
   ],
   "topics": [
-    3,
-    13,
-    15,
-    37,
-    52,
-    67,
-    68,
-    76,
-    82,
-    100,
-    101,
-    103,
     107,
-    108,
-    110,
-    111,
-    123,
-    136,
-    151,
-    160,
-    170,
-    178,
-    181,
-    195,
-    198
+    140,
+    142
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "constraint_basic": [
       2,
-      3,
+      19,
+      46,
+      125,
+      183,
+      188
+    ],
+    "control_implements": [
+      4,
       5,
-      6,
-      7,
-      16,
-      20,
-      23,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
+      34,
+      45,
+      65,
+      90,
+      97,
+      183,
+      186
+    ],
+    "directive_not_obsolete": [
+      2,
+      26,
+      40,
+      125,
+      186
+    ],
+    "host_connection_process": [
+      4,
+      26,
+      106,
+      159,
+      172,
+      183,
       186,
-      191,
-      196
+      188
     ],
-    "audit_produces_evidence": [
-      159
+    "institutional_vision_statement": [
+      4,
+      8,
+      19,
+      26,
+      35,
+      67,
+      100,
+      128,
+      140,
+      159,
+      165,
+      186
     ],
-    "claim_min_one_evidence": [
-      130,
-      193
+    "lane_compliance_behavior": [
+      0,
+      10,
+      27,
+      60,
+      158,
+      165,
+      183,
+      186,
+      187
     ],
-    "directive_authored_and_applies": [
-      143,
-      178
+    "lineage_edge_basic": [
+      1,
+      23,
+      80,
+      142
+    ],
+    "lineage_edge_via_transformation": [
+      1,
+      23,
+      65,
+      79,
+      86,
+      94,
+      97,
+      105,
+      106,
+      140,
+      142
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      128,
+      163,
+      168,
+      180,
+      181,
+      183
+    ],
+    "profile_has_distribution": [
+      24,
+      25,
+      26,
+      42,
+      45,
+      65,
+      91,
+      186
+    ],
+    "schemaorg_org_country": [
+      26,
+      46,
+      62,
+      67
+    ],
+    "schemaorg_person_birthplace": [
+      11,
+      21,
+      92
+    ],
+    "soc2_availability_subclass": [
+      19,
+      26,
+      34,
+      95,
+      109,
+      136,
+      150,
+      183,
+      186
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      31,
+      35,
+      42,
+      105,
+      106,
+      161
+    ],
+    "trace_with_service_name": [
+      5,
+      26,
+      83,
+      102,
+      138,
+      155,
+      183
+    ],
+    "xdp_action_pass": [
+      6,
+      23,
+      24,
+      56,
+      65,
+      105,
+      135,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "487f8d4d0e9dbaea",
-      "family": "06_belief_structure",
+      "id": "ch_live_host_connection_process_dbefd3",
+      "family": "08_derived",
       "topics": [
-        37,
-        107,
-        178
-      ],
-      "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
-      ]
-    },
-    {
-      "id": "4be4642d36c461fe",
-      "family": "06_belief_structure",
-      "topics": [
-        52,
-        107,
-        111
-      ],
-      "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
-      ]
-    },
-    {
-      "id": "4dda297e0668a44a",
-      "family": "06_belief_structure",
-      "topics": [
-        3,
-        107,
-        136
-      ],
-      "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
-      ]
-    },
-    {
-      "id": "69b0821beb027150",
-      "family": "06_belief_structure",
-      "topics": [
-        100,
-        107,
-        151
-      ],
-      "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
-      ]
-    },
-    {
-      "id": "704d30695276e757",
-      "family": "06_belief_structure",
-      "topics": [
-        82,
-        101,
         107
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "host_connection_process",
+        "trace_with_service_name",
+        "log_with_resource_attribute"
       ]
     },
     {
-      "id": "7488e95dca64673c",
-      "family": "06_belief_structure",
+      "id": "ch_live_institutional_vision_statement_3b8261",
+      "family": "08_derived",
       "topics": [
-        68,
-        103,
         107
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "institutional_vision_statement",
+        "schemaorg_person_birthplace",
+        "schemaorg_org_country"
       ]
     },
     {
-      "id": "822608c931b9613e",
-      "family": "06_belief_structure",
+      "id": "ch_live_schemaorg_person_birthplace_59907c",
+      "family": "07_long_tail",
       "topics": [
-        15,
-        76,
         107
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "schemaorg_person_birthplace",
+        "constraint_basic",
+        "profile_has_distribution"
       ]
     },
     {
-      "id": "a39b5de71f3ae9d0",
-      "family": "06_belief_structure",
+      "id": "ch_live_schemaorg_person_birthplace_62e7de",
+      "family": "07_long_tail",
       "topics": [
         107,
-        123,
-        170
+        140,
+        142
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "schemaorg_person_birthplace",
+        "directive_not_obsolete",
+        "lineage_edge_via_transformation"
       ]
     },
     {
-      "id": "b23e6f9621a119d6",
-      "family": "06_belief_structure",
+      "id": "ch_live_schemaorg_person_birthplace_6f1efa",
+      "family": "07_long_tail",
       "topics": [
         107,
-        108,
-        110
+        142
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "schemaorg_person_birthplace",
+        "lineage_edge_basic",
+        "syscall_invoked_by_event"
       ]
     },
     {
-      "id": "c448e9a204fb0291",
-      "family": "06_belief_structure",
+      "id": "ch_live_soc2_availability_subclass_85a6d0",
+      "family": "07_long_tail",
       "topics": [
-        107,
-        160,
-        195
+        107
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "soc2_availability_subclass",
+        "schemaorg_person_birthplace",
+        "lane_compliance_behavior"
       ]
     },
     {
-      "id": "d998c4dc9bdb3e63",
-      "family": "06_belief_structure",
+      "id": "ch_live_xdp_action_pass_b80675",
+      "family": "07_long_tail",
       "topics": [
-        67,
-        107,
-        181
+        107
       ],
       "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
-      ]
-    },
-    {
-      "id": "df41b12a01a3494c",
-      "family": "06_belief_structure",
-      "topics": [
-        13,
-        107,
-        198
-      ],
-      "cited_terms": [
-        "audit_produces_evidence",
-        "directive_authored_and_applies",
-        "evidence_basic",
-        "attestation_with_supporting_evidence",
-        "claim_min_one_evidence"
+        "xdp_action_pass",
+        "schemaorg_person_birthplace",
+        "control_implements"
       ]
     }
   ]

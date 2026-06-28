@@ -1,230 +1,166 @@
 {
   "topic_id": 149,
   "family": "07_long_tail",
-  "n_chapters": 12,
-  "coverage_score": 0.36382806301116943,
+  "n_chapters": 3,
+  "coverage_score": 0.36166471242904663,
   "topic_repr": "HAZARD COMMUNICATION PROGRAM (MODEL)\n\nINSTRUCTIONS FOR ADAPTING THIS MODEL TO A SPECIFIC PROGRAM FOR AN INDIVIDUAL DEPARTMENT\n\nThis model is available for Southern Illinois University Carbondale campus departments as an aid to complying with the Occupational Safety and Health Administration (OSHA) requirement of maintaining a work place specific written Hazard Communication Program. \"Hazard Commun...",
   "terms": [
-    "ebpfprogram_attaches_kernelhook_xref",
-    "ebpfprogram_only_attached_to_kprobe",
-    "ebpfprogram_subclass",
-    "kernelhook_max_one_program_attached"
+    "allocation_subclass",
+    "belief_interval_basic",
+    "division_eligibility_constraint",
+    "indoor_air_quality_action_plan",
+    "measurement_with_unit",
+    "plausibility_function_for",
+    "primary_key_designation",
+    "professional_experience",
+    "span_within_trace"
   ],
   "tables": [
-    "t_ebpfprogram_attaches_kernelhook_xref",
-    "t_ebpfprogram_only_attached_to_kprobe",
-    "t_ebpfprogram_subclass",
-    "t_kernelhook_max_one_program_attached"
+    "t_allocation_subclass",
+    "t_belief_interval_basic",
+    "t_division_eligibility_constraint",
+    "t_indoor_air_quality_action_plan",
+    "t_measurement_with_unit",
+    "t_plausibility_function_for",
+    "t_primary_key_designation",
+    "t_professional_experience",
+    "t_span_within_trace"
   ],
   "topics": [
-    2,
-    19,
-    21,
-    26,
-    38,
-    44,
-    70,
-    76,
-    83,
-    100,
-    106,
-    112,
-    129,
-    130,
-    132,
-    149,
-    150,
-    164,
-    166,
-    181,
-    188,
-    193,
-    198
+    149
   ],
   "shared_tables": {
-    "kernelhook_max_one_program_attached": [
-      110
+    "allocation_subclass": [
+      7,
+      8,
+      10,
+      26,
+      34,
+      42,
+      46,
+      94,
+      105,
+      183,
+      184,
+      186
+    ],
+    "belief_interval_basic": [
+      1,
+      14,
+      26,
+      42,
+      94,
+      119,
+      135,
+      183,
+      187
+    ],
+    "division_eligibility_constraint": [
+      6,
+      7,
+      8,
+      26,
+      34,
+      100,
+      101,
+      125,
+      140,
+      183,
+      186
+    ],
+    "indoor_air_quality_action_plan": [
+      4,
+      39,
+      78,
+      83,
+      123,
+      186
+    ],
+    "measurement_with_unit": [
+      10,
+      26,
+      47,
+      61,
+      62,
+      65,
+      125,
+      168,
+      181
+    ],
+    "plausibility_function_for": [
+      7,
+      42,
+      45,
+      60,
+      92,
+      105,
+      159,
+      186
+    ],
+    "primary_key_designation": [
+      0,
+      5,
+      7,
+      26,
+      46,
+      183,
+      186
+    ],
+    "professional_experience": [
+      4,
+      7,
+      79,
+      91,
+      106,
+      139,
+      183,
+      186
+    ],
+    "span_within_trace": [
+      2,
+      8,
+      19,
+      40,
+      138,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "1372bd26cafd801e",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_indoor_air_quality_action_plan_9c4411",
+      "family": "08_derived",
       "topics": [
-        19,
-        130,
         149
       ],
       "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
+        "indoor_air_quality_action_plan",
+        "plausibility_function_for",
+        "allocation_subclass"
       ]
     },
     {
-      "id": "2b76725fe017971e",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_measurement_with_unit_c4c04f",
+      "family": "02_observation_measurement",
       "topics": [
-        112,
-        149,
-        150
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "2f3522dfc31798bd",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        44,
-        129,
         149
       ],
       "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
+        "measurement_with_unit",
+        "professional_experience",
+        "division_eligibility_constraint"
       ]
     },
     {
-      "id": "4d60165dd217a071",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_span_within_trace_fa010b",
+      "family": "02_observation_measurement",
       "topics": [
-        83,
-        149,
-        181
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "563df79a7ffd9377",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        26,
-        149,
-        198
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "851314313059b185",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        38,
-        132,
         149
       ],
       "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "9181ae964795730c",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        2,
-        129,
-        149
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "9cef0995ee2129e6",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        149,
-        166,
-        181
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "9f677c394fea83e4",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        106,
-        149,
-        164
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "c5770ec68089adf1",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        70,
-        100,
-        149
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "c9d2172378ac1282",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        21,
-        76,
-        149
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
-      ]
-    },
-    {
-      "id": "d1999c0e470f3506",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        149,
-        188,
-        193
-      ],
-      "cited_terms": [
-        "kernelhook_max_one_program_attached",
-        "ebpfprogram_attaches_kernelhook_xref",
-        "ebpfprogram_subclass",
-        "ebpfprogram_only_attached_to_kprobe"
+        "span_within_trace",
+        "belief_interval_basic",
+        "primary_key_designation"
       ]
     }
   ]

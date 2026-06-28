@@ -1,247 +1,173 @@
 {
   "topic_id": 90,
   "family": "03_directive_governance",
-  "n_chapters": 14,
-  "coverage_score": 0.2905086278915405,
+  "n_chapters": 4,
+  "coverage_score": 0.3075633943080902,
   "topic_repr": "MA IN SOCIAL JUSTICE AND EQUITY STUDIES\n\nGraduate Faculty and Student Handbook\n\n2012 - 2013\n\nSJES Graduate Administrative Coordinator \u2013 Julia Gottli (905) 688-5550 ext. 5591 email@example.com Room STH 400B\n\nSJES Graduate Program Director \u2013 Dr. Susan Tilley (905) 688-5550 ext.  3144 firstname.lastname@example.org Room WH 375\n\nFaculty of Graduate Studies (905) 688-5550 Ext. 4490 http://www.brocku.ca...",
   "terms": [
-    "syscall_at_security_tier",
-    "syscall_audited_by"
+    "alert_governed_by_runbook",
+    "belief_interval_subclass",
+    "control_implements",
+    "crop_parasitism_impact",
+    "dempster_combines_audit_evidences",
+    "policy_supersedes",
+    "schemaorg_event_organizer",
+    "syscall_traceable",
+    "verification_basic"
   ],
   "tables": [
-    "t_syscall_at_security_tier",
-    "t_syscall_audited_by"
+    "t_alert_governed_by_runbook",
+    "t_belief_interval_subclass",
+    "t_control_implements",
+    "t_crop_parasitism_impact",
+    "t_dempster_combines_audit_evidences",
+    "t_policy_supersedes",
+    "t_schemaorg_event_organizer",
+    "t_syscall_traceable",
+    "t_verification_basic"
   ],
   "topics": [
-    19,
-    21,
-    22,
-    35,
-    39,
-    40,
-    43,
-    51,
-    53,
-    57,
-    72,
-    73,
-    85,
     90,
-    91,
-    101,
-    104,
-    122,
-    123,
-    127,
-    131,
-    143,
-    145,
-    166,
-    169,
-    176,
-    190,
-    199
+    135,
+    138,
+    183,
+    184,
+    185
   ],
   "shared_tables": {
-    "syscall_at_security_tier": [
-      19,
-      31,
-      62,
+    "alert_governed_by_runbook": [
+      35,
       67,
-      72,
-      97,
-      110
+      100,
+      119,
+      135
     ],
-    "syscall_audited_by": [
-      8,
-      19,
+    "belief_interval_subclass": [
+      2,
+      7,
+      23,
       46,
-      62,
-      77,
-      131
+      66,
+      79,
+      109,
+      128,
+      183,
+      186
+    ],
+    "control_implements": [
+      4,
+      5,
+      26,
+      34,
+      45,
+      65,
+      97,
+      107,
+      183,
+      186
+    ],
+    "crop_parasitism_impact": [
+      23,
+      24,
+      25,
+      46,
+      47,
+      106,
+      125,
+      187,
+      190
+    ],
+    "dempster_combines_audit_evidences": [
+      67,
+      185
+    ],
+    "policy_supersedes": [
+      1,
+      2,
+      3,
+      35,
+      45,
+      49
+    ],
+    "schemaorg_event_organizer": [
+      4,
+      92,
+      181,
+      186
+    ],
+    "syscall_traceable": [
+      6,
+      42,
+      100,
+      138
+    ],
+    "verification_basic": [
+      7,
+      23,
+      24,
+      26,
+      41,
+      46,
+      97,
+      105,
+      125,
+      129,
+      135,
+      147
     ]
   },
   "chapters": [
     {
-      "id": "076299c93fbf1ff7",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_belief_interval_subclass_ce64d8",
+      "family": "06_belief_structure",
       "topics": [
-        21,
         90,
-        199
+        135
       ],
       "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
+        "belief_interval_subclass",
+        "alert_governed_by_runbook",
+        "policy_supersedes"
       ]
     },
     {
-      "id": "208aae9055333bc6",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_control_implements_eaccad",
+      "family": "03_directive_governance",
       "topics": [
-        90,
-        176,
-        190
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "344f883e3c5d41ad",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        73,
-        90,
-        101
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "5583c336467869e3",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        22,
-        53,
         90
       ],
       "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
+        "control_implements",
+        "verification_basic",
+        "policy_supersedes"
       ]
     },
     {
-      "id": "60c5bdeafee330c9",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_policy_supersedes_3f233a",
+      "family": "03_directive_governance",
       "topics": [
         90,
-        143,
-        145
+        185
       ],
       "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
+        "policy_supersedes",
+        "crop_parasitism_impact",
+        "dempster_combines_audit_evidences"
       ]
     },
     {
-      "id": "69ef9f029695b253",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        19,
-        90,
-        127
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "79ec9bc11e1856a5",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        39,
-        90,
-        166
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "8380cc12b120d6d9",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        51,
-        90,
-        122
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "8b6010880f023cf0",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        57,
-        90,
-        131
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "93f98cacc702a761",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        40,
-        90,
-        169
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "980ec5309811018b",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        72,
-        90,
-        123
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "ba6f1e4d33c1fa1d",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        35,
-        90,
-        104
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "e914c80931e2b87c",
-      "family": "04_ebpf_kernel",
+      "id": "ch_live_policy_supersedes_8f2286",
+      "family": "03_directive_governance",
       "topics": [
         90,
-        91,
-        104
+        138,
+        183,
+        184
       ],
       "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
-      ]
-    },
-    {
-      "id": "fcc796c49be955b3",
-      "family": "04_ebpf_kernel",
-      "topics": [
-        43,
-        85,
-        90
-      ],
-      "cited_terms": [
-        "syscall_at_security_tier",
-        "syscall_audited_by"
+        "policy_supersedes",
+        "schemaorg_event_organizer",
+        "syscall_traceable"
       ]
     }
   ]

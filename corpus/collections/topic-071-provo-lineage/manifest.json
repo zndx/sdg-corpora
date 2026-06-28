@@ -1,356 +1,63 @@
 {
   "topic_id": 71,
   "family": "05_provo_lineage",
-  "n_chapters": 13,
-  "coverage_score": 0.0780017152428627,
+  "n_chapters": 1,
+  "coverage_score": 0.07852762937545776,
   "topic_repr": "Research overview\n\nResearch Project Final Evaluation Result\n\nThe following research project underwent a final evaluation in accordance to Clause 10 and 11, Chapter 2 of the Regulations for Research and Development Evaluations (Regulation No. 74, October 1, 2003.)\n\nEvaluation system:\n\n*In this evaluation, it was agreed by the review committee to disclose their names and make clear who made report c...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "iso27001_annexa_subclass",
-    "iso27001_clause_subclass",
-    "requirement_equiv_specifies_target",
-    "verification_produces_evidence"
+    "quality_assurance_initiative",
+    "quantum_computer",
+    "quantum_cyber_security_field"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_iso27001_annexa_subclass",
-    "t_iso27001_clause_subclass",
-    "t_requirement_equiv_specifies_target",
-    "t_verification_produces_evidence"
+    "t_quality_assurance_initiative",
+    "t_quantum_computer",
+    "t_quantum_cyber_security_field"
   ],
   "topics": [
-    2,
-    23,
-    37,
-    38,
-    43,
-    51,
-    54,
-    57,
-    71,
-    75,
-    81,
-    86,
-    96,
-    103,
-    106,
-    131,
-    132,
-    136,
-    146,
-    163,
-    179,
-    181,
-    191,
-    199
+    71
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
-      2,
-      3,
-      5,
-      6,
-      7,
-      16,
-      20,
-      23,
+    "quality_assurance_initiative": [
+      10,
+      11,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
-    ],
-    "iso27001_annexa_subclass": [
-      4,
-      15,
-      22,
-      74,
-      106,
-      129,
-      144,
-      183
-    ],
-    "iso27001_clause_subclass": [
-      4,
-      22,
-      52,
-      129,
-      173
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
-      4,
-      7,
-      15,
-      20,
-      21,
-      47,
+      34,
       68,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
       186,
-      191,
-      199
+      187
     ],
-    "verification_produces_evidence": [
-      6,
+    "quantum_computer": [
+      20,
+      26,
+      62,
+      97,
+      183,
+      186
+    ],
+    "quantum_cyber_security_field": [
+      7,
       16,
-      23,
-      44,
-      56,
-      58,
-      83,
-      89,
-      104,
+      26,
+      46,
+      65,
+      109,
+      125,
       129,
-      138,
-      160,
-      163,
-      191
+      186
     ]
   },
   "chapters": [
     {
-      "id": "01fb787f9369269b",
-      "family": "03_directive_governance",
+      "id": "ch_live_quality_assurance_initiative_0a0e53",
+      "family": "08_derived",
       "topics": [
-        71,
-        136,
-        191
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "0d465d2cdde7af5b",
-      "family": "03_directive_governance",
-      "topics": [
-        71,
-        106,
-        163
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "33513afa28678830",
-      "family": "03_directive_governance",
-      "topics": [
-        51,
-        71,
-        179
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "42b1e603a1c880db",
-      "family": "03_directive_governance",
-      "topics": [
-        38,
-        71,
-        81
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "4cf1cce5af4a4bb9",
-      "family": "03_directive_governance",
-      "topics": [
-        37,
-        38,
         71
       ],
       "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "55618ca00ecffdc3",
-      "family": "03_directive_governance",
-      "topics": [
-        71,
-        86,
-        96
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "889248d76bd2e883",
-      "family": "03_directive_governance",
-      "topics": [
-        54,
-        71,
-        75
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8fc927a681ee1c82",
-      "family": "03_directive_governance",
-      "topics": [
-        2,
-        71,
-        146
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "990774cdee08a33e",
-      "family": "03_directive_governance",
-      "topics": [
-        57,
-        71,
-        136
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "c4372a1c79a97925",
-      "family": "03_directive_governance",
-      "topics": [
-        23,
-        71,
-        181
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "d8cd39c7cb0c3fe8",
-      "family": "03_directive_governance",
-      "topics": [
-        23,
-        71,
-        132
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "e842054c8e7ac44e",
-      "family": "03_directive_governance",
-      "topics": [
-        71,
-        131,
-        199
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "f16f96e0ac4de2ca",
-      "family": "03_directive_governance",
-      "topics": [
-        43,
-        71,
-        103
-      ],
-      "cited_terms": [
-        "iso27001_annexa_subclass",
-        "attestation_with_supporting_evidence",
-        "iso27001_clause_subclass",
-        "verification_produces_evidence",
-        "requirement_equiv_specifies_target"
+        "quality_assurance_initiative",
+        "quantum_computer",
+        "quantum_cyber_security_field"
       ]
     }
   ]

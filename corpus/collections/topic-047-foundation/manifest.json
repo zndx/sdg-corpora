@@ -1,297 +1,1175 @@
 {
   "topic_id": 47,
   "family": "01_foundation",
-  "n_chapters": 9,
-  "coverage_score": 0.08621831983327866,
+  "n_chapters": 33,
+  "coverage_score": 0.08594953268766403,
   "topic_repr": "An Efficient Method for Evaluating the Effect of Lattice Vibrations on the NMR Second Moment\n\nROLF SJ\u00d6BLOM*\n\nInstitute of Chemistry, University of Uppsala, S-75121 Uppsala, Sweden\n\nAND\n\nURI SHMUELI\n\nDepartment of Chemistry, Tel-Aviv University, 61390 Ramat-Aviv, Israel\n\nReceived September 7, 1978\n\nAn improved algorithm for the evaluation of intra- and inter-molecular contributions to the NMR secon...",
   "terms": [
-    "hipaa_safeguard_admin",
-    "hipaa_safeguard_physical",
-    "hipaa_safeguard_technical",
-    "pci_dss_requirement",
-    "requirement_equiv_specifies_target"
+    "annotation_only_about_artifact",
+    "attestation_basic",
+    "attestation_subclass",
+    "column_pair_subject",
+    "column_tag_from_annotator",
+    "constraint_with_severity_classification",
+    "constraint_with_violation_consequence",
+    "control_at_severity",
+    "control_with_classification_tier",
+    "crop_parasitism_impact",
+    "dempster_combinant_second",
+    "dempster_combination_subclass",
+    "dempster_conflict_mass",
+    "dengue_transmission_process",
+    "descriptive_not_retracted",
+    "digital_media_service",
+    "directive_only_governs",
+    "directive_only_governs_artifact",
+    "directive_supersedes_directive",
+    "ebpfprogram_subclass",
+    "evidence_observed_by_process",
+    "evidence_with_mass_function",
+    "existential_two_clauses",
+    "existential_with_has_part",
+    "farmland_acquisition_process",
+    "frame_refinement",
+    "functional_dependency_lhs",
+    "ganglion_cyst_imaging_finding",
+    "ice_about_artifact",
+    "ice_exactly_one_subject",
+    "ice_subclass_with_part",
+    "identifier_subclass",
+    "information_dissemination_event",
+    "labrun_basic",
+    "labrun_uses_instrument",
+    "lineage_edge_with_provenance",
+    "mass_function_subclass",
+    "mass_function_with_focal_element",
+    "measurement_subclass_only_one_unit",
+    "measurement_with_unit",
+    "myxoid_degeneration_process",
+    "national_dataset_augmentation_process",
+    "outlier_detection_basic",
+    "perf_event_subclass",
+    "policy_classification_tier",
+    "process_min_one_output",
+    "profiling_basic",
+    "profiling_with_method",
+    "program_subclass",
+    "reference_within_dataset",
+    "requirement_applies_to_system",
+    "requirement_basic",
+    "responsive_optic_nerve_dysfunction",
+    "schema_migration_subclass",
+    "schema_revision_of",
+    "schemaorg_person_roleat",
+    "schemaorg_product_brand",
+    "subclass_basic",
+    "subclass_to_directive_ice",
+    "subclass_to_independent_continuant",
+    "subclass_to_information_content_entity",
+    "subclass_to_process",
+    "syscall_governed_by_directive",
+    "table_topic_tag",
+    "technology_promotion_initiative",
+    "two_disjoint_artifacts",
+    "verification_concludes_with"
   ],
   "tables": [
-    "t_hipaa_safeguard_admin",
-    "t_hipaa_safeguard_physical",
-    "t_hipaa_safeguard_technical",
-    "t_pci_dss_requirement",
-    "t_requirement_equiv_specifies_target"
+    "t_annotation_only_about_artifact",
+    "t_attestation_basic",
+    "t_attestation_subclass",
+    "t_column_pair_subject",
+    "t_column_tag_from_annotator",
+    "t_constraint_with_severity_classification",
+    "t_constraint_with_violation_consequence",
+    "t_control_at_severity",
+    "t_control_with_classification_tier",
+    "t_crop_parasitism_impact",
+    "t_dempster_combinant_second",
+    "t_dempster_combination_subclass",
+    "t_dempster_conflict_mass",
+    "t_dengue_transmission_process",
+    "t_descriptive_not_retracted",
+    "t_digital_media_service",
+    "t_directive_only_governs",
+    "t_directive_only_governs_artifact",
+    "t_directive_supersedes_directive",
+    "t_ebpfprogram_subclass",
+    "t_evidence_observed_by_process",
+    "t_evidence_with_mass_function",
+    "t_existential_two_clauses",
+    "t_existential_with_has_part",
+    "t_farmland_acquisition_process",
+    "t_frame_refinement",
+    "t_functional_dependency_lhs",
+    "t_ganglion_cyst_imaging_finding",
+    "t_ice_about_artifact",
+    "t_ice_exactly_one_subject",
+    "t_ice_subclass_with_part",
+    "t_identifier_subclass",
+    "t_information_dissemination_event",
+    "t_labrun_basic",
+    "t_labrun_uses_instrument",
+    "t_lineage_edge_with_provenance",
+    "t_mass_function_subclass",
+    "t_mass_function_with_focal_element",
+    "t_measurement_subclass_only_one_unit",
+    "t_measurement_with_unit",
+    "t_myxoid_degeneration_process",
+    "t_national_dataset_augmentation_process",
+    "t_outlier_detection_basic",
+    "t_perf_event_subclass",
+    "t_policy_classification_tier",
+    "t_process_min_one_output",
+    "t_profiling_basic",
+    "t_profiling_with_method",
+    "t_program_subclass",
+    "t_reference_within_dataset",
+    "t_requirement_applies_to_system",
+    "t_requirement_basic",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_schema_migration_subclass",
+    "t_schema_revision_of",
+    "t_schemaorg_person_roleat",
+    "t_schemaorg_product_brand",
+    "t_subclass_basic",
+    "t_subclass_to_directive_ice",
+    "t_subclass_to_independent_continuant",
+    "t_subclass_to_information_content_entity",
+    "t_subclass_to_process",
+    "t_syscall_governed_by_directive",
+    "t_table_topic_tag",
+    "t_technology_promotion_initiative",
+    "t_two_disjoint_artifacts",
+    "t_verification_concludes_with"
   ],
   "topics": [
-    5,
-    24,
-    34,
     47,
     56,
-    65,
-    70,
-    71,
-    75,
-    95,
-    96,
-    106,
-    110,
-    169,
-    195,
-    197,
-    199
+    61,
+    67,
+    69,
+    83,
+    86,
+    91,
+    126,
+    129,
+    135,
+    136,
+    140,
+    142,
+    146,
+    181,
+    184,
+    195
   ],
   "shared_tables": {
-    "hipaa_safeguard_admin": [
-      13,
-      35,
-      39,
-      68,
-      74,
-      91,
-      98,
-      100,
-      108,
-      117,
-      136,
-      151,
-      181,
-      183
+    "annotation_only_about_artifact": [
+      26,
+      34,
+      46,
+      65,
+      80,
+      83,
+      94,
+      186
     ],
-    "hipaa_safeguard_physical": [
-      13,
-      35,
-      39,
-      58,
-      68,
-      74,
-      91,
-      92,
-      98,
-      100,
-      108,
-      117,
-      135,
-      136,
-      151,
-      181,
-      183
-    ],
-    "hipaa_safeguard_technical": [
-      13,
-      35,
-      39,
-      74,
-      91,
-      92,
-      98,
-      100,
-      108,
-      117,
-      134,
-      136,
-      151,
-      181,
-      183
-    ],
-    "pci_dss_requirement": [
-      2,
-      15,
-      33,
-      35,
-      39,
-      50,
-      58,
-      74,
-      91,
-      92,
-      96,
-      98,
-      100,
+    "attestation_basic": [
+      7,
+      11,
+      19,
+      80,
       106,
-      108,
-      115,
-      117,
-      134,
-      135,
-      148,
-      150,
-      151,
+      123,
+      181,
+      191
+    ],
+    "attestation_subclass": [
+      0,
+      6,
+      11,
+      24,
+      56,
+      136
+    ],
+    "column_pair_subject": [
+      0,
+      4,
+      5,
+      23,
+      45,
+      46,
+      83,
+      154,
+      186
+    ],
+    "column_tag_from_annotator": [
+      4,
+      21,
+      23,
+      69,
+      184,
+      186
+    ],
+    "constraint_with_severity_classification": [
+      24,
+      26,
+      105,
+      143,
+      186
+    ],
+    "constraint_with_violation_consequence": [
+      5,
+      23,
+      36,
+      38,
+      42,
+      45,
+      61,
+      86
+    ],
+    "control_at_severity": [
+      0,
+      5,
+      42,
+      65,
+      183,
+      186
+    ],
+    "control_with_classification_tier": [
+      4,
+      12,
+      16,
+      21,
+      34,
+      61,
+      65,
+      79,
+      97,
+      186
+    ],
+    "crop_parasitism_impact": [
+      23,
+      24,
+      25,
+      46,
+      90,
+      106,
+      125,
+      187,
+      190
+    ],
+    "dempster_combinant_second": [
+      0,
+      1,
+      11,
+      56,
+      83,
+      91,
+      159
+    ],
+    "dempster_combination_subclass": [
+      1,
+      26,
+      60,
+      100,
+      181
+    ],
+    "dempster_conflict_mass": [
+      1,
+      54,
+      67,
+      83,
+      109
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      5,
+      12,
+      26,
+      66,
+      83,
+      181,
+      183
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      67,
+      69,
+      94,
+      138,
+      161,
+      181,
+      186,
+      187,
+      191
+    ],
+    "digital_media_service": [
+      7,
+      10,
+      45,
+      81,
+      186
+    ],
+    "directive_only_governs": [
+      11,
+      12
+    ],
+    "directive_only_governs_artifact": [
+      3,
+      12,
+      26,
+      40,
+      42,
+      138,
+      186,
+      187
+    ],
+    "directive_supersedes_directive": [
+      94,
+      100,
+      146,
       165,
       181,
-      183,
-      185,
-      197
+      186
     ],
-    "requirement_equiv_specifies_target": [
+    "ebpfprogram_subclass": [
+      2,
+      10,
+      65,
+      186
+    ],
+    "evidence_observed_by_process": [
+      1,
+      4,
+      23,
+      97,
+      109,
+      135,
+      187
+    ],
+    "evidence_with_mass_function": [
+      4,
+      24,
+      35,
+      40,
+      42,
+      46,
+      67,
+      94,
+      101,
+      187
+    ],
+    "existential_two_clauses": [
+      30,
+      65,
+      146,
+      186
+    ],
+    "existential_with_has_part": [
+      26,
+      45,
+      67,
+      79,
+      111,
+      140,
+      186
+    ],
+    "farmland_acquisition_process": [
+      2,
+      62,
+      92,
+      146,
+      186
+    ],
+    "frame_refinement": [
+      23,
+      24,
+      26,
+      44,
+      79,
+      100,
+      140,
+      186
+    ],
+    "functional_dependency_lhs": [
+      7,
+      26,
+      42,
+      54,
+      97,
+      125,
+      139,
+      186
+    ],
+    "ganglion_cyst_imaging_finding": [
       2,
       4,
-      7,
-      15,
-      20,
-      21,
-      68,
-      71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
+      30,
+      50,
+      81,
+      109,
+      135,
+      139,
+      181,
+      183,
+      186
+    ],
+    "ice_about_artifact": [
+      2,
+      34,
+      102,
+      138
+    ],
+    "ice_exactly_one_subject": [
+      11,
+      23,
+      35,
+      38,
+      44
+    ],
+    "ice_subclass_with_part": [
+      4,
+      14,
+      26,
+      46,
+      60,
+      83,
+      168,
+      181,
+      184
+    ],
+    "identifier_subclass": [
+      1,
+      24,
+      146
+    ],
+    "information_dissemination_event": [
+      5,
+      25,
+      26,
+      34,
+      69,
+      159,
+      168,
+      186
+    ],
+    "labrun_basic": [
+      12,
+      67
+    ],
+    "labrun_uses_instrument": [
+      12,
+      67
+    ],
+    "lineage_edge_with_provenance": [
+      1,
+      42,
+      46,
+      60,
+      67,
+      106,
+      184
+    ],
+    "mass_function_subclass": [
+      14,
+      135,
+      140
+    ],
+    "mass_function_with_focal_element": [
+      4,
+      60,
+      140,
+      147
+    ],
+    "measurement_subclass_only_one_unit": [
+      11,
+      12,
+      39,
+      143,
+      185,
       186,
-      191,
-      199
+      191
+    ],
+    "measurement_with_unit": [
+      10,
+      26,
+      61,
+      62,
+      65,
+      125,
+      149,
+      168,
+      181
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      12,
+      20,
+      24,
+      45,
+      46,
+      54
+    ],
+    "national_dataset_augmentation_process": [
+      4,
+      24,
+      39,
+      46,
+      79,
+      104,
+      125,
+      136,
+      155,
+      186,
+      188
+    ],
+    "outlier_detection_basic": [
+      1,
+      42,
+      72,
+      86
+    ],
+    "perf_event_subclass": [
+      0,
+      16,
+      26,
+      34,
+      183,
+      186
+    ],
+    "policy_classification_tier": [
+      7,
+      10,
+      24,
+      26,
+      34,
+      69,
+      79,
+      168,
+      186
+    ],
+    "process_min_one_output": [
+      19,
+      23,
+      35,
+      40,
+      72,
+      106,
+      135
+    ],
+    "profiling_basic": [
+      38,
+      69,
+      80,
+      86,
+      106,
+      168,
+      195
+    ],
+    "profiling_with_method": [
+      4,
+      5,
+      26,
+      86,
+      106,
+      139,
+      168,
+      180,
+      186
+    ],
+    "program_subclass": [
+      46,
+      67,
+      100,
+      168,
+      186,
+      195
+    ],
+    "reference_within_dataset": [
+      2,
+      7,
+      12,
+      45,
+      46,
+      56,
+      79,
+      136
+    ],
+    "requirement_applies_to_system": [
+      2,
+      45,
+      97,
+      159,
+      180,
+      183,
+      185,
+      186
+    ],
+    "requirement_basic": [
+      11,
+      83,
+      125,
+      159,
+      183,
+      186
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      0,
+      1,
+      2,
+      26,
+      81,
+      97,
+      102,
+      180,
+      181,
+      183
+    ],
+    "schema_migration_subclass": [
+      5,
+      56
+    ],
+    "schema_revision_of": [
+      4,
+      26,
+      46,
+      60,
+      100,
+      161,
+      163,
+      181,
+      186
+    ],
+    "schemaorg_person_roleat": [
+      14,
+      26,
+      46,
+      83,
+      123,
+      125,
+      159
+    ],
+    "schemaorg_product_brand": [
+      7,
+      20,
+      26,
+      35,
+      46,
+      109,
+      165,
+      183,
+      186
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      68,
+      81,
+      86,
+      91,
+      128,
+      161,
+      183,
+      185,
+      186
+    ],
+    "subclass_to_directive_ice": [
+      7,
+      27,
+      33
+    ],
+    "subclass_to_independent_continuant": [
+      0,
+      12,
+      26,
+      97,
+      135,
+      183,
+      191
+    ],
+    "subclass_to_information_content_entity": [
+      4,
+      11,
+      20
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      45,
+      46,
+      100,
+      102,
+      105,
+      123,
+      159,
+      183,
+      191
+    ],
+    "syscall_governed_by_directive": [
+      10,
+      12,
+      20,
+      45,
+      61,
+      83
+    ],
+    "table_topic_tag": [
+      44,
+      126
+    ],
+    "technology_promotion_initiative": [
+      8,
+      10,
+      45,
+      80,
+      81,
+      159,
+      165,
+      168,
+      186
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      12,
+      24,
+      30,
+      42,
+      54,
+      61
+    ],
+    "verification_concludes_with": [
+      20,
+      23,
+      69,
+      129
     ]
   },
   "chapters": [
     {
-      "id": "2ae147af95560bc0",
-      "family": "07_long_tail",
+      "id": "ch_live_attestation_basic_f47c69",
+      "family": "03_directive_governance",
       "topics": [
         47,
-        65,
-        197
+        83,
+        181,
+        184
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "attestation_basic",
+        "syscall_governed_by_directive",
+        "ice_exactly_one_subject"
       ]
     },
     {
-      "id": "3563cbe4ce6b5615",
+      "id": "ch_live_control_with_classification_tier_da0831",
+      "family": "03_directive_governance",
+      "topics": [
+        47,
+        126
+      ],
+      "cited_terms": [
+        "control_with_classification_tier",
+        "evidence_with_mass_function",
+        "table_topic_tag"
+      ]
+    },
+    {
+      "id": "ch_live_dempster_combinant_second_7de518",
       "family": "07_long_tail",
       "topics": [
-        5,
-        24,
         47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "dempster_combinant_second",
+        "reference_within_dataset",
+        "subclass_to_directive_ice"
       ]
     },
     {
-      "id": "3e2320ac5ab71edb",
+      "id": "ch_live_descriptive_not_retracted_6f1138",
       "family": "07_long_tail",
       "topics": [
-        47,
-        75,
-        199
+        47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "descriptive_not_retracted",
+        "subclass_to_information_content_entity",
+        "requirement_applies_to_system"
       ]
     },
     {
-      "id": "52f956f6e6f10eb6",
-      "family": "07_long_tail",
+      "id": "ch_live_directive_only_governs_324ad3",
+      "family": "01_foundation",
       "topics": [
-        47,
-        65,
-        169
+        47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "directive_only_governs",
+        "directive_only_governs_artifact",
+        "directive_supersedes_directive"
       ]
     },
     {
-      "id": "737d3a561a6658b2",
-      "family": "07_long_tail",
+      "id": "ch_live_directive_only_governs_d1da8b",
+      "family": "01_foundation",
       "topics": [
-        47,
-        70,
-        96
+        47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "directive_only_governs",
+        "farmland_acquisition_process",
+        "schemaorg_product_brand"
       ]
     },
     {
-      "id": "744a43c551ec79fa",
-      "family": "07_long_tail",
+      "id": "ch_live_ebpfprogram_subclass_e3c9b0",
+      "family": "04_ebpf_kernel",
       "topics": [
         47,
-        71,
-        106
+        146
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "ebpfprogram_subclass",
+        "subclass_to_information_content_entity",
+        "identifier_subclass"
       ]
     },
     {
-      "id": "d8669ccb5ba7c198",
-      "family": "07_long_tail",
+      "id": "ch_live_ganglion_cyst_imaging_finding_5bda5e",
+      "family": "08_derived",
       "topics": [
-        47,
-        195,
-        197
+        47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "ganglion_cyst_imaging_finding",
+        "subclass_to_information_content_entity",
+        "constraint_with_severity_classification"
       ]
     },
     {
-      "id": "f33e32cef762ea79",
-      "family": "07_long_tail",
+      "id": "ch_live_ice_about_artifact_7afce5",
+      "family": "01_foundation",
       "topics": [
-        34,
-        47,
-        56
+        47
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "ice_about_artifact",
+        "ice_exactly_one_subject",
+        "ice_subclass_with_part"
       ]
     },
     {
-      "id": "f743bd2befa44bdb",
+      "id": "ch_live_ice_exactly_one_subject_06e779",
+      "family": "01_foundation",
+      "topics": [
+        47,
+        135
+      ],
+      "cited_terms": [
+        "ice_exactly_one_subject",
+        "subclass_basic",
+        "process_min_one_output"
+      ]
+    },
+    {
+      "id": "ch_live_ice_exactly_one_subject_2f91b1",
+      "family": "01_foundation",
+      "topics": [
+        47,
+        83,
+        142
+      ],
+      "cited_terms": [
+        "ice_exactly_one_subject",
+        "column_tag_from_annotator",
+        "dempster_conflict_mass"
+      ]
+    },
+    {
+      "id": "ch_live_information_dissemination_event_fdaeb2",
+      "family": "08_derived",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "information_dissemination_event",
+        "subclass_to_directive_ice",
+        "control_at_severity"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_basic_023e74",
+      "family": "02_observation_measurement",
+      "topics": [
+        47,
+        67,
+        91,
+        195
+      ],
+      "cited_terms": [
+        "labrun_basic",
+        "subclass_to_directive_ice",
+        "schemaorg_person_roleat"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_uses_instrument_3c0a96",
+      "family": "02_observation_measurement",
+      "topics": [
+        47,
+        67
+      ],
+      "cited_terms": [
+        "labrun_uses_instrument",
+        "directive_only_governs",
+        "existential_two_clauses"
+      ]
+    },
+    {
+      "id": "ch_live_myxoid_degeneration_process_6616d7",
+      "family": "08_derived",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "myxoid_degeneration_process",
+        "subclass_to_information_content_entity",
+        "control_with_classification_tier"
+      ]
+    },
+    {
+      "id": "ch_live_national_dataset_augmentation_process_48d276",
+      "family": "08_derived",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "national_dataset_augmentation_process",
+        "measurement_with_unit",
+        "subclass_to_directive_ice"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_detection_basic_e004ea",
+      "family": "02_observation_measurement",
+      "topics": [
+        47,
+        86,
+        126
+      ],
+      "cited_terms": [
+        "outlier_detection_basic",
+        "dempster_combination_subclass",
+        "table_topic_tag"
+      ]
+    },
+    {
+      "id": "ch_live_perf_event_subclass_1c7dc5",
+      "family": "07_long_tail",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "perf_event_subclass",
+        "ice_exactly_one_subject",
+        "mass_function_with_focal_element"
+      ]
+    },
+    {
+      "id": "ch_live_policy_classification_tier_1ac374",
+      "family": "03_directive_governance",
+      "topics": [
+        47,
+        126
+      ],
+      "cited_terms": [
+        "policy_classification_tier",
+        "annotation_only_about_artifact",
+        "table_topic_tag"
+      ]
+    },
+    {
+      "id": "ch_live_profiling_basic_85ad28",
+      "family": "02_observation_measurement",
+      "topics": [
+        47,
+        140,
+        195
+      ],
+      "cited_terms": [
+        "profiling_basic",
+        "subclass_to_directive_ice",
+        "mass_function_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_basic_cb8be5",
+      "family": "03_directive_governance",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "requirement_basic",
+        "frame_refinement",
+        "subclass_to_information_content_entity"
+      ]
+    },
+    {
+      "id": "ch_live_responsive_optic_nerve_dysfunction_566153",
+      "family": "08_derived",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "responsive_optic_nerve_dysfunction",
+        "subclass_to_directive_ice",
+        "evidence_observed_by_process"
+      ]
+    },
+    {
+      "id": "ch_live_schema_migration_subclass_5e9784",
       "family": "07_long_tail",
       "topics": [
         47,
-        95,
-        110
+        56,
+        69,
+        126,
+        129
       ],
       "cited_terms": [
-        "pci_dss_requirement",
-        "requirement_equiv_specifies_target",
-        "hipaa_safeguard_physical",
-        "hipaa_safeguard_technical",
-        "hipaa_safeguard_admin"
+        "schema_migration_subclass",
+        "table_topic_tag",
+        "verification_concludes_with"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_basic_c0ef84",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_basic",
+        "ice_exactly_one_subject",
+        "dengue_transmission_process"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_directive_ice_6e2dd2",
+      "family": "01_foundation",
+      "topics": [
+        47,
+        136
+      ],
+      "cited_terms": [
+        "subclass_to_directive_ice",
+        "digital_media_service",
+        "attestation_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_directive_ice_f89263",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_directive_ice",
+        "lineage_edge_with_provenance",
+        "functional_dependency_lhs"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_independent_continuant_1f1553",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_independent_continuant",
+        "subclass_to_information_content_entity",
+        "subclass_to_process"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_information_content_entity_30f9cd",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_information_content_entity",
+        "profiling_with_method",
+        "existential_with_has_part"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_information_content_entity_70d19f",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_information_content_entity",
+        "technology_promotion_initiative",
+        "constraint_with_violation_consequence"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_information_content_entity_75dc3d",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_information_content_entity",
+        "measurement_subclass_only_one_unit",
+        "column_pair_subject"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_information_content_entity_d19ab7",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_information_content_entity",
+        "technology_promotion_initiative",
+        "directive_supersedes_directive"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_information_content_entity_f67902",
+      "family": "01_foundation",
+      "topics": [
+        47
+      ],
+      "cited_terms": [
+        "subclass_to_information_content_entity",
+        "program_subclass",
+        "crop_parasitism_impact"
+      ]
+    },
+    {
+      "id": "ch_live_two_disjoint_artifacts_941a4f",
+      "family": "01_foundation",
+      "topics": [
+        47,
+        61
+      ],
+      "cited_terms": [
+        "two_disjoint_artifacts",
+        "subclass_to_information_content_entity",
+        "schema_revision_of"
       ]
     }
   ]

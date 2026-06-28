@@ -1,0 +1,372 @@
+{
+  "topic_id": 62,
+  "family": "05_provo_lineage",
+  "n_chapters": 10,
+  "coverage_score": 0.09672791510820389,
+  "topic_repr": "ISSN (E): 2277-7695 ISSN (P): 2349-8242 NAAS Rating: 5.23 TPI 2022; 11(12): 3056-3061 \u00a9 2022 TPI www.thepharmajournal.com Received: 07-10-2022 Accepted: 11-11-2022\n\nKatkar Ankush Haribhau\n\nResearch Scholar, Department of Fruit Science, Pt. Kishori Lal Shukla College of Horticulture and Research Station, IGKV, Raipur Chhattisgarh, India\n\nMS Paikra\n\nProfessor, Department of Fruit Science, Pt. Kishor...",
+  "terms": [
+    "aggregation_grouped_by",
+    "allocation_basic",
+    "allocation_completed_at",
+    "column_value_distribution",
+    "column_version_subclass",
+    "conceptual_construction_process",
+    "ebpfevent_via_program_xref",
+    "equiv_intersect_with_negation",
+    "farmland_acquisition_process",
+    "mass_function_equiv_frame_and_assignment",
+    "measurement_with_op_artifact",
+    "measurement_with_unit",
+    "policy_constrains_only_artifact",
+    "policy_effective_period",
+    "professional_expertise_domain",
+    "profile_has_cardinality",
+    "quantum_computer",
+    "schemaorg_label_alignment",
+    "schemaorg_org_country",
+    "schemaorg_org_legalname",
+    "schemaorg_product_sku",
+    "verification_targets_artifact"
+  ],
+  "tables": [
+    "t_aggregation_grouped_by",
+    "t_allocation_basic",
+    "t_allocation_completed_at",
+    "t_column_value_distribution",
+    "t_column_version_subclass",
+    "t_conceptual_construction_process",
+    "t_ebpfevent_via_program_xref",
+    "t_equiv_intersect_with_negation",
+    "t_farmland_acquisition_process",
+    "t_mass_function_equiv_frame_and_assignment",
+    "t_measurement_with_op_artifact",
+    "t_measurement_with_unit",
+    "t_policy_constrains_only_artifact",
+    "t_policy_effective_period",
+    "t_professional_expertise_domain",
+    "t_profile_has_cardinality",
+    "t_quantum_computer",
+    "t_schemaorg_label_alignment",
+    "t_schemaorg_org_country",
+    "t_schemaorg_org_legalname",
+    "t_schemaorg_product_sku",
+    "t_verification_targets_artifact"
+  ],
+  "topics": [
+    62,
+    104,
+    105,
+    165,
+    183
+  ],
+  "shared_tables": {
+    "aggregation_grouped_by": [
+      24,
+      26,
+      123,
+      161,
+      181,
+      186
+    ],
+    "allocation_basic": [
+      26,
+      79,
+      183
+    ],
+    "allocation_completed_at": [
+      1,
+      6,
+      7,
+      16,
+      26,
+      105,
+      180,
+      183
+    ],
+    "column_value_distribution": [
+      23,
+      27,
+      34,
+      46,
+      49,
+      75,
+      129,
+      183,
+      186
+    ],
+    "column_version_subclass": [
+      0,
+      1,
+      11,
+      12,
+      23
+    ],
+    "conceptual_construction_process": [
+      46,
+      49,
+      128,
+      155,
+      186
+    ],
+    "ebpfevent_via_program_xref": [
+      10,
+      21,
+      30,
+      40,
+      105,
+      186,
+      188
+    ],
+    "equiv_intersect_with_negation": [
+      23,
+      25,
+      122,
+      186
+    ],
+    "farmland_acquisition_process": [
+      2,
+      47,
+      92,
+      146,
+      186
+    ],
+    "mass_function_equiv_frame_and_assignment": [
+      0,
+      7,
+      26,
+      42,
+      61,
+      165
+    ],
+    "measurement_with_op_artifact": [
+      4,
+      26,
+      58,
+      67,
+      183,
+      186,
+      187
+    ],
+    "measurement_with_unit": [
+      10,
+      26,
+      47,
+      61,
+      65,
+      125,
+      149,
+      168,
+      181
+    ],
+    "policy_constrains_only_artifact": [
+      5,
+      26,
+      46,
+      83,
+      100,
+      109,
+      125,
+      135,
+      186
+    ],
+    "policy_effective_period": [
+      10,
+      26,
+      54,
+      92,
+      109,
+      128,
+      159,
+      186
+    ],
+    "professional_expertise_domain": [
+      1,
+      24,
+      26,
+      81,
+      105,
+      106,
+      183
+    ],
+    "profile_has_cardinality": [
+      4,
+      23,
+      26,
+      30,
+      100,
+      106,
+      186
+    ],
+    "quantum_computer": [
+      20,
+      26,
+      71,
+      97,
+      183,
+      186
+    ],
+    "schemaorg_label_alignment": [
+      0,
+      11,
+      45,
+      54
+    ],
+    "schemaorg_org_country": [
+      26,
+      46,
+      67,
+      107
+    ],
+    "schemaorg_org_legalname": [
+      0,
+      2,
+      46,
+      65,
+      94,
+      104
+    ],
+    "schemaorg_product_sku": [
+      1,
+      4,
+      26,
+      56,
+      123,
+      190
+    ],
+    "verification_targets_artifact": [
+      1,
+      6,
+      24,
+      26,
+      27,
+      35,
+      105
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_allocation_completed_at_b758cd",
+      "family": "05_provo_lineage",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "allocation_completed_at",
+        "policy_effective_period",
+        "column_version_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_column_value_distribution_28cd65",
+      "family": "07_long_tail",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "column_value_distribution",
+        "column_version_subclass",
+        "conceptual_construction_process"
+      ]
+    },
+    {
+      "id": "ch_live_column_version_subclass_20efab",
+      "family": "07_long_tail",
+      "topics": [
+        62,
+        105,
+        183
+      ],
+      "cited_terms": [
+        "column_version_subclass",
+        "verification_targets_artifact",
+        "policy_constrains_only_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_column_version_subclass_2ed8f6",
+      "family": "07_long_tail",
+      "topics": [
+        62,
+        165
+      ],
+      "cited_terms": [
+        "column_version_subclass",
+        "mass_function_equiv_frame_and_assignment",
+        "measurement_with_unit"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_intersect_with_negation_29f198",
+      "family": "01_foundation",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "equiv_intersect_with_negation",
+        "schemaorg_label_alignment",
+        "schemaorg_product_sku"
+      ]
+    },
+    {
+      "id": "ch_live_profile_has_cardinality_175602",
+      "family": "02_observation_measurement",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "profile_has_cardinality",
+        "schemaorg_label_alignment",
+        "measurement_with_op_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_quantum_computer_5667c4",
+      "family": "08_derived",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "quantum_computer",
+        "allocation_basic",
+        "column_version_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_label_alignment_27fd4b",
+      "family": "07_long_tail",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "schemaorg_label_alignment",
+        "aggregation_grouped_by",
+        "farmland_acquisition_process"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_label_alignment_b28e22",
+      "family": "07_long_tail",
+      "topics": [
+        62,
+        104
+      ],
+      "cited_terms": [
+        "schemaorg_label_alignment",
+        "schemaorg_org_country",
+        "schemaorg_org_legalname"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_label_alignment_eb3162",
+      "family": "07_long_tail",
+      "topics": [
+        62
+      ],
+      "cited_terms": [
+        "schemaorg_label_alignment",
+        "ebpfevent_via_program_xref",
+        "professional_expertise_domain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "topic_id": 41,
+  "family": "07_long_tail",
+  "n_chapters": 15,
+  "coverage_score": 0.13877344131469727,
+  "topic_repr": "Interfaces in Inorganic Matrix Composites: Atomistic Simulation and Experiment\n\nJ. Megusar, S. Yip, J.A. Cornie, B.V. Chambers, A. Isik, M. Tang, and C.S. Yoon\n\nMaterials Processing Center\nMassachusetts Institute of Technology\nCambridge, MA 02139\n\nAir Force Office of Scientific Research\nDirectorate of Aerospace and Materials Sciences\n110 Duncan Ave, Suite B115\nBolling AFB DC 20332-0001\nAFOSR/NA At...",
+  "terms": [
+    "artifact_has_id",
+    "bpf_helper_subclass",
+    "breaking_change_subclass",
+    "bullying_response_process",
+    "classification_subclass",
+    "column_lineage_for_compliance_claim",
+    "ebpfprogram_equiv_typed_with_hook",
+    "entomological_surveillance_record",
+    "identifier_uniquely_identifies",
+    "kernel_anomaly_supports_claim",
+    "kernel_event_with_tid",
+    "kernelhook_only_kprobe",
+    "lineage_governed_by_directive",
+    "log_record_subclass",
+    "nist80053_low_impact",
+    "nist80053_moderate_impact",
+    "nonbreaking_change_subclass",
+    "outlier_claim_supported_by_lift",
+    "policy_subclass",
+    "process_either_started_or_completed",
+    "schemaorg_event_location",
+    "storage_structure_composition",
+    "subclass_not_basic",
+    "survey_response_record",
+    "syscall_audited_by",
+    "telemetry_span_observes_syscall",
+    "transformation_associated_with_agent",
+    "transformation_informed_by",
+    "transformation_only_uses_datasets",
+    "verification_basic"
+  ],
+  "tables": [
+    "t_artifact_has_id",
+    "t_bpf_helper_subclass",
+    "t_breaking_change_subclass",
+    "t_bullying_response_process",
+    "t_classification_subclass",
+    "t_column_lineage_for_compliance_claim",
+    "t_ebpfprogram_equiv_typed_with_hook",
+    "t_entomological_surveillance_record",
+    "t_identifier_uniquely_identifies",
+    "t_kernel_anomaly_supports_claim",
+    "t_kernel_event_with_tid",
+    "t_kernelhook_only_kprobe",
+    "t_lineage_governed_by_directive",
+    "t_log_record_subclass",
+    "t_nist80053_low_impact",
+    "t_nist80053_moderate_impact",
+    "t_nonbreaking_change_subclass",
+    "t_outlier_claim_supported_by_lift",
+    "t_policy_subclass",
+    "t_process_either_started_or_completed",
+    "t_schemaorg_event_location",
+    "t_storage_structure_composition",
+    "t_subclass_not_basic",
+    "t_survey_response_record",
+    "t_syscall_audited_by",
+    "t_telemetry_span_observes_syscall",
+    "t_transformation_associated_with_agent",
+    "t_transformation_informed_by",
+    "t_transformation_only_uses_datasets",
+    "t_verification_basic"
+  ],
+  "topics": [
+    10,
+    41,
+    45,
+    52,
+    78,
+    79,
+    80,
+    105,
+    140,
+    143,
+    148,
+    155,
+    168,
+    178,
+    181
+  ],
+  "shared_tables": {
+    "artifact_has_id": [
+      10
+    ],
+    "bpf_helper_subclass": [
+      11,
+      69,
+      186
+    ],
+    "breaking_change_subclass": [
+      0,
+      14,
+      27,
+      36
+    ],
+    "bullying_response_process": [
+      26,
+      44,
+      45,
+      75,
+      105
+    ],
+    "classification_subclass": [
+      12,
+      91,
+      105
+    ],
+    "column_lineage_for_compliance_claim": [
+      5,
+      79
+    ],
+    "ebpfprogram_equiv_typed_with_hook": [
+      8,
+      11,
+      23,
+      79,
+      100,
+      143
+    ],
+    "entomological_surveillance_record": [
+      0,
+      26,
+      81,
+      184,
+      186
+    ],
+    "identifier_uniquely_identifies": [
+      7,
+      23,
+      45,
+      46,
+      60,
+      78,
+      100,
+      186
+    ],
+    "kernel_anomaly_supports_claim": [
+      44,
+      67,
+      79,
+      101
+    ],
+    "kernel_event_with_tid": [
+      0,
+      19,
+      25,
+      80,
+      168
+    ],
+    "kernelhook_only_kprobe": [
+      2,
+      7,
+      45
+    ],
+    "lineage_governed_by_directive": [
+      45,
+      46,
+      109,
+      120,
+      129,
+      155,
+      186,
+      187
+    ],
+    "log_record_subclass": [
+      1,
+      2,
+      19,
+      42,
+      61,
+      100,
+      120,
+      125,
+      186
+    ],
+    "nist80053_low_impact": [
+      1,
+      20,
+      150,
+      172,
+      181,
+      191
+    ],
+    "nist80053_moderate_impact": [
+      4,
+      6,
+      7,
+      35,
+      44,
+      46,
+      58,
+      129,
+      140,
+      161,
+      186
+    ],
+    "nonbreaking_change_subclass": [
+      2,
+      40
+    ],
+    "outlier_claim_supported_by_lift": [
+      10,
+      40,
+      80,
+      86,
+      100,
+      159,
+      183,
+      186
+    ],
+    "policy_subclass": [
+      1,
+      5,
+      26,
+      34,
+      35,
+      60,
+      67,
+      183,
+      186
+    ],
+    "process_either_started_or_completed": [
+      3,
+      10,
+      27,
+      168,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_event_location": [
+      6,
+      20,
+      30,
+      34,
+      65,
+      69,
+      155,
+      168,
+      183,
+      186
+    ],
+    "storage_structure_composition": [
+      3,
+      35,
+      46,
+      109,
+      120,
+      181,
+      183,
+      186
+    ],
+    "subclass_not_basic": [
+      7,
+      24,
+      26,
+      31,
+      44,
+      60,
+      61,
+      91,
+      123,
+      183,
+      186
+    ],
+    "survey_response_record": [
+      26,
+      35,
+      60,
+      75,
+      97,
+      166,
+      181,
+      183,
+      184,
+      186
+    ],
+    "syscall_audited_by": [
+      23,
+      40,
+      78
+    ],
+    "telemetry_span_observes_syscall": [
+      24,
+      26,
+      35,
+      42,
+      79,
+      81,
+      183
+    ],
+    "transformation_associated_with_agent": [
+      8,
+      38,
+      45,
+      54,
+      183,
+      186,
+      191,
+      195
+    ],
+    "transformation_informed_by": [
+      23,
+      42,
+      51,
+      140
+    ],
+    "transformation_only_uses_datasets": [
+      1,
+      19,
+      34,
+      35,
+      42,
+      78,
+      163,
+      186
+    ],
+    "verification_basic": [
+      7,
+      23,
+      24,
+      26,
+      46,
+      90,
+      97,
+      105,
+      125,
+      129,
+      135,
+      147
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_artifact_has_id_074b30",
+      "family": "01_foundation",
+      "topics": [
+        10,
+        41,
+        52,
+        80,
+        168
+      ],
+      "cited_terms": [
+        "artifact_has_id",
+        "lineage_governed_by_directive",
+        "breaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_bpf_helper_subclass_920eee",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "bpf_helper_subclass",
+        "breaking_change_subclass",
+        "bullying_response_process"
+      ]
+    },
+    {
+      "id": "ch_live_breaking_change_subclass_405df1",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "breaking_change_subclass",
+        "identifier_uniquely_identifies",
+        "storage_structure_composition"
+      ]
+    },
+    {
+      "id": "ch_live_breaking_change_subclass_65c1a4",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52,
+        80,
+        168
+      ],
+      "cited_terms": [
+        "breaking_change_subclass",
+        "verification_basic",
+        "kernel_event_with_tid"
+      ]
+    },
+    {
+      "id": "ch_live_breaking_change_subclass_7ab293",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "breaking_change_subclass",
+        "outlier_claim_supported_by_lift",
+        "schemaorg_event_location"
+      ]
+    },
+    {
+      "id": "ch_live_classification_subclass_9c4b1d",
+      "family": "03_directive_governance",
+      "topics": [
+        41,
+        52,
+        105,
+        181
+      ],
+      "cited_terms": [
+        "classification_subclass",
+        "survey_response_record",
+        "nonbreaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_column_lineage_for_compliance_claim_d8efe9",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        45,
+        52,
+        79,
+        178
+      ],
+      "cited_terms": [
+        "column_lineage_for_compliance_claim",
+        "kernelhook_only_kprobe",
+        "nonbreaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_low_impact_ae0436",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "nist80053_low_impact",
+        "nist80053_moderate_impact",
+        "nonbreaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_nist80053_moderate_impact_57415c",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "nist80053_moderate_impact",
+        "breaking_change_subclass",
+        "entomological_surveillance_record"
+      ]
+    },
+    {
+      "id": "ch_live_nonbreaking_change_subclass_be3e9a",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52,
+        140,
+        148,
+        155
+      ],
+      "cited_terms": [
+        "nonbreaking_change_subclass",
+        "identifier_uniquely_identifies",
+        "transformation_informed_by"
+      ]
+    },
+    {
+      "id": "ch_live_nonbreaking_change_subclass_ed1c8b",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52,
+        143
+      ],
+      "cited_terms": [
+        "nonbreaking_change_subclass",
+        "transformation_only_uses_datasets",
+        "ebpfprogram_equiv_typed_with_hook"
+      ]
+    },
+    {
+      "id": "ch_live_policy_subclass_fb6fcf",
+      "family": "01_foundation",
+      "topics": [
+        41,
+        52,
+        79,
+        178
+      ],
+      "cited_terms": [
+        "policy_subclass",
+        "kernel_anomaly_supports_claim",
+        "nonbreaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_process_either_started_or_completed_10a3b2",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "process_either_started_or_completed",
+        "nonbreaking_change_subclass",
+        "transformation_associated_with_agent"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_audited_by_43eb9f",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        41,
+        52,
+        78
+      ],
+      "cited_terms": [
+        "syscall_audited_by",
+        "log_record_subclass",
+        "nonbreaking_change_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_telemetry_span_observes_syscall_44794d",
+      "family": "07_long_tail",
+      "topics": [
+        41,
+        52
+      ],
+      "cited_terms": [
+        "telemetry_span_observes_syscall",
+        "breaking_change_subclass",
+        "subclass_not_basic"
+      ]
+    }
+  ]
+}

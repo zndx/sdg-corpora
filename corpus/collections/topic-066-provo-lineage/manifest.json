@@ -1,0 +1,354 @@
+{
+  "topic_id": 66,
+  "family": "05_provo_lineage",
+  "n_chapters": 9,
+  "coverage_score": 0.2253064662218094,
+  "topic_repr": "EDITORIAL\n\nOpen Access\n\nRohan Fernando: a\u00a0road from\u00a0Sri Lanka to\u00a0Ames\n\nDaniel\u00a0Gianola 1* , Rodolfo\u00a0J.\u00a0Cantet 2 , Jack\u00a0C.\u00a0M.\u00a0Dekkers 3 and Miguel\u00a0P\u00e9rez\u2011Enciso 4\n\nAbout one year ago, some of us learned that Rohan Fernando had announced his intention to retire from his position as Professor of Animal Science at Iowa State University. We felt that it would be appropriate to prepare a volume honoring h...",
+  "terms": [
+    "agent_software_or_human",
+    "agent_with_role",
+    "aggregation_aggregates_measurement",
+    "allocation_associated_with_agent",
+    "allocation_at_run_id",
+    "annotation_classifies_class",
+    "belief_interval_subclass",
+    "column_renamed_from",
+    "dengue_transmission_process",
+    "entity_match_link",
+    "equiv_intersect_with_two_restrictions",
+    "evidence_subclass",
+    "policy_only_governs_artifacts",
+    "profiling_produces_profile",
+    "provenance_agent_subclass",
+    "schemaorg_place_longitude",
+    "span_with_attribute",
+    "summary_metric_subclass",
+    "syscall_subclass"
+  ],
+  "tables": [
+    "t_agent_software_or_human",
+    "t_agent_with_role",
+    "t_aggregation_aggregates_measurement",
+    "t_allocation_associated_with_agent",
+    "t_allocation_at_run_id",
+    "t_annotation_classifies_class",
+    "t_belief_interval_subclass",
+    "t_column_renamed_from",
+    "t_dengue_transmission_process",
+    "t_entity_match_link",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_evidence_subclass",
+    "t_policy_only_governs_artifacts",
+    "t_profiling_produces_profile",
+    "t_provenance_agent_subclass",
+    "t_schemaorg_place_longitude",
+    "t_span_with_attribute",
+    "t_summary_metric_subclass",
+    "t_syscall_subclass"
+  ],
+  "topics": [
+    66,
+    82
+  ],
+  "shared_tables": {
+    "agent_software_or_human": [
+      12
+    ],
+    "agent_with_role": [
+      7,
+      26,
+      30,
+      38,
+      125,
+      146,
+      186
+    ],
+    "aggregation_aggregates_measurement": [
+      0,
+      3,
+      39,
+      46,
+      161,
+      186
+    ],
+    "allocation_associated_with_agent": [
+      10,
+      12,
+      26,
+      111,
+      159,
+      183,
+      186
+    ],
+    "allocation_at_run_id": [
+      24,
+      26,
+      60,
+      106,
+      183,
+      186
+    ],
+    "annotation_classifies_class": [
+      4,
+      26,
+      54,
+      67,
+      102,
+      105,
+      186
+    ],
+    "belief_interval_subclass": [
+      2,
+      7,
+      23,
+      46,
+      79,
+      90,
+      109,
+      128,
+      183,
+      186
+    ],
+    "column_renamed_from": [
+      4,
+      109,
+      120,
+      125,
+      168,
+      186
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      5,
+      12,
+      26,
+      47,
+      83,
+      181,
+      183
+    ],
+    "entity_match_link": [
+      2,
+      3,
+      5,
+      23,
+      26,
+      60,
+      81,
+      140,
+      161,
+      172,
+      186
+    ],
+    "equiv_intersect_with_two_restrictions": [
+      2,
+      4,
+      7,
+      12,
+      14,
+      26,
+      30,
+      34,
+      61,
+      181,
+      183,
+      186
+    ],
+    "evidence_subclass": [
+      46,
+      94,
+      105,
+      187
+    ],
+    "policy_only_governs_artifacts": [
+      4,
+      14,
+      24,
+      26,
+      44,
+      46,
+      67,
+      140,
+      142,
+      146,
+      181,
+      186
+    ],
+    "profiling_produces_profile": [
+      12,
+      24,
+      26,
+      33,
+      46,
+      65,
+      150,
+      186
+    ],
+    "provenance_agent_subclass": [
+      26,
+      109,
+      180,
+      186
+    ],
+    "schemaorg_place_longitude": [
+      26,
+      34,
+      36,
+      94,
+      143,
+      158,
+      181,
+      186
+    ],
+    "span_with_attribute": [
+      1,
+      26,
+      38,
+      106,
+      168,
+      181,
+      184,
+      186
+    ],
+    "summary_metric_subclass": [
+      0,
+      4,
+      135,
+      140,
+      186
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      42,
+      46,
+      104,
+      111,
+      147,
+      154,
+      168,
+      183,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_agent_software_or_human_ddc78f",
+      "family": "05_provo_lineage",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "agent_software_or_human",
+        "agent_with_role",
+        "aggregation_aggregates_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_at_run_id_b8e817",
+      "family": "05_provo_lineage",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "allocation_at_run_id",
+        "agent_software_or_human",
+        "entity_match_link"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_subclass_47d847",
+      "family": "06_belief_structure",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "belief_interval_subclass",
+        "summary_metric_subclass",
+        "agent_software_or_human"
+      ]
+    },
+    {
+      "id": "ch_live_dengue_transmission_process_b26c0a",
+      "family": "08_derived",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "dengue_transmission_process",
+        "column_renamed_from",
+        "agent_software_or_human"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_subclass_9d345e",
+      "family": "06_belief_structure",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "evidence_subclass",
+        "agent_software_or_human",
+        "allocation_associated_with_agent"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_governs_artifacts_b72541",
+      "family": "03_directive_governance",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "policy_only_governs_artifacts",
+        "schemaorg_place_longitude",
+        "agent_software_or_human"
+      ]
+    },
+    {
+      "id": "ch_live_provenance_agent_subclass_e2e496",
+      "family": "05_provo_lineage",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "provenance_agent_subclass",
+        "profiling_produces_profile",
+        "agent_software_or_human"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_attribute_225def",
+      "family": "07_long_tail",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "span_with_attribute",
+        "agent_software_or_human",
+        "annotation_classifies_class"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_subclass_7d39c8",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        66,
+        82
+      ],
+      "cited_terms": [
+        "syscall_subclass",
+        "agent_software_or_human",
+        "equiv_intersect_with_two_restrictions"
+      ]
+    }
+  ]
+}

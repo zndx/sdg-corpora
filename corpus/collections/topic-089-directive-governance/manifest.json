@@ -1,0 +1,55 @@
+{
+  "topic_id": 89,
+  "family": "03_directive_governance",
+  "n_chapters": 1,
+  "coverage_score": 0.24203209578990936,
+  "topic_repr": "DATA REQUIREMENTS FOR METROPOLITAN TRANSPORTATION PLANNING\n\nNAS-NAE\nOCT 26 1972\nLIBRARY\n\nHIGWAY RESEARCH BOARD\nRESEARCH COUNCIL\nACADEMY OF SCIENCES\u2014NATIONAL ACADEMY OF ENGINEERING\n\nHIGHWAY RESEARCH BOARD 1971\n\nOfficers\nCHARLES E. SHUMATE, Chairman\nALAN M. VOORHEES, First Vice Chairman\nWILLIAM L. GARRISON, Second Vice Chairman\nW. N. CAREY, JR., Executive Director\n\nExecutive Committee\nF. C. TURNER, ...",
+  "terms": [
+    "lift_basic",
+    "lift_subclass",
+    "lift_with_baseline_rate"
+  ],
+  "tables": [
+    "t_lift_basic",
+    "t_lift_subclass",
+    "t_lift_with_baseline_rate"
+  ],
+  "topics": [
+    2,
+    5,
+    52,
+    58,
+    89
+  ],
+  "shared_tables": {
+    "lift_basic": [
+      2,
+      166
+    ],
+    "lift_subclass": [
+      80,
+      186
+    ],
+    "lift_with_baseline_rate": [
+      5
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_lift_basic_1f3e8f",
+      "family": "02_observation_measurement",
+      "topics": [
+        2,
+        5,
+        52,
+        58,
+        89
+      ],
+      "cited_terms": [
+        "lift_basic",
+        "lift_subclass",
+        "lift_with_baseline_rate"
+      ]
+    }
+  ]
+}

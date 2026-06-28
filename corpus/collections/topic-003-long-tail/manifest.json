@@ -1,342 +1,363 @@
 {
   "topic_id": 3,
   "family": "07_long_tail",
-  "n_chapters": 13,
-  "coverage_score": 0.10616503655910492,
+  "n_chapters": 9,
+  "coverage_score": 0.10611996054649353,
   "topic_repr": "Molecular Docking Compounds of Cinnamaldehyde Derivatives as Anticancer Agents\n\nWarsito Warsito\\textsuperscript{1*}, Shinta Murlistyarini\\textsuperscript{2}, Suratmo Suratmo\\textsuperscript{1}, Vina O Azzahra\\textsuperscript{1}, Andrian Sucahyo\\textsuperscript{1}\n\nAbstract\n\n**Objective:** Cinnamaldehyde (CM) has a molecular structure with the main reaction center of an aromatic ring which the bioa...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "audit_for_period",
-    "audit_subclass",
-    "control_with_evidence_requirement",
-    "gdpr_lawful_basis"
+    "agent_identified_by_uri",
+    "aggregation_aggregates_measurement",
+    "audit_basic",
+    "chemical_exposure_risk_profile",
+    "classification_basic",
+    "conjunctive_combination",
+    "constraint_check_subclass",
+    "dataset_with_record_count",
+    "dbpedia_label_alignment",
+    "dempster_combinant_first",
+    "directive_only_governs_artifact",
+    "entity_match_link",
+    "equiv_union_basic",
+    "kernelhook_with_hook_kind",
+    "policy_supersedes",
+    "process_either_started_or_completed",
+    "profile_of_column",
+    "regional_quality_benchmark",
+    "storage_structure_composition"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_audit_for_period",
-    "t_audit_subclass",
-    "t_control_with_evidence_requirement",
-    "t_gdpr_lawful_basis"
+    "t_agent_identified_by_uri",
+    "t_aggregation_aggregates_measurement",
+    "t_audit_basic",
+    "t_chemical_exposure_risk_profile",
+    "t_classification_basic",
+    "t_conjunctive_combination",
+    "t_constraint_check_subclass",
+    "t_dataset_with_record_count",
+    "t_dbpedia_label_alignment",
+    "t_dempster_combinant_first",
+    "t_directive_only_governs_artifact",
+    "t_entity_match_link",
+    "t_equiv_union_basic",
+    "t_kernelhook_with_hook_kind",
+    "t_policy_supersedes",
+    "t_process_either_started_or_completed",
+    "t_profile_of_column",
+    "t_regional_quality_benchmark",
+    "t_storage_structure_composition"
   ],
   "topics": [
     3,
-    16,
-    19,
-    26,
-    27,
-    33,
-    34,
     35,
-    38,
-    61,
-    64,
-    74,
-    80,
-    82,
-    89,
-    99,
-    101,
-    113,
-    118,
-    129,
-    135,
-    170,
-    171,
-    178,
-    179
+    46,
+    67,
+    71,
+    90,
+    91
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
+    "agent_identified_by_uri": [
+      0,
       2,
-      5,
-      6,
-      7,
-      16,
-      20,
-      23,
-      26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      163,
-      186,
-      191,
-      196
+      35,
+      124,
+      126
     ],
-    "audit_for_period": [
-      20,
-      32,
-      37,
-      43,
-      57,
+    "aggregation_aggregates_measurement": [
+      0,
+      39,
+      46,
+      66,
+      161,
+      186
+    ],
+    "audit_basic": [
+      4,
+      23,
+      24,
+      26,
+      31,
+      54,
+      94,
+      172
+    ],
+    "chemical_exposure_risk_profile": [
+      4,
+      135,
+      183
+    ],
+    "classification_basic": [
+      1,
+      19,
+      45,
+      91
+    ],
+    "conjunctive_combination": [
+      6,
+      25,
+      26,
+      40,
       65,
-      76,
-      111,
-      171,
-      179,
+      159,
+      183,
+      184,
+      186,
+      190
+    ],
+    "constraint_check_subclass": [
+      4,
+      11,
+      26,
+      46,
+      56,
+      65,
+      67,
+      81,
+      139,
+      181,
+      183,
+      186
+    ],
+    "dbpedia_label_alignment": [
+      26,
+      46
+    ],
+    "dempster_combinant_first": [
+      2,
+      26,
+      38,
+      100,
+      105,
+      161,
+      168,
+      183
+    ],
+    "directive_only_governs_artifact": [
+      12,
+      26,
+      40,
+      42,
+      47,
+      138,
+      186,
       187
     ],
-    "audit_subclass": [
+    "entity_match_link": [
+      2,
       5,
-      32,
-      70,
-      111,
-      179
-    ],
-    "control_with_evidence_requirement": [
       23,
       26,
-      58,
-      78,
-      83,
-      88,
-      89,
-      92,
-      102,
-      104,
-      134,
-      138,
-      154,
-      191
+      60,
+      66,
+      81,
+      140,
+      161,
+      172,
+      186
     ],
-    "gdpr_lawful_basis": [
+    "equiv_union_basic": [
+      16,
+      20,
+      42,
+      92,
+      97,
+      102,
+      165,
+      183,
+      186
+    ],
+    "kernelhook_with_hook_kind": [
+      24,
+      42,
+      46,
+      65,
+      67
+    ],
+    "policy_supersedes": [
+      1,
+      2,
+      35,
+      45,
+      49,
+      90
+    ],
+    "process_either_started_or_completed": [
+      10,
+      27,
+      41,
+      168,
+      181,
+      183,
+      186
+    ],
+    "profile_of_column": [
+      0,
+      26,
+      34,
+      159,
+      165,
+      188
+    ],
+    "regional_quality_benchmark": [
+      0,
+      10,
+      20,
       26,
       30,
-      73,
-      78,
-      104,
-      133,
-      138,
-      154,
-      163
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
+      185,
+      186
+    ],
+    "storage_structure_composition": [
+      35,
+      41,
+      46,
+      109,
+      120,
+      181,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "015a74991d0fb336",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        38,
-        89
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "0d7e92697a93a7ce",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        74,
-        82
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "0f838e1a49362469",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        26,
-        171
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "1cb9e695067c03da",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        27,
-        101
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "40eaf8dbb8674e92",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        135,
-        170
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "589c673485bde0c1",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        38,
-        80
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "6651ff9f428beba3",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        33,
-        99
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "8b8700464546f9c9",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        34,
-        118
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "9f279349aeed6023",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        61,
-        178
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "a9277da6974e9f5e",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        64,
-        113
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "c855a73edc4d5ed7",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        16,
-        19
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "f0295c9850fac805",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
-        33,
-        179
-      ],
-      "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
-      ]
-    },
-    {
-      "id": "ffad6e6daf5d6668",
-      "family": "03_directive_governance",
+      "id": "ch_live_aggregation_aggregates_measurement_b1ff9e",
+      "family": "02_observation_measurement",
       "topics": [
         3,
         35,
-        129
+        46,
+        67,
+        71
       ],
       "cited_terms": [
-        "gdpr_lawful_basis",
-        "attestation_with_supporting_evidence",
-        "audit_for_period",
-        "control_with_evidence_requirement",
-        "audit_subclass"
+        "aggregation_aggregates_measurement",
+        "agent_identified_by_uri",
+        "kernelhook_with_hook_kind"
+      ]
+    },
+    {
+      "id": "ch_live_chemical_exposure_risk_profile_e5429b",
+      "family": "08_derived",
+      "topics": [
+        3,
+        35,
+        46,
+        67,
+        71
+      ],
+      "cited_terms": [
+        "chemical_exposure_risk_profile",
+        "agent_identified_by_uri",
+        "aggregation_aggregates_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_with_record_count_8275fa",
+      "family": "01_foundation",
+      "topics": [
+        3
+      ],
+      "cited_terms": [
+        "dataset_with_record_count",
+        "dbpedia_label_alignment",
+        "dempster_combinant_first"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_with_record_count_dd8334",
+      "family": "01_foundation",
+      "topics": [
+        3,
+        90
+      ],
+      "cited_terms": [
+        "dataset_with_record_count",
+        "policy_supersedes",
+        "constraint_check_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_with_record_count_eb1c76",
+      "family": "01_foundation",
+      "topics": [
+        3,
+        91
+      ],
+      "cited_terms": [
+        "dataset_with_record_count",
+        "process_either_started_or_completed",
+        "classification_basic"
+      ]
+    },
+    {
+      "id": "ch_live_directive_only_governs_artifact_2c74b1",
+      "family": "07_long_tail",
+      "topics": [
+        3,
+        35,
+        46,
+        67,
+        71
+      ],
+      "cited_terms": [
+        "directive_only_governs_artifact",
+        "agent_identified_by_uri",
+        "equiv_union_basic"
+      ]
+    },
+    {
+      "id": "ch_live_entity_match_link_089e2a",
+      "family": "07_long_tail",
+      "topics": [
+        3
+      ],
+      "cited_terms": [
+        "entity_match_link",
+        "dataset_with_record_count",
+        "storage_structure_composition"
+      ]
+    },
+    {
+      "id": "ch_live_profile_of_column_7c3543",
+      "family": "02_observation_measurement",
+      "topics": [
+        3,
+        35,
+        46,
+        67,
+        71
+      ],
+      "cited_terms": [
+        "profile_of_column",
+        "agent_identified_by_uri",
+        "conjunctive_combination"
+      ]
+    },
+    {
+      "id": "ch_live_regional_quality_benchmark_159985",
+      "family": "08_derived",
+      "topics": [
+        3,
+        35,
+        46,
+        67,
+        71
+      ],
+      "cited_terms": [
+        "regional_quality_benchmark",
+        "audit_basic",
+        "agent_identified_by_uri"
       ]
     }
   ]

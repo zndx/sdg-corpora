@@ -1,0 +1,396 @@
+{
+  "topic_id": 54,
+  "family": "05_provo_lineage",
+  "n_chapters": 10,
+  "coverage_score": 0.2641235291957855,
+  "topic_repr": "Mathieu Blanchette - Curriculum Vitae in a Nutshell\n\nCareer path:\n\n* PhD in computer science (2002) from U. of Washington.\n* Assistant (2003-2008) and associate (2008-now) professor at McGill's School of Computer Science since 2003.\n\nResearch topics and productivity:\n\n* Research area: bioinformatics, with applications in genomics, epigenomics, evolution, phylogenetics, gene regulation, and proteom...",
+  "terms": [
+    "annotation_classifies_class",
+    "anonymous_demographic_information",
+    "audit_basic",
+    "bpf_helper_called_by",
+    "carbon_credit_transaction",
+    "dempster_conflict_mass",
+    "functional_dependency_lhs",
+    "human_rights_impact_report",
+    "kernel_event_with_comm",
+    "material_density_specification",
+    "myxoid_degeneration_process",
+    "policy_effective_period",
+    "schemaorg_label_alignment",
+    "social_enterprise_annual_income",
+    "training_partnership_development",
+    "transformation_associated_with_agent",
+    "transformation_basic",
+    "transformation_starts_at",
+    "transformation_subclass",
+    "transformation_with_input_dataset",
+    "transformation_with_output_dataset",
+    "two_disjoint_artifacts",
+    "universal_combined_with_existential"
+  ],
+  "tables": [
+    "t_annotation_classifies_class",
+    "t_anonymous_demographic_information",
+    "t_audit_basic",
+    "t_bpf_helper_called_by",
+    "t_carbon_credit_transaction",
+    "t_dempster_conflict_mass",
+    "t_functional_dependency_lhs",
+    "t_human_rights_impact_report",
+    "t_kernel_event_with_comm",
+    "t_material_density_specification",
+    "t_myxoid_degeneration_process",
+    "t_policy_effective_period",
+    "t_schemaorg_label_alignment",
+    "t_social_enterprise_annual_income",
+    "t_training_partnership_development",
+    "t_transformation_associated_with_agent",
+    "t_transformation_basic",
+    "t_transformation_starts_at",
+    "t_transformation_subclass",
+    "t_transformation_with_input_dataset",
+    "t_transformation_with_output_dataset",
+    "t_two_disjoint_artifacts",
+    "t_universal_combined_with_existential"
+  ],
+  "topics": [
+    54,
+    60,
+    61,
+    62,
+    83,
+    142
+  ],
+  "shared_tables": {
+    "annotation_classifies_class": [
+      4,
+      26,
+      66,
+      67,
+      102,
+      105,
+      186
+    ],
+    "anonymous_demographic_information": [
+      1,
+      2,
+      7,
+      10,
+      12,
+      23,
+      26,
+      74,
+      154,
+      186
+    ],
+    "audit_basic": [
+      3,
+      4,
+      23,
+      24,
+      26,
+      31,
+      94,
+      172
+    ],
+    "bpf_helper_called_by": [
+      0,
+      1,
+      34,
+      150,
+      155,
+      165,
+      183
+    ],
+    "carbon_credit_transaction": [
+      12,
+      23,
+      33,
+      58,
+      60,
+      61,
+      91,
+      181
+    ],
+    "dempster_conflict_mass": [
+      1,
+      47,
+      67,
+      83,
+      109
+    ],
+    "functional_dependency_lhs": [
+      7,
+      26,
+      42,
+      47,
+      97,
+      125,
+      139,
+      186
+    ],
+    "human_rights_impact_report": [
+      1,
+      4,
+      19,
+      58,
+      140,
+      146,
+      183
+    ],
+    "kernel_event_with_comm": [
+      19,
+      26,
+      83,
+      102,
+      168,
+      183
+    ],
+    "material_density_specification": [
+      0,
+      4,
+      79,
+      109,
+      155
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      12,
+      20,
+      24,
+      45,
+      46,
+      47
+    ],
+    "policy_effective_period": [
+      10,
+      26,
+      62,
+      92,
+      109,
+      128,
+      159,
+      186
+    ],
+    "schemaorg_label_alignment": [
+      0,
+      11,
+      45,
+      62
+    ],
+    "social_enterprise_annual_income": [
+      23,
+      26,
+      36,
+      46,
+      125
+    ],
+    "training_partnership_development": [
+      26,
+      36,
+      42,
+      44,
+      83,
+      183,
+      186
+    ],
+    "transformation_associated_with_agent": [
+      8,
+      38,
+      41,
+      45,
+      183,
+      186,
+      191,
+      195
+    ],
+    "transformation_basic": [
+      7,
+      42,
+      129,
+      138,
+      186
+    ],
+    "transformation_starts_at": [
+      31,
+      183,
+      186
+    ],
+    "transformation_subclass": [
+      2,
+      4,
+      56,
+      186,
+      191
+    ],
+    "transformation_with_input_dataset": [
+      1,
+      10,
+      36
+    ],
+    "transformation_with_output_dataset": [
+      12,
+      23,
+      25,
+      38
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      12,
+      24,
+      30,
+      42,
+      47,
+      61
+    ],
+    "universal_combined_with_existential": [
+      7,
+      23,
+      26,
+      34,
+      73,
+      81,
+      140,
+      158,
+      183,
+      186,
+      188
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_audit_basic_9cc0bc",
+      "family": "03_directive_governance",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "audit_basic",
+        "transformation_with_output_dataset",
+        "human_rights_impact_report"
+      ]
+    },
+    {
+      "id": "ch_live_carbon_credit_transaction_c5fb17",
+      "family": "08_derived",
+      "topics": [
+        54,
+        60,
+        62
+      ],
+      "cited_terms": [
+        "carbon_credit_transaction",
+        "schemaorg_label_alignment",
+        "transformation_with_input_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_functional_dependency_lhs_8bd8d1",
+      "family": "07_long_tail",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "functional_dependency_lhs",
+        "transformation_with_input_dataset",
+        "bpf_helper_called_by"
+      ]
+    },
+    {
+      "id": "ch_live_myxoid_degeneration_process_d313b8",
+      "family": "08_derived",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "myxoid_degeneration_process",
+        "transformation_with_input_dataset",
+        "social_enterprise_annual_income"
+      ]
+    },
+    {
+      "id": "ch_live_training_partnership_development_0c2155",
+      "family": "08_derived",
+      "topics": [
+        54
+      ],
+      "cited_terms": [
+        "training_partnership_development",
+        "transformation_associated_with_agent",
+        "transformation_basic"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_starts_at_1e2ecb",
+      "family": "05_provo_lineage",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "transformation_starts_at",
+        "transformation_subclass",
+        "transformation_with_input_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_with_input_dataset_191653",
+      "family": "05_provo_lineage",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "transformation_with_input_dataset",
+        "policy_effective_period",
+        "material_density_specification"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_with_output_dataset_3ad1da",
+      "family": "05_provo_lineage",
+      "topics": [
+        54,
+        60
+      ],
+      "cited_terms": [
+        "transformation_with_output_dataset",
+        "anonymous_demographic_information",
+        "annotation_classifies_class"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_with_output_dataset_456787",
+      "family": "05_provo_lineage",
+      "topics": [
+        54,
+        60,
+        83,
+        142
+      ],
+      "cited_terms": [
+        "transformation_with_output_dataset",
+        "dempster_conflict_mass",
+        "kernel_event_with_comm"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_with_output_dataset_f3cee7",
+      "family": "05_provo_lineage",
+      "topics": [
+        54,
+        60,
+        61
+      ],
+      "cited_terms": [
+        "transformation_with_output_dataset",
+        "two_disjoint_artifacts",
+        "universal_combined_with_existential"
+      ]
+    }
+  ]
+}

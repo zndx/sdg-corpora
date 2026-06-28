@@ -1,0 +1,820 @@
+{
+  "topic_id": 5,
+  "family": "03_directive_governance",
+  "n_chapters": 20,
+  "coverage_score": 0.25718429684638977,
+  "topic_repr": "Daily Comment\n\nBy Patrick Fearon-Hernandez, CFA, and Thomas Wash\n\nLooking for something to read? See our Reading List; these books, separated by category, are ones we find interesting and insightful. We will be adding to the list over time.\n\n[Posted: May 12, 2022\u20149:30 AM EDT] Global equity markets are mostly lower this morning. In Europe, the EuroStoxx 50 index is currently down 2.2% from its prio...",
+  "terms": [
+    "apolitical_islam",
+    "artifact_not_deprecated",
+    "census_reporting_event",
+    "claim_subclass",
+    "column_lineage_for_compliance_claim",
+    "column_pair_subject",
+    "constraint_with_violation_consequence",
+    "control_addresses_risk",
+    "control_at_severity",
+    "control_implements",
+    "dataset_snapshot_subclass",
+    "dengue_transmission_process",
+    "ebpf_event_writes_to_map",
+    "ebpfmap_pinned_at_path",
+    "entity_match_link",
+    "equiv_intersect_three",
+    "evidence_correlated_with",
+    "existential_with_part_of",
+    "frozen_artifact_governed_by",
+    "gauge_metric_subclass",
+    "information_dissemination_event",
+    "kernelhook_for_subsystem",
+    "lift_with_baseline_rate",
+    "measurement_produced_by_run",
+    "nist80053_control_subclass",
+    "outlier_claim_basic",
+    "outlier_claim_supported_by",
+    "policy_constrains_only_artifact",
+    "policy_subclass",
+    "primary_key_designation",
+    "profiling_with_method",
+    "provenance_agent_signs_audit",
+    "radicalization_process",
+    "salary_requirement",
+    "schema_migration_subclass",
+    "soc2_security_subclass",
+    "state_observed_at_time",
+    "strategic_planning_process",
+    "subclass_basic",
+    "syscall_only_in_kernel_subsystem",
+    "trace_has_resource",
+    "trace_subclass",
+    "trace_with_service_name"
+  ],
+  "tables": [
+    "t_apolitical_islam",
+    "t_artifact_not_deprecated",
+    "t_census_reporting_event",
+    "t_claim_subclass",
+    "t_column_lineage_for_compliance_claim",
+    "t_column_pair_subject",
+    "t_constraint_with_violation_consequence",
+    "t_control_addresses_risk",
+    "t_control_at_severity",
+    "t_control_implements",
+    "t_dataset_snapshot_subclass",
+    "t_dengue_transmission_process",
+    "t_ebpf_event_writes_to_map",
+    "t_ebpfmap_pinned_at_path",
+    "t_entity_match_link",
+    "t_equiv_intersect_three",
+    "t_evidence_correlated_with",
+    "t_existential_with_part_of",
+    "t_frozen_artifact_governed_by",
+    "t_gauge_metric_subclass",
+    "t_information_dissemination_event",
+    "t_kernelhook_for_subsystem",
+    "t_lift_with_baseline_rate",
+    "t_measurement_produced_by_run",
+    "t_nist80053_control_subclass",
+    "t_outlier_claim_basic",
+    "t_outlier_claim_supported_by",
+    "t_policy_constrains_only_artifact",
+    "t_policy_subclass",
+    "t_primary_key_designation",
+    "t_profiling_with_method",
+    "t_provenance_agent_signs_audit",
+    "t_radicalization_process",
+    "t_salary_requirement",
+    "t_schema_migration_subclass",
+    "t_soc2_security_subclass",
+    "t_state_observed_at_time",
+    "t_strategic_planning_process",
+    "t_subclass_basic",
+    "t_syscall_only_in_kernel_subsystem",
+    "t_trace_has_resource",
+    "t_trace_subclass",
+    "t_trace_with_service_name"
+  ],
+  "topics": [
+    5,
+    6,
+    12,
+    16,
+    19,
+    23,
+    33,
+    34,
+    37,
+    39,
+    44,
+    52,
+    56,
+    58,
+    64,
+    65,
+    79,
+    86,
+    89,
+    92,
+    120
+  ],
+  "shared_tables": {
+    "apolitical_islam": [
+      0,
+      12,
+      46,
+      73,
+      83,
+      119,
+      155,
+      158,
+      183,
+      185,
+      186
+    ],
+    "artifact_not_deprecated": [
+      4,
+      20,
+      35,
+      46,
+      56,
+      81,
+      91,
+      158,
+      181,
+      183
+    ],
+    "census_reporting_event": [
+      10,
+      11,
+      26,
+      33,
+      36,
+      65,
+      69,
+      79,
+      102,
+      183,
+      186
+    ],
+    "claim_subclass": [
+      10,
+      11,
+      20,
+      26,
+      56,
+      61,
+      69,
+      97,
+      100,
+      104,
+      186,
+      188
+    ],
+    "column_lineage_for_compliance_claim": [
+      41,
+      79
+    ],
+    "column_pair_subject": [
+      0,
+      4,
+      23,
+      45,
+      46,
+      47,
+      83,
+      154,
+      186
+    ],
+    "constraint_with_violation_consequence": [
+      23,
+      36,
+      38,
+      42,
+      45,
+      47,
+      61,
+      86
+    ],
+    "control_addresses_risk": [
+      34
+    ],
+    "control_at_severity": [
+      0,
+      42,
+      47,
+      65,
+      183,
+      186
+    ],
+    "control_implements": [
+      4,
+      26,
+      34,
+      45,
+      65,
+      90,
+      97,
+      107,
+      183,
+      186
+    ],
+    "dataset_snapshot_subclass": [
+      17,
+      26,
+      30,
+      46,
+      80,
+      123,
+      138,
+      168,
+      183,
+      186
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      12,
+      26,
+      47,
+      66,
+      83,
+      181,
+      183
+    ],
+    "ebpf_event_writes_to_map": [
+      23,
+      34,
+      61,
+      65
+    ],
+    "ebpfmap_pinned_at_path": [
+      7,
+      8,
+      23
+    ],
+    "entity_match_link": [
+      2,
+      3,
+      23,
+      26,
+      60,
+      66,
+      81,
+      140,
+      161,
+      172,
+      186
+    ],
+    "equiv_intersect_three": [
+      0,
+      4,
+      128,
+      186
+    ],
+    "evidence_correlated_with": [
+      117,
+      187
+    ],
+    "existential_with_part_of": [
+      7,
+      26,
+      36,
+      61,
+      67,
+      69,
+      109,
+      186
+    ],
+    "frozen_artifact_governed_by": [
+      12,
+      23
+    ],
+    "gauge_metric_subclass": [
+      26,
+      34,
+      35,
+      44,
+      80,
+      81,
+      86,
+      123,
+      186
+    ],
+    "information_dissemination_event": [
+      25,
+      26,
+      34,
+      47,
+      69,
+      159,
+      168,
+      186
+    ],
+    "kernelhook_for_subsystem": [
+      7,
+      10,
+      19,
+      24,
+      61,
+      65,
+      100,
+      111,
+      188
+    ],
+    "lift_with_baseline_rate": [
+      89
+    ],
+    "measurement_produced_by_run": [
+      161
+    ],
+    "nist80053_control_subclass": [
+      14,
+      26,
+      80,
+      138,
+      188
+    ],
+    "outlier_claim_basic": [
+      120
+    ],
+    "outlier_claim_supported_by": [
+      23,
+      26,
+      39,
+      60,
+      67,
+      79,
+      81,
+      97,
+      183,
+      186
+    ],
+    "policy_constrains_only_artifact": [
+      26,
+      46,
+      62,
+      83,
+      100,
+      109,
+      125,
+      135,
+      186
+    ],
+    "policy_subclass": [
+      1,
+      26,
+      34,
+      35,
+      41,
+      60,
+      67,
+      183,
+      186
+    ],
+    "primary_key_designation": [
+      0,
+      7,
+      26,
+      46,
+      149,
+      183,
+      186
+    ],
+    "profiling_with_method": [
+      4,
+      26,
+      47,
+      86,
+      106,
+      139,
+      168,
+      180,
+      186
+    ],
+    "provenance_agent_signs_audit": [
+      12,
+      42,
+      168
+    ],
+    "radicalization_process": [
+      1,
+      7,
+      26,
+      40,
+      65,
+      67,
+      83,
+      109,
+      128,
+      136,
+      186
+    ],
+    "salary_requirement": [
+      35,
+      183,
+      186
+    ],
+    "schema_migration_subclass": [
+      47,
+      56
+    ],
+    "soc2_security_subclass": [
+      0,
+      26,
+      34,
+      46,
+      49,
+      129,
+      165,
+      183,
+      186
+    ],
+    "state_observed_at_time": [
+      26,
+      33,
+      46,
+      72,
+      86,
+      97,
+      100,
+      138,
+      183
+    ],
+    "strategic_planning_process": [
+      26,
+      34,
+      44,
+      67,
+      97,
+      106,
+      183,
+      186,
+      191
+    ],
+    "subclass_basic": [
+      34,
+      35,
+      47,
+      68,
+      81,
+      86,
+      91,
+      128,
+      161,
+      183,
+      185,
+      186
+    ],
+    "syscall_only_in_kernel_subsystem": [
+      38,
+      61,
+      65,
+      106
+    ],
+    "trace_has_resource": [
+      1,
+      6,
+      46,
+      65,
+      100,
+      186
+    ],
+    "trace_subclass": [
+      11,
+      26,
+      60,
+      94,
+      109,
+      186
+    ],
+    "trace_with_service_name": [
+      26,
+      83,
+      102,
+      107,
+      138,
+      155,
+      183
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_artifact_not_deprecated_22dc55",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        6,
+        16,
+        33,
+        34
+      ],
+      "cited_terms": [
+        "artifact_not_deprecated",
+        "control_addresses_risk",
+        "outlier_claim_supported_by"
+      ]
+    },
+    {
+      "id": "ch_live_claim_subclass_444458",
+      "family": "06_belief_structure",
+      "topics": [
+        5,
+        19,
+        39,
+        120
+      ],
+      "cited_terms": [
+        "claim_subclass",
+        "trace_has_resource",
+        "outlier_claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_constraint_with_violation_consequence_594e2a",
+      "family": "01_foundation",
+      "topics": [
+        5,
+        6,
+        16,
+        33,
+        34
+      ],
+      "cited_terms": [
+        "constraint_with_violation_consequence",
+        "control_addresses_risk",
+        "control_at_severity"
+      ]
+    },
+    {
+      "id": "ch_live_control_addresses_risk_ade1d0",
+      "family": "03_directive_governance",
+      "topics": [
+        5,
+        6,
+        16,
+        33,
+        34
+      ],
+      "cited_terms": [
+        "control_addresses_risk",
+        "information_dissemination_event",
+        "dataset_snapshot_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_dengue_transmission_process_4cf9db",
+      "family": "08_derived",
+      "topics": [
+        5,
+        12,
+        37,
+        86,
+        92
+      ],
+      "cited_terms": [
+        "dengue_transmission_process",
+        "salary_requirement",
+        "evidence_correlated_with"
+      ]
+    },
+    {
+      "id": "ch_live_ebpf_event_writes_to_map_5d3f99",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        65
+      ],
+      "cited_terms": [
+        "ebpf_event_writes_to_map",
+        "census_reporting_event",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_correlated_with_2347b4",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        12,
+        37,
+        86,
+        92
+      ],
+      "cited_terms": [
+        "evidence_correlated_with",
+        "measurement_produced_by_run",
+        "entity_match_link"
+      ]
+    },
+    {
+      "id": "ch_live_evidence_correlated_with_d14221",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        12,
+        37,
+        86,
+        92
+      ],
+      "cited_terms": [
+        "evidence_correlated_with",
+        "state_observed_at_time",
+        "policy_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_gauge_metric_subclass_982f51",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        12,
+        37,
+        86,
+        92
+      ],
+      "cited_terms": [
+        "gauge_metric_subclass",
+        "evidence_correlated_with",
+        "trace_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_kernelhook_for_subsystem_3eb2c3",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        89
+      ],
+      "cited_terms": [
+        "kernelhook_for_subsystem",
+        "lift_with_baseline_rate",
+        "column_pair_subject"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_baseline_rate_722a0c",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        65
+      ],
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "syscall_only_in_kernel_subsystem",
+        "primary_key_designation"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_baseline_rate_d0002e",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        79
+      ],
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "nist80053_control_subclass",
+        "column_lineage_for_compliance_claim"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_baseline_rate_deca48",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        89
+      ],
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "existential_with_part_of",
+        "profiling_with_method"
+      ]
+    },
+    {
+      "id": "ch_live_lift_with_baseline_rate_f9f957",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        23,
+        44,
+        52,
+        58
+      ],
+      "cited_terms": [
+        "lift_with_baseline_rate",
+        "ebpfmap_pinned_at_path",
+        "control_implements"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_basic_9055b9",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        19,
+        39,
+        120
+      ],
+      "cited_terms": [
+        "outlier_claim_basic",
+        "policy_constrains_only_artifact",
+        "trace_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_basic_f0cc62",
+      "family": "02_observation_measurement",
+      "topics": [
+        5,
+        19,
+        39,
+        56,
+        120
+      ],
+      "cited_terms": [
+        "outlier_claim_basic",
+        "equiv_intersect_three",
+        "schema_migration_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_provenance_agent_signs_audit_7a2450",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        23,
+        52,
+        58,
+        64
+      ],
+      "cited_terms": [
+        "provenance_agent_signs_audit",
+        "frozen_artifact_governed_by",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "ch_live_radicalization_process_3812c2",
+      "family": "08_derived",
+      "topics": [
+        5,
+        12,
+        37,
+        86,
+        92
+      ],
+      "cited_terms": [
+        "radicalization_process",
+        "subclass_basic",
+        "evidence_correlated_with"
+      ]
+    },
+    {
+      "id": "ch_live_strategic_planning_process_6f9276",
+      "family": "08_derived",
+      "topics": [
+        5,
+        52,
+        58,
+        64,
+        89
+      ],
+      "cited_terms": [
+        "strategic_planning_process",
+        "soc2_security_subclass",
+        "lift_with_baseline_rate"
+      ]
+    },
+    {
+      "id": "ch_live_trace_with_service_name_9e9978",
+      "family": "07_long_tail",
+      "topics": [
+        5,
+        6,
+        16,
+        33,
+        34
+      ],
+      "cited_terms": [
+        "trace_with_service_name",
+        "control_addresses_risk",
+        "apolitical_islam"
+      ]
+    }
+  ]
+}

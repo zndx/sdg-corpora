@@ -1,206 +1,395 @@
 {
   "topic_id": 128,
   "family": "03_directive_governance",
-  "n_chapters": 8,
-  "coverage_score": 0.21847665309906006,
+  "n_chapters": 10,
+  "coverage_score": 0.21693968772888184,
   "topic_repr": "EESTI MAJANDUSPOLIITILISED V\u00c4ITLUSED\nArtiklid (CD-ROM)\nKokkuv\u00f5tted\nKroonika\n\nESTNISCHE GESPR\u00c4CHE \u00dcBER WIRTSCHAFTSPOLITIK\nBeitr\u00e4ge (CD-ROM)\nZusammenfassungen\nChronik\n\nDISCUSSIONS ON ESTONIAN ECONOMIC POLICY\nArticles (CD-ROM)\nSummaries\nChronicle\n\nXVIII\n2010\n\nEesti majanduspoliitilised v\u00e4itlused / Estnische Gespr\u00e4che \u00fcber Wirtschaftspolitik / Discussions on Estonian Economic Policy\nAsutatud aastal 19...",
   "terms": [
-    "designative_subclass_basic",
-    "policy_with_review_cycle",
-    "requirement_has_priority",
-    "subclass_to_designative_ice",
-    "verification_min_one_evidence"
+    "artifact_max_one_owner",
+    "artifact_not_revoked",
+    "belief_interval_subclass",
+    "claim_basic",
+    "conceptual_construction_process",
+    "constraint_subclass",
+    "ebpfmap_exactly_one_type",
+    "ebpfmap_with_value_type",
+    "equiv_intersect_three",
+    "home_electricity_reduction_program",
+    "institutional_vision_statement",
+    "log_with_resource_attribute",
+    "ontology_class_match",
+    "policy_authored_by",
+    "policy_effective_period",
+    "policy_enforced_by",
+    "policy_equiv_jurisdiction_and_scope",
+    "qualification_process",
+    "radicalization_process",
+    "subclass_basic",
+    "syscall_with_return_type"
   ],
   "tables": [
-    "t_designative_subclass_basic",
-    "t_policy_with_review_cycle",
-    "t_requirement_has_priority",
-    "t_subclass_to_designative_ice",
-    "t_verification_min_one_evidence"
+    "t_artifact_max_one_owner",
+    "t_artifact_not_revoked",
+    "t_belief_interval_subclass",
+    "t_claim_basic",
+    "t_conceptual_construction_process",
+    "t_constraint_subclass",
+    "t_ebpfmap_exactly_one_type",
+    "t_ebpfmap_with_value_type",
+    "t_equiv_intersect_three",
+    "t_home_electricity_reduction_program",
+    "t_institutional_vision_statement",
+    "t_log_with_resource_attribute",
+    "t_ontology_class_match",
+    "t_policy_authored_by",
+    "t_policy_effective_period",
+    "t_policy_enforced_by",
+    "t_policy_equiv_jurisdiction_and_scope",
+    "t_qualification_process",
+    "t_radicalization_process",
+    "t_subclass_basic",
+    "t_syscall_with_return_type"
   ],
   "topics": [
-    2,
-    16,
-    21,
-    32,
-    85,
-    94,
-    99,
-    109,
-    110,
-    128,
-    130,
-    143,
-    155,
-    159,
-    185,
-    187
+    128
   ],
   "shared_tables": {
-    "designative_subclass_basic": [
-      6,
-      56,
-      101
-    ],
-    "requirement_has_priority": [
-      21,
-      85,
-      101,
-      113,
-      129,
-      196
-    ],
-    "subclass_to_designative_ice": [
-      6,
-      56,
-      101
-    ],
-    "verification_min_one_evidence": [
+    "artifact_max_one_owner": [
       1,
+      26,
+      46,
+      60,
+      166,
+      183,
+      186
+    ],
+    "artifact_not_revoked": [
+      2,
+      21,
+      26,
+      44,
+      61,
+      72,
+      180,
+      181
+    ],
+    "belief_interval_subclass": [
+      2,
       7,
-      28,
-      38,
+      23,
+      46,
+      66,
+      79,
+      90,
+      109,
+      183,
+      186
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      105,
+      135,
+      136,
+      159,
+      161,
+      168,
+      181,
+      183,
+      186
+    ],
+    "conceptual_construction_process": [
+      46,
+      49,
+      62,
+      155,
+      186
+    ],
+    "constraint_subclass": [
+      26,
+      92,
+      100,
+      119,
+      186
+    ],
+    "ebpfmap_exactly_one_type": [
+      4,
+      7,
+      44,
+      45,
+      100,
+      186
+    ],
+    "ebpfmap_with_value_type": [
+      4,
+      26,
+      83,
+      183,
+      186
+    ],
+    "equiv_intersect_three": [
+      0,
+      4,
+      5,
+      186
+    ],
+    "home_electricity_reduction_program": [
+      23,
+      26,
+      33,
+      60,
+      61,
+      183,
+      186
+    ],
+    "institutional_vision_statement": [
+      4,
+      8,
+      19,
+      26,
+      35,
+      67,
+      100,
+      107,
+      140,
+      159,
+      165,
+      186
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      107,
+      163,
+      168,
+      180,
+      181,
+      183
+    ],
+    "ontology_class_match": [
+      4,
+      35,
       40,
-      57,
+      86,
+      109,
+      120,
+      168,
+      183,
+      186
+    ],
+    "policy_authored_by": [
+      1,
+      6,
+      23,
+      35,
+      111,
+      120,
+      135,
+      155,
+      158,
+      183
+    ],
+    "policy_effective_period": [
+      10,
+      26,
+      54,
+      62,
+      92,
+      109,
+      159,
+      186
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      161,
+      181,
+      185,
+      188
+    ],
+    "policy_equiv_jurisdiction_and_scope": [
+      10,
+      23,
+      92
+    ],
+    "qualification_process": [
+      7,
+      26,
+      30,
+      125,
+      186,
+      191
+    ],
+    "radicalization_process": [
+      1,
+      5,
+      7,
+      26,
+      40,
+      65,
+      67,
+      83,
+      109,
+      136,
+      186
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
       68,
-      76,
       81,
-      82,
-      95,
-      127,
-      129,
-      171,
-      176,
-      187
+      86,
+      91,
+      161,
+      183,
+      185,
+      186
+    ],
+    "syscall_with_return_type": [
+      1,
+      24,
+      44,
+      46,
+      61,
+      125,
+      135,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "2d05481cda07d5f1",
-      "family": "03_directive_governance",
+      "id": "ch_live_equiv_intersect_three_8e20c6",
+      "family": "01_foundation",
       "topics": [
-        85,
-        110,
         128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "equiv_intersect_three",
+        "artifact_max_one_owner",
+        "policy_equiv_jurisdiction_and_scope"
       ]
     },
     {
-      "id": "381e57cd9efec5b2",
-      "family": "03_directive_governance",
+      "id": "ch_live_home_electricity_reduction_program_a66ac8",
+      "family": "08_derived",
       "topics": [
-        2,
-        16,
         128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "home_electricity_reduction_program",
+        "policy_equiv_jurisdiction_and_scope",
+        "radicalization_process"
       ]
     },
     {
-      "id": "44bcd9fb5d3a2dfb",
-      "family": "03_directive_governance",
+      "id": "ch_live_ontology_class_match_48bef6",
+      "family": "07_long_tail",
       "topics": [
-        94,
-        99,
         128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "ontology_class_match",
+        "artifact_not_revoked",
+        "policy_equiv_jurisdiction_and_scope"
       ]
     },
     {
-      "id": "993d9c8d9ee99c19",
-      "family": "03_directive_governance",
+      "id": "ch_live_policy_authored_by_b5e38f",
+      "family": "01_foundation",
       "topics": [
-        128,
-        130,
-        143
+        128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "policy_authored_by",
+        "ebpfmap_with_value_type",
+        "policy_equiv_jurisdiction_and_scope"
       ]
     },
     {
-      "id": "c1ff28db0fbb6908",
-      "family": "03_directive_governance",
+      "id": "ch_live_policy_effective_period_24e25d",
+      "family": "01_foundation",
       "topics": [
-        109,
-        128,
-        187
+        128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "policy_effective_period",
+        "policy_enforced_by",
+        "policy_equiv_jurisdiction_and_scope"
       ]
     },
     {
-      "id": "c919b4c621d7d920",
+      "id": "ch_live_policy_equiv_jurisdiction_and_scope_214d01",
       "family": "03_directive_governance",
       "topics": [
-        32,
-        128,
-        185
+        128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "policy_equiv_jurisdiction_and_scope",
+        "belief_interval_subclass",
+        "constraint_subclass"
       ]
     },
     {
-      "id": "ebf931f30c4d9f55",
+      "id": "ch_live_policy_equiv_jurisdiction_and_scope_583c9c",
       "family": "03_directive_governance",
       "topics": [
-        21,
-        128,
-        159
+        128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "policy_equiv_jurisdiction_and_scope",
+        "claim_basic",
+        "conceptual_construction_process"
       ]
     },
     {
-      "id": "ff211f7947c242b9",
+      "id": "ch_live_policy_equiv_jurisdiction_and_scope_6571f8",
       "family": "03_directive_governance",
       "topics": [
-        16,
-        128,
-        155
+        128
       ],
       "cited_terms": [
-        "policy_with_review_cycle",
-        "designative_subclass_basic",
-        "verification_min_one_evidence",
-        "subclass_to_designative_ice",
-        "requirement_has_priority"
+        "policy_equiv_jurisdiction_and_scope",
+        "ebpfmap_exactly_one_type",
+        "institutional_vision_statement"
+      ]
+    },
+    {
+      "id": "ch_live_policy_equiv_jurisdiction_and_scope_6cb549",
+      "family": "03_directive_governance",
+      "topics": [
+        128
+      ],
+      "cited_terms": [
+        "policy_equiv_jurisdiction_and_scope",
+        "syscall_with_return_type",
+        "log_with_resource_attribute"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_basic_abd2d6",
+      "family": "01_foundation",
+      "topics": [
+        128
+      ],
+      "cited_terms": [
+        "subclass_basic",
+        "qualification_process",
+        "policy_equiv_jurisdiction_and_scope"
       ]
     }
   ]

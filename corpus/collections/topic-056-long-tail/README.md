@@ -1,41 +1,80 @@
 # Collection — topic 56 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **29 topics** (target + style) · **4 ontology terms** · **4 underlying tables**.
+FinePDFs-grounded topic (carried forward from the coverage audit). **12 chapters** · **4 topics** (target + style) · **25 ontology terms** · **25 underlying tables**.
 
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 56: topic 4, topic 20, topic 72, topic 78, topic 82, topic 90, topic 97, topic 107, topic 108, topic 111, topic 117, topic 119, topic 126, topic 128, topic 135, topic 142, topic 146, topic 151, topic 153, topic 154, topic 157, topic 170, topic 173, topic 179, topic 181, topic 185, topic 188, topic 199.
+**Topics (many-to-many).** The documents draw on, beyond the anchor topic 56: topic 136, topic 163, topic 166.
 
 > **Topic gist** (representative FinePDFs text): 2020-21 Surgery Rese arch Residents Surgery W e are proud to present this year's new research residents. Research is a key component of the UW Department of Surgery's residency programs and these residents have each "paused" their clinical training in order to complete a two-year research fellowship. Our research residents, along with their clinical peers who work hard to find time to participat.. …
 
 ## Chapters
 
-- [Chapter 4: Governance Verification and Evidence Management Frameworks](chapters/0a56d14e52df46c2.md)
-- [Chapter 4: Ontological Foundations of Audit Evidence and Verification Processes](chapters/2a2498047bd619af.md)
-- [Chapter 4: Governance Frameworks and the Ontology of Audit Evidence](chapters/2d2b4cdb7591972c.md)
-- [Chapter 4: Governance Frameworks for Verification and Attestation Protocols](chapters/2d469f31030e1740.md)
-- [Chapter 4: Formal Ontology of Verification and Attestation in Governance Frameworks](chapters/4588a5705d043b9a.md)
-- [Chapter 4: Ontological Structures in Governance and Evidence Management](chapters/56130a1b42217bac.md)
-- [Chapter 4: Ontological Foundations of Audit Evidence and Verification](chapters/81e27c1dd51f9aca.md)
-- [Chapter 4: Designative Information Content Entities in Attestation and Verification Processes](chapters/89c8fc3f9bdfe3d7.md)
-- [Chapter 4: Evidence Verification and Attestation in Regulatory Compliance Frameworks](chapters/9365a5b395cabad5.md)
-- [Chapter 4: Ontological Foundations for Audit Evidence and Verification](chapters/99c6876c8f86d929.md)
-- [Audit Trail Representation Using Designative Information Content Entities](chapters/a40c56147630ddec.md)
-- [Chapter 7: Ontological Foundations of Audit Evidence and Attestation](chapters/c04a935812e1d7c8.md)
-- [Chapter 4: Ontological Structures for Governance and Evidence Verification](chapters/da47e78bd60bb7ba.md)
-- [Evidence Structures in Certification Processes](chapters/e2b58a86d1459254.md)
-- [Chapter 4: Evidence Management and Verification Protocols in Governance Frameworks](chapters/fe7d9c44252bc4c3.md)
+- [ch_live_annotation_governed_by_classification_policy_5f374e](chapters/ch_live_annotation_governed_by_classification_policy_5f374e.md)
+- [ch_live_artifact_not_deprecated_49ec22](chapters/ch_live_artifact_not_deprecated_49ec22.md)
+- [ch_live_profile_has_null_rate_1f1bae](chapters/ch_live_profile_has_null_rate_1f1bae.md)
+- [ch_live_reference_within_dataset_9ec0e3](chapters/ch_live_reference_within_dataset_9ec0e3.md)
+- [ch_live_sample_subclass_9f9654](chapters/ch_live_sample_subclass_9f9654.md)
+- [ch_live_schema_migration_subclass_46b55d](chapters/ch_live_schema_migration_subclass_46b55d.md)
+- [ch_live_schema_migration_subclass_8325db](chapters/ch_live_schema_migration_subclass_8325db.md)
+- [ch_live_schema_migration_subclass_bfc97c](chapters/ch_live_schema_migration_subclass_bfc97c.md)
+- [ch_live_schemaorg_product_sku_880332](chapters/ch_live_schemaorg_product_sku_880332.md)
+- [ch_live_schemaorg_review_author_11c2b8](chapters/ch_live_schemaorg_review_author_11c2b8.md)
+- [ch_live_schemaorg_review_author_e3059c](chapters/ch_live_schemaorg_review_author_e3059c.md)
+- [ch_live_sysblock_subclass_1c3d97](chapters/ch_live_sysblock_subclass_1c3d97.md)
 
 ## Ontology terms grounding this collection
 
-- `attestation_with_supporting_evidence` — {X} is a process that with supporting evidence {Y}
-- `designative_subclass_basic` — {X} is a designative information content entity
-- `subclass_to_designative_ice` — {X} is a designative information content entity
-- `verification_produces_evidence` — {X} is a process that produces evidence {Y}
+- `annotation_governed_by_classification_policy` — {X} is a descriptive information content entity that governed by directive information content entity
+- `artifact_not_deprecated` — {X} is not {Y}
+- `attestation_subclass` — {X} is a process that attests to control directive information content entity
+- `attribute_set_min_one` — {X} is a descriptive information content entity
+- `cgroup_skb_subclass` — {X} is an artifact that attaches to cgroup {Y}
+- `claim_subclass` — {X} is a descriptive information content entity that claim about {Y}
+- `claim_with_belief_interval` — {X} is a descriptive information content entity that has belief interval {Y}
+- `constraint_check_subclass` — {X} is a directive information content entity that checks {Y}
+- `dempster_combinant_second` — {X} is a descriptive information content entity that has second combinant {Y}
+- `directive_not_superseded` — {X} is not {Y}
+- `log_with_resource_attribute` — {X} is an artifact that has resource attribute {Y}
+- `pdsa_improvement_model` — A PDSAImprovementModel is a Process that improves some ClinicalCare and optimizes some PatientOutcome.
+- `port_isolation_measurement` — A PortIsolationMeasurement is an InformationContentEntity that measures a PortPair, depends on an ImpedanceTermination, 
+- `profile_has_null_rate` — {X} is a descriptive information content entity that has null rate {Y}
+- `program_with_entry_exactly_one` — {X} is an artifact
+- `reference_within_dataset` — {X} is a designative information content entity that points to {Y}
+- `sample_subclass` — {X} is an artifact that collected from {Y}
+- `schema_evolution_under_directive` — {X} is a descriptive information content entity that governed by directive information content entity
+- `schema_migration_subclass` — {X} is a process that migrates schema to {Y}
+- `schemaorg_product_sku` — {X} is an artifact that has sku {Y}
+- `schemaorg_review_author` — {X} is an artifact that has review author {Y}
+- `schemaorg_review_rating` — {X} is an artifact that has review rating {Y}
+- `sysblock_subclass` — {X} is an artifact that has part {Y}
+- `transformation_subclass` — {X} is a process that uses entity {Y}
+- `xdp_action_pass` — {X} is an artifact that has xdpaction {Y}
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_attestation_with_supporting_evidence`](tables/t_attestation_with_supporting_evidence.sql) — realizes `attestation_with_supporting_evidence` · _shared with 34 other collection(s)_
-- [`t_designative_subclass_basic`](tables/t_designative_subclass_basic.sql) — realizes `designative_subclass_basic` · _shared with 3 other collection(s)_
-- [`t_subclass_to_designative_ice`](tables/t_subclass_to_designative_ice.sql) — realizes `subclass_to_designative_ice` · _shared with 3 other collection(s)_
-- [`t_verification_produces_evidence`](tables/t_verification_produces_evidence.sql) — realizes `verification_produces_evidence` · _shared with 14 other collection(s)_
+- [`t_annotation_governed_by_classification_policy`](tables/t_annotation_governed_by_classification_policy.sql) — realizes `annotation_governed_by_classification_policy` · _shared with 5 other collection(s)_
+- [`t_artifact_not_deprecated`](tables/t_artifact_not_deprecated.sql) — realizes `artifact_not_deprecated` · _shared with 10 other collection(s)_
+- [`t_attestation_subclass`](tables/t_attestation_subclass.sql) — realizes `attestation_subclass` · _shared with 6 other collection(s)_
+- [`t_attribute_set_min_one`](tables/t_attribute_set_min_one.sql) — realizes `attribute_set_min_one` · _shared with 7 other collection(s)_
+- [`t_cgroup_skb_subclass`](tables/t_cgroup_skb_subclass.sql) — realizes `cgroup_skb_subclass` · _shared with 6 other collection(s)_
+- [`t_claim_subclass`](tables/t_claim_subclass.sql) — realizes `claim_subclass` · _shared with 12 other collection(s)_
+- [`t_claim_with_belief_interval`](tables/t_claim_with_belief_interval.sql) — realizes `claim_with_belief_interval` · _shared with 6 other collection(s)_
+- [`t_constraint_check_subclass`](tables/t_constraint_check_subclass.sql) — realizes `constraint_check_subclass` · _shared with 12 other collection(s)_
+- [`t_dempster_combinant_second`](tables/t_dempster_combinant_second.sql) — realizes `dempster_combinant_second` · _shared with 7 other collection(s)_
+- [`t_directive_not_superseded`](tables/t_directive_not_superseded.sql) — realizes `directive_not_superseded` · _shared with 4 other collection(s)_
+- [`t_log_with_resource_attribute`](tables/t_log_with_resource_attribute.sql) — realizes `log_with_resource_attribute` · _shared with 10 other collection(s)_
+- [`t_pdsa_improvement_model`](tables/t_pdsa_improvement_model.sql) — realizes `pdsa_improvement_model` · _shared with 10 other collection(s)_
+- [`t_port_isolation_measurement`](tables/t_port_isolation_measurement.sql) — realizes `port_isolation_measurement` · _shared with 5 other collection(s)_
+- [`t_profile_has_null_rate`](tables/t_profile_has_null_rate.sql) — realizes `profile_has_null_rate` · _shared with 8 other collection(s)_
+- [`t_program_with_entry_exactly_one`](tables/t_program_with_entry_exactly_one.sql) — realizes `program_with_entry_exactly_one` · _shared with 10 other collection(s)_
+- [`t_reference_within_dataset`](tables/t_reference_within_dataset.sql) — realizes `reference_within_dataset` · _shared with 8 other collection(s)_
+- [`t_sample_subclass`](tables/t_sample_subclass.sql) — realizes `sample_subclass` · _shared with 5 other collection(s)_
+- [`t_schema_evolution_under_directive`](tables/t_schema_evolution_under_directive.sql) — realizes `schema_evolution_under_directive` · _shared with 4 other collection(s)_
+- [`t_schema_migration_subclass`](tables/t_schema_migration_subclass.sql) — realizes `schema_migration_subclass` · _shared with 2 other collection(s)_
+- [`t_schemaorg_product_sku`](tables/t_schemaorg_product_sku.sql) — realizes `schemaorg_product_sku` · _shared with 6 other collection(s)_
+- [`t_schemaorg_review_author`](tables/t_schemaorg_review_author.sql) — realizes `schemaorg_review_author` · _shared with 4 other collection(s)_
+- [`t_schemaorg_review_rating`](tables/t_schemaorg_review_rating.sql) — realizes `schemaorg_review_rating` · _shared with 6 other collection(s)_
+- [`t_sysblock_subclass`](tables/t_sysblock_subclass.sql) — realizes `sysblock_subclass` · _shared with 6 other collection(s)_
+- [`t_transformation_subclass`](tables/t_transformation_subclass.sql) — realizes `transformation_subclass` · _shared with 5 other collection(s)_
+- [`t_xdp_action_pass`](tables/t_xdp_action_pass.sql) — realizes `xdp_action_pass` · _shared with 8 other collection(s)_

@@ -1,187 +1,136 @@
 {
   "topic_id": 190,
   "family": "03_directive_governance",
-  "n_chapters": 5,
-  "coverage_score": 0.2556266188621521,
+  "n_chapters": 3,
+  "coverage_score": 0.26698431372642517,
   "topic_repr": "crop protection crop protection monthly\n\ninternational news, comments, features international news, comments, features international news, comments, features and conference reports and conference reports and conference reports\n\nApril 2017\n\nCrop Protection European Regulatory Conference\n\n15 th -16 th March 2017\n\nCONTENTS\n\nCrop Protection European Regulatory Conference\n\nThe 4th Crop Protection Europ...",
   "terms": [
-    "attestation_min_one_signer",
-    "attestation_signed_by",
-    "column_lineage_for_compliance_claim",
-    "kernel_anomaly_supports_claim",
-    "trace_supports_claim"
+    "cardinality_exactly_one_generic",
+    "conjunctive_combination",
+    "crop_parasitism_impact",
+    "ebpfmap_equiv_kv_typed",
+    "ebpfprogram_observes_syscall",
+    "observation_precedes_other",
+    "schemaorg_product_sku"
   ],
   "tables": [
-    "t_attestation_min_one_signer",
-    "t_attestation_signed_by",
-    "t_column_lineage_for_compliance_claim",
-    "t_kernel_anomaly_supports_claim",
-    "t_trace_supports_claim"
+    "t_cardinality_exactly_one_generic",
+    "t_conjunctive_combination",
+    "t_crop_parasitism_impact",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_ebpfprogram_observes_syscall",
+    "t_observation_precedes_other",
+    "t_schemaorg_product_sku"
   ],
   "topics": [
-    20,
-    26,
-    31,
-    35,
-    80,
-    121,
-    166,
-    181,
-    190,
-    196,
-    198
+    190
   ],
   "shared_tables": {
-    "attestation_min_one_signer": [
+    "cardinality_exactly_one_generic": [
+      11,
+      26,
+      33,
+      40,
+      106,
+      161,
+      163,
+      172,
+      184,
+      186
+    ],
+    "conjunctive_combination": [
+      3,
+      6,
+      25,
+      26,
+      40,
+      65,
+      159,
+      183,
+      184,
+      186
+    ],
+    "crop_parasitism_impact": [
+      23,
+      24,
+      25,
+      46,
+      47,
+      90,
+      106,
+      125,
+      187
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      21,
+      24,
+      34,
+      45,
+      105,
+      181,
+      184,
+      186
+    ],
+    "ebpfprogram_observes_syscall": [
+      10,
+      26,
+      83,
+      168
+    ],
+    "observation_precedes_other": [
+      4,
+      26,
+      42,
+      60,
+      123,
+      143,
+      183,
+      186
+    ],
+    "schemaorg_product_sku": [
       1,
       4,
-      28,
-      43,
-      57,
-      65,
-      68,
-      75,
-      76,
-      95,
-      127,
-      150,
-      171,
-      176,
-      187,
-      198
-    ],
-    "attestation_signed_by": [
-      2,
-      4,
-      5,
       26,
-      28,
-      30,
-      37,
-      43,
-      65,
-      70,
-      73,
-      75,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      150,
-      163,
-      165
-    ],
-    "column_lineage_for_compliance_claim": [
-      30,
-      94,
-      115,
-      130,
-      133
-    ],
-    "kernel_anomaly_supports_claim": [
-      30,
-      94,
-      115,
-      130,
-      133
-    ],
-    "trace_supports_claim": [
-      30,
-      49,
-      65,
-      78,
-      94,
-      99,
-      108,
-      115,
-      130,
-      133,
-      154,
-      165,
-      185
+      56,
+      62,
+      123
     ]
   },
   "chapters": [
     {
-      "id": "601959f4f1499ad4",
-      "family": "07_long_tail",
+      "id": "ch_live_crop_parasitism_impact_9617f3",
+      "family": "08_derived",
       "topics": [
-        121,
-        190,
-        198
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "column_lineage_for_compliance_claim",
-        "attestation_min_one_signer",
-        "kernel_anomaly_supports_claim"
-      ]
-    },
-    {
-      "id": "858e56e9efc24f10",
-      "family": "07_long_tail",
-      "topics": [
-        35,
-        80,
         190
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "column_lineage_for_compliance_claim",
-        "attestation_min_one_signer",
-        "kernel_anomaly_supports_claim"
+        "crop_parasitism_impact",
+        "conjunctive_combination",
+        "schemaorg_product_sku"
       ]
     },
     {
-      "id": "df7b11f573b09066",
-      "family": "07_long_tail",
+      "id": "ch_live_crop_parasitism_impact_b77a0e",
+      "family": "08_derived",
       "topics": [
-        20,
-        190,
-        196
-      ],
-      "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "column_lineage_for_compliance_claim",
-        "attestation_min_one_signer",
-        "kernel_anomaly_supports_claim"
-      ]
-    },
-    {
-      "id": "f4bbf3b09e72aad2",
-      "family": "07_long_tail",
-      "topics": [
-        26,
-        181,
         190
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "column_lineage_for_compliance_claim",
-        "attestation_min_one_signer",
-        "kernel_anomaly_supports_claim"
+        "crop_parasitism_impact",
+        "ebpfprogram_observes_syscall",
+        "ebpfmap_equiv_kv_typed"
       ]
     },
     {
-      "id": "fe90de6e9990e26b",
-      "family": "07_long_tail",
+      "id": "ch_live_crop_parasitism_impact_d25943",
+      "family": "08_derived",
       "topics": [
-        31,
-        166,
         190
       ],
       "cited_terms": [
-        "trace_supports_claim",
-        "attestation_signed_by",
-        "column_lineage_for_compliance_claim",
-        "attestation_min_one_signer",
-        "kernel_anomaly_supports_claim"
+        "crop_parasitism_impact",
+        "observation_precedes_other",
+        "cardinality_exactly_one_generic"
       ]
     }
   ]

@@ -1,314 +1,241 @@
 {
   "topic_id": 49,
   "family": "04_ebpf_kernel",
-  "n_chapters": 15,
-  "coverage_score": 0.22435511648654938,
+  "n_chapters": 6,
+  "coverage_score": 0.2356579750776291,
   "topic_repr": "Selection & Specification Data\n\nGeneric Type Cycloaliphatic Amine Epoxy\n\nDescription\n\nHighly chemical resistant epoxy mastic coating with exceptionally versatile uses in all industrial markets. Self-priming and suitable for application over most existing coatings, and tightly adherent to rust. Serves as stand-alone system for a variety of chemical environments and is also designed for various imme...",
   "terms": [
-    "dataset_under_audit",
-    "outlier_claim_basic",
-    "outlier_claim_min_one_attribute",
-    "trace_supports_claim"
+    "annotation_assigned_by",
+    "artifact_min_one_id",
+    "attestation_at_period",
+    "claim_observed_by_event",
+    "column_value_distribution",
+    "conceptual_construction_process",
+    "constraint_with_predicate",
+    "ebpf_event_min_one_attribute",
+    "ebpfprogram_union_kprobe_or_xdp",
+    "ebpfprogram_verified_safe",
+    "ebpfprogram_with_license",
+    "policy_supersedes",
+    "soc2_security_subclass"
   ],
   "tables": [
-    "t_dataset_under_audit",
-    "t_outlier_claim_basic",
-    "t_outlier_claim_min_one_attribute",
-    "t_trace_supports_claim"
+    "t_annotation_assigned_by",
+    "t_artifact_min_one_id",
+    "t_attestation_at_period",
+    "t_claim_observed_by_event",
+    "t_column_value_distribution",
+    "t_conceptual_construction_process",
+    "t_constraint_with_predicate",
+    "t_ebpf_event_min_one_attribute",
+    "t_ebpfprogram_union_kprobe_or_xdp",
+    "t_ebpfprogram_verified_safe",
+    "t_ebpfprogram_with_license",
+    "t_policy_supersedes",
+    "t_soc2_security_subclass"
   ],
   "topics": [
-    5,
-    7,
-    25,
-    31,
-    34,
-    35,
-    40,
-    43,
-    47,
+    4,
     49,
-    53,
-    65,
-    74,
-    75,
-    82,
-    85,
-    94,
-    95,
-    107,
-    109,
-    113,
-    117,
-    122,
-    123,
-    145,
-    154,
-    158,
-    185,
-    187
+    52,
+    55,
+    69,
+    70,
+    76,
+    90,
+    106,
+    125,
+    132,
+    196
   ],
   "shared_tables": {
-    "dataset_under_audit": [
-      32,
-      37,
-      38,
-      94,
-      179
+    "annotation_assigned_by": [
+      23,
+      26,
+      45,
+      79,
+      183,
+      186
     ],
-    "outlier_claim_basic": [
-      14,
-      24,
-      54,
-      119,
-      197
+    "artifact_min_one_id": [
+      4,
+      20,
+      92,
+      183,
+      186
     ],
-    "outlier_claim_min_one_attribute": [
-      14,
-      24,
-      52,
-      194,
-      197
+    "attestation_at_period": [
+      2,
+      10,
+      69
     ],
-    "trace_supports_claim": [
-      30,
+    "claim_observed_by_event": [
+      0,
+      1,
+      4,
+      27,
+      36,
+      40,
+      42,
+      79,
+      97,
+      125,
+      155
+    ],
+    "column_value_distribution": [
+      23,
+      27,
+      34,
+      46,
+      62,
+      75,
+      129,
+      183,
+      186
+    ],
+    "conceptual_construction_process": [
+      46,
+      62,
+      128,
+      155,
+      186
+    ],
+    "constraint_with_predicate": [
+      1,
+      12,
       65,
-      78,
+      105,
+      135,
+      155,
+      183,
+      186
+    ],
+    "ebpf_event_min_one_attribute": [
+      2,
+      19,
+      21,
+      38,
+      46,
+      106
+    ],
+    "ebpfprogram_union_kprobe_or_xdp": [
+      23,
+      34,
       94,
-      99,
-      108,
-      115,
-      130,
-      133,
-      154,
+      135,
+      183,
+      186,
+      188
+    ],
+    "ebpfprogram_verified_safe": [
+      4
+    ],
+    "ebpfprogram_with_license": [
+      12,
+      24
+    ],
+    "policy_supersedes": [
+      1,
+      2,
+      3,
+      35,
+      45,
+      90
+    ],
+    "soc2_security_subclass": [
+      0,
+      5,
+      26,
+      34,
+      46,
+      129,
       165,
-      185,
-      190
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "09bf62f58b7bb5e7",
-      "family": "02_observation_measurement",
+      "id": "ch_live_attestation_at_period_c2e39b",
+      "family": "03_directive_governance",
       "topics": [
-        25,
         49,
-        109
+        69,
+        70,
+        125,
+        132
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
+        "attestation_at_period",
+        "ebpfprogram_with_license",
+        "claim_observed_by_event"
       ]
     },
     {
-      "id": "167675de7b90a469",
-      "family": "02_observation_measurement",
+      "id": "ch_live_conceptual_construction_process_41c8dc",
+      "family": "08_derived",
       "topics": [
-        49,
-        94,
-        185
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "2093be677ca5c64c",
-      "family": "02_observation_measurement",
-      "topics": [
-        49,
-        65,
-        85
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "3b4917cf041be91b",
-      "family": "02_observation_measurement",
-      "topics": [
-        49,
-        53,
-        74
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "4050e0bd989a0d8c",
-      "family": "02_observation_measurement",
-      "topics": [
-        7,
-        49,
-        154
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "4ae17e6e550940c9",
-      "family": "02_observation_measurement",
-      "topics": [
-        5,
-        49,
-        113
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "5522def0a563027c",
-      "family": "02_observation_measurement",
-      "topics": [
-        43,
-        49,
-        145
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "555a0c53a1eaa76a",
-      "family": "02_observation_measurement",
-      "topics": [
-        49,
-        53,
-        158
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "6224dea3c198daee",
-      "family": "02_observation_measurement",
-      "topics": [
-        49,
-        82,
-        107
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "665137f4b306dc37",
-      "family": "02_observation_measurement",
-      "topics": [
-        35,
-        49,
-        117
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "67b52595cd6e960a",
-      "family": "02_observation_measurement",
-      "topics": [
-        40,
-        49,
-        123
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
-      ]
-    },
-    {
-      "id": "7857380a0b0d8943",
-      "family": "02_observation_measurement",
-      "topics": [
-        31,
-        47,
         49
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
+        "conceptual_construction_process",
+        "ebpfprogram_with_license",
+        "annotation_assigned_by"
       ]
     },
     {
-      "id": "9d23c85751d890f3",
+      "id": "ch_live_ebpf_event_min_one_attribute_47e7c3",
       "family": "02_observation_measurement",
       "topics": [
-        34,
         49,
-        122
+        106,
+        196
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
+        "ebpf_event_min_one_attribute",
+        "column_value_distribution",
+        "ebpfprogram_with_license"
       ]
     },
     {
-      "id": "e3e4bf9d85cdb1df",
-      "family": "02_observation_measurement",
+      "id": "ch_live_ebpfprogram_union_kprobe_or_xdp_f3915f",
+      "family": "04_ebpf_kernel",
       "topics": [
+        4,
         49,
-        95,
-        187
+        52,
+        55,
+        76
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
+        "ebpfprogram_union_kprobe_or_xdp",
+        "ebpfprogram_verified_safe",
+        "ebpfprogram_with_license"
       ]
     },
     {
-      "id": "f2e871f45379d04a",
-      "family": "02_observation_measurement",
+      "id": "ch_live_ebpfprogram_with_license_013072",
+      "family": "04_ebpf_kernel",
       "topics": [
-        49,
-        75,
-        123
+        49
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "trace_supports_claim",
-        "outlier_claim_basic",
-        "dataset_under_audit"
+        "ebpfprogram_with_license",
+        "artifact_min_one_id",
+        "soc2_security_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_policy_supersedes_5ae6b8",
+      "family": "03_directive_governance",
+      "topics": [
+        49,
+        90
+      ],
+      "cited_terms": [
+        "policy_supersedes",
+        "constraint_with_predicate",
+        "ebpfprogram_with_license"
       ]
     }
   ]

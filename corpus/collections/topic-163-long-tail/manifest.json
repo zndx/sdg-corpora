@@ -1,455 +1,258 @@
 {
   "topic_id": 163,
   "family": "07_long_tail",
-  "n_chapters": 18,
-  "coverage_score": 0.16143955290317535,
+  "n_chapters": 6,
+  "coverage_score": 0.14456039667129517,
   "topic_repr": "DEPARTMENT OF MICROBIOLOGY ISPAT GENERAL HOSPITAL\n\nSAIL, RSP, ROURKELA\n\nCOVID-19 (RT-PCR) Test Report\n\nSr.\n\nNo.\n\n1\n\n2\n\n3\n\n4\n\n5\n\nPrepared by:\n\nChecked and Approved by:\n\nKrishna Ch. Majhi\n\nNote: The results relate only to the specimens tested and should be correlated with clinical findings. Interpretation guidance:-\n\n* Testing of referred clinical specimens was considered on the basis of request / r...",
   "terms": [
-    "attestation_signed_by",
-    "attestation_with_supporting_evidence",
-    "audit_conducted_by",
-    "gdpr_lawful_basis",
-    "verification_produces_evidence"
+    "backward_compatible_with",
+    "cardinality_exactly_one_generic",
+    "census_data_collection_process",
+    "clinical_performance_evaluation",
+    "functional_dependency_rhs",
+    "labrun_subclass",
+    "log_with_resource_attribute",
+    "observation_records_state",
+    "requirement_under_standard",
+    "schema_revision_of",
+    "schemaorg_creativework_date",
+    "schemaorg_review_rating",
+    "transformation_only_uses_datasets"
   ],
   "tables": [
-    "t_attestation_signed_by",
-    "t_attestation_with_supporting_evidence",
-    "t_audit_conducted_by",
-    "t_gdpr_lawful_basis",
-    "t_verification_produces_evidence"
+    "t_backward_compatible_with",
+    "t_cardinality_exactly_one_generic",
+    "t_census_data_collection_process",
+    "t_clinical_performance_evaluation",
+    "t_functional_dependency_rhs",
+    "t_labrun_subclass",
+    "t_log_with_resource_attribute",
+    "t_observation_records_state",
+    "t_requirement_under_standard",
+    "t_schema_revision_of",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_review_rating",
+    "t_transformation_only_uses_datasets"
   ],
   "topics": [
-    1,
-    2,
-    3,
-    4,
-    13,
-    33,
-    34,
-    35,
-    37,
-    39,
-    42,
-    47,
-    49,
-    62,
-    64,
-    71,
-    78,
-    82,
-    94,
-    95,
-    103,
-    112,
-    115,
-    118,
-    119,
-    150,
-    153,
-    160,
     163,
-    181,
-    185,
-    188,
-    193,
-    197
+    166,
+    184
   ],
   "shared_tables": {
-    "attestation_signed_by": [
-      2,
-      4,
-      5,
+    "backward_compatible_with": [
+      14,
+      40,
+      79,
+      86,
+      92,
+      184
+    ],
+    "cardinality_exactly_one_generic": [
+      11,
       26,
-      28,
-      30,
-      37,
-      43,
-      65,
-      70,
-      73,
-      75,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      150,
-      165,
+      33,
+      40,
+      106,
+      161,
+      172,
+      184,
+      186,
       190
     ],
-    "attestation_with_supporting_evidence": [
+    "census_data_collection_process": [
       2,
-      3,
-      5,
-      6,
-      7,
-      16,
+      11,
+      46,
+      65,
+      106,
+      109,
+      159,
+      186
+    ],
+    "clinical_performance_evaluation": [
+      26,
+      60,
+      81,
+      139,
+      140
+    ],
+    "functional_dependency_rhs": [
+      4,
       20,
       23,
-      26,
-      37,
-      44,
+      42,
+      61,
+      139,
+      181,
+      186
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      12,
+      14,
+      50,
+      67,
+      72,
+      78,
+      135
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
       56,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
+      61,
       107,
-      112,
-      132,
-      134,
-      138,
-      144,
-      158,
-      160,
-      186,
-      191,
-      196
+      128,
+      168,
+      180,
+      181,
+      183
     ],
-    "audit_conducted_by": [
-      2,
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      23,
+      26,
+      67,
+      91,
+      123,
+      125,
+      129,
+      135,
+      183,
+      185,
+      186
+    ],
+    "requirement_under_standard": [
+      0,
+      8,
       20,
-      32,
-      33,
-      37,
-      43,
-      57,
-      73,
-      76,
-      95,
-      102,
-      111,
-      132,
-      144,
-      150,
-      160,
-      171,
-      179,
-      196
+      26,
+      36,
+      72,
+      186
     ],
-    "gdpr_lawful_basis": [
-      3,
+    "schema_revision_of": [
+      4,
+      26,
+      46,
+      47,
+      60,
+      100,
+      161,
+      181,
+      186
+    ],
+    "schemaorg_creativework_date": [
+      12,
       26,
       30,
-      73,
-      78,
-      104,
-      133,
-      138,
-      154
+      69,
+      72,
+      100,
+      183
     ],
-    "verification_produces_evidence": [
-      6,
-      16,
+    "schemaorg_review_rating": [
       23,
-      44,
+      24,
+      40,
       56,
-      58,
-      71,
-      83,
-      89,
-      104,
-      129,
-      138,
-      160,
-      191
+      60,
+      109
+    ],
+    "transformation_only_uses_datasets": [
+      1,
+      19,
+      34,
+      35,
+      41,
+      42,
+      78,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "14babf80423c78b4",
-      "family": "03_directive_governance",
+      "id": "ch_live_backward_compatible_with_ba0554",
+      "family": "07_long_tail",
       "topics": [
-        2,
-        37,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "203700699426ba6c",
-      "family": "03_directive_governance",
-      "topics": [
-        3,
         163,
-        188
+        166,
+        184
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "backward_compatible_with",
+        "requirement_under_standard",
+        "schemaorg_review_rating"
       ]
     },
     {
-      "id": "2211bd4be72eeecd",
-      "family": "03_directive_governance",
+      "id": "ch_live_functional_dependency_rhs_6becbb",
+      "family": "07_long_tail",
       "topics": [
-        49,
-        115,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "227b90bcac5aa241",
-      "family": "03_directive_governance",
-      "topics": [
-        4,
-        64,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "28dca2a3ac37e135",
-      "family": "03_directive_governance",
-      "topics": [
-        13,
-        112,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "3b2d76314a5dff7d",
-      "family": "03_directive_governance",
-      "topics": [
-        119,
-        160,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "42ae2dbd787248f4",
-      "family": "03_directive_governance",
-      "topics": [
-        34,
-        95,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "4cff4b6502d1b79f",
-      "family": "03_directive_governance",
-      "topics": [
-        39,
         163,
-        197
+        166
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "functional_dependency_rhs",
+        "schemaorg_review_rating",
+        "transformation_only_uses_datasets"
       ]
     },
     {
-      "id": "8c60b339c94c3f3c",
-      "family": "03_directive_governance",
+      "id": "ch_live_log_with_resource_attribute_8606bf",
+      "family": "07_long_tail",
       "topics": [
-        42,
         163,
-        185
+        166
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "log_with_resource_attribute",
+        "schemaorg_review_rating",
+        "clinical_performance_evaluation"
       ]
     },
     {
-      "id": "90cffa81935cd329",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_creativework_date_85d65b",
+      "family": "07_long_tail",
       "topics": [
-        94,
-        153,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "949186f3e8366951",
-      "family": "03_directive_governance",
-      "topics": [
-        37,
-        42,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "9ef764d724c92be2",
-      "family": "03_directive_governance",
-      "topics": [
-        35,
-        150,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "a032acf992e99fb1",
-      "family": "03_directive_governance",
-      "topics": [
-        103,
         163,
-        193
+        166
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "schemaorg_creativework_date",
+        "cardinality_exactly_one_generic",
+        "schemaorg_review_rating"
       ]
     },
     {
-      "id": "b0dd913280458759",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_review_rating_24f786",
+      "family": "07_long_tail",
       "topics": [
-        78,
         163,
-        181
+        166
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "schemaorg_review_rating",
+        "census_data_collection_process",
+        "schema_revision_of"
       ]
     },
     {
-      "id": "b8363dbb57c745a4",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_review_rating_8ba88b",
+      "family": "07_long_tail",
       "topics": [
-        47,
-        71,
-        163
+        163,
+        166
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "cef930f44ea8e231",
-      "family": "03_directive_governance",
-      "topics": [
-        33,
-        62,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "d27ee8db3f4a13ff",
-      "family": "03_directive_governance",
-      "topics": [
-        39,
-        118,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
-      ]
-    },
-    {
-      "id": "d3333119295d6f75",
-      "family": "03_directive_governance",
-      "topics": [
-        1,
-        82,
-        163
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "attestation_signed_by",
-        "verification_produces_evidence",
-        "audit_conducted_by"
+        "schemaorg_review_rating",
+        "labrun_subclass",
+        "observation_records_state"
       ]
     }
   ]

@@ -1,0 +1,718 @@
+{
+  "topic_id": 109,
+  "family": "07_long_tail",
+  "n_chapters": 20,
+  "coverage_score": 0.444843590259552,
+  "topic_repr": "International Workshop \"What can FCA do for Artificial Intelligence?\" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013)\nSergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph\n\nTo cite this version:\nSergei O. Kuznetsov, Amedeo Napoli, Sebastian Rudolph. International Workshop \"What can FCA do for Artificial Intelligence?\" (FCA4AI at IJCAI 2013, Beijing, China, August 4 2013). Sergei O. Kuznetsov...",
+  "terms": [
+    "artifact_subclass_two_parents",
+    "artifact_with_universal",
+    "belief_interval_only_unit_range",
+    "belief_interval_subclass",
+    "belief_interval_with_upper_bound",
+    "cardinality_min_two_generic",
+    "census_data_collection_process",
+    "column_property_subclass",
+    "column_renamed_from",
+    "dempster_conflict_mass",
+    "entity_type_belongs_to",
+    "equiv_intersect_with_restriction",
+    "evidence_basic",
+    "evidence_observed_by_process",
+    "existential_generic",
+    "existential_with_part_of",
+    "ganglion_cyst_imaging_finding",
+    "lineage_edge_max_one_target",
+    "lineage_governed_by_directive",
+    "mass_function_with_normalization",
+    "material_density_specification",
+    "measurement_aggregated_into",
+    "measurement_max_one_value",
+    "measurement_subclass",
+    "ontology_class_match",
+    "pignistic_transformation",
+    "policy_constrains_only_artifact",
+    "policy_effective_period",
+    "provenance_agent_subclass",
+    "quantum_cyber_security_field",
+    "radicalization_process",
+    "requirement_satisfies",
+    "schemaorg_product_brand",
+    "schemaorg_review_rating",
+    "soc2_availability_subclass",
+    "span_with_parent",
+    "storage_structure_composition",
+    "syscall_with_argument_count",
+    "trace_subclass"
+  ],
+  "tables": [
+    "t_artifact_subclass_two_parents",
+    "t_artifact_with_universal",
+    "t_belief_interval_only_unit_range",
+    "t_belief_interval_subclass",
+    "t_belief_interval_with_upper_bound",
+    "t_cardinality_min_two_generic",
+    "t_census_data_collection_process",
+    "t_column_property_subclass",
+    "t_column_renamed_from",
+    "t_dempster_conflict_mass",
+    "t_entity_type_belongs_to",
+    "t_equiv_intersect_with_restriction",
+    "t_evidence_basic",
+    "t_evidence_observed_by_process",
+    "t_existential_generic",
+    "t_existential_with_part_of",
+    "t_ganglion_cyst_imaging_finding",
+    "t_lineage_edge_max_one_target",
+    "t_lineage_governed_by_directive",
+    "t_mass_function_with_normalization",
+    "t_material_density_specification",
+    "t_measurement_aggregated_into",
+    "t_measurement_max_one_value",
+    "t_measurement_subclass",
+    "t_ontology_class_match",
+    "t_pignistic_transformation",
+    "t_policy_constrains_only_artifact",
+    "t_policy_effective_period",
+    "t_provenance_agent_subclass",
+    "t_quantum_cyber_security_field",
+    "t_radicalization_process",
+    "t_requirement_satisfies",
+    "t_schemaorg_product_brand",
+    "t_schemaorg_review_rating",
+    "t_soc2_availability_subclass",
+    "t_span_with_parent",
+    "t_storage_structure_composition",
+    "t_syscall_with_argument_count",
+    "t_trace_subclass"
+  ],
+  "topics": [
+    60,
+    83,
+    109,
+    138,
+    140,
+    161,
+    163,
+    166
+  ],
+  "shared_tables": {
+    "artifact_subclass_two_parents": [
+      46,
+      181,
+      183,
+      186
+    ],
+    "artifact_with_universal": [
+      4,
+      10,
+      26,
+      33,
+      34,
+      44,
+      65,
+      69,
+      106,
+      183,
+      186
+    ],
+    "belief_interval_only_unit_range": [
+      2,
+      10,
+      12,
+      72,
+      83
+    ],
+    "belief_interval_subclass": [
+      2,
+      7,
+      23,
+      46,
+      66,
+      79,
+      90,
+      128,
+      183,
+      186
+    ],
+    "belief_interval_with_upper_bound": [
+      8
+    ],
+    "cardinality_min_two_generic": [
+      11,
+      26,
+      38,
+      42,
+      73,
+      80,
+      94,
+      186
+    ],
+    "census_data_collection_process": [
+      2,
+      11,
+      46,
+      65,
+      106,
+      159,
+      163,
+      186
+    ],
+    "column_property_subclass": [
+      4,
+      45,
+      100,
+      106,
+      181,
+      183
+    ],
+    "column_renamed_from": [
+      4,
+      66,
+      120,
+      125,
+      168,
+      186
+    ],
+    "dempster_conflict_mass": [
+      1,
+      47,
+      54,
+      67,
+      83
+    ],
+    "entity_type_belongs_to": [
+      4,
+      7,
+      26,
+      36,
+      51,
+      65,
+      183,
+      185,
+      186
+    ],
+    "equiv_intersect_with_restriction": [
+      1,
+      44,
+      92,
+      138,
+      181,
+      186
+    ],
+    "evidence_basic": [
+      2,
+      4,
+      26,
+      45,
+      51,
+      65,
+      67,
+      120,
+      125,
+      191
+    ],
+    "evidence_observed_by_process": [
+      1,
+      4,
+      23,
+      47,
+      97,
+      135,
+      187
+    ],
+    "existential_generic": [
+      24,
+      26,
+      94,
+      183,
+      186
+    ],
+    "existential_with_part_of": [
+      5,
+      7,
+      26,
+      36,
+      61,
+      67,
+      69,
+      186
+    ],
+    "ganglion_cyst_imaging_finding": [
+      2,
+      4,
+      30,
+      47,
+      50,
+      81,
+      135,
+      139,
+      181,
+      183,
+      186
+    ],
+    "lineage_edge_max_one_target": [
+      12,
+      26,
+      30,
+      40,
+      46,
+      79,
+      80,
+      140,
+      159,
+      183,
+      186
+    ],
+    "lineage_governed_by_directive": [
+      41,
+      45,
+      46,
+      120,
+      129,
+      155,
+      186,
+      187
+    ],
+    "mass_function_with_normalization": [
+      4,
+      19,
+      40,
+      42,
+      67
+    ],
+    "material_density_specification": [
+      0,
+      4,
+      54,
+      79,
+      155
+    ],
+    "measurement_aggregated_into": [
+      4,
+      20,
+      44,
+      122,
+      140,
+      181,
+      186
+    ],
+    "measurement_max_one_value": [
+      20,
+      44,
+      100,
+      161
+    ],
+    "measurement_subclass": [
+      4,
+      10,
+      11,
+      23,
+      26,
+      39,
+      45,
+      140,
+      142,
+      186
+    ],
+    "ontology_class_match": [
+      4,
+      35,
+      40,
+      86,
+      120,
+      128,
+      168,
+      183,
+      186
+    ],
+    "pignistic_transformation": [
+      35,
+      45,
+      60,
+      138
+    ],
+    "policy_constrains_only_artifact": [
+      5,
+      26,
+      46,
+      62,
+      83,
+      100,
+      125,
+      135,
+      186
+    ],
+    "policy_effective_period": [
+      10,
+      26,
+      54,
+      62,
+      92,
+      128,
+      159,
+      186
+    ],
+    "provenance_agent_subclass": [
+      26,
+      66,
+      180,
+      186
+    ],
+    "quantum_cyber_security_field": [
+      7,
+      16,
+      26,
+      46,
+      65,
+      71,
+      125,
+      129,
+      186
+    ],
+    "radicalization_process": [
+      1,
+      5,
+      7,
+      26,
+      40,
+      65,
+      67,
+      83,
+      128,
+      136,
+      186
+    ],
+    "requirement_satisfies": [
+      4,
+      25,
+      34,
+      35,
+      65,
+      94,
+      135,
+      184,
+      186
+    ],
+    "schemaorg_product_brand": [
+      7,
+      20,
+      26,
+      35,
+      46,
+      47,
+      165,
+      183,
+      186
+    ],
+    "schemaorg_review_rating": [
+      23,
+      24,
+      40,
+      56,
+      60,
+      163
+    ],
+    "soc2_availability_subclass": [
+      19,
+      26,
+      34,
+      95,
+      107,
+      136,
+      150,
+      183,
+      186
+    ],
+    "span_with_parent": [
+      12,
+      23,
+      26,
+      119,
+      172
+    ],
+    "storage_structure_composition": [
+      3,
+      35,
+      41,
+      46,
+      120,
+      181,
+      183,
+      186
+    ],
+    "syscall_with_argument_count": [
+      4,
+      6,
+      10,
+      120,
+      159,
+      172,
+      183,
+      186
+    ],
+    "trace_subclass": [
+      5,
+      11,
+      26,
+      60,
+      94,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_artifact_with_universal_a4d346",
+      "family": "01_foundation",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "artifact_with_universal",
+        "belief_interval_with_upper_bound",
+        "policy_effective_period"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_only_unit_range_44d5c0",
+      "family": "06_belief_structure",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "belief_interval_only_unit_range",
+        "belief_interval_subclass",
+        "belief_interval_with_upper_bound"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_only_unit_range_8be6b6",
+      "family": "06_belief_structure",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "belief_interval_only_unit_range",
+        "policy_effective_period",
+        "requirement_satisfies"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_with_upper_bound_b44f3d",
+      "family": "06_belief_structure",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "belief_interval_with_upper_bound",
+        "column_property_subclass",
+        "column_renamed_from"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_with_upper_bound_d49936",
+      "family": "06_belief_structure",
+      "topics": [
+        109,
+        161
+      ],
+      "cited_terms": [
+        "belief_interval_with_upper_bound",
+        "measurement_max_one_value",
+        "evidence_basic"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_with_upper_bound_eb9d87",
+      "family": "06_belief_structure",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "belief_interval_with_upper_bound",
+        "syscall_with_argument_count",
+        "quantum_cyber_security_field"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_with_upper_bound_ee3eed",
+      "family": "06_belief_structure",
+      "topics": [
+        60,
+        83,
+        109,
+        138,
+        140
+      ],
+      "cited_terms": [
+        "belief_interval_with_upper_bound",
+        "pignistic_transformation",
+        "dempster_conflict_mass"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_with_upper_bound_fd795c",
+      "family": "06_belief_structure",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "belief_interval_with_upper_bound",
+        "policy_effective_period",
+        "soc2_availability_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_cardinality_min_two_generic_42fd13",
+      "family": "01_foundation",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "cardinality_min_two_generic",
+        "artifact_subclass_two_parents",
+        "belief_interval_with_upper_bound"
+      ]
+    },
+    {
+      "id": "ch_live_entity_type_belongs_to_6372db",
+      "family": "07_long_tail",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "entity_type_belongs_to",
+        "mass_function_with_normalization",
+        "census_data_collection_process"
+      ]
+    },
+    {
+      "id": "ch_live_existential_generic_ec5eca",
+      "family": "01_foundation",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "existential_generic",
+        "mass_function_with_normalization",
+        "ganglion_cyst_imaging_finding"
+      ]
+    },
+    {
+      "id": "ch_live_existential_with_part_of_7c2659",
+      "family": "01_foundation",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "existential_with_part_of",
+        "measurement_subclass",
+        "belief_interval_with_upper_bound"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_max_one_target_abc920",
+      "family": "05_provo_lineage",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "lineage_edge_max_one_target",
+        "radicalization_process",
+        "mass_function_with_normalization"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_with_normalization_167ff7",
+      "family": "06_belief_structure",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "mass_function_with_normalization",
+        "storage_structure_composition",
+        "equiv_intersect_with_restriction"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_with_normalization_31a4ab",
+      "family": "06_belief_structure",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "mass_function_with_normalization",
+        "material_density_specification",
+        "measurement_aggregated_into"
+      ]
+    },
+    {
+      "id": "ch_live_ontology_class_match_c8a79f",
+      "family": "07_long_tail",
+      "topics": [
+        109,
+        163,
+        166
+      ],
+      "cited_terms": [
+        "ontology_class_match",
+        "schemaorg_review_rating",
+        "belief_interval_only_unit_range"
+      ]
+    },
+    {
+      "id": "ch_live_policy_constrains_only_artifact_57e14e",
+      "family": "01_foundation",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "policy_constrains_only_artifact",
+        "belief_interval_only_unit_range",
+        "evidence_observed_by_process"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_product_brand_b8c0bd",
+      "family": "07_long_tail",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "schemaorg_product_brand",
+        "belief_interval_only_unit_range",
+        "lineage_governed_by_directive"
+      ]
+    },
+    {
+      "id": "ch_live_span_with_parent_06665e",
+      "family": "07_long_tail",
+      "topics": [
+        109
+      ],
+      "cited_terms": [
+        "span_with_parent",
+        "belief_interval_with_upper_bound",
+        "radicalization_process"
+      ]
+    },
+    {
+      "id": "ch_live_trace_subclass_d45721",
+      "family": "02_observation_measurement",
+      "topics": [
+        109,
+        140
+      ],
+      "cited_terms": [
+        "trace_subclass",
+        "mass_function_with_normalization",
+        "provenance_agent_subclass"
+      ]
+    }
+  ]
+}

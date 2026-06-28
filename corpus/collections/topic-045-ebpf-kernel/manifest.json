@@ -1,0 +1,845 @@
+{
+  "topic_id": 45,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 23,
+  "coverage_score": 0.0992673709988594,
+  "topic_repr": "Voltammetric Behavior of Tembotrione Using Silver/Amalgam Electrode\n\nMilica Jovi\u0107 * , Dragan Manojlovi\u0107, Dalibor Stankovi\u0107, An\u0111elija Mili\u0107, Milica Senti\u0107, Goran Rogli\u0107\n\nFaculty of Chemistry, University of Belgrade, Belgrade, Serbia\n\nEmail: * email@example.com\n\nReceived October 23, 2012; revised November 25, 2012; accepted December 3, 2012\n\nABSTRACT\n\nTembotrione is herbicide which belongs to the tr...",
+  "terms": [
+    "annotation_assigned_by",
+    "appointment_scheduling_process",
+    "bullying_response_process",
+    "cgroup_skb_subclass",
+    "classification_basic",
+    "column_pair_subject",
+    "column_property_subclass",
+    "column_tag_at_confidence",
+    "constraint_with_violation_consequence",
+    "control_implements",
+    "dataset_at_version",
+    "descriptive_only_about_artifact",
+    "digital_media_service",
+    "division_assignment_record",
+    "ebpfmap_equiv_kv_typed",
+    "ebpfmap_exactly_one_type",
+    "ebpfmap_only_one_value_type",
+    "ebpfmap_used_by_program",
+    "ebpfmap_with_max_entries",
+    "evidence_basic",
+    "existential_with_has_part",
+    "identifier_uniquely_identifies",
+    "insertion_loss_specification",
+    "iso27001_clause_subclass",
+    "kernelhook_only_kprobe",
+    "knowledge_base_integration",
+    "labrun_min_one_sample",
+    "lineage_governed_by_directive",
+    "measurement_observed_at",
+    "measurement_subclass",
+    "myxoid_degeneration_process",
+    "pignistic_transformation",
+    "plausibility_function_for",
+    "policy_only_for_high_impact",
+    "policy_supersedes",
+    "profile_has_distribution",
+    "reference_within_dataset",
+    "requirement_applies_to_system",
+    "schemaorg_creativework_author",
+    "schemaorg_label_alignment",
+    "school_security_policy",
+    "subclass_to_process",
+    "syscall_governed_by_directive",
+    "taper_tolerance_constraint",
+    "technology_promotion_initiative",
+    "trace_min_one_span",
+    "transformation_associated_with_agent",
+    "transformation_ends_at",
+    "transformation_governed_by"
+  ],
+  "tables": [
+    "t_annotation_assigned_by",
+    "t_appointment_scheduling_process",
+    "t_bullying_response_process",
+    "t_cgroup_skb_subclass",
+    "t_classification_basic",
+    "t_column_pair_subject",
+    "t_column_property_subclass",
+    "t_column_tag_at_confidence",
+    "t_constraint_with_violation_consequence",
+    "t_control_implements",
+    "t_dataset_at_version",
+    "t_descriptive_only_about_artifact",
+    "t_digital_media_service",
+    "t_division_assignment_record",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_ebpfmap_exactly_one_type",
+    "t_ebpfmap_only_one_value_type",
+    "t_ebpfmap_used_by_program",
+    "t_ebpfmap_with_max_entries",
+    "t_evidence_basic",
+    "t_existential_with_has_part",
+    "t_identifier_uniquely_identifies",
+    "t_insertion_loss_specification",
+    "t_iso27001_clause_subclass",
+    "t_kernelhook_only_kprobe",
+    "t_knowledge_base_integration",
+    "t_labrun_min_one_sample",
+    "t_lineage_governed_by_directive",
+    "t_measurement_observed_at",
+    "t_measurement_subclass",
+    "t_myxoid_degeneration_process",
+    "t_pignistic_transformation",
+    "t_plausibility_function_for",
+    "t_policy_only_for_high_impact",
+    "t_policy_supersedes",
+    "t_profile_has_distribution",
+    "t_reference_within_dataset",
+    "t_requirement_applies_to_system",
+    "t_schemaorg_creativework_author",
+    "t_schemaorg_label_alignment",
+    "t_school_security_policy",
+    "t_subclass_to_process",
+    "t_syscall_governed_by_directive",
+    "t_taper_tolerance_constraint",
+    "t_technology_promotion_initiative",
+    "t_trace_min_one_span",
+    "t_transformation_associated_with_agent",
+    "t_transformation_ends_at",
+    "t_transformation_governed_by"
+  ],
+  "topics": [
+    45,
+    49,
+    60,
+    62,
+    67,
+    83,
+    90,
+    91,
+    101,
+    106,
+    109,
+    135,
+    138,
+    140,
+    184,
+    189
+  ],
+  "shared_tables": {
+    "annotation_assigned_by": [
+      23,
+      26,
+      49,
+      79,
+      183,
+      186
+    ],
+    "appointment_scheduling_process": [
+      2,
+      10,
+      12,
+      19,
+      24,
+      26,
+      195
+    ],
+    "bullying_response_process": [
+      26,
+      41,
+      44,
+      75,
+      105
+    ],
+    "cgroup_skb_subclass": [
+      4,
+      25,
+      40,
+      56,
+      104,
+      183
+    ],
+    "classification_basic": [
+      1,
+      3,
+      19,
+      91
+    ],
+    "column_pair_subject": [
+      0,
+      4,
+      5,
+      23,
+      46,
+      47,
+      83,
+      154,
+      186
+    ],
+    "column_property_subclass": [
+      4,
+      100,
+      106,
+      109,
+      181,
+      183
+    ],
+    "column_tag_at_confidence": [
+      0,
+      4,
+      20,
+      168
+    ],
+    "constraint_with_violation_consequence": [
+      5,
+      23,
+      36,
+      38,
+      42,
+      47,
+      61,
+      86
+    ],
+    "control_implements": [
+      4,
+      5,
+      26,
+      34,
+      65,
+      90,
+      97,
+      107,
+      183,
+      186
+    ],
+    "dataset_at_version": [
+      0,
+      14,
+      24,
+      183,
+      186,
+      191
+    ],
+    "descriptive_only_about_artifact": [
+      2,
+      10,
+      16,
+      19,
+      74,
+      138,
+      188
+    ],
+    "digital_media_service": [
+      7,
+      10,
+      47,
+      81,
+      186
+    ],
+    "division_assignment_record": [
+      19,
+      34,
+      67,
+      80,
+      86,
+      159,
+      185
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      21,
+      24,
+      34,
+      105,
+      181,
+      184,
+      186,
+      190
+    ],
+    "ebpfmap_exactly_one_type": [
+      4,
+      7,
+      44,
+      100,
+      128,
+      186
+    ],
+    "ebpfmap_only_one_value_type": [
+      7,
+      11
+    ],
+    "ebpfmap_used_by_program": [
+      1,
+      23,
+      30,
+      36,
+      44
+    ],
+    "ebpfmap_with_max_entries": [
+      20,
+      26,
+      40,
+      94,
+      101,
+      186,
+      188
+    ],
+    "evidence_basic": [
+      2,
+      4,
+      26,
+      51,
+      65,
+      67,
+      109,
+      120,
+      125,
+      191
+    ],
+    "existential_with_has_part": [
+      26,
+      47,
+      67,
+      79,
+      111,
+      140,
+      186
+    ],
+    "identifier_uniquely_identifies": [
+      7,
+      23,
+      41,
+      46,
+      60,
+      78,
+      100,
+      186
+    ],
+    "insertion_loss_specification": [
+      11,
+      69,
+      159,
+      172,
+      183,
+      187
+    ],
+    "iso27001_clause_subclass": [
+      0,
+      34,
+      101
+    ],
+    "kernelhook_only_kprobe": [
+      2,
+      7,
+      41
+    ],
+    "knowledge_base_integration": [
+      4,
+      46,
+      61,
+      67,
+      83,
+      97
+    ],
+    "labrun_min_one_sample": [
+      1,
+      2,
+      33,
+      67
+    ],
+    "lineage_governed_by_directive": [
+      41,
+      46,
+      109,
+      120,
+      129,
+      155,
+      186,
+      187
+    ],
+    "measurement_observed_at": [
+      4,
+      33,
+      80,
+      119,
+      138,
+      161,
+      186
+    ],
+    "measurement_subclass": [
+      4,
+      10,
+      11,
+      23,
+      26,
+      39,
+      109,
+      140,
+      142,
+      186
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      12,
+      20,
+      24,
+      46,
+      47,
+      54
+    ],
+    "pignistic_transformation": [
+      35,
+      60,
+      109,
+      138
+    ],
+    "plausibility_function_for": [
+      7,
+      42,
+      60,
+      92,
+      105,
+      149,
+      159,
+      186
+    ],
+    "policy_only_for_high_impact": [
+      2,
+      20,
+      34,
+      159,
+      186
+    ],
+    "policy_supersedes": [
+      1,
+      2,
+      3,
+      35,
+      49,
+      90
+    ],
+    "profile_has_distribution": [
+      24,
+      25,
+      26,
+      42,
+      65,
+      91,
+      107,
+      186
+    ],
+    "reference_within_dataset": [
+      2,
+      7,
+      12,
+      46,
+      47,
+      56,
+      79,
+      136
+    ],
+    "requirement_applies_to_system": [
+      2,
+      47,
+      97,
+      159,
+      180,
+      183,
+      185,
+      186
+    ],
+    "schemaorg_creativework_author": [
+      23,
+      26,
+      27,
+      61,
+      122,
+      181,
+      183,
+      186
+    ],
+    "schemaorg_label_alignment": [
+      0,
+      11,
+      54,
+      62
+    ],
+    "school_security_policy": [
+      10,
+      26,
+      34,
+      38,
+      136,
+      184,
+      186,
+      188
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      46,
+      47,
+      100,
+      102,
+      105,
+      123,
+      159,
+      183,
+      191
+    ],
+    "syscall_governed_by_directive": [
+      10,
+      12,
+      20,
+      47,
+      61,
+      83
+    ],
+    "taper_tolerance_constraint": [
+      6,
+      7,
+      42,
+      58,
+      78,
+      155,
+      168
+    ],
+    "technology_promotion_initiative": [
+      8,
+      10,
+      47,
+      80,
+      81,
+      159,
+      165,
+      168,
+      186
+    ],
+    "trace_min_one_span": [
+      26,
+      42,
+      80,
+      100,
+      183
+    ],
+    "transformation_associated_with_agent": [
+      8,
+      38,
+      41,
+      54,
+      183,
+      186,
+      191,
+      195
+    ],
+    "transformation_ends_at": [
+      4,
+      34,
+      42,
+      106,
+      143,
+      186
+    ],
+    "transformation_governed_by": [
+      1,
+      11,
+      23,
+      67,
+      135
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_classification_basic_539181",
+      "family": "03_directive_governance",
+      "topics": [
+        45,
+        91,
+        101,
+        189
+      ],
+      "cited_terms": [
+        "classification_basic",
+        "ebpfmap_only_one_value_type",
+        "iso27001_clause_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_control_implements_f673bf",
+      "family": "03_directive_governance",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "control_implements",
+        "digital_media_service",
+        "ebpfmap_only_one_value_type"
+      ]
+    },
+    {
+      "id": "ch_live_descriptive_only_about_artifact_893da6",
+      "family": "07_long_tail",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "descriptive_only_about_artifact",
+        "ebpfmap_only_one_value_type",
+        "column_tag_at_confidence"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_equiv_kv_typed_1a9921",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "ebpfmap_equiv_kv_typed",
+        "ebpfmap_exactly_one_type",
+        "ebpfmap_only_one_value_type"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_only_one_value_type_23ae47",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45,
+        135
+      ],
+      "cited_terms": [
+        "ebpfmap_only_one_value_type",
+        "transformation_governed_by",
+        "technology_promotion_initiative"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_only_one_value_type_2e96ae",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "ebpfmap_only_one_value_type",
+        "requirement_applies_to_system",
+        "division_assignment_record"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_only_one_value_type_5a6dc9",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "ebpfmap_only_one_value_type",
+        "lineage_governed_by_directive",
+        "identifier_uniquely_identifies"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_only_one_value_type_6f2858",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "ebpfmap_only_one_value_type",
+        "taper_tolerance_constraint",
+        "transformation_ends_at"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_only_one_value_type_f48c0d",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "ebpfmap_only_one_value_type",
+        "trace_min_one_span",
+        "reference_within_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_used_by_program_019d1d",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45,
+        49
+      ],
+      "cited_terms": [
+        "ebpfmap_used_by_program",
+        "insertion_loss_specification",
+        "plausibility_function_for"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_used_by_program_1f26aa",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45,
+        49
+      ],
+      "cited_terms": [
+        "ebpfmap_used_by_program",
+        "evidence_basic",
+        "column_pair_subject"
+      ]
+    },
+    {
+      "id": "ch_live_kernelhook_only_kprobe_65a690",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45,
+        83,
+        184
+      ],
+      "cited_terms": [
+        "kernelhook_only_kprobe",
+        "bullying_response_process",
+        "syscall_governed_by_directive"
+      ]
+    },
+    {
+      "id": "ch_live_kernelhook_only_kprobe_8a1cd8",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "kernelhook_only_kprobe",
+        "existential_with_has_part",
+        "constraint_with_violation_consequence"
+      ]
+    },
+    {
+      "id": "ch_live_knowledge_base_integration_9c2bc9",
+      "family": "08_derived",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "knowledge_base_integration",
+        "kernelhook_only_kprobe",
+        "appointment_scheduling_process"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_min_one_sample_6ab3dc",
+      "family": "02_observation_measurement",
+      "topics": [
+        45,
+        67,
+        106
+      ],
+      "cited_terms": [
+        "labrun_min_one_sample",
+        "kernelhook_only_kprobe",
+        "school_security_policy"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_observed_at_aeacbf",
+      "family": "02_observation_measurement",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "measurement_observed_at",
+        "schemaorg_creativework_author",
+        "ebpfmap_only_one_value_type"
+      ]
+    },
+    {
+      "id": "ch_live_myxoid_degeneration_process_289ba8",
+      "family": "08_derived",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "myxoid_degeneration_process",
+        "dataset_at_version",
+        "ebpfmap_only_one_value_type"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_for_high_impact_0d8471",
+      "family": "07_long_tail",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "policy_only_for_high_impact",
+        "ebpfmap_with_max_entries",
+        "kernelhook_only_kprobe"
+      ]
+    },
+    {
+      "id": "ch_live_policy_supersedes_660a6c",
+      "family": "03_directive_governance",
+      "topics": [
+        45,
+        90
+      ],
+      "cited_terms": [
+        "policy_supersedes",
+        "ebpfmap_only_one_value_type",
+        "measurement_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_profile_has_distribution_5787aa",
+      "family": "02_observation_measurement",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "profile_has_distribution",
+        "ebpfmap_only_one_value_type",
+        "column_property_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_label_alignment_9e51bc",
+      "family": "07_long_tail",
+      "topics": [
+        45,
+        49,
+        62
+      ],
+      "cited_terms": [
+        "schemaorg_label_alignment",
+        "cgroup_skb_subclass",
+        "ebpfmap_used_by_program"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_process_770246",
+      "family": "01_foundation",
+      "topics": [
+        45,
+        60,
+        109,
+        138,
+        140
+      ],
+      "cited_terms": [
+        "subclass_to_process",
+        "pignistic_transformation",
+        "kernelhook_only_kprobe"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_associated_with_agent_d93664",
+      "family": "05_provo_lineage",
+      "topics": [
+        45
+      ],
+      "cited_terms": [
+        "transformation_associated_with_agent",
+        "annotation_assigned_by",
+        "kernelhook_only_kprobe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "topic_id": 69,
+  "family": "03_directive_governance",
+  "n_chapters": 10,
+  "coverage_score": 0.4667983651161194,
+  "topic_repr": "Methods Of It Project Management Pmbok Guides\n\nGetting the books Methods Of It Project Management Pmbok Guides now is not type of challenging means. You could not only going next book accretion or library or borrowing from your links to edit them. This is an unquestionably simple means to specifically get lead by on-line. This online proclamation Methods Of It Project Management Pmbok Guides can b...",
+  "terms": [
+    "artifact_with_universal",
+    "attestation_about_compliance_claim",
+    "attestation_at_period",
+    "bpf_helper_subclass",
+    "census_reporting_event",
+    "claim_subclass",
+    "column_tag_from_annotator",
+    "descriptive_not_retracted",
+    "evidence_for_audit",
+    "existential_with_part_of",
+    "information_dissemination_event",
+    "insertion_loss_specification",
+    "policy_classification_tier",
+    "profile_has_null_rate",
+    "profiling_basic",
+    "regional_quality_benchmark",
+    "requirement_refines",
+    "schemaorg_creativework_date",
+    "schemaorg_event_location",
+    "schemaorg_review_target",
+    "student_privacy_expectation",
+    "verification_concludes_with"
+  ],
+  "tables": [
+    "t_artifact_with_universal",
+    "t_attestation_about_compliance_claim",
+    "t_attestation_at_period",
+    "t_bpf_helper_subclass",
+    "t_census_reporting_event",
+    "t_claim_subclass",
+    "t_column_tag_from_annotator",
+    "t_descriptive_not_retracted",
+    "t_evidence_for_audit",
+    "t_existential_with_part_of",
+    "t_information_dissemination_event",
+    "t_insertion_loss_specification",
+    "t_policy_classification_tier",
+    "t_profile_has_null_rate",
+    "t_profiling_basic",
+    "t_regional_quality_benchmark",
+    "t_requirement_refines",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_event_location",
+    "t_schemaorg_review_target",
+    "t_student_privacy_expectation",
+    "t_verification_concludes_with"
+  ],
+  "topics": [
+    69,
+    70,
+    72,
+    125,
+    129,
+    132,
+    169,
+    194,
+    195
+  ],
+  "shared_tables": {
+    "artifact_with_universal": [
+      4,
+      10,
+      26,
+      33,
+      34,
+      44,
+      65,
+      106,
+      109,
+      183,
+      186
+    ],
+    "attestation_about_compliance_claim": [
+      1,
+      11,
+      72
+    ],
+    "attestation_at_period": [
+      2,
+      10,
+      49
+    ],
+    "bpf_helper_subclass": [
+      11,
+      41,
+      186
+    ],
+    "census_reporting_event": [
+      5,
+      10,
+      11,
+      26,
+      33,
+      36,
+      65,
+      79,
+      102,
+      183,
+      186
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      20,
+      26,
+      56,
+      61,
+      97,
+      100,
+      104,
+      186,
+      188
+    ],
+    "column_tag_from_annotator": [
+      4,
+      21,
+      23,
+      47,
+      184,
+      186
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      47,
+      67,
+      94,
+      138,
+      161,
+      181,
+      186,
+      187,
+      191
+    ],
+    "evidence_for_audit": [
+      2,
+      26,
+      35,
+      46,
+      129,
+      185,
+      187
+    ],
+    "existential_with_part_of": [
+      5,
+      7,
+      26,
+      36,
+      61,
+      67,
+      109,
+      186
+    ],
+    "information_dissemination_event": [
+      5,
+      25,
+      26,
+      34,
+      47,
+      159,
+      168,
+      186
+    ],
+    "insertion_loss_specification": [
+      11,
+      45,
+      159,
+      172,
+      183,
+      187
+    ],
+    "policy_classification_tier": [
+      7,
+      10,
+      24,
+      26,
+      34,
+      47,
+      79,
+      168,
+      186
+    ],
+    "profile_has_null_rate": [
+      2,
+      7,
+      40,
+      42,
+      56,
+      80,
+      159,
+      186
+    ],
+    "profiling_basic": [
+      38,
+      47,
+      80,
+      86,
+      106,
+      168,
+      195
+    ],
+    "regional_quality_benchmark": [
+      0,
+      3,
+      10,
+      20,
+      26,
+      30,
+      46,
+      60,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      183,
+      185,
+      186
+    ],
+    "requirement_refines": [
+      25,
+      60,
+      100,
+      140,
+      155,
+      159,
+      183,
+      186
+    ],
+    "schemaorg_creativework_date": [
+      12,
+      26,
+      30,
+      72,
+      100,
+      163,
+      183
+    ],
+    "schemaorg_event_location": [
+      6,
+      20,
+      30,
+      34,
+      41,
+      65,
+      155,
+      168,
+      183,
+      186
+    ],
+    "schemaorg_review_target": [
+      20,
+      24,
+      26,
+      67,
+      186
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      150,
+      183,
+      185,
+      186,
+      187
+    ],
+    "verification_concludes_with": [
+      20,
+      23,
+      47,
+      129
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_artifact_with_universal_43ef4c",
+      "family": "01_foundation",
+      "topics": [
+        69,
+        70,
+        72,
+        125,
+        132
+      ],
+      "cited_terms": [
+        "artifact_with_universal",
+        "attestation_about_compliance_claim",
+        "attestation_at_period"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_at_period_018779",
+      "family": "03_directive_governance",
+      "topics": [
+        69,
+        70,
+        125,
+        132
+      ],
+      "cited_terms": [
+        "attestation_at_period",
+        "schemaorg_review_target",
+        "requirement_refines"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_at_period_6db6a7",
+      "family": "03_directive_governance",
+      "topics": [
+        69,
+        70,
+        125,
+        132
+      ],
+      "cited_terms": [
+        "attestation_at_period",
+        "column_tag_from_annotator",
+        "policy_classification_tier"
+      ]
+    },
+    {
+      "id": "ch_live_census_reporting_event_c95c4d",
+      "family": "08_derived",
+      "topics": [
+        69,
+        129,
+        169,
+        194
+      ],
+      "cited_terms": [
+        "census_reporting_event",
+        "bpf_helper_subclass",
+        "verification_concludes_with"
+      ]
+    },
+    {
+      "id": "ch_live_descriptive_not_retracted_041fad",
+      "family": "07_long_tail",
+      "topics": [
+        69,
+        129,
+        169,
+        194
+      ],
+      "cited_terms": [
+        "descriptive_not_retracted",
+        "evidence_for_audit",
+        "verification_concludes_with"
+      ]
+    },
+    {
+      "id": "ch_live_insertion_loss_specification_5367d8",
+      "family": "08_derived",
+      "topics": [
+        69,
+        129,
+        169,
+        194
+      ],
+      "cited_terms": [
+        "insertion_loss_specification",
+        "verification_concludes_with",
+        "profile_has_null_rate"
+      ]
+    },
+    {
+      "id": "ch_live_profiling_basic_37b6ad",
+      "family": "02_observation_measurement",
+      "topics": [
+        69,
+        129,
+        169,
+        194,
+        195
+      ],
+      "cited_terms": [
+        "profiling_basic",
+        "verification_concludes_with",
+        "schemaorg_event_location"
+      ]
+    },
+    {
+      "id": "ch_live_student_privacy_expectation_9ff7d0",
+      "family": "08_derived",
+      "topics": [
+        69,
+        70,
+        125,
+        132
+      ],
+      "cited_terms": [
+        "student_privacy_expectation",
+        "attestation_at_period",
+        "regional_quality_benchmark"
+      ]
+    },
+    {
+      "id": "ch_live_verification_concludes_with_051532",
+      "family": "03_directive_governance",
+      "topics": [
+        69,
+        129,
+        169,
+        194
+      ],
+      "cited_terms": [
+        "verification_concludes_with",
+        "existential_with_part_of",
+        "information_dissemination_event"
+      ]
+    },
+    {
+      "id": "ch_live_verification_concludes_with_270d39",
+      "family": "03_directive_governance",
+      "topics": [
+        69,
+        129,
+        169,
+        194
+      ],
+      "cited_terms": [
+        "verification_concludes_with",
+        "schemaorg_creativework_date",
+        "claim_subclass"
+      ]
+    }
+  ]
+}

@@ -1,358 +1,454 @@
 {
   "topic_id": 14,
   "family": "03_directive_governance",
-  "n_chapters": 17,
-  "coverage_score": 0.26424476504325867,
+  "n_chapters": 11,
+  "coverage_score": 0.26287269592285156,
   "topic_repr": "DRAFT\n\nAQUACULTURE PLAN FOR SHARK BAY\n\nFISHERIES MANAGEMENT PAPER NO. 171\n\nDepartment of Fisheries\n168 St. George's Terrace\nPerth WA 6000\n\nApril 2004\n\nISSN 0819-4327\n\nDraft Aquaculture Plan For Shark Bay\n\nApril 2004\n\nFisheries Management Paper No. 171\nISSN 0819-4327\n\nAN INVITATION TO COMMENT\n\nThe Department of Fisheries invites people to make a submission on the issues discussed in this report - *...",
   "terms": [
-    "aggregation_basic",
-    "alert_triggered_by",
-    "metric_emission_subclass",
-    "outlier_claim_basic",
-    "outlier_claim_min_one_attribute"
+    "audit_with_findings",
+    "backward_compatible_with",
+    "baseline_for_metric",
+    "belief_interval_basic",
+    "breaking_change_subclass",
+    "counter_metric_subclass",
+    "dataset_at_version",
+    "dataset_revision_of",
+    "ebpfmap_subclass",
+    "equiv_intersect_with_two_restrictions",
+    "flood_asset_vulnerability_assessment",
+    "gdpr_article_subclass",
+    "ice_subclass_with_part",
+    "labrun_subclass",
+    "mass_function_only_assigns_subsets",
+    "mass_function_subclass",
+    "metric_with_unit",
+    "nist80053_control_subclass",
+    "policy_only_applies_to",
+    "policy_only_governs_artifacts",
+    "schemaorg_event_starttime",
+    "schemaorg_person_roleat",
+    "state_transitions_from",
+    "trace_supports_claim"
   ],
   "tables": [
-    "t_aggregation_basic",
-    "t_alert_triggered_by",
-    "t_metric_emission_subclass",
-    "t_outlier_claim_basic",
-    "t_outlier_claim_min_one_attribute"
+    "t_audit_with_findings",
+    "t_backward_compatible_with",
+    "t_baseline_for_metric",
+    "t_belief_interval_basic",
+    "t_breaking_change_subclass",
+    "t_counter_metric_subclass",
+    "t_dataset_at_version",
+    "t_dataset_revision_of",
+    "t_ebpfmap_subclass",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_flood_asset_vulnerability_assessment",
+    "t_gdpr_article_subclass",
+    "t_ice_subclass_with_part",
+    "t_labrun_subclass",
+    "t_mass_function_only_assigns_subsets",
+    "t_mass_function_subclass",
+    "t_metric_with_unit",
+    "t_nist80053_control_subclass",
+    "t_policy_only_applies_to",
+    "t_policy_only_governs_artifacts",
+    "t_schemaorg_event_starttime",
+    "t_schemaorg_person_roleat",
+    "t_state_transitions_from",
+    "t_trace_supports_claim"
   ],
   "topics": [
-    5,
-    7,
     14,
-    27,
+    20,
+    22,
+    24,
+    29,
     32,
     33,
-    37,
-    71,
-    75,
-    76,
-    82,
-    85,
-    86,
-    97,
-    115,
-    120,
-    121,
-    130,
-    133,
-    139,
-    148,
-    153,
-    154,
-    158,
-    164,
-    165,
-    170,
-    181,
-    183,
-    188,
-    190,
-    191,
-    194
+    38,
+    40,
+    68,
+    69,
+    92,
+    171,
+    186
   ],
   "shared_tables": {
-    "aggregation_basic": [
-      197
+    "audit_with_findings": [
+      2,
+      10
     ],
-    "alert_triggered_by": [
-      34,
-      139,
-      195
+    "backward_compatible_with": [
+      40,
+      79,
+      86,
+      92,
+      163,
+      184
     ],
-    "metric_emission_subclass": [
-      27,
-      139,
-      195
+    "baseline_for_metric": [
+      0,
+      6,
+      7,
+      26,
+      72,
+      92
     ],
-    "outlier_claim_basic": [
-      24,
-      49,
-      54,
+    "belief_interval_basic": [
+      1,
+      26,
+      42,
+      94,
       119,
-      197
+      135,
+      149,
+      183,
+      187
     ],
-    "outlier_claim_min_one_attribute": [
+    "breaking_change_subclass": [
+      0,
+      27,
+      36,
+      41
+    ],
+    "counter_metric_subclass": [
+      2,
+      4,
+      26,
+      44,
+      61,
+      94,
+      136,
+      183,
+      186
+    ],
+    "dataset_at_version": [
+      0,
       24,
-      49,
-      52,
-      194,
-      197
+      45,
+      183,
+      186,
+      191
+    ],
+    "dataset_revision_of": [
+      24
+    ],
+    "ebpfmap_subclass": [
+      23,
+      34,
+      100,
+      102,
+      161,
+      181,
+      186
+    ],
+    "equiv_intersect_with_two_restrictions": [
+      2,
+      4,
+      7,
+      12,
+      26,
+      30,
+      34,
+      61,
+      66,
+      181,
+      183,
+      186
+    ],
+    "flood_asset_vulnerability_assessment": [
+      40,
+      60,
+      79,
+      92,
+      94,
+      120,
+      146,
+      186
+    ],
+    "gdpr_article_subclass": [
+      6,
+      17,
+      35,
+      44,
+      67,
+      81,
+      97,
+      181,
+      186
+    ],
+    "ice_subclass_with_part": [
+      4,
+      26,
+      46,
+      47,
+      60,
+      83,
+      168,
+      181,
+      184
+    ],
+    "labrun_subclass": [
+      1,
+      4,
+      11,
+      12,
+      50,
+      67,
+      72,
+      78,
+      135,
+      163
+    ],
+    "mass_function_only_assigns_subsets": [
+      44,
+      46,
+      140,
+      184,
+      186
+    ],
+    "mass_function_subclass": [
+      47,
+      135,
+      140
+    ],
+    "metric_with_unit": [
+      20
+    ],
+    "nist80053_control_subclass": [
+      5,
+      26,
+      80,
+      138,
+      188
+    ],
+    "policy_only_applies_to": [
+      26,
+      34,
+      165,
+      183,
+      186
+    ],
+    "policy_only_governs_artifacts": [
+      4,
+      24,
+      26,
+      44,
+      46,
+      66,
+      67,
+      140,
+      142,
+      146,
+      181,
+      186
+    ],
+    "schemaorg_event_starttime": [
+      26,
+      42,
+      46,
+      97,
+      105,
+      155,
+      159,
+      161,
+      186,
+      191
+    ],
+    "schemaorg_person_roleat": [
+      26,
+      46,
+      47,
+      83,
+      123,
+      125,
+      159
+    ],
+    "state_transitions_from": [
+      0,
+      7,
+      25,
+      26,
+      44,
+      161,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "09a6d2fff884e47a",
-      "family": "02_observation_measurement",
+      "id": "ch_live_audit_with_findings_04b021",
+      "family": "03_directive_governance",
       "topics": [
         14,
-        37,
-        188
+        32,
+        69,
+        92,
+        171
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
+        "audit_with_findings",
+        "backward_compatible_with",
+        "baseline_for_metric"
       ]
     },
     {
-      "id": "24258fcab4b7e4c4",
+      "id": "ch_live_belief_interval_basic_76cd25",
+      "family": "06_belief_structure",
+      "topics": [
+        14,
+        32,
+        69,
+        171,
+        186
+      ],
+      "cited_terms": [
+        "belief_interval_basic",
+        "dataset_at_version",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "ch_live_breaking_change_subclass_341572",
+      "family": "07_long_tail",
+      "topics": [
+        14,
+        22,
+        29,
+        33,
+        38
+      ],
+      "cited_terms": [
+        "breaking_change_subclass",
+        "labrun_subclass",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_revision_of_2f0e3f",
+      "family": "05_provo_lineage",
+      "topics": [
+        14,
+        24,
+        32,
+        40,
+        68
+      ],
+      "cited_terms": [
+        "dataset_revision_of",
+        "audit_with_findings",
+        "schemaorg_person_roleat"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_only_assigns_subsets_0b33c9",
+      "family": "06_belief_structure",
+      "topics": [
+        14,
+        32,
+        69,
+        171,
+        186
+      ],
+      "cited_terms": [
+        "mass_function_only_assigns_subsets",
+        "ice_subclass_with_part",
+        "audit_with_findings"
+      ]
+    },
+    {
+      "id": "ch_live_metric_with_unit_0873cf",
+      "family": "07_long_tail",
+      "topics": [
+        14,
+        20,
+        32,
+        69,
+        171
+      ],
+      "cited_terms": [
+        "metric_with_unit",
+        "audit_with_findings",
+        "schemaorg_event_starttime"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_applies_to_5addfc",
+      "family": "01_foundation",
+      "topics": [
+        14,
+        22,
+        29,
+        33,
+        38
+      ],
+      "cited_terms": [
+        "policy_only_applies_to",
+        "gdpr_article_subclass",
+        "trace_supports_claim"
+      ]
+    },
+    {
+      "id": "ch_live_policy_only_governs_artifacts_f8339f",
+      "family": "03_directive_governance",
+      "topics": [
+        14,
+        32,
+        69,
+        171,
+        186
+      ],
+      "cited_terms": [
+        "policy_only_governs_artifacts",
+        "audit_with_findings",
+        "ebpfmap_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_state_transitions_from_5dabe9",
       "family": "02_observation_measurement",
       "topics": [
         14,
         32,
-        130
+        69,
+        171,
+        186
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
+        "state_transitions_from",
+        "equiv_intersect_with_two_restrictions",
+        "audit_with_findings"
       ]
     },
     {
-      "id": "545aeee17721037c",
-      "family": "02_observation_measurement",
+      "id": "ch_live_trace_supports_claim_983ff1",
+      "family": "07_long_tail",
       "topics": [
         14,
-        170,
-        191
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "5f39185782e08180",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        82,
-        139
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "63e135fd9485614d",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        97,
-        165
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "6c032b999bf2a7ec",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        153,
-        154
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "6cc5debe0ed1a273",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        75,
-        164
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "6d4200ca08af0b17",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        76,
-        181
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "7af0068b463e1c2c",
-      "family": "02_observation_measurement",
-      "topics": [
-        5,
-        14,
-        121
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "8d594a9ecd6c66f8",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
+        22,
+        29,
         33,
-        85
+        38
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
+        "trace_supports_claim",
+        "mass_function_subclass",
+        "nist80053_control_subclass"
       ]
     },
     {
-      "id": "a81659b46f6c8c6f",
-      "family": "02_observation_measurement",
+      "id": "ch_live_trace_supports_claim_f5a870",
+      "family": "07_long_tail",
       "topics": [
         14,
-        115,
-        158
+        22,
+        29,
+        33,
+        38
       ],
       "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "ab880618d04c47f9",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        130,
-        183
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "b796e52869f6ac04",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        133,
-        190
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "c20adca3fba377ea",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        75,
-        86
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "d3898ab9362151b4",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        27,
-        71
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "e5d5fd696b2dfd57",
-      "family": "02_observation_measurement",
-      "topics": [
-        7,
-        14,
-        148
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
-      ]
-    },
-    {
-      "id": "f89be7c7189b6038",
-      "family": "02_observation_measurement",
-      "topics": [
-        14,
-        120,
-        194
-      ],
-      "cited_terms": [
-        "outlier_claim_min_one_attribute",
-        "alert_triggered_by",
-        "outlier_claim_basic",
-        "metric_emission_subclass",
-        "aggregation_basic"
+        "trace_supports_claim",
+        "flood_asset_vulnerability_assessment",
+        "counter_metric_subclass"
       ]
     }
   ]

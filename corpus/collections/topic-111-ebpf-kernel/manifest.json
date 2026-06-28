@@ -1,299 +1,192 @@
 {
   "topic_id": 111,
   "family": "04_ebpf_kernel",
-  "n_chapters": 10,
+  "n_chapters": 4,
   "coverage_score": 0.11101245880126953,
   "topic_repr": "Access Free N Avasthi Chemistry Solution Free Download Pdf\n\nCBSE Class 12th Chemistry (10 Most Likely Question Papers with Solution) By Career Point Kota Advanced Problems In Physical Chemistry For Competitive Examination Inorganic Chemistry of the Main-Group Elements Indian Journal of Chemistry. Section A. Inorganic, Physical, Theoretical, and Analytical Numerical Chemistry Indian Journal of Chem...",
   "terms": [
-    "attestation_signed_by",
-    "audit_conducted_by",
-    "audit_for_period",
-    "audit_subclass",
-    "requirement_equiv_specifies_target"
+    "allocation_associated_with_agent",
+    "constraint_only_constrains",
+    "ebpfprogram_basic",
+    "existential_with_has_part",
+    "kernelhook_basic",
+    "kernelhook_for_subsystem",
+    "kernelhook_in_kernel_module",
+    "mass_function_min_one_focal",
+    "policy_authored_by",
+    "syscall_subclass"
   ],
   "tables": [
-    "t_attestation_signed_by",
-    "t_audit_conducted_by",
-    "t_audit_for_period",
-    "t_audit_subclass",
-    "t_requirement_equiv_specifies_target"
+    "t_allocation_associated_with_agent",
+    "t_constraint_only_constrains",
+    "t_ebpfprogram_basic",
+    "t_existential_with_has_part",
+    "t_kernelhook_basic",
+    "t_kernelhook_for_subsystem",
+    "t_kernelhook_in_kernel_module",
+    "t_mass_function_min_one_focal",
+    "t_policy_authored_by",
+    "t_syscall_subclass"
   ],
   "topics": [
-    8,
-    16,
-    20,
-    33,
-    37,
-    42,
-    51,
-    76,
-    89,
-    91,
-    94,
-    104,
-    108,
-    110,
+    30,
+    61,
+    71,
     111,
-    134,
-    143,
-    151,
-    164,
-    173
+    158,
+    188
   ],
   "shared_tables": {
-    "attestation_signed_by": [
-      2,
-      4,
-      5,
+    "allocation_associated_with_agent": [
+      10,
+      12,
       26,
-      28,
-      30,
-      37,
-      43,
-      65,
-      70,
-      73,
-      75,
-      88,
-      96,
-      99,
-      127,
-      132,
-      150,
-      163,
-      165,
-      190
+      66,
+      159,
+      183,
+      186
     ],
-    "audit_conducted_by": [
+    "constraint_only_constrains": [
       2,
-      20,
-      32,
-      33,
-      37,
-      43,
-      57,
-      73,
-      76,
-      95,
-      102,
-      132,
-      144,
-      150,
-      160,
-      163,
-      171,
-      179,
-      196
-    ],
-    "audit_for_period": [
-      3,
-      20,
-      32,
-      37,
-      43,
-      57,
-      65,
-      76,
-      171,
-      179,
-      187
-    ],
-    "audit_subclass": [
-      3,
-      5,
-      32,
-      70,
-      179
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
-      4,
-      7,
-      15,
-      20,
-      21,
-      47,
-      68,
-      71,
-      73,
-      75,
-      86,
-      88,
-      95,
-      96,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
+      11,
+      23,
+      35,
+      159,
+      181,
+      183,
       186,
-      191,
-      199
+      195
+    ],
+    "ebpfprogram_basic": [
+      1,
+      2,
+      12,
+      97
+    ],
+    "existential_with_has_part": [
+      26,
+      45,
+      47,
+      67,
+      79,
+      140,
+      186
+    ],
+    "kernelhook_basic": [
+      10,
+      11,
+      12,
+      24,
+      42,
+      60,
+      61
+    ],
+    "kernelhook_for_subsystem": [
+      5,
+      7,
+      10,
+      19,
+      24,
+      61,
+      65,
+      100,
+      188
+    ],
+    "kernelhook_in_kernel_module": [
+      21,
+      30
+    ],
+    "mass_function_min_one_focal": [
+      4,
+      26,
+      34,
+      42,
+      44,
+      60,
+      165,
+      183,
+      186
+    ],
+    "policy_authored_by": [
+      1,
+      6,
+      23,
+      35,
+      120,
+      128,
+      135,
+      155,
+      158,
+      183
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      42,
+      46,
+      66,
+      104,
+      147,
+      154,
+      168,
+      183,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "28018f0f5fc4ac68",
-      "family": "03_directive_governance",
+      "id": "ch_live_constraint_only_constrains_ecd81b",
+      "family": "01_foundation",
       "topics": [
-        110,
         111,
-        143
+        158
       ],
       "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
+        "constraint_only_constrains",
+        "existential_with_has_part",
+        "ebpfprogram_basic"
       ]
     },
     {
-      "id": "2f20a5db47d58116",
-      "family": "03_directive_governance",
+      "id": "ch_live_ebpfprogram_basic_da73a0",
+      "family": "04_ebpf_kernel",
       "topics": [
-        20,
-        91,
-        111
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "4eee8295b1b47a03",
-      "family": "03_directive_governance",
-      "topics": [
-        37,
-        42,
-        111
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "509e4c76401a8196",
-      "family": "03_directive_governance",
-      "topics": [
-        89,
         111,
-        164
+        158
       ],
       "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
+        "ebpfprogram_basic",
+        "policy_authored_by",
+        "allocation_associated_with_agent"
       ]
     },
     {
-      "id": "59521679bc16cf8e",
-      "family": "03_directive_governance",
+      "id": "ch_live_kernelhook_basic_77bb3c",
+      "family": "04_ebpf_kernel",
       "topics": [
-        8,
+        30,
+        61,
+        71,
         111,
-        151
+        188
       ],
       "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
+        "kernelhook_basic",
+        "kernelhook_for_subsystem",
+        "kernelhook_in_kernel_module"
       ]
     },
     {
-      "id": "5b92f7b87b6251cd",
-      "family": "03_directive_governance",
+      "id": "ch_live_syscall_subclass_d954d6",
+      "family": "04_ebpf_kernel",
       "topics": [
-        33,
-        51,
-        111
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8180cc719afa6b3d",
-      "family": "03_directive_governance",
-      "topics": [
-        108,
         111,
-        134
+        158
       ],
       "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "d70cbe66f751e52f",
-      "family": "03_directive_governance",
-      "topics": [
-        16,
-        94,
-        111
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "edddb10a4da29e35",
-      "family": "03_directive_governance",
-      "topics": [
-        76,
-        111,
-        173
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "f3a261cb114c53e7",
-      "family": "03_directive_governance",
-      "topics": [
-        91,
-        104,
-        111
-      ],
-      "cited_terms": [
-        "audit_for_period",
-        "audit_conducted_by",
-        "audit_subclass",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
+        "syscall_subclass",
+        "mass_function_min_one_focal",
+        "ebpfprogram_basic"
       ]
     }
   ]

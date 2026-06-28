@@ -1,201 +1,1195 @@
 {
   "topic_id": 24,
   "family": "05_provo_lineage",
-  "n_chapters": 10,
-  "coverage_score": 0.22745533287525177,
+  "n_chapters": 32,
+  "coverage_score": 0.22900760173797607,
   "topic_repr": "Choreomundus: Master\u2019s Degree in Dance\nHeritage, Knowledge, and Practice\n\nMaster\u2019s Dissertation by\nSarah Amawi\n\nDepoliticisation of Dabke: A Case of Staged Dabke in a European Context\n\nSpring 2020\n\nDEDICATION\n\nThis work is first dedicated to Njoud, my mother, and the warrior who brought me this far. Everything I am, I owe to you..\n\nTo the people of the Levant.. who are carrying their causes and st...",
   "terms": [
-    "outlier_claim_basic",
-    "outlier_claim_min_one_attribute",
-    "schemaorg_product_price"
+    "account_authorization_record",
+    "agent_acts_on_behalf_of",
+    "agent_at_organization",
+    "aggregation_grouped_by",
+    "allocation_at_run_id",
+    "allocation_succeeded_or_failed",
+    "appointment_scheduling_process",
+    "attestation_subclass",
+    "attribute_set_supports_outlier_claim",
+    "audit_basic",
+    "audit_for_period",
+    "black_belt_certification_requirement",
+    "client_data_record",
+    "constraint_with_severity_classification",
+    "crop_parasitism_impact",
+    "dataset_at_version",
+    "dataset_revision_of",
+    "dataset_was_attributed_to",
+    "dataset_was_derived_from",
+    "dataset_was_generated_by",
+    "directive_union_constraint_or_policy",
+    "ebpf_event_at_hook",
+    "ebpfevent_at_kernel_hook_xref",
+    "ebpfmap_equiv_kv_typed",
+    "ebpfprogram_governed_by_security_policy",
+    "ebpfprogram_with_license",
+    "ebpfprogram_writes_to_map_xref",
+    "evidence_with_mass_function",
+    "executive_leadership_role",
+    "existential_generic",
+    "frame_refinement",
+    "identifier_subclass",
+    "kernelhook_basic",
+    "kernelhook_for_subsystem",
+    "kernelhook_with_attached_program",
+    "kernelhook_with_hook_kind",
+    "lineage_edge_to_target",
+    "myxoid_degeneration_process",
+    "national_dataset_augmentation_process",
+    "outlier_claim_subclass",
+    "policy_classification_tier",
+    "policy_only_governs_artifacts",
+    "process_with_participant",
+    "professional_expertise_domain",
+    "profile_has_distribution",
+    "profile_of_dataset",
+    "profiling_produces_profile",
+    "requirement_verified_by",
+    "schemaorg_review_rating",
+    "schemaorg_review_target",
+    "soc2_processing_integrity",
+    "span_with_status",
+    "subclass_not_basic",
+    "syscall_at_security_tier",
+    "syscall_basic",
+    "syscall_with_return_type",
+    "telemetry_span_observes_syscall",
+    "trace_with_root_span",
+    "two_disjoint_artifacts",
+    "vehicle_equipment_specification",
+    "verification_basic",
+    "verification_targets_artifact",
+    "verification_with_method",
+    "xdp_action_pass"
   ],
   "tables": [
-    "t_outlier_claim_basic",
-    "t_outlier_claim_min_one_attribute",
-    "t_schemaorg_product_price"
+    "t_account_authorization_record",
+    "t_agent_acts_on_behalf_of",
+    "t_agent_at_organization",
+    "t_aggregation_grouped_by",
+    "t_allocation_at_run_id",
+    "t_allocation_succeeded_or_failed",
+    "t_appointment_scheduling_process",
+    "t_attestation_subclass",
+    "t_attribute_set_supports_outlier_claim",
+    "t_audit_basic",
+    "t_audit_for_period",
+    "t_black_belt_certification_requirement",
+    "t_client_data_record",
+    "t_constraint_with_severity_classification",
+    "t_crop_parasitism_impact",
+    "t_dataset_at_version",
+    "t_dataset_revision_of",
+    "t_dataset_was_attributed_to",
+    "t_dataset_was_derived_from",
+    "t_dataset_was_generated_by",
+    "t_directive_union_constraint_or_policy",
+    "t_ebpf_event_at_hook",
+    "t_ebpfevent_at_kernel_hook_xref",
+    "t_ebpfmap_equiv_kv_typed",
+    "t_ebpfprogram_governed_by_security_policy",
+    "t_ebpfprogram_with_license",
+    "t_ebpfprogram_writes_to_map_xref",
+    "t_evidence_with_mass_function",
+    "t_executive_leadership_role",
+    "t_existential_generic",
+    "t_frame_refinement",
+    "t_identifier_subclass",
+    "t_kernelhook_basic",
+    "t_kernelhook_for_subsystem",
+    "t_kernelhook_with_attached_program",
+    "t_kernelhook_with_hook_kind",
+    "t_lineage_edge_to_target",
+    "t_myxoid_degeneration_process",
+    "t_national_dataset_augmentation_process",
+    "t_outlier_claim_subclass",
+    "t_policy_classification_tier",
+    "t_policy_only_governs_artifacts",
+    "t_process_with_participant",
+    "t_professional_expertise_domain",
+    "t_profile_has_distribution",
+    "t_profile_of_dataset",
+    "t_profiling_produces_profile",
+    "t_requirement_verified_by",
+    "t_schemaorg_review_rating",
+    "t_schemaorg_review_target",
+    "t_soc2_processing_integrity",
+    "t_span_with_status",
+    "t_subclass_not_basic",
+    "t_syscall_at_security_tier",
+    "t_syscall_basic",
+    "t_syscall_with_return_type",
+    "t_telemetry_span_observes_syscall",
+    "t_trace_with_root_span",
+    "t_two_disjoint_artifacts",
+    "t_vehicle_equipment_specification",
+    "t_verification_basic",
+    "t_verification_targets_artifact",
+    "t_verification_with_method",
+    "t_xdp_action_pass"
   ],
   "topics": [
-    1,
-    14,
-    19,
-    21,
     24,
+    26,
+    31,
+    34,
+    40,
     43,
-    46,
-    50,
-    80,
-    103,
-    120,
-    125,
-    127,
-    150,
-    158,
-    159,
-    169,
-    173,
-    188
+    44,
+    49,
+    61,
+    66,
+    68,
+    71,
+    82,
+    102,
+    105,
+    107,
+    112,
+    133,
+    136,
+    142,
+    143,
+    151,
+    183
   ],
   "shared_tables": {
-    "outlier_claim_basic": [
-      14,
-      49,
+    "account_authorization_record": [
+      2,
+      26,
+      27,
+      44,
+      61
+    ],
+    "agent_acts_on_behalf_of": [
+      12,
+      40
+    ],
+    "aggregation_grouped_by": [
+      26,
+      62,
+      123,
+      161,
+      181,
+      186
+    ],
+    "allocation_at_run_id": [
+      26,
+      60,
+      66,
+      106,
+      183,
+      186
+    ],
+    "allocation_succeeded_or_failed": [
+      4,
+      26,
+      46,
+      94,
+      161,
+      183,
+      186
+    ],
+    "appointment_scheduling_process": [
+      2,
+      10,
+      12,
+      19,
+      26,
+      45,
+      195
+    ],
+    "attestation_subclass": [
+      0,
+      6,
+      11,
+      47,
+      56,
+      136
+    ],
+    "attribute_set_supports_outlier_claim": [
+      23,
+      26,
+      34,
+      36,
+      161,
+      172,
+      181,
+      185,
+      186
+    ],
+    "audit_basic": [
+      3,
+      4,
+      23,
+      26,
+      31,
       54,
-      119,
-      197
+      94,
+      172
     ],
-    "outlier_claim_min_one_attribute": [
+    "audit_for_period": [
+      26,
+      31
+    ],
+    "black_belt_certification_requirement": [
+      4,
+      16,
+      94,
+      161,
+      183,
+      186,
+      188
+    ],
+    "client_data_record": [
+      6,
+      26,
+      139,
+      183
+    ],
+    "constraint_with_severity_classification": [
+      26,
+      47,
+      105,
+      143,
+      186
+    ],
+    "crop_parasitism_impact": [
+      23,
+      25,
+      46,
+      47,
+      90,
+      106,
+      125,
+      187,
+      190
+    ],
+    "dataset_at_version": [
+      0,
       14,
-      49,
-      52,
-      194,
-      197
+      45,
+      183,
+      186,
+      191
     ],
-    "schemaorg_product_price": [
-      51,
-      52,
-      126,
-      185
+    "dataset_revision_of": [
+      14
+    ],
+    "dataset_was_attributed_to": [
+      142
+    ],
+    "dataset_was_derived_from": [
+      12
+    ],
+    "dataset_was_generated_by": [
+      1,
+      33,
+      35
+    ],
+    "directive_union_constraint_or_policy": [
+      23,
+      26,
+      97,
+      159,
+      181,
+      186
+    ],
+    "ebpf_event_at_hook": [
+      65,
+      102,
+      186
+    ],
+    "ebpfevent_at_kernel_hook_xref": [
+      23,
+      26,
+      40,
+      72,
+      74,
+      161,
+      183
+    ],
+    "ebpfmap_equiv_kv_typed": [
+      21,
+      34,
+      45,
+      105,
+      181,
+      184,
+      186,
+      190
+    ],
+    "ebpfprogram_governed_by_security_policy": [
+      0,
+      23,
+      44
+    ],
+    "ebpfprogram_with_license": [
+      12,
+      49
+    ],
+    "ebpfprogram_writes_to_map_xref": [
+      25,
+      44
+    ],
+    "evidence_with_mass_function": [
+      4,
+      35,
+      40,
+      42,
+      46,
+      47,
+      67,
+      94,
+      101,
+      187
+    ],
+    "executive_leadership_role": [
+      1,
+      2,
+      26,
+      105
+    ],
+    "existential_generic": [
+      26,
+      94,
+      109,
+      183,
+      186
+    ],
+    "frame_refinement": [
+      23,
+      26,
+      44,
+      47,
+      79,
+      100,
+      140,
+      186
+    ],
+    "identifier_subclass": [
+      1,
+      47,
+      146
+    ],
+    "kernelhook_basic": [
+      10,
+      11,
+      12,
+      42,
+      60,
+      61,
+      111
+    ],
+    "kernelhook_for_subsystem": [
+      5,
+      7,
+      10,
+      19,
+      61,
+      65,
+      100,
+      111,
+      188
+    ],
+    "kernelhook_with_attached_program": [
+      4,
+      10,
+      20,
+      42,
+      44,
+      46,
+      86,
+      159,
+      186
+    ],
+    "kernelhook_with_hook_kind": [
+      3,
+      42,
+      46,
+      65,
+      67
+    ],
+    "lineage_edge_to_target": [
+      1,
+      25,
+      26,
+      81,
+      104,
+      140,
+      168,
+      186
+    ],
+    "myxoid_degeneration_process": [
+      4,
+      12,
+      20,
+      45,
+      46,
+      47,
+      54
+    ],
+    "national_dataset_augmentation_process": [
+      4,
+      39,
+      46,
+      47,
+      79,
+      104,
+      125,
+      136,
+      155,
+      186,
+      188
+    ],
+    "outlier_claim_subclass": [
+      2,
+      39,
+      92,
+      102
+    ],
+    "policy_classification_tier": [
+      7,
+      10,
+      26,
+      34,
+      47,
+      69,
+      79,
+      168,
+      186
+    ],
+    "policy_only_governs_artifacts": [
+      4,
+      14,
+      26,
+      44,
+      46,
+      66,
+      67,
+      140,
+      142,
+      146,
+      181,
+      186
+    ],
+    "process_with_participant": [
+      0,
+      1,
+      11,
+      26,
+      36,
+      60,
+      79,
+      125,
+      183,
+      186
+    ],
+    "professional_expertise_domain": [
+      1,
+      26,
+      62,
+      81,
+      105,
+      106,
+      183
+    ],
+    "profile_has_distribution": [
+      25,
+      26,
+      42,
+      45,
+      65,
+      91,
+      107,
+      186
+    ],
+    "profile_of_dataset": [
+      2,
+      10,
+      23,
+      26,
+      44,
+      80,
+      183
+    ],
+    "profiling_produces_profile": [
+      12,
+      26,
+      33,
+      46,
+      65,
+      66,
+      150,
+      186
+    ],
+    "requirement_verified_by": [
+      2,
+      25,
+      26,
+      79,
+      86,
+      180,
+      186
+    ],
+    "schemaorg_review_rating": [
+      23,
+      40,
+      56,
+      60,
+      109,
+      163
+    ],
+    "schemaorg_review_target": [
+      20,
+      26,
+      67,
+      69,
+      186
+    ],
+    "soc2_processing_integrity": [
+      26,
+      34,
+      78,
+      81,
+      172
+    ],
+    "span_with_status": [
+      26,
+      40,
+      65,
+      79,
+      92
+    ],
+    "subclass_not_basic": [
+      7,
+      26,
+      31,
+      41,
+      44,
+      60,
+      61,
+      91,
+      123,
+      183,
+      186
+    ],
+    "syscall_at_security_tier": [
+      7,
+      10,
+      12,
+      34,
+      78,
+      138
+    ],
+    "syscall_basic": [
+      20,
+      26,
+      35,
+      40,
+      79,
+      139,
+      181,
+      186
+    ],
+    "syscall_with_return_type": [
+      1,
+      44,
+      46,
+      61,
+      125,
+      128,
+      135,
+      183,
+      186
+    ],
+    "telemetry_span_observes_syscall": [
+      26,
+      35,
+      41,
+      42,
+      79,
+      81,
+      183
+    ],
+    "trace_with_root_span": [
+      0,
+      4,
+      26,
+      34,
+      44,
+      46,
+      61,
+      102,
+      183,
+      186
+    ],
+    "two_disjoint_artifacts": [
+      1,
+      12,
+      30,
+      42,
+      47,
+      54,
+      61
+    ],
+    "vehicle_equipment_specification": [
+      65,
+      67,
+      186
+    ],
+    "verification_basic": [
+      7,
+      23,
+      26,
+      41,
+      46,
+      90,
+      97,
+      105,
+      125,
+      129,
+      135,
+      147
+    ],
+    "verification_targets_artifact": [
+      1,
+      6,
+      26,
+      27,
+      35,
+      62,
+      105
+    ],
+    "verification_with_method": [
+      33,
+      125,
+      129,
+      183
+    ],
+    "xdp_action_pass": [
+      6,
+      23,
+      56,
+      65,
+      105,
+      107,
+      135,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "08760c17e15dfee9",
-      "family": "02_observation_measurement",
+      "id": "ch_live_account_authorization_record_722891",
+      "family": "08_derived",
       "topics": [
-        19,
         24,
-        50
+        40,
+        112,
+        133
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "account_authorization_record",
+        "agent_acts_on_behalf_of",
+        "agent_at_organization"
       ]
     },
     {
-      "id": "19bbf7650420f148",
-      "family": "02_observation_measurement",
+      "id": "ch_live_agent_at_organization_718f87",
+      "family": "05_provo_lineage",
       "topics": [
         24,
-        46,
-        103
+        112,
+        133,
+        183
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "agent_at_organization",
+        "verification_with_method",
+        "requirement_verified_by"
       ]
     },
     {
-      "id": "23d1095ef97f4109",
-      "family": "02_observation_measurement",
+      "id": "ch_live_agent_at_organization_9ce66b",
+      "family": "05_provo_lineage",
       "topics": [
         24,
+        112,
+        133
+      ],
+      "cited_terms": [
+        "agent_at_organization",
+        "frame_refinement",
+        "client_data_record"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_at_run_id_c1c205",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "allocation_at_run_id",
+        "vehicle_equipment_specification",
+        "dataset_was_attributed_to"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_succeeded_or_failed_44e078",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        61,
+        68,
+        112
+      ],
+      "cited_terms": [
+        "allocation_succeeded_or_failed",
+        "dataset_revision_of",
+        "two_disjoint_artifacts"
+      ]
+    },
+    {
+      "id": "ch_live_appointment_scheduling_process_d3727f",
+      "family": "08_derived",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "appointment_scheduling_process",
+        "dataset_was_attributed_to",
+        "span_with_status"
+      ]
+    },
+    {
+      "id": "ch_live_attestation_subclass_4c54d4",
+      "family": "03_directive_governance",
+      "topics": [
+        24,
+        44,
+        112,
+        133,
+        136
+      ],
+      "cited_terms": [
+        "attestation_subclass",
+        "agent_at_organization",
+        "ebpfprogram_writes_to_map_xref"
+      ]
+    },
+    {
+      "id": "ch_live_crop_parasitism_impact_f37a01",
+      "family": "08_derived",
+      "topics": [
+        24,
+        40,
+        68,
+        112,
+        133
+      ],
+      "cited_terms": [
+        "crop_parasitism_impact",
+        "dataset_at_version",
+        "dataset_revision_of"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_revision_of_56c005",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        68,
+        112,
+        133
+      ],
+      "cited_terms": [
+        "dataset_revision_of",
+        "xdp_action_pass",
+        "trace_with_root_span"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_revision_of_5c1c41",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        34,
+        40,
+        44,
+        49
+      ],
+      "cited_terms": [
+        "dataset_revision_of",
+        "syscall_at_security_tier",
+        "verification_basic"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_revision_of_ac5834",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        68,
+        112,
+        133
+      ],
+      "cited_terms": [
+        "dataset_revision_of",
+        "profile_has_distribution",
+        "kernelhook_for_subsystem"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_3faf10",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "policy_only_governs_artifacts",
+        "professional_expertise_domain"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_8f8559",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "attribute_set_supports_outlier_claim",
+        "black_belt_certification_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_a882f1",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        66,
+        107,
+        143,
+        151
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "dataset_was_derived_from",
+        "dataset_was_generated_by"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_a9bb6d",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "ebpf_event_at_hook",
+        "kernelhook_with_attached_program"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_adb3a5",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "process_with_participant",
+        "lineage_edge_to_target"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_attributed_to_fc4770",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        40,
+        105,
+        112,
+        142
+      ],
+      "cited_terms": [
+        "dataset_was_attributed_to",
+        "verification_targets_artifact",
+        "profiling_produces_profile"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_derived_from_141efd",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        61,
+        66,
+        71,
+        82
+      ],
+      "cited_terms": [
+        "dataset_was_derived_from",
+        "kernelhook_basic",
+        "audit_basic"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_derived_from_1874ea",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        66,
+        82,
+        107,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_derived_from",
+        "constraint_with_severity_classification",
+        "syscall_basic"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_derived_from_27638c",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        66,
+        82,
+        107,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_derived_from",
+        "policy_classification_tier",
+        "directive_union_constraint_or_policy"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_derived_from_cf27f0",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        66,
+        82,
+        107,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_derived_from",
+        "national_dataset_augmentation_process",
+        "profile_of_dataset"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_was_derived_from_fda9bb",
+      "family": "05_provo_lineage",
+      "topics": [
+        24,
+        66,
+        82,
+        107,
+        143
+      ],
+      "cited_terms": [
+        "dataset_was_derived_from",
+        "subclass_not_basic",
+        "ebpf_event_at_hook"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_governed_by_security_policy_6ef714",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        24,
+        44,
+        49,
+        66,
+        82
+      ],
+      "cited_terms": [
+        "ebpfprogram_governed_by_security_policy",
+        "dataset_was_derived_from",
+        "evidence_with_mass_function"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_with_license_c29199",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        24,
+        26,
+        31,
         43,
-        80
+        49
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "ebpfprogram_with_license",
+        "dataset_was_derived_from",
+        "audit_for_period"
       ]
     },
     {
-      "id": "51460ba799686167",
+      "id": "ch_live_executive_leadership_role_08e6ab",
+      "family": "08_derived",
+      "topics": [
+        24,
+        40,
+        112,
+        142,
+        143
+      ],
+      "cited_terms": [
+        "executive_leadership_role",
+        "dataset_was_attributed_to",
+        "aggregation_grouped_by"
+      ]
+    },
+    {
+      "id": "ch_live_existential_generic_4302ca",
+      "family": "01_foundation",
+      "topics": [
+        24,
+        66,
+        82,
+        107,
+        143
+      ],
+      "cited_terms": [
+        "existential_generic",
+        "identifier_subclass",
+        "dataset_was_derived_from"
+      ]
+    },
+    {
+      "id": "ch_live_myxoid_degeneration_process_6e583b",
+      "family": "08_derived",
+      "topics": [
+        24,
+        112,
+        133
+      ],
+      "cited_terms": [
+        "myxoid_degeneration_process",
+        "agent_at_organization",
+        "syscall_with_return_type"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_subclass_605b9f",
       "family": "02_observation_measurement",
       "topics": [
         24,
-        127,
-        169
+        40,
+        102,
+        112,
+        142
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "outlier_claim_subclass",
+        "dataset_was_attributed_to",
+        "soc2_processing_integrity"
       ]
     },
     {
-      "id": "5a8071b7c0b0d4cc",
-      "family": "02_observation_measurement",
+      "id": "ch_live_schemaorg_review_rating_25dc86",
+      "family": "07_long_tail",
       "topics": [
         24,
-        127,
-        173
+        40,
+        112,
+        142,
+        143
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "schemaorg_review_rating",
+        "dataset_was_attributed_to",
+        "ebpfevent_at_kernel_hook_xref"
       ]
     },
     {
-      "id": "5d76db7760c6bb58",
-      "family": "02_observation_measurement",
+      "id": "ch_live_schemaorg_review_target_328393",
+      "family": "07_long_tail",
       "topics": [
         24,
-        120,
-        158
+        66,
+        82,
+        107,
+        143
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "schemaorg_review_target",
+        "dataset_was_derived_from",
+        "soc2_processing_integrity"
       ]
     },
     {
-      "id": "6ffcbd486a146fb7",
-      "family": "02_observation_measurement",
-      "topics": [
-        21,
-        24,
-        150
-      ],
-      "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
-      ]
-    },
-    {
-      "id": "749cdb070da7b147",
-      "family": "02_observation_measurement",
-      "topics": [
-        1,
-        14,
-        24
-      ],
-      "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
-      ]
-    },
-    {
-      "id": "a1fb037d2196017f",
-      "family": "02_observation_measurement",
+      "id": "ch_live_telemetry_span_observes_syscall_8722cc",
+      "family": "07_long_tail",
       "topics": [
         24,
-        125,
-        159
+        40,
+        68,
+        112,
+        133
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "telemetry_span_observes_syscall",
+        "kernelhook_with_hook_kind",
+        "dataset_revision_of"
       ]
     },
     {
-      "id": "ffcd897f293c2377",
-      "family": "02_observation_measurement",
+      "id": "ch_live_two_disjoint_artifacts_a13638",
+      "family": "01_foundation",
       "topics": [
         24,
-        80,
-        188
+        61,
+        112,
+        133
       ],
       "cited_terms": [
-        "schemaorg_product_price",
-        "outlier_claim_basic",
-        "outlier_claim_min_one_attribute"
+        "two_disjoint_artifacts",
+        "agent_at_organization",
+        "ebpfmap_equiv_kv_typed"
       ]
     }
   ]

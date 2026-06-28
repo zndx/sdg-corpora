@@ -1,0 +1,533 @@
+{
+  "topic_id": 161,
+  "family": "02_observation_measurement",
+  "n_chapters": 13,
+  "coverage_score": 0.2148904949426651,
+  "topic_repr": "September 11, 2007\n\nMr. Scott Miller  \nU.S. EPA Region 4  \n61 Forsyth Street, SW  \nAtlanta, Georgia 30303  \n\nWork Order No. 05791.007.001.0001\n\nRe: Submittal of Second Quarter 2007 Groundwater Sampling Results  \nFormer Cabot Carbon Site, Gainesville, Florida\n\nDear Mr. Miller:\n\nEnclosed are two copies of the above referenced report for your files. If you have any questions, please call me at (770) ...",
+  "terms": [
+    "aggregation_aggregates_measurement",
+    "aggregation_basic",
+    "aggregation_grouped_by",
+    "aggregation_over_time_window",
+    "allocation_succeeded_or_failed",
+    "attribute_set_supports_outlier_claim",
+    "black_belt_certification_requirement",
+    "cardinality_exactly_one_generic",
+    "claim_basic",
+    "dempster_combinant_first",
+    "descriptive_not_retracted",
+    "ebpfevent_at_kernel_hook_xref",
+    "ebpfmap_subclass",
+    "entity_match_link",
+    "measurement_max_one_value",
+    "measurement_observed_at",
+    "measurement_of_artifact",
+    "measurement_produced_by_run",
+    "metric_observed_by_event",
+    "nist80053_moderate_impact",
+    "policy_enforced_by",
+    "requirement_traces_to",
+    "schema_revision_of",
+    "schemaorg_event_starttime",
+    "soc2_privacy_subclass",
+    "state_transitions_from",
+    "subclass_basic",
+    "syscall_invoked_by_event",
+    "uretprobe_subclass"
+  ],
+  "tables": [
+    "t_aggregation_aggregates_measurement",
+    "t_aggregation_basic",
+    "t_aggregation_grouped_by",
+    "t_aggregation_over_time_window",
+    "t_allocation_succeeded_or_failed",
+    "t_attribute_set_supports_outlier_claim",
+    "t_black_belt_certification_requirement",
+    "t_cardinality_exactly_one_generic",
+    "t_claim_basic",
+    "t_dempster_combinant_first",
+    "t_descriptive_not_retracted",
+    "t_ebpfevent_at_kernel_hook_xref",
+    "t_ebpfmap_subclass",
+    "t_entity_match_link",
+    "t_measurement_max_one_value",
+    "t_measurement_observed_at",
+    "t_measurement_of_artifact",
+    "t_measurement_produced_by_run",
+    "t_metric_observed_by_event",
+    "t_nist80053_moderate_impact",
+    "t_policy_enforced_by",
+    "t_requirement_traces_to",
+    "t_schema_revision_of",
+    "t_schemaorg_event_starttime",
+    "t_soc2_privacy_subclass",
+    "t_state_transitions_from",
+    "t_subclass_basic",
+    "t_syscall_invoked_by_event",
+    "t_uretprobe_subclass"
+  ],
+  "topics": [
+    161
+  ],
+  "shared_tables": {
+    "aggregation_aggregates_measurement": [
+      0,
+      3,
+      39,
+      46,
+      66,
+      186
+    ],
+    "aggregation_basic": [
+      44,
+      60
+    ],
+    "aggregation_grouped_by": [
+      24,
+      26,
+      62,
+      123,
+      181,
+      186
+    ],
+    "aggregation_over_time_window": [
+      26,
+      27,
+      36,
+      40,
+      65,
+      94,
+      102,
+      122,
+      147,
+      186
+    ],
+    "allocation_succeeded_or_failed": [
+      4,
+      24,
+      26,
+      46,
+      94,
+      183,
+      186
+    ],
+    "attribute_set_supports_outlier_claim": [
+      23,
+      24,
+      26,
+      34,
+      36,
+      172,
+      181,
+      185,
+      186
+    ],
+    "black_belt_certification_requirement": [
+      4,
+      16,
+      24,
+      94,
+      183,
+      186,
+      188
+    ],
+    "cardinality_exactly_one_generic": [
+      11,
+      26,
+      33,
+      40,
+      106,
+      163,
+      172,
+      184,
+      186,
+      190
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      105,
+      128,
+      135,
+      136,
+      159,
+      168,
+      181,
+      183,
+      186
+    ],
+    "dempster_combinant_first": [
+      2,
+      3,
+      26,
+      38,
+      100,
+      105,
+      168,
+      183
+    ],
+    "descriptive_not_retracted": [
+      1,
+      4,
+      12,
+      26,
+      40,
+      47,
+      67,
+      69,
+      94,
+      138,
+      181,
+      186,
+      187,
+      191
+    ],
+    "ebpfevent_at_kernel_hook_xref": [
+      23,
+      24,
+      26,
+      40,
+      72,
+      74,
+      183
+    ],
+    "ebpfmap_subclass": [
+      14,
+      23,
+      34,
+      100,
+      102,
+      181,
+      186
+    ],
+    "entity_match_link": [
+      2,
+      3,
+      5,
+      23,
+      26,
+      60,
+      66,
+      81,
+      140,
+      172,
+      186
+    ],
+    "measurement_max_one_value": [
+      20,
+      44,
+      100,
+      109
+    ],
+    "measurement_observed_at": [
+      4,
+      33,
+      45,
+      80,
+      119,
+      138,
+      186
+    ],
+    "measurement_of_artifact": [
+      4,
+      10,
+      16,
+      36,
+      44,
+      65,
+      100,
+      183,
+      186
+    ],
+    "measurement_produced_by_run": [
+      5
+    ],
+    "metric_observed_by_event": [
+      1,
+      8,
+      26,
+      27,
+      104,
+      159,
+      186
+    ],
+    "nist80053_moderate_impact": [
+      4,
+      6,
+      7,
+      35,
+      41,
+      44,
+      46,
+      58,
+      129,
+      140,
+      186
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      91,
+      97,
+      128,
+      181,
+      185,
+      188
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      105,
+      168,
+      183,
+      186,
+      188
+    ],
+    "schema_revision_of": [
+      4,
+      26,
+      46,
+      47,
+      60,
+      100,
+      163,
+      181,
+      186
+    ],
+    "schemaorg_event_starttime": [
+      14,
+      26,
+      42,
+      46,
+      97,
+      105,
+      155,
+      159,
+      186,
+      191
+    ],
+    "soc2_privacy_subclass": [
+      4,
+      19,
+      34,
+      81,
+      125,
+      183,
+      188
+    ],
+    "state_transitions_from": [
+      0,
+      7,
+      14,
+      25,
+      26,
+      44,
+      183,
+      186
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
+      68,
+      81,
+      86,
+      91,
+      128,
+      183,
+      185,
+      186
+    ],
+    "syscall_invoked_by_event": [
+      10,
+      31,
+      35,
+      42,
+      105,
+      106,
+      107
+    ],
+    "uretprobe_subclass": [
+      67,
+      94,
+      183,
+      186,
+      195
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_aggregation_basic_61e6a5",
+      "family": "02_observation_measurement",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "aggregation_basic",
+        "aggregation_grouped_by",
+        "aggregation_over_time_window"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_succeeded_or_failed_de1d08",
+      "family": "05_provo_lineage",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "allocation_succeeded_or_failed",
+        "black_belt_certification_requirement",
+        "measurement_produced_by_run"
+      ]
+    },
+    {
+      "id": "ch_live_cardinality_exactly_one_generic_59d48a",
+      "family": "01_foundation",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "cardinality_exactly_one_generic",
+        "subclass_basic",
+        "measurement_produced_by_run"
+      ]
+    },
+    {
+      "id": "ch_live_descriptive_not_retracted_1f9759",
+      "family": "07_long_tail",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "descriptive_not_retracted",
+        "measurement_produced_by_run",
+        "aggregation_aggregates_measurement"
+      ]
+    },
+    {
+      "id": "ch_live_entity_match_link_5c2051",
+      "family": "07_long_tail",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "entity_match_link",
+        "dempster_combinant_first",
+        "aggregation_basic"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_max_one_value_9a8afb",
+      "family": "02_observation_measurement",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "measurement_max_one_value",
+        "attribute_set_supports_outlier_claim",
+        "ebpfmap_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_observed_at_ce3c1f",
+      "family": "02_observation_measurement",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "measurement_observed_at",
+        "measurement_of_artifact",
+        "measurement_produced_by_run"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_produced_by_run_32f5c2",
+      "family": "02_observation_measurement",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "measurement_produced_by_run",
+        "nist80053_moderate_impact",
+        "ebpfevent_at_kernel_hook_xref"
+      ]
+    },
+    {
+      "id": "ch_live_measurement_produced_by_run_c1e9b7",
+      "family": "02_observation_measurement",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "measurement_produced_by_run",
+        "requirement_traces_to",
+        "claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_metric_observed_by_event_d9a983",
+      "family": "07_long_tail",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "metric_observed_by_event",
+        "measurement_max_one_value",
+        "policy_enforced_by"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_event_starttime_66107d",
+      "family": "07_long_tail",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "schemaorg_event_starttime",
+        "measurement_max_one_value",
+        "state_transitions_from"
+      ]
+    },
+    {
+      "id": "ch_live_soc2_privacy_subclass_748f9d",
+      "family": "07_long_tail",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "soc2_privacy_subclass",
+        "uretprobe_subclass",
+        "measurement_max_one_value"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_invoked_by_event_f6d887",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        161
+      ],
+      "cited_terms": [
+        "syscall_invoked_by_event",
+        "schema_revision_of",
+        "measurement_produced_by_run"
+      ]
+    }
+  ]
+}

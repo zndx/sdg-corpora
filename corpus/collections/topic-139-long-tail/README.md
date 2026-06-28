@@ -1,43 +1,42 @@
 # Collection — topic 139 · 07_long_tail
 
-FinePDFs-grounded topic (carried forward from the coverage audit). **15 chapters** · **26 topics** (target + style) · **5 ontology terms** · **5 underlying tables**.
-
-**Topics (many-to-many).** The documents draw on, beyond the anchor topic 139: topic 19, topic 26, topic 27, topic 32, topic 38, topic 43, topic 44, topic 46, topic 53, topic 64, topic 74, topic 76, topic 98, topic 104, topic 109, topic 111, topic 120, topic 144, topic 158, topic 160, topic 165, topic 179, topic 194, topic 197, topic 199.
+FinePDFs-grounded topic (carried forward from the coverage audit). **4 chapters** · **1 topics** (target + style) · **11 ontology terms** · **11 underlying tables**.
 
 > **Topic gist** (representative FinePDFs text): February 2016 Drug Court Practitioner Fact Sheet Vol. XI, No. 1 Understanding and Detecting Prescription Drug Misuse and Misuse Disorders By Sandra Lapham, MD, MPH, DFASAM Senior Research Scientist, Behavioral Health Research Center of the Southwest, Pacific Institute for Research and Evaluation T his fact sheet is designed for court professionals. It describes prescription drug misuse and pr... …
 
 ## Chapters
 
-- [Ontological Modeling of Laboratory Processes via Relational Schemas](chapters/0374328fe760a2c4.md)
-- [Chapter 7: Kernel-Space Observability and Metric Compliance Auditing](chapters/183cc37a42d11521.md)
-- [Chapter 7: Relational Encoding of Metric-Emission and Traceable Process Classes](chapters/3a43732ff8aed1a9.md)
-- [Chapter 7: Ontological Frameworks for Kernel Observability and Compliance Auditing](chapters/51996ac24434a037.md)
-- [Chapter 7: Formal Ontologies for Kernel Observability and Compliance Auditing](chapters/536581ac640c2938.md)
-- [Chapter 4: Ontological Foundations of System Observability and Metric Attribution](chapters/5eda6ad73ecf47f5.md)
-- [Chapter 7: Process Subclassing, Protocol Adherence and Kernel Traceability in Laboratory Monitoring](chapters/7d40692489069563.md)
-- [Laboratory Execution Ontologies and Kernel Traceability](chapters/7e5bbbf30529798d.md)
-- [Chapter 7: Kernel Observability and Metric Emission Protocols](chapters/8d52cdd22478d5d4.md)
-- [Chapter 4: Ontological Foundations for Kernel-Level Observability and Compliance Tracing](chapters/9ac12d876c73a9b6.md)
-- [Chapter 7: Ontological Compliance for Kernel Observability and Metric Traceability](chapters/9f74a548aeb64144.md)
-- [Chapter 7: Observability Frameworks and Metric Compliance in Kernel-Space Environments](chapters/abf66720643d435c.md)
-- [Chapter 4: Ontological Foundations for Kernel Audit and Metric Compliance](chapters/dada66c6928f2fd6.md)
-- [Chapter 4: Kernel-Level Observability and Compliance Tracing Frameworks](chapters/ec748184cdf2b493.md)
-- [Chapter 4: Ontological Foundations for Kernel Audit and Compliance Frameworks](chapters/f3c4200fca35b03d.md)
+- [ch_live_client_data_record_903ef2](chapters/ch_live_client_data_record_903ef2.md)
+- [ch_live_clinical_performance_evaluation_55364f](chapters/ch_live_clinical_performance_evaluation_55364f.md)
+- [ch_live_functional_dependency_lhs_b26bc9](chapters/ch_live_functional_dependency_lhs_b26bc9.md)
+- [ch_live_profiling_with_method_256327](chapters/ch_live_profiling_with_method_256327.md)
 
 ## Ontology terms grounding this collection
 
-- `alert_triggered_by` — {X} is a process that triggered by metric {Y}
-- `ebpfevent_observes_syscall_xref` — {X} is a process that observes syscall designative information content entity
-- `labrun_with_protocol` — {X} is a process that follows protocol {Y}
-- `metric_emission_subclass` — {X} is a process that emits metric {Y}
-- `syscall_traceable` — {X} is a designative information content entity that traceable by {Y}
+- `attribute_set_min_one` — {X} is a descriptive information content entity
+- `client_data_record` — A ClientDataRecord is an information content entity that contains some ClientStatisticalInformation.
+- `clinical_performance_evaluation` — A ClinicalPerformanceEvaluation is an InformationContentEntity that utilizes some QuantitativeAnalyticTool, evaluates so
+- `clinical_quality_research_role` — A ClinicalQualityResearchRole is a Role that holds role in exactly 1 EMSAuthority and applies to some ClinicalQualityDat
+- `constraint_check_subclass` — {X} is a directive information content entity that checks {Y}
+- `functional_dependency_lhs` — {X} is a descriptive information content entity that has fdleft hand side {Y}
+- `functional_dependency_rhs` — {X} is a descriptive information content entity that has fdright hand side {Y}
+- `ganglion_cyst_imaging_finding` — GanglionCystImagingFinding is an information content entity that visualizes some MagneticResonanceImagingModality.
+- `professional_experience` — A ProfessionalExperience is an InformationContentEntity that relates a Person to an Organization and records a duration 
+- `profiling_with_method` — {X} is a process that applies method {Y}
+- `syscall_basic` — {X} is a designative information content entity
 
 ## Underlying relational tables (semantic columns)
 
 _The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
 
-- [`t_alert_triggered_by`](tables/t_alert_triggered_by.sql) — realizes `alert_triggered_by` · _shared with 3 other collection(s)_
-- [`t_ebpfevent_observes_syscall_xref`](tables/t_ebpfevent_observes_syscall_xref.sql) — realizes `ebpfevent_observes_syscall_xref` · _shared with 1 other collection(s)_
-- [`t_labrun_with_protocol`](tables/t_labrun_with_protocol.sql) — realizes `labrun_with_protocol` · _shared with 1 other collection(s)_
-- [`t_metric_emission_subclass`](tables/t_metric_emission_subclass.sql) — realizes `metric_emission_subclass` · _shared with 3 other collection(s)_
-- [`t_syscall_traceable`](tables/t_syscall_traceable.sql) — realizes `syscall_traceable` · _shared with 1 other collection(s)_
+- [`t_attribute_set_min_one`](tables/t_attribute_set_min_one.sql) — realizes `attribute_set_min_one` · _shared with 7 other collection(s)_
+- [`t_client_data_record`](tables/t_client_data_record.sql) — realizes `client_data_record` · _shared with 4 other collection(s)_
+- [`t_clinical_performance_evaluation`](tables/t_clinical_performance_evaluation.sql) — realizes `clinical_performance_evaluation` · _shared with 5 other collection(s)_
+- [`t_clinical_quality_research_role`](tables/t_clinical_quality_research_role.sql) — realizes `clinical_quality_research_role` · _shared with 5 other collection(s)_
+- [`t_constraint_check_subclass`](tables/t_constraint_check_subclass.sql) — realizes `constraint_check_subclass` · _shared with 12 other collection(s)_
+- [`t_functional_dependency_lhs`](tables/t_functional_dependency_lhs.sql) — realizes `functional_dependency_lhs` · _shared with 8 other collection(s)_
+- [`t_functional_dependency_rhs`](tables/t_functional_dependency_rhs.sql) — realizes `functional_dependency_rhs` · _shared with 8 other collection(s)_
+- [`t_ganglion_cyst_imaging_finding`](tables/t_ganglion_cyst_imaging_finding.sql) — realizes `ganglion_cyst_imaging_finding` · _shared with 11 other collection(s)_
+- [`t_professional_experience`](tables/t_professional_experience.sql) — realizes `professional_experience` · _shared with 8 other collection(s)_
+- [`t_profiling_with_method`](tables/t_profiling_with_method.sql) — realizes `profiling_with_method` · _shared with 9 other collection(s)_
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 8 other collection(s)_

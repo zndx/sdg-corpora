@@ -1,324 +1,71 @@
 {
   "topic_id": 73,
   "family": "03_directive_governance",
-  "n_chapters": 10,
-  "coverage_score": 0.36543142795562744,
+  "n_chapters": 1,
+  "coverage_score": 0.38515886664390564,
   "topic_repr": "1. Evaluation of the judicial systems (2016-2018 cycle)\n\nSerbia\n\nReference data 2016 (01/01/2016 - 31/12/2016)\n\nStart/end date of the data collection campaign : 01/06/2017 - 31/12/2017\n\nObjective :\n\nThe CEPEJ decided, at its 28th plenary meeting, to launch the seventh evaluation cycle 2016 \u2013 2018, focused on 2016 data. The CEPEJ wishes to use the methodology developed in the previous cycles to get...",
   "terms": [
-    "attestation_signed_by",
-    "attestation_with_supporting_evidence",
-    "audit_conducted_by",
-    "gdpr_lawful_basis",
-    "requirement_equiv_specifies_target"
+    "apolitical_islam",
+    "cardinality_min_two_generic",
+    "universal_combined_with_existential"
   ],
   "tables": [
-    "t_attestation_signed_by",
-    "t_attestation_with_supporting_evidence",
-    "t_audit_conducted_by",
-    "t_gdpr_lawful_basis",
-    "t_requirement_equiv_specifies_target"
+    "t_apolitical_islam",
+    "t_cardinality_min_two_generic",
+    "t_universal_combined_with_existential"
   ],
   "topics": [
-    5,
-    23,
-    27,
-    31,
-    32,
-    42,
-    64,
-    73,
-    83,
-    101,
-    109,
-    113,
-    122,
-    125,
-    134,
-    162,
-    169,
-    199
+    73
   ],
   "shared_tables": {
-    "attestation_signed_by": [
-      2,
-      4,
+    "apolitical_islam": [
+      0,
       5,
-      26,
-      28,
-      30,
-      37,
-      43,
-      65,
-      70,
-      75,
-      88,
-      96,
-      99,
-      111,
-      127,
-      132,
-      150,
-      163,
-      165,
-      190
+      12,
+      46,
+      83,
+      119,
+      155,
+      158,
+      183,
+      185,
+      186
     ],
-    "attestation_with_supporting_evidence": [
-      2,
-      3,
-      5,
-      6,
+    "cardinality_min_two_generic": [
+      11,
+      26,
+      38,
+      42,
+      80,
+      94,
+      109,
+      186
+    ],
+    "universal_combined_with_existential": [
       7,
-      16,
-      20,
       23,
       26,
-      37,
-      44,
-      56,
-      58,
-      70,
-      71,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
+      34,
+      54,
+      81,
+      140,
       158,
-      160,
-      163,
+      183,
       186,
-      191,
-      196
-    ],
-    "audit_conducted_by": [
-      2,
-      20,
-      32,
-      33,
-      37,
-      43,
-      57,
-      76,
-      95,
-      102,
-      111,
-      132,
-      144,
-      150,
-      160,
-      163,
-      171,
-      179,
-      196
-    ],
-    "gdpr_lawful_basis": [
-      3,
-      26,
-      30,
-      78,
-      104,
-      133,
-      138,
-      154,
-      163
-    ],
-    "requirement_equiv_specifies_target": [
-      2,
-      4,
-      7,
-      15,
-      20,
-      21,
-      47,
-      68,
-      71,
-      75,
-      86,
-      88,
-      95,
-      96,
-      111,
-      127,
-      132,
-      134,
-      144,
-      150,
-      158,
-      165,
-      171,
-      178,
-      186,
-      191,
-      199
+      188
     ]
   },
   "chapters": [
     {
-      "id": "0740f7d3573e2da2",
-      "family": "03_directive_governance",
+      "id": "ch_live_apolitical_islam_86978e",
+      "family": "08_derived",
       "topics": [
-        64,
-        73,
-        122
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "1ee9f8877137ffa6",
-      "family": "03_directive_governance",
-      "topics": [
-        5,
-        73,
-        125
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "3c9ccb7bb628a678",
-      "family": "03_directive_governance",
-      "topics": [
-        73,
-        101,
-        199
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8705cf58eed7351e",
-      "family": "03_directive_governance",
-      "topics": [
-        73,
-        101,
-        109
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "874541d01dca0fcd",
-      "family": "03_directive_governance",
-      "topics": [
-        31,
-        32,
         73
       ],
       "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "8f638a53b58132ce",
-      "family": "03_directive_governance",
-      "topics": [
-        23,
-        73,
-        83
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "bf341043f1cf192c",
-      "family": "03_directive_governance",
-      "topics": [
-        32,
-        73,
-        134
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "c0a287e3d60312a1",
-      "family": "03_directive_governance",
-      "topics": [
-        73,
-        101,
-        162
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "d101b18b4694bdc6",
-      "family": "03_directive_governance",
-      "topics": [
-        42,
-        73,
-        169
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
-      ]
-    },
-    {
-      "id": "f84ab090b08e958b",
-      "family": "03_directive_governance",
-      "topics": [
-        27,
-        73,
-        113
-      ],
-      "cited_terms": [
-        "attestation_with_supporting_evidence",
-        "gdpr_lawful_basis",
-        "audit_conducted_by",
-        "attestation_signed_by",
-        "requirement_equiv_specifies_target"
+        "apolitical_islam",
+        "universal_combined_with_existential",
+        "cardinality_min_two_generic"
       ]
     }
   ]

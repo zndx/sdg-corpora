@@ -1,0 +1,101 @@
+{
+  "topic_id": 74,
+  "family": "03_directive_governance",
+  "n_chapters": 2,
+  "coverage_score": 0.21740971505641937,
+  "topic_repr": "YRG CARE base model report: Integrated prevention, care, and support services\n\nChristopher Castle\n\nFollow this and additional works at: https://knowledgecommons.popcouncil.org/departments_sbsr-hiv\n\nHow does access to this work benefit you? Let us know!\n\nRecommended Citation\nCastle, Christopher. 2003. \"YRG CARE base model report: Integrated prevention, care, and support services,\" Horizons Project ...",
+  "terms": [
+    "anonymous_demographic_information",
+    "descriptive_only_about_artifact",
+    "directory_query_service",
+    "ebpfevent_at_kernel_hook_xref",
+    "labrun_has_operator"
+  ],
+  "tables": [
+    "t_anonymous_demographic_information",
+    "t_descriptive_only_about_artifact",
+    "t_directory_query_service",
+    "t_ebpfevent_at_kernel_hook_xref",
+    "t_labrun_has_operator"
+  ],
+  "topics": [
+    74
+  ],
+  "shared_tables": {
+    "anonymous_demographic_information": [
+      1,
+      2,
+      7,
+      10,
+      12,
+      23,
+      26,
+      54,
+      154,
+      186
+    ],
+    "descriptive_only_about_artifact": [
+      2,
+      10,
+      16,
+      19,
+      45,
+      138,
+      188
+    ],
+    "directory_query_service": [
+      2,
+      4,
+      26,
+      51,
+      65,
+      159
+    ],
+    "ebpfevent_at_kernel_hook_xref": [
+      23,
+      24,
+      26,
+      40,
+      72,
+      161,
+      183
+    ],
+    "labrun_has_operator": [
+      2,
+      4,
+      26,
+      67,
+      94,
+      181,
+      185,
+      186,
+      195
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_anonymous_demographic_information_92e75b",
+      "family": "08_derived",
+      "topics": [
+        74
+      ],
+      "cited_terms": [
+        "anonymous_demographic_information",
+        "ebpfevent_at_kernel_hook_xref",
+        "descriptive_only_about_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_has_operator_7369d3",
+      "family": "02_observation_measurement",
+      "topics": [
+        74
+      ],
+      "cited_terms": [
+        "labrun_has_operator",
+        "anonymous_demographic_information",
+        "directory_query_service"
+      ]
+    }
+  ]
+}

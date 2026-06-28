@@ -1,0 +1,2907 @@
+{
+  "topic_id": 183,
+  "family": "04_ebpf_kernel",
+  "n_chapters": 74,
+  "coverage_score": 0.4655679166316986,
+  "topic_repr": "Modeling and Reasoning about Service-Oriented Applications via Goals and Commitments\n\nAmit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos\n\nDecember 2009\n\nTechnical Report # DISI-09-068\n\nModeling and Reasoning about Service-Oriented Applications via Goals and Commitments\n\nAmit K. Chopra, Fabiano Dalpiaz, Paolo Giorgini, and John Mylopoulos\n\nUniversity of Trento\n\nAbstract. Service-o...",
+  "terms": [
+    "aggregation_uses_function",
+    "allocation_associated_with_agent",
+    "allocation_at_run_id",
+    "allocation_basic",
+    "allocation_completed_at",
+    "allocation_exactly_one_run_id",
+    "allocation_subclass",
+    "allocation_succeeded_or_failed",
+    "allocation_with_run_status",
+    "annotation_assigned_by",
+    "annotation_at_tier",
+    "apolitical_islam",
+    "artifact_either_active_or_archived",
+    "artifact_max_one_owner",
+    "artifact_min_one_id",
+    "artifact_min_one_owner",
+    "artifact_not_deprecated",
+    "artifact_subclass_two_parents",
+    "artifact_with_existential",
+    "artifact_with_role",
+    "artifact_with_universal",
+    "attribute_set_basic",
+    "belief_interval_basic",
+    "belief_interval_subclass",
+    "black_belt_certification_requirement",
+    "board_membership",
+    "bpf_helper_called_by",
+    "cardinality_max_three_generic",
+    "census_reporting_event",
+    "cgroup_skb_subclass",
+    "chemical_exposure_risk_profile",
+    "claim_basic",
+    "client_data_record",
+    "column_added_at_version",
+    "column_nullability_state",
+    "column_property_subclass",
+    "column_type_changed_from",
+    "column_value_distribution",
+    "conjunctive_combination",
+    "constraint_basic",
+    "constraint_check_subclass",
+    "constraint_only_constrains",
+    "constraint_with_predicate",
+    "control_at_severity",
+    "control_basic",
+    "control_implements",
+    "counter_metric_subclass",
+    "dataset_at_version",
+    "dataset_snapshot_subclass",
+    "dempster_combinant_first",
+    "dengue_transmission_process",
+    "disjunctive_combination",
+    "division_eligibility_constraint",
+    "ebpfevent_at_kernel_hook_xref",
+    "ebpfmap_with_key_type",
+    "ebpfmap_with_value_type",
+    "ebpfprogram_union_kprobe_or_xdp",
+    "electricity_usage_pattern_record",
+    "entity_type_belongs_to",
+    "equiv_intersect_anchored_artifact",
+    "equiv_intersect_with_two_restrictions",
+    "equiv_union_basic",
+    "equiv_union_ice_branches",
+    "equiv_union_three",
+    "existential_generic",
+    "foreign_key_relation",
+    "forward_compatible_with",
+    "ganglion_cyst_imaging_finding",
+    "ganglion_cyst_tissue_origin",
+    "home_electricity_reduction_program",
+    "host_connection_process",
+    "human_rights_impact_report",
+    "insertion_loss_specification",
+    "instrument_subclass",
+    "intermediate_floor_assembly",
+    "internal_communication_requirement",
+    "kernel_event_with_comm",
+    "kernelhook_max_one_program_attached",
+    "labrun_observed_at_site",
+    "lane_compliance_behavior",
+    "lift_with_support_count",
+    "lineage_edge_max_one_target",
+    "lineage_edge_subclass",
+    "log_with_resource_attribute",
+    "log_within_span_context",
+    "marketing_director_role",
+    "mass_function_min_one_focal",
+    "measurement_of_artifact",
+    "measurement_with_method",
+    "measurement_with_op_artifact",
+    "observation_precedes_other",
+    "observation_records_state",
+    "ontology_class_match",
+    "outlier_claim_supported_by",
+    "outlier_claim_supported_by_lift",
+    "outlier_detection_uses_explainer",
+    "patient_insurance_record",
+    "perf_buffer_map_subclass",
+    "perf_event_subclass",
+    "performance_tuning_configuration",
+    "policy_applies_to",
+    "policy_authored_by",
+    "policy_only_applies_to",
+    "policy_subclass",
+    "primary_key_designation",
+    "process_either_started_or_completed",
+    "process_min_one_input",
+    "process_with_participant",
+    "professional_experience",
+    "professional_expertise_domain",
+    "profile_of_dataset",
+    "program_with_entry_exactly_one",
+    "qualifications_framework",
+    "quantum_computer",
+    "regional_quality_benchmark",
+    "requirement_applies_to_system",
+    "requirement_basic",
+    "requirement_refines",
+    "requirement_subclass",
+    "requirement_traces_to",
+    "responsive_optic_nerve_dysfunction",
+    "rollback_relation",
+    "safety_planning_process",
+    "salary_requirement",
+    "schema_evolution_under_directive",
+    "schema_version_subclass",
+    "schemaorg_creativework_author",
+    "schemaorg_creativework_date",
+    "schemaorg_creativework_publisher",
+    "schemaorg_event_endtime",
+    "schemaorg_event_location",
+    "schemaorg_product_brand",
+    "shell_dimension_specification",
+    "soc2_availability_subclass",
+    "soc2_privacy_subclass",
+    "soc2_security_subclass",
+    "span_within_trace",
+    "state_observed_at_time",
+    "state_transitions_from",
+    "state_transitions_to",
+    "storage_structure_composition",
+    "strategic_commitment",
+    "strategic_planning_process",
+    "student_privacy_expectation",
+    "subclass_basic",
+    "subclass_not_basic",
+    "subclass_to_artifact",
+    "subclass_to_independent_continuant",
+    "subclass_to_process",
+    "survey_response_record",
+    "synthetic_apriori_judgment",
+    "syscall_subclass",
+    "syscall_with_argument_count",
+    "syscall_with_return_type",
+    "telemetry_span_observes_syscall",
+    "third_party_data_sharing",
+    "trace_basic",
+    "trace_min_one_span",
+    "trace_originates_from",
+    "trace_with_attributes",
+    "trace_with_root_span",
+    "trace_with_service_name",
+    "training_partnership_development",
+    "transformation_associated_with_agent",
+    "transformation_generates_entity",
+    "transformation_starts_at",
+    "universal_combined_with_existential",
+    "uretprobe_subclass",
+    "verification_with_method",
+    "xdp_action_drop",
+    "yager_combination",
+    "young_adult_speaker_role"
+  ],
+  "tables": [
+    "t_aggregation_uses_function",
+    "t_allocation_associated_with_agent",
+    "t_allocation_at_run_id",
+    "t_allocation_basic",
+    "t_allocation_completed_at",
+    "t_allocation_exactly_one_run_id",
+    "t_allocation_subclass",
+    "t_allocation_succeeded_or_failed",
+    "t_allocation_with_run_status",
+    "t_annotation_assigned_by",
+    "t_annotation_at_tier",
+    "t_apolitical_islam",
+    "t_artifact_either_active_or_archived",
+    "t_artifact_max_one_owner",
+    "t_artifact_min_one_id",
+    "t_artifact_min_one_owner",
+    "t_artifact_not_deprecated",
+    "t_artifact_subclass_two_parents",
+    "t_artifact_with_existential",
+    "t_artifact_with_role",
+    "t_artifact_with_universal",
+    "t_attribute_set_basic",
+    "t_belief_interval_basic",
+    "t_belief_interval_subclass",
+    "t_black_belt_certification_requirement",
+    "t_board_membership",
+    "t_bpf_helper_called_by",
+    "t_cardinality_max_three_generic",
+    "t_census_reporting_event",
+    "t_cgroup_skb_subclass",
+    "t_chemical_exposure_risk_profile",
+    "t_claim_basic",
+    "t_client_data_record",
+    "t_column_added_at_version",
+    "t_column_nullability_state",
+    "t_column_property_subclass",
+    "t_column_type_changed_from",
+    "t_column_value_distribution",
+    "t_conjunctive_combination",
+    "t_constraint_basic",
+    "t_constraint_check_subclass",
+    "t_constraint_only_constrains",
+    "t_constraint_with_predicate",
+    "t_control_at_severity",
+    "t_control_basic",
+    "t_control_implements",
+    "t_counter_metric_subclass",
+    "t_dataset_at_version",
+    "t_dataset_snapshot_subclass",
+    "t_dempster_combinant_first",
+    "t_dengue_transmission_process",
+    "t_disjunctive_combination",
+    "t_division_eligibility_constraint",
+    "t_ebpfevent_at_kernel_hook_xref",
+    "t_ebpfmap_with_key_type",
+    "t_ebpfmap_with_value_type",
+    "t_ebpfprogram_union_kprobe_or_xdp",
+    "t_electricity_usage_pattern_record",
+    "t_entity_type_belongs_to",
+    "t_equiv_intersect_anchored_artifact",
+    "t_equiv_intersect_with_two_restrictions",
+    "t_equiv_union_basic",
+    "t_equiv_union_ice_branches",
+    "t_equiv_union_three",
+    "t_existential_generic",
+    "t_foreign_key_relation",
+    "t_forward_compatible_with",
+    "t_ganglion_cyst_imaging_finding",
+    "t_ganglion_cyst_tissue_origin",
+    "t_home_electricity_reduction_program",
+    "t_host_connection_process",
+    "t_human_rights_impact_report",
+    "t_insertion_loss_specification",
+    "t_instrument_subclass",
+    "t_intermediate_floor_assembly",
+    "t_internal_communication_requirement",
+    "t_kernel_event_with_comm",
+    "t_kernelhook_max_one_program_attached",
+    "t_labrun_observed_at_site",
+    "t_lane_compliance_behavior",
+    "t_lift_with_support_count",
+    "t_lineage_edge_max_one_target",
+    "t_lineage_edge_subclass",
+    "t_log_with_resource_attribute",
+    "t_log_within_span_context",
+    "t_marketing_director_role",
+    "t_mass_function_min_one_focal",
+    "t_measurement_of_artifact",
+    "t_measurement_with_method",
+    "t_measurement_with_op_artifact",
+    "t_observation_precedes_other",
+    "t_observation_records_state",
+    "t_ontology_class_match",
+    "t_outlier_claim_supported_by",
+    "t_outlier_claim_supported_by_lift",
+    "t_outlier_detection_uses_explainer",
+    "t_patient_insurance_record",
+    "t_perf_buffer_map_subclass",
+    "t_perf_event_subclass",
+    "t_performance_tuning_configuration",
+    "t_policy_applies_to",
+    "t_policy_authored_by",
+    "t_policy_only_applies_to",
+    "t_policy_subclass",
+    "t_primary_key_designation",
+    "t_process_either_started_or_completed",
+    "t_process_min_one_input",
+    "t_process_with_participant",
+    "t_professional_experience",
+    "t_professional_expertise_domain",
+    "t_profile_of_dataset",
+    "t_program_with_entry_exactly_one",
+    "t_qualifications_framework",
+    "t_quantum_computer",
+    "t_regional_quality_benchmark",
+    "t_requirement_applies_to_system",
+    "t_requirement_basic",
+    "t_requirement_refines",
+    "t_requirement_subclass",
+    "t_requirement_traces_to",
+    "t_responsive_optic_nerve_dysfunction",
+    "t_rollback_relation",
+    "t_safety_planning_process",
+    "t_salary_requirement",
+    "t_schema_evolution_under_directive",
+    "t_schema_version_subclass",
+    "t_schemaorg_creativework_author",
+    "t_schemaorg_creativework_date",
+    "t_schemaorg_creativework_publisher",
+    "t_schemaorg_event_endtime",
+    "t_schemaorg_event_location",
+    "t_schemaorg_product_brand",
+    "t_shell_dimension_specification",
+    "t_soc2_availability_subclass",
+    "t_soc2_privacy_subclass",
+    "t_soc2_security_subclass",
+    "t_span_within_trace",
+    "t_state_observed_at_time",
+    "t_state_transitions_from",
+    "t_state_transitions_to",
+    "t_storage_structure_composition",
+    "t_strategic_commitment",
+    "t_strategic_planning_process",
+    "t_student_privacy_expectation",
+    "t_subclass_basic",
+    "t_subclass_not_basic",
+    "t_subclass_to_artifact",
+    "t_subclass_to_independent_continuant",
+    "t_subclass_to_process",
+    "t_survey_response_record",
+    "t_synthetic_apriori_judgment",
+    "t_syscall_subclass",
+    "t_syscall_with_argument_count",
+    "t_syscall_with_return_type",
+    "t_telemetry_span_observes_syscall",
+    "t_third_party_data_sharing",
+    "t_trace_basic",
+    "t_trace_min_one_span",
+    "t_trace_originates_from",
+    "t_trace_with_attributes",
+    "t_trace_with_root_span",
+    "t_trace_with_service_name",
+    "t_training_partnership_development",
+    "t_transformation_associated_with_agent",
+    "t_transformation_generates_entity",
+    "t_transformation_starts_at",
+    "t_universal_combined_with_existential",
+    "t_uretprobe_subclass",
+    "t_verification_with_method",
+    "t_xdp_action_drop",
+    "t_yager_combination",
+    "t_young_adult_speaker_role"
+  ],
+  "topics": [
+    183
+  ],
+  "shared_tables": {
+    "aggregation_uses_function": [
+      1,
+      91,
+      135,
+      186
+    ],
+    "allocation_associated_with_agent": [
+      10,
+      12,
+      26,
+      66,
+      111,
+      159,
+      186
+    ],
+    "allocation_at_run_id": [
+      24,
+      26,
+      60,
+      66,
+      106,
+      186
+    ],
+    "allocation_basic": [
+      26,
+      62,
+      79
+    ],
+    "allocation_completed_at": [
+      1,
+      6,
+      7,
+      16,
+      26,
+      62,
+      105,
+      180
+    ],
+    "allocation_exactly_one_run_id": [
+      35,
+      67,
+      79,
+      165,
+      186
+    ],
+    "allocation_subclass": [
+      7,
+      8,
+      10,
+      26,
+      34,
+      42,
+      46,
+      94,
+      105,
+      149,
+      184,
+      186
+    ],
+    "allocation_succeeded_or_failed": [
+      4,
+      24,
+      26,
+      46,
+      94,
+      161,
+      186
+    ],
+    "allocation_with_run_status": [
+      1,
+      10,
+      26,
+      94,
+      165,
+      186
+    ],
+    "annotation_assigned_by": [
+      23,
+      26,
+      45,
+      49,
+      79,
+      186
+    ],
+    "annotation_at_tier": [
+      26,
+      94,
+      185,
+      186
+    ],
+    "apolitical_islam": [
+      0,
+      5,
+      12,
+      46,
+      73,
+      83,
+      119,
+      155,
+      158,
+      185,
+      186
+    ],
+    "artifact_either_active_or_archived": [
+      10,
+      44,
+      46,
+      79,
+      105,
+      186,
+      195
+    ],
+    "artifact_max_one_owner": [
+      1,
+      26,
+      46,
+      60,
+      128,
+      166,
+      186
+    ],
+    "artifact_min_one_id": [
+      4,
+      20,
+      49,
+      92,
+      186
+    ],
+    "artifact_min_one_owner": [
+      0,
+      1,
+      23,
+      46,
+      120,
+      122,
+      186,
+      195
+    ],
+    "artifact_not_deprecated": [
+      4,
+      5,
+      20,
+      35,
+      46,
+      56,
+      81,
+      91,
+      158,
+      181
+    ],
+    "artifact_subclass_two_parents": [
+      46,
+      109,
+      181,
+      186
+    ],
+    "artifact_with_existential": [
+      2,
+      7,
+      186
+    ],
+    "artifact_with_role": [
+      2,
+      7,
+      35,
+      61,
+      138,
+      155,
+      181,
+      186
+    ],
+    "artifact_with_universal": [
+      4,
+      10,
+      26,
+      33,
+      34,
+      44,
+      65,
+      69,
+      106,
+      109,
+      186
+    ],
+    "attribute_set_basic": [
+      1,
+      4,
+      6,
+      92,
+      106,
+      186
+    ],
+    "belief_interval_basic": [
+      1,
+      14,
+      26,
+      42,
+      94,
+      119,
+      135,
+      149,
+      187
+    ],
+    "belief_interval_subclass": [
+      2,
+      7,
+      23,
+      46,
+      66,
+      79,
+      90,
+      109,
+      128,
+      186
+    ],
+    "black_belt_certification_requirement": [
+      4,
+      16,
+      24,
+      94,
+      161,
+      186,
+      188
+    ],
+    "board_membership": [
+      12,
+      34,
+      35,
+      155,
+      159,
+      186
+    ],
+    "bpf_helper_called_by": [
+      0,
+      1,
+      34,
+      54,
+      150,
+      155,
+      165
+    ],
+    "cardinality_max_three_generic": [
+      4,
+      23,
+      46,
+      65,
+      75,
+      100,
+      143,
+      165,
+      186
+    ],
+    "census_reporting_event": [
+      5,
+      10,
+      11,
+      26,
+      33,
+      36,
+      65,
+      69,
+      79,
+      102,
+      186
+    ],
+    "cgroup_skb_subclass": [
+      4,
+      25,
+      40,
+      45,
+      56,
+      104
+    ],
+    "chemical_exposure_risk_profile": [
+      3,
+      4,
+      135
+    ],
+    "claim_basic": [
+      1,
+      4,
+      26,
+      42,
+      60,
+      94,
+      105,
+      128,
+      135,
+      136,
+      159,
+      161,
+      168,
+      181,
+      186
+    ],
+    "client_data_record": [
+      6,
+      24,
+      26,
+      139
+    ],
+    "column_added_at_version": [
+      10,
+      26,
+      97,
+      104
+    ],
+    "column_nullability_state": [
+      4,
+      10,
+      20,
+      46,
+      186
+    ],
+    "column_property_subclass": [
+      4,
+      45,
+      100,
+      106,
+      109,
+      181
+    ],
+    "column_type_changed_from": [
+      2,
+      4,
+      21,
+      58,
+      92,
+      186
+    ],
+    "column_value_distribution": [
+      23,
+      27,
+      34,
+      46,
+      49,
+      62,
+      75,
+      129,
+      186
+    ],
+    "conjunctive_combination": [
+      3,
+      6,
+      25,
+      26,
+      40,
+      65,
+      159,
+      184,
+      186,
+      190
+    ],
+    "constraint_basic": [
+      2,
+      19,
+      46,
+      107,
+      125,
+      188
+    ],
+    "constraint_check_subclass": [
+      3,
+      4,
+      11,
+      26,
+      46,
+      56,
+      65,
+      67,
+      81,
+      139,
+      181,
+      186
+    ],
+    "constraint_only_constrains": [
+      2,
+      11,
+      23,
+      35,
+      111,
+      159,
+      181,
+      186,
+      195
+    ],
+    "constraint_with_predicate": [
+      1,
+      12,
+      49,
+      65,
+      105,
+      135,
+      155,
+      186
+    ],
+    "control_at_severity": [
+      0,
+      5,
+      42,
+      47,
+      65,
+      186
+    ],
+    "control_basic": [
+      2,
+      26,
+      27,
+      30,
+      100,
+      140,
+      159,
+      186
+    ],
+    "control_implements": [
+      4,
+      5,
+      26,
+      34,
+      45,
+      65,
+      90,
+      97,
+      107,
+      186
+    ],
+    "counter_metric_subclass": [
+      2,
+      4,
+      14,
+      26,
+      44,
+      61,
+      94,
+      136,
+      186
+    ],
+    "dataset_at_version": [
+      0,
+      14,
+      24,
+      45,
+      186,
+      191
+    ],
+    "dataset_snapshot_subclass": [
+      5,
+      17,
+      26,
+      30,
+      46,
+      80,
+      123,
+      138,
+      168,
+      186
+    ],
+    "dempster_combinant_first": [
+      2,
+      3,
+      26,
+      38,
+      100,
+      105,
+      161,
+      168
+    ],
+    "dengue_transmission_process": [
+      1,
+      4,
+      5,
+      12,
+      26,
+      47,
+      66,
+      83,
+      181
+    ],
+    "disjunctive_combination": [
+      1,
+      4,
+      6,
+      11,
+      20,
+      34,
+      38,
+      104,
+      165,
+      180,
+      181
+    ],
+    "division_eligibility_constraint": [
+      6,
+      7,
+      8,
+      26,
+      34,
+      100,
+      101,
+      125,
+      140,
+      149,
+      186
+    ],
+    "ebpfevent_at_kernel_hook_xref": [
+      23,
+      24,
+      26,
+      40,
+      72,
+      74,
+      161
+    ],
+    "ebpfmap_with_key_type": [
+      0,
+      26,
+      51,
+      106,
+      158,
+      185,
+      188
+    ],
+    "ebpfmap_with_value_type": [
+      4,
+      26,
+      83,
+      128,
+      186
+    ],
+    "ebpfprogram_union_kprobe_or_xdp": [
+      23,
+      34,
+      49,
+      94,
+      135,
+      186,
+      188
+    ],
+    "electricity_usage_pattern_record": [
+      11,
+      34,
+      91,
+      100,
+      186
+    ],
+    "entity_type_belongs_to": [
+      4,
+      7,
+      26,
+      36,
+      51,
+      65,
+      109,
+      185,
+      186
+    ],
+    "equiv_intersect_anchored_artifact": [
+      1,
+      33,
+      91,
+      136,
+      186
+    ],
+    "equiv_intersect_with_two_restrictions": [
+      2,
+      4,
+      7,
+      12,
+      14,
+      26,
+      30,
+      34,
+      61,
+      66,
+      181,
+      186
+    ],
+    "equiv_union_basic": [
+      3,
+      16,
+      20,
+      42,
+      92,
+      97,
+      102,
+      165,
+      186
+    ],
+    "equiv_union_ice_branches": [
+      16,
+      34,
+      65,
+      142,
+      168,
+      186
+    ],
+    "equiv_union_three": [
+      10,
+      21,
+      51,
+      135,
+      186
+    ],
+    "existential_generic": [
+      24,
+      26,
+      94,
+      109,
+      186
+    ],
+    "foreign_key_relation": [
+      42,
+      80,
+      92,
+      125,
+      129,
+      168
+    ],
+    "forward_compatible_with": [
+      92,
+      165,
+      186
+    ],
+    "ganglion_cyst_imaging_finding": [
+      2,
+      4,
+      30,
+      47,
+      50,
+      81,
+      109,
+      135,
+      139,
+      181,
+      186
+    ],
+    "ganglion_cyst_tissue_origin": [
+      0,
+      6,
+      7,
+      26,
+      42,
+      44,
+      46,
+      81,
+      101,
+      125,
+      135,
+      181,
+      186
+    ],
+    "home_electricity_reduction_program": [
+      23,
+      26,
+      33,
+      60,
+      61,
+      128,
+      186
+    ],
+    "host_connection_process": [
+      4,
+      26,
+      106,
+      107,
+      159,
+      172,
+      186,
+      188
+    ],
+    "human_rights_impact_report": [
+      1,
+      4,
+      19,
+      54,
+      58,
+      140,
+      146
+    ],
+    "insertion_loss_specification": [
+      11,
+      45,
+      69,
+      159,
+      172,
+      187
+    ],
+    "instrument_subclass": [
+      0,
+      4,
+      7,
+      79,
+      80,
+      83,
+      186
+    ],
+    "intermediate_floor_assembly": [
+      26,
+      46,
+      155,
+      166,
+      168,
+      172,
+      187
+    ],
+    "internal_communication_requirement": [
+      20,
+      26,
+      31,
+      38,
+      40,
+      86,
+      155,
+      181,
+      186
+    ],
+    "kernel_event_with_comm": [
+      19,
+      26,
+      54,
+      83,
+      102,
+      168
+    ],
+    "kernelhook_max_one_program_attached": [
+      75,
+      120,
+      155
+    ],
+    "labrun_observed_at_site": [
+      4,
+      7,
+      35,
+      46,
+      61,
+      67,
+      146,
+      186
+    ],
+    "lane_compliance_behavior": [
+      0,
+      10,
+      27,
+      60,
+      107,
+      158,
+      165,
+      186,
+      187
+    ],
+    "lift_with_support_count": [
+      12,
+      51,
+      67,
+      92,
+      97,
+      181,
+      185,
+      186,
+      187
+    ],
+    "lineage_edge_max_one_target": [
+      12,
+      26,
+      30,
+      40,
+      46,
+      79,
+      80,
+      109,
+      140,
+      159,
+      186
+    ],
+    "lineage_edge_subclass": [
+      20,
+      67,
+      101,
+      140,
+      159
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      56,
+      61,
+      107,
+      128,
+      163,
+      168,
+      180,
+      181
+    ],
+    "log_within_span_context": [
+      1,
+      4,
+      10,
+      19,
+      26,
+      35,
+      65,
+      106,
+      180
+    ],
+    "marketing_director_role": [
+      4,
+      6,
+      26,
+      117,
+      186
+    ],
+    "mass_function_min_one_focal": [
+      4,
+      26,
+      34,
+      42,
+      44,
+      60,
+      111,
+      165,
+      186
+    ],
+    "measurement_of_artifact": [
+      4,
+      10,
+      16,
+      36,
+      44,
+      65,
+      100,
+      161,
+      186
+    ],
+    "measurement_with_method": [
+      4,
+      23,
+      38,
+      39,
+      78,
+      86,
+      97,
+      159,
+      168
+    ],
+    "measurement_with_op_artifact": [
+      4,
+      26,
+      58,
+      62,
+      67,
+      186,
+      187
+    ],
+    "observation_precedes_other": [
+      4,
+      26,
+      42,
+      60,
+      123,
+      143,
+      186,
+      190
+    ],
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      23,
+      26,
+      67,
+      91,
+      123,
+      125,
+      129,
+      135,
+      163,
+      185,
+      186
+    ],
+    "ontology_class_match": [
+      4,
+      35,
+      40,
+      86,
+      109,
+      120,
+      128,
+      168,
+      186
+    ],
+    "outlier_claim_supported_by": [
+      5,
+      23,
+      26,
+      39,
+      60,
+      67,
+      79,
+      81,
+      97,
+      186
+    ],
+    "outlier_claim_supported_by_lift": [
+      10,
+      40,
+      41,
+      80,
+      86,
+      100,
+      159,
+      186
+    ],
+    "outlier_detection_uses_explainer": [
+      4,
+      40,
+      65,
+      168,
+      186,
+      187
+    ],
+    "patient_insurance_record": [
+      1,
+      7,
+      11,
+      20,
+      26,
+      61,
+      79,
+      105,
+      181
+    ],
+    "perf_buffer_map_subclass": [
+      65,
+      125,
+      186
+    ],
+    "perf_event_subclass": [
+      0,
+      16,
+      26,
+      34,
+      47,
+      186
+    ],
+    "performance_tuning_configuration": [
+      6,
+      10,
+      23,
+      60,
+      186
+    ],
+    "policy_applies_to": [
+      19,
+      23,
+      44,
+      80,
+      119,
+      150,
+      158
+    ],
+    "policy_authored_by": [
+      1,
+      6,
+      23,
+      35,
+      111,
+      120,
+      128,
+      135,
+      155,
+      158
+    ],
+    "policy_only_applies_to": [
+      14,
+      26,
+      34,
+      165,
+      186
+    ],
+    "policy_subclass": [
+      1,
+      5,
+      26,
+      34,
+      35,
+      41,
+      60,
+      67,
+      186
+    ],
+    "primary_key_designation": [
+      0,
+      5,
+      7,
+      26,
+      46,
+      149,
+      186
+    ],
+    "process_either_started_or_completed": [
+      3,
+      10,
+      27,
+      41,
+      168,
+      181,
+      186
+    ],
+    "process_min_one_input": [
+      34,
+      38,
+      135,
+      185,
+      186,
+      187,
+      188
+    ],
+    "process_with_participant": [
+      0,
+      1,
+      11,
+      24,
+      26,
+      36,
+      60,
+      79,
+      125,
+      186
+    ],
+    "professional_experience": [
+      4,
+      7,
+      79,
+      91,
+      106,
+      139,
+      149,
+      186
+    ],
+    "professional_expertise_domain": [
+      1,
+      24,
+      26,
+      62,
+      81,
+      105,
+      106
+    ],
+    "profile_of_dataset": [
+      2,
+      10,
+      23,
+      24,
+      26,
+      44,
+      80
+    ],
+    "program_with_entry_exactly_one": [
+      7,
+      10,
+      11,
+      26,
+      56,
+      135,
+      136,
+      168,
+      181,
+      186
+    ],
+    "qualifications_framework": [
+      1,
+      4,
+      26,
+      35,
+      51
+    ],
+    "quantum_computer": [
+      20,
+      26,
+      62,
+      71,
+      97,
+      186
+    ],
+    "regional_quality_benchmark": [
+      0,
+      3,
+      10,
+      20,
+      26,
+      30,
+      46,
+      60,
+      69,
+      79,
+      97,
+      129,
+      136,
+      155,
+      159,
+      181,
+      185,
+      186
+    ],
+    "requirement_applies_to_system": [
+      2,
+      45,
+      47,
+      97,
+      159,
+      180,
+      185,
+      186
+    ],
+    "requirement_basic": [
+      11,
+      47,
+      83,
+      125,
+      159,
+      186
+    ],
+    "requirement_refines": [
+      25,
+      60,
+      69,
+      100,
+      140,
+      155,
+      159,
+      186
+    ],
+    "requirement_subclass": [
+      4,
+      42,
+      44,
+      119,
+      186
+    ],
+    "requirement_traces_to": [
+      4,
+      10,
+      23,
+      26,
+      46,
+      65,
+      67,
+      72,
+      86,
+      94,
+      105,
+      161,
+      168,
+      186,
+      188
+    ],
+    "responsive_optic_nerve_dysfunction": [
+      0,
+      1,
+      2,
+      26,
+      47,
+      81,
+      97,
+      102,
+      180,
+      181
+    ],
+    "rollback_relation": [
+      2,
+      26,
+      46,
+      125,
+      143,
+      186
+    ],
+    "safety_planning_process": [
+      2,
+      10,
+      23,
+      25,
+      27,
+      168,
+      186
+    ],
+    "salary_requirement": [
+      5,
+      35,
+      186
+    ],
+    "schema_evolution_under_directive": [
+      4,
+      38,
+      56,
+      185
+    ],
+    "schema_version_subclass": [
+      1,
+      19,
+      25,
+      26,
+      46,
+      181,
+      186
+    ],
+    "schemaorg_creativework_author": [
+      23,
+      26,
+      27,
+      45,
+      61,
+      122,
+      181,
+      186
+    ],
+    "schemaorg_creativework_date": [
+      12,
+      26,
+      30,
+      69,
+      72,
+      100,
+      163
+    ],
+    "schemaorg_creativework_publisher": [
+      4,
+      36,
+      102,
+      143,
+      180,
+      181,
+      186
+    ],
+    "schemaorg_event_endtime": [
+      21,
+      46,
+      142,
+      159,
+      186
+    ],
+    "schemaorg_event_location": [
+      6,
+      20,
+      30,
+      34,
+      41,
+      65,
+      69,
+      155,
+      168,
+      186
+    ],
+    "schemaorg_product_brand": [
+      7,
+      20,
+      26,
+      35,
+      46,
+      47,
+      109,
+      165,
+      186
+    ],
+    "shell_dimension_specification": [
+      0,
+      2,
+      4,
+      25,
+      36,
+      46,
+      95,
+      105,
+      119,
+      136,
+      186,
+      191
+    ],
+    "soc2_availability_subclass": [
+      19,
+      26,
+      34,
+      95,
+      107,
+      109,
+      136,
+      150,
+      186
+    ],
+    "soc2_privacy_subclass": [
+      4,
+      19,
+      34,
+      81,
+      125,
+      161,
+      188
+    ],
+    "soc2_security_subclass": [
+      0,
+      5,
+      26,
+      34,
+      46,
+      49,
+      129,
+      165,
+      186
+    ],
+    "span_within_trace": [
+      2,
+      8,
+      19,
+      40,
+      138,
+      149,
+      186
+    ],
+    "state_observed_at_time": [
+      5,
+      26,
+      33,
+      46,
+      72,
+      86,
+      97,
+      100,
+      138
+    ],
+    "state_transitions_from": [
+      0,
+      7,
+      14,
+      25,
+      26,
+      44,
+      161,
+      186
+    ],
+    "state_transitions_to": [
+      44,
+      80,
+      91,
+      97,
+      181
+    ],
+    "storage_structure_composition": [
+      3,
+      35,
+      41,
+      46,
+      109,
+      120,
+      181,
+      186
+    ],
+    "strategic_commitment": [
+      1,
+      7,
+      23,
+      26,
+      184,
+      186
+    ],
+    "strategic_planning_process": [
+      5,
+      26,
+      34,
+      44,
+      67,
+      97,
+      106,
+      186,
+      191
+    ],
+    "student_privacy_expectation": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      69,
+      150,
+      185,
+      186,
+      187
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
+      68,
+      81,
+      86,
+      91,
+      128,
+      161,
+      185,
+      186
+    ],
+    "subclass_not_basic": [
+      7,
+      24,
+      26,
+      31,
+      41,
+      44,
+      60,
+      61,
+      91,
+      123,
+      186
+    ],
+    "subclass_to_artifact": [
+      12,
+      19,
+      26,
+      61,
+      186
+    ],
+    "subclass_to_independent_continuant": [
+      0,
+      12,
+      26,
+      47,
+      97,
+      135,
+      191
+    ],
+    "subclass_to_process": [
+      0,
+      7,
+      26,
+      42,
+      45,
+      46,
+      47,
+      100,
+      102,
+      105,
+      123,
+      159,
+      191
+    ],
+    "survey_response_record": [
+      26,
+      35,
+      41,
+      60,
+      75,
+      97,
+      166,
+      181,
+      184,
+      186
+    ],
+    "synthetic_apriori_judgment": [
+      12,
+      35,
+      117,
+      140,
+      186
+    ],
+    "syscall_subclass": [
+      26,
+      34,
+      42,
+      46,
+      66,
+      104,
+      111,
+      147,
+      154,
+      168,
+      186
+    ],
+    "syscall_with_argument_count": [
+      4,
+      6,
+      10,
+      109,
+      120,
+      159,
+      172,
+      186
+    ],
+    "syscall_with_return_type": [
+      1,
+      24,
+      44,
+      46,
+      61,
+      125,
+      128,
+      135,
+      186
+    ],
+    "telemetry_span_observes_syscall": [
+      24,
+      26,
+      35,
+      41,
+      42,
+      79,
+      81
+    ],
+    "third_party_data_sharing": [
+      2,
+      4,
+      26,
+      46,
+      61,
+      81
+    ],
+    "trace_basic": [
+      4,
+      10,
+      26,
+      135,
+      186
+    ],
+    "trace_min_one_span": [
+      26,
+      42,
+      45,
+      80,
+      100
+    ],
+    "trace_originates_from": [
+      19,
+      35,
+      46,
+      60,
+      61,
+      120,
+      165,
+      186,
+      187
+    ],
+    "trace_with_attributes": [
+      4,
+      10,
+      11,
+      61,
+      94,
+      100,
+      101,
+      143,
+      168,
+      186
+    ],
+    "trace_with_root_span": [
+      0,
+      4,
+      24,
+      26,
+      34,
+      44,
+      46,
+      61,
+      102,
+      186
+    ],
+    "trace_with_service_name": [
+      5,
+      26,
+      83,
+      102,
+      107,
+      138,
+      155
+    ],
+    "training_partnership_development": [
+      26,
+      36,
+      42,
+      44,
+      54,
+      83,
+      186
+    ],
+    "transformation_associated_with_agent": [
+      8,
+      38,
+      41,
+      45,
+      54,
+      186,
+      191,
+      195
+    ],
+    "transformation_generates_entity": [
+      11,
+      26,
+      42,
+      44,
+      50,
+      185,
+      186
+    ],
+    "transformation_starts_at": [
+      31,
+      54,
+      186
+    ],
+    "universal_combined_with_existential": [
+      7,
+      23,
+      26,
+      34,
+      54,
+      73,
+      81,
+      140,
+      158,
+      186,
+      188
+    ],
+    "uretprobe_subclass": [
+      67,
+      94,
+      161,
+      186,
+      195
+    ],
+    "verification_with_method": [
+      24,
+      33,
+      125,
+      129
+    ],
+    "xdp_action_drop": [
+      2,
+      26,
+      36,
+      58,
+      61,
+      65,
+      86,
+      94,
+      143
+    ],
+    "yager_combination": [
+      21,
+      26,
+      40,
+      46,
+      79
+    ],
+    "young_adult_speaker_role": [
+      0,
+      2,
+      26,
+      79,
+      80,
+      150
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_allocation_associated_with_agent_3e182f",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_associated_with_agent",
+        "syscall_with_argument_count",
+        "disjunctive_combination"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_completed_at_68c4bd",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_completed_at",
+        "allocation_exactly_one_run_id",
+        "allocation_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_exactly_one_run_id_06ce62",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_exactly_one_run_id",
+        "responsive_optic_nerve_dysfunction",
+        "requirement_basic"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_subclass_6e0f76",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_subclass",
+        "dataset_snapshot_subclass",
+        "perf_buffer_map_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_succeeded_or_failed_5f9ce5",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_succeeded_or_failed",
+        "kernel_event_with_comm",
+        "artifact_with_role"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_with_run_status_0c467d",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_with_run_status",
+        "outlier_detection_uses_explainer",
+        "control_at_severity"
+      ]
+    },
+    {
+      "id": "ch_live_allocation_with_run_status_3f43e8",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "allocation_with_run_status",
+        "equiv_union_three",
+        "artifact_not_deprecated"
+      ]
+    },
+    {
+      "id": "ch_live_annotation_assigned_by_820bab",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "annotation_assigned_by",
+        "shell_dimension_specification",
+        "span_within_trace"
+      ]
+    },
+    {
+      "id": "ch_live_artifact_either_active_or_archived_9a4fbb",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "artifact_either_active_or_archived",
+        "measurement_with_method",
+        "strategic_commitment"
+      ]
+    },
+    {
+      "id": "ch_live_artifact_max_one_owner_261756",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "artifact_max_one_owner",
+        "attribute_set_basic",
+        "belief_interval_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_artifact_with_universal_b68f7c",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "artifact_with_universal",
+        "schemaorg_product_brand",
+        "column_added_at_version"
+      ]
+    },
+    {
+      "id": "ch_live_belief_interval_basic_51a779",
+      "family": "06_belief_structure",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "belief_interval_basic",
+        "state_transitions_to",
+        "equiv_intersect_anchored_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_black_belt_certification_requirement_7f2b01",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "black_belt_certification_requirement",
+        "board_membership",
+        "bpf_helper_called_by"
+      ]
+    },
+    {
+      "id": "ch_live_bpf_helper_called_by_5ac9c2",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "bpf_helper_called_by",
+        "state_transitions_to",
+        "measurement_with_op_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_cardinality_max_three_generic_3ac010",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "cardinality_max_three_generic",
+        "syscall_subclass",
+        "lane_compliance_behavior"
+      ]
+    },
+    {
+      "id": "ch_live_census_reporting_event_835da2",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "census_reporting_event",
+        "column_type_changed_from",
+        "requirement_applies_to_system"
+      ]
+    },
+    {
+      "id": "ch_live_cgroup_skb_subclass_29617c",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "cgroup_skb_subclass",
+        "chemical_exposure_risk_profile",
+        "claim_basic"
+      ]
+    },
+    {
+      "id": "ch_live_column_type_changed_from_6e35fc",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "column_type_changed_from",
+        "artifact_subclass_two_parents",
+        "perf_event_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_column_value_distribution_4817c1",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "column_value_distribution",
+        "artifact_with_existential",
+        "annotation_at_tier"
+      ]
+    },
+    {
+      "id": "ch_live_conjunctive_combination_a33df4",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "conjunctive_combination",
+        "constraint_basic",
+        "constraint_check_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_constraint_with_predicate_5a704f",
+      "family": "03_directive_governance",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "constraint_with_predicate",
+        "lineage_edge_subclass",
+        "column_property_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_dataset_at_version_be2805",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "dataset_at_version",
+        "syscall_with_argument_count",
+        "ebpfmap_with_key_type"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfmap_with_value_type_b0539f",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "ebpfmap_with_value_type",
+        "intermediate_floor_assembly",
+        "ebpfevent_at_kernel_hook_xref"
+      ]
+    },
+    {
+      "id": "ch_live_ebpfprogram_union_kprobe_or_xdp_13cc57",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "ebpfprogram_union_kprobe_or_xdp",
+        "ontology_class_match",
+        "soc2_security_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_electricity_usage_pattern_record_97e1e9",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "electricity_usage_pattern_record",
+        "policy_subclass",
+        "log_within_span_context"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_intersect_with_two_restrictions_58166f",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "equiv_intersect_with_two_restrictions",
+        "equiv_union_basic",
+        "equiv_union_ice_branches"
+      ]
+    },
+    {
+      "id": "ch_live_equiv_intersect_with_two_restrictions_ff42fa",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "equiv_intersect_with_two_restrictions",
+        "cgroup_skb_subclass",
+        "uretprobe_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_foreign_key_relation_97d8ed",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "foreign_key_relation",
+        "xdp_action_drop",
+        "dempster_combinant_first"
+      ]
+    },
+    {
+      "id": "ch_live_forward_compatible_with_aed376",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "forward_compatible_with",
+        "program_with_entry_exactly_one",
+        "column_type_changed_from"
+      ]
+    },
+    {
+      "id": "ch_live_ganglion_cyst_imaging_finding_763c3c",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "ganglion_cyst_imaging_finding",
+        "schemaorg_creativework_author",
+        "safety_planning_process"
+      ]
+    },
+    {
+      "id": "ch_live_home_electricity_reduction_program_797e53",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "home_electricity_reduction_program",
+        "host_connection_process",
+        "human_rights_impact_report"
+      ]
+    },
+    {
+      "id": "ch_live_labrun_observed_at_site_0a1573",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "labrun_observed_at_site",
+        "patient_insurance_record",
+        "host_connection_process"
+      ]
+    },
+    {
+      "id": "ch_live_lineage_edge_max_one_target_f298ab",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "lineage_edge_max_one_target",
+        "soc2_security_subclass",
+        "control_implements"
+      ]
+    },
+    {
+      "id": "ch_live_log_with_resource_attribute_d7eb3a",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "log_with_resource_attribute",
+        "allocation_basic",
+        "instrument_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_marketing_director_role_2938bc",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "marketing_director_role",
+        "subclass_to_independent_continuant",
+        "observation_precedes_other"
+      ]
+    },
+    {
+      "id": "ch_live_mass_function_min_one_focal_42f071",
+      "family": "06_belief_structure",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "mass_function_min_one_focal",
+        "control_implements",
+        "synthetic_apriori_judgment"
+      ]
+    },
+    {
+      "id": "ch_live_observation_records_state_1f111a",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "observation_records_state",
+        "equiv_intersect_with_two_restrictions",
+        "requirement_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_outlier_claim_supported_by_8361bd",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "outlier_claim_supported_by",
+        "ontology_class_match",
+        "xdp_action_drop"
+      ]
+    },
+    {
+      "id": "ch_live_performance_tuning_configuration_5fed61",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "performance_tuning_configuration",
+        "xdp_action_drop",
+        "dempster_combinant_first"
+      ]
+    },
+    {
+      "id": "ch_live_performance_tuning_configuration_7238b0",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "performance_tuning_configuration",
+        "intermediate_floor_assembly",
+        "counter_metric_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_performance_tuning_configuration_816105",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "performance_tuning_configuration",
+        "internal_communication_requirement",
+        "policy_only_applies_to"
+      ]
+    },
+    {
+      "id": "ch_live_policy_applies_to_1aba0c",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "policy_applies_to",
+        "requirement_basic",
+        "requirement_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_policy_authored_by_9b8946",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "policy_authored_by",
+        "subclass_to_process",
+        "survey_response_record"
+      ]
+    },
+    {
+      "id": "ch_live_primary_key_designation_6e6ced",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "primary_key_designation",
+        "verification_with_method",
+        "transformation_starts_at"
+      ]
+    },
+    {
+      "id": "ch_live_process_either_started_or_completed_555fa7",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "process_either_started_or_completed",
+        "constraint_only_constrains",
+        "state_transitions_from"
+      ]
+    },
+    {
+      "id": "ch_live_process_min_one_input_a971b4",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "process_min_one_input",
+        "kernel_event_with_comm",
+        "ganglion_cyst_tissue_origin"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_participant_5da055",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "process_with_participant",
+        "professional_experience",
+        "professional_expertise_domain"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_participant_ada757",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "process_with_participant",
+        "strategic_planning_process",
+        "column_value_distribution"
+      ]
+    },
+    {
+      "id": "ch_live_profile_of_dataset_fd7f76",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "profile_of_dataset",
+        "trace_min_one_span",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "ch_live_regional_quality_benchmark_3cfbf4",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "regional_quality_benchmark",
+        "control_basic",
+        "verification_with_method"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_applies_to_system_d67cb6",
+      "family": "03_directive_governance",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "requirement_applies_to_system",
+        "aggregation_uses_function",
+        "policy_only_applies_to"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_refines_a72516",
+      "family": "03_directive_governance",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "requirement_refines",
+        "insertion_loss_specification",
+        "artifact_min_one_id"
+      ]
+    },
+    {
+      "id": "ch_live_requirement_traces_to_482ed9",
+      "family": "03_directive_governance",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "requirement_traces_to",
+        "column_value_distribution",
+        "allocation_at_run_id"
+      ]
+    },
+    {
+      "id": "ch_live_rollback_relation_a35997",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "rollback_relation",
+        "professional_expertise_domain",
+        "schema_version_subclass"
+      ]
+    },
+    {
+      "id": "ch_live_rollback_relation_cf2afa",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "rollback_relation",
+        "safety_planning_process",
+        "salary_requirement"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_creativework_date_cdd1ec",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "schemaorg_creativework_date",
+        "schemaorg_creativework_publisher",
+        "schemaorg_event_endtime"
+      ]
+    },
+    {
+      "id": "ch_live_schemaorg_event_location_e13aba",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "schemaorg_event_location",
+        "soc2_privacy_subclass",
+        "measurement_of_artifact"
+      ]
+    },
+    {
+      "id": "ch_live_soc2_availability_subclass_92ba14",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "soc2_availability_subclass",
+        "client_data_record",
+        "lift_with_support_count"
+      ]
+    },
+    {
+      "id": "ch_live_soc2_security_subclass_e96f34",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "soc2_security_subclass",
+        "young_adult_speaker_role",
+        "measurement_with_method"
+      ]
+    },
+    {
+      "id": "ch_live_state_observed_at_time_17a26b",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "state_observed_at_time",
+        "universal_combined_with_existential",
+        "subclass_to_independent_continuant"
+      ]
+    },
+    {
+      "id": "ch_live_state_transitions_to_cd6f77",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "state_transitions_to",
+        "storage_structure_composition",
+        "strategic_commitment"
+      ]
+    },
+    {
+      "id": "ch_live_strategic_planning_process_e50ccb",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "strategic_planning_process",
+        "student_privacy_expectation",
+        "subclass_basic"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_not_basic_97a4b5",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "subclass_not_basic",
+        "bpf_helper_called_by",
+        "division_eligibility_constraint"
+      ]
+    },
+    {
+      "id": "ch_live_subclass_to_artifact_ecd19d",
+      "family": "01_foundation",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "subclass_to_artifact",
+        "annotation_at_tier",
+        "kernelhook_max_one_program_attached"
+      ]
+    },
+    {
+      "id": "ch_live_syscall_with_return_type_38dc92",
+      "family": "04_ebpf_kernel",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "syscall_with_return_type",
+        "state_transitions_to",
+        "artifact_min_one_owner"
+      ]
+    },
+    {
+      "id": "ch_live_telemetry_span_observes_syscall_e1b13a",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "telemetry_span_observes_syscall",
+        "third_party_data_sharing",
+        "trace_basic"
+      ]
+    },
+    {
+      "id": "ch_live_trace_with_attributes_7a8561",
+      "family": "02_observation_measurement",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "trace_with_attributes",
+        "trace_with_root_span",
+        "trace_with_service_name"
+      ]
+    },
+    {
+      "id": "ch_live_trace_with_service_name_b9d001",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "trace_with_service_name",
+        "apolitical_islam",
+        "outlier_claim_supported_by_lift"
+      ]
+    },
+    {
+      "id": "ch_live_training_partnership_development_b78d79",
+      "family": "08_derived",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "training_partnership_development",
+        "allocation_basic",
+        "annotation_assigned_by"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_associated_with_agent_7dc457",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "transformation_associated_with_agent",
+        "existential_generic",
+        "quantum_computer"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_associated_with_agent_9ed287",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "transformation_associated_with_agent",
+        "column_nullability_state",
+        "trace_originates_from"
+      ]
+    },
+    {
+      "id": "ch_live_transformation_generates_entity_3c6258",
+      "family": "05_provo_lineage",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "transformation_generates_entity",
+        "black_belt_certification_requirement",
+        "dengue_transmission_process"
+      ]
+    },
+    {
+      "id": "ch_live_uretprobe_subclass_1b3430",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "uretprobe_subclass",
+        "entity_type_belongs_to",
+        "schemaorg_creativework_author"
+      ]
+    },
+    {
+      "id": "ch_live_yager_combination_bc8289",
+      "family": "07_long_tail",
+      "topics": [
+        183
+      ],
+      "cited_terms": [
+        "yager_combination",
+        "qualifications_framework",
+        "schema_evolution_under_directive"
+      ]
+    }
+  ]
+}

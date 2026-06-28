@@ -1,340 +1,439 @@
 {
   "topic_id": 56,
   "family": "07_long_tail",
-  "n_chapters": 15,
-  "coverage_score": 0.13370391726493835,
+  "n_chapters": 12,
+  "coverage_score": 0.11449280381202698,
   "topic_repr": "2020-21 Surgery Rese arch Residents\n\nSurgery\n\nW e are proud to present this year's new research residents. Research is a key component of the UW Department of Surgery's residency programs and these residents have each \"paused\" their clinical training in order to complete a two-year research fellowship. Our research residents, along with their clinical peers who work hard to find time to participat...",
   "terms": [
-    "attestation_with_supporting_evidence",
-    "designative_subclass_basic",
-    "subclass_to_designative_ice",
-    "verification_produces_evidence"
+    "annotation_governed_by_classification_policy",
+    "artifact_not_deprecated",
+    "attestation_subclass",
+    "attribute_set_min_one",
+    "cgroup_skb_subclass",
+    "claim_subclass",
+    "claim_with_belief_interval",
+    "constraint_check_subclass",
+    "dempster_combinant_second",
+    "directive_not_superseded",
+    "log_with_resource_attribute",
+    "pdsa_improvement_model",
+    "port_isolation_measurement",
+    "profile_has_null_rate",
+    "program_with_entry_exactly_one",
+    "reference_within_dataset",
+    "sample_subclass",
+    "schema_evolution_under_directive",
+    "schema_migration_subclass",
+    "schemaorg_product_sku",
+    "schemaorg_review_author",
+    "schemaorg_review_rating",
+    "sysblock_subclass",
+    "transformation_subclass",
+    "xdp_action_pass"
   ],
   "tables": [
-    "t_attestation_with_supporting_evidence",
-    "t_designative_subclass_basic",
-    "t_subclass_to_designative_ice",
-    "t_verification_produces_evidence"
+    "t_annotation_governed_by_classification_policy",
+    "t_artifact_not_deprecated",
+    "t_attestation_subclass",
+    "t_attribute_set_min_one",
+    "t_cgroup_skb_subclass",
+    "t_claim_subclass",
+    "t_claim_with_belief_interval",
+    "t_constraint_check_subclass",
+    "t_dempster_combinant_second",
+    "t_directive_not_superseded",
+    "t_log_with_resource_attribute",
+    "t_pdsa_improvement_model",
+    "t_port_isolation_measurement",
+    "t_profile_has_null_rate",
+    "t_program_with_entry_exactly_one",
+    "t_reference_within_dataset",
+    "t_sample_subclass",
+    "t_schema_evolution_under_directive",
+    "t_schema_migration_subclass",
+    "t_schemaorg_product_sku",
+    "t_schemaorg_review_author",
+    "t_schemaorg_review_rating",
+    "t_sysblock_subclass",
+    "t_transformation_subclass",
+    "t_xdp_action_pass"
   ],
   "topics": [
-    4,
-    20,
     56,
-    72,
-    78,
-    82,
-    90,
-    97,
-    107,
-    108,
-    111,
-    117,
-    119,
-    126,
-    128,
-    135,
-    142,
-    146,
-    151,
-    153,
-    154,
-    157,
-    170,
-    173,
-    179,
-    181,
-    185,
-    188,
-    199
+    136,
+    163,
+    166
   ],
   "shared_tables": {
-    "attestation_with_supporting_evidence": [
-      2,
-      3,
-      5,
-      6,
-      7,
-      16,
-      20,
-      23,
+    "annotation_governed_by_classification_policy": [
       26,
-      37,
-      44,
-      58,
-      70,
-      71,
-      73,
-      83,
-      88,
-      92,
-      98,
-      100,
-      102,
-      104,
-      107,
-      112,
-      132,
-      134,
-      138,
-      144,
+      60,
+      94,
+      159,
+      186
+    ],
+    "artifact_not_deprecated": [
+      4,
+      5,
+      20,
+      35,
+      46,
+      81,
+      91,
       158,
-      160,
-      163,
-      186,
-      191,
-      196
+      181,
+      183
     ],
-    "designative_subclass_basic": [
+    "attestation_subclass": [
+      0,
       6,
-      101,
-      128
+      11,
+      24,
+      47,
+      136
     ],
-    "subclass_to_designative_ice": [
-      6,
-      101,
-      128
+    "attribute_set_min_one": [
+      0,
+      4,
+      26,
+      86,
+      139,
+      180,
+      186
     ],
-    "verification_produces_evidence": [
-      6,
-      16,
-      23,
-      44,
-      58,
-      71,
-      83,
-      89,
+    "cgroup_skb_subclass": [
+      4,
+      25,
+      40,
+      45,
       104,
+      183
+    ],
+    "claim_subclass": [
+      5,
+      10,
+      11,
+      20,
+      26,
+      61,
+      69,
+      97,
+      100,
+      104,
+      186,
+      188
+    ],
+    "claim_with_belief_interval": [
+      6,
+      25,
+      26,
+      35,
+      92,
+      188
+    ],
+    "constraint_check_subclass": [
+      3,
+      4,
+      11,
+      26,
+      46,
+      65,
+      67,
+      81,
+      139,
+      181,
+      183,
+      186
+    ],
+    "dempster_combinant_second": [
+      0,
+      1,
+      11,
+      47,
+      83,
+      91,
+      159
+    ],
+    "directive_not_superseded": [
+      26,
+      40,
       129,
-      138,
-      160,
+      195
+    ],
+    "log_with_resource_attribute": [
+      6,
+      23,
+      61,
+      107,
+      128,
       163,
+      168,
+      180,
+      181,
+      183
+    ],
+    "pdsa_improvement_model": [
+      0,
+      4,
+      26,
+      36,
+      60,
+      65,
+      83,
+      147,
+      186,
+      188
+    ],
+    "port_isolation_measurement": [
+      20,
+      42,
+      105,
+      184,
+      186
+    ],
+    "profile_has_null_rate": [
+      2,
+      7,
+      40,
+      42,
+      69,
+      80,
+      159,
+      186
+    ],
+    "program_with_entry_exactly_one": [
+      7,
+      10,
+      11,
+      26,
+      135,
+      136,
+      168,
+      181,
+      183,
+      186
+    ],
+    "reference_within_dataset": [
+      2,
+      7,
+      12,
+      45,
+      46,
+      47,
+      79,
+      136
+    ],
+    "sample_subclass": [
+      4,
+      10,
+      46,
+      125,
+      168
+    ],
+    "schema_evolution_under_directive": [
+      4,
+      38,
+      183,
+      185
+    ],
+    "schema_migration_subclass": [
+      5,
+      47
+    ],
+    "schemaorg_product_sku": [
+      1,
+      4,
+      26,
+      62,
+      123,
+      190
+    ],
+    "schemaorg_review_author": [
+      10,
+      12,
+      42,
+      46
+    ],
+    "schemaorg_review_rating": [
+      23,
+      24,
+      40,
+      60,
+      109,
+      163
+    ],
+    "sysblock_subclass": [
+      35,
+      78,
+      79,
+      184,
+      186,
+      195
+    ],
+    "transformation_subclass": [
+      2,
+      4,
+      54,
+      186,
       191
+    ],
+    "xdp_action_pass": [
+      6,
+      23,
+      24,
+      65,
+      105,
+      107,
+      135,
+      186
     ]
   },
   "chapters": [
     {
-      "id": "0a56d14e52df46c2",
-      "family": "03_directive_governance",
+      "id": "ch_live_annotation_governed_by_classification_policy_5f374e",
+      "family": "02_observation_measurement",
       "topics": [
-        56,
-        78,
-        181
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "annotation_governed_by_classification_policy",
+        "program_with_entry_exactly_one",
+        "schemaorg_review_author"
       ]
     },
     {
-      "id": "2a2498047bd619af",
-      "family": "03_directive_governance",
+      "id": "ch_live_artifact_not_deprecated_49ec22",
+      "family": "07_long_tail",
       "topics": [
-        4,
-        56,
-        153
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "artifact_not_deprecated",
+        "schema_migration_subclass",
+        "claim_subclass"
       ]
     },
     {
-      "id": "2d2b4cdb7591972c",
-      "family": "03_directive_governance",
+      "id": "ch_live_profile_has_null_rate_1f1bae",
+      "family": "02_observation_measurement",
       "topics": [
-        56,
-        135,
-        188
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "profile_has_null_rate",
+        "directive_not_superseded",
+        "schemaorg_review_author"
       ]
     },
     {
-      "id": "2d469f31030e1740",
-      "family": "03_directive_governance",
+      "id": "ch_live_reference_within_dataset_9ec0e3",
+      "family": "01_foundation",
       "topics": [
-        56,
-        111,
-        142
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "reference_within_dataset",
+        "schema_migration_subclass",
+        "cgroup_skb_subclass"
       ]
     },
     {
-      "id": "4588a5705d043b9a",
-      "family": "03_directive_governance",
+      "id": "ch_live_sample_subclass_9f9654",
+      "family": "01_foundation",
       "topics": [
-        56,
-        151,
-        157
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "sample_subclass",
+        "schema_evolution_under_directive",
+        "schema_migration_subclass"
       ]
     },
     {
-      "id": "56130a1b42217bac",
-      "family": "03_directive_governance",
+      "id": "ch_live_schema_migration_subclass_46b55d",
+      "family": "07_long_tail",
       "topics": [
-        20,
         56,
-        199
+        136
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schema_migration_subclass",
+        "attribute_set_min_one",
+        "attestation_subclass"
       ]
     },
     {
-      "id": "81e27c1dd51f9aca",
-      "family": "03_directive_governance",
+      "id": "ch_live_schema_migration_subclass_8325db",
+      "family": "07_long_tail",
       "topics": [
-        56,
-        107,
-        173
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schema_migration_subclass",
+        "dempster_combinant_second",
+        "program_with_entry_exactly_one"
       ]
     },
     {
-      "id": "89c8fc3f9bdfe3d7",
-      "family": "03_directive_governance",
+      "id": "ch_live_schema_migration_subclass_bfc97c",
+      "family": "07_long_tail",
       "topics": [
-        56,
-        97,
-        108
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schema_migration_subclass",
+        "transformation_subclass",
+        "log_with_resource_attribute"
       ]
     },
     {
-      "id": "9365a5b395cabad5",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_product_sku_880332",
+      "family": "07_long_tail",
       "topics": [
         56,
-        90,
-        146
+        163,
+        166
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schemaorg_product_sku",
+        "schemaorg_review_author",
+        "schemaorg_review_rating"
       ]
     },
     {
-      "id": "99c6876c8f86d929",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_review_author_11c2b8",
+      "family": "07_long_tail",
       "topics": [
-        56,
-        128,
-        170
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schemaorg_review_author",
+        "pdsa_improvement_model",
+        "constraint_check_subclass"
       ]
     },
     {
-      "id": "a40c56147630ddec",
-      "family": "03_directive_governance",
+      "id": "ch_live_schemaorg_review_author_e3059c",
+      "family": "07_long_tail",
       "topics": [
-        56,
-        154,
-        185
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "schemaorg_review_author",
+        "claim_with_belief_interval",
+        "port_isolation_measurement"
       ]
     },
     {
-      "id": "c04a935812e1d7c8",
-      "family": "03_directive_governance",
+      "id": "ch_live_sysblock_subclass_1c3d97",
+      "family": "01_foundation",
       "topics": [
-        56,
-        72,
-        119
+        56
       ],
       "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
-      ]
-    },
-    {
-      "id": "da47e78bd60bb7ba",
-      "family": "03_directive_governance",
-      "topics": [
-        56,
-        107,
-        179
-      ],
-      "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
-      ]
-    },
-    {
-      "id": "e2b58a86d1459254",
-      "family": "03_directive_governance",
-      "topics": [
-        56,
-        82,
-        126
-      ],
-      "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
-      ]
-    },
-    {
-      "id": "fe7d9c44252bc4c3",
-      "family": "03_directive_governance",
-      "topics": [
-        56,
-        90,
-        117
-      ],
-      "cited_terms": [
-        "verification_produces_evidence",
-        "designative_subclass_basic",
-        "attestation_with_supporting_evidence",
-        "subclass_to_designative_ice"
+        "sysblock_subclass",
+        "schemaorg_review_author",
+        "xdp_action_pass"
       ]
     }
   ]

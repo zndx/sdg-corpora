@@ -1,193 +1,160 @@
 {
   "topic_id": 166,
   "family": "07_long_tail",
-  "n_chapters": 12,
-  "coverage_score": 0.17199544608592987,
+  "n_chapters": 4,
+  "coverage_score": 0.15110065042972565,
   "topic_repr": "Aspects of phytoplankton spring blooms in northern coastal/shelf areas: Diatoms vs. *Phaeocystis pouchetii* (Hariot, Lagerheim)\n\nGunilla Kristina Eriksen\n\nBIO-3950 Master\u2019s thesis in Biology\n\nNovember 2010\n\nFront - page photo: \"Phaeocystis pouchetii and Chaetoceros socialis\" (Richard Andre Ingebrigtsen)\n\nAcknowledgements\n\nFirst of all I wish to thank my supervisor, Hans Christian Eilertsen, which ...",
   "terms": [
-    "audit_with_findings"
+    "artifact_max_one_owner",
+    "audit_produces_evidence",
+    "claim_supported_by_evidence",
+    "intermediate_floor_assembly",
+    "kernelhook_observes_syscall_xref",
+    "lift_basic",
+    "requirement_min_one_verification",
+    "ringbuf_map_subclass",
+    "survey_response_record"
   ],
   "tables": [
-    "t_audit_with_findings"
+    "t_artifact_max_one_owner",
+    "t_audit_produces_evidence",
+    "t_claim_supported_by_evidence",
+    "t_intermediate_floor_assembly",
+    "t_kernelhook_observes_syscall_xref",
+    "t_lift_basic",
+    "t_requirement_min_one_verification",
+    "t_ringbuf_map_subclass",
+    "t_survey_response_record"
   ],
   "topics": [
     2,
-    8,
-    25,
-    42,
-    47,
-    52,
-    56,
-    57,
-    61,
-    72,
-    77,
-    80,
-    92,
-    98,
-    109,
-    134,
-    142,
-    143,
-    145,
-    157,
+    12,
+    14,
     166,
-    178,
-    199
+    167,
+    180,
+    191
   ],
   "shared_tables": {
-    "audit_with_findings": [
-      16,
-      32,
-      38,
-      44,
-      76,
+    "artifact_max_one_owner": [
+      1,
+      26,
+      46,
+      60,
+      128,
+      183,
+      186
+    ],
+    "audit_produces_evidence": [
+      10,
+      12
+    ],
+    "claim_supported_by_evidence": [
+      19,
+      26,
+      92,
+      97
+    ],
+    "intermediate_floor_assembly": [
+      26,
+      46,
+      155,
+      168,
+      172,
+      183,
+      187
+    ],
+    "kernelhook_observes_syscall_xref": [
+      7,
+      23,
+      26,
+      155,
+      186
+    ],
+    "lift_basic": [
+      2,
+      89
+    ],
+    "requirement_min_one_verification": [
+      7,
+      11,
+      12,
+      120,
+      129,
+      191
+    ],
+    "ringbuf_map_subclass": [
+      1,
+      12,
+      61,
+      180
+    ],
+    "survey_response_record": [
+      26,
+      35,
+      41,
+      60,
+      75,
+      97,
+      181,
+      183,
+      184,
       186
     ]
   },
   "chapters": [
     {
-      "id": "1b23f1e37289afb1",
-      "family": "03_directive_governance",
-      "topics": [
-        42,
-        98,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "1b49fe090bb735b5",
-      "family": "03_directive_governance",
-      "topics": [
-        72,
-        77,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "246a4ddec6621427",
-      "family": "03_directive_governance",
+      "id": "ch_live_audit_produces_evidence_42848b",
+      "family": "07_long_tail",
       "topics": [
         2,
-        56,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "3c182889383081d0",
-      "family": "03_directive_governance",
-      "topics": [
-        57,
-        157,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "5eb060aa6ac55d30",
-      "family": "03_directive_governance",
-      "topics": [
-        92,
-        109,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "627bcdbc80da24ff",
-      "family": "03_directive_governance",
-      "topics": [
-        47,
-        56,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "88437523391994fa",
-      "family": "03_directive_governance",
-      "topics": [
-        142,
-        143,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "8b44b495c334e487",
-      "family": "03_directive_governance",
-      "topics": [
-        52,
-        80,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "c02549d5ad7a0cef",
-      "family": "03_directive_governance",
-      "topics": [
-        61,
-        134,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "ebc1cb789b026b4e",
-      "family": "03_directive_governance",
-      "topics": [
-        8,
-        157,
-        166
-      ],
-      "cited_terms": [
-        "audit_with_findings"
-      ]
-    },
-    {
-      "id": "f25175d2e8ed22f9",
-      "family": "03_directive_governance",
-      "topics": [
-        25,
+        12,
+        14,
         166,
-        199
+        167
       ],
       "cited_terms": [
-        "audit_with_findings"
+        "audit_produces_evidence",
+        "claim_supported_by_evidence",
+        "lift_basic"
       ]
     },
     {
-      "id": "fe54d9bb54f8ed60",
+      "id": "ch_live_requirement_min_one_verification_b47446",
       "family": "03_directive_governance",
       "topics": [
-        145,
         166,
-        178
+        191
       ],
       "cited_terms": [
-        "audit_with_findings"
+        "requirement_min_one_verification",
+        "claim_supported_by_evidence",
+        "kernelhook_observes_syscall_xref"
+      ]
+    },
+    {
+      "id": "ch_live_ringbuf_map_subclass_f4e716",
+      "family": "07_long_tail",
+      "topics": [
+        166,
+        180
+      ],
+      "cited_terms": [
+        "ringbuf_map_subclass",
+        "artifact_max_one_owner",
+        "claim_supported_by_evidence"
+      ]
+    },
+    {
+      "id": "ch_live_survey_response_record_bb42d4",
+      "family": "08_derived",
+      "topics": [
+        166
+      ],
+      "cited_terms": [
+        "survey_response_record",
+        "claim_supported_by_evidence",
+        "intermediate_floor_assembly"
       ]
     }
   ]

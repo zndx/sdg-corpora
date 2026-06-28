@@ -1,0 +1,103 @@
+{
+  "topic_id": 17,
+  "family": "07_long_tail",
+  "n_chapters": 2,
+  "coverage_score": 0.12285767495632172,
+  "topic_repr": "The miR526b-5p-Related Single Nucleotide Polymorphisms, rs72618599, Located in 3'-UTR of TCF3 Gene, is Associated with the Risk of Breast and Gastric Cancers\n\nMaryam Mohammadi 1 , Ali Salehzadeh 1* , Soheila Talesh Sasani 2 and Alireza Tarang 3\n\n1 Department of Biology, Rasht Branch, Islamic Azad University, Rasht, Iran; 2 Department of Biology, Faculty of Science, University of Guilan, Rasht, Ira...",
+  "terms": [
+    "dataset_snapshot_subclass",
+    "dataset_subclass",
+    "dataset_under_audit",
+    "ebpfprogram_loaded_in_kernel",
+    "gdpr_article_subclass"
+  ],
+  "tables": [
+    "t_dataset_snapshot_subclass",
+    "t_dataset_subclass",
+    "t_dataset_under_audit",
+    "t_ebpfprogram_loaded_in_kernel",
+    "t_gdpr_article_subclass"
+  ],
+  "topics": [
+    17,
+    36,
+    50,
+    62,
+    105,
+    124
+  ],
+  "shared_tables": {
+    "dataset_snapshot_subclass": [
+      5,
+      26,
+      30,
+      46,
+      80,
+      123,
+      138,
+      168,
+      183,
+      186
+    ],
+    "dataset_subclass": [
+      124
+    ],
+    "dataset_under_audit": [
+      105
+    ],
+    "ebpfprogram_loaded_in_kernel": [
+      2,
+      26,
+      34,
+      80,
+      94,
+      125,
+      186
+    ],
+    "gdpr_article_subclass": [
+      6,
+      14,
+      35,
+      44,
+      67,
+      81,
+      97,
+      181,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_dataset_snapshot_subclass_af7bbc",
+      "family": "07_long_tail",
+      "topics": [
+        17,
+        36,
+        50,
+        62,
+        105
+      ],
+      "cited_terms": [
+        "dataset_snapshot_subclass",
+        "dataset_subclass",
+        "dataset_under_audit"
+      ]
+    },
+    {
+      "id": "ch_live_gdpr_article_subclass_86f338",
+      "family": "07_long_tail",
+      "topics": [
+        17,
+        36,
+        50,
+        62,
+        124
+      ],
+      "cited_terms": [
+        "gdpr_article_subclass",
+        "dataset_subclass",
+        "ebpfprogram_loaded_in_kernel"
+      ]
+    }
+  ]
+}

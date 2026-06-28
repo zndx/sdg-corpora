@@ -1,0 +1,425 @@
+{
+  "topic_id": 91,
+  "family": "03_directive_governance",
+  "n_chapters": 11,
+  "coverage_score": 0.1371576488018036,
+  "topic_repr": "Read Online Chemical Engineering Projects For Final Year\n\nChemical Engineering Projects For Final Year\n\nThank you for reading chemical engineering projects for final year. As you may know, people have search hundreds times for their chosen readings like this chemical engineering projects for final year, but end up in malicious downloads. Rather than reading a good book with a cup of coffee in the ...",
+  "terms": [
+    "aggregation_uses_function",
+    "annotation_basic",
+    "artifact_not_deprecated",
+    "attribute_set_max_attrs",
+    "belief_interval_at_confidence_level",
+    "belief_interval_equiv_bel_and_pl",
+    "carbon_credit_transaction",
+    "classification_assigns_tier",
+    "classification_basic",
+    "classification_subclass",
+    "classification_under_taxonomy",
+    "control_equiv_implements_with_owner",
+    "dempster_combinant_second",
+    "electricity_usage_pattern_record",
+    "equiv_intersect_anchored_artifact",
+    "financial_strategy_oversight",
+    "observation_records_state",
+    "policy_enforced_by",
+    "process_with_min_one_artifact",
+    "professional_experience",
+    "profile_has_distribution",
+    "state_transitions_to",
+    "subclass_basic",
+    "subclass_not_basic"
+  ],
+  "tables": [
+    "t_aggregation_uses_function",
+    "t_annotation_basic",
+    "t_artifact_not_deprecated",
+    "t_attribute_set_max_attrs",
+    "t_belief_interval_at_confidence_level",
+    "t_belief_interval_equiv_bel_and_pl",
+    "t_carbon_credit_transaction",
+    "t_classification_assigns_tier",
+    "t_classification_basic",
+    "t_classification_subclass",
+    "t_classification_under_taxonomy",
+    "t_control_equiv_implements_with_owner",
+    "t_dempster_combinant_second",
+    "t_electricity_usage_pattern_record",
+    "t_equiv_intersect_anchored_artifact",
+    "t_financial_strategy_oversight",
+    "t_observation_records_state",
+    "t_policy_enforced_by",
+    "t_process_with_min_one_artifact",
+    "t_professional_experience",
+    "t_profile_has_distribution",
+    "t_state_transitions_to",
+    "t_subclass_basic",
+    "t_subclass_not_basic"
+  ],
+  "topics": [
+    12,
+    36,
+    46,
+    91,
+    92,
+    94,
+    105,
+    181,
+    183
+  ],
+  "shared_tables": {
+    "aggregation_uses_function": [
+      1,
+      135,
+      183,
+      186
+    ],
+    "annotation_basic": [
+      0,
+      4,
+      10,
+      26,
+      172,
+      186,
+      188
+    ],
+    "artifact_not_deprecated": [
+      4,
+      5,
+      20,
+      35,
+      46,
+      56,
+      81,
+      158,
+      181,
+      183
+    ],
+    "attribute_set_max_attrs": [
+      0,
+      4,
+      7,
+      26,
+      65,
+      92
+    ],
+    "belief_interval_at_confidence_level": [
+      2,
+      94
+    ],
+    "belief_interval_equiv_bel_and_pl": [
+      7,
+      8,
+      12,
+      20,
+      26,
+      34,
+      83,
+      86,
+      97,
+      102,
+      125,
+      143,
+      147
+    ],
+    "carbon_credit_transaction": [
+      12,
+      23,
+      33,
+      54,
+      58,
+      60,
+      61,
+      181
+    ],
+    "classification_assigns_tier": [
+      26,
+      92
+    ],
+    "classification_basic": [
+      1,
+      3,
+      19,
+      45
+    ],
+    "classification_subclass": [
+      12,
+      41,
+      105
+    ],
+    "classification_under_taxonomy": [
+      12
+    ],
+    "control_equiv_implements_with_owner": [
+      1,
+      26,
+      36,
+      186
+    ],
+    "dempster_combinant_second": [
+      0,
+      1,
+      11,
+      47,
+      56,
+      83,
+      159
+    ],
+    "electricity_usage_pattern_record": [
+      11,
+      34,
+      100,
+      183,
+      186
+    ],
+    "equiv_intersect_anchored_artifact": [
+      1,
+      33,
+      136,
+      183,
+      186
+    ],
+    "financial_strategy_oversight": [
+      20,
+      25,
+      26,
+      92,
+      122,
+      135,
+      191
+    ],
+    "observation_records_state": [
+      4,
+      6,
+      10,
+      23,
+      26,
+      67,
+      123,
+      125,
+      129,
+      135,
+      163,
+      183,
+      185,
+      186
+    ],
+    "policy_enforced_by": [
+      8,
+      26,
+      40,
+      60,
+      80,
+      86,
+      97,
+      128,
+      161,
+      181,
+      185,
+      188
+    ],
+    "process_with_min_one_artifact": [
+      4,
+      36,
+      65
+    ],
+    "professional_experience": [
+      4,
+      7,
+      79,
+      106,
+      139,
+      149,
+      183,
+      186
+    ],
+    "profile_has_distribution": [
+      24,
+      25,
+      26,
+      42,
+      45,
+      65,
+      107,
+      186
+    ],
+    "state_transitions_to": [
+      44,
+      80,
+      97,
+      181,
+      183
+    ],
+    "subclass_basic": [
+      5,
+      34,
+      35,
+      47,
+      68,
+      81,
+      86,
+      128,
+      161,
+      183,
+      185,
+      186
+    ],
+    "subclass_not_basic": [
+      7,
+      24,
+      26,
+      31,
+      41,
+      44,
+      60,
+      61,
+      123,
+      183,
+      186
+    ]
+  },
+  "chapters": [
+    {
+      "id": "ch_live_aggregation_uses_function_e73b6f",
+      "family": "02_observation_measurement",
+      "topics": [
+        91,
+        94
+      ],
+      "cited_terms": [
+        "aggregation_uses_function",
+        "belief_interval_at_confidence_level",
+        "classification_basic"
+      ]
+    },
+    {
+      "id": "ch_live_annotation_basic_6c5339",
+      "family": "02_observation_measurement",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "annotation_basic",
+        "classification_basic",
+        "observation_records_state"
+      ]
+    },
+    {
+      "id": "ch_live_attribute_set_max_attrs_cec1fa",
+      "family": "02_observation_measurement",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "attribute_set_max_attrs",
+        "equiv_intersect_anchored_artifact",
+        "classification_basic"
+      ]
+    },
+    {
+      "id": "ch_live_classification_basic_07ff92",
+      "family": "03_directive_governance",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "classification_basic",
+        "financial_strategy_oversight",
+        "belief_interval_equiv_bel_and_pl"
+      ]
+    },
+    {
+      "id": "ch_live_classification_basic_3278f2",
+      "family": "03_directive_governance",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "classification_basic",
+        "electricity_usage_pattern_record",
+        "subclass_not_basic"
+      ]
+    },
+    {
+      "id": "ch_live_classification_basic_5e046d",
+      "family": "03_directive_governance",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "classification_basic",
+        "carbon_credit_transaction",
+        "control_equiv_implements_with_owner"
+      ]
+    },
+    {
+      "id": "ch_live_classification_basic_d094df",
+      "family": "03_directive_governance",
+      "topics": [
+        12,
+        36,
+        46,
+        91,
+        105
+      ],
+      "cited_terms": [
+        "classification_basic",
+        "classification_subclass",
+        "classification_under_taxonomy"
+      ]
+    },
+    {
+      "id": "ch_live_dempster_combinant_second_3f3c7d",
+      "family": "07_long_tail",
+      "topics": [
+        91,
+        181
+      ],
+      "cited_terms": [
+        "dempster_combinant_second",
+        "process_with_min_one_artifact",
+        "professional_experience"
+      ]
+    },
+    {
+      "id": "ch_live_process_with_min_one_artifact_0c56a0",
+      "family": "01_foundation",
+      "topics": [
+        91,
+        181
+      ],
+      "cited_terms": [
+        "process_with_min_one_artifact",
+        "policy_enforced_by",
+        "subclass_basic"
+      ]
+    },
+    {
+      "id": "ch_live_profile_has_distribution_ad1253",
+      "family": "02_observation_measurement",
+      "topics": [
+        91
+      ],
+      "cited_terms": [
+        "profile_has_distribution",
+        "classification_basic",
+        "artifact_not_deprecated"
+      ]
+    },
+    {
+      "id": "ch_live_state_transitions_to_8220fb",
+      "family": "02_observation_measurement",
+      "topics": [
+        91,
+        92,
+        181,
+        183
+      ],
+      "cited_terms": [
+        "state_transitions_to",
+        "process_with_min_one_artifact",
+        "classification_assigns_tier"
+      ]
+    }
+  ]
+}

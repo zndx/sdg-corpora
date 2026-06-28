@@ -1,0 +1,161 @@
+# Collection — topic 181 · 07_long_tail
+
+FinePDFs-grounded topic (carried forward from the coverage audit). **25 chapters** · **1 topics** (target + style) · **60 ontology terms** · **60 underlying tables**.
+
+> **Topic gist** (representative FinePDFs text): | This is a Controlled Document that complies with | |---| | Wesfarmers Chemicals, Energy & Fertilisers formatting and Quality Control standards. | | Please check that this is the latest available version before use. | | Title: | | Number: | | Version Number: | | Date Revised: | | Owner: | | Authoriser: | | Reasons for Creating | | or Amending | | Document | | Actual Change Details: | TABLE OF CO. …
+
+## Chapters
+
+- [ch_live_artifact_not_deprecated_c80480](chapters/ch_live_artifact_not_deprecated_c80480.md)
+- [ch_live_artifact_not_revoked_e7e777](chapters/ch_live_artifact_not_revoked_e7e777.md)
+- [ch_live_attestation_basic_3a4129](chapters/ch_live_attestation_basic_3a4129.md)
+- [ch_live_attestation_basic_f48e2b](chapters/ch_live_attestation_basic_f48e2b.md)
+- [ch_live_belief_function_for_fd1db9](chapters/ch_live_belief_function_for_fd1db9.md)
+- [ch_live_claim_basic_5bc73f](chapters/ch_live_claim_basic_5bc73f.md)
+- [ch_live_column_dropped_at_version_b68e25](chapters/ch_live_column_dropped_at_version_b68e25.md)
+- [ch_live_directive_supersedes_directive_7197e6](chapters/ch_live_directive_supersedes_directive_7197e6.md)
+- [ch_live_directive_union_constraint_or_policy_7c3123](chapters/ch_live_directive_union_constraint_or_policy_7c3123.md)
+- [ch_live_disjunctive_combination_56ef2f](chapters/ch_live_disjunctive_combination_56ef2f.md)
+- [ch_live_ebpfmap_equiv_kv_typed_9a58a4](chapters/ch_live_ebpfmap_equiv_kv_typed_9a58a4.md)
+- [ch_live_functional_dependency_rhs_ab1b57](chapters/ch_live_functional_dependency_rhs_ab1b57.md)
+- [ch_live_lift_with_support_count_ca8b58](chapters/ch_live_lift_with_support_count_ca8b58.md)
+- [ch_live_log_with_resource_attribute_57cbee](chapters/ch_live_log_with_resource_attribute_57cbee.md)
+- [ch_live_program_with_entry_exactly_one_c020b8](chapters/ch_live_program_with_entry_exactly_one_c020b8.md)
+- [ch_live_schema_revision_of_037c16](chapters/ch_live_schema_revision_of_037c16.md)
+- [ch_live_schema_revision_of_3e1e1b](chapters/ch_live_schema_revision_of_3e1e1b.md)
+- [ch_live_schema_revision_of_538b35](chapters/ch_live_schema_revision_of_538b35.md)
+- [ch_live_schema_version_subclass_c0b946](chapters/ch_live_schema_version_subclass_c0b946.md)
+- [ch_live_schemaorg_creativework_author_40a868](chapters/ch_live_schemaorg_creativework_author_40a868.md)
+- [ch_live_schemaorg_creativework_author_e02501](chapters/ch_live_schemaorg_creativework_author_e02501.md)
+- [ch_live_schemaorg_creativework_publisher_9d3db3](chapters/ch_live_schemaorg_creativework_publisher_9d3db3.md)
+- [ch_live_schemaorg_creativework_publisher_ec679d](chapters/ch_live_schemaorg_creativework_publisher_ec679d.md)
+- [ch_live_state_transitions_to_e2aa60](chapters/ch_live_state_transitions_to_e2aa60.md)
+- [ch_live_storage_structure_composition_8d1caf](chapters/ch_live_storage_structure_composition_8d1caf.md)
+
+## Ontology terms grounding this collection
+
+- `aggregation_grouped_by` — {X} is a descriptive information content entity that grouped by designative information content entity
+- `allocation_with_input_facets` — {X} is a process that has input facet {Y}
+- `allocation_with_output_facets` — {X} is a process that has output facet {Y}
+- `artifact_not_deprecated` — {X} is not {Y}
+- `artifact_not_revoked` — {X} is not {Y}
+- `artifact_subclass_two_parents` — {X} is a {Y}
+- `artifact_with_role` — {X} is an artifact that has role {Y}
+- `attestation_basic` — {X} is a process
+- `attribute_set_subclass` — {X} is a descriptive information content entity that has attribute designative information content entity
+- `attribute_set_supports_outlier_claim` — {X} is a descriptive information content entity that supports {Y}
+- `belief_function_for` — {X} is a descriptive information content entity that belief for claim {Y}
+- `carbon_credit_transaction` — A CarbonCreditTransaction is an InformationContentEntity that derives from some CarbonCreditProject, transferred to some
+- `claim_basic` — {X} is a descriptive information content entity
+- `column_dropped_at_version` — {X} is a descriptive information content entity that dropped at schema version {Y}
+- `column_property_subclass` — {X} is a descriptive information content entity that annotates property of {Y}
+- `constraint_check_subclass` — {X} is a directive information content entity that checks {Y}
+- `constraint_only_constrains` — {X} is a directive information content entity that constrains {Y}
+- `control_observed_via` — {X} is a directive information content entity that observed via {Y}
+- `dempster_combination_subclass` — {X} is a descriptive information content entity that combines via dempster {Y}
+- `dengue_transmission_process` — A DengueTransmissionProcess is a BFO process that involves a HumanPopulation via sdg:involvesHost and an AedesAegyptiVec
+- `descriptive_not_retracted` — {X} is not {Y}
+- `directive_supersedes_directive` — {X} is a directive information content entity that supersedes directive information content entity
+- `directive_union_constraint_or_policy` — {X} is equivalent to directive information content entity and {Y} or {Z}
+- `disjunctive_combination` — {X} is a descriptive information content entity that disjunctively combines {Y}
+- `ebpfmap_equiv_kv_typed` — Class: {X:Class} EquivalentTo: cco:Artifact and (sdg:hasKeyType some {Y:Class}) and (sdg:hasValueTypeMap some {Z:Class})
+- `ebpfmap_subclass` — {X} is an artifact that has map type {Y}
+- `equiv_intersect_with_restriction` — {X} is equivalent to {Y} that {p} {Z}
+- `equiv_intersect_with_two_restrictions` — {X} is equivalent to {Y} that {p} {Z} and {q} {W}
+- `functional_dependency_rhs` — {X} is a descriptive information content entity that has fdright hand side {Y}
+- `ganglion_cyst_imaging_finding` — GanglionCystImagingFinding is an information content entity that visualizes some MagneticResonanceImagingModality.
+- `ganglion_cyst_tissue_origin` — GanglionCystTissueOrigin is a continuant that bears the part-of relation to some ConnectiveTissueStructure.
+- `gdpr_article_subclass` — {X} is a directive information content entity that gdpr article {Y}
+- `ice_subclass_with_part` — {X} is an information content entity that has part information content entity
+- `internal_communication_requirement` — InternalCommunicationRequirement is a directive ICE that specifies an EnterpriseSocialMedia and targets an Organizationa
+- `labrun_has_operator` — {X} is a process that has operator {Y}
+- `lift_with_support_count` — {X} is a descriptive information content entity that has support count {Y}
+- `log_with_resource_attribute` — {X} is an artifact that has resource attribute {Y}
+- `measurement_aggregated_into` — {X} is a descriptive information content entity that aggregated into {Y}
+- `measurement_with_unit` — {X} is a descriptive information content entity that has unit {Y}
+- `nist80053_low_impact` — {X} is a directive information content entity that at nistimpact level {Y}
+- `patient_insurance_record` — PatientInsuranceRecord is an information content entity containing at least one InsuranceInformationItem.
+- `policy_enforced_by` — {X} is a directive information content entity that enforced by {Y}
+- `policy_only_governs_artifacts` — {X} is a directive information content entity
+- `process_either_started_or_completed` — {X} is equivalent to process and {Y} or {Z}
+- `program_with_entry_exactly_one` — {X} is an artifact
+- `regional_quality_benchmark` — A RegionalQualityBenchmark is a DescriptiveICE that has a minimum threshold and a maximum threshold.
+- `responsive_optic_nerve_dysfunction` — ResponsiveOpticNerveDysfunction is equivalent to OpticNerveDysfunction and not LeberOpticAtrophy.
+- `schema_revision_of` — {X} is an artifact that schema revision of {Y}
+- `schema_version_subclass` — {X} is an artifact that has schema version {Y}
+- `schemaorg_creativework_author` — {X} is an artifact that has author {Y}
+- `schemaorg_creativework_publisher` — {X} is an artifact that has publisher {Y}
+- `schemaorg_event_organizer` — {X} is an artifact that has organizer {Y}
+- `schemaorg_place_longitude` — {X} is an artifact that has longitude {Y}
+- `settlement_financing_activity` — A SettlementFinancingActivity is an Occurrent that funds some FinancialInstitution and benefits some SettlementProject.
+- `soc2_confidentiality_subclass` — {X} is a directive information content entity that for soc2 domain {Y}
+- `span_with_attribute` — {X} is a process that has span attribute {Y}
+- `state_transitions_to` — {X} is a descriptive information content entity that transitions to {Y}
+- `storage_structure_composition` — A StorageStructureComposition is a Material Entity that comprises exactly one DatabaseContainer.
+- `survey_response_record` — SurveyResponseRecord is a subclass of cco:InformationContentEntity that captures at least one ResearcherProfileAttribute
+- `syscall_basic` — {X} is a designative information content entity
+
+## Underlying relational tables (semantic columns)
+
+_The tables the chapters' embedded views project from — the current semantic-column DDL spine. (Embedded views in the chapter prose reflect the generation-time schema.)_
+
+- [`t_aggregation_grouped_by`](tables/t_aggregation_grouped_by.sql) — realizes `aggregation_grouped_by` · _shared with 6 other collection(s)_
+- [`t_allocation_with_input_facets`](tables/t_allocation_with_input_facets.sql) — realizes `allocation_with_input_facets` · _shared with 3 other collection(s)_
+- [`t_allocation_with_output_facets`](tables/t_allocation_with_output_facets.sql) — realizes `allocation_with_output_facets` · _shared with 6 other collection(s)_
+- [`t_artifact_not_deprecated`](tables/t_artifact_not_deprecated.sql) — realizes `artifact_not_deprecated` · _shared with 10 other collection(s)_
+- [`t_artifact_not_revoked`](tables/t_artifact_not_revoked.sql) — realizes `artifact_not_revoked` · _shared with 8 other collection(s)_
+- [`t_artifact_subclass_two_parents`](tables/t_artifact_subclass_two_parents.sql) — realizes `artifact_subclass_two_parents` · _shared with 4 other collection(s)_
+- [`t_artifact_with_role`](tables/t_artifact_with_role.sql) — realizes `artifact_with_role` · _shared with 8 other collection(s)_
+- [`t_attestation_basic`](tables/t_attestation_basic.sql) — realizes `attestation_basic` · _shared with 8 other collection(s)_
+- [`t_attribute_set_subclass`](tables/t_attribute_set_subclass.sql) — realizes `attribute_set_subclass` · _shared with 8 other collection(s)_
+- [`t_attribute_set_supports_outlier_claim`](tables/t_attribute_set_supports_outlier_claim.sql) — realizes `attribute_set_supports_outlier_claim` · _shared with 9 other collection(s)_
+- [`t_belief_function_for`](tables/t_belief_function_for.sql) — realizes `belief_function_for` · _shared with 4 other collection(s)_
+- [`t_carbon_credit_transaction`](tables/t_carbon_credit_transaction.sql) — realizes `carbon_credit_transaction` · _shared with 8 other collection(s)_
+- [`t_claim_basic`](tables/t_claim_basic.sql) — realizes `claim_basic` · _shared with 15 other collection(s)_
+- [`t_column_dropped_at_version`](tables/t_column_dropped_at_version.sql) — realizes `column_dropped_at_version` · _shared with 7 other collection(s)_
+- [`t_column_property_subclass`](tables/t_column_property_subclass.sql) — realizes `column_property_subclass` · _shared with 6 other collection(s)_
+- [`t_constraint_check_subclass`](tables/t_constraint_check_subclass.sql) — realizes `constraint_check_subclass` · _shared with 12 other collection(s)_
+- [`t_constraint_only_constrains`](tables/t_constraint_only_constrains.sql) — realizes `constraint_only_constrains` · _shared with 9 other collection(s)_
+- [`t_control_observed_via`](tables/t_control_observed_via.sql) — realizes `control_observed_via` · _shared with 6 other collection(s)_
+- [`t_dempster_combination_subclass`](tables/t_dempster_combination_subclass.sql) — realizes `dempster_combination_subclass` · _shared with 5 other collection(s)_
+- [`t_dengue_transmission_process`](tables/t_dengue_transmission_process.sql) — realizes `dengue_transmission_process` · _shared with 9 other collection(s)_
+- [`t_descriptive_not_retracted`](tables/t_descriptive_not_retracted.sql) — realizes `descriptive_not_retracted` · _shared with 14 other collection(s)_
+- [`t_directive_supersedes_directive`](tables/t_directive_supersedes_directive.sql) — realizes `directive_supersedes_directive` · _shared with 6 other collection(s)_
+- [`t_directive_union_constraint_or_policy`](tables/t_directive_union_constraint_or_policy.sql) — realizes `directive_union_constraint_or_policy` · _shared with 6 other collection(s)_
+- [`t_disjunctive_combination`](tables/t_disjunctive_combination.sql) — realizes `disjunctive_combination` · _shared with 11 other collection(s)_
+- [`t_ebpfmap_equiv_kv_typed`](tables/t_ebpfmap_equiv_kv_typed.sql) — realizes `ebpfmap_equiv_kv_typed` · _shared with 8 other collection(s)_
+- [`t_ebpfmap_subclass`](tables/t_ebpfmap_subclass.sql) — realizes `ebpfmap_subclass` · _shared with 7 other collection(s)_
+- [`t_equiv_intersect_with_restriction`](tables/t_equiv_intersect_with_restriction.sql) — realizes `equiv_intersect_with_restriction` · _shared with 6 other collection(s)_
+- [`t_equiv_intersect_with_two_restrictions`](tables/t_equiv_intersect_with_two_restrictions.sql) — realizes `equiv_intersect_with_two_restrictions` · _shared with 12 other collection(s)_
+- [`t_functional_dependency_rhs`](tables/t_functional_dependency_rhs.sql) — realizes `functional_dependency_rhs` · _shared with 8 other collection(s)_
+- [`t_ganglion_cyst_imaging_finding`](tables/t_ganglion_cyst_imaging_finding.sql) — realizes `ganglion_cyst_imaging_finding` · _shared with 11 other collection(s)_
+- [`t_ganglion_cyst_tissue_origin`](tables/t_ganglion_cyst_tissue_origin.sql) — realizes `ganglion_cyst_tissue_origin` · _shared with 13 other collection(s)_
+- [`t_gdpr_article_subclass`](tables/t_gdpr_article_subclass.sql) — realizes `gdpr_article_subclass` · _shared with 9 other collection(s)_
+- [`t_ice_subclass_with_part`](tables/t_ice_subclass_with_part.sql) — realizes `ice_subclass_with_part` · _shared with 9 other collection(s)_
+- [`t_internal_communication_requirement`](tables/t_internal_communication_requirement.sql) — realizes `internal_communication_requirement` · _shared with 9 other collection(s)_
+- [`t_labrun_has_operator`](tables/t_labrun_has_operator.sql) — realizes `labrun_has_operator` · _shared with 9 other collection(s)_
+- [`t_lift_with_support_count`](tables/t_lift_with_support_count.sql) — realizes `lift_with_support_count` · _shared with 9 other collection(s)_
+- [`t_log_with_resource_attribute`](tables/t_log_with_resource_attribute.sql) — realizes `log_with_resource_attribute` · _shared with 10 other collection(s)_
+- [`t_measurement_aggregated_into`](tables/t_measurement_aggregated_into.sql) — realizes `measurement_aggregated_into` · _shared with 7 other collection(s)_
+- [`t_measurement_with_unit`](tables/t_measurement_with_unit.sql) — realizes `measurement_with_unit` · _shared with 9 other collection(s)_
+- [`t_nist80053_low_impact`](tables/t_nist80053_low_impact.sql) — realizes `nist80053_low_impact` · _shared with 6 other collection(s)_
+- [`t_patient_insurance_record`](tables/t_patient_insurance_record.sql) — realizes `patient_insurance_record` · _shared with 9 other collection(s)_
+- [`t_policy_enforced_by`](tables/t_policy_enforced_by.sql) — realizes `policy_enforced_by` · _shared with 12 other collection(s)_
+- [`t_policy_only_governs_artifacts`](tables/t_policy_only_governs_artifacts.sql) — realizes `policy_only_governs_artifacts` · _shared with 12 other collection(s)_
+- [`t_process_either_started_or_completed`](tables/t_process_either_started_or_completed.sql) — realizes `process_either_started_or_completed` · _shared with 7 other collection(s)_
+- [`t_program_with_entry_exactly_one`](tables/t_program_with_entry_exactly_one.sql) — realizes `program_with_entry_exactly_one` · _shared with 10 other collection(s)_
+- [`t_regional_quality_benchmark`](tables/t_regional_quality_benchmark.sql) — realizes `regional_quality_benchmark` · _shared with 18 other collection(s)_
+- [`t_responsive_optic_nerve_dysfunction`](tables/t_responsive_optic_nerve_dysfunction.sql) — realizes `responsive_optic_nerve_dysfunction` · _shared with 10 other collection(s)_
+- [`t_schema_revision_of`](tables/t_schema_revision_of.sql) — realizes `schema_revision_of` · _shared with 9 other collection(s)_
+- [`t_schema_version_subclass`](tables/t_schema_version_subclass.sql) — realizes `schema_version_subclass` · _shared with 7 other collection(s)_
+- [`t_schemaorg_creativework_author`](tables/t_schemaorg_creativework_author.sql) — realizes `schemaorg_creativework_author` · _shared with 8 other collection(s)_
+- [`t_schemaorg_creativework_publisher`](tables/t_schemaorg_creativework_publisher.sql) — realizes `schemaorg_creativework_publisher` · _shared with 7 other collection(s)_
+- [`t_schemaorg_event_organizer`](tables/t_schemaorg_event_organizer.sql) — realizes `schemaorg_event_organizer` · _shared with 4 other collection(s)_
+- [`t_schemaorg_place_longitude`](tables/t_schemaorg_place_longitude.sql) — realizes `schemaorg_place_longitude` · _shared with 8 other collection(s)_
+- [`t_settlement_financing_activity`](tables/t_settlement_financing_activity.sql) — realizes `settlement_financing_activity` · _shared with 4 other collection(s)_
+- [`t_soc2_confidentiality_subclass`](tables/t_soc2_confidentiality_subclass.sql) — realizes `soc2_confidentiality_subclass` · _shared with 8 other collection(s)_
+- [`t_span_with_attribute`](tables/t_span_with_attribute.sql) — realizes `span_with_attribute` · _shared with 8 other collection(s)_
+- [`t_state_transitions_to`](tables/t_state_transitions_to.sql) — realizes `state_transitions_to` · _shared with 5 other collection(s)_
+- [`t_storage_structure_composition`](tables/t_storage_structure_composition.sql) — realizes `storage_structure_composition` · _shared with 8 other collection(s)_
+- [`t_survey_response_record`](tables/t_survey_response_record.sql) — realizes `survey_response_record` · _shared with 10 other collection(s)_
+- [`t_syscall_basic`](tables/t_syscall_basic.sql) — realizes `syscall_basic` · _shared with 8 other collection(s)_
