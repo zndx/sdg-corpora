@@ -23,8 +23,6 @@ pretty_name: SDG Ontology-Grounded Synthetic Corpus v0.4
 configs:
 - config_name: chapters
   data_files: data/chapters.parquet
-- config_name: columns
-  data_files: data/columns.parquet
 - config_name: vocabulary
   data_files: data/vocabulary.parquet
 ---
@@ -62,7 +60,7 @@ refinement loop** and re-grounds the ontology in the inputs:
 | config / path | rows | description |
 |---|---|---|
 | `chapters` | 1,977 × 2 registers = **3,954** | textbook chapters — markdown prose + woven RI-true tables, in *natural* and *semantic* registers |
-| `columns` | (regenerated from the 4,116-table spine) | a **blind** column-classification benchmark — columns carry *values only*; classify each into `vocabulary` |
+| _columns benchmark_ | embedded | the **4,116 RI-true relational tables are woven into each chapter's markdown**; a standalone blind column-classification parquet is being rebuilt for the refinement-loop surfaces (the v0.3 single-shot extractor read a JSON block this format no longer emits) |
 | `vocabulary` | **623** template leaves (+ BFO/CCO upper anchors) | the **SKOS** column-type label space |
 | `ontology/` (templates) | **623 templates** (8 families) | the generative source ontology (Manchester templates) + `sdg-vocab.ttl` |
 | `ontology/sdg-ontology.{omn,owl}` | **227 classes** | the **realized, HermiT-validated** domain ontology — the FinePDFs-derived templates instantiated into concrete OWL axioms, **consistent** under BFO 2020 (continuant ⊥ occurrent) + CCO. Load it and re-run the reasoner; `HERMIT_CERTIFICATE.md` records the verdict. |
