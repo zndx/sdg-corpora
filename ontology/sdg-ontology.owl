@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://signals360.example.org/sdg#"
      xml:base="https://signals360.example.org/sdg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.commoncoreontologies.org/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://signals360.example.org/sdg"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://signals360.example.org/sdg">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/develop/src/cco-iris/CommonCoreOntologiesMerged.ttl"/>
+    </owl:Ontology>
     
 
 
@@ -112,6 +118,86 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_about -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_about">
+        <rdfs:label>about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_has_participant">
+        <rdfs:label>has participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_has_quality -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_has_quality">
+        <rdfs:label>has quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_has_role -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_has_role">
+        <rdfs:label>has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_involves_participant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_involves_participant">
+        <rdfs:label>involves participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_located_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_located_in">
+        <rdfs:label>located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_part_of">
+        <rdfs:label>part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_participates_in">
+        <rdfs:label>participates in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_realized_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_realized_in">
+        <rdfs:label>realized in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_realizes_role_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_realizes_role_of">
+        <rdfs:label>realizes role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals360.example.org/sdg#acquiresLand -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#acquiresLand">
@@ -144,6 +230,14 @@
     
 
 
+    <!-- https://signals360.example.org/sdg#affectedBy -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#affectedBy">
+        <rdfs:label>affected by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals360.example.org/sdg#affectsCultivationSystem -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#affectsCultivationSystem">
@@ -168,10 +262,26 @@
     
 
 
+    <!-- https://signals360.example.org/sdg#arisesFrom -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#arisesFrom">
+        <rdfs:label>arises from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals360.example.org/sdg#articulates -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#articulates">
         <rdfs:label>articulates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#assessedIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#assessedIn">
+        <rdfs:label>assessed in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -248,22 +358,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#borneBy -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#borneBy">
-        <rdfs:label>borne by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#boundedBy -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#boundedBy">
-        <rdfs:label>bounded by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#bufferSize -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#bufferSize">
@@ -280,50 +374,26 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#causesProgressiveVisionLoss -->
+    <!-- https://signals360.example.org/sdg#characterizes -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#causesProgressiveVisionLoss">
-        <rdfs:label>causes progressive vision loss</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#characterizes">
+        <rdfs:label>characterizes</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#characterizesAssetVulnerabilityToFlood -->
+    <!-- https://signals360.example.org/sdg#classifiedAs -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#characterizesAssetVulnerabilityToFlood">
-        <rdfs:label>characterizes asset vulnerability to flood</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#classifiedAs">
+        <rdfs:label>classified as</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#characterizesProtectionLevelOfDataTransmission -->
+    <!-- https://signals360.example.org/sdg#collectedBy -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#characterizesProtectionLevelOfDataTransmission">
-        <rdfs:label>characterizes protection level of data transmission</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#classifiesParticipantsByCompetitiveCriteria -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#classifiesParticipantsByCompetitiveCriteria">
-        <rdfs:label>classifies participants by competitive criteria</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#classifiesVehiclesByTypeOrFunction -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#classifiesVehiclesByTypeOrFunction">
-        <rdfs:label>classifies vehicles by type or function</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#composedOfLogicalOperatorsAndVariables -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#composedOfLogicalOperatorsAndVariables">
-        <rdfs:label>composed of logical operators and variables</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#collectedBy">
+        <rdfs:label>collected by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -336,34 +406,18 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#confersAcademicDegrees -->
+    <!-- https://signals360.example.org/sdg#confers -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#confersAcademicDegrees">
-        <rdfs:label>confers academic degrees</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#confers">
+        <rdfs:label>confers</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#consistsOfHumanIndividuals -->
+    <!-- https://signals360.example.org/sdg#confersStatus -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#consistsOfHumanIndividuals">
-        <rdfs:label>consists of human individuals</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#consistsOfSeniorManagers -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#consistsOfSeniorManagers">
-        <rdfs:label>consists of senior managers</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#constitutesFunctionalComponentOfConnectiveTissue -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#constitutesFunctionalComponentOfConnectiveTissue">
-        <rdfs:label>constitutes functional component of connective tissue</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#confersStatus">
+        <rdfs:label>confers status</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -388,30 +442,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#containsDataElement">
         <rdfs:label>contains data element</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#containsTraditionalEcologicalKnowledge -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#containsTraditionalEcologicalKnowledge">
-        <rdfs:label>contains traditional ecological knowledge</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#conveysDoctrinalContent -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#conveysDoctrinalContent">
-        <rdfs:label>conveys doctrinal content</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#coordinatesOrganizationalStrategy -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#coordinatesOrganizationalStrategy">
-        <rdfs:label>coordinates organizational strategy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -448,14 +478,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#deliversEducationalContent -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#deliversEducationalContent">
-        <rdfs:label>delivers educational content</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#deliversPresentation -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#deliversPresentation">
@@ -472,18 +494,18 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#derivedFromConstitutionalFramework -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#derivedFromConstitutionalFramework">
-        <rdfs:label>derived from constitutional framework</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#derivesFromProject -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#derivesFromProject">
         <rdfs:label>derives from project</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#derives_from -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#derives_from">
+        <rdfs:label>derives from</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -496,58 +518,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#describesEarthSystem -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#describesEarthSystem">
-        <rdfs:label>describes earth system</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#designatesGroupOfOrganizationsSharingEconomicActivity -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#designatesGroupOfOrganizationsSharingEconomicActivity">
-        <rdfs:label>designates group of organizations sharing economic activity</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#designedForHumanOccupancy -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#designedForHumanOccupancy">
-        <rdfs:label>designed for human occupancy</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#designedToMitigateAcutePsychologicalDistress -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#designedToMitigateAcutePsychologicalDistress">
-        <rdfs:label>designed to mitigate acute psychological distress</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#designedToProvideLateralSupport -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#designedToProvideLateralSupport">
-        <rdfs:label>designed to provide lateral support</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#directs -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#directs">
         <rdfs:label>directs</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#documentsStandardizedProceduresForSystematicObservation -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#documentsStandardizedProceduresForSystematicObservation">
-        <rdfs:label>documents standardized procedures for systematic observation</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -568,34 +542,18 @@
     
 
 
+    <!-- https://signals360.example.org/sdg#employsTechnology -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#employsTechnology">
+        <rdfs:label>employs technology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals360.example.org/sdg#employsValidationProcess -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#employsValidationProcess">
         <rdfs:label>employs validation process</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#encodesDemographicData -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#encodesDemographicData">
-        <rdfs:label>encodes demographic data</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#encodesDiscreteFact -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#encodesDiscreteFact">
-        <rdfs:label>encodes discrete fact</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#encodesInformationUsedToAssessHealthcareStandards -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#encodesInformationUsedToAssessHealthcareStandards">
-        <rdfs:label>encodes information used to assess healthcare standards</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -624,14 +582,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#exercisesJurisdictionOver -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#exercisesJurisdictionOver">
-        <rdfs:label>exercises jurisdiction over</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#exhibitsAmpliation -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#exhibitsAmpliation">
@@ -640,18 +590,26 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#facilitatesInternalCommunication -->
+    <!-- https://signals360.example.org/sdg#experienced -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#facilitatesInternalCommunication">
-        <rdfs:label>facilitates internal communication</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#experienced">
+        <rdfs:label>experienced</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#formalActOfEnrolling -->
+    <!-- https://signals360.example.org/sdg#facilitates -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#formalActOfEnrolling">
-        <rdfs:label>formal act of enrolling</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#facilitates">
+        <rdfs:label>facilitates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#featuresParticipant -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#featuresParticipant">
+        <rdfs:label>features participant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -688,10 +646,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#hasBusinessRelationship -->
+    <!-- https://signals360.example.org/sdg#hasDataSharingContext -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasBusinessRelationship">
-        <rdfs:label>has business relationship</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDataSharingContext">
+        <rdfs:label>has data sharing context</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -724,14 +682,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasDurationYears">
         <rdfs:label>has duration years</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#hasExperienced -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasExperienced">
-        <rdfs:label>has experienced</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -816,14 +766,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#hasPriorCollectionHistory -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasPriorCollectionHistory">
-        <rdfs:label>has prior collection history</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#hasQualifyingIndividual -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasQualifyingIndividual">
@@ -844,14 +786,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasSalaryAmount">
         <rdfs:label>has salary amount</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#hasSurvived -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#hasSurvived">
-        <rdfs:label>has survived</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -896,14 +830,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#inRelationTo -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#inRelationTo">
-        <rdfs:label>in relation to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#includesSurvey -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#includesSurvey">
@@ -936,18 +862,18 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#involves -->
+    <!-- https://signals360.example.org/sdg#integratedIn -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involves">
-        <rdfs:label>involves</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#integratedIn">
+        <rdfs:label>integrated in</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#involvesApplicationOfMedicalKnowledgeToPatients -->
+    <!-- https://signals360.example.org/sdg#involves -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesApplicationOfMedicalKnowledgeToPatients">
-        <rdfs:label>involves application of medical knowledge to patients</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involves">
+        <rdfs:label>involves</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -960,14 +886,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#involvesContaminantRelease -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesContaminantRelease">
-        <rdfs:label>involves contaminant release</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#involvesEarthObservationData -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesEarthObservationData">
@@ -976,10 +894,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#involvesFinancialResourceTransfer -->
+    <!-- https://signals360.example.org/sdg#involvesFinancialResource -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesFinancialResourceTransfer">
-        <rdfs:label>involves financial resource transfer</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesFinancialResource">
+        <rdfs:label>involves financial resource</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1008,42 +926,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#involvesPathologicalFluidAccumulation -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesPathologicalFluidAccumulation">
-        <rdfs:label>involves pathological fluid accumulation</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#involvesReassignmentBetweenCompetitiveDivisions -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesReassignmentBetweenCompetitiveDivisions">
-        <rdfs:label>involves reassignment between competitive divisions</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#involvesRepresentingClientInterests -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesRepresentingClientInterests">
-        <rdfs:label>involves representing client interests</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#involvesScreening -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesScreening">
         <rdfs:label>involves screening</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#involvesStrategicDecisionMaking -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#involvesStrategicDecisionMaking">
-        <rdfs:label>involves strategic decision making</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1056,78 +942,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#isExternalTo -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isExternalTo">
-        <rdfs:label>is external to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isFormulatedByEducationalInstitution -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isFormulatedByEducationalInstitution">
-        <rdfs:label>is formulated by educational institution</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isMaintainedByNationalGovernment -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isMaintainedByNationalGovernment">
-        <rdfs:label>is maintained by national government</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isNarrativeForm -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isNarrativeForm">
-        <rdfs:label>is narrative form</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isOrganizedForInstruction -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isOrganizedForInstruction">
-        <rdfs:label>is organized for instruction</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isPerformedByExecutives -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isPerformedByExecutives">
-        <rdfs:label>is performed by executives</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isResponseTo -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isResponseTo">
-        <rdfs:label>is response to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#isRestrictedToOrganizationalMembers -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#isRestrictedToOrganizationalMembers">
-        <rdfs:label>is restricted to organizational members</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#managesCapitalForBenefitOfOthers -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#managesCapitalForBenefitOfOthers">
-        <rdfs:label>manages capital for benefit of others</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#mandatesComponent -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#mandatesComponent">
@@ -1136,18 +950,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#matchesPortImpedance -->
+    <!-- https://signals360.example.org/sdg#measuredIn -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#matchesPortImpedance">
-        <rdfs:label>matches port impedance</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#measuresPopulationHealthStatus -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#measuresPopulationHealthStatus">
-        <rdfs:label>measures population health status</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#measuredIn">
+        <rdfs:label>measured in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1164,6 +970,14 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#memberOf">
         <rdfs:label>member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#monitoredIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#monitoredIn">
+        <rdfs:label>monitored in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1208,26 +1022,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#operatedByCopernicusProgram -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#operatedByCopernicusProgram">
-        <rdfs:label>operated by copernicus program</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#optimizes -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#optimizes">
         <rdfs:label>optimizes</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#originatesFromRemoteSensing -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#originatesFromRemoteSensing">
-        <rdfs:label>originates from remote sensing</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1248,18 +1046,18 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#partOfConnectiveTissueSystem -->
+    <!-- https://signals360.example.org/sdg#participatesIn -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#partOfConnectiveTissueSystem">
-        <rdfs:label>part of connective tissue system</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#participatesIn">
+        <rdfs:label>participates in</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://signals360.example.org/sdg#participatesInReductionProgram -->
+    <!-- https://signals360.example.org/sdg#pertainsTo -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#participatesInReductionProgram">
-        <rdfs:label>participates in reduction program</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#pertainsTo">
+        <rdfs:label>pertains to</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1272,18 +1070,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#providesEducationalServices -->
+    <!-- https://signals360.example.org/sdg#provides -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesEducationalServices">
-        <rdfs:label>provides educational services</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#providesFinancialServices -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesFinancialServices">
-        <rdfs:label>provides financial services</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#provides">
+        <rdfs:label>provides</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1292,14 +1082,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesFunction">
         <rdfs:label>provides function</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#providesMediumForTransmittingInformation -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#providesMediumForTransmittingInformation">
-        <rdfs:label>provides medium for transmitting information</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1376,18 +1158,18 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#relatesTo -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#relatesTo">
-        <rdfs:label>relates to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#reliesOnIntuition -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reliesOnIntuition">
         <rdfs:label>relies on intuition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals360.example.org/sdg#reportedIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reportedIn">
+        <rdfs:label>reported in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1400,34 +1182,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#reportsOnHumanRightsIssue -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reportsOnHumanRightsIssue">
-        <rdfs:label>reports on human rights issue</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#reportsTo -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#reportsTo">
         <rdfs:label>reports to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#representsAcquiredKnowledgeOrSkill -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#representsAcquiredKnowledgeOrSkill">
-        <rdfs:label>represents acquired knowledge or skill</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#representsMetricsOfClinicalServiceDelivery -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#representsMetricsOfClinicalServiceDelivery">
-        <rdfs:label>represents metrics of clinical service delivery</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1456,14 +1214,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#resultsFromChemicalExposure -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#resultsFromChemicalExposure">
-        <rdfs:label>results from chemical exposure</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#resultsIn -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#resultsIn">
@@ -1480,14 +1230,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#servesAsCognitiveBasisFor -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#servesAsCognitiveBasisFor">
-        <rdfs:label>serves as cognitive basis for</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#specifies -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifies">
@@ -1496,10 +1238,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#specifiesDesiredLearningOutcome -->
+    <!-- https://signals360.example.org/sdg#specifiesDataCollection -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifiesDesiredLearningOutcome">
-        <rdfs:label>specifies desired learning outcome</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifiesDataCollection">
+        <rdfs:label>specifies data collection</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1508,14 +1250,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#specifiesPlatform">
         <rdfs:label>specifies platform</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#storesDigitalRecordsForComputationalAccess -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#storesDigitalRecordsForComputationalAccess">
-        <rdfs:label>stores digital records for computational access</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1584,14 +1318,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#targetsLearners -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsLearners">
-        <rdfs:label>targets learners</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals360.example.org/sdg#targetsParticipant -->
 
     <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#targetsParticipant">
@@ -1648,18 +1374,10 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#transmitsInformation -->
+    <!-- https://signals360.example.org/sdg#usedIn -->
 
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#transmitsInformation">
-        <rdfs:label>transmits information</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals360.example.org/sdg#usesMagneticFieldsAndRadioWaves -->
-
-    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#usesMagneticFieldsAndRadioWaves">
-        <rdfs:label>uses magnetic fields and radio waves</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://signals360.example.org/sdg#usedIn">
+        <rdfs:label>used in</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1810,6 +1528,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000006">
+        <rdfs:label>0000006</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
@@ -1832,7 +1558,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdfs:label>quality</rdfs:label>
     </owl:Class>
     
 
@@ -1858,7 +1583,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:label>generically dependent continuant</rdfs:label>
     </owl:Class>
     
 
@@ -1902,50 +1626,6 @@
     
 
 
-    <!-- http://www.commoncoreontologies.org/Artifact -->
-
-    <owl:Class rdf:about="http://www.commoncoreontologies.org/Artifact">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_IndependentContinuant"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.commoncoreontologies.org/DescriptiveICE -->
-
-    <owl:Class rdf:about="http://www.commoncoreontologies.org/DescriptiveICE">
-        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
-        <rdfs:label>descriptive information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.commoncoreontologies.org/DesignativeICE -->
-
-    <owl:Class rdf:about="http://www.commoncoreontologies.org/DesignativeICE">
-        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.commoncoreontologies.org/DirectiveICE -->
-
-    <owl:Class rdf:about="http://www.commoncoreontologies.org/DirectiveICE">
-        <rdfs:subClassOf rdf:resource="http://www.commoncoreontologies.org/InformationContentEntity"/>
-        <rdfs:label>directive information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.commoncoreontologies.org/InformationContentEntity -->
-
-    <owl:Class rdf:about="http://www.commoncoreontologies.org/InformationContentEntity">
-        <owl:equivalentClass rdf:resource="https://signals360.example.org/sdg#HumanRightsImpactReport"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_Continuant"/>
-        <rdfs:label>information content entity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.w3.org/2001/XMLSchema#decimal -->
 
     <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -1966,7 +1646,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assignsAdministrator"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StaffAdministrator"/>
@@ -2166,7 +1846,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#requiresDanLevel"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -2229,14 +1909,6 @@
         <obo:IAO_0000115>A BoardMembership is an Occurrent that participates in an Organization.</obo:IAO_0000115>
         <rdfs:comment>A BoardMembership is an Occurrent that participates in an Organization.</rdfs:comment>
         <rdfs:label>board membership</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#Building -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#Building">
-        <rdfs:label>building</rdfs:label>
     </owl:Class>
     
 
@@ -2326,7 +1998,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#creditVolume"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -2403,7 +2075,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#publishedOnDate"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ReportingDate"/>
@@ -2451,21 +2123,13 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#Chemical -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#Chemical">
-        <rdfs:label>chemical</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#ChemicalExposureRiskProfile -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ChemicalExposureRiskProfile">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assessesExposureTo"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ToxicIndustrialChemical"/>
@@ -2517,7 +2181,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#contains"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClientStatisticalInformation"/>
@@ -2558,19 +2222,9 @@
     <!-- https://signals360.example.org/sdg#ClinicalCare -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ClinicalCare">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesApplicationOfMedicalKnowledgeToPatients"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A process that applies medical knowledge and interventions to patients to maintain or restore health.</obo:IAO_0000115>
-        <rdfs:comment>A process that applies medical knowledge and interventions to patients to maintain or restore health.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A clinical care.</obo:IAO_0000115>
+        <rdfs:comment>A clinical care.</rdfs:comment>
         <rdfs:label>clinical care</rdfs:label>
     </owl:Class>
     
@@ -2582,16 +2236,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#ClientStatisticalInformation"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#representsMetricsOfClinicalServiceDelivery"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_about"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClinicalPerformanceEvaluation"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that encodes quantitative or qualitative metrics regarding the efficiency and effectiveness of clinical service delivery.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that encodes quantitative or qualitative metrics regarding the efficiency and effectiveness of clinical service delivery.</rdfs:comment>
+        <obo:IAO_0000115>Statistical information that pertains to the evaluation of clinical performance.</obo:IAO_0000115>
+        <rdfs:comment>Statistical information that pertains to the evaluation of clinical performance.</rdfs:comment>
         <rdfs:label>clinical performance data</rdfs:label>
     </owl:Class>
     
@@ -2603,7 +2257,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#evaluates"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ClinicalPerformanceData"/>
@@ -2644,16 +2298,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000314"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#encodesInformationUsedToAssessHealthcareStandards"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_about"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000575"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that contains information utilized to evaluate, monitor, or improve the quality of healthcare delivery.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that contains information utilized to evaluate, monitor, or improve the quality of healthcare delivery.</rdfs:comment>
+        <obo:IAO_0000115>An information quality entity that pertains to clinical quality specifications.</obo:IAO_0000115>
+        <rdfs:comment>An information quality entity that pertains to clinical quality specifications.</rdfs:comment>
         <rdfs:label>clinical quality data</rdfs:label>
     </owl:Class>
     
@@ -2701,16 +2355,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000346"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesMediumForTransmittingInformation"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_role"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DisseminationChannel"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that serves as a physical or logical medium enabling the transmission of information between communicators.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that serves as a physical or logical medium enabling the transmission of information between communicators.</rdfs:comment>
+        <obo:IAO_0000115>A communication instrument that functions as a channel for disseminating information.</obo:IAO_0000115>
+        <rdfs:comment>A communication instrument that functions as a channel for disseminating information.</rdfs:comment>
         <rdfs:label>communication channel</rdfs:label>
     </owl:Class>
     
@@ -2719,19 +2373,9 @@
     <!-- https://signals360.example.org/sdg#CommunicationSecurityAspect -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#CommunicationSecurityAspect">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#characterizesProtectionLevelOfDataTransmission"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A quality that characterizes the degree of protection implemented to safeguard data during transmission over communication networks.</obo:IAO_0000115>
-        <rdfs:comment>A quality that characterizes the degree of protection implemented to safeguard data during transmission over communication networks.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A communication security aspect.</obo:IAO_0000115>
+        <rdfs:comment>A communication security aspect.</rdfs:comment>
         <rdfs:label>communication security aspect</rdfs:label>
     </owl:Class>
     
@@ -2743,16 +2387,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001114"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#classifiesParticipantsByCompetitiveCriteria"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_participant"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ChampionshipEntry"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A role that categorizes participants or teams into distinct groups based on established competitive criteria such as skill level or age.</obo:IAO_0000115>
-        <rdfs:comment>A role that categorizes participants or teams into distinct groups based on established competitive criteria such as skill level or age.</rdfs:comment>
+        <obo:IAO_0000115>A division of delimiting domain that includes championship entries in a competitive context.</obo:IAO_0000115>
+        <rdfs:comment>A division of delimiting domain that includes championship entries in a competitive context.</rdfs:comment>
         <rdfs:label>competition division</rdfs:label>
     </owl:Class>
     
@@ -2789,16 +2433,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000006"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#partOfConnectiveTissueSystem"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_located_in"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConnectiveTissueStructure"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that constitutes a distinct anatomical region within the connective tissue system of an organism.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that constitutes a distinct anatomical region within the connective tissue system of an organism.</rdfs:comment>
+        <obo:IAO_0000115>A spatial region that is located within a connective tissue structure.</obo:IAO_0000115>
+        <rdfs:comment>A spatial region that is located within a connective tissue structure.</rdfs:comment>
         <rdfs:label>connective tissue region</rdfs:label>
     </owl:Class>
     
@@ -2807,19 +2451,9 @@
     <!-- https://signals360.example.org/sdg#ConnectiveTissueStructure -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ConnectiveTissueStructure">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#constitutesFunctionalComponentOfConnectiveTissue"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that forms a specialized structural component providing support, cohesion, or protection within connective tissue.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that forms a specialized structural component providing support, cohesion, or protection within connective tissue.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A connective tissue structure.</obo:IAO_0000115>
+        <rdfs:comment>A connective tissue structure.</rdfs:comment>
         <rdfs:label>connective tissue structure</rdfs:label>
     </owl:Class>
     
@@ -2831,16 +2465,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001314"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#derivedFromConstitutionalFramework"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#derives_from"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000532"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that imposes a rule or limitation based on the provisions of a governing constitutional document.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that imposes a rule or limitation based on the provisions of a governing constitutional document.</rdfs:comment>
+        <obo:IAO_0000115>A legal system act that derives its authority from a government of a country.</obo:IAO_0000115>
+        <rdfs:comment>A legal system act that derives its authority from a government of a country.</rdfs:comment>
         <rdfs:label>constitutional constraint</rdfs:label>
     </owl:Class>
     
@@ -2852,16 +2486,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001069"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#composedOfLogicalOperatorsAndVariables"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_realized_in"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConceptualConstructionProcess"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that represents a logical expression formed by combining operators and variables to evaluate truth conditions.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that represents a logical expression formed by combining operators and variables to evaluate truth conditions.</rdfs:comment>
+        <obo:IAO_0000115>A representational information content entity that is realized in a conceptual construction process.</obo:IAO_0000115>
+        <rdfs:comment>A representational information content entity that is realized in a conceptual construction process.</rdfs:comment>
         <rdfs:label>constructed predicate</rdfs:label>
     </owl:Class>
     
@@ -2873,16 +2507,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000547"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#operatedByCopernicusProgram"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_role"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#NationalDatasetAugmentationProcess"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that functions as an Earth observation platform or data provider under the European Union&apos;s Copernicus program.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that functions as an Earth observation platform or data provider under the European Union&apos;s Copernicus program.</rdfs:comment>
+        <obo:IAO_0000115>A telescope that functions as a source for observations in a national dataset augmentation process.</obo:IAO_0000115>
+        <rdfs:comment>A telescope that functions as a source for observations in a national dataset augmentation process.</rdfs:comment>
         <rdfs:label>copernicus observation source</rdfs:label>
     </owl:Class>
     
@@ -2894,16 +2528,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000228"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#designedToMitigateAcutePsychologicalDistress"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_involves_participant"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#VulnerabilityState"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process that implements structured techniques to stabilize individuals experiencing acute psychological or situational crises.</obo:IAO_0000115>
-        <rdfs:comment>A process that implements structured techniques to stabilize individuals experiencing acute psychological or situational crises.</rdfs:comment>
+        <obo:IAO_0000115>A planned act that involves addressing a vulnerability state.</obo:IAO_0000115>
+        <rdfs:comment>A planned act that involves addressing a vulnerability state.</rdfs:comment>
         <rdfs:label>crisis intervention method</rdfs:label>
     </owl:Class>
     
@@ -2915,7 +2549,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#impactsTarget"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AgriculturalHousehold"/>
@@ -2958,16 +2592,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#DivisionAssignmentRecord"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesReassignmentBetweenCompetitiveDivisions"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_participant"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CompetitionDivision"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process that entails the formal reassignment of a participant or entity from one competitive division to another.</obo:IAO_0000115>
-        <rdfs:comment>A process that entails the formal reassignment of a participant or entity from one competitive division to another.</rdfs:comment>
+        <obo:IAO_0000115>A division assignment record that involves a competition division.</obo:IAO_0000115>
+        <rdfs:comment>A division assignment record that involves a competition division.</rdfs:comment>
         <rdfs:label>cross division transfer</rdfs:label>
     </owl:Class>
     
@@ -2979,16 +2613,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000020"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#storesDigitalRecordsForComputationalAccess"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_participant"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00002006"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that physically or logically houses digital records to enable structured computational access and management.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that physically or logically houses digital records to enable structured computational access and management.</rdfs:comment>
+        <obo:IAO_0000115>A container that holds a database.</obo:IAO_0000115>
+        <rdfs:comment>A container that holds a database.</rdfs:comment>
         <rdfs:label>database container</rdfs:label>
     </owl:Class>
     
@@ -3000,20 +2634,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#EnvironmentalData"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#encodesDemographicData"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#relatesTo"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#characterizes"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Population"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that relates to a material entity and encodes demographic data.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that relates to a material entity and encodes demographic data.</rdfs:comment>
+        <obo:IAO_0000115>Information that characterizes a population or its constituent members.</obo:IAO_0000115>
+        <rdfs:comment>Information that characterizes a population or its constituent members.</rdfs:comment>
         <rdfs:label>demographic information</rdfs:label>
     </owl:Class>
     
@@ -3067,7 +2697,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesFunction"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ServiceFunction"/>
@@ -3090,14 +2720,6 @@
         <obo:IAO_0000115>DigitalMediaService is an information content entity that provides at least one ServiceFunction.</obo:IAO_0000115>
         <rdfs:comment>DigitalMediaService is an information content entity that provides at least one ServiceFunction.</rdfs:comment>
         <rdfs:label>digital media service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#DirectoryQuery -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#DirectoryQuery">
-        <rdfs:label>directory query</rdfs:label>
     </owl:Class>
     
 
@@ -3130,19 +2752,9 @@
     <!-- https://signals360.example.org/sdg#DirectoryResponse -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#DirectoryResponse">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isResponseTo"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DirectoryQuery"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that constitutes the information returned in response to a directory query.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that constitutes the information returned in response to a directory query.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A directory response.</obo:IAO_0000115>
+        <rdfs:comment>A directory response.</rdfs:comment>
         <rdfs:label>directory response</rdfs:label>
     </owl:Class>
     
@@ -3154,16 +2766,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#CommunicationChannel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#transmitsInformation"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#InformationDisseminationEvent"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that functions to transmit information to a target audience.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that functions to transmit information to a target audience.</rdfs:comment>
+        <obo:IAO_0000115>A communication channel used in an information dissemination event.</obo:IAO_0000115>
+        <rdfs:comment>A communication channel used in an information dissemination event.</rdfs:comment>
         <rdfs:label>dissemination channel</rdfs:label>
     </owl:Class>
     
@@ -3175,7 +2787,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assignsAthlete"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -3243,23 +2855,9 @@
     <!-- https://signals360.example.org/sdg#DoctrinalNarrative -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#DoctrinalNarrative">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#conveysDoctrinalContent"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isNarrativeForm"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that conveys doctrinal content and takes a narrative form.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that conveys doctrinal content and takes a narrative form.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A doctrinal narrative.</obo:IAO_0000115>
+        <rdfs:comment>A doctrinal narrative.</rdfs:comment>
         <rdfs:label>doctrinal narrative</rdfs:label>
     </owl:Class>
     
@@ -3281,18 +2879,14 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasExperienced"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#experienced"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DomesticViolence"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasSurvived"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that has experienced domestic violence and survived it.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that has experienced domestic violence and survived it.</rdfs:comment>
+        <obo:IAO_0000115>A material entity that has experienced domestic violence.</obo:IAO_0000115>
+        <rdfs:comment>A material entity that has experienced domestic violence.</rdfs:comment>
         <rdfs:label>domestic violence survivor</rdfs:label>
     </owl:Class>
     
@@ -3304,16 +2898,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000187"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#exercisesJurisdictionOver"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EmergencyMedicalServices"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#pertainsTo"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000647"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that exercises regulatory or jurisdictional authority over emergency medical services.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that exercises regulatory or jurisdictional authority over emergency medical services.</rdfs:comment>
+        <obo:IAO_0000115>An authority role pertaining to an organization member.</obo:IAO_0000115>
+        <rdfs:comment>An authority role pertaining to an organization member.</rdfs:comment>
         <rdfs:label>e m s authority</rdfs:label>
     </owl:Class>
     
@@ -3325,20 +2919,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#EnvironmentalData"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#describesEarthSystem"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#originatesFromRemoteSensing"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#collectedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000352"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant originating from remote sensing that describes the Earth system.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant originating from remote sensing that describes the Earth system.</rdfs:comment>
+        <obo:IAO_0000115>Environmental data collected by a satellite artifact.</obo:IAO_0000115>
+        <rdfs:comment>Environmental data collected by a satellite artifact.</rdfs:comment>
         <rdfs:label>earth observation data</rdfs:label>
     </owl:Class>
     
@@ -3347,23 +2937,9 @@
     <!-- https://signals360.example.org/sdg#EducationalGoal -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#EducationalGoal">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isFormulatedByEducationalInstitution"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#specifiesDesiredLearningOutcome"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant specifying a desired learning outcome and formulated by an educational institution.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant specifying a desired learning outcome and formulated by an educational institution.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A educational goal.</obo:IAO_0000115>
+        <rdfs:comment>A educational goal.</rdfs:comment>
         <rdfs:label>educational goal</rdfs:label>
     </owl:Class>
     
@@ -3375,20 +2951,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000270"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isOrganizedForInstruction"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesEducationalServices"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#provides"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000463"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity providing educational services and organized for instruction.</obo:IAO_0000115>
-        <rdfs:comment>A material entity providing educational services and organized for instruction.</rdfs:comment>
+        <obo:IAO_0000115>An educational facility that provides acts of educational training instruction.</obo:IAO_0000115>
+        <rdfs:comment>An educational facility that provides acts of educational training instruction.</rdfs:comment>
         <rdfs:label>educational institution</rdfs:label>
     </owl:Class>
     
@@ -3400,37 +2972,17 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001374"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#deliversEducationalContent"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsLearners"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#pertainsTo"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000463"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process delivering educational content and targeting learners.</obo:IAO_0000115>
-        <rdfs:comment>A process delivering educational content and targeting learners.</rdfs:comment>
+        <obo:IAO_0000115>An act of declarative communication pertaining to educational training instruction.</obo:IAO_0000115>
+        <rdfs:comment>An act of declarative communication pertaining to educational training instruction.</rdfs:comment>
         <rdfs:label>educational presentation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#ElectricalPort -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#ElectricalPort">
-        <rdfs:label>electrical port</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#EmergencyMedicalServices -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#EmergencyMedicalServices">
-        <rdfs:label>emergency medical services</rdfs:label>
     </owl:Class>
     
 
@@ -3441,20 +2993,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#SocialNetworkingService"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#facilitatesInternalCommunication"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isRestrictedToOrganizationalMembers"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SocialEnterprise"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity facilitating internal communication and restricted to organizational members.</obo:IAO_0000115>
-        <rdfs:comment>A material entity facilitating internal communication and restricted to organizational members.</rdfs:comment>
+        <obo:IAO_0000115>A social networking service used within a social enterprise.</obo:IAO_0000115>
+        <rdfs:comment>A social networking service used within a social enterprise.</rdfs:comment>
         <rdfs:label>enterprise social media</rdfs:label>
     </owl:Class>
     
@@ -3499,18 +3047,14 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesStrategicDecisionMaking"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isPerformedByExecutives"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#pertainsTo"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ExecutiveTeam"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process involving strategic decision making and performed by executives.</obo:IAO_0000115>
-        <rdfs:comment>A process involving strategic decision making and performed by executives.</rdfs:comment>
+        <obo:IAO_0000115>A process pertaining to an executive team.</obo:IAO_0000115>
+        <rdfs:comment>A process pertaining to an executive team.</rdfs:comment>
         <rdfs:label>executive leadership process</rdfs:label>
     </owl:Class>
     
@@ -3558,20 +3102,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001180"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#consistsOfSeniorManagers"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#coordinatesOrganizationalStrategy"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#comprises"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000175"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity consisting of senior managers and coordinating organizational strategy.</obo:IAO_0000115>
-        <rdfs:comment>A material entity consisting of senior managers and coordinating organizational strategy.</rdfs:comment>
+        <obo:IAO_0000115>An organization that comprises organization member roles.</obo:IAO_0000115>
+        <rdfs:comment>An organization that comprises organization member roles.</rdfs:comment>
         <rdfs:label>executive team</rdfs:label>
     </owl:Class>
     
@@ -3583,20 +3123,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00002006"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasPriorCollectionHistory"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isMaintainedByNationalGovernment"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#NationalDatasetAugmentationProcess"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant maintained by a national government and possessing prior collection history.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant maintained by a national government and possessing prior collection history.</rdfs:comment>
+        <obo:IAO_0000115>A database used in a national dataset augmentation process.</obo:IAO_0000115>
+        <rdfs:comment>A database used in a national dataset augmentation process.</rdfs:comment>
         <rdfs:label>existing national dataset</rdfs:label>
     </owl:Class>
     
@@ -3608,20 +3144,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000506"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasBusinessRelationship"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#isExternalTo"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PrimaryEntity"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDataSharingContext"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ThirdPartyDataSharing"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity that maintains a commercial relationship with a primary organization but operates outside its internal structure.</obo:IAO_0000115>
-        <rdfs:comment>A material entity that maintains a commercial relationship with a primary organization but operates outside its internal structure.</rdfs:comment>
+        <obo:IAO_0000115>A contractor role that participates in a third-party data sharing arrangement.</obo:IAO_0000115>
+        <rdfs:comment>A contractor role that participates in a third-party data sharing arrangement.</rdfs:comment>
         <rdfs:label>external business partner</rdfs:label>
     </owl:Class>
     
@@ -3658,16 +3190,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000836"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesFinancialResourceTransfer"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesFinancialResource"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FinancialResource"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process that entails the transfer, management, or allocation of financial resources.</obo:IAO_0000115>
-        <rdfs:comment>A process that entails the transfer, management, or allocation of financial resources.</rdfs:comment>
+        <obo:IAO_0000115>An act of financial instrument use that involves a financial resource.</obo:IAO_0000115>
+        <rdfs:comment>An act of financial instrument use that involves a financial resource.</rdfs:comment>
         <rdfs:label>financial activity</rdfs:label>
     </owl:Class>
     
@@ -3679,16 +3211,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001295"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#providesFinancialServices"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FinancialService"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#facilitates"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SettlementFinancingActivity"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity organized to provide financial services such as lending, investing, or payment processing.</obo:IAO_0000115>
-        <rdfs:comment>A material entity organized to provide financial services such as lending, investing, or payment processing.</rdfs:comment>
+        <obo:IAO_0000115>A financial facility that facilitates a settlement financing activity.</obo:IAO_0000115>
+        <rdfs:comment>A financial facility that facilitates a settlement financing activity.</rdfs:comment>
         <rdfs:label>financial institution</rdfs:label>
     </owl:Class>
     
@@ -3698,14 +3230,6 @@
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#FinancialResource">
         <rdfs:label>financial resource</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#FinancialService -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#FinancialService">
-        <rdfs:label>financial service</rdfs:label>
     </owl:Class>
     
 
@@ -3741,16 +3265,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000958"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reportsOnHumanRightsIssue"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HumanRightsIssue"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reportedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HumanRightsImpactReport"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An information content entity that documents an observed fact or conclusion regarding a human rights issue.</obo:IAO_0000115>
-        <rdfs:comment>An information content entity that documents an observed fact or conclusion regarding a human rights issue.</rdfs:comment>
+        <obo:IAO_0000115>An information content entity that is reported in a human rights impact report.</obo:IAO_0000115>
+        <rdfs:comment>An information content entity that is reported in a human rights impact report.</rdfs:comment>
         <rdfs:label>finding entity</rdfs:label>
     </owl:Class>
     
@@ -3762,16 +3286,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#Asset"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#characterizesAssetVulnerabilityToFlood"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Asset"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assessedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A quality inhering in an asset that indicates its susceptibility to flood damage.</obo:IAO_0000115>
-        <rdfs:comment>A quality inhering in an asset that indicates its susceptibility to flood damage.</rdfs:comment>
+        <obo:IAO_0000115>An asset whose condition is assessed in a flood asset vulnerability assessment.</obo:IAO_0000115>
+        <rdfs:comment>An asset whose condition is assessed in a flood asset vulnerability assessment.</rdfs:comment>
         <rdfs:label>flood asset condition</rdfs:label>
     </owl:Class>
     
@@ -3783,7 +3307,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#assessesAssetCondition"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#FloodAssetCondition"/>
@@ -3845,16 +3369,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#MyxoidDegenerationProcess"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesPathologicalFluidAccumulation"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#JointTissue"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#resultsIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#GanglionCystTissueOrigin"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A biological process characterized by the development of a fluid-filled sac near joints or tendons.</obo:IAO_0000115>
-        <rdfs:comment>A biological process characterized by the development of a fluid-filled sac near joints or tendons.</rdfs:comment>
+        <obo:IAO_0000115>A myxoid degeneration process that results in a ganglion cyst tissue origin.</obo:IAO_0000115>
+        <rdfs:comment>A myxoid degeneration process that results in a ganglion cyst tissue origin.</rdfs:comment>
         <rdfs:label>ganglion cyst formation</rdfs:label>
     </owl:Class>
     
@@ -3866,7 +3390,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#visualizes"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MagneticResonanceImagingModality"/>
@@ -3920,16 +3444,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#ClinicalQualityData"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#measuresPopulationHealthStatus"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Population"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorAirQualityActionPlan"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An information content entity that quantifies or tracks health status indicators in a population.</obo:IAO_0000115>
-        <rdfs:comment>An information content entity that quantifies or tracks health status indicators in a population.</rdfs:comment>
+        <obo:IAO_0000115>A clinical quality data entity used in an indoor air quality action plan.</obo:IAO_0000115>
+        <rdfs:comment>A clinical quality data entity used in an indoor air quality action plan.</rdfs:comment>
         <rdfs:label>health outcome metric</rdfs:label>
     </owl:Class>
     
@@ -3941,16 +3465,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000564"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#confersAcademicDegrees"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#confers"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AcademicDegree"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity organized to provide advanced education and award academic degrees.</obo:IAO_0000115>
-        <rdfs:comment>A material entity organized to provide advanced education and award academic degrees.</rdfs:comment>
+        <obo:IAO_0000115>An educational organization that confers an academic degree.</obo:IAO_0000115>
+        <rdfs:comment>An educational organization that confers an academic degree.</rdfs:comment>
         <rdfs:label>higher education institution</rdfs:label>
     </owl:Class>
     
@@ -3983,25 +3507,17 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000914"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#participatesInReductionProgram"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#participatesIn"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ReductionProgram"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A role borne by a household member engaged in a resource or waste reduction initiative.</obo:IAO_0000115>
-        <rdfs:comment>A role borne by a household member engaged in a resource or waste reduction initiative.</rdfs:comment>
+        <obo:IAO_0000115>A group of persons that participates in a reduction program.</obo:IAO_0000115>
+        <rdfs:comment>A group of persons that participates in a reduction program.</rdfs:comment>
         <rdfs:label>household participant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#Human -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#Human">
-        <rdfs:label>human</rdfs:label>
     </owl:Class>
     
 
@@ -4012,25 +3528,17 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#PatientOutcome"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#resultsFromChemicalExposure"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Chemical"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#arisesFrom"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ChemicalExposureRiskProfile"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A biological process representing a change in human health status following exposure to a chemical substance.</obo:IAO_0000115>
-        <rdfs:comment>A biological process representing a change in human health status following exposure to a chemical substance.</rdfs:comment>
+        <obo:IAO_0000115>A patient outcome that arises from a chemical exposure risk profile.</obo:IAO_0000115>
+        <rdfs:comment>A patient outcome that arises from a chemical exposure risk profile.</rdfs:comment>
         <rdfs:label>human health outcome</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#HumanIndividual -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#HumanIndividual">
-        <rdfs:label>human individual</rdfs:label>
     </owl:Class>
     
 
@@ -4041,16 +3549,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000141"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#consistsOfHumanIndividuals"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#HumanIndividual"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#affectedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DengueTransmissionProcess"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity comprising a group of human individuals residing in a defined area.</obo:IAO_0000115>
-        <rdfs:comment>A material entity comprising a group of human individuals residing in a defined area.</rdfs:comment>
+        <obo:IAO_0000115>A populace that is affected by a dengue transmission process.</obo:IAO_0000115>
+        <rdfs:comment>A populace that is affected by a dengue transmission process.</rdfs:comment>
         <rdfs:label>human population</rdfs:label>
     </owl:Class>
     
@@ -4059,6 +3567,7 @@
     <!-- https://signals360.example.org/sdg#HumanRightsImpactReport -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#HumanRightsImpactReport">
+        <owl:equivalentClass rdf:resource="https://www.commoncoreontologies.org/InformationContentEntity"/>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://signals360.example.org/sdg#reportsOn"/>
@@ -4084,30 +3593,22 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#HumanRightsIssue -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#HumanRightsIssue">
-        <rdfs:label>human rights issue</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#ImpedanceTermination -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ImpedanceTermination">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000407"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#matchesPortImpedance"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ElectricalPort"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#measuredIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#PortIsolationMeasurement"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A physical component designed to match the characteristic impedance of an electrical port to prevent signal reflection.</obo:IAO_0000115>
-        <rdfs:comment>A physical component designed to match the characteristic impedance of an electrical port to prevent signal reflection.</rdfs:comment>
+        <obo:IAO_0000115>An electrical resistance artifact function that is measured in a port isolation measurement.</obo:IAO_0000115>
+        <rdfs:comment>An electrical resistance artifact function that is measured in a port isolation measurement.</rdfs:comment>
         <rdfs:label>impedance termination</rdfs:label>
     </owl:Class>
     
@@ -4119,16 +3620,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000958"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#containsTraditionalEcologicalKnowledge"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TraditionalEcologicalKnowledge"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#integratedIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#KnowledgeBaseIntegration"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An information content entity that systematically stores knowledge systems developed by indigenous communities.</obo:IAO_0000115>
-        <rdfs:comment>An information content entity that systematically stores knowledge systems developed by indigenous communities.</rdfs:comment>
+        <obo:IAO_0000115>An information content entity that is integrated in a knowledge base integration.</obo:IAO_0000115>
+        <rdfs:comment>An information content entity that is integrated in a knowledge base integration.</rdfs:comment>
         <rdfs:label>indigenous knowledge base</rdfs:label>
     </owl:Class>
     
@@ -4140,16 +3641,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#IndoorEnvironment"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesContaminantRelease"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorEnvironment"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#monitoredIn"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process characterized by the introduction of harmful contaminants into an indoor atmospheric environment.</obo:IAO_0000115>
-        <rdfs:comment>A process characterized by the introduction of harmful contaminants into an indoor atmospheric environment.</rdfs:comment>
+        <obo:IAO_0000115>An indoor environment that is monitored in an indoor environmental monitoring process.</obo:IAO_0000115>
+        <rdfs:comment>An indoor environment that is monitored in an indoor environmental monitoring process.</rdfs:comment>
         <rdfs:label>indoor air pollution</rdfs:label>
     </owl:Class>
     
@@ -4161,7 +3662,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#targetsPollution"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndoorAirPollution"/>
@@ -4200,18 +3701,14 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#boundedBy"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Building"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#designedForHumanOccupancy"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Human"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_part_of"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000410"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity bounded by a building structure and designed for human occupancy.</obo:IAO_0000115>
-        <rdfs:comment>A material entity bounded by a building structure and designed for human occupancy.</rdfs:comment>
+        <obo:IAO_0000115>A material entity that is part of a residential facility.</obo:IAO_0000115>
+        <rdfs:comment>A material entity that is part of a residential facility.</rdfs:comment>
         <rdfs:label>indoor environment</rdfs:label>
     </owl:Class>
     
@@ -4256,20 +3753,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000647"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#borneBy"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#inRelationTo"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_realizes_role_of"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndustryAssociation"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A role borne by an organization in relation to an industry association.</obo:IAO_0000115>
-        <rdfs:comment>A role borne by an organization in relation to an industry association.</rdfs:comment>
+        <obo:IAO_0000115>An organization member that realizes the role of an industry association.</obo:IAO_0000115>
+        <rdfs:comment>An organization member that realizes the role of an industry association.</rdfs:comment>
         <rdfs:label>industry association member</rdfs:label>
     </owl:Class>
     
@@ -4281,16 +3774,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001239"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#designatesGroupOfOrganizationsSharingEconomicActivity"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_part_of"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndustryAssociation"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that designates a group of organizations sharing a common economic activity or market domain.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that designates a group of organizations sharing a common economic activity or market domain.</rdfs:comment>
+        <obo:IAO_0000115>A group of organizations that is part of an industry association.</obo:IAO_0000115>
+        <rdfs:comment>A group of organizations that is part of an industry association.</rdfs:comment>
         <rdfs:label>industry sector</rdfs:label>
     </owl:Class>
     
@@ -4331,7 +3824,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasInsertionLossValue"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -4368,20 +3861,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000010"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#borneBy"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#managesCapitalForBenefitOfOthers"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ThirdParty"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_participates_in"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000537"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A role borne by an organization that manages investment capital on behalf of third parties.</obo:IAO_0000115>
-        <rdfs:comment>A role borne by an organization that manages investment capital on behalf of third parties.</rdfs:comment>
+        <obo:IAO_0000115>An incorporated organization that participates in a financial instrument.</obo:IAO_0000115>
+        <rdfs:comment>An incorporated organization that participates in a financial instrument.</rdfs:comment>
         <rdfs:label>institutional investor</rdfs:label>
     </owl:Class>
     
@@ -4393,7 +3882,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#addressesStakeholder"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StakeholderGroup"/>
@@ -4438,16 +3927,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000253"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#encodesDiscreteFact"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_realizes_role_of"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#InsuranceCoverage"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>An information content entity that encodes a discrete fact about an insurance policy or coverage.</obo:IAO_0000115>
-        <rdfs:comment>An information content entity that encodes a discrete fact about an insurance policy or coverage.</rdfs:comment>
+        <obo:IAO_0000115>An information bearing entity that realizes the role of insurance coverage.</obo:IAO_0000115>
+        <rdfs:comment>An information bearing entity that realizes the role of insurance coverage.</rdfs:comment>
         <rdfs:label>insurance information item</rdfs:label>
     </owl:Class>
     
@@ -4480,7 +3969,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#specifiesPlatform"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EnterpriseSocialMedia"/>
@@ -4517,25 +4006,17 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000119"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#servesAsCognitiveBasisFor"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SyntheticAprioriJudgment"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_has_quality"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000177"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that serves as the cognitive basis for synthetic a priori judgments.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that serves as the cognitive basis for synthetic a priori judgments.</rdfs:comment>
+        <obo:IAO_0000115>A spatial orientation that possesses an affordance quality.</obo:IAO_0000115>
+        <rdfs:comment>A spatial orientation that possesses an affordance quality.</rdfs:comment>
         <rdfs:label>intuitive foundation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#JointTissue -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#JointTissue">
-        <rdfs:label>joint tissue</rdfs:label>
     </owl:Class>
     
 
@@ -4546,7 +4027,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasIntegrationConfidence"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -4614,14 +4095,14 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#designedToProvideLateralSupport"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_part_of"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IntermediateFloorAssembly"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A material entity designed to provide lateral support within an intermediate floor assembly.</obo:IAO_0000115>
-        <rdfs:comment>A material entity designed to provide lateral support within an intermediate floor assembly.</rdfs:comment>
+        <obo:IAO_0000115>A material entity that is part of an intermediate floor assembly.</obo:IAO_0000115>
+        <rdfs:comment>A material entity that is part of an intermediate floor assembly.</rdfs:comment>
         <rdfs:label>lateral restraint strap</rdfs:label>
     </owl:Class>
     
@@ -4633,16 +4114,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000626"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#representsAcquiredKnowledgeOrSkill"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Person"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_realizes_role_of"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00001074"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that represents the knowledge, skill, or attitude acquired through an educational process.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that represents the knowledge, skill, or attitude acquired through an educational process.</rdfs:comment>
+        <obo:IAO_0000115>A predictive information content entity that realizes the role of an act of educational training acquisition.</obo:IAO_0000115>
+        <rdfs:comment>A predictive information content entity that realizes the role of an act of educational training acquisition.</rdfs:comment>
         <rdfs:label>learning outcome</rdfs:label>
     </owl:Class>
     
@@ -4651,19 +4132,9 @@
     <!-- https://signals360.example.org/sdg#LeberOpticAtrophy -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#LeberOpticAtrophy">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#causesProgressiveVisionLoss"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Human"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A pathological process characterized by mitochondrial dysfunction that causes progressive vision loss.</obo:IAO_0000115>
-        <rdfs:comment>A pathological process characterized by mitochondrial dysfunction that causes progressive vision loss.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A leber optic atrophy.</obo:IAO_0000115>
+        <rdfs:comment>A leber optic atrophy.</rdfs:comment>
         <rdfs:label>leber optic atrophy</rdfs:label>
     </owl:Class>
     
@@ -4675,16 +4146,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#LegalProceeding"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#involvesRepresentingClientInterests"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LegalProceeding"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#featuresParticipant"/>
+                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LegalAdvocateRole"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process involving the representation of a client&apos;s interests within legal proceedings.</obo:IAO_0000115>
-        <rdfs:comment>A process involving the representation of a client&apos;s interests within legal proceedings.</rdfs:comment>
+        <obo:IAO_0000115>Legal advocacy process is a legal proceeding featuring a legal advocate role.</obo:IAO_0000115>
+        <rdfs:comment>Legal advocacy process is a legal proceeding featuring a legal advocate role.</rdfs:comment>
         <rdfs:label>legal advocacy process</rdfs:label>
     </owl:Class>
     
@@ -4740,16 +4211,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://signals360.example.org/sdg#DiagnosticImaging"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#usesMagneticFieldsAndRadioWaves"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#DiagnosticImaging"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#employsTechnology"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000771"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A diagnostic process that uses magnetic fields and radio waves to produce internal images of the body.</obo:IAO_0000115>
-        <rdfs:comment>A diagnostic process that uses magnetic fields and radio waves to produce internal images of the body.</rdfs:comment>
+        <obo:IAO_0000115>Magnetic resonance imaging modality is a diagnostic imaging employing an imaging instrument.</obo:IAO_0000115>
+        <rdfs:comment>Magnetic resonance imaging modality is a diagnostic imaging employing an imaging instrument.</rdfs:comment>
         <rdfs:label>magnetic resonance imaging modality</rdfs:label>
     </owl:Class>
     
@@ -4784,7 +4255,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDensityValue"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -4818,16 +4289,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000744"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#formalActOfEnrolling"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#Organization"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#confersStatus"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000647"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A process constituting the formal act of enrolling an individual or entity in an organization or program.</obo:IAO_0000115>
-        <rdfs:comment>A process constituting the formal act of enrolling an individual or entity in an organization or program.</rdfs:comment>
+        <obo:IAO_0000115>Membership registration is an act of social group membership conferring the status of an organization member.</obo:IAO_0000115>
+        <rdfs:comment>Membership registration is an act of social group membership conferring the status of an organization member.</rdfs:comment>
         <rdfs:label>membership registration</rdfs:label>
     </owl:Class>
     
@@ -4864,25 +4335,17 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#documentsStandardizedProceduresForSystematicObservation"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#EnvironmentalData"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#specifiesDataCollection"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000569"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that documents a standardized set of procedures for systematic observation and data collection.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that documents a standardized set of procedures for systematic observation and data collection.</rdfs:comment>
+        <obo:IAO_0000115>Monitoring protocol is a process specifying data collection by a sensor.</obo:IAO_0000115>
+        <rdfs:comment>Monitoring protocol is a process specifying data collection by a sensor.</rdfs:comment>
         <rdfs:label>monitoring protocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#MotorVehicle -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#MotorVehicle">
-        <rdfs:label>motor vehicle</rdfs:label>
     </owl:Class>
     
 
@@ -4893,16 +4356,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000713"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#classifiesVehiclesByTypeOrFunction"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MotorVehicle"/>
+                        <owl:onProperty rdf:resource="https://signals360.example.org/sdg#classifiedAs"/>
+                        <owl:someValuesFrom rdf:resource="https://www.commoncoreontologies.org/ont00000053"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A generically dependent continuant that classifies motor vehicles according to their type, size, or intended function.</obo:IAO_0000115>
-        <rdfs:comment>A generically dependent continuant that classifies motor vehicles according to their type, size, or intended function.</rdfs:comment>
+        <obo:IAO_0000115>Motor vehicle class is a vehicle classified as a ground motor vehicle.</obo:IAO_0000115>
+        <rdfs:comment>Motor vehicle class is a vehicle classified as a ground motor vehicle.</rdfs:comment>
         <rdfs:label>motor vehicle class</rdfs:label>
     </owl:Class>
     
@@ -5109,7 +4572,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#containsDataElement"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#InsuranceInformationItem"/>
@@ -5153,7 +4616,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#bufferSize"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -5242,7 +4705,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#dependsOnImpedanceTermination"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ImpedanceTermination"/>
@@ -5288,21 +4751,13 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#PrimaryEntity -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#PrimaryEntity">
-        <rdfs:label>primary entity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#ProfessionalExperience -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ProfessionalExperience">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDurationYears"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -5478,7 +4933,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#studiesDomainAspect"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CommunicationSecurityAspect"/>
@@ -5695,7 +5150,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasSalaryAmount"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5740,7 +5195,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#mustSatisfy"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ConstitutionalConstraint"/>
@@ -5868,7 +5323,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasDimensionValue"/>
                         <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
@@ -5913,7 +5368,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#describes"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#SocialEnterprise"/>
@@ -6064,7 +5519,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#pursuesObjective"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationalObjective"/>
@@ -6137,7 +5592,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#appliesTo"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ProtectedLocation"/>
@@ -6203,7 +5658,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#capturesProfileAttribute"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ResearcherProfileAttribute"/>
@@ -6272,7 +5727,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DescriptiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DescriptiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasLowerToleranceLimit"/>
                         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
@@ -6372,14 +5827,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#ThirdParty -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#ThirdParty">
-        <rdfs:label>third party</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#ThirdPartyDataSharing -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ThirdPartyDataSharing">
@@ -6412,14 +5859,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#TraditionalEcologicalKnowledge -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#TraditionalEcologicalKnowledge">
-        <rdfs:label>traditional ecological knowledge</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#TrainingPartnershipDevelopment -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#TrainingPartnershipDevelopment">
@@ -6447,7 +5886,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/InformationContentEntity"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/InformationContentEntity"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#correspondsToTariff"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TariffStructure"/>
@@ -6521,7 +5960,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.commoncoreontologies.org/DirectiveICE"/>
+                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/DirectiveICE"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://signals360.example.org/sdg#appliesToVehicleClass"/>
                         <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#MotorVehicleClass"/>
@@ -6653,6 +6092,377 @@
         <obo:IAO_0000115>A youth demographic.</obo:IAO_0000115>
         <rdfs:comment>A youth demographic.</rdfs:comment>
         <rdfs:label>youth demographic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/Artifact -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/Artifact">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_IndependentContinuant"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/DescriptiveICE -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/DescriptiveICE">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:label>descriptive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/DesignativeICE -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/DesignativeICE">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/DirectiveICE -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/DirectiveICE">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/InformationContentEntity"/>
+        <rdfs:label>directive information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/InformationContentEntity -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/InformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_Continuant"/>
+        <rdfs:label>information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000010 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000010">
+        <rdfs:label>ont00000010</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000020 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000020">
+        <rdfs:label>ont00000020</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000053 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000053">
+        <rdfs:label>ont00000053</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000119 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000119">
+        <rdfs:label>ont00000119</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000141 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000141">
+        <rdfs:label>ont00000141</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000175 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000175">
+        <rdfs:label>ont00000175</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000177 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000177">
+        <rdfs:label>ont00000177</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000187 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000187">
+        <rdfs:label>ont00000187</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000228 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000228">
+        <rdfs:label>ont00000228</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000253 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000253">
+        <rdfs:label>ont00000253</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000270 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000270">
+        <rdfs:label>ont00000270</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000314 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000314">
+        <rdfs:label>ont00000314</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000346 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000346">
+        <rdfs:label>ont00000346</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000352 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000352">
+        <rdfs:label>ont00000352</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000407 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000407">
+        <rdfs:label>ont00000407</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000410 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000410">
+        <rdfs:label>ont00000410</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000463 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000463">
+        <rdfs:label>ont00000463</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000506 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000506">
+        <rdfs:label>ont00000506</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000532 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000532">
+        <rdfs:label>ont00000532</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000537 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000537">
+        <rdfs:label>ont00000537</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000547 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000547">
+        <rdfs:label>ont00000547</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000564 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000564">
+        <rdfs:label>ont00000564</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000569 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000569">
+        <rdfs:label>ont00000569</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000575 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000575">
+        <rdfs:label>ont00000575</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000626 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000626">
+        <rdfs:label>ont00000626</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000647 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000647">
+        <rdfs:label>ont00000647</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000713 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000713">
+        <rdfs:label>ont00000713</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000744 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000744">
+        <rdfs:label>ont00000744</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000771 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000771">
+        <rdfs:label>ont00000771</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000836 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000836">
+        <rdfs:label>ont00000836</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000914 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000914">
+        <rdfs:label>ont00000914</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00000958 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00000958">
+        <rdfs:label>ont00000958</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001069 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001069">
+        <rdfs:label>ont00001069</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001074 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001074">
+        <rdfs:label>ont00001074</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001114 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001114">
+        <rdfs:label>ont00001114</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001180 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001180">
+        <rdfs:label>ont00001180</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001239 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001239">
+        <rdfs:label>ont00001239</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001295 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001295">
+        <rdfs:label>ont00001295</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001314 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001314">
+        <rdfs:label>ont00001314</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00001374 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00001374">
+        <rdfs:label>ont00001374</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.commoncoreontologies.org/ont00002006 -->
+
+    <owl:Class rdf:about="https://www.commoncoreontologies.org/ont00002006">
+        <rdfs:label>ont00002006</rdfs:label>
     </owl:Class>
     
 

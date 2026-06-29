@@ -7,7 +7,8 @@ Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
 Prefix: prov: <http://www.w3.org/ns/prov#>
 Prefix: dcterms: <http://purl.org/dc/terms/>
 Prefix: bfo: <http://purl.obolibrary.org/obo/BFO_>
-Prefix: cco: <http://www.commoncoreontologies.org/>
+Prefix: cco: <https://www.commoncoreontologies.org/>
+Prefix: fhir: <http://hl7.org/fhir/>
 Prefix: iao: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: obi: <http://purl.obolibrary.org/obo/OBI_>
 Prefix: schema: <https://schema.org/>
@@ -15,6 +16,7 @@ Prefix: dbo: <http://dbpedia.org/ontology/>
 Prefix: sdg: <https://signals360.example.org/sdg#>
 
 Ontology: <https://signals360.example.org/sdg>
+Import: <https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/develop/src/cco-iris/CommonCoreOntologiesMerged.ttl>
 
 Class: bfo:0000001
 Class: bfo:0000002 SubClassOf: bfo:0000001
@@ -1621,255 +1623,337 @@ Class: bfo:0000015
     Annotations: rdfs:label "process"
 
 
-Class: <https://signals360.example.org/sdg#ClinicalCare>
-    Annotations: rdfs:label "clinical care"
-
-Class: <https://signals360.example.org/sdg#ClinicalCare> EquivalentTo: bfo:0000015 and sdg:involvesApplicationOfMedicalKnowledgeToPatients some bfo:0000040
-ObjectProperty: sdg:involvesApplicationOfMedicalKnowledgeToPatients
-    Annotations: rdfs:label "involves application of medical knowledge to patients"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
 Class: <https://signals360.example.org/sdg#ClinicalPerformanceData>
     Annotations: rdfs:label "clinical performance data"
 
-Class: <https://signals360.example.org/sdg#ClinicalPerformanceData> EquivalentTo: bfo:0000031 and sdg:representsMetricsOfClinicalServiceDelivery some bfo:0000015
-ObjectProperty: sdg:representsMetricsOfClinicalServiceDelivery
-    Annotations: rdfs:label "represents metrics of clinical service delivery"
+Class: <https://signals360.example.org/sdg#ClinicalPerformanceData> EquivalentTo: sdg:ClientStatisticalInformation and bfo:about some sdg:ClinicalPerformanceEvaluation
+ObjectProperty: bfo:about
+    Annotations: rdfs:label "about"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: sdg:ClientStatisticalInformation
+    Annotations: rdfs:label "client statistical information"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: sdg:ClinicalPerformanceEvaluation
+    Annotations: rdfs:label "clinical performance evaluation"
 
 
 Class: <https://signals360.example.org/sdg#ClinicalQualityData>
     Annotations: rdfs:label "clinical quality data"
 
-Class: <https://signals360.example.org/sdg#ClinicalQualityData> EquivalentTo: bfo:0000031 and sdg:encodesInformationUsedToAssessHealthcareStandards some bfo:0000015
-ObjectProperty: sdg:encodesInformationUsedToAssessHealthcareStandards
-    Annotations: rdfs:label "encodes information used to assess healthcare standards"
+Class: <https://signals360.example.org/sdg#ClinicalQualityData> EquivalentTo: cco:ont00000314 and bfo:about some cco:ont00000575
+ObjectProperty: bfo:about
+    Annotations: rdfs:label "about"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000314
+    Annotations: rdfs:label "ont00000314"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000575
+    Annotations: rdfs:label "ont00000575"
 
 
 Class: <https://signals360.example.org/sdg#CommunicationChannel>
     Annotations: rdfs:label "communication channel"
 
-Class: <https://signals360.example.org/sdg#CommunicationChannel> EquivalentTo: bfo:0000040 and sdg:providesMediumForTransmittingInformation some bfo:0000015
-ObjectProperty: sdg:providesMediumForTransmittingInformation
-    Annotations: rdfs:label "provides medium for transmitting information"
+Class: <https://signals360.example.org/sdg#CommunicationChannel> EquivalentTo: cco:ont00000346 and bfo:has_role some sdg:DisseminationChannel
+ObjectProperty: bfo:has_role
+    Annotations: rdfs:label "has role"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000346
+    Annotations: rdfs:label "ont00000346"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#CommunicationSecurityAspect>
-    Annotations: rdfs:label "communication security aspect"
-
-Class: <https://signals360.example.org/sdg#CommunicationSecurityAspect> EquivalentTo: bfo:0000019 and sdg:characterizesProtectionLevelOfDataTransmission some bfo:0000015
-ObjectProperty: sdg:characterizesProtectionLevelOfDataTransmission
-    Annotations: rdfs:label "characterizes protection level of data transmission"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
-
-Class: bfo:0000019
-    Annotations: rdfs:label "quality"
+Class: sdg:DisseminationChannel
+    Annotations: rdfs:label "dissemination channel"
 
 
 Class: <https://signals360.example.org/sdg#CompetitionDivision>
     Annotations: rdfs:label "competition division"
 
-Class: <https://signals360.example.org/sdg#CompetitionDivision> EquivalentTo: bfo:0000023 and sdg:classifiesParticipantsByCompetitiveCriteria some bfo:0000040
-ObjectProperty: sdg:classifiesParticipantsByCompetitiveCriteria
-    Annotations: rdfs:label "classifies participants by competitive criteria"
+Class: <https://signals360.example.org/sdg#CompetitionDivision> EquivalentTo: cco:ont00001114 and bfo:has_participant some sdg:ChampionshipEntry
+ObjectProperty: bfo:has_participant
+    Annotations: rdfs:label "has participant"
 
-Class: bfo:0000023
-    Annotations: rdfs:label "role"
+Class: cco:ont00001114
+    Annotations: rdfs:label "ont00001114"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: sdg:ChampionshipEntry
+    Annotations: rdfs:label "championship entry"
 
 
 Class: <https://signals360.example.org/sdg#ConnectiveTissueRegion>
     Annotations: rdfs:label "connective tissue region"
 
-Class: <https://signals360.example.org/sdg#ConnectiveTissueRegion> EquivalentTo: bfo:0000040 and sdg:partOfConnectiveTissueSystem some bfo:0000040
-ObjectProperty: sdg:partOfConnectiveTissueSystem
-    Annotations: rdfs:label "part of connective tissue system"
+Class: <https://signals360.example.org/sdg#ConnectiveTissueRegion> EquivalentTo: bfo:0000006 and bfo:located_in some sdg:ConnectiveTissueStructure
+ObjectProperty: bfo:located_in
+    Annotations: rdfs:label "located in"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: bfo:0000006
+    Annotations: rdfs:label "0000006"
 
-
-Class: <https://signals360.example.org/sdg#ConnectiveTissueStructure>
+Class: sdg:ConnectiveTissueStructure
     Annotations: rdfs:label "connective tissue structure"
-
-Class: <https://signals360.example.org/sdg#ConnectiveTissueStructure> EquivalentTo: bfo:0000040 and sdg:constitutesFunctionalComponentOfConnectiveTissue some bfo:0000040
-ObjectProperty: sdg:constitutesFunctionalComponentOfConnectiveTissue
-    Annotations: rdfs:label "constitutes functional component of connective tissue"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
 
 
 Class: <https://signals360.example.org/sdg#ConstitutionalConstraint>
     Annotations: rdfs:label "constitutional constraint"
 
-Class: <https://signals360.example.org/sdg#ConstitutionalConstraint> EquivalentTo: bfo:0000031 and sdg:derivedFromConstitutionalFramework some bfo:0000031
-ObjectProperty: sdg:derivedFromConstitutionalFramework
-    Annotations: rdfs:label "derived from constitutional framework"
+Class: <https://signals360.example.org/sdg#ConstitutionalConstraint> EquivalentTo: cco:ont00001314 and sdg:derives_from some cco:ont00000532
+ObjectProperty: sdg:derives_from
+    Annotations: rdfs:label "derives from"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000532
+    Annotations: rdfs:label "ont00000532"
+
+Class: cco:ont00001314
+    Annotations: rdfs:label "ont00001314"
 
 
 Class: <https://signals360.example.org/sdg#ConstructedPredicate>
     Annotations: rdfs:label "constructed predicate"
 
-Class: <https://signals360.example.org/sdg#ConstructedPredicate> EquivalentTo: bfo:0000031 and sdg:composedOfLogicalOperatorsAndVariables some bfo:0000031
-ObjectProperty: sdg:composedOfLogicalOperatorsAndVariables
-    Annotations: rdfs:label "composed of logical operators and variables"
+Class: <https://signals360.example.org/sdg#ConstructedPredicate> EquivalentTo: cco:ont00001069 and bfo:realized_in some sdg:ConceptualConstructionProcess
+ObjectProperty: bfo:realized_in
+    Annotations: rdfs:label "realized in"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00001069
+    Annotations: rdfs:label "ont00001069"
+
+Class: sdg:ConceptualConstructionProcess
+    Annotations: rdfs:label "conceptual construction process"
 
 
 Class: <https://signals360.example.org/sdg#CopernicusObservationSource>
     Annotations: rdfs:label "copernicus observation source"
 
-Class: <https://signals360.example.org/sdg#CopernicusObservationSource> EquivalentTo: bfo:0000040 and sdg:operatedByCopernicusProgram some bfo:0000015
-ObjectProperty: sdg:operatedByCopernicusProgram
-    Annotations: rdfs:label "operated by copernicus program"
+Class: <https://signals360.example.org/sdg#CopernicusObservationSource> EquivalentTo: cco:ont00000547 and bfo:has_role some sdg:NationalDatasetAugmentationProcess
+ObjectProperty: bfo:has_role
+    Annotations: rdfs:label "has role"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000547
+    Annotations: rdfs:label "ont00000547"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: sdg:NationalDatasetAugmentationProcess
+    Annotations: rdfs:label "national dataset augmentation process"
 
 
 Class: <https://signals360.example.org/sdg#CrisisInterventionMethod>
     Annotations: rdfs:label "crisis intervention method"
 
-Class: <https://signals360.example.org/sdg#CrisisInterventionMethod> EquivalentTo: bfo:0000015 and sdg:designedToMitigateAcutePsychologicalDistress some bfo:0000015
-ObjectProperty: sdg:designedToMitigateAcutePsychologicalDistress
-    Annotations: rdfs:label "designed to mitigate acute psychological distress"
+Class: <https://signals360.example.org/sdg#CrisisInterventionMethod> EquivalentTo: cco:ont00000228 and bfo:involves_participant some sdg:VulnerabilityState
+ObjectProperty: bfo:involves_participant
+    Annotations: rdfs:label "involves participant"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000228
+    Annotations: rdfs:label "ont00000228"
+
+Class: sdg:VulnerabilityState
+    Annotations: rdfs:label "vulnerability state"
 
 
 Class: <https://signals360.example.org/sdg#CrossDivisionTransfer>
     Annotations: rdfs:label "cross division transfer"
 
-Class: <https://signals360.example.org/sdg#CrossDivisionTransfer> EquivalentTo: bfo:0000015 and sdg:involvesReassignmentBetweenCompetitiveDivisions some bfo:0000015
-ObjectProperty: sdg:involvesReassignmentBetweenCompetitiveDivisions
-    Annotations: rdfs:label "involves reassignment between competitive divisions"
+Class: <https://signals360.example.org/sdg#CrossDivisionTransfer> EquivalentTo: sdg:DivisionAssignmentRecord and bfo:has_participant some sdg:CompetitionDivision
+ObjectProperty: bfo:has_participant
+    Annotations: rdfs:label "has participant"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: sdg:CompetitionDivision
+    Annotations: rdfs:label "competition division"
+
+Class: sdg:DivisionAssignmentRecord
+    Annotations: rdfs:label "division assignment record"
 
 
 Class: <https://signals360.example.org/sdg#DatabaseContainer>
     Annotations: rdfs:label "database container"
 
-Class: <https://signals360.example.org/sdg#DatabaseContainer> EquivalentTo: bfo:0000040 and sdg:storesDigitalRecordsForComputationalAccess some bfo:0000031
-ObjectProperty: sdg:storesDigitalRecordsForComputationalAccess
-    Annotations: rdfs:label "stores digital records for computational access"
+Class: <https://signals360.example.org/sdg#DatabaseContainer> EquivalentTo: cco:ont00000020 and bfo:has_participant some cco:ont00002006
+ObjectProperty: bfo:has_participant
+    Annotations: rdfs:label "has participant"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000020
+    Annotations: rdfs:label "ont00000020"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00002006
+    Annotations: rdfs:label "ont00002006"
 
 
-Class: <https://signals360.example.org/sdg#DirectoryResponse>
-    Annotations: rdfs:label "directory response"
+Class: <https://signals360.example.org/sdg#DemographicInformation>
+    Annotations: rdfs:label "demographic information"
 
-Class: <https://signals360.example.org/sdg#DirectoryResponse> EquivalentTo: bfo:0000031 and sdg:isResponseTo some sdg:DirectoryQuery
-ObjectProperty: sdg:isResponseTo
-    Annotations: rdfs:label "is response to"
+Class: <https://signals360.example.org/sdg#DemographicInformation> EquivalentTo: sdg:EnvironmentalData and sdg:characterizes some sdg:Population
+ObjectProperty: sdg:characterizes
+    Annotations: rdfs:label "characterizes"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: sdg:EnvironmentalData
+    Annotations: rdfs:label "environmental data"
 
-Class: sdg:DirectoryQuery
-    Annotations: rdfs:label "directory query"
+Class: sdg:Population
+    Annotations: rdfs:label "population"
 
 
 Class: <https://signals360.example.org/sdg#DisseminationChannel>
     Annotations: rdfs:label "dissemination channel"
 
-Class: <https://signals360.example.org/sdg#DisseminationChannel> EquivalentTo: bfo:0000040 and sdg:transmitsInformation some bfo:0000031
-ObjectProperty: sdg:transmitsInformation
-    Annotations: rdfs:label "transmits information"
+Class: <https://signals360.example.org/sdg#DisseminationChannel> EquivalentTo: sdg:CommunicationChannel and sdg:usedIn some sdg:InformationDisseminationEvent
+ObjectProperty: sdg:usedIn
+    Annotations: rdfs:label "used in"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: sdg:CommunicationChannel
+    Annotations: rdfs:label "communication channel"
+
+Class: sdg:InformationDisseminationEvent
+    Annotations: rdfs:label "information dissemination event"
+
+
+Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
+    Annotations: rdfs:label "domestic violence survivor"
+
+Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor> EquivalentTo: bfo:0000040 and sdg:experienced some sdg:DomesticViolence
+ObjectProperty: sdg:experienced
+    Annotations: rdfs:label "experienced"
 
 Class: bfo:0000040
     Annotations: rdfs:label "material entity"
+
+Class: sdg:DomesticViolence
+    Annotations: rdfs:label "domestic violence"
 
 
 Class: <https://signals360.example.org/sdg#EMSAuthority>
     Annotations: rdfs:label "e m s authority"
 
-Class: <https://signals360.example.org/sdg#EMSAuthority> EquivalentTo: bfo:0000040 and sdg:exercisesJurisdictionOver some sdg:EmergencyMedicalServices
-ObjectProperty: sdg:exercisesJurisdictionOver
-    Annotations: rdfs:label "exercises jurisdiction over"
+Class: <https://signals360.example.org/sdg#EMSAuthority> EquivalentTo: cco:ont00000187 and sdg:pertainsTo some cco:ont00000647
+ObjectProperty: sdg:pertainsTo
+    Annotations: rdfs:label "pertains to"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00000187
+    Annotations: rdfs:label "ont00000187"
 
-Class: sdg:EmergencyMedicalServices
-    Annotations: rdfs:label "emergency medical services"
+Class: cco:ont00000647
+    Annotations: rdfs:label "ont00000647"
+
+
+Class: <https://signals360.example.org/sdg#EarthObservationData>
+    Annotations: rdfs:label "earth observation data"
+
+Class: <https://signals360.example.org/sdg#EarthObservationData> EquivalentTo: sdg:EnvironmentalData and sdg:collectedBy some cco:ont00000352
+ObjectProperty: sdg:collectedBy
+    Annotations: rdfs:label "collected by"
+
+Class: cco:ont00000352
+    Annotations: rdfs:label "ont00000352"
+
+Class: sdg:EnvironmentalData
+    Annotations: rdfs:label "environmental data"
+
+
+Class: <https://signals360.example.org/sdg#EducationalInstitution>
+    Annotations: rdfs:label "educational institution"
+
+Class: <https://signals360.example.org/sdg#EducationalInstitution> EquivalentTo: cco:ont00000270 and sdg:provides some cco:ont00000463
+ObjectProperty: sdg:provides
+    Annotations: rdfs:label "provides"
+
+Class: cco:ont00000270
+    Annotations: rdfs:label "ont00000270"
+
+Class: cco:ont00000463
+    Annotations: rdfs:label "ont00000463"
+
+
+Class: <https://signals360.example.org/sdg#EducationalPresentation>
+    Annotations: rdfs:label "educational presentation"
+
+Class: <https://signals360.example.org/sdg#EducationalPresentation> EquivalentTo: cco:ont00001374 and sdg:pertainsTo some cco:ont00000463
+ObjectProperty: sdg:pertainsTo
+    Annotations: rdfs:label "pertains to"
+
+Class: cco:ont00000463
+    Annotations: rdfs:label "ont00000463"
+
+Class: cco:ont00001374
+    Annotations: rdfs:label "ont00001374"
+
+
+Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia>
+    Annotations: rdfs:label "enterprise social media"
+
+Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia> EquivalentTo: sdg:SocialNetworkingService and sdg:usedIn some sdg:SocialEnterprise
+ObjectProperty: sdg:usedIn
+    Annotations: rdfs:label "used in"
+
+Class: sdg:SocialEnterprise
+    Annotations: rdfs:label "social enterprise"
+
+Class: sdg:SocialNetworkingService
+    Annotations: rdfs:label "social networking service"
+
+
+Class: <https://signals360.example.org/sdg#ExecutiveLeadershipProcess>
+    Annotations: rdfs:label "executive leadership process"
+
+Class: <https://signals360.example.org/sdg#ExecutiveLeadershipProcess> EquivalentTo: bfo:0000015 and sdg:pertainsTo some sdg:ExecutiveTeam
+ObjectProperty: sdg:pertainsTo
+    Annotations: rdfs:label "pertains to"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+Class: sdg:ExecutiveTeam
+    Annotations: rdfs:label "executive team"
+
+
+Class: <https://signals360.example.org/sdg#ExecutiveTeam>
+    Annotations: rdfs:label "executive team"
+
+Class: <https://signals360.example.org/sdg#ExecutiveTeam> EquivalentTo: cco:ont00001180 and sdg:comprises some cco:ont00000175
+ObjectProperty: sdg:comprises
+    Annotations: rdfs:label "comprises"
+
+Class: cco:ont00000175
+    Annotations: rdfs:label "ont00000175"
+
+Class: cco:ont00001180
+    Annotations: rdfs:label "ont00001180"
+
+
+Class: <https://signals360.example.org/sdg#ExistingNationalDataset>
+    Annotations: rdfs:label "existing national dataset"
+
+Class: <https://signals360.example.org/sdg#ExistingNationalDataset> EquivalentTo: cco:ont00002006 and sdg:usedIn some sdg:NationalDatasetAugmentationProcess
+ObjectProperty: sdg:usedIn
+    Annotations: rdfs:label "used in"
+
+Class: cco:ont00002006
+    Annotations: rdfs:label "ont00002006"
+
+Class: sdg:NationalDatasetAugmentationProcess
+    Annotations: rdfs:label "national dataset augmentation process"
 
 
 Class: <https://signals360.example.org/sdg#ExternalBusinessPartner>
     Annotations: rdfs:label "external business partner"
 
-Class: <https://signals360.example.org/sdg#ExternalBusinessPartner> EquivalentTo: bfo:0000040 and sdg:hasBusinessRelationship some sdg:Organization and sdg:isExternalTo some sdg:PrimaryEntity
-ObjectProperty: sdg:hasBusinessRelationship
-    Annotations: rdfs:label "has business relationship"
+Class: <https://signals360.example.org/sdg#ExternalBusinessPartner> EquivalentTo: cco:ont00000506 and sdg:hasDataSharingContext some sdg:ThirdPartyDataSharing
+ObjectProperty: sdg:hasDataSharingContext
+    Annotations: rdfs:label "has data sharing context"
 
-ObjectProperty: sdg:isExternalTo
-    Annotations: rdfs:label "is external to"
+Class: cco:ont00000506
+    Annotations: rdfs:label "ont00000506"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-Class: sdg:Organization
-    Annotations: rdfs:label "organization"
-
-Class: sdg:PrimaryEntity
-    Annotations: rdfs:label "primary entity"
+Class: sdg:ThirdPartyDataSharing
+    Annotations: rdfs:label "third party data sharing"
 
 
 Class: <https://signals360.example.org/sdg#FinancialActivity>
     Annotations: rdfs:label "financial activity"
 
-Class: <https://signals360.example.org/sdg#FinancialActivity> EquivalentTo: bfo:0000015 and sdg:involvesFinancialResourceTransfer some sdg:FinancialResource
-ObjectProperty: sdg:involvesFinancialResourceTransfer
-    Annotations: rdfs:label "involves financial resource transfer"
+Class: <https://signals360.example.org/sdg#FinancialActivity> EquivalentTo: cco:ont00000836 and sdg:involvesFinancialResource some sdg:FinancialResource
+ObjectProperty: sdg:involvesFinancialResource
+    Annotations: rdfs:label "involves financial resource"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000836
+    Annotations: rdfs:label "ont00000836"
 
 Class: sdg:FinancialResource
     Annotations: rdfs:label "financial resource"
@@ -1878,82 +1962,82 @@ Class: sdg:FinancialResource
 Class: <https://signals360.example.org/sdg#FinancialInstitution>
     Annotations: rdfs:label "financial institution"
 
-Class: <https://signals360.example.org/sdg#FinancialInstitution> EquivalentTo: bfo:0000040 and sdg:providesFinancialServices some sdg:FinancialService
-ObjectProperty: sdg:providesFinancialServices
-    Annotations: rdfs:label "provides financial services"
+Class: <https://signals360.example.org/sdg#FinancialInstitution> EquivalentTo: cco:ont00001295 and sdg:facilitates some sdg:SettlementFinancingActivity
+ObjectProperty: sdg:facilitates
+    Annotations: rdfs:label "facilitates"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00001295
+    Annotations: rdfs:label "ont00001295"
 
-Class: sdg:FinancialService
-    Annotations: rdfs:label "financial service"
+Class: sdg:SettlementFinancingActivity
+    Annotations: rdfs:label "settlement financing activity"
 
 
 Class: <https://signals360.example.org/sdg#FindingEntity>
     Annotations: rdfs:label "finding entity"
 
-Class: <https://signals360.example.org/sdg#FindingEntity> EquivalentTo: bfo:0000031 and sdg:reportsOnHumanRightsIssue some sdg:HumanRightsIssue
-ObjectProperty: sdg:reportsOnHumanRightsIssue
-    Annotations: rdfs:label "reports on human rights issue"
+Class: <https://signals360.example.org/sdg#FindingEntity> EquivalentTo: cco:ont00000958 and sdg:reportedIn some sdg:HumanRightsImpactReport
+ObjectProperty: sdg:reportedIn
+    Annotations: rdfs:label "reported in"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000958
+    Annotations: rdfs:label "ont00000958"
 
-Class: sdg:HumanRightsIssue
-    Annotations: rdfs:label "human rights issue"
+Class: sdg:HumanRightsImpactReport
+    Annotations: rdfs:label "human rights impact report"
 
 
 Class: <https://signals360.example.org/sdg#FloodAssetCondition>
     Annotations: rdfs:label "flood asset condition"
 
-Class: <https://signals360.example.org/sdg#FloodAssetCondition> EquivalentTo: bfo:0000019 and sdg:characterizesAssetVulnerabilityToFlood some sdg:Asset
-ObjectProperty: sdg:characterizesAssetVulnerabilityToFlood
-    Annotations: rdfs:label "characterizes asset vulnerability to flood"
-
-Class: bfo:0000019
-    Annotations: rdfs:label "quality"
+Class: <https://signals360.example.org/sdg#FloodAssetCondition> EquivalentTo: sdg:Asset and sdg:assessedIn some sdg:FloodAssetVulnerabilityAssessment
+ObjectProperty: sdg:assessedIn
+    Annotations: rdfs:label "assessed in"
 
 Class: sdg:Asset
     Annotations: rdfs:label "asset"
+
+Class: sdg:FloodAssetVulnerabilityAssessment
+    Annotations: rdfs:label "flood asset vulnerability assessment"
 
 
 Class: <https://signals360.example.org/sdg#GanglionCystFormation>
     Annotations: rdfs:label "ganglion cyst formation"
 
-Class: <https://signals360.example.org/sdg#GanglionCystFormation> EquivalentTo: bfo:0000015 and sdg:involvesPathologicalFluidAccumulation some sdg:JointTissue
-ObjectProperty: sdg:involvesPathologicalFluidAccumulation
-    Annotations: rdfs:label "involves pathological fluid accumulation"
+Class: <https://signals360.example.org/sdg#GanglionCystFormation> EquivalentTo: sdg:MyxoidDegenerationProcess and sdg:resultsIn some sdg:GanglionCystTissueOrigin
+ObjectProperty: sdg:resultsIn
+    Annotations: rdfs:label "results in"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: sdg:GanglionCystTissueOrigin
+    Annotations: rdfs:label "ganglion cyst tissue origin"
 
-Class: sdg:JointTissue
-    Annotations: rdfs:label "joint tissue"
+Class: sdg:MyxoidDegenerationProcess
+    Annotations: rdfs:label "myxoid degeneration process"
 
 
 Class: <https://signals360.example.org/sdg#HealthOutcomeMetric>
     Annotations: rdfs:label "health outcome metric"
 
-Class: <https://signals360.example.org/sdg#HealthOutcomeMetric> EquivalentTo: bfo:0000031 and sdg:measuresPopulationHealthStatus some sdg:Population
-ObjectProperty: sdg:measuresPopulationHealthStatus
-    Annotations: rdfs:label "measures population health status"
+Class: <https://signals360.example.org/sdg#HealthOutcomeMetric> EquivalentTo: sdg:ClinicalQualityData and sdg:usedIn some sdg:IndoorAirQualityActionPlan
+ObjectProperty: sdg:usedIn
+    Annotations: rdfs:label "used in"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: sdg:ClinicalQualityData
+    Annotations: rdfs:label "clinical quality data"
 
-Class: sdg:Population
-    Annotations: rdfs:label "population"
+Class: sdg:IndoorAirQualityActionPlan
+    Annotations: rdfs:label "indoor air quality action plan"
 
 
 Class: <https://signals360.example.org/sdg#HigherEducationInstitution>
     Annotations: rdfs:label "higher education institution"
 
-Class: <https://signals360.example.org/sdg#HigherEducationInstitution> EquivalentTo: bfo:0000040 and sdg:confersAcademicDegrees some sdg:AcademicDegree
-ObjectProperty: sdg:confersAcademicDegrees
-    Annotations: rdfs:label "confers academic degrees"
+Class: <https://signals360.example.org/sdg#HigherEducationInstitution> EquivalentTo: cco:ont00000564 and sdg:confers some sdg:AcademicDegree
+ObjectProperty: sdg:confers
+    Annotations: rdfs:label "confers"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00000564
+    Annotations: rdfs:label "ont00000564"
 
 Class: sdg:AcademicDegree
     Annotations: rdfs:label "academic degree"
@@ -1962,12 +2046,12 @@ Class: sdg:AcademicDegree
 Class: <https://signals360.example.org/sdg#HouseholdParticipant>
     Annotations: rdfs:label "household participant"
 
-Class: <https://signals360.example.org/sdg#HouseholdParticipant> EquivalentTo: bfo:0000023 and sdg:participatesInReductionProgram some sdg:ReductionProgram
-ObjectProperty: sdg:participatesInReductionProgram
-    Annotations: rdfs:label "participates in reduction program"
+Class: <https://signals360.example.org/sdg#HouseholdParticipant> EquivalentTo: cco:ont00000914 and sdg:participatesIn some sdg:ReductionProgram
+ObjectProperty: sdg:participatesIn
+    Annotations: rdfs:label "participates in"
 
-Class: bfo:0000023
-    Annotations: rdfs:label "role"
+Class: cco:ont00000914
+    Annotations: rdfs:label "ont00000914"
 
 Class: sdg:ReductionProgram
     Annotations: rdfs:label "reduction program"
@@ -1976,156 +2060,138 @@ Class: sdg:ReductionProgram
 Class: <https://signals360.example.org/sdg#HumanHealthOutcome>
     Annotations: rdfs:label "human health outcome"
 
-Class: <https://signals360.example.org/sdg#HumanHealthOutcome> EquivalentTo: bfo:0000015 and sdg:resultsFromChemicalExposure some sdg:Chemical
-ObjectProperty: sdg:resultsFromChemicalExposure
-    Annotations: rdfs:label "results from chemical exposure"
+Class: <https://signals360.example.org/sdg#HumanHealthOutcome> EquivalentTo: sdg:PatientOutcome and sdg:arisesFrom some sdg:ChemicalExposureRiskProfile
+ObjectProperty: sdg:arisesFrom
+    Annotations: rdfs:label "arises from"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: sdg:ChemicalExposureRiskProfile
+    Annotations: rdfs:label "chemical exposure risk profile"
 
-Class: sdg:Chemical
-    Annotations: rdfs:label "chemical"
+Class: sdg:PatientOutcome
+    Annotations: rdfs:label "patient outcome"
 
 
 Class: <https://signals360.example.org/sdg#HumanPopulation>
     Annotations: rdfs:label "human population"
 
-Class: <https://signals360.example.org/sdg#HumanPopulation> EquivalentTo: bfo:0000040 and sdg:consistsOfHumanIndividuals some sdg:HumanIndividual
-ObjectProperty: sdg:consistsOfHumanIndividuals
-    Annotations: rdfs:label "consists of human individuals"
+Class: <https://signals360.example.org/sdg#HumanPopulation> EquivalentTo: cco:ont00000141 and sdg:affectedBy some sdg:DengueTransmissionProcess
+ObjectProperty: sdg:affectedBy
+    Annotations: rdfs:label "affected by"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00000141
+    Annotations: rdfs:label "ont00000141"
 
-Class: sdg:HumanIndividual
-    Annotations: rdfs:label "human individual"
+Class: sdg:DengueTransmissionProcess
+    Annotations: rdfs:label "dengue transmission process"
 
 
 Class: <https://signals360.example.org/sdg#ImpedanceTermination>
     Annotations: rdfs:label "impedance termination"
 
-Class: <https://signals360.example.org/sdg#ImpedanceTermination> EquivalentTo: bfo:0000040 and sdg:matchesPortImpedance some sdg:ElectricalPort
-ObjectProperty: sdg:matchesPortImpedance
-    Annotations: rdfs:label "matches port impedance"
+Class: <https://signals360.example.org/sdg#ImpedanceTermination> EquivalentTo: cco:ont00000407 and sdg:measuredIn some sdg:PortIsolationMeasurement
+ObjectProperty: sdg:measuredIn
+    Annotations: rdfs:label "measured in"
 
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: cco:ont00000407
+    Annotations: rdfs:label "ont00000407"
 
-Class: sdg:ElectricalPort
-    Annotations: rdfs:label "electrical port"
+Class: sdg:PortIsolationMeasurement
+    Annotations: rdfs:label "port isolation measurement"
 
 
 Class: <https://signals360.example.org/sdg#IndigenousKnowledgeBase>
     Annotations: rdfs:label "indigenous knowledge base"
 
-Class: <https://signals360.example.org/sdg#IndigenousKnowledgeBase> EquivalentTo: bfo:0000031 and sdg:containsTraditionalEcologicalKnowledge some sdg:TraditionalEcologicalKnowledge
-ObjectProperty: sdg:containsTraditionalEcologicalKnowledge
-    Annotations: rdfs:label "contains traditional ecological knowledge"
+Class: <https://signals360.example.org/sdg#IndigenousKnowledgeBase> EquivalentTo: cco:ont00000958 and sdg:integratedIn some sdg:KnowledgeBaseIntegration
+ObjectProperty: sdg:integratedIn
+    Annotations: rdfs:label "integrated in"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000958
+    Annotations: rdfs:label "ont00000958"
 
-Class: sdg:TraditionalEcologicalKnowledge
-    Annotations: rdfs:label "traditional ecological knowledge"
+Class: sdg:KnowledgeBaseIntegration
+    Annotations: rdfs:label "knowledge base integration"
 
 
 Class: <https://signals360.example.org/sdg#IndoorAirPollution>
     Annotations: rdfs:label "indoor air pollution"
 
-Class: <https://signals360.example.org/sdg#IndoorAirPollution> EquivalentTo: bfo:0000015 and sdg:involvesContaminantRelease some sdg:IndoorEnvironment
-ObjectProperty: sdg:involvesContaminantRelease
-    Annotations: rdfs:label "involves contaminant release"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: <https://signals360.example.org/sdg#IndoorAirPollution> EquivalentTo: sdg:IndoorEnvironment and sdg:monitoredIn some sdg:IndoorEnvironmentalMonitoringProcess
+ObjectProperty: sdg:monitoredIn
+    Annotations: rdfs:label "monitored in"
 
 Class: sdg:IndoorEnvironment
     Annotations: rdfs:label "indoor environment"
+
+Class: sdg:IndoorEnvironmentalMonitoringProcess
+    Annotations: rdfs:label "indoor environmental monitoring process"
 
 
 Class: <https://signals360.example.org/sdg#IndoorEnvironment>
     Annotations: rdfs:label "indoor environment"
 
-Class: <https://signals360.example.org/sdg#IndoorEnvironment> EquivalentTo: bfo:0000040 and sdg:boundedBy some sdg:Building and sdg:designedForHumanOccupancy some sdg:Human
-ObjectProperty: sdg:boundedBy
-    Annotations: rdfs:label "bounded by"
-
-ObjectProperty: sdg:designedForHumanOccupancy
-    Annotations: rdfs:label "designed for human occupancy"
+Class: <https://signals360.example.org/sdg#IndoorEnvironment> EquivalentTo: bfo:0000040 and bfo:part_of some cco:ont00000410
+ObjectProperty: bfo:part_of
+    Annotations: rdfs:label "part of"
 
 Class: bfo:0000040
     Annotations: rdfs:label "material entity"
 
-Class: sdg:Building
-    Annotations: rdfs:label "building"
-
-Class: sdg:Human
-    Annotations: rdfs:label "human"
+Class: cco:ont00000410
+    Annotations: rdfs:label "ont00000410"
 
 
 Class: <https://signals360.example.org/sdg#IndustryAssociationMember>
     Annotations: rdfs:label "industry association member"
 
-Class: <https://signals360.example.org/sdg#IndustryAssociationMember> EquivalentTo: bfo:0000023 and sdg:borneBy some sdg:Organization and sdg:inRelationTo some sdg:IndustryAssociation
-ObjectProperty: sdg:borneBy
-    Annotations: rdfs:label "borne by"
+Class: <https://signals360.example.org/sdg#IndustryAssociationMember> EquivalentTo: cco:ont00000647 and bfo:realizes_role_of some sdg:IndustryAssociation
+ObjectProperty: bfo:realizes_role_of
+    Annotations: rdfs:label "realizes role of"
 
-ObjectProperty: sdg:inRelationTo
-    Annotations: rdfs:label "in relation to"
-
-Class: bfo:0000023
-    Annotations: rdfs:label "role"
+Class: cco:ont00000647
+    Annotations: rdfs:label "ont00000647"
 
 Class: sdg:IndustryAssociation
     Annotations: rdfs:label "industry association"
-
-Class: sdg:Organization
-    Annotations: rdfs:label "organization"
 
 
 Class: <https://signals360.example.org/sdg#IndustrySector>
     Annotations: rdfs:label "industry sector"
 
-Class: <https://signals360.example.org/sdg#IndustrySector> EquivalentTo: bfo:0000031 and sdg:designatesGroupOfOrganizationsSharingEconomicActivity some sdg:Organization
-ObjectProperty: sdg:designatesGroupOfOrganizationsSharingEconomicActivity
-    Annotations: rdfs:label "designates group of organizations sharing economic activity"
+Class: <https://signals360.example.org/sdg#IndustrySector> EquivalentTo: cco:ont00001239 and bfo:part_of some sdg:IndustryAssociation
+ObjectProperty: bfo:part_of
+    Annotations: rdfs:label "part of"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00001239
+    Annotations: rdfs:label "ont00001239"
 
-Class: sdg:Organization
-    Annotations: rdfs:label "organization"
+Class: sdg:IndustryAssociation
+    Annotations: rdfs:label "industry association"
 
 
 Class: <https://signals360.example.org/sdg#InstitutionalInvestor>
     Annotations: rdfs:label "institutional investor"
 
-Class: <https://signals360.example.org/sdg#InstitutionalInvestor> EquivalentTo: bfo:0000023 and sdg:borneBy some sdg:Organization and sdg:managesCapitalForBenefitOfOthers some sdg:ThirdParty
-ObjectProperty: sdg:borneBy
-    Annotations: rdfs:label "borne by"
+Class: <https://signals360.example.org/sdg#InstitutionalInvestor> EquivalentTo: cco:ont00000010 and bfo:participates_in some cco:ont00000537
+ObjectProperty: bfo:participates_in
+    Annotations: rdfs:label "participates in"
 
-ObjectProperty: sdg:managesCapitalForBenefitOfOthers
-    Annotations: rdfs:label "manages capital for benefit of others"
+Class: cco:ont00000010
+    Annotations: rdfs:label "ont00000010"
 
-Class: bfo:0000023
-    Annotations: rdfs:label "role"
-
-Class: sdg:Organization
-    Annotations: rdfs:label "organization"
-
-Class: sdg:ThirdParty
-    Annotations: rdfs:label "third party"
+Class: cco:ont00000537
+    Annotations: rdfs:label "ont00000537"
 
 
 Class: <https://signals360.example.org/sdg#InsuranceInformationItem>
     Annotations: rdfs:label "insurance information item"
 
-Class: <https://signals360.example.org/sdg#InsuranceInformationItem> EquivalentTo: bfo:0000031 and sdg:encodesDiscreteFact some sdg:InsuranceCoverage
-ObjectProperty: sdg:encodesDiscreteFact
-    Annotations: rdfs:label "encodes discrete fact"
+Class: <https://signals360.example.org/sdg#InsuranceInformationItem> EquivalentTo: cco:ont00000253 and bfo:realizes_role_of some sdg:InsuranceCoverage
+ObjectProperty: bfo:realizes_role_of
+    Annotations: rdfs:label "realizes role of"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000253
+    Annotations: rdfs:label "ont00000253"
 
 Class: sdg:InsuranceCoverage
     Annotations: rdfs:label "insurance coverage"
@@ -2134,23 +2200,23 @@ Class: sdg:InsuranceCoverage
 Class: <https://signals360.example.org/sdg#IntuitiveFoundation>
     Annotations: rdfs:label "intuitive foundation"
 
-Class: <https://signals360.example.org/sdg#IntuitiveFoundation> EquivalentTo: bfo:0000031 and sdg:servesAsCognitiveBasisFor some sdg:SyntheticAprioriJudgment
-ObjectProperty: sdg:servesAsCognitiveBasisFor
-    Annotations: rdfs:label "serves as cognitive basis for"
+Class: <https://signals360.example.org/sdg#IntuitiveFoundation> EquivalentTo: cco:ont00000119 and bfo:has_quality some cco:ont00000177
+ObjectProperty: bfo:has_quality
+    Annotations: rdfs:label "has quality"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000119
+    Annotations: rdfs:label "ont00000119"
 
-Class: sdg:SyntheticAprioriJudgment
-    Annotations: rdfs:label "synthetic apriori judgment"
+Class: cco:ont00000177
+    Annotations: rdfs:label "ont00000177"
 
 
 Class: <https://signals360.example.org/sdg#LateralRestraintStrap>
     Annotations: rdfs:label "lateral restraint strap"
 
-Class: <https://signals360.example.org/sdg#LateralRestraintStrap> EquivalentTo: bfo:0000040 and sdg:designedToProvideLateralSupport some sdg:IntermediateFloorAssembly
-ObjectProperty: sdg:designedToProvideLateralSupport
-    Annotations: rdfs:label "designed to provide lateral support"
+Class: <https://signals360.example.org/sdg#LateralRestraintStrap> EquivalentTo: bfo:0000040 and bfo:part_of some sdg:IntermediateFloorAssembly
+ObjectProperty: bfo:part_of
+    Annotations: rdfs:label "part of"
 
 Class: bfo:0000040
     Annotations: rdfs:label "material entity"
@@ -2162,40 +2228,26 @@ Class: sdg:IntermediateFloorAssembly
 Class: <https://signals360.example.org/sdg#LearningOutcome>
     Annotations: rdfs:label "learning outcome"
 
-Class: <https://signals360.example.org/sdg#LearningOutcome> EquivalentTo: bfo:0000031 and sdg:representsAcquiredKnowledgeOrSkill some sdg:Person
-ObjectProperty: sdg:representsAcquiredKnowledgeOrSkill
-    Annotations: rdfs:label "represents acquired knowledge or skill"
+Class: <https://signals360.example.org/sdg#LearningOutcome> EquivalentTo: cco:ont00000626 and bfo:realizes_role_of some cco:ont00001074
+ObjectProperty: bfo:realizes_role_of
+    Annotations: rdfs:label "realizes role of"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: cco:ont00000626
+    Annotations: rdfs:label "ont00000626"
 
-Class: sdg:Person
-    Annotations: rdfs:label "person"
-
-
-Class: <https://signals360.example.org/sdg#LeberOpticAtrophy>
-    Annotations: rdfs:label "leber optic atrophy"
-
-Class: <https://signals360.example.org/sdg#LeberOpticAtrophy> EquivalentTo: bfo:0000015 and sdg:causesProgressiveVisionLoss some sdg:Human
-ObjectProperty: sdg:causesProgressiveVisionLoss
-    Annotations: rdfs:label "causes progressive vision loss"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
-
-Class: sdg:Human
-    Annotations: rdfs:label "human"
+Class: cco:ont00001074
+    Annotations: rdfs:label "ont00001074"
 
 
 Class: <https://signals360.example.org/sdg#LegalAdvocacyProcess>
     Annotations: rdfs:label "legal advocacy process"
 
-Class: <https://signals360.example.org/sdg#LegalAdvocacyProcess> EquivalentTo: bfo:0000015 and sdg:involvesRepresentingClientInterests some sdg:LegalProceeding
-ObjectProperty: sdg:involvesRepresentingClientInterests
-    Annotations: rdfs:label "involves representing client interests"
+Class: <https://signals360.example.org/sdg#LegalAdvocacyProcess> EquivalentTo: sdg:LegalProceeding and sdg:featuresParticipant some sdg:LegalAdvocateRole
+ObjectProperty: sdg:featuresParticipant
+    Annotations: rdfs:label "features participant"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: sdg:LegalAdvocateRole
+    Annotations: rdfs:label "legal advocate role"
 
 Class: sdg:LegalProceeding
     Annotations: rdfs:label "legal proceeding"
@@ -2204,12 +2256,12 @@ Class: sdg:LegalProceeding
 Class: <https://signals360.example.org/sdg#MagneticResonanceImagingModality>
     Annotations: rdfs:label "magnetic resonance imaging modality"
 
-Class: <https://signals360.example.org/sdg#MagneticResonanceImagingModality> EquivalentTo: bfo:0000015 and sdg:usesMagneticFieldsAndRadioWaves some sdg:DiagnosticImaging
-ObjectProperty: sdg:usesMagneticFieldsAndRadioWaves
-    Annotations: rdfs:label "uses magnetic fields and radio waves"
+Class: <https://signals360.example.org/sdg#MagneticResonanceImagingModality> EquivalentTo: sdg:DiagnosticImaging and sdg:employsTechnology some cco:ont00000771
+ObjectProperty: sdg:employsTechnology
+    Annotations: rdfs:label "employs technology"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000771
+    Annotations: rdfs:label "ont00000771"
 
 Class: sdg:DiagnosticImaging
     Annotations: rdfs:label "diagnostic imaging"
@@ -2218,245 +2270,43 @@ Class: sdg:DiagnosticImaging
 Class: <https://signals360.example.org/sdg#MembershipRegistration>
     Annotations: rdfs:label "membership registration"
 
-Class: <https://signals360.example.org/sdg#MembershipRegistration> EquivalentTo: bfo:0000015 and sdg:formalActOfEnrolling some sdg:Organization
-ObjectProperty: sdg:formalActOfEnrolling
-    Annotations: rdfs:label "formal act of enrolling"
+Class: <https://signals360.example.org/sdg#MembershipRegistration> EquivalentTo: cco:ont00000744 and sdg:confersStatus some cco:ont00000647
+ObjectProperty: sdg:confersStatus
+    Annotations: rdfs:label "confers status"
 
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
+Class: cco:ont00000647
+    Annotations: rdfs:label "ont00000647"
 
-Class: sdg:Organization
-    Annotations: rdfs:label "organization"
+Class: cco:ont00000744
+    Annotations: rdfs:label "ont00000744"
 
 
 Class: <https://signals360.example.org/sdg#MonitoringProtocol>
     Annotations: rdfs:label "monitoring protocol"
 
-Class: <https://signals360.example.org/sdg#MonitoringProtocol> EquivalentTo: bfo:0000031 and sdg:documentsStandardizedProceduresForSystematicObservation some sdg:EnvironmentalData
-ObjectProperty: sdg:documentsStandardizedProceduresForSystematicObservation
-    Annotations: rdfs:label "documents standardized procedures for systematic observation"
+Class: <https://signals360.example.org/sdg#MonitoringProtocol> EquivalentTo: bfo:0000015 and sdg:specifiesDataCollection some cco:ont00000569
+ObjectProperty: sdg:specifiesDataCollection
+    Annotations: rdfs:label "specifies data collection"
 
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
 
-Class: sdg:EnvironmentalData
-    Annotations: rdfs:label "environmental data"
+Class: cco:ont00000569
+    Annotations: rdfs:label "ont00000569"
 
 
 Class: <https://signals360.example.org/sdg#MotorVehicleClass>
     Annotations: rdfs:label "motor vehicle class"
 
-Class: <https://signals360.example.org/sdg#MotorVehicleClass> EquivalentTo: bfo:0000031 and sdg:classifiesVehiclesByTypeOrFunction some sdg:MotorVehicle
-ObjectProperty: sdg:classifiesVehiclesByTypeOrFunction
-    Annotations: rdfs:label "classifies vehicles by type or function"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-Class: sdg:MotorVehicle
-    Annotations: rdfs:label "motor vehicle"
-
-
-Class: <https://signals360.example.org/sdg#DemographicInformation>
-    Annotations: rdfs:label "demographic information"
-
-Class: <https://signals360.example.org/sdg#DemographicInformation> EquivalentTo: bfo:0000031 and sdg:relatesTo some bfo:0000040 and sdg:encodesDemographicData some bfo:0000004
-ObjectProperty: sdg:encodesDemographicData
-    Annotations: rdfs:label "encodes demographic data"
-
-ObjectProperty: sdg:relatesTo
-    Annotations: rdfs:label "relates to"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#DoctrinalNarrative>
-    Annotations: rdfs:label "doctrinal narrative"
-
-Class: <https://signals360.example.org/sdg#DoctrinalNarrative> EquivalentTo: bfo:0000031 and sdg:conveysDoctrinalContent some bfo:0000004 and sdg:isNarrativeForm some bfo:0000004
-ObjectProperty: sdg:conveysDoctrinalContent
-    Annotations: rdfs:label "conveys doctrinal content"
-
-ObjectProperty: sdg:isNarrativeForm
-    Annotations: rdfs:label "is narrative form"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-
-Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
-    Annotations: rdfs:label "domestic violence survivor"
-
-Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor> EquivalentTo: bfo:0000040 and sdg:hasExperienced some sdg:DomesticViolence and sdg:hasSurvived some bfo:0000004
-ObjectProperty: sdg:hasExperienced
-    Annotations: rdfs:label "has experienced"
-
-ObjectProperty: sdg:hasSurvived
-    Annotations: rdfs:label "has survived"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-Class: sdg:DomesticViolence
-    Annotations: rdfs:label "domestic violence"
-
-
-Class: <https://signals360.example.org/sdg#EarthObservationData>
-    Annotations: rdfs:label "earth observation data"
-
-Class: <https://signals360.example.org/sdg#EarthObservationData> EquivalentTo: bfo:0000031 and sdg:originatesFromRemoteSensing some bfo:0000004 and sdg:describesEarthSystem some bfo:0000004
-ObjectProperty: sdg:describesEarthSystem
-    Annotations: rdfs:label "describes earth system"
-
-ObjectProperty: sdg:originatesFromRemoteSensing
-    Annotations: rdfs:label "originates from remote sensing"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-
-Class: <https://signals360.example.org/sdg#EducationalGoal>
-    Annotations: rdfs:label "educational goal"
-
-Class: <https://signals360.example.org/sdg#EducationalGoal> EquivalentTo: bfo:0000031 and sdg:specifiesDesiredLearningOutcome some bfo:0000004 and sdg:isFormulatedByEducationalInstitution some bfo:0000040
-ObjectProperty: sdg:isFormulatedByEducationalInstitution
-    Annotations: rdfs:label "is formulated by educational institution"
-
-ObjectProperty: sdg:specifiesDesiredLearningOutcome
-    Annotations: rdfs:label "specifies desired learning outcome"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#EducationalInstitution>
-    Annotations: rdfs:label "educational institution"
-
-Class: <https://signals360.example.org/sdg#EducationalInstitution> EquivalentTo: bfo:0000040 and sdg:providesEducationalServices some bfo:0000004 and sdg:isOrganizedForInstruction some bfo:0000004
-ObjectProperty: sdg:isOrganizedForInstruction
-    Annotations: rdfs:label "is organized for instruction"
-
-ObjectProperty: sdg:providesEducationalServices
-    Annotations: rdfs:label "provides educational services"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#EducationalPresentation>
-    Annotations: rdfs:label "educational presentation"
-
-Class: <https://signals360.example.org/sdg#EducationalPresentation> EquivalentTo: bfo:0000015 and sdg:deliversEducationalContent some bfo:0000004 and sdg:targetsLearners some bfo:0000040
-ObjectProperty: sdg:deliversEducationalContent
-    Annotations: rdfs:label "delivers educational content"
-
-ObjectProperty: sdg:targetsLearners
-    Annotations: rdfs:label "targets learners"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia>
-    Annotations: rdfs:label "enterprise social media"
-
-Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia> EquivalentTo: bfo:0000040 and sdg:facilitatesInternalCommunication some bfo:0000004 and sdg:isRestrictedToOrganizationalMembers some bfo:0000040
-ObjectProperty: sdg:facilitatesInternalCommunication
-    Annotations: rdfs:label "facilitates internal communication"
-
-ObjectProperty: sdg:isRestrictedToOrganizationalMembers
-    Annotations: rdfs:label "is restricted to organizational members"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#ExecutiveLeadershipProcess>
-    Annotations: rdfs:label "executive leadership process"
-
-Class: <https://signals360.example.org/sdg#ExecutiveLeadershipProcess> EquivalentTo: bfo:0000015 and sdg:involvesStrategicDecisionMaking some bfo:0000015 and sdg:isPerformedByExecutives some bfo:0000040
-ObjectProperty: sdg:involvesStrategicDecisionMaking
-    Annotations: rdfs:label "involves strategic decision making"
-
-ObjectProperty: sdg:isPerformedByExecutives
-    Annotations: rdfs:label "is performed by executives"
-
-Class: bfo:0000015
-    Annotations: rdfs:label "process"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#ExecutiveTeam>
-    Annotations: rdfs:label "executive team"
-
-Class: <https://signals360.example.org/sdg#ExecutiveTeam> EquivalentTo: bfo:0000040 and sdg:consistsOfSeniorManagers some bfo:0000040 and sdg:coordinatesOrganizationalStrategy some bfo:0000004
-ObjectProperty: sdg:consistsOfSeniorManagers
-    Annotations: rdfs:label "consists of senior managers"
-
-ObjectProperty: sdg:coordinatesOrganizationalStrategy
-    Annotations: rdfs:label "coordinates organizational strategy"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
-
-
-Class: <https://signals360.example.org/sdg#ExistingNationalDataset>
-    Annotations: rdfs:label "existing national dataset"
-
-Class: <https://signals360.example.org/sdg#ExistingNationalDataset> EquivalentTo: bfo:0000031 and sdg:isMaintainedByNationalGovernment some bfo:0000040 and sdg:hasPriorCollectionHistory some bfo:0000004
-ObjectProperty: sdg:hasPriorCollectionHistory
-    Annotations: rdfs:label "has prior collection history"
-
-ObjectProperty: sdg:isMaintainedByNationalGovernment
-    Annotations: rdfs:label "is maintained by national government"
-
-Class: bfo:0000004
-    Annotations: rdfs:label "independent continuant"
-
-Class: bfo:0000031
-    Annotations: rdfs:label "generically dependent continuant"
-
-Class: bfo:0000040
-    Annotations: rdfs:label "material entity"
+Class: <https://signals360.example.org/sdg#MotorVehicleClass> EquivalentTo: cco:ont00000713 and sdg:classifiedAs some cco:ont00000053
+ObjectProperty: sdg:classifiedAs
+    Annotations: rdfs:label "classified as"
+
+Class: cco:ont00000053
+    Annotations: rdfs:label "ont00000053"
+
+Class: cco:ont00000713
+    Annotations: rdfs:label "ont00000713"
 
 
 Class: <https://signals360.example.org/sdg#AedesAegyptiVector> SubClassOf: bfo:0000002
@@ -2473,6 +2323,13 @@ Class: <https://signals360.example.org/sdg#CensusPeriod> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#ChampionshipEntry> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#ChiefExecutiveOfficerRole> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#ClientStatisticalInformation> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#ClinicalCare> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#CommunicationSecurityAspect> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#ConnectiveTissueStructure> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#DirectoryResponse> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#DoctrinalNarrative> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#EducationalGoal> SubClassOf: bfo:0000002
+Class: <https://signals360.example.org/sdg#LeberOpticAtrophy> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#NetworkUser> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#OpticNerveDysfunction> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#Organization> SubClassOf: bfo:0000002
@@ -2592,43 +2449,43 @@ Class: <https://signals360.example.org/sdg#ClientDataRecord>
 Class: <https://signals360.example.org/sdg#ClientStatisticalInformation>
     Annotations: iao:0000115 "A client statistical information.", rdfs:comment "A client statistical information."
 Class: <https://signals360.example.org/sdg#ClinicalCare>
-    Annotations: iao:0000115 "A process that applies medical knowledge and interventions to patients to maintain or restore health.", rdfs:comment "A process that applies medical knowledge and interventions to patients to maintain or restore health."
+    Annotations: iao:0000115 "A clinical care.", rdfs:comment "A clinical care."
 Class: <https://signals360.example.org/sdg#ClinicalPerformanceData>
-    Annotations: iao:0000115 "A generically dependent continuant that encodes quantitative or qualitative metrics regarding the efficiency and effectiveness of clinical service delivery.", rdfs:comment "A generically dependent continuant that encodes quantitative or qualitative metrics regarding the efficiency and effectiveness of clinical service delivery."
+    Annotations: iao:0000115 "Statistical information that pertains to the evaluation of clinical performance.", rdfs:comment "Statistical information that pertains to the evaluation of clinical performance."
 Class: <https://signals360.example.org/sdg#ClinicalPerformanceEvaluation>
     Annotations: iao:0000115 "A ClinicalPerformanceEvaluation is an InformationContentEntity that utilizes some QuantitativeAnalyticTool, evaluates some ClinicalPerformanceData, and has evaluationMetric some decimal.", rdfs:comment "A ClinicalPerformanceEvaluation is an InformationContentEntity that utilizes some QuantitativeAnalyticTool, evaluates some ClinicalPerformanceData, and has evaluationMetric some decimal."
 Class: <https://signals360.example.org/sdg#ClinicalQualityData>
-    Annotations: iao:0000115 "A generically dependent continuant that contains information utilized to evaluate, monitor, or improve the quality of healthcare delivery.", rdfs:comment "A generically dependent continuant that contains information utilized to evaluate, monitor, or improve the quality of healthcare delivery."
+    Annotations: iao:0000115 "An information quality entity that pertains to clinical quality specifications.", rdfs:comment "An information quality entity that pertains to clinical quality specifications."
 Class: <https://signals360.example.org/sdg#ClinicalQualityResearchRole>
     Annotations: iao:0000115 "A ClinicalQualityResearchRole is a Role that holds role in exactly 1 EMSAuthority and applies to some ClinicalQualityData.", rdfs:comment "A ClinicalQualityResearchRole is a Role that holds role in exactly 1 EMSAuthority and applies to some ClinicalQualityData."
 Class: <https://signals360.example.org/sdg#CommunicationChannel>
-    Annotations: iao:0000115 "A material entity that serves as a physical or logical medium enabling the transmission of information between communicators.", rdfs:comment "A material entity that serves as a physical or logical medium enabling the transmission of information between communicators."
+    Annotations: iao:0000115 "A communication instrument that functions as a channel for disseminating information.", rdfs:comment "A communication instrument that functions as a channel for disseminating information."
 Class: <https://signals360.example.org/sdg#CommunicationSecurityAspect>
-    Annotations: iao:0000115 "A quality that characterizes the degree of protection implemented to safeguard data during transmission over communication networks.", rdfs:comment "A quality that characterizes the degree of protection implemented to safeguard data during transmission over communication networks."
+    Annotations: iao:0000115 "A communication security aspect.", rdfs:comment "A communication security aspect."
 Class: <https://signals360.example.org/sdg#CompetitionDivision>
-    Annotations: iao:0000115 "A role that categorizes participants or teams into distinct groups based on established competitive criteria such as skill level or age.", rdfs:comment "A role that categorizes participants or teams into distinct groups based on established competitive criteria such as skill level or age."
+    Annotations: iao:0000115 "A division of delimiting domain that includes championship entries in a competitive context.", rdfs:comment "A division of delimiting domain that includes championship entries in a competitive context."
 Class: <https://signals360.example.org/sdg#ConceptualConstructionProcess>
     Annotations: iao:0000115 "ConceptualConstructionProcess is a subclass of bfo:0000015 that transformsSubject some SubjectConcept and generatesPredicate some ConstructedPredicate.", rdfs:comment "ConceptualConstructionProcess is a subclass of bfo:0000015 that transformsSubject some SubjectConcept and generatesPredicate some ConstructedPredicate."
 Class: <https://signals360.example.org/sdg#ConnectiveTissueRegion>
-    Annotations: iao:0000115 "A material entity that constitutes a distinct anatomical region within the connective tissue system of an organism.", rdfs:comment "A material entity that constitutes a distinct anatomical region within the connective tissue system of an organism."
+    Annotations: iao:0000115 "A spatial region that is located within a connective tissue structure.", rdfs:comment "A spatial region that is located within a connective tissue structure."
 Class: <https://signals360.example.org/sdg#ConnectiveTissueStructure>
-    Annotations: iao:0000115 "A material entity that forms a specialized structural component providing support, cohesion, or protection within connective tissue.", rdfs:comment "A material entity that forms a specialized structural component providing support, cohesion, or protection within connective tissue."
+    Annotations: iao:0000115 "A connective tissue structure.", rdfs:comment "A connective tissue structure."
 Class: <https://signals360.example.org/sdg#ConstitutionalConstraint>
-    Annotations: iao:0000115 "A generically dependent continuant that imposes a rule or limitation based on the provisions of a governing constitutional document.", rdfs:comment "A generically dependent continuant that imposes a rule or limitation based on the provisions of a governing constitutional document."
+    Annotations: iao:0000115 "A legal system act that derives its authority from a government of a country.", rdfs:comment "A legal system act that derives its authority from a government of a country."
 Class: <https://signals360.example.org/sdg#ConstructedPredicate>
-    Annotations: iao:0000115 "A generically dependent continuant that represents a logical expression formed by combining operators and variables to evaluate truth conditions.", rdfs:comment "A generically dependent continuant that represents a logical expression formed by combining operators and variables to evaluate truth conditions."
+    Annotations: iao:0000115 "A representational information content entity that is realized in a conceptual construction process.", rdfs:comment "A representational information content entity that is realized in a conceptual construction process."
 Class: <https://signals360.example.org/sdg#CopernicusObservationSource>
-    Annotations: iao:0000115 "A material entity that functions as an Earth observation platform or data provider under the European Union's Copernicus program.", rdfs:comment "A material entity that functions as an Earth observation platform or data provider under the European Union's Copernicus program."
+    Annotations: iao:0000115 "A telescope that functions as a source for observations in a national dataset augmentation process.", rdfs:comment "A telescope that functions as a source for observations in a national dataset augmentation process."
 Class: <https://signals360.example.org/sdg#CrisisInterventionMethod>
-    Annotations: iao:0000115 "A process that implements structured techniques to stabilize individuals experiencing acute psychological or situational crises.", rdfs:comment "A process that implements structured techniques to stabilize individuals experiencing acute psychological or situational crises."
+    Annotations: iao:0000115 "A planned act that involves addressing a vulnerability state.", rdfs:comment "A planned act that involves addressing a vulnerability state."
 Class: <https://signals360.example.org/sdg#CropParasitismImpact>
     Annotations: iao:0000115 "CropParasitismImpact is an information content entity that affects exactly one RiceCultivationSystem, parasitises exactly one ParasiticWeed, and impacts some AgriculturalHousehold.", rdfs:comment "CropParasitismImpact is an information content entity that affects exactly one RiceCultivationSystem, parasitises exactly one ParasiticWeed, and impacts some AgriculturalHousehold."
 Class: <https://signals360.example.org/sdg#CrossDivisionTransfer>
-    Annotations: iao:0000115 "A process that entails the formal reassignment of a participant or entity from one competitive division to another.", rdfs:comment "A process that entails the formal reassignment of a participant or entity from one competitive division to another."
+    Annotations: iao:0000115 "A division assignment record that involves a competition division.", rdfs:comment "A division assignment record that involves a competition division."
 Class: <https://signals360.example.org/sdg#DatabaseContainer>
-    Annotations: iao:0000115 "A material entity that physically or logically houses digital records to enable structured computational access and management.", rdfs:comment "A material entity that physically or logically houses digital records to enable structured computational access and management."
+    Annotations: iao:0000115 "A container that holds a database.", rdfs:comment "A container that holds a database."
 Class: <https://signals360.example.org/sdg#DemographicInformation>
-    Annotations: iao:0000115 "A generically dependent continuant that relates to a material entity and encodes demographic data.", rdfs:comment "A generically dependent continuant that relates to a material entity and encodes demographic data."
+    Annotations: iao:0000115 "Information that characterizes a population or its constituent members.", rdfs:comment "Information that characterizes a population or its constituent members."
 Class: <https://signals360.example.org/sdg#DengueTransmissionProcess>
     Annotations: iao:0000115 "A DengueTransmissionProcess is a BFO process that involves a HumanPopulation via sdg:involvesHost and an AedesAegyptiVector via sdg:involvesVector.", rdfs:comment "A DengueTransmissionProcess is a BFO process that involves a HumanPopulation via sdg:involvesHost and an AedesAegyptiVector via sdg:involvesVector."
 Class: <https://signals360.example.org/sdg#DigitalMediaService>
@@ -2636,137 +2493,137 @@ Class: <https://signals360.example.org/sdg#DigitalMediaService>
 Class: <https://signals360.example.org/sdg#DirectoryQueryService>
     Annotations: iao:0000115 "A DirectoryQueryService is a behavioral process that targets a NetworkUser and generates a DirectoryResponse.", rdfs:comment "A DirectoryQueryService is a behavioral process that targets a NetworkUser and generates a DirectoryResponse."
 Class: <https://signals360.example.org/sdg#DirectoryResponse>
-    Annotations: iao:0000115 "A generically dependent continuant that constitutes the information returned in response to a directory query.", rdfs:comment "A generically dependent continuant that constitutes the information returned in response to a directory query."
+    Annotations: iao:0000115 "A directory response.", rdfs:comment "A directory response."
 Class: <https://signals360.example.org/sdg#DisseminationChannel>
-    Annotations: iao:0000115 "A material entity that functions to transmit information to a target audience.", rdfs:comment "A material entity that functions to transmit information to a target audience."
+    Annotations: iao:0000115 "A communication channel used in an information dissemination event.", rdfs:comment "A communication channel used in an information dissemination event."
 Class: <https://signals360.example.org/sdg#DivisionAssignmentRecord>
     Annotations: iao:0000115 "A DivisionAssignmentRecord is a descriptive information entity that assigns exactly one athlete to exactly one competition division.", rdfs:comment "A DivisionAssignmentRecord is a descriptive information entity that assigns exactly one athlete to exactly one competition division."
 Class: <https://signals360.example.org/sdg#DivisionEligibilityConstraint>
     Annotations: iao:0000115 "A DivisionEligibilityConstraint is equivalent to a qualified athlete status that explicitly excludes cross-division transfers.", rdfs:comment "A DivisionEligibilityConstraint is equivalent to a qualified athlete status that explicitly excludes cross-division transfers."
 Class: <https://signals360.example.org/sdg#DoctrinalNarrative>
-    Annotations: iao:0000115 "A generically dependent continuant that conveys doctrinal content and takes a narrative form.", rdfs:comment "A generically dependent continuant that conveys doctrinal content and takes a narrative form."
+    Annotations: iao:0000115 "A doctrinal narrative.", rdfs:comment "A doctrinal narrative."
 Class: <https://signals360.example.org/sdg#DomesticViolenceSurvivor>
-    Annotations: iao:0000115 "A material entity that has experienced domestic violence and survived it.", rdfs:comment "A material entity that has experienced domestic violence and survived it."
+    Annotations: iao:0000115 "A material entity that has experienced domestic violence.", rdfs:comment "A material entity that has experienced domestic violence."
 Class: <https://signals360.example.org/sdg#EMSAuthority>
-    Annotations: iao:0000115 "A material entity that exercises regulatory or jurisdictional authority over emergency medical services.", rdfs:comment "A material entity that exercises regulatory or jurisdictional authority over emergency medical services."
+    Annotations: iao:0000115 "An authority role pertaining to an organization member.", rdfs:comment "An authority role pertaining to an organization member."
 Class: <https://signals360.example.org/sdg#EarthObservationData>
-    Annotations: iao:0000115 "A generically dependent continuant originating from remote sensing that describes the Earth system.", rdfs:comment "A generically dependent continuant originating from remote sensing that describes the Earth system."
+    Annotations: iao:0000115 "Environmental data collected by a satellite artifact.", rdfs:comment "Environmental data collected by a satellite artifact."
 Class: <https://signals360.example.org/sdg#EducationalGoal>
-    Annotations: iao:0000115 "A generically dependent continuant specifying a desired learning outcome and formulated by an educational institution.", rdfs:comment "A generically dependent continuant specifying a desired learning outcome and formulated by an educational institution."
+    Annotations: iao:0000115 "A educational goal.", rdfs:comment "A educational goal."
 Class: <https://signals360.example.org/sdg#EducationalInstitution>
-    Annotations: iao:0000115 "A material entity providing educational services and organized for instruction.", rdfs:comment "A material entity providing educational services and organized for instruction."
+    Annotations: iao:0000115 "An educational facility that provides acts of educational training instruction.", rdfs:comment "An educational facility that provides acts of educational training instruction."
 Class: <https://signals360.example.org/sdg#EducationalPresentation>
-    Annotations: iao:0000115 "A process delivering educational content and targeting learners.", rdfs:comment "A process delivering educational content and targeting learners."
+    Annotations: iao:0000115 "An act of declarative communication pertaining to educational training instruction.", rdfs:comment "An act of declarative communication pertaining to educational training instruction."
 Class: <https://signals360.example.org/sdg#EnterpriseSocialMedia>
-    Annotations: iao:0000115 "A material entity facilitating internal communication and restricted to organizational members.", rdfs:comment "A material entity facilitating internal communication and restricted to organizational members."
+    Annotations: iao:0000115 "A social networking service used within a social enterprise.", rdfs:comment "A social networking service used within a social enterprise."
 Class: <https://signals360.example.org/sdg#EntomologicalSurveillanceRecord>
     Annotations: iao:0000115 "An EntomologicalSurveillanceRecord is a BFO continuant that realizes a VectorSpeciesIdentification via sdg:realizes and is associated with a SurveillanceLocation via sdg:associatedWith.", rdfs:comment "An EntomologicalSurveillanceRecord is a BFO continuant that realizes a VectorSpeciesIdentification via sdg:realizes and is associated with a SurveillanceLocation via sdg:associatedWith."
 Class: <https://signals360.example.org/sdg#ExecutiveLeadershipProcess>
-    Annotations: iao:0000115 "A process involving strategic decision making and performed by executives.", rdfs:comment "A process involving strategic decision making and performed by executives."
+    Annotations: iao:0000115 "A process pertaining to an executive team.", rdfs:comment "A process pertaining to an executive team."
 Class: <https://signals360.example.org/sdg#ExecutiveLeadershipRole>
     Annotations: iao:0000115 "An ExecutiveLeadershipRole is a Role that reports exactly one ChiefExecutiveOfficerRole and is a member of some ExecutiveTeam.", rdfs:comment "An ExecutiveLeadershipRole is a Role that reports exactly one ChiefExecutiveOfficerRole and is a member of some ExecutiveTeam."
 Class: <https://signals360.example.org/sdg#ExecutiveTeam>
-    Annotations: iao:0000115 "A material entity consisting of senior managers and coordinating organizational strategy.", rdfs:comment "A material entity consisting of senior managers and coordinating organizational strategy."
+    Annotations: iao:0000115 "An organization that comprises organization member roles.", rdfs:comment "An organization that comprises organization member roles."
 Class: <https://signals360.example.org/sdg#ExistingNationalDataset>
-    Annotations: iao:0000115 "A generically dependent continuant maintained by a national government and possessing prior collection history.", rdfs:comment "A generically dependent continuant maintained by a national government and possessing prior collection history."
+    Annotations: iao:0000115 "A database used in a national dataset augmentation process.", rdfs:comment "A database used in a national dataset augmentation process."
 Class: <https://signals360.example.org/sdg#ExternalBusinessPartner>
-    Annotations: iao:0000115 "A material entity that maintains a commercial relationship with a primary organization but operates outside its internal structure.", rdfs:comment "A material entity that maintains a commercial relationship with a primary organization but operates outside its internal structure."
+    Annotations: iao:0000115 "A contractor role that participates in a third-party data sharing arrangement.", rdfs:comment "A contractor role that participates in a third-party data sharing arrangement."
 Class: <https://signals360.example.org/sdg#FarmlandAcquisitionProcess>
     Annotations: iao:0000115 "A FarmlandAcquisitionProcess is a Process that targets an InstitutionalInvestor and acquires an AgriculturalLandParcel.", rdfs:comment "A FarmlandAcquisitionProcess is a Process that targets an InstitutionalInvestor and acquires an AgriculturalLandParcel."
 Class: <https://signals360.example.org/sdg#FinancialActivity>
-    Annotations: iao:0000115 "A process that entails the transfer, management, or allocation of financial resources.", rdfs:comment "A process that entails the transfer, management, or allocation of financial resources."
+    Annotations: iao:0000115 "An act of financial instrument use that involves a financial resource.", rdfs:comment "An act of financial instrument use that involves a financial resource."
 Class: <https://signals360.example.org/sdg#FinancialInstitution>
-    Annotations: iao:0000115 "A material entity organized to provide financial services such as lending, investing, or payment processing.", rdfs:comment "A material entity organized to provide financial services such as lending, investing, or payment processing."
+    Annotations: iao:0000115 "A financial facility that facilitates a settlement financing activity.", rdfs:comment "A financial facility that facilitates a settlement financing activity."
 Class: <https://signals360.example.org/sdg#FinancialStrategyOversight>
     Annotations: iao:0000115 "A FinancialStrategyOversight is a Process that directs some FinancialActivity and oversees some RiskManagementActivity.", rdfs:comment "A FinancialStrategyOversight is a Process that directs some FinancialActivity and oversees some RiskManagementActivity."
 Class: <https://signals360.example.org/sdg#FindingEntity>
-    Annotations: iao:0000115 "An information content entity that documents an observed fact or conclusion regarding a human rights issue.", rdfs:comment "An information content entity that documents an observed fact or conclusion regarding a human rights issue."
+    Annotations: iao:0000115 "An information content entity that is reported in a human rights impact report.", rdfs:comment "An information content entity that is reported in a human rights impact report."
 Class: <https://signals360.example.org/sdg#FloodAssetCondition>
-    Annotations: iao:0000115 "A quality inhering in an asset that indicates its susceptibility to flood damage.", rdfs:comment "A quality inhering in an asset that indicates its susceptibility to flood damage."
+    Annotations: iao:0000115 "An asset whose condition is assessed in a flood asset vulnerability assessment.", rdfs:comment "An asset whose condition is assessed in a flood asset vulnerability assessment."
 Class: <https://signals360.example.org/sdg#FloodAssetVulnerabilityAssessment>
     Annotations: iao:0000115 "FloodAssetVulnerabilityAssessment is an information content entity that assesses FloodAssetCondition and identifies VulnerabilityState.", rdfs:comment "FloodAssetVulnerabilityAssessment is an information content entity that assesses FloodAssetCondition and identifies VulnerabilityState."
 Class: <https://signals360.example.org/sdg#FloodDefenceConditionCharacterisation>
     Annotations: iao:0000115 "FloodDefenceConditionCharacterisation is a process that involves EarthObservationData and employs ValidationProcess.", rdfs:comment "FloodDefenceConditionCharacterisation is a process that involves EarthObservationData and employs ValidationProcess."
 Class: <https://signals360.example.org/sdg#GanglionCystFormation>
-    Annotations: iao:0000115 "A biological process characterized by the development of a fluid-filled sac near joints or tendons.", rdfs:comment "A biological process characterized by the development of a fluid-filled sac near joints or tendons."
+    Annotations: iao:0000115 "A myxoid degeneration process that results in a ganglion cyst tissue origin.", rdfs:comment "A myxoid degeneration process that results in a ganglion cyst tissue origin."
 Class: <https://signals360.example.org/sdg#GanglionCystImagingFinding>
     Annotations: iao:0000115 "GanglionCystImagingFinding is an information content entity that visualizes some MagneticResonanceImagingModality.", rdfs:comment "GanglionCystImagingFinding is an information content entity that visualizes some MagneticResonanceImagingModality."
 Class: <https://signals360.example.org/sdg#GanglionCystTissueOrigin>
     Annotations: iao:0000115 "GanglionCystTissueOrigin is a continuant that bears the part-of relation to some ConnectiveTissueStructure.", rdfs:comment "GanglionCystTissueOrigin is a continuant that bears the part-of relation to some ConnectiveTissueStructure."
 Class: <https://signals360.example.org/sdg#HealthOutcomeMetric>
-    Annotations: iao:0000115 "An information content entity that quantifies or tracks health status indicators in a population.", rdfs:comment "An information content entity that quantifies or tracks health status indicators in a population."
+    Annotations: iao:0000115 "A clinical quality data entity used in an indoor air quality action plan.", rdfs:comment "A clinical quality data entity used in an indoor air quality action plan."
 Class: <https://signals360.example.org/sdg#HigherEducationInstitution>
-    Annotations: iao:0000115 "A material entity organized to provide advanced education and award academic degrees.", rdfs:comment "A material entity organized to provide advanced education and award academic degrees."
+    Annotations: iao:0000115 "An educational organization that confers an academic degree.", rdfs:comment "An educational organization that confers an academic degree."
 Class: <https://signals360.example.org/sdg#HostConnectionProcess>
     Annotations: iao:0000115 "HostConnectionProcess is a process that participates in ParasiticPlant.", rdfs:comment "HostConnectionProcess is a process that participates in ParasiticPlant."
 Class: <https://signals360.example.org/sdg#HouseholdParticipant>
-    Annotations: iao:0000115 "A role borne by a household member engaged in a resource or waste reduction initiative.", rdfs:comment "A role borne by a household member engaged in a resource or waste reduction initiative."
+    Annotations: iao:0000115 "A group of persons that participates in a reduction program.", rdfs:comment "A group of persons that participates in a reduction program."
 Class: <https://signals360.example.org/sdg#HumanHealthOutcome>
-    Annotations: iao:0000115 "A biological process representing a change in human health status following exposure to a chemical substance.", rdfs:comment "A biological process representing a change in human health status following exposure to a chemical substance."
+    Annotations: iao:0000115 "A patient outcome that arises from a chemical exposure risk profile.", rdfs:comment "A patient outcome that arises from a chemical exposure risk profile."
 Class: <https://signals360.example.org/sdg#HumanPopulation>
-    Annotations: iao:0000115 "A material entity comprising a group of human individuals residing in a defined area.", rdfs:comment "A material entity comprising a group of human individuals residing in a defined area."
+    Annotations: iao:0000115 "A populace that is affected by a dengue transmission process.", rdfs:comment "A populace that is affected by a dengue transmission process."
 Class: <https://signals360.example.org/sdg#HumanRightsImpactReport>
     Annotations: iao:0000115 "A HumanRightsImpactReport is an InformationContentEntity that reportsOn some FindingEntity.", rdfs:comment "A HumanRightsImpactReport is an InformationContentEntity that reportsOn some FindingEntity."
 Class: <https://signals360.example.org/sdg#ImpedanceTermination>
-    Annotations: iao:0000115 "A physical component designed to match the characteristic impedance of an electrical port to prevent signal reflection.", rdfs:comment "A physical component designed to match the characteristic impedance of an electrical port to prevent signal reflection."
+    Annotations: iao:0000115 "An electrical resistance artifact function that is measured in a port isolation measurement.", rdfs:comment "An electrical resistance artifact function that is measured in a port isolation measurement."
 Class: <https://signals360.example.org/sdg#IndigenousKnowledgeBase>
-    Annotations: iao:0000115 "An information content entity that systematically stores knowledge systems developed by indigenous communities.", rdfs:comment "An information content entity that systematically stores knowledge systems developed by indigenous communities."
+    Annotations: iao:0000115 "An information content entity that is integrated in a knowledge base integration.", rdfs:comment "An information content entity that is integrated in a knowledge base integration."
 Class: <https://signals360.example.org/sdg#IndoorAirPollution>
-    Annotations: iao:0000115 "A process characterized by the introduction of harmful contaminants into an indoor atmospheric environment.", rdfs:comment "A process characterized by the introduction of harmful contaminants into an indoor atmospheric environment."
+    Annotations: iao:0000115 "An indoor environment that is monitored in an indoor environmental monitoring process.", rdfs:comment "An indoor environment that is monitored in an indoor environmental monitoring process."
 Class: <https://signals360.example.org/sdg#IndoorAirQualityActionPlan>
     Annotations: iao:0000115 "An IndoorAirQualityActionPlan is a DirectiveICE that targets IndoorAirPollution and is verified by a HealthOutcomeMetric.", rdfs:comment "An IndoorAirQualityActionPlan is a DirectiveICE that targets IndoorAirPollution and is verified by a HealthOutcomeMetric."
 Class: <https://signals360.example.org/sdg#IndoorEnvironment>
-    Annotations: iao:0000115 "A material entity bounded by a building structure and designed for human occupancy.", rdfs:comment "A material entity bounded by a building structure and designed for human occupancy."
+    Annotations: iao:0000115 "A material entity that is part of a residential facility.", rdfs:comment "A material entity that is part of a residential facility."
 Class: <https://signals360.example.org/sdg#IndoorEnvironmentalMonitoringProcess>
     Annotations: iao:0000115 "An IndoorEnvironmentalMonitoringProcess is an Occurrent that monitors an IndoorEnvironment and uses a MonitoringProtocol.", rdfs:comment "An IndoorEnvironmentalMonitoringProcess is an Occurrent that monitors an IndoorEnvironment and uses a MonitoringProtocol."
 Class: <https://signals360.example.org/sdg#IndustryAssociationMember>
-    Annotations: iao:0000115 "A role borne by an organization in relation to an industry association.", rdfs:comment "A role borne by an organization in relation to an industry association."
+    Annotations: iao:0000115 "An organization member that realizes the role of an industry association.", rdfs:comment "An organization member that realizes the role of an industry association."
 Class: <https://signals360.example.org/sdg#IndustrySector>
-    Annotations: iao:0000115 "A generically dependent continuant that designates a group of organizations sharing a common economic activity or market domain.", rdfs:comment "A generically dependent continuant that designates a group of organizations sharing a common economic activity or market domain."
+    Annotations: iao:0000115 "A group of organizations that is part of an industry association.", rdfs:comment "A group of organizations that is part of an industry association."
 Class: <https://signals360.example.org/sdg#InformationDisseminationEvent>
     Annotations: iao:0000115 "InformationDisseminationEvent is an occurrent that utilizes a DisseminationChannel, reaches a TargetAudience, and occurs during a TemporalInterval.", rdfs:comment "InformationDisseminationEvent is an occurrent that utilizes a DisseminationChannel, reaches a TargetAudience, and occurs during a TemporalInterval."
 Class: <https://signals360.example.org/sdg#InsertionLossSpecification>
     Annotations: iao:0000115 "An InsertionLossSpecification is a DescriptiveICE that specifies an InsertionLossValue and a PhaseRelationshipValue.", rdfs:comment "An InsertionLossSpecification is a DescriptiveICE that specifies an InsertionLossValue and a PhaseRelationshipValue."
 Class: <https://signals360.example.org/sdg#InstitutionalInvestor>
-    Annotations: iao:0000115 "A role borne by an organization that manages investment capital on behalf of third parties.", rdfs:comment "A role borne by an organization that manages investment capital on behalf of third parties."
+    Annotations: iao:0000115 "An incorporated organization that participates in a financial instrument.", rdfs:comment "An incorporated organization that participates in a financial instrument."
 Class: <https://signals360.example.org/sdg#InstitutionalVisionStatement>
     Annotations: iao:0000115 "An InstitutionalVisionStatement is a cco:DirectiveICE that targetsGoal some EducationalGoal and addressesStakeholder some StakeholderGroup.", rdfs:comment "An InstitutionalVisionStatement is a cco:DirectiveICE that targetsGoal some EducationalGoal and addressesStakeholder some StakeholderGroup."
 Class: <https://signals360.example.org/sdg#InsuranceInformationItem>
-    Annotations: iao:0000115 "An information content entity that encodes a discrete fact about an insurance policy or coverage.", rdfs:comment "An information content entity that encodes a discrete fact about an insurance policy or coverage."
+    Annotations: iao:0000115 "An information bearing entity that realizes the role of insurance coverage.", rdfs:comment "An information bearing entity that realizes the role of insurance coverage."
 Class: <https://signals360.example.org/sdg#IntermediateFloorAssembly>
     Annotations: iao:0000115 "IntermediateFloorAssembly is a material continuant that contains a LateralRestraintStrap component.", rdfs:comment "IntermediateFloorAssembly is a material continuant that contains a LateralRestraintStrap component."
 Class: <https://signals360.example.org/sdg#InternalCommunicationRequirement>
     Annotations: iao:0000115 "InternalCommunicationRequirement is a directive ICE that specifies an EnterpriseSocialMedia and targets an OrganizationalCommunicationGoal.", rdfs:comment "InternalCommunicationRequirement is a directive ICE that specifies an EnterpriseSocialMedia and targets an OrganizationalCommunicationGoal."
 Class: <https://signals360.example.org/sdg#IntuitiveFoundation>
-    Annotations: iao:0000115 "A generically dependent continuant that serves as the cognitive basis for synthetic a priori judgments.", rdfs:comment "A generically dependent continuant that serves as the cognitive basis for synthetic a priori judgments."
+    Annotations: iao:0000115 "A spatial orientation that possesses an affordance quality.", rdfs:comment "A spatial orientation that possesses an affordance quality."
 Class: <https://signals360.example.org/sdg#KnowledgeBaseIntegration>
     Annotations: iao:0000115 "A KnowledgeBaseIntegration is an InformationContentEntity that incorporatesIndigenousKnowledge some IndigenousKnowledgeBase and incorporatesScientificKnowledge some ScientificKnowledgeBase and hasIntegrationConfidence some decimal.", rdfs:comment "A KnowledgeBaseIntegration is an InformationContentEntity that incorporatesIndigenousKnowledge some IndigenousKnowledgeBase and incorporatesScientificKnowledge some ScientificKnowledgeBase and hasIntegrationConfidence some decimal."
 Class: <https://signals360.example.org/sdg#LaneComplianceBehavior>
     Annotations: iao:0000115 "LaneComplianceBehavior is a Process that involvesOperator some VehicleOperator and occursOnStreetType some StreetTrafficConfiguration.", rdfs:comment "LaneComplianceBehavior is a Process that involvesOperator some VehicleOperator and occursOnStreetType some StreetTrafficConfiguration."
 Class: <https://signals360.example.org/sdg#LateralRestraintStrap>
-    Annotations: iao:0000115 "A material entity designed to provide lateral support within an intermediate floor assembly.", rdfs:comment "A material entity designed to provide lateral support within an intermediate floor assembly."
+    Annotations: iao:0000115 "A material entity that is part of an intermediate floor assembly.", rdfs:comment "A material entity that is part of an intermediate floor assembly."
 Class: <https://signals360.example.org/sdg#LearningOutcome>
-    Annotations: iao:0000115 "A generically dependent continuant that represents the knowledge, skill, or attitude acquired through an educational process.", rdfs:comment "A generically dependent continuant that represents the knowledge, skill, or attitude acquired through an educational process."
+    Annotations: iao:0000115 "A predictive information content entity that realizes the role of an act of educational training acquisition.", rdfs:comment "A predictive information content entity that realizes the role of an act of educational training acquisition."
 Class: <https://signals360.example.org/sdg#LeberOpticAtrophy>
-    Annotations: iao:0000115 "A pathological process characterized by mitochondrial dysfunction that causes progressive vision loss.", rdfs:comment "A pathological process characterized by mitochondrial dysfunction that causes progressive vision loss."
+    Annotations: iao:0000115 "A leber optic atrophy.", rdfs:comment "A leber optic atrophy."
 Class: <https://signals360.example.org/sdg#LegalAdvocacyProcess>
-    Annotations: iao:0000115 "A process involving the representation of a client's interests within legal proceedings.", rdfs:comment "A process involving the representation of a client's interests within legal proceedings."
+    Annotations: iao:0000115 "Legal advocacy process is a legal proceeding featuring a legal advocate role.", rdfs:comment "Legal advocacy process is a legal proceeding featuring a legal advocate role."
 Class: <https://signals360.example.org/sdg#LegalAdvocateRole>
     Annotations: iao:0000115 "A LegalAdvocateRole is an agent_role that has exactly one Person as its bearer and assists some DomesticViolenceSurvivor.", rdfs:comment "A LegalAdvocateRole is an agent_role that has exactly one Person as its bearer and assists some DomesticViolenceSurvivor."
 Class: <https://signals360.example.org/sdg#MagneticResonanceImagingModality>
-    Annotations: iao:0000115 "A diagnostic process that uses magnetic fields and radio waves to produce internal images of the body.", rdfs:comment "A diagnostic process that uses magnetic fields and radio waves to produce internal images of the body."
+    Annotations: iao:0000115 "Magnetic resonance imaging modality is a diagnostic imaging employing an imaging instrument.", rdfs:comment "Magnetic resonance imaging modality is a diagnostic imaging employing an imaging instrument."
 Class: <https://signals360.example.org/sdg#MarketingDirectorRole>
     Annotations: iao:0000115 "A MarketingDirectorRole is a Role that has exactly one Person as its holder and is realized in some OrganizationalActivity.", rdfs:comment "A MarketingDirectorRole is a Role that has exactly one Person as its holder and is realized in some OrganizationalActivity."
 Class: <https://signals360.example.org/sdg#MaterialDensitySpecification>
     Annotations: iao:0000115 "A MaterialDensitySpecification is a DescriptiveICE that has exactly one density value.", rdfs:comment "A MaterialDensitySpecification is a DescriptiveICE that has exactly one density value."
 Class: <https://signals360.example.org/sdg#MembershipRegistration>
-    Annotations: iao:0000115 "A process constituting the formal act of enrolling an individual or entity in an organization or program.", rdfs:comment "A process constituting the formal act of enrolling an individual or entity in an organization or program."
+    Annotations: iao:0000115 "Membership registration is an act of social group membership conferring the status of an organization member.", rdfs:comment "Membership registration is an act of social group membership conferring the status of an organization member."
 Class: <https://signals360.example.org/sdg#MentalHealthEducationProgram>
     Annotations: iao:0000115 "A MentalHealthEducationProgram is an Occurrent that hasDeliveredPresentation some EducationalPresentation and targetsDemographic some YouthDemographic.", rdfs:comment "A MentalHealthEducationProgram is an Occurrent that hasDeliveredPresentation some EducationalPresentation and targetsDemographic some YouthDemographic."
 Class: <https://signals360.example.org/sdg#MonitoringProtocol>
-    Annotations: iao:0000115 "A generically dependent continuant that documents a standardized set of procedures for systematic observation and data collection.", rdfs:comment "A generically dependent continuant that documents a standardized set of procedures for systematic observation and data collection."
+    Annotations: iao:0000115 "Monitoring protocol is a process specifying data collection by a sensor.", rdfs:comment "Monitoring protocol is a process specifying data collection by a sensor."
 Class: <https://signals360.example.org/sdg#MotorVehicleClass>
-    Annotations: iao:0000115 "A generically dependent continuant that classifies motor vehicles according to their type, size, or intended function.", rdfs:comment "A generically dependent continuant that classifies motor vehicles according to their type, size, or intended function."
+    Annotations: iao:0000115 "Motor vehicle class is a vehicle classified as a ground motor vehicle.", rdfs:comment "Motor vehicle class is a vehicle classified as a ground motor vehicle."
 Class: <https://signals360.example.org/sdg#MyxoidDegenerationProcess>
     Annotations: iao:0000115 "MyxoidDegenerationProcess is a process that degrades some ConnectiveTissueRegion and results in some GanglionCystFormation.", rdfs:comment "MyxoidDegenerationProcess is a process that degrades some ConnectiveTissueRegion and results in some GanglionCystFormation."
 Class: <https://signals360.example.org/sdg#NationalDatasetAugmentationProcess>

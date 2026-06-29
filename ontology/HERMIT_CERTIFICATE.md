@@ -1,10 +1,10 @@
 # HermiT consistency certificate — `sdg-ontology`
 
 - **isConsistent**: `True`
-- **named classes**: 257
+- **named classes**: 285
 - **unsatisfiable classes**: 0
-- **realized from**: the 139 FinePDFs-derived templates (`08_derived`)
-- **rigor (Phase A)**: 75 filler classes BFO-grounded · 210 classes carry NL definitions (iao:0000115) · 80 typed DataProperty assertions
+- **realized from**: the 132 FinePDFs-derived templates (`08_derived`)
+- **rigor (Phase A)**: 82 filler classes BFO-grounded · 210 classes carry NL definitions (iao:0000115) · 80 typed DataProperty assertions
 - **reasoner**: HermiT (OWLAPI, via DeepOnto)
 - **grounding**: BFO 2020 (incl. continuant ⊥ occurrent) + CCO upper
 - **generated**: 2026-06-29 by `scripts/build_realized_ontology.py`
