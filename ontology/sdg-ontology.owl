@@ -18136,6 +18136,2249 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_aboriginal_student -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_aboriginal_student">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Aboriginal student</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_aboriginal_ward -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_aboriginal_ward">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Aboriginal ward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_admission_note -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_admission_note">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Admission Note</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_aisha_khan -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_aisha_khan">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Aisha Khan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_allscripts_sunrise -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_allscripts_sunrise">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>Allscripts Sunrise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_archive_digitization -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_archive_digitization">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Archive Digitization</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_archive_svc -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_archive_svc">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>archive_svc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_archives_processing_assistant -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_archives_processing_assistant">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Archives Processing Assistant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_asset_catalog_bundle_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_asset_catalog_bundle_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Asset_Catalog_Bundle.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_athenahealth -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_athenahealth">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>AthenaHealth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_audit_compliance_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_audit_compliance_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Audit_Compliance.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_audit_trail_job -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_audit_trail_job">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Audit_Trail_Job</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_auto_scanner_svc -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_auto_scanner_svc">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>auto_scanner_svc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_bbqglaze -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_bbqglaze">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>BBQGlaze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_bbqsaucecup -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_bbqsaucecup">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>BBQSauceCup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_blueprint_revision -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_blueprint_revision">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Blueprint_Revision</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_book_returns_processing -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_book_returns_processing">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Book Returns Processing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_bookmobile_attendant -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_bookmobile_attendant">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Bookmobile Attendant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_breakroomupper -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_breakroomupper">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>BreakRoomUpper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cafeteriamainhall -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cafeteriamainhall">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>CafeteriaMainHall</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_calibration_export -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_calibration_export">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Calibration_Export</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_calibration_results_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_calibration_results_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Calibration_Results.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_casemanager_parent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_casemanager_parent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>CaseManager-Parent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_a7f2 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_a7f2">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-A7F2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_b3c9 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_b3c9">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-B3C9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_d1e4 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_d1e4">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-D1E4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_f5g6 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_f5g6">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-F5G6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_h8j9 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_h8j9">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-H8J9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_k2l3 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_k2l3">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-K2L3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_m4n5 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_m4n5">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-M4N5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_p6q7 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_p6q7">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-P6Q7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_r8s9 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_r8s9">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-R8S9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_caseref_t1u2 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_caseref_t1u2">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#DisabledAdult"/>
+        <rdfs:label>CaseRef-T1U2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cataloging_metadata -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cataloging_metadata">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Cataloging Metadata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cateringunita -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cateringunita">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>CateringUnitA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_causal_inference_lec -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_causal_inference_lec">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>CAUSAL-INFERENCE-LEC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_causal_model_diagram -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_causal_model_diagram">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Causal-Model-Diagram</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cerner_millennium -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cerner_millennium">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>Cerner Millennium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_chart_kpi_dashboard -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_chart_kpi_dashboard">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Chart-KPI-Dashboard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_chen_wei -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_chen_wei">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Chen Wei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_chloe_dubois -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_chloe_dubois">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Chloe Dubois</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_circulation_desk_lead -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_circulation_desk_lead">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Circulation Desk Lead</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_class_schema_validate -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_class_schema_validate">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Class-Schema-Validate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_climate_model_calibration -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_climate_model_calibration">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Climate Model Calibration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_codebase_validation_suite -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_codebase_validation_suite">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Codebase Validation Suite</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_collection_development_review -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_collection_development_review">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Collection Development Review</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_compliance_officer -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_compliance_officer">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>compliance_officer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_conferencesuitea -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_conferencesuitea">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>ConferenceSuiteA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_consultation_report -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_consultation_report">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Consultation Report</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_contract_review_final_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_contract_review_final_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Contract_Review_Final.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cultural_enrollment -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cultural_enrollment">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Cultural enrollment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_cust_7710 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_cust_7710">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>CUST-7710</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_custodialparent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_custodialparent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>CustodialParent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_custody_transfer -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_custody_transfer">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Custody transfer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dailyhygienesupport -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dailyhygienesupport">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>DailyHygieneSupport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_data_lineage_intro -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_data_lineage_intro">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>DATA-LINEAGE-INTRO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_data_pipeline_svc -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_data_pipeline_svc">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>data_pipeline_svc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_database_training -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_database_training">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Database Training</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_defect_photo_set -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_defect_photo_set">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Defect_Photo_Set</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_desk_reference_queries -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_desk_reference_queries">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Desk Reference Queries</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dialysis_session -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dialysis_session">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Dialysis Session</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dijonrelish -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dijonrelish">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>DijonRelish</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dininghallwest -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dininghallwest">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>DiningHallWest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_discharge_summary -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_discharge_summary">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Discharge Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dr_aris_thorne -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dr_aris_thorne">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Dr. Aris Thorne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dr_linnea_voss -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dr_linnea_voss">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Dr. Linnea Voss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dr_priya_mehta -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dr_priya_mehta">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Dr. Priya Mehta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_dr_yuna_park -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_dr_yuna_park">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Dr. Yuna Park</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_drchrono -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_drchrono">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>DrChrono</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ds402_intro_etl -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ds402_intro_etl">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>DS402-Intro-ETL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_early_career_scientist -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_early_career_scientist">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Early-Career Scientist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ecw_platform -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ecw_platform">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>eCW Platform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_education_enrollment -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_education_enrollment">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Education enrollment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_educationaladvocacy -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_educationaladvocacy">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>EducationalAdvocacy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_elena_rostova -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_elena_rostova">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Elena Rostova</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_elias_vance -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_elias_vance">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Elias Vance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_emotionalcounseling -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_emotionalcounseling">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>EmotionalCounseling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_epic_ehr -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_epic_ehr">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>Epic EHR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_er_visit -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_er_visit">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>ER Visit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_etl_engine_core -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_etl_engine_core">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>etl_engine_core</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_etl_handout_2024 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_etl_handout_2024">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>ETL-Handout-2024</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_eventspaceeast -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_eventspaceeast">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>EventSpaceEast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_export_gateway -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_export_gateway">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>export_gateway</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_field_researcher -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_field_researcher">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Field Researcher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_field_survey_deployment -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_field_survey_deployment">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Field Survey Deployment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_final_report_digest_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_final_report_digest_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Final_Report_Digest.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_financial_export_run -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_financial_export_run">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Financial_Export_Run</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_financialbudgeting -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_financialbudgeting">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>FinancialBudgeting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_first_nations_dependent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_first_nations_dependent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>First Nations dependent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_first_nations_ward -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_first_nations_ward">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>First Nations ward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_fosterparent_unit4 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_fosterparent_unit4">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>FosterParent-Unit4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_func_lab_cleanse -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_func_lab_cleanse">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Func-Lab-Cleanse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_garlicaioli -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_garlicaioli">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>GarlicAioli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_genomic_sequencing_run -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_genomic_sequencing_run">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Genomic Sequencing Run</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_geo_compile_draft_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_geo_compile_draft_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Geo_Compile_Draft.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_gov_audit_2024 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_gov_audit_2024">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>GOV-AUDIT-2024</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_governance_compliance_list -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_governance_compliance_list">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Governance-Compliance-List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_graduate_researcher -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_graduate_researcher">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Graduate Researcher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_guardianadlitem -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_guardianadlitem">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>GuardianAdLitem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_guardianship_assignment -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_guardianship_assignment">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Guardianship assignment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_gymcafeteria -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_gymcafeteria">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>GymCafeteria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_handwritten_logs -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_handwritten_logs">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Handwritten_Logs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_health_screening -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_health_screening">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Health screening</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_heritage_registration -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_heritage_registration">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Heritage registration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_home_health_visit -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_home_health_visit">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Home Health Visit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_homemaintenance -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_homemaintenance">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>HomeMaintenance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_hotsauce -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_hotsauce">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>HotSauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_hotsauceshaker -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_hotsauceshaker">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>HotSauceShaker</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_householdbudgeting -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_householdbudgeting">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>HouseholdBudgeting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_identity_verification -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_identity_verification">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Identity verification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ind_4421 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ind_4421">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>IND-4421</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_index_metadata_search -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_index_metadata_search">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Index-Metadata-Search</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_indigenous_dependent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_indigenous_dependent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Indigenous dependent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_inpatient_stay -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_inpatient_stay">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Inpatient Stay</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_interlibrary_loan_clerk -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_interlibrary_loan_clerk">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Interlibrary Loan Clerk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_interlibrary_request_routing -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_interlibrary_request_routing">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Interlibrary Request Routing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_inuit_adolescent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_inuit_adolescent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Inuit adolescent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_inuit_foster_child -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_inuit_foster_child">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Inuit foster child</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_inventory_scan_task -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_inventory_scan_task">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Inventory_Scan_Task</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_journal_binding -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_journal_binding">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Journal Binding</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_julian_hayes -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_julian_hayes">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Julian Hayes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_julian_ortiz -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_julian_ortiz">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Julian Ortiz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_junior_data_scientist -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_junior_data_scientist">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Junior Data Scientist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_junior_instrument_operator -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_junior_instrument_operator">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Junior Instrument Operator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_junior_lab_analyst -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_junior_lab_analyst">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Junior Lab Analyst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ketchupdispenser -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ketchupdispenser">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>KetchupDispenser</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_kinshipcaregiver -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_kinshipcaregiver">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>KinshipCaregiver</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_kpi_reporting_session -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_kpi_reporting_session">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>KPI-REPORTING-SESSION</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_kpi_threshold_table -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_kpi_threshold_table">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>KPI-Threshold-Table</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_lab_prot_v3_training -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_lab_prot_v3_training">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>LAB-PROT-V3-Training</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_lab_safety_checklist -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_lab_safety_checklist">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Lab-Safety-Checklist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_labbreakarea -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_labbreakarea">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>LabBreakArea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_labor_delivery -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_labor_delivery">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Labor Delivery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_language_program -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_language_program">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Language program</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_legal_representation -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_legal_representation">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Legal representation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_legalguardian -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_legalguardian">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>LegalGuardian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_leo_nguyen -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_leo_nguyen">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Leo Nguyen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_lobbycounterb -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_lobbycounterb">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>LobbyCounterB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_log_aggregation_run -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_log_aggregation_run">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Log_Aggregation_Run</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_log_summary_digest_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_log_summary_digest_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Log_Summary_Digest.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_map_overlay_scan -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_map_overlay_scan">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Map_Overlay_Scan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_marcus_thorne -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_marcus_thorne">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Marcus Thorne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_material_stress_testing -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_material_stress_testing">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Material Stress Testing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_maya_chen -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_maya_chen">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Maya Chen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_maya_patel -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_maya_patel">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Maya Patel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_mayopump -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_mayopump">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>MayoPump</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_mealpreparation -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_mealpreparation">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>MealPreparation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_medicalappointmentcoordination -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_medicalappointmentcoordination">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>MedicalAppointmentCoordination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_medication_reconciliation -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_medication_reconciliation">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Medication Reconciliation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_medicationmanagement -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_medicationmanagement">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>MedicationManagement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_meditech_expanse -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_meditech_expanse">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>Meditech Expanse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_meta_schema_workshop -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_meta_schema_workshop">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>META-SCHEMA-WORKSHOP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_metadata_standard_spec -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_metadata_standard_spec">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Metadata-Standard-Spec</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_microfilm_archive -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_microfilm_archive">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Microfilm_Archive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_model_causal_graph -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_model_causal_graph">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Model-Causal-Graph</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_module_provenance_trace -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_module_provenance_trace">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Module-Provenance-Trace</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_mustardstation -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_mustardstation">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>MustardStation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_native_guardian_ward -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_native_guardian_ward">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Native guardian ward</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_native_youth -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_native_youth">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Native youth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_neural_net_training_pass -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_neural_net_training_pass">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Neural Net Training Pass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_nextgen_practice -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_nextgen_practice">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>NextGen Practice</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_noah_fitzpatrick -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_noah_fitzpatrick">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Noah Fitzpatrick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_notebook_etl_pipeline_nb -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_notebook_etl_pipeline_nb">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Notebook-ETL-Pipeline.nb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_obj_5540 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_obj_5540">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>OBJ-5540</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_officekitchen1 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_officekitchen1">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#StationLocation"/>
+        <rdfs:label>OfficeKitchen1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_openemr -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_openemr">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>OpenEMR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_operative_record -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_operative_record">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Operative Record</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ops_admin_lead -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ops_admin_lead">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>ops_admin_lead</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_orbital_drone_set -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_orbital_drone_set">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Orbital_Drone_Set</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_outpatient_clinic -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_outpatient_clinic">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Outpatient Clinic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_patient_cohort_analysis -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_patient_cohort_analysis">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Patient Cohort Analysis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_patient_summary_file_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_patient_summary_file_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Patient_Summary_File.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_patron_registration -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_patron_registration">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Patron Registration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_per_1199 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_per_1199">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>PER-1199</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_periodicals_assistant -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_periodicals_assistant">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Periodicals Assistant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_phd_candidate -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_phd_candidate">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>PhD Candidate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_photo_batch_field -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_photo_batch_field">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Photo_Batch_Field</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_pid_8823 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_pid_8823">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>PID-8823</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_postdoctoral_fellow -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_postdoctoral_fellow">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Postdoctoral Fellow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_postoperative_review -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_postoperative_review">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Postoperative Review</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_prenatal_assessment -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_prenatal_assessment">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Prenatal Assessment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_primarycaregiver_alpha -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_primarycaregiver_alpha">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>PrimaryCaregiver-Alpha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_priya_patel -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_priya_patel">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Priya Patel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_proc_sensor_calibrate -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_proc_sensor_calibrate">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Proc-Sensor-Calibrate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_progress_note -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_progress_note">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Progress Note</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_prov_chain_seminar -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_prov_chain_seminar">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>PROV-CHAIN-SEMINAR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_provenance_trace_log -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_provenance_trace_log">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Provenance-Trace-Log</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_qa_lead_martinez -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_qa_lead_martinez">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>qa_lead_martinez</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ranchdressing -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ranchdressing">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>RanchDressing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ranchsqueeze -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ranchsqueeze">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>RanchSqueeze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_records_migration_run -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_records_migration_run">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Records_Migration_Run</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_ref_2201 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_ref_2201">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>REF-2201</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_reference_desk_support -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_reference_desk_support">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Reference Desk Support</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_referral_letter -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_referral_letter">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Referral Letter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_reg_3388 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_reg_3388">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>REG-3388</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_relishtray -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_relishtray">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>RelishTray</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_research_associate -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_research_associate">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Research Associate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_research_help_desk -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_research_help_desk">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Research Help Desk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_respiteparent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_respiteparent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>RespiteParent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_response_archive_job -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_response_archive_job">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Response_Archive_Job</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_reviewer_smith -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_reviewer_smith">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>reviewer_smith</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_rule_governance_check -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_rule_governance_check">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Rule-Governance-Check</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_samir_al_fayed -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_samir_al_fayed">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Samir Al-Fayed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_satellite_mosaic -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_satellite_mosaic">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Satellite_Mosaic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_satellite_telemetry_ingest -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_satellite_telemetry_ingest">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Satellite Telemetry Ingest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_scan_set_alpha -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_scan_set_alpha">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Scan_Set_Alpha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_schema_migration_guide -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_schema_migration_guide">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Schema-Migration-Guide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_schooltransport -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_schooltransport">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingActivity"/>
+        <rdfs:label>SchoolTransport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_script_telemetry_filter_m -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_script_telemetry_filter_m">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#MathematicaExample"/>
+        <rdfs:label>Script-Telemetry-Filter.m</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sensor_array_calibration -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sensor_array_calibration">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Sensor Array Calibration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sensor_array_manual -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sensor_array_manual">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Sensor-Array-Manual</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sensor_fusion_training -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sensor_fusion_training">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>SENSOR-FUSION-TRAINING</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_shelving_operations -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_shelving_operations">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryAssistanceActivity"/>
+        <rdfs:label>Shelving Operations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sofia_rossi -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sofia_rossi">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#Student"/>
+        <rdfs:label>Sofia Rossi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_special_collections_handler -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_special_collections_handler">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Special Collections Handler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_specimen_index_output_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_specimen_index_output_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Specimen_Index_Output.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_specimen_review_job -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_specimen_review_job">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Specimen_Review_Job</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_spicyketchup -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_spicyketchup">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>SpicyKetchup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sriracha -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sriracha">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>Sriracha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_srirachadrizzle -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_srirachadrizzle">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>SrirachaDrizzle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_stacks_re_shelver -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_stacks_re_shelver">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Stacks Re-shelver</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_stepparent_active -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_stepparent_active">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>StepParent-Active</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_subj_9902 -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_subj_9902">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>SUBJ-9902</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_surgical_procedure -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_surgical_procedure">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Surgical Procedure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_surrogateparent -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_surrogateparent">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ParentingRole"/>
+        <rdfs:label>SurrogateParent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_survey_archive_index_pdf -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_survey_archive_index_pdf">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfDocument"/>
+        <rdfs:label>Survey_Archive_Index.pdf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_sweetchilisauce -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_sweetchilisauce">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>SweetChiliSauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_system_monitor -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_system_monitor">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ExportExecution"/>
+        <rdfs:label>system_monitor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_tel_2023_q4_review -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_tel_2023_q4_review">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureSession"/>
+        <rdfs:label>TEL-2023-Q4-Review</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_telehealth_consult -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_telehealth_consult">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Telehealth Consult</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_telemetry_basics_slides -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_telemetry_basics_slides">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LectureNotes"/>
+        <rdfs:label>Telemetry-Basics-Slides</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_teriyakiglaze -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_teriyakiglaze">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>TeriyakiGlaze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_teriyakisauce -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_teriyakisauce">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>TeriyakiSauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_thomas_kowalski -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_thomas_kowalski">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
+        <rdfs:label>Thomas Kowalski</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_tiff_compile_task -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_tiff_compile_task">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Tiff_Compile_Task</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_trainee_investigator -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_trainee_investigator">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#YoungResearcherRole"/>
+        <rdfs:label>Trainee Investigator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_transfer_note -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_transfer_note">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ClinicalDocumentationActivity"/>
+        <rdfs:label>Transfer Note</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_tribal_minor -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_tribal_minor">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#IndigenousChildRole"/>
+        <rdfs:label>Tribal minor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_vaccination_drive -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_vaccination_drive">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Vaccination Drive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_veradigm_healthix -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_veradigm_healthix">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#InformationSystem"/>
+        <rdfs:label>Veradigm Healthix</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_verification_export -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_verification_export">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PdfExportProcess"/>
+        <rdfs:label>Verification_Export</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_vinegarspritz -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_vinegarspritz">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#CondimentStation"/>
+        <rdfs:label>VinegarSpritz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_welfare_placement -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_welfare_placement">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#RightsExercise"/>
+        <rdfs:label>Welfare placement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_well_child_exam -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_well_child_exam">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#PatientEncounter"/>
+        <rdfs:label>Well Child Exam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_wet_chemistry_assay -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_wet_chemistry_assay">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ResearchActivity"/>
+        <rdfs:label>Wet Chemistry Assay</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_xray_clinical_cohort -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_xray_clinical_cohort">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#ScannedImageSet"/>
+        <rdfs:label>Xray_Clinical_Cohort</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_yellowmustard -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_yellowmustard">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#AvailableTopping"/>
+        <rdfs:label>YellowMustard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals360.example.org/sdg#i_youth_services_aide -->
+
+    <owl:NamedIndividual rdf:about="https://signals360.example.org/sdg#i_youth_services_aide">
+        <rdf:type rdf:resource="https://signals360.example.org/sdg#LibraryStudentAssistantRole"/>
+        <rdfs:label>Youth Services Aide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Annotations
     //
     ///////////////////////////////////////////////////////////////////////////////////////

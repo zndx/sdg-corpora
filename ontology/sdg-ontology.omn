@@ -8798,3 +8798,995 @@ Class: <https://signals360.example.org/sdg#publishes_journal> SubClassOf: bfo:00
 Class: <https://www.commoncoreontologies.org/BFO_0000034> SubClassOf: bfo:0000002
 Class: <https://www.commoncoreontologies.org/BFO_0000144> SubClassOf: bfo:0000002
 Class: <https://www.commoncoreontologies.org/BFO_0000202> SubClassOf: bfo:0000002
+
+Individual: <https://signals360.example.org/sdg#i_aboriginal_student>
+    Annotations: rdfs:label "Aboriginal student"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_aboriginal_ward>
+    Annotations: rdfs:label "Aboriginal ward"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_admission_note>
+    Annotations: rdfs:label "Admission Note"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_aisha_khan>
+    Annotations: rdfs:label "Aisha Khan"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_allscripts_sunrise>
+    Annotations: rdfs:label "Allscripts Sunrise"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_archive_digitization>
+    Annotations: rdfs:label "Archive Digitization"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_archive_svc>
+    Annotations: rdfs:label "archive_svc"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_archives_processing_assistant>
+    Annotations: rdfs:label "Archives Processing Assistant"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_asset_catalog_bundle_pdf>
+    Annotations: rdfs:label "Asset_Catalog_Bundle.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_athenahealth>
+    Annotations: rdfs:label "AthenaHealth"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_audit_compliance_pdf>
+    Annotations: rdfs:label "Audit_Compliance.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_audit_trail_job>
+    Annotations: rdfs:label "Audit_Trail_Job"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_auto_scanner_svc>
+    Annotations: rdfs:label "auto_scanner_svc"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_bbqglaze>
+    Annotations: rdfs:label "BBQGlaze"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_bbqsaucecup>
+    Annotations: rdfs:label "BBQSauceCup"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_blueprint_revision>
+    Annotations: rdfs:label "Blueprint_Revision"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_book_returns_processing>
+    Annotations: rdfs:label "Book Returns Processing"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_bookmobile_attendant>
+    Annotations: rdfs:label "Bookmobile Attendant"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_breakroomupper>
+    Annotations: rdfs:label "BreakRoomUpper"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_cafeteriamainhall>
+    Annotations: rdfs:label "CafeteriaMainHall"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_calibration_export>
+    Annotations: rdfs:label "Calibration_Export"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_calibration_results_pdf>
+    Annotations: rdfs:label "Calibration_Results.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_casemanager_parent>
+    Annotations: rdfs:label "CaseManager-Parent"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_a7f2>
+    Annotations: rdfs:label "CaseRef-A7F2"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_b3c9>
+    Annotations: rdfs:label "CaseRef-B3C9"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_d1e4>
+    Annotations: rdfs:label "CaseRef-D1E4"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_f5g6>
+    Annotations: rdfs:label "CaseRef-F5G6"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_h8j9>
+    Annotations: rdfs:label "CaseRef-H8J9"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_k2l3>
+    Annotations: rdfs:label "CaseRef-K2L3"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_m4n5>
+    Annotations: rdfs:label "CaseRef-M4N5"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_p6q7>
+    Annotations: rdfs:label "CaseRef-P6Q7"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_r8s9>
+    Annotations: rdfs:label "CaseRef-R8S9"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_caseref_t1u2>
+    Annotations: rdfs:label "CaseRef-T1U2"
+    Types: <https://signals360.example.org/sdg#DisabledAdult>
+
+Individual: <https://signals360.example.org/sdg#i_cataloging_metadata>
+    Annotations: rdfs:label "Cataloging Metadata"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_cateringunita>
+    Annotations: rdfs:label "CateringUnitA"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_causal_inference_lec>
+    Annotations: rdfs:label "CAUSAL-INFERENCE-LEC"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_causal_model_diagram>
+    Annotations: rdfs:label "Causal-Model-Diagram"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_cerner_millennium>
+    Annotations: rdfs:label "Cerner Millennium"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_chart_kpi_dashboard>
+    Annotations: rdfs:label "Chart-KPI-Dashboard"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_chen_wei>
+    Annotations: rdfs:label "Chen Wei"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_chloe_dubois>
+    Annotations: rdfs:label "Chloe Dubois"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_circulation_desk_lead>
+    Annotations: rdfs:label "Circulation Desk Lead"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_class_schema_validate>
+    Annotations: rdfs:label "Class-Schema-Validate"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_climate_model_calibration>
+    Annotations: rdfs:label "Climate Model Calibration"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_codebase_validation_suite>
+    Annotations: rdfs:label "Codebase Validation Suite"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_collection_development_review>
+    Annotations: rdfs:label "Collection Development Review"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_compliance_officer>
+    Annotations: rdfs:label "compliance_officer"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_conferencesuitea>
+    Annotations: rdfs:label "ConferenceSuiteA"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_consultation_report>
+    Annotations: rdfs:label "Consultation Report"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_contract_review_final_pdf>
+    Annotations: rdfs:label "Contract_Review_Final.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_cultural_enrollment>
+    Annotations: rdfs:label "Cultural enrollment"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_cust_7710>
+    Annotations: rdfs:label "CUST-7710"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_custodialparent>
+    Annotations: rdfs:label "CustodialParent"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_custody_transfer>
+    Annotations: rdfs:label "Custody transfer"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_dailyhygienesupport>
+    Annotations: rdfs:label "DailyHygieneSupport"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_data_lineage_intro>
+    Annotations: rdfs:label "DATA-LINEAGE-INTRO"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_data_pipeline_svc>
+    Annotations: rdfs:label "data_pipeline_svc"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_database_training>
+    Annotations: rdfs:label "Database Training"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_defect_photo_set>
+    Annotations: rdfs:label "Defect_Photo_Set"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_desk_reference_queries>
+    Annotations: rdfs:label "Desk Reference Queries"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_dialysis_session>
+    Annotations: rdfs:label "Dialysis Session"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_dijonrelish>
+    Annotations: rdfs:label "DijonRelish"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_dininghallwest>
+    Annotations: rdfs:label "DiningHallWest"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_discharge_summary>
+    Annotations: rdfs:label "Discharge Summary"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_dr_aris_thorne>
+    Annotations: rdfs:label "Dr. Aris Thorne"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_dr_linnea_voss>
+    Annotations: rdfs:label "Dr. Linnea Voss"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_dr_priya_mehta>
+    Annotations: rdfs:label "Dr. Priya Mehta"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_dr_yuna_park>
+    Annotations: rdfs:label "Dr. Yuna Park"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_drchrono>
+    Annotations: rdfs:label "DrChrono"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_ds402_intro_etl>
+    Annotations: rdfs:label "DS402-Intro-ETL"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_early_career_scientist>
+    Annotations: rdfs:label "Early-Career Scientist"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_ecw_platform>
+    Annotations: rdfs:label "eCW Platform"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_education_enrollment>
+    Annotations: rdfs:label "Education enrollment"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_educationaladvocacy>
+    Annotations: rdfs:label "EducationalAdvocacy"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_elena_rostova>
+    Annotations: rdfs:label "Elena Rostova"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_elias_vance>
+    Annotations: rdfs:label "Elias Vance"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_emotionalcounseling>
+    Annotations: rdfs:label "EmotionalCounseling"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_epic_ehr>
+    Annotations: rdfs:label "Epic EHR"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_er_visit>
+    Annotations: rdfs:label "ER Visit"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_etl_engine_core>
+    Annotations: rdfs:label "etl_engine_core"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_etl_handout_2024>
+    Annotations: rdfs:label "ETL-Handout-2024"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_eventspaceeast>
+    Annotations: rdfs:label "EventSpaceEast"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_export_gateway>
+    Annotations: rdfs:label "export_gateway"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_field_researcher>
+    Annotations: rdfs:label "Field Researcher"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_field_survey_deployment>
+    Annotations: rdfs:label "Field Survey Deployment"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_final_report_digest_pdf>
+    Annotations: rdfs:label "Final_Report_Digest.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_financial_export_run>
+    Annotations: rdfs:label "Financial_Export_Run"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_financialbudgeting>
+    Annotations: rdfs:label "FinancialBudgeting"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_first_nations_dependent>
+    Annotations: rdfs:label "First Nations dependent"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_first_nations_ward>
+    Annotations: rdfs:label "First Nations ward"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_fosterparent_unit4>
+    Annotations: rdfs:label "FosterParent-Unit4"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_func_lab_cleanse>
+    Annotations: rdfs:label "Func-Lab-Cleanse"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_garlicaioli>
+    Annotations: rdfs:label "GarlicAioli"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_genomic_sequencing_run>
+    Annotations: rdfs:label "Genomic Sequencing Run"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_geo_compile_draft_pdf>
+    Annotations: rdfs:label "Geo_Compile_Draft.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_gov_audit_2024>
+    Annotations: rdfs:label "GOV-AUDIT-2024"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_governance_compliance_list>
+    Annotations: rdfs:label "Governance-Compliance-List"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_graduate_researcher>
+    Annotations: rdfs:label "Graduate Researcher"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_guardianadlitem>
+    Annotations: rdfs:label "GuardianAdLitem"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_guardianship_assignment>
+    Annotations: rdfs:label "Guardianship assignment"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_gymcafeteria>
+    Annotations: rdfs:label "GymCafeteria"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_handwritten_logs>
+    Annotations: rdfs:label "Handwritten_Logs"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_health_screening>
+    Annotations: rdfs:label "Health screening"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_heritage_registration>
+    Annotations: rdfs:label "Heritage registration"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_home_health_visit>
+    Annotations: rdfs:label "Home Health Visit"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_homemaintenance>
+    Annotations: rdfs:label "HomeMaintenance"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_hotsauce>
+    Annotations: rdfs:label "HotSauce"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_hotsauceshaker>
+    Annotations: rdfs:label "HotSauceShaker"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_householdbudgeting>
+    Annotations: rdfs:label "HouseholdBudgeting"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_identity_verification>
+    Annotations: rdfs:label "Identity verification"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_ind_4421>
+    Annotations: rdfs:label "IND-4421"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_index_metadata_search>
+    Annotations: rdfs:label "Index-Metadata-Search"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_indigenous_dependent>
+    Annotations: rdfs:label "Indigenous dependent"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_inpatient_stay>
+    Annotations: rdfs:label "Inpatient Stay"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_interlibrary_loan_clerk>
+    Annotations: rdfs:label "Interlibrary Loan Clerk"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_interlibrary_request_routing>
+    Annotations: rdfs:label "Interlibrary Request Routing"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_inuit_adolescent>
+    Annotations: rdfs:label "Inuit adolescent"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_inuit_foster_child>
+    Annotations: rdfs:label "Inuit foster child"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_inventory_scan_task>
+    Annotations: rdfs:label "Inventory_Scan_Task"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_journal_binding>
+    Annotations: rdfs:label "Journal Binding"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_julian_hayes>
+    Annotations: rdfs:label "Julian Hayes"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_julian_ortiz>
+    Annotations: rdfs:label "Julian Ortiz"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_junior_data_scientist>
+    Annotations: rdfs:label "Junior Data Scientist"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_junior_instrument_operator>
+    Annotations: rdfs:label "Junior Instrument Operator"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_junior_lab_analyst>
+    Annotations: rdfs:label "Junior Lab Analyst"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_ketchupdispenser>
+    Annotations: rdfs:label "KetchupDispenser"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_kinshipcaregiver>
+    Annotations: rdfs:label "KinshipCaregiver"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_kpi_reporting_session>
+    Annotations: rdfs:label "KPI-REPORTING-SESSION"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_kpi_threshold_table>
+    Annotations: rdfs:label "KPI-Threshold-Table"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_lab_prot_v3_training>
+    Annotations: rdfs:label "LAB-PROT-V3-Training"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_lab_safety_checklist>
+    Annotations: rdfs:label "Lab-Safety-Checklist"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_labbreakarea>
+    Annotations: rdfs:label "LabBreakArea"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_labor_delivery>
+    Annotations: rdfs:label "Labor Delivery"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_language_program>
+    Annotations: rdfs:label "Language program"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_legal_representation>
+    Annotations: rdfs:label "Legal representation"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_legalguardian>
+    Annotations: rdfs:label "LegalGuardian"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_leo_nguyen>
+    Annotations: rdfs:label "Leo Nguyen"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_lobbycounterb>
+    Annotations: rdfs:label "LobbyCounterB"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_log_aggregation_run>
+    Annotations: rdfs:label "Log_Aggregation_Run"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_log_summary_digest_pdf>
+    Annotations: rdfs:label "Log_Summary_Digest.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_map_overlay_scan>
+    Annotations: rdfs:label "Map_Overlay_Scan"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_marcus_thorne>
+    Annotations: rdfs:label "Marcus Thorne"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_material_stress_testing>
+    Annotations: rdfs:label "Material Stress Testing"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_maya_chen>
+    Annotations: rdfs:label "Maya Chen"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_maya_patel>
+    Annotations: rdfs:label "Maya Patel"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_mayopump>
+    Annotations: rdfs:label "MayoPump"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_mealpreparation>
+    Annotations: rdfs:label "MealPreparation"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_medicalappointmentcoordination>
+    Annotations: rdfs:label "MedicalAppointmentCoordination"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_medication_reconciliation>
+    Annotations: rdfs:label "Medication Reconciliation"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_medicationmanagement>
+    Annotations: rdfs:label "MedicationManagement"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_meditech_expanse>
+    Annotations: rdfs:label "Meditech Expanse"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_meta_schema_workshop>
+    Annotations: rdfs:label "META-SCHEMA-WORKSHOP"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_metadata_standard_spec>
+    Annotations: rdfs:label "Metadata-Standard-Spec"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_microfilm_archive>
+    Annotations: rdfs:label "Microfilm_Archive"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_model_causal_graph>
+    Annotations: rdfs:label "Model-Causal-Graph"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_module_provenance_trace>
+    Annotations: rdfs:label "Module-Provenance-Trace"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_mustardstation>
+    Annotations: rdfs:label "MustardStation"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_native_guardian_ward>
+    Annotations: rdfs:label "Native guardian ward"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_native_youth>
+    Annotations: rdfs:label "Native youth"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_neural_net_training_pass>
+    Annotations: rdfs:label "Neural Net Training Pass"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_nextgen_practice>
+    Annotations: rdfs:label "NextGen Practice"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_noah_fitzpatrick>
+    Annotations: rdfs:label "Noah Fitzpatrick"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_notebook_etl_pipeline_nb>
+    Annotations: rdfs:label "Notebook-ETL-Pipeline.nb"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_obj_5540>
+    Annotations: rdfs:label "OBJ-5540"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_officekitchen1>
+    Annotations: rdfs:label "OfficeKitchen1"
+    Types: <https://signals360.example.org/sdg#StationLocation>
+
+Individual: <https://signals360.example.org/sdg#i_openemr>
+    Annotations: rdfs:label "OpenEMR"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_operative_record>
+    Annotations: rdfs:label "Operative Record"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_ops_admin_lead>
+    Annotations: rdfs:label "ops_admin_lead"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_orbital_drone_set>
+    Annotations: rdfs:label "Orbital_Drone_Set"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_outpatient_clinic>
+    Annotations: rdfs:label "Outpatient Clinic"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_patient_cohort_analysis>
+    Annotations: rdfs:label "Patient Cohort Analysis"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_patient_summary_file_pdf>
+    Annotations: rdfs:label "Patient_Summary_File.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_patron_registration>
+    Annotations: rdfs:label "Patron Registration"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_per_1199>
+    Annotations: rdfs:label "PER-1199"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_periodicals_assistant>
+    Annotations: rdfs:label "Periodicals Assistant"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_phd_candidate>
+    Annotations: rdfs:label "PhD Candidate"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_photo_batch_field>
+    Annotations: rdfs:label "Photo_Batch_Field"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_pid_8823>
+    Annotations: rdfs:label "PID-8823"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_postdoctoral_fellow>
+    Annotations: rdfs:label "Postdoctoral Fellow"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_postoperative_review>
+    Annotations: rdfs:label "Postoperative Review"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_prenatal_assessment>
+    Annotations: rdfs:label "Prenatal Assessment"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_primarycaregiver_alpha>
+    Annotations: rdfs:label "PrimaryCaregiver-Alpha"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_priya_patel>
+    Annotations: rdfs:label "Priya Patel"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_proc_sensor_calibrate>
+    Annotations: rdfs:label "Proc-Sensor-Calibrate"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_progress_note>
+    Annotations: rdfs:label "Progress Note"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_prov_chain_seminar>
+    Annotations: rdfs:label "PROV-CHAIN-SEMINAR"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_provenance_trace_log>
+    Annotations: rdfs:label "Provenance-Trace-Log"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_qa_lead_martinez>
+    Annotations: rdfs:label "qa_lead_martinez"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_ranchdressing>
+    Annotations: rdfs:label "RanchDressing"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_ranchsqueeze>
+    Annotations: rdfs:label "RanchSqueeze"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_records_migration_run>
+    Annotations: rdfs:label "Records_Migration_Run"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_ref_2201>
+    Annotations: rdfs:label "REF-2201"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_reference_desk_support>
+    Annotations: rdfs:label "Reference Desk Support"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_referral_letter>
+    Annotations: rdfs:label "Referral Letter"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_reg_3388>
+    Annotations: rdfs:label "REG-3388"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_relishtray>
+    Annotations: rdfs:label "RelishTray"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_research_associate>
+    Annotations: rdfs:label "Research Associate"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_research_help_desk>
+    Annotations: rdfs:label "Research Help Desk"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_respiteparent>
+    Annotations: rdfs:label "RespiteParent"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_response_archive_job>
+    Annotations: rdfs:label "Response_Archive_Job"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_reviewer_smith>
+    Annotations: rdfs:label "reviewer_smith"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_rule_governance_check>
+    Annotations: rdfs:label "Rule-Governance-Check"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_samir_al_fayed>
+    Annotations: rdfs:label "Samir Al-Fayed"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_satellite_mosaic>
+    Annotations: rdfs:label "Satellite_Mosaic"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_satellite_telemetry_ingest>
+    Annotations: rdfs:label "Satellite Telemetry Ingest"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_scan_set_alpha>
+    Annotations: rdfs:label "Scan_Set_Alpha"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_schema_migration_guide>
+    Annotations: rdfs:label "Schema-Migration-Guide"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_schooltransport>
+    Annotations: rdfs:label "SchoolTransport"
+    Types: <https://signals360.example.org/sdg#ParentingActivity>
+
+Individual: <https://signals360.example.org/sdg#i_script_telemetry_filter_m>
+    Annotations: rdfs:label "Script-Telemetry-Filter.m"
+    Types: <https://signals360.example.org/sdg#MathematicaExample>
+
+Individual: <https://signals360.example.org/sdg#i_sensor_array_calibration>
+    Annotations: rdfs:label "Sensor Array Calibration"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_sensor_array_manual>
+    Annotations: rdfs:label "Sensor-Array-Manual"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_sensor_fusion_training>
+    Annotations: rdfs:label "SENSOR-FUSION-TRAINING"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_shelving_operations>
+    Annotations: rdfs:label "Shelving Operations"
+    Types: <https://signals360.example.org/sdg#LibraryAssistanceActivity>
+
+Individual: <https://signals360.example.org/sdg#i_sofia_rossi>
+    Annotations: rdfs:label "Sofia Rossi"
+    Types: <https://signals360.example.org/sdg#Student>
+
+Individual: <https://signals360.example.org/sdg#i_special_collections_handler>
+    Annotations: rdfs:label "Special Collections Handler"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_specimen_index_output_pdf>
+    Annotations: rdfs:label "Specimen_Index_Output.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_specimen_review_job>
+    Annotations: rdfs:label "Specimen_Review_Job"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_spicyketchup>
+    Annotations: rdfs:label "SpicyKetchup"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_sriracha>
+    Annotations: rdfs:label "Sriracha"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_srirachadrizzle>
+    Annotations: rdfs:label "SrirachaDrizzle"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_stacks_re_shelver>
+    Annotations: rdfs:label "Stacks Re-shelver"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
+
+Individual: <https://signals360.example.org/sdg#i_stepparent_active>
+    Annotations: rdfs:label "StepParent-Active"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_subj_9902>
+    Annotations: rdfs:label "SUBJ-9902"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_surgical_procedure>
+    Annotations: rdfs:label "Surgical Procedure"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_surrogateparent>
+    Annotations: rdfs:label "SurrogateParent"
+    Types: <https://signals360.example.org/sdg#ParentingRole>
+
+Individual: <https://signals360.example.org/sdg#i_survey_archive_index_pdf>
+    Annotations: rdfs:label "Survey_Archive_Index.pdf"
+    Types: <https://signals360.example.org/sdg#PdfDocument>
+
+Individual: <https://signals360.example.org/sdg#i_sweetchilisauce>
+    Annotations: rdfs:label "SweetChiliSauce"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_system_monitor>
+    Annotations: rdfs:label "system_monitor"
+    Types: <https://signals360.example.org/sdg#ExportExecution>
+
+Individual: <https://signals360.example.org/sdg#i_tel_2023_q4_review>
+    Annotations: rdfs:label "TEL-2023-Q4-Review"
+    Types: <https://signals360.example.org/sdg#LectureSession>
+
+Individual: <https://signals360.example.org/sdg#i_telehealth_consult>
+    Annotations: rdfs:label "Telehealth Consult"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_telemetry_basics_slides>
+    Annotations: rdfs:label "Telemetry-Basics-Slides"
+    Types: <https://signals360.example.org/sdg#LectureNotes>
+
+Individual: <https://signals360.example.org/sdg#i_teriyakiglaze>
+    Annotations: rdfs:label "TeriyakiGlaze"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_teriyakisauce>
+    Annotations: rdfs:label "TeriyakiSauce"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_thomas_kowalski>
+    Annotations: rdfs:label "Thomas Kowalski"
+    Types: <https://signals360.example.org/sdg#IndependentContinuant>
+
+Individual: <https://signals360.example.org/sdg#i_tiff_compile_task>
+    Annotations: rdfs:label "Tiff_Compile_Task"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_trainee_investigator>
+    Annotations: rdfs:label "Trainee Investigator"
+    Types: <https://signals360.example.org/sdg#YoungResearcherRole>
+
+Individual: <https://signals360.example.org/sdg#i_transfer_note>
+    Annotations: rdfs:label "Transfer Note"
+    Types: <https://signals360.example.org/sdg#ClinicalDocumentationActivity>
+
+Individual: <https://signals360.example.org/sdg#i_tribal_minor>
+    Annotations: rdfs:label "Tribal minor"
+    Types: <https://signals360.example.org/sdg#IndigenousChildRole>
+
+Individual: <https://signals360.example.org/sdg#i_vaccination_drive>
+    Annotations: rdfs:label "Vaccination Drive"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_veradigm_healthix>
+    Annotations: rdfs:label "Veradigm Healthix"
+    Types: <https://signals360.example.org/sdg#InformationSystem>
+
+Individual: <https://signals360.example.org/sdg#i_verification_export>
+    Annotations: rdfs:label "Verification_Export"
+    Types: <https://signals360.example.org/sdg#PdfExportProcess>
+
+Individual: <https://signals360.example.org/sdg#i_vinegarspritz>
+    Annotations: rdfs:label "VinegarSpritz"
+    Types: <https://signals360.example.org/sdg#CondimentStation>
+
+Individual: <https://signals360.example.org/sdg#i_welfare_placement>
+    Annotations: rdfs:label "Welfare placement"
+    Types: <https://signals360.example.org/sdg#RightsExercise>
+
+Individual: <https://signals360.example.org/sdg#i_well_child_exam>
+    Annotations: rdfs:label "Well Child Exam"
+    Types: <https://signals360.example.org/sdg#PatientEncounter>
+
+Individual: <https://signals360.example.org/sdg#i_wet_chemistry_assay>
+    Annotations: rdfs:label "Wet Chemistry Assay"
+    Types: <https://signals360.example.org/sdg#ResearchActivity>
+
+Individual: <https://signals360.example.org/sdg#i_xray_clinical_cohort>
+    Annotations: rdfs:label "Xray_Clinical_Cohort"
+    Types: <https://signals360.example.org/sdg#ScannedImageSet>
+
+Individual: <https://signals360.example.org/sdg#i_yellowmustard>
+    Annotations: rdfs:label "YellowMustard"
+    Types: <https://signals360.example.org/sdg#AvailableTopping>
+
+Individual: <https://signals360.example.org/sdg#i_youth_services_aide>
+    Annotations: rdfs:label "Youth Services Aide"
+    Types: <https://signals360.example.org/sdg#LibraryStudentAssistantRole>
