@@ -4,8 +4,8 @@
 - **named classes**: 828
 - **unsatisfiable classes**: 0
 - **realized from**: the 433 FinePDFs-derived templates (`08_derived`)
-- **rigor (Phase A)**: 148 filler classes BFO-grounded · 580 classes carry NL definitions (iao:0000115) · 148 typed DataProperty assertions
-- **individuals**: 248 membrane-admitted (ABox included) — instance-level consistency certified by DECOMPOSITION: nominal-free TBox + Types-only ABox ⇒ KB consistent ⟺ TBox consistent ∧ every asserted type-conjunction satisfiable (each conjunction checked by HermiT)
+- **rigor (Phase A)**: 147 filler classes BFO-grounded · 746 classes carry NL definitions (iao:0000115) · 148 typed DataProperty assertions
+- **individuals**: 7956 membrane-admitted (ABox included) — instance-level consistency certified by DECOMPOSITION: nominal-free TBox + Types-only ABox ⇒ KB consistent ⟺ TBox consistent ∧ every asserted type-conjunction satisfiable (each conjunction checked by HermiT; 92 withheld as clashing)
 - **reasoner**: HermiT (OWLAPI, via DeepOnto)
 - **grounding**: BFO 2020 (incl. continuant ⊥ occurrent) + CCO upper
 - **generated**: 2026-07-02 by `scripts/build_realized_ontology.py`
