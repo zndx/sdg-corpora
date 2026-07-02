@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://signals360.example.org/sdg#"
      xml:base="https://signals360.example.org/sdg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.commoncoreontologies.org/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://signals360.example.org/sdg"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://signals360.example.org/sdg">
+        <owl:imports rdf:resource="file:/home/rch/local/src/zndx/aegir/build/grounding/cco-module.ttl"/>
+    </owl:Ontology>
     
 
 
@@ -5046,31 +5052,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#BCorporationMember -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#BCorporationMember">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#BusinessEntity"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CorporateCoalition"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A BCorporationMember is a role borne by exactly one BusinessEntity that realizes a CorporateCoalition role.</obo:IAO_0000115>
-        <rdfs:comment>A BCorporationMember is a role borne by exactly one BusinessEntity that realizes a CorporateCoalition role.</rdfs:comment>
-        <rdfs:label>b corporation member</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#BackShellDimensionSpec -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#BackShellDimensionSpec">
@@ -5292,29 +5273,6 @@
         <obo:IAO_0000115>An act of meeting conducted by assessors.</obo:IAO_0000115>
         <rdfs:comment>An act of meeting conducted by assessors.</rdfs:comment>
         <rdfs:label>board of assessors meeting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#BoardOfAuditorsRole -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#BoardOfAuditorsRole">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CorporateAgent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CorporateAuditFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A BoardOfAuditorsRole is a role borne by exactly one CorporateAgent that realizes a CorporateAuditFunction.</obo:IAO_0000115>
-        <rdfs:comment>A BoardOfAuditorsRole is a role borne by exactly one CorporateAgent that realizes a CorporateAuditFunction.</rdfs:comment>
-        <rdfs:label>board of auditors role</rdfs:label>
     </owl:Class>
     
 
@@ -8567,29 +8525,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#ExecutiveDirectorRole -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#ExecutiveDirectorRole">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#OrganizationMember"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#ExecutiveDirectorFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An ExecutiveDirectorRole is an agent_role that bearsRoleOf exactly one OrganizationMember and realizesFunction some ExecutiveDirectorFunction.</obo:IAO_0000115>
-        <rdfs:comment>An ExecutiveDirectorRole is an agent_role that bearsRoleOf exactly one OrganizationMember and realizesFunction some ExecutiveDirectorFunction.</rdfs:comment>
-        <rdfs:label>executive director role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#ExecutiveExecutionFunction -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#ExecutiveExecutionFunction">
@@ -10695,29 +10630,6 @@
         <obo:IAO_0000115>A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.</obo:IAO_0000115>
         <rdfs:comment>A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.</rdfs:comment>
         <rdfs:label>joint board chair role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#JuvenileOffenderPatientRole -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#JuvenileOffenderPatientRole">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#IndependentContinuant"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TreatmentProgram"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A JuvenileOffenderPatientRole is a role borne by exactly one IndependentContinuant that realizes a function in a TreatmentProgram.</obo:IAO_0000115>
-        <rdfs:comment>A JuvenileOffenderPatientRole is a role borne by exactly one IndependentContinuant that realizes a function in a TreatmentProgram.</rdfs:comment>
-        <rdfs:label>juvenile offender patient role</rdfs:label>
     </owl:Class>
     
 
@@ -13787,31 +13699,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#RecognitionManagerRole -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#RecognitionManagerRole">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#RegulatoryAuthority"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                        <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#AccreditationFunction"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A RecognitionManagerRole is a BFO role borne by exactly one RegulatoryAuthority and realizes some AccreditationFunction.</obo:IAO_0000115>
-        <rdfs:comment>A RecognitionManagerRole is a BFO role borne by exactly one RegulatoryAuthority and realizes some AccreditationFunction.</rdfs:comment>
-        <rdfs:label>recognition manager role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#RecognizingOrganization -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#RecognizingOrganization">
@@ -14355,29 +14242,6 @@
     
 
 
-    <!-- https://signals360.example.org/sdg#RetailLeadershipTeamMember -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#RetailLeadershipTeamMember">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#CorporateEmployee"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#TeamFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A RetailLeadershipTeamMember is a role borne by exactly one CorporateEmployee that realizes some TeamFunction.</obo:IAO_0000115>
-        <rdfs:comment>A RetailLeadershipTeamMember is a role borne by exactly one CorporateEmployee that realizes some TeamFunction.</rdfs:comment>
-        <rdfs:label>retail leadership team member</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals360.example.org/sdg#RetainingEmployeeRole -->
 
     <owl:Class rdf:about="https://signals360.example.org/sdg#RetainingEmployeeRole">
@@ -14720,42 +14584,6 @@
         <obo:IAO_0000115>A scrubbing activity.</obo:IAO_0000115>
         <rdfs:comment>A scrubbing activity.</rdfs:comment>
         <rdfs:label>scrubbing activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://signals360.example.org/sdg#SecretaryRole -->
-
-    <owl:Class rdf:about="https://signals360.example.org/sdg#SecretaryRole">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#StateGovernment"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LegislativeDepartment"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#realizesFunction"/>
-                <owl:someValuesFrom rdf:resource="https://signals360.example.org/sdg#LegislativeDepartment"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals360.example.org/sdg#hasOrganizationalAffiliation"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://signals360.example.org/sdg#StateGovernment"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An agent role borne by a state government entity that realizes a legislative department function.</obo:IAO_0000115>
-        <rdfs:comment>An agent role borne by a state government entity that realizes a legislative department function.</rdfs:comment>
-        <rdfs:label>secretary role</rdfs:label>
     </owl:Class>
     
 

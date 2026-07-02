@@ -1,7 +1,7 @@
 # HermiT consistency certificate — `sdg-ontology`
 
 - **isConsistent**: `True`
-- **named classes**: 830
+- **named classes**: 823
 - **unsatisfiable classes**: 0
 - **realized from**: the 433 FinePDFs-derived templates (`08_derived`)
 - **rigor (Phase A)**: 150 filler classes BFO-grounded · 582 classes carry NL definitions (iao:0000115) · 148 typed DataProperty assertions

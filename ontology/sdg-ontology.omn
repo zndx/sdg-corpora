@@ -16,6 +16,7 @@ Prefix: dbo: <http://dbpedia.org/ontology/>
 Prefix: sdg: <https://signals360.example.org/sdg#>
 
 Ontology: <https://signals360.example.org/sdg>
+Import: <file:/home/rch/local/src/zndx/aegir/build/grounding/cco-module.ttl>
 
 Class: bfo:0000001
 Class: bfo:0000002 SubClassOf: bfo:0000001
@@ -1900,16 +1901,12 @@ Class: bfo:0000015
     Annotations: rdfs:label "process"
 
 
-Class: <https://signals360.example.org/sdg#RetailLeadershipTeamMember>
-    Annotations: rdfs:label "retail leadership team member"
-
 Class: <https://signals360.example.org/sdg#CorporateEmployee>
     Annotations: rdfs:label "corporate employee"
 
 Class: <https://signals360.example.org/sdg#TeamFunction>
     Annotations: rdfs:label "team function"
 
-Class: <https://signals360.example.org/sdg#RetailLeadershipTeamMember> SubClassOf: bfo:0000023, bfo:0000052 some <https://signals360.example.org/sdg#CorporateEmployee>, bfo:0000054 some <https://signals360.example.org/sdg#TeamFunction>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -2437,16 +2434,12 @@ Class: cco:InformationContentEntity
     Annotations: rdfs:label "information content entity"
 
 
-Class: <https://signals360.example.org/sdg#ExecutiveDirectorRole>
-    Annotations: rdfs:label "executive director role"
-
 Class: <https://signals360.example.org/sdg#OrganizationMember>
     Annotations: rdfs:label "organization member"
 
 Class: <https://signals360.example.org/sdg#ExecutiveDirectorFunction>
     Annotations: rdfs:label "executive director function"
 
-Class: <https://signals360.example.org/sdg#ExecutiveDirectorRole> SubClassOf: bfo:0000023, bfo:0000052 some <https://signals360.example.org/sdg#OrganizationMember>, bfo:0000054 some <https://signals360.example.org/sdg#ExecutiveDirectorFunction>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -2706,16 +2699,12 @@ Class: cco:DirectiveICE
     Annotations: rdfs:label "directive information content entity"
 
 
-Class: <https://signals360.example.org/sdg#RecognitionManagerRole>
-    Annotations: rdfs:label "recognition manager role"
-
 Class: <https://signals360.example.org/sdg#RegulatoryAuthority>
     Annotations: rdfs:label "regulatory authority"
 
 Class: <https://signals360.example.org/sdg#AccreditationFunction>
     Annotations: rdfs:label "accreditation function"
 
-Class: <https://signals360.example.org/sdg#RecognitionManagerRole> SubClassOf: bfo:0000023 and bfo:0000052 some <https://signals360.example.org/sdg#RegulatoryAuthority> and bfo:0000054 some <https://signals360.example.org/sdg#AccreditationFunction>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -2811,16 +2800,12 @@ Class: cco:DirectiveICE
     Annotations: rdfs:label "directive information content entity"
 
 
-Class: <https://signals360.example.org/sdg#BCorporationMember>
-    Annotations: rdfs:label "b corporation member"
-
 Class: <https://signals360.example.org/sdg#BusinessEntity>
     Annotations: rdfs:label "business entity"
 
 Class: <https://signals360.example.org/sdg#CorporateCoalition>
     Annotations: rdfs:label "corporate coalition"
 
-Class: <https://signals360.example.org/sdg#BCorporationMember> SubClassOf: bfo:0000023 and bfo:0000052 some <https://signals360.example.org/sdg#BusinessEntity> and bfo:0000054 some <https://signals360.example.org/sdg#CorporateCoalition>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -3116,16 +3101,12 @@ Class: bfo:0000023
     Annotations: rdfs:label "role"
 
 
-Class: <https://signals360.example.org/sdg#BoardOfAuditorsRole>
-    Annotations: rdfs:label "board of auditors role"
-
 Class: <https://signals360.example.org/sdg#CorporateAgent>
     Annotations: rdfs:label "corporate agent"
 
 Class: <https://signals360.example.org/sdg#CorporateAuditFunction>
     Annotations: rdfs:label "corporate audit function"
 
-Class: <https://signals360.example.org/sdg#BoardOfAuditorsRole> SubClassOf: bfo:0000023, bfo:0000052 some <https://signals360.example.org/sdg#CorporateAgent>, bfo:0000054 some <https://signals360.example.org/sdg#CorporateAuditFunction>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -3216,16 +3197,12 @@ Class: cco:InformationContentEntity
     Annotations: rdfs:label "information content entity"
 
 
-Class: <https://signals360.example.org/sdg#SecretaryRole>
-    Annotations: rdfs:label "secretary role"
-
 Class: <https://signals360.example.org/sdg#StateGovernment>
     Annotations: rdfs:label "state government"
 
 Class: <https://signals360.example.org/sdg#LegislativeDepartment>
     Annotations: rdfs:label "legislative department"
 
-Class: <https://signals360.example.org/sdg#SecretaryRole> SubClassOf: bfo:0000023, bfo:0000052 some <https://signals360.example.org/sdg#StateGovernment>, bfo:0000054 some <https://signals360.example.org/sdg#LegislativeDepartment>, sdg:hasOrganizationalAffiliation exactly 1 <https://signals360.example.org/sdg#StateGovernment>, sdg:realizesFunction some <https://signals360.example.org/sdg#LegislativeDepartment>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -3891,16 +3868,12 @@ Class: bfo:0000015
     Annotations: rdfs:label "process"
 
 
-Class: <https://signals360.example.org/sdg#JuvenileOffenderPatientRole>
-    Annotations: rdfs:label "juvenile offender patient role"
-
 Class: <https://signals360.example.org/sdg#IndependentContinuant>
     Annotations: rdfs:label "independent continuant"
 
 Class: <https://signals360.example.org/sdg#TreatmentProgram>
     Annotations: rdfs:label "treatment program"
 
-Class: <https://signals360.example.org/sdg#JuvenileOffenderPatientRole> SubClassOf: bfo:0000023, bfo:0000052 some <https://signals360.example.org/sdg#IndependentContinuant>, bfo:0000054 some <https://signals360.example.org/sdg#TreatmentProgram>
 ObjectProperty: bfo:0000052
     Annotations: rdfs:label "0000052"
 
@@ -7591,8 +7564,6 @@ Class: <https://signals360.example.org/sdg#AutomatedSystem>
     Annotations: iao:0000115 "A control system that operates without human intervention.", rdfs:comment "A control system that operates without human intervention."
 Class: <https://signals360.example.org/sdg#AvailableTopping>
     Annotations: iao:0000115 "A portion of food available for consumption.", rdfs:comment "A portion of food available for consumption."
-Class: <https://signals360.example.org/sdg#BCorporationMember>
-    Annotations: iao:0000115 "A BCorporationMember is a role borne by exactly one BusinessEntity that realizes a CorporateCoalition role.", rdfs:comment "A BCorporationMember is a role borne by exactly one BusinessEntity that realizes a CorporateCoalition role."
 Class: <https://signals360.example.org/sdg#BackShellDimensionSpec>
     Annotations: iao:0000115 "A BackShellDimensionSpec is an information content entity that specifies a WidthMeasurement and a HeightMeasurement, and has a DepthValue.", rdfs:comment "A BackShellDimensionSpec is an information content entity that specifies a WidthMeasurement and a HeightMeasurement, and has a DepthValue."
 Class: <https://signals360.example.org/sdg#BeneficiaryDesignation>
@@ -7611,8 +7582,6 @@ Class: <https://signals360.example.org/sdg#BoardMemberRole>
     Annotations: iao:0000115 "A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting.", rdfs:comment "A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting."
 Class: <https://signals360.example.org/sdg#BoardOfAssessorsMeeting>
     Annotations: iao:0000115 "An act of meeting conducted by assessors.", rdfs:comment "An act of meeting conducted by assessors."
-Class: <https://signals360.example.org/sdg#BoardOfAuditorsRole>
-    Annotations: iao:0000115 "A BoardOfAuditorsRole is a role borne by exactly one CorporateAgent that realizes a CorporateAuditFunction.", rdfs:comment "A BoardOfAuditorsRole is a role borne by exactly one CorporateAgent that realizes a CorporateAuditFunction."
 Class: <https://signals360.example.org/sdg#BoardOfEqualization>
     Annotations: iao:0000115 "A board that handles tax appeals.", rdfs:comment "A board that handles tax appeals."
 Class: <https://signals360.example.org/sdg#BreedingProgramApplication>
@@ -7881,8 +7850,6 @@ Class: <https://signals360.example.org/sdg#EvidenceBasedMedicine>
     Annotations: iao:0000115 "A evidence based medicine.", rdfs:comment "A evidence based medicine."
 Class: <https://signals360.example.org/sdg#ExecutiveDirectorFunction>
     Annotations: iao:0000115 "An organization member role that entails responsibility for executive direction and oversight.", rdfs:comment "An organization member role that entails responsibility for executive direction and oversight."
-Class: <https://signals360.example.org/sdg#ExecutiveDirectorRole>
-    Annotations: iao:0000115 "An ExecutiveDirectorRole is an agent_role that bearsRoleOf exactly one OrganizationMember and realizesFunction some ExecutiveDirectorFunction.", rdfs:comment "An ExecutiveDirectorRole is an agent_role that bearsRoleOf exactly one OrganizationMember and realizesFunction some ExecutiveDirectorFunction."
 Class: <https://signals360.example.org/sdg#ExecutiveExecutionFunction>
     Annotations: iao:0000115 "An executive leadership process focused on the implementation and execution of strategic decisions.", rdfs:comment "An executive leadership process focused on the implementation and execution of strategic decisions."
 Class: <https://signals360.example.org/sdg#ExecutiveOfficerRole>
@@ -8077,8 +8044,6 @@ Class: <https://signals360.example.org/sdg#InvestorRelationsDirectorRole>
     Annotations: iao:0000115 "An InvestorRelationsDirectorRole is a role borne by exactly one CorporateAgent that realizes an InvestorRelationsActivity.", rdfs:comment "An InvestorRelationsDirectorRole is a role borne by exactly one CorporateAgent that realizes an InvestorRelationsActivity."
 Class: <https://signals360.example.org/sdg#JointBoardChairRole>
     Annotations: iao:0000115 "A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.", rdfs:comment "A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction."
-Class: <https://signals360.example.org/sdg#JuvenileOffenderPatientRole>
-    Annotations: iao:0000115 "A JuvenileOffenderPatientRole is a role borne by exactly one IndependentContinuant that realizes a function in a TreatmentProgram.", rdfs:comment "A JuvenileOffenderPatientRole is a role borne by exactly one IndependentContinuant that realizes a function in a TreatmentProgram."
 Class: <https://signals360.example.org/sdg#KeyframeTimeline>
     Annotations: iao:0000115 "A temporal interval that marks the specific time points for keyframes in an animation sequence.", rdfs:comment "A temporal interval that marks the specific time points for keyframes in an animation sequence."
 Class: <https://signals360.example.org/sdg#LateralRestraintStrap>
@@ -8345,8 +8310,6 @@ Class: <https://signals360.example.org/sdg#RaffleConductingActivity>
     Annotations: iao:0000115 "An organizational activity centered on organizing and executing a raffle draw for fundraising or promotional purposes.", rdfs:comment "An organizational activity centered on organizing and executing a raffle draw for fundraising or promotional purposes."
 Class: <https://signals360.example.org/sdg#ReceivingFacilityStaff>
     Annotations: iao:0000115 "Personnel associated with a healthcare facility responsible for receiving and processing communicable disease notifications.", rdfs:comment "Personnel associated with a healthcare facility responsible for receiving and processing communicable disease notifications."
-Class: <https://signals360.example.org/sdg#RecognitionManagerRole>
-    Annotations: iao:0000115 "A RecognitionManagerRole is a BFO role borne by exactly one RegulatoryAuthority and realizes some AccreditationFunction.", rdfs:comment "A RecognitionManagerRole is a BFO role borne by exactly one RegulatoryAuthority and realizes some AccreditationFunction."
 Class: <https://signals360.example.org/sdg#RecognizingOrganization>
     Annotations: iao:0000115 "A recognizing organization.", rdfs:comment "A recognizing organization."
 Class: <https://signals360.example.org/sdg#RecordAuthorizationRole>
@@ -8401,8 +8364,6 @@ Class: <https://signals360.example.org/sdg#ResponsiveWebsiteDevelopment>
     Annotations: iao:0000115 "A ResponsiveWebsiteDevelopment is a process that targetsPlatform some WebPlatform and employsTechnique some ResponsiveDesignTechnique.", rdfs:comment "A ResponsiveWebsiteDevelopment is a process that targetsPlatform some WebPlatform and employsTechnique some ResponsiveDesignTechnique."
 Class: <https://signals360.example.org/sdg#RestaurantStaff>
     Annotations: iao:0000115 "A restaurant staff.", rdfs:comment "A restaurant staff."
-Class: <https://signals360.example.org/sdg#RetailLeadershipTeamMember>
-    Annotations: iao:0000115 "A RetailLeadershipTeamMember is a role borne by exactly one CorporateEmployee that realizes some TeamFunction.", rdfs:comment "A RetailLeadershipTeamMember is a role borne by exactly one CorporateEmployee that realizes some TeamFunction."
 Class: <https://signals360.example.org/sdg#RetainingEmployeeRole>
     Annotations: iao:0000115 "A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization.", rdfs:comment "A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization."
 Class: <https://signals360.example.org/sdg#RetirementBenefitOption>
@@ -8435,8 +8396,6 @@ Class: <https://signals360.example.org/sdg#ScientificOrganization>
     Annotations: iao:0000115 "A scientific organization is an artifact that publishes_journal some academic journal and organizes_meetings some scientific meeting.", rdfs:comment "A scientific organization is an artifact that publishes_journal some academic journal and organizes_meetings some scientific meeting."
 Class: <https://signals360.example.org/sdg#ScrubbingActivity>
     Annotations: iao:0000115 "A scrubbing activity.", rdfs:comment "A scrubbing activity."
-Class: <https://signals360.example.org/sdg#SecretaryRole>
-    Annotations: iao:0000115 "An agent role borne by a state government entity that realizes a legislative department function.", rdfs:comment "An agent role borne by a state government entity that realizes a legislative department function."
 Class: <https://signals360.example.org/sdg#SecureInfrastructureService>
     Annotations: iao:0000115 "A secure infrastructure service.", rdfs:comment "A secure infrastructure service."
 Class: <https://signals360.example.org/sdg#SecurityInfrastructure>
