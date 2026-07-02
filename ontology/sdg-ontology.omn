@@ -7,7 +7,8 @@ Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
 Prefix: prov: <http://www.w3.org/ns/prov#>
 Prefix: dcterms: <http://purl.org/dc/terms/>
 Prefix: bfo: <http://purl.obolibrary.org/obo/BFO_>
-Prefix: cco: <http://www.commoncoreontologies.org/>
+Prefix: cco: <https://www.commoncoreontologies.org/>
+Prefix: fhir: <http://hl7.org/fhir/>
 Prefix: iao: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: obi: <http://purl.obolibrary.org/obo/OBI_>
 Prefix: schema: <https://schema.org/>
@@ -8804,111 +8805,6 @@ Class: <https://signals360.example.org/sdg#HousingPolicyInformation> SubClassOf:
 Class: <https://signals360.example.org/sdg#HousingPolicyInformation> SubClassOf: sdg:hasLabelText some xsd:string
 
 
-Class: <http://www.commoncoreontologies.org/BFO_0000034> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/BFO_0000144> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/BFO_0000202> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000024> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000037> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000053> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000055> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000069> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000117> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000120> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000127> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000137> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000144> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000172> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000173> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000175> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000187> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000192> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000210> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000228> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000234> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000248> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000253> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000288> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000307> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000322> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000366> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000408> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000443> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000453> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000457> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000463> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000472> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000476> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000509> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000511> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000537> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000547> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000568> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000575> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000581> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000599> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000608> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000636> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000647> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000653> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000655> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000686> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000692> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000700> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000715> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000740> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000744> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000768> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000769> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000771> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000781> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000819> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000839> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000870> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000890> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000891> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000897> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000908> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000918> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000923> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000932> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000934> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000938> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000954> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000958> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000974> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000982> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000984> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00000995> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001017> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001022> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001036> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001041> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001042> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001047> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001058> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001068> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001069> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001073> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001075> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001163> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001175> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001179> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001180> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001191> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001213> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001224> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001239> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001262> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001266> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001284> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001295> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001298> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001314> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001317> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001327> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00001330> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00002039> SubClassOf: bfo:0000002
-Class: <http://www.commoncoreontologies.org/ont00002044> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#AccountAuthorizationRecord> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#Board> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#ClientStatisticalInformation> SubClassOf: bfo:0000002
@@ -8940,3 +8836,6 @@ Class: <https://signals360.example.org/sdg#hasEncoding> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#hasEnforcement> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#hasLabelText> SubClassOf: bfo:0000002
 Class: <https://signals360.example.org/sdg#publishes_journal> SubClassOf: bfo:0000002
+Class: <https://www.commoncoreontologies.org/BFO_0000034> SubClassOf: bfo:0000002
+Class: <https://www.commoncoreontologies.org/BFO_0000144> SubClassOf: bfo:0000002
+Class: <https://www.commoncoreontologies.org/BFO_0000202> SubClassOf: bfo:0000002
