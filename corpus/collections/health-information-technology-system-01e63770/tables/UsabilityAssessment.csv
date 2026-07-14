@@ -1,0 +1,5 @@
+assessmentId,assessmentID,assessmentDate,score,testSubjectGroup,isCompleted,systemId,participantId
+1,ASS-2784,2022-05-10T04:24:00,9.20,legacy-test-19,false,1,100
+2,ASS-2787,2023-10-21T11:41:00,13.40,compact-test-20,true,2,101
+3,ASS-2790,2024-03-05T18:58:00,17.60,composite-test-21,false,3,102
+4,ASS-2793,2025-08-16T01:15:00,21.80,primary-test-22,true,4,103

@@ -1,0 +1,128 @@
+{
+ "construct_id": "57ac3441937c5ee2",
+ "slug": "patient-57ac3441",
+ "passage": "57ac3441937c5ee2657abfcfb9d3e7a4e819aa667e51cfe390742158c3bf64de.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 9,
+ "entities": [
+  "Patient",
+  "ClinicalProfile",
+  "DialysisSession",
+  "NeuralNetworkModel",
+  "Facility"
+ ],
+ "terms": [
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ClinicalProfile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DialysisSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NeuralNetworkModel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "patient_id",
+    "age",
+    "sex",
+    "diagnosis",
+    "clinical_profile_id",
+    "session_id"
+   ]
+  },
+  {
+   "name": "clinical_profiles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "profile_id",
+    "urea",
+    "creatinine",
+    "potassium",
+    "sodium",
+    "calcium",
+    "phosphorus",
+    "uric_acid",
+    "patient_id",
+    "neural_network_model_id"
+   ]
+  },
+  {
+   "name": "dialysis_sessions",
+   "rows": 4,
+   "columns": [
+    "session_id",
+    "start_date",
+    "duration",
+    "status",
+    "patient_id",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "neural_network_models",
+   "rows": 4,
+   "columns": [
+    "id",
+    "model_id",
+    "architecture_type",
+    "accuracy",
+    "training_date",
+    "clinical_profile_id"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_id",
+    "name",
+    "type",
+    "location",
+    "session_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "models_patients",
+   "rows": 8,
+   "columns": [
+    "neural_network_model_id",
+    "patient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_patient_clinical_profile",
+  "v_patient_dialysis_session",
+  "v_clinical_profile_patient",
+  "v_clinical_profile_neural_network_model",
+  "v_dialysis_session_patient",
+  "v_dialysis_session_facility",
+  "v_neural_network_model_clinical_profile",
+  "v_neural_network_model_patient_detail",
+  "v_facility_dialysis_session"
+ ]
+}

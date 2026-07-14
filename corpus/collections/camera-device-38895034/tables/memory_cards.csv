@@ -1,0 +1,5 @@
+id,card_identifier,manufacturer,model_number,storage_capacity,write_speed,file_system_format,is_formatted,camera_device_id
+100,CAR-2285,Standard Chartered,MOD-2238,4.45,0.86331,pilot-file-14,false,1
+101,CAR-2287,General Motors,MOD-2244,7.90,41.0,extended-file-15,true,2
+102,CAR-2289,Column Name cannot be empty,MOD-2250,11.35,226.0,integrated-file-16,false,3
+103,CAR-2291,Financial Information Service Co. Ltd.,MOD-2256,14.80,0.98,seasonal-file-17,true,4

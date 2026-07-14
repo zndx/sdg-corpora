@@ -1,0 +1,5 @@
+id,researcher_identifier,full_legal_name,professional_title,military_rank,years_of_experience,specialization,research_award_id,research_organization_id,researcher_id,research_project_id
+1000,RES-2651,Integrated Framework A,Integrated Programme A,regional-military-60,7.95,legacy-speciali-13,1,100,1000,1
+1001,RES-2652,Extended Protocol,Extended Standard,legacy-military-61,11.90,compact-speciali-14,2,101,1001,2
+1002,RES-2653,Pilot Programme,Pilot Framework,compact-military-62,15.85,composite-speciali-15,3,102,1002,3
+1003,RES-2654,Baseline Standard D,Baseline Protocol D,composite-military-63,19.80,primary-speciali-16,4,103,1003,4

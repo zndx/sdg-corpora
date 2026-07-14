@@ -1,0 +1,238 @@
+{
+ "construct_id": "7bcf958f9bd3f7fd",
+ "slug": "school-division-7bcf958f",
+ "passage": "7bcf958f9bd3f7fd35c24c782d4975abc3abdf853393fcfb0bc8cd2f862bb52a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 16,
+ "entities": [
+  "SchoolDivision",
+  "Student",
+  "Course",
+  "FacultyMember",
+  "Diploma",
+  "DiplomaRequirement",
+  "ExtracurricularActivity"
+ ],
+ "terms": [
+  {
+   "name": "SchoolDivision",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Diploma",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DiplomaRequirement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ExtracurricularActivity",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "school_divisions",
+   "rows": 4,
+   "columns": [
+    "school_division_id",
+    "division_id",
+    "division_name",
+    "region",
+    "established_date",
+    "total_enrollment",
+    "district_type"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "grade_level",
+    "enrollment_status",
+    "gpa",
+    "is_honors_student",
+    "school_division_id",
+    "diploma_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "course_code",
+    "course_title",
+    "department",
+    "credits",
+    "is_verified",
+    "is_advanced",
+    "semester",
+    "faculty_member_id",
+    "prerequisite_of_course_id",
+    "diploma_requirement_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "faculty_id",
+    "first_name",
+    "last_name",
+    "department",
+    "years_of_experience",
+    "is_tenured",
+    "hire_date",
+    "created_at"
+   ]
+  },
+  {
+   "name": "diplomas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "diploma_id",
+    "issue_date",
+    "has_seal",
+    "total_credits_earned",
+    "is_advanced_studies",
+    "student_id"
+   ]
+  },
+  {
+   "name": "diploma_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requirement_id",
+    "description",
+    "minimum_credits",
+    "is_verified",
+    "regulation_code",
+    "diploma_id"
+   ]
+  },
+  {
+   "name": "extracurricular_activities",
+   "rows": 4,
+   "columns": [
+    "extracurricular_activity_id",
+    "activity_id",
+    "activity_name",
+    "category",
+    "is_competitive",
+    "season",
+    "school_division_id"
+   ]
+  },
+  {
+   "name": "divisions_students",
+   "rows": 8,
+   "columns": [
+    "school_division_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "students_courses",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "students_activities",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "extracurricular_activity_id"
+   ]
+  },
+  {
+   "name": "members_courses",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "members_students",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "diplomas_requirements",
+   "rows": 8,
+   "columns": [
+    "diploma_id",
+    "diploma_requirement_id"
+   ]
+  },
+  {
+   "name": "requirements_courses",
+   "rows": 8,
+   "columns": [
+    "diploma_requirement_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "activities_students",
+   "rows": 8,
+   "columns": [
+    "extracurricular_activity_id",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_school_division_student_detail",
+  "v_student_school_division",
+  "v_student_course_detail",
+  "v_student_extracurricular_activity_detail",
+  "v_student_diploma",
+  "v_course_faculty_member",
+  "v_course_course",
+  "v_course_diploma_requirement",
+  "v_faculty_member_course_detail",
+  "v_faculty_member_student_detail",
+  "v_diploma_student",
+  "v_diploma_diploma_requirement_detail",
+  "v_diploma_requirement_course_detail",
+  "v_diploma_requirement_diploma",
+  "v_extracurricular_activity_student_detail",
+  "v_extracurricular_activity_school_division"
+ ]
+}

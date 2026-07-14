@@ -1,0 +1,22 @@
+CREATE TABLE student_athletes (
+  student_id VARCHAR(32) NOT NULL,
+  full_name VARCHAR(36),
+  enrollment_status VARCHAR(32),
+  current_gpa DECIMAL,
+  cumulative_gpa DECIMAL,
+  semester_hours_earned INTEGER,
+  degree_program VARCHAR(32),
+  major_declared BOOLEAN,
+  semester_of_enrollment INTEGER,
+  compliance_coordinator_id INTEGER,
+  certifying_officer_id INTEGER,
+  head_coach_id INTEGER,
+  term_id VARCHAR(32),
+  degree_program_id INTEGER,
+  PRIMARY KEY (student_id),
+  FOREIGN KEY (compliance_coordinator_id) REFERENCES compliance_coordinators (id),
+  FOREIGN KEY (certifying_officer_id) REFERENCES certifying_officers (id),
+  FOREIGN KEY (head_coach_id) REFERENCES head_coaches (id),
+  FOREIGN KEY (term_id) REFERENCES academic_terms (term_id),
+  FOREIGN KEY (degree_program_id) REFERENCES degree_programs (degree_program_id)
+);

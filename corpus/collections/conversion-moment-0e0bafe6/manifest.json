@@ -1,0 +1,123 @@
+{
+ "construct_id": "0e0bafe6b9a87bc8",
+ "slug": "conversion-moment-0e0bafe6",
+ "passage": "0e0bafe6b9a87bc88cc02264f2a17478b5f8571908f9af2961dbd6d4ce0bd523.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "ConversionMoment",
+  "ScripturalReference",
+  "BiblicalCharacter",
+  "DivinePhysician",
+  "SpiritualNeed"
+ ],
+ "terms": [
+  {
+   "name": "ConversionMoment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ScripturalReference",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "BiblicalCharacter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DivinePhysician",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SpiritualNeed",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "conversion_moments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "moment_id",
+    "encounter_date",
+    "impact_description",
+    "response_action",
+    "is_dramatic",
+    "physician_id",
+    "reference_id"
+   ]
+  },
+  {
+   "name": "scriptural_references",
+   "rows": 4,
+   "columns": [
+    "reference_id",
+    "book_name",
+    "chapter_number",
+    "verse_start",
+    "verse_end",
+    "text_excerpt",
+    "biblical_character_id",
+    "conversion_moment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "biblical_characters",
+   "rows": 4,
+   "columns": [
+    "biblical_character_id",
+    "character_id",
+    "name",
+    "role",
+    "is_disciple",
+    "occupation",
+    "physician_id",
+    "reference_id"
+   ]
+  },
+  {
+   "name": "divine_physicians",
+   "rows": 4,
+   "columns": [
+    "physician_id",
+    "title",
+    "heals_spiritual_sickness",
+    "calls_all_men",
+    "conversion_moment_id",
+    "biblical_character_id"
+   ]
+  },
+  {
+   "name": "spiritual_needs",
+   "rows": 4,
+   "columns": [
+    "need_id",
+    "need_type",
+    "severity_level",
+    "is_addressed_by_physician",
+    "requires_conversion",
+    "physician_id",
+    "conversion_moment_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_conversion_moment_divine_physician",
+  "v_conversion_moment_scriptural_reference",
+  "v_scriptural_reference_biblical_character",
+  "v_scriptural_reference_conversion_moment",
+  "v_biblical_character_divine_physician",
+  "v_biblical_character_scriptural_reference",
+  "v_divine_physician_conversion_moment",
+  "v_divine_physician_biblical_character",
+  "v_spiritual_need_divine_physician",
+  "v_spiritual_need_conversion_moment"
+ ]
+}

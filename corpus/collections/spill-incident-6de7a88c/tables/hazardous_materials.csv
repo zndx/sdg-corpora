@@ -1,0 +1,5 @@
+id,material_id,material_type,estimated_quantity,unit_of_measure,onboard_quantity,spilled_quantity,removed_quantity,vessel_id,spill_incident_id
+1000,2839521,diesel,15.95,gallons,2.45,7.70,10.45,1,100
+1001,937739,hydraulic_oil,19.90,barrels,4.90,10.40,13.90,2,101
+1002,27cf9038-9bad-11eb-a8a2-19ed5c03f8d3,engine_lube_oil,23.85,gallons,7.35,13.10,17.35,3,102
+1003,7021001070070,gasoline,27.80,barrels,9.80,15.80,20.80,4,103

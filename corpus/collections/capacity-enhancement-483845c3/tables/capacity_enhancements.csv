@@ -1,0 +1,5 @@
+capacity_enhancement_id,planned_capacity_m_w,actual_capacity_m_w,planning_period,effective_date,status,manufacturing_facility_id,enterprise_id
+1000,8.45,18.20,seasonal-planning-89,2023-02-14,planned,1000,1
+1001,12.90,20.40,regional-planning-90,2024-07-25,in_progress,1001,2
+1002,17.35,22.60,legacy-planning-91,2025-12-09,complete,1002,3
+1003,21.80,24.80,compact-planning-92,2022-05-20,cancelled,1003,4

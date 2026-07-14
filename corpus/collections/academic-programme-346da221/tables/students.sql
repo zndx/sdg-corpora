@@ -1,0 +1,21 @@
+CREATE TABLE students (
+  id INTEGER NOT NULL,
+  student_id VARCHAR(32),
+  first_name VARCHAR(32),
+  last_name VARCHAR(32),
+  date_of_birth DATE,
+  gender VARCHAR(32),
+  enrollment_date TIMESTAMP,
+  expected_graduation_date DATE,
+  academic_standing VARCHAR(32),
+  contact_email VARCHAR(32),
+  contact_phone VARCHAR(32),
+  address VARCHAR(32),
+  emergency_contact_name VARCHAR(32),
+  emergency_contact_phone VARCHAR(32),
+  academic_programme_id INTEGER,
+  faculty_member_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (academic_programme_id) REFERENCES academic_programmes (id),
+  FOREIGN KEY (faculty_member_id) REFERENCES faculty_members (faculty_member_id)
+);

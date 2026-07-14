@@ -1,0 +1,5 @@
+id,part_number,base_part_number,suffix,case_style,marking_style,is_ro_hs_compliant,is_high_reliability,screening_standard,electrical_specification_id,mechanical_specification_id,electrical_rating_id
+100,PAR-2291,BAS-2332,integrated-suffix-58,composite-case-45,integrated-marking-64,false,true,adaptive-screenin-83,1,1,1
+101,PAR-2297,BAS-2336,seasonal-suffix-59,primary-case-46,seasonal-marking-65,true,false,distributed-screenin-84,2,2,2
+102,PAR-2303,BAS-2340,regional-suffix-60,adaptive-case-47,regional-marking-66,false,true,baseline-screenin-85,3,3,3
+103,PAR-2309,BAS-2344,legacy-suffix-61,distributed-case-48,legacy-marking-67,true,false,pilot-screenin-86,4,4,4

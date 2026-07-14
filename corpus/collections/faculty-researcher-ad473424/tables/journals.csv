@@ -1,0 +1,5 @@
+journal_id,journal_name,issn,is_international,impact_factor,publication_id
+1000,Extended Standard,regional-issn-30,false,4.70,1
+1001,Pilot Framework A,legacy-issn-31,true,9.40,2
+1002,Baseline Protocol,compact-issn-32,false,14.10,3
+1003,Distributed Programme,composite-issn-33,true,18.80,4

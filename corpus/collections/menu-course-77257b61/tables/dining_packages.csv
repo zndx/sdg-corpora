@@ -1,0 +1,5 @@
+dining_package_id,package_identifier,package_name,total_price,course_count,includes_beverage,package_status,beverage_id
+1,PAC-2606,Legacy Standard D,43.48,12,true,Available,100
+2,PAC-2611,Regional Framework,25.36,7,false,Unavailable,101
+3,PAC-2616,Seasonal Protocol,16.11,12,true,Seasonal,102
+4,PAC-2621,Integrated Programme A,14.31,13,false,Available,103

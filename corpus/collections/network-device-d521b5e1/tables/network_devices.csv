@@ -1,0 +1,5 @@
+network_device_id,device_id,device_type,ip_address,firmware_version,status,last_heartbeat,service_level_agreement_id,performance_metric_id
+100,3744015,router,extended-ip-15,distributed-firmware-48,active,2022-09-07T20:36:00,100,100
+101,392495,switch,integrated-ip-16,baseline-firmware-49,inactive,2023-02-18T03:53:00,101,101
+102,209205,firewall,seasonal-ip-17,pilot-firmware-50,maintenance,2024-07-02T10:10:00,102,102
+103,22106999,server,regional-ip-18,extended-firmware-51,active,2025-12-13T17:27:00,103,103

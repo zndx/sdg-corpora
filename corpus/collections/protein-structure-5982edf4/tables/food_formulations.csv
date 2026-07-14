@@ -1,0 +1,5 @@
+id,formulation_id,product_code,colorant_source,concentration,ph_level,shelf_life,regulatory_status,small_molecule_id,food_industry_application_id,created_at,updated_at
+1,lu_tax_code_template_m12,PRO-2675,regional-colorant-96,7.70,11.70,28,adaptive-regulato-17,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,9736908,PRO-2681,legacy-colorant-97,11.40,16.40,34,distributed-regulato-18,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,392481,PRO-2687,compact-colorant-98,15.10,21.10,40,baseline-regulato-19,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,505985,PRO-2693,composite-colorant-99,18.80,25.80,46,pilot-regulato-20,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

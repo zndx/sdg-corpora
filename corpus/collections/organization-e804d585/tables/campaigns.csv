@@ -1,0 +1,5 @@
+campaign_id,campaign_name,candidate_name,office_sought,ballot_question,status,gambling_fund_id,regulatory_statute_id,created_at,updated_at
+1,Compact Framework,Composite Series,integrated-office-52,distributed-ballot-96,active,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Legacy Protocol,Compact Assessment A,seasonal-office-53,baseline-ballot-97,inactive,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Regional Programme A,Legacy Survey,regional-office-54,pilot-ballot-98,completed,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Seasonal Standard,Regional Corridor,legacy-office-55,extended-ballot-99,active,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

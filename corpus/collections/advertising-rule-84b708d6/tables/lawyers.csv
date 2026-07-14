@@ -1,0 +1,5 @@
+id,bar_membership_number,lawyer_name,firm_name,office_location,certification_status,is_outof_state,practice_areas,lawyer_id,advertisement_id,provides_referral_to_lawyer_id
+100,BAR-2764,Baseline Model D,Legacy Review D,composite-office-99,board_certified,false,legacy-practice-43,100,1,100
+101,BAR-2766,Distributed Cluster,Regional Initiative,primary-office-100,specialist,true,compact-practice-44,101,2,101
+102,BAR-2768,Adaptive Review,Seasonal Model,adaptive-office-101,expert,false,composite-practice-45,102,3,102
+103,BAR-2770,Primary Initiative A,Integrated Cluster A,distributed-office-102,not_certified,true,primary-practice-46,103,4,103

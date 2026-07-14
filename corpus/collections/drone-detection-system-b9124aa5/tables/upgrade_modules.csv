@@ -1,0 +1,5 @@
+module_serial_number,firmware_version,encryption_standard,authentication_status,session_key,compatibility_status,drone_detection_system_id,manufacturer_server_id
+e604b688-8fd1-11eb-924d-9cd76263cbd0,distributed-firmware-48,pilot-encrypti-26,pending,SES-2026,compatible,100,1
+8189475,baseline-firmware-49,extended-encrypti-27,authenticated,SES-2031,incompatible,101,2
+5082969,pilot-firmware-50,integrated-encrypti-28,failed,SES-2036,unknown,102,3
+1562833,extended-firmware-51,seasonal-encrypti-29,pending,SES-2041,compatible,103,4

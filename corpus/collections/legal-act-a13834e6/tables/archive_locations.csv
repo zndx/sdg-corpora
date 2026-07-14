@@ -1,0 +1,5 @@
+id,location_identifier,location_name,city,country,access_policy,document_id,archive_location_id
+1000,LOC-2721,Legacy Review D,integrated-city-34,compact-country-26,open,1,1000
+1001,LOC-2726,Regional Initiative,seasonal-city-35,composite-country-27,restricted,2,1001
+1002,LOC-2731,Seasonal Model,regional-city-36,primary-country-28,confidential,3,1002
+1003,LOC-2736,Integrated Cluster A,legacy-city-37,adaptive-country-29,open,4,1003

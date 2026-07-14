@@ -1,0 +1,5 @@
+id,eventId,disclosureDate,disclosureMethod,disclosureOutcome,patientId,recipientId
+1,2002007020060,2025-08-02T19:33:00,composite-disclosu-69,pilot-disclosu-50,1,1
+2,168535,2022-01-13T02:50:00,primary-disclosu-70,extended-disclosu-51,2,2
+3,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,2023-06-24T09:07:00,adaptive-disclosu-71,integrated-disclosu-52,3,3
+4,1186089,2024-11-08T16:24:00,distributed-disclosu-72,seasonal-disclosu-53,4,4

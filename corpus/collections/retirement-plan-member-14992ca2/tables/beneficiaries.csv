@@ -1,0 +1,5 @@
+id,beneficiary_id,full_name,relationship,ssn,date_of_birth,address,telephone,email_address,beneficiary_type,member_id,benefit_option_id
+100,325448,Theodore Mcgrath,baseline-relation-67,legacy-ssn-43,2025-04-02,distributed-address-72,adaptive-telephon-23,primary-email-70,Primary,10207158,1
+101,7731875,Account Name,pilot-relation-68,compact-ssn-44,2022-09-13,baseline-address-73,distributed-telephon-24,adaptive-email-71,Secondary,10207158,2
+102,4447008,Saipan International Airport,extended-relation-69,composite-ssn-45,2023-02-24,pilot-address-74,baseline-telephon-25,distributed-email-72,Primary,25820616,3
+103,39800616,Norma Fisher,integrated-relation-70,primary-ssn-46,2024-07-08,extended-address-75,pilot-telephon-26,baseline-email-73,Secondary,2002007020250,4

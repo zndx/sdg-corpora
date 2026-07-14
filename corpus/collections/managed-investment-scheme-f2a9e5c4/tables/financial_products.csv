@@ -1,0 +1,5 @@
+product_id,product_type,issue_price,management_fee,risk_rating,managed_investment_scheme_id,product_disclosure_statement_id
+PRO-2172,unit,30.51,0.85,low,1,1
+PRO-2179,share,12.72,12.72,medium,2,2
+PRO-2186,bond,43.48,4.59,high,3,3
+PRO-2193,derivative,22.35,3.75,low,4,4

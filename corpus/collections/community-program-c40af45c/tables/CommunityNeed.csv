@@ -1,0 +1,5 @@
+needId,needIdentifier,needDescription,severityLevel,targetPopulation,geographicScope
+1,NEE-2502,Baseline Series D,low,composite-target-21,distributed-geograph-78
+2,NEE-2506,Distributed Assessment,medium,primary-target-22,baseline-geograph-79
+3,NEE-2510,Adaptive Survey,high,adaptive-target-23,pilot-geograph-80
+4,NEE-2514,Primary Corridor A,critical,distributed-target-24,extended-geograph-81

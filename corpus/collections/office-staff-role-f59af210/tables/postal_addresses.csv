@@ -1,0 +1,5 @@
+id,building_code,room_number,street_address,is_mail_pickup_location,mail_sort_deadline,document_id
+100,3990162,ROO-2106,composite-street-15,true,2023-10-10T21:51:00,1
+101,5082972,ROO-2113,primary-street-16,false,2024-03-21T04:08:00,2
+102,9125624,ROO-2120,adaptive-street-17,true,2025-08-05T11:25:00,3
+103,10445626,ROO-2127,distributed-street-18,false,2022-01-16T18:42:00,4

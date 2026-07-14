@@ -1,0 +1,5 @@
+budget_line_item_id,line_item_id,category_name,allocated_amount,currency_code,approval_status,budget_submission_id,division_id
+1000,LIN-2645,Legacy Programme D,261.79,gd_fp_eu_acc3,pending,100,89512
+1001,LIN-2652,Regional Standard,19.72,managing-resources,approved,101,10207146
+1002,LIN-2659,Seasonal Framework,47.66,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,rejected,102,212
+1003,LIN-2666,Integrated Protocol A,16.11,10445649,pending,103,id_14

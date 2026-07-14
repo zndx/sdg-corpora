@@ -1,0 +1,242 @@
+{
+ "construct_id": "260d8e825e09765c",
+ "slug": "student-athlete-260d8e82",
+ "passage": "260d8e825e09765ce614386f82c859584d0e26ff39ce617392727946df48d156.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 22,
+ "entities": [
+  "StudentAthlete",
+  "ComplianceCoordinator",
+  "CertifyingOfficer",
+  "HeadCoach",
+  "AcademicTerm",
+  "CreditHourRequirement",
+  "DegreeProgram"
+ ],
+ "terms": [
+  {
+   "name": "StudentAthlete",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ComplianceCoordinator",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CertifyingOfficer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HeadCoach",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicTerm",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CreditHourRequirement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DegreeProgram",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "student_athletes",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "enrollment_status",
+    "current_gpa",
+    "cumulative_gpa",
+    "semester_hours_earned",
+    "degree_program",
+    "major_declared",
+    "semester_of_enrollment",
+    "compliance_coordinator_id",
+    "certifying_officer_id",
+    "head_coach_id",
+    "term_id",
+    "degree_program_id"
+   ]
+  },
+  {
+   "name": "compliance_coordinators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "department",
+    "contact_email",
+    "last_audit_date",
+    "head_coach_id"
+   ]
+  },
+  {
+   "name": "certifying_officers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "office",
+    "contact_email",
+    "head_coach_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "head_coaches",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "sport",
+    "team_name",
+    "contact_email",
+    "compliance_coordinator_id",
+    "certifying_officer_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "academic_terms",
+   "rows": 4,
+   "columns": [
+    "term_id",
+    "term_name",
+    "start_date",
+    "end_date",
+    "semester_hours_required",
+    "term_type",
+    "credit_hour_requirement_id"
+   ]
+  },
+  {
+   "name": "credit_hour_requirements",
+   "rows": 4,
+   "columns": [
+    "credit_hour_requirement_id",
+    "requirement_id",
+    "credit_hours_required",
+    "requirement_type",
+    "deadline_date",
+    "status",
+    "certifying_officer_id",
+    "compliance_coordinator_id",
+    "term_id"
+   ]
+  },
+  {
+   "name": "degree_programs",
+   "rows": 4,
+   "columns": [
+    "degree_program_id",
+    "program_id",
+    "program_name",
+    "total_credits_required",
+    "major_required",
+    "declaration_deadline"
+   ]
+  },
+  {
+   "name": "coordinators_athletes",
+   "rows": 8,
+   "columns": [
+    "compliance_coordinator_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "coordinators_requirements",
+   "rows": 8,
+   "columns": [
+    "compliance_coordinator_id",
+    "credit_hour_requirement_id"
+   ]
+  },
+  {
+   "name": "officers_requirements",
+   "rows": 8,
+   "columns": [
+    "certifying_officer_id",
+    "credit_hour_requirement_id"
+   ]
+  },
+  {
+   "name": "coaches_athletes",
+   "rows": 8,
+   "columns": [
+    "head_coach_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "terms_athletes",
+   "rows": 8,
+   "columns": [
+    "term_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "requirements_athletes",
+   "rows": 8,
+   "columns": [
+    "credit_hour_requirement_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "programs_athletes",
+   "rows": 8,
+   "columns": [
+    "degree_program_id",
+    "student_athlete_student_id"
+   ]
+  },
+  {
+   "name": "programs_requirements",
+   "rows": 8,
+   "columns": [
+    "degree_program_id",
+    "credit_hour_requirement_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_athlete_compliance_coordinator",
+  "v_student_athlete_certifying_officer",
+  "v_student_athlete_head_coach",
+  "v_student_athlete_academic_term",
+  "v_student_athlete_degree_program",
+  "v_compliance_coordinator_student_athlete_detail",
+  "v_compliance_coordinator_credit_hour_requirement_detail",
+  "v_compliance_coordinator_head_coach",
+  "v_certifying_officer_credit_hour_requirement_detail",
+  "v_certifying_officer_head_coach",
+  "v_certifying_officer_student_athlete",
+  "v_head_coach_student_athlete_detail",
+  "v_head_coach_compliance_coordinator",
+  "v_head_coach_certifying_officer",
+  "v_academic_term_student_athlete_detail",
+  "v_academic_term_credit_hour_requirement",
+  "v_credit_hour_requirement_student_athlete_detail",
+  "v_credit_hour_requirement_certifying_officer",
+  "v_credit_hour_requirement_compliance_coordinator",
+  "v_credit_hour_requirement_academic_term",
+  "v_degree_program_student_athlete_detail",
+  "v_degree_program_credit_hour_requirement_detail"
+ ]
+}

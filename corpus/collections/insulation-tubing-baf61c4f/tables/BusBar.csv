@@ -1,0 +1,5 @@
+id,barType,crossSectionWidth,crossSectionHeight,nominalDiameter,voltageRating,material,tubingId,assemblyId
+1,rectangular,0.6,0.52580792,12.95,6.70,primary-material-94,1000,1
+2,round,0.99,0.7,15.90,10.40,adaptive-material-95,1001,2
+3,rectangular,0.69,1.8,18.85,14.10,distributed-material-96,1002,3
+4,round,1.57,0.6000001,21.80,17.80,baseline-material-97,1003,4

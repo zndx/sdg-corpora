@@ -1,0 +1,129 @@
+{
+ "construct_id": "3e02e3e60e53504f",
+ "slug": "administrative-unit-3e02e3e6",
+ "passage": "3e02e3e60e53504f7d7351def03935a2ff33631de6842e961f4cba5cce5a1d49.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "AdministrativeUnit",
+  "AdministrativeRole",
+  "Person",
+  "ServiceFunction",
+  "StakeholderGroup"
+ ],
+ "terms": [
+  {
+   "name": "AdministrativeUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdministrativeRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ServiceFunction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StakeholderGroup",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "administrative_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_id",
+    "unit_name",
+    "unit_type",
+    "established_date",
+    "is_shared_service",
+    "jurisdiction_scope",
+    "role_id",
+    "stakeholder_group_id",
+    "administrative_unit_id"
+   ]
+  },
+  {
+   "name": "administrative_roles",
+   "rows": 4,
+   "columns": [
+    "role_id",
+    "role_title",
+    "role_level",
+    "appointment_date",
+    "is_chief_of_staff",
+    "is_chief_resilience_officer",
+    "person_id",
+    "administrative_unit_id",
+    "oversees_administrative_unit_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "first_name",
+    "last_name",
+    "email_address",
+    "employment_status",
+    "hire_date",
+    "role_id",
+    "reports_to_person_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "service_functions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "function_id",
+    "function_name",
+    "function_category",
+    "is_core_function",
+    "service_level",
+    "administrative_unit_id",
+    "stakeholder_group_id"
+   ]
+  },
+  {
+   "name": "stakeholder_groups",
+   "rows": 4,
+   "columns": [
+    "id",
+    "group_code",
+    "group_name",
+    "group_type",
+    "is_eligible_for_services",
+    "service_function_id",
+    "administrative_unit_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_administrative_unit_administrative_role",
+  "vw_administrative_unit_stakeholder_group",
+  "vw_administrative_unit_administrative_unit",
+  "vw_administrative_role_person",
+  "vw_administrative_role_administrative_unit",
+  "vw_person_administrative_role",
+  "vw_person_person",
+  "vw_service_function_administrative_unit",
+  "vw_service_function_stakeholder_group",
+  "vw_stakeholder_group_service_function",
+  "vw_stakeholder_group_administrative_unit"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "construct_id": "913b789cfd4688cc",
+ "slug": "shooting-event-913b789c",
+ "passage": "913b789cfd4688cc180023dadc7b1c3bd5e96cb1d0592ceb6cbb690e0d76bb6d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 8,
+ "entities": [
+  "ShootingEvent",
+  "Shooter",
+  "NationalTeam",
+  "Championship",
+  "Location"
+ ],
+ "terms": [
+  {
+   "name": "ShootingEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Shooter",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NationalTeam",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Championship",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "shooting_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_code",
+    "gender_category",
+    "qualification_score",
+    "final_score",
+    "final_rank",
+    "medal_awarded",
+    "championship_edition_number"
+   ]
+  },
+  {
+   "name": "shooters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shooter_id",
+    "full_name",
+    "nationality",
+    "is_olympic_champion",
+    "national_team_id"
+   ]
+  },
+  {
+   "name": "national_teams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "team_code",
+    "country_name",
+    "total_score",
+    "team_rank",
+    "team_medal",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "championships",
+   "rows": 4,
+   "columns": [
+    "championship_name",
+    "edition_number",
+    "host_city",
+    "host_country",
+    "start_date",
+    "end_date",
+    "location_id"
+   ]
+  },
+  {
+   "name": "locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "city_name",
+    "country_name"
+   ]
+  },
+  {
+   "name": "events_shooters",
+   "rows": 8,
+   "columns": [
+    "shooting_event_id",
+    "shooter_id"
+   ]
+  },
+  {
+   "name": "shooters_events",
+   "rows": 8,
+   "columns": [
+    "shooter_id",
+    "shooting_event_id"
+   ]
+  },
+  {
+   "name": "teams_events",
+   "rows": 8,
+   "columns": [
+    "national_team_id",
+    "shooting_event_id"
+   ]
+  },
+  {
+   "name": "teams_shooters",
+   "rows": 8,
+   "columns": [
+    "national_team_id",
+    "shooter_id"
+   ]
+  },
+  {
+   "name": "championships_events",
+   "rows": 8,
+   "columns": [
+    "championship_edition_number",
+    "shooting_event_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_shooting_event_shooter_detail",
+  "vw_shooting_event_championship",
+  "vw_shooter_shooting_event_detail",
+  "vw_shooter_national_team",
+  "vw_national_team_shooting_event_detail",
+  "vw_national_team_shooter_detail",
+  "vw_championship_shooting_event_detail",
+  "vw_championship_location"
+ ]
+}

@@ -1,0 +1,22 @@
+CREATE TABLE StudentEnrolment (
+  enrolmentId INTEGER NOT NULL,
+  studentId VARCHAR(32),
+  dateOfBirth DATE,
+  gender VARCHAR(32),
+  attendanceRate DECIMAL,
+  persistentAbsence BOOLEAN,
+  ehcPlan BOOLEAN,
+  ehcPlanId INTEGER,
+  currentYearGroup INTEGER,
+  isSixthForm BOOLEAN,
+  siteId INTEGER,
+  programmeId INTEGER,
+  outcomeId INTEGER,
+  memberId INTEGER,
+  createdAt TIMESTAMP,
+  PRIMARY KEY (enrolmentId),
+  FOREIGN KEY (siteId) REFERENCES SchoolSite (id),
+  FOREIGN KEY (programmeId) REFERENCES CurriculumProgramme (programmeId),
+  FOREIGN KEY (outcomeId) REFERENCES StudentOutcome (id),
+  FOREIGN KEY (memberId) REFERENCES StaffMember (id)
+);

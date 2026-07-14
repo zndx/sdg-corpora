@@ -1,0 +1,141 @@
+{
+ "construct_id": "a9314e2712607507",
+ "slug": "security-software-package-a9314e27",
+ "passage": "a9314e2712607507cf06ab585917ce693268e76a40784eb297bfb24b3a62b792.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "SecuritySoftwarePackage",
+  "HardwareScannerDevice",
+  "OfficialIdentificationDocument",
+  "ExtractedPersonalDataRecord",
+  "OpticalCharacterRecognitionEngine"
+ ],
+ "terms": [
+  {
+   "name": "SecuritySoftwarePackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HardwareScannerDevice",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OfficialIdentificationDocument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExtractedPersonalDataRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OpticalCharacterRecognitionEngine",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "security_software_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_identifier",
+    "product_name",
+    "retail_price",
+    "supported_operating_system",
+    "currency_code",
+    "compatibility_status",
+    "hardware_scanner_device_id",
+    "optical_character_recognition_engine_id"
+   ]
+  },
+  {
+   "name": "hardware_scanner_devices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_model_name",
+    "camera_resolution_megapixels",
+    "maximum_scanning_size",
+    "power_source_type",
+    "interface_type",
+    "retail_price",
+    "currency_code",
+    "has_external_button",
+    "has_barcode_scanner",
+    "security_software_package_id",
+    "official_identification_document_id"
+   ]
+  },
+  {
+   "name": "official_identification_documents",
+   "rows": 4,
+   "columns": [
+    "official_identification_document_id",
+    "document_type",
+    "issuing_country_code",
+    "document_number",
+    "m_r_z_line1",
+    "m_r_z_line2",
+    "m_r_z_recognition_status",
+    "extraction_timestamp",
+    "extracted_personal_data_record_id",
+    "hardware_scanner_device_id"
+   ]
+  },
+  {
+   "name": "extracted_personal_data_records",
+   "rows": 4,
+   "columns": [
+    "extracted_personal_data_record_id",
+    "record_identifier",
+    "extraction_method",
+    "source_language_code",
+    "output_format",
+    "data_archive_status",
+    "extraction_timestamp",
+    "official_identification_document_id",
+    "optical_character_recognition_engine_id"
+   ]
+  },
+  {
+   "name": "optical_character_recognition_engines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "engine_version",
+    "supported_language_count",
+    "recognition_accuracy",
+    "processing_speed",
+    "award_status",
+    "official_identification_document_id",
+    "extracted_personal_data_record_id"
+   ]
+  },
+  {
+   "name": "packages_documents",
+   "rows": 8,
+   "columns": [
+    "security_software_package_id",
+    "official_identification_document_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_security_software_package_hardware_scanner_device",
+  "v_security_software_package_optical_character_recognition_engine",
+  "v_security_software_package_official_identification_document_detail",
+  "v_hardware_scanner_device_security_software_package",
+  "v_hardware_scanner_device_official_identification_document",
+  "v_official_identification_document_extracted_personal_data_record",
+  "v_official_identification_document_hardware_scanner_device",
+  "v_extracted_personal_data_record_official_identification_document",
+  "v_extracted_personal_data_record_optical_character_recognition_engine",
+  "v_optical_character_recognition_engine_official_identification_document",
+  "v_optical_character_recognition_engine_extracted_personal_data_record"
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "construct_id": "dae994c831083f04",
+ "slug": "gaulish-tribe-dae994c8",
+ "passage": "dae994c831083f0422e9dd082593536723f48587bb873e5ee57ca869422fde0c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "GaulishTribe",
+  "SettlementArea",
+  "Toponym",
+  "AncientInscription",
+  "WritingSystem",
+  "LinguisticRoot"
+ ],
+ "terms": [
+  {
+   "name": "GaulishTribe",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SettlementArea",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Toponym",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AncientInscription",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WritingSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LinguisticRoot",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "gaulish_tribes",
+   "rows": 4,
+   "columns": [
+    "gaulish_tribe_id",
+    "tribe_name",
+    "primary_occupation",
+    "settlement_region",
+    "ethnicity",
+    "is_celtic",
+    "settlement_area_id",
+    "ancient_inscription_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "settlement_areas",
+   "rows": 4,
+   "columns": [
+    "settlement_area_id",
+    "region_name",
+    "geographic_coordinates",
+    "historical_period",
+    "is_coastal",
+    "gaulish_tribe_id",
+    "toponym_id"
+   ]
+  },
+  {
+   "name": "toponyms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "place_name",
+    "etymological_root",
+    "linguistic_family",
+    "location_reference",
+    "confidence_score",
+    "settlement_area_id",
+    "linguistic_root_id"
+   ]
+  },
+  {
+   "name": "ancient_inscriptions",
+   "rows": 4,
+   "columns": [
+    "ancient_inscription_id",
+    "inscription_i_d",
+    "script_type",
+    "discovery_location",
+    "date_discovered",
+    "deciphered_text",
+    "linguistic_interpretation",
+    "settlement_area_id",
+    "gaulish_tribe_id",
+    "writing_system_id"
+   ]
+  },
+  {
+   "name": "writing_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_name",
+    "origin_region",
+    "usage_period",
+    "is_alphabetic",
+    "gaulish_tribe_id",
+    "ancient_inscription_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "linguistic_roots",
+   "rows": 4,
+   "columns": [
+    "id",
+    "root_word",
+    "meaning",
+    "source_language",
+    "semantic_field",
+    "toponym_id",
+    "gaulish_tribe_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_gaulish_tribe_settlement_area",
+  "v_gaulish_tribe_ancient_inscription",
+  "v_settlement_area_gaulish_tribe",
+  "v_settlement_area_toponym",
+  "v_toponym_settlement_area",
+  "v_toponym_linguistic_root",
+  "v_ancient_inscription_settlement_area",
+  "v_ancient_inscription_gaulish_tribe",
+  "v_ancient_inscription_writing_system",
+  "v_writing_system_gaulish_tribe",
+  "v_writing_system_ancient_inscription",
+  "v_linguistic_root_toponym",
+  "v_linguistic_root_gaulish_tribe"
+ ]
+}

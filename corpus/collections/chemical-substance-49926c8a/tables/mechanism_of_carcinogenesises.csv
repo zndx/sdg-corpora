@@ -1,0 +1,5 @@
+id,mechanism_id,mechanism_name,is_necessary_step,is_sufficient_step,observed_in_species,biological_response,chemical_substance_id,receptor_id,carcinogenicity_assessment_id
+100,2106718,Ah receptor binding,false,false,human,changes in gene expression,1,790471,1
+101,9085252,gene expression changes,true,true,rodent,altered metabolism,2,3001009030190,2
+102,2935,altered metabolism,false,false,human,altered cell growth and differentiation,3,3717630,3
+103,TERIMA,altered cell growth,true,true,rodent,disruption of steroid-hormone and growth-factor signal-transduction pathways,4,1250200,4

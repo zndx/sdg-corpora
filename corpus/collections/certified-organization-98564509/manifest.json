@@ -1,0 +1,142 @@
+{
+ "construct_id": "98564509a7674806",
+ "slug": "certified-organization-98564509",
+ "passage": "98564509a7674806dd8faabe829fd597a85f6df1f41922635075d3f7608fb73e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "CertifiedOrganization",
+  "CertificationBody",
+  "CertificationRecord",
+  "ManagementStandard",
+  "Auditor",
+  "ApprovalHistory"
+ ],
+ "terms": [
+  {
+   "name": "CertifiedOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CertificationBody",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CertificationRecord",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ManagementStandard",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Auditor",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ApprovalHistory",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "certified_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "street_address",
+    "postal_code",
+    "city",
+    "country",
+    "registration_number",
+    "certification_body_id",
+    "certification_record_certificate_identity_number"
+   ]
+  },
+  {
+   "name": "certification_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_name",
+    "accreditation_code",
+    "jurisdiction",
+    "certified_organization_id",
+    "certification_record_certificate_identity_number"
+   ]
+  },
+  {
+   "name": "certification_records",
+   "rows": 4,
+   "columns": [
+    "certificate_identity_number",
+    "approval_number",
+    "current_issue_date",
+    "expiry_date",
+    "scope_description",
+    "status",
+    "certified_organization_id",
+    "management_standard_id",
+    "certification_body_id",
+    "auditor_id",
+    "certification_record_certificate_identity_number"
+   ]
+  },
+  {
+   "name": "management_standards",
+   "rows": 4,
+   "columns": [
+    "management_standard_id",
+    "standard_identifier",
+    "standard_version",
+    "issuing_organization",
+    "certification_record_certificate_identity_number"
+   ]
+  },
+  {
+   "name": "auditors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "auditor_name",
+    "auditor_title",
+    "region",
+    "certification_record_certificate_identity_number",
+    "certification_body_id"
+   ]
+  },
+  {
+   "name": "approval_histories",
+   "rows": 4,
+   "columns": [
+    "approval_history_id",
+    "original_approval_date",
+    "historical_approval_number",
+    "historical_standard",
+    "certified_organization_id",
+    "management_standard_id"
+   ]
+  }
+ ],
+ "views": [
+  "certified_organization_certification_body_view",
+  "certified_organization_certification_record_view",
+  "certification_body_certified_organization_view",
+  "certification_body_certification_record_view",
+  "certification_record_certified_organization_view",
+  "certification_record_management_standard_view",
+  "certification_record_certification_body_view",
+  "certification_record_auditor_view",
+  "certification_record_certification_record_view",
+  "management_standard_certification_record_view",
+  "auditor_certification_record_view",
+  "auditor_certification_body_view",
+  "approval_history_certified_organization_view",
+  "approval_history_management_standard_view"
+ ]
+}

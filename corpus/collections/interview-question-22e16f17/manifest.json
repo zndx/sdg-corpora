@@ -1,0 +1,218 @@
+{
+ "construct_id": "22e16f174d228a7d",
+ "slug": "interview-question-22e16f17",
+ "passage": "22e16f174d228a7db06b6afdb1dad5853cee9444e1b8206ffb9da92de93e2956.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 16,
+ "entities": [
+  "InterviewQuestion",
+  "JobRole",
+  "HiringProcess",
+  "CandidateResponse",
+  "Competency",
+  "Interviewer"
+ ],
+ "terms": [
+  {
+   "name": "InterviewQuestion",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "JobRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "HiringProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CandidateResponse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Competency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Interviewer",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "interview_questions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "question_id",
+    "question_text",
+    "category",
+    "is_panel_question",
+    "is_behavioral",
+    "priority_level",
+    "role_code",
+    "hiring_process_id",
+    "candidate_response_id"
+   ]
+  },
+  {
+   "name": "job_roles",
+   "rows": 4,
+   "columns": [
+    "role_code",
+    "role_title",
+    "department",
+    "level",
+    "is_leadership_role",
+    "required_skills"
+   ]
+  },
+  {
+   "name": "hiring_processes",
+   "rows": 4,
+   "columns": [
+    "hiring_process_id",
+    "process_id",
+    "start_date",
+    "end_date",
+    "status",
+    "interview_format",
+    "total_candidates",
+    "role_code"
+   ]
+  },
+  {
+   "name": "candidate_responses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "response_id",
+    "response_text",
+    "uses_s_t_a_r_method",
+    "competency_demonstrated",
+    "rating_score",
+    "submitted_at",
+    "interview_question_id",
+    "hiring_process_id"
+   ]
+  },
+  {
+   "name": "competencies",
+   "rows": 4,
+   "columns": [
+    "competency_id",
+    "competency_name",
+    "category",
+    "proficiency_level",
+    "assessment_criteria"
+   ]
+  },
+  {
+   "name": "interviewers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "interviewer_id",
+    "interviewer_name",
+    "department",
+    "role",
+    "years_experience",
+    "role_code"
+   ]
+  },
+  {
+   "name": "roles_questions",
+   "rows": 8,
+   "columns": [
+    "role_code",
+    "interview_question_id"
+   ]
+  },
+  {
+   "name": "roles_competencies",
+   "rows": 8,
+   "columns": [
+    "role_code",
+    "competency_id"
+   ]
+  },
+  {
+   "name": "processes_questions",
+   "rows": 8,
+   "columns": [
+    "hiring_process_id",
+    "interview_question_id"
+   ]
+  },
+  {
+   "name": "processes_interviewers",
+   "rows": 8,
+   "columns": [
+    "hiring_process_id",
+    "interviewer_id"
+   ]
+  },
+  {
+   "name": "competencies_questions",
+   "rows": 8,
+   "columns": [
+    "competency_id",
+    "interview_question_id"
+   ]
+  },
+  {
+   "name": "competencies_roles",
+   "rows": 8,
+   "columns": [
+    "competency_id",
+    "role_code"
+   ]
+  },
+  {
+   "name": "competencies_responses",
+   "rows": 8,
+   "columns": [
+    "competency_id",
+    "candidate_response_id"
+   ]
+  },
+  {
+   "name": "interviewers_processes",
+   "rows": 8,
+   "columns": [
+    "interviewer_id",
+    "hiring_process_id"
+   ]
+  },
+  {
+   "name": "interviewers_questions",
+   "rows": 8,
+   "columns": [
+    "interviewer_id",
+    "interview_question_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_interview_question_job_role",
+  "v_interview_question_hiring_process",
+  "v_interview_question_candidate_response",
+  "v_job_role_interview_question_detail",
+  "v_job_role_competency_detail",
+  "v_hiring_process_job_role",
+  "v_hiring_process_interview_question_detail",
+  "v_hiring_process_interviewer_detail",
+  "v_candidate_response_interview_question",
+  "v_candidate_response_hiring_process",
+  "v_competency_interview_question_detail",
+  "v_competency_job_role_detail",
+  "v_competency_candidate_response_detail",
+  "v_interviewer_hiring_process_detail",
+  "v_interviewer_job_role",
+  "v_interviewer_interview_question_detail"
+ ]
+}

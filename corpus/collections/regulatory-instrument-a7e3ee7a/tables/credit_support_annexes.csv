@@ -1,0 +1,5 @@
+credit_support_annex_id,csa_identifier,netting_set,amendment_status,effective_date,termination_date,netting_agreement_id,regulatory_instrument_id
+100,CSA-2141,legacy,original,2023-02-14T13:27:00,2022-09-11T20:24:00,1000,100
+101,CSA-2142,new trades,amended,2024-07-25T20:44:00,2023-02-22T03:41:00,1001,101
+102,CSA-2143,custom,pending amendment,2025-12-09T03:01:00,2024-07-06T10:58:00,1002,102
+103,CSA-2144,legacy,original,2022-05-20T10:18:00,2025-12-17T17:15:00,1003,103

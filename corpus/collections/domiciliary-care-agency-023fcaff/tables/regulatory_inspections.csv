@@ -1,0 +1,5 @@
+regulatory_inspection_id,inspection_id,inspection_date,publication_date,notice_period,inspection_type,overall_compliance_status,domiciliary_care_agency_id,service_rating_id
+1000,BJanecke,2025-12-03T23:09:00,2025-12-01,9,announced,compliant,100,1000
+1001,575199,2022-05-14T06:26:00,2022-05-12,13,unannounced,non-compliant,101,1001
+1002,state_uk_4,2023-10-25T13:43:00,2023-10-23,17,announced,partially compliant,102,1002
+1003,8350011,2024-03-09T20:00:00,2024-03-07,21,unannounced,compliant,103,1003

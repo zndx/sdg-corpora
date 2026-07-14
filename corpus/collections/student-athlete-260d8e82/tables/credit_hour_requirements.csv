@@ -1,0 +1,5 @@
+credit_hour_requirement_id,requirement_id,credit_hours_required,requirement_type,deadline_date,status,certifying_officer_id,compliance_coordinator_id,term_id
+1,778568,15,full-time,2024-11-24,pending,100,1,model_delegation_child0
+2,lu_tax_code_template_b_VB-EC-0,25,six-credit,2025-04-08,met,101,2,2986222
+3,99901,35,cumulative,2022-09-19,not-met,102,3,id_26
+4,5917277,45,percentage-of-degree,2023-02-03,pending,103,4,5006436

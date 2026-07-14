@@ -1,0 +1,5 @@
+development_funding_id,identifier,amount,currency,start_date,end_date,purpose,overseas_territory_id
+1000,IDE-2086,13.49,seasonal-currency-71,2022-09-05T20:24:00,2022-09-01T08:00:00,oda,1
+1001,IDE-2091,25.47,regional-currency-72,2023-02-16T03:41:00,2023-02-12T15:17:00,infrastructure,2
+1002,IDE-2096,19.72,legacy-currency-73,2024-07-27T10:58:00,2024-07-23T22:34:00,social,3
+1003,IDE-2101,12.74,compact-currency-74,2025-12-11T17:15:00,2025-12-07T05:51:00,oda,4

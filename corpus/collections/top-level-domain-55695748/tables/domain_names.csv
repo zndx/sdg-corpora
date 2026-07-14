@@ -1,0 +1,5 @@
+domain_name_id,domain_label,registration_date,expiration_date,registrant_id,status,is_privacy_protected,top_level_domain_id
+1,Primary Initiative A,2023-06-19T17:27:00,2025-08-18,790465,active,true,1000
+2,Composite Model,2024-11-03T00:44:00,2022-01-02,1996914,expired,false,1001
+3,Compact Cluster,2025-04-14T07:01:00,2023-06-13,4793492,pending,true,1002
+4,Legacy Review D,2022-09-25T14:18:00,2024-11-24,1336171,suspended,false,1003

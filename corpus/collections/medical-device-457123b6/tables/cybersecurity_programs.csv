@@ -1,0 +1,5 @@
+id,program_identifier,program_name,is_formalized,has_risk_scoring_process,has_network_monitoring,has_device_inventory_management,has_defined_roles,implementation_date,clinical_engineering_team_id,cyber_threat_id
+1000,PRO-2198,Extended Review,true,false,true,true,true,2024-11-14T10:06:00,100,100
+1001,PRO-2205,Pilot Initiative A,false,true,false,false,false,2025-04-25T17:23:00,101,101
+1002,PRO-2212,Baseline Model,true,false,true,true,true,2022-09-09T00:40:00,102,102
+1003,PRO-2219,Distributed Cluster,false,true,false,false,false,2023-02-20T07:57:00,103,103

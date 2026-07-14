@@ -1,0 +1,5 @@
+book_id,title,author_name,page_count,genre,cover_color,has_award,is_poetry,is_non_fiction,is_wordless
+1,Compact Initiative,Sarah Villanueva,6,primary-genre-40,Purple,true,true,true,true
+2,Legacy Model,Terry Pratchett,7,adaptive-genre-41,White,false,false,false,false
+3,Regional Cluster A,Nicole Smith,0,distributed-genre-42,Blue,true,true,true,true
+4,Seasonal Review,Collin Lopez,15,baseline-genre-43,Pink,false,false,false,false

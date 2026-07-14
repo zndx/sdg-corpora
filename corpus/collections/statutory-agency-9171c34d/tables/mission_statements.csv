@@ -1,0 +1,5 @@
+id,mission_id,mission_text,is_subset_of,requires_specialized_expertise,funding_mechanism,statutory_agency_id
+100,57da7384-8fcc-11eb-924d-9cd76263cbd0,primary-mission-52,seasonal-is-53,false,distributed-funding-66,100
+101,82869,adaptive-mission-53,regional-is-54,true,baseline-funding-67,101
+102,8928505,distributed-mission-54,legacy-is-55,false,pilot-funding-68,102
+103,4716411,baseline-mission-55,compact-is-56,true,extended-funding-69,103

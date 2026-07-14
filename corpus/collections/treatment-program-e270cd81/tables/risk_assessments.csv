@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,risk_score,assessment_type,result,assessor_id,patient_id,treatment_program_id,service_code
+1,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,19.70,initial,high_risk,5f901eb6-8fcd-11eb-924d-9cd76263cbd0,8387541,1,20789856
+2,19508914,2023-10-21T11:41:00,22.40,follow_up,moderate_risk,4060646,10207142,2,3990167
+3,506000,2024-03-05T18:58:00,25.10,discharge,low_risk,eff24a44-8fcb-11eb-924d-9cd76263cbd0,7119782,3,14484998
+4,1204-0009-M,2025-08-16T01:15:00,27.80,initial,high_risk,2933475,gd_acc_160003,4,Total

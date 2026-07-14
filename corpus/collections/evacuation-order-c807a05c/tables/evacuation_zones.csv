@@ -1,0 +1,5 @@
+id,zone_identifier,zone_name,risk_category,estimated_resident_count,zone_boundary_coordinates,is_coastal,evacuation_order_id
+1,ZON-2258,Pilot Series,high,66,adaptive-zone-11,false,1
+2,ZON-2263,Baseline Assessment,medium,2946,distributed-zone-12,true,2
+3,ZON-2268,Distributed Survey A,low,4,baseline-zone-13,false,3
+4,ZON-2273,Adaptive Corridor,high,0,pilot-zone-14,true,4

@@ -1,0 +1,20 @@
+CREATE TABLE a_l_p_a_r_cs (
+  organization_id VARCHAR(40) NOT NULL,
+  name VARCHAR(32),
+  founded_date DATE,
+  headquarters_city VARCHAR(32),
+  headquarters_country VARCHAR(32),
+  total_member_areas INTEGER,
+  coverage_percentage DECIMAL,
+  transalpine_ecological_network_id INTEGER,
+  project_code VARCHAR(44),
+  project_leader_id INTEGER,
+  professional_event_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (organization_id),
+  FOREIGN KEY (transalpine_ecological_network_id) REFERENCES transalpine_ecological_networks (id),
+  FOREIGN KEY (project_code) REFERENCES joint_european_projects (project_code),
+  FOREIGN KEY (project_leader_id) REFERENCES project_leaders (id),
+  FOREIGN KEY (professional_event_id) REFERENCES professional_events (id)
+);

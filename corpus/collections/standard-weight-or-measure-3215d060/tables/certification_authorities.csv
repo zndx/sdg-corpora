@@ -1,0 +1,5 @@
+id,authority_identifier,authority_name,certification_protocol,certification_frequency,is_federal_agency,standard_weight_or_measure_id,issues_certification_for_standard_weight_or_measure_id
+100,AUT-2570,Sean Green,regional-certific-24,7,Link Title,1,1
+101,AUT-2574,Elizabeth Woods,legacy-certific-25,13,Link Title,2,2
+102,AUT-2578,Kimberly Smith,compact-certific-26,19,LDAP First Name Field,3,3
+103,AUT-2582,Kimberly Smith,composite-certific-27,25,Cisco Systems,4,4

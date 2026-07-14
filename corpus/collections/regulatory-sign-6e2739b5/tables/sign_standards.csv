@@ -1,0 +1,5 @@
+id,standard_code,standard_version,required_size,required_legend,retroreflectivity_level,illumination_requirement,regulatory_sign_id
+1,L459,compact-standard-86,compact-required-50,legacy-required-19,high,false,1000
+2,account_pymes_596,composite-standard-87,composite-required-51,compact-required-20,medium,true,1001
+3,9125613,primary-standard-88,primary-required-52,composite-required-21,low,false,1002
+4,8189504,adaptive-standard-89,adaptive-required-53,primary-required-22,high,true,1003

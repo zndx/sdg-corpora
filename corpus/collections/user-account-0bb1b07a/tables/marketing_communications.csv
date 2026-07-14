@@ -1,0 +1,5 @@
+id,message_id,subject_line,sent_at,delivery_status,campaign_type,user_account_id,data_processing_consent_id
+1,ChIJD7fiBh9u5kcRYJSMaMOCCwQ,primary-subject-46,2023-10-21T09:03:00,pending,regional-campaign-42,1,100
+2,state_uk_4,adaptive-subject-47,2024-03-05T16:20:00,sent,legacy-campaign-43,2,101
+3,1250194,distributed-subject-48,2025-08-16T23:37:00,failed,compact-campaign-44,3,102
+4,6969416,baseline-subject-49,2022-01-27T06:54:00,opted_out,composite-campaign-45,4,103

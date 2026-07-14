@@ -1,0 +1,20 @@
+CREATE TABLE user_accounts (
+  id INTEGER NOT NULL,
+  account_id VARCHAR(44),
+  email_address VARCHAR(32),
+  full_name VARCHAR(36),
+  home_address VARCHAR(32),
+  work_address VARCHAR(32),
+  telephone_number VARCHAR(32),
+  account_status VARCHAR(32),
+  date_created TIMESTAMP,
+  session_id VARCHAR(44),
+  survey_response_id INTEGER,
+  demographic_profile_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (session_id) REFERENCES web_sessions (session_id),
+  FOREIGN KEY (survey_response_id) REFERENCES survey_responses (id),
+  FOREIGN KEY (demographic_profile_id) REFERENCES demographic_profiles (id)
+);

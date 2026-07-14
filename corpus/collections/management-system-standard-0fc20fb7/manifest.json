@@ -1,0 +1,123 @@
+{
+ "construct_id": "0fc20fb732b6e41d",
+ "slug": "management-system-standard-0fc20fb7",
+ "passage": "0fc20fb732b6e41d6059216d1b49ac1f45d3b067f237fbe9882d309945891012.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "ManagementSystemStandard",
+  "CertificationRecord",
+  "Organization",
+  "GeographicRegion",
+  "CertificationStatistic"
+ ],
+ "terms": [
+  {
+   "name": "ManagementSystemStandard",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CertificationRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CertificationStatistic",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "management_system_standards",
+   "rows": 4,
+   "columns": [
+    "management_system_standard_id",
+    "standard_identifier",
+    "publication_date",
+    "issuing_body",
+    "standard_type",
+    "version_number",
+    "status",
+    "certification_record_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "certification_records",
+   "rows": 4,
+   "columns": [
+    "certification_record_id",
+    "certificate_id",
+    "issue_date",
+    "expiry_date",
+    "scope_description",
+    "certification_body",
+    "status",
+    "organization_id",
+    "management_system_standard_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "legal_name",
+    "country",
+    "region",
+    "industry_sector",
+    "employee_count",
+    "certification_record_id",
+    "management_system_standard_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_code",
+    "region_name",
+    "continent",
+    "organization_id",
+    "certification_statistic_id"
+   ]
+  },
+  {
+   "name": "certification_statistics",
+   "rows": 4,
+   "columns": [
+    "certification_statistic_id",
+    "statistic_id",
+    "report_date",
+    "total_certificates",
+    "standard_specific_count",
+    "geographic_region_id",
+    "management_system_standard_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_management_system_standard_certification_record",
+  "vw_management_system_standard_organization",
+  "vw_certification_record_organization",
+  "vw_certification_record_management_system_standard",
+  "vw_organization_certification_record",
+  "vw_organization_management_system_standard",
+  "vw_geographic_region_organization",
+  "vw_geographic_region_certification_statistic",
+  "vw_certification_statistic_geographic_region",
+  "vw_certification_statistic_management_system_standard"
+ ]
+}

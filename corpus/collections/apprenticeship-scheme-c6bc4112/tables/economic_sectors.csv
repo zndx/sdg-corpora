@@ -1,0 +1,5 @@
+economic_sector_id,sector_code,sector_name,skill_shortage_level,apprenticeship_capacity,scheme_id,gap_id,created_at,updated_at
+1,89434,Distributed Survey,low,22,4716393,10449531,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,8843752,Adaptive Corridor D,moderate,29,338514,575212,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,3001009030220,Primary Series,high,36,template_ivacode_pagata_20ind,317,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,937714,Composite Assessment,critical,43,4bbb5d4c-9bad-11eb-a8a2-19ed5c03f8d3,ChIJ20iLSYBt5kcRqH2vq_dd6GU,2025-04-16 09:14:00,2025-04-23 15:41:00

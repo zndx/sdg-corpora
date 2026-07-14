@@ -1,0 +1,5 @@
+researchId,researchTitle,startDate,endDate,researchLocation,fundingSource,researchStatus,cyberneticianId,organismId,methodId,createdAt
+1000,Extended Framework,2022-09-05T20:24:00,2022-09-01T08:00:00,USA,Josiah Macy Jr Foundation,active,1,100,209228,2025-01-01 00:14:00
+1001,Pilot Protocol A,2023-02-16T03:41:00,2023-02-12T15:17:00,Britain,military,completed,2,101,7441161,2025-02-06 03:14:00
+1002,Baseline Programme,2024-07-27T10:58:00,2024-07-23T22:34:00,MIT,academic,declined,3,102,89447,2025-03-11 06:14:00
+1003,Distributed Standard,2025-12-11T17:15:00,2025-12-07T05:51:00,Rockland State,Josiah Macy Jr Foundation,active,4,103,4180941,2025-04-16 09:14:00

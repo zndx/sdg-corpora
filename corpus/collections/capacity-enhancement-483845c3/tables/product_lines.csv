@@ -1,0 +1,5 @@
+id,product_category,technology_readiness_level,target_output_m_w,is_strategic,enterprise_id,manufacturing_facility_id
+1,composite-product-87,40,15.20,false,1,1000
+2,primary-product-88,50,18.40,true,2,1001
+3,adaptive-product-89,60,21.60,false,3,1002
+4,distributed-product-90,70,24.80,true,4,1003

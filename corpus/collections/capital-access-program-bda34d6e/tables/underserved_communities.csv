@@ -1,0 +1,5 @@
+underserved_community_id,community_identifier,community_name,geographic_boundary,population_density,median_income,access_level,targeted_status,small_business_id,capital_access_program_id
+1,COM-2792,Primary Initiative A,compact-geograph-14,15.70,47.66,low,false,1,100
+2,COM-2799,Composite Model,composite-geograph-15,19.40,14.31,medium,true,2,101
+3,COM-2806,Compact Cluster,primary-geograph-16,23.10,26.25,high,false,3,102
+4,COM-2813,Legacy Review D,adaptive-geograph-17,26.80,14.31,low,true,4,103

@@ -1,0 +1,5 @@
+law_enforcement_agency_id,agency_id,name,location_city,location_state,location_country,established_year,person_id,law_enforcement_division_id,created_at,updated_at
+1000,U.S. Steel,Extended Review,seasonal-location-23,composite-location-93,adaptive-location-47,10,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,Nikola Corporation,Pilot Initiative A,regional-location-24,primary-location-94,distributed-location-48,16,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,Oberthur Technologies,Baseline Model,legacy-location-25,adaptive-location-95,baseline-location-49,22,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,General Telephone & Electronics,Distributed Cluster,compact-location-26,distributed-location-96,pilot-location-50,28,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

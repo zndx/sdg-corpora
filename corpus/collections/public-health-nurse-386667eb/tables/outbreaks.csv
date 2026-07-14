@@ -1,0 +1,5 @@
+outbreak_id,start_date,end_date,case_count,status,location,school_id,public_health_nurse_id,created_at
+bhavenger,2022-09-05,2022-09-01,88,active,extended-location-99,1,1,2025-01-01 00:14:00
+1186096,2023-02-16,2023-02-12,12,contained,integrated-location-100,2,2,2025-02-06 03:14:00
+9085242,2024-07-27,2024-07-23,10,resolved,seasonal-location-101,3,3,2025-03-11 06:14:00
+gd_taxc_1211,2025-12-11,2025-12-07,4,active,regional-location-102,4,4,2025-04-16 09:14:00

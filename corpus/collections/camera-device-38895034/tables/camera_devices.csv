@@ -1,0 +1,5 @@
+camera_device_id,device_identifier,manufacturer,model_number,sensor_type,megapixels,lens_mount_type,is_mirrorless,camera_lens_id,memory_card_id
+1,DEV-2372,Standard Chartered,MOD-2238,primary-sensor-58,11.95,compact-lens-92,false,1000,100
+2,DEV-2378,General Motors,MOD-2244,adaptive-sensor-59,15.90,composite-lens-93,true,1001,101
+3,DEV-2384,Column Name cannot be empty,MOD-2250,distributed-sensor-60,19.85,primary-lens-94,false,1002,102
+4,DEV-2390,Financial Information Service Co. Ltd.,MOD-2256,baseline-sensor-61,23.80,adaptive-lens-95,true,1003,103

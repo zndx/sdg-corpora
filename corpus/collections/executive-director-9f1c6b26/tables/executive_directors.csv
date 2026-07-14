@@ -1,0 +1,5 @@
+id,employee_id,reporting_to,position_type,salary_min,salary_max,degree_level,years_experience,is_exempt,organization_id,facility_id
+1,Norma Fisher,integrated-reportin-82,distributed-position-78,13.49,13.94,primary-degree-22,16,true,1,1000
+2,Tasha Rodriguez,seasonal-reportin-83,baseline-position-79,17.12,25.36,adaptive-degree-23,22,false,2,1001
+3,Theodore Mcgrath,regional-reportin-84,pilot-position-80,25.36,26.25,distributed-degree-24,28,true,3,1002
+4,Peter Mcdowell,legacy-reportin-85,extended-position-81,35.61,10.72,baseline-degree-25,34,false,4,1003

@@ -1,0 +1,5 @@
+id,contractorId,contractorName,licenseNumber,contactEmail,status,deficiencyId,developerId,createdAt,updatedAt
+1000,info,Baseline Series D,LIC-2589,Christopher Wilson,active,13910633,8350025,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,template_impcode_pagata_0,Distributed Assessment,LIC-2596,Charles Larsen,suspended,8387527,32829,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,69431,Adaptive Survey,LIC-2603,Mary Alvarez,terminated,9474,state_uk_22,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,default_chart_a_tax_15,Primary Corridor A,LIC-2610,April Snyder,active,client-focus,1996932,2025-04-16 09:14:00,2025-04-23 15:41:00

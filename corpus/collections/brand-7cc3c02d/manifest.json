@@ -1,0 +1,192 @@
+{
+ "construct_id": "7cc3c02d8b780c8f",
+ "slug": "brand-7cc3c02d",
+ "passage": "7cc3c02d8b780c8f0f5ceafd6ca82de2b7057241ad154727292ce6f4a5421e0f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 21,
+ "entities": [
+  "Brand",
+  "LeadershipTeam",
+  "Executive",
+  "BrandGoal",
+  "Department",
+  "TeamAssessment",
+  "MarketCondition"
+ ],
+ "terms": [
+  {
+   "name": "Brand",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LeadershipTeam",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Executive",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BrandGoal",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Department",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TeamAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MarketCondition",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Brand",
+   "rows": 4,
+   "columns": [
+    "brandId",
+    "brandName",
+    "foundingYear",
+    "annualRevenue",
+    "totalStoreCount",
+    "headquartersLocation",
+    "parentCompany",
+    "teamId",
+    "conditionId"
+   ]
+  },
+  {
+   "name": "LeadershipTeam",
+   "rows": 4,
+   "columns": [
+    "teamId",
+    "teamName",
+    "assessmentDate",
+    "teamSize",
+    "assessmentScore",
+    "teamStatus",
+    "brandId",
+    "assessmentId",
+    "goalId"
+   ]
+  },
+  {
+   "name": "Executive",
+   "rows": 4,
+   "columns": [
+    "executiveId",
+    "fullName",
+    "jobTitle",
+    "department",
+    "tenureYears",
+    "location",
+    "isSenior",
+    "departmentId",
+    "teamId",
+    "goalId",
+    "reportsToExecutiveId"
+   ]
+  },
+  {
+   "name": "BrandGoal",
+   "rows": 4,
+   "columns": [
+    "goalId",
+    "goalDescription",
+    "targetYear",
+    "metricType",
+    "targetValue",
+    "currentValue",
+    "isBenchmarked",
+    "brandId",
+    "executiveId",
+    "benchmarkedAgainstGoalId"
+   ]
+  },
+  {
+   "name": "Department",
+   "rows": 4,
+   "columns": [
+    "departmentId",
+    "deptId",
+    "deptName",
+    "headCount",
+    "budget",
+    "isSharedService",
+    "operationalStatus",
+    "executiveId",
+    "brandId",
+    "collaboratesWithDepartmentId"
+   ]
+  },
+  {
+   "name": "TeamAssessment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessmentId",
+    "assessmentType",
+    "dateConducted",
+    "durationMinutes",
+    "modelUsed",
+    "resultStatus",
+    "teamId",
+    "executiveId"
+   ]
+  },
+  {
+   "name": "MarketCondition",
+   "rows": 4,
+   "columns": [
+    "conditionId",
+    "conditionName",
+    "impactLevel",
+    "trendDirection",
+    "measurementValue",
+    "lastUpdated",
+    "brandId",
+    "goalId",
+    "executiveId"
+   ]
+  },
+  {
+   "name": "LeadershipTeamExecutive",
+   "rows": 8,
+   "columns": [
+    "teamId",
+    "executiveId"
+   ]
+  }
+ ],
+ "views": [
+  "v_brand_leadership_team",
+  "v_brand_market_condition",
+  "v_leadership_team_brand",
+  "v_leadership_team_executive_detail",
+  "v_leadership_team_team_assessment",
+  "v_leadership_team_brand_goal",
+  "v_executive_department",
+  "v_executive_leadership_team",
+  "v_executive_brand_goal",
+  "v_executive_executive",
+  "v_brand_goal_brand",
+  "v_brand_goal_executive",
+  "v_brand_goal_brand_goal",
+  "v_department_executive",
+  "v_department_brand",
+  "v_department_department",
+  "v_team_assessment_leadership_team",
+  "v_team_assessment_executive",
+  "v_market_condition_brand",
+  "v_market_condition_brand_goal",
+  "v_market_condition_executive"
+ ]
+}

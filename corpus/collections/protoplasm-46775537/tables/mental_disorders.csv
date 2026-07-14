@@ -1,0 +1,5 @@
+id,disorder_id,disorder_name,severity,onset_date,treatment_status,human_id
+1000,c746ead6-8fcc-11eb-924d-9cd76263cbd0,Primary Framework A,9.45,2023-10-07T21:03:00,untreated,1
+1001,3001009030200,Composite Protocol,13.90,2024-03-18T04:20:00,in-progress,2
+1002,lu_tax_code_template_b_VB-TR-6,Compact Programme,18.35,2025-08-02T11:37:00,resolved,3
+1003,727055,Legacy Standard D,22.80,2022-01-13T18:54:00,untreated,4

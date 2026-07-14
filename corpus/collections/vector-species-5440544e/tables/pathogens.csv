@@ -1,0 +1,5 @@
+id,pathogen_code,disease_name,severity_level,is_endemic,circulating_strain,vector_species_id
+1,Dengue Virus,Regional Protocol,Self-limiting,true,compact-circulat-68,1
+2,Japanese Encephalitis Virus,Seasonal Programme D,Severe,false,composite-circulat-69,2
+3,Dengue Virus,Integrated Standard,Fatal,true,primary-circulat-70,3
+4,Japanese Encephalitis Virus,Extended Framework,Self-limiting,false,adaptive-circulat-71,4

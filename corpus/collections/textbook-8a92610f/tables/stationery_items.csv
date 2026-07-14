@@ -1,0 +1,5 @@
+code,description,unit_price,required_quantity,is_compulsory,color,grade_level_id,subject_id
+lu_tax_code_template_m_I_4,Extended Survey,"5,692",9,false,Green,1,1
+2986219,Pilot Corridor A,"45,650",2,true,Brown,2,2
+8928520,Baseline Series,"2,705",4,false,Brown,3,3
+195369,Distributed Assessment,211.07,5,true,Pink,4,4

@@ -1,0 +1,5 @@
+sequencing_assay_id,assay_id,assay_type,coverage_depth,platform,result_status,genomic_sample_id,genomic_dataset_id,created_at
+100,6564399,whole_genome,37,distributed-platform-48,pending,1000,1,2025-01-01 00:14:00
+101,9085253,exome,44,baseline-platform-49,running,1001,2,2025-02-06 03:14:00
+102,7645,targeted,51,pilot-platform-50,complete,1002,3,2025-03-11 06:14:00
+103,2106692,whole_genome,58,extended-platform-51,failed,1003,4,2025-04-16 09:14:00

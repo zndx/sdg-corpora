@@ -1,0 +1,5 @@
+temperature_reading_id,identifier,value,unit,timestamp,location,status,sensor_id,structure_id,shock_event_id,measured_by_sensor_id
+1,IDE-2086,19.95,distributed-unit-18,2024-07-08T18:18:00,extended-location-99,pending,5c6f01c708ff420a862fd80b80bd80dc,1000,1,100
+2,IDE-2091,21.90,baseline-unit-19,2025-12-19T01:35:00,integrated-location-100,running,937728,1001,2,101
+3,IDE-2096,23.85,pilot-unit-20,2022-05-03T08:52:00,seasonal-location-101,complete,209232,1002,3,102
+4,IDE-2101,25.80,extended-unit-21,2023-10-14T15:09:00,regional-location-102,failed,2530a2f0-8fb3-11eb-924d-9cd76263cbd0,1003,4,103

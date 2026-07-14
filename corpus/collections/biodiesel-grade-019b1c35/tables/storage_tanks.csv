@@ -1,0 +1,5 @@
+tank_id,tank_capacity,current_fill_level,tank_material,last_inspection_date,tank_status,production_batch_id,fuel_sample_id
+4060653,6.20,8.70,compact-tank-92,2025-04-12,active,1,1000
+9246320,9.40,12.40,composite-tank-93,2022-09-23,maintenance,2,1001
+8387534,12.60,16.10,primary-tank-94,2023-02-07,decommissioned,3,1002
+id_5,15.80,19.80,adaptive-tank-95,2024-07-18,active,4,1003

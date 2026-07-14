@@ -1,0 +1,5 @@
+youth_demographic_id,demographic_identifier,age_range_start,age_range_end,role,institution_type,total_reached,mental_health_education_program_id,mental_health_issue_id
+1,DEM-2306,34,19,student,middle school,26,1,1
+2,DEM-2313,37,26,teacher,high school,9,2,2
+3,DEM-2320,40,33,family,college,28,3,3
+4,DEM-2327,43,40,caregiver,community,73,4,4

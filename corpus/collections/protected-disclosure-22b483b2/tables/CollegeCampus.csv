@@ -1,0 +1,5 @@
+id,campusId,campusName,legalEntity,address,isActive,investigationId,investigatorId,whistleblowerId,subjectId
+1,ChIJ85Dnlftt5kcRmzn_mGUYJPE,davenport,composite-legal-27,distributed-address-72,true,1,id_23,100,726063
+2,68f46afd953b4de8824b596a1bff565c,west,primary-legal-28,baseline-address-73,false,2,4011,101,2002007020260
+3,18ba4c46-8fc8-11eb-924d-9cd76263cbd0,florida,adaptive-legal-29,pilot-address-74,true,3,3158159,102,5082972
+4,3168,davenport,distributed-legal-30,extended-address-75,false,4,4277008,103,4793476

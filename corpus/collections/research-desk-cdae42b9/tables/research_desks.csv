@@ -1,0 +1,5 @@
+research_desk_id,desk_identifier,agency_funded_by,start_date,end_date,status,response_type,project_manager_id,development_agency_id,research_output_id
+100,DES-2339,LDAP First Name Field,2022-09-05T20:24:00,2022-09-01T08:00:00,planning,adaptive-response-23,1,1,100
+101,DES-2345,Feedback Ratings,2023-02-16T03:41:00,2023-02-12T15:17:00,active,distributed-response-24,2,2,101
+102,DES-2351,American International Group,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,baseline-response-25,3,3,102
+103,DES-2357,Northrop Grumman,2025-12-11T17:15:00,2025-12-07T05:51:00,archived,pilot-response-26,4,4,103

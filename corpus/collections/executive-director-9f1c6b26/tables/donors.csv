@@ -1,0 +1,5 @@
+id,donor_id,donor_name,donor_type,total_contributed,last_donation_date,is_major_donor,organization_id,program_id,created_at,updated_at
+1,3012833,Regional Framework,seasonal-donor-47,5.70,2025-12-11,true,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,05c8953a-8fc7-11eb-924d-9cd76263cbd0,Seasonal Protocol D,regional-donor-48,10.40,2022-05-22,false,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,4793488,Integrated Programme,legacy-donor-49,15.10,2023-10-06,true,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,3717626,Extended Standard,compact-donor-50,19.80,2024-03-17,false,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

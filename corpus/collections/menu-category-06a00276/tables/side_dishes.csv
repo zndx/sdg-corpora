@@ -1,0 +1,5 @@
+side_dish_id,side_name,substitution_cost,is_default_side,food_item_id,substitutes_for_side_dish_id
+1,Integrated Programme A,37.54,true,1,1
+2,Extended Standard,43.48,false,2,2
+3,Pilot Framework,29.24,true,3,3
+4,Baseline Protocol D,32.21,false,4,4

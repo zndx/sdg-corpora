@@ -1,0 +1,5 @@
+id,data_category,consent_status,collection_purpose,retention_period,is_sensitive,data_controller_id,data_subject_id
+1,legacy-data-97,pilot-consent-32,distributed-collecti-42,baseline-retentio-91,false,1000,1
+2,compact-data-98,extended-consent-33,baseline-collecti-43,pilot-retentio-92,true,1001,2
+3,composite-data-99,integrated-consent-34,pilot-collecti-44,extended-retentio-93,false,1002,3
+4,primary-data-100,seasonal-consent-35,extended-collecti-45,integrated-retentio-94,true,1003,4

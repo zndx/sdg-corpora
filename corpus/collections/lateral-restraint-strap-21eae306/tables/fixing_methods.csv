@@ -1,0 +1,5 @@
+fixing_method_id,method_identifier,screw_length,screw_gauge,plug_type,screw_spacing,min_screws_per_strap,applies_to_material,lateral_restraint_strap_id,floor_assembly_id
+1,MET-2663,0.69,44,compact-plug-14,21.70,8,aerated_concrete_infill,100,1
+2,MET-2670,0.6000001,52,composite-plug-15,24.40,15,dense_concrete_infill,101,2
+3,MET-2677,0.6000001,60,primary-plug-16,27.10,22,precast_plank,102,3
+4,MET-2684,0.77,68,adaptive-plug-17,29.80,29,aerated_concrete_infill,103,4

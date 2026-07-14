@@ -1,0 +1,20 @@
+CREATE TABLE student_placements (
+  id INTEGER NOT NULL,
+  placement_id INTEGER,
+  start_date DATE,
+  status VARCHAR(32),
+  funding_source VARCHAR(32),
+  risk_assessment_status VARCHAR(32),
+  interview_completed BOOLEAN,
+  student_id VARCHAR(32),
+  education_health_care_plan_id INTEGER,
+  local_education_authority_id INTEGER,
+  staff_professional_development_training_id VARCHAR(44),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (student_id) REFERENCES students (student_id),
+  FOREIGN KEY (education_health_care_plan_id) REFERENCES education_health_care_plans (id),
+  FOREIGN KEY (local_education_authority_id) REFERENCES local_education_authorities (local_education_authority_id),
+  FOREIGN KEY (staff_professional_development_training_id) REFERENCES staff_professional_developments (training_id)
+);

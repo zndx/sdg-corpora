@@ -1,0 +1,5 @@
+zone_file_id,file_id,capture_date,record_count,is_complete,storage_location,top_level_domain_id,abuse_rate_id
+100,68f46afd953b4de8824b596a1bff565c,2022-01-15,50,false,distributed-storage-48,1000,100
+101,state_et_5,2023-06-26,17,true,baseline-storage-49,1001,101
+102,922b9d78-9bad-11eb-a8a2-19ed5c03f8d3,2024-11-10,19,false,pilot-storage-50,1002,102
+103,lu_tax_code_template_m22,2025-04-21,17,true,extended-storage-51,1003,103

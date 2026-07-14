@@ -1,0 +1,5 @@
+id,facility_code,facility_name,facility_type,jurisdiction_code,health_care_summary_format_code,transfer_event_id,is_destination_of_transfer_event_id
+1,2933476,Integrated Protocol A,juvenile_facility,5917299,gd_taxp_3,1,1
+2,Bjuukia,Extended Programme,community_clinic,id_25,9736899,2,2
+3,2106693,Pilot Standard,county_health_officer,7731856,2002007020260,3,3
+4,6969439,Baseline Framework D,juvenile_facility,7c692762-8fcd-11eb-924d-9cd76263cbd0,255,4,4

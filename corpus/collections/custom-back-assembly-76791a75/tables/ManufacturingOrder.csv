@@ -1,0 +1,5 @@
+orderId,orderNumber,orderDate,orderType,poNumber,specialInstructions,assemblyId,accountId
+100,ORD-2138,2023-02-27T13:15:00,QUOTE,PO-2630,regional-special-78,lu_tax_code_template_b_VB-IC-0,1000
+101,ORD-2139,2024-07-11T20:32:00,ORDER,PO-2637,legacy-special-79,bss,1001
+102,ORD-2140,2025-12-22T03:49:00,QUOTE,PO-2644,compact-special-80,9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,1002
+103,ORD-2141,2022-05-06T10:06:00,ORDER,PO-2651,composite-special-81,8928501,1003

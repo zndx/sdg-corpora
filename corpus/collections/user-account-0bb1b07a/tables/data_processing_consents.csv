@@ -1,0 +1,5 @@
+id,consent_id,legal_basis,purpose_description,granted_at,revoked_at,is_revoked,user_account_id
+100,9fffb746-9bac-11eb-a8a2-19ed5c03f8d3,consent,Pilot Series,2024-11-15T10:30:00,2024-03-11T14:18:00,true,1
+101,790462,legitimate_interests,Baseline Assessment,2025-04-26T17:47:00,2025-08-22T21:35:00,false,2
+102,4277037,performance_of_contract,Distributed Survey A,2022-09-10T00:04:00,2022-01-06T04:52:00,true,3
+103,3990176,legal_obligations,Adaptive Corridor,2023-02-21T07:21:00,2023-06-17T11:09:00,false,4

@@ -1,0 +1,5 @@
+id,organization_name,founding_year,headquarters_location,organization_type,is_defunct,broadcast_program_id
+100,Staples Inc.,43,composite-headquar-63,wire_service,false,100
+101,Oscar Health Inc.,48,primary-headquar-64,television_network,true,101
+102,Atlantic Richfield,53,adaptive-headquar-65,radio_station,false,102
+103,Port Loko,58,distributed-headquar-66,wire_service,true,103

@@ -1,0 +1,5 @@
+id,assetId,tickerSymbol,assetType,currentMarketValue,purchaseDate,purchasePrice,quantity,assetStatus,portfolioId,transactionId
+1,7731874,composite-ticker-63,equity,17.45,2022-01-07,14.31,9,held,1,1
+2,6564392,primary-ticker-64,bond,19.90,2023-06-18,18.59,8,sold,2,2
+3,5917296,adaptive-ticker-65,mutual_fund,22.35,2024-11-02,13.13,0,dividend_pending,3,3
+4,990e161e10664c5885182d95dc07e606,distributed-ticker-66,etf,24.80,2025-04-13,43.25,12,held,4,4

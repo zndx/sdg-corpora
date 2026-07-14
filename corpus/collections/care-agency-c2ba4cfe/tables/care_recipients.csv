@@ -1,0 +1,5 @@
+care_recipient_id,recipient_id,first_name,last_name,address,support_needs_assessment_date,dietary_preferences,mental_capacity_status,care_agency_id,staff_assignment_id,created_at,updated_at
+1,b_VB-EC-15,Stephanie Collins,Paul Allen,distributed-address-72,2024-03-02T02:54:00,regional-dietary-12,has capacity,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,1889791,Janice Johnston,Heather Beasley,baseline-address-73,2025-08-13T09:11:00,legacy-dietary-13,lacks capacity,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,4180946,Upal Saha,Audrey Taylor,pilot-address-74,2022-01-24T16:28:00,compact-dietary-14,undetermined,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,5789a9197ed7473eb37814ca09efb2c8,Katherine Snyder,Susan Wagner,extended-address-75,2023-06-08T23:45:00,composite-dietary-15,has capacity,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

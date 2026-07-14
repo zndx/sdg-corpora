@@ -1,0 +1,5 @@
+id,name,classification,description,special_interest_group_id,curriculum_id,created_at,updated_at
+100,Extended Review,logic,Extended Survey,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,Pilot Initiative A,computation,Pilot Corridor A,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,Baseline Model,interdisciplinary,Baseline Series,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,Distributed Cluster,logic,Distributed Assessment,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

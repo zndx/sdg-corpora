@@ -1,0 +1,351 @@
+{
+ "construct_id": "346da2211ee5b206",
+ "slug": "academic-programme-346da221",
+ "passage": "346da2211ee5b206bf8f912e49e9ca2a561f3d02e07a4230272996172acbb582.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 24,
+ "n_views": 22,
+ "entities": [
+  "AcademicProgramme",
+  "AcademicDepartment",
+  "AcademicSchool",
+  "University",
+  "FacultyMember",
+  "Student",
+  "Course",
+  "ResearchProject"
+ ],
+ "terms": [
+  {
+   "name": "AcademicProgramme",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicSchool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "University",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_programmes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programme_id",
+    "programme_name",
+    "degree_level",
+    "department_id",
+    "start_date",
+    "status",
+    "credit_hours",
+    "duration_years",
+    "offered_by_department_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "academic_departments",
+   "rows": 4,
+   "columns": [
+    "department_id",
+    "department_name",
+    "school_id",
+    "establishment_date",
+    "status",
+    "head_of_department_id",
+    "contact_email",
+    "contact_phone",
+    "academic_school_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "academic_schools",
+   "rows": 4,
+   "columns": [
+    "academic_school_id",
+    "school_id",
+    "school_name",
+    "university_id",
+    "establishment_date",
+    "status",
+    "dean_id",
+    "contact_email",
+    "contact_phone",
+    "part_of_university_university_id"
+   ]
+  },
+  {
+   "name": "universities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "university_id",
+    "university_name",
+    "legal_name",
+    "establishment_date",
+    "status",
+    "campus_location",
+    "total_campus_area_acres",
+    "funding_source",
+    "accreditation_body",
+    "accreditation_status"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "faculty_member_id",
+    "faculty_id",
+    "first_name",
+    "last_name",
+    "title",
+    "department_id",
+    "school_id",
+    "university_id",
+    "employment_status",
+    "hire_date",
+    "contact_email",
+    "contact_phone"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "gender",
+    "enrollment_date",
+    "expected_graduation_date",
+    "academic_standing",
+    "contact_email",
+    "contact_phone",
+    "address",
+    "emergency_contact_name",
+    "emergency_contact_phone",
+    "academic_programme_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "course_code",
+    "course_name",
+    "credit_hours",
+    "semester",
+    "year",
+    "status",
+    "prerequisite_course_id",
+    "department_id",
+    "school_id",
+    "university_id"
+   ]
+  },
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "project_id",
+    "project_title",
+    "start_date",
+    "end_date",
+    "status",
+    "funding_amount",
+    "funding_source",
+    "department_id",
+    "school_id",
+    "university_id",
+    "part_of_department_department_id"
+   ]
+  },
+  {
+   "name": "programmes_courses",
+   "rows": 8,
+   "columns": [
+    "academic_programme_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "departments_programmes",
+   "rows": 8,
+   "columns": [
+    "department_id",
+    "academic_programme_id"
+   ]
+  },
+  {
+   "name": "departments_members",
+   "rows": 8,
+   "columns": [
+    "department_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "schools_departments",
+   "rows": 8,
+   "columns": [
+    "academic_school_id",
+    "department_id"
+   ]
+  },
+  {
+   "name": "universities_schools",
+   "rows": 8,
+   "columns": [
+    "university_id",
+    "academic_school_id"
+   ]
+  },
+  {
+   "name": "universities_members",
+   "rows": 8,
+   "columns": [
+    "university_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "universities_students",
+   "rows": 8,
+   "columns": [
+    "university_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "members_courses",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "members_projects",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "project_id"
+   ]
+  },
+  {
+   "name": "members_students",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "students_courses",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "courses_programmes",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "academic_programme_id"
+   ]
+  },
+  {
+   "name": "courses_members",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "courses_students",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "projects_members",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "projects_students",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_academic_programme_academic_department",
+  "v_academic_programme_course_detail",
+  "v_academic_department_academic_school",
+  "v_academic_department_academic_programme_detail",
+  "v_academic_department_faculty_member_detail",
+  "v_academic_school_academic_department_detail",
+  "v_academic_school_university",
+  "v_university_academic_school_detail",
+  "v_university_faculty_member_detail",
+  "v_university_student_detail",
+  "v_faculty_member_course_detail",
+  "v_faculty_member_research_project_detail",
+  "v_faculty_member_student_detail",
+  "v_student_academic_programme",
+  "v_student_course_detail",
+  "v_student_faculty_member",
+  "v_course_academic_programme_detail",
+  "v_course_faculty_member_detail",
+  "v_course_student_detail",
+  "v_research_project_faculty_member_detail",
+  "v_research_project_student_detail",
+  "v_research_project_academic_department"
+ ]
+}

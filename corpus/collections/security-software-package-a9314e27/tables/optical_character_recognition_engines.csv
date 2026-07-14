@@ -1,0 +1,5 @@
+id,engine_version,supported_language_count,recognition_accuracy,processing_speed,award_status,official_identification_document_id,extracted_personal_data_record_id
+100,extended-engine-33,14,7.45,1.09,false,1,100
+101,integrated-engine-34,1,9.90,0.233071618973332,true,2,101
+102,seasonal-engine-35,3,12.35,0.99,false,3,102
+103,regional-engine-36,3,14.80,0.59,true,4,103

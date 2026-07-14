@@ -1,0 +1,195 @@
+{
+ "construct_id": "4dd7145b13c322b1",
+ "slug": "national-diabetes-plan-4dd7145b",
+ "passage": "4dd7145b13c322b151dd3cacc52cfd3ab10b39ab20e95828ca25adbdc0f620b1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 14,
+ "entities": [
+  "NationalDiabetesPlan",
+  "HealthcareExpenditure",
+  "SurveillanceMetric",
+  "PreventivePolicy",
+  "HealthService",
+  "Jurisdiction",
+  "PopulationSegment",
+  "SurveillanceFramework"
+ ],
+ "terms": [
+  {
+   "name": "NationalDiabetesPlan",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthcareExpenditure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveillanceMetric",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PreventivePolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PopulationSegment",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SurveillanceFramework",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "national_diabetes_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_identifier",
+    "jurisdiction_name",
+    "implementation_status",
+    "adoption_date",
+    "policy_scope",
+    "responsible_agency",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "healthcare_expenditures",
+   "rows": 4,
+   "columns": [
+    "expenditure_id",
+    "currency_code",
+    "amount_per_person",
+    "total_amount",
+    "fiscal_year",
+    "coverage_percentage",
+    "allocation_region",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "surveillance_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_id",
+    "metric_type",
+    "value",
+    "unit",
+    "measurement_date",
+    "population_age_range",
+    "data_source",
+    "population_segment_id",
+    "surveillance_framework_id"
+   ]
+  },
+  {
+   "name": "preventive_policies",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "policy_name",
+    "policy_type",
+    "implementation_status",
+    "target_demographic",
+    "effective_date",
+    "enforcing_body",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "health_services",
+   "rows": 4,
+   "columns": [
+    "health_service_id",
+    "service_id",
+    "service_name",
+    "service_category",
+    "availability_status",
+    "target_group",
+    "geographic_coverage",
+    "cost_coverage_percent",
+    "jurisdiction_id",
+    "population_segment_id"
+   ]
+  },
+  {
+   "name": "jurisdictions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "jurisdiction_id",
+    "jurisdiction_name",
+    "country_code",
+    "administrative_level",
+    "population_count",
+    "area_code",
+    "population_segment_id",
+    "policy_id",
+    "health_service_id"
+   ]
+  },
+  {
+   "name": "population_segments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "segment_id",
+    "segment_name",
+    "age_min",
+    "age_max",
+    "total_count",
+    "diagnosed_count",
+    "undiagnosed_count",
+    "prevalence_rate",
+    "jurisdiction_id",
+    "surveillance_metric_id"
+   ]
+  },
+  {
+   "name": "surveillance_frameworks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "framework_id",
+    "framework_name",
+    "adoption_status",
+    "frequency",
+    "scope",
+    "last_review_date",
+    "surveillance_metric_id",
+    "jurisdiction_id"
+   ]
+  }
+ ],
+ "views": [
+  "national_diabetes_plan_jurisdiction_view",
+  "healthcare_expenditure_jurisdiction_view",
+  "surveillance_metric_population_segment_view",
+  "surveillance_metric_surveillance_framework_view",
+  "preventive_policy_jurisdiction_view",
+  "health_service_jurisdiction_view",
+  "health_service_population_segment_view",
+  "jurisdiction_population_segment_view",
+  "jurisdiction_preventive_policy_view",
+  "jurisdiction_health_service_view",
+  "population_segment_jurisdiction_view",
+  "population_segment_surveillance_metric_view",
+  "surveillance_framework_surveillance_metric_view",
+  "surveillance_framework_jurisdiction_view"
+ ]
+}

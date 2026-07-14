@@ -1,0 +1,5 @@
+id,sarIdentifier,reportDate,activityType,reviewStatus,privacyComplianceCheck,reviewingAnalystID,unitId,interestId,reportId,agencyId,createdAt,updatedAt
+1,SAR-2786,2024-03-02T02:54:00,Surveillance,Pending Review,false,REV-2363,1000,1,1000,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,SAR-2790,2025-08-13T09:11:00,Procurement of Weapons,Approved for Dissemination,true,REV-2367,1001,2,1001,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,SAR-2794,2022-01-24T16:28:00,Unusual Financial Activity,Rejected,false,REV-2371,1002,3,1002,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,SAR-2798,2023-06-08T23:45:00,Behavioral Anomaly,Under Investigation,true,REV-2375,1003,4,1003,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,org_id,org_name,website,mission_statement,vision_statement,person_id,has_council_member_person_id,industry_sector_id
+100,790471,Extended Review,https://bugs.launchpad.net/murano/+bug/1294080,compact-mission-14,composite-vision-87,1,1,1
+101,1717,Pilot Initiative A,https://bugs.launchpad.net/murano/+bug/1294080,composite-mission-15,primary-vision-88,2,2,2
+102,69437,Baseline Model,https://www.nature.com/articles/nphoton.2008.245,primary-mission-16,adaptive-vision-89,3,3,3
+103,m16,Distributed Cluster,https://bugs.launchpad.net/trove/+bug/1347114,adaptive-mission-17,distributed-vision-90,4,4,4

@@ -1,0 +1,5 @@
+canape_id,name,price,category,dietary_classification,recommended_count_per_person,bread_base_id,pricing_scheme_id
+1,Extended Review,12.87,savoury,v,12,1,1
+2,Pilot Initiative A,35.45,sweet,vg,12,2,2
+3,Baseline Model,29.24,savoury,none,5,3,3
+4,Distributed Cluster,29.99,sweet,v,8,4,4

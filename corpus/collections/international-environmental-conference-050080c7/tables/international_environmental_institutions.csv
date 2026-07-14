@@ -1,0 +1,5 @@
+id,institution_id,name,headquarters_city,headquarters_country,establishment_date,status,international_environmental_conference_id,multilateral_environmental_agreement_id
+1,9424913,Extended Review,seasonal-headquar-83,regional-headquar-42,2024-07-11T06:18:00,active,1000,1000
+2,8189481,Pilot Initiative A,regional-headquar-84,legacy-headquar-43,2025-12-22T13:35:00,defunct,1001,1001
+3,1437604,Baseline Model,legacy-headquar-85,compact-headquar-44,2022-05-06T20:52:00,merged,1002,1002
+4,884346,Distributed Cluster,compact-headquar-86,composite-headquar-45,2023-10-17T03:09:00,active,1003,1003

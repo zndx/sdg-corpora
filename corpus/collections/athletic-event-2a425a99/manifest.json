@@ -1,0 +1,163 @@
+{
+ "construct_id": "2a425a99b31f3b22",
+ "slug": "athletic-event-2a425a99",
+ "passage": "2a425a99b31f3b2218adda1f87ae157601b0b9e9f4b70d5fc70ec3bf65816c9c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 13,
+ "entities": [
+  "AthleticEvent",
+  "Facility",
+  "Registration",
+  "Participant",
+  "Equipment",
+  "DisciplineReport"
+ ],
+ "terms": [
+  {
+   "name": "AthleticEvent",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Registration",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Participant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Equipment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DisciplineReport",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "athletic_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "event_name",
+    "scheduled_start",
+    "scheduled_end",
+    "status",
+    "sport_type",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_identifier",
+    "facility_name",
+    "location_address",
+    "capacity",
+    "is_secured",
+    "last_inspection_date",
+    "athletic_event_id",
+    "equipment_id"
+   ]
+  },
+  {
+   "name": "registrations",
+   "rows": 4,
+   "columns": [
+    "registration_id",
+    "registration_date",
+    "fee_amount",
+    "payment_status",
+    "roster_number",
+    "athletic_event_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "participants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participant_id",
+    "full_name",
+    "age",
+    "is_c_p_r_certified",
+    "drug_screen_status",
+    "criminal_check_status",
+    "athletic_event_id",
+    "discipline_report_id"
+   ]
+  },
+  {
+   "name": "equipments",
+   "rows": 4,
+   "columns": [
+    "equipment_id",
+    "equipment_name",
+    "condition",
+    "quantity",
+    "last_maintenance_date",
+    "athletic_event_id",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "discipline_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "incident_date",
+    "incident_type",
+    "severity_level",
+    "resolved",
+    "forwarded_to_coordinator",
+    "participant_id",
+    "athletic_event_id"
+   ]
+  },
+  {
+   "name": "events_participants",
+   "rows": 8,
+   "columns": [
+    "athletic_event_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "events_registrations",
+   "rows": 8,
+   "columns": [
+    "athletic_event_id",
+    "registration_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_athletic_event_facility",
+  "v_athletic_event_participant_detail",
+  "v_athletic_event_registration_detail",
+  "v_facility_athletic_event",
+  "v_facility_equipment",
+  "v_registration_athletic_event",
+  "v_registration_participant",
+  "v_participant_athletic_event",
+  "v_participant_discipline_report",
+  "v_equipment_athletic_event",
+  "v_equipment_facility",
+  "v_discipline_report_participant",
+  "v_discipline_report_athletic_event"
+ ]
+}

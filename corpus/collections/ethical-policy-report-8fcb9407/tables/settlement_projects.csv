@@ -1,0 +1,5 @@
+id,project_id,project_name,project_type,construction_status,funding_amount,territory_id,entity_id,violation_id
+1000,1437597,Compact Survey,primary-project-34,planned,10.72,1000,1996912,3990166
+1001,df5a6648-8fd1-11eb-924d-9cd76263cbd0,Legacy Corridor,adaptive-project-35,ongoing,12.72,1001,57e4a9d4-8fcd-11eb-924d-9cd76263cbd0,m16
+1002,5006462,Regional Series A,distributed-project-36,completed,25.36,1002,9736894,7731883
+1003,10207143,Seasonal Assessment,baseline-project-37,halted,11.88,1003,974946,325461

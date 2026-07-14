@@ -1,0 +1,5 @@
+id,shop_id,shop_name,established_date,shop_type,daily_production_target,current_daily_production,is_profitable,diagnostic_tool_id
+100,3717615,Regional Initiative,2024-03-27,repair_shop,8.95,13.70,true,1
+101,9bb5de9a-8fcc-11eb-924d-9cd76263cbd0,Seasonal Model D,2025-08-11,franchise,12.90,15.40,false,2
+102,3001009030060,Integrated Cluster,2022-01-22,quick_lube,16.85,17.10,true,3
+103,505989,Extended Review,2023-06-06,specialty,20.80,18.80,false,4

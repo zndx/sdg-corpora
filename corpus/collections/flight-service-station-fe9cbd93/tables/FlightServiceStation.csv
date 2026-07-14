@@ -1,0 +1,5 @@
+stationId,stationIdentifier,stationName,establishmentDate,operationalStatus,coverageArea,primaryCommunicationMode,parentOrganization,locationCity,locationProvince,locationId
+1,YQX,Baseline Corridor D,2024-07-11,active,20.45,HF,Dow Chemical,seasonal-location-23,primary-location-94,100
+2,YVR,Distributed Series,2025-12-22,inactive,23.90,VHF,LDAP First Name Field,regional-location-24,adaptive-location-95,101
+3,YUL,Adaptive Assessment,2022-05-06,under_construction,27.35,SSB,Standard Chartered,legacy-location-25,distributed-location-96,102
+4,YEG,Primary Survey A,2023-10-17,active,30.80,Morse_code,The Library of Congress,compact-location-26,baseline-location-97,103

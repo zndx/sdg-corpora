@@ -1,0 +1,5 @@
+id,location,is_present,taper_gage_id,created_at,updated_at
+1,Large End,false,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Small End,true,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Large End,false,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Small End,true,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

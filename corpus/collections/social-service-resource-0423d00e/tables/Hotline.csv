@@ -1,0 +1,5 @@
+id,phoneNumber,smsKeyword,hotlineType,isAvailable247,isConfidential,organizationId
+1000,PHO-2092,integrated-sms-16,mental_health,false,false,1
+1001,PHO-2093,seasonal-sms-17,substance_abuse,true,true,2
+1002,PHO-2094,regional-sms-18,human_trafficking,false,false,3
+1003,PHO-2095,legacy-sms-19,sexual_assault,true,true,4

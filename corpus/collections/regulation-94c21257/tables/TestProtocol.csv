@@ -1,0 +1,5 @@
+protocolId,protocolVersion,measurementUnit,witnessingRequired,testEnvironment,temperatureCelsius,pressureBar,typeId,facilityId,regulationId
+1,distributed-protocol-12,legacy-measurem-43,true,extended-test-45,73.98476,16.45,1000,39800621,1
+2,baseline-protocol-13,compact-measurem-44,false,integrated-test-46,38.53310265213535,19.90,1001,1889772,2
+3,pilot-protocol-14,composite-measurem-45,true,seasonal-test-47,5.0,23.35,1002,d9d94964-8fcc-11eb-924d-9cd76263cbd0,3
+4,extended-protocol-15,primary-measurem-46,false,regional-test-48,0.6,26.80,1003,8843756,4

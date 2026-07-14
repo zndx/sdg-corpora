@@ -1,0 +1,5 @@
+id,facility_identifier,facility_name,location_address,capacity,is_secured,last_inspection_date,athletic_event_id,equipment_id
+1,FAC-2066,Integrated Protocol A,baseline-location-61,32,false,2025-04-12,1,1000
+2,FAC-2067,Extended Programme,pilot-location-62,41,true,2022-09-23,2,1001
+3,FAC-2068,Pilot Standard,extended-location-63,50,false,2023-02-07,3,1002
+4,FAC-2069,Baseline Framework D,integrated-location-64,59,true,2024-07-18,4,1003

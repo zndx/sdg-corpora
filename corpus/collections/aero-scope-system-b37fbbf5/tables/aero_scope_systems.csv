@@ -1,0 +1,5 @@
+id,system_id,firmware_version,detection_range_km,status,last_maintenance_date,dongle_module_id,drone_id,network_segment_id
+1000,8189503,distributed-firmware-48,2.70,active,2024-03-27T14:06:00,100,1,1
+1001,3717623,baseline-firmware-49,4.40,discontinued,2025-08-11T21:23:00,101,2,2
+1002,7441161,pilot-firmware-50,6.10,upgraded,2022-01-22T04:40:00,102,3,3
+1003,605963,extended-firmware-51,7.80,active,2023-06-06T11:57:00,103,4,4

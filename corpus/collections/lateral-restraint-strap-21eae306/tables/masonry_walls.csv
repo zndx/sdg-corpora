@@ -1,0 +1,5 @@
+masonry_wall_id,wall_identifier,wall_height,wall_type,masonry_unit_type,structural_role,lateral_restraint_strap_id,floor_assembly_id
+1000,WAL-2340,0.7,internal,concrete_block,load_bearing,100,1
+1001,WAL-2345,0.6000001,external,brick,non_load_bearing,101,2
+1002,WAL-2350,0.75,internal,concrete_block,load_bearing,102,3
+1003,WAL-2355,0.48,external,brick,non_load_bearing,103,4

@@ -1,0 +1,5 @@
+id,area_id,area_name,population_density,mortality_rate,morbidity_rate,administrative_zone,socioeconomic_status,infrastructure_level,nutrition_unit_id,beneficiary_group_id,geographic_area_id
+1000,default_chart_a_tax_19,Primary Programme A,18,3.70,7.95,compact-administ-38,extreme_poverty,basic,1,1,1000
+1001,fro,Composite Standard,24,7.40,9.90,composite-administ-39,poverty,adequate,2,2,1001
+1002,account_pymes_296,Compact Framework,30,11.10,11.85,primary-administ-40,moderate_poverty,advanced,3,3,1002
+1003,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,Legacy Protocol D,36,14.80,13.80,adaptive-administ-41,extreme_poverty,basic,4,4,1003

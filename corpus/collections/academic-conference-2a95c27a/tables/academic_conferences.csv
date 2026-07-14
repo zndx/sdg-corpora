@@ -1,0 +1,5 @@
+identifier,title,start_date,end_date,status,region_code,academic_institution_id,learned_society_id,steering_committee_id,programme_committee_id,local_organization_committee_id
+IDE-2086,Compact Initiative,2022-09-05T20:24:00,2022-09-01T08:00:00,planned,1562837,1000,1,100,1000,1
+IDE-2091,Legacy Model,2023-02-16T03:41:00,2023-02-12T15:17:00,ongoing,6564391,1001,2,101,1001,2
+IDE-2096,Regional Cluster A,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,778560,1002,3,102,1002,3
+IDE-2101,Seasonal Review,2025-12-11T17:15:00,2025-12-07T05:51:00,cancelled,8667ec1da10c4a0293d91388b49bc77c,1003,4,103,1003,4

@@ -1,0 +1,5 @@
+policy_id,policy_title,effective_date,status,affects_draft_exemption,government_body_id,educational_program_id
+100,Baseline Initiative D,2023-02-14,active,true,100,1
+101,Distributed Model,2024-07-25,pending,false,101,2
+102,Adaptive Cluster,2025-12-09,repealed,true,102,3
+103,Primary Review A,2022-05-20,active,false,103,4

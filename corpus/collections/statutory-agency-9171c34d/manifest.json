@@ -1,0 +1,138 @@
+{
+ "construct_id": "9171c34d689f3da8",
+ "slug": "statutory-agency-9171c34d",
+ "passage": "9171c34d689f3da81c8fc56a5101ec5de3c1fb4816a126bac5b8502a51d1fbce.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "StatutoryAgency",
+  "MissionStatement",
+  "StaffingPlan",
+  "AdministrativeUnit",
+  "ConsolidationImpact"
+ ],
+ "terms": [
+  {
+   "name": "StatutoryAgency",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MissionStatement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StaffingPlan",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdministrativeUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ConsolidationImpact",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "statutory_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_identifier",
+    "agency_name",
+    "parent_department",
+    "statutory_reference",
+    "fiscal_year",
+    "is_consolidated",
+    "staffing_plan_id",
+    "mission_statement_id",
+    "administrative_unit_id"
+   ]
+  },
+  {
+   "name": "mission_statements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mission_id",
+    "mission_text",
+    "is_subset_of",
+    "requires_specialized_expertise",
+    "funding_mechanism",
+    "statutory_agency_id"
+   ]
+  },
+  {
+   "name": "staffing_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_id",
+    "position_title",
+    "full_time_equivalent",
+    "salary_range",
+    "is_executive",
+    "requires_specialized_skills",
+    "statutory_agency_id",
+    "administrative_unit_id"
+   ]
+  },
+  {
+   "name": "administrative_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_code",
+    "unit_name",
+    "support_type",
+    "staff_count",
+    "budget_allocation",
+    "statutory_agency_id",
+    "staffing_plan_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "consolidation_impacts",
+   "rows": 4,
+   "columns": [
+    "consolidation_impact_id",
+    "impact_id",
+    "cost_savings",
+    "salary_savings",
+    "position_count_change",
+    "efficiency_gain",
+    "requires_new_infrastructure",
+    "mission_statement_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "impacts_agencies",
+   "rows": 8,
+   "columns": [
+    "consolidation_impact_id",
+    "statutory_agency_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_statutory_agency_staffing_plan",
+  "vw_statutory_agency_mission_statement",
+  "vw_statutory_agency_administrative_unit",
+  "vw_mission_statement_statutory_agency",
+  "vw_staffing_plan_statutory_agency",
+  "vw_staffing_plan_administrative_unit",
+  "vw_administrative_unit_statutory_agency",
+  "vw_administrative_unit_staffing_plan",
+  "vw_consolidation_impact_statutory_agency_detail",
+  "vw_consolidation_impact_mission_statement"
+ ]
+}

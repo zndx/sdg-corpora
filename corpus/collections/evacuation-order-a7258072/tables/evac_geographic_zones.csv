@@ -1,0 +1,5 @@
+geographic_zone_id,zone_identifier,zone_name,risk_level,population_count,area_size,boundary_coordinates,evacuation_order_id,evacuation_route_id,hazard_event_id
+100,ZON-2258,Pilot Series,low,15021,1.52,regional-boundary-78,1,1000,1
+101,ZON-2263,Baseline Assessment,medium,10,0.65,legacy-boundary-79,2,1001,2
+102,ZON-2268,Distributed Survey A,high,18,0.43012016,compact-boundary-80,3,1002,3
+103,ZON-2273,Adaptive Corridor,extreme,50,0.6000001,composite-boundary-81,4,1003,4

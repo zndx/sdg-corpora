@@ -1,0 +1,5 @@
+id,participant_id,age,gender,employment_status,previous_occupation,career_transition_id,phase_id
+1,3990185,35,male,employed,baseline-previous-85,1000,20967529
+2,4716387,40,female,unemployed,pilot-previous-86,1001,b7bf012e-8fcd-11eb-924d-9cd76263cbd0
+3,69430,45,non_binary,retired,extended-previous-87,1002,790479
+4,c7460a44-8fcc-11eb-924d-9cd76263cbd0,50,prefer_not_to_say,volunteering,integrated-previous-88,1003,account_pymes_130

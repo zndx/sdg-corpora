@@ -1,0 +1,5 @@
+measurement_method_id,method_id,method_name,method_type,accuracy_level,cost_index,is_automated,flood_asset_id
+100,209228,Pilot Assessment,VisualInspection,22.70,19.95,false,1
+101,7441161,Baseline Survey,RemoteSensing,27.40,14.58,true,2
+102,89447,Distributed Corridor A,GeophysicalSurvey,32.10,47.66,false,3
+103,4180941,Adaptive Series,StructuralAnalysis,36.80,27.02,true,4

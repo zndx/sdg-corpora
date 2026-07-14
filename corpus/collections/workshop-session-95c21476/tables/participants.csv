@@ -1,0 +1,5 @@
+participant_id,full_name,email,registration_date,attendance_status,prior_knowledge_level,motivation_type_id,created_at,updated_at
+1,Theodore Mcgrath,seasonal-email-11,2023-06-19T17:27:00,registered,beginner,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Account Name,regional-email-12,2024-11-03T00:44:00,attended,intermediate,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Saipan International Airport,legacy-email-13,2025-04-14T07:01:00,absent,advanced,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Norma Fisher,compact-email-14,2022-09-25T14:18:00,dropped_out,beginner,103,2025-04-16 09:14:00,2025-04-23 15:41:00

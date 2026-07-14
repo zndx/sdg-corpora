@@ -1,0 +1,147 @@
+{
+ "construct_id": "3c304307d788d606",
+ "slug": "shell-reading-3c304307",
+ "passage": "3c304307d788d6065694aa546e5dfae4fae1691d57c37f87c23df2a693c48f3d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "ShellReading",
+  "Shell",
+  "StudentInterpretation",
+  "PsychologicalConcept",
+  "TrainingSession"
+ ],
+ "terms": [
+  {
+   "name": "ShellReading",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Shell",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StudentInterpretation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PsychologicalConcept",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TrainingSession",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ShellReading",
+   "rows": 4,
+   "columns": [
+    "id",
+    "readingId",
+    "clientName",
+    "sessionDate",
+    "primaryTheme",
+    "emotionalValence",
+    "interpretationConfidence"
+   ]
+  },
+  {
+   "name": "Shell",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shellId",
+    "catalogNumber",
+    "commonName",
+    "symbolicMeaning",
+    "speciesType",
+    "readingId",
+    "conceptId"
+   ]
+  },
+  {
+   "name": "StudentInterpretation",
+   "rows": 4,
+   "columns": [
+    "interpretationId",
+    "studentName",
+    "interpretationText",
+    "certaintyLevel",
+    "recordedDate",
+    "isJournalEntry",
+    "readingId",
+    "conceptId"
+   ]
+  },
+  {
+   "name": "PsychologicalConcept",
+   "rows": 4,
+   "columns": [
+    "id",
+    "conceptId",
+    "conceptName",
+    "category",
+    "severityLevel",
+    "shellId",
+    "interpretationId"
+   ]
+  },
+  {
+   "name": "TrainingSession",
+   "rows": 4,
+   "columns": [
+    "sessionId",
+    "sessionTitle",
+    "durationMinutes",
+    "classLevel",
+    "instructorName",
+    "sessionStatus",
+    "readingId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "ShellReadingShell",
+   "rows": 8,
+   "columns": [
+    "readingId",
+    "shellId"
+   ]
+  },
+  {
+   "name": "ShellReadingStudentInterpretation",
+   "rows": 8,
+   "columns": [
+    "readingId",
+    "interpretationId"
+   ]
+  },
+  {
+   "name": "TrainingSessionStudentInterpretation",
+   "rows": 8,
+   "columns": [
+    "sessionId",
+    "interpretationId"
+   ]
+  }
+ ],
+ "views": [
+  "v_shell_reading_shell_detail",
+  "v_shell_reading_student_interpretation_detail",
+  "v_shell_shell_reading",
+  "v_shell_psychological_concept",
+  "v_student_interpretation_shell_reading",
+  "v_student_interpretation_psychological_concept",
+  "v_psychological_concept_shell",
+  "v_psychological_concept_student_interpretation",
+  "v_training_session_shell_reading",
+  "v_training_session_student_interpretation_detail"
+ ]
+}

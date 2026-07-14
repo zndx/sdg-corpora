@@ -1,0 +1,161 @@
+{
+ "construct_id": "8c7e83791a762dc1",
+ "slug": "ideological-movement-8c7e8379",
+ "passage": "8c7e83791a762dc1da96b0920552d7fcd6aa3f9d6465d24d380d1f310dc8d2ac.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "IdeologicalMovement",
+  "StrategicOperation",
+  "GeopoliticalRegion",
+  "ReligiousOrganization",
+  "Individual",
+  "Publication"
+ ],
+ "terms": [
+  {
+   "name": "IdeologicalMovement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StrategicOperation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeopoliticalRegion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReligiousOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Publication",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ideological_movements",
+   "rows": 4,
+   "columns": [
+    "ideological_movement_id",
+    "movement_identifier",
+    "founding_year",
+    "founder_name",
+    "strategic_phase",
+    "ultimate_goal",
+    "operational_territory",
+    "is_political",
+    "strategic_operation_id",
+    "geopolitical_region_id"
+   ]
+  },
+  {
+   "name": "strategic_operations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "operation_code",
+    "operation_name",
+    "description",
+    "target_region",
+    "implementation_method",
+    "is_coercive",
+    "ideological_movement_id",
+    "geopolitical_region_id"
+   ]
+  },
+  {
+   "name": "geopolitical_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_identifier",
+    "region_name",
+    "region_type",
+    "current_influence_level",
+    "historical_status",
+    "strategic_operation_id",
+    "religious_organization_id"
+   ]
+  },
+  {
+   "name": "religious_organizations",
+   "rows": 4,
+   "columns": [
+    "religious_organization_id",
+    "org_identifier",
+    "org_name",
+    "affiliation",
+    "founding_date",
+    "headquarters_location",
+    "is_political",
+    "membership_count",
+    "ideological_movement_id",
+    "geopolitical_region_id",
+    "individual_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "individual_id",
+    "person_identifier",
+    "full_name",
+    "birth_country",
+    "current_residence",
+    "former_affiliation",
+    "current_stance",
+    "publications_count",
+    "religious_organization_id",
+    "geopolitical_region_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "publications",
+   "rows": 4,
+   "columns": [
+    "publication_id",
+    "pub_identifier",
+    "title",
+    "publication_date",
+    "publisher",
+    "language",
+    "subject_matter",
+    "is_critical_of_movement",
+    "individual_id",
+    "ideological_movement_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_ideological_movement_strategic_operation",
+  "v_ideological_movement_geopolitical_region",
+  "v_strategic_operation_ideological_movement",
+  "v_strategic_operation_geopolitical_region",
+  "v_geopolitical_region_strategic_operation",
+  "v_geopolitical_region_religious_organization",
+  "v_religious_organization_ideological_movement",
+  "v_religious_organization_geopolitical_region",
+  "v_religious_organization_individual",
+  "v_individual_religious_organization",
+  "v_individual_geopolitical_region",
+  "v_individual_publication",
+  "v_publication_individual",
+  "v_publication_ideological_movement"
+ ]
+}

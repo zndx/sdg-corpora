@@ -1,0 +1,118 @@
+{
+ "construct_id": "b1dc9c7ad8bfaf20",
+ "slug": "society-charter-b1dc9c7a",
+ "passage": "b1dc9c7ad8bfaf20e595c1050c841106d3da56c6d51d4ef1736e757239cfd2fb.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 7,
+ "entities": [
+  "SocietyCharter",
+  "MembershipCategory",
+  "MedicalProfessional",
+  "SocietyMeeting",
+  "FellowshipProgram"
+ ],
+ "terms": [
+  {
+   "name": "SocietyCharter",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MembershipCategory",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "MedicalProfessional",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SocietyMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FellowshipProgram",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "SocietyCharter",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legalName",
+    "principalOfficeAddress",
+    "registeredOfficeAddress",
+    "jurisdictionState",
+    "charitablePurposeStatement"
+   ]
+  },
+  {
+   "name": "MembershipCategory",
+   "rows": 4,
+   "columns": [
+    "id",
+    "categoryName",
+    "requiresMedicalLicense",
+    "requiresBoardCertification",
+    "requiresFellowshipTraining",
+    "requiresPeerRecommendations",
+    "requiresPublications",
+    "charterId"
+   ]
+  },
+  {
+   "name": "MedicalProfessional",
+   "rows": 4,
+   "columns": [
+    "id",
+    "licenseState",
+    "boardCertificationBody",
+    "pediatricPracticePercentage",
+    "yearsPostFellowship",
+    "peerReviewPublicationsCount",
+    "meetsEligibilityCriteria",
+    "categoryId",
+    "meetingId"
+   ]
+  },
+  {
+   "name": "SocietyMeeting",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meetingDate",
+    "meetingType",
+    "location",
+    "isEligibilityRequirement",
+    "charterId",
+    "professionalId"
+   ]
+  },
+  {
+   "name": "FellowshipProgram",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programName",
+    "durationYears",
+    "isPediatricOtolaryngology",
+    "completionDate",
+    "professionalId",
+    "charterId"
+   ]
+  }
+ ],
+ "views": [
+  "v_membership_category_society_charter",
+  "v_medical_professional_membership_category",
+  "v_medical_professional_society_meeting",
+  "v_society_meeting_society_charter",
+  "v_society_meeting_medical_professional",
+  "v_fellowship_program_medical_professional",
+  "v_fellowship_program_society_charter"
+ ]
+}

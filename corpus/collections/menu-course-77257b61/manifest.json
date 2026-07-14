@@ -1,0 +1,164 @@
+{
+ "construct_id": "77257b61e509608e",
+ "slug": "menu-course-77257b61",
+ "passage": "77257b61e509608ebb7c4ba3351fd64cc2a61438e60c97f08b4c3153b962c4ae.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 11,
+ "entities": [
+  "MenuCourse",
+  "DiningPackage",
+  "Beverage",
+  "FoodIngredient",
+  "ServiceCharge",
+  "StaffRole"
+ ],
+ "terms": [
+  {
+   "name": "MenuCourse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DiningPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Beverage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceCharge",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffRole",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_identifier",
+    "course_name",
+    "course_description",
+    "is_vegetarian",
+    "is_vegan",
+    "course_type",
+    "dining_package_id",
+    "food_ingredient_id"
+   ]
+  },
+  {
+   "name": "dining_packages",
+   "rows": 4,
+   "columns": [
+    "dining_package_id",
+    "package_identifier",
+    "package_name",
+    "total_price",
+    "course_count",
+    "includes_beverage",
+    "package_status",
+    "beverage_id"
+   ]
+  },
+  {
+   "name": "beverages",
+   "rows": 4,
+   "columns": [
+    "beverage_id",
+    "beverage_identifier",
+    "beverage_name",
+    "beverage_type",
+    "serving_temperature",
+    "alcohol_content",
+    "menu_course_id",
+    "dining_package_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_identifier",
+    "ingredient_name",
+    "ingredient_category",
+    "allergen_flag",
+    "origin_region",
+    "is_organic",
+    "menu_course_id"
+   ]
+  },
+  {
+   "name": "service_charges",
+   "rows": 4,
+   "columns": [
+    "service_charge_id",
+    "charge_percentage",
+    "charge_amount",
+    "distribution_method",
+    "is_mandatory",
+    "calculation_date",
+    "dining_package_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "staff_roles",
+   "rows": 4,
+   "columns": [
+    "staff_role_id",
+    "role_identifier",
+    "role_name",
+    "department",
+    "receives_service_charge",
+    "receives_direct_tips",
+    "service_charge_id",
+    "menu_course_id"
+   ]
+  },
+  {
+   "name": "packages_courses",
+   "rows": 8,
+   "columns": [
+    "dining_package_id",
+    "menu_course_id"
+   ]
+  },
+  {
+   "name": "charges_roles",
+   "rows": 8,
+   "columns": [
+    "service_charge_id",
+    "staff_role_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_course_dining_package",
+  "vw_menu_course_food_ingredient",
+  "vw_dining_package_menu_course_detail",
+  "vw_dining_package_beverage",
+  "vw_beverage_menu_course",
+  "vw_beverage_dining_package",
+  "vw_food_ingredient_menu_course",
+  "vw_service_charge_dining_package",
+  "vw_service_charge_staff_role_detail",
+  "vw_staff_role_service_charge",
+  "vw_staff_role_menu_course"
+ ]
+}

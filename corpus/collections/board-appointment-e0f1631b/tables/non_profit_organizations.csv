@@ -1,0 +1,5 @@
+non_profit_organization_id,organization_id,legal_name,tax_status,founding_date,headquarters_location,website_url,contact_phone_number,board_appointment_id,has_affiliate_non_profit_organization_id,funding_source_id
+1,Shell Oil,Adaptive Model,composite-tax-63,2023-06-24T05:03:00,composite-headquar-63,https://github.com/chiphuyen/lazynlp,Theodore Mcgrath,1000,1,100
+2,GlobalPlatform Inc.,Primary Cluster,primary-tax-64,2024-11-08T12:20:00,primary-headquar-64,https://bugs.launchpad.net/ironic/+bug/1346406,Peter Mcdowell,1001,2,101
+3,Whatsapp Inc.,Composite Review D,adaptive-tax-65,2025-04-19T19:37:00,adaptive-headquar-65,http://en.wikipedia.org/wiki/Hyla_femoralis,Collin Lopez,1002,3,102
+4,American Institutes for Research,Compact Initiative,distributed-tax-66,2022-09-03T02:54:00,distributed-headquar-66,https://www.nature.com/articles/nphoton.2014.41,Steve Martin,1003,4,103

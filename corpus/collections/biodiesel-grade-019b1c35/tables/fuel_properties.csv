@@ -1,0 +1,5 @@
+fuel_property_id,property_name,specification_limit,unit_of_measure,is_critical,test_condition,biodiesel_grade_id,fuel_sample_id
+1000,Baseline Standard D,7.95,composite-unit-69,false,primary-test-58,1,1000
+1001,Distributed Framework,11.90,primary-unit-70,true,adaptive-test-59,2,1001
+1002,Adaptive Protocol,15.85,adaptive-unit-71,false,distributed-test-60,3,1002
+1003,Primary Programme A,19.80,distributed-unit-72,true,baseline-test-61,4,1003

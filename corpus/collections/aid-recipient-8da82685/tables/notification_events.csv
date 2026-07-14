@@ -1,0 +1,5 @@
+id,notification_type,scheduled_date,delivery_status,aid_recipient_id,aid_program_id
+1000,adaptive-notifica-35,2024-11-27,scheduled,1,1
+1001,distributed-notifica-36,2025-04-11,sent,2,2
+1002,baseline-notifica-37,2022-09-22,failed,3,3
+1003,pilot-notifica-38,2023-02-06,scheduled,4,4

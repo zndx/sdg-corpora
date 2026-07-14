@@ -1,0 +1,5 @@
+id,cause_identifier,cause_name,cause_category,total_donations_received,donation_frequency,next_donation_date,tax_exempt_status,geographic_focus,fund_id,underlying_fund_id
+100,CAU-2797,Integrated Framework A,seasonal-cause-89,8.45,primary-donation-46,2022-09-13,false,extended-geograph-99,100,100
+101,CAU-2803,Extended Protocol,regional-cause-90,11.90,adaptive-donation-47,2023-02-24,true,integrated-geograph-100,101,101
+102,CAU-2809,Pilot Programme,legacy-cause-91,15.35,distributed-donation-48,2024-07-08,false,seasonal-geograph-101,102,102
+103,CAU-2815,Baseline Standard D,compact-cause-92,18.80,baseline-donation-49,2025-12-19,true,regional-geograph-102,103,103

@@ -1,0 +1,5 @@
+person_id,full_name,role,affiliation,email,is_draft_exempt,educational_organization_id,teaches_at_educational_organization_id,government_body_id,award_id
+100,Theodore Mcgrath,president,baseline-affiliat-55,seasonal-email-11,true,1,1,100,1
+101,Account Name,lecturer,pilot-affiliat-56,regional-email-12,false,2,2,101,2
+102,Saipan International Airport,researcher,extended-affiliat-57,legacy-email-13,true,3,3,102,3
+103,Norma Fisher,dean,integrated-affiliat-58,compact-email-14,false,4,4,103,4

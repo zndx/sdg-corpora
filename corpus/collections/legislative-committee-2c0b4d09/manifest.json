@@ -1,0 +1,146 @@
+{
+ "construct_id": "2c0b4d09f94f6dfc",
+ "slug": "legislative-committee-2c0b4d09",
+ "passage": "2c0b4d09f94f6dfcb58e18fa3b6ba5da530960b0ad753b77ef5f12b91d4d3d2c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "LegislativeCommittee",
+  "Legislator",
+  "PolicyDomain",
+  "MeetingVenue",
+  "CommitteeMeeting"
+ ],
+ "terms": [
+  {
+   "name": "LegislativeCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Legislator",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "PolicyDomain",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MeetingVenue",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CommitteeMeeting",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legislative_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "committee_id",
+    "committee_name",
+    "jurisdiction_description",
+    "status",
+    "established_date",
+    "venue_id"
+   ]
+  },
+  {
+   "name": "legislators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legislator_id",
+    "full_name",
+    "role",
+    "contact_email",
+    "contact_phone",
+    "legislative_committee_id"
+   ]
+  },
+  {
+   "name": "policy_domains",
+   "rows": 4,
+   "columns": [
+    "domain_code",
+    "domain_name",
+    "regulatory_scope",
+    "enforcement_agency",
+    "legislative_committee_id",
+    "overlaps_with_domain_code",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "meeting_venues",
+   "rows": 4,
+   "columns": [
+    "venue_id",
+    "venue_name",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "room_number",
+    "meeting_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "committee_meetings",
+   "rows": 4,
+   "columns": [
+    "meeting_id",
+    "scheduled_date_time",
+    "duration_minutes",
+    "meeting_type",
+    "status",
+    "legislative_committee_id",
+    "venue_id"
+   ]
+  },
+  {
+   "name": "committees_legislators",
+   "rows": 8,
+   "columns": [
+    "legislative_committee_id",
+    "legislator_id"
+   ]
+  },
+  {
+   "name": "committees_domains",
+   "rows": 8,
+   "columns": [
+    "legislative_committee_id",
+    "domain_code"
+   ]
+  },
+  {
+   "name": "meetings_legislators",
+   "rows": 8,
+   "columns": [
+    "meeting_id",
+    "legislator_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_legislative_committee_legislator_detail",
+  "v_legislative_committee_policy_domain_detail",
+  "v_legislative_committee_meeting_venue",
+  "v_legislator_legislative_committee",
+  "v_policy_domain_legislative_committee",
+  "v_policy_domain_policy_domain",
+  "v_meeting_venue_committee_meeting",
+  "v_committee_meeting_legislative_committee",
+  "v_committee_meeting_meeting_venue",
+  "v_committee_meeting_legislator_detail"
+ ]
+}

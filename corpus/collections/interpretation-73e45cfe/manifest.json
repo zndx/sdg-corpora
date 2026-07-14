@@ -1,0 +1,134 @@
+{
+ "construct_id": "73e45cfe3394a627",
+ "slug": "interpretation-73e45cfe",
+ "passage": "73e45cfe3394a627f54390fc73060f0ffc699d003fa39381cedd79b47cf5724d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 13,
+ "entities": [
+  "Interpretation",
+  "BiblicalText",
+  "TheologicalClaim",
+  "Covenant",
+  "Humanity"
+ ],
+ "terms": [
+  {
+   "name": "Interpretation",
+   "genus": "bfo:0000030"
+  },
+  {
+   "name": "BiblicalText",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TheologicalClaim",
+   "genus": "bfo:0000030"
+  },
+  {
+   "name": "Covenant",
+   "genus": "bfo:0000030"
+  },
+  {
+   "name": "Humanity",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "interpretations",
+   "rows": 4,
+   "columns": [
+    "interpretation_id",
+    "interpretation_name",
+    "primary_subject",
+    "is_mainstream",
+    "is_author_preferred",
+    "biblical_text_id",
+    "theological_claim_id",
+    "contradicts_interpretation_id"
+   ]
+  },
+  {
+   "name": "biblical_texts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "text_id",
+    "book_name",
+    "chapter_number",
+    "verse_range",
+    "language",
+    "is_historic_narrative",
+    "interpretation_id",
+    "theological_claim_id"
+   ]
+  },
+  {
+   "name": "theological_claims",
+   "rows": 4,
+   "columns": [
+    "id",
+    "claim_id",
+    "claim_text",
+    "claim_type",
+    "is_covenantal",
+    "is_eschatological",
+    "biblical_text_id",
+    "is_contradicted_by_biblical_text_id",
+    "interpretation_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "covenants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "covenant_id",
+    "covenant_name",
+    "is_unilateral",
+    "is_bilateral",
+    "promises",
+    "requirements",
+    "humanity_id",
+    "theological_claim_id",
+    "biblical_text_id"
+   ]
+  },
+  {
+   "name": "humanities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "humanity_id",
+    "lineage",
+    "is_godly",
+    "is_ungodly",
+    "is_covenant_people",
+    "covenant_id",
+    "theological_claim_id",
+    "intermarries_with_humanity_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_interpretation_biblical_text",
+  "vw_interpretation_theological_claim",
+  "vw_interpretation_interpretation",
+  "vw_biblical_text_interpretation",
+  "vw_biblical_text_theological_claim",
+  "vw_theological_claim_biblical_text",
+  "vw_theological_claim_interpretation",
+  "vw_covenant_humanity",
+  "vw_covenant_theological_claim",
+  "vw_covenant_biblical_text",
+  "vw_humanity_covenant",
+  "vw_humanity_theological_claim",
+  "vw_humanity_humanity"
+ ]
+}

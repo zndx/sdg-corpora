@@ -1,0 +1,235 @@
+{
+ "construct_id": "aa84321e94f8ecd1",
+ "slug": "registration-card-aa84321e",
+ "passage": "aa84321e94f8ecd1a0c96483d24d6a9af716c701726fcb474efba76f0d3fa5a4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 14,
+ "entities": [
+  "RegistrationCard",
+  "RegistrationCategory",
+  "TrainerApproval",
+  "TrainingScheme",
+  "ProviderApproval",
+  "ProviderAudit",
+  "TrainingOrganisation",
+  "Trainer"
+ ],
+ "terms": [
+  {
+   "name": "RegistrationCard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegistrationCategory",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TrainerApproval",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TrainingScheme",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProviderApproval",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProviderAudit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TrainingOrganisation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Trainer",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "registration_cards",
+   "rows": 4,
+   "columns": [
+    "card_id",
+    "card_type",
+    "issue_date",
+    "expiry_date",
+    "holder_name",
+    "trade_category",
+    "vat_excluded_price"
+   ]
+  },
+  {
+   "name": "registration_categories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "category_id",
+    "category_name",
+    "category_code",
+    "is_additional"
+   ]
+  },
+  {
+   "name": "trainer_approvals",
+   "rows": 4,
+   "columns": [
+    "trainer_approval_id",
+    "approval_id",
+    "approval_type",
+    "grant_date",
+    "expiry_date",
+    "vat_excluded_price",
+    "trainer_id"
+   ]
+  },
+  {
+   "name": "training_schemes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "scheme_code",
+    "scheme_name",
+    "scheme_type",
+    "is_smart_metering"
+   ]
+  },
+  {
+   "name": "provider_approvals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "approval_id",
+    "approval_status",
+    "grant_date",
+    "expiry_date",
+    "vat_excluded_price",
+    "organisation_id"
+   ]
+  },
+  {
+   "name": "provider_audits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "audit_id",
+    "audit_date",
+    "audit_type",
+    "audit_result",
+    "vat_excluded_price",
+    "provider_approval_id"
+   ]
+  },
+  {
+   "name": "training_organisations",
+   "rows": 4,
+   "columns": [
+    "organisation_id",
+    "organisation_name",
+    "registration_number",
+    "contact_email",
+    "contact_phone"
+   ]
+  },
+  {
+   "name": "trainers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trainer_id",
+    "first_name",
+    "last_name",
+    "email_address",
+    "is_approved",
+    "organisation_id"
+   ]
+  },
+  {
+   "name": "cards_categories",
+   "rows": 8,
+   "columns": [
+    "card_id",
+    "registration_category_id"
+   ]
+  },
+  {
+   "name": "categories_cards",
+   "rows": 8,
+   "columns": [
+    "registration_category_id",
+    "card_id"
+   ]
+  },
+  {
+   "name": "approvals_schemes",
+   "rows": 8,
+   "columns": [
+    "trainer_approval_id",
+    "training_scheme_id"
+   ]
+  },
+  {
+   "name": "schemes_approvals",
+   "rows": 8,
+   "columns": [
+    "training_scheme_id",
+    "trainer_approval_id"
+   ]
+  },
+  {
+   "name": "approvals_audits",
+   "rows": 8,
+   "columns": [
+    "provider_approval_id",
+    "provider_audit_id"
+   ]
+  },
+  {
+   "name": "organisations_approvals",
+   "rows": 8,
+   "columns": [
+    "organisation_id",
+    "provider_approval_id"
+   ]
+  },
+  {
+   "name": "organisations_trainers",
+   "rows": 8,
+   "columns": [
+    "organisation_id",
+    "trainer_id"
+   ]
+  },
+  {
+   "name": "trainers_approvals",
+   "rows": 8,
+   "columns": [
+    "trainer_id",
+    "trainer_approval_id"
+   ]
+  }
+ ],
+ "views": [
+  "registration_card_registration_category_detail_view",
+  "registration_category_registration_card_detail_view",
+  "trainer_approval_training_scheme_detail_view",
+  "trainer_approval_trainer_view",
+  "training_scheme_trainer_approval_detail_view",
+  "training_scheme_provider_approval_detail_view",
+  "provider_approval_training_scheme_detail_view",
+  "provider_approval_training_organisation_view",
+  "provider_approval_provider_audit_detail_view",
+  "provider_audit_provider_approval_view",
+  "training_organisation_provider_approval_detail_view",
+  "training_organisation_trainer_detail_view",
+  "trainer_trainer_approval_detail_view",
+  "trainer_training_organisation_view"
+ ]
+}

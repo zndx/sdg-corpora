@@ -1,0 +1,5 @@
+id,endpoint_id,device_type,ip_address,status,location_room,last_heartbeat,medication_fact_sheet_id,patient_id
+100,57da7384-8fcc-11eb-924d-9cd76263cbd0,bedsideTV,extended-ip-15,active,baseline-location-97,2022-09-07T20:36:00,1,8387541
+101,48753442,mobileDevice,integrated-ip-16,inactive,pilot-location-98,2023-02-18T03:53:00,2,10207142
+102,2bc4116a-8fcc-11eb-924d-9cd76263cbd0,computer,seasonal-ip-17,maintenance,extended-location-99,2024-07-02T10:10:00,3,7119782
+103,10238272,digitalWhiteboard,regional-ip-18,active,integrated-location-100,2025-12-13T17:27:00,4,gd_acc_160003

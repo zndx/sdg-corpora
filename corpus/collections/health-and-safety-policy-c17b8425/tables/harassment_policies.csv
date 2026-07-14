@@ -1,0 +1,5 @@
+id,policy_identifier,effective_date,issuing_authority,compliance_standard,policy_status,worker_id,safety_incident_id,created_at,updated_at
+1000,POL-2480,2023-02-14,extended-issuing-33,primary-complian-88,active,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,POL-2486,2024-07-25,integrated-issuing-34,adaptive-complian-89,draft,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,POL-2492,2025-12-09,seasonal-issuing-35,distributed-complian-90,superseded,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,POL-2498,2022-05-20,regional-issuing-36,baseline-complian-91,pending_review,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

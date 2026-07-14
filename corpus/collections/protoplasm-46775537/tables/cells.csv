@@ -1,0 +1,5 @@
+cell_id,division_stage,nucleus_present,cell_type,creation_date,protoplasm_id,nucleus_id
+557,pre-division,false,monocell,2022-01-13T12:24:00,100,1000
+790489,dividing,true,somatic,2023-06-24T19:41:00,101,1001
+10445644,post-division,false,germ,2024-11-08T02:58:00,102,1002
+1186089,pre-division,true,monocell,2025-04-19T09:15:00,103,1003

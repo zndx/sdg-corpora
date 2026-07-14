@@ -1,0 +1,199 @@
+{
+ "construct_id": "f59af2109f25dac6",
+ "slug": "office-staff-role-f59af210",
+ "passage": "f59af2109f25dac613f76b8370f50dfd0c31c549a5a5300b4f4cabf7fa3cc22e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 18,
+ "entities": [
+  "OfficeStaffRole",
+  "Person",
+  "OfficeProcess",
+  "Document",
+  "CopyRequestForm",
+  "TravelRequest",
+  "TravelVoucher",
+  "PostalAddress"
+ ],
+ "terms": [
+  {
+   "name": "OfficeStaffRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "OfficeProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Document",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CopyRequestForm",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TravelRequest",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TravelVoucher",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PostalAddress",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "office_staff_roles",
+   "rows": 4,
+   "columns": [
+    "office_staff_role_id",
+    "role_title",
+    "office_location",
+    "phone_extension",
+    "is_authorized_operator",
+    "has_emergency_authority",
+    "person_id",
+    "office_process_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_name",
+    "employee_id",
+    "email_address",
+    "department_affiliation",
+    "has_university_car_access",
+    "office_staff_role_id",
+    "travel_request_id"
+   ]
+  },
+  {
+   "name": "office_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_type",
+    "operating_hours_start",
+    "operating_hours_end",
+    "is_lunch_break_included",
+    "lunch_break_start",
+    "lunch_break_end",
+    "semester_restriction",
+    "office_staff_role_id",
+    "document_id"
+   ]
+  },
+  {
+   "name": "documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_type",
+    "creation_date",
+    "is_copyrighted",
+    "has_original_pages",
+    "has_copy_count",
+    "is_emergency",
+    "drop_box_location",
+    "person_id",
+    "office_process_id",
+    "copy_request_form_id",
+    "postal_address_id"
+   ]
+  },
+  {
+   "name": "copy_request_forms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "form_id",
+    "copyright_info",
+    "original_page_count",
+    "copy_count",
+    "is_properly_filled",
+    "location_in_office",
+    "document_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "travel_requests",
+   "rows": 4,
+   "columns": [
+    "travel_request_id",
+    "request_id",
+    "submission_date",
+    "meeting_name",
+    "requires_absence_authorization",
+    "requires_university_car",
+    "is_submitted_early",
+    "person_id",
+    "office_staff_role_id",
+    "voucher_id"
+   ]
+  },
+  {
+   "name": "travel_vouchers",
+   "rows": 4,
+   "columns": [
+    "voucher_id",
+    "submission_date",
+    "total_amount",
+    "has_all_receipts",
+    "missing_receipts_count",
+    "is_notarized",
+    "travel_request_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "postal_addresses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "building_code",
+    "room_number",
+    "street_address",
+    "is_mail_pickup_location",
+    "mail_sort_deadline",
+    "document_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_office_staff_role_person",
+  "vw_office_staff_role_office_process",
+  "vw_person_office_staff_role",
+  "vw_person_travel_request",
+  "vw_office_process_office_staff_role",
+  "vw_office_process_document",
+  "vw_document_person",
+  "vw_document_office_process",
+  "vw_document_copy_request_form",
+  "vw_document_postal_address",
+  "vw_copy_request_form_document",
+  "vw_copy_request_form_person",
+  "vw_travel_request_person",
+  "vw_travel_request_office_staff_role",
+  "vw_travel_request_travel_voucher",
+  "vw_travel_voucher_travel_request",
+  "vw_travel_voucher_person",
+  "vw_postal_address_document"
+ ]
+}

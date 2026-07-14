@@ -1,0 +1,144 @@
+{
+ "construct_id": "6a37ee770462a25a",
+ "slug": "journalist-6a37ee77",
+ "passage": "6a37ee770462a25ae723105df1451dd0207c52756fdb0a117c7ea6027aa2b2ce.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "Journalist",
+  "NewsOrganization",
+  "BroadcastProgram",
+  "HistoricalEvent",
+  "MediaPersonality"
+ ],
+ "terms": [
+  {
+   "name": "Journalist",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NewsOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BroadcastProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HistoricalEvent",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MediaPersonality",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "journalists",
+   "rows": 4,
+   "columns": [
+    "journalist_id",
+    "callsign",
+    "birth_date",
+    "death_date",
+    "birth_place",
+    "education_institution",
+    "primary_employer",
+    "is_retired",
+    "news_organization_id",
+    "historical_event_id"
+   ]
+  },
+  {
+   "name": "news_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_name",
+    "founding_year",
+    "headquarters_location",
+    "organization_type",
+    "is_defunct",
+    "broadcast_program_id"
+   ]
+  },
+  {
+   "name": "broadcast_programs",
+   "rows": 4,
+   "columns": [
+    "broadcast_program_id",
+    "program_title",
+    "broadcast_date",
+    "network",
+    "duration_minutes",
+    "is_documentary",
+    "director_name",
+    "premiere_venue",
+    "news_organization_id",
+    "journalist_id",
+    "historical_event_id"
+   ]
+  },
+  {
+   "name": "historical_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_name",
+    "event_date",
+    "location",
+    "event_category",
+    "is_verified",
+    "broadcast_program_id"
+   ]
+  },
+  {
+   "name": "media_personalities",
+   "rows": 4,
+   "columns": [
+    "media_personality_id",
+    "full_name",
+    "callsign",
+    "recognition_title",
+    "years_active",
+    "is_retired",
+    "news_organization_id",
+    "historical_event_id"
+   ]
+  },
+  {
+   "name": "organizations_journalists",
+   "rows": 8,
+   "columns": [
+    "news_organization_id",
+    "journalist_id"
+   ]
+  },
+  {
+   "name": "events_journalists",
+   "rows": 8,
+   "columns": [
+    "historical_event_id",
+    "journalist_id"
+   ]
+  }
+ ],
+ "views": [
+  "journalist_news_organization_view",
+  "journalist_historical_event_view",
+  "news_organization_journalist_detail_view",
+  "news_organization_broadcast_program_view",
+  "broadcast_program_news_organization_view",
+  "broadcast_program_journalist_view",
+  "broadcast_program_historical_event_view",
+  "historical_event_journalist_detail_view",
+  "historical_event_broadcast_program_view",
+  "media_personality_news_organization_view",
+  "media_personality_historical_event_view"
+ ]
+}

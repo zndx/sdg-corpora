@@ -1,0 +1,5 @@
+id,score_value,risk_level,assessment_date,scoring_methodology,is_prioritized_for_response,response_action,medical_device_model_number,cyber_threat_id,created_at
+1,8.95,low,2022-05-10T04:24:00,seasonal-scoring-83,false,replace,MOD-2238,100,2025-01-01 00:14:00
+2,11.90,medium,2023-10-21T11:41:00,regional-scoring-84,true,upgrade,MOD-2244,101,2025-02-06 03:14:00
+3,14.85,high,2024-03-05T18:58:00,legacy-scoring-85,false,patch,MOD-2250,102,2025-03-11 06:14:00
+4,17.80,critical,2025-08-16T01:15:00,compact-scoring-86,true,monitor,MOD-2256,103,2025-04-16 09:14:00

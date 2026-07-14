@@ -1,0 +1,5 @@
+rights_barrier_id,barrier_id,barrier_type,severity_level,documented_evidence,mitigation_status,vulnerable_group_id,u_p_r_recommendation_id,state_id,created_at,updated_at
+100,9125631,funding_disparity,critical,extended-document-51,unaddressed,100,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,6969441,discrimination,high,integrated-document-52,partially_addressed,101,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,gd_taxc_1122,violence,medium,seasonal-document-53,fully_addressed,102,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,790474,isolation,low,regional-document-54,unaddressed,103,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

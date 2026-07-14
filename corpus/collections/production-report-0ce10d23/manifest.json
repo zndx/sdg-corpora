@@ -1,0 +1,137 @@
+{
+ "construct_id": "0ce10d23837f96df",
+ "slug": "production-report-0ce10d23",
+ "passage": "0ce10d23837f96df8caa04f6184f637c1fc1e1bee5e382a08d45940b4aea3ce9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 5,
+ "entities": [
+  "ProductionReport",
+  "GeographicRegion",
+  "CorporateEntity",
+  "PriceForecast",
+  "TradeShipment",
+  "RigCount"
+ ],
+ "terms": [
+  {
+   "name": "ProductionReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CorporateEntity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PriceForecast",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TradeShipment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RigCount",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "production_reports",
+   "rows": 4,
+   "columns": [
+    "report_id",
+    "report_date",
+    "organization_name",
+    "region_name",
+    "volume_bpd",
+    "unit_of_measure",
+    "data_source",
+    "geographic_region_id",
+    "corporate_entity_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "geographic_region_id",
+    "region_id",
+    "region_name",
+    "country_code",
+    "latitude",
+    "longitude",
+    "region_type"
+   ]
+  },
+  {
+   "name": "corporate_entities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "entity_id",
+    "entity_name",
+    "headquarters_location",
+    "entity_type",
+    "market_cap"
+   ]
+  },
+  {
+   "name": "price_forecasts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "forecast_id",
+    "issue_date",
+    "target_year",
+    "price_value",
+    "currency_code",
+    "forecast_source",
+    "commodity_name",
+    "corporate_entity_id"
+   ]
+  },
+  {
+   "name": "trade_shipments",
+   "rows": 4,
+   "columns": [
+    "shipment_id",
+    "shipment_date",
+    "volume_tonnes",
+    "commodity_type",
+    "origin_country",
+    "destination_country",
+    "geographic_region_id",
+    "destined_for_geographic_region_id"
+   ]
+  },
+  {
+   "name": "rig_counts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "count_id",
+    "count_date",
+    "active_rig_count",
+    "region_name",
+    "data_provider",
+    "geographic_region_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_production_report_geographic_region",
+  "v_production_report_corporate_entity",
+  "v_price_forecast_corporate_entity",
+  "v_trade_shipment_geographic_region",
+  "v_rig_count_geographic_region"
+ ]
+}

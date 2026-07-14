@@ -1,0 +1,5 @@
+payment_id,payment_amount,payment_date,payment_type,currency,status,trigger_condition,recipient,payer,tax_withheld,asset_transfer_id,pharmaceutical_company_id,paid_by_pharmaceutical_company_id,geographic_region_id
+1,26.04,2024-03-24T14:54:00,upfront,seasonal-currency-71,pending,legacy-trigger-49,legacy-recipien-73,legacy-payer-91,false,1,1000,1000,1000
+2,38.08,2025-08-08T21:11:00,milestone,regional-currency-72,scheduled,compact-trigger-50,compact-recipien-74,compact-payer-92,true,2,1001,1001,1001
+3,13.94,2022-01-19T04:28:00,royalty,legacy-currency-73,paid,composite-trigger-51,composite-recipien-75,composite-payer-93,false,3,1002,1002,1002
+4,32.21,2023-06-03T11:45:00,equity,compact-currency-74,overdue,primary-trigger-52,primary-recipien-76,primary-payer-94,true,4,1003,1003,1003

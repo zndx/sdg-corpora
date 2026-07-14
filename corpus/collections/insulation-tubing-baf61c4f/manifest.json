@@ -1,0 +1,174 @@
+{
+ "construct_id": "baf61c4f0108b3ff",
+ "slug": "insulation-tubing-baf61c4f",
+ "passage": "baf61c4f0108b3ff85c842712e1ef144572a3084e97fa674042cf9ab1da58380.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 12,
+ "entities": [
+  "InsulationTubing",
+  "BusBar",
+  "SwitchgearAssembly",
+  "MaterialSpecification",
+  "TestMethod",
+  "DimensionalProfile"
+ ],
+ "terms": [
+  {
+   "name": "InsulationTubing",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BusBar",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SwitchgearAssembly",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MaterialSpecification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TestMethod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DimensionalProfile",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "InsulationTubing",
+   "rows": 4,
+   "columns": [
+    "tubingId",
+    "productCode",
+    "shrinkRatio",
+    "operatingTemperatureMin",
+    "operatingTemperatureMax",
+    "minimumShrinkTemperature",
+    "halogenFree",
+    "rohsCompliant",
+    "continuousLength",
+    "specificationId",
+    "barId"
+   ]
+  },
+  {
+   "name": "BusBar",
+   "rows": 4,
+   "columns": [
+    "id",
+    "barType",
+    "crossSectionWidth",
+    "crossSectionHeight",
+    "nominalDiameter",
+    "voltageRating",
+    "material",
+    "tubingId",
+    "assemblyId"
+   ]
+  },
+  {
+   "name": "SwitchgearAssembly",
+   "rows": 4,
+   "columns": [
+    "assemblyId",
+    "voltageLevel",
+    "installationDate",
+    "manufacturer",
+    "status"
+   ]
+  },
+  {
+   "name": "MaterialSpecification",
+   "rows": 4,
+   "columns": [
+    "id",
+    "specId",
+    "tensileStrength",
+    "elongationAtBreak",
+    "dielectricStrength",
+    "dielectricConstant",
+    "volumeResistance",
+    "oxygenIndex",
+    "copperCorrosionRate",
+    "coldBendTemperature",
+    "tubingId"
+   ]
+  },
+  {
+   "name": "TestMethod",
+   "rows": 4,
+   "columns": [
+    "methodId",
+    "methodCode",
+    "testType",
+    "standardBody",
+    "agingCondition",
+    "specificationId",
+    "tubingId"
+   ]
+  },
+  {
+   "name": "DimensionalProfile",
+   "rows": 4,
+   "columns": [
+    "profileId",
+    "insideDiameterMin",
+    "insideDiameterMax",
+    "wallThicknessMin",
+    "rectangularBusBarWidth",
+    "rectangularBusBarHeight",
+    "roundBusBarDiameter",
+    "shrinkRatio",
+    "barId",
+    "tubingId"
+   ]
+  },
+  {
+   "name": "InsulationTubingTestMethod",
+   "rows": 8,
+   "columns": [
+    "tubingId",
+    "methodId"
+   ]
+  },
+  {
+   "name": "SwitchgearAssemblyBusBar",
+   "rows": 8,
+   "columns": [
+    "assemblyId",
+    "barId"
+   ]
+  },
+  {
+   "name": "MaterialSpecificationTestMethod",
+   "rows": 8,
+   "columns": [
+    "specificationId",
+    "methodId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_insulation_tubing_material_specification",
+  "vw_insulation_tubing_bus_bar",
+  "vw_insulation_tubing_test_method_detail",
+  "vw_bus_bar_insulation_tubing",
+  "vw_bus_bar_switchgear_assembly",
+  "vw_switchgear_assembly_bus_bar_detail",
+  "vw_material_specification_test_method_detail",
+  "vw_material_specification_insulation_tubing",
+  "vw_test_method_material_specification",
+  "vw_test_method_insulation_tubing",
+  "vw_dimensional_profile_bus_bar",
+  "vw_dimensional_profile_insulation_tubing"
+ ]
+}

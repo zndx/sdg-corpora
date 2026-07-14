@@ -1,0 +1,5 @@
+permit_id,issue_date,expiry_date,project_type_code,project_type_description,ownership_type,total_units,contracted_square_feet,status,property_parcel_id,building_inspections_division_id
+3ac831c6-8fb5-11eb-924d-9cd76263cbd0,2023-02-01,2023-10-24,gd_taxc_2211,Primary Survey A,baseline-ownershi-73,19,12.70,pending,1,100
+ase,2024-07-12,2024-03-08,4543,Composite Corridor,pilot-ownershi-74,2,14.40,active,2,101
+6969410,2025-12-23,2025-08-19,103167,Compact Series,extended-ownershi-75,57,16.10,completed,3,102
+727069,2022-05-07,2022-01-03,10966232,Legacy Assessment D,integrated-ownershi-76,0,17.80,revoked,4,103

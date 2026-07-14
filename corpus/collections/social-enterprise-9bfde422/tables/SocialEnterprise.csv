@@ -1,0 +1,5 @@
+enterpriseId,legalForm,annualIncome,ageYears,isCharity,selfIdentifiesAsSocialEnterprise,headquartersLocation,primaryMarketType,regionId,domainId,sectorId,periodId
+9568454,SCIO,26.04,37,false,false,composite-headquar-63,Local Community,1,100,1,8928510
+managing-resources,CIC,19.97,48,true,true,primary-headquar-64,General Public,2,101,2,11a34e36-9bac-11eb-a8a2-19ed5c03f8d3
+974930,Private Company,20.14,59,false,false,adaptive-headquar-65,Public Sector,3,102,3,3001009030020
+state_et_11,Charity,19.95,70,true,true,distributed-headquar-66,Mixed,4,103,4,195350

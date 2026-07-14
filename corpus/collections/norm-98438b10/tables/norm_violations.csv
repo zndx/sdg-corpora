@@ -1,0 +1,5 @@
+id,violation_id,violation_timestamp,violation_type,sanction_incurment,norm_id,state_id,sanction_id
+1,3990166,2023-02-16T01:39:00,deadline_missed,false,1,1,1
+2,m16,2024-07-27T08:56:00,condition_failed,true,2,2,2
+3,7731883,2025-12-11T15:13:00,deadline_missed,false,3,3,3
+4,325461,2022-05-22T22:30:00,condition_failed,true,4,4,4

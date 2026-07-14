@@ -1,0 +1,5 @@
+id,identifier,title,lecture_type,named_after,scheduled_date,venue_room,academic_conference_region_code,academic_researcher_id,academic_institution_id
+100,IDE-2086,Compact Initiative,plenary,primary-named-64,2024-11-27T22:18:00,seasonal-venue-23,1562837,1,1000
+101,IDE-2091,Legacy Model,invited,adaptive-named-65,2025-04-11T05:35:00,regional-venue-24,6564391,2,1001
+102,IDE-2096,Regional Cluster A,contributed,distributed-named-66,2022-09-22T12:52:00,legacy-venue-25,778560,3,1002
+103,IDE-2101,Seasonal Review,named-lecture,baseline-named-67,2023-02-06T19:09:00,compact-venue-26,8667ec1da10c4a0293d91388b49bc77c,4,1003

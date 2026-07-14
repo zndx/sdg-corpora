@@ -1,0 +1,5 @@
+applicationId,applicationDate,permitType,reasonCode,feeAmount,preparedBy,preparedByCompany,preparedByPhone,preparedByEmail,facilityZipCode,operatorId,permitId
+505997,2022-05-16T16:24:00,Permit to Install,New CAFF/MCAFF,38.08,composite-prepared-15,U.S. Steel,distributed-prepared-24,adaptive-prepared-35,69434,1000,1
+1250196,2023-10-27T23:41:00,Permit to Operate,Manure Storage Expansion,18.47,primary-prepared-16,District No. 3,baseline-prepared-25,distributed-prepared-36,13589,1001,2
+124,2024-03-11T06:58:00,NPDES,Modification,38.08,adaptive-prepared-17,E2open Parent Holdings Inc.,pilot-prepared-26,baseline-prepared-37,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,1002,3
+IVC20det40,2025-08-22T13:15:00,Construction Storm Water NPDES,Capacity Expansion,26.25,distributed-prepared-18,Sanniquellie Mahn,extended-prepared-27,pilot-prepared-38,1250214,1003,4

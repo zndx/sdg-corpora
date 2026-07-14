@@ -1,0 +1,5 @@
+id,link_identifier,link_type,bandwidth,latency,is_redundant,protocol,surveillance_site_id,control_centre_id
+1,https://www.robertchristgau.com/get_album.php?id=4445,leased_line,20.20,13.45,true,seasonal-protocol-11,1,1000
+2,https://bugs.launchpad.net/murano/+bug/1287690,surveillance_network,23.40,17.90,false,regional-protocol-12,2,1001
+3,http://hdl.handle.net/10419/142700,satellite,26.60,22.35,true,legacy-protocol-13,3,1002
+4,https://www.nature.com/articles/nphys3742,leased_line,29.80,26.80,false,compact-protocol-14,4,1003

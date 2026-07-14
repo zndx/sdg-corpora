@@ -1,0 +1,5 @@
+id,determination_id,decision_date,chosen_option,restrictiveness_level,justification_text,status,person_id,topic_id,decision_assessment_id,professional_id
+1000,611493,2023-10-27T21:27:00,compact-chosen-62,minimal,compact-justific-92,draft,George Bernard Shaw,lu_tax_code_template_b_VB-IC-Tab,1,100
+1001,ChIJe0zpU4Bt5kcRC2Er6yFuxzs,2024-03-11T04:44:00,composite-chosen-63,moderate,composite-justific-93,finalized,Maria Rodriguez,8387534,2,101
+1002,IVC4Iind,2025-08-22T11:01:00,primary-chosen-64,high,primary-justific-94,reviewed,Sarah Villanueva,2933463,3,102
+1003,22028620,2022-01-06T18:18:00,adaptive-chosen-65,minimal,adaptive-justific-95,draft,Susan Wagner,2839516,4,103

@@ -1,0 +1,5 @@
+id,statute_id,title,enactment_year,jurisdiction,section_number,status,legal_statute_id,is_amended_by_legal_statute_id
+1,3744010,Compact Initiative,27,regional-jurisdic-30,SEC-2472,Active,1,1
+2,10238287,Legacy Model,32,legacy-jurisdic-31,SEC-2477,Amended,2,2
+3,6926373,Regional Cluster A,37,compact-jurisdic-32,SEC-2482,Repealed,3,3
+4,4364,Seasonal Review,42,composite-jurisdic-33,SEC-2487,Active,4,4

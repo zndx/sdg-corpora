@@ -1,0 +1,5 @@
+statistical_hypothesis_id,hypothesis_type,parameter_symbol,operator,threshold_value,hypothesis_test_id,population_parameter_id
+100,null,pilot-paramete-74,=,10.70,1,1
+101,alternative,extended-paramete-75,!=,12.40,2,2
+102,null,integrated-paramete-76,>,14.10,3,3
+103,alternative,seasonal-paramete-77,<,15.80,4,4

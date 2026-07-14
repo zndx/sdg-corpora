@@ -1,0 +1,188 @@
+{
+ "construct_id": "0681738f96b8a696",
+ "slug": "library-staff-member-0681738f",
+ "passage": "0681738f96b8a6963de8b75d337c0e52b3933cff05d93ee2f399ec7dc908ef89.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 19,
+ "entities": [
+  "LibraryStaffMember",
+  "LibraryRole",
+  "LibraryDepartment",
+  "Library",
+  "LibraryEvent",
+  "ExternalSpeaker",
+  "EventSeries",
+  "StudentAssistant"
+ ],
+ "terms": [
+  {
+   "name": "LibraryStaffMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LibraryRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "LibraryDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Library",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LibraryEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExternalSpeaker",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EventSeries",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentAssistant",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "library_staff_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "full_name",
+    "start_date",
+    "end_date",
+    "current_role",
+    "employment_status",
+    "library_id",
+    "role_code",
+    "library_staff_member_id"
+   ]
+  },
+  {
+   "name": "library_roles",
+   "rows": 4,
+   "columns": [
+    "role_code",
+    "role_title",
+    "department",
+    "responsibility_level",
+    "library_staff_member_id",
+    "library_department_dept_code"
+   ]
+  },
+  {
+   "name": "library_departments",
+   "rows": 4,
+   "columns": [
+    "dept_code",
+    "dept_name",
+    "location",
+    "role_code",
+    "library_id"
+   ]
+  },
+  {
+   "name": "libraries",
+   "rows": 4,
+   "columns": [
+    "id",
+    "library_id",
+    "library_name",
+    "institution",
+    "established_date",
+    "library_staff_member_id",
+    "library_department_dept_code",
+    "library_event_id"
+   ]
+  },
+  {
+   "name": "library_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_name",
+    "event_date",
+    "event_time",
+    "location",
+    "series_name",
+    "library_id",
+    "external_speaker_id",
+    "event_series_id"
+   ]
+  },
+  {
+   "name": "external_speakers",
+   "rows": 4,
+   "columns": [
+    "external_speaker_id",
+    "speaker_id",
+    "full_name",
+    "affiliation",
+    "expertise",
+    "library_event_id"
+   ]
+  },
+  {
+   "name": "event_serieses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "series_id",
+    "series_name",
+    "frequency",
+    "library_event_id",
+    "library_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "student_assistants",
+   "rows": 4,
+   "columns": [
+    "student_assistant_id",
+    "student_id",
+    "full_name",
+    "major",
+    "graduation_year",
+    "employment_status",
+    "library_id",
+    "role_code",
+    "library_staff_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "library_staff_member_library_view",
+  "library_staff_member_library_role_view",
+  "library_staff_member_library_staff_member_view",
+  "library_role_library_staff_member_view",
+  "library_role_library_department_view",
+  "library_department_library_role_view",
+  "library_department_library_view",
+  "library_library_staff_member_view",
+  "library_library_department_view",
+  "library_library_event_view",
+  "library_event_library_view",
+  "library_event_external_speaker_view",
+  "library_event_event_series_view",
+  "external_speaker_library_event_view",
+  "event_series_library_event_view",
+  "event_series_library_view",
+  "student_assistant_library_view",
+  "student_assistant_library_role_view",
+  "student_assistant_library_staff_member_view"
+ ]
+}

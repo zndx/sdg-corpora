@@ -1,0 +1,151 @@
+{
+ "construct_id": "a91556c53f396358",
+ "slug": "cybernetic-organism-a91556c5",
+ "passage": "a91556c53f396358f6f764412ba802a3d3f8629a8a3d2f0dbbfaf6c26590f323.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "CyberneticOrganism",
+  "CyberneticModification",
+  "CyberneticsResearch",
+  "Cybernetician",
+  "ResearchMethod",
+  "ScientificDiscourse"
+ ],
+ "terms": [
+  {
+   "name": "CyberneticOrganism",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CyberneticModification",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CyberneticsResearch",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Cybernetician",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ResearchMethod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ScientificDiscourse",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CyberneticOrganism",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organismId",
+    "organismType",
+    "modificationDate",
+    "controlSystemType",
+    "environmentAdaptation",
+    "homeostaticStatus",
+    "modificationId",
+    "researchId"
+   ]
+  },
+  {
+   "name": "CyberneticModification",
+   "rows": 4,
+   "columns": [
+    "id",
+    "modificationId",
+    "modificationType",
+    "implementationDate",
+    "controlMechanism",
+    "targetFunction",
+    "researcherId",
+    "organismId",
+    "researchId"
+   ]
+  },
+  {
+   "name": "CyberneticsResearch",
+   "rows": 4,
+   "columns": [
+    "researchId",
+    "researchTitle",
+    "startDate",
+    "endDate",
+    "researchLocation",
+    "fundingSource",
+    "researchStatus",
+    "cyberneticianId",
+    "organismId",
+    "methodId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "Cybernetician",
+   "rows": 4,
+   "columns": [
+    "cyberneticianId",
+    "researcherId",
+    "fullName",
+    "institution",
+    "specialization",
+    "activePeriod",
+    "keyContributions",
+    "researchId",
+    "collaboratesWithCyberneticianId"
+   ]
+  },
+  {
+   "name": "ResearchMethod",
+   "rows": 4,
+   "columns": [
+    "methodId",
+    "methodName",
+    "methodType",
+    "applicationDomain",
+    "effectiveness",
+    "researchId",
+    "cyberneticianId"
+   ]
+  },
+  {
+   "name": "ScientificDiscourse",
+   "rows": 4,
+   "columns": [
+    "discourseId",
+    "discourseTitle",
+    "publicationDate",
+    "authorId",
+    "discourseType",
+    "keyThemes",
+    "researchId",
+    "referencesDiscourseId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_cybernetic_organism_cybernetic_modification",
+  "vw_cybernetic_organism_cybernetics_research",
+  "vw_cybernetic_modification_cybernetic_organism",
+  "vw_cybernetic_modification_cybernetics_research",
+  "vw_cybernetics_research_cybernetician",
+  "vw_cybernetics_research_cybernetic_organism",
+  "vw_cybernetics_research_research_method",
+  "vw_cybernetician_cybernetics_research",
+  "vw_cybernetician_cybernetician",
+  "vw_research_method_cybernetics_research",
+  "vw_research_method_cybernetician",
+  "vw_scientific_discourse_cybernetics_research",
+  "vw_scientific_discourse_scientific_discourse"
+ ]
+}

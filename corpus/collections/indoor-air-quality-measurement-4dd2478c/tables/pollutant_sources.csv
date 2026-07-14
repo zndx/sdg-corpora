@@ -1,0 +1,5 @@
+source_id,source_name,source_category,emission_rate,installation_date,maintenance_status,indoor_environment_id,indoor_pollutant_id
+3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,Composite Model,cooking_appliance,11.70,2022-01-10,operational,1,100
+7021001070050,Compact Cluster A,heating_appliance,16.40,2023-06-21,needs_repair,2,101
+achat,Legacy Review,building_material,21.10,2024-11-05,decommissioned,3,102
+template_impcode_pagata_10det50,Regional Initiative,cleaning_product,25.80,2025-04-16,operational,4,103

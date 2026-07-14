@@ -1,0 +1,5 @@
+traffic_control_sign_id,sign_identifier,sign_type,installation_date,last_inspection_date,compliance_status,manual_revision,street_segment_id,rule_code
+1000,SIG-2078,STOP,2022-01-10,2025-04-12,COMPLIANT,adaptive-manual-59,100,2839520
+1001,SIG-2079,YIELD,2023-06-21,2022-09-23,NON-COMPLIANT,distributed-manual-60,101,72623baa-9bad-11eb-a8a2-19ed5c03f8d3
+1002,SIG-2080,ONE-WAY,2024-11-05,2023-02-07,PENDING_REVIEW,baseline-manual-61,102,romeg_ul
+1003,SIG-2081,NO-PASSING,2025-04-16,2024-07-18,COMPLIANT,pilot-manual-62,103,73a5d11c-9bac-11eb-a8a2-19ed5c03f8d3

@@ -1,0 +1,227 @@
+{
+ "construct_id": "819beb2e4fdff828",
+ "slug": "physical-location-819beb2e",
+ "passage": "819beb2e4fdff8285e956be31155ed586bc6426b5bf908bf775180226211a3d9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 14,
+ "entities": [
+  "PhysicalLocation",
+  "Classroom",
+  "InstructionalSession",
+  "FacultyMember",
+  "Student",
+  "StudentSurvey",
+  "Accreditation",
+  "I20Form"
+ ],
+ "terms": [
+  {
+   "name": "PhysicalLocation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Classroom",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InstructionalSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "StudentSurvey",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Accreditation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "I20Form",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "physical_locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "street_address",
+    "city",
+    "state",
+    "postal_code",
+    "country",
+    "building_floors",
+    "total_area_sq_ft"
+   ]
+  },
+  {
+   "name": "classrooms",
+   "rows": 4,
+   "columns": [
+    "classroom_id",
+    "room_identifier",
+    "capacity",
+    "equipment_inventory",
+    "physical_location_id"
+   ]
+  },
+  {
+   "name": "instructional_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_identifier",
+    "start_date",
+    "end_date",
+    "status",
+    "classroom_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "native_language",
+    "qualification_level",
+    "certification_type",
+    "employment_status"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "nationality",
+    "visa_status",
+    "enrollment_date",
+    "current_level",
+    "i20_form_id"
+   ]
+  },
+  {
+   "name": "student_surveys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "survey_id",
+    "collection_date",
+    "feedback_category",
+    "satisfaction_score",
+    "comments",
+    "student_id",
+    "faculty_member_id",
+    "instructional_session_id"
+   ]
+  },
+  {
+   "name": "accreditations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "accreditation_id",
+    "issuing_agency",
+    "start_date",
+    "end_date",
+    "status"
+   ]
+  },
+  {
+   "name": "i20_forms",
+   "rows": 4,
+   "columns": [
+    "i20_form_id",
+    "form_id",
+    "issue_date",
+    "sevis_id",
+    "program_start_date",
+    "program_end_date",
+    "funding_source",
+    "student_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "locations_classrooms",
+   "rows": 8,
+   "columns": [
+    "physical_location_id",
+    "classroom_id"
+   ]
+  },
+  {
+   "name": "classrooms_sessions",
+   "rows": 8,
+   "columns": [
+    "classroom_id",
+    "instructional_session_id"
+   ]
+  },
+  {
+   "name": "sessions_students",
+   "rows": 8,
+   "columns": [
+    "instructional_session_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "members_sessions",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "instructional_session_id"
+   ]
+  },
+  {
+   "name": "students_sessions",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "instructional_session_id"
+   ]
+  },
+  {
+   "name": "students_surveys",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "student_survey_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_physical_location_classroom_detail",
+  "v_classroom_physical_location",
+  "v_classroom_instructional_session_detail",
+  "v_instructional_session_classroom",
+  "v_instructional_session_faculty_member",
+  "v_instructional_session_student_detail",
+  "v_faculty_member_instructional_session_detail",
+  "v_student_instructional_session_detail",
+  "v_student_student_survey_detail",
+  "v_student_i20_form",
+  "v_student_survey_student",
+  "v_student_survey_faculty_member",
+  "v_student_survey_instructional_session",
+  "v_i20_form_student"
+ ]
+}

@@ -1,0 +1,5 @@
+id,study_identifier,modality,study_date,body_region,status,contrast_used,campus_code,radiologist_id,post_processing_software_id
+1,STU-2431,radiography,2024-11-08T10:06:00,pilot-body-26,pending,true,6969438,1000,100
+2,STU-2434,CT,2025-04-19T17:23:00,extended-body-27,in_progress,false,9736889,1001,101
+3,STU-2437,MRI,2022-09-03T00:40:00,integrated-body-28,complete,true,727050,1002,102
+4,STU-2440,radiography,2023-02-14T07:57:00,seasonal-body-29,archived,false,89008,1003,103

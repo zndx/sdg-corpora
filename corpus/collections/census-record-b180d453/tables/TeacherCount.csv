@@ -1,0 +1,5 @@
+countId,academicYear,totalTeachers,malePercentage,femalePercentage,region,regionId,enrollmentId
+1,legacy-academic-43,46,19.70,9.45,distributed-region-12,1,100
+2,compact-academic-44,21,21.40,11.90,baseline-region-13,2,101
+3,composite-academic-45,1,23.10,14.35,pilot-region-14,3,102
+4,primary-academic-46,43,24.80,16.80,extended-region-15,4,103

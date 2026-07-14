@@ -1,0 +1,5 @@
+decision_context_id,context_identifier,decision_category,urgency_level,risk_level,description,capacity_assessment_id,best_interest_determination_id
+1000,CON-2525,medical,emergency,high,Extended Survey,1,1
+1001,CON-2526,financial,urgent,medium,Pilot Corridor A,2,2
+1002,CON-2527,residential,routine,low,Baseline Series,3,3
+1003,CON-2528,social,planned,negligible,Distributed Assessment,4,4

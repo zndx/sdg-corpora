@@ -1,0 +1,5 @@
+id,board_name,is_island_board,region,reporting_status,cancer_waiting_time_target_id
+100,Compact Series,true,distributed-region-12,finalised,1
+101,Legacy Assessment,false,baseline-region-13,preliminary,2
+102,Regional Survey A,true,pilot-region-14,subject_to_change,3
+103,Seasonal Corridor,false,extended-region-15,finalised,4

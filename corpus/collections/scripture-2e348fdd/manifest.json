@@ -1,0 +1,195 @@
+{
+ "construct_id": "2e348fdd3a2c5c9d",
+ "slug": "scripture-2e348fdd",
+ "passage": "2e348fdd3a2c5c9da9111b5e3680bdcf987c19ff6303a446de0eeb24c3b7dac4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 10,
+ "entities": [
+  "Scripture",
+  "Verse",
+  "Testament",
+  "Person",
+  "SalvationEvent",
+  "SpiritualChange"
+ ],
+ "terms": [
+  {
+   "name": "Scripture",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Verse",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Testament",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SalvationEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SpiritualChange",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "scriptures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "book_count",
+    "canonical_status",
+    "is_god_breathed",
+    "total_chapters",
+    "total_verses",
+    "original_language",
+    "is_immutable",
+    "testament_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "verses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "book_reference",
+    "chapter_number",
+    "verse_number",
+    "text_content",
+    "is_promise",
+    "is_teaching",
+    "is_prophecy",
+    "is_historical",
+    "scripture_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "testaments",
+   "rows": 4,
+   "columns": [
+    "testament_id",
+    "name",
+    "is_pre_christian",
+    "is_post_resurrection",
+    "contains_gospels",
+    "contains_law",
+    "contains_prophecy"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "is_divine",
+    "is_apostle",
+    "is_prophet",
+    "is_disciple",
+    "is_messiah",
+    "verse_id",
+    "is_subject_of_verse_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "salvation_events",
+   "rows": 4,
+   "columns": [
+    "salvation_event_id",
+    "is_instantaneous",
+    "requires_faith",
+    "is_by_grace",
+    "is_through_word",
+    "is_irreversible"
+   ]
+  },
+  {
+   "name": "spiritual_changes",
+   "rows": 4,
+   "columns": [
+    "spiritual_change_id",
+    "is_healing",
+    "is_sanctification",
+    "is_empowerment",
+    "is_ongoing",
+    "is_internal"
+   ]
+  },
+  {
+   "name": "scriptures_verses",
+   "rows": 8,
+   "columns": [
+    "scripture_id",
+    "verse_id"
+   ]
+  },
+  {
+   "name": "testaments_scriptures",
+   "rows": 8,
+   "columns": [
+    "testament_id",
+    "scripture_id"
+   ]
+  },
+  {
+   "name": "events_verses",
+   "rows": 8,
+   "columns": [
+    "salvation_event_id",
+    "verse_id"
+   ]
+  },
+  {
+   "name": "events_persons",
+   "rows": 8,
+   "columns": [
+    "salvation_event_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "changes_verses",
+   "rows": 8,
+   "columns": [
+    "spiritual_change_id",
+    "verse_id"
+   ]
+  },
+  {
+   "name": "changes_persons",
+   "rows": 8,
+   "columns": [
+    "spiritual_change_id",
+    "person_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_scripture_verse_detail",
+  "v_scripture_testament",
+  "v_verse_scripture",
+  "v_verse_person",
+  "v_testament_scripture_detail",
+  "v_person_verse",
+  "v_salvation_event_verse_detail",
+  "v_salvation_event_person_detail",
+  "v_spiritual_change_verse_detail",
+  "v_spiritual_change_person_detail"
+ ]
+}

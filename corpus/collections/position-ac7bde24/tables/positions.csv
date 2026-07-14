@@ -1,0 +1,5 @@
+id,position_id,title,classification,salary_range,approval_date,status,employee_id,supervises_position_id,receives_direction_from_position_id,department_id
+1,14477856,Compact Initiative,extended-classifi-87,27.32,2023-10-10T21:27:00,active,1,1,1,1
+2,gd_acc_260002,Legacy Model,integrated-classifi-88,38.08,2024-03-21T04:44:00,vacant,2,2,2,2
+3,3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,Regional Cluster A,seasonal-classifi-89,43.25,2025-08-05T11:01:00,abolished,3,3,3,3
+4,82871,Seasonal Review,regional-classifi-90,29.99,2022-01-16T18:18:00,active,4,4,4,4

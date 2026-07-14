@@ -1,0 +1,5 @@
+id,event_identifier,start_time,end_time,event_type,severity_level,affected_area,monitored,evacuation_order_id,geographic_zone_id
+1,EVE-2706,2024-03-27T14:42:00,2023-02-26T13:27:00,hurricane,29,extended-affected-15,true,1,100
+2,EVE-2707,2025-08-11T21:59:00,2024-07-10T20:44:00,flood,40,integrated-affected-16,false,2,101
+3,EVE-2708,2022-01-22T04:16:00,2025-12-21T03:01:00,fire,51,seasonal-affected-17,true,3,102
+4,EVE-2709,2023-06-06T11:33:00,2022-05-05T10:18:00,industrial_accident,62,regional-affected-18,false,4,103

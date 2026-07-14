@@ -1,0 +1,5 @@
+id,placement_id,start_date,status,funding_source,risk_assessment_status,interview_completed,student_id,education_health_care_plan_id,local_education_authority_id,staff_professional_development_training_id,created_at,updated_at
+1,18355078,2022-09-05,pending,LEA,not_started,false,392507,1,1,1205-0002-M,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,5006436,2023-02-16,active,private,in_progress,true,25388256,2,2,c746bff2-8fcc-11eb-924d-9cd76263cbd0,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,3717625,2024-07-27,waiting,other,completed,false,id_16,3,3,34036cc6-9bad-11eb-a8a2-19ed5c03f8d3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,8843740,2025-12-11,completed,LEA,failed,true,gd_taxc_2211,4,4,10207144,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,22 @@
+CREATE TABLE spill_incidents (
+  id INTEGER NOT NULL,
+  incident_id VARCHAR(32),
+  incident_name VARCHAR(32),
+  spill_number VARCHAR(32),
+  incident_date_time TIMESTAMP,
+  incident_status VARCHAR(32),
+  vessel_name VARCHAR(32),
+  vessel_type VARCHAR(32),
+  vessel_length DECIMAL,
+  geographic_location_id INTEGER,
+  vessel_id INTEGER,
+  ecological_resource_id INTEGER,
+  response_agency_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (geographic_location_id) REFERENCES geographic_locations (id),
+  FOREIGN KEY (vessel_id) REFERENCES vessels (id),
+  FOREIGN KEY (ecological_resource_id) REFERENCES ecological_resources (id),
+  FOREIGN KEY (response_agency_id) REFERENCES response_agencies (response_agency_id)
+);

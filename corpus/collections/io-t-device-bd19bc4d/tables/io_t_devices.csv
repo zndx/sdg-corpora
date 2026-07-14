@@ -1,0 +1,5 @@
+id,device_identifier,device_name,device_model,firmware_version,manufacturing_date,is_certified,certification_body,manufacturer_id,channel_id,market_region_id
+1,DEV-2372,Pilot Assessment,seasonal-device-23,distributed-firmware-48,2024-11-14T10:42:00,true,integrated-certific-58,1,1562831,1
+2,DEV-2378,Baseline Survey,regional-device-24,baseline-firmware-49,2025-04-25T17:59:00,false,seasonal-certific-59,2,df2de334-8fcc-11eb-924d-9cd76263cbd0,2
+3,DEV-2384,Distributed Corridor A,legacy-device-25,pilot-firmware-50,2022-09-09T00:16:00,true,regional-certific-60,3,ae409270-8fcd-11eb-924d-9cd76263cbd0,3
+4,DEV-2390,Adaptive Series,compact-device-26,extended-firmware-51,2023-02-20T07:33:00,false,legacy-certific-61,4,4447006,4

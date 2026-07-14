@@ -1,0 +1,5 @@
+id,vehicle_id,make,model,year,fuel_type,emission_level,driver_id,governor_id
+1,5917273,extended-make-81,composite-model-81,12,primary-fuel-34,11.70,1,1
+2,ptchol,integrated-make-82,primary-model-82,21,adaptive-fuel-35,13.40,2,2
+3,m09,seasonal-make-83,adaptive-model-83,30,distributed-fuel-36,15.10,3,3
+4,3158135,regional-make-84,distributed-model-84,39,baseline-fuel-37,16.80,4,4

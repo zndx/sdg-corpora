@@ -1,0 +1,5 @@
+id,food_id,name,category,is_staining,preparation_method,wine_id,restaurant_id,created_at
+1,9085267,Extended Review,Vegetable,true,Roasted,100,1,2025-01-01 00:14:00
+2,lu_tax_code_template_b_VB-EC-15,Pilot Initiative A,Dish,false,Raw,101,2,2025-02-06 03:14:00
+3,bac1b89e-8fc8-11eb-924d-9cd76263cbd0,Baseline Model,Ingredient,true,Roasted,102,3,2025-03-11 06:14:00
+4,gd_taxc_2121,Distributed Cluster,Vegetable,false,Raw,103,4,2025-04-16 09:14:00

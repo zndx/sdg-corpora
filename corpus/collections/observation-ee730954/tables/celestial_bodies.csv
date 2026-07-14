@@ -1,0 +1,5 @@
+celestial_body_id,body_identifier,body_name,body_type,right_ascension,declination,magnitude,discovery_date,discoverer_name,observation_id,created_at,updated_at
+1,BOD-2053,Regional Corridor,baseline-body-67,19.20,7.20,11.70,2024-03-23,Distributed Programme,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,BOD-2058,Seasonal Series D,pilot-body-68,22.40,9.40,14.40,2025-08-07,Adaptive Standard D,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,BOD-2063,Integrated Assessment,extended-body-69,25.60,11.60,17.10,2022-01-18,Primary Framework,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,BOD-2068,Extended Survey,integrated-body-70,28.80,13.80,19.80,2023-06-02,Composite Protocol,103,2025-04-16 09:14:00,2025-04-23 15:41:00

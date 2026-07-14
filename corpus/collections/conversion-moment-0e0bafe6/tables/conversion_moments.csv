@@ -1,0 +1,5 @@
+id,moment_id,encounter_date,impact_description,response_action,is_dramatic,physician_id,reference_id
+100,d9774674-9bac-11eb-a8a2-19ed5c03f8d3,2023-10-16T09:51:00,Regional Series,primary-response-46,false,5006449,2986245
+101,ChIJATGfojhu5kcR-WS-zZ5HX98,2024-03-27T16:08:00,Seasonal Assessment D,adaptive-response-47,true,338540,4277024
+102,4277015,2025-08-11T23:25:00,Integrated Survey,distributed-response-48,false,default_chart_a_tax_5,195366
+103,605957,2022-01-22T06:42:00,Extended Corridor,baseline-response-49,true,103195,gd_acc_260002

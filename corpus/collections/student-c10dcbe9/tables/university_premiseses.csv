@@ -1,0 +1,5 @@
+university_premises_id,premises_id,name,type,location,conduct_violation_id
+1,7021001070160,Extended Review,building,extended-location-99,1
+2,8350037,Pilot Initiative A,land,integrated-location-100,2
+3,8350027,Baseline Model,facility,seasonal-location-101,3
+4,L441,Distributed Cluster,street,regional-location-102,4

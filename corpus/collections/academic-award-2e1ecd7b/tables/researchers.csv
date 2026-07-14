@@ -1,0 +1,5 @@
+id,researcher_identifier,full_legal_name,primary_degree,secondary_degree,current_institution,current_title,research_focus,academic_award_id,leadership_position_id,academic_institution_id
+1,RES-2651,Integrated Framework A,pilot-primary-74,primary-secondar-52,extended-current-27,Adaptive Protocol,seasonal-research-47,1000,1,1000
+2,RES-2652,Extended Protocol,extended-primary-75,adaptive-secondar-53,integrated-current-28,Primary Programme,regional-research-48,1001,2,1001
+3,RES-2653,Pilot Programme,integrated-primary-76,distributed-secondar-54,seasonal-current-29,Composite Standard D,legacy-research-49,1002,3,1002
+4,RES-2654,Baseline Standard D,seasonal-primary-77,baseline-secondar-55,regional-current-30,Compact Framework,compact-research-50,1003,4,1003

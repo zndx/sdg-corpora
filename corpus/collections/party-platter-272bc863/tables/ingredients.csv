@@ -1,0 +1,5 @@
+id,ingredient_id,ingredient_name,type,is_organic,is_certified,wrap_id,platter_item_id
+1,1450638,Pilot Assessment,meat,false,true,1000,1000
+2,5844284,Baseline Survey,cheese,true,false,1001,1001
+3,template_ivacode_pagata_20det40ind,Distributed Corridor A,vegetable,false,true,1002,1002
+4,2087735,Adaptive Series,sauce,true,false,1003,1003

@@ -1,0 +1,156 @@
+{
+ "construct_id": "1bc547095ff02811",
+ "slug": "chain-lubricant-1bc54709",
+ "passage": "1bc547095ff028119e0082605b3bf1da7d31d485b925df761d59f76663205b42.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 12,
+ "entities": [
+  "ChainLubricant",
+  "OperatingCondition",
+  "ChainDrive",
+  "Sprocket",
+  "Chain",
+  "Manufacturer"
+ ],
+ "terms": [
+  {
+   "name": "ChainLubricant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OperatingCondition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ChainDrive",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Sprocket",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Chain",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Manufacturer",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "chain_lubricants",
+   "rows": 4,
+   "columns": [
+    "lubricant_id",
+    "chemical_family",
+    "base_name",
+    "viscosity_grade",
+    "is_tacky",
+    "is_soluble_moly",
+    "is_e_p",
+    "is_aerosol",
+    "operating_condition_id",
+    "manufacturer_id"
+   ]
+  },
+  {
+   "name": "operating_conditions",
+   "rows": 4,
+   "columns": [
+    "operating_condition_id",
+    "condition_id",
+    "temperature_min",
+    "temperature_max",
+    "load_level",
+    "is_wet",
+    "is_exposed_to_foreign_materials",
+    "lubricant_id",
+    "drive_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "chain_drives",
+   "rows": 4,
+   "columns": [
+    "drive_id",
+    "drive_type",
+    "is_critical_operation",
+    "installation_date",
+    "lubricant_id",
+    "operating_condition_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "sprockets",
+   "rows": 4,
+   "columns": [
+    "sprocket_id",
+    "tooth_count",
+    "pitch_diameter",
+    "material",
+    "drive_id",
+    "chain_id"
+   ]
+  },
+  {
+   "name": "chains",
+   "rows": 4,
+   "columns": [
+    "chain_id",
+    "link_type",
+    "pitch",
+    "material",
+    "drive_id"
+   ]
+  },
+  {
+   "name": "manufacturers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manufacturer_id",
+    "name",
+    "support_phone",
+    "lubricant_id"
+   ]
+  },
+  {
+   "name": "drives_sprockets",
+   "rows": 8,
+   "columns": [
+    "drive_id",
+    "sprocket_id"
+   ]
+  },
+  {
+   "name": "chains_sprockets",
+   "rows": 8,
+   "columns": [
+    "chain_id",
+    "sprocket_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_chain_lubricant_operating_condition",
+  "v_chain_lubricant_manufacturer",
+  "v_operating_condition_chain_lubricant",
+  "v_operating_condition_chain_drive",
+  "v_chain_drive_chain_lubricant",
+  "v_chain_drive_operating_condition",
+  "v_chain_drive_sprocket_detail",
+  "v_sprocket_chain_drive",
+  "v_sprocket_chain",
+  "v_chain_chain_drive",
+  "v_chain_sprocket_detail",
+  "v_manufacturer_chain_lubricant"
+ ]
+}

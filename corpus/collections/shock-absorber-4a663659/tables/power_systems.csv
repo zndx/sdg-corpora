@@ -1,0 +1,5 @@
+power_system_id,identifier,voltage,current,power,status,installation_date,cable_type,shock_absorber_id,structure_id,sensor_id
+100,IDE-2086,16.45,10.20,21.70,pending,2022-01-10T00:12:00,seasonal-cable-53,1000,1000,100
+101,IDE-2091,20.90,13.40,25.40,running,2023-06-21T07:29:00,regional-cable-54,1001,1001,101
+102,IDE-2096,25.35,16.60,29.10,complete,2024-11-05T14:46:00,legacy-cable-55,1002,1002,102
+103,IDE-2101,29.80,19.80,32.80,failed,2025-04-16T21:03:00,compact-cable-56,1003,1003,103

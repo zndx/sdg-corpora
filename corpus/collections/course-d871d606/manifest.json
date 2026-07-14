@@ -1,0 +1,111 @@
+{
+ "construct_id": "d871d606c0066d2a",
+ "slug": "course-d871d606",
+ "passage": "d871d606c0066d2adbe6c674cb0039c4bfe6717ddf991fe4ced7ccbc6d245d82.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 8,
+ "entities": [
+  "Course",
+  "DegreeRequirement",
+  "DegreeProgram",
+  "Concentration"
+ ],
+ "terms": [
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DegreeRequirement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DegreeProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Concentration",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_code",
+    "title",
+    "credit_value",
+    "is_prerequisite",
+    "category",
+    "course_id",
+    "degree_requirement_id"
+   ]
+  },
+  {
+   "name": "degree_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requirement_id",
+    "category",
+    "required_credits",
+    "is_optional",
+    "effective_date",
+    "course_id",
+    "degree_program_id"
+   ]
+  },
+  {
+   "name": "degree_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_code",
+    "program_name",
+    "total_required_credits",
+    "effective_date",
+    "status",
+    "concentration_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "concentrations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "concentration_id",
+    "name",
+    "required_electives",
+    "status",
+    "course_id",
+    "degree_program_id"
+   ]
+  },
+  {
+   "name": "programs_requirements",
+   "rows": 8,
+   "columns": [
+    "degree_program_id",
+    "degree_requirement_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_course_course",
+  "vw_course_degree_requirement",
+  "vw_degree_requirement_course",
+  "vw_degree_requirement_degree_program",
+  "vw_degree_program_degree_requirement_detail",
+  "vw_degree_program_concentration",
+  "vw_concentration_course",
+  "vw_concentration_degree_program"
+ ]
+}

@@ -1,0 +1,5 @@
+id,trader_id,legal_name,pan_number,contact_email,contact_mobile,annual_aggregate_turnover,is_special_category_state,registration_status,registration_id,jurisdiction_code,taxable_supply_id,created_at,updated_at
+1,2002007020080,Adaptive Model,PAN-2559,Christopher Wilson,Joshua Torres,13.20,true,registered,2106693,5917299,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2986247,Primary Cluster,PAN-2565,Charles Larsen,Susan Levy,16.40,false,not_registered,778572,id_25,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,98a02b9c-8fcd-11eb-924d-9cd76263cbd0,Composite Review D,PAN-2571,Mary Alvarez,Dana Nguyen,19.60,true,liable,8387538,7731856,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,392491,Compact Initiative,PAN-2577,April Snyder,Roberta Anderson,22.80,false,registered,4277008,7c692762-8fcd-11eb-924d-9cd76263cbd0,4,2025-04-16 09:14:00,2025-04-23 15:41:00

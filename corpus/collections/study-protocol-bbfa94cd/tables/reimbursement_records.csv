@@ -1,0 +1,5 @@
+id,reimbursement_id,amount,payment_date,payer,policy_code,imaging_procedure_id,imaging_facility_id
+1,374,13.49,2024-03-24T14:54:00,legacy-payer-91,195362,1,1
+2,10238289,25.47,2025-08-08T21:11:00,compact-payer-92,10445619,2,2
+3,10782184,19.72,2022-01-19T04:28:00,composite-payer-93,account_pymes_6511,3,3
+4,4447027,12.74,2023-06-03T11:45:00,primary-payer-94,23205298,4,4

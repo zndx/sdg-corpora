@@ -1,0 +1,5 @@
+cyber_security_protocol_id,protocol_name,transmission_medium,max_distance,disruption_risk,quantum_key_distribution_id
+100,QKD,fibre_optic,0.77,low,1
+101,RSA,free_space,5.0,medium,2
+102,ECDSA,fibre_optic,175.0,high,3
+103,QKD,free_space,1.33,low,4

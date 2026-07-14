@@ -1,0 +1,5 @@
+id,assessment_id,assessment_name,assessment_type,target_skill,is_digital,last_administered,library_program_id,future_ready_goal_id
+100,template_ivacode_pagata_20det40ind,Adaptive Series,formative,critical_thinking,false,2023-06-14,100,1000
+101,19508914,Primary Assessment,summative,information_literacy,true,2024-11-25,101,1001
+102,506000,Composite Survey D,diagnostic,digital_citizenship,false,2025-04-09,102,1002
+103,1204-0009-M,Compact Corridor,performance,creativity,true,2022-09-20,103,1003

@@ -1,0 +1,5 @@
+quality_workstream_id,workstream_id,workstream_title,start_date,target_metric,status,scope,nursing_forum_id,nursing_professional_id,clinical_outcome_id,created_at,updated_at
+1,10782179,Primary Framework A,2022-09-05T20:24:00,integrated-target-82,planning,infection_control,1000,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,3001009030140,Composite Protocol,2023-02-16T03:41:00,seasonal-target-83,active,patient_dignity,1001,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,8928521,Compact Programme,2024-07-27T10:58:00,regional-target-84,completed,leadership,1002,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,6440,Legacy Standard D,2025-12-11T17:15:00,legacy-target-85,suspended,staff_engagement,1003,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

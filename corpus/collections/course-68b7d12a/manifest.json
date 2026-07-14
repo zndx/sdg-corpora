@@ -1,0 +1,155 @@
+{
+ "construct_id": "68b7d12a5a26a9e7",
+ "slug": "course-68b7d12a",
+ "passage": "68b7d12a5a26a9e705ec5c1453b2308da76ac48d602b33b3793e2b068a90be13.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 8,
+ "entities": [
+  "Course",
+  "MenuItem",
+  "Ingredient",
+  "FixedPriceMenu",
+  "Restaurant"
+ ],
+ "terms": [
+  {
+   "name": "Course",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FixedPriceMenu",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Restaurant",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_number",
+    "course_type",
+    "is_choice",
+    "description",
+    "fixed_price_menu_id"
+   ]
+  },
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_name",
+    "price",
+    "is_available",
+    "preparation_method",
+    "serving_size",
+    "allergen_info",
+    "course_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_name",
+    "is_allergen",
+    "origin",
+    "is_organic"
+   ]
+  },
+  {
+   "name": "fixed_price_menus",
+   "rows": 4,
+   "columns": [
+    "id",
+    "menu_name",
+    "price_per_person",
+    "tax_included",
+    "gratuity_included",
+    "valid_from",
+    "valid_until",
+    "restaurant_id"
+   ]
+  },
+  {
+   "name": "restaurants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "restaurant_name",
+    "address",
+    "phone",
+    "operating_hours",
+    "cuisine_type"
+   ]
+  },
+  {
+   "name": "courses_items",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_items",
+   "rows": 8,
+   "columns": [
+    "ingredient_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "menus_courses",
+   "rows": 8,
+   "columns": [
+    "fixed_price_menu_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "restaurants_menus",
+   "rows": 8,
+   "columns": [
+    "restaurant_id",
+    "fixed_price_menu_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_course_menu_item_detail",
+  "v_course_fixed_price_menu",
+  "v_menu_item_course",
+  "v_menu_item_ingredient_detail",
+  "v_ingredient_menu_item_detail",
+  "v_fixed_price_menu_course_detail",
+  "v_fixed_price_menu_restaurant",
+  "v_restaurant_fixed_price_menu_detail"
+ ]
+}

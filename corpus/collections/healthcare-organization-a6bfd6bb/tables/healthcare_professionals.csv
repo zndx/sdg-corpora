@@ -1,0 +1,5 @@
+id,professional_id,name,specialty,license_number,employment_status,healthcare_organization_id
+1,5082965,Extended Review,extended-specialt-21,LIC-2589,active,1000
+2,2618560,Pilot Initiative A,integrated-specialt-22,LIC-2596,inactive,1001
+3,3355767,Baseline Model,seasonal-specialt-23,LIC-2603,on_leave,1002
+4,3355784,Distributed Cluster,regional-specialt-24,LIC-2610,active,1003

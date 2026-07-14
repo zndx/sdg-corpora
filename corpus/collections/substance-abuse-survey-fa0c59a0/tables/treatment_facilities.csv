@@ -1,0 +1,5 @@
+id,facility_id,facility_name,facility_type,county_location,capacity,accepts_medicaid,funding_source_id
+1,69447,Integrated Protocol A,outpatient,regional-county-30,32,false,1
+2,1040,Extended Programme,inpatient,legacy-county-31,41,true,2
+3,2986228,Pilot Standard,opioid_treatment,compact-county-32,50,false,3
+4,ChIJvSxSbfdv5kcRanVzI8RRu20,Baseline Framework D,specialty_court,composite-county-33,59,true,4

@@ -1,0 +1,144 @@
+{
+ "construct_id": "4f177f0d8839bf06",
+ "slug": "directory-entry-4f177f0d",
+ "passage": "4f177f0d8839bf065dbf3ce60b1d2cc7e43e27be80c7c03d3fb293ec27f439da.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "DirectoryEntry",
+  "NetworkInformationCenter",
+  "DirectoryService",
+  "NetworkHost",
+  "NetworkMailbox"
+ ],
+ "terms": [
+  {
+   "name": "DirectoryEntry",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NetworkInformationCenter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DirectoryService",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NetworkHost",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NetworkMailbox",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "directory_entries",
+   "rows": 4,
+   "columns": [
+    "id",
+    "handle",
+    "full_name",
+    "middle_initial",
+    "mailing_address",
+    "zip_code",
+    "telephone",
+    "autovon_number",
+    "fts_number",
+    "network_mailbox",
+    "registration_date",
+    "network_information_center_id",
+    "network_host_id",
+    "network_mailbox_id"
+   ]
+  },
+  {
+   "name": "network_information_centers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "center_name",
+    "operating_institution",
+    "sponsoring_agency",
+    "service_port",
+    "service_protocol",
+    "service_host",
+    "service_status",
+    "directory_service_id"
+   ]
+  },
+  {
+   "name": "directory_services",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_name",
+    "protocol",
+    "port_number",
+    "host_address",
+    "response_format",
+    "connection_behavior",
+    "directory_entry_id",
+    "network_host_id"
+   ]
+  },
+  {
+   "name": "network_hosts",
+   "rows": 4,
+   "columns": [
+    "network_host_id",
+    "host_name",
+    "ip_address",
+    "network_type",
+    "operating_system",
+    "host_status",
+    "directory_entry_id",
+    "directory_service_id"
+   ]
+  },
+  {
+   "name": "network_mailboxes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mailbox_address",
+    "mailbox_type",
+    "mailbox_status"
+   ]
+  },
+  {
+   "name": "centers_entries",
+   "rows": 8,
+   "columns": [
+    "network_information_center_id",
+    "directory_entry_id"
+   ]
+  },
+  {
+   "name": "mailboxes_entries",
+   "rows": 8,
+   "columns": [
+    "network_mailbox_id",
+    "directory_entry_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_directory_entry_network_information_center",
+  "v_directory_entry_network_host",
+  "v_directory_entry_network_mailbox",
+  "v_network_information_center_directory_entry_detail",
+  "v_network_information_center_directory_service",
+  "v_directory_service_directory_entry",
+  "v_directory_service_network_host",
+  "v_network_host_directory_entry",
+  "v_network_host_directory_service",
+  "v_network_mailbox_directory_entry_detail"
+ ]
+}

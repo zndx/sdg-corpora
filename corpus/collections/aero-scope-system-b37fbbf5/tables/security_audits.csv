@@ -1,0 +1,5 @@
+audit_id,audit_date,auditor_name,findings_count,risk_rating,network_segment_id,security_policy_id,vulnerability_report_id
+bjackman,2025-12-04T23:33:00,Compact Initiative,2,low,1,1,1
+69430,2022-05-15T06:50:00,Legacy Model,33,medium,2,2,2
+10238266,2023-10-26T13:07:00,Regional Cluster A,23,high,3,3,3
+6969437,2024-03-10T20:24:00,Seasonal Review,0,critical,4,4,4

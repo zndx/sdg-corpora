@@ -1,0 +1,271 @@
+{
+ "construct_id": "044e3d9a1ff4c51a",
+ "slug": "computational-material-record-044e3d9a",
+ "passage": "044e3d9a1ff4c51aba90fbc003d8dcd9651ed1d48ae7da5fee047092cd197cc1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 23,
+ "entities": [
+  "ComputationalMaterialRecord",
+  "ComputationalCode",
+  "MaterialSystem",
+  "MaterialProperty",
+  "ParsingPipeline",
+  "HighPerformanceComputerCenter",
+  "BigDataAnalyticsTool",
+  "ParsedDataStore",
+  "VisualizationService"
+ ],
+ "terms": [
+  {
+   "name": "ComputationalMaterialRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ComputationalCode",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MaterialSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MaterialProperty",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "ParsingPipeline",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HighPerformanceComputerCenter",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "BigDataAnalyticsTool",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ParsedDataStore",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VisualizationService",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "computational_material_records",
+   "rows": 4,
+   "columns": [
+    "computational_material_record_id",
+    "record_id",
+    "creation_date",
+    "file_size_bytes",
+    "file_format",
+    "status",
+    "checksum",
+    "computational_code_id",
+    "material_system_id",
+    "pipeline_id"
+   ]
+  },
+  {
+   "name": "computational_codes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "code_id",
+    "code_name",
+    "version",
+    "license_type",
+    "developer_group",
+    "center_id"
+   ]
+  },
+  {
+   "name": "material_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "chemical_formula",
+    "crystal_system",
+    "space_group_number",
+    "lattice_parameter_a",
+    "lattice_parameter_b",
+    "lattice_parameter_c",
+    "formation_energy",
+    "material_property_id"
+   ]
+  },
+  {
+   "name": "material_properties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "property_id",
+    "property_name",
+    "numeric_value",
+    "unit_of_measure",
+    "confidence_interval",
+    "measurement_method",
+    "material_system_id",
+    "computational_material_record_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "parsing_pipelines",
+   "rows": 4,
+   "columns": [
+    "pipeline_id",
+    "pipeline_name",
+    "start_date_time",
+    "end_date_time",
+    "status",
+    "records_processed",
+    "center_id",
+    "parsed_data_store_id"
+   ]
+  },
+  {
+   "name": "high_performance_computer_centers",
+   "rows": 4,
+   "columns": [
+    "center_id",
+    "center_name",
+    "location",
+    "total_compute_nodes",
+    "peak_performance_flops",
+    "operational_status",
+    "computational_code_id",
+    "big_data_analytics_tool_id"
+   ]
+  },
+  {
+   "name": "big_data_analytics_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "algorithm_type",
+    "start_date",
+    "end_date",
+    "status",
+    "novel_materials_discovered",
+    "parsed_data_store_id",
+    "center_id"
+   ]
+  },
+  {
+   "name": "parsed_data_stores",
+   "rows": 4,
+   "columns": [
+    "parsed_data_store_id",
+    "store_id",
+    "store_name",
+    "total_records",
+    "last_updated",
+    "storage_size_g_b",
+    "data_integrity_status",
+    "big_data_analytics_tool_id",
+    "visualization_service_id"
+   ]
+  },
+  {
+   "name": "visualization_services",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_id",
+    "service_name",
+    "endpoint_url",
+    "uptime_percentage",
+    "max_concurrent_users",
+    "active_status",
+    "parsed_data_store_id",
+    "center_id"
+   ]
+  },
+  {
+   "name": "codes_records",
+   "rows": 8,
+   "columns": [
+    "computational_code_id",
+    "computational_material_record_id"
+   ]
+  },
+  {
+   "name": "systems_records",
+   "rows": 8,
+   "columns": [
+    "material_system_id",
+    "computational_material_record_id"
+   ]
+  },
+  {
+   "name": "pipelines_records",
+   "rows": 8,
+   "columns": [
+    "pipeline_id",
+    "computational_material_record_id"
+   ]
+  },
+  {
+   "name": "centers_pipelines",
+   "rows": 8,
+   "columns": [
+    "center_id",
+    "pipeline_id"
+   ]
+  },
+  {
+   "name": "tools_systems",
+   "rows": 8,
+   "columns": [
+    "big_data_analytics_tool_id",
+    "material_system_id"
+   ]
+  },
+  {
+   "name": "stores_records",
+   "rows": 8,
+   "columns": [
+    "parsed_data_store_id",
+    "computational_material_record_id"
+   ]
+  }
+ ],
+ "views": [
+  "computational_material_record_computational_code_view",
+  "computational_material_record_material_system_view",
+  "computational_material_record_parsing_pipeline_view",
+  "computational_code_computational_material_record_detail_view",
+  "computational_code_high_performance_computer_center_view",
+  "material_system_computational_material_record_detail_view",
+  "material_system_material_property_view",
+  "material_property_material_system_view",
+  "material_property_computational_material_record_view",
+  "parsing_pipeline_computational_material_record_detail_view",
+  "parsing_pipeline_high_performance_computer_center_view",
+  "parsing_pipeline_parsed_data_store_view",
+  "high_performance_computer_center_computational_code_view",
+  "high_performance_computer_center_parsing_pipeline_detail_view",
+  "high_performance_computer_center_big_data_analytics_tool_view",
+  "big_data_analytics_tool_parsed_data_store_view",
+  "big_data_analytics_tool_material_system_detail_view",
+  "big_data_analytics_tool_high_performance_computer_center_view",
+  "parsed_data_store_computational_material_record_detail_view",
+  "parsed_data_store_big_data_analytics_tool_view",
+  "parsed_data_store_visualization_service_view",
+  "visualization_service_parsed_data_store_view",
+  "visualization_service_high_performance_computer_center_view"
+ ]
+}

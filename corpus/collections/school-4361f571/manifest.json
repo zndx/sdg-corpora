@@ -1,0 +1,128 @@
+{
+ "construct_id": "4361f5718b6bf061",
+ "slug": "school-4361f571",
+ "passage": "4361f5718b6bf061a2b35e87ed4c6b753d6df24c10c95fe9074d82a517766474.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 9,
+ "entities": [
+  "School",
+  "Enrolment",
+  "Child",
+  "Parent"
+ ],
+ "terms": [
+  {
+   "name": "School",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Enrolment",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Child",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Parent",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "schools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "street_address",
+    "postal_code",
+    "telephone",
+    "email",
+    "website"
+   ]
+  },
+  {
+   "name": "enrolments",
+   "rows": 4,
+   "columns": [
+    "enrolment_id",
+    "application_date",
+    "year_group",
+    "status",
+    "child_id",
+    "school_id"
+   ]
+  },
+  {
+   "name": "childs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_legal_name",
+    "date_of_birth",
+    "gender",
+    "permanent_address",
+    "permanent_postal_code",
+    "enrolment_id",
+    "child_id"
+   ]
+  },
+  {
+   "name": "parents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_legal_name",
+    "relationship_to_child",
+    "home_telephone",
+    "mobile_telephone",
+    "work_telephone",
+    "email_address",
+    "residential_address",
+    "residential_postal_code",
+    "child_id",
+    "enrolment_id"
+   ]
+  },
+  {
+   "name": "schools_enrolments",
+   "rows": 8,
+   "columns": [
+    "school_id",
+    "enrolment_id"
+   ]
+  },
+  {
+   "name": "enrolments_parents",
+   "rows": 8,
+   "columns": [
+    "enrolment_id",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "childs_parents",
+   "rows": 8,
+   "columns": [
+    "child_id",
+    "parent_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_school_enrolment_detail",
+  "vw_enrolment_child",
+  "vw_enrolment_school",
+  "vw_enrolment_parent_detail",
+  "vw_child_enrolment",
+  "vw_child_parent_detail",
+  "vw_child_child",
+  "vw_parent_child",
+  "vw_parent_enrolment"
+ ]
+}

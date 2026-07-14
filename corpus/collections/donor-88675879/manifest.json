@@ -1,0 +1,139 @@
+{
+ "construct_id": "886758798f9f6f91",
+ "slug": "donor-88675879",
+ "passage": "886758798f9f6f91c746af2c79b373daa5e55c1cffd5d23b6c2954b8eeeb0d63.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "Donor",
+  "Donation",
+  "Honoree",
+  "NotificationContact",
+  "Fund",
+  "ContactRequest"
+ ],
+ "terms": [
+  {
+   "name": "Donor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Donation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Honoree",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NotificationContact",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Fund",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ContactRequest",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "dono_donors",
+   "rows": 4,
+   "columns": [
+    "donor_id",
+    "donor_name",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "email_address",
+    "is_anonymous",
+    "donation_id",
+    "contact_request_id"
+   ]
+  },
+  {
+   "name": "dono_donations",
+   "rows": 4,
+   "columns": [
+    "donation_id",
+    "amount",
+    "is_anonymous",
+    "is_memorial",
+    "is_honor",
+    "donation_date",
+    "donor_id",
+    "honoree_id",
+    "fund_id"
+   ]
+  },
+  {
+   "name": "dono_honorees",
+   "rows": 4,
+   "columns": [
+    "honoree_id",
+    "honoree_name",
+    "is_memorial",
+    "donation_id",
+    "notification_contact_id"
+   ]
+  },
+  {
+   "name": "dono_notification_contacts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contact_id",
+    "contact_name",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "relationship",
+    "honoree_id"
+   ]
+  },
+  {
+   "name": "dono_funds",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fund_id",
+    "fund_name",
+    "fund_description",
+    "donation_id"
+   ]
+  },
+  {
+   "name": "dono_contact_requests",
+   "rows": 4,
+   "columns": [
+    "contact_request_id",
+    "request_id",
+    "discuss_deferred_giving",
+    "volunteer_time",
+    "join_newsletter",
+    "donor_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_donor_donation",
+  "v_donor_contact_request",
+  "v_donation_donor",
+  "v_donation_honoree",
+  "v_donation_fund",
+  "v_honoree_donation",
+  "v_honoree_notification_contact",
+  "v_notification_contact_honoree",
+  "v_fund_donation",
+  "v_contact_request_donor"
+ ]
+}

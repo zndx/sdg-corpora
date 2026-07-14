@@ -1,0 +1,5 @@
+pool_equipment_id,equipment_id,equipment_name,equipment_type,installation_date,last_maintenance_date,operational_status,weight_kg,pool_facility_id,pool_staff_member_id
+1,128,Legacy Review D,filtration_system,2022-01-10,2024-03-27,operational,1.48,1,1
+2,lu_tax_code_template_m_I_2,Regional Initiative,valve,2023-06-21,2025-08-11,maintenance,0.385,2,2
+3,1336190,Seasonal Model,lifeguard_chair,2024-11-05,2022-01-22,decommissioned,0.5465680900000001,3,3
+4,611514,Integrated Cluster A,chemical_storage,2025-04-16,2023-06-06,operational,0.9,4,4

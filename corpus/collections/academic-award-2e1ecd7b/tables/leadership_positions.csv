@@ -1,0 +1,5 @@
+id,position_identifier,position_title,organization_name,start_date,end_date,position_status,researcher_id,professional_society_id
+1,POS-2600,Extended Model,Staples Inc.,2022-09-05T20:24:00,2022-09-01T08:00:00,current,1,100
+2,POS-2606,Pilot Cluster A,Oscar Health Inc.,2023-02-16T03:41:00,2023-02-12T15:17:00,past,2,101
+3,POS-2612,Baseline Review,Atlantic Richfield,2024-07-27T10:58:00,2024-07-23T22:34:00,interim,3,102
+4,POS-2618,Distributed Initiative,Port Loko,2025-12-11T17:15:00,2025-12-07T05:51:00,current,4,103

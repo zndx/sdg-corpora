@@ -1,0 +1,5 @@
+healthcare_facility_id,facility_code,facility_name,facility_type,city_location,has_referral_capacity,surveillance_site_id,pathogen_id,receives_referrals_healthcare_facility_id
+1,2933476,Integrated Protocol A,Medical College,regional-city-12,true,1,1,1
+2,Bjuukia,Extended Programme,Zonal Hospital,legacy-city-13,false,2,2,2
+3,2106693,Pilot Standard,Subregional Hospital,compact-city-14,true,3,3,3
+4,6969439,Baseline Framework D,Tropical Hospital,composite-city-15,false,4,4,4

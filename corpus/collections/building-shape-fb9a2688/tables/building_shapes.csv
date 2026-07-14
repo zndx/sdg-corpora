@@ -1,0 +1,5 @@
+building_shape_id,shape_id,ground_plan_type,vertical_division_type,volume,surface_area,shape_factor,aerodynamic_coefficient,energy_simulation_id,glazing_ratio_id
+1,69444,Simple,Simple,9.45,15.95,5.95,6.20,1,1
+2,5006445,Complex,Complex,11.90,19.90,7.90,9.40,2,2
+3,b10c1484-8fcd-11eb-924d-9cd76263cbd0,Simple,Simple,14.35,23.85,9.85,12.60,3,3
+4,778574,Complex,Complex,16.80,27.80,11.80,15.80,4,4

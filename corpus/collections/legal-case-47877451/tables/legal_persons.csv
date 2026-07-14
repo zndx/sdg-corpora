@@ -1,0 +1,5 @@
+legal_person_id,person_id,full_name,role,jurisdiction,qualification_year,specialization,legal_case_id,judges_legal_case_id,professional_body_id
+1,George Bernard Shaw,Theodore Mcgrath,Barrister,regional-jurisdic-30,7,legacy-speciali-13,100,100,100
+2,Maria Rodriguez,Account Name,Judge,legacy-jurisdic-31,10,compact-speciali-14,101,101,101
+3,Sarah Villanueva,Saipan International Airport,Defendant,compact-jurisdic-32,13,composite-speciali-15,102,102,102
+4,Susan Wagner,Norma Fisher,Prosecutor,composite-jurisdic-33,16,primary-speciali-16,103,103,103

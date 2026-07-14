@@ -1,0 +1,5 @@
+id,astm_number,method_description,applicable_grade,is_b_q9000_critical,fuel_property_id,fuel_sample_id
+1,AST-2519,Primary Framework A,compact-applicab-20,true,1000,1000
+2,AST-2521,Composite Protocol,composite-applicab-21,false,1001,1001
+3,AST-2523,Compact Programme,primary-applicab-22,true,1002,1002
+4,AST-2525,Legacy Standard D,adaptive-applicab-23,false,1003,1003

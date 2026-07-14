@@ -1,0 +1,5 @@
+id,scientific_name,crop_type,growth_region,is_host_for_striga,is_host_for_rhamphicarpa,parasitic_weed_species_id,field_id
+1,Integrated Protocol A,cereal,baseline-growth-91,false,true,100,9085253
+2,Extended Programme,legume,pilot-growth-92,true,false,101,1c87986a-8fcd-11eb-924d-9cd76263cbd0
+3,Pilot Standard,rice,extended-growth-93,false,true,102,1996924
+4,Baseline Framework D,cereal,integrated-growth-94,true,false,103,2298

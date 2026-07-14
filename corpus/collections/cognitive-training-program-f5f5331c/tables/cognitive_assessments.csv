@@ -1,0 +1,5 @@
+assessment_identifier,assessment_name,administration_date,administrator_i_d,participant_i_d,score,status,cognitive_capacity_id,research_institution_id
+ASS-2505,Adaptive Series,2022-01-20T00:48:00,ADM-2616,PAR-2485,9.20,pending,1,1
+ASS-2510,Primary Assessment,2023-06-04T07:05:00,ADM-2622,PAR-2490,13.40,completed,2,2
+ASS-2515,Composite Survey D,2024-11-15T14:22:00,ADM-2628,PAR-2495,17.60,failed,3,3
+ASS-2520,Compact Corridor,2025-04-26T21:39:00,ADM-2634,PAR-2500,21.80,pending,4,4

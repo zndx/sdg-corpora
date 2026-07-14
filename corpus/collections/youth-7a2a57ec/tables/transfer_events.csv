@@ -1,0 +1,5 @@
+transfer_event_id,transfer_identifier,transfer_date,origin_facility_code,destination_facility_code,has_communicable_disease,youth_id,health_care_summary_format_code,healthcare_facility_id
+1,TRA-2375,2025-08-12T07:33:00,9125639,10449530,false,1000,gd_taxp_3,1
+2,TRA-2376,2022-01-23T14:50:00,a854635a-9bad-11eb-a8a2-19ed5c03f8d3,1437591,true,1001,9736899,2
+3,TRA-2377,2023-06-07T21:07:00,1202-0008-S,726046,false,1002,2002007020260,3
+4,TRA-2378,2024-11-18T04:24:00,arc,15426389,true,1003,255,4

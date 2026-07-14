@@ -1,0 +1,5 @@
+id,fact_sheet_id,title,last_updated,source_system,language,readability_level,medication_id,display_endpoint_id
+1,7441140,Compact Initiative,2023-06-17T17:27:00,composite-source-39,composite-language-45,integrated-readabil-64,1,100
+2,103191,Legacy Model,2024-11-01T00:44:00,primary-source-40,primary-language-46,seasonal-readabil-65,2,101
+3,884338,Regional Cluster A,2025-04-12T07:01:00,adaptive-source-41,adaptive-language-47,regional-readabil-66,3,102
+4,11330,Seasonal Review,2022-09-23T14:18:00,distributed-source-42,distributed-language-48,legacy-readabil-67,4,103

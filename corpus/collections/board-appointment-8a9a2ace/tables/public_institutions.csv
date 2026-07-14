@@ -1,0 +1,5 @@
+id,institution_id,institution_name,institution_type,location_address,operational_status,board_of_trustees_id,county_jurisdiction_id
+100,9424913,Extended Corridor,Memorial,baseline-location-61,Active,1,1000
+101,8189481,Pilot Series A,Museum,pilot-location-62,Inactive,2,1001
+102,1437604,Baseline Assessment,Park,extended-location-63,Under Renovation,3,1002
+103,884346,Distributed Survey,Civic Center,integrated-location-64,Active,4,1003

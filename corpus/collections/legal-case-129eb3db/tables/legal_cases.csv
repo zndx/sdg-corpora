@@ -1,0 +1,5 @@
+legal_case_id,case_identifier,court_name,case_type,date_filed,status,jurisdiction,legal_person_id,has_prosecutor_legal_person_id,legal_outcome_id,legal_statute_id
+1,CAS-2099,Baseline Series D,Criminal,2024-03-14T02:54:00,Pending,regional-jurisdic-30,100,100,1,1
+2,CAS-2100,Distributed Assessment,Civil,2025-08-25T09:11:00,Active,legacy-jurisdic-31,101,101,2,2
+3,CAS-2101,Adaptive Survey,Family,2022-01-09T16:28:00,Closed,compact-jurisdic-32,102,102,3,3
+4,CAS-2102,Primary Corridor A,Inquest,2023-06-20T23:45:00,Appealed,composite-jurisdic-33,103,103,4,4

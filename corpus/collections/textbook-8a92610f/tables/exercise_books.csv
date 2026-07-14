@@ -1,0 +1,5 @@
+exercise_book_id,code,description,size,line_type,unit_price,required_quantity,subject,is_compulsory,grade_level_id,subject_id
+100,lu_tax_code_template_m_I_4,Extended Survey,adaptive-size-83,pilot-line-38,"5,692",9,adaptive-subject-83,false,1,1
+101,2986219,Pilot Corridor A,distributed-size-84,extended-line-39,"45,650",2,distributed-subject-84,true,2,2
+102,8928520,Baseline Series,baseline-size-85,integrated-line-40,"2,705",4,baseline-subject-85,false,3,3
+103,195369,Distributed Assessment,pilot-size-86,seasonal-line-41,211.07,5,pilot-subject-86,true,4,4

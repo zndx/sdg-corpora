@@ -1,0 +1,279 @@
+{
+ "construct_id": "46341b8aa34d6fa1",
+ "slug": "production-record-46341b8a",
+ "passage": "46341b8aa34d6fa1f10d8f1206a5e0f35f8156f41b5abb5eb6fd26acd81d85a1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 18,
+ "n_views": 15,
+ "entities": [
+  "ProductionRecord",
+  "SurveyReport",
+  "PriceForecast",
+  "Institution",
+  "Commodity",
+  "TradeTransaction",
+  "GeographicRegion",
+  "AssetDivestment",
+  "Company",
+  "LandParcel"
+ ],
+ "terms": [
+  {
+   "name": "ProductionRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveyReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PriceForecast",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Institution",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Commodity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TradeTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AssetDivestment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Company",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LandParcel",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "prod_production_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "volume",
+    "unit",
+    "start_date",
+    "end_date",
+    "source",
+    "survey_report_id",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "prod_survey_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "publisher",
+    "publication_date",
+    "report_type",
+    "period_covered",
+    "created_at"
+   ]
+  },
+  {
+   "name": "prod_price_forecasts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "forecast_id",
+    "target_price",
+    "currency",
+    "year",
+    "commodity",
+    "issuing_body",
+    "institution_id",
+    "commodity_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "prod_institutions",
+   "rows": 4,
+   "columns": [
+    "institution_id",
+    "name",
+    "type",
+    "headquarters",
+    "created_at"
+   ]
+  },
+  {
+   "name": "prod_commodities",
+   "rows": 4,
+   "columns": [
+    "commodity_id",
+    "name",
+    "type",
+    "unit_of_measure"
+   ]
+  },
+  {
+   "name": "prod_trade_transactions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transaction_id",
+    "volume",
+    "unit",
+    "date",
+    "direction",
+    "status",
+    "geographic_region_id",
+    "involves_importer_geographic_region_id",
+    "commodity_id"
+   ]
+  },
+  {
+   "name": "prod_geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_id",
+    "name",
+    "type",
+    "coordinates",
+    "political_affiliation"
+   ]
+  },
+  {
+   "name": "prod_asset_divestments",
+   "rows": 4,
+   "columns": [
+    "divestment_id",
+    "total_value",
+    "currency",
+    "start_date",
+    "end_date",
+    "status",
+    "company_id",
+    "transferred_to_company_id"
+   ]
+  },
+  {
+   "name": "prod_companies",
+   "rows": 4,
+   "columns": [
+    "company_id",
+    "name",
+    "type",
+    "headquarters",
+    "ownership_structure"
+   ]
+  },
+  {
+   "name": "prod_land_parcels",
+   "rows": 4,
+   "columns": [
+    "land_parcel_id",
+    "parcel_id",
+    "acreage",
+    "location",
+    "development_status",
+    "area_name"
+   ]
+  },
+  {
+   "name": "prod_survey_reportsProductionRecord",
+   "rows": 8,
+   "columns": [
+    "survey_report_id",
+    "production_record_id"
+   ]
+  },
+  {
+   "name": "prod_institutionsPriceForecast",
+   "rows": 8,
+   "columns": [
+    "institution_id",
+    "price_forecast_id"
+   ]
+  },
+  {
+   "name": "prod_commoditiesPriceForecast",
+   "rows": 8,
+   "columns": [
+    "commodity_id",
+    "price_forecast_id"
+   ]
+  },
+  {
+   "name": "prod_geographic_regionsTradeTransaction",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "trade_transaction_id"
+   ]
+  },
+  {
+   "name": "prod_geographic_regionsProductionRecord",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "production_record_id"
+   ]
+  },
+  {
+   "name": "prod_asset_divestmentsLandParcel",
+   "rows": 8,
+   "columns": [
+    "divestment_id",
+    "land_parcel_id"
+   ]
+  },
+  {
+   "name": "prod_companiesAssetDivestment",
+   "rows": 8,
+   "columns": [
+    "company_id",
+    "divestment_id"
+   ]
+  },
+  {
+   "name": "prod_land_parcelsAssetDivestment",
+   "rows": 8,
+   "columns": [
+    "land_parcel_id",
+    "divestment_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_production_record_survey_report",
+  "vw_production_record_geographic_region",
+  "vw_survey_report_production_record_detail",
+  "vw_price_forecast_institution",
+  "vw_price_forecast_commodity",
+  "vw_institution_price_forecast_detail",
+  "vw_commodity_price_forecast_detail",
+  "vw_trade_transaction_geographic_region",
+  "vw_trade_transaction_commodity",
+  "vw_geographic_region_trade_transaction_detail",
+  "vw_geographic_region_production_record_detail",
+  "vw_asset_divestment_company",
+  "vw_asset_divestment_land_parcel_detail",
+  "vw_company_asset_divestment_detail",
+  "vw_land_parcel_asset_divestment_detail"
+ ]
+}

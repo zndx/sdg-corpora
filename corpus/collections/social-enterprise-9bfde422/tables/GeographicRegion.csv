@@ -1,0 +1,5 @@
+id,regionCode,regionName,regionType,population,socialEnterpriseDensity,isRural,enterpriseId,countryId,createdAt
+1,1562837,Distributed Assessment,Urban Central Belt,42,6.20,false,9568454,100,2025-01-01 00:14:00
+2,6564391,Adaptive Survey D,Highlands and Islands,49,10.40,true,managing-resources,101,2025-02-06 03:14:00
+3,778560,Primary Corridor,Rural,56,14.60,false,974930,102,2025-03-11 06:14:00
+4,8667ec1da10c4a0293d91388b49bc77c,Composite Series,Local Authority Area,63,18.80,true,state_et_11,103,2025-04-16 09:14:00

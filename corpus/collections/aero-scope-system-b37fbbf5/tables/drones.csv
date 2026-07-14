@@ -1,0 +1,5 @@
+id,serial_number,manufacturer,flight_status,last_known_location,encryption_status,aero_scope_system_id,data_package_id,created_at
+1,5844275,Standard Chartered,active,pilot-last-26,encrypted,1000,1,2025-01-01 00:14:00
+2,69422,General Motors,idle,extended-last-27,unencrypted,1001,2,2025-02-06 03:14:00
+3,7731874,Column Name cannot be empty,crashed,integrated-last-28,unknown,1002,3,2025-03-11 06:14:00
+4,10445632,Financial Information Service Co. Ltd.,unknown,seasonal-last-29,encrypted,1003,4,2025-04-16 09:14:00

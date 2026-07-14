@@ -1,0 +1,5 @@
+reporting_requirement_id,requirement_identifier,report_type,effective_date,is_voluntary,applicable_entity_size,status,health_plan_id,created_at
+1,REQ-2065,W-2,2023-02-14,true,small_employer,pending,100,2025-01-01 00:14:00
+2,REQ-2068,quality_of_care,2024-07-25,false,large_employer,active,101,2025-02-06 03:14:00
+3,REQ-2071,exchange_availability,2025-12-09,true,small_employer,deprecated,102,2025-03-11 06:14:00
+4,REQ-2074,minimum_essential_coverage,2022-05-20,false,large_employer,pending,103,2025-04-16 09:14:00

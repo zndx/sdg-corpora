@@ -1,0 +1,5 @@
+id,standardId,standardName,version,technologyType,complianceLevel,effectiveDate,boardId,environmentId
+1,7119764,Compact Framework,seasonal-version-71,Web Services,Mandatory,2023-02-14,1,1000
+2,9125617,Legacy Protocol,regional-version-72,Service-Oriented Architecture,Recommended,2024-07-25,2,1001
+3,338526,Regional Programme A,legacy-version-73,Secure Infrastructure,Optional,2025-12-09,3,1002
+4,3717623,Seasonal Standard,compact-version-74,Enterprise Architecture,Mandatory,2022-05-20,4,1003

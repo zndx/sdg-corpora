@@ -1,0 +1,5 @@
+id,vehicle_class_code,class_description,requires_muffler,requires_brakes,requires_lights,rule_code,operator_id
+100,e9525746-8fd1-11eb-924d-9cd76263cbd0,Baseline Framework D,false,false,false,2839520,9736895
+101,103166,Distributed Protocol,true,true,true,72623baa-9bad-11eb-a8a2-19ed5c03f8d3,195359
+102,8092,Adaptive Programme,false,false,false,romeg_ul,5082968
+103,d64c33f2-8fc1-11eb-924d-9cd76263cbd0,Primary Standard A,true,true,true,73a5d11c-9bac-11eb-a8a2-19ed5c03f8d3,b69ce49c-8fd1-11eb-924d-9cd76263cbd0

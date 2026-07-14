@@ -1,0 +1,5 @@
+id,exam_date,exam_type,visual_acuity,visual_field,visual_evoked_potentials,contrast_sensitivity,exam_performed_by,patient_id
+1,2023-06-15T05:39:00,baseline,17.70,6.70,18.20,15.20,pilot-exam-32,1
+2,2024-11-26T12:56:00,post-treatment,21.40,8.40,22.40,18.40,extended-exam-33,2
+3,2025-04-10T19:13:00,baseline,25.10,10.10,26.60,21.60,integrated-exam-34,3
+4,2022-09-21T02:30:00,post-treatment,28.80,11.80,30.80,24.80,seasonal-exam-35,4

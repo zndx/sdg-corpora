@@ -1,0 +1,5 @@
+office_room_id,room_number,building_name,floor_number,room_type,is_locked,office_equipment_id,administrative_staff_member_id
+1,ROO-2106,Compact Initiative,10,legacy-room-25,true,1,1
+2,ROO-2113,Legacy Model,14,compact-room-26,false,2,2
+3,ROO-2120,Regional Cluster A,18,composite-room-27,true,3,3
+4,ROO-2127,Seasonal Review,22,primary-room-28,false,4,4

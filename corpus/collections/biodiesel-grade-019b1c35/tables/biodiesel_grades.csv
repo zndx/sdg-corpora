@@ -1,0 +1,5 @@
+id,grade_code,sulfur_limit,flash_point_min,cetane_min,cloud_point_max,acid_number_max,free_glycerin_max,total_glycerin_max,a_s_t_m_test_method_id,fuel_property_id
+1,S15,0.015,8.20,13,19.45,19.70,19.20,9.20,1,1000
+2,S500,0.500,11.40,16,21.90,22.40,21.40,13.40,2,1001
+3,S15,0.015,14.60,19,24.35,25.10,23.60,17.60,3,1002
+4,S500,0.500,17.80,22,26.80,27.80,25.80,21.80,4,1003

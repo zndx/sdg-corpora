@@ -1,0 +1,5 @@
+id,system_identifier,manufacturer,model_number,deployment_status,effective_range_meters,last_firmware_version,module_serial_number
+100,SYS-2050,Standard Chartered,MOD-2238,active,10.45,regional-last-36,e604b688-8fd1-11eb-924d-9cd76263cbd0
+101,SYS-2051,General Motors,MOD-2244,discontinued,14.90,legacy-last-37,8189475
+102,SYS-2052,Column Name cannot be empty,MOD-2250,deprecated,19.35,compact-last-38,5082969
+103,SYS-2053,Financial Information Service Co. Ltd.,MOD-2256,active,23.80,composite-last-39,1562833

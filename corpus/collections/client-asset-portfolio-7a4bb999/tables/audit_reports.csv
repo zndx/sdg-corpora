@@ -1,0 +1,5 @@
+id,report_identifier,audit_firm,report_date,audit_type,findings_summary,compliance_rating,scope_description,financial_institution_id,client_asset_portfolio_id,regulatory_framework_id
+100,REP-2544,legacy-audit-85,2024-03-02,annual,pilot-findings-32,integrated-complian-94,Integrated Model A,1,1,100
+101,REP-2545,compact-audit-86,2025-08-13,quarterly,extended-findings-33,seasonal-complian-95,Extended Cluster,2,2,101
+102,REP-2546,composite-audit-87,2022-01-24,special,integrated-findings-34,regional-complian-96,Pilot Review,3,3,102
+103,REP-2547,primary-audit-88,2023-06-08,annual,seasonal-findings-35,legacy-complian-97,Baseline Initiative D,4,4,103

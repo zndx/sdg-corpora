@@ -1,0 +1,221 @@
+{
+ "construct_id": "daf1f740123cbe7a",
+ "slug": "clinic-daf1f740",
+ "passage": "daf1f740123cbe7ae9c5e54589c7271f1d9ddb9796af1ba78983851e9ec09787.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 18,
+ "entities": [
+  "Clinic",
+  "Provider",
+  "Patient",
+  "Program",
+  "ClinicalDocumentation",
+  "ChartingSoftware"
+ ],
+ "terms": [
+  {
+   "name": "Clinic",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Provider",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ClinicalDocumentation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ChartingSoftware",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "clinics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clinic_id",
+    "clinic_name",
+    "branch_of",
+    "address",
+    "city",
+    "state",
+    "has_telehealth",
+    "program_id",
+    "charting_software_id"
+   ]
+  },
+  {
+   "name": "providers",
+   "rows": 4,
+   "columns": [
+    "provider_id",
+    "full_name",
+    "credential",
+    "state_license",
+    "employment_status",
+    "years_experience",
+    "ed_experience_years",
+    "resides_in_state",
+    "clinic_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "patient_id",
+    "full_name",
+    "age_group",
+    "diagnosis",
+    "insurance_provider",
+    "has_caregiver",
+    "enrolled_in_program",
+    "provider_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "programs",
+   "rows": 4,
+   "columns": [
+    "program_id",
+    "program_name",
+    "program_type",
+    "start_date",
+    "end_date",
+    "is_online",
+    "is_ready_made",
+    "clinic_id"
+   ]
+  },
+  {
+   "name": "clinical_documentations",
+   "rows": 4,
+   "columns": [
+    "clinical_documentation_id",
+    "doc_id",
+    "doc_type",
+    "creation_date",
+    "status",
+    "contains_supplement_review",
+    "is_public_facing",
+    "provider_id",
+    "patient_id",
+    "charting_software_id"
+   ]
+  },
+  {
+   "name": "charting_softwares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_id",
+    "software_name",
+    "version",
+    "has_billing_module",
+    "has_scheduling_module",
+    "is_cloud_based"
+   ]
+  },
+  {
+   "name": "clinics_providers",
+   "rows": 8,
+   "columns": [
+    "clinic_id",
+    "provider_id"
+   ]
+  },
+  {
+   "name": "providers_patients",
+   "rows": 8,
+   "columns": [
+    "provider_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "providers_providers",
+   "rows": 8,
+   "columns": [
+    "provider_id",
+    "collaborates_with_provider_id"
+   ]
+  },
+  {
+   "name": "patients_providers",
+   "rows": 8,
+   "columns": [
+    "patient_id",
+    "provider_id"
+   ]
+  },
+  {
+   "name": "programs_providers",
+   "rows": 8,
+   "columns": [
+    "program_id",
+    "provider_id"
+   ]
+  },
+  {
+   "name": "programs_patients",
+   "rows": 8,
+   "columns": [
+    "program_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "softwares_documentations",
+   "rows": 8,
+   "columns": [
+    "charting_software_id",
+    "clinical_documentation_id"
+   ]
+  },
+  {
+   "name": "softwares_providers",
+   "rows": 8,
+   "columns": [
+    "charting_software_id",
+    "provider_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_clinic_provider_detail",
+  "vw_clinic_program",
+  "vw_clinic_charting_software",
+  "vw_provider_clinic",
+  "vw_provider_patient_detail",
+  "vw_provider_provider_detail",
+  "vw_provider_program",
+  "vw_patient_provider_detail",
+  "vw_patient_provider",
+  "vw_patient_program",
+  "vw_program_provider_detail",
+  "vw_program_patient_detail",
+  "vw_program_clinic",
+  "vw_clinical_documentation_provider",
+  "vw_clinical_documentation_patient",
+  "vw_clinical_documentation_charting_software",
+  "vw_charting_software_clinical_documentation_detail",
+  "vw_charting_software_provider_detail"
+ ]
+}

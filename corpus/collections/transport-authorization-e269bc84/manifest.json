@@ -1,0 +1,144 @@
+{
+ "construct_id": "e269bc8409353af1",
+ "slug": "transport-authorization-e269bc84",
+ "passage": "e269bc8409353af14399f580fcc74fa79e6ba6176a8a79e7a8b745c5adbf3328.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "TransportAuthorization",
+  "MinorPassenger",
+  "Guardian",
+  "EmergencyContact",
+  "Location",
+  "TransportService"
+ ],
+ "terms": [
+  {
+   "name": "TransportAuthorization",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MinorPassenger",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Guardian",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EmergencyContact",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "TransportService",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "transport_authorizations",
+   "rows": 4,
+   "columns": [
+    "authorization_id",
+    "request_date",
+    "fax_number",
+    "email_address",
+    "service_date",
+    "payment_status",
+    "supervision_status",
+    "minor_passenger_id",
+    "guardian_id",
+    "emergency_contact_id",
+    "location_id",
+    "specifies_dropoff_location_location_id"
+   ]
+  },
+  {
+   "name": "minor_passengers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "passenger_name",
+    "age",
+    "minimum_age",
+    "is_unaccompanied",
+    "authorization_id",
+    "guardian_id"
+   ]
+  },
+  {
+   "name": "guardians",
+   "rows": 4,
+   "columns": [
+    "id",
+    "guardian_name",
+    "contact_phone",
+    "home_phone",
+    "signature_date",
+    "authorization_id",
+    "minor_passenger_id"
+   ]
+  },
+  {
+   "name": "emergency_contacts",
+   "rows": 4,
+   "columns": [
+    "emergency_contact_id",
+    "contact_name",
+    "contact_phone",
+    "authorization_id"
+   ]
+  },
+  {
+   "name": "locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "address_line",
+    "location_type",
+    "supervision_required",
+    "authorization_id",
+    "is_dropoff_for_authorization_id"
+   ]
+  },
+  {
+   "name": "transport_services",
+   "rows": 4,
+   "columns": [
+    "service_id",
+    "pickup_time",
+    "dropoff_time",
+    "service_status",
+    "authorization_id",
+    "minor_passenger_id",
+    "location_id",
+    "terminates_at_location_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_transport_authorization_minor_passenger",
+  "v_transport_authorization_guardian",
+  "v_transport_authorization_emergency_contact",
+  "v_transport_authorization_location",
+  "v_minor_passenger_transport_authorization",
+  "v_minor_passenger_guardian",
+  "v_guardian_transport_authorization",
+  "v_guardian_minor_passenger",
+  "v_emergency_contact_transport_authorization",
+  "v_location_transport_authorization",
+  "v_transport_service_transport_authorization",
+  "v_transport_service_minor_passenger",
+  "v_transport_service_location"
+ ]
+}

@@ -1,0 +1,5 @@
+id,account_identifier,platform,representing_entity,is_official,registration_date,status,district_employee_id,school_entity_id,secure_credential_store_id
+1,ACC-2500,Twitter,Sport,false,2023-06-19T17:27:00,Registered,1000,100,1
+2,ACC-2502,Blog,Club,true,2024-11-03T00:44:00,Unregistered,1001,101,2
+3,ACC-2504,Website,Group,false,2025-04-14T07:01:00,UnderReview,1002,102,3
+4,ACC-2506,Twitter,Program,true,2022-09-25T14:18:00,Registered,1003,103,4

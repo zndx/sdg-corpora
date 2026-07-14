@@ -1,0 +1,5 @@
+id,characteristic_type,value,unit,measurement_condition,status,power_splitter_combiner_id,r_f_port_id
+100,amplitude,19.95,dB,in_phase,theoretical,1,1
+101,phase,21.90,degrees,out_of_phase,measured,2,2
+102,isolation,23.85,volts,different_frequencies,theoretical,3,3
+103,insertion_loss,25.80,dB,in_phase,measured,4,4

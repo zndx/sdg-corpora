@@ -1,0 +1,213 @@
+{
+ "construct_id": "69bccf2206f31b75",
+ "slug": "student-69bccf22",
+ "passage": "69bccf2206f31b759581580a0c5cbc5685cbea3dcb9fdbcea90820c3acc66ad3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 14,
+ "entities": [
+  "Student",
+  "InstructionalResource",
+  "AuthenticationMethod",
+  "LearningManagementSystem",
+  "CurriculumResource",
+  "TestPreparationResource",
+  "InterventionProgram"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InstructionalResource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AuthenticationMethod",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LearningManagementSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CurriculumResource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TestPreparationResource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InterventionProgram",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "first_name",
+    "last_name",
+    "grade_level",
+    "school_name",
+    "is_eligible_for_prodigy"
+   ]
+  },
+  {
+   "name": "instructional_resources",
+   "rows": 4,
+   "columns": [
+    "instructional_resource_id",
+    "resource_id",
+    "resource_name",
+    "category",
+    "requires_additional_login",
+    "access_method",
+    "grade_range",
+    "authentication_method_id"
+   ]
+  },
+  {
+   "name": "authentication_methods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "auth_method_id",
+    "method_name",
+    "is_default",
+    "requires_app_installation",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "learning_management_systems",
+   "rows": 4,
+   "columns": [
+    "learning_management_system_id",
+    "lms_id",
+    "lms_name",
+    "supports_assignment_creation",
+    "access_via_clever",
+    "authentication_method_id"
+   ]
+  },
+  {
+   "name": "curriculum_resources",
+   "rows": 4,
+   "columns": [
+    "curriculum_id",
+    "curriculum_name",
+    "subject_area",
+    "requires_additional_login",
+    "authentication_method_id"
+   ]
+  },
+  {
+   "name": "test_preparation_resources",
+   "rows": 4,
+   "columns": [
+    "test_preparation_resource_id",
+    "test_prep_id",
+    "test_prep_name",
+    "requires_app_installation",
+    "authentication_method_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "intervention_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "intervention_id",
+    "intervention_name",
+    "subject_area",
+    "grade_range",
+    "requires_app_installation",
+    "authentication_method_id"
+   ]
+  },
+  {
+   "name": "students_resources",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "instructional_resource_id"
+   ]
+  },
+  {
+   "name": "students_methods",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "authentication_method_id"
+   ]
+  },
+  {
+   "name": "resources_students",
+   "rows": 8,
+   "columns": [
+    "instructional_resource_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "methods_students",
+   "rows": 8,
+   "columns": [
+    "authentication_method_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "methods_resources",
+   "rows": 8,
+   "columns": [
+    "authentication_method_id",
+    "instructional_resource_id"
+   ]
+  },
+  {
+   "name": "systems_students",
+   "rows": 8,
+   "columns": [
+    "learning_management_system_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "programs_students",
+   "rows": 8,
+   "columns": [
+    "intervention_program_id",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "student_instructional_resource_detail_view",
+  "student_authentication_method_detail_view",
+  "instructional_resource_student_detail_view",
+  "instructional_resource_authentication_method_view",
+  "authentication_method_student_detail_view",
+  "authentication_method_instructional_resource_detail_view",
+  "learning_management_system_student_detail_view",
+  "learning_management_system_authentication_method_view",
+  "curriculum_resource_student_detail_view",
+  "curriculum_resource_authentication_method_view",
+  "test_preparation_resource_student_detail_view",
+  "test_preparation_resource_authentication_method_view",
+  "intervention_program_student_detail_view",
+  "intervention_program_authentication_method_view"
+ ]
+}

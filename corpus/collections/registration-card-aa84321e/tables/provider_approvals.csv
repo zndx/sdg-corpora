@@ -1,0 +1,5 @@
+id,approval_id,approval_status,grant_date,expiry_date,vat_excluded_price,organisation_id
+1000,17629497,Active,2022-05-11,2023-10-24,"8,627",Austria Card
+1001,3355765,Pending,2023-10-22,2024-03-08,0.18,American International Group
+1002,18175211,Suspended,2024-03-06,2025-08-19,289.59,GitHub Inc.
+1003,6564391,Revoked,2025-08-17,2022-01-03,442.51,Staples Inc.

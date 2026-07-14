@@ -1,0 +1,143 @@
+{
+ "construct_id": "fbf77f083559b5cf",
+ "slug": "inventory-item-fbf77f08",
+ "passage": "fbf77f083559b5cf3f44114709f42993f906e2403c4d65cab1a20a76d4ad7c0d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 9,
+ "entities": [
+  "InventoryItem",
+  "ShipmentRecord",
+  "CustomerAccount",
+  "MarketingCampaign",
+  "DatabaseRecord"
+ ],
+ "terms": [
+  {
+   "name": "InventoryItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ShipmentRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CustomerAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MarketingCampaign",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DatabaseRecord",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "inventory_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sku",
+    "item_type",
+    "quantity_on_hand",
+    "unit_cost",
+    "location_code",
+    "status",
+    "shipment_record_id"
+   ]
+  },
+  {
+   "name": "shipment_records",
+   "rows": 4,
+   "columns": [
+    "shipment_record_id",
+    "tracking_number",
+    "shipment_date",
+    "carrier_name",
+    "total_weight",
+    "shipping_method",
+    "status",
+    "customer_account_id"
+   ]
+  },
+  {
+   "name": "customer_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "customer_i_d",
+    "company_name",
+    "contact_email",
+    "credit_limit",
+    "account_status",
+    "registration_date",
+    "shipment_record_id",
+    "marketing_campaign_id"
+   ]
+  },
+  {
+   "name": "marketing_campaigns",
+   "rows": 4,
+   "columns": [
+    "marketing_campaign_id",
+    "campaign_i_d",
+    "campaign_name",
+    "start_date",
+    "end_date",
+    "budget",
+    "channel",
+    "status",
+    "inventory_item_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "database_records",
+   "rows": 4,
+   "columns": [
+    "database_record_id",
+    "record_i_d",
+    "table_name",
+    "last_modified",
+    "modified_by",
+    "record_hash",
+    "is_duplicate",
+    "inventory_item_id",
+    "customer_account_id"
+   ]
+  },
+  {
+   "name": "records_items",
+   "rows": 8,
+   "columns": [
+    "shipment_record_id",
+    "inventory_item_id"
+   ]
+  },
+  {
+   "name": "campaigns_accounts",
+   "rows": 8,
+   "columns": [
+    "marketing_campaign_id",
+    "customer_account_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_inventory_item_shipment_record",
+  "v_shipment_record_inventory_item_detail",
+  "v_shipment_record_customer_account",
+  "v_customer_account_shipment_record",
+  "v_customer_account_marketing_campaign",
+  "v_marketing_campaign_customer_account_detail",
+  "v_marketing_campaign_inventory_item",
+  "v_database_record_inventory_item",
+  "v_database_record_customer_account"
+ ]
+}

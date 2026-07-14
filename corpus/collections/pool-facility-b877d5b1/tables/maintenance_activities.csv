@@ -1,0 +1,5 @@
+maintenance_activity_id,activity_id,activity_type,scheduled_date,completed_date,performed_by,health_standard_compliance,notes,pool_facility_id,pool_staff_member_id
+100,8843761,water_quality_monitoring,2024-11-27,2023-02-11,extended-performe-57,false,extended-notes-75,1,1
+101,4180957,filtration_service,2025-04-11,2024-07-22,integrated-performe-58,true,integrated-notes-76,2,2
+102,168545,chemical_treatment,2022-09-22,2025-12-06,seasonal-performe-59,false,seasonal-notes-77,3,3
+103,default_chart_a_account_53,equipment_inspection,2023-02-06,2022-05-17,regional-performe-60,true,regional-notes-78,4,4

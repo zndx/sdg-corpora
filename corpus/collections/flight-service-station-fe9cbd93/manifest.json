@@ -1,0 +1,265 @@
+{
+ "construct_id": "fe9cbd93929334f1",
+ "slug": "flight-service-station-fe9cbd93",
+ "passage": "fe9cbd93929334f18922d13839e67b4b94ac00ae11f414bf0ac11942fbd5c2c9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 19,
+ "n_views": 16,
+ "entities": [
+  "FlightServiceStation",
+  "FlightInformationRegion",
+  "AirTrafficController",
+  "CommunicationSystem",
+  "Aircraft",
+  "GeographicLocation"
+ ],
+ "terms": [
+  {
+   "name": "FlightServiceStation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FlightInformationRegion",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AirTrafficController",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CommunicationSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Aircraft",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GeographicLocation",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "FlightServiceStation",
+   "rows": 4,
+   "columns": [
+    "stationId",
+    "stationIdentifier",
+    "stationName",
+    "establishmentDate",
+    "operationalStatus",
+    "coverageArea",
+    "primaryCommunicationMode",
+    "parentOrganization",
+    "locationCity",
+    "locationProvince",
+    "locationId"
+   ]
+  },
+  {
+   "name": "FlightInformationRegion",
+   "rows": 4,
+   "columns": [
+    "regionId",
+    "firIdentifier",
+    "firName",
+    "firType",
+    "areaSize",
+    "upperLimit",
+    "lowerLimit",
+    "controllingAuthority",
+    "overlapsRegionId"
+   ]
+  },
+  {
+   "name": "AirTrafficController",
+   "rows": 4,
+   "columns": [
+    "controllerId",
+    "firstName",
+    "lastName",
+    "shiftType",
+    "yearsOfExperience",
+    "certificationLevel",
+    "currentAssignment",
+    "contactMethod",
+    "stationId"
+   ]
+  },
+  {
+   "name": "CommunicationSystem",
+   "rows": 4,
+   "columns": [
+    "id",
+    "systemId",
+    "systemName",
+    "frequencyBand",
+    "coverageRange",
+    "signalQuality",
+    "dataFormat",
+    "encryptionStatus",
+    "lastMaintenanceDate"
+   ]
+  },
+  {
+   "name": "Aircraft",
+   "rows": 4,
+   "columns": [
+    "id",
+    "registrationNumber",
+    "aircraftType",
+    "operator",
+    "flightNumber",
+    "departureAirport",
+    "arrivalAirport",
+    "passengerCount",
+    "cargoWeight",
+    "currentAltitude",
+    "currentSpeed",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "GeographicLocation",
+   "rows": 4,
+   "columns": [
+    "id",
+    "locationId",
+    "cityName",
+    "provinceState",
+    "country",
+    "latitude",
+    "longitude",
+    "elevation",
+    "timezone"
+   ]
+  },
+  {
+   "name": "FlightServiceStationFlightInformationRegion",
+   "rows": 8,
+   "columns": [
+    "stationId",
+    "regionId"
+   ]
+  },
+  {
+   "name": "FlightServiceStationAirTrafficController",
+   "rows": 8,
+   "columns": [
+    "stationId",
+    "controllerId"
+   ]
+  },
+  {
+   "name": "FlightServiceStationCommunicationSystem",
+   "rows": 8,
+   "columns": [
+    "stationId",
+    "systemId"
+   ]
+  },
+  {
+   "name": "FlightInformationRegionFlightServiceStation",
+   "rows": 8,
+   "columns": [
+    "regionId",
+    "stationId"
+   ]
+  },
+  {
+   "name": "AirTrafficControllerCommunicationSystem",
+   "rows": 8,
+   "columns": [
+    "controllerId",
+    "systemId"
+   ]
+  },
+  {
+   "name": "AirTrafficControllerFlightInformationRegion",
+   "rows": 8,
+   "columns": [
+    "controllerId",
+    "regionId"
+   ]
+  },
+  {
+   "name": "CommunicationSystemFlightServiceStation",
+   "rows": 8,
+   "columns": [
+    "systemId",
+    "stationId"
+   ]
+  },
+  {
+   "name": "CommunicationSystemAirTrafficController",
+   "rows": 8,
+   "columns": [
+    "systemId",
+    "controllerId"
+   ]
+  },
+  {
+   "name": "CommunicationSystemAircraft",
+   "rows": 8,
+   "columns": [
+    "systemId",
+    "aircraftId"
+   ]
+  },
+  {
+   "name": "AircraftFlightServiceStation",
+   "rows": 8,
+   "columns": [
+    "aircraftId",
+    "stationId"
+   ]
+  },
+  {
+   "name": "AircraftCommunicationSystem",
+   "rows": 8,
+   "columns": [
+    "aircraftId",
+    "systemId"
+   ]
+  },
+  {
+   "name": "AircraftFlightInformationRegion",
+   "rows": 8,
+   "columns": [
+    "aircraftId",
+    "regionId"
+   ]
+  },
+  {
+   "name": "GeographicLocationFlightServiceStation",
+   "rows": 8,
+   "columns": [
+    "locationId",
+    "stationId"
+   ]
+  }
+ ],
+ "views": [
+  "v_flight_service_station_flight_information_region_detail",
+  "v_flight_service_station_air_traffic_controller_detail",
+  "v_flight_service_station_communication_system_detail",
+  "v_flight_service_station_geographic_location",
+  "v_flight_information_region_flight_service_station_detail",
+  "v_flight_information_region_flight_information_region",
+  "v_air_traffic_controller_flight_service_station",
+  "v_air_traffic_controller_communication_system_detail",
+  "v_air_traffic_controller_flight_information_region_detail",
+  "v_communication_system_flight_service_station_detail",
+  "v_communication_system_air_traffic_controller_detail",
+  "v_communication_system_aircraft_detail",
+  "v_aircraft_flight_service_station_detail",
+  "v_aircraft_communication_system_detail",
+  "v_aircraft_flight_information_region_detail",
+  "v_geographic_location_flight_service_station_detail"
+ ]
+}

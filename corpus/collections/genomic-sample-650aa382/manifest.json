@@ -1,0 +1,185 @@
+{
+ "construct_id": "650aa382e5dc729b",
+ "slug": "genomic-sample-650aa382",
+ "passage": "650aa382e5dc729ba4de49b247c8befba2e7ccbb7567131a89bcbc49ce5999b5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 15,
+ "entities": [
+  "GenomicSample",
+  "Individual",
+  "SequencingAssay",
+  "GenomicDataset",
+  "HealthRecord",
+  "ClinicalProgram",
+  "PartnerOrganization"
+ ],
+ "terms": [
+  {
+   "name": "GenomicSample",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SequencingAssay",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GenomicDataset",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthRecord",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ClinicalProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PartnerOrganization",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "genomic_samples",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sample_id",
+    "collection_date",
+    "tissue_type",
+    "sequencing_coverage",
+    "sample_status",
+    "sequencing_assay_id",
+    "individual_id"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "individual_id",
+    "date_of_birth",
+    "sex",
+    "enrollment_status",
+    "insurance_provider",
+    "health_record_id",
+    "clinical_program_id"
+   ]
+  },
+  {
+   "name": "sequencing_assays",
+   "rows": 4,
+   "columns": [
+    "sequencing_assay_id",
+    "assay_id",
+    "assay_type",
+    "coverage_depth",
+    "platform",
+    "result_status",
+    "genomic_sample_id",
+    "genomic_dataset_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "genomic_datasets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dataset_id",
+    "format",
+    "size_g_b",
+    "upload_date",
+    "access_level",
+    "sequencing_assay_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "health_records",
+   "rows": 4,
+   "columns": [
+    "health_record_id",
+    "record_id",
+    "last_updated",
+    "completeness_score",
+    "record_type",
+    "privacy_level",
+    "individual_id",
+    "genomic_dataset_id"
+   ]
+  },
+  {
+   "name": "clinical_programs",
+   "rows": 4,
+   "columns": [
+    "clinical_program_id",
+    "program_id",
+    "start_date",
+    "end_date",
+    "program_type",
+    "target_disease",
+    "genomic_dataset_id",
+    "partner_organization_id"
+   ]
+  },
+  {
+   "name": "partner_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "sector",
+    "contract_start_date",
+    "contract_end_date",
+    "clinical_program_id",
+    "genomic_dataset_id"
+   ]
+  },
+  {
+   "name": "individuals_samples",
+   "rows": 8,
+   "columns": [
+    "individual_id",
+    "genomic_sample_id"
+   ]
+  },
+  {
+   "name": "programs_individuals",
+   "rows": 8,
+   "columns": [
+    "clinical_program_id",
+    "individual_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_genomic_sample_sequencing_assay",
+  "vw_genomic_sample_individual",
+  "vw_individual_genomic_sample_detail",
+  "vw_individual_health_record",
+  "vw_individual_clinical_program",
+  "vw_sequencing_assay_genomic_sample",
+  "vw_sequencing_assay_genomic_dataset",
+  "vw_genomic_dataset_sequencing_assay",
+  "vw_health_record_individual",
+  "vw_health_record_genomic_dataset",
+  "vw_clinical_program_individual_detail",
+  "vw_clinical_program_genomic_dataset",
+  "vw_clinical_program_partner_organization",
+  "vw_partner_organization_clinical_program",
+  "vw_partner_organization_genomic_dataset"
+ ]
+}

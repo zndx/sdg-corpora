@@ -1,0 +1,20 @@
+CREATE TABLE staff_members (
+  staff_id INTEGER NOT NULL,
+  full_name VARCHAR(36),
+  employment_type VARCHAR(32),
+  department VARCHAR(32),
+  hire_date DATE,
+  salary DECIMAL,
+  is_supervisor BOOLEAN,
+  organization_id INTEGER,
+  executive_director_id INTEGER,
+  facility_id INTEGER,
+  event_id VARCHAR(44),
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (staff_id),
+  FOREIGN KEY (organization_id) REFERENCES organizations (id),
+  FOREIGN KEY (executive_director_id) REFERENCES executive_directors (id),
+  FOREIGN KEY (facility_id) REFERENCES facilities (id),
+  FOREIGN KEY (event_id) REFERENCES events (event_id)
+);

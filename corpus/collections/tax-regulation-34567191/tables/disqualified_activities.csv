@@ -1,0 +1,5 @@
+id,activity_code,activity_name,is_de_minimis,de_minimis_threshold,anti_abuse_rule,exclusion_status,trade_or_business_employer_id,tax_deduction_id,tax_regulation_id
+1000,12585,Composite Programme,true,14.95,true,fullyExcluded,The Hongkong and Shanghai Banking Corporation Limited,1000,1000
+1001,2bc26b8a-8fcc-11eb-924d-9cd76263cbd0,Compact Standard A,false,18.90,false,partiallyExcluded,ChargePoint Holdings.,1001,1001
+1002,195368,Legacy Framework,true,22.85,true,eligible,Intl. Business Machines,1002,1002
+1003,9085257,Regional Protocol,false,26.80,false,fullyExcluded,Feedback Ratings,1003,1003

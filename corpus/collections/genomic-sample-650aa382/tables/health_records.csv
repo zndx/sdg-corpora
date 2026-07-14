@@ -1,0 +1,5 @@
+health_record_id,record_id,last_updated,completeness_score,record_type,privacy_level,individual_id,genomic_dataset_id
+1,10449530,2023-06-17T17:27:00,19.20,clinical,public,1000,1
+2,10445619,2024-11-01T00:44:00,23.40,phenotypic,de-identified,1001,2
+3,9568457,2025-04-12T07:01:00,27.60,behavioral,restricted,1002,3
+4,20743593,2022-09-23T14:18:00,31.80,integrated,public,1003,4

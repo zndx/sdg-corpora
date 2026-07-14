@@ -1,0 +1,5 @@
+organizational_unit_id,unit_identifier,unit_name,department_code,head_count,budget_allocation,information_logistics_strategy_id,reports_to_organizational_unit_id
+100,UNI-2580,Compact Series,605962,49,446.22,1,100
+101,UNI-2584,Legacy Assessment,10449510,0,763.46,2,101
+102,UNI-2588,Regional Survey A,2002007020080,12,12.34,3,102
+103,UNI-2592,Seasonal Corridor,drafting-skills,1,"1,737",4,103

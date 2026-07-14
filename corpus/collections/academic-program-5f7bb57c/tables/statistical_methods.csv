@@ -1,0 +1,5 @@
+statistical_method_id,method_i_d,method_name,method_category,complexity_level,is_standardized,concentration_id,research_activity_id,professional_role_id,created_at,updated_at
+100,MET-2516,Pilot Assessment,study_design,37,false,1000,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,MET-2521,Baseline Survey,data_analysis,45,true,1001,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,MET-2526,Distributed Corridor A,inference,53,false,1002,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,MET-2531,Adaptive Series,quantification,61,true,1003,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

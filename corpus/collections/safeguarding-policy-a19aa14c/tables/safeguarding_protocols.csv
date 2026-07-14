@@ -1,0 +1,5 @@
+protocol_id,protocol_name,trigger_condition,required_action,deadline_hours,status,incident_id,referral_id
+9085260,Baseline Initiative D,legacy-trigger-49,primary-required-94,33,initiated,1,1
+6926357,Distributed Model,compact-trigger-50,adaptive-required-95,43,in_progress,2,2
+4277008,Adaptive Cluster,composite-trigger-51,distributed-required-96,53,completed,3,3
+726040,Primary Review A,primary-trigger-52,baseline-required-97,63,escalated,4,4

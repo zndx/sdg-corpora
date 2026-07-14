@@ -1,0 +1,5 @@
+id,tool_id,tool_name,tool_type,is_free,last_calibration_date,technician_id,task_id
+1,comi,Composite Model,hardware,true,2025-12-01,1000,7731870
+2,195360,Compact Cluster A,software,false,2022-05-12,1001,id_28
+3,3355763,Legacy Review,hardware,true,2023-10-23,1002,7119763
+4,8387539,Regional Initiative,software,false,2024-03-07,1003,lu_tax_code_template_m82

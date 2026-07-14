@@ -1,0 +1,5 @@
+id,recipient_id,recipient_name,award_category,years_in_field,nomination_year,is_finalist,is_winner,major_event_id,created_at,updated_at
+1,b_VB-EC-15,Legacy Cluster D,W_Award,24,26,false,false,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,1889791,Regional Review,Up_and_Coming_Businesswoman,30,30,true,true,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,4180946,Seasonal Initiative,W_Award,36,34,false,false,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,5789a9197ed7473eb37814ca09efb2c8,Integrated Model A,Up_and_Coming_Businesswoman,42,38,true,true,103,2025-04-16 09:14:00,2025-04-23 15:41:00

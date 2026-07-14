@@ -1,0 +1,5 @@
+compartmentId,compartmentName,isAdjustable,valveLocation,assemblyId,createdAt,updatedAt
+4543,lumbar,false,bottom_left,lu_tax_code_template_b_VB-IC-0,2025-01-01 00:14:00,2025-01-02 00:41:00
+168558,thoracic,true,bottom_right,bss,2025-02-06 03:14:00,2025-02-09 05:41:00
+1367e39e-8fcc-11eb-924d-9cd76263cbd0,sacral,false,bottom_center,9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,2025-03-11 06:14:00,2025-03-16 10:41:00
+727061,general,true,custom,8928501,2025-04-16 09:14:00,2025-04-23 15:41:00

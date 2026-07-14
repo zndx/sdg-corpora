@@ -1,0 +1,5 @@
+financial_assistance_id,assistance_id,amount,currency,disbursement_date,purpose,state_id,received_by_state_id,instrument_id
+100,763e85ae-9bac-11eb-a8a2-19ed5c03f8d3,13.49,seasonal-currency-71,2024-03-25T14:30:00,pollution_control,1,1,6926365
+101,Deskripsi,25.47,regional-currency-72,2025-08-09T21:47:00,sustainable_development,2,2,account_pymes_691
+102,332,19.72,legacy-currency-73,2022-01-20T04:04:00,capacity_building,3,3,726063
+103,325447,12.74,compact-currency-74,2023-06-04T11:21:00,pollution_control,4,4,23256422

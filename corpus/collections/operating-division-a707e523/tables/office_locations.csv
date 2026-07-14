@@ -1,0 +1,5 @@
+office_location_id,location_id,city,state,is_headquarters,employee_capacity
+100,778556,integrated-city-34,distributed-state-84,false,21
+101,1250220,seasonal-city-35,baseline-state-85,true,26
+102,14511,regional-city-36,pilot-state-86,false,31
+103,611510,legacy-city-37,extended-state-87,true,36

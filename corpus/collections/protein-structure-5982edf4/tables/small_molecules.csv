@@ -1,0 +1,5 @@
+id,molecule_id,smiles,iupac_name,molecular_formula,molecular_weight,activity_class,toxicity_score,optimization_status,protein_id,food_formulation_id
+1,3706,compact-smiles-50,Composite Protocol,distributed-molecula-84,0.53,distributed-activity-18,15.20,legacy-optimiza-85,1,1
+2,5f923cfa-8fcd-11eb-924d-9cd76263cbd0,composite-smiles-51,Compact Programme A,baseline-molecula-85,0.74,baseline-activity-19,19.40,compact-optimiza-86,2,2
+3,b_VB-PA-Tab,primary-smiles-52,Legacy Standard,pilot-molecula-86,0.74,pilot-activity-20,23.60,composite-optimiza-87,3,3
+4,account_pymes_1030,adaptive-smiles-53,Regional Framework,extended-molecula-87,0.6,extended-activity-21,27.80,primary-optimiza-88,4,4

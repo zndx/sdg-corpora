@@ -1,0 +1,5 @@
+id,groupName,ageRangeStart,ageRangeEnd,totalCount,percentageOfTotal,regionId,indicatorId
+1,Baseline Corridor D,34,19,57,13.45,1,100
+2,Distributed Series,37,26,7,16.90,2,101
+3,Adaptive Assessment,40,33,6,20.35,3,102
+4,Primary Survey A,43,40,0,23.80,4,103

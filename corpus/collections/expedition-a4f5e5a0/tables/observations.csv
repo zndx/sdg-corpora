@@ -1,0 +1,5 @@
+observation_id,timestamp,parameter,value,unit,status,expedition_id,equipment_id
+2986222,2024-07-08T18:18:00,temperature,19.95,distributed-unit-18,recorded,8189498,1
+605970,2025-12-19T01:35:00,pressure,21.90,baseline-unit-19,verified,8387552,2
+6564399,2022-05-03T08:52:00,salinity,23.85,pilot-unit-20,analyzed,6926365,3
+9125614,2023-10-14T15:09:00,location,25.80,extended-unit-21,recorded,3355779,4

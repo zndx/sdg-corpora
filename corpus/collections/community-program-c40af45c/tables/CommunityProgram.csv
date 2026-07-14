@@ -1,0 +1,5 @@
+id,programIdentifier,programName,startDate,endDate,status,scope,modelId
+1,PRO-2198,Extended Review,2022-09-05T20:24:00,2022-09-01T08:00:00,planning,specific_component,1
+2,PRO-2205,Pilot Initiative A,2023-02-16T03:41:00,2023-02-12T15:17:00,active,entire_program,2
+3,PRO-2212,Baseline Model,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,organization_wide,3
+4,PRO-2219,Distributed Cluster,2025-12-11T17:15:00,2025-12-07T05:51:00,terminated,specific_component,4

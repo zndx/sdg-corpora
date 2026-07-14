@@ -1,0 +1,193 @@
+{
+ "construct_id": "49926c8adf8152a4",
+ "slug": "chemical-substance-49926c8a",
+ "passage": "49926c8adf8152a4ea00727c9a43d0d053ac0bf5e3af251e5ccabe67b1f3a582.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "ChemicalSubstance",
+  "CarcinogenicityAssessment",
+  "EpidemiologicalStudy",
+  "AnimalCarcinogenicityStudy",
+  "MechanismOfCarcinogenesis",
+  "BiologicalReceptor",
+  "PharmacokineticParameter"
+ ],
+ "terms": [
+  {
+   "name": "ChemicalSubstance",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CarcinogenicityAssessment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EpidemiologicalStudy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnimalCarcinogenicityStudy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MechanismOfCarcinogenesis",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BiologicalReceptor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PharmacokineticParameter",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "chemical_substances",
+   "rows": 4,
+   "columns": [
+    "chemical_substance_id",
+    "cas_number",
+    "common_name",
+    "molecular_formula",
+    "physical_state",
+    "solubility_in_water",
+    "solubility_in_organic_solvents",
+    "melting_point",
+    "boiling_point",
+    "carcinogenicity_assessment_id",
+    "pharmacokinetic_parameter_id",
+    "has_half_life_in_rodents_pharmacokinetic_parameter_id",
+    "receptor_id"
+   ]
+  },
+  {
+   "name": "carcinogenicity_assessments",
+   "rows": 4,
+   "columns": [
+    "carcinogenicity_assessment_id",
+    "assessment_date",
+    "carcinogenicity_status",
+    "evidence_level",
+    "reporting_body",
+    "report_year",
+    "report_title",
+    "is_mutagenic",
+    "genotoxicity_findings",
+    "chemical_substance_id",
+    "mechanism_of_carcinogenesis_id"
+   ]
+  },
+  {
+   "name": "epidemiological_studies",
+   "rows": 4,
+   "columns": [
+    "study_id",
+    "study_start_date",
+    "study_end_date",
+    "population_size",
+    "exposure_level",
+    "cohort_location",
+    "cancer_types_observed",
+    "mortality_increase",
+    "chemical_substance_id",
+    "carcinogenicity_assessment_id"
+   ]
+  },
+  {
+   "name": "animal_carcinogenicity_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "study_id",
+    "study_start_date",
+    "study_end_date",
+    "animal_species",
+    "exposure_route",
+    "tissue_sites_affected",
+    "dose_dependent",
+    "tumor_incidence",
+    "chemical_substance_id",
+    "carcinogenicity_assessment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "mechanism_of_carcinogenesises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mechanism_id",
+    "mechanism_name",
+    "is_necessary_step",
+    "is_sufficient_step",
+    "observed_in_species",
+    "biological_response",
+    "chemical_substance_id",
+    "receptor_id",
+    "carcinogenicity_assessment_id"
+   ]
+  },
+  {
+   "name": "biological_receptors",
+   "rows": 4,
+   "columns": [
+    "receptor_id",
+    "receptor_name",
+    "ubiquitous_in_vertebrates",
+    "affinity_for_t_c_d_d",
+    "function",
+    "chemical_substance_id",
+    "mechanism_of_carcinogenesis_id"
+   ]
+  },
+  {
+   "name": "pharmacokinetic_parameters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parameter_id",
+    "parameter_name",
+    "value",
+    "unit",
+    "species",
+    "source_reference",
+    "chemical_substance_id"
+   ]
+  },
+  {
+   "name": "assessments_studies",
+   "rows": 8,
+   "columns": [
+    "carcinogenicity_assessment_id",
+    "study_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_chemical_substance_carcinogenicity_assessment",
+  "vw_chemical_substance_pharmacokinetic_parameter",
+  "vw_chemical_substance_biological_receptor",
+  "vw_carcinogenicity_assessment_chemical_substance",
+  "vw_carcinogenicity_assessment_epidemiological_study_detail",
+  "vw_carcinogenicity_assessment_animal_carcinogenicity_study_detail",
+  "vw_carcinogenicity_assessment_mechanism_of_carcinogenesis",
+  "vw_epidemiological_study_chemical_substance",
+  "vw_epidemiological_study_carcinogenicity_assessment",
+  "vw_animal_carcinogenicity_study_chemical_substance",
+  "vw_animal_carcinogenicity_study_carcinogenicity_assessment",
+  "vw_mechanism_of_carcinogenesis_chemical_substance",
+  "vw_mechanism_of_carcinogenesis_biological_receptor",
+  "vw_mechanism_of_carcinogenesis_carcinogenicity_assessment",
+  "vw_biological_receptor_chemical_substance",
+  "vw_biological_receptor_mechanism_of_carcinogenesis",
+  "vw_pharmacokinetic_parameter_chemical_substance"
+ ]
+}

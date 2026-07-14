@@ -1,0 +1,5 @@
+id,issue_date,appeal_deadline_days,appeal_address,appeal_fax,appeal_email,status,bowler_id,tournament_rule_id,tournament_id
+1,2023-02-01,36,integrated-appeal-70,baseline-appeal-13,pilot-appeal-56,pending_appeal,100,100,100
+2,2024-07-12,40,seasonal-appeal-71,pilot-appeal-14,extended-appeal-57,appeal_received,101,101,101
+3,2025-12-23,44,regional-appeal-72,extended-appeal-15,integrated-appeal-58,appeal_denied,102,102,102
+4,2022-05-07,48,legacy-appeal-73,integrated-appeal-16,seasonal-appeal-59,appeal_granted,103,103,103

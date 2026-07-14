@@ -1,0 +1,5 @@
+incident_id,incident_type,severity_level,reported_date,is_resolved,resulting_action,network_account_id,network_administrator_admin_id,acceptable_use_policy_id
+1336174,vandalism,29,2025-04-27T03:09:00,false,warning,1,2986232,1000
+state_uk_4,security_risk,40,2022-09-11T10:26:00,true,suspension,2,9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,1001
+2933483,unauthorized_access,51,2023-02-22T17:43:00,false,revocation,3,859ac854-9bad-11eb-a8a2-19ed5c03f8d3,1002
+2986243,policy_violation,62,2024-07-06T00:00:00,true,no_action,4,57e4c59a-8fcd-11eb-924d-9cd76263cbd0,1003

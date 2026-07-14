@@ -1,0 +1,5 @@
+id,employee_id,first_name,last_name,hire_date,termination_date,employment_status,position_id,supervises_employee_id,department_id
+1,Norma Fisher,Stephanie Collins,Paul Allen,2023-06-01,2022-09-11,active,1,1,1
+2,Tasha Rodriguez,Janice Johnston,Heather Beasley,2024-11-12,2023-02-22,terminated,2,2,2
+3,Theodore Mcgrath,Upal Saha,Audrey Taylor,2025-04-23,2024-07-06,on_leave,3,3,3
+4,Peter Mcdowell,Katherine Snyder,Susan Wagner,2022-09-07,2025-12-17,active,4,4,4

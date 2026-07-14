@@ -1,0 +1,5 @@
+id,youth_identifier,date_of_birth,current_status,jurisdiction_code,health_care_summary_format_code,transfer_event_id,release_event_id
+1000,YOU-2285,2025-04-02,in_custody,5917299,gd_taxp_3,1,100
+1001,YOU-2286,2022-09-13,transferred,id_25,9736899,2,101
+1002,YOU-2287,2023-02-24,released,7731856,2002007020260,3,102
+1003,YOU-2288,2024-07-08,in_custody,7c692762-8fcd-11eb-924d-9cd76263cbd0,255,4,103

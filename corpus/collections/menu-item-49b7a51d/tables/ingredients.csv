@@ -1,0 +1,5 @@
+ingredient_id,name,type,is_allergen,is_seasonal,menu_item_id,method_id
+1,Extended Review,Protein,false,false,MEN-2563,209228
+2,Pilot Initiative A,Dairy,true,true,MEN-2569,7441161
+3,Baseline Model,Grain,false,false,MEN-2575,89447
+4,Distributed Cluster,Vegetable,true,true,MEN-2581,4180941

@@ -1,0 +1,149 @@
+{
+ "construct_id": "fc8fadd244690479",
+ "slug": "bowler-fc8fadd2",
+ "passage": "fc8fadd244690479c493fca78da16411286cb47ec533df9db758350b1a3b0103.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "Bowler",
+  "Tournament",
+  "TournamentRule",
+  "DisqualificationLetter",
+  "Prize",
+  "Appeal"
+ ],
+ "terms": [
+  {
+   "name": "Bowler",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Tournament",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TournamentRule",
+   "genus": "bfo:0000031"
+  },
+  {
+   "name": "DisqualificationLetter",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Prize",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Appeal",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "bowlers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "book_id",
+    "full_name",
+    "declared_average",
+    "verified_average",
+    "residential_address",
+    "tournament_id",
+    "disqualification_letter_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "tournaments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tournament_name",
+    "location",
+    "manager_name",
+    "manager_address",
+    "tournament_rule_id",
+    "prize_id",
+    "bowler_id"
+   ]
+  },
+  {
+   "name": "tournament_rules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rule_code",
+    "rule_description",
+    "issuing_body",
+    "bowler_id",
+    "tournament_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "disqualification_letters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "issue_date",
+    "appeal_deadline_days",
+    "appeal_address",
+    "appeal_fax",
+    "appeal_email",
+    "status",
+    "bowler_id",
+    "tournament_rule_id",
+    "tournament_id"
+   ]
+  },
+  {
+   "name": "prizes",
+   "rows": 4,
+   "columns": [
+    "prize_id",
+    "prize_type",
+    "prize_value",
+    "eligibility_status",
+    "bowler_id",
+    "tournament_id"
+   ]
+  },
+  {
+   "name": "appeals",
+   "rows": 4,
+   "columns": [
+    "appeal_id",
+    "submission_date",
+    "postmark_date",
+    "is_written",
+    "outcome",
+    "disqualification_letter_id",
+    "bowler_id",
+    "tournament_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_bowler_tournament",
+  "v_bowler_disqualification_letter",
+  "v_tournament_tournament_rule",
+  "v_tournament_prize",
+  "v_tournament_bowler",
+  "v_tournament_rule_bowler",
+  "v_tournament_rule_tournament",
+  "v_disqualification_letter_bowler",
+  "v_disqualification_letter_tournament_rule",
+  "v_disqualification_letter_tournament",
+  "v_prize_bowler",
+  "v_prize_tournament",
+  "v_appeal_disqualification_letter",
+  "v_appeal_bowler",
+  "v_appeal_tournament"
+ ]
+}

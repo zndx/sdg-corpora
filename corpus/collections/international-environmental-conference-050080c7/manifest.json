@@ -1,0 +1,196 @@
+{
+ "construct_id": "050080c7c223a6f1",
+ "slug": "international-environmental-conference-050080c7",
+ "passage": "050080c7c223a6f1fb61359e66ad6423dc2ff69cef39c9c53bfc64b0670c41f8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "InternationalEnvironmentalConference",
+  "EnvironmentalDeclaration",
+  "ActionPlan",
+  "InternationalEnvironmentalInstitution",
+  "MultilateralEnvironmentalAgreement",
+  "EnvironmentalPolicyInstrument",
+  "State",
+  "FinancialAssistance"
+ ],
+ "terms": [
+  {
+   "name": "InternationalEnvironmentalConference",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnvironmentalDeclaration",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ActionPlan",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "InternationalEnvironmentalInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MultilateralEnvironmentalAgreement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EnvironmentalPolicyInstrument",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "State",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "FinancialAssistance",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "international_environmental_conferences",
+   "rows": 4,
+   "columns": [
+    "id",
+    "conference_id",
+    "start_date",
+    "end_date",
+    "host_city",
+    "host_country",
+    "declaration_title",
+    "action_plan_title",
+    "total_recommendations",
+    "has_n_g_o_forum",
+    "environmental_declaration_id",
+    "action_plan_id",
+    "international_environmental_institution_id",
+    "international_environmental_conference_id"
+   ]
+  },
+  {
+   "name": "environmental_declarations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "declaration_id",
+    "title",
+    "adoption_date",
+    "total_principles",
+    "issuing_conference",
+    "international_environmental_conference_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "action_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_id",
+    "title",
+    "total_recommendations",
+    "adoption_date",
+    "international_environmental_conference_id"
+   ]
+  },
+  {
+   "name": "international_environmental_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "name",
+    "headquarters_city",
+    "headquarters_country",
+    "establishment_date",
+    "status",
+    "international_environmental_conference_id",
+    "multilateral_environmental_agreement_id"
+   ]
+  },
+  {
+   "name": "multilateral_environmental_agreements",
+   "rows": 4,
+   "columns": [
+    "multilateral_environmental_agreement_id",
+    "agreement_id",
+    "title",
+    "entry_into_force_date",
+    "status",
+    "scope",
+    "environmental_declaration_id",
+    "international_environmental_institution_id"
+   ]
+  },
+  {
+   "name": "environmental_policy_instruments",
+   "rows": 4,
+   "columns": [
+    "instrument_id",
+    "name",
+    "type",
+    "implementation_date",
+    "target_sector",
+    "multilateral_environmental_agreement_id",
+    "state_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "states",
+   "rows": 4,
+   "columns": [
+    "id",
+    "state_code",
+    "name",
+    "development_status",
+    "primary_environmental_concern",
+    "instrument_id",
+    "multilateral_environmental_agreement_id",
+    "financial_assistance_id"
+   ]
+  },
+  {
+   "name": "financial_assistances",
+   "rows": 4,
+   "columns": [
+    "financial_assistance_id",
+    "assistance_id",
+    "amount",
+    "currency",
+    "disbursement_date",
+    "purpose",
+    "state_id",
+    "received_by_state_id",
+    "instrument_id"
+   ]
+  }
+ ],
+ "views": [
+  "international_environmental_conference_environmental_declaration_view",
+  "international_environmental_conference_action_plan_view",
+  "international_environmental_conference_international_environmental_institution_view",
+  "international_environmental_conference_international_environmental_conference_view",
+  "environmental_declaration_international_environmental_conference_view",
+  "action_plan_international_environmental_conference_view",
+  "international_environmental_institution_international_environmental_conference_view",
+  "international_environmental_institution_multilateral_environmental_agreement_view",
+  "multilateral_environmental_agreement_environmental_declaration_view",
+  "multilateral_environmental_agreement_international_environmental_institution_view",
+  "environmental_policy_instrument_multilateral_environmental_agreement_view",
+  "environmental_policy_instrument_state_view",
+  "state_environmental_policy_instrument_view",
+  "state_multilateral_environmental_agreement_view",
+  "state_financial_assistance_view",
+  "financial_assistance_state_view",
+  "financial_assistance_environmental_policy_instrument_view"
+ ]
+}

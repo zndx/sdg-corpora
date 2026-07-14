@@ -1,0 +1,5 @@
+facility_id,facility_name,facility_address,facility_type,construction_year,roof_completion_date,facility_status,community_organization_id,water_harvesting_system_id,municipality_id,created_at
+1000,Integrated Protocol A,legacy-facility-91,legacy-facility-73,14,2023-06-17,active,1000,100,1000,2025-01-01 00:14:00
+1001,Extended Programme,compact-facility-92,compact-facility-74,21,2024-11-01,inactive,1001,101,1001,2025-02-06 03:14:00
+1002,Pilot Standard,composite-facility-93,composite-facility-75,28,2025-04-12,under_construction,1002,102,1002,2025-03-11 06:14:00
+1003,Baseline Framework D,primary-facility-94,primary-facility-76,35,2022-09-23,active,1003,103,1003,2025-04-16 09:14:00

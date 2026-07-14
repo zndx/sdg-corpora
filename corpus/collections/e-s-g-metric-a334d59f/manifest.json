@@ -1,0 +1,245 @@
+{
+ "construct_id": "a334d59fe76e934f",
+ "slug": "e-s-g-metric-a334d59f",
+ "passage": "a334d59fe76e934f0277de3c17bca8f00b38c1492bf7c17276b2356beecbbe15.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 18,
+ "n_views": 19,
+ "entities": [
+  "ESG_Metric",
+  "ESG_Report",
+  "ESG_Advisor",
+  "Executive_Leader",
+  "ESG_Strategy",
+  "ESG_Standard"
+ ],
+ "terms": [
+  {
+   "name": "ESG_Metric",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ESG_Report",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ESG_Advisor",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Executive_Leader",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ESG_Strategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ESG_Standard",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "e_s_g_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_id",
+    "metric_name",
+    "category",
+    "standard",
+    "unit_of_measure",
+    "is_material",
+    "report_id",
+    "e_s_g_advisor_id"
+   ]
+  },
+  {
+   "name": "e_s_g_reports",
+   "rows": 4,
+   "columns": [
+    "report_id",
+    "report_title",
+    "publication_date",
+    "reporting_period_start",
+    "reporting_period_end",
+    "status",
+    "sector_classification",
+    "e_s_g_advisor_id",
+    "executive_leader_id"
+   ]
+  },
+  {
+   "name": "e_s_g_advisors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "job_title",
+    "department",
+    "salary_min",
+    "salary_max",
+    "contract_type",
+    "start_date",
+    "executive_leader_id"
+   ]
+  },
+  {
+   "name": "executive_leaders",
+   "rows": 4,
+   "columns": [
+    "executive_leader_id",
+    "employee_id",
+    "job_title",
+    "department",
+    "has_dotted_line_to"
+   ]
+  },
+  {
+   "name": "e_s_g_strategies",
+   "rows": 4,
+   "columns": [
+    "strategy_id",
+    "strategy_name",
+    "status",
+    "target_completion_date",
+    "scope",
+    "e_s_g_advisor_id",
+    "executive_leader_id"
+   ]
+  },
+  {
+   "name": "e_s_g_standards",
+   "rows": 4,
+   "columns": [
+    "e_s_g_standard_id",
+    "standard_id",
+    "standard_name",
+    "issuing_body",
+    "effective_date",
+    "jurisdiction"
+   ]
+  },
+  {
+   "name": "reports_metrics",
+   "rows": 8,
+   "columns": [
+    "report_id",
+    "e_s_g_metric_id"
+   ]
+  },
+  {
+   "name": "advisors_metrics",
+   "rows": 8,
+   "columns": [
+    "e_s_g_advisor_id",
+    "e_s_g_metric_id"
+   ]
+  },
+  {
+   "name": "advisors_reports",
+   "rows": 8,
+   "columns": [
+    "e_s_g_advisor_id",
+    "report_id"
+   ]
+  },
+  {
+   "name": "advisors_standards",
+   "rows": 8,
+   "columns": [
+    "e_s_g_advisor_id",
+    "e_s_g_standard_id"
+   ]
+  },
+  {
+   "name": "leaders_advisors",
+   "rows": 8,
+   "columns": [
+    "executive_leader_id",
+    "e_s_g_advisor_id"
+   ]
+  },
+  {
+   "name": "leaders_reports",
+   "rows": 8,
+   "columns": [
+    "executive_leader_id",
+    "report_id"
+   ]
+  },
+  {
+   "name": "leaders_strategies",
+   "rows": 8,
+   "columns": [
+    "executive_leader_id",
+    "strategy_id"
+   ]
+  },
+  {
+   "name": "strategies_metrics",
+   "rows": 8,
+   "columns": [
+    "strategy_id",
+    "e_s_g_metric_id"
+   ]
+  },
+  {
+   "name": "strategies_reports",
+   "rows": 8,
+   "columns": [
+    "strategy_id",
+    "report_id"
+   ]
+  },
+  {
+   "name": "standards_metrics",
+   "rows": 8,
+   "columns": [
+    "e_s_g_standard_id",
+    "e_s_g_metric_id"
+   ]
+  },
+  {
+   "name": "standards_advisors",
+   "rows": 8,
+   "columns": [
+    "e_s_g_standard_id",
+    "e_s_g_advisor_id"
+   ]
+  },
+  {
+   "name": "standards_reports",
+   "rows": 8,
+   "columns": [
+    "e_s_g_standard_id",
+    "report_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_e_s_g_metric_e_s_g_report",
+  "vw_e_s_g_metric_e_s_g_advisor",
+  "vw_e_s_g_report_e_s_g_metric_detail",
+  "vw_e_s_g_report_e_s_g_advisor",
+  "vw_e_s_g_report_executive_leader",
+  "vw_e_s_g_advisor_executive_leader",
+  "vw_e_s_g_advisor_e_s_g_metric_detail",
+  "vw_e_s_g_advisor_e_s_g_report_detail",
+  "vw_e_s_g_advisor_e_s_g_standard_detail",
+  "vw_executive_leader_e_s_g_advisor_detail",
+  "vw_executive_leader_e_s_g_report_detail",
+  "vw_executive_leader_e_s_g_strategy_detail",
+  "vw_e_s_g_strategy_e_s_g_metric_detail",
+  "vw_e_s_g_strategy_e_s_g_advisor",
+  "vw_e_s_g_strategy_executive_leader",
+  "vw_e_s_g_strategy_e_s_g_report_detail",
+  "vw_e_s_g_standard_e_s_g_metric_detail",
+  "vw_e_s_g_standard_e_s_g_advisor_detail",
+  "vw_e_s_g_standard_e_s_g_report_detail"
+ ]
+}

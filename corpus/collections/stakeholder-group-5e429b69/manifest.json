@@ -1,0 +1,190 @@
+{
+ "construct_id": "5e429b690eff4b34",
+ "slug": "stakeholder-group-5e429b69",
+ "passage": "5e429b690eff4b34685a45a1bafa5fdca7388099d4cc812dd799c6ddcfd4458f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 11,
+ "entities": [
+  "StakeholderGroup",
+  "StakeholderNeed",
+  "ITGovernanceProcess",
+  "HigherEducationInstitution",
+  "ReformInitiative",
+  "ITSubProject"
+ ],
+ "terms": [
+  {
+   "name": "StakeholderGroup",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StakeholderNeed",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "ITGovernanceProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HigherEducationInstitution",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ReformInitiative",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ITSubProject",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "StakeholderGroup",
+   "rows": 4,
+   "columns": [
+    "groupId",
+    "identifier",
+    "groupName",
+    "description",
+    "priorityLevel",
+    "influenceScore"
+   ]
+  },
+  {
+   "name": "StakeholderNeed",
+   "rows": 4,
+   "columns": [
+    "id",
+    "needId",
+    "needDescription",
+    "urgencyLevel",
+    "satisfactionStatus",
+    "lastAssessedDate",
+    "processId"
+   ]
+  },
+  {
+   "name": "ITGovernanceProcess",
+   "rows": 4,
+   "columns": [
+    "id",
+    "processId",
+    "processName",
+    "framework",
+    "maturityLevel",
+    "lastAuditDate",
+    "complianceStatus",
+    "institutionId"
+   ]
+  },
+  {
+   "name": "HigherEducationInstitution",
+   "rows": 4,
+   "columns": [
+    "institutionId",
+    "institutionName",
+    "locationCity",
+    "establishmentYear",
+    "fundingSource",
+    "governanceStatus"
+   ]
+  },
+  {
+   "name": "ReformInitiative",
+   "rows": 4,
+   "columns": [
+    "id",
+    "initiativeId",
+    "initiativeName",
+    "startDate",
+    "endDate",
+    "budgetAmount",
+    "fundingAgency",
+    "completionStatus",
+    "projectId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "ITSubProject",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subProjectId",
+    "subProjectName",
+    "budgetAllocation",
+    "implementationPhase",
+    "technologyStack",
+    "successMetric",
+    "initiativeId",
+    "processId"
+   ]
+  },
+  {
+   "name": "StakeholderGroupStakeholderNeed",
+   "rows": 8,
+   "columns": [
+    "groupId",
+    "needId"
+   ]
+  },
+  {
+   "name": "StakeholderNeedStakeholderGroup",
+   "rows": 8,
+   "columns": [
+    "needId",
+    "groupId"
+   ]
+  },
+  {
+   "name": "ITGovernanceProcessStakeholderNeed",
+   "rows": 8,
+   "columns": [
+    "processId",
+    "needId"
+   ]
+  },
+  {
+   "name": "HigherEducationInstitutionITGovernanceProcess",
+   "rows": 8,
+   "columns": [
+    "institutionId",
+    "processId"
+   ]
+  },
+  {
+   "name": "HigherEducationInstitutionStakeholderGroup",
+   "rows": 8,
+   "columns": [
+    "institutionId",
+    "groupId"
+   ]
+  },
+  {
+   "name": "ReformInitiativeHigherEducationInstitution",
+   "rows": 8,
+   "columns": [
+    "initiativeId",
+    "institutionId"
+   ]
+  }
+ ],
+ "views": [
+  "v_stakeholder_group_stakeholder_need_detail",
+  "v_stakeholder_need_stakeholder_group_detail",
+  "v_stakeholder_need_i_t_governance_process",
+  "v_i_t_governance_process_stakeholder_need_detail",
+  "v_i_t_governance_process_higher_education_institution",
+  "v_higher_education_institution_i_t_governance_process_detail",
+  "v_higher_education_institution_stakeholder_group_detail",
+  "v_reform_initiative_higher_education_institution_detail",
+  "v_reform_initiative_i_t_sub_project",
+  "v_i_t_sub_project_reform_initiative",
+  "v_i_t_sub_project_i_t_governance_process"
+ ]
+}

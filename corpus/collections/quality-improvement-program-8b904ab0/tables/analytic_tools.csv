@@ -1,0 +1,5 @@
+analytic_tool_id,tool_id,tool_name,tool_type,version,last_updated,validation_status,healthcare_professional_id,quality_improvement_program_id
+1000,comi,Composite Model,statistical_package,seasonal-version-71,2023-06-17T17:27:00,validated,100,1
+1001,195360,Compact Cluster A,dashboard,regional-version-72,2024-11-01T00:44:00,pilot,101,2
+1002,3355763,Legacy Review,machine_learning_model,legacy-version-73,2025-04-12T07:01:00,unvalidated,102,3
+1003,8387539,Regional Initiative,spreadsheet,compact-version-74,2022-09-23T14:18:00,validated,103,4

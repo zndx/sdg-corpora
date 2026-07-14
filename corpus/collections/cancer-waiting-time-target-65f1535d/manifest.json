@@ -1,0 +1,122 @@
+{
+ "construct_id": "65f1535d82ea1159",
+ "slug": "cancer-waiting-time-target-65f1535d",
+ "passage": "65f1535d82ea115974a63759d872defa900ff6874f678131e70504f91a33df20.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 9,
+ "entities": [
+  "CancerWaitingTimeTarget",
+  "CancerType",
+  "NHSBoard",
+  "PatientCohort",
+  "StatisticalReport"
+ ],
+ "terms": [
+  {
+   "name": "CancerWaitingTimeTarget",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CancerType",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NHSBoard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PatientCohort",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StatisticalReport",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CancerWaitingTimeTarget",
+   "rows": 4,
+   "columns": [
+    "targetId",
+    "targetIdentifier",
+    "effectiveDate",
+    "tolerancePercentage",
+    "targetStatus",
+    "applicablePatientAgeMinimum",
+    "typeId",
+    "boardId"
+   ]
+  },
+  {
+   "name": "CancerType",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cancerTypeName",
+    "icd10Code",
+    "isPrimaryCancer",
+    "targetId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "NHSBoard",
+   "rows": 4,
+   "columns": [
+    "id",
+    "boardName",
+    "isMainland",
+    "regionCode",
+    "targetId"
+   ]
+  },
+  {
+   "name": "PatientCohort",
+   "rows": 4,
+   "columns": [
+    "cohortId",
+    "cohortIdentifier",
+    "diagnosisDateRangeStart",
+    "diagnosisDateRangeEnd",
+    "totalEligiblePatients",
+    "patientsTreatedWithinTarget",
+    "compliancePercentage",
+    "typeId",
+    "boardId",
+    "targetId"
+   ]
+  },
+  {
+   "name": "StatisticalReport",
+   "rows": 4,
+   "columns": [
+    "reportId",
+    "reportTitle",
+    "publicationDate",
+    "reportingPeriodStart",
+    "reportingPeriodEnd",
+    "statisticsClassification",
+    "publisherName",
+    "cohortId",
+    "boardId"
+   ]
+  }
+ ],
+ "views": [
+  "v_cancer_waiting_time_target_cancer_type",
+  "v_cancer_waiting_time_target_n_h_s_board",
+  "v_cancer_type_cancer_waiting_time_target",
+  "v_n_h_s_board_cancer_waiting_time_target",
+  "v_patient_cohort_cancer_type",
+  "v_patient_cohort_n_h_s_board",
+  "v_patient_cohort_cancer_waiting_time_target",
+  "v_statistical_report_patient_cohort",
+  "v_statistical_report_n_h_s_board"
+ ]
+}

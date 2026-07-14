@@ -1,0 +1,5 @@
+id,result_id,amyloid_status,interpretation_text,result_date,clinical_impact,imaging_procedure_id,enrollment_id
+1000,338524,Positive,composite-interpre-39,2022-05-20T16:12:00,Excludes Alzheimer's,1,4447035
+1001,1562853,Negative,primary-interpre-40,2023-10-04T23:29:00,Confirms Alzheimer's,2,gd_taxc_2121
+1002,5844284,Indeterminate,adaptive-interpre-41,2024-03-15T06:46:00,Guides Management,3,id_30
+1003,6020,Positive,distributed-interpre-42,2025-08-26T13:03:00,Excludes Alzheimer's,4,b_VB-EC-0

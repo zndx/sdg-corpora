@@ -1,0 +1,5 @@
+breakfast_service_id,service_id,name,start_time,end_time,status,is_buffet_style,guest_reservation_id
+1000,1996925,Extended Review,2024-03-27T14:42:00,2023-02-26T13:27:00,scheduled,false,1000
+1001,3990164,Pilot Initiative A,2025-08-11T21:59:00,2024-07-10T20:44:00,active,true,1001
+1002,5844258,Baseline Model,2022-01-22T04:16:00,2025-12-21T03:01:00,completed,false,1002
+1003,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Distributed Cluster,2023-06-06T11:33:00,2022-05-05T10:18:00,cancelled,true,1003

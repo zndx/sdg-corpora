@@ -1,0 +1,5 @@
+id,categoryName,requiresMedicalLicense,requiresBoardCertification,requiresFellowshipTraining,requiresPeerRecommendations,requiresPublications,charterId
+1,Charter Member,true,true,true,35,43,1
+2,Member,false,false,false,38,49,2
+3,Associate Member,true,true,true,41,55,3
+4,Member Emeritus,false,false,false,44,61,4

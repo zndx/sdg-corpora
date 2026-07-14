@@ -1,0 +1,5 @@
+service_domain_id,domain_name,target_population,service_type,is_holistic,inspection_report_id
+100,Regional Protocol,composite-target-21,personal,true,1000
+101,Seasonal Programme D,primary-target-22,childcare,false,1001
+102,Integrated Standard,adaptive-target-23,multi-purpose,true,1002
+103,Extended Framework,distributed-target-24,specialized,false,1003

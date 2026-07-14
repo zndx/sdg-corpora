@@ -1,0 +1,5 @@
+shipment_id,shipment_date,volume_tonnes,commodity_type,origin_country,destination_country,geographic_region_id,destined_for_geographic_region_id
+10782183,2023-10-02,18.45,legacy-commodit-13,compact-origin-14,seasonal-destinat-29,1000,1000
+39800616,2024-03-13,20.90,compact-commodit-14,composite-origin-15,regional-destinat-30,1001,1001
+2087737,2025-08-24,23.35,composite-commodit-15,primary-origin-16,legacy-destinat-31,1002,1002
+69441,2022-01-08,25.80,primary-commodit-16,adaptive-origin-17,compact-destinat-32,1003,1003

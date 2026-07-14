@@ -1,0 +1,193 @@
+{
+ "construct_id": "6214077324d1b048",
+ "slug": "campus-building-62140773",
+ "passage": "6214077324d1b04814c23b898e2955338cb3f554aed6317cd00f22b83cda9ea1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "CampusBuilding",
+  "AcademicDepartment",
+  "CampusEvent",
+  "StudentOrganization",
+  "CampusArea",
+  "Statue",
+  "HistoricalFigure",
+  "Charity"
+ ],
+ "terms": [
+  {
+   "name": "CampusBuilding",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CampusEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CampusArea",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Statue",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HistoricalFigure",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Charity",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "campus_buildings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "building_id",
+    "building_name",
+    "year_built",
+    "building_type",
+    "has_fiber_optic_cable",
+    "number_of_floors",
+    "academic_department_id",
+    "campus_area_id"
+   ]
+  },
+  {
+   "name": "academic_departments",
+   "rows": 4,
+   "columns": [
+    "academic_department_id",
+    "department_id",
+    "department_name",
+    "parent_university",
+    "has_museum",
+    "offers_graduate_program",
+    "number_of_students",
+    "campus_building_id",
+    "campus_event_id"
+   ]
+  },
+  {
+   "name": "campus_events",
+   "rows": 4,
+   "columns": [
+    "campus_event_id",
+    "event_id",
+    "event_name",
+    "event_date",
+    "event_location",
+    "is_annual",
+    "charity_beneficiary",
+    "campus_area_id",
+    "student_organization_id",
+    "charity_id"
+   ]
+  },
+  {
+   "name": "student_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "is_philanthropic",
+    "founding_year",
+    "campus_event_id",
+    "academic_department_id"
+   ]
+  },
+  {
+   "name": "campus_areas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "area_id",
+    "area_name",
+    "area_type",
+    "is_wireless_enabled",
+    "area_description",
+    "campus_building_id",
+    "statue_id",
+    "campus_area_id"
+   ]
+  },
+  {
+   "name": "statues",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statue_id",
+    "statue_name",
+    "dedicated_person",
+    "gift_from",
+    "dedication_year",
+    "is_decorated_by_students",
+    "campus_area_id",
+    "historical_figure_id"
+   ]
+  },
+  {
+   "name": "historical_figures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "figure_id",
+    "full_name",
+    "birth_year",
+    "death_year",
+    "founded_institution",
+    "enrollment_date",
+    "statue_id"
+   ]
+  },
+  {
+   "name": "charities",
+   "rows": 4,
+   "columns": [
+    "charity_id",
+    "charity_name",
+    "target_beneficiaries",
+    "location",
+    "is_local",
+    "campus_event_id",
+    "student_organization_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_campus_building_academic_department",
+  "v_campus_building_campus_area",
+  "v_academic_department_campus_building",
+  "v_academic_department_campus_event",
+  "v_campus_event_campus_area",
+  "v_campus_event_student_organization",
+  "v_campus_event_charity",
+  "v_student_organization_campus_event",
+  "v_student_organization_academic_department",
+  "v_campus_area_campus_building",
+  "v_campus_area_statue",
+  "v_campus_area_campus_area",
+  "v_statue_campus_area",
+  "v_statue_historical_figure",
+  "v_historical_figure_statue",
+  "v_charity_campus_event",
+  "v_charity_student_organization"
+ ]
+}

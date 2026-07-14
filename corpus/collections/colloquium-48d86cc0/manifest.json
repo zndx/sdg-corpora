@@ -1,0 +1,207 @@
+{
+ "construct_id": "48d86cc070846ce3",
+ "slug": "colloquium-48d86cc0",
+ "passage": "48d86cc070846ce3908096523c36961ca87fc1914f295983a7309b57fbf0b847.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 17,
+ "entities": [
+  "Colloquium",
+  "Speaker",
+  "Venue",
+  "Series",
+  "Abstract",
+  "Department",
+  "Institution",
+  "Degree"
+ ],
+ "terms": [
+  {
+   "name": "Colloquium",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Speaker",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Venue",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Series",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Abstract",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Department",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Institution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Degree",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "colloquiums",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "title",
+    "scheduled_date",
+    "start_time",
+    "end_time",
+    "status",
+    "registration_required",
+    "speaker_id",
+    "venue_room_number",
+    "series_id",
+    "abstract_id"
+   ]
+  },
+  {
+   "name": "speakers",
+   "rows": 4,
+   "columns": [
+    "speaker_id",
+    "identifier",
+    "full_name",
+    "highest_degree",
+    "degree_granting_institution",
+    "department",
+    "affiliation",
+    "colloquium_id",
+    "institution_id"
+   ]
+  },
+  {
+   "name": "venues",
+   "rows": 4,
+   "columns": [
+    "identifier",
+    "building_name",
+    "room_number",
+    "floor",
+    "capacity",
+    "location_type",
+    "colloquium_id"
+   ]
+  },
+  {
+   "name": "serieses",
+   "rows": 4,
+   "columns": [
+    "series_id",
+    "identifier",
+    "name",
+    "academic_term",
+    "organizing_department",
+    "frequency",
+    "department_id"
+   ]
+  },
+  {
+   "name": "abstracts",
+   "rows": 4,
+   "columns": [
+    "abstract_id",
+    "identifier",
+    "url",
+    "word_count",
+    "language",
+    "last_modified",
+    "access_level",
+    "colloquium_id",
+    "speaker_id"
+   ]
+  },
+  {
+   "name": "departments",
+   "rows": 4,
+   "columns": [
+    "department_id",
+    "identifier",
+    "name",
+    "code",
+    "parent_institution",
+    "established_date",
+    "series_id",
+    "institution_id"
+   ]
+  },
+  {
+   "name": "institutions",
+   "rows": 4,
+   "columns": [
+    "institution_id",
+    "identifier",
+    "name",
+    "type",
+    "location",
+    "founded_date",
+    "degree_id"
+   ]
+  },
+  {
+   "name": "degrees",
+   "rows": 4,
+   "columns": [
+    "degree_id",
+    "identifier",
+    "name",
+    "level",
+    "field",
+    "issuing_institution",
+    "institution_id",
+    "speaker_id"
+   ]
+  },
+  {
+   "name": "serieses_colloquiums",
+   "rows": 8,
+   "columns": [
+    "series_id",
+    "colloquium_id"
+   ]
+  },
+  {
+   "name": "institutions_departments",
+   "rows": 8,
+   "columns": [
+    "institution_id",
+    "department_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_colloquium_speaker",
+  "v_colloquium_venue",
+  "v_colloquium_series",
+  "v_colloquium_abstract",
+  "v_speaker_colloquium",
+  "v_speaker_institution",
+  "v_venue_colloquium",
+  "v_series_colloquium_detail",
+  "v_series_department",
+  "v_abstract_colloquium",
+  "v_abstract_speaker",
+  "v_department_series",
+  "v_department_institution",
+  "v_institution_department_detail",
+  "v_institution_degree",
+  "v_degree_institution",
+  "v_degree_speaker"
+ ]
+}

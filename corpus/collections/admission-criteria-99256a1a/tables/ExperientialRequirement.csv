@@ -1,0 +1,5 @@
+id,requirementId,description,minimumHours,verificationMethod,status,criteriaId
+1,778568,Extended Survey,44,letter_of_recommendation,active,100
+2,lu_tax_code_template_b_VB-EC-0,Pilot Corridor A,49,supervisor_signature,inactive,101
+3,99901,Baseline Series,54,logbook,active,102
+4,5917277,Distributed Assessment,59,letter_of_recommendation,inactive,103

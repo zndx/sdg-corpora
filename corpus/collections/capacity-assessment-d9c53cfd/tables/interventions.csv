@@ -1,0 +1,5 @@
+id,intervention_identifier,intervention_type,start_date,end_date,restrictiveness_level,status,individual_id,best_interest_determination_id,decision_context_id
+1,INT-2732,medicalTreatment,2022-09-05T20:24:00,2022-09-01T08:00:00,minimal,planned,1,1,1000
+2,INT-2733,financialTransaction,2023-02-16T03:41:00,2023-02-12T15:17:00,moderate,active,2,2,1001
+3,INT-2734,placement,2024-07-27T10:58:00,2024-07-23T22:34:00,high,completed,3,3,1002
+4,INT-2735,carePlan,2025-12-11T17:15:00,2025-12-07T05:51:00,maximum,discontinued,4,4,1003

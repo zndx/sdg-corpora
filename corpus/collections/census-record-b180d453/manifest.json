@@ -1,0 +1,208 @@
+{
+ "construct_id": "b180d4539ea855c0",
+ "slug": "census-record-b180d453",
+ "passage": "b180d4539ea855c0b17f4b779aa24fa4c1d0f8902c15ad15d271d31dff754386.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 16,
+ "entities": [
+  "CensusRecord",
+  "DemographicStatistic",
+  "PopulationGroup",
+  "HealthIndicator",
+  "HealthSurvey",
+  "GeographicRegion",
+  "EducationalEnrollment",
+  "TeacherCount"
+ ],
+ "terms": [
+  {
+   "name": "CensusRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DemographicStatistic",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PopulationGroup",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthIndicator",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HealthSurvey",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationalEnrollment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TeacherCount",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CensusRecord",
+   "rows": 4,
+   "columns": [
+    "id",
+    "censusYear",
+    "totalPopulation",
+    "region",
+    "dataStatus",
+    "recordIdentifier",
+    "regionId"
+   ]
+  },
+  {
+   "name": "DemographicStatistic",
+   "rows": 4,
+   "columns": [
+    "statisticId",
+    "statisticType",
+    "value",
+    "unit",
+    "year",
+    "region",
+    "recordId",
+    "groupId"
+   ]
+  },
+  {
+   "name": "PopulationGroup",
+   "rows": 4,
+   "columns": [
+    "id",
+    "groupName",
+    "ageRangeStart",
+    "ageRangeEnd",
+    "totalCount",
+    "percentageOfTotal",
+    "regionId",
+    "indicatorId"
+   ]
+  },
+  {
+   "name": "HealthIndicator",
+   "rows": 4,
+   "columns": [
+    "id",
+    "indicatorName",
+    "percentage",
+    "year",
+    "region",
+    "dataSource",
+    "groupId",
+    "surveyId"
+   ]
+  },
+  {
+   "name": "HealthSurvey",
+   "rows": 4,
+   "columns": [
+    "id",
+    "surveyName",
+    "surveyYear",
+    "issuingBody",
+    "sampleSize",
+    "status",
+    "regionId"
+   ]
+  },
+  {
+   "name": "GeographicRegion",
+   "rows": 4,
+   "columns": [
+    "id",
+    "regionName",
+    "regionCode",
+    "populationDensity",
+    "areaSqKm",
+    "administrativeLevel",
+    "surveyId"
+   ]
+  },
+  {
+   "name": "EducationalEnrollment",
+   "rows": 4,
+   "columns": [
+    "enrollmentId",
+    "academicYear",
+    "totalStudents",
+    "femalePercentage",
+    "region",
+    "schoolStage",
+    "regionId",
+    "countId"
+   ]
+  },
+  {
+   "name": "TeacherCount",
+   "rows": 4,
+   "columns": [
+    "countId",
+    "academicYear",
+    "totalTeachers",
+    "malePercentage",
+    "femalePercentage",
+    "region",
+    "regionId",
+    "enrollmentId"
+   ]
+  },
+  {
+   "name": "CensusRecordDemographicStatistic",
+   "rows": 8,
+   "columns": [
+    "recordId",
+    "statisticId"
+   ]
+  },
+  {
+   "name": "HealthSurveyHealthIndicator",
+   "rows": 8,
+   "columns": [
+    "surveyId",
+    "indicatorId"
+   ]
+  },
+  {
+   "name": "GeographicRegionPopulationGroup",
+   "rows": 8,
+   "columns": [
+    "regionId",
+    "groupId"
+   ]
+  }
+ ],
+ "views": [
+  "v_census_record_geographic_region",
+  "v_census_record_demographic_statistic_detail",
+  "v_demographic_statistic_census_record",
+  "v_demographic_statistic_population_group",
+  "v_population_group_geographic_region",
+  "v_population_group_health_indicator",
+  "v_health_indicator_population_group",
+  "v_health_indicator_health_survey",
+  "v_health_survey_geographic_region",
+  "v_health_survey_health_indicator_detail",
+  "v_geographic_region_population_group_detail",
+  "v_geographic_region_health_survey",
+  "v_educational_enrollment_geographic_region",
+  "v_educational_enrollment_teacher_count",
+  "v_teacher_count_geographic_region",
+  "v_teacher_count_educational_enrollment"
+ ]
+}

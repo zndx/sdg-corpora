@@ -1,0 +1,212 @@
+{
+ "construct_id": "b481cd0c994a9670",
+ "slug": "pastoral-territory-b481cd0c",
+ "passage": "b481cd0c994a9670a0a69d3f9ba1731cff6dadece319a724a49cc796e0a1bf00.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 14,
+ "entities": [
+  "PastoralTerritory",
+  "WaterSource",
+  "PastoralCommunity",
+  "HydrologicalEvent",
+  "GeographicRegion"
+ ],
+ "terms": [
+  {
+   "name": "PastoralTerritory",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "WaterSource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PastoralCommunity",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HydrologicalEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "pastoral_territories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "territory_identifier",
+    "territory_name",
+    "primary_ethnic_group",
+    "area_hectares",
+    "establishment_date",
+    "current_status",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "water_sources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "source_identifier",
+    "source_name",
+    "source_type",
+    "depth_meters",
+    "flow_rate_liters_per_second",
+    "water_quality_index",
+    "discovery_date",
+    "is_modern_invention",
+    "pastoral_territory_id"
+   ]
+  },
+  {
+   "name": "pastoral_communities",
+   "rows": 4,
+   "columns": [
+    "pastoral_community_id",
+    "community_identifier",
+    "community_name",
+    "population_size",
+    "primary_livelihood",
+    "herd_size",
+    "decimation_event",
+    "adaptation_strategy",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "hydrological_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "event_type",
+    "start_date",
+    "end_date",
+    "severity_index",
+    "affected_area_hectares",
+    "caused_herd_decimation",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "geographic_region_id",
+    "region_identifier",
+    "region_name",
+    "region_type",
+    "area_hectares",
+    "average_annual_rainfall",
+    "climate_classification",
+    "elevation_meters"
+   ]
+  },
+  {
+   "name": "territories_sources",
+   "rows": 8,
+   "columns": [
+    "pastoral_territory_id",
+    "water_source_id"
+   ]
+  },
+  {
+   "name": "territories_communities",
+   "rows": 8,
+   "columns": [
+    "pastoral_territory_id",
+    "pastoral_community_id"
+   ]
+  },
+  {
+   "name": "sources_communities",
+   "rows": 8,
+   "columns": [
+    "water_source_id",
+    "pastoral_community_id"
+   ]
+  },
+  {
+   "name": "communities_territories",
+   "rows": 8,
+   "columns": [
+    "pastoral_community_id",
+    "pastoral_territory_id"
+   ]
+  },
+  {
+   "name": "communities_sources",
+   "rows": 8,
+   "columns": [
+    "pastoral_community_id",
+    "water_source_id"
+   ]
+  },
+  {
+   "name": "events_communities",
+   "rows": 8,
+   "columns": [
+    "hydrological_event_id",
+    "pastoral_community_id"
+   ]
+  },
+  {
+   "name": "events_sources",
+   "rows": 8,
+   "columns": [
+    "hydrological_event_id",
+    "water_source_id"
+   ]
+  },
+  {
+   "name": "regions_territories",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "pastoral_territory_id"
+   ]
+  },
+  {
+   "name": "regions_sources",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "water_source_id"
+   ]
+  },
+  {
+   "name": "regions_communities",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "pastoral_community_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_pastoral_territory_water_source_detail",
+  "vw_pastoral_territory_pastoral_community_detail",
+  "vw_pastoral_territory_geographic_region",
+  "vw_water_source_pastoral_territory",
+  "vw_water_source_pastoral_community_detail",
+  "vw_pastoral_community_pastoral_territory_detail",
+  "vw_pastoral_community_water_source_detail",
+  "vw_pastoral_community_geographic_region",
+  "vw_hydrological_event_pastoral_community_detail",
+  "vw_hydrological_event_water_source_detail",
+  "vw_hydrological_event_geographic_region",
+  "vw_geographic_region_pastoral_territory_detail",
+  "vw_geographic_region_water_source_detail",
+  "vw_geographic_region_pastoral_community_detail"
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "construct_id": "b161680617524165",
+ "slug": "zone-b1616806",
+ "passage": "b1616806175241651059249ad62c797401eb7d61cac212b9e57ec100faeded51.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 19,
+ "entities": [
+  "Zone",
+  "Obstacle",
+  "ParkingSpace",
+  "TangentCircle",
+  "StraightLineSegment",
+  "PlannedRoute",
+  "ArcSection",
+  "Waypoint"
+ ],
+ "terms": [
+  {
+   "name": "Zone",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Obstacle",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ParkingSpace",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TangentCircle",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StraightLineSegment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PlannedRoute",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ArcSection",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Waypoint",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "zones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "zone_id",
+    "length",
+    "width",
+    "surface_type",
+    "is_cul_de_sac",
+    "waypoint_id",
+    "has_exit_point_waypoint_id"
+   ]
+  },
+  {
+   "name": "obstacles",
+   "rows": 4,
+   "columns": [
+    "obstacle_id",
+    "obstacle_type",
+    "position_x",
+    "position_y",
+    "is_static",
+    "zone_id"
+   ]
+  },
+  {
+   "name": "parking_spaces",
+   "rows": 4,
+   "columns": [
+    "id",
+    "space_id",
+    "length",
+    "width",
+    "is_occupied",
+    "zone_id"
+   ]
+  },
+  {
+   "name": "tangent_circles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "circle_id",
+    "radius",
+    "center_x",
+    "center_y",
+    "obstacle_id"
+   ]
+  },
+  {
+   "name": "straight_line_segments",
+   "rows": 4,
+   "columns": [
+    "segment_id",
+    "length",
+    "start_tangent_point_x",
+    "start_tangent_point_y",
+    "end_tangent_point_x",
+    "end_tangent_point_y",
+    "tangent_circle_id",
+    "planned_route_id"
+   ]
+  },
+  {
+   "name": "planned_routes",
+   "rows": 4,
+   "columns": [
+    "planned_route_id",
+    "route_id",
+    "start_time",
+    "end_time",
+    "is_feasible",
+    "min_obstacle_distance",
+    "zone_id",
+    "waypoint_id",
+    "ends_at_waypoint_id"
+   ]
+  },
+  {
+   "name": "arc_sections",
+   "rows": 4,
+   "columns": [
+    "arc_section_id",
+    "arc_id",
+    "radius",
+    "start_angle",
+    "end_angle",
+    "segment_id",
+    "planned_route_id"
+   ]
+  },
+  {
+   "name": "waypoints",
+   "rows": 4,
+   "columns": [
+    "id",
+    "waypoint_id",
+    "x",
+    "y",
+    "waypoint_type",
+    "zone_id",
+    "planned_route_id",
+    "is_end_of_planned_route_id"
+   ]
+  },
+  {
+   "name": "zones_obstacles",
+   "rows": 8,
+   "columns": [
+    "zone_id",
+    "obstacle_id"
+   ]
+  },
+  {
+   "name": "zones_spaces",
+   "rows": 8,
+   "columns": [
+    "zone_id",
+    "parking_space_id"
+   ]
+  },
+  {
+   "name": "obstacles_circles",
+   "rows": 8,
+   "columns": [
+    "obstacle_id",
+    "tangent_circle_id"
+   ]
+  },
+  {
+   "name": "spaces_obstacles",
+   "rows": 8,
+   "columns": [
+    "parking_space_id",
+    "obstacle_id"
+   ]
+  },
+  {
+   "name": "circles_segments",
+   "rows": 8,
+   "columns": [
+    "tangent_circle_id",
+    "segment_id"
+   ]
+  },
+  {
+   "name": "routes_segments",
+   "rows": 8,
+   "columns": [
+    "planned_route_id",
+    "segment_id"
+   ]
+  },
+  {
+   "name": "routes_sections",
+   "rows": 8,
+   "columns": [
+    "planned_route_id",
+    "arc_section_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_zone_obstacle_detail",
+  "v_zone_parking_space_detail",
+  "v_zone_waypoint",
+  "v_obstacle_zone",
+  "v_obstacle_tangent_circle_detail",
+  "v_parking_space_zone",
+  "v_parking_space_obstacle_detail",
+  "v_tangent_circle_obstacle",
+  "v_tangent_circle_straight_line_segment_detail",
+  "v_straight_line_segment_tangent_circle",
+  "v_straight_line_segment_planned_route",
+  "v_planned_route_straight_line_segment_detail",
+  "v_planned_route_arc_section_detail",
+  "v_planned_route_zone",
+  "v_planned_route_waypoint",
+  "v_arc_section_straight_line_segment",
+  "v_arc_section_planned_route",
+  "v_waypoint_zone",
+  "v_waypoint_planned_route"
+ ]
+}

@@ -1,0 +1,5 @@
+legal_representative_id,representative_identifier,relationship_type,authorization_date,scope_of_authority,contact_information,individual_id
+1,REP-2553,parent,2022-05-19T16:24:00,healthcare,Bobby Flores,1
+2,REP-2557,spouse,2023-10-03T23:41:00,financial,Stephanie Lawrence,2
+3,REP-2561,sibling,2024-03-14T06:58:00,personalWelfare,Robert Watts,3
+4,REP-2565,guardian,2025-08-25T13:15:00,all,Helen Keller,4

@@ -1,0 +1,5 @@
+id,staff_id,full_name,role,employment_status,hire_date,supervisor_staff_id,financial_report_id,financial_staff_id,department_id
+100,937735,Theodore Mcgrath,accountant,full_time,2023-06-01,3355774,1,100,2087755
+101,3158139,Account Name,financial_analyst,part_time,2024-11-12,template_ivacode_pagata_art15,2,101,790483
+102,8189502,Saipan International Airport,cfo,contract,2025-04-23,f208f470-8fcd-11eb-924d-9cd76263cbd0,3,102,505978
+103,69438,Norma Fisher,it_staff,full_time,2022-09-07,4793470,4,103,id_6

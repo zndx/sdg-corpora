@@ -1,0 +1,5 @@
+id,platform_id,platform_name,version,provider,is_available,academic_text_id
+1,state_uk_28,Baseline Initiative D,seasonal-version-71,legacy-provider-37,true,1
+2,e6ce01fe-8fc3-11eb-924d-9cd76263cbd0,Distributed Model,regional-version-72,compact-provider-38,false,2
+3,4716417,Adaptive Cluster,legacy-version-73,composite-provider-39,true,3
+4,10966228,Primary Review A,compact-version-74,primary-provider-40,false,4

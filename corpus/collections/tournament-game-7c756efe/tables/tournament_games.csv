@@ -1,0 +1,5 @@
+id,game_id,start_date,end_date,time_control,status,notation_agreement,transmission_mode,is_team_event,tournament_director_td_id,team_id
+1000,8350009,2022-09-05T20:24:00,2022-09-01T08:00:00,legacy-time-13,active,baseline-notation-79,mail,true,8189491,1450649
+1001,8843755,2023-02-16T03:41:00,2023-02-12T15:17:00,compact-time-14,completed,pilot-notation-80,email,false,2106706,1437598
+1002,24341655,2024-07-27T10:58:00,2024-07-23T22:34:00,composite-time-15,forfeited,extended-notation-81,fax,true,10449524,id_14
+1003,3001009030250,2025-12-11T17:15:00,2025-12-07T05:51:00,primary-time-16,disputed,integrated-notation-82,telegram,false,3355777,99701

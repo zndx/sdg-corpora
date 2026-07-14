@@ -1,0 +1,206 @@
+{
+ "construct_id": "3e45242ea8673dac",
+ "slug": "graphics-accelerator-3e45242e",
+ "passage": "3e45242ea8673dac9c70eabacb505c2ebfc73d30e55ae14fcf7af296a320934d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 12,
+ "entities": [
+  "GraphicsAccelerator",
+  "GraphicsApi",
+  "ComputeApi",
+  "DisplayConnector",
+  "Adapter",
+  "WorkstationEnclosure",
+  "SoftwareDriver"
+ ],
+ "terms": [
+  {
+   "name": "GraphicsAccelerator",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GraphicsApi",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ComputeApi",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "DisplayConnector",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Adapter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WorkstationEnclosure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SoftwareDriver",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "graphics_accelerators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manufacturer_part_number",
+    "ean_number",
+    "gpu_architecture",
+    "memory_capacity_bytes",
+    "memory_interface_width",
+    "memory_bandwidth_gbps",
+    "max_power_consumption_watts",
+    "form_factor",
+    "thermal_solution",
+    "workstation_enclosure_id"
+   ]
+  },
+  {
+   "name": "graphics_apis",
+   "rows": 4,
+   "columns": [
+    "graphics_api_id",
+    "api_name",
+    "specification_version",
+    "conformance_status",
+    "standard_body"
+   ]
+  },
+  {
+   "name": "compute_apis",
+   "rows": 4,
+   "columns": [
+    "id",
+    "api_name",
+    "specification_version",
+    "programming_language_support",
+    "feature_set"
+   ]
+  },
+  {
+   "name": "display_connectors",
+   "rows": 4,
+   "columns": [
+    "display_connector_id",
+    "connector_type",
+    "specification_version",
+    "max_resolution_x",
+    "max_resolution_y",
+    "refresh_rate_hz",
+    "color_depth_bits",
+    "supports_audio",
+    "supports_hdcp",
+    "graphics_accelerator_id",
+    "adapter_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "adapters",
+   "rows": 4,
+   "columns": [
+    "adapter_id",
+    "manufacturer_part_number",
+    "source_connector_type",
+    "target_connector_type",
+    "quantity_included",
+    "graphics_accelerator_id"
+   ]
+  },
+  {
+   "name": "workstation_enclosures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enclosure_type",
+    "available_expansion_slots",
+    "power_supply_watts",
+    "supported_form_factors"
+   ]
+  },
+  {
+   "name": "software_drivers",
+   "rows": 4,
+   "columns": [
+    "software_driver_id",
+    "driver_name",
+    "version",
+    "supported_operating_system",
+    "bit_architecture",
+    "installation_guide_url"
+   ]
+  },
+  {
+   "name": "accelerators_apis",
+   "rows": 8,
+   "columns": [
+    "graphics_accelerator_id",
+    "graphics_api_id"
+   ]
+  },
+  {
+   "name": "accelerators_connectors",
+   "rows": 8,
+   "columns": [
+    "graphics_accelerator_id",
+    "display_connector_id"
+   ]
+  },
+  {
+   "name": "apis_accelerators",
+   "rows": 8,
+   "columns": [
+    "graphics_api_id",
+    "graphics_accelerator_id"
+   ]
+  },
+  {
+   "name": "adapters_connectors",
+   "rows": 8,
+   "columns": [
+    "adapter_id",
+    "display_connector_id"
+   ]
+  },
+  {
+   "name": "enclosures_accelerators",
+   "rows": 8,
+   "columns": [
+    "workstation_enclosure_id",
+    "graphics_accelerator_id"
+   ]
+  },
+  {
+   "name": "drivers_accelerators",
+   "rows": 8,
+   "columns": [
+    "software_driver_id",
+    "graphics_accelerator_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_graphics_accelerator_graphics_api_detail",
+  "v_graphics_accelerator_compute_api_detail",
+  "v_graphics_accelerator_display_connector_detail",
+  "v_graphics_accelerator_workstation_enclosure",
+  "v_graphics_api_graphics_accelerator_detail",
+  "v_compute_api_graphics_accelerator_detail",
+  "v_display_connector_graphics_accelerator",
+  "v_display_connector_adapter",
+  "v_adapter_graphics_accelerator",
+  "v_adapter_display_connector_detail",
+  "v_workstation_enclosure_graphics_accelerator_detail",
+  "v_software_driver_graphics_accelerator_detail"
+ ]
+}

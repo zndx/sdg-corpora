@@ -1,0 +1,5 @@
+network_host_id,host_name,ip_address,network_type,operating_system,host_status,directory_entry_id,directory_service_id
+1,Seasonal Initiative,legacy-ip-49,ARPANET,adaptive-operatin-71,active,1,1000
+2,Integrated Model,compact-ip-50,MILNET,distributed-operatin-72,inactive,2,1001
+3,Extended Cluster D,composite-ip-51,DDN,baseline-operatin-73,active,3,1002
+4,Pilot Review,primary-ip-52,ARPANET,pilot-operatin-74,inactive,4,1003

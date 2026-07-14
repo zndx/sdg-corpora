@@ -1,0 +1,5 @@
+id,medicine_id,medicine_name,medicine_type,prescription_status,storage_condition,clinical_need_justification,clinician_id
+100,1437596,Adaptive Series,licensed,active,adaptive-storage-29,compact-clinical-14,100
+101,4793466,Primary Assessment,unlicensed,discontinued,distributed-storage-30,composite-clinical-15,101
+102,gd_taxc_2121,Composite Survey D,licensed,pending,baseline-storage-31,primary-clinical-16,102
+103,575213,Compact Corridor,unlicensed,active,pilot-storage-32,adaptive-clinical-17,103

@@ -1,0 +1,5 @@
+id,sample_id,collection_date,source_batch_id,storage_temperature,sample_volume,sample_status,fuel_property_id,production_batch_id,a_s_t_m_test_method_id
+1000,1562854,2025-12-17T11:57:00,40c1e50ce74c42d6801b1e2f409c1cfc,0.625,10.20,pending,1000,1,1
+1001,726043,2022-05-01T18:14:00,4463640,0.6,12.40,testing,1001,2,2
+1002,89106,2023-10-12T01:31:00,505985,0.07500005,14.60,complete,1002,3,3
+1003,10966221,2024-03-23T08:48:00,4180951,0.331550802139037,16.80,failed,1003,4,4

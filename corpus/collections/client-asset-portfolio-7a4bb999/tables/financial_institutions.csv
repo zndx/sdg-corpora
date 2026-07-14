@@ -1,0 +1,5 @@
+financial_institution_id,institution_identifier,legal_name,registration_status,net_capital_u_s_d,total_assets_u_s_d,shareholders_equity_u_s_d,market_capitalization_u_s_d,parent_company,client_asset_portfolio_id,insurance_policy_id,regulatory_framework_id,audit_report_id,created_at
+1,INS-2717,Adaptive Model,registered,19.95,5.95,18.95,13.45,Atlantic Richfield,1,1,100,100,2025-01-01 00:14:00
+2,INS-2718,Primary Cluster,pending,23.90,9.90,20.90,17.90,Diners Club Switzerland Ltd,2,2,101,101,2025-02-06 03:14:00
+3,INS-2719,Composite Review D,suspended,27.85,13.85,22.85,22.35,AFLAC Inc,3,3,102,102,2025-03-11 06:14:00
+4,INS-2720,Compact Initiative,registered,31.80,17.80,24.80,26.80,Maze Vietnam,4,4,103,103,2025-04-16 09:14:00

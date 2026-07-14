@@ -1,0 +1,5 @@
+student_assessment_record_id,record_id,student_id,test_date,score,percentile,is_expired,testing_center,score_report_id,instrument_code,student_profile_id
+1,10449530,392507,2024-11-13T22:42:00,9.20,41,true,pilot-testing-26,id_2,5006445,1000
+2,10445619,25388256,2025-04-24T05:59:00,13.40,45,false,extended-testing-27,delivery,6564383,1001
+3,9568457,id_16,2022-09-08T12:16:00,17.60,49,true,integrated-testing-28,10207159,476,1002
+4,20743593,gd_taxc_2211,2023-02-19T19:33:00,21.80,53,false,seasonal-testing-29,21387421,12300298,1003

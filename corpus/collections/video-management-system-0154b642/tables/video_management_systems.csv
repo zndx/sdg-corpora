@@ -1,0 +1,5 @@
+system_identifier,version_number,deployment_mode,is_scalable,last_maintenance_date,manufacturer_id,center_id,created_at
+SYS-2050,VER-2245,Edge,false,2024-03-27,Esperion Therapeutics Inc.,5844261,2025-01-01 00:14:00
+SYS-2051,VER-2249,Server,true,2025-08-11,Microsoft Corporation,1437588,2025-02-06 03:14:00
+SYS-2052,VER-2253,Embedded,false,2022-01-22,Northrop Grumman,6564397,2025-03-11 06:14:00
+SYS-2053,VER-2257,Edge,true,2023-06-06,Switch Card Services Ltd.,default_chart_a_tax_13,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+clinical_program_id,program_id,start_date,end_date,program_type,target_disease,genomic_dataset_id,partner_organization_id
+1000,103176,2022-09-05T20:24:00,2022-09-01T08:00:00,research,regional-target-18,1,1
+1001,2986219,2023-02-16T03:41:00,2023-02-12T15:17:00,diagnostic,legacy-target-19,2,2
+1002,1186079,2024-07-27T10:58:00,2024-07-23T22:34:00,therapeutic,compact-target-20,3,3
+1003,1562855,2025-12-11T17:15:00,2025-12-07T05:51:00,research,composite-target-21,4,4

@@ -1,0 +1,175 @@
+{
+ "construct_id": "323d46eef16f8bc4",
+ "slug": "school-librarian-323d46ee",
+ "passage": "323d46eef16f8bc41a4a44fe442c465a9dfffae83ca00640a6df920514ea82e9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "SchoolLibrarian",
+  "LibraryProgram",
+  "FlexibleSpace",
+  "DigitalResource",
+  "CommunityPartnership",
+  "FutureReadyGoal",
+  "Assessment"
+ ],
+ "terms": [
+  {
+   "name": "SchoolLibrarian",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LibraryProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FlexibleSpace",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DigitalResource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CommunityPartnership",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FutureReadyGoal",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Assessment",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "school_librarians",
+   "rows": 4,
+   "columns": [
+    "librarian_id",
+    "full_name",
+    "employment_status",
+    "certification_level",
+    "years_of_experience",
+    "current_role",
+    "library_program_id"
+   ]
+  },
+  {
+   "name": "library_programs",
+   "rows": 4,
+   "columns": [
+    "library_program_id",
+    "program_id",
+    "program_name",
+    "program_type",
+    "start_date",
+    "end_date",
+    "is_active",
+    "target_audience",
+    "librarian_id",
+    "space_id",
+    "digital_resource_id",
+    "future_ready_goal_id"
+   ]
+  },
+  {
+   "name": "flexible_spaces",
+   "rows": 4,
+   "columns": [
+    "space_id",
+    "space_name",
+    "space_type",
+    "capacity",
+    "equipment_provided",
+    "is_bookable",
+    "accessibility_compliant",
+    "library_program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "digital_resources",
+   "rows": 4,
+   "columns": [
+    "digital_resource_id",
+    "resource_id",
+    "resource_name",
+    "resource_type",
+    "access_level",
+    "cost",
+    "last_updated",
+    "is_equitable",
+    "library_program_id"
+   ]
+  },
+  {
+   "name": "community_partnerships",
+   "rows": 4,
+   "columns": [
+    "id",
+    "partnership_id",
+    "partnership_name",
+    "partner_type",
+    "start_date",
+    "end_date",
+    "is_active",
+    "focus_area",
+    "librarian_id",
+    "digital_resource_id"
+   ]
+  },
+  {
+   "name": "future_ready_goals",
+   "rows": 4,
+   "columns": [
+    "future_ready_goal_id",
+    "goal_id",
+    "goal_name",
+    "goal_category",
+    "priority_level",
+    "is_met",
+    "last_assessed",
+    "library_program_id",
+    "assessment_id"
+   ]
+  },
+  {
+   "name": "assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_name",
+    "assessment_type",
+    "target_skill",
+    "is_digital",
+    "last_administered",
+    "library_program_id",
+    "future_ready_goal_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_school_librarian_library_program",
+  "v_library_program_school_librarian",
+  "v_library_program_flexible_space",
+  "v_library_program_digital_resource",
+  "v_library_program_future_ready_goal",
+  "v_flexible_space_library_program",
+  "v_digital_resource_library_program",
+  "v_community_partnership_school_librarian",
+  "v_community_partnership_digital_resource",
+  "v_future_ready_goal_library_program",
+  "v_future_ready_goal_assessment",
+  "v_assessment_library_program",
+  "v_assessment_future_ready_goal"
+ ]
+}

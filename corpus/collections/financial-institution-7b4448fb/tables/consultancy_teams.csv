@@ -1,0 +1,5 @@
+id,team_id,vendor_name,primary_region,specialization,is_active,financial_institution_id,compliance_training_id,sanctions_screening_tool_id
+1000,1450649,Microsoft Corporation,extended-primary-75,legacy-speciali-13,true,1000,100,100
+1001,1437598,PureCycle Technologies.,integrated-primary-76,compact-speciali-14,false,1001,101,101
+1002,id_14,American International Group,seasonal-primary-77,composite-speciali-15,true,1002,102,102
+1003,99701,American Airlines Group,regional-primary-78,primary-speciali-16,false,1003,103,103

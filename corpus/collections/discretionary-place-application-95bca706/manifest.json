@@ -1,0 +1,201 @@
+{
+ "construct_id": "95bca7061de83ced",
+ "slug": "discretionary-place-application-95bca706",
+ "passage": "95bca7061de83ced92461781656a143e676273f31d65b9e8a9b1643b561fbcaa.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 19,
+ "entities": [
+  "DiscretionaryPlaceApplication",
+  "Student",
+  "AcademicRecord",
+  "SubjectGrade",
+  "InterviewScore",
+  "ExtracurricularRecord",
+  "School",
+  "AdmissionCommittee"
+ ],
+ "terms": [
+  {
+   "name": "DiscretionaryPlaceApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SubjectGrade",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InterviewScore",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExtracurricularRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "School",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "AdmissionCommittee",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "discretionary_place_applications",
+   "rows": 4,
+   "columns": [
+    "discretionary_place_application_id",
+    "application_id",
+    "submission_date",
+    "academic_year",
+    "status",
+    "total_score",
+    "rank",
+    "interview_date",
+    "student_id",
+    "school_id",
+    "admission_committee_id",
+    "academic_record_id",
+    "interview_score_id",
+    "extracurricular_record_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "full_name",
+    "date_of_birth",
+    "current_grade",
+    "current_school",
+    "discretionary_place_application_id",
+    "academic_record_id"
+   ]
+  },
+  {
+   "name": "academic_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "grade_level",
+    "term",
+    "conduct_score",
+    "academic_score",
+    "total_weighted_score",
+    "student_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "subject_grades",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subject_name",
+    "letter_grade",
+    "numeric_score",
+    "academic_record_id"
+   ]
+  },
+  {
+   "name": "interview_scores",
+   "rows": 4,
+   "columns": [
+    "interview_score_id",
+    "appearance_score",
+    "politeness_score",
+    "manner_score",
+    "total_interview_score",
+    "interview_date",
+    "student_id",
+    "discretionary_place_application_id"
+   ]
+  },
+  {
+   "name": "extracurricular_records",
+   "rows": 4,
+   "columns": [
+    "extracurricular_record_id",
+    "activity_name",
+    "activity_type",
+    "achievement_level",
+    "score_points",
+    "student_id",
+    "discretionary_place_application_id"
+   ]
+  },
+  {
+   "name": "schools",
+   "rows": 4,
+   "columns": [
+    "school_id",
+    "school_code",
+    "school_name",
+    "allocated_places",
+    "office_location",
+    "website_url",
+    "discretionary_place_application_id",
+    "admission_committee_id"
+   ]
+  },
+  {
+   "name": "admission_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "committee_id",
+    "evaluation_date",
+    "result_release_date",
+    "discretionary_place_application_id",
+    "school_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "records_grades",
+   "rows": 8,
+   "columns": [
+    "academic_record_id",
+    "subject_grade_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_discretionary_place_application_student",
+  "v_discretionary_place_application_school",
+  "v_discretionary_place_application_admission_committee",
+  "v_discretionary_place_application_academic_record",
+  "v_discretionary_place_application_interview_score",
+  "v_discretionary_place_application_extracurricular_record",
+  "v_student_discretionary_place_application",
+  "v_student_academic_record",
+  "v_academic_record_student",
+  "v_academic_record_subject_grade_detail",
+  "v_subject_grade_academic_record",
+  "v_interview_score_student",
+  "v_interview_score_discretionary_place_application",
+  "v_extracurricular_record_student",
+  "v_extracurricular_record_discretionary_place_application",
+  "v_school_discretionary_place_application",
+  "v_school_admission_committee",
+  "v_admission_committee_discretionary_place_application",
+  "v_admission_committee_school"
+ ]
+}

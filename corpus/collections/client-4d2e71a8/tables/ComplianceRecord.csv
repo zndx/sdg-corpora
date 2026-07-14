@@ -1,0 +1,5 @@
+recordId,recordType,issueDate,expiryDate,issuingAuthority,verificationStatus,documentUrl,plannerId,assistantId,transactionId,createdAt,updatedAt
+10449530,training_certificate,2023-02-01,2023-10-24,extended-issuing-33,verified,https://www.nature.com/articles/nphoton.2012.84,1,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+10445619,license_renewal,2024-07-12,2024-03-08,integrated-issuing-34,pending_review,https://bugs.launchpad.net/nova/+bug/1246276,2,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+9568457,audit_report,2025-12-23,2025-08-19,seasonal-issuing-35,expired,http://eol.org/pages/333309/overview,3,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+20743593,client_disclosure,2022-05-07,2022-01-03,regional-issuing-36,rejected,https://ecocyc.org/gene?orgid=ECOLI&id=G7564,4,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

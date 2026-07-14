@@ -1,0 +1,5 @@
+id,patient_i_d,full_name,date_of_birth,registration_status,has_online_access,medical_practice_id,medication_id
+1000,PAT-2559,Theodore Mcgrath,2025-04-02,active,false,1,1
+1001,PAT-2563,Account Name,2022-09-13,inactive,true,2,2
+1002,PAT-2567,Saipan International Airport,2023-02-24,pending,false,3,3
+1003,PAT-2571,Norma Fisher,2024-07-08,active,true,4,4

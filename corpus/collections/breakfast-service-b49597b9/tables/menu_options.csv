@@ -1,0 +1,5 @@
+menu_option_id,option_id,name,category,is_gluten_free,is_vegetarian,is_vegan,serving_size,breakfast_service_id,food_ingredient_id,beverage_type_id
+1,a4e3c328-8fb9-11eb-924d-9cd76263cbd0,Extended Review,main,true,true,false,primary-serving-40,1000,1,100
+2,1204-0009-S,Pilot Initiative A,side,false,false,true,adaptive-serving-41,1001,2,101
+3,9424920,Baseline Model,beverage,true,true,false,distributed-serving-42,1002,3,102
+4,1186083,Distributed Cluster,pastry,false,false,true,baseline-serving-43,1003,4,103

@@ -1,0 +1,5 @@
+id,program_id,program_name,program_type,start_date,end_date,budget,campus_id,person_id,policy_id
+1,103176,Extended Review,child_nutrition,2022-09-05,2022-09-01,35.45,1,100,1000
+2,2986219,Pilot Initiative A,food_service,2023-02-16,2023-02-12,18.47,2,101,1001
+3,1186079,Baseline Model,child_nutrition,2024-07-27,2024-07-23,26.25,3,102,1002
+4,1562855,Distributed Cluster,food_service,2025-12-11,2025-12-07,17.12,4,103,1003

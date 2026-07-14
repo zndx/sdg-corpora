@@ -1,0 +1,163 @@
+{
+ "construct_id": "5f1541a91593cb50",
+ "slug": "forest-plantation-5f1541a9",
+ "passage": "5f1541a91593cb501e1d5d4e4b673c178d5d3e84878c8fe05089c94bb39dbb96.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 13,
+ "entities": [
+  "ForestPlantation",
+  "WoodProduct",
+  "CarbonCredit",
+  "IndustrialFacility",
+  "Company",
+  "Country"
+ ],
+ "terms": [
+  {
+   "name": "ForestPlantation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "WoodProduct",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CarbonCredit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IndustrialFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Company",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Country",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "forest_plantations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plantation_id",
+    "area_hectares",
+    "establishment_year",
+    "certification_status",
+    "primary_species",
+    "land_use_history",
+    "country_code",
+    "company_id",
+    "wood_product_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "wood_products",
+   "rows": 4,
+   "columns": [
+    "wood_product_id",
+    "product_id",
+    "product_name",
+    "product_category",
+    "production_volume",
+    "production_year",
+    "revenue_u_s_d",
+    "forest_plantation_id"
+   ]
+  },
+  {
+   "name": "carbon_credits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "credit_id",
+    "standard",
+    "issue_date",
+    "volume_tonnes_c_o2",
+    "revenue_u_s_d",
+    "project_type",
+    "forest_plantation_id"
+   ]
+  },
+  {
+   "name": "industrial_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_id",
+    "facility_name",
+    "location",
+    "operational_status",
+    "capacity",
+    "revenue_u_s_d",
+    "country_code",
+    "company_id",
+    "wood_product_id"
+   ]
+  },
+  {
+   "name": "companies",
+   "rows": 4,
+   "columns": [
+    "company_id",
+    "company_name",
+    "founding_year",
+    "headquarters",
+    "shareholder_count",
+    "employee_count",
+    "carbon_credit_id"
+   ]
+  },
+  {
+   "name": "countries",
+   "rows": 4,
+   "columns": [
+    "country_code",
+    "country_name",
+    "region",
+    "forest_plantation_id",
+    "industrial_facility_id"
+   ]
+  },
+  {
+   "name": "companies_plantations",
+   "rows": 8,
+   "columns": [
+    "company_id",
+    "forest_plantation_id"
+   ]
+  },
+  {
+   "name": "companies_facilities",
+   "rows": 8,
+   "columns": [
+    "company_id",
+    "industrial_facility_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_forest_plantation_country",
+  "vw_forest_plantation_company",
+  "vw_forest_plantation_wood_product",
+  "vw_wood_product_forest_plantation",
+  "vw_carbon_credit_forest_plantation",
+  "vw_industrial_facility_country",
+  "vw_industrial_facility_company",
+  "vw_industrial_facility_wood_product",
+  "vw_company_forest_plantation_detail",
+  "vw_company_industrial_facility_detail",
+  "vw_company_carbon_credit",
+  "vw_country_forest_plantation",
+  "vw_country_industrial_facility"
+ ]
+}

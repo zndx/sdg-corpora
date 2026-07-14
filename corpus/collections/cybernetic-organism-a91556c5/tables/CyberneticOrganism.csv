@@ -1,0 +1,5 @@
+id,organismId,organismType,modificationDate,controlSystemType,environmentAdaptation,homeostaticStatus,modificationId,researchId
+100,4793483,human,2025-08-03T07:33:00,osmotic pump,space travel,extended,1,1000
+101,edc71a6a-9bab-11eb-a8a2-19ed5c03f8d3,mouse,2022-01-14T14:50:00,exogenous component,laboratory,unmodified,2,1001
+102,4277015,astronaut,2023-06-25T21:07:00,osmotic pump,space travel,extended,3,1002
+103,2106717,human,2024-11-09T04:24:00,exogenous component,laboratory,unmodified,4,1003

@@ -1,0 +1,231 @@
+{
+ "construct_id": "17d5b6fdf9352ab1",
+ "slug": "selectboard-member-17d5b6fd",
+ "passage": "17d5b6fdf9352ab19e6427c223cb353ade10928d20a81907989e113407152584.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 25,
+ "entities": [
+  "SelectboardMember",
+  "MunicipalBoard",
+  "Motion",
+  "Policy",
+  "License",
+  "BusinessEntity",
+  "MunicipalFund",
+  "Project",
+  "Parcel"
+ ],
+ "terms": [
+  {
+   "name": "SelectboardMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MunicipalBoard",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Motion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Policy",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "License",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "BusinessEntity",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "MunicipalFund",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "Project",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Parcel",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "selectboard_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_id",
+    "full_name",
+    "role_title",
+    "appointment_date",
+    "term_end_date",
+    "is_ex_officio",
+    "municipal_board_id",
+    "motion_id"
+   ]
+  },
+  {
+   "name": "municipal_boards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "board_id",
+    "board_name",
+    "jurisdiction_name",
+    "meeting_schedule",
+    "official_newspaper",
+    "policy_id",
+    "municipal_fund_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "motions",
+   "rows": 4,
+   "columns": [
+    "motion_id",
+    "motion_text",
+    "vote_result",
+    "meeting_date",
+    "is_adopted",
+    "selectboard_member_id",
+    "seconded_by_selectboard_member_id",
+    "policy_id",
+    "license_id"
+   ]
+  },
+  {
+   "name": "policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_name",
+    "adoption_date",
+    "version_number",
+    "is_current",
+    "municipal_board_id",
+    "selectboard_member_id"
+   ]
+  },
+  {
+   "name": "licenses",
+   "rows": 4,
+   "columns": [
+    "license_id",
+    "business_name",
+    "license_class",
+    "issue_date",
+    "expiry_date",
+    "status",
+    "municipal_board_id",
+    "motion_id",
+    "business_entity_business_id"
+   ]
+  },
+  {
+   "name": "business_entities",
+   "rows": 4,
+   "columns": [
+    "business_id",
+    "legal_name",
+    "dba_name",
+    "business_type",
+    "industry_sector",
+    "license_id",
+    "parcel_id",
+    "municipal_fund_id"
+   ]
+  },
+  {
+   "name": "municipal_funds",
+   "rows": 4,
+   "columns": [
+    "municipal_fund_id",
+    "fund_id",
+    "fund_name",
+    "fiscal_year",
+    "total_allocation",
+    "current_balance",
+    "spending_threshold",
+    "municipal_board_id",
+    "project_id",
+    "business_entity_business_id"
+   ]
+  },
+  {
+   "name": "projects",
+   "rows": 4,
+   "columns": [
+    "project_id",
+    "project_name",
+    "estimated_cost",
+    "approval_level",
+    "status",
+    "municipal_fund_id",
+    "parcel_id",
+    "municipal_board_id"
+   ]
+  },
+  {
+   "name": "parcels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parcel_id",
+    "address",
+    "zoning_district",
+    "land_use",
+    "owner_name",
+    "is_publicly_accessible",
+    "business_entity_business_id",
+    "project_id",
+    "municipal_board_id"
+   ]
+  },
+  {
+   "name": "boards_members",
+   "rows": 8,
+   "columns": [
+    "municipal_board_id",
+    "selectboard_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_selectboard_member_municipal_board",
+  "v_selectboard_member_motion",
+  "v_municipal_board_selectboard_member_detail",
+  "v_municipal_board_policy",
+  "v_municipal_board_municipal_fund",
+  "v_motion_selectboard_member",
+  "v_motion_policy",
+  "v_motion_license",
+  "v_policy_municipal_board",
+  "v_policy_selectboard_member",
+  "v_license_municipal_board",
+  "v_license_motion",
+  "v_license_business_entity",
+  "v_business_entity_license",
+  "v_business_entity_parcel",
+  "v_business_entity_municipal_fund",
+  "v_municipal_fund_municipal_board",
+  "v_municipal_fund_project",
+  "v_municipal_fund_business_entity",
+  "v_project_municipal_fund",
+  "v_project_parcel",
+  "v_project_municipal_board",
+  "v_parcel_business_entity",
+  "v_parcel_project",
+  "v_parcel_municipal_board"
+ ]
+}

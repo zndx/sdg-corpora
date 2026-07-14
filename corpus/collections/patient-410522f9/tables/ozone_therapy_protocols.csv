@@ -1,0 +1,5 @@
+ozone_therapy_protocol_id,protocol_id,total_sessions,oxygen_ratio,administration_method,biochemical_adjustment
+100,9085260,16602,10.20,distributed-administ-78,false
+101,6926357,12136,12.40,baseline-administ-79,true
+102,4277008,459,14.60,pilot-administ-80,false
+103,726040,4,16.80,extended-administ-81,true

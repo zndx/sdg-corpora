@@ -1,0 +1,5 @@
+management_system_standard_id,standard_identifier,publication_date,issuing_body,standard_type,version_number,status,certification_record_id,organization_id
+100,ISO 9001:2015,2025-12-01,baseline-issuing-13,Quality Management System,VER-2245,Published,100,1
+101,ISO 14001,2022-05-12,pilot-issuing-14,Environmental Management System,VER-2249,Draft,101,2
+102,ISO 13485,2023-10-23,extended-issuing-15,Medical Devices,VER-2253,Withdrawn,102,3
+103,ISO 16949,2024-03-07,integrated-issuing-16,Automotive,VER-2257,Published,103,4

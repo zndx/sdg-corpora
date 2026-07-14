@@ -1,0 +1,5 @@
+beverage_serving_id,serving_id,volume_oz,preparation_method,is_sweetened,menu_line_item_id
+1000,325459,13.70,Cold Brewed,true,1
+1001,9568449,16.40,Fresh Squeezed,false,2
+1002,21005921,19.10,Fresh Brewed,true,3
+1003,ChIJkzsYUIBt5kcRM6_JHx26ONk,21.80,Cold Brewed,false,4

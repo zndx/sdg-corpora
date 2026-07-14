@@ -1,0 +1,206 @@
+{
+ "construct_id": "272bc8637db8242c",
+ "slug": "party-platter-272bc863",
+ "passage": "272bc8637db8242c585e6cfc7b01cdd79501c002824d2802d3498fdfbddbc386.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 18,
+ "entities": [
+  "PartyPlatter",
+  "PlatterItem",
+  "SideItem",
+  "Beverage",
+  "Dessert",
+  "BoxLunch",
+  "Wrap",
+  "Ingredient"
+ ],
+ "terms": [
+  {
+   "name": "PartyPlatter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PlatterItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Beverage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Dessert",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BoxLunch",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Wrap",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "party_platters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platter_id",
+    "serves_count",
+    "base_price",
+    "epic_price",
+    "status",
+    "last_updated",
+    "side_item_side_id",
+    "beverage_id",
+    "dessert_id"
+   ]
+  },
+  {
+   "name": "platter_items",
+   "rows": 4,
+   "columns": [
+    "platter_item_id",
+    "item_id",
+    "item_name",
+    "quantity",
+    "category",
+    "is_crispy",
+    "is_grilled",
+    "party_platter_id"
+   ]
+  },
+  {
+   "name": "side_items",
+   "rows": 4,
+   "columns": [
+    "side_id",
+    "side_name",
+    "price",
+    "type",
+    "is_available",
+    "party_platter_id",
+    "box_lunch_id"
+   ]
+  },
+  {
+   "name": "beverages",
+   "rows": 4,
+   "columns": [
+    "beverage_id",
+    "beverage_name",
+    "price",
+    "type",
+    "is_available",
+    "party_platter_id",
+    "box_lunch_id"
+   ]
+  },
+  {
+   "name": "desserts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dessert_id",
+    "dessert_name",
+    "price",
+    "type",
+    "is_available",
+    "party_platter_id",
+    "box_lunch_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "box_lunches",
+   "rows": 4,
+   "columns": [
+    "id",
+    "lunch_id",
+    "lunch_name",
+    "price",
+    "status",
+    "last_updated",
+    "wrap_id",
+    "side_item_side_id",
+    "dessert_id"
+   ]
+  },
+  {
+   "name": "wraps",
+   "rows": 4,
+   "columns": [
+    "wrap_id",
+    "wrap_name",
+    "price",
+    "main_ingredient",
+    "is_available",
+    "box_lunch_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "ingredient_name",
+    "type",
+    "is_organic",
+    "is_certified",
+    "wrap_id",
+    "platter_item_id"
+   ]
+  },
+  {
+   "name": "platters_items",
+   "rows": 8,
+   "columns": [
+    "party_platter_id",
+    "platter_item_id"
+   ]
+  },
+  {
+   "name": "wraps_ingredients",
+   "rows": 8,
+   "columns": [
+    "wrap_id",
+    "ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_party_platter_platter_item_detail",
+  "v_party_platter_side_item",
+  "v_party_platter_beverage",
+  "v_party_platter_dessert",
+  "v_platter_item_party_platter",
+  "v_side_item_party_platter",
+  "v_side_item_box_lunch",
+  "v_beverage_party_platter",
+  "v_beverage_box_lunch",
+  "v_dessert_party_platter",
+  "v_dessert_box_lunch",
+  "v_box_lunch_wrap",
+  "v_box_lunch_side_item",
+  "v_box_lunch_dessert",
+  "v_wrap_box_lunch",
+  "v_wrap_ingredient_detail",
+  "v_ingredient_wrap",
+  "v_ingredient_platter_item"
+ ]
+}

@@ -1,0 +1,5 @@
+id,department_id,name,code,established_date,status,employee_id,reports_to_department_id
+1,2087755,Extended Review,lu_tax_code_template_m_I_4,2024-03-27,active,1,1
+2,790483,Pilot Initiative A,2986219,2025-08-11,inactive,2,2
+3,505978,Baseline Model,8928520,2022-01-22,merger_pending,3,3
+4,id_6,Distributed Cluster,195369,2023-06-06,active,4,4

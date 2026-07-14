@@ -1,0 +1,357 @@
+{
+ "construct_id": "8ac47dab8a655c2a",
+ "slug": "world-caf-event-8ac47dab",
+ "passage": "8ac47dab8a655c2a1d6dc81576b535897dd6ec359de8c2b5cb8e7ac8a32934e6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 26,
+ "n_views": 30,
+ "entities": [
+  "WorldCaf\u00e9Event",
+  "DiscussionSession",
+  "FieldModerator",
+  "FieldParticipant",
+  "PreventionInsight",
+  "BurglaryPreventionTopic",
+  "SecurityProject",
+  "ProjectReport"
+ ],
+ "terms": [
+  {
+   "name": "WorldCaf\u00e9Event",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DiscussionSession",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FieldModerator",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "FieldParticipant",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PreventionInsight",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BurglaryPreventionTopic",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SecurityProject",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProjectReport",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "world_caf_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "event_date",
+    "location",
+    "status",
+    "duration_minutes",
+    "participant_count",
+    "moderator_count",
+    "break_count",
+    "security_project_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "discussion_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_identifier",
+    "start_time",
+    "end_time",
+    "duration_minutes",
+    "theme",
+    "table_number",
+    "status",
+    "notes_summary",
+    "world_caf_event_id",
+    "field_moderator_id",
+    "discussion_session_id"
+   ]
+  },
+  {
+   "name": "field_moderators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "moderator_identifier",
+    "full_name",
+    "expertise_area",
+    "role",
+    "session_count",
+    "availability_status",
+    "security_project_id"
+   ]
+  },
+  {
+   "name": "field_participants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participant_identifier",
+    "full_name",
+    "organization",
+    "role",
+    "motivation_level",
+    "previous_experience",
+    "security_project_id"
+   ]
+  },
+  {
+   "name": "prevention_insights",
+   "rows": 4,
+   "columns": [
+    "id",
+    "insight_identifier",
+    "content",
+    "source_session",
+    "theme",
+    "quality_rating",
+    "is_recurring",
+    "is_new_element",
+    "discussion_session_id",
+    "burglary_prevention_topic_id",
+    "project_report_id"
+   ]
+  },
+  {
+   "name": "burglary_prevention_topics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "topic_identifier",
+    "topic_name",
+    "category",
+    "complexity_level",
+    "is_primary_focus",
+    "security_project_id"
+   ]
+  },
+  {
+   "name": "security_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_identifier",
+    "project_name",
+    "start_date",
+    "end_date",
+    "funding_source",
+    "status",
+    "objectives"
+   ]
+  },
+  {
+   "name": "project_reports",
+   "rows": 4,
+   "columns": [
+    "project_report_id",
+    "report_identifier",
+    "title",
+    "publication_date",
+    "status",
+    "word_count",
+    "contains_insights",
+    "world_caf_event_id",
+    "security_project_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "events_sessions",
+   "rows": 8,
+   "columns": [
+    "world_caf_event_id",
+    "discussion_session_id"
+   ]
+  },
+  {
+   "name": "events_moderators",
+   "rows": 8,
+   "columns": [
+    "world_caf_event_id",
+    "field_moderator_id"
+   ]
+  },
+  {
+   "name": "events_participants",
+   "rows": 8,
+   "columns": [
+    "world_caf_event_id",
+    "field_participant_id"
+   ]
+  },
+  {
+   "name": "sessions_participants",
+   "rows": 8,
+   "columns": [
+    "discussion_session_id",
+    "field_participant_id"
+   ]
+  },
+  {
+   "name": "sessions_insights",
+   "rows": 8,
+   "columns": [
+    "discussion_session_id",
+    "prevention_insight_id"
+   ]
+  },
+  {
+   "name": "moderators_sessions",
+   "rows": 8,
+   "columns": [
+    "field_moderator_id",
+    "discussion_session_id"
+   ]
+  },
+  {
+   "name": "moderators_moderators",
+   "rows": 8,
+   "columns": [
+    "field_moderator_id",
+    "collaborates_with_field_moderator_id"
+   ]
+  },
+  {
+   "name": "participants_sessions",
+   "rows": 8,
+   "columns": [
+    "field_participant_id",
+    "discussion_session_id"
+   ]
+  },
+  {
+   "name": "participants_insights",
+   "rows": 8,
+   "columns": [
+    "field_participant_id",
+    "prevention_insight_id"
+   ]
+  },
+  {
+   "name": "insights_participants",
+   "rows": 8,
+   "columns": [
+    "prevention_insight_id",
+    "field_participant_id"
+   ]
+  },
+  {
+   "name": "topics_sessions",
+   "rows": 8,
+   "columns": [
+    "burglary_prevention_topic_id",
+    "discussion_session_id"
+   ]
+  },
+  {
+   "name": "topics_insights",
+   "rows": 8,
+   "columns": [
+    "burglary_prevention_topic_id",
+    "prevention_insight_id"
+   ]
+  },
+  {
+   "name": "projects_events",
+   "rows": 8,
+   "columns": [
+    "security_project_id",
+    "world_caf_event_id"
+   ]
+  },
+  {
+   "name": "projects_moderators",
+   "rows": 8,
+   "columns": [
+    "security_project_id",
+    "field_moderator_id"
+   ]
+  },
+  {
+   "name": "projects_participants",
+   "rows": 8,
+   "columns": [
+    "security_project_id",
+    "field_participant_id"
+   ]
+  },
+  {
+   "name": "projects_topics",
+   "rows": 8,
+   "columns": [
+    "security_project_id",
+    "burglary_prevention_topic_id"
+   ]
+  },
+  {
+   "name": "projects_reports",
+   "rows": 8,
+   "columns": [
+    "security_project_id",
+    "project_report_id"
+   ]
+  },
+  {
+   "name": "reports_insights",
+   "rows": 8,
+   "columns": [
+    "project_report_id",
+    "prevention_insight_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_world_caf_event_discussion_session_detail",
+  "v_world_caf_event_field_moderator_detail",
+  "v_world_caf_event_field_participant_detail",
+  "v_world_caf_event_security_project",
+  "v_discussion_session_world_caf_event",
+  "v_discussion_session_field_moderator",
+  "v_discussion_session_field_participant_detail",
+  "v_discussion_session_prevention_insight_detail",
+  "v_discussion_session_discussion_session",
+  "v_field_moderator_discussion_session_detail",
+  "v_field_moderator_security_project",
+  "v_field_moderator_field_moderator_detail",
+  "v_field_participant_discussion_session_detail",
+  "v_field_participant_prevention_insight_detail",
+  "v_field_participant_security_project",
+  "v_prevention_insight_discussion_session",
+  "v_prevention_insight_field_participant_detail",
+  "v_prevention_insight_burglary_prevention_topic",
+  "v_prevention_insight_project_report",
+  "v_burglary_prevention_topic_discussion_session_detail",
+  "v_burglary_prevention_topic_prevention_insight_detail",
+  "v_burglary_prevention_topic_security_project",
+  "v_security_project_world_caf_event_detail",
+  "v_security_project_field_moderator_detail",
+  "v_security_project_field_participant_detail",
+  "v_security_project_burglary_prevention_topic_detail",
+  "v_security_project_project_report_detail",
+  "v_project_report_world_caf_event",
+  "v_project_report_prevention_insight_detail",
+  "v_project_report_security_project"
+ ]
+}

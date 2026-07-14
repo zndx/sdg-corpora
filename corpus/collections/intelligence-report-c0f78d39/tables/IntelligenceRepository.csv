@@ -1,0 +1,5 @@
+repositoryId,facilityIdentifier,facilityName,locationCity,locationState,operationalStatus,jurisdictionCoverage,unitId,createdAt
+100,FAC-2066,Integrated Protocol A,seasonal-location-23,composite-location-93,Active,Regional,1000,2025-01-01 00:14:00
+101,FAC-2067,Extended Programme,regional-location-24,primary-location-94,Inactive,State,1001,2025-02-06 03:14:00
+102,FAC-2068,Pilot Standard,legacy-location-25,adaptive-location-95,Under Maintenance,Federal,1002,2025-03-11 06:14:00
+103,FAC-2069,Baseline Framework D,compact-location-26,distributed-location-96,Active,Local,1003,2025-04-16 09:14:00

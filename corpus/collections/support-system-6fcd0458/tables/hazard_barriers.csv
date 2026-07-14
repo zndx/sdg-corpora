@@ -1,0 +1,5 @@
+id,barrier_identifier,barrier_type,effectiveness_rating,regulatory_initiative,support_system_id
+1,BAR-2641,Physical,4.20,RITSTF-427,1
+2,BAR-2643,Administrative,7.40,TSTF-372,2
+3,BAR-2645,Procedural,10.60,GL-91-18,3
+4,BAR-2647,Physical,13.80,RITSTF-427,4

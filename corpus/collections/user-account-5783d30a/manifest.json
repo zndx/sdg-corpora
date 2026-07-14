@@ -1,0 +1,129 @@
+{
+ "construct_id": "5783d30a207ac7a8",
+ "slug": "user-account-5783d30a",
+ "passage": "5783d30a207ac7a815c5c219cb4c2aeff4d0db498c60cb000da280459e0b4c50.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "UserAccount",
+  "PasswordCredential",
+  "MacBookPro",
+  "NetworkConfiguration",
+  "NetworkService"
+ ],
+ "terms": [
+  {
+   "name": "UserAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PasswordCredential",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MacBookPro",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NetworkConfiguration",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NetworkService",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "user_accounts",
+   "rows": 4,
+   "columns": [
+    "account_id",
+    "username",
+    "last_password_change_date",
+    "password_expiry_days",
+    "account_status",
+    "mac_book_pro_id"
+   ]
+  },
+  {
+   "name": "password_credentials",
+   "rows": 4,
+   "columns": [
+    "password_credential_id",
+    "credential_id",
+    "hash_algorithm",
+    "strength_level",
+    "is_expired",
+    "rotation_policy_id",
+    "account_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "mac_book_pros",
+   "rows": 4,
+   "columns": [
+    "mac_book_pro_id",
+    "serial_number",
+    "model_identifier",
+    "os_version",
+    "last_reboot_date",
+    "is_reboot_required",
+    "account_id",
+    "network_configuration_id"
+   ]
+  },
+  {
+   "name": "network_configurations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "config_id",
+    "ssid_name",
+    "security_protocol",
+    "is_auto_join_enabled",
+    "last_updated_date",
+    "mac_book_pro_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "network_services",
+   "rows": 4,
+   "columns": [
+    "service_id",
+    "service_name",
+    "protocol_type",
+    "requires_credential",
+    "last_credential_update",
+    "network_configuration_id",
+    "password_credential_id"
+   ]
+  },
+  {
+   "name": "accounts_credentials",
+   "rows": 8,
+   "columns": [
+    "account_id",
+    "password_credential_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_user_account_password_credential_detail",
+  "v_user_account_mac_book_pro",
+  "v_password_credential_user_account",
+  "v_password_credential_network_service",
+  "v_mac_book_pro_user_account",
+  "v_mac_book_pro_network_configuration",
+  "v_network_configuration_mac_book_pro",
+  "v_network_configuration_network_service",
+  "v_network_service_network_configuration",
+  "v_network_service_password_credential"
+ ]
+}

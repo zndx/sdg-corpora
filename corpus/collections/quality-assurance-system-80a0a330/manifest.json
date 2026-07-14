@@ -1,0 +1,196 @@
+{
+ "construct_id": "80a0a330dda6a6d4",
+ "slug": "quality-assurance-system-80a0a330",
+ "passage": "80a0a330dda6a6d41f74097d2476e618f079f256c3244f5ba8b2fdfaad729359.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 16,
+ "entities": [
+  "QualityAssuranceSystem",
+  "InstitutionalReform",
+  "RegionalQualificationsFramework",
+  "QualityAssuranceOffice",
+  "CapacityBuildingTraining",
+  "NationalCommission",
+  "University"
+ ],
+ "terms": [
+  {
+   "name": "QualityAssuranceSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InstitutionalReform",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RegionalQualificationsFramework",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "QualityAssuranceOffice",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CapacityBuildingTraining",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NationalCommission",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "University",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "quality_assurance_systems",
+   "rows": 4,
+   "columns": [
+    "quality_assurance_system_id",
+    "system_id",
+    "name",
+    "start_date",
+    "status",
+    "region",
+    "framework_version",
+    "institutional_reform_id",
+    "regional_qualifications_framework_id",
+    "quality_assurance_office_id"
+   ]
+  },
+  {
+   "name": "institutional_reforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "reform_id",
+    "initiation_date",
+    "ratification_date",
+    "legal_basis",
+    "status",
+    "mandate_scope",
+    "quality_assurance_system_id"
+   ]
+  },
+  {
+   "name": "regional_qualifications_frameworks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "framework_id",
+    "name",
+    "version",
+    "status",
+    "total_levels",
+    "credit_system_type",
+    "quality_assurance_system_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "quality_assurance_offices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "office_id",
+    "office_name",
+    "establishment_date",
+    "location",
+    "status",
+    "staff_count",
+    "quality_assurance_system_id",
+    "capacity_building_training_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "capacity_building_trainings",
+   "rows": 4,
+   "columns": [
+    "capacity_building_training_id",
+    "training_id",
+    "title",
+    "start_date",
+    "end_date",
+    "target_audience",
+    "status",
+    "participants_count",
+    "quality_assurance_office_id",
+    "quality_assurance_system_id"
+   ]
+  },
+  {
+   "name": "national_commissions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "commission_id",
+    "name",
+    "country",
+    "establishment_date",
+    "status",
+    "jurisdiction_level",
+    "quality_assurance_system_id",
+    "capacity_building_training_id"
+   ]
+  },
+  {
+   "name": "universities",
+   "rows": 4,
+   "columns": [
+    "university_id",
+    "name",
+    "country",
+    "establishment_date",
+    "status",
+    "accreditation_status",
+    "quality_assurance_system_id",
+    "national_commission_id",
+    "capacity_building_training_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "trainings_commissions",
+   "rows": 8,
+   "columns": [
+    "capacity_building_training_id",
+    "national_commission_id"
+   ]
+  },
+  {
+   "name": "commissions_universities",
+   "rows": 8,
+   "columns": [
+    "national_commission_id",
+    "university_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_quality_assurance_system_institutional_reform",
+  "v_quality_assurance_system_regional_qualifications_framework",
+  "v_quality_assurance_system_quality_assurance_office",
+  "v_institutional_reform_quality_assurance_system",
+  "v_regional_qualifications_framework_quality_assurance_system",
+  "v_quality_assurance_office_quality_assurance_system",
+  "v_quality_assurance_office_capacity_building_training",
+  "v_capacity_building_training_quality_assurance_office",
+  "v_capacity_building_training_national_commission_detail",
+  "v_capacity_building_training_quality_assurance_system",
+  "v_national_commission_quality_assurance_system",
+  "v_national_commission_capacity_building_training",
+  "v_national_commission_university_detail",
+  "v_university_quality_assurance_system",
+  "v_university_national_commission",
+  "v_university_capacity_building_training"
+ ]
+}

@@ -1,0 +1,5 @@
+id,level,institution_type,status,special_interest_group_id,research_area_id
+1000,undergraduate,university,proposed,1,100
+1001,graduate,college,implemented,2,101
+1002,doctoral,university,reviewed,3,102
+1003,undergraduate,college,proposed,4,103

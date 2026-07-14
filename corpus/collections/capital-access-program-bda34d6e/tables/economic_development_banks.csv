@@ -1,0 +1,5 @@
+economic_development_bank_id,bank_identifier,bank_name,founding_year,governing_office,total_financed_amount,bond_issuance_authority,jurisdiction,financial_development_corporation_id,infrastructure_project_id,small_business_id
+1,BAN-2796,Compact Initiative,43,seasonal-governin-29,"25,211",false,regional-jurisdic-30,1,100,1
+2,BAN-2798,Legacy Model,48,regional-governin-30,"27,602",true,legacy-jurisdic-31,2,101,2
+3,BAN-2800,Regional Cluster A,53,legacy-governin-31,"11,121",false,compact-jurisdic-32,3,102,3
+4,BAN-2802,Seasonal Review,58,compact-governin-32,233.57,true,composite-jurisdic-33,4,103,4

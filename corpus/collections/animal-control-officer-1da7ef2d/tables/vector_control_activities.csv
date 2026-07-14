@@ -1,0 +1,5 @@
+id,activity_id,spray_date,treated_area,chemical_agent,calibration_status,report_status,animal_control_officer_id
+1,8843761,2025-04-06T03:33:00,regional-treated-72,distributed-chemical-48,Pending,Draft,100
+2,4180957,2022-09-17T10:50:00,legacy-treated-73,baseline-chemical-49,Calibrated,Submitted,101
+3,168545,2023-02-01T17:07:00,compact-treated-74,pilot-chemical-50,Failed,Reviewed,102
+4,default_chart_a_account_53,2024-07-12T00:24:00,composite-treated-75,extended-chemical-51,Pending,Draft,103

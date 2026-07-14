@@ -1,0 +1,5 @@
+id,rig_identifier,rig_type,joint_count,has_controls,is_constrained,digital_asset_id,animation_control_id
+1000,RIG-2762,IK,0,true,false,1,1
+1001,RIG-2763,FK,14,false,true,2,2
+1002,RIG-2764,Blendshape,6,true,false,3,3
+1003,RIG-2765,IK,9,false,true,4,4

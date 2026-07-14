@@ -1,0 +1,5 @@
+id,legal_name,ticker_symbol,market_listing,headquarters_country,market_segment,corporate_executive_id,consultant_id,financial_advisor_id,communications_advisor_id
+1,Adaptive Model,composite-ticker-63,compact-market-14,regional-headquar-42,primary-market-10,1,1,1000,100
+2,Primary Cluster,primary-ticker-64,composite-market-15,legacy-headquar-43,adaptive-market-11,2,2,1001,101
+3,Composite Review D,adaptive-ticker-65,primary-market-16,compact-headquar-44,distributed-market-12,3,3,1002,102
+4,Compact Initiative,distributed-ticker-66,adaptive-market-17,composite-headquar-45,baseline-market-13,4,4,1003,103

@@ -1,0 +1,5 @@
+practice_activity_id,activity_id,activity_name,duration_minutes,complexity_level,is_hands_on,completion_rate,workshop_session_id,learning_module_id
+1000,8843761,Composite Programme,35,low,true,19.70,1,1
+1001,4180957,Compact Standard A,38,medium,false,22.40,2,2
+1002,168545,Legacy Framework,41,high,true,25.10,3,3
+1003,default_chart_a_account_53,Regional Protocol,44,low,false,27.80,4,4

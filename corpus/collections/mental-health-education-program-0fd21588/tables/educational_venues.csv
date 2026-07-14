@@ -1,0 +1,5 @@
+educational_venue_id,venue_identifier,venue_name,address,venue_type,capacity,is_accessible,mental_health_education_program_id,youth_demographic_id,created_at,updated_at
+100,VEN-2731,Legacy Review D,distributed-address-72,school,32,true,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,VEN-2734,Regional Initiative,baseline-address-73,community center,41,false,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,VEN-2737,Seasonal Model,pilot-address-74,conference hall,50,true,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,VEN-2740,Integrated Cluster A,extended-address-75,online,59,false,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

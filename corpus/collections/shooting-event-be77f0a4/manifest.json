@@ -1,0 +1,183 @@
+{
+ "construct_id": "be77f0a4f0f9f185",
+ "slug": "shooting-event-be77f0a4",
+ "passage": "be77f0a4f0f9f185230db8c374361a0f3e6774c23c4aa0c9c5c2a14e4e493326.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 13,
+ "entities": [
+  "ShootingEvent",
+  "Shooter",
+  "Discipline",
+  "CompetitionResult",
+  "TeamResult"
+ ],
+ "terms": [
+  {
+   "name": "ShootingEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Shooter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Discipline",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CompetitionResult",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TeamResult",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "shoo_shooting_events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "host_city",
+    "host_country",
+    "start_date",
+    "end_date",
+    "status"
+   ]
+  },
+  {
+   "name": "shoo_shooters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shooter_id",
+    "first_name",
+    "last_name",
+    "nationality",
+    "gender",
+    "birth_date"
+   ]
+  },
+  {
+   "name": "shoo_disciplines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "discipline_id",
+    "discipline_name",
+    "weapon_type",
+    "distance",
+    "gender_category",
+    "format",
+    "event_id"
+   ]
+  },
+  {
+   "name": "shoo_competition_results",
+   "rows": 4,
+   "columns": [
+    "id",
+    "result_id",
+    "qualification_score",
+    "final_score",
+    "aggregate_score",
+    "rank",
+    "medal",
+    "status",
+    "shooter_id",
+    "discipline_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "shoo_team_results",
+   "rows": 4,
+   "columns": [
+    "team_result_id",
+    "total_score",
+    "rank",
+    "medal",
+    "team_name",
+    "discipline_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "shoo_shooting_eventsShooter",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "shooter_id"
+   ]
+  },
+  {
+   "name": "shoo_shooting_eventsCompetitionResult",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "competition_result_id"
+   ]
+  },
+  {
+   "name": "shoo_shootersShootingEvent",
+   "rows": 8,
+   "columns": [
+    "shooter_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "shoo_shootersDiscipline",
+   "rows": 8,
+   "columns": [
+    "shooter_id",
+    "discipline_id"
+   ]
+  },
+  {
+   "name": "shoo_shootersCompetitionResult",
+   "rows": 8,
+   "columns": [
+    "shooter_id",
+    "competition_result_id"
+   ]
+  },
+  {
+   "name": "shoo_disciplinesCompetitionResult",
+   "rows": 8,
+   "columns": [
+    "discipline_id",
+    "competition_result_id"
+   ]
+  },
+  {
+   "name": "shoo_team_resultsShooter",
+   "rows": 8,
+   "columns": [
+    "team_result_id",
+    "shooter_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_shooting_event_shooter_detail",
+  "v_shooting_event_competition_result_detail",
+  "v_shooter_shooting_event_detail",
+  "v_shooter_discipline_detail",
+  "v_shooter_competition_result_detail",
+  "v_discipline_shooting_event",
+  "v_discipline_competition_result_detail",
+  "v_competition_result_shooter",
+  "v_competition_result_discipline",
+  "v_competition_result_shooting_event",
+  "v_team_result_discipline",
+  "v_team_result_shooting_event",
+  "v_team_result_shooter_detail"
+ ]
+}

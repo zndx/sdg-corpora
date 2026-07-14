@@ -1,0 +1,5 @@
+id,isbn,title,publisher,edition,price,subject,grade_level,part_identifier,grade_level_id,publisher_id
+1000,2618568,Compact Initiative,pilot-publishe-50,baseline-edition-91,12.87,adaptive-subject-83,29,PAR-2423,1,1000
+1001,4277024,Legacy Model,extended-publishe-51,pilot-edition-92,35.45,distributed-subject-84,33,PAR-2427,2,1001
+1002,1208-0004-M,Regional Cluster A,integrated-publishe-52,extended-edition-93,29.24,baseline-subject-85,37,PAR-2431,3,1002
+1003,3717612,Seasonal Review,seasonal-publishe-53,integrated-edition-94,29.99,pilot-subject-86,41,PAR-2435,4,1003

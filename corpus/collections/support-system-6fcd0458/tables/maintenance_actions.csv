@@ -1,0 +1,5 @@
+id,maintenance_id,start_date,end_date,action_type,completes_on_schedule,support_system_id,limiting_condition_of_operation_id
+100,7731858,2022-09-05T20:24:00,2022-09-01T08:00:00,Preventive,true,1,100
+101,790469,2023-02-16T03:41:00,2023-02-12T15:17:00,Corrective,false,2,101
+102,ChIJva--s4Ft5kcRMr0K3mWJ1W4,2024-07-27T10:58:00,2024-07-23T22:34:00,Inspection,true,3,102
+103,1996917,2025-12-11T17:15:00,2025-12-07T05:51:00,Preventive,false,4,103

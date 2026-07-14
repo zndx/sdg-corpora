@@ -1,0 +1,163 @@
+{
+ "construct_id": "0ccbcdcf9b4d492f",
+ "slug": "prescribed-entity-0ccbcdcf",
+ "passage": "0ccbcdcf9b4d492faa8b3515c1fddc334c6f6b015cde478f1fed98069f8ca7c0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "PrescribedEntity",
+  "PrivacyReview",
+  "HealthInformationCustodian",
+  "ComplianceRecommendation",
+  "HealthRegistry",
+  "PatientRecord",
+  "Patient"
+ ],
+ "terms": [
+  {
+   "name": "PrescribedEntity",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PrivacyReview",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthInformationCustodian",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ComplianceRecommendation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthRegistry",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PatientRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "prescribed_entities",
+   "rows": 4,
+   "columns": [
+    "prescribed_entity_id",
+    "entity_identifier",
+    "entity_name",
+    "prescription_date",
+    "approval_status",
+    "review_cycle",
+    "privacy_review_id",
+    "health_information_custodian_id",
+    "health_registry_id"
+   ]
+  },
+  {
+   "name": "privacy_reviews",
+   "rows": 4,
+   "columns": [
+    "id",
+    "review_id",
+    "review_date",
+    "review_type",
+    "review_outcome",
+    "reviewer_name",
+    "prescribed_entity_id",
+    "compliance_recommendation_id"
+   ]
+  },
+  {
+   "name": "health_information_custodians",
+   "rows": 4,
+   "columns": [
+    "health_information_custodian_id",
+    "custodian_id",
+    "custodian_name",
+    "custodian_type",
+    "registration_date",
+    "compliance_status",
+    "prescribed_entity_id"
+   ]
+  },
+  {
+   "name": "compliance_recommendations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recommendation_id",
+    "issue_date",
+    "priority_level",
+    "status",
+    "description",
+    "privacy_review_id",
+    "prescribed_entity_id"
+   ]
+  },
+  {
+   "name": "health_registries",
+   "rows": 4,
+   "columns": [
+    "health_registry_id",
+    "registry_id",
+    "registry_name",
+    "data_category",
+    "last_updated",
+    "record_count",
+    "prescribed_entity_id",
+    "patient_record_id"
+   ]
+  },
+  {
+   "name": "patient_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "patient_id",
+    "diagnosis_code",
+    "treatment_date",
+    "consent_status",
+    "health_registry_id",
+    "linked_to_patient_patient_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "patient_id",
+    "date_of_birth",
+    "gender",
+    "residence_code",
+    "patient_record_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_prescribed_entity_privacy_review",
+  "v_prescribed_entity_health_information_custodian",
+  "v_prescribed_entity_health_registry",
+  "v_privacy_review_prescribed_entity",
+  "v_privacy_review_compliance_recommendation",
+  "v_health_information_custodian_prescribed_entity",
+  "v_compliance_recommendation_privacy_review",
+  "v_compliance_recommendation_prescribed_entity",
+  "v_health_registry_prescribed_entity",
+  "v_health_registry_patient_record",
+  "v_patient_record_health_registry",
+  "v_patient_record_patient",
+  "v_patient_patient_record"
+ ]
+}

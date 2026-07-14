@@ -1,0 +1,5 @@
+id,has_given_name,has_family_name,has_occupation_role,has_residence_location,has_ancestral_origin_location,human_person_id,has_spouse_human_person_id,settlement_id,census_registration_id
+1000,Kona International Airport,Cheryl Bradley,extended-occupati-81,distributed-residenc-90,integrated-ancestra-46,1000,1000,1,1
+1001,Collin Lopez,Mary Alvarez,integrated-occupati-82,baseline-residenc-91,seasonal-ancestra-47,1001,1001,2,2
+1002,Susan Wagner,Stefanie Lara,seasonal-occupati-83,pilot-residenc-92,regional-ancestra-48,1002,1002,3,3
+1003,Sean Green,Desiree Cain,regional-occupati-84,extended-residenc-93,legacy-ancestra-49,1003,1003,4,4

@@ -1,0 +1,5 @@
+id,lens_identifier,manufacturer,model_number,focal_length,max_aperture,mount_compatibility,is_prime,camera_device_id
+1000,LEN-2269,Standard Chartered,MOD-2238,0.68,18.70,integrated-mount-34,true,1
+1001,LEN-2272,General Motors,MOD-2244,0.29376482,21.40,seasonal-mount-35,false,2
+1002,LEN-2275,Column Name cannot be empty,MOD-2250,0.6,24.10,regional-mount-36,true,3
+1003,LEN-2278,Financial Information Service Co. Ltd.,MOD-2256,0.6000001,26.80,legacy-mount-37,false,4

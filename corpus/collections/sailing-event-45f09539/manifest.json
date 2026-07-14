@@ -1,0 +1,175 @@
+{
+ "construct_id": "45f09539e0e72eb0",
+ "slug": "sailing-event-45f09539",
+ "passage": "45f09539e0e72eb049520515de09b0c95e32466d52dc98fba25c3832fdec6ffb.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 15,
+ "entities": [
+  "SailingEvent",
+  "Captain",
+  "CrewMember",
+  "Sailboat",
+  "Dock",
+  "PFD"
+ ],
+ "terms": [
+  {
+   "name": "SailingEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Captain",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "CrewMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Sailboat",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Dock",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "PFD",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "sailing_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_date",
+    "event_type",
+    "status",
+    "max_capacity",
+    "actual_participants",
+    "captain_id",
+    "sailboat_id",
+    "dock_id"
+   ]
+  },
+  {
+   "name": "captains",
+   "rows": 4,
+   "columns": [
+    "captain_id",
+    "license_number",
+    "years_experience",
+    "current_status",
+    "sailboat_id",
+    "sailing_event_id"
+   ]
+  },
+  {
+   "name": "crew_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "crew_id",
+    "pfd_required",
+    "pfd_worn",
+    "role",
+    "sailing_event_id",
+    "sailboat_id"
+   ]
+  },
+  {
+   "name": "sailboats",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vessel_id",
+    "vessel_name",
+    "design_heel_angle",
+    "keel_material",
+    "current_heel_angle",
+    "status",
+    "dock_id",
+    "sailing_event_id"
+   ]
+  },
+  {
+   "name": "docks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dock_id",
+    "dock_name",
+    "location",
+    "capacity"
+   ]
+  },
+  {
+   "name": "p_f_ds",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pfd_id",
+    "size",
+    "certification_standard",
+    "crew_member_id",
+    "sailboat_id"
+   ]
+  },
+  {
+   "name": "events_members",
+   "rows": 8,
+   "columns": [
+    "sailing_event_id",
+    "crew_member_id"
+   ]
+  },
+  {
+   "name": "sailboats_ds",
+   "rows": 8,
+   "columns": [
+    "sailboat_id",
+    "p_f_d_id"
+   ]
+  },
+  {
+   "name": "docks_events",
+   "rows": 8,
+   "columns": [
+    "dock_id",
+    "sailing_event_id"
+   ]
+  },
+  {
+   "name": "docks_sailboats",
+   "rows": 8,
+   "columns": [
+    "dock_id",
+    "sailboat_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_sailing_event_captain",
+  "v_sailing_event_crew_member_detail",
+  "v_sailing_event_sailboat",
+  "v_sailing_event_dock",
+  "v_captain_sailboat",
+  "v_captain_sailing_event",
+  "v_crew_member_sailing_event",
+  "v_crew_member_sailboat",
+  "v_sailboat_dock",
+  "v_sailboat_p_f_d_detail",
+  "v_sailboat_sailing_event",
+  "v_dock_sailing_event_detail",
+  "v_dock_sailboat_detail",
+  "v_p_f_d_crew_member",
+  "v_p_f_d_sailboat"
+ ]
+}

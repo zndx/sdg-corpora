@@ -1,0 +1,5 @@
+dining_occasion_id,occasion_id,name,duration_minutes,is_available,pricing_tier_id
+1,b_V-ART-43,Extended Review,35,true,1
+2,24371134,Pilot Initiative A,38,false,2
+3,10966239,Baseline Model,41,true,3
+4,611517,Distributed Cluster,44,false,4

@@ -1,0 +1,5 @@
+learning_management_system_id,lms_id,lms_name,supports_assignment_creation,access_via_clever,authentication_method_id
+1,1562842,Compact Initiative,false,true,1000
+2,4793487,Legacy Model,true,false,1001
+3,209229,Regional Cluster A,false,true,1002
+4,8387540,Seasonal Review,true,false,1003

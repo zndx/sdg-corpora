@@ -1,0 +1,5 @@
+id,ingredient_identifier,ingredient_name,ingredient_category,allergen_flag,origin_region,is_organic,menu_course_id
+1,ING-2304,Pilot Assessment,Protein,false,baseline-origin-61,false,100
+2,ING-2310,Baseline Survey,Vegetable,true,pilot-origin-62,true,101
+3,ING-2316,Distributed Corridor A,Dairy,false,extended-origin-63,false,102
+4,ING-2322,Adaptive Series,Grain,true,integrated-origin-64,true,103

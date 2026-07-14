@@ -1,0 +1,5 @@
+id,facility_id,name,type,location,session_id,created_at
+1000,69447,Extended Review,hospital,extended-location-99,1186087,2025-01-01 00:14:00
+1001,1040,Pilot Initiative A,hemodialysis_center,integrated-location-100,2087748,2025-02-06 03:14:00
+1002,2986228,Baseline Model,hospital,seasonal-location-101,4716414,2025-03-11 06:14:00
+1003,ChIJvSxSbfdv5kcRanVzI8RRu20,Distributed Cluster,hemodialysis_center,regional-location-102,005588c4-9bac-11eb-a8a2-19ed5c03f8d3,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+staff_member_id,staff_id,full_name,role,access_level,hire_date,video_surveillance_data_id,incident_id,reports_to_staff_member_id
+100,937735,Theodore Mcgrath,library_director,full,2023-06-01,1,1336174,100
+101,3158139,Account Name,board_chair,limited,2024-11-12,2,state_uk_4,101
+102,8189502,Saipan International Airport,staff,none,2025-04-23,3,2933483,102
+103,69438,Norma Fisher,other,full,2022-09-07,4,2986243,103

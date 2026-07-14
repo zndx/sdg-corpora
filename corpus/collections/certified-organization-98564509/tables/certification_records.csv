@@ -1,0 +1,5 @@
+certificate_identity_number,approval_number,current_issue_date,expiry_date,scope_description,status,certified_organization_id,management_standard_id,certification_body_id,auditor_id,certification_record_certificate_identity_number
+CER-2539,APP-2621,2023-10-24T21:51:00,2023-10-24,Integrated Model A,active,1,1,1,1000,CER-2539
+CER-2544,APP-2628,2024-03-08T04:08:00,2024-03-08,Extended Cluster,expired,2,2,2,1001,CER-2544
+CER-2549,APP-2635,2025-08-19T11:25:00,2025-08-19,Pilot Review,suspended,3,3,3,1002,CER-2549
+CER-2554,APP-2642,2022-01-03T18:42:00,2022-01-03,Baseline Initiative D,withdrawn,4,4,4,1003,CER-2554

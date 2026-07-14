@@ -1,0 +1,5 @@
+facility_zone_id,zone_code,zone_name,occupancy_limit,hazard_rating,last_inspection_date,safety_incident_id,workplace_activity_id
+1,974943,Pilot Series,21,low,2025-04-12,1,1000
+2,2002007020170,Baseline Assessment,27,medium,2022-09-23,2,1001
+3,9424913,Distributed Survey A,33,high,2023-02-07,3,1002
+4,lu_tax_code_template_m14,Adaptive Corridor,39,low,2024-07-18,4,1003

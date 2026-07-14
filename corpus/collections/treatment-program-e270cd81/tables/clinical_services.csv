@@ -1,0 +1,5 @@
+service_code,service_name,service_type,frequency,duration,status,treatment_program_id,patient_id,risk_assessment_id
+20789856,Distributed Initiative,individual_therapy,regional-frequenc-36,28,scheduled,1,8387541,1
+3990167,Adaptive Model D,family_therapy,legacy-frequenc-37,36,completed,2,10207142,2
+14484998,Primary Cluster,group_therapy,compact-frequenc-38,44,cancelled,3,7119782,3
+Total,Composite Review,urine_screening,composite-frequenc-39,52,scheduled,4,gd_acc_160003,4

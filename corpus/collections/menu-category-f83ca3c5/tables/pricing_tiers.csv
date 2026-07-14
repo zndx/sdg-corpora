@@ -1,0 +1,5 @@
+id,tier_code,tier_label,price,portion_size,is_add_on,item_code,addon_code
+100,7119779,Seasonal Survey,12.87,half,true,ITE-2446,3012834
+101,9424931,Integrated Corridor,35.45,whole,false,ITE-2452,17618
+102,1889785,Extended Series D,29.24,cup,true,ITE-2458,IVC10
+103,1186107,Pilot Assessment,29.99,bowl,false,ITE-2464,209229

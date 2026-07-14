@@ -1,0 +1,5 @@
+id,software_identifier,product_name,retail_price,supported_operating_system,currency_code,compatibility_status,hardware_scanner_device_id,optical_character_recognition_engine_id
+1000,SOF-2031,Primary Review A,29.99,distributed-supporte-36,1235,compatible,1000,100
+1001,SOF-2038,Composite Initiative,27.02,baseline-supporte-37,10782179,incompatible,1001,101
+1002,SOF-2045,Compact Model,11.11,pilot-supporte-38,9125631,unknown,1002,102
+1003,SOF-2052,Legacy Cluster D,35.45,extended-supporte-39,4e386610-8fcc-11eb-924d-9cd76263cbd0,compatible,1003,103

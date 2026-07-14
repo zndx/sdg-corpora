@@ -1,0 +1,5 @@
+id,identifier,name,area_size,establishment_date,management_status,zoning_classification,country_code,management_unit_id,project_id
+1,IDE-2086,Extended Review,1.52,2024-07-11,active,national_park,FR,1000,1
+2,IDE-2091,Pilot Initiative A,0.65,2025-12-22,inactive,nature_reserve,IT,1001,2
+3,IDE-2096,Baseline Model,0.43012016,2022-05-06,pending,landscape_park,DE,1002,3
+4,IDE-2101,Distributed Cluster,0.6000001,2023-10-17,active,biosphere_reserve,AT,1003,4

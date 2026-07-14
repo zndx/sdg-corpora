@@ -1,0 +1,193 @@
+{
+ "construct_id": "76178f37f45c1c2e",
+ "slug": "social-media-account-76178f37",
+ "passage": "76178f37f45c1c2e96ae391b1cbf4899050f8b9df07bf5f6f4195827798dabaf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 17,
+ "entities": [
+  "SocialMediaAccount",
+  "StaffMember",
+  "EducationalInstitution",
+  "AccountRegister",
+  "SocialMediaPolicy",
+  "TeachingCouncilCode"
+ ],
+ "terms": [
+  {
+   "name": "SocialMediaAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "EducationalInstitution",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AccountRegister",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SocialMediaPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TeachingCouncilCode",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "SocialMediaAccount",
+   "rows": 4,
+   "columns": [
+    "accountId",
+    "platformName",
+    "accountType",
+    "creationDate",
+    "status",
+    "lastLoginDate",
+    "passwordHash",
+    "memberId",
+    "registerId",
+    "policyId"
+   ]
+  },
+  {
+   "name": "StaffMember",
+   "rows": 4,
+   "columns": [
+    "memberId",
+    "staffId",
+    "fullName",
+    "employmentStatus",
+    "role",
+    "dateOfCommencement",
+    "emailAddress",
+    "department",
+    "accountId",
+    "institutionId",
+    "codeId"
+   ]
+  },
+  {
+   "name": "EducationalInstitution",
+   "rows": 4,
+   "columns": [
+    "institutionId",
+    "institutionName",
+    "institutionType",
+    "address",
+    "principalName",
+    "dateEstablished",
+    "registerId",
+    "policyId"
+   ]
+  },
+  {
+   "name": "AccountRegister",
+   "rows": 4,
+   "columns": [
+    "registerId",
+    "institutionId",
+    "lastAuditDate",
+    "totalActiveAccounts",
+    "complianceStatus",
+    "recordFormat",
+    "maintainedByInstitutionId",
+    "memberId"
+   ]
+  },
+  {
+   "name": "SocialMediaPolicy",
+   "rows": 4,
+   "columns": [
+    "policyId",
+    "title",
+    "adoptionDate",
+    "version",
+    "issuingAuthority",
+    "scope",
+    "codeId"
+   ]
+  },
+  {
+   "name": "TeachingCouncilCode",
+   "rows": 4,
+   "columns": [
+    "id",
+    "codeId",
+    "codeTitle",
+    "issuingBody",
+    "effectiveDate",
+    "sectionNumber",
+    "policyId"
+   ]
+  },
+  {
+   "name": "EducationalInstitutionStaffMember",
+   "rows": 8,
+   "columns": [
+    "institutionId",
+    "memberId"
+   ]
+  },
+  {
+   "name": "AccountRegisterSocialMediaAccount",
+   "rows": 8,
+   "columns": [
+    "registerId",
+    "accountId"
+   ]
+  },
+  {
+   "name": "SocialMediaPolicyStaffMember",
+   "rows": 8,
+   "columns": [
+    "policyId",
+    "memberId"
+   ]
+  },
+  {
+   "name": "SocialMediaPolicySocialMediaAccount",
+   "rows": 8,
+   "columns": [
+    "policyId",
+    "accountId"
+   ]
+  },
+  {
+   "name": "TeachingCouncilCodeStaffMember",
+   "rows": 8,
+   "columns": [
+    "codeId",
+    "memberId"
+   ]
+  }
+ ],
+ "views": [
+  "social_media_account_staff_member_view",
+  "social_media_account_account_register_view",
+  "social_media_account_social_media_policy_view",
+  "staff_member_social_media_account_view",
+  "staff_member_educational_institution_view",
+  "staff_member_teaching_council_code_view",
+  "educational_institution_account_register_view",
+  "educational_institution_staff_member_detail_view",
+  "educational_institution_social_media_policy_view",
+  "account_register_social_media_account_detail_view",
+  "account_register_educational_institution_view",
+  "account_register_staff_member_view",
+  "social_media_policy_staff_member_detail_view",
+  "social_media_policy_social_media_account_detail_view",
+  "social_media_policy_teaching_council_code_view",
+  "teaching_council_code_staff_member_detail_view",
+  "teaching_council_code_social_media_policy_view"
+ ]
+}

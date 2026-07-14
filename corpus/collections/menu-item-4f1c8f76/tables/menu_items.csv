@@ -1,0 +1,5 @@
+menu_item_id,item_id,name,price,description,weight,cooking_time,is_vegetarian,is_vegan,menu_category_id,ingredient_id,side_dish_id
+1,ITE-2792,Extended Review,12.87,Extended Survey,pilot-weight-32,extended-cooking-63,true,false,1,1000,1
+2,ITE-2795,Pilot Initiative A,35.45,Pilot Corridor A,extended-weight-33,integrated-cooking-64,false,true,2,1001,2
+3,ITE-2798,Baseline Model,29.24,Baseline Series,integrated-weight-34,seasonal-cooking-65,true,false,3,1002,3
+4,ITE-2801,Distributed Cluster,29.99,Distributed Assessment,seasonal-weight-35,regional-cooking-66,false,true,4,1003,4

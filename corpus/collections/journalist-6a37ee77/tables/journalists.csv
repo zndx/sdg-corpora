@@ -1,0 +1,5 @@
+journalist_id,callsign,birth_date,death_date,birth_place,education_institution,primary_employer,is_retired,news_organization_id,historical_event_id
+1,integrated-callsign-16,2023-10-18,2022-01-12,baseline-birth-61,baseline-educatio-25,Ontrak Inc.,false,100,1
+2,seasonal-callsign-17,2024-03-02,2023-06-23,pilot-birth-62,pilot-educatio-26,Grant Type,true,101,2
+3,regional-callsign-18,2025-08-13,2024-11-07,extended-birth-63,extended-educatio-27,ABIOMED Inc,false,102,3
+4,legacy-callsign-19,2022-01-24,2025-04-18,integrated-birth-64,integrated-educatio-28,The College-Ready Promise,true,103,4

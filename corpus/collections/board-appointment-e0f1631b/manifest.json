@@ -1,0 +1,154 @@
+{
+ "construct_id": "e0f1631bcb384e61",
+ "slug": "board-appointment-e0f1631b",
+ "passage": "e0f1631bcb384e61619ced524201dc81f4b9bcc2d0ffeebdf255f818e7342575.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "BoardAppointment",
+  "NonProfitOrganization",
+  "Person",
+  "LawFirm",
+  "FundingSource",
+  "AffiliateCouncil"
+ ],
+ "terms": [
+  {
+   "name": "BoardAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NonProfitOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "LawFirm",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FundingSource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AffiliateCouncil",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "board_appointments",
+   "rows": 4,
+   "columns": [
+    "board_appointment_id",
+    "appointment_id",
+    "appointment_date",
+    "role_title",
+    "term_start_date",
+    "term_end_date",
+    "appointment_status",
+    "person_id",
+    "non_profit_organization_id",
+    "succeeds_previous_appointee_person_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "non_profit_organizations",
+   "rows": 4,
+   "columns": [
+    "non_profit_organization_id",
+    "organization_id",
+    "legal_name",
+    "tax_status",
+    "founding_date",
+    "headquarters_location",
+    "website_url",
+    "contact_phone_number",
+    "board_appointment_id",
+    "has_affiliate_non_profit_organization_id",
+    "funding_source_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "first_name",
+    "last_name",
+    "professional_title",
+    "affiliated_organization",
+    "contact_email",
+    "contact_phone_number",
+    "board_appointment_id",
+    "firm_id",
+    "affiliate_council_id"
+   ]
+  },
+  {
+   "name": "law_firms",
+   "rows": 4,
+   "columns": [
+    "firm_id",
+    "firm_name",
+    "founding_year",
+    "primary_practice_areas",
+    "office_locations",
+    "legal_entity_status",
+    "person_id"
+   ]
+  },
+  {
+   "name": "funding_sources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "source_id",
+    "source_type",
+    "source_name",
+    "contribution_amount",
+    "contribution_date",
+    "contribution_status",
+    "non_profit_organization_id"
+   ]
+  },
+  {
+   "name": "affiliate_councils",
+   "rows": 4,
+   "columns": [
+    "id",
+    "council_id",
+    "council_name",
+    "network_parent",
+    "member_count",
+    "scope_description",
+    "person_id",
+    "non_profit_organization_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_board_appointment_person",
+  "v_board_appointment_non_profit_organization",
+  "v_non_profit_organization_board_appointment",
+  "v_non_profit_organization_non_profit_organization",
+  "v_non_profit_organization_funding_source",
+  "v_person_board_appointment",
+  "v_person_law_firm",
+  "v_person_affiliate_council",
+  "v_law_firm_person",
+  "v_funding_source_non_profit_organization",
+  "v_affiliate_council_person",
+  "v_affiliate_council_non_profit_organization"
+ ]
+}

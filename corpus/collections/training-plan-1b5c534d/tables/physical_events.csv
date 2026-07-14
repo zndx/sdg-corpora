@@ -1,0 +1,5 @@
+physical_event_id,event_identifier,event_name,event_date,distance_km,event_status
+1,EVE-2706,Seasonal Standard,2025-04-15T15:21:00,254.69342,upcoming
+2,EVE-2707,Integrated Framework,2022-09-26T22:38:00,0.075,ongoing
+3,EVE-2708,Extended Protocol D,2023-02-10T05:55:00,150.80444,completed
+4,EVE-2709,Pilot Programme,2024-07-21T12:12:00,37.5,cancelled

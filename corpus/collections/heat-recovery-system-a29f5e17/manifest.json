@@ -1,0 +1,155 @@
+{
+ "construct_id": "a29f5e1785b5174c",
+ "slug": "heat-recovery-system-a29f5e17",
+ "passage": "a29f5e1785b5174c49e8ff3b9ae2992ac67568932cd9ffbb0f33670fb4ee00d5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "HeatRecoverySystem",
+  "PulpMill",
+  "ExhaustStream",
+  "HeatSink",
+  "SteamTurbine",
+  "ProcessWater"
+ ],
+ "terms": [
+  {
+   "name": "HeatRecoverySystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PulpMill",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ExhaustStream",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "HeatSink",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SteamTurbine",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ProcessWater",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "heat_recovery_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_identifier",
+    "system_model",
+    "design_capacity",
+    "commissioning_date",
+    "delivery_mode",
+    "status",
+    "pulp_mill_id",
+    "exhaust_stream_id"
+   ]
+  },
+  {
+   "name": "pulp_mills",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mill_identifier",
+    "location",
+    "country",
+    "operational_status",
+    "primary_product",
+    "heat_recovery_system_id",
+    "steam_turbine_id"
+   ]
+  },
+  {
+   "name": "exhaust_streams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "stream_identifier",
+    "source_process",
+    "temperature",
+    "humidity_level",
+    "flow_rate",
+    "fouling_potential",
+    "heat_recovery_system_id",
+    "pulp_mill_id"
+   ]
+  },
+  {
+   "name": "heat_sinks",
+   "rows": 4,
+   "columns": [
+    "heat_sink_id",
+    "sink_identifier",
+    "sink_type",
+    "target_temperature",
+    "flow_volume",
+    "unit_count",
+    "heat_recovery_system_id",
+    "pulp_mill_id"
+   ]
+  },
+  {
+   "name": "steam_turbines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "turbine_identifier",
+    "power_output",
+    "steam_input_rate",
+    "operational_season",
+    "heat_sink_id",
+    "pulp_mill_id"
+   ]
+  },
+  {
+   "name": "process_waters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "water_identifier",
+    "usage_type",
+    "flow_rate",
+    "temperature",
+    "preheated_by",
+    "heat_recovery_system_id",
+    "pulp_mill_id"
+   ]
+  },
+  {
+   "name": "systems_sinks",
+   "rows": 8,
+   "columns": [
+    "heat_recovery_system_id",
+    "heat_sink_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_heat_recovery_system_pulp_mill",
+  "vw_heat_recovery_system_exhaust_stream",
+  "vw_heat_recovery_system_heat_sink_detail",
+  "vw_pulp_mill_heat_recovery_system",
+  "vw_pulp_mill_steam_turbine",
+  "vw_exhaust_stream_heat_recovery_system",
+  "vw_exhaust_stream_pulp_mill",
+  "vw_heat_sink_heat_recovery_system",
+  "vw_heat_sink_pulp_mill",
+  "vw_steam_turbine_heat_sink",
+  "vw_steam_turbine_pulp_mill",
+  "vw_process_water_heat_recovery_system",
+  "vw_process_water_pulp_mill"
+ ]
+}

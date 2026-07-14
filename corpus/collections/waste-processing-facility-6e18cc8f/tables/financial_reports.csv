@@ -1,0 +1,5 @@
+id,report_id,report_type,fiscal_year,reporting_period_start,reporting_period_end,status,prepared_by_staff_id,waste_processing_facility_id,financial_staff_id,created_at
+1,1202-0008-S,budget,17,2023-02-20,2024-03-23,draft,template_impcode_pagata_10det50,1000,100,2025-01-01 00:14:00
+2,8189500,quarterly,20,2024-07-04,2025-08-07,review,template_impcode_pagata_4ind,1001,101,2025-02-06 03:14:00
+3,L355,annual,23,2025-12-15,2022-01-18,approved,state_et_9,1002,102,2025-03-11 06:14:00
+4,5844272,risk_assessment,26,2022-05-26,2023-06-02,archived,ChIJ20iLSYBt5kcRpX1RdgTAmNY,1003,103,2025-04-16 09:14:00

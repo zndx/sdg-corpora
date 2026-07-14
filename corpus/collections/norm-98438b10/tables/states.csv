@@ -1,0 +1,5 @@
+id,state_id,state_index,is_initial_state,satisfied_atoms,timestamp,physical_transition_system_id,transitions_to_state_id,norm_id
+1,1336177,11,false,pilot-satisfie-92,2024-07-08T18:18:00,1,1,1
+2,2839516,14,true,extended-satisfie-93,2025-12-19T01:35:00,2,2,2
+3,5844255,17,false,integrated-satisfie-94,2022-05-03T08:52:00,3,3,3
+4,325467,20,true,seasonal-satisfie-95,2023-10-14T15:09:00,4,4,4

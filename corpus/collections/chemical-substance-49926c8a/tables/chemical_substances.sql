@@ -1,0 +1,20 @@
+CREATE TABLE chemical_substances (
+  chemical_substance_id INTEGER NOT NULL,
+  cas_number VARCHAR(32),
+  common_name VARCHAR(32),
+  molecular_formula VARCHAR(32),
+  physical_state VARCHAR(32),
+  solubility_in_water BOOLEAN,
+  solubility_in_organic_solvents VARCHAR(32),
+  melting_point DECIMAL,
+  boiling_point DECIMAL,
+  carcinogenicity_assessment_id INTEGER,
+  pharmacokinetic_parameter_id INTEGER,
+  has_half_life_in_rodents_pharmacokinetic_parameter_id INTEGER,
+  receptor_id INTEGER,
+  PRIMARY KEY (chemical_substance_id),
+  FOREIGN KEY (carcinogenicity_assessment_id) REFERENCES carcinogenicity_assessments (carcinogenicity_assessment_id),
+  FOREIGN KEY (pharmacokinetic_parameter_id) REFERENCES pharmacokinetic_parameters (id),
+  FOREIGN KEY (has_half_life_in_rodents_pharmacokinetic_parameter_id) REFERENCES pharmacokinetic_parameters (id),
+  FOREIGN KEY (receptor_id) REFERENCES biological_receptors (receptor_id)
+);

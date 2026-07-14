@@ -1,0 +1,181 @@
+{
+ "construct_id": "55695748284d0b4d",
+ "slug": "top-level-domain-55695748",
+ "passage": "55695748284d0b4dca61cf3820bc85b8b306414b8596435510ad2fba2e4163d2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 14,
+ "entities": [
+  "TopLevelDomain",
+  "DomainName",
+  "AbuseType",
+  "AbuseRate",
+  "ZoneFile",
+  "SecurityProtocol"
+ ],
+ "terms": [
+  {
+   "name": "TopLevelDomain",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DomainName",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AbuseType",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AbuseRate",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ZoneFile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SecurityProtocol",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "top_level_domains",
+   "rows": 4,
+   "columns": [
+    "top_level_domain_id",
+    "tld_identifier",
+    "delegation_date",
+    "registry_operator",
+    "is_delegated",
+    "total_registered_names",
+    "retail_price",
+    "abuse_rate_id",
+    "security_protocol_id"
+   ]
+  },
+  {
+   "name": "domain_names",
+   "rows": 4,
+   "columns": [
+    "domain_name_id",
+    "domain_label",
+    "registration_date",
+    "expiration_date",
+    "registrant_id",
+    "status",
+    "is_privacy_protected",
+    "top_level_domain_id"
+   ]
+  },
+  {
+   "name": "abuse_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "abuse_code",
+    "description",
+    "severity_level",
+    "is_mitigated",
+    "abuse_rate_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "abuse_rates",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measurement_date",
+    "rate_value",
+    "sample_size",
+    "confidence_interval",
+    "data_source",
+    "top_level_domain_id",
+    "zone_file_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "zone_files",
+   "rows": 4,
+   "columns": [
+    "zone_file_id",
+    "file_id",
+    "capture_date",
+    "record_count",
+    "is_complete",
+    "storage_location",
+    "top_level_domain_id",
+    "abuse_rate_id"
+   ]
+  },
+  {
+   "name": "security_protocols",
+   "rows": 4,
+   "columns": [
+    "id",
+    "protocol_name",
+    "version",
+    "deployment_status",
+    "last_verified",
+    "top_level_domain_id",
+    "abuse_rate_id"
+   ]
+  },
+  {
+   "name": "domains_names",
+   "rows": 8,
+   "columns": [
+    "top_level_domain_id",
+    "domain_name_id"
+   ]
+  },
+  {
+   "name": "types_names",
+   "rows": 8,
+   "columns": [
+    "abuse_type_id",
+    "domain_name_id"
+   ]
+  },
+  {
+   "name": "rates_types",
+   "rows": 8,
+   "columns": [
+    "abuse_rate_id",
+    "abuse_type_id"
+   ]
+  },
+  {
+   "name": "files_names",
+   "rows": 8,
+   "columns": [
+    "zone_file_id",
+    "domain_name_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_top_level_domain_domain_name_detail",
+  "vw_top_level_domain_abuse_rate",
+  "vw_top_level_domain_security_protocol",
+  "vw_domain_name_top_level_domain",
+  "vw_abuse_type_domain_name_detail",
+  "vw_abuse_type_abuse_rate",
+  "vw_abuse_rate_top_level_domain",
+  "vw_abuse_rate_abuse_type_detail",
+  "vw_abuse_rate_zone_file",
+  "vw_zone_file_top_level_domain",
+  "vw_zone_file_domain_name_detail",
+  "vw_zone_file_abuse_rate",
+  "vw_security_protocol_top_level_domain",
+  "vw_security_protocol_abuse_rate"
+ ]
+}

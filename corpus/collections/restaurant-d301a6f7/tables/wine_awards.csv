@@ -1,0 +1,5 @@
+id,award_id,award_name,issuing_organization,award_year,minimum_selections,is_grand_award,restaurant_id
+100,e02275d4-8fd1-11eb-924d-9cd76263cbd0,Primary Review A,Alphabet Inc Class A,36,36,false,1
+101,3012811,Composite Initiative,ITT Industries,43,45,true,2
+102,15493350,Compact Model,Switch Card Services Ltd.,50,54,false,3
+103,state_uk_17,Legacy Cluster D,Buypass AS,57,63,true,4

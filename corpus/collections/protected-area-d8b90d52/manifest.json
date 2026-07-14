@@ -1,0 +1,179 @@
+{
+ "construct_id": "d8b90d526540a222",
+ "slug": "protected-area-d8b90d52",
+ "passage": "d8b90d526540a22238964143b39b0765e845a594641c767db731efc07d35a772.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "ProtectedArea",
+  "ManagementUnit",
+  "Project",
+  "ProjectLeader",
+  "ALPARC",
+  "Event"
+ ],
+ "terms": [
+  {
+   "name": "ProtectedArea",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ManagementUnit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Project",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProjectLeader",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ALPARC",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "protected_areas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "area_size",
+    "establishment_date",
+    "management_status",
+    "zoning_classification",
+    "country_code",
+    "management_unit_id",
+    "project_id"
+   ]
+  },
+  {
+   "name": "management_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_id",
+    "unit_name",
+    "headquarters_location",
+    "establishment_date",
+    "legal_status",
+    "contact_email",
+    "protected_area_id",
+    "a_l_p_a_r_c_id"
+   ]
+  },
+  {
+   "name": "projects",
+   "rows": 4,
+   "columns": [
+    "project_id",
+    "project_name",
+    "start_date",
+    "end_date",
+    "funding_source",
+    "project_status",
+    "budget_amount",
+    "primary_objective",
+    "a_l_p_a_r_c_id",
+    "project_leader_employee_id"
+   ]
+  },
+  {
+   "name": "project_leaders",
+   "rows": 4,
+   "columns": [
+    "employee_id",
+    "full_name",
+    "contract_start_date",
+    "contract_end_date",
+    "primary_language",
+    "secondary_language",
+    "education_level",
+    "years_experience",
+    "a_l_p_a_r_c_id",
+    "project_id",
+    "management_unit_id"
+   ]
+  },
+  {
+   "name": "a_l_p_a_r_cs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "headquarters_city",
+    "headquarters_country",
+    "founding_year",
+    "website_url",
+    "total_members",
+    "project_id",
+    "project_leader_employee_id",
+    "management_unit_id"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "event_date",
+    "event_type",
+    "location",
+    "organizer",
+    "attendance_count",
+    "a_l_p_a_r_c_id",
+    "management_unit_id",
+    "project_leader_employee_id"
+   ]
+  },
+  {
+   "name": "projects_areas",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "protected_area_id"
+   ]
+  },
+  {
+   "name": "projects_units",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "management_unit_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_protected_area_management_unit",
+  "v_protected_area_project",
+  "v_management_unit_protected_area",
+  "v_management_unit_a_l_p_a_r_c",
+  "v_project_a_l_p_a_r_c",
+  "v_project_protected_area_detail",
+  "v_project_management_unit_detail",
+  "v_project_project_leader",
+  "v_project_leader_a_l_p_a_r_c",
+  "v_project_leader_project",
+  "v_project_leader_management_unit",
+  "v_a_l_p_a_r_c_project",
+  "v_a_l_p_a_r_c_project_leader",
+  "v_a_l_p_a_r_c_management_unit",
+  "v_event_a_l_p_a_r_c",
+  "v_event_management_unit",
+  "v_event_project_leader"
+ ]
+}

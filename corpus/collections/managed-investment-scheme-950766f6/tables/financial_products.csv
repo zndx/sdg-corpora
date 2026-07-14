@@ -1,0 +1,5 @@
+id,product_type,product_code,issue_price,minimum_investment,risk_rating,managed_investment_scheme_id,product_disclosure_statement_id
+1,unit,PRO-2675,30.51,20.20,low,1000,1
+2,share,PRO-2681,12.72,23.40,medium,1001,2
+3,bond,PRO-2687,43.48,26.60,high,1002,3
+4,derivative,PRO-2693,22.35,29.80,very_high,1003,4

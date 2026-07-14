@@ -1,0 +1,5 @@
+decision_maker_id,stakeholder_identifier,role_title,decision_frequency,information_requirement_level,satisfaction_score,organizational_unit_id,performance_metric_id
+100,STA-2350,Distributed Standard,daily,strategic,4.45,100,1
+101,STA-2352,Adaptive Framework D,weekly,tactical,6.90,101,2
+102,STA-2354,Primary Protocol,monthly,operational,9.35,102,3
+103,STA-2356,Composite Programme,quarterly,strategic,11.80,103,4

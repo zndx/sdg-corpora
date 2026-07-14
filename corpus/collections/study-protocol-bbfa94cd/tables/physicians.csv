@@ -1,0 +1,5 @@
+physician_id,specialty,board_certified,role_in_study
+100,Neurology,false,Referring
+101,Psychiatry,true,Ordering
+102,Geriatric Medicine,false,Interpreting
+103,Radiology,true,Referring

@@ -1,0 +1,174 @@
+{
+ "construct_id": "c1c2989ef0376c6a",
+ "slug": "h-o-a-lot-c1c2989e",
+ "passage": "c1c2989ef0376c6ae237a03fa35dcea6449c6068ca907ec91fcd71622ea9c482.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 18,
+ "entities": [
+  "HOA_Lot",
+  "HOA_Member",
+  "HOA_Violation",
+  "HOA_Assessment",
+  "HOA_RemedialAction",
+  "HOA_Board",
+  "HOA_ManagementCompany"
+ ],
+ "terms": [
+  {
+   "name": "HOA_Lot",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HOA_Member",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "HOA_Violation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HOA_Assessment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HOA_RemedialAction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HOA_Board",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HOA_ManagementCompany",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "h_o_a_lots",
+   "rows": 4,
+   "columns": [
+    "h_o_a_lot_id",
+    "lot_identifier",
+    "legal_description",
+    "county",
+    "parcel_number",
+    "h_o_a_violation_id",
+    "h_o_a_assessment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "h_o_a_members",
+   "rows": 4,
+   "columns": [
+    "h_o_a_member_id",
+    "member_identifier",
+    "voting_rights_status",
+    "recreational_access_status",
+    "contact_email",
+    "h_o_a_lot_id",
+    "h_o_a_violation_id"
+   ]
+  },
+  {
+   "name": "h_o_a_violations",
+   "rows": 4,
+   "columns": [
+    "h_o_a_violation_id",
+    "violation_identifier",
+    "violation_type",
+    "severity_level",
+    "is_continuing",
+    "reported_date",
+    "resolution_status",
+    "h_o_a_lot_id",
+    "h_o_a_member_id",
+    "h_o_a_assessment_id",
+    "h_o_a_remedial_action_id"
+   ]
+  },
+  {
+   "name": "h_o_a_assessments",
+   "rows": 4,
+   "columns": [
+    "h_o_a_assessment_id",
+    "assessment_identifier",
+    "assessment_type",
+    "amount",
+    "due_date",
+    "payment_status",
+    "issuance_date",
+    "h_o_a_lot_id",
+    "h_o_a_violation_id",
+    "h_o_a_board_id"
+   ]
+  },
+  {
+   "name": "h_o_a_remedial_actions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "action_identifier",
+    "action_type",
+    "initiation_date",
+    "status",
+    "cost_incurred",
+    "h_o_a_violation_id",
+    "h_o_a_member_id",
+    "h_o_a_assessment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "h_o_a_boards",
+   "rows": 4,
+   "columns": [
+    "h_o_a_board_id",
+    "board_identifier",
+    "meeting_date",
+    "quorum_status",
+    "h_o_a_assessment_id",
+    "h_o_a_remedial_action_id"
+   ]
+  },
+  {
+   "name": "h_o_a_management_companies",
+   "rows": 4,
+   "columns": [
+    "h_o_a_management_company_id",
+    "company_identifier",
+    "company_name",
+    "contract_start_date",
+    "h_o_a_violation_id",
+    "h_o_a_board_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_h_o_a_lot_h_o_a_violation",
+  "v_h_o_a_lot_h_o_a_assessment",
+  "v_h_o_a_member_h_o_a_lot",
+  "v_h_o_a_member_h_o_a_violation",
+  "v_h_o_a_violation_h_o_a_lot",
+  "v_h_o_a_violation_h_o_a_member",
+  "v_h_o_a_violation_h_o_a_assessment",
+  "v_h_o_a_violation_h_o_a_remedial_action",
+  "v_h_o_a_assessment_h_o_a_lot",
+  "v_h_o_a_assessment_h_o_a_violation",
+  "v_h_o_a_assessment_h_o_a_board",
+  "v_h_o_a_remedial_action_h_o_a_violation",
+  "v_h_o_a_remedial_action_h_o_a_member",
+  "v_h_o_a_remedial_action_h_o_a_assessment",
+  "v_h_o_a_board_h_o_a_assessment",
+  "v_h_o_a_board_h_o_a_remedial_action",
+  "v_h_o_a_management_company_h_o_a_violation",
+  "v_h_o_a_management_company_h_o_a_board"
+ ]
+}

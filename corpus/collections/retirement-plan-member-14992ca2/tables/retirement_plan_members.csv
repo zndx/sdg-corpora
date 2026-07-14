@@ -1,0 +1,5 @@
+member_id,full_name,ssn,date_of_birth,gender,address,telephone,email_address,has_spouse_member_id,participating_employer_id
+10207158,Theodore Mcgrath,legacy-ssn-43,2025-04-02,Male,distributed-address-72,adaptive-telephon-23,primary-email-70,10207158,1
+10207158,Account Name,compact-ssn-44,2022-09-13,Female,baseline-address-73,distributed-telephon-24,adaptive-email-71,10207158,2
+25820616,Saipan International Airport,composite-ssn-45,2023-02-24,Male,pilot-address-74,baseline-telephon-25,distributed-email-72,25820616,3
+2002007020250,Norma Fisher,primary-ssn-46,2024-07-08,Female,extended-address-75,pilot-telephon-26,baseline-email-73,2002007020250,4

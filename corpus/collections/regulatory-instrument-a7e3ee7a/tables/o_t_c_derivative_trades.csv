@@ -1,0 +1,5 @@
+id,trade_identifier,trade_date,trade_type,settlement_type,notional_amount,currency,maturity_date,status,netting_agreement_id,collateral_id,regulatory_instrument_id
+1,TRA-2009,2025-12-04T23:09:00,FX Forward,physically settled,0.12,seasonal-currency-71,2024-11-20T10:30:00,active,1000,1000,100
+2,TRA-2011,2022-05-15T06:26:00,Swap,cash settled,8.31,regional-currency-72,2025-04-04T17:47:00,settled,1001,1001,101
+3,TRA-2013,2023-10-26T13:43:00,Option,physically settled,"40,694",legacy-currency-73,2022-09-15T00:04:00,terminated,1002,1002,102
+4,TRA-2015,2024-03-10T20:00:00,FX Forward,cash settled,112.11,compact-currency-74,2023-02-26T07:21:00,active,1003,1003,103

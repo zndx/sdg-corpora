@@ -1,0 +1,5 @@
+id,income_amount,loss_amount,net_q_b_i,carried_forward_loss,source_type,is_s_s_t_b,calculation_year,trade_or_business_employer_id,wage_asset_test_id,disqualified_activity_id
+1,"112,506",19.97,21.45,19.70,tradeOrBusiness,true,36,The Hongkong and Shanghai Banking Corporation Limited,1,1000
+2,261.79,26.04,23.90,22.40,REIT,false,41,ChargePoint Holdings.,2,1001
+3,"1,228",30.51,26.35,25.10,PTP,true,46,Intl. Business Machines,3,1002
+4,"2,525",12.34,28.80,27.80,tradeOrBusiness,false,51,Feedback Ratings,4,1003

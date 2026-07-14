@@ -1,0 +1,5 @@
+id,reviewer_identifier,reviewer_name,academic_title,institution,years_experience,specialization,review_date,case_review_protocol_id,academic_institution_id
+1,REV-2660,Baseline Initiative D,Pilot Review,baseline-institut-31,16,legacy-speciali-13,2024-11-03T22:54:00,1,1
+2,REV-2662,Distributed Model,Baseline Initiative,pilot-institut-32,22,compact-speciali-14,2025-04-14T05:11:00,2,2
+3,REV-2664,Adaptive Cluster,Distributed Model A,extended-institut-33,28,composite-speciali-15,2022-09-25T12:28:00,3,3
+4,REV-2666,Primary Review A,Adaptive Cluster,integrated-institut-34,34,primary-speciali-16,2023-02-09T19:45:00,4,4

@@ -1,0 +1,118 @@
+{
+ "construct_id": "d6a4f9d3b04c9e97",
+ "slug": "taper-gage-d6a4f9d3",
+ "passage": "d6a4f9d3b04c9e979179c3c1a486d99ee0b0de6878f6ce88737c24da9bf6805b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 6,
+ "entities": [
+  "TaperGage",
+  "GageSpecification",
+  "Requestor",
+  "Manufacturer"
+ ],
+ "terms": [
+  {
+   "name": "TaperGage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GageSpecification",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Requestor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Manufacturer",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "taper_gages",
+   "rows": 4,
+   "columns": [
+    "taper_gage_id",
+    "gage_type",
+    "tool_number",
+    "mark_size",
+    "status",
+    "large_end_diameter",
+    "small_end_diameter",
+    "taper_per_foot",
+    "taper_per_inch",
+    "taper_tolerance",
+    "included_angle",
+    "gage_specification_id",
+    "manufacturer_id",
+    "requestor_id"
+   ]
+  },
+  {
+   "name": "gage_specifications",
+   "rows": 4,
+   "columns": [
+    "gage_specification_id",
+    "large_end_diameter",
+    "small_end_diameter",
+    "taper_per_foot",
+    "taper_per_inch",
+    "taper_tolerance",
+    "half_angle",
+    "included_angle",
+    "has_steps",
+    "step_location",
+    "taper_gage_id"
+   ]
+  },
+  {
+   "name": "requestors",
+   "rows": 4,
+   "columns": [
+    "requestor_id",
+    "name",
+    "company",
+    "phone",
+    "email"
+   ]
+  },
+  {
+   "name": "manufacturers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "contact_email"
+   ]
+  },
+  {
+   "name": "requestors_gages",
+   "rows": 8,
+   "columns": [
+    "requestor_id",
+    "taper_gage_id"
+   ]
+  },
+  {
+   "name": "manufacturers_gages",
+   "rows": 8,
+   "columns": [
+    "manufacturer_id",
+    "taper_gage_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_taper_gage_gage_specification",
+  "v_taper_gage_manufacturer",
+  "v_taper_gage_requestor",
+  "v_gage_specification_taper_gage",
+  "v_requestor_taper_gage_detail",
+  "v_manufacturer_taper_gage_detail"
+ ]
+}

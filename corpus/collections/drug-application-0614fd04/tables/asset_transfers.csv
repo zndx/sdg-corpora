@@ -1,0 +1,5 @@
+id,transfer_id,transfer_date,transfer_value,payment_structure,status,currency,effective_date,expiration_date,governing_law,confidentiality_level,drug_application_id,pharmaceutical_company_id,received_by_pharmaceutical_company_id,geographic_region_id,payment_id,asset_transfer_id,created_at
+1,4060656,2025-08-12T07:33:00,4.20,upfront,negotiated,seasonal-currency-71,2023-02-14T13:27:00,2025-08-18T19:45:00,regional-governin-66,public,1,1000,1000,1000,1,1,2025-01-01 00:14:00
+2,gd_taxp_st_2_2,2022-01-23T14:50:00,6.40,milestone,executed,regional-currency-72,2024-07-25T20:44:00,2022-01-02T02:02:00,legacy-governin-67,restricted,2,1001,1001,1001,2,2,2025-02-06 03:14:00
+3,2986222,2023-06-07T21:07:00,8.60,royalty,completed,legacy-currency-73,2025-12-09T03:01:00,2023-06-13T09:19:00,compact-governin-68,confidential,3,1002,1002,1002,3,3,2025-03-11 06:14:00
+4,57e48f58-8fcd-11eb-924d-9cd76263cbd0,2024-11-18T04:24:00,10.80,upfront,terminated,compact-currency-74,2022-05-20T10:18:00,2024-11-24T16:36:00,composite-governin-69,public,4,1003,1003,1003,4,4,2025-04-16 09:14:00

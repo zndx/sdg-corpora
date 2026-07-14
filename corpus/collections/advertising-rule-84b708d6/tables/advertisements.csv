@@ -1,0 +1,5 @@
+id,ad_identifier,media_type,publication_date,compliance_status,language,fee_offered,fee_validity_days,lawyer_id,advertising_rule_id,legal_claim_id,disclaimer_id
+1,AD-2371,newspaper,2025-12-01,compliant,composite-language-45,29.24,45,100,100,1000,1
+2,AD-2378,magazine,2022-05-12,deceptive,primary-language-46,22.35,53,101,101,1001,2
+3,AD-2385,brochure,2023-10-23,misleading,adaptive-language-47,33.06,61,102,102,1002,3
+4,AD-2392,flyer,2024-03-07,manipulative,distributed-language-48,35.45,69,103,103,1003,4

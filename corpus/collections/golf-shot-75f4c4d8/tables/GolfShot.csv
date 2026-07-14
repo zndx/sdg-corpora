@@ -1,0 +1,5 @@
+shotId,shotType,distance,direction,decision,outcome,observedResult,clubId,golferId,spotId
+1,Putting,0.08502511,primary-directio-88,compact-decision-26,legacy-outcome-85,regional-observed-84,1000,1,1
+2,Chipping,5.0,adaptive-directio-89,composite-decision-27,compact-outcome-86,legacy-observed-85,1001,2,2
+3,Pitching,208.24771,distributed-directio-90,primary-decision-28,composite-outcome-87,compact-observed-86,1002,3,3
+4,SandShot,36.29999923706055,baseline-directio-91,adaptive-decision-29,primary-outcome-88,composite-observed-87,1003,4,4

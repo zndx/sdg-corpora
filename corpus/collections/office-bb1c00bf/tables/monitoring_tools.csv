@@ -1,0 +1,5 @@
+id,tool_id,tool_name,version,vendor,is_automated,last_run_date,server_id,system_metric_id
+1000,comi,Composite Model,seasonal-version-71,Feedback Ratings,false,2022-01-02,1,1
+1001,195360,Compact Cluster A,regional-version-72,Abbott Laboratories,true,2023-06-13,2,2
+1002,3355763,Legacy Review,legacy-version-73,American Express,false,2024-11-24,3,3
+1003,8387539,Regional Initiative,compact-version-74,Whatsapp Inc.,true,2025-04-08,4,4

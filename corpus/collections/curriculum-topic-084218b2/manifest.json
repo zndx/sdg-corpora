@@ -1,0 +1,159 @@
+{
+ "construct_id": "084218b25a4f4f0e",
+ "slug": "curriculum-topic-084218b2",
+ "passage": "084218b25a4f4f0e378039a452cebfadf300288f1bf7465ad2c1b4ac5acd5fee.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 10,
+ "entities": [
+  "CurriculumTopic",
+  "CurriculumSubtopic",
+  "AssessmentItem",
+  "StudentResponse",
+  "Student"
+ ],
+ "terms": [
+  {
+   "name": "CurriculumTopic",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CurriculumSubtopic",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AssessmentItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StudentResponse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CurriculumTopic",
+   "rows": 4,
+   "columns": [
+    "id",
+    "topicId",
+    "topicName",
+    "bfoGenus",
+    "complexityLevel",
+    "isCore",
+    "requiresPrerequisiteTopicId"
+   ]
+  },
+  {
+   "name": "CurriculumSubtopic",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subtopicId",
+    "subtopicName",
+    "bfoGenus",
+    "isAbstract",
+    "difficultyRating",
+    "topicId"
+   ]
+  },
+  {
+   "name": "AssessmentItem",
+   "rows": 4,
+   "columns": [
+    "itemId",
+    "itemText",
+    "itemType",
+    "maxScore",
+    "timeLimitSeconds",
+    "isPublic",
+    "subtopicId"
+   ]
+  },
+  {
+   "name": "StudentResponse",
+   "rows": 4,
+   "columns": [
+    "id",
+    "responseId",
+    "responseValue",
+    "isCorrect",
+    "scoreEarned",
+    "responseTimestamp",
+    "attemptNumber",
+    "itemId",
+    "studentId"
+   ]
+  },
+  {
+   "name": "Student",
+   "rows": 4,
+   "columns": [
+    "studentId",
+    "studentName",
+    "enrollmentYear",
+    "isActive",
+    "learningProfile"
+   ]
+  },
+  {
+   "name": "CurriculumTopicCurriculumSubtopic",
+   "rows": 8,
+   "columns": [
+    "topicId",
+    "subtopicId"
+   ]
+  },
+  {
+   "name": "CurriculumSubtopicAssessmentItem",
+   "rows": 8,
+   "columns": [
+    "subtopicId",
+    "itemId"
+   ]
+  },
+  {
+   "name": "AssessmentItemStudentResponse",
+   "rows": 8,
+   "columns": [
+    "itemId",
+    "responseId"
+   ]
+  },
+  {
+   "name": "StudentStudentResponse",
+   "rows": 8,
+   "columns": [
+    "studentId",
+    "responseId"
+   ]
+  },
+  {
+   "name": "StudentCurriculumTopic",
+   "rows": 8,
+   "columns": [
+    "studentId",
+    "topicId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_curriculum_topic_curriculum_subtopic_detail",
+  "vw_curriculum_topic_curriculum_topic",
+  "vw_curriculum_subtopic_curriculum_topic",
+  "vw_curriculum_subtopic_assessment_item_detail",
+  "vw_assessment_item_curriculum_subtopic",
+  "vw_assessment_item_student_response_detail",
+  "vw_student_response_assessment_item",
+  "vw_student_response_student",
+  "vw_student_student_response_detail",
+  "vw_student_curriculum_topic_detail"
+ ]
+}

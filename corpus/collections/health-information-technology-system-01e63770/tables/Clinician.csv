@@ -1,0 +1,5 @@
+clinicianId,clinicianID,specialty,yearsOfExperience,moraleLevel,productivityMetric,isCertified,departmentId,systemId,managerId,createdAt
+100,CLI-2453,extended-specialt-21,7,9.70,3.95,true,1,1,1,2025-01-01 00:14:00
+101,CLI-2460,integrated-specialt-22,10,11.40,6.90,false,2,2,2,2025-02-06 03:14:00
+102,CLI-2467,seasonal-specialt-23,13,13.10,9.85,true,3,3,3,2025-03-11 06:14:00
+103,CLI-2474,regional-specialt-24,16,14.80,12.80,false,4,4,4,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+id,limit_value,limit_type,grade,biodiesel_property_id
+1000,15.20,maximum,S15,1
+1001,19.40,minimum,S500,2
+1002,23.60,range,S15,3
+1003,27.80,maximum,S500,4

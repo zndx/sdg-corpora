@@ -1,0 +1,250 @@
+{
+ "construct_id": "c161c6e3481fc19f",
+ "slug": "special-day-class-teacher-c161c6e3",
+ "passage": "c161c6e3481fc19fced241d941a35c5eb4d1485c4afaf517dfddc60d80ff7081.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 17,
+ "n_views": 16,
+ "entities": [
+  "SpecialDayClassTeacher",
+  "Student",
+  "IndividualizedEducationProgram",
+  "InstructionalObjective",
+  "AssessmentInstrument",
+  "IEPTeam",
+  "SchoolSite"
+ ],
+ "terms": [
+  {
+   "name": "SpecialDayClassTeacher",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "IndividualizedEducationProgram",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "InstructionalObjective",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "AssessmentInstrument",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "IEPTeam",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SchoolSite",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "special_day_class_teachers",
+   "rows": 4,
+   "columns": [
+    "special_day_class_teacher_id",
+    "credential_type",
+    "employee_id",
+    "employment_status",
+    "salary_schedule",
+    "hire_date",
+    "last_evaluation_date",
+    "supervisory_role",
+    "school_site_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "enrollment_status",
+    "disability_type",
+    "iep_status",
+    "date_of_birth",
+    "grade_level",
+    "primary_language",
+    "individualized_education_program_iep_id"
+   ]
+  },
+  {
+   "name": "individualized_education_programs",
+   "rows": 4,
+   "columns": [
+    "iep_id",
+    "creation_date",
+    "last_review_date",
+    "expiration_date",
+    "status",
+    "meets_federal_compliance",
+    "meets_state_compliance",
+    "student_id",
+    "team_id"
+   ]
+  },
+  {
+   "name": "instructional_objectives",
+   "rows": 4,
+   "columns": [
+    "objective_id",
+    "objective_type",
+    "target_skill",
+    "anticipated_attainment_level",
+    "measurement_method",
+    "due_date",
+    "is_remedial",
+    "individualized_education_program_iep_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "assessment_instruments",
+   "rows": 4,
+   "columns": [
+    "assessment_instrument_id",
+    "instrument_id",
+    "instrument_name",
+    "instrument_type",
+    "validity_date",
+    "reliability_coefficient",
+    "administered_by"
+   ]
+  },
+  {
+   "name": "i_e_p_teams",
+   "rows": 4,
+   "columns": [
+    "team_id",
+    "team_name",
+    "meeting_frequency",
+    "last_meeting_date",
+    "next_scheduled_meeting",
+    "compliance_status",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "school_sites",
+   "rows": 4,
+   "columns": [
+    "id",
+    "site_id",
+    "site_name",
+    "district_affiliation",
+    "site_type",
+    "operational_status",
+    "capacity"
+   ]
+  },
+  {
+   "name": "teachers_students",
+   "rows": 8,
+   "columns": [
+    "special_day_class_teacher_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "teachers_teams",
+   "rows": 8,
+   "columns": [
+    "special_day_class_teacher_id",
+    "team_id"
+   ]
+  },
+  {
+   "name": "students_teachers",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "special_day_class_teacher_id"
+   ]
+  },
+  {
+   "name": "programs_objectives",
+   "rows": 8,
+   "columns": [
+    "individualized_education_program_iep_id",
+    "objective_id"
+   ]
+  },
+  {
+   "name": "objectives_instruments",
+   "rows": 8,
+   "columns": [
+    "objective_id",
+    "assessment_instrument_id"
+   ]
+  },
+  {
+   "name": "instruments_objectives",
+   "rows": 8,
+   "columns": [
+    "assessment_instrument_id",
+    "objective_id"
+   ]
+  },
+  {
+   "name": "instruments_students",
+   "rows": 8,
+   "columns": [
+    "assessment_instrument_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "teams_programs",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "individualized_education_program_iep_id"
+   ]
+  },
+  {
+   "name": "teams_teachers",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "special_day_class_teacher_id"
+   ]
+  },
+  {
+   "name": "sites_teachers",
+   "rows": 8,
+   "columns": [
+    "school_site_id",
+    "special_day_class_teacher_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_special_day_class_teacher_school_site",
+  "v_special_day_class_teacher_student_detail",
+  "v_special_day_class_teacher_i_e_p_team_detail",
+  "v_student_individualized_education_program",
+  "v_student_special_day_class_teacher_detail",
+  "v_individualized_education_program_student",
+  "v_individualized_education_program_i_e_p_team",
+  "v_individualized_education_program_instructional_objective_detail",
+  "v_instructional_objective_individualized_education_program",
+  "v_instructional_objective_student",
+  "v_instructional_objective_assessment_instrument_detail",
+  "v_assessment_instrument_instructional_objective_detail",
+  "v_assessment_instrument_student_detail",
+  "v_i_e_p_team_individualized_education_program_detail",
+  "v_i_e_p_team_special_day_class_teacher_detail",
+  "v_school_site_special_day_class_teacher_detail"
+ ]
+}

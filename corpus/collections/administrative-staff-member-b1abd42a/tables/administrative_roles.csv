@@ -1,0 +1,5 @@
+administrative_role_id,role_name,role_category,is_supervisory,reporting_line,administrative_staff_member_id
+1000,Seasonal Programme,adaptive-role-83,true,pilot-reportin-32,1
+1001,Integrated Standard,distributed-role-84,false,extended-reportin-33,2
+1002,Extended Framework D,baseline-role-85,true,integrated-reportin-34,3
+1003,Pilot Protocol,pilot-role-86,false,seasonal-reportin-35,4

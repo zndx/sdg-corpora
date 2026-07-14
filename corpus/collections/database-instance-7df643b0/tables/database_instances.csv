@@ -1,0 +1,5 @@
+instance_id,version,operating_system,status,environment_type,created_date,server_host_id,d_b_a_id,storage_structure_id
+26730215,seasonal-version-71,distributed-operatin-66,production,RAC,2024-11-19T22:30:00,1,1,100
+en_AU,regional-version-72,baseline-operatin-67,test,standalone,2025-04-03T05:47:00,2,2,101
+IVC20det15,legacy-version-73,pilot-operatin-68,development,RAC,2022-09-14T12:04:00,3,3,102
+937736,compact-version-74,extended-operatin-69,production,standalone,2023-02-25T19:21:00,4,4,103

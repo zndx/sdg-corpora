@@ -1,0 +1,5 @@
+id,issue_id,issue_description,discovery_date,resolution_date,affected_department,violation_type,severity_level,municipal_employee_id,municipal_official_id,record_id
+1,5082978,Baseline Series D,2024-03-23,2024-07-05,distributed-affected-84,overtime_calculation,29,1,100,10449530
+2,2bc3c87c-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,2025-08-07,2025-12-16,baseline-affected-85,leave_inclusion,40,2,101,10445619
+3,506004,Adaptive Survey,2022-01-18,2022-05-27,pilot-affected-86,pay_rate_error,51,3,102,9568457
+4,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,Primary Corridor A,2023-06-02,2023-10-11,extended-affected-87,overtime_calculation,62,4,103,20743593

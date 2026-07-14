@@ -1,0 +1,156 @@
+{
+ "construct_id": "c10dcbe986443cfe",
+ "slug": "student-c10dcbe9",
+ "passage": "c10dcbe986443cfe06a1f79f5973016f8f7083b50d05d7189f75e313a7f3fefc.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 9,
+ "entities": [
+  "Student",
+  "FacultyMember",
+  "UniversityOfficial",
+  "ConductViolation",
+  "StudentConductBoard",
+  "StudentConductAdministrator",
+  "UniversityPremises"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "UniversityOfficial",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ConductViolation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentConductBoard",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentConductAdministrator",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "UniversityPremises",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "full_name",
+    "enrollment_status",
+    "study_level",
+    "residence_status",
+    "admission_notification_date",
+    "conduct_violation_id"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "faculty_id",
+    "full_name",
+    "department",
+    "employment_status",
+    "hire_date"
+   ]
+  },
+  {
+   "name": "university_officials",
+   "rows": 4,
+   "columns": [
+    "official_id",
+    "full_name",
+    "role",
+    "department",
+    "employment_status",
+    "hire_date"
+   ]
+  },
+  {
+   "name": "conduct_violations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "violation_id",
+    "description",
+    "date_of_incident",
+    "location",
+    "severity_level",
+    "status",
+    "student_id",
+    "student_conduct_board_id",
+    "student_conduct_administrator_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "student_conduct_boards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "board_id",
+    "composition",
+    "authorization_date",
+    "status",
+    "conduct_violation_id",
+    "official_id"
+   ]
+  },
+  {
+   "name": "student_conduct_administrators",
+   "rows": 4,
+   "columns": [
+    "student_conduct_administrator_id",
+    "administrator_id",
+    "authorization_date",
+    "case_authorization",
+    "status",
+    "conduct_violation_id",
+    "official_id"
+   ]
+  },
+  {
+   "name": "university_premiseses",
+   "rows": 4,
+   "columns": [
+    "university_premises_id",
+    "premises_id",
+    "name",
+    "type",
+    "location",
+    "conduct_violation_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_conduct_violation",
+  "v_conduct_violation_student",
+  "v_conduct_violation_student_conduct_board",
+  "v_conduct_violation_student_conduct_administrator",
+  "v_student_conduct_board_conduct_violation",
+  "v_student_conduct_board_university_official",
+  "v_student_conduct_administrator_conduct_violation",
+  "v_student_conduct_administrator_university_official",
+  "v_university_premises_conduct_violation"
+ ]
+}

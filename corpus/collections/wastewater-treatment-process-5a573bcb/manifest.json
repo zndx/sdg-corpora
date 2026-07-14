@@ -1,0 +1,285 @@
+{
+ "construct_id": "5a573bcba0ce4423",
+ "slug": "wastewater-treatment-process-5a573bcb",
+ "passage": "5a573bcba0ce44234f2c80986a29ff301e6587474f233d0de1e9916c9712354b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 22,
+ "n_views": 17,
+ "entities": [
+  "WastewaterTreatmentProcess",
+  "IndustrialEffluent",
+  "CatalyticMaterial",
+  "ResearchProject",
+  "ResearchInstitution",
+  "ChemicalPollutant",
+  "ChemicalElement"
+ ],
+ "terms": [
+  {
+   "name": "WastewaterTreatmentProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "IndustrialEffluent",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CatalyticMaterial",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ChemicalPollutant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ChemicalElement",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "wastewater_treatment_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_identifier",
+    "process_type",
+    "efficiency_rating",
+    "resource_consumption_rate",
+    "status",
+    "target_pollutant_class",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "industrial_effluents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "effluent_identifier",
+    "source_industry",
+    "pollutant_concentration",
+    "biodegradability_status",
+    "toxicity_level",
+    "sample_collection_date"
+   ]
+  },
+  {
+   "name": "catalytic_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_identifier",
+    "material_class",
+    "synthesis_method",
+    "surface_area",
+    "band_gap_energy",
+    "patent_status",
+    "research_project_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "research_project_id",
+    "project_identifier",
+    "funding_agency",
+    "start_date",
+    "end_date",
+    "project_status",
+    "grant_amount",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "research_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_identifier",
+    "institution_name",
+    "country",
+    "institution_type",
+    "establishment_date"
+   ]
+  },
+  {
+   "name": "chemical_pollutants",
+   "rows": 4,
+   "columns": [
+    "pollutant_identifier",
+    "chemical_name",
+    "cas_registry_number",
+    "molecular_weight",
+    "pollutant_class",
+    "concentration_threshold"
+   ]
+  },
+  {
+   "name": "chemical_elements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "element_symbol",
+    "atomic_number",
+    "atomic_mass",
+    "electronegativity",
+    "state_at_s_t_p"
+   ]
+  },
+  {
+   "name": "processes_effluents",
+   "rows": 8,
+   "columns": [
+    "wastewater_treatment_process_id",
+    "industrial_effluent_id"
+   ]
+  },
+  {
+   "name": "processes_materials",
+   "rows": 8,
+   "columns": [
+    "wastewater_treatment_process_id",
+    "catalytic_material_id"
+   ]
+  },
+  {
+   "name": "effluents_processes",
+   "rows": 8,
+   "columns": [
+    "industrial_effluent_id",
+    "wastewater_treatment_process_id"
+   ]
+  },
+  {
+   "name": "effluents_pollutants",
+   "rows": 8,
+   "columns": [
+    "industrial_effluent_id",
+    "chemical_pollutant_cas_registry_number"
+   ]
+  },
+  {
+   "name": "materials_processes",
+   "rows": 8,
+   "columns": [
+    "catalytic_material_id",
+    "wastewater_treatment_process_id"
+   ]
+  },
+  {
+   "name": "materials_elements",
+   "rows": 8,
+   "columns": [
+    "catalytic_material_id",
+    "chemical_element_id"
+   ]
+  },
+  {
+   "name": "projects_processes",
+   "rows": 8,
+   "columns": [
+    "research_project_id",
+    "wastewater_treatment_process_id"
+   ]
+  },
+  {
+   "name": "projects_materials",
+   "rows": 8,
+   "columns": [
+    "research_project_id",
+    "catalytic_material_id"
+   ]
+  },
+  {
+   "name": "projects_institutions",
+   "rows": 8,
+   "columns": [
+    "research_project_id",
+    "research_institution_id"
+   ]
+  },
+  {
+   "name": "institutions_projects",
+   "rows": 8,
+   "columns": [
+    "research_institution_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "pollutants_effluents",
+   "rows": 8,
+   "columns": [
+    "chemical_pollutant_cas_registry_number",
+    "industrial_effluent_id"
+   ]
+  },
+  {
+   "name": "pollutants_processes",
+   "rows": 8,
+   "columns": [
+    "chemical_pollutant_cas_registry_number",
+    "wastewater_treatment_process_id"
+   ]
+  },
+  {
+   "name": "pollutants_elements",
+   "rows": 8,
+   "columns": [
+    "chemical_pollutant_cas_registry_number",
+    "chemical_element_id"
+   ]
+  },
+  {
+   "name": "elements_materials",
+   "rows": 8,
+   "columns": [
+    "chemical_element_id",
+    "catalytic_material_id"
+   ]
+  },
+  {
+   "name": "elements_pollutants",
+   "rows": 8,
+   "columns": [
+    "chemical_element_id",
+    "chemical_pollutant_cas_registry_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_wastewater_treatment_process_industrial_effluent_detail",
+  "v_wastewater_treatment_process_research_project",
+  "v_wastewater_treatment_process_catalytic_material_detail",
+  "v_industrial_effluent_wastewater_treatment_process_detail",
+  "v_industrial_effluent_chemical_pollutant_detail",
+  "v_catalytic_material_wastewater_treatment_process_detail",
+  "v_catalytic_material_research_project",
+  "v_catalytic_material_chemical_element_detail",
+  "v_research_project_wastewater_treatment_process_detail",
+  "v_research_project_catalytic_material_detail",
+  "v_research_project_research_institution_detail",
+  "v_research_institution_research_project_detail",
+  "v_chemical_pollutant_industrial_effluent_detail",
+  "v_chemical_pollutant_wastewater_treatment_process_detail",
+  "v_chemical_pollutant_chemical_element_detail",
+  "v_chemical_element_catalytic_material_detail",
+  "v_chemical_element_chemical_pollutant_detail"
+ ]
+}

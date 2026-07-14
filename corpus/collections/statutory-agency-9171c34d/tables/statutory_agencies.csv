@@ -1,0 +1,5 @@
+id,agency_identifier,agency_name,parent_department,statutory_reference,fiscal_year,is_consolidated,staffing_plan_id,mission_statement_id,administrative_unit_id
+100,Hinduja Group,FSG Social Impact Advisors,compact-parent-98,legacy-statutor-13,17,false,100,100,1
+101,Arcimoto Inc.,Whirlpool Corporation,composite-parent-99,compact-statutor-14,20,true,101,101,2
+102,McDonnell Douglas,Education Writers Association,primary-parent-100,composite-statutor-15,23,false,102,102,3
+103,Sa Proton World International N.V.,Switch Card Services Ltd.,adaptive-parent-101,primary-statutor-16,26,true,103,103,4

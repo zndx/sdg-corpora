@@ -1,0 +1,5 @@
+id,jurisdiction_id,name,country_code,region,population,gdp,regulatory_environment,created_at,updated_at
+1,8387534,Extended Review,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,distributed-region-12,42,23.20,composite-regulato-57,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,99654,Pilot Initiative A,lu_tax_code_template_m_I_2,baseline-region-13,49,27.40,primary-regulato-58,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,lu_tax_code_template_m_I_4,Baseline Model,default_chart_a_account_57,pilot-region-14,56,31.60,adaptive-regulato-59,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,1186090,Distributed Cluster,727045,extended-region-15,63,35.80,distributed-regulato-60,2025-04-16 09:14:00,2025-04-23 15:41:00

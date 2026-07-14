@@ -1,0 +1,5 @@
+id,organization_name,jurisdiction_level,contact_phone_number,website_url,is_toll_free,social_service_resource_id,hotline_service_phone_number
+1,Staples Inc.,Federal,Theodore Mcgrath,https://github.com/chiphuyen/lazynlp,true,1000,PHO-2092
+2,Oscar Health Inc.,State,Peter Mcdowell,https://bugs.launchpad.net/ironic/+bug/1346406,false,1001,PHO-2093
+3,Atlantic Richfield,Local,Collin Lopez,http://en.wikipedia.org/wiki/Hyla_femoralis,true,1002,PHO-2094
+4,Port Loko,Community,Steve Martin,https://www.nature.com/articles/nphoton.2014.41,false,1003,PHO-2095

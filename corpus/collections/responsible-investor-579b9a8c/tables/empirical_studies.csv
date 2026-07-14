@@ -1,0 +1,5 @@
+id,study_id,study_title,region,data_source,is_theoretical_model,has_recommendations,responsible_investment_fund_id,environmental_externality_id,corporate_policy_id
+100,Karyawan,Composite Programme,distributed-region-12,pilot-data-38,true,true,1,1,1
+101,392491,Compact Standard A,baseline-region-13,extended-data-39,false,false,2,2,2
+102,9568466,Legacy Framework,pilot-region-14,integrated-data-40,true,true,3,3,3
+103,4985166,Regional Protocol,extended-region-15,seasonal-data-41,false,false,4,4,4

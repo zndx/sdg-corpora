@@ -1,0 +1,144 @@
+{
+ "construct_id": "0377af08ae7667c6",
+ "slug": "regulatory-violation-0377af08",
+ "passage": "0377af08ae7667c6617ba0f792f7a50a3535dfb895f98fcc8c27c7b8de15422c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "RegulatoryViolation",
+  "InspectionReport",
+  "CorrectiveActionPlan",
+  "Licensee",
+  "RadiationSurvey"
+ ],
+ "terms": [
+  {
+   "name": "RegulatoryViolation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InspectionReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CorrectiveActionPlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Licensee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RadiationSurvey",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "regulatory_violations",
+   "rows": 4,
+   "columns": [
+    "regulatory_violation_id",
+    "violation_id",
+    "description",
+    "regulatory_reference",
+    "severity_level",
+    "status",
+    "inspection_report_id",
+    "date_identified",
+    "reported_in_inspection_report_id",
+    "corrective_action_plan_id"
+   ]
+  },
+  {
+   "name": "inspection_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_number",
+    "issue_date",
+    "issuing_agency",
+    "docket_number",
+    "classification",
+    "adams_accession_number",
+    "licensee_id"
+   ]
+  },
+  {
+   "name": "corrective_action_plans",
+   "rows": 4,
+   "columns": [
+    "corrective_action_plan_id",
+    "plan_id",
+    "submission_date",
+    "compliance_deadline",
+    "status",
+    "corrective_steps_taken",
+    "preventive_measures",
+    "regulatory_violation_id",
+    "licensee_id"
+   ]
+  },
+  {
+   "name": "licensees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "license_number",
+    "licensee_name",
+    "license_type",
+    "docket_number",
+    "address",
+    "radiation_safety_officer",
+    "regulatory_violation_id"
+   ]
+  },
+  {
+   "name": "radiation_surveys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "survey_id",
+    "survey_date",
+    "area_type",
+    "measured_dose_rate",
+    "unit_of_measure",
+    "compliance_status",
+    "licensee_id",
+    "regulatory_violation_id"
+   ]
+  },
+  {
+   "name": "reports_violations",
+   "rows": 8,
+   "columns": [
+    "inspection_report_id",
+    "regulatory_violation_id"
+   ]
+  },
+  {
+   "name": "licensees_plans",
+   "rows": 8,
+   "columns": [
+    "licensee_id",
+    "corrective_action_plan_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_regulatory_violation_inspection_report",
+  "vw_regulatory_violation_corrective_action_plan",
+  "vw_inspection_report_regulatory_violation_detail",
+  "vw_inspection_report_licensee",
+  "vw_corrective_action_plan_regulatory_violation",
+  "vw_corrective_action_plan_licensee",
+  "vw_licensee_regulatory_violation",
+  "vw_licensee_corrective_action_plan_detail",
+  "vw_radiation_survey_licensee",
+  "vw_radiation_survey_regulatory_violation"
+ ]
+}

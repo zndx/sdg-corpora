@@ -1,0 +1,5 @@
+id,program_id,program_name,start_date,end_date,status,target_demographic,funding_source,mainstream_school_id,environmental_accommodation_id
+100,103176,Extended Review,2022-09-05T20:24:00,2022-09-01T08:00:00,active,regional-target-84,baseline-funding-73,1,100
+101,2986219,Pilot Initiative A,2023-02-16T03:41:00,2023-02-12T15:17:00,inactive,legacy-target-85,pilot-funding-74,2,101
+102,1186079,Baseline Model,2024-07-27T10:58:00,2024-07-23T22:34:00,planned,compact-target-86,extended-funding-75,3,102
+103,1562855,Distributed Cluster,2025-12-11T17:15:00,2025-12-07T05:51:00,active,composite-target-87,integrated-funding-76,4,103

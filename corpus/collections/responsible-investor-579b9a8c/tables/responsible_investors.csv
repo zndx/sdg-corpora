@@ -1,0 +1,5 @@
+id,investor_id,name,wealth,diversification_opportunities,motivation_type,is_green_agent,corporation_id,environmental_externality_id,corporate_policy_id
+1,39800621,Extended Review,13.45,22,pure_altruism,true,bc908e7a-8fcd-11eb-924d-9cd76263cbd0,1,1
+2,10238263,Pilot Initiative A,15.90,29,warm_glow,false,ChIJyxw4mjhu5kcR9yl4qn8CFbo,2,2
+3,Catatan,Baseline Model,18.35,36,reputation,true,790486,3,3
+4,4447007,Distributed Cluster,20.80,43,pure_altruism,false,2087751,4,4

@@ -1,0 +1,5 @@
+meetingId,meetingDate,startTime,durationHours,agenda,status,committeeCode,locationId
+1,2023-10-23T21:39:00,regional-start-54,3.70,compact-agenda-56,scheduled,7441158,1
+2,2024-03-07T04:56:00,legacy-start-55,7.40,composite-agenda-57,completed,2933476,2
+3,2025-08-18T11:13:00,compact-start-56,11.10,primary-agenda-58,cancelled,6926352,3
+4,2022-01-02T18:30:00,composite-start-57,14.80,adaptive-agenda-59,scheduled,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,4

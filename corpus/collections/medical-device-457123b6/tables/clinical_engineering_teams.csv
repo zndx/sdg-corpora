@@ -1,0 +1,5 @@
+clinical_engineering_team_id,team_identifier,team_name,has_c_i_o,has_c_i_s_o,responsibility_scope,is_formalized,cybersecurity_program_id
+100,TEA-2539,Composite Model,false,false,device_inventory,true,1000
+101,TEA-2542,Compact Cluster A,true,true,risk_scoring,false,1001
+102,TEA-2545,Legacy Review,false,false,network_monitoring,true,1002
+103,TEA-2548,Regional Initiative,true,true,patch_management,false,1003

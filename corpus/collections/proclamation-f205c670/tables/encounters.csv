@@ -1,0 +1,5 @@
+encounter_id,location,date_time,outcome,advice_given,participant_role,eligible_individual_id,location_id
+1366db3e-8fcc-11eb-924d-9cd76263cbd0,extended-location-99,2025-04-25T15:57:00,successful,composite-advice-27,traveler,1,1
+state_et_1,integrated-location-100,2022-09-09T22:14:00,unsuccessful,primary-advice-28,guide,2,2
+3001009030170,seasonal-location-101,2023-02-20T05:31:00,pending,adaptive-advice-29,obstacle,3,3
+27cebc1c-9bad-11eb-a8a2-19ed5c03f8d3,regional-location-102,2024-07-04T12:48:00,successful,distributed-advice-30,traveler,4,4

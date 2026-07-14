@@ -1,0 +1,5 @@
+id,field_standard_identifier,verification_date,verification_status,usage_context,is_portable,last_calibration_date,standard_weight_or_measure_id
+1000,FIE-2227,2024-07-24,verified,commercial,false,2025-12-01,1
+1001,FIE-2234,2025-12-08,pending,scientific,true,2022-05-12,2
+1002,FIE-2241,2022-05-19,failed,regulatory,false,2023-10-23,3
+1003,FIE-2248,2023-10-03,verified,commercial,true,2024-03-07,4

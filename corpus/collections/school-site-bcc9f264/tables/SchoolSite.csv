@@ -1,0 +1,5 @@
+id,siteId,streetAddress,city,county,postalCode,country,latitude,longitude,eventId,programmeId,memberId,enrolmentId
+1,102,composite-street-15,integrated-city-34,primary-county-52,9125611,compact-country-26,13.95,21.20,100,1,1,1
+2,1336166,primary-street-16,seasonal-city-35,adaptive-county-53,ChIJt4hBkzhu5kcRJJDUNqGUpso,composite-country-27,17.90,25.40,101,2,2,2
+3,726040,adaptive-street-17,regional-city-36,distributed-county-54,3001009030200,primary-country-28,21.85,29.60,102,3,3,3
+4,Bjornfant,distributed-street-18,legacy-city-37,baseline-county-55,4060635,adaptive-country-29,25.80,33.80,103,4,4,4

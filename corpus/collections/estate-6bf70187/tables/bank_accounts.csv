@@ -1,0 +1,5 @@
+bank_account_id,account_number,bank_name,account_type,currency_code,open_date,status,systematic_withdrawal_id,person_id
+1,ACC-2253,Compact Initiative,baseline-account-25,gd_fp_eu_acc3,2025-08-07,active,1,100
+2,ACC-2256,Legacy Model,pilot-account-26,managing-resources,2022-01-18,closed,2,101
+3,ACC-2259,Regional Cluster A,extended-account-27,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,2023-06-02,dormant,3,102
+4,ACC-2262,Seasonal Review,integrated-account-28,10445649,2024-11-13,active,4,103

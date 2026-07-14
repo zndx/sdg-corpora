@@ -1,0 +1,5 @@
+id,platform_id,region,capacity_tbps,is_operational,last_maintenance,scrubbing_center_id
+1,state_uk_28,distributed-region-12,7.45,true,2025-08-22,100
+2,e6ce01fe-8fc3-11eb-924d-9cd76263cbd0,baseline-region-13,9.90,false,2022-01-06,101
+3,4716417,pilot-region-14,12.35,true,2023-06-17,102
+4,10966228,extended-region-15,14.80,false,2024-11-01,103

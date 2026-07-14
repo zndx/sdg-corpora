@@ -1,0 +1,5 @@
+id,event_identifier,event_type,start_date,end_date,severity_index,affected_area_hectares,caused_herd_decimation,geographic_region_id
+100,EVE-2706,drought,2022-09-05T20:24:00,2022-09-01T08:00:00,20.95,6.45,false,1
+101,EVE-2707,flood,2023-02-16T03:41:00,2023-02-12T15:17:00,22.90,8.90,true,2
+102,EVE-2708,aquifer_discovery,2024-07-27T10:58:00,2024-07-23T22:34:00,24.85,11.35,false,3
+103,EVE-2709,water_table_drop,2025-12-11T17:15:00,2025-12-07T05:51:00,26.80,13.80,true,4

@@ -1,0 +1,176 @@
+{
+ "construct_id": "703dc5e4bf854a19",
+ "slug": "sponsorship-package-703dc5e4",
+ "passage": "703dc5e4bf854a19c5348e65c501327709fdd09da83c66d3b48bb84a3475fbfe.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "SponsorshipPackage",
+  "MajorEvent",
+  "AwardRecipient",
+  "SponsoringOrganization",
+  "NetworkingSession",
+  "SilentAuction",
+  "ConferenceMarketplace"
+ ],
+ "terms": [
+  {
+   "name": "SponsorshipPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MajorEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AwardRecipient",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SponsoringOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkingSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SilentAuction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ConferenceMarketplace",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "sponsorship_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "package_id",
+    "package_name",
+    "tier_level",
+    "price",
+    "benefits_description",
+    "valid_from",
+    "valid_until",
+    "major_event_id",
+    "sponsoring_organization_org_id"
+   ]
+  },
+  {
+   "name": "major_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_name",
+    "event_date",
+    "venue_name",
+    "venue_address",
+    "event_type",
+    "annual_edition",
+    "theme",
+    "award_recipient_id",
+    "networking_session_id",
+    "silent_auction_id"
+   ]
+  },
+  {
+   "name": "award_recipients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recipient_id",
+    "recipient_name",
+    "award_category",
+    "years_in_field",
+    "nomination_year",
+    "is_finalist",
+    "is_winner",
+    "major_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "sponsoring_organizations",
+   "rows": 4,
+   "columns": [
+    "org_id",
+    "org_name",
+    "business_type",
+    "contact_email",
+    "contact_phone",
+    "membership_status",
+    "sponsorship_package_id",
+    "conference_marketplace_id"
+   ]
+  },
+  {
+   "name": "networking_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_id",
+    "session_name",
+    "start_time",
+    "end_time",
+    "location",
+    "is_mandatory",
+    "major_event_id",
+    "sponsoring_organization_org_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "silent_auctions",
+   "rows": 4,
+   "columns": [
+    "silent_auction_id",
+    "auction_id",
+    "auction_date",
+    "total_proceeds",
+    "number_of_items",
+    "status",
+    "major_event_id"
+   ]
+  },
+  {
+   "name": "conference_marketplaces",
+   "rows": 4,
+   "columns": [
+    "id",
+    "marketplace_id",
+    "booth_count",
+    "setup_date",
+    "dismantle_date",
+    "status",
+    "major_event_id",
+    "sponsoring_organization_org_id"
+   ]
+  }
+ ],
+ "views": [
+  "sponsorship_package_major_event_view",
+  "sponsorship_package_sponsoring_organization_view",
+  "major_event_award_recipient_view",
+  "major_event_networking_session_view",
+  "major_event_silent_auction_view",
+  "award_recipient_major_event_view",
+  "sponsoring_organization_sponsorship_package_view",
+  "sponsoring_organization_conference_marketplace_view",
+  "networking_session_major_event_view",
+  "networking_session_sponsoring_organization_view",
+  "silent_auction_major_event_view",
+  "conference_marketplace_major_event_view",
+  "conference_marketplace_sponsoring_organization_view"
+ ]
+}

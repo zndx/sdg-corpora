@@ -1,0 +1,5 @@
+id,property_id,property_name,numeric_value,unit_of_measure,confidence_interval,measurement_method,material_system_id,computational_material_record_id,created_at,updated_at
+100,23461971,Baseline Standard D,5.20,composite-unit-69,8.70,DFT,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,9424936,Distributed Framework,9.40,primary-unit-70,11.40,MD,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,4985172,Adaptive Protocol,13.60,adaptive-unit-71,14.10,experiment,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,25566008,Primary Programme A,17.80,distributed-unit-72,16.80,ML_prediction,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

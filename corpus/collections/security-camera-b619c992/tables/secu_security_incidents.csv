@@ -1,0 +1,5 @@
+incident_id,incident_date_time,incident_type,severity_level,status,reported_by,library_property_id,video_surveillance_data_id,staff_member_id,law_enforcement_agency_id,created_at
+1336174,2022-01-08T00:48:00,theft,low,open,seasonal-reported-77,100,1,100,1,2025-01-01 00:14:00
+state_uk_4,2023-06-19T07:05:00,vandalism,medium,investigating,regional-reported-78,101,2,101,2,2025-02-06 03:14:00
+2933483,2024-11-03T14:22:00,disruption,high,resolved,legacy-reported-79,102,3,102,3,2025-03-11 06:14:00
+2986243,2025-04-14T21:39:00,trespassing,critical,closed,compact-reported-80,103,4,103,4,2025-04-16 09:14:00

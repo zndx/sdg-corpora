@@ -1,0 +1,5 @@
+id,place_name,etymological_root,linguistic_family,location_reference,confidence_score,settlement_area_id,linguistic_root_id
+1,Distributed Cluster,distributed-etymolog-96,pilot-linguist-92,extended-location-15,8.20,100,100
+2,Adaptive Review D,baseline-etymolog-97,extended-linguist-93,integrated-location-16,10.40,101,101
+3,Primary Initiative,pilot-etymolog-98,integrated-linguist-94,seasonal-location-17,12.60,102,102
+4,Composite Model,extended-etymolog-99,seasonal-linguist-95,regional-location-18,14.80,103,103

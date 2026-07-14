@@ -1,0 +1,5 @@
+id,norm_id,norm_type,trigger_condition,deadline_condition,enforcement_mode,sanction_type,physical_transition_system_id,norm_violation_id,sanction_id
+1,eff2857c-8fcb-11eb-924d-9cd76263cbd0,obligation,legacy-trigger-49,regional-deadline-30,enforcement,baseline-sanction-79,1,1,1
+2,13734000,prohibition,compact-trigger-50,legacy-deadline-31,regimentation,pilot-sanction-80,2,2,2
+3,2933479,obligation,composite-trigger-51,compact-deadline-32,enforcement,extended-sanction-81,3,3,3
+4,6564384,prohibition,primary-trigger-52,composite-deadline-33,regimentation,integrated-sanction-82,4,4,4

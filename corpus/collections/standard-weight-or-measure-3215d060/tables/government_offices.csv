@@ -1,0 +1,5 @@
+government_office_id,office_identifier,office_name,office_type,jurisdiction_level,is_responsible_for_standards,standard_weight_or_measure_id,secure_storage_facility_id,weights_and_measures_function_id
+1,OFF-2045,Pilot Review,executive,state,true,1,1,1000
+2,OFF-2051,Baseline Initiative,administrative,commonwealth,false,2,2,1001
+3,OFF-2057,Distributed Model A,regulatory,local,true,3,3,1002
+4,OFF-2063,Adaptive Cluster,executive,state,false,4,4,1003

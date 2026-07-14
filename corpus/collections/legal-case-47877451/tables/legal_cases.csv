@@ -1,0 +1,5 @@
+id,case_identifier,court_name,case_type,year_filed,status,judgment_date,citation,judgment_id
+100,CAS-2099,Baseline Series D,Criminal,9,Pending,2022-09-26,legacy-citation-79,1
+101,CAS-2100,Distributed Assessment,Civil,18,Active,2023-02-10,compact-citation-80,2
+102,CAS-2101,Adaptive Survey,Family,27,Closed,2024-07-21,composite-citation-81,3
+103,CAS-2102,Primary Corridor A,Inquest,36,Appealed,2025-12-05,primary-citation-82,4

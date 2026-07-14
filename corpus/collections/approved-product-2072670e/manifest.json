@@ -1,0 +1,151 @@
+{
+ "construct_id": "2072670ef892cdfe",
+ "slug": "approved-product-2072670e",
+ "passage": "2072670ef892cdfeeebd8128037689c85d27d9f63980158f36bb0defac75a56d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 11,
+ "entities": [
+  "ApprovedProduct",
+  "ApprovalStandard",
+  "ApprovingAuthority",
+  "Manufacturer",
+  "SurveillanceAudit"
+ ],
+ "terms": [
+  {
+   "name": "ApprovedProduct",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ApprovalStandard",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ApprovingAuthority",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Manufacturer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SurveillanceAudit",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "approved_products",
+   "rows": 4,
+   "columns": [
+    "id",
+    "product_identifier",
+    "product_name",
+    "nominal_size_range",
+    "service_condition",
+    "material_type",
+    "approval_status",
+    "approval_standard_id",
+    "approving_authority_id",
+    "manufacturer_id"
+   ]
+  },
+  {
+   "name": "approval_standards",
+   "rows": 4,
+   "columns": [
+    "approval_standard_id",
+    "standard_code",
+    "standard_title",
+    "publication_date",
+    "issuing_organization",
+    "version_number",
+    "supersedes_approval_standard_id",
+    "is_superseded_by_approval_standard_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "approving_authorities",
+   "rows": 4,
+   "columns": [
+    "approving_authority_id",
+    "authority_name",
+    "authority_type",
+    "jurisdiction",
+    "contact_address",
+    "authorization_level"
+   ]
+  },
+  {
+   "name": "manufacturers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manufacturer_name",
+    "legal_form",
+    "registered_address",
+    "country_of_origin",
+    "registration_number",
+    "approving_authority_id"
+   ]
+  },
+  {
+   "name": "surveillance_audits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "audit_identifier",
+    "audit_date",
+    "audit_outcome",
+    "auditor_name",
+    "findings_count",
+    "next_audit_due",
+    "approved_product_id",
+    "approving_authority_id",
+    "approval_standard_id"
+   ]
+  },
+  {
+   "name": "authorities_products",
+   "rows": 8,
+   "columns": [
+    "approving_authority_id",
+    "approved_product_id"
+   ]
+  },
+  {
+   "name": "authorities_standards",
+   "rows": 8,
+   "columns": [
+    "approving_authority_id",
+    "approval_standard_id"
+   ]
+  },
+  {
+   "name": "manufacturers_products",
+   "rows": 8,
+   "columns": [
+    "manufacturer_id",
+    "approved_product_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_approved_product_approval_standard",
+  "v_approved_product_approving_authority",
+  "v_approved_product_manufacturer",
+  "v_approval_standard_approval_standard",
+  "v_approving_authority_approved_product_detail",
+  "v_approving_authority_approval_standard_detail",
+  "v_manufacturer_approved_product_detail",
+  "v_manufacturer_approving_authority",
+  "v_surveillance_audit_approved_product",
+  "v_surveillance_audit_approving_authority",
+  "v_surveillance_audit_approval_standard"
+ ]
+}

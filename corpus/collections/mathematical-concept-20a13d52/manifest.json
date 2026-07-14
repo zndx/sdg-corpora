@@ -1,0 +1,174 @@
+{
+ "construct_id": "20a13d527d5e7d08",
+ "slug": "mathematical-concept-20a13d52",
+ "passage": "20a13d527d5e7d089833db5f49831c0f9ba861d4916a7f10e5d7c250d617a728.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "MathematicalConcept",
+  "Course",
+  "Textbook",
+  "ProblemSolvingProcess",
+  "Student",
+  "Assessment"
+ ],
+ "terms": [
+  {
+   "name": "MathematicalConcept",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Textbook",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProblemSolvingProcess",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Assessment",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "mathematical_concepts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "concept_id",
+    "concept_name",
+    "concept_type",
+    "difficulty_level",
+    "prerequisite_concept_id",
+    "mathematical_concept_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_code",
+    "course_title",
+    "course_level",
+    "credit_hours",
+    "semester_offered",
+    "textbook_id"
+   ]
+  },
+  {
+   "name": "textbooks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "isbn10",
+    "isbn13",
+    "title",
+    "edition",
+    "publication_date",
+    "publisher",
+    "price",
+    "course_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "problem_solving_processes",
+   "rows": 4,
+   "columns": [
+    "problem_solving_process_id",
+    "process_id",
+    "step_number",
+    "step_description",
+    "is_mandatory",
+    "course_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "first_name",
+    "last_name",
+    "enrollment_date",
+    "academic_level",
+    "course_id"
+   ]
+  },
+  {
+   "name": "assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_type",
+    "date_given",
+    "max_score",
+    "passing_score",
+    "student_id"
+   ]
+  },
+  {
+   "name": "courses_concepts",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "textbooks_concepts",
+   "rows": 8,
+   "columns": [
+    "textbook_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "students_concepts",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "assessments_concepts",
+   "rows": 8,
+   "columns": [
+    "assessment_id",
+    "mathematical_concept_id"
+   ]
+  }
+ ],
+ "views": [
+  "mathematical_concept_mathematical_concept_view",
+  "mathematical_concept_course_view",
+  "course_mathematical_concept_detail_view",
+  "course_textbook_view",
+  "textbook_mathematical_concept_detail_view",
+  "textbook_course_view",
+  "problem_solving_process_course_view",
+  "problem_solving_process_mathematical_concept_view",
+  "student_course_view",
+  "student_mathematical_concept_detail_view",
+  "assessment_mathematical_concept_detail_view",
+  "assessment_student_view"
+ ]
+}

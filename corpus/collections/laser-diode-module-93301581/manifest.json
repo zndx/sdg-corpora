@@ -1,0 +1,125 @@
+{
+ "construct_id": "933015815fe49ee4",
+ "slug": "laser-diode-module-93301581",
+ "passage": "933015815fe49ee439edd75d9a7f1ddb85588d99a4cd14df3363d662867ecaca.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 6,
+ "entities": [
+  "LaserDiodeModule",
+  "FiberAssembly",
+  "PackageStyle",
+  "FiberConnector",
+  "EnvironmentalSpecification",
+  "ApplicationDomain"
+ ],
+ "terms": [
+  {
+   "name": "LaserDiodeModule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FiberAssembly",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PackageStyle",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FiberConnector",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EnvironmentalSpecification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ApplicationDomain",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "laser_diode_modules",
+   "rows": 4,
+   "columns": [
+    "part_number",
+    "center_wavelength",
+    "output_power",
+    "threshold_current",
+    "operating_current",
+    "operating_voltage",
+    "monitor_current",
+    "pd_reverse_voltage",
+    "fiber_assembly_id",
+    "package_style_id",
+    "fiber_connector_id"
+   ]
+  },
+  {
+   "name": "fiber_assemblies",
+   "rows": 4,
+   "columns": [
+    "fiber_assembly_id",
+    "fiber_type",
+    "fiber_core",
+    "fiber_length",
+    "laser_diode_module_part_number",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "package_styles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "style_name",
+    "pin_configuration"
+   ]
+  },
+  {
+   "name": "fiber_connectors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "connector_type"
+   ]
+  },
+  {
+   "name": "environmental_specifications",
+   "rows": 4,
+   "columns": [
+    "environmental_specification_id",
+    "operating_temperature_min",
+    "operating_temperature_max",
+    "storage_temperature_min",
+    "storage_temperature_max",
+    "soldering_temperature",
+    "soldering_duration",
+    "laser_diode_module_part_number"
+   ]
+  },
+  {
+   "name": "application_domains",
+   "rows": 4,
+   "columns": [
+    "application_domain_id",
+    "domain_name",
+    "laser_diode_module_part_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_laser_diode_module_fiber_assembly",
+  "v_laser_diode_module_package_style",
+  "v_laser_diode_module_fiber_connector",
+  "v_fiber_assembly_laser_diode_module",
+  "v_environmental_specification_laser_diode_module",
+  "v_application_domain_laser_diode_module"
+ ]
+}

@@ -1,0 +1,5 @@
+study_id,study_start_date,study_end_date,population_size,exposure_level,cohort_location,cancer_types_observed,mortality_increase,chemical_substance_id,carcinogenicity_assessment_id
+Karyawan,2023-02-12,2024-11-10,35,high,Germany,lung cancer,7.20,1,1
+392491,2024-07-23,2025-04-21,42,medium,Netherlands,non-Hodgkin lymphoma,9.40,2,2
+9568466,2025-12-07,2022-09-05,49,low,United States,all cancer combined,11.60,3,3
+4985166,2022-05-18,2023-02-16,56,high,Italy,lung cancer,13.80,4,4

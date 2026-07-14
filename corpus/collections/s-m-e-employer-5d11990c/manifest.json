@@ -1,0 +1,144 @@
+{
+ "construct_id": "5d11990cb930175c",
+ "slug": "s-m-e-employer-5d11990c",
+ "passage": "5d11990cb930175ce1dd2e246dd727ebc3ab19e0335b0b955d406a7a1c2ed040.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "SMEEmployer",
+  "SurveyWave",
+  "ResearchAgency",
+  "GrowthPerformance",
+  "FinanceAccess",
+  "PolicyInstrument"
+ ],
+ "terms": [
+  {
+   "name": "SMEEmployer",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveyWave",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchAgency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GrowthPerformance",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FinanceAccess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "s_m_e_employers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employer_id",
+    "employee_count",
+    "commercial_sector",
+    "region",
+    "export_status",
+    "training_commitment",
+    "survey_wave_id",
+    "growth_performance_id",
+    "finance_access_id"
+   ]
+  },
+  {
+   "name": "survey_waves",
+   "rows": 4,
+   "columns": [
+    "id",
+    "wave_id",
+    "survey_type",
+    "start_date",
+    "end_date",
+    "economic_period",
+    "sample_size",
+    "s_m_e_employer_id",
+    "research_agency_id"
+   ]
+  },
+  {
+   "name": "research_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_name",
+    "contract_id",
+    "survey_wave_id"
+   ]
+  },
+  {
+   "name": "growth_performances",
+   "rows": 4,
+   "columns": [
+    "growth_performance_id",
+    "employment_change",
+    "turnover_change",
+    "measurement_period",
+    "growth_ambition",
+    "s_m_e_employer_id",
+    "survey_wave_id"
+   ]
+  },
+  {
+   "name": "finance_accesses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "access_status",
+    "finance_type",
+    "banking_sector_impact",
+    "amount_requested",
+    "amount_approved",
+    "s_m_e_employer_id",
+    "survey_wave_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "instrument_id",
+    "instrument_name",
+    "issuing_body",
+    "target_sector",
+    "effective_date",
+    "s_m_e_employer_id",
+    "finance_access_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_s_m_e_employer_survey_wave",
+  "vw_s_m_e_employer_growth_performance",
+  "vw_s_m_e_employer_finance_access",
+  "vw_survey_wave_s_m_e_employer",
+  "vw_survey_wave_research_agency",
+  "vw_research_agency_survey_wave",
+  "vw_growth_performance_s_m_e_employer",
+  "vw_growth_performance_survey_wave",
+  "vw_finance_access_s_m_e_employer",
+  "vw_finance_access_survey_wave",
+  "vw_policy_instrument_s_m_e_employer",
+  "vw_policy_instrument_finance_access"
+ ]
+}

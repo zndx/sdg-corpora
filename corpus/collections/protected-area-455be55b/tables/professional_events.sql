@@ -1,0 +1,20 @@
+CREATE TABLE professional_events (
+  id INTEGER NOT NULL,
+  event_id VARCHAR(44),
+  title VARCHAR(32),
+  event_type VARCHAR(32),
+  start_date TIMESTAMP,
+  end_date TIMESTAMP,
+  location_city VARCHAR(32),
+  location_country VARCHAR(32),
+  participant_count INTEGER,
+  status VARCHAR(32),
+  topic VARCHAR(32),
+  a_l_p_a_r_c_organization_id VARCHAR(40),
+  project_code VARCHAR(44),
+  project_leader_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (a_l_p_a_r_c_organization_id) REFERENCES a_l_p_a_r_cs (organization_id),
+  FOREIGN KEY (project_code) REFERENCES joint_european_projects (project_code),
+  FOREIGN KEY (project_leader_id) REFERENCES project_leaders (id)
+);

@@ -1,0 +1,5 @@
+award_id,award_name,award_year,award_description,award_status,person_id,organization_id
+1,Primary Review A,36,Composite Cluster,pending,100,1
+2,Composite Initiative,43,Compact Review A,awarded,101,2
+3,Compact Model,50,Legacy Initiative,revoked,102,3
+4,Legacy Cluster D,57,Regional Model,pending,103,4

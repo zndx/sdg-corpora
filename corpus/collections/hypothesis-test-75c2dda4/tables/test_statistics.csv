@@ -1,0 +1,5 @@
+id,statistic_symbol,observed_value,distribution_model,distribution_parameter,hypothesis_test_id,population_parameter_id
+100,extended-statisti-51,24,integrated-distribu-88,12.70,1,1
+101,integrated-statisti-52,30,seasonal-distribu-89,14.40,2,2
+102,seasonal-statisti-53,36,regional-distribu-90,16.10,3,3
+103,regional-statisti-54,42,legacy-distribu-91,17.80,4,4

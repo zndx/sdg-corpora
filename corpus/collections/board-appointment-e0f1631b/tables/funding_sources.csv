@@ -1,0 +1,5 @@
+id,source_id,source_type,source_name,contribution_amount,contribution_date,contribution_status,non_profit_organization_id
+100,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,individual,Composite Model,35.57,2024-07-07T06:30:00,pledged,1
+101,7021001070050,business,Compact Cluster A,11.88,2025-12-18T13:47:00,received,2
+102,achat,foundation,Legacy Review,17.41,2022-05-02T20:04:00,applied,3
+103,template_impcode_pagata_10det50,special_event,Regional Initiative,33.06,2023-10-13T03:21:00,pledged,4

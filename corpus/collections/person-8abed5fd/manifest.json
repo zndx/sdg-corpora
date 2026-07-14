@@ -1,0 +1,147 @@
+{
+ "construct_id": "8abed5fdebce1bb8",
+ "slug": "person-8abed5fd",
+ "passage": "8abed5fdebce1bb8f07bb716c22b94b4625add1da60f0b970dbf5b783a58b606.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "Person",
+  "Organization",
+  "ProfessionalRole",
+  "StrategicInitiative",
+  "GeographicMarket",
+  "IndustrySector"
+ ],
+ "terms": [
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProfessionalRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "StrategicInitiative",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicMarket",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "IndustrySector",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "full_name",
+    "email_address",
+    "phone",
+    "years_of_experience",
+    "professional_role_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "website",
+    "mission_statement",
+    "vision_statement",
+    "person_id",
+    "has_council_member_person_id",
+    "industry_sector_id"
+   ]
+  },
+  {
+   "name": "professional_roles",
+   "rows": 4,
+   "columns": [
+    "professional_role_id",
+    "role_title",
+    "department",
+    "start_date",
+    "responsibilities",
+    "reporting_to",
+    "person_id",
+    "organization_id",
+    "strategic_initiative_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "strategic_initiatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "initiative_id",
+    "initiative_name",
+    "target_region",
+    "status",
+    "description",
+    "professional_role_id",
+    "geographic_market_id",
+    "industry_sector_id"
+   ]
+  },
+  {
+   "name": "geographic_markets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "market_id",
+    "region_name",
+    "country_code",
+    "market_type",
+    "strategic_initiative_id",
+    "industry_sector_id"
+   ]
+  },
+  {
+   "name": "industry_sectors",
+   "rows": 4,
+   "columns": [
+    "industry_sector_id",
+    "sector_id",
+    "sector_name",
+    "classification_code",
+    "organization_id",
+    "strategic_initiative_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_person_professional_role",
+  "v_person_organization",
+  "v_organization_person",
+  "v_organization_industry_sector",
+  "v_professional_role_person",
+  "v_professional_role_organization",
+  "v_professional_role_strategic_initiative",
+  "v_strategic_initiative_professional_role",
+  "v_strategic_initiative_geographic_market",
+  "v_strategic_initiative_industry_sector",
+  "v_geographic_market_strategic_initiative",
+  "v_geographic_market_industry_sector",
+  "v_industry_sector_organization",
+  "v_industry_sector_strategic_initiative"
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "construct_id": "f63e5db004704a41",
+ "slug": "readiness-benchmark-f63e5db0",
+ "passage": "f63e5db004704a41468d7f094a4cd2d51ab1e47e7196cb39c5e4309477e53398.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 14,
+ "entities": [
+  "ReadinessBenchmark",
+  "CourseLevel",
+  "AssessmentInstrument",
+  "LearningOutcome",
+  "StudentAssessmentRecord",
+  "StudentProfile"
+ ],
+ "terms": [
+  {
+   "name": "ReadinessBenchmark",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CourseLevel",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AssessmentInstrument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LearningOutcome",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentAssessmentRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StudentProfile",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "readiness_benchmarks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "benchmark_id",
+    "assessment_domain",
+    "minimum_score",
+    "assessment_type",
+    "effective_date",
+    "expiration_months",
+    "is_mandatory",
+    "score_scale",
+    "instrument_code"
+   ]
+  },
+  {
+   "name": "course_levels",
+   "rows": 4,
+   "columns": [
+    "course_level_id",
+    "course_code",
+    "institution_code",
+    "course_title",
+    "credit_hours",
+    "is_developmental",
+    "is_credit_bearing",
+    "department",
+    "semester_offered"
+   ]
+  },
+  {
+   "name": "assessment_instruments",
+   "rows": 4,
+   "columns": [
+    "instrument_code",
+    "instrument_name",
+    "format",
+    "administering_body",
+    "validity_period_months",
+    "is_deprecated",
+    "version_number"
+   ]
+  },
+  {
+   "name": "learning_outcomes",
+   "rows": 4,
+   "columns": [
+    "outcome_id",
+    "domain",
+    "objective_text",
+    "proficiency_level",
+    "assessment_method",
+    "is_mandatory",
+    "last_reviewed_date",
+    "readiness_benchmark_id"
+   ]
+  },
+  {
+   "name": "student_assessment_records",
+   "rows": 4,
+   "columns": [
+    "student_assessment_record_id",
+    "record_id",
+    "student_id",
+    "test_date",
+    "score",
+    "percentile",
+    "is_expired",
+    "testing_center",
+    "score_report_id",
+    "instrument_code",
+    "student_profile_id"
+   ]
+  },
+  {
+   "name": "student_profiles",
+   "rows": 4,
+   "columns": [
+    "student_profile_id",
+    "student_id",
+    "admission_status",
+    "high_school_g_p_a",
+    "class_rank",
+    "has_g_e_d",
+    "enrollment_date",
+    "institution_code",
+    "is_developmental_required",
+    "created_at"
+   ]
+  },
+  {
+   "name": "benchmarks_levels",
+   "rows": 8,
+   "columns": [
+    "readiness_benchmark_id",
+    "course_level_id"
+   ]
+  },
+  {
+   "name": "levels_benchmarks",
+   "rows": 8,
+   "columns": [
+    "course_level_id",
+    "readiness_benchmark_id"
+   ]
+  },
+  {
+   "name": "levels_outcomes",
+   "rows": 8,
+   "columns": [
+    "course_level_id",
+    "outcome_id"
+   ]
+  },
+  {
+   "name": "instruments_benchmarks",
+   "rows": 8,
+   "columns": [
+    "instrument_code",
+    "readiness_benchmark_id"
+   ]
+  },
+  {
+   "name": "instruments_records",
+   "rows": 8,
+   "columns": [
+    "instrument_code",
+    "student_assessment_record_id"
+   ]
+  },
+  {
+   "name": "outcomes_levels",
+   "rows": 8,
+   "columns": [
+    "outcome_id",
+    "course_level_id"
+   ]
+  },
+  {
+   "name": "records_benchmarks",
+   "rows": 8,
+   "columns": [
+    "student_assessment_record_id",
+    "readiness_benchmark_id"
+   ]
+  },
+  {
+   "name": "profiles_records",
+   "rows": 8,
+   "columns": [
+    "student_profile_id",
+    "student_assessment_record_id"
+   ]
+  },
+  {
+   "name": "profiles_levels",
+   "rows": 8,
+   "columns": [
+    "student_profile_id",
+    "course_level_id"
+   ]
+  },
+  {
+   "name": "profiles_benchmarks",
+   "rows": 8,
+   "columns": [
+    "student_profile_id",
+    "readiness_benchmark_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_readiness_benchmark_course_level_detail",
+  "v_readiness_benchmark_assessment_instrument",
+  "v_course_level_readiness_benchmark_detail",
+  "v_course_level_learning_outcome_detail",
+  "v_assessment_instrument_readiness_benchmark_detail",
+  "v_assessment_instrument_student_assessment_record_detail",
+  "v_learning_outcome_course_level_detail",
+  "v_learning_outcome_readiness_benchmark",
+  "v_student_assessment_record_assessment_instrument",
+  "v_student_assessment_record_readiness_benchmark_detail",
+  "v_student_assessment_record_student_profile",
+  "v_student_profile_student_assessment_record_detail",
+  "v_student_profile_course_level_detail",
+  "v_student_profile_readiness_benchmark_detail"
+ ]
+}

@@ -1,0 +1,5 @@
+student_id,full_name,grade_level,enrollment_status,date_of_birth,guardian_contact_id,bullying_incident_id,involved_in_incident_as_perpetrator_bullying_incident_id,service_id,created_at,updated_at
+1000,Theodore Mcgrath,29,Active,2025-04-02,Karen Keller,1,1,1996925,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,Account Name,33,Suspended,2022-09-13,Stephanie Lawrence,2,2,3990164,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,Saipan International Airport,37,Expelled,2023-02-24,Walter Pratt,3,3,5844258,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,Norma Fisher,41,Graduated,2024-07-08,Julian Brown,4,4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,2025-04-16 09:14:00,2025-04-23 15:41:00

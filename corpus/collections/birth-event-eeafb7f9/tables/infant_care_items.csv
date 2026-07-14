@@ -1,0 +1,5 @@
+id,item_type,material,condition,birth_event_id,location_id
+100,cloth,primary-material-94,seasonal-conditio-89,100,1
+101,bed,adaptive-material-95,regional-conditio-90,101,2
+102,manger,distributed-material-96,legacy-conditio-91,102,3
+103,cloth,baseline-material-97,compact-conditio-92,103,4

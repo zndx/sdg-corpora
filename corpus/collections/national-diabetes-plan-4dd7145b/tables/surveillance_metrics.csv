@@ -1,0 +1,5 @@
+id,metric_id,metric_type,value,unit,measurement_date,population_age_range,data_source,population_segment_id,surveillance_framework_id
+1,3744010,incidence,19.95,distributed-unit-18,2024-07-01,pilot-populati-86,pilot-data-38,1000,1000
+2,136630a8-8fcc-11eb-924d-9cd76263cbd0,prevalence,21.90,baseline-unit-19,2025-12-12,extended-populati-87,extended-data-39,1001,1001
+3,2986226,mortality,23.85,pilot-unit-20,2022-05-23,integrated-populati-88,integrated-data-40,1002,1002
+4,2002007020010,undiagnosed_cases,25.80,extended-unit-21,2023-10-07,seasonal-populati-89,seasonal-data-41,1003,1003

@@ -1,0 +1,5 @@
+compliance_obligation_id,obligation_identifier,description,compliance_deadline,status,applicable_year,requires_amendment,guidance_status,health_plan_id,reporting_requirement_id
+100,OBL-2751,Extended Survey,2023-02-24T01:03:00,pending,34,true,awaiting_guidance,100,1
+101,OBL-2753,Pilot Corridor A,2024-07-08T08:20:00,in_progress,44,false,issued,101,2
+102,OBL-2755,Baseline Series,2025-12-19T15:37:00,complete,54,true,unclear,102,3
+103,OBL-2757,Distributed Assessment,2022-05-03T22:54:00,failed,64,false,awaiting_guidance,103,4

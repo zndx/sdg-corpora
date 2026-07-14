@@ -1,0 +1,5 @@
+id,patient_id,patient_age,patient_gender,consultation_frequency,feedback_rating,risk_screening_status,clinical_service_id,finding_id
+1,8387541,27,male,baseline-consulta-67,positive,screened,100,dbea2f30-8fcb-11eb-924d-9cd76263cbd0
+2,10207142,38,female,pilot-consulta-68,neutral,not_screened,101,4793483
+3,7119782,49,other,extended-consulta-69,negative,at_risk,102,6564384
+4,gd_acc_160003,60,male,integrated-consulta-70,positive,screened,103,8928500

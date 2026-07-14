@@ -1,0 +1,5 @@
+zone_id,zone_type,altitude_limit_meters,radius_meters,enforcement_level,created_at,updated_at
+937724,no-fly,10.45,9.20,advisory,2025-01-01 00:14:00,2025-01-02 00:41:00
+99504,restricted,13.90,11.40,mandatory,2025-02-06 03:14:00,2025-02-09 05:41:00
+10207142,controlled,17.35,13.60,prohibited,2025-03-11 06:14:00,2025-03-16 10:41:00
+f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,public,20.80,15.80,advisory,2025-04-16 09:14:00,2025-04-23 15:41:00

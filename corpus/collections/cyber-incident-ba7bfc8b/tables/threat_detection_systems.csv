@@ -1,0 +1,5 @@
+id,system_id,system_name,deployment_type,monitoring_status,last_scan_date,ai_enabled,asset_id,security_event_id,security_platform_id
+1000,8189503,Legacy Programme D,cloud,active,2025-08-15,false,7731874,1,1
+1001,3717623,Regional Standard,endpoint,inactive,2022-01-26,true,6564392,2,2
+1002,7441161,Seasonal Framework,network,maintenance,2023-06-10,false,5917296,3,3
+1003,605963,Integrated Protocol A,application,active,2024-11-21,true,990e161e10664c5885182d95dc07e606,4,4

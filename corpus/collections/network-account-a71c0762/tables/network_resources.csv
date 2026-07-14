@@ -1,0 +1,5 @@
+network_resource_id,resource_id,resource_name,resource_type,is_fee_based,requires_prior_approval,access_level,network_account_id,acceptable_use_policy_id
+1,1167,Adaptive Corridor,electronic_library,false,false,public,1,1000
+2,2106708,Primary Series,research_database,true,true,restricted,2,1001
+3,4180945,Composite Assessment D,collaborative_platform,false,false,internal,3,1002
+4,10238270,Compact Survey,external_network,true,true,public,4,1003

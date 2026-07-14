@@ -1,0 +1,5 @@
+clinical_trial_id,trial_identifier,title,start_date,end_date,status,phase,primary_outcome,sample_size,control_group_id
+1000,TRI-2078,Compact Initiative,2022-09-05T20:24:00,2022-09-01T08:00:00,planning,Phase 1,extended-primary-63,31,4060641
+1001,TRI-2080,Legacy Model,2023-02-16T03:41:00,2023-02-12T15:17:00,recruiting,Phase 2,integrated-primary-64,38,IVC10I
+1002,TRI-2082,Regional Cluster A,2024-07-27T10:58:00,2024-07-23T22:34:00,active,Phase 3,seasonal-primary-65,45,1250208
+1003,TRI-2084,Seasonal Review,2025-12-11T17:15:00,2025-12-07T05:51:00,completed,Phase 4,regional-primary-66,52,5006455

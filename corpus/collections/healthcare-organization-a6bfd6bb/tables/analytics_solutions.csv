@@ -1,0 +1,5 @@
+id,solution_id,name,type,provider,deployment_date,is_web_based,healthcare_organization_id,created_at
+100,4793487,Extended Review,clinical,legacy-provider-37,2023-02-14,false,1000,2025-01-01 00:14:00
+101,5844272,Pilot Initiative A,business,compact-provider-38,2024-07-25,true,1001,2025-02-06 03:14:00
+102,0470021411,Baseline Model,big_data,composite-provider-39,2025-12-09,false,1002,2025-03-11 06:14:00
+103,7021001070020,Distributed Cluster,clinical,primary-provider-40,2022-05-20,true,1003,2025-04-16 09:14:00

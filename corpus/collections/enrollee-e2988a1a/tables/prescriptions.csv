@@ -1,0 +1,5 @@
+id,prescription_id,fill_date,quantity,dosage,requires_prior_authorization,is_non_formulary,schedule,provider_id,medication_id,enrollee_id,reminder_letter_id
+1,ChIJJWXQs_tt5kcRsRRUVT8pPXo,2022-09-05T20:36:00,9,seasonal-dosage-83,false,true,Schedule II,1,100,1000,100
+2,1336175,2023-02-16T03:53:00,8,regional-dosage-84,true,false,Schedule III,2,101,1001,101
+3,2618572,2024-07-27T10:10:00,0,legacy-dosage-85,false,true,Schedule IV,3,102,1002,102
+4,3717621,2025-12-11T17:27:00,12,compact-dosage-86,true,false,Schedule V,4,103,1003,103

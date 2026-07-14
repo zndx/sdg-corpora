@@ -1,0 +1,5 @@
+id,administrator_id,role_status,authorization_level,business_account_vat_number,method_id
+100,10449535,active,full_admin,VAT-2449,209228
+101,df2e3438-8fcc-11eb-924d-9cd76263cbd0,transferred,restricted,VAT-2453,7441161
+102,artemyarulin,revoked,full_admin,VAT-2457,89447
+103,gd_taxc_1121,active,restricted,VAT-2461,4180941

@@ -1,0 +1,5 @@
+id,member_identifier,member_name,member_role,appointment_date,is_external,certification_status,governance_body_id,meeting_id
+1,MEM-2656,Stephanie Higgins,Director,2022-05-03,true,regional-certific-78,100,1000
+2,MEM-2660,Stephanie Sutton,External Director,2023-10-14,false,legacy-certific-79,101,1001
+3,MEM-2664,Michael Oconnell,Auditor,2024-03-25,true,compact-certific-80,102,1002
+4,MEM-2668,Theodore Mcgrath,External Auditor,2025-08-09,false,composite-certific-81,103,1003

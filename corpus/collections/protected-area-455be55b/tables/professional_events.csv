@@ -1,0 +1,5 @@
+id,event_id,title,event_type,start_date,end_date,location_city,location_country,participant_count,status,topic,a_l_p_a_r_c_organization_id,project_code,project_leader_id
+1,2002007020060,Compact Initiative,Conference,2022-09-05T20:24:00,2022-09-01T08:00:00,seasonal-location-23,adaptive-location-47,100,Planned,distributed-topic-60,Shell Oil,IVC20det15,1000
+2,168535,Legacy Model,Workshop,2023-02-16T03:41:00,2023-02-12T15:17:00,regional-location-24,distributed-location-48,27,Ongoing,baseline-topic-61,GlobalPlatform Inc.,8599bbd0-9bad-11eb-a8a2-19ed5c03f8d3,1001
+3,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,Regional Cluster A,Symposium,2024-07-27T10:58:00,2024-07-23T22:34:00,legacy-location-25,baseline-location-49,23,Completed,pilot-topic-62,Whatsapp Inc.,324,1002
+4,1186089,Seasonal Review,Meeting,2025-12-11T17:15:00,2025-12-07T05:51:00,compact-location-26,pilot-location-50,34,Cancelled,extended-topic-63,American Institutes for Research,template_ivacode_pagata_20det50,1003

@@ -1,0 +1,158 @@
+{
+ "construct_id": "cdae42b9d971630f",
+ "slug": "research-desk-cdae42b9",
+ "passage": "cdae42b9d971630f023d0a2f61e5269737dc9c1e65e07b308f23b8dffde969c1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "ResearchDesk",
+  "ProjectManager",
+  "DevelopmentAgency",
+  "ResearchOutput",
+  "AcademicQualification",
+  "Institution"
+ ],
+ "terms": [
+  {
+   "name": "ResearchDesk",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProjectManager",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "DevelopmentAgency",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchOutput",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AcademicQualification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Institution",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "research_desks",
+   "rows": 4,
+   "columns": [
+    "research_desk_id",
+    "desk_identifier",
+    "agency_funded_by",
+    "start_date",
+    "end_date",
+    "status",
+    "response_type",
+    "project_manager_id",
+    "development_agency_id",
+    "research_output_id"
+   ]
+  },
+  {
+   "name": "project_managers",
+   "rows": 4,
+   "columns": [
+    "project_manager_id",
+    "manager_id",
+    "full_name",
+    "email",
+    "telephone",
+    "current_role",
+    "institution",
+    "research_desk_id",
+    "institution_id",
+    "academic_qualification_id"
+   ]
+  },
+  {
+   "name": "development_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_code",
+    "agency_name",
+    "country_of_origin",
+    "funding_program",
+    "established_year",
+    "research_desk_id",
+    "funds_research_desk_id"
+   ]
+  },
+  {
+   "name": "research_outputs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "output_id",
+    "title",
+    "publication_date",
+    "format",
+    "access_level",
+    "page_count",
+    "research_desk_id",
+    "project_manager_id",
+    "research_output_id"
+   ]
+  },
+  {
+   "name": "academic_qualifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "qualification_id",
+    "degree_type",
+    "field_of_study",
+    "awarding_institution",
+    "graduation_year",
+    "distinction_level",
+    "project_manager_id",
+    "institution_id"
+   ]
+  },
+  {
+   "name": "institutions",
+   "rows": 4,
+   "columns": [
+    "institution_id",
+    "institution_code",
+    "institution_name",
+    "country",
+    "institution_type",
+    "founded_year",
+    "address",
+    "project_manager_id",
+    "academic_qualification_id",
+    "research_desk_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "vw_research_desk_project_manager",
+  "vw_research_desk_development_agency",
+  "vw_research_desk_research_output",
+  "vw_project_manager_research_desk",
+  "vw_project_manager_institution",
+  "vw_project_manager_academic_qualification",
+  "vw_development_agency_research_desk",
+  "vw_research_output_research_desk",
+  "vw_research_output_project_manager",
+  "vw_research_output_research_output",
+  "vw_academic_qualification_project_manager",
+  "vw_academic_qualification_institution",
+  "vw_institution_project_manager",
+  "vw_institution_academic_qualification",
+  "vw_institution_research_desk"
+ ]
+}

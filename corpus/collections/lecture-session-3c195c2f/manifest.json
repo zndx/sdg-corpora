@@ -1,0 +1,166 @@
+{
+ "construct_id": "3c195c2f22903995",
+ "slug": "lecture-session-3c195c2f",
+ "passage": "3c195c2f22903995d74e33dcc028d45dc665cbb3418d882bd4d252419259a4f7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 8,
+ "entities": [
+  "LectureSession",
+  "LectureNote",
+  "ComputationalExample",
+  "NotebookFile",
+  "Textbook",
+  "SoftwarePackage"
+ ],
+ "terms": [
+  {
+   "name": "LectureSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LectureNote",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ComputationalExample",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NotebookFile",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Textbook",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SoftwarePackage",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "lecture_sessions",
+   "rows": 4,
+   "columns": [
+    "lecture_session_id",
+    "session_identifier",
+    "scheduled_date",
+    "duration_minutes",
+    "topic",
+    "status"
+   ]
+  },
+  {
+   "name": "lecture_notes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "note_identifier",
+    "title",
+    "format",
+    "page_count",
+    "last_modified",
+    "lecture_session_id"
+   ]
+  },
+  {
+   "name": "computational_examples",
+   "rows": 4,
+   "columns": [
+    "id",
+    "example_identifier",
+    "title",
+    "software_version",
+    "file_size_bytes",
+    "status",
+    "lecture_session_id"
+   ]
+  },
+  {
+   "name": "notebook_files",
+   "rows": 4,
+   "columns": [
+    "notebook_file_id",
+    "file_identifier",
+    "file_name",
+    "file_extension",
+    "creation_date",
+    "checksum",
+    "computational_example_id"
+   ]
+  },
+  {
+   "name": "textbooks",
+   "rows": 4,
+   "columns": [
+    "textbook_id",
+    "isbn",
+    "title",
+    "author",
+    "publisher",
+    "publication_year",
+    "price"
+   ]
+  },
+  {
+   "name": "software_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "package_identifier",
+    "name",
+    "version",
+    "developer",
+    "license_type",
+    "computational_example_id"
+   ]
+  },
+  {
+   "name": "sessions_notes",
+   "rows": 8,
+   "columns": [
+    "lecture_session_id",
+    "lecture_note_id"
+   ]
+  },
+  {
+   "name": "sessions_examples",
+   "rows": 8,
+   "columns": [
+    "lecture_session_id",
+    "computational_example_id"
+   ]
+  },
+  {
+   "name": "examples_files",
+   "rows": 8,
+   "columns": [
+    "computational_example_id",
+    "notebook_file_id"
+   ]
+  },
+  {
+   "name": "textbooks_sessions",
+   "rows": 8,
+   "columns": [
+    "textbook_id",
+    "lecture_session_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_lecture_session_lecture_note_detail",
+  "vw_lecture_session_computational_example_detail",
+  "vw_lecture_note_lecture_session",
+  "vw_computational_example_lecture_session",
+  "vw_computational_example_notebook_file_detail",
+  "vw_notebook_file_computational_example",
+  "vw_textbook_lecture_session_detail",
+  "vw_software_package_computational_example"
+ ]
+}

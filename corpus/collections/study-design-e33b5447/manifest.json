@@ -1,0 +1,293 @@
+{
+ "construct_id": "e33b544750d245ee",
+ "slug": "study-design-e33b5447",
+ "passage": "e33b544750d245ee1cf179910bf0c40327b8771d3a822aa16b9008b035cdac9f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 22,
+ "n_views": 20,
+ "entities": [
+  "StudyDesign",
+  "ResearchMethod",
+  "BiologicalMeasurement",
+  "Individual",
+  "Population",
+  "Dataset",
+  "EthicalProtocol"
+ ],
+ "terms": [
+  {
+   "name": "StudyDesign",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchMethod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BiologicalMeasurement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Population",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Dataset",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EthicalProtocol",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "study_designs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "design_id",
+    "design_name",
+    "design_type",
+    "start_date",
+    "end_date",
+    "status",
+    "primary_objective"
+   ]
+  },
+  {
+   "name": "research_methods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "method_id",
+    "method_name",
+    "method_category",
+    "accuracy_level",
+    "bias_risk",
+    "is_standardized"
+   ]
+  },
+  {
+   "name": "biological_measurements",
+   "rows": 4,
+   "columns": [
+    "measurement_id",
+    "measurement_value",
+    "unit_of_measure",
+    "measurement_date",
+    "measurement_type",
+    "reference_standard",
+    "status",
+    "dataset_id",
+    "research_method_id",
+    "individual_participant_id"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "participant_id",
+    "age",
+    "sex",
+    "ethnicity",
+    "enrollment_date",
+    "consent_status"
+   ]
+  },
+  {
+   "name": "populations",
+   "rows": 4,
+   "columns": [
+    "population_id",
+    "population_name",
+    "geographic_region",
+    "sample_size",
+    "inclusion_criteria",
+    "monitoring_status",
+    "created_at"
+   ]
+  },
+  {
+   "name": "datasets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dataset_id",
+    "dataset_name",
+    "format",
+    "creation_date",
+    "record_count",
+    "data_quality_score",
+    "storage_location",
+    "research_method_id",
+    "study_design_id"
+   ]
+  },
+  {
+   "name": "ethical_protocols",
+   "rows": 4,
+   "columns": [
+    "id",
+    "protocol_id",
+    "protocol_name",
+    "approval_date",
+    "reviewing_body",
+    "principles",
+    "status",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "designs_methods",
+   "rows": 8,
+   "columns": [
+    "study_design_id",
+    "research_method_id"
+   ]
+  },
+  {
+   "name": "designs_populations",
+   "rows": 8,
+   "columns": [
+    "study_design_id",
+    "population_id"
+   ]
+  },
+  {
+   "name": "designs_datasets",
+   "rows": 8,
+   "columns": [
+    "study_design_id",
+    "dataset_id"
+   ]
+  },
+  {
+   "name": "methods_designs",
+   "rows": 8,
+   "columns": [
+    "research_method_id",
+    "study_design_id"
+   ]
+  },
+  {
+   "name": "methods_measurements",
+   "rows": 8,
+   "columns": [
+    "research_method_id",
+    "measurement_id"
+   ]
+  },
+  {
+   "name": "methods_datasets",
+   "rows": 8,
+   "columns": [
+    "research_method_id",
+    "dataset_id"
+   ]
+  },
+  {
+   "name": "individuals_designs",
+   "rows": 8,
+   "columns": [
+    "individual_participant_id",
+    "study_design_id"
+   ]
+  },
+  {
+   "name": "individuals_measurements",
+   "rows": 8,
+   "columns": [
+    "individual_participant_id",
+    "measurement_id"
+   ]
+  },
+  {
+   "name": "individuals_populations",
+   "rows": 8,
+   "columns": [
+    "individual_participant_id",
+    "population_id"
+   ]
+  },
+  {
+   "name": "populations_individuals",
+   "rows": 8,
+   "columns": [
+    "population_id",
+    "individual_participant_id"
+   ]
+  },
+  {
+   "name": "populations_designs",
+   "rows": 8,
+   "columns": [
+    "population_id",
+    "study_design_id"
+   ]
+  },
+  {
+   "name": "datasets_measurements",
+   "rows": 8,
+   "columns": [
+    "dataset_id",
+    "measurement_id"
+   ]
+  },
+  {
+   "name": "protocols_designs",
+   "rows": 8,
+   "columns": [
+    "ethical_protocol_id",
+    "study_design_id"
+   ]
+  },
+  {
+   "name": "protocols_individuals",
+   "rows": 8,
+   "columns": [
+    "ethical_protocol_id",
+    "individual_participant_id"
+   ]
+  },
+  {
+   "name": "protocols_datasets",
+   "rows": 8,
+   "columns": [
+    "ethical_protocol_id",
+    "dataset_id"
+   ]
+  }
+ ],
+ "views": [
+  "study_design_research_method_detail_view",
+  "study_design_population_detail_view",
+  "study_design_dataset_detail_view",
+  "research_method_study_design_detail_view",
+  "research_method_biological_measurement_detail_view",
+  "research_method_dataset_detail_view",
+  "biological_measurement_dataset_view",
+  "biological_measurement_research_method_view",
+  "biological_measurement_individual_view",
+  "individual_study_design_detail_view",
+  "individual_biological_measurement_detail_view",
+  "individual_population_detail_view",
+  "population_individual_detail_view",
+  "population_study_design_detail_view",
+  "dataset_research_method_view",
+  "dataset_biological_measurement_detail_view",
+  "dataset_study_design_view",
+  "ethical_protocol_study_design_detail_view",
+  "ethical_protocol_individual_detail_view",
+  "ethical_protocol_dataset_detail_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,routineId,routineName,focusArea,isQualityFocused,mechanicsId
+100,f2096e32-8fcd-11eb-924d-9cd76263cbd0,GAP,Direction,true,1
+101,611512,3Ds,Distance,false,2
+102,4447010,RailroadTrack,Decision,true,3
+103,6564380,GAP,Posture,false,4

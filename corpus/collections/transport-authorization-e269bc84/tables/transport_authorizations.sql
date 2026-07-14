@@ -1,0 +1,20 @@
+CREATE TABLE transport_authorizations (
+  authorization_id VARCHAR(32) NOT NULL,
+  request_date TIMESTAMP,
+  fax_number VARCHAR(32),
+  email_address VARCHAR(32),
+  service_date DATE,
+  payment_status VARCHAR(32),
+  supervision_status VARCHAR(32),
+  minor_passenger_id INTEGER,
+  guardian_id INTEGER,
+  emergency_contact_id INTEGER,
+  location_id INTEGER,
+  specifies_dropoff_location_location_id INTEGER,
+  PRIMARY KEY (authorization_id),
+  FOREIGN KEY (minor_passenger_id) REFERENCES minor_passengers (id),
+  FOREIGN KEY (guardian_id) REFERENCES guardians (id),
+  FOREIGN KEY (emergency_contact_id) REFERENCES emergency_contacts (emergency_contact_id),
+  FOREIGN KEY (location_id) REFERENCES locations (id),
+  FOREIGN KEY (specifies_dropoff_location_location_id) REFERENCES locations (id)
+);

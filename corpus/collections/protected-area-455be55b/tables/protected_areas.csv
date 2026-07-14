@@ -1,0 +1,5 @@
+protected_area_id,identifier,name,area_hectares,established_date,protection_level,administering_entity,is_a_l_p_a_r_c_member,alpine_region_id,transalpine_ecological_network_id
+100,IDE-2086,Extended Review,10.20,2024-03-27,National Park,primary-administ-22,false,1000,1
+101,IDE-2091,Pilot Initiative A,14.40,2025-08-11,Nature Reserve,adaptive-administ-23,true,1001,2
+102,IDE-2096,Baseline Model,18.60,2022-01-22,Landscape Protection Area,distributed-administ-24,false,1002,3
+103,IDE-2101,Distributed Cluster,22.80,2023-06-06,Biosphere Reserve,baseline-administ-25,true,1003,4

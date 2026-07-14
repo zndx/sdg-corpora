@@ -1,0 +1,5 @@
+id,parcel_id,zoning_district,area_hectares,current_land_use,topography,municipality_id,planning_application_id
+1000,4447034,garden_city,10.20,agricultural,flat,1000,1000
+1001,325464,residential,14.40,vacant,sloped,1001,1001
+1002,3990187,commercial,18.60,residential,hilly,1002,1002
+1003,110,green_belt,22.80,commercial,flat,1003,1003

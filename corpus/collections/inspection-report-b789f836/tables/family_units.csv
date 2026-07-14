@@ -1,0 +1,5 @@
+family_unit_id,family_id,has_disabled_parent,has_children,impairment_type,needs_assessment_id
+100,5f91638e-8fcd-11eb-924d-9cd76263cbd0,false,false,learning,1000
+101,democrm,true,true,physical,1001
+102,4060635,false,false,sensory,1002
+103,69430,true,true,chronic_sickness,1003

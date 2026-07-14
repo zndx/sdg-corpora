@@ -1,0 +1,150 @@
+{
+ "construct_id": "ac90bb7777a07b2e",
+ "slug": "case-review-protocol-ac90bb77",
+ "passage": "ac90bb7777a07b2eca45ed82d023ff188fd17d76399b2198336fc8d137e633e9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "CaseReviewProtocol",
+  "SystemDomain",
+  "GovernmentAgency",
+  "ExpertReviewer",
+  "AcademicInstitution",
+  "LegalCase"
+ ],
+ "terms": [
+  {
+   "name": "CaseReviewProtocol",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SystemDomain",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentAgency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExpertReviewer",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LegalCase",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "case_review_protocols",
+   "rows": 4,
+   "columns": [
+    "id",
+    "protocol_identifier",
+    "protocol_name",
+    "version_number",
+    "review_date",
+    "status",
+    "scope_description",
+    "reviewer_name",
+    "system_domain_id",
+    "expert_reviewer_id",
+    "legal_case_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "system_domains",
+   "rows": 4,
+   "columns": [
+    "id",
+    "domain_identifier",
+    "domain_name",
+    "responsible_agency",
+    "assessment_criteria",
+    "is_within_jurisdiction",
+    "case_review_protocol_id",
+    "government_agency_id"
+   ]
+  },
+  {
+   "name": "government_agencies",
+   "rows": 4,
+   "columns": [
+    "government_agency_id",
+    "agency_identifier",
+    "agency_name",
+    "jurisdiction_level",
+    "service_type",
+    "established_date",
+    "system_domain_id",
+    "legal_case_id"
+   ]
+  },
+  {
+   "name": "expert_reviewers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "reviewer_identifier",
+    "reviewer_name",
+    "academic_title",
+    "institution",
+    "years_experience",
+    "specialization",
+    "review_date",
+    "case_review_protocol_id",
+    "academic_institution_id"
+   ]
+  },
+  {
+   "name": "academic_institutions",
+   "rows": 4,
+   "columns": [
+    "academic_institution_id",
+    "institution_identifier",
+    "institution_name",
+    "location",
+    "department_name",
+    "college_name",
+    "expert_reviewer_id"
+   ]
+  },
+  {
+   "name": "legal_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_number",
+    "court_name",
+    "filing_date",
+    "case_type",
+    "status",
+    "government_agency_id",
+    "case_review_protocol_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_case_review_protocol_system_domain",
+  "vw_case_review_protocol_expert_reviewer",
+  "vw_case_review_protocol_legal_case",
+  "vw_system_domain_case_review_protocol",
+  "vw_system_domain_government_agency",
+  "vw_government_agency_system_domain",
+  "vw_government_agency_legal_case",
+  "vw_expert_reviewer_case_review_protocol",
+  "vw_expert_reviewer_academic_institution",
+  "vw_academic_institution_expert_reviewer",
+  "vw_legal_case_government_agency",
+  "vw_legal_case_case_review_protocol"
+ ]
+}

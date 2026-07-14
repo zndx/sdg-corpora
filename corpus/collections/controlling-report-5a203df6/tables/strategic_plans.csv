@@ -1,0 +1,5 @@
+id,plan_id,plan_name,planning_horizon,is_driver_based,approval_status,last_review_date,user_id,business_segment_id,controlling_report_id
+1,505977,Regional Cluster,13,false,proposed,2022-09-03T08:24:00,9736910,1,1000
+2,727038,Seasonal Review D,23,true,approved,2023-02-14T15:41:00,40c1e50ce74c42d6801b1e2f409c1cfc,2,1001
+3,937726,Integrated Initiative,33,false,executing,2024-07-25T22:58:00,92297f70-9bad-11eb-a8a2-19ed5c03f8d3,3,1002
+4,1290,Extended Model,43,true,monitored,2025-12-09T05:15:00,9125634,4,1003

@@ -1,0 +1,5 @@
+dog_id,dog_identifier,breed,age_years,weight_kg,fitness_level,health_status
+1,DOG-2327,compact-breed-80,37,1.48,beginner,healthy
+2,DOG-2331,composite-breed-81,48,0.385,intermediate,recovering
+3,DOG-2335,primary-breed-82,59,0.5465680900000001,advanced,injured
+4,DOG-2339,adaptive-breed-83,70,0.9,beginner,healthy

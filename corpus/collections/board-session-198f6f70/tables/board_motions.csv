@@ -1,0 +1,5 @@
+board_motion_id,motion_id,motion_text,proposed_by,seconded_by,outcome,vote_count,board_session_id,board_member_id,seconded_by_member_board_member_id,votes_on_board_member_id
+1,OECD-CORE,pilot-motion-86,baseline-proposed-73,integrated-seconded-64,Passed,36,1,1000,1000,1000
+2,69422,extended-motion-87,pilot-proposed-74,seasonal-seconded-65,Failed,232,2,1001,1001,1001
+3,ChIJr7cItPtt5kcRM6ry7ecIYgw,integrated-motion-88,extended-proposed-75,regional-seconded-66,Withdrawn,57,3,1002,1002,1002
+4,4180962,seasonal-motion-89,integrated-proposed-76,legacy-seconded-67,Passed,70,4,1003,1003,1003

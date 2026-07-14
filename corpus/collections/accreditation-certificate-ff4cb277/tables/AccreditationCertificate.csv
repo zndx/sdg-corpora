@@ -1,0 +1,5 @@
+id,certificateNumber,issueDate,expiryDate,status,issuingBodyName,organizationPostalCode,scopeId,createdAt,updatedAt
+1,CER-2622,2023-02-01,2023-10-24,active,Extended Corridor,9125611,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,CER-2626,2024-07-12,2024-03-08,suspended,Pilot Series A,ChIJt4hBkzhu5kcRJJDUNqGUpso,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,CER-2630,2025-12-23,2025-08-19,revoked,Baseline Assessment,3001009030200,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,CER-2634,2022-05-07,2022-01-03,expired,Distributed Survey,4060635,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

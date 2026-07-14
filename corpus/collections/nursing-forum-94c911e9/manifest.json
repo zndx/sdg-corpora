@@ -1,0 +1,163 @@
+{
+ "construct_id": "94c911e95e09a393",
+ "slug": "nursing-forum-94c911e9",
+ "passage": "94c911e95e09a393921550b1b607c61492ad045e7d21a761c14d022af066d27f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "NursingForum",
+  "NursingLeader",
+  "NursingWorkstream",
+  "NHSFoundationTrust",
+  "QualityReview",
+  "PatientSafetyMetric"
+ ],
+ "terms": [
+  {
+   "name": "NursingForum",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NursingLeader",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "NursingWorkstream",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NHSFoundationTrust",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "QualityReview",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PatientSafetyMetric",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "nursing_forums",
+   "rows": 4,
+   "columns": [
+    "nursing_forum_id",
+    "forum_identifier",
+    "established_date",
+    "current_status",
+    "governing_body",
+    "scope_of_influence",
+    "nursing_leader_id"
+   ]
+  },
+  {
+   "name": "nursing_leaders",
+   "rows": 4,
+   "columns": [
+    "nursing_leader_id",
+    "leader_identifier",
+    "full_legal_name",
+    "professional_qualifications",
+    "current_title",
+    "appointment_date",
+    "years_of_experience",
+    "nursing_workstream_id",
+    "n_h_s_foundation_trust_id",
+    "previously_held_role_at_n_h_s_foundation_trust_id"
+   ]
+  },
+  {
+   "name": "nursing_workstreams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "workstream_identifier",
+    "workstream_title",
+    "start_date",
+    "target_outcome",
+    "success_metric",
+    "nursing_leader_id",
+    "nursing_forum_id",
+    "n_h_s_foundation_trust_id"
+   ]
+  },
+  {
+   "name": "n_h_s_foundation_trusts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trust_identifier",
+    "trust_name",
+    "trust_type",
+    "founding_year",
+    "current_quality_rating",
+    "nursing_leader_id",
+    "quality_review_id",
+    "nursing_workstream_id"
+   ]
+  },
+  {
+   "name": "quality_reviews",
+   "rows": 4,
+   "columns": [
+    "id",
+    "review_identifier",
+    "review_type",
+    "review_date",
+    "review_outcome",
+    "key_findings",
+    "n_h_s_foundation_trust_id",
+    "nursing_leader_id",
+    "nursing_workstream_id"
+   ]
+  },
+  {
+   "name": "patient_safety_metrics",
+   "rows": 4,
+   "columns": [
+    "patient_safety_metric_id",
+    "metric_identifier",
+    "metric_name",
+    "baseline_value",
+    "current_value",
+    "target_value",
+    "measurement_date",
+    "n_h_s_foundation_trust_id",
+    "nursing_workstream_id",
+    "nursing_leader_id"
+   ]
+  },
+  {
+   "name": "forums_leaders",
+   "rows": 8,
+   "columns": [
+    "nursing_forum_id",
+    "nursing_leader_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_nursing_forum_nursing_leader",
+  "v_nursing_forum_nursing_leader_detail",
+  "v_nursing_leader_nursing_workstream",
+  "v_nursing_leader_n_h_s_foundation_trust",
+  "v_nursing_workstream_nursing_leader",
+  "v_nursing_workstream_nursing_forum",
+  "v_nursing_workstream_n_h_s_foundation_trust",
+  "v_n_h_s_foundation_trust_nursing_leader",
+  "v_n_h_s_foundation_trust_quality_review",
+  "v_n_h_s_foundation_trust_nursing_workstream",
+  "v_quality_review_n_h_s_foundation_trust",
+  "v_quality_review_nursing_leader",
+  "v_quality_review_nursing_workstream",
+  "v_patient_safety_metric_n_h_s_foundation_trust",
+  "v_patient_safety_metric_nursing_workstream",
+  "v_patient_safety_metric_nursing_leader"
+ ]
+}

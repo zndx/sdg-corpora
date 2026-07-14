@@ -1,0 +1,5 @@
+platter_item_id,item_id,item_name,quantity,category,is_crispy,is_grilled,party_platter_id
+1000,ITE-2792,Seasonal Survey,9,sandwich,false,false,1000
+1001,ITE-2795,Integrated Corridor,8,chicken,true,true,1001
+1002,ITE-2798,Extended Series D,0,beef,false,false,1002
+1003,ITE-2801,Pilot Assessment,12,catfish,true,true,1003

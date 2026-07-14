@@ -1,0 +1,5 @@
+id,community_id,community_name,province,population,island_group,primary_livelihood,vulnerability_level,knowledge_base_id,hosts_scientific_assessment_knowledge_base_id
+1,325466,Primary Initiative A,baseline-province-67,42,composite-island-45,subsistence_agriculture,high,220,220
+2,5082990,Composite Model,pilot-province-68,49,primary-island-46,fishing,medium,5844261,5844261
+3,dce14308-8fba-11eb-924d-9cd76263cbd0,Compact Cluster,extended-province-69,56,adaptive-island-47,mixed,low,flexible-thinking,flexible-thinking
+4,d9d981b8-8fcc-11eb-924d-9cd76263cbd0,Legacy Review D,integrated-province-70,63,distributed-island-48,subsistence_agriculture,high,727060,727060

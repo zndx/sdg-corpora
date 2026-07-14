@@ -1,0 +1,5 @@
+ingredient_id,name,category,allergen_flag
+1,Extended Review,protein,false
+2,Pilot Initiative A,vegetable,true
+3,Baseline Model,dairy,false
+4,Distributed Cluster,grain,true

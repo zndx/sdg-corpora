@@ -1,0 +1,5 @@
+id,threat_identifier,threat_type,target_operating_system,target_device_model,discovery_date,severity_level,is_exploited,mitigation_status,medical_device_model_number,network_monitoring_solution_id
+100,THR-2510,ransomware,legacy-target-55,primary-target-22,2024-03-23T14:18:00,low,false,pending,MOD-2238,1
+101,THR-2516,data_breach,compact-target-56,adaptive-target-23,2025-08-07T21:35:00,medium,true,in_progress,MOD-2244,2
+102,THR-2522,denial_of_service,composite-target-57,distributed-target-24,2022-01-18T04:52:00,high,false,mitigated,MOD-2250,3
+103,THR-2528,unauthorized_access,primary-target-58,baseline-target-25,2023-06-02T11:09:00,critical,true,not_applicable,MOD-2256,4

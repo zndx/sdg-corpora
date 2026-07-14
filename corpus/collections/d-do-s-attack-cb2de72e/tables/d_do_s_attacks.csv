@@ -1,0 +1,5 @@
+id,attack_id,attack_type,layer,peak_bandwidth,start_date_time,end_date_time,is_mitigated,network_service_id,forti_d_do_s_appliance_id
+1000,7441144,volumetric,3,23.70,2024-07-24T18:42:00,2025-12-16T11:09:00,false,1,1
+1001,1450639,application_layer,4,28.40,2025-12-08T01:59:00,2022-05-27T18:26:00,true,2,2
+1002,9085260,protocol,7,33.10,2022-05-19T08:16:00,2023-10-11T01:43:00,false,3,3
+1003,9085261,slow,3,37.80,2023-10-03T15:33:00,2024-03-22T08:00:00,true,4,4

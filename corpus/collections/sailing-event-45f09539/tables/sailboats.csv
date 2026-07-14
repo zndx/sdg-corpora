@@ -1,0 +1,5 @@
+id,vessel_id,vessel_name,design_heel_angle,keel_material,current_heel_angle,status,dock_id,sailing_event_id
+100,16620628,Extended Model,15.70,iron,11.70,at_dock,100,1
+101,c9e1850d388444ca97c062544b127908,Pilot Cluster A,17.40,lead,14.40,underway,101,2
+102,12570447,Baseline Review,19.10,iron,17.10,returned,102,3
+103,168538,Distributed Initiative,20.80,lead,19.80,at_dock,103,4

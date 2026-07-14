@@ -1,0 +1,118 @@
+{
+ "construct_id": "3a8f319f1f4c6860",
+ "slug": "menu-line-item-3a8f319f",
+ "passage": "3a8f319f1f4c6860906ebca15a5a92b25db7a70afbd3e9a010db6fba6648fea3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 8,
+ "entities": [
+  "MenuLineItem",
+  "Ingredient",
+  "PricePoint",
+  "ToppingOption",
+  "BeverageServing"
+ ],
+ "terms": [
+  {
+   "name": "MenuLineItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PricePoint",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ToppingOption",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BeverageServing",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_line_items",
+   "rows": 4,
+   "columns": [
+    "menu_line_item_id",
+    "item_identifier",
+    "display_name",
+    "base_price",
+    "category",
+    "serving_size",
+    "is_ala_mode_available",
+    "ingredient_id",
+    "price_point_id",
+    "topping_option_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "name",
+    "state",
+    "is_allergen",
+    "origin",
+    "menu_line_item_id"
+   ]
+  },
+  {
+   "name": "price_points",
+   "rows": 4,
+   "columns": [
+    "price_point_id",
+    "price_id",
+    "amount",
+    "currency_code",
+    "price_type",
+    "menu_line_item_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "topping_options",
+   "rows": 4,
+   "columns": [
+    "id",
+    "option_id",
+    "option_name",
+    "is_choice_based",
+    "associated_price_id",
+    "menu_line_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "beverage_servings",
+   "rows": 4,
+   "columns": [
+    "beverage_serving_id",
+    "serving_id",
+    "volume_oz",
+    "preparation_method",
+    "is_sweetened",
+    "menu_line_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_line_item_ingredient",
+  "vw_menu_line_item_price_point",
+  "vw_menu_line_item_topping_option",
+  "vw_ingredient_menu_line_item",
+  "vw_price_point_menu_line_item",
+  "vw_topping_option_menu_line_item",
+  "vw_topping_option_ingredient",
+  "vw_beverage_serving_menu_line_item"
+ ]
+}

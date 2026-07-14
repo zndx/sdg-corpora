@@ -1,0 +1,5 @@
+guest_reservation_id,reservation_id,guest_name,check_in_date,room_number,dietary_restrictions,status,breakfast_service_id,menu_option_id,created_at
+1000,4277031,Extended Standard,2023-06-25,ROO-2106,pilot-dietary-38,confirmed,1000,1,2025-01-01 00:14:00
+1001,7c692762-8fcd-11eb-924d-9cd76263cbd0,Pilot Framework A,2024-11-09,ROO-2113,extended-dietary-39,checked_in,1001,2,2025-02-06 03:14:00
+1002,template_impcode_pagata_20ind,Baseline Protocol,2025-04-20,ROO-2120,integrated-dietary-40,completed,1002,3,2025-03-11 06:14:00
+1003,468,Distributed Programme,2022-09-04,ROO-2127,seasonal-dietary-41,no_show,1003,4,2025-04-16 09:14:00

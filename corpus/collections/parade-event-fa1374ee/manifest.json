@@ -1,0 +1,148 @@
+{
+ "construct_id": "fa1374ee3ca52a77",
+ "slug": "parade-event-fa1374ee",
+ "passage": "fa1374ee3ca52a77c058f66df9187db5b8063fab14b05cf87720dc088878b846.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "ParadeEvent",
+  "ParticipatingOrganization",
+  "ParadeEntry",
+  "ParadeVehicle",
+  "VehicleOperator"
+ ],
+ "terms": [
+  {
+   "name": "ParadeEvent",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ParticipatingOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ParadeEntry",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ParadeVehicle",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VehicleOperator",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "parade_events",
+   "rows": 4,
+   "columns": [
+    "parade_event_id",
+    "event_date",
+    "start_time",
+    "location_city",
+    "location_state",
+    "location_zip",
+    "organizing_municipality",
+    "is_diesel_powered_allowed",
+    "candy_throwing_prohibited"
+   ]
+  },
+  {
+   "name": "participating_organizations",
+   "rows": 4,
+   "columns": [
+    "participating_organization_id",
+    "organization_name",
+    "contact_person_name",
+    "contact_phone",
+    "contact_email",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "authorization_signature",
+    "submission_status",
+    "parade_entry_id",
+    "vehicle_operator_id"
+   ]
+  },
+  {
+   "name": "parade_entries",
+   "rows": 4,
+   "columns": [
+    "parade_entry_id",
+    "entry_type",
+    "number_of_participants",
+    "is_diesel_powered",
+    "give_away_method",
+    "entry_status",
+    "participating_organization_id",
+    "parade_vehicle_id",
+    "vehicle_operator_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "parade_vehicles",
+   "rows": 4,
+   "columns": [
+    "parade_vehicle_id",
+    "vehicle_type",
+    "is_diesel_powered",
+    "vehicle_identifier",
+    "vehicle_status",
+    "parade_entry_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "vehicle_operators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_name",
+    "drivers_license_number",
+    "operator_signature",
+    "operator_status",
+    "parade_entry_id",
+    "participating_organization_id"
+   ]
+  },
+  {
+   "name": "events_organizations",
+   "rows": 8,
+   "columns": [
+    "parade_event_id",
+    "participating_organization_id"
+   ]
+  },
+  {
+   "name": "events_entries",
+   "rows": 8,
+   "columns": [
+    "parade_event_id",
+    "parade_entry_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_parade_event_participating_organization_detail",
+  "v_parade_event_parade_entry_detail",
+  "v_participating_organization_parade_entry",
+  "v_participating_organization_vehicle_operator",
+  "v_parade_entry_participating_organization",
+  "v_parade_entry_parade_vehicle",
+  "v_parade_entry_vehicle_operator",
+  "v_parade_vehicle_parade_entry",
+  "v_vehicle_operator_parade_entry",
+  "v_vehicle_operator_participating_organization"
+ ]
+}

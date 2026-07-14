@@ -1,0 +1,5 @@
+id,care_plan_id,plan_start_date,plan_end_date,review_frequency,nutrition_monitoring,hydration_monitoring,medication_management,care_recipient_id,care_task_id
+1,1152669,2025-08-17T07:21:00,2024-03-03T02:18:00,weekly,false,true,true,1,1000
+2,levels,2022-01-01T14:38:00,2025-08-14T09:35:00,monthly,true,false,false,2,1001
+3,18ba4c46-8fc8-11eb-924d-9cd76263cbd0,2023-06-12T21:55:00,2022-01-25T16:52:00,quarterly,false,true,true,3,1002
+4,974935,2024-11-23T04:12:00,2023-06-09T23:09:00,as needed,true,false,false,4,1003

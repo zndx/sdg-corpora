@@ -1,0 +1,5 @@
+transformer_id,transformer_identifier,turns_ratio,impedance_ratio,phase_shift,status,power_splitter_combiner_id
+1,TRA-2610,pilot-turns-86,7.20,21.45,active,1
+2,TRA-2616,extended-turns-87,10.40,25.90,faulty,2
+3,TRA-2622,integrated-turns-88,13.60,30.35,active,3
+4,TRA-2628,seasonal-turns-89,16.80,34.80,faulty,4

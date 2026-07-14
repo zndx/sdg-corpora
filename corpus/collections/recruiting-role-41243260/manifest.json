@@ -1,0 +1,190 @@
+{
+ "construct_id": "41243260056837ad",
+ "slug": "recruiting-role-41243260",
+ "passage": "41243260056837adc81ff57729d94f1046ade7e2be9d1b546d89244261c036d6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 14,
+ "entities": [
+  "RecruitingRole",
+  "Recruiter",
+  "CandidateProfile",
+  "Organization",
+  "ProfessionalSkill",
+  "CorporateNews"
+ ],
+ "terms": [
+  {
+   "name": "RecruitingRole",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Recruiter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CandidateProfile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ProfessionalSkill",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "CorporateNews",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "recruiting_roles",
+   "rows": 4,
+   "columns": [
+    "job_title",
+    "job_posting_id",
+    "department",
+    "location",
+    "posting_date",
+    "status",
+    "recruiter_id",
+    "organization_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "recruiters",
+   "rows": 4,
+   "columns": [
+    "recruiter_id",
+    "specialization",
+    "employment_status",
+    "last_contact_date",
+    "connection_status",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "candidate_profiles",
+   "rows": 4,
+   "columns": [
+    "candidate_profile_id",
+    "profile_id",
+    "headline",
+    "current_role",
+    "industry",
+    "last_updated",
+    "is_verified",
+    "recruiting_role_job_posting_id",
+    "submitted_to_recruiting_role_job_posting_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "legal_name",
+    "industry_sector",
+    "headquarters_location",
+    "global_presence",
+    "founded_year",
+    "news_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "professional_skills",
+   "rows": 4,
+   "columns": [
+    "id",
+    "skill_id",
+    "skill_name",
+    "proficiency_level",
+    "category",
+    "certification_required",
+    "recruiting_role_job_posting_id",
+    "candidate_profile_id"
+   ]
+  },
+  {
+   "name": "corporate_newses",
+   "rows": 4,
+   "columns": [
+    "news_id",
+    "headline",
+    "event_type",
+    "publication_date",
+    "source_url",
+    "impact_level",
+    "organization_id",
+    "candidate_profile_id"
+   ]
+  },
+  {
+   "name": "roles_skills",
+   "rows": 8,
+   "columns": [
+    "recruiting_role_job_posting_id",
+    "professional_skill_id"
+   ]
+  },
+  {
+   "name": "recruiters_roles",
+   "rows": 8,
+   "columns": [
+    "recruiter_id",
+    "recruiting_role_job_posting_id"
+   ]
+  },
+  {
+   "name": "profiles_skills",
+   "rows": 8,
+   "columns": [
+    "candidate_profile_id",
+    "professional_skill_id"
+   ]
+  },
+  {
+   "name": "organizations_recruiters",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "recruiter_id"
+   ]
+  },
+  {
+   "name": "organizations_roles",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "recruiting_role_job_posting_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_recruiting_role_recruiter",
+  "v_recruiting_role_organization",
+  "v_recruiting_role_professional_skill_detail",
+  "v_recruiter_organization",
+  "v_recruiter_recruiting_role_detail",
+  "v_candidate_profile_recruiting_role",
+  "v_candidate_profile_professional_skill_detail",
+  "v_organization_recruiter_detail",
+  "v_organization_recruiting_role_detail",
+  "v_organization_corporate_news",
+  "v_professional_skill_recruiting_role",
+  "v_professional_skill_candidate_profile",
+  "v_corporate_news_organization",
+  "v_corporate_news_candidate_profile"
+ ]
+}

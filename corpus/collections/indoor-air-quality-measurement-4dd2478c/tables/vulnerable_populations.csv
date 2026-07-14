@@ -1,0 +1,5 @@
+id,population_group_id,group_type,prevalence_rate,risk_factor,health_outcome,indoor_pollutant_id,indoor_environment_id,created_at
+1,9085255,children,22.45,greater_exposure,asthma,100,1,2025-01-01 00:14:00
+2,9bb4ab06-8fcc-11eb-924d-9cd76263cbd0,older_people,25.90,worse_underlying_health,cognitive_impairment,101,2,2025-02-06 03:14:00
+3,10449506,pregnant_women,29.35,least_empowerment,developmental_defects,102,3,2025-03-11 06:14:00
+4,3744013,lower_socioeconomic,32.80,greater_exposure,premature_death,103,4,2025-04-16 09:14:00

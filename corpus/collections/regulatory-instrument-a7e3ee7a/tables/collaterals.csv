@@ -1,0 +1,5 @@
+id,collateral_identifier,asset_type,issuing_entity,credit_quality_rating,denomination,eligibility_status,wrong_way_risk,financial_counterparty_id,o_t_c_derivative_trade_id,regulatory_instrument_id,created_at,updated_at
+1000,COL-2403,cash,pilot-issuing-14,distributed-credit-90,distributed-denomina-24,eligible,false,1000,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,COL-2406,gold,extended-issuing-15,baseline-credit-91,baseline-denomina-25,ineligible,true,1001,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,COL-2409,debt security,integrated-issuing-16,pilot-credit-92,pilot-denomina-26,pending review,false,1002,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,COL-2412,corporate bond,seasonal-issuing-17,extended-credit-93,extended-denomina-27,eligible,true,1003,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

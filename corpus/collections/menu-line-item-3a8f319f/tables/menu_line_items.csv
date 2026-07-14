@@ -1,0 +1,5 @@
+menu_line_item_id,item_identifier,display_name,base_price,category,serving_size,is_ala_mode_available,ingredient_id,price_point_id,topping_option_id
+1,ITE-2045,Extended Corridor,12.72,Dessert,primary-serving-40,true,100,1,100
+2,ITE-2050,Pilot Series A,12.87,Beverage,adaptive-serving-41,false,101,2,101
+3,ITE-2055,Baseline Assessment,17.41,Dessert,distributed-serving-42,true,102,3,102
+4,ITE-2060,Distributed Survey,18.59,Beverage,baseline-serving-43,false,103,4,103

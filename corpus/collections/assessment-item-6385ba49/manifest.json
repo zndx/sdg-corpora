@@ -1,0 +1,201 @@
+{
+ "construct_id": "6385ba494ea8df09",
+ "slug": "assessment-item-6385ba49",
+ "passage": "6385ba494ea8df09a37ff4e4eb9effbe4f0c437b45d878aeb0ce4928c32ac455.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 14,
+ "entities": [
+  "AssessmentItem",
+  "ExaminationPaper",
+  "SourceMaterial",
+  "SourcePage",
+  "Concept",
+  "CurriculumUnit",
+  "Subject"
+ ],
+ "terms": [
+  {
+   "name": "AssessmentItem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExaminationPaper",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SourceMaterial",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SourcePage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Concept",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CurriculumUnit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Subject",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "assessment_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_id",
+    "section_designation",
+    "question_number",
+    "sub_question_label",
+    "marks_allotted",
+    "question_type",
+    "status",
+    "examination_paper_id",
+    "source_material_id",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "examination_papers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "paper_id",
+    "subject_code",
+    "class_level",
+    "academic_session",
+    "max_time_minutes",
+    "total_marks",
+    "total_questions",
+    "required_answers",
+    "publication_date",
+    "subject_id"
+   ]
+  },
+  {
+   "name": "source_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_id",
+    "title",
+    "publisher",
+    "edition",
+    "isbn",
+    "publication_year",
+    "format"
+   ]
+  },
+  {
+   "name": "source_pages",
+   "rows": 4,
+   "columns": [
+    "page_id",
+    "page_number",
+    "unit_number",
+    "chapter_number",
+    "content_snippet",
+    "source_material_id",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "concepts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "concept_id",
+    "name",
+    "category",
+    "difficulty_level",
+    "description",
+    "curriculum_unit_id",
+    "assessment_item_id"
+   ]
+  },
+  {
+   "name": "curriculum_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_id",
+    "title",
+    "unit_number",
+    "duration_hours",
+    "learning_outcomes",
+    "subject_id"
+   ]
+  },
+  {
+   "name": "subjects",
+   "rows": 4,
+   "columns": [
+    "subject_id",
+    "subject_code",
+    "name",
+    "class_level",
+    "department",
+    "credits",
+    "examination_paper_id"
+   ]
+  },
+  {
+   "name": "papers_items",
+   "rows": 8,
+   "columns": [
+    "examination_paper_id",
+    "assessment_item_id"
+   ]
+  },
+  {
+   "name": "materials_pages",
+   "rows": 8,
+   "columns": [
+    "source_material_id",
+    "page_id"
+   ]
+  },
+  {
+   "name": "units_concepts",
+   "rows": 8,
+   "columns": [
+    "curriculum_unit_id",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "subjects_units",
+   "rows": 8,
+   "columns": [
+    "subject_id",
+    "curriculum_unit_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_assessment_item_examination_paper",
+  "vw_assessment_item_source_material",
+  "vw_assessment_item_concept",
+  "vw_examination_paper_assessment_item_detail",
+  "vw_examination_paper_subject",
+  "vw_source_material_source_page_detail",
+  "vw_source_page_source_material",
+  "vw_source_page_concept",
+  "vw_concept_curriculum_unit",
+  "vw_concept_assessment_item",
+  "vw_curriculum_unit_concept_detail",
+  "vw_curriculum_unit_subject",
+  "vw_subject_curriculum_unit_detail",
+  "vw_subject_examination_paper"
+ ]
+}

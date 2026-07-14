@@ -1,0 +1,5 @@
+financial_advisor_id,advisor_firm_name,service_category,contact_phone,advisor_representative,corporate_entity_id,represents_corporate_entity_id
+1000,Seasonal Corridor,seasonal-service-41,Joe Tsai,integrated-advisor-88,1,1
+1001,Integrated Series,regional-service-42,Stephanie Collins,seasonal-advisor-89,2,2
+1002,Extended Assessment D,legacy-service-43,Tasha Rodriguez,regional-advisor-90,3,3
+1003,Pilot Survey,compact-service-44,Walter Pratt,legacy-advisor-91,4,4

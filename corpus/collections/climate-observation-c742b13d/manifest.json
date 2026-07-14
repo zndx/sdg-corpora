@@ -1,0 +1,161 @@
+{
+ "construct_id": "c742b13ddad4909f",
+ "slug": "climate-observation-c742b13d",
+ "passage": "c742b13ddad4909f75b71719f946b2357fa89652fea4efb4aafd47953f824a68.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 11,
+ "entities": [
+  "ClimateObservation",
+  "SpatialZone",
+  "Fisherman",
+  "FishermanReport",
+  "AdaptationIntervention"
+ ],
+ "terms": [
+  {
+   "name": "ClimateObservation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SpatialZone",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Fisherman",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "FishermanReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdaptationIntervention",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ClimateObservation",
+   "rows": 4,
+   "columns": [
+    "observationId",
+    "recordedAt",
+    "variableType",
+    "value",
+    "unit",
+    "status",
+    "zoneId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "SpatialZone",
+   "rows": 4,
+   "columns": [
+    "zoneId",
+    "zoneName",
+    "region",
+    "country",
+    "zoneType"
+   ]
+  },
+  {
+   "name": "Fisherman",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fishermanId",
+    "name",
+    "registrationNumber",
+    "state",
+    "yearsOfExperience",
+    "status",
+    "zoneId"
+   ]
+  },
+  {
+   "name": "FishermanReport",
+   "rows": 4,
+   "columns": [
+    "reportId",
+    "submissionDate",
+    "surveyMethod",
+    "responseCount",
+    "dataQuality",
+    "fishermanId",
+    "zoneId"
+   ]
+  },
+  {
+   "name": "AdaptationIntervention",
+   "rows": 4,
+   "columns": [
+    "id",
+    "interventionId",
+    "interventionType",
+    "startDate",
+    "endDate",
+    "status",
+    "budget",
+    "zoneId"
+   ]
+  },
+  {
+   "name": "SpatialZoneClimateObservation",
+   "rows": 8,
+   "columns": [
+    "zoneId",
+    "observationId"
+   ]
+  },
+  {
+   "name": "SpatialZoneFisherman",
+   "rows": 8,
+   "columns": [
+    "zoneId",
+    "fishermanId"
+   ]
+  },
+  {
+   "name": "FishermanFishermanReport",
+   "rows": 8,
+   "columns": [
+    "fishermanId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "FishermanReportClimateObservation",
+   "rows": 8,
+   "columns": [
+    "reportId",
+    "observationId"
+   ]
+  },
+  {
+   "name": "AdaptationInterventionFisherman",
+   "rows": 8,
+   "columns": [
+    "interventionId",
+    "fishermanId"
+   ]
+  }
+ ],
+ "views": [
+  "v_climate_observation_spatial_zone",
+  "v_climate_observation_fisherman_report",
+  "v_spatial_zone_climate_observation_detail",
+  "v_spatial_zone_fisherman_detail",
+  "v_fisherman_spatial_zone",
+  "v_fisherman_fisherman_report_detail",
+  "v_fisherman_report_fisherman",
+  "v_fisherman_report_spatial_zone",
+  "v_fisherman_report_climate_observation_detail",
+  "v_adaptation_intervention_spatial_zone",
+  "v_adaptation_intervention_fisherman_detail"
+ ]
+}

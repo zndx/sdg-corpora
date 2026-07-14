@@ -1,0 +1,5 @@
+demographic_id,primary_race,primary_gender,has_health_insurance,is_veteran,is_pregnant,access_to_care,funding_source_id,created_at,updated_at
+levels,African American,Male,true,false,true,full,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+32824,Caucasian,Female,false,true,false,limited,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+coms1,Asian,Non-binary,true,false,true,none,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+id_24,Hispanic,Male,false,true,false,full,4,2025-04-16 09:14:00,2025-04-23 15:41:00

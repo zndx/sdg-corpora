@@ -1,0 +1,20 @@
+CREATE TABLE image_captures (
+  image_capture_id INTEGER NOT NULL,
+  capture_identifier VARCHAR(32),
+  timestamp TIMESTAMP,
+  shutter_speed DECIMAL,
+  aperture_value DECIMAL,
+  iso_setting INTEGER,
+  exposure_mode VARCHAR(32),
+  white_balance VARCHAR(32),
+  metering_mode VARCHAR(32),
+  focus_mode VARCHAR(32),
+  file_format VARCHAR(32),
+  camera_device_id INTEGER,
+  memory_card_id INTEGER,
+  celestial_object_id INTEGER,
+  PRIMARY KEY (image_capture_id),
+  FOREIGN KEY (camera_device_id) REFERENCES camera_devices (camera_device_id),
+  FOREIGN KEY (memory_card_id) REFERENCES memory_cards (id),
+  FOREIGN KEY (celestial_object_id) REFERENCES celestial_objects (celestial_object_id)
+);

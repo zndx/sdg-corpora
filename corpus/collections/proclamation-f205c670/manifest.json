@@ -1,0 +1,181 @@
+{
+ "construct_id": "f205c67034bfbaa7",
+ "slug": "proclamation-f205c670",
+ "passage": "f205c67034bfbaa7d48096c0a373ee393661b54c58b54c8f049b610a24af8c5e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 11,
+ "entities": [
+  "Proclamation",
+  "EligibleIndividual",
+  "Monarch",
+  "Encounter",
+  "Location",
+  "Journey"
+ ],
+ "terms": [
+  {
+   "name": "Proclamation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EligibleIndividual",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Monarch",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Encounter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Journey",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "proclamations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "proclamation_id",
+    "issuer",
+    "target_audience",
+    "date_issued",
+    "status",
+    "content_summary",
+    "monarch_id"
+   ]
+  },
+  {
+   "name": "eligible_individuals",
+   "rows": 4,
+   "columns": [
+    "eligible_individual_id",
+    "individual_id",
+    "full_name",
+    "age",
+    "residence",
+    "eligibility_status",
+    "date_of_birth",
+    "proclamation_id",
+    "monarch_id"
+   ]
+  },
+  {
+   "name": "monarches",
+   "rows": 4,
+   "columns": [
+    "monarch_id",
+    "title",
+    "reign_start_date",
+    "reign_end_date",
+    "fairness_rating",
+    "current_status"
+   ]
+  },
+  {
+   "name": "encounters",
+   "rows": 4,
+   "columns": [
+    "encounter_id",
+    "location",
+    "date_time",
+    "outcome",
+    "advice_given",
+    "participant_role",
+    "eligible_individual_id",
+    "location_id"
+   ]
+  },
+  {
+   "name": "locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location_id",
+    "name",
+    "type",
+    "coordinates",
+    "description",
+    "accessibility"
+   ]
+  },
+  {
+   "name": "journeys",
+   "rows": 4,
+   "columns": [
+    "journey_id",
+    "start_date",
+    "end_date",
+    "purpose",
+    "status",
+    "total_distance",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "proclamations_individuals",
+   "rows": 8,
+   "columns": [
+    "proclamation_id",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "monarches_proclamations",
+   "rows": 8,
+   "columns": [
+    "monarch_id",
+    "proclamation_id"
+   ]
+  },
+  {
+   "name": "monarches_individuals",
+   "rows": 8,
+   "columns": [
+    "monarch_id",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "locations_encounters",
+   "rows": 8,
+   "columns": [
+    "location_id",
+    "encounter_id"
+   ]
+  },
+  {
+   "name": "journeys_encounters",
+   "rows": 8,
+   "columns": [
+    "journey_id",
+    "encounter_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_proclamation_monarch",
+  "vw_proclamation_eligible_individual_detail",
+  "vw_eligible_individual_proclamation",
+  "vw_eligible_individual_monarch",
+  "vw_monarch_proclamation_detail",
+  "vw_monarch_eligible_individual_detail",
+  "vw_encounter_eligible_individual",
+  "vw_encounter_location",
+  "vw_location_encounter_detail",
+  "vw_journey_eligible_individual",
+  "vw_journey_encounter_detail"
+ ]
+}

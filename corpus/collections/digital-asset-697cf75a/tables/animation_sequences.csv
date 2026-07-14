@@ -1,0 +1,5 @@
+id,sequence_id,sequence_name,duration_seconds,frame_count,animation_type,keyframe_count,project_id,digital_asset_id,uses_rig_digital_asset_id
+1000,1437593,Primary Review A,7.45,5,walk,4,1000,1,1
+1001,c6ac3b76-9bac-11eb-a8a2-19ed5c03f8d3,Composite Initiative,9.90,3,heavy_walk,5,1001,2,2
+1002,1152668,Compact Model,12.35,9,dance,5,1002,3,3
+1003,19526306,Legacy Cluster D,14.80,6,breakout,0,1003,4,4

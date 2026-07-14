@@ -1,0 +1,22 @@
+CREATE TABLE webinar_sessions (
+  webinar_session_id INTEGER NOT NULL,
+  session_identifier VARCHAR(32),
+  scheduled_start_date_time TIMESTAMP,
+  scheduled_end_date_time TIMESTAMP,
+  registration_deadline TIMESTAMP,
+  max_participants INTEGER,
+  current_registrations INTEGER,
+  status VARCHAR(32),
+  language VARCHAR(32),
+  geographic_region_id INTEGER,
+  meteorologist_id INTEGER,
+  video_recording_id INTEGER,
+  registration_link_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (webinar_session_id),
+  FOREIGN KEY (geographic_region_id) REFERENCES geographic_regions (id),
+  FOREIGN KEY (meteorologist_id) REFERENCES meteorologists (meteorologist_id),
+  FOREIGN KEY (video_recording_id) REFERENCES video_recordings (id),
+  FOREIGN KEY (registration_link_id) REFERENCES registration_links (id)
+);

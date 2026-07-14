@@ -1,0 +1,5 @@
+id,requirement_id,requirement_category,requirement_description,legal_basis,compliance_status,clinical_service_id,finding_id
+1000,778568,safeguarding,Extended Model,primary-legal-52,met,100,dbea2f30-8fcb-11eb-924d-9cd76263cbd0
+1001,lu_tax_code_template_b_VB-EC-0,infection_control,Pilot Cluster A,adaptive-legal-53,not_met,101,4793483
+1002,99901,fire_safety,Baseline Review,distributed-legal-54,in_progress,102,6564384
+1003,5917277,recruitment,Distributed Initiative,baseline-legal-55,met,103,8928500

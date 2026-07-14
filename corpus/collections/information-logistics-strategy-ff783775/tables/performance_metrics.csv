@@ -1,0 +1,5 @@
+id,metric_identifier,metric_name,measurement_date,target_value,actual_value,status,success_factor_id,analytical_information_system_id
+1,MET-2589,Primary Programme A,2024-07-01T18:54:00,13.45,13.45,on_target,1,1000
+2,MET-2595,Composite Standard,2025-12-12T01:11:00,15.90,15.90,below_target,2,1001
+3,MET-2601,Compact Framework,2022-05-23T08:28:00,18.35,18.35,above_target,3,1002
+4,MET-2607,Legacy Protocol D,2023-10-07T15:45:00,20.80,20.80,pending,4,1003

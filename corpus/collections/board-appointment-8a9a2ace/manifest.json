@@ -1,0 +1,175 @@
+{
+ "construct_id": "8a9a2ace35b6586e",
+ "slug": "board-appointment-8a9a2ace",
+ "passage": "8a9a2ace35b6586e95d7405457d05c7c1e58b4c655a54eb24a82cf9f92b45997.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 16,
+ "entities": [
+  "BoardAppointment",
+  "BoardMember",
+  "BoardOfTrustees",
+  "CountyJurisdiction",
+  "CountyExecutive",
+  "PublicInstitution"
+ ],
+ "terms": [
+  {
+   "name": "BoardAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardMember",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardOfTrustees",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CountyJurisdiction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CountyExecutive",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PublicInstitution",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "board_appointments",
+   "rows": 4,
+   "columns": [
+    "board_appointment_id",
+    "appointment_id",
+    "appointment_date",
+    "term_start_date",
+    "term_end_date",
+    "term_length_years",
+    "confirmation_status",
+    "statutory_authority",
+    "board_of_trustees_id",
+    "county_executive_id"
+   ]
+  },
+  {
+   "name": "board_members",
+   "rows": 4,
+   "columns": [
+    "board_member_id",
+    "member_id",
+    "first_name",
+    "last_name",
+    "current_role",
+    "is_reappointment",
+    "board_of_trustees_id",
+    "board_appointment_id",
+    "county_jurisdiction_id"
+   ]
+  },
+  {
+   "name": "board_of_trusteeses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "board_id",
+    "board_name",
+    "establishment_date",
+    "governing_statute",
+    "jurisdiction",
+    "public_institution_id",
+    "county_jurisdiction_id"
+   ]
+  },
+  {
+   "name": "county_jurisdictions",
+   "rows": 4,
+   "columns": [
+    "county_jurisdiction_id",
+    "jurisdiction_id",
+    "jurisdiction_name",
+    "state_code",
+    "legislative_body",
+    "board_of_trustees_id",
+    "county_executive_id",
+    "public_institution_id"
+   ]
+  },
+  {
+   "name": "county_executives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "executive_id",
+    "full_name",
+    "term_start_date",
+    "term_end_date",
+    "appointment_authority",
+    "county_jurisdiction_id"
+   ]
+  },
+  {
+   "name": "public_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "institution_name",
+    "institution_type",
+    "location_address",
+    "operational_status",
+    "board_of_trustees_id",
+    "county_jurisdiction_id"
+   ]
+  },
+  {
+   "name": "appointments_members",
+   "rows": 8,
+   "columns": [
+    "board_appointment_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "trusteeses_members",
+   "rows": 8,
+   "columns": [
+    "board_of_trustees_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "executives_appointments",
+   "rows": 8,
+   "columns": [
+    "county_executive_id",
+    "board_appointment_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_board_appointment_board_member_detail",
+  "v_board_appointment_board_of_trustees",
+  "v_board_appointment_county_executive",
+  "v_board_member_board_of_trustees",
+  "v_board_member_board_appointment",
+  "v_board_member_county_jurisdiction",
+  "v_board_of_trustees_board_member_detail",
+  "v_board_of_trustees_public_institution",
+  "v_board_of_trustees_county_jurisdiction",
+  "v_county_jurisdiction_board_of_trustees",
+  "v_county_jurisdiction_county_executive",
+  "v_county_jurisdiction_public_institution",
+  "v_county_executive_board_appointment_detail",
+  "v_county_executive_county_jurisdiction",
+  "v_public_institution_board_of_trustees",
+  "v_public_institution_county_jurisdiction"
+ ]
+}

@@ -1,0 +1,5 @@
+id,plan_identifier,plan_title,target_event,duration_weeks,start_date,end_date,status,physical_event_id
+1,PLA-2674,Regional Framework,legacy-target-55,22,2022-09-05,2022-09-01,draft,1
+2,PLA-2676,Seasonal Protocol D,compact-target-56,31,2023-02-16,2023-02-12,active,2
+3,PLA-2678,Integrated Programme,composite-target-57,40,2024-07-27,2024-07-23,completed,3
+4,PLA-2680,Extended Standard,primary-target-58,49,2025-12-11,2025-12-07,archived,4

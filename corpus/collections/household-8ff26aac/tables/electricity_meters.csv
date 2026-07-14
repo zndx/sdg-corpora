@@ -1,0 +1,5 @@
+electricity_meter_id,meter_id,installation_date,meter_type,current_reading,last_calibration_date,household_id
+1,ChIJs86LmnZu5kcRmKAuH61gkZk,2022-01-10,analog,11.20,2025-12-01,1000
+2,d9da0c5a-8fcc-11eb-924d-9cd76263cbd0,2023-06-21,digital,13.40,2022-05-12,1001
+3,5082989,2024-11-05,smart,15.60,2023-10-23,1002
+4,937744,2025-04-16,analog,17.80,2024-03-07,1003

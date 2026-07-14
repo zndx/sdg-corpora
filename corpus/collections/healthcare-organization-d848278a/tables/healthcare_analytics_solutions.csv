@@ -1,0 +1,5 @@
+id,solution_id,solution_name,solution_type,vendor,is_web_based,supports_big_data,deployment_date,healthcare_organization_id,electronic_health_record_ehr_id,clinical_decision_support_id
+1,4793487,Primary Review A,regional-solution-60,Feedback Ratings,false,true,2023-02-14,1000,195366,100
+2,5844272,Composite Initiative,legacy-solution-61,Abbott Laboratories,true,false,2024-07-25,1001,611509,101
+3,0470021411,Compact Model,compact-solution-62,American Express,false,true,2025-12-09,1002,884338,102
+4,7021001070020,Legacy Cluster D,composite-solution-63,Whatsapp Inc.,true,false,2022-05-20,1003,gd_taxc_1123,103

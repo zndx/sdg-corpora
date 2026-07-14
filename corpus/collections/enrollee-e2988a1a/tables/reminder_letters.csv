@@ -1,0 +1,5 @@
+reminder_letter_id,letter_id,sent_date,reminder_type,enrollee_id,prescription_id
+100,6564385,2024-03-12T14:06:00,prior_authorization,1000,1
+101,69428,2025-08-23T21:23:00,transition_period,1001,2
+102,de_CH,2022-01-07T04:40:00,prior_authorization,1002,3
+103,4447016,2023-06-18T11:57:00,transition_period,1003,4

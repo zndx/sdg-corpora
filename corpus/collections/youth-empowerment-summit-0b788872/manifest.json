@@ -1,0 +1,253 @@
+{
+ "construct_id": "0b7888721f02b4a6",
+ "slug": "youth-empowerment-summit-0b788872",
+ "passage": "0b7888721f02b4a69232905ba79483ca15a0aaa14014b44aa522107f48e35ee0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 22,
+ "entities": [
+  "YouthEmpowermentSummit",
+  "EducationalInstitution",
+  "YouthOrganization",
+  "YouthParticipant",
+  "ConferenceWorkshop",
+  "PanelDiscussion",
+  "StaffMember"
+ ],
+ "terms": [
+  {
+   "name": "YouthEmpowermentSummit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationalInstitution",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "YouthOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "YouthParticipant",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ConferenceWorkshop",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PanelDiscussion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "youth_empowerment_summits",
+   "rows": 4,
+   "columns": [
+    "youth_empowerment_summit_id",
+    "summit_identifier",
+    "edition_number",
+    "start_date",
+    "end_date",
+    "total_attendance",
+    "current_theme",
+    "educational_institution_id",
+    "youth_organization_org_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "educational_institutions",
+   "rows": 4,
+   "columns": [
+    "educational_institution_id",
+    "institution_id",
+    "institution_name",
+    "city",
+    "state",
+    "school_level",
+    "is_safe_space",
+    "youth_empowerment_summit_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "youth_organizations",
+   "rows": 4,
+   "columns": [
+    "org_id",
+    "org_name",
+    "headquarters_city",
+    "headquarters_state",
+    "operating_model",
+    "youth_board_proportion",
+    "youth_empowerment_summit_id"
+   ]
+  },
+  {
+   "name": "youth_participants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participant_id",
+    "full_name",
+    "grade_level",
+    "school_affiliation",
+    "identity_group",
+    "role",
+    "youth_empowerment_summit_id",
+    "educational_institution_id",
+    "panel_discussion_panel_id"
+   ]
+  },
+  {
+   "name": "conference_workshops",
+   "rows": 4,
+   "columns": [
+    "conference_workshop_id",
+    "workshop_id",
+    "workshop_title",
+    "topic",
+    "duration_minutes",
+    "is_youth_only",
+    "is_comprehensive",
+    "youth_empowerment_summit_id",
+    "staff_member_id"
+   ]
+  },
+  {
+   "name": "panel_discussions",
+   "rows": 4,
+   "columns": [
+    "panel_id",
+    "panel_theme",
+    "number_of_panelists",
+    "moderator_name",
+    "is_recorded",
+    "discussion_focus",
+    "youth_empowerment_summit_id"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_member_id",
+    "staff_id",
+    "full_name",
+    "job_title",
+    "is_youth",
+    "is_trainer",
+    "is_moderator",
+    "youth_organization_org_id",
+    "conference_workshop_id",
+    "panel_discussion_panel_id"
+   ]
+  },
+  {
+   "name": "summits_workshops",
+   "rows": 8,
+   "columns": [
+    "youth_empowerment_summit_id",
+    "conference_workshop_id"
+   ]
+  },
+  {
+   "name": "summits_discussions",
+   "rows": 8,
+   "columns": [
+    "youth_empowerment_summit_id",
+    "panel_discussion_panel_id"
+   ]
+  },
+  {
+   "name": "institutions_participants",
+   "rows": 8,
+   "columns": [
+    "educational_institution_id",
+    "youth_participant_id"
+   ]
+  },
+  {
+   "name": "organizations_members",
+   "rows": 8,
+   "columns": [
+    "youth_organization_org_id",
+    "staff_member_id"
+   ]
+  },
+  {
+   "name": "organizations_participants",
+   "rows": 8,
+   "columns": [
+    "youth_organization_org_id",
+    "youth_participant_id"
+   ]
+  },
+  {
+   "name": "participants_workshops",
+   "rows": 8,
+   "columns": [
+    "youth_participant_id",
+    "conference_workshop_id"
+   ]
+  },
+  {
+   "name": "workshops_participants",
+   "rows": 8,
+   "columns": [
+    "conference_workshop_id",
+    "youth_participant_id"
+   ]
+  },
+  {
+   "name": "discussions_members",
+   "rows": 8,
+   "columns": [
+    "panel_discussion_panel_id",
+    "staff_member_id"
+   ]
+  },
+  {
+   "name": "discussions_participants",
+   "rows": 8,
+   "columns": [
+    "panel_discussion_panel_id",
+    "youth_participant_id"
+   ]
+  }
+ ],
+ "views": [
+  "youth_empowerment_summit_educational_institution_view",
+  "youth_empowerment_summit_youth_organization_view",
+  "youth_empowerment_summit_conference_workshop_detail_view",
+  "youth_empowerment_summit_panel_discussion_detail_view",
+  "educational_institution_youth_empowerment_summit_view",
+  "educational_institution_youth_participant_detail_view",
+  "youth_organization_youth_empowerment_summit_view",
+  "youth_organization_staff_member_detail_view",
+  "youth_organization_youth_participant_detail_view",
+  "youth_participant_youth_empowerment_summit_view",
+  "youth_participant_educational_institution_view",
+  "youth_participant_conference_workshop_detail_view",
+  "youth_participant_panel_discussion_view",
+  "conference_workshop_youth_empowerment_summit_view",
+  "conference_workshop_youth_participant_detail_view",
+  "conference_workshop_staff_member_view",
+  "panel_discussion_youth_empowerment_summit_view",
+  "panel_discussion_staff_member_detail_view",
+  "panel_discussion_youth_participant_detail_view",
+  "staff_member_youth_organization_view",
+  "staff_member_conference_workshop_view",
+  "staff_member_panel_discussion_view"
+ ]
+}

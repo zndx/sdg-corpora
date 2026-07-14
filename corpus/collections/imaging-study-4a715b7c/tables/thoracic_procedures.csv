@@ -1,0 +1,5 @@
+thoracic_procedure_id,procedure_code,procedure_name,procedure_date,invasiveness_level,status,radiologist_id,campus_code,imaging_study_id
+100,3990183,Integrated Protocol A,2022-05-19T04:48:00,minimally_invasive,scheduled,1000,6969438,1
+101,10782181,Extended Programme,2023-10-03T11:05:00,non_invasive,completed,1001,9736889,2
+102,account_pymes_663,Pilot Standard,2024-03-14T18:22:00,surgical,cancelled,1002,727050,3
+103,1c87986a-8fcd-11eb-924d-9cd76263cbd0,Baseline Framework D,2025-08-25T01:39:00,minimally_invasive,scheduled,1003,89008,4

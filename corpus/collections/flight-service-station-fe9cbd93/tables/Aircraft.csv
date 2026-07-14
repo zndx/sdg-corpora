@@ -1,0 +1,5 @@
+id,registrationNumber,aircraftType,operator,flightNumber,departureAirport,arrivalAirport,passengerCount,cargoWeight,currentAltitude,currentSpeed,createdAt,updatedAt
+1,REG-2136,primary-aircraft-34,baseline-operator-31,FLI-2053,compact-departur-50,legacy-arrival-49,13,218.0,12,30,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,REG-2142,adaptive-aircraft-35,pilot-operator-32,FLI-2059,composite-departur-51,compact-arrival-50,10,0.05000001,19,33,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,REG-2148,distributed-aircraft-36,extended-operator-33,FLI-2065,primary-departur-52,composite-arrival-51,7,3.24967074388476,26,36,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,REG-2154,baseline-aircraft-37,integrated-operator-34,FLI-2071,adaptive-departur-53,primary-arrival-52,8,106.0,33,39,2025-04-16 09:14:00,2025-04-23 15:41:00

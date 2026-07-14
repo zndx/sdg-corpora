@@ -1,0 +1,5 @@
+id,externality_id,pollution_size,abatement_cost,impact_on_utility,is_internalized,corporation_id,corporate_policy_id
+1,32815,1.59,29.99,20.20,false,bc908e7a-8fcd-11eb-924d-9cd76263cbd0,1
+2,790470,0.01999998,11.94,23.40,true,ChIJyxw4mjhu5kcR9yl4qn8CFbo,2
+3,1889763,1.54,18.47,26.60,false,790486,3
+4,bhavenger,0.75,13.94,29.80,true,2087751,4

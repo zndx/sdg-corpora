@@ -1,0 +1,191 @@
+{
+ "construct_id": "7cd185e71f942783",
+ "slug": "carpet-7cd185e7",
+ "passage": "7cd185e71f9427837e8591487418ce47737b100437b1092ed3acf86ae3e4ff10.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 13,
+ "entities": [
+  "Carpet",
+  "Workshop",
+  "Craftsperson",
+  "DesignPattern",
+  "RoyalHousehold",
+  "MarketRegion"
+ ],
+ "terms": [
+  {
+   "name": "Carpet",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Workshop",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Craftsperson",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "DesignPattern",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RoyalHousehold",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MarketRegion",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "carpets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "carpet_id",
+    "design_style",
+    "origin_region",
+    "production_date",
+    "dimensions",
+    "material_composition",
+    "current_location",
+    "condition_status",
+    "workshop_id",
+    "household_id",
+    "market_region_id",
+    "design_pattern_id"
+   ]
+  },
+  {
+   "name": "workshops",
+   "rows": 4,
+   "columns": [
+    "id",
+    "workshop_id",
+    "location",
+    "established_date",
+    "patron",
+    "specialization",
+    "production_volume",
+    "operational_status",
+    "market_region_id"
+   ]
+  },
+  {
+   "name": "craftspersons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "craftsperson_id",
+    "role",
+    "gender",
+    "region",
+    "years_of_experience",
+    "affiliated_workshop",
+    "workshop_id"
+   ]
+  },
+  {
+   "name": "design_patterns",
+   "rows": 4,
+   "columns": [
+    "design_pattern_id",
+    "pattern_id",
+    "pattern_type",
+    "complexity_level",
+    "cultural_origin",
+    "visual_impact",
+    "repetition_frequency",
+    "created_at"
+   ]
+  },
+  {
+   "name": "royal_households",
+   "rows": 4,
+   "columns": [
+    "household_id",
+    "location",
+    "ruling_dynasty",
+    "storage_capacity",
+    "rotation_period",
+    "custodian_name",
+    "design_pattern_id"
+   ]
+  },
+  {
+   "name": "market_regions",
+   "rows": 4,
+   "columns": [
+    "market_region_id",
+    "region_id",
+    "region_name",
+    "import_volume",
+    "primary_use",
+    "cultural_adoption",
+    "trade_route",
+    "workshop_id"
+   ]
+  },
+  {
+   "name": "workshops_craftspersons",
+   "rows": 8,
+   "columns": [
+    "workshop_id",
+    "craftsperson_id"
+   ]
+  },
+  {
+   "name": "workshops_carpets",
+   "rows": 8,
+   "columns": [
+    "workshop_id",
+    "carpet_id"
+   ]
+  },
+  {
+   "name": "patterns_carpets",
+   "rows": 8,
+   "columns": [
+    "design_pattern_id",
+    "carpet_id"
+   ]
+  },
+  {
+   "name": "households_carpets",
+   "rows": 8,
+   "columns": [
+    "household_id",
+    "carpet_id"
+   ]
+  },
+  {
+   "name": "regions_carpets",
+   "rows": 8,
+   "columns": [
+    "market_region_id",
+    "carpet_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_carpet_workshop",
+  "v_carpet_royal_household",
+  "v_carpet_market_region",
+  "v_carpet_design_pattern",
+  "v_workshop_craftsperson_detail",
+  "v_workshop_carpet_detail",
+  "v_workshop_market_region",
+  "v_craftsperson_workshop",
+  "v_design_pattern_carpet_detail",
+  "v_royal_household_carpet_detail",
+  "v_royal_household_design_pattern",
+  "v_market_region_carpet_detail",
+  "v_market_region_workshop"
+ ]
+}

@@ -1,0 +1,5 @@
+statutory_amendment_id,amendment_id,target_section,target_clause,original_value,substituted_value,amendment_type,act_number,legislative_body_id,created_at,updated_at
+1,605961,regional-target-36,compact-target-44,compact-original-14,distributed-substitu-48,substitution,ACT-2168,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,338542,legacy-target-37,composite-target-45,composite-original-15,baseline-substitu-49,insertion,ACT-2172,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,9246331,compact-target-38,primary-target-46,primary-original-16,pilot-substitu-50,deletion,ACT-2176,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,4447007,composite-target-39,adaptive-target-47,adaptive-original-17,extended-substitu-51,repeal,ACT-2180,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

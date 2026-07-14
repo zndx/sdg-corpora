@@ -1,0 +1,5 @@
+id,trust_identifier,trust_name,trust_type,founding_year,current_quality_rating,nursing_leader_id,quality_review_id,nursing_workstream_id
+1,TRU-2467,South Tees Hospitals NHS Foundation Trust,acute,43,excellent,1,1,100
+2,TRU-2469,Salford Royal Foundation Trust,specialist,48,good,2,2,101
+3,TRU-2471,Mid Essex Hospital Services NHS Trust,community,53,requires improvement,3,3,102
+4,TRU-2473,The Queen Elizabeth Hospital King's Lynn NHS Trust,acute,58,inadequate,4,4,103

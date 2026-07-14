@@ -1,0 +1,160 @@
+{
+ "construct_id": "315b8b31e1245f53",
+ "slug": "small-group-session-315b8b31",
+ "passage": "315b8b31e1245f536eb7ac5c0be0ad0454cf21666e4195ba09d385929e064e9f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "SmallGroupSession",
+  "RelationalConcept",
+  "DiscussionQuestion",
+  "FinancialSupportRecord",
+  "MarriagePrayerFocus",
+  "GrowGroupCommunity"
+ ],
+ "terms": [
+  {
+   "name": "SmallGroupSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RelationalConcept",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DiscussionQuestion",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialSupportRecord",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MarriagePrayerFocus",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GrowGroupCommunity",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "small_group_sessions",
+   "rows": 4,
+   "columns": [
+    "small_group_session_id",
+    "session_id",
+    "session_date",
+    "facilitator_name",
+    "topic_theme",
+    "discussion_format",
+    "attendance_count",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "relational_concepts",
+   "rows": 4,
+   "columns": [
+    "concept_id",
+    "concept_name",
+    "concept_category",
+    "description",
+    "scripture_reference",
+    "small_group_session_id"
+   ]
+  },
+  {
+   "name": "discussion_questions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "question_id",
+    "question_text",
+    "question_number",
+    "requires_personal_reflection",
+    "references_scripture",
+    "small_group_session_id",
+    "concept_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "financial_support_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "record_date",
+    "amount_needed",
+    "amount_given",
+    "funding_gap",
+    "support_status",
+    "marriage_prayer_focus_id"
+   ]
+  },
+  {
+   "name": "marriage_prayer_focuses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "focus_id",
+    "focus_month",
+    "primary_intention",
+    "target_group",
+    "community_goal",
+    "financial_support_record_id",
+    "grow_group_community_id"
+   ]
+  },
+  {
+   "name": "grow_group_communities",
+   "rows": 4,
+   "columns": [
+    "grow_group_community_id",
+    "group_id",
+    "group_name",
+    "group_type",
+    "duration_weeks",
+    "cost_per_couple",
+    "start_date",
+    "registration_status",
+    "marriage_prayer_focus_id"
+   ]
+  },
+  {
+   "name": "sessions_questions",
+   "rows": 8,
+   "columns": [
+    "small_group_session_id",
+    "discussion_question_id"
+   ]
+  },
+  {
+   "name": "communities_sessions",
+   "rows": 8,
+   "columns": [
+    "grow_group_community_id",
+    "small_group_session_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_small_group_session_relational_concept",
+  "vw_small_group_session_discussion_question_detail",
+  "vw_relational_concept_small_group_session",
+  "vw_discussion_question_small_group_session",
+  "vw_discussion_question_relational_concept",
+  "vw_financial_support_record_marriage_prayer_focus",
+  "vw_marriage_prayer_focus_financial_support_record",
+  "vw_marriage_prayer_focus_grow_group_community",
+  "vw_grow_group_community_marriage_prayer_focus",
+  "vw_grow_group_community_small_group_session_detail"
+ ]
+}

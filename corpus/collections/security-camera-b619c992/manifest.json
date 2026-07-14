@@ -1,0 +1,176 @@
+{
+ "construct_id": "b619c992479e811a",
+ "slug": "security-camera-b619c992",
+ "passage": "b619c992479e811ae196da1dc22b7deb8c87a863407e26961e9e859cc8e72f19.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 17,
+ "entities": [
+  "SecurityCamera",
+  "LibraryProperty",
+  "VideoSurveillanceData",
+  "SecurityIncident",
+  "StaffMember",
+  "LawEnforcementAgency",
+  "DataStorageSystem"
+ ],
+ "terms": [
+  {
+   "name": "SecurityCamera",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LibraryProperty",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "VideoSurveillanceData",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SecurityIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "LawEnforcementAgency",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DataStorageSystem",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "secu_security_cameras",
+   "rows": 4,
+   "columns": [
+    "security_camera_id",
+    "camera_id",
+    "location",
+    "installation_date",
+    "is_audio_enabled",
+    "status",
+    "library_property_id",
+    "video_surveillance_data_id"
+   ]
+  },
+  {
+   "name": "secu_library_properties",
+   "rows": 4,
+   "columns": [
+    "library_property_id",
+    "property_id",
+    "address",
+    "property_type",
+    "square_footage",
+    "last_inspection_date",
+    "security_camera_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "secu_video_surveillance_datas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "data_id",
+    "capture_date_time",
+    "duration_seconds",
+    "data_format",
+    "storage_status",
+    "access_level",
+    "security_camera_id",
+    "incident_id",
+    "data_storage_system_id"
+   ]
+  },
+  {
+   "name": "secu_security_incidents",
+   "rows": 4,
+   "columns": [
+    "incident_id",
+    "incident_date_time",
+    "incident_type",
+    "severity_level",
+    "status",
+    "reported_by",
+    "library_property_id",
+    "video_surveillance_data_id",
+    "staff_member_id",
+    "law_enforcement_agency_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "secu_staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_member_id",
+    "staff_id",
+    "full_name",
+    "role",
+    "access_level",
+    "hire_date",
+    "video_surveillance_data_id",
+    "incident_id",
+    "reports_to_staff_member_id"
+   ]
+  },
+  {
+   "name": "secu_law_enforcement_agencies",
+   "rows": 4,
+   "columns": [
+    "law_enforcement_agency_id",
+    "agency_id",
+    "agency_name",
+    "agency_type",
+    "contact_email",
+    "contact_phone",
+    "video_surveillance_data_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "secu_data_storage_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "system_name",
+    "storage_capacity_g_b",
+    "last_backup_date",
+    "encryption_status",
+    "video_surveillance_data_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_security_camera_library_property",
+  "v_security_camera_video_surveillance_data",
+  "v_library_property_security_camera",
+  "v_library_property_security_incident",
+  "v_video_surveillance_data_security_camera",
+  "v_video_surveillance_data_security_incident",
+  "v_video_surveillance_data_data_storage_system",
+  "v_security_incident_library_property",
+  "v_security_incident_video_surveillance_data",
+  "v_security_incident_staff_member",
+  "v_security_incident_law_enforcement_agency",
+  "v_staff_member_video_surveillance_data",
+  "v_staff_member_security_incident",
+  "v_staff_member_staff_member",
+  "v_law_enforcement_agency_video_surveillance_data",
+  "v_law_enforcement_agency_security_incident",
+  "v_data_storage_system_video_surveillance_data"
+ ]
+}

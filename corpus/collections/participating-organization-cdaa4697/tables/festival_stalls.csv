@@ -1,0 +1,5 @@
+festival_stall_id,stall_id,stall_location_code,stall_size,stall_status,utility_access,festival_enrollment_id
+100,gd_fp_ne_acc3,338536,0.6,available,true,1000
+101,8928522,L907,1.48,allocated,false,1001
+102,5082980,default_chart_a_tax_2,0.4827489,occupied,true,1002
+103,338531,69423,1.37,closed,false,1003

@@ -1,0 +1,5 @@
+institution_id,identifier,name,type,location,founded_date,degree_id
+1,IDE-2086,Extended Review,university,extended-location-99,2024-03-15,1
+2,IDE-2091,Pilot Initiative A,college,integrated-location-100,2025-08-26,2
+3,IDE-2096,Baseline Model,institute,seasonal-location-101,2022-01-10,3
+4,IDE-2101,Distributed Cluster,university,regional-location-102,2023-06-21,4

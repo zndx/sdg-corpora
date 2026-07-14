@@ -1,0 +1,5 @@
+advertising_rule_id,rule_number,rule_title,effective_date,status,section_identifier,advertisement_id
+100,RUL-2640,Integrated Assessment A,2023-02-14T13:27:00,active,SEC-2022,1
+101,RUL-2647,Extended Survey,2024-07-25T20:44:00,vacant,SEC-2023,2
+102,RUL-2654,Pilot Corridor,2025-12-09T03:01:00,superseded,SEC-2024,3
+103,RUL-2661,Baseline Series D,2022-05-20T10:18:00,active,SEC-2025,4

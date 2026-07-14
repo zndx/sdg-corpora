@@ -1,0 +1,155 @@
+{
+ "construct_id": "94c2125763add622",
+ "slug": "regulation-94c21257",
+ "passage": "94c2125763add6224f2f6f40900c577c436c5b5a39c55a594b514313ac9ac1e1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 16,
+ "entities": [
+  "Regulation",
+  "Corrigendum",
+  "TyreType",
+  "TestProtocol",
+  "TestFacility",
+  "TypeApprovalAuthority"
+ ],
+ "terms": [
+  {
+   "name": "Regulation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Corrigendum",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TyreType",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TestProtocol",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TestFacility",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TypeApprovalAuthority",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Regulation",
+   "rows": 4,
+   "columns": [
+    "regulationId",
+    "identifier",
+    "title",
+    "status",
+    "effectiveDate",
+    "issuingBody",
+    "corrigendumId",
+    "typeId",
+    "supersededByRegulationId"
+   ]
+  },
+  {
+   "name": "Corrigendum",
+   "rows": 4,
+   "columns": [
+    "corrigendumId",
+    "identifier",
+    "issueNumber",
+    "submissionDate",
+    "proposingEntity",
+    "status",
+    "regulationId",
+    "protocolId"
+   ]
+  },
+  {
+   "name": "TyreType",
+   "rows": 4,
+   "columns": [
+    "id",
+    "typeCode",
+    "manufacturerId",
+    "rollingNoiseDb",
+    "widthMm",
+    "profileIndex",
+    "loadIndex",
+    "speedRating",
+    "facilityId",
+    "authorityId",
+    "protocolId"
+   ]
+  },
+  {
+   "name": "TestProtocol",
+   "rows": 4,
+   "columns": [
+    "protocolId",
+    "protocolVersion",
+    "measurementUnit",
+    "witnessingRequired",
+    "testEnvironment",
+    "temperatureCelsius",
+    "pressureBar",
+    "typeId",
+    "facilityId",
+    "regulationId"
+   ]
+  },
+  {
+   "name": "TestFacility",
+   "rows": 4,
+   "columns": [
+    "facilityId",
+    "facilityName",
+    "location",
+    "certificationStatus",
+    "ownerType",
+    "protocolId",
+    "authorityId"
+   ]
+  },
+  {
+   "name": "TypeApprovalAuthority",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authorityId",
+    "authorityName",
+    "jurisdiction",
+    "witnessingPolicy",
+    "contactEmail",
+    "typeId",
+    "facilityId",
+    "protocolId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_regulation_corrigendum",
+  "vw_regulation_tyre_type",
+  "vw_regulation_regulation",
+  "vw_corrigendum_regulation",
+  "vw_corrigendum_test_protocol",
+  "vw_tyre_type_test_facility",
+  "vw_tyre_type_type_approval_authority",
+  "vw_tyre_type_test_protocol",
+  "vw_test_protocol_tyre_type",
+  "vw_test_protocol_test_facility",
+  "vw_test_protocol_regulation",
+  "vw_test_facility_test_protocol",
+  "vw_test_facility_type_approval_authority",
+  "vw_type_approval_authority_tyre_type",
+  "vw_type_approval_authority_test_facility",
+  "vw_type_approval_authority_test_protocol"
+ ]
+}

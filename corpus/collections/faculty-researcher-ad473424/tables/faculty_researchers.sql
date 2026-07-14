@@ -1,0 +1,20 @@
+CREATE TABLE faculty_researchers (
+  id INTEGER NOT NULL,
+  researcher_id INTEGER,
+  full_name VARCHAR(36),
+  age INTEGER,
+  is_married BOOLEAN,
+  highest_degree VARCHAR(32),
+  university VARCHAR(32),
+  research_field VARCHAR(32),
+  publication_count INTEGER,
+  academic_rank_id INTEGER,
+  university_id INTEGER,
+  field_code VARCHAR(44),
+  core_characteristic_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (academic_rank_id) REFERENCES academic_ranks (id),
+  FOREIGN KEY (university_id) REFERENCES universities (id),
+  FOREIGN KEY (field_code) REFERENCES research_fields (field_code),
+  FOREIGN KEY (core_characteristic_id) REFERENCES core_characteristics (core_characteristic_id)
+);

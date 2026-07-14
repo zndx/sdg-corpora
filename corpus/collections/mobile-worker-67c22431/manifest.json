@@ -1,0 +1,193 @@
+{
+ "construct_id": "67c22431c89bdebd",
+ "slug": "mobile-worker-67c22431",
+ "passage": "67c22431c89bdebd14e3174f8a3ed5f501f0f719d99ea34f17c7510eb1e592a0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 14,
+ "entities": [
+  "MobileWorker",
+  "VPNGateway",
+  "CorporateNetwork",
+  "BusinessResource",
+  "UserRole",
+  "NetworkEquipment",
+  "AuthenticationServer"
+ ],
+ "terms": [
+  {
+   "name": "MobileWorker",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VPNGateway",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CorporateNetwork",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BusinessResource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "UserRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "NetworkEquipment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AuthenticationServer",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "mobile_workers",
+   "rows": 4,
+   "columns": [
+    "mobile_worker_id",
+    "worker_id",
+    "employee_name",
+    "department",
+    "role",
+    "device_type",
+    "os_platform",
+    "authentication_realm",
+    "last_login_timestamp",
+    "authentication_server_id",
+    "user_role_id",
+    "v_p_n_gateway_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "v_p_n_gateways",
+   "rows": 4,
+   "columns": [
+    "v_p_n_gateway_id",
+    "gateway_id",
+    "location",
+    "region",
+    "max_concurrent_users",
+    "encryption_protocol",
+    "status",
+    "capacity_utilization",
+    "corporate_network_id",
+    "equipment_id"
+   ]
+  },
+  {
+   "name": "corporate_networks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "network_id",
+    "network_name",
+    "ip_range",
+    "security_level",
+    "last_audit_date",
+    "v_p_n_gateway_id"
+   ]
+  },
+  {
+   "name": "business_resources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resource_id",
+    "resource_name",
+    "resource_type",
+    "access_protocol",
+    "is_s_s_o_supported",
+    "max_connections",
+    "user_role_id",
+    "corporate_network_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "user_roles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role_id",
+    "role_name",
+    "role_description",
+    "max_resources",
+    "mobile_worker_id"
+   ]
+  },
+  {
+   "name": "network_equipments",
+   "rows": 4,
+   "columns": [
+    "equipment_id",
+    "manufacturer",
+    "model",
+    "firmware_version",
+    "status",
+    "v_p_n_gateway_id"
+   ]
+  },
+  {
+   "name": "authentication_servers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "server_type",
+    "server_address",
+    "is_primary",
+    "mobile_worker_id"
+   ]
+  },
+  {
+   "name": "gateways_workers",
+   "rows": 8,
+   "columns": [
+    "v_p_n_gateway_id",
+    "mobile_worker_id"
+   ]
+  },
+  {
+   "name": "networks_resources",
+   "rows": 8,
+   "columns": [
+    "corporate_network_id",
+    "business_resource_id"
+   ]
+  },
+  {
+   "name": "roles_resources",
+   "rows": 8,
+   "columns": [
+    "user_role_id",
+    "business_resource_id"
+   ]
+  }
+ ],
+ "views": [
+  "mobile_worker_authentication_server_view",
+  "mobile_worker_user_role_view",
+  "mobile_worker_v_p_n_gateway_view",
+  "v_p_n_gateway_corporate_network_view",
+  "v_p_n_gateway_mobile_worker_detail_view",
+  "v_p_n_gateway_network_equipment_view",
+  "corporate_network_business_resource_detail_view",
+  "corporate_network_v_p_n_gateway_view",
+  "business_resource_user_role_view",
+  "business_resource_corporate_network_view",
+  "user_role_business_resource_detail_view",
+  "user_role_mobile_worker_view",
+  "network_equipment_v_p_n_gateway_view",
+  "authentication_server_mobile_worker_view"
+ ]
+}

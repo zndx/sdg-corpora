@@ -1,0 +1,5 @@
+server_id,ip_address,last_communication_time,response_latency_ms,security_audit_status,dongle_module_id,key_id,network_segment_id
+911352d5dab64576b7a6da51aa69d76d,extended-ip-15,2022-01-19T00:00:00,43,passed,100,2087751,1
+1450637,integrated-ip-16,2023-06-03T07:17:00,53,failed,101,2618562,2
+4985152,seasonal-ip-17,2024-11-14T14:34:00,63,pending,102,8843769,3
+9736887,regional-ip-18,2025-04-25T21:51:00,73,passed,103,065525fa-8fb2-11eb-924d-9cd76263cbd0,4

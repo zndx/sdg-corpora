@@ -1,0 +1,144 @@
+{
+ "construct_id": "ea6df6b272e6fdbc",
+ "slug": "dialogue-utterance-ea6df6b2",
+ "passage": "ea6df6b272e6fdbc883cf9b72f40036a93fb4c761563b3cfe28fba9805936f58.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 12,
+ "entities": [
+  "DialogueUtterance",
+  "Character",
+  "SocialInteractionEvent",
+  "Location",
+  "SwimmingGoggle"
+ ],
+ "terms": [
+  {
+   "name": "DialogueUtterance",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Character",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SocialInteractionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SwimmingGoggle",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "dialogue_utterances",
+   "rows": 4,
+   "columns": [
+    "id",
+    "utterance_id",
+    "quoted_text",
+    "speaker_name",
+    "timestamp",
+    "is_internal_thought",
+    "vocalization_mode",
+    "character_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "characters",
+   "rows": 4,
+   "columns": [
+    "character_id",
+    "full_name",
+    "age_group",
+    "gender",
+    "has_goggles",
+    "swimming_ability",
+    "dialogue_utterance_id",
+    "interacts_with_character_id",
+    "goggle_id"
+   ]
+  },
+  {
+   "name": "social_interaction_events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "location",
+    "start_time",
+    "end_time",
+    "activity_type",
+    "weather_condition",
+    "location_id"
+   ]
+  },
+  {
+   "name": "locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location_id",
+    "name",
+    "type",
+    "has_slide",
+    "water_temperature",
+    "is_indoor",
+    "event_id"
+   ]
+  },
+  {
+   "name": "swimming_goggles",
+   "rows": 4,
+   "columns": [
+    "goggle_id",
+    "brand",
+    "price",
+    "comfort_level",
+    "causes_eye_irritation",
+    "purchase_date",
+    "character_id",
+    "event_id",
+    "location_id"
+   ]
+  },
+  {
+   "name": "events_utterances",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "dialogue_utterance_id"
+   ]
+  },
+  {
+   "name": "events_characters",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "character_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_dialogue_utterance_character",
+  "vw_dialogue_utterance_social_interaction_event",
+  "vw_character_dialogue_utterance",
+  "vw_character_character",
+  "vw_character_swimming_goggle",
+  "vw_social_interaction_event_dialogue_utterance_detail",
+  "vw_social_interaction_event_character_detail",
+  "vw_social_interaction_event_location",
+  "vw_location_social_interaction_event",
+  "vw_swimming_goggle_character",
+  "vw_swimming_goggle_social_interaction_event",
+  "vw_swimming_goggle_location"
+ ]
+}

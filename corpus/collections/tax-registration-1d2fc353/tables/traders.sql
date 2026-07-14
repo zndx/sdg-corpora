@@ -1,0 +1,20 @@
+CREATE TABLE traders (
+  id INTEGER NOT NULL,
+  trader_id VARCHAR(44),
+  legal_name VARCHAR(32),
+  pan_number VARCHAR(32),
+  contact_email VARCHAR(32),
+  contact_mobile VARCHAR(32),
+  annual_aggregate_turnover DECIMAL,
+  is_special_category_state BOOLEAN,
+  registration_status VARCHAR(32),
+  registration_id INTEGER,
+  jurisdiction_code VARCHAR(44),
+  taxable_supply_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (registration_id) REFERENCES tax_registrations (registration_id),
+  FOREIGN KEY (jurisdiction_code) REFERENCES jurisdictions (jurisdiction_code),
+  FOREIGN KEY (taxable_supply_id) REFERENCES taxable_supplies (id)
+);

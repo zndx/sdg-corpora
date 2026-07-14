@@ -1,0 +1,5 @@
+id,event_id,event_name,event_date,venue_name,venue_address,event_type,annual_edition,theme,award_recipient_id,networking_session_id,silent_auction_id
+100,2002007020060,Seasonal Standard,2025-04-15T15:21:00,Legacy Review D,pilot-venue-20,AwardCelebration,41,baseline-theme-79,1,1000,100
+101,168535,Integrated Framework,2022-09-26T22:38:00,Regional Initiative,extended-venue-21,BusinessConference,49,pilot-theme-80,2,1001,101
+102,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,Extended Protocol D,2023-02-10T05:55:00,Seasonal Model,integrated-venue-22,AwardCelebration,57,extended-theme-81,3,1002,102
+103,1186089,Pilot Programme,2024-07-21T12:12:00,Integrated Cluster A,seasonal-venue-23,BusinessConference,65,integrated-theme-82,4,1003,103

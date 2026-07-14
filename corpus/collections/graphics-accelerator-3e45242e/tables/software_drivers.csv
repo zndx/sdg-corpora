@@ -1,0 +1,5 @@
+software_driver_id,driver_name,version,supported_operating_system,bit_architecture,installation_guide_url
+1,Composite Series,seasonal-version-71,primary-supporte-28,composite-bit-51,https://ecocyc.org/gene?orgid=ECOLI&id=EG10351
+2,Compact Assessment A,regional-version-72,adaptive-supporte-29,primary-bit-52,https://bugs.launchpad.net/barbican/+bug/1338725
+3,Legacy Survey,legacy-version-73,distributed-supporte-30,adaptive-bit-53,https://bugs.launchpad.net/swift/+bug/1254405
+4,Regional Corridor,compact-version-74,baseline-supporte-31,distributed-bit-54,https://bugs.launchpad.net/cinder/+bug/1683431

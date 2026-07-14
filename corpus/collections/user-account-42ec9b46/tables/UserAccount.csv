@@ -1,0 +1,5 @@
+id,accountId,username,temporaryPassword,status,enrollmentDate,lastLoginTimestamp,credentialId,serviceId,deviceId
+1,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,Pilot Review,extended-temporar-33,active,2022-05-11T16:00:00,2024-11-16T10:42:00,168538,1,1000
+2,10207152,Baseline Initiative,integrated-temporar-34,inactive,2023-10-22T23:17:00,2025-04-27T17:59:00,default_chart_a_tax_10,2,1001
+3,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,Distributed Model A,seasonal-temporar-35,suspended,2024-03-06T06:34:00,2022-09-11T00:16:00,ChIJIbRFlPtt5kcR5kM81XdpSfI,3,1002
+4,3717632,Adaptive Cluster,regional-temporar-36,active,2025-08-17T13:51:00,2023-02-22T07:33:00,2002007020220,4,1003

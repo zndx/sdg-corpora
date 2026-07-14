@@ -1,0 +1,5 @@
+id,parameterName,equipmentType,measurementRangeMin,measurementRangeMax,unitOfMeasurement,expandedUncertaintyValue,coverageFactor,scopeId,standardId
+1,Extended Model,integrated-equipmen-58,6.20,19.20,primary-unit-76,14.70,4.95,1000,1
+2,Pilot Cluster A,seasonal-equipmen-59,10.40,22.40,adaptive-unit-77,18.40,8.90,1001,2
+3,Baseline Review,regional-equipmen-60,14.60,25.60,distributed-unit-78,22.10,12.85,1002,3
+4,Distributed Initiative,legacy-equipmen-61,18.80,28.80,baseline-unit-79,25.80,16.80,1003,4

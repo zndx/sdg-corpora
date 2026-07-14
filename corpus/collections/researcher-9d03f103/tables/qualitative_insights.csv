@@ -1,0 +1,5 @@
+id,insight_id,theme,sentiment,priority_level,summary_text,telephone_interview_id,policy_instrument_id
+1,7119788,baseline-theme-79,positive,22,distributed-summary-24,100,1
+2,1437583,pilot-theme-80,negative,25,baseline-summary-25,101,2
+3,10782168,extended-theme-81,neutral,28,pilot-summary-26,102,3
+4,7731881,integrated-theme-82,positive,31,extended-summary-27,103,4

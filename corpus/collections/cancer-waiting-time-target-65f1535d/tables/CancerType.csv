@@ -1,0 +1,5 @@
+id,cancerTypeName,icd10Code,isPrimaryCancer,targetId,createdAt,updatedAt
+1,Primary Review A,d65ed5c0-8fc1-11eb-924d-9cd76263cbd0,false,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Composite Initiative,2087750,true,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Compact Model,1208-0004-XL,false,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Legacy Cluster D,505983,true,4,2025-04-16 09:14:00,2025-04-23 15:41:00

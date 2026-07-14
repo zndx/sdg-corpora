@@ -1,0 +1,186 @@
+{
+ "construct_id": "d521b5e17a9cd979",
+ "slug": "network-device-d521b5e1",
+ "passage": "d521b5e17a9cd979af6697ef060621b3796295e47e6750aff833f19e1c5cc5b2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 18,
+ "entities": [
+  "NetworkDevice",
+  "ServiceLevelAgreement",
+  "TrafficClass",
+  "CallAdmissionControl",
+  "ResourceManagementSystem",
+  "PerformanceMetric"
+ ],
+ "terms": [
+  {
+   "name": "NetworkDevice",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ServiceLevelAgreement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TrafficClass",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CallAdmissionControl",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResourceManagementSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PerformanceMetric",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "network_devices",
+   "rows": 4,
+   "columns": [
+    "network_device_id",
+    "device_id",
+    "device_type",
+    "ip_address",
+    "firmware_version",
+    "status",
+    "last_heartbeat",
+    "service_level_agreement_id",
+    "performance_metric_id"
+   ]
+  },
+  {
+   "name": "service_level_agreements",
+   "rows": 4,
+   "columns": [
+    "service_level_agreement_id",
+    "sla_id",
+    "provider_id",
+    "customer_class",
+    "max_bandwidth",
+    "latency_threshold",
+    "packet_loss_limit",
+    "effective_date",
+    "expiration_date",
+    "traffic_class_id",
+    "resource_management_system_id"
+   ]
+  },
+  {
+   "name": "traffic_classes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "traffic_class_id",
+    "dscp_code",
+    "priority_level",
+    "bandwidth_allocation",
+    "max_latency",
+    "jitter_tolerance",
+    "network_device_id",
+    "service_level_agreement_id",
+    "call_admission_control_id"
+   ]
+  },
+  {
+   "name": "call_admission_controls",
+   "rows": 4,
+   "columns": [
+    "call_admission_control_id",
+    "cac_id",
+    "algorithm_type",
+    "current_load",
+    "threshold_utilization",
+    "decision_status",
+    "timestamp",
+    "traffic_class_id",
+    "service_level_agreement_id",
+    "resource_management_system_id"
+   ]
+  },
+  {
+   "name": "resource_management_systems",
+   "rows": 4,
+   "columns": [
+    "resource_management_system_id",
+    "rms_id",
+    "system_version",
+    "optimization_goal",
+    "total_capacity",
+    "allocated_capacity",
+    "last_optimization_run",
+    "service_level_agreement_id",
+    "performance_metric_id"
+   ]
+  },
+  {
+   "name": "performance_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_id",
+    "metric_type",
+    "value",
+    "unit",
+    "sample_time",
+    "source_device_id",
+    "network_device_id",
+    "service_level_agreement_id",
+    "resource_management_system_id"
+   ]
+  },
+  {
+   "name": "agreements_devices",
+   "rows": 8,
+   "columns": [
+    "service_level_agreement_id",
+    "network_device_id"
+   ]
+  },
+  {
+   "name": "systems_devices",
+   "rows": 8,
+   "columns": [
+    "resource_management_system_id",
+    "network_device_id"
+   ]
+  },
+  {
+   "name": "systems_controls",
+   "rows": 8,
+   "columns": [
+    "resource_management_system_id",
+    "call_admission_control_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_network_device_service_level_agreement",
+  "vw_network_device_performance_metric",
+  "vw_service_level_agreement_network_device_detail",
+  "vw_service_level_agreement_traffic_class",
+  "vw_service_level_agreement_resource_management_system",
+  "vw_traffic_class_network_device",
+  "vw_traffic_class_service_level_agreement",
+  "vw_traffic_class_call_admission_control",
+  "vw_call_admission_control_traffic_class",
+  "vw_call_admission_control_service_level_agreement",
+  "vw_call_admission_control_resource_management_system",
+  "vw_resource_management_system_network_device_detail",
+  "vw_resource_management_system_service_level_agreement",
+  "vw_resource_management_system_call_admission_control_detail",
+  "vw_resource_management_system_performance_metric",
+  "vw_performance_metric_network_device",
+  "vw_performance_metric_service_level_agreement",
+  "vw_performance_metric_resource_management_system"
+ ]
+}

@@ -1,0 +1,5 @@
+shareholder_id,identifier,legal_name,shareholder_type,registration_date,is_proxy_holder,share_id,annual_general_meeting_id
+1,IDE-2086,Jorge Sullivan,individual,2023-06-19,Fredrik Backman,100,1
+2,IDE-2091,Walter Pratt,institutional,2024-11-03,Janice Johnston,101,2
+3,IDE-2096,Home Medix Oxygen,foreign,2025-04-14,Jorge Sullivan,102,3
+4,IDE-2101,Hector Garcia,individual,2022-09-25,Laurie Wallace,103,4

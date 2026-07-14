@@ -1,0 +1,5 @@
+objective_id,objective_type,target_skill,anticipated_attainment_level,measurement_method,due_date,is_remedial,individualized_education_program_iep_id,student_id
+fbc3f876-9bac-11eb-a8a2-19ed5c03f8d3,Learning,compact-target-20,22.70,baseline-measurem-25,2024-11-11,true,IVC20Iind,1
+default_chart_a_tax_19,Behavioral,composite-target-21,27.40,pilot-measurem-26,2025-04-22,false,6926376,2
+3001009030160,Learning,primary-target-22,32.10,extended-measurem-27,2022-09-06,true,1562860,3
+10449523,Behavioral,adaptive-target-23,36.80,integrated-measurem-28,2023-02-17,false,b_V-ART-44_58q,4

@@ -1,0 +1,5 @@
+statisticId,statisticType,value,unit,year,region,recordId,groupId
+1,primary-statisti-52,19.95,distributed-unit-18,12,distributed-region-12,1,1
+2,adaptive-statisti-53,21.90,baseline-unit-19,21,baseline-region-13,2,2
+3,distributed-statisti-54,23.85,pilot-unit-20,30,pilot-region-14,3,3
+4,baseline-statisti-55,25.80,extended-unit-21,39,extended-region-15,4,4

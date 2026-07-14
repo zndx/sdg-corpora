@@ -1,0 +1,5 @@
+id,region_type,lower_bound,upper_bound,critical_value,hypothesis_test_id,test_statistic_id
+100,lower tail,14,19,44,1,100
+101,upper tail,17,28,51,2,101
+102,two-tailed,20,37,58,3,102
+103,lower tail,23,46,65,4,103

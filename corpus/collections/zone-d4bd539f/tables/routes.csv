@@ -1,0 +1,5 @@
+id,route_id,route_status,total_length,generation_time,steering_compliant,zone_id,checkpoint_id,ends_at_checkpoint_id
+1000,1996928,generated,3.9057753239209303,2025-08-07T07:33:00,false,1,21956270,21956270
+1001,6926358,approved,5.0,2022-01-18T14:50:00,true,2,195341,195341
+1002,82869,executing,0.01999998,2023-06-02T21:07:00,false,3,3158149,3158149
+1003,b10c758c-8fcd-11eb-924d-9cd76263cbd0,completed,38.20000118679471,2024-11-13T04:24:00,true,4,974918,974918

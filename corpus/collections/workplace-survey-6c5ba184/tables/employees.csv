@@ -1,0 +1,5 @@
+employee_id,employee_name,department,years_employed,feedback_submitted,professionalism_rating,teamwork_rating,organization_id,workplace_survey_id,client_sector_id
+100,Cole Vasquez,adaptive-departme-89,46,false,18.95,9.95,1,1,1000
+101,Susan Levy,distributed-departme-90,57,true,20.90,13.90,2,2,1001
+102,Tasha Rodriguez,baseline-departme-91,68,false,22.85,17.85,3,3,1002
+103,Sarah Villanueva,pilot-departme-92,79,true,24.80,21.80,4,4,1003

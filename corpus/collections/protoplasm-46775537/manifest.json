@@ -1,0 +1,192 @@
+{
+ "construct_id": "467755373195ed95",
+ "slug": "protoplasm-46775537",
+ "passage": "467755373195ed95739893acd0d51fe7638523690513a7dad4cb63b4277e7732.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 17,
+ "entities": [
+  "Protoplasm",
+  "Cell",
+  "Nucleus",
+  "Engram",
+  "Stimulus",
+  "MentalDisorder",
+  "Human"
+ ],
+ "terms": [
+  {
+   "name": "Protoplasm",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Cell",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Nucleus",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Engram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Stimulus",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MentalDisorder",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Human",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "protoplasms",
+   "rows": 4,
+   "columns": [
+    "protoplasm_id",
+    "origin_date",
+    "irritability_level",
+    "engram_count",
+    "nuclear_intelligence",
+    "protoplasm_type",
+    "cell_id",
+    "engram_id"
+   ]
+  },
+  {
+   "name": "cells",
+   "rows": 4,
+   "columns": [
+    "cell_id",
+    "division_stage",
+    "nucleus_present",
+    "cell_type",
+    "creation_date",
+    "protoplasm_id",
+    "nucleus_id"
+   ]
+  },
+  {
+   "name": "nucleuses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "nucleus_id",
+    "intelligence_level",
+    "chromosome_count",
+    "division_state",
+    "cell_id"
+   ]
+  },
+  {
+   "name": "engrams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "engram_id",
+    "stimulus_energy",
+    "reaction_pattern",
+    "retention_date",
+    "disorder_association",
+    "protoplasm_id",
+    "stimulus_id",
+    "mental_disorder_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "stimuluses",
+   "rows": 4,
+   "columns": [
+    "stimulus_id",
+    "energy_level",
+    "stimulus_type",
+    "timestamp",
+    "source",
+    "protoplasm_id",
+    "engram_id"
+   ]
+  },
+  {
+   "name": "mental_disorders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "disorder_id",
+    "disorder_name",
+    "severity",
+    "onset_date",
+    "treatment_status",
+    "human_id"
+   ]
+  },
+  {
+   "name": "humans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "human_id",
+    "birth_date",
+    "genetic_lineage",
+    "early_stimulus_exposure",
+    "collective_unconscious_access",
+    "protoplasm_id",
+    "stimulus_id",
+    "engram_id"
+   ]
+  },
+  {
+   "name": "cells_cells",
+   "rows": 8,
+   "columns": [
+    "cell_id",
+    "divides_into_cell_id"
+   ]
+  },
+  {
+   "name": "nucleuses_nucleuses",
+   "rows": 8,
+   "columns": [
+    "nucleus_id",
+    "divides_into_nucleus_id"
+   ]
+  },
+  {
+   "name": "disorders_engrams",
+   "rows": 8,
+   "columns": [
+    "mental_disorder_id",
+    "engram_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_protoplasm_cell",
+  "vw_protoplasm_engram",
+  "vw_cell_protoplasm",
+  "vw_cell_cell_detail",
+  "vw_cell_nucleus",
+  "vw_nucleus_cell",
+  "vw_nucleus_nucleus_detail",
+  "vw_engram_protoplasm",
+  "vw_engram_stimulus",
+  "vw_engram_mental_disorder",
+  "vw_stimulus_protoplasm",
+  "vw_stimulus_engram",
+  "vw_mental_disorder_engram_detail",
+  "vw_mental_disorder_human",
+  "vw_human_protoplasm",
+  "vw_human_stimulus",
+  "vw_human_engram"
+ ]
+}

@@ -1,0 +1,5 @@
+auto_repair_shop_id,shop_id,shop_name,established_date,shop_type,daily_production_target,customer_satisfaction_score,is_profitable,customer_id
+1,3717615,Regional Initiative,2024-03-27,repair_shop,8.95,16.20,true,1
+2,9bb5de9a-8fcc-11eb-924d-9cd76263cbd0,Seasonal Model D,2025-08-11,franchise,12.90,18.40,false,2
+3,3001009030060,Integrated Cluster,2022-01-22,quick_lube,16.85,20.60,true,3
+4,505989,Extended Review,2023-06-06,repair_shop,20.80,22.80,false,4

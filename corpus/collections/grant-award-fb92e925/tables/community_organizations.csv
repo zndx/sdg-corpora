@@ -1,0 +1,5 @@
+id,organization_name,organization_type,registration_number,founding_date,membership_count,organization_status,facility_id,grant_award_id,sustainability_project_id,created_at,updated_at
+1000,Staples Inc.,Gulf Oil,REG-2136,2023-06-24,242,active,1000,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,Oscar Health Inc.,FSG Social Impact Advisors,REG-2142,2024-11-08,77,dissolved,1001,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,Atlantic Richfield,McDonnell Douglas,REG-2148,2025-04-19,601,suspended,1002,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,Port Loko,Alliant Energy Corp,REG-2154,2022-09-03,300,active,1003,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+applicantId,passportNumber,socialSecurityNumber,dateOfBirth,placeOfBirth,nationality,currentResidence,residenceDuration,qualificationId,membershipNumber,personId
+1000,PAS-2378,SOC-2466,2025-04-02,integrated-place-64,composite-national-39,integrated-current-34,21.70,1,MEM-2104,1
+1001,PAS-2384,SOC-2467,2022-09-13,seasonal-place-65,primary-national-40,seasonal-current-35,24.40,2,MEM-2111,2
+1002,PAS-2390,SOC-2468,2023-02-24,regional-place-66,adaptive-national-41,regional-current-36,27.10,3,MEM-2118,3
+1003,PAS-2396,SOC-2469,2024-07-08,legacy-place-67,distributed-national-42,legacy-current-37,29.80,4,MEM-2125,4

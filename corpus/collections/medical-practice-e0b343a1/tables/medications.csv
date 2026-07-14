@@ -1,0 +1,5 @@
+medication_id,medication_name,dosage_form,prescription_status,transmission_date,healthcare_professional_id
+1,Pilot Programme,primary-dosage-40,pending,2023-06-14T05:27:00,1
+2,Baseline Standard,adaptive-dosage-41,transmitted,2024-11-25T12:44:00,2
+3,Distributed Framework A,distributed-dosage-42,collected,2025-04-09T19:01:00,3
+4,Adaptive Protocol,baseline-dosage-43,cancelled,2022-09-20T02:18:00,4

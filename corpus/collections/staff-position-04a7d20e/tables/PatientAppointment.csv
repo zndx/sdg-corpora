@@ -1,0 +1,5 @@
+id,appointmentId,scheduledDateTime,status,providerId,patientId,serviceType,reminderSent,memberId,recordId
+100,2087748,2023-10-18T21:03:00,scheduled,3717633,8387541,composite-service-81,true,1,100
+101,ChIJJ60m-q5t5kcRMZ9MdM8fVm4,2024-03-02T04:20:00,confirmed,ChIJYRd8uPtt5kcRunQjrWb4IKs,10207142,primary-service-82,false,2,101
+102,2087740,2025-08-13T11:37:00,completed,8928519,7119782,adaptive-service-83,true,3,102
+103,1250223,2022-01-24T18:54:00,cancelled,lu_tax_code_template_m13,gd_acc_160003,distributed-service-84,false,4,103

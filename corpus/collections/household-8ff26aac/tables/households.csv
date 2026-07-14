@@ -1,0 +1,5 @@
+id,household_id,address,occupancy_status,construction_year,floor_area,electricity_meter_id,program_id
+1000,726044,distributed-address-72,occupied,14,5.95,1,103176
+1001,16605652,baseline-address-73,vacant,21,9.90,2,2986219
+1002,8928495,pilot-address-74,occupied,28,13.85,3,1186079
+1003,5844284,extended-address-75,vacant,35,17.80,4,1562855

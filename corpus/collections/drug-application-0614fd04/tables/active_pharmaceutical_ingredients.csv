@@ -1,0 +1,5 @@
+api_id,api_name,chemical_class,therapeutic_class,molecular_weight,solubility,storage_condition,shelf_life_months,regulatory_status,first_line_therapy,drug_application_id,pharmaceutical_company_id,supplied_to_pharmaceutical_company_id,disease_id
+0579699c-8fc7-11eb-924d-9cd76263cbd0,Baseline Model D,compact-chemical-80,primary-therapeu-40,0.53,baseline-solubili-55,adaptive-storage-29,30,approved,false,1,1000,1000,884351
+476b5bc0-9bad-11eb-a8a2-19ed5c03f8d3,Distributed Cluster,composite-chemical-81,adaptive-therapeu-41,0.74,pilot-solubili-56,distributed-storage-30,35,investigational,true,2,1001,1001,790478
+4447008,Adaptive Review,primary-chemical-82,distributed-therapeu-42,0.74,extended-solubili-57,baseline-storage-31,40,withdrawn,false,3,1002,1002,d3c3d00e-8fb2-11eb-924d-9cd76263cbd0
+9246330,Primary Initiative A,adaptive-chemical-83,baseline-therapeu-43,0.6,integrated-solubili-58,pilot-storage-32,45,approved,true,4,1003,1003,state_et_7

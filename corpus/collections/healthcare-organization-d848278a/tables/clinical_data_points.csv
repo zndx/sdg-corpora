@@ -1,0 +1,5 @@
+data_point_id,metric_name,metric_value,measurement_unit,timestamp,data_quality,electronic_health_record_ehr_id,healthcare_analytics_solution_id
+726063,Primary Programme A,14.95,extended-measurem-87,2024-07-08T18:18:00,primary-data-82,195366,1
+id_24,Composite Standard,18.90,integrated-measurem-88,2025-12-19T01:35:00,adaptive-data-83,611509,2
+e878ea4c-8fd1-11eb-924d-9cd76263cbd0,Compact Framework,22.85,seasonal-measurem-89,2022-05-03T08:52:00,distributed-data-84,884338,3
+ar_001,Legacy Protocol D,26.80,regional-measurem-90,2023-10-14T15:09:00,baseline-data-85,gd_taxc_1123,4

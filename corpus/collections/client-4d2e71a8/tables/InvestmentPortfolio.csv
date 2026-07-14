@@ -1,0 +1,5 @@
+id,portfolioId,riskProfile,totalValue,currencyCode,lastRebalanceDate,portfolioStatus,clientId,assetId,plannerId
+1,coms1,conservative,9.45,gd_fp_eu_acc3,2025-12-23,active,1000,1,1
+2,89121,moderate,12.90,managing-resources,2022-05-07,on_hold,1001,2,2
+3,Salangin,aggressive,16.35,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,2023-10-18,liquidating,1002,3,3
+4,4463650,balanced,19.80,10445649,2024-03-02,active,1003,4,4

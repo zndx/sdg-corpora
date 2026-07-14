@@ -1,0 +1,5 @@
+id,measure_type,poverty_rate,year,state_code,household_income_percentile,economic_recession_id,household_id
+1,private_income,15.45,12,17788643,0.21,1000,1
+2,after_tax_and_transfer,18.90,21,8350031,13.13,1001,2
+3,private_income,22.35,30,790483,89.53,1002,3
+4,after_tax_and_transfer,25.80,39,8387549,9.91,1003,4

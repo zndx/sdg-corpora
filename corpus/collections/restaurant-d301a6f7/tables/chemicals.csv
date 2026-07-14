@@ -1,0 +1,5 @@
+id,chemical_id,name,location_in_wine,biological_effect,tested_on_organism,wine_id,person_id
+1,5917279,Extended Review,Skin,Life-extending,Yeast,100,1000
+2,3990180,Pilot Initiative A,Flesh,Caloric restriction mimic,Fruit Fly,101,1001
+3,8189495,Baseline Model,Stem,Life-extending,Mouse,102,1002
+4,43197165,Distributed Cluster,Skin,Caloric restriction mimic,Yeast,103,1003

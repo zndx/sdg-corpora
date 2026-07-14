@@ -1,0 +1,5 @@
+food_ingredient_id,ingredient_id,name,category,is_allergen
+1000,1450638,Extended Review,protein,false
+1001,5844284,Pilot Initiative A,vegetable,true
+1002,template_ivacode_pagata_20det40ind,Baseline Model,dairy,false
+1003,2087735,Distributed Cluster,sauce,true

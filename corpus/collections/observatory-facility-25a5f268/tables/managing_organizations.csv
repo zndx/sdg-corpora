@@ -1,0 +1,5 @@
+id,org_id,org_name,org_type,agreement_start_date,agreement_end_date,oversight_level,conflict_of_interest_disclosure,funding_agency_id,land_owner_id
+1,790471,Extended Review,academic,2025-04-16,2024-07-08,full,false,1,1
+2,1717,Pilot Initiative A,not_for_profit,2022-09-27,2025-12-19,partial,true,2,2
+3,69437,Baseline Model,industrial,2023-02-11,2022-05-03,none,false,3,3
+4,m16,Distributed Cluster,consortium,2024-07-22,2023-10-14,full,true,4,4

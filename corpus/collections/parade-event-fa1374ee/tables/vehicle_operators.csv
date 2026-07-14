@@ -1,0 +1,5 @@
+id,full_name,drivers_license_number,operator_signature,operator_status,parade_entry_id,participating_organization_id
+1000,Theodore Mcgrath,DRI-2255,legacy-operator-31,verified,1,1
+1001,Account Name,DRI-2256,compact-operator-32,pending verification,2,2
+1002,Saipan International Airport,DRI-2257,composite-operator-33,verified,3,3
+1003,Norma Fisher,DRI-2258,primary-operator-34,pending verification,4,4

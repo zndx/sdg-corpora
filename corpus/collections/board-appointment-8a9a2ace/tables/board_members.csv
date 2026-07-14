@@ -1,0 +1,5 @@
+board_member_id,member_id,first_name,last_name,current_role,is_reappointment,board_of_trustees_id,board_appointment_id,county_jurisdiction_id
+100,10207158,Stephanie Collins,Paul Allen,Trustee,false,1,1000,1000
+101,10207158,Janice Johnston,Heather Beasley,Supervisor,true,2,1001,1001
+102,25820616,Upal Saha,Audrey Taylor,Ex-Officio,false,3,1002,1002
+103,2002007020250,Katherine Snyder,Susan Wagner,Trustee,true,4,1003,1003

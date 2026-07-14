@@ -1,0 +1,5 @@
+id,order_identifier,issuance_date_time,issuing_authority,evacuation_zone,hazard_type,status,mandatory,hazard_event_id,geographic_zone_id,warning_method_id
+1,ORD-2692,2024-11-17T10:30:00,extended-issuing-33,regional-evacuati-72,baseline-hazard-19,pending,true,1,100,1
+2,ORD-2696,2025-04-01T17:47:00,integrated-issuing-34,legacy-evacuati-73,pilot-hazard-20,active,false,2,101,2
+3,ORD-2700,2022-09-12T00:04:00,seasonal-issuing-35,compact-evacuati-74,extended-hazard-21,lifted,true,3,102,3
+4,ORD-2704,2023-02-23T07:21:00,regional-issuing-36,composite-evacuati-75,integrated-hazard-22,cancelled,false,4,103,4

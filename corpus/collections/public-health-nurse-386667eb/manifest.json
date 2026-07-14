@@ -1,0 +1,141 @@
+{
+ "construct_id": "386667eba4ea9e82",
+ "slug": "public-health-nurse-386667eb",
+ "passage": "386667eba4ea9e82fc9ca2b7cb9d0355bbcace6cb8f5cab8182f93aac0f7fb5d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "PublicHealthNurse",
+  "School",
+  "SchoolBoard",
+  "Outbreak",
+  "IPACMeasure"
+ ],
+ "terms": [
+  {
+   "name": "PublicHealthNurse",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "School",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SchoolBoard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Outbreak",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "IPACMeasure",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "public_health_nurses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "nurse_id",
+    "full_name",
+    "license_number",
+    "contact_phone",
+    "email",
+    "status",
+    "school_id",
+    "board_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "schools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "school_id",
+    "school_name",
+    "address",
+    "board_id",
+    "risk_level",
+    "ipac_compliant",
+    "last_assessment_date",
+    "public_health_nurse_id",
+    "part_of_board_id",
+    "outbreak_id"
+   ]
+  },
+  {
+   "name": "school_boards",
+   "rows": 4,
+   "columns": [
+    "board_id",
+    "board_name",
+    "jurisdiction",
+    "contact_email",
+    "contact_phone",
+    "program_manager_name",
+    "program_manager_phone",
+    "public_health_nurse_id"
+   ]
+  },
+  {
+   "name": "outbreaks",
+   "rows": 4,
+   "columns": [
+    "outbreak_id",
+    "start_date",
+    "end_date",
+    "case_count",
+    "status",
+    "location",
+    "school_id",
+    "public_health_nurse_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "i_p_a_c_measures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measure_id",
+    "measure_name",
+    "description",
+    "implementation_date",
+    "compliance_status",
+    "last_reviewed_date",
+    "school_id",
+    "public_health_nurse_id"
+   ]
+  },
+  {
+   "name": "boards_schools",
+   "rows": 8,
+   "columns": [
+    "board_id",
+    "school_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_public_health_nurse_school",
+  "vw_public_health_nurse_school_board",
+  "vw_school_public_health_nurse",
+  "vw_school_school_board",
+  "vw_school_outbreak",
+  "vw_school_board_public_health_nurse",
+  "vw_school_board_school_detail",
+  "vw_outbreak_school",
+  "vw_outbreak_public_health_nurse",
+  "vw_i_p_a_c_measure_school",
+  "vw_i_p_a_c_measure_public_health_nurse"
+ ]
+}

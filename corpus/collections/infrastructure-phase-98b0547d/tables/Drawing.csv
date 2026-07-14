@@ -1,0 +1,5 @@
+id,drawingId,drawingType,submissionDate,format,status,fileSize,isElectronic,phaseId,regulationId,referencesPhaseId
+1000,2839514,stub_out,2025-04-24T03:57:00,electronic,draft,61.0,false,1,1,1
+1001,2618575,as_built,2022-09-08T10:14:00,paper,submitted,1.33,true,2,2,2
+1002,5f927026-8fcd-11eb-924d-9cd76263cbd0,infrastructure,2023-02-19T17:31:00,electronic,approved,11.0,false,3,3,3
+1003,26648045,stub_out,2024-07-03T00:48:00,paper,rejected,254.85016,true,4,4,4

@@ -1,0 +1,231 @@
+{
+ "construct_id": "80eb40e8c2830c9b",
+ "slug": "safeguarding-policy-80eb40e8",
+ "passage": "80eb40e8c2830c9be626d67379217302c990ab4deb5e2f1b3b4488684c362e8d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 17,
+ "n_views": 15,
+ "entities": [
+  "SafeguardingPolicy",
+  "SafeguardingProcedure",
+  "HarmType",
+  "IncidentReport",
+  "Student",
+  "StaffRole"
+ ],
+ "terms": [
+  {
+   "name": "SafeguardingPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SafeguardingProcedure",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HarmType",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "IncidentReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "StaffRole",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "safeguarding_policies",
+   "rows": 4,
+   "columns": [
+    "safeguarding_policy_id",
+    "policy_identifier",
+    "effective_date",
+    "issuing_authority",
+    "jurisdiction",
+    "compliance_status",
+    "last_review_date"
+   ]
+  },
+  {
+   "name": "safeguarding_procedures",
+   "rows": 4,
+   "columns": [
+    "safeguarding_procedure_id",
+    "procedure_code",
+    "procedure_name",
+    "trigger_condition",
+    "response_time_limit",
+    "status",
+    "assigned_role",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "harm_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "harm_code",
+    "harm_category",
+    "severity_level",
+    "description",
+    "requires_mandatory_reporting"
+   ]
+  },
+  {
+   "name": "incident_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "reported_date",
+    "report_status",
+    "risk_level",
+    "investigator_id",
+    "resolution_outcome",
+    "role_code"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "enrollment_status",
+    "date_of_birth",
+    "guardian_contact_id",
+    "counselor_id",
+    "harm_type_id",
+    "role_code"
+   ]
+  },
+  {
+   "name": "staff_roles",
+   "rows": 4,
+   "columns": [
+    "role_code",
+    "role_title",
+    "certification_level",
+    "training_completion_date",
+    "access_level",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "policies_procedures",
+   "rows": 8,
+   "columns": [
+    "safeguarding_policy_id",
+    "safeguarding_procedure_id"
+   ]
+  },
+  {
+   "name": "procedures_roles",
+   "rows": 8,
+   "columns": [
+    "safeguarding_procedure_id",
+    "role_code"
+   ]
+  },
+  {
+   "name": "procedures_types",
+   "rows": 8,
+   "columns": [
+    "safeguarding_procedure_id",
+    "harm_type_id"
+   ]
+  },
+  {
+   "name": "types_reports",
+   "rows": 8,
+   "columns": [
+    "harm_type_id",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "types_students",
+   "rows": 8,
+   "columns": [
+    "harm_type_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "reports_students",
+   "rows": 8,
+   "columns": [
+    "incident_report_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "reports_types",
+   "rows": 8,
+   "columns": [
+    "incident_report_id",
+    "harm_type_id"
+   ]
+  },
+  {
+   "name": "students_reports",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "roles_procedures",
+   "rows": 8,
+   "columns": [
+    "role_code",
+    "safeguarding_procedure_id"
+   ]
+  },
+  {
+   "name": "roles_reports",
+   "rows": 8,
+   "columns": [
+    "role_code",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "roles_students",
+   "rows": 8,
+   "columns": [
+    "role_code",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "safeguarding_policy_safeguarding_procedure_detail_view",
+  "safeguarding_procedure_staff_role_detail_view",
+  "safeguarding_procedure_harm_type_detail_view",
+  "safeguarding_procedure_incident_report_view",
+  "harm_type_incident_report_detail_view",
+  "harm_type_student_detail_view",
+  "incident_report_student_detail_view",
+  "incident_report_harm_type_detail_view",
+  "incident_report_staff_role_view",
+  "student_incident_report_detail_view",
+  "student_harm_type_view",
+  "student_staff_role_view",
+  "staff_role_safeguarding_procedure_detail_view",
+  "staff_role_incident_report_detail_view",
+  "staff_role_student_detail_view"
+ ]
+}

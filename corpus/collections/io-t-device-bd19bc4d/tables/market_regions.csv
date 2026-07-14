@@ -1,0 +1,5 @@
+id,region_id,region_name,household_count,housing_starts_rate,market_maturity,is_target_market,channel_id,io_t_device_id
+1,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,66,18.70,extended-market-57,false,1562831,1
+2,4180948,Adaptive Survey D,5,22.40,integrated-market-58,true,df2de334-8fcc-11eb-924d-9cd76263cbd0,2
+3,3012829,Primary Corridor,21,26.10,seasonal-market-59,false,ae409270-8fcd-11eb-924d-9cd76263cbd0,3
+4,778576,Composite Series,3,29.80,regional-market-60,true,4447006,4

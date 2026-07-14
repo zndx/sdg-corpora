@@ -1,0 +1,5 @@
+id,cancer_name,anatomical_region,is_primary,clinical_code,cancer_waiting_time_target_id
+1,Breast,pilot-anatomic-20,true,1290,1
+2,Colorectal,extended-anatomic-21,false,974944,2
+3,Head & Neck,integrated-anatomic-22,true,16121,3
+4,Lung,seasonal-anatomic-23,false,4793492,4

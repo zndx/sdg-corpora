@@ -1,0 +1,5 @@
+id,property_identifier,address,property_type,occupancy_status,has_vehicle_access,flooding_risk,evacuation_zone_id,household_id,evacuation_route_id
+1000,PRO-2098,distributed-address-72,residential,occupied,true,false,1,1000,1
+1001,PRO-2103,baseline-address-73,school,vacant,false,true,2,1001,2
+1002,PRO-2108,pilot-address-74,workplace,evacuated,true,false,3,1002,3
+1003,PRO-2113,extended-address-75,commercial,occupied,false,true,4,1003,4

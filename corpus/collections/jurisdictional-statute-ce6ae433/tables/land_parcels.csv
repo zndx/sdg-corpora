@@ -1,0 +1,5 @@
+land_parcel_id,parcel_identifier,county_name,state_name,total_area_acres,zoning_classification,surface_owner_name,jurisdictional_statute_id
+1000,PAR-2364,Extended Model,Composite Protocol,11.70,baseline-zoning-85,Sarah Villanueva,100
+1001,PAR-2368,Pilot Cluster A,Compact Programme A,16.40,pilot-zoning-86,Brian Hamilton,101
+1002,PAR-2372,Baseline Review,Legacy Standard,21.10,extended-zoning-87,Elizabeth Woods,102
+1003,PAR-2376,Distributed Initiative,Regional Framework,25.80,integrated-zoning-88,Jorge Sullivan,103

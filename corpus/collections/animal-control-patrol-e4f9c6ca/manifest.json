@@ -1,0 +1,182 @@
+{
+ "construct_id": "e4f9c6ca8f4d7009",
+ "slug": "animal-control-patrol-e4f9c6ca",
+ "passage": "e4f9c6ca8f4d7009b6f806f3299cd799919e14c90f7e195fd1137cea4f5b7d72.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "AnimalControlPatrol",
+  "AnimalServicesOfficer",
+  "Animal",
+  "IncidentReport",
+  "Citation",
+  "AdoptionAssessment",
+  "AdoptionRecord"
+ ],
+ "terms": [
+  {
+   "name": "AnimalControlPatrol",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnimalServicesOfficer",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Animal",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "IncidentReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Citation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdoptionAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AdoptionRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "animal_control_patrols",
+   "rows": 4,
+   "columns": [
+    "animal_control_patrol_id",
+    "patrol_id",
+    "assigned_area",
+    "start_time",
+    "end_time",
+    "patrol_type",
+    "weather_conditions",
+    "officer_badge_number",
+    "officer_id",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "animal_services_officers",
+   "rows": 4,
+   "columns": [
+    "officer_id",
+    "full_name",
+    "badge_number",
+    "certification_status",
+    "driver_license_status",
+    "drug_test_status",
+    "criminal_history_status",
+    "citation_id",
+    "animal_id"
+   ]
+  },
+  {
+   "name": "animals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "animal_id",
+    "species",
+    "breed",
+    "age",
+    "weight",
+    "health_status",
+    "temperament",
+    "impound_status",
+    "incident_report_id",
+    "adoption_assessment_id"
+   ]
+  },
+  {
+   "name": "incident_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "incident_type",
+    "reported_date",
+    "location",
+    "severity",
+    "resolution_status",
+    "citizen_complaint_id",
+    "officer_id",
+    "animal_id",
+    "citation_id"
+   ]
+  },
+  {
+   "name": "citations",
+   "rows": 4,
+   "columns": [
+    "citation_id",
+    "issue_date",
+    "violation_code",
+    "fine_amount",
+    "court_date",
+    "payment_status",
+    "officer_notes",
+    "officer_id",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "adoption_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "temperament_score",
+    "health_score",
+    "adoptability_rating",
+    "special_needs",
+    "assessor_id",
+    "animal_id",
+    "officer_id",
+    "adoption_record_adoption_id"
+   ]
+  },
+  {
+   "name": "adoption_records",
+   "rows": 4,
+   "columns": [
+    "adoption_id",
+    "adoption_date",
+    "adopter_name",
+    "adopter_contact",
+    "adoption_fee",
+    "follow_up_required",
+    "follow_up_status",
+    "animal_id",
+    "adoption_assessment_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_animal_control_patrol_animal_services_officer",
+  "vw_animal_control_patrol_incident_report",
+  "vw_animal_services_officer_citation",
+  "vw_animal_services_officer_animal",
+  "vw_animal_incident_report",
+  "vw_animal_adoption_assessment",
+  "vw_incident_report_animal_services_officer",
+  "vw_incident_report_animal",
+  "vw_incident_report_citation",
+  "vw_citation_animal_services_officer",
+  "vw_citation_incident_report",
+  "vw_adoption_assessment_animal",
+  "vw_adoption_assessment_animal_services_officer",
+  "vw_adoption_assessment_adoption_record",
+  "vw_adoption_record_animal",
+  "vw_adoption_record_adoption_assessment"
+ ]
+}

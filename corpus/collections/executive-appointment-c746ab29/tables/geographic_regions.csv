@@ -1,0 +1,5 @@
+geographic_region_id,region_code,region_name,region_type,region_status,corporate_entity_id
+1,1562837,Distributed Assessment,country,active,1
+2,6564391,Adaptive Survey D,market,inactive,2
+3,778560,Primary Corridor,zone,emerging,3
+4,8667ec1da10c4a0293d91388b49bc77c,Composite Series,country,active,4

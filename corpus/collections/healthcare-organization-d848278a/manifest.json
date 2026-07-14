@@ -1,0 +1,143 @@
+{
+ "construct_id": "d848278aa9c9c4da",
+ "slug": "healthcare-organization-d848278a",
+ "passage": "d848278aa9c9c4da9f55b8857343994278cad407f47c8e7653a3fdfa70dec836.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "HealthcareOrganization",
+  "ElectronicHealthRecord",
+  "ClinicalDataPoint",
+  "HealthcareAnalyticsSolution",
+  "ClinicalDecisionSupport"
+ ],
+ "terms": [
+  {
+   "name": "HealthcareOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ElectronicHealthRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClinicalDataPoint",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareAnalyticsSolution",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ClinicalDecisionSupport",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "healthcare_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_id",
+    "name",
+    "location_city",
+    "location_state",
+    "location_country",
+    "operating_margin",
+    "is_sustainable",
+    "electronic_health_record_ehr_id",
+    "healthcare_analytics_solution_id",
+    "clinical_decision_support_id"
+   ]
+  },
+  {
+   "name": "electronic_health_records",
+   "rows": 4,
+   "columns": [
+    "ehr_id",
+    "patient_id",
+    "collection_date",
+    "data_volume",
+    "data_format",
+    "is_complete",
+    "storage_location",
+    "healthcare_organization_id"
+   ]
+  },
+  {
+   "name": "clinical_data_points",
+   "rows": 4,
+   "columns": [
+    "data_point_id",
+    "metric_name",
+    "metric_value",
+    "measurement_unit",
+    "timestamp",
+    "data_quality",
+    "electronic_health_record_ehr_id",
+    "healthcare_analytics_solution_id"
+   ]
+  },
+  {
+   "name": "healthcare_analytics_solutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "solution_id",
+    "solution_name",
+    "solution_type",
+    "vendor",
+    "is_web_based",
+    "supports_big_data",
+    "deployment_date",
+    "healthcare_organization_id",
+    "electronic_health_record_ehr_id",
+    "clinical_decision_support_id"
+   ]
+  },
+  {
+   "name": "clinical_decision_supports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cds_id",
+    "cds_name",
+    "cds_type",
+    "effectiveness",
+    "is_proactive",
+    "is_predictive",
+    "healthcare_analytics_solution_id",
+    "electronic_health_record_ehr_id",
+    "healthcare_organization_id"
+   ]
+  },
+  {
+   "name": "records_points",
+   "rows": 8,
+   "columns": [
+    "electronic_health_record_ehr_id",
+    "data_point_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_healthcare_organization_electronic_health_record",
+  "vw_healthcare_organization_healthcare_analytics_solution",
+  "vw_healthcare_organization_clinical_decision_support",
+  "vw_electronic_health_record_healthcare_organization",
+  "vw_electronic_health_record_clinical_data_point_detail",
+  "vw_clinical_data_point_electronic_health_record",
+  "vw_clinical_data_point_healthcare_analytics_solution",
+  "vw_healthcare_analytics_solution_healthcare_organization",
+  "vw_healthcare_analytics_solution_electronic_health_record",
+  "vw_healthcare_analytics_solution_clinical_decision_support",
+  "vw_clinical_decision_support_healthcare_analytics_solution",
+  "vw_clinical_decision_support_electronic_health_record",
+  "vw_clinical_decision_support_healthcare_organization"
+ ]
+}

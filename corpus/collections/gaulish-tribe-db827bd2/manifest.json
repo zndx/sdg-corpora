@@ -1,0 +1,179 @@
+{
+ "construct_id": "db827bd2658ac5be",
+ "slug": "gaulish-tribe-db827bd2",
+ "passage": "db827bd2658ac5be82f42bac6a60a1f7c714b3275fd2d3b2242b9729da498aa9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 18,
+ "entities": [
+  "GaulishTribe",
+  "Toponym",
+  "EpigraphicInscription",
+  "LinguisticAnalysis",
+  "HistoricalRegion",
+  "HistoricalDocument"
+ ],
+ "terms": [
+  {
+   "name": "GaulishTribe",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Toponym",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EpigraphicInscription",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "LinguisticAnalysis",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HistoricalRegion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HistoricalDocument",
+   "genus": "bfo:00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "gaulish_tribes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ethnonym",
+    "primary_occupation",
+    "settlement_area",
+    "is_celtic_origin",
+    "slavic_etymology",
+    "epigraphic_inscription_id",
+    "historical_region_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "toponyms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "region",
+    "slavic_root",
+    "source_map",
+    "confidence_level",
+    "historical_region_id",
+    "gaulish_tribe_id",
+    "historical_document_id"
+   ]
+  },
+  {
+   "name": "epigraphic_inscriptions",
+   "rows": 4,
+   "columns": [
+    "epigraphic_inscription_id",
+    "inscription_text",
+    "script_type",
+    "discovery_location",
+    "deciphered_meaning",
+    "source_reference",
+    "historical_region_id",
+    "linguistic_analysis_id",
+    "gaulish_tribe_id"
+   ]
+  },
+  {
+   "name": "linguistic_analysises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "methodology",
+    "slavic_language_basis",
+    "interpretation_result",
+    "author",
+    "publication_year",
+    "epigraphic_inscription_id",
+    "toponym_id",
+    "historical_document_id"
+   ]
+  },
+  {
+   "name": "historical_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_name",
+    "geographical_bounds",
+    "dominant_culture",
+    "slavic_influence_level",
+    "historical_period",
+    "epigraphic_inscription_id"
+   ]
+  },
+  {
+   "name": "historical_documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_title",
+    "author",
+    "publication_year",
+    "document_type",
+    "content_summary",
+    "linguistic_analysis_id",
+    "toponym_id",
+    "epigraphic_inscription_id"
+   ]
+  },
+  {
+   "name": "tribes_toponyms",
+   "rows": 8,
+   "columns": [
+    "gaulish_tribe_id",
+    "toponym_id"
+   ]
+  },
+  {
+   "name": "regions_toponyms",
+   "rows": 8,
+   "columns": [
+    "historical_region_id",
+    "toponym_id"
+   ]
+  },
+  {
+   "name": "regions_tribes",
+   "rows": 8,
+   "columns": [
+    "historical_region_id",
+    "gaulish_tribe_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_gaulish_tribe_toponym_detail",
+  "v_gaulish_tribe_epigraphic_inscription",
+  "v_gaulish_tribe_historical_region",
+  "v_toponym_historical_region",
+  "v_toponym_gaulish_tribe",
+  "v_toponym_historical_document",
+  "v_epigraphic_inscription_historical_region",
+  "v_epigraphic_inscription_linguistic_analysis",
+  "v_epigraphic_inscription_gaulish_tribe",
+  "v_linguistic_analysis_epigraphic_inscription",
+  "v_linguistic_analysis_toponym",
+  "v_linguistic_analysis_historical_document",
+  "v_historical_region_toponym_detail",
+  "v_historical_region_gaulish_tribe_detail",
+  "v_historical_region_epigraphic_inscription",
+  "v_historical_document_linguistic_analysis",
+  "v_historical_document_toponym",
+  "v_historical_document_epigraphic_inscription"
+ ]
+}

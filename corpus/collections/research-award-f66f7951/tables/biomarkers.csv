@@ -1,0 +1,5 @@
+biomarker_id,biomarker_identifier,biomarker_name,biomarker_type,measurement_unit,normal_range,research_project_id,health_condition_id,created_at
+1,BIO-2639,Integrated Protocol A,integrated-biomarke-88,extended-measurem-87,primary-normal-40,1,1,2025-01-01 00:14:00
+2,BIO-2642,Extended Programme,seasonal-biomarke-89,integrated-measurem-88,adaptive-normal-41,2,2,2025-02-06 03:14:00
+3,BIO-2645,Pilot Standard,regional-biomarke-90,seasonal-measurem-89,distributed-normal-42,3,3,2025-03-11 06:14:00
+4,BIO-2648,Baseline Framework D,legacy-biomarke-91,regional-measurem-90,baseline-normal-43,4,4,2025-04-16 09:14:00

@@ -1,0 +1,248 @@
+{
+ "construct_id": "c878a0d584bcd441",
+ "slug": "workshop-session-c878a0d5",
+ "passage": "c878a0d584bcd4412fcf3812632994509f0d9f7f7d1d9929692cbab7cc51042b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 19,
+ "n_views": 16,
+ "entities": [
+  "WorkshopSession",
+  "LearningEnvironment",
+  "Participant",
+  "LearningModule",
+  "PracticeActivity",
+  "ParticipantPriorKnowledge"
+ ],
+ "terms": [
+  {
+   "name": "WorkshopSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LearningEnvironment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Participant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LearningModule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PracticeActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ParticipantPriorKnowledge",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "workshop_sessions",
+   "rows": 4,
+   "columns": [
+    "workshop_session_id",
+    "session_identifier",
+    "start_date",
+    "end_date",
+    "location",
+    "max_capacity",
+    "current_attendance",
+    "status",
+    "environment_id"
+   ]
+  },
+  {
+   "name": "learning_environments",
+   "rows": 4,
+   "columns": [
+    "environment_id",
+    "physical_safety_level",
+    "emotional_safety_level",
+    "has_group_agreement",
+    "stress_reduction_measures",
+    "accessibility_compliance",
+    "workshop_session_id"
+   ]
+  },
+  {
+   "name": "participants",
+   "rows": 4,
+   "columns": [
+    "participant_id",
+    "full_name",
+    "email",
+    "registration_date",
+    "attendance_status",
+    "prior_knowledge_level"
+   ]
+  },
+  {
+   "name": "learning_modules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "module_id",
+    "title",
+    "duration_minutes",
+    "delivery_method",
+    "difficulty_level",
+    "learning_objective"
+   ]
+  },
+  {
+   "name": "practice_activities",
+   "rows": 4,
+   "columns": [
+    "practice_activity_id",
+    "activity_id",
+    "activity_type",
+    "duration_minutes",
+    "required_materials",
+    "success_criteria",
+    "is_completed"
+   ]
+  },
+  {
+   "name": "participant_prior_knowledges",
+   "rows": 4,
+   "columns": [
+    "participant_prior_knowledge_id",
+    "knowledge_id",
+    "topic_area",
+    "proficiency_level",
+    "source_experience",
+    "last_updated",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "sessions_participants",
+   "rows": 8,
+   "columns": [
+    "workshop_session_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "sessions_modules",
+   "rows": 8,
+   "columns": [
+    "workshop_session_id",
+    "learning_module_id"
+   ]
+  },
+  {
+   "name": "environments_participants",
+   "rows": 8,
+   "columns": [
+    "environment_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "participants_sessions",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "workshop_session_id"
+   ]
+  },
+  {
+   "name": "participants_environments",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "environment_id"
+   ]
+  },
+  {
+   "name": "participants_activities",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "practice_activity_id"
+   ]
+  },
+  {
+   "name": "modules_sessions",
+   "rows": 8,
+   "columns": [
+    "learning_module_id",
+    "workshop_session_id"
+   ]
+  },
+  {
+   "name": "modules_knowledges",
+   "rows": 8,
+   "columns": [
+    "learning_module_id",
+    "participant_prior_knowledge_id"
+   ]
+  },
+  {
+   "name": "modules_activities",
+   "rows": 8,
+   "columns": [
+    "learning_module_id",
+    "practice_activity_id"
+   ]
+  },
+  {
+   "name": "activities_sessions",
+   "rows": 8,
+   "columns": [
+    "practice_activity_id",
+    "workshop_session_id"
+   ]
+  },
+  {
+   "name": "activities_participants",
+   "rows": 8,
+   "columns": [
+    "practice_activity_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "activities_modules",
+   "rows": 8,
+   "columns": [
+    "practice_activity_id",
+    "learning_module_id"
+   ]
+  },
+  {
+   "name": "knowledges_modules",
+   "rows": 8,
+   "columns": [
+    "participant_prior_knowledge_id",
+    "learning_module_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_workshop_session_learning_environment",
+  "vw_workshop_session_participant_detail",
+  "vw_workshop_session_learning_module_detail",
+  "vw_learning_environment_workshop_session",
+  "vw_learning_environment_participant_detail",
+  "vw_participant_workshop_session_detail",
+  "vw_participant_learning_environment_detail",
+  "vw_participant_practice_activity_detail",
+  "vw_learning_module_workshop_session_detail",
+  "vw_learning_module_participant_prior_knowledge_detail",
+  "vw_learning_module_practice_activity_detail",
+  "vw_practice_activity_workshop_session_detail",
+  "vw_practice_activity_participant_detail",
+  "vw_practice_activity_learning_module_detail",
+  "vw_participant_prior_knowledge_participant",
+  "vw_participant_prior_knowledge_learning_module_detail"
+ ]
+}

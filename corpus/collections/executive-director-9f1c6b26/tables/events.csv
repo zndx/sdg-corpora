@@ -1,0 +1,5 @@
+event_id,event_name,event_date,event_type,is_rental_show,attendee_count,revenue_generated,facility_id,organization_id,staff_member_staff_id,program_id
+2002007020060,Seasonal Standard,2025-04-15T15:21:00,distributed-event-24,false,6,13.49,1000,1,937735,1000
+168535,Integrated Framework,2022-09-26T22:38:00,baseline-event-25,true,23,19.97,1001,2,3158139,1001
+ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,Extended Protocol D,2023-02-10T05:55:00,pilot-event-26,false,0,13.49,1002,3,8189502,1002
+1186089,Pilot Programme,2024-07-21T12:12:00,extended-event-27,true,32,21.11,1003,4,69438,1003

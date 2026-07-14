@@ -1,209 +1,457 @@
 # sdg-corpora — collections
 
-121 populated collections (1977 chapters · 4116 table DDLs) · 79 gap topics (no chapters yet). Each collection bundles a FinePDFs topic, its chapters (prose + embedded views), the underlying semantic-column tables, and the grounding ontology terms.
+453 collections (one per derived construct) · 906 chapters · 4108 tables. Each collection bundles a construct's natural + semantic chapters (prose with embedded real-value tables and join views), the underlying relational tables (DDL + real-value rows), and the ontology terms grounding them. Values are real GitTables particulars with retained lineage.
 
-## Collections
-
-- [topic 0](topic-000-foundation/README.md) — 01_foundation · 37 ch · 74 terms · 74 tables
-- [topic 1](topic-001-long-tail/README.md) — 07_long_tail · 52 ch · 100 terms · 100 tables
-- [topic 2](topic-002-directive-governance/README.md) — 03_directive_governance · 37 ch · 76 terms · 76 tables
-- [topic 3](topic-003-long-tail/README.md) — 07_long_tail · 9 ch · 19 terms · 19 tables
-- [topic 4](topic-004-long-tail/README.md) — 07_long_tail · 54 ch · 125 terms · 125 tables
-- [topic 5](topic-005-directive-governance/README.md) — 03_directive_governance · 20 ch · 43 terms · 43 tables
-- [topic 6](topic-006-directive-governance/README.md) — 03_directive_governance · 17 ch · 33 terms · 33 tables
-- [topic 7](topic-007-foundation/README.md) — 01_foundation · 41 ch · 81 terms · 81 tables
-- [topic 8](topic-008-long-tail/README.md) — 07_long_tail · 8 ch · 17 terms · 17 tables
-- [topic 10](topic-010-foundation/README.md) — 01_foundation · 41 ch · 81 terms · 81 tables
-- [topic 11](topic-011-directive-governance/README.md) — 03_directive_governance · 26 ch · 52 terms · 52 tables
-- [topic 12](topic-012-long-tail/README.md) — 07_long_tail · 30 ch · 63 terms · 63 tables
-- [topic 14](topic-014-directive-governance/README.md) — 03_directive_governance · 11 ch · 24 terms · 24 tables
-- [topic 16](topic-016-directive-governance/README.md) — 03_directive_governance · 8 ch · 18 terms · 18 tables
-- [topic 17](topic-017-long-tail/README.md) — 07_long_tail · 2 ch · 5 terms · 5 tables
-- [topic 19](topic-019-foundation/README.md) — 01_foundation · 19 ch · 40 terms · 40 tables
-- [topic 20](topic-020-observation-measurement/README.md) — 02_observation_measurement · 23 ch · 49 terms · 49 tables
-- [topic 21](topic-021-long-tail/README.md) — 07_long_tail · 8 ch · 17 terms · 17 tables
-- [topic 23](topic-023-ebpf-kernel/README.md) — 04_ebpf_kernel · 50 ch · 95 terms · 95 tables
-- [topic 24](topic-024-provo-lineage/README.md) — 05_provo_lineage · 32 ch · 64 terms · 64 tables
-- [topic 25](topic-025-long-tail/README.md) — 07_long_tail · 11 ch · 23 terms · 23 tables
-- [topic 26](topic-026-directive-governance/README.md) — 03_directive_governance · 125 ch · 229 terms · 229 tables
-- [topic 27](topic-027-foundation/README.md) — 01_foundation · 9 ch · 19 terms · 19 tables
-- [topic 30](topic-030-long-tail/README.md) — 07_long_tail · 10 ch · 20 terms · 20 tables
-- [topic 31](topic-031-directive-governance/README.md) — 03_directive_governance · 3 ch · 9 terms · 9 tables
-- [topic 33](topic-033-directive-governance/README.md) — 03_directive_governance · 8 ch · 19 terms · 19 tables
-- [topic 34](topic-034-ebpf-kernel/README.md) — 04_ebpf_kernel · 28 ch · 62 terms · 62 tables
-- [topic 35](topic-035-provo-lineage/README.md) — 05_provo_lineage · 24 ch · 48 terms · 48 tables
-- [topic 36](topic-036-foundation/README.md) — 01_foundation · 13 ch · 29 terms · 29 tables
-- [topic 38](topic-038-long-tail/README.md) — 07_long_tail · 10 ch · 21 terms · 21 tables
-- [topic 39](topic-039-observation-measurement/README.md) — 02_observation_measurement · 4 ch · 10 terms · 10 tables
-- [topic 40](topic-040-belief-structure/README.md) — 06_belief_structure · 26 ch · 52 terms · 52 tables
-- [topic 41](topic-041-long-tail/README.md) — 07_long_tail · 15 ch · 30 terms · 30 tables
-- [topic 42](topic-042-provo-lineage/README.md) — 05_provo_lineage · 34 ch · 65 terms · 65 tables
-- [topic 44](topic-044-ebpf-kernel/README.md) — 04_ebpf_kernel · 28 ch · 53 terms · 53 tables
-- [topic 45](topic-045-ebpf-kernel/README.md) — 04_ebpf_kernel · 23 ch · 49 terms · 49 tables
-- [topic 46](topic-046-directive-governance/README.md) — 03_directive_governance · 38 ch · 91 terms · 91 tables
-- [topic 47](topic-047-foundation/README.md) — 01_foundation · 33 ch · 67 terms · 67 tables
-- [topic 49](topic-049-ebpf-kernel/README.md) — 04_ebpf_kernel · 6 ch · 13 terms · 13 tables
-- [topic 50](topic-050-long-tail/README.md) — 07_long_tail · 1 ch · 3 terms · 3 tables
-- [topic 51](topic-051-directive-governance/README.md) — 03_directive_governance · 6 ch · 14 terms · 14 tables
-- [topic 54](topic-054-provo-lineage/README.md) — 05_provo_lineage · 10 ch · 23 terms · 23 tables
-- [topic 56](topic-056-long-tail/README.md) — 07_long_tail · 12 ch · 25 terms · 25 tables
-- [topic 58](topic-058-directive-governance/README.md) — 03_directive_governance · 3 ch · 9 terms · 9 tables
-- [topic 60](topic-060-provo-lineage/README.md) — 05_provo_lineage · 23 ch · 48 terms · 48 tables
-- [topic 61](topic-061-ebpf-kernel/README.md) — 04_ebpf_kernel · 23 ch · 44 terms · 44 tables
-- [topic 62](topic-062-provo-lineage/README.md) — 05_provo_lineage · 10 ch · 22 terms · 22 tables
-- [topic 65](topic-065-ebpf-kernel/README.md) — 04_ebpf_kernel · 26 ch · 56 terms · 56 tables
-- [topic 66](topic-066-provo-lineage/README.md) — 05_provo_lineage · 9 ch · 19 terms · 19 tables
-- [topic 67](topic-067-observation-measurement/README.md) — 02_observation_measurement · 27 ch · 53 terms · 53 tables
-- [topic 68](topic-068-long-tail/README.md) — 07_long_tail · 1 ch · 3 terms · 3 tables
-- [topic 69](topic-069-directive-governance/README.md) — 03_directive_governance · 10 ch · 22 terms · 22 tables
-- [topic 71](topic-071-provo-lineage/README.md) — 05_provo_lineage · 1 ch · 3 terms · 3 tables
-- [topic 72](topic-072-long-tail/README.md) — 07_long_tail · 6 ch · 13 terms · 13 tables
-- [topic 73](topic-073-directive-governance/README.md) — 03_directive_governance · 1 ch · 3 terms · 3 tables
-- [topic 74](topic-074-directive-governance/README.md) — 03_directive_governance · 2 ch · 5 terms · 5 tables
-- [topic 75](topic-075-directive-governance/README.md) — 03_directive_governance · 2 ch · 5 terms · 5 tables
-- [topic 78](topic-078-ebpf-kernel/README.md) — 04_ebpf_kernel · 6 ch · 13 terms · 13 tables
-- [topic 79](topic-079-long-tail/README.md) — 07_long_tail · 17 ch · 37 terms · 37 tables
-- [topic 80](topic-080-long-tail/README.md) — 07_long_tail · 16 ch · 33 terms · 33 tables
-- [topic 81](topic-081-long-tail/README.md) — 07_long_tail · 9 ch · 25 terms · 25 tables
-- [topic 83](topic-083-directive-governance/README.md) — 03_directive_governance · 12 ch · 26 terms · 26 tables
-- [topic 86](topic-086-long-tail/README.md) — 07_long_tail · 13 ch · 29 terms · 29 tables
-- [topic 89](topic-089-directive-governance/README.md) — 03_directive_governance · 1 ch · 3 terms · 3 tables
-- [topic 90](topic-090-directive-governance/README.md) — 03_directive_governance · 4 ch · 9 terms · 9 tables
-- [topic 91](topic-091-directive-governance/README.md) — 03_directive_governance · 11 ch · 24 terms · 24 tables
-- [topic 92](topic-092-observation-measurement/README.md) — 02_observation_measurement · 17 ch · 37 terms · 37 tables
-- [topic 94](topic-094-observation-measurement/README.md) — 02_observation_measurement · 20 ch · 42 terms · 42 tables
-- [topic 95](topic-095-foundation/README.md) — 01_foundation · 1 ch · 3 terms · 3 tables
-- [topic 97](topic-097-long-tail/README.md) — 07_long_tail · 18 ch · 39 terms · 39 tables
-- [topic 100](topic-100-long-tail/README.md) — 07_long_tail · 19 ch · 41 terms · 41 tables
-- [topic 101](topic-101-long-tail/README.md) — 07_long_tail · 6 ch · 13 terms · 13 tables
-- [topic 102](topic-102-long-tail/README.md) — 07_long_tail · 9 ch · 19 terms · 19 tables
-- [topic 104](topic-104-long-tail/README.md) — 07_long_tail · 7 ch · 15 terms · 15 tables
-- [topic 105](topic-105-observation-measurement/README.md) — 02_observation_measurement · 14 ch · 31 terms · 31 tables
-- [topic 106](topic-106-ebpf-kernel/README.md) — 04_ebpf_kernel · 15 ch · 32 terms · 32 tables
-- [topic 107](topic-107-provo-lineage/README.md) — 05_provo_lineage · 7 ch · 16 terms · 16 tables
-- [topic 109](topic-109-long-tail/README.md) — 07_long_tail · 20 ch · 39 terms · 39 tables
-- [topic 111](topic-111-ebpf-kernel/README.md) — 04_ebpf_kernel · 4 ch · 10 terms · 10 tables
-- [topic 117](topic-117-long-tail/README.md) — 07_long_tail · 2 ch · 6 terms · 6 tables
-- [topic 119](topic-119-long-tail/README.md) — 07_long_tail · 8 ch · 17 terms · 17 tables
-- [topic 120](topic-120-long-tail/README.md) — 07_long_tail · 9 ch · 20 terms · 20 tables
-- [topic 122](topic-122-directive-governance/README.md) — 03_directive_governance · 2 ch · 6 terms · 6 tables
-- [topic 123](topic-123-long-tail/README.md) — 07_long_tail · 9 ch · 19 terms · 19 tables
-- [topic 124](topic-124-provo-lineage/README.md) — 05_provo_lineage · 1 ch · 3 terms · 3 tables
-- [topic 125](topic-125-ebpf-kernel/README.md) — 04_ebpf_kernel · 18 ch · 39 terms · 39 tables
-- [topic 126](topic-126-provo-lineage/README.md) — 05_provo_lineage · 1 ch · 3 terms · 3 tables
-- [topic 128](topic-128-directive-governance/README.md) — 03_directive_governance · 10 ch · 21 terms · 21 tables
-- [topic 129](topic-129-directive-governance/README.md) — 03_directive_governance · 10 ch · 22 terms · 22 tables
-- [topic 135](topic-135-long-tail/README.md) — 07_long_tail · 15 ch · 34 terms · 34 tables
-- [topic 136](topic-136-directive-governance/README.md) — 03_directive_governance · 6 ch · 14 terms · 14 tables
-- [topic 138](topic-138-ebpf-kernel/README.md) — 04_ebpf_kernel · 9 ch · 21 terms · 21 tables
-- [topic 139](topic-139-long-tail/README.md) — 07_long_tail · 4 ch · 11 terms · 11 tables
-- [topic 140](topic-140-long-tail/README.md) — 07_long_tail · 12 ch · 27 terms · 27 tables
-- [topic 142](topic-142-long-tail/README.md) — 07_long_tail · 3 ch · 8 terms · 8 tables
-- [topic 143](topic-143-long-tail/README.md) — 07_long_tail · 7 ch · 16 terms · 16 tables
-- [topic 146](topic-146-foundation/README.md) — 01_foundation · 6 ch · 13 terms · 13 tables
-- [topic 147](topic-147-foundation/README.md) — 01_foundation · 3 ch · 7 terms · 7 tables
-- [topic 149](topic-149-long-tail/README.md) — 07_long_tail · 3 ch · 9 terms · 9 tables
-- [topic 150](topic-150-directive-governance/README.md) — 03_directive_governance · 3 ch · 8 terms · 8 tables
-- [topic 154](topic-154-long-tail/README.md) — 07_long_tail · 1 ch · 3 terms · 3 tables
-- [topic 155](topic-155-foundation/README.md) — 01_foundation · 15 ch · 30 terms · 30 tables
-- [topic 158](topic-158-ebpf-kernel/README.md) — 04_ebpf_kernel · 6 ch · 12 terms · 12 tables
-- [topic 159](topic-159-long-tail/README.md) — 07_long_tail · 15 ch · 44 terms · 44 tables
-- [topic 161](topic-161-observation-measurement/README.md) — 02_observation_measurement · 13 ch · 29 terms · 29 tables
-- [topic 163](topic-163-long-tail/README.md) — 07_long_tail · 6 ch · 13 terms · 13 tables
-- [topic 165](topic-165-observation-measurement/README.md) — 02_observation_measurement · 11 ch · 23 terms · 23 tables
-- [topic 166](topic-166-long-tail/README.md) — 07_long_tail · 4 ch · 9 terms · 9 tables
-- [topic 168](topic-168-long-tail/README.md) — 07_long_tail · 18 ch · 42 terms · 42 tables
-- [topic 172](topic-172-long-tail/README.md) — 07_long_tail · 5 ch · 14 terms · 14 tables
-- [topic 180](topic-180-foundation/README.md) — 01_foundation · 9 ch · 20 terms · 20 tables
-- [topic 181](topic-181-long-tail/README.md) — 07_long_tail · 25 ch · 60 terms · 60 tables
-- [topic 183](topic-183-ebpf-kernel/README.md) — 04_ebpf_kernel · 74 ch · 172 terms · 172 tables
-- [topic 184](topic-184-long-tail/README.md) — 07_long_tail · 9 ch · 20 terms · 20 tables
-- [topic 185](topic-185-foundation/README.md) — 01_foundation · 12 ch · 27 terms · 27 tables
-- [topic 186](topic-186-directive-governance/README.md) — 03_directive_governance · 179 ch · 290 terms · 290 tables
-- [topic 187](topic-187-long-tail/README.md) — 07_long_tail · 11 ch · 23 terms · 23 tables
-- [topic 188](topic-188-ebpf-kernel/README.md) — 04_ebpf_kernel · 12 ch · 27 terms · 27 tables
-- [topic 190](topic-190-directive-governance/README.md) — 03_directive_governance · 3 ch · 7 terms · 7 tables
-- [topic 191](topic-191-long-tail/README.md) — 07_long_tail · 10 ch · 22 terms · 22 tables
-- [topic 195](topic-195-observation-measurement/README.md) — 02_observation_measurement · 6 ch · 14 terms · 14 tables
-
-## Gap topics (coverage holes — curation candidates, no chapters yet)
-
-- topic 9 — 07_long_tail · _borderline_
-- topic 13 — 01_foundation · _gap_
-- topic 15 — 03_directive_governance · _gap_
-- topic 18 — 07_long_tail · _gap_
-- topic 22 — 07_long_tail · _gap_
-- topic 28 — 07_long_tail · _gap_
-- topic 29 — 07_long_tail · _borderline_
-- topic 32 — 03_directive_governance · _borderline_
-- topic 37 — 07_long_tail · _gap_
-- topic 43 — 07_long_tail · _borderline_
-- topic 48 — 07_long_tail · _gap_
-- topic 52 — 07_long_tail · _gap_
-- topic 53 — 07_long_tail · _gap_
-- topic 55 — 07_long_tail · _gap_
-- topic 57 — 03_directive_governance · _gap_
-- topic 59 — 03_directive_governance · _gap_
-- topic 63 — 03_directive_governance · _gap_
-- topic 64 — 07_long_tail · _gap_
-- topic 70 — 04_ebpf_kernel · _gap_
-- topic 76 — 07_long_tail · _gap_
-- topic 77 — 01_foundation · _gap_
-- topic 82 — 05_provo_lineage · _gap_
-- topic 84 — 03_directive_governance · _gap_
-- topic 85 — 03_directive_governance · _gap_
-- topic 87 — 03_directive_governance · _borderline_
-- topic 88 — 07_long_tail · _gap_
-- topic 93 — 07_long_tail · _gap_
-- topic 96 — 07_long_tail · _gap_
-- topic 98 — 07_long_tail · _gap_
-- topic 99 — 04_ebpf_kernel · _gap_
-- topic 103 — 07_long_tail · _borderline_
-- topic 108 — 07_long_tail · _borderline_
-- topic 110 — 07_long_tail · _gap_
-- topic 112 — 05_provo_lineage · _gap_
-- topic 113 — 03_directive_governance · _borderline_
-- topic 114 — 07_long_tail · _gap_
-- topic 115 — 07_long_tail · _gap_
-- topic 116 — 07_long_tail · _gap_
-- topic 118 — 03_directive_governance · _gap_
-- topic 121 — 07_long_tail · _gap_
-- topic 127 — 03_directive_governance · _gap_
-- topic 130 — 03_directive_governance · _gap_
-- topic 131 — 03_directive_governance · _borderline_
-- topic 132 — 03_directive_governance · _borderline_
-- topic 133 — 05_provo_lineage · _gap_
-- topic 134 — 07_long_tail · _gap_
-- topic 137 — 07_long_tail · _gap_
-- topic 141 — 03_directive_governance · _borderline_
-- topic 144 — 03_directive_governance · _gap_
-- topic 145 — 03_directive_governance · _gap_
-- topic 148 — 03_directive_governance · _borderline_
-- topic 151 — 05_provo_lineage · _gap_
-- topic 152 — 07_long_tail · _gap_
-- topic 153 — 07_long_tail · _gap_
-- topic 156 — 03_directive_governance · _borderline_
-- topic 157 — 07_long_tail · _gap_
-- topic 160 — 05_provo_lineage · _gap_
-- topic 162 — 07_long_tail · _gap_
-- topic 164 — 07_long_tail · _gap_
-- topic 167 — 03_directive_governance · _gap_
-- topic 169 — 03_directive_governance · _gap_
-- topic 170 — 07_long_tail · _gap_
-- topic 171 — 03_directive_governance · _borderline_
-- topic 173 — 07_long_tail · _gap_
-- topic 174 — 07_long_tail · _gap_
-- topic 175 — 03_directive_governance · _gap_
-- topic 176 — 03_directive_governance · _gap_
-- topic 177 — 07_long_tail · _gap_
-- topic 178 — 07_long_tail · _gap_
-- topic 179 — 07_long_tail · _gap_
-- topic 182 — 07_long_tail · _gap_
-- topic 189 — 07_long_tail · _gap_
-- topic 192 — 07_long_tail · _gap_
-- topic 193 — 03_directive_governance · _gap_
-- topic 194 — 03_directive_governance · _borderline_
-- topic 196 — 02_observation_measurement · _gap_
-- topic 197 — 03_directive_governance · _borderline_
-- topic 198 — 03_directive_governance · _gap_
-- topic 199 — 07_long_tail · _gap_
+- [Academic Appointment](academic-appointment-0bf5440d/README.md) — 2 ch · 8 tables · 8 terms
+- [Academic Award](academic-award-2e1ecd7b/README.md) — 2 ch · 5 tables · 5 terms
+- [Academic Conference](academic-conference-2a95c27a/README.md) — 2 ch · 12 tables · 10 terms
+- [Academic Conference](academic-conference-d57093f3/README.md) — 2 ch · 9 tables · 6 terms
+- [Academic Course](academic-course-0dd3a012/README.md) — 2 ch · 10 tables · 5 terms
+- [Academic Program](academic-program-5f7bb57c/README.md) — 2 ch · 8 tables · 6 terms
+- [Academic Programme](academic-programme-346da221/README.md) — 2 ch · 24 tables · 8 terms
+- [Academic Text](academic-text-d1a5454d/README.md) — 2 ch · 7 tables · 6 terms
+- [Accreditation Certificate](accreditation-certificate-43cb4879/README.md) — 2 ch · 7 tables · 5 terms
+- [Accreditation Certificate](accreditation-certificate-ff4cb277/README.md) — 2 ch · 8 tables · 6 terms
+- [Activation Key](activation-key-8c5f1830/README.md) — 2 ch · 5 tables · 5 terms
+- [Administrative Staff Member](administrative-staff-member-b1abd42a/README.md) — 2 ch · 10 tables · 9 terms
+- [Administrative Unit](administrative-unit-3e02e3e6/README.md) — 2 ch · 5 tables · 5 terms
+- [Admission Application](admission-application-a80d7e77/README.md) — 2 ch · 7 tables · 5 terms
+- [Admission Application](admission-application-c0ac2a1a/README.md) — 2 ch · 10 tables · 7 terms
+- [Admission Criteria](admission-criteria-99256a1a/README.md) — 2 ch · 9 tables · 6 terms
+- [Adopted Person](adopted-person-65305101/README.md) — 2 ch · 12 tables · 6 terms
+- [Adoption Case](adoption-case-b3b31c20/README.md) — 2 ch · 6 tables · 5 terms
+- [Adult Adoption Case](adoption-case-d58f1955/README.md) — 2 ch · 9 tables · 7 terms
+- [Advertising Rule](advertising-rule-84b708d6/README.md) — 2 ch · 7 tables · 6 terms
+- [AeroScope Detection System](aero-scope-system-b37fbbf5/README.md) — 2 ch · 12 tables · 11 terms
+- [Aid Recipient](aid-recipient-8da82685/README.md) — 2 ch · 7 tables · 5 terms
+- [Amateur Radio Station](amateur-radio-station-a5c35e9d/README.md) — 2 ch · 6 tables · 6 terms
+- [Analytical Statement](analytical-statement-6837a95b/README.md) — 2 ch · 9 tables · 6 terms
+- [Animal Control Officer](animal-control-officer-1da7ef2d/README.md) — 2 ch · 7 tables · 6 terms
+- [Animal Control Patrol](animal-control-patrol-e4f9c6ca/README.md) — 2 ch · 7 tables · 7 terms
+- [Animation Project](animation-project-9148d969/README.md) — 2 ch · 7 tables · 7 terms
+- [Application Document](application-document-023983ec/README.md) — 2 ch · 8 tables · 6 terms
+- [Apprenticeship Scheme](apprenticeship-scheme-c6bc4112/README.md) — 2 ch · 8 tables · 8 terms
+- [Approval Certificate](approval-certificate-e194c562/README.md) — 2 ch · 9 tables · 5 terms
+- [Approved Product](approved-product-2072670e/README.md) — 2 ch · 8 tables · 5 terms
+- [Assessment Item](assessment-item-6385ba49/README.md) — 2 ch · 11 tables · 7 terms
+- [Assessment Item](assessment-item-7678aff3/README.md) — 2 ch · 6 tables · 6 terms
+- [Assessment Notice](assessment-notice-dea245b4/README.md) — 2 ch · 6 tables · 6 terms
+- [Assessment Notice](assessment-notice-e3eaf0ec/README.md) — 2 ch · 6 tables · 6 terms
+- [Assessment Standard](assessment-standard-bd8b15ec/README.md) — 2 ch · 6 tables · 5 terms
+- [Athlete](athlete-08b6174b/README.md) — 2 ch · 10 tables · 7 terms
+- [Athletic Event](athletic-event-2a425a99/README.md) — 2 ch · 8 tables · 6 terms
+- [Auto Repair Shop](auto-repair-shop-13705b02/README.md) — 2 ch · 8 tables · 5 terms
+- [Auto Repair Shop](auto-repair-shop-a8d09de2/README.md) — 2 ch · 7 tables · 6 terms
+- [Award](award-0cb9a4cf/README.md) — 2 ch · 7 tables · 7 terms
+- [A person receiving direct support or services from the NGO](beneficiary-b28b10a1/README.md) — 2 ch · 7 tables · 6 terms
+- [Biodiesel Fuel Grade](biodiesel-grade-019b1c35/README.md) — 2 ch · 7 tables · 6 terms
+- [Biodiesel (B100) ASTM Specification](biodiesel-specification-1ee20e7d/README.md) — 2 ch · 8 tables · 5 terms
+- [Bioethical Principle](bioethical-principle-bd50a870/README.md) — 2 ch · 8 tables · 5 terms
+- [Biological Event](biological-event-1b8f0314/README.md) — 2 ch · 6 tables · 6 terms
+- [Birth Event](birth-event-eeafb7f9/README.md) — 2 ch · 7 tables · 6 terms
+- [Board Appointment](board-appointment-8a9a2ace/README.md) — 2 ch · 9 tables · 6 terms
+- [Board Appointment](board-appointment-e0f1631b/README.md) — 2 ch · 6 tables · 6 terms
+- [Board Member](board-member-8645374f/README.md) — 2 ch · 8 tables · 7 terms
+- [Board Session](board-session-198f6f70/README.md) — 2 ch · 10 tables · 8 terms
+- [Bowler](bowler-fc8fadd2/README.md) — 2 ch · 6 tables · 6 terms
+- [Branch Society](branch-society-a0229d91/README.md) — 2 ch · 8 tables · 6 terms
+- [Retail Brand](brand-7cc3c02d/README.md) — 2 ch · 8 tables · 7 terms
+- [Brand Strategy](brand-strategy-0e510987/README.md) — 2 ch · 10 tables · 8 terms
+- [Breakfast Service](breakfast-service-b49597b9/README.md) — 2 ch · 6 tables · 5 terms
+- [Breeding Program](breeding-program-fd95ba69/README.md) — 2 ch · 7 tables · 7 terms
+- [Building Permit](building-permit-5424110f/README.md) — 2 ch · 7 tables · 6 terms
+- [Building Shape](building-shape-fb9a2688/README.md) — 2 ch · 5 tables · 5 terms
+- [Bullying Incident](bullying-incident-2fa5d47d/README.md) — 2 ch · 6 tables · 6 terms
+- [Bullying Incident](bullying-incident-996e0018/README.md) — 2 ch · 10 tables · 6 terms
+- [Bus Route](bus-route-e738d90a/README.md) — 2 ch · 10 tables · 5 terms
+- [Business Account](business-account-eb2eaf2b/README.md) — 2 ch · 11 tables · 8 terms
+- [Business Entity](business-entity-cb52d8b7/README.md) — 2 ch · 8 tables · 8 terms
+- [Calendar Order](calendar-order-8b2f5f70/README.md) — 2 ch · 10 tables · 5 terms
+- [A physical digital single-lens reflex or mirrorless camera unit used for imaging](camera-device-38895034/README.md) — 2 ch · 6 tables · 6 terms
+- [Campus Building](campus-building-62140773/README.md) — 2 ch · 8 tables · 8 terms
+- [Canapé](canape-6507c139/README.md) — 2 ch · 9 tables · 5 terms
+- [Canapé](canape-97f46b4c/README.md) — 2 ch · 10 tables · 5 terms
+- [Cancer Waiting Time Target](cancer-waiting-time-target-65f1535d/README.md) — 2 ch · 5 tables · 5 terms
+- [Cancer Waiting Time Target](cancer-waiting-time-target-fa45c693/README.md) — 2 ch · 7 tables · 5 terms
+- [Capacity Assessment](capacity-assessment-d9c53cfd/README.md) — 2 ch · 12 tables · 6 terms
+- [Capacity Enhancement Event](capacity-enhancement-483845c3/README.md) — 2 ch · 5 tables · 5 terms
+- [Capital Access Program](capital-access-program-bda34d6e/README.md) — 2 ch · 10 tables · 7 terms
+- [Domiciliary Care Agency](care-agency-c2ba4cfe/README.md) — 2 ch · 8 tables · 7 terms
+- [Career Transition](career-transition-dd6e8894/README.md) — 2 ch · 12 tables · 7 terms
+- [Carpet](carpet-7cd185e7/README.md) — 2 ch · 11 tables · 6 terms
+- [Case Review Protocol](case-review-protocol-ac90bb77/README.md) — 2 ch · 6 tables · 6 terms
+- [Catering Package](catering-package-6b7d1c8b/README.md) — 2 ch · 9 tables · 5 terms
+- [Catering Package](catering-package-b25dc9bf/README.md) — 2 ch · 9 tables · 6 terms
+- [Census Record](census-record-b180d453/README.md) — 2 ch · 11 tables · 8 terms
+- [Graduate Certificate Program](certificate-program-ee45c82e/README.md) — 2 ch · 9 tables · 6 terms
+- [Certified Organization](certified-organization-54b64d86/README.md) — 2 ch · 9 tables · 5 terms
+- [Certified Organization](certified-organization-98564509/README.md) — 2 ch · 6 tables · 6 terms
+- [Chain Lubricant](chain-lubricant-1bc54709/README.md) — 2 ch · 8 tables · 6 terms
+- [Chemical Management Expert](chemical-management-expert-9da7d2d6/README.md) — 2 ch · 7 tables · 6 terms
+- [Chemical Substance](chemical-substance-49926c8a/README.md) — 2 ch · 8 tables · 7 terms
+- [Client](client-4d2e71a8/README.md) — 2 ch · 8 tables · 8 terms
+- [Client Asset Portfolio](client-asset-portfolio-7a4bb999/README.md) — 2 ch · 7 tables · 7 terms
+- [Client Engagement](client-engagement-f7a8a066/README.md) — 2 ch · 6 tables · 6 terms
+- [Client Record](client-record-22781722/README.md) — 2 ch · 6 tables · 6 terms
+- [Climate Observation](climate-observation-c742b13d/README.md) — 2 ch · 10 tables · 5 terms
+- [Clinic](clinic-daf1f740/README.md) — 2 ch · 14 tables · 6 terms
+- [Clinical Study](clinical-study-26eb427d/README.md) — 2 ch · 10 tables · 7 terms
+- [Clinical Trial](clinical-trial-a59d098f/README.md) — 2 ch · 11 tables · 6 terms
+- [A structured coaching engagement between a coach and a client](coaching-engagement-d860fb6d/README.md) — 2 ch · 7 tables · 6 terms
+- [Cognitive Training Program](cognitive-training-program-f5f5331c/README.md) — 2 ch · 9 tables · 5 terms
+- [Academic Colloquium Event](colloquium-48d86cc0/README.md) — 2 ch · 10 tables · 8 terms
+- [Community Program](community-program-c40af45c/README.md) — 2 ch · 29 tables · 8 terms
+- [Competition Event](competition-event-0d05932c/README.md) — 2 ch · 14 tables · 5 terms
+- [Compliance Year](compliance-year-28c9e736/README.md) — 2 ch · 10 tables · 7 terms
+- [Component Part](component-part-bbc376ea/README.md) — 2 ch · 5 tables · 5 terms
+- [Computational Material Record](computational-material-record-044e3d9a/README.md) — 2 ch · 15 tables · 9 terms
+- [Controlling Report](controlling-report-5a203df6/README.md) — 2 ch · 5 tables · 5 terms
+- [Conversion Moment](conversion-moment-0e0bafe6/README.md) — 2 ch · 5 tables · 5 terms
+- [Cooperative Agreement](cooperative-agreement-d94480c2/README.md) — 2 ch · 7 tables · 6 terms
+- [Corporate Entity](corporate-entity-2d2005c0/README.md) — 2 ch · 5 tables · 5 terms
+- [Corporate Responsibility Programme](corporate-responsibility-programme-bc5eae0c/README.md) — 2 ch · 10 tables · 8 terms
+- [Course](course-1814e44d/README.md) — 2 ch · 9 tables · 5 terms
+- [Course](course-68b7d12a/README.md) — 2 ch · 10 tables · 5 terms
+- [Course](course-d871d606/README.md) — 2 ch · 5 tables · 4 terms
+- [Accredited Course Unit or Module](course-unit-b0720294/README.md) — 2 ch · 5 tables · 5 terms
+- [Credential](credential-ddbe93cc/README.md) — 2 ch · 8 tables · 6 terms
+- [Credit Union](credit-union-d0b6e89f/README.md) — 2 ch · 8 tables · 8 terms
+- [Crown Dependency](crown-dependency-0f7776f9/README.md) — 2 ch · 5 tables · 5 terms
+- [Curriculum Topic](curriculum-topic-084218b2/README.md) — 2 ch · 10 tables · 5 terms
+- [Custom Back Assembly](custom-back-assembly-76791a75/README.md) — 2 ch · 9 tables · 5 terms
+- [Customer Account](customer-account-f1e204b5/README.md) — 2 ch · 13 tables · 6 terms
+- [Cyber Incident](cyber-incident-ba7bfc8b/README.md) — 2 ch · 7 tables · 6 terms
+- [Cybernetic Organism](cybernetic-organism-a91556c5/README.md) — 2 ch · 6 tables · 6 terms
+- [Cyborg](cyborg-d59eb3d8/README.md) — 2 ch · 7 tables · 7 terms
+- [Distributed Denial of Service Attack](d-do-s-attack-cb2de72e/README.md) — 2 ch · 7 tables · 7 terms
+- [Data Center Facility](data-center-3e6632bf/README.md) — 2 ch · 13 tables · 7 terms
+- [Data Controller](data-controller-962840c0/README.md) — 2 ch · 8 tables · 8 terms
+- [Data Subject](data-subject-216f5ce2/README.md) — 2 ch · 13 tables · 6 terms
+- [Data Transaction](data-transaction-fa61ac48/README.md) — 2 ch · 8 tables · 7 terms
+- [Database Instance](database-instance-7df643b0/README.md) — 2 ch · 6 tables · 6 terms
+- [Decision Capacity Assessment](decision-assessment-36edfccb/README.md) — 2 ch · 9 tables · 5 terms
+- [Demographic Survey](demographic-survey-fba3b7ba/README.md) — 2 ch · 7 tables · 7 terms
+- [A single spoken statement by a character in a conversation](dialogue-utterance-ea6df6b2/README.md) — 2 ch · 7 tables · 5 terms
+- [Didactical Situation](didactical-situation-d0e3ba7b/README.md) — 2 ch · 11 tables · 6 terms
+- [Digital Asset](digital-asset-697cf75a/README.md) — 2 ch · 8 tables · 5 terms
+- [Digital Technology Platform](digital-technology-08162fba/README.md) — 2 ch · 11 tables · 6 terms
+- [Director](director-3082c497/README.md) — 2 ch · 6 tables · 4 terms
+- [Director Appointment](director-appointment-18025b13/README.md) — 2 ch · 8 tables · 5 terms
+- [Directory Entry](directory-entry-4f177f0d/README.md) — 2 ch · 7 tables · 5 terms
+- [Discretionary Place Application](discretionary-place-application-95bca706/README.md) — 2 ch · 9 tables · 8 terms
+- [Divine Person](divine-person-61a35e7f/README.md) — 2 ch · 6 tables · 6 terms
+- [Domestic Violence Incident](domestic-violence-incident-5f46c1f1/README.md) — 2 ch · 11 tables · 7 terms
+- [Domiciliary Care Agency](domiciliary-care-agency-023fcaff/README.md) — 2 ch · 9 tables · 7 terms
+- [Donor](donor-2c3fe68d/README.md) — 2 ch · 6 tables · 6 terms
+- [Donor](donor-88675879/README.md) — 2 ch · 6 tables · 6 terms
+- [Drone Detection System](drone-detection-system-b9124aa5/README.md) — 2 ch · 15 tables · 6 terms
+- [Drug Application](drug-application-0614fd04/README.md) — 2 ch · 7 tables · 7 terms
+- [ESG Metric](e-s-g-metric-a334d59f/README.md) — 2 ch · 18 tables · 6 terms
+- [ESG Metric](e-s-g-metric-cf61c89d/README.md) — 2 ch · 8 tables · 6 terms
+- [Economic Recession](economic-recession-a98e068b/README.md) — 2 ch · 5 tables · 5 terms
+- [Educational Organization](educational-organization-2f441661/README.md) — 2 ch · 10 tables · 7 terms
+- [Educator](educator-4133971e/README.md) — 2 ch · 7 tables · 4 terms
+- [Emissions Monitoring Station](emissions-monitoring-station-72783abd/README.md) — 2 ch · 8 tables · 6 terms
+- [Employment Appointment](employment-appointment-9538cef0/README.md) — 2 ch · 6 tables · 6 terms
+- [Energy Resource](energy-resource-dc163394/README.md) — 2 ch · 5 tables · 5 terms
+- [Engagement Award](engagement-award-33e09f5f/README.md) — 2 ch · 10 tables · 7 terms
+- [Health Plan Enrollee](enrollee-e2988a1a/README.md) — 2 ch · 10 tables · 6 terms
+- [Enrollment](enrollment-15123fa5/README.md) — 2 ch · 9 tables · 5 terms
+- [Estate](estate-6bf70187/README.md) — 2 ch · 10 tables · 8 terms
+- [Ethical Policy Report](ethical-policy-report-8fcb9407/README.md) — 2 ch · 8 tables · 8 terms
+- [Evacuation Order](evacuation-order-a7258072/README.md) — 2 ch · 6 tables · 6 terms
+- [Evacuation Order](evacuation-order-c807a05c/README.md) — 2 ch · 14 tables · 8 terms
+- [Executive Appointment](executive-appointment-c746ab29/README.md) — 2 ch · 5 tables · 5 terms
+- [Executive Director](executive-director-9f1c6b26/README.md) — 2 ch · 14 tables · 7 terms
+- [Expedition](expedition-a4f5e5a0/README.md) — 2 ch · 8 tables · 8 terms
+- [Commercially Sexually Exploited Child](exploited-youth-946d2ffc/README.md) — 2 ch · 10 tables · 7 terms
+- [Faculty Researcher](faculty-researcher-ad473424/README.md) — 2 ch · 7 tables · 7 terms
+- [Farmland Parcel](farmland-parcel-65ee88cc/README.md) — 2 ch · 10 tables · 6 terms
+- [Financial Aid Application](financial-aid-application-4ff840b5/README.md) — 2 ch · 9 tables · 8 terms
+- [Financial Crisis](financial-crisis-a0eab590/README.md) — 2 ch · 9 tables · 6 terms
+- [Financial Institution](financial-institution-378e8ed9/README.md) — 2 ch · 6 tables · 6 terms
+- [Financial Institution](financial-institution-7b4448fb/README.md) — 2 ch · 9 tables · 6 terms
+- [Fishery Survey](fishery-survey-ba05953e/README.md) — 2 ch · 10 tables · 5 terms
+- [Flight Service Station](flight-service-station-fe9cbd93/README.md) — 2 ch · 19 tables · 6 terms
+- [Flood Infrastructure Asset](flood-asset-77b7e068/README.md) — 2 ch · 13 tables · 7 terms
+- [Forest Plantation](forest-plantation-5f1541a9/README.md) — 2 ch · 8 tables · 6 terms
+- [Investment Fund](fund-cd72b26c/README.md) — 2 ch · 16 tables · 8 terms
+- [Game Match](game-match-f01567cd/README.md) — 2 ch · 8 tables · 6 terms
+- [Ganglion Cyst](ganglion-cyst-4c3690bb/README.md) — 2 ch · 7 tables · 7 terms
+- [Gaulish Tribe](gaulish-tribe-dae994c8/README.md) — 2 ch · 6 tables · 6 terms
+- [Gaulish Tribe](gaulish-tribe-db827bd2/README.md) — 2 ch · 9 tables · 6 terms
+- [Genomic Sample](genomic-sample-650aa382/README.md) — 2 ch · 9 tables · 7 terms
+- [Genomic Sample](genomic-sample-67db165e/README.md) — 2 ch · 10 tables · 7 terms
+- [Golf Shot](golf-shot-54830053/README.md) — 2 ch · 6 tables · 5 terms
+- [Golf Shot](golf-shot-75f4c4d8/README.md) — 2 ch · 8 tables · 8 terms
+- [Governance Body](governance-body-b4eac326/README.md) — 2 ch · 10 tables · 7 terms
+- [Corporate Governance Committee](governance-committee-c17735f0/README.md) — 2 ch · 6 tables · 5 terms
+- [Grant Award](grant-award-fb92e925/README.md) — 2 ch · 8 tables · 7 terms
+- [Graphics Accelerator](graphics-accelerator-3e45242e/README.md) — 2 ch · 13 tables · 7 terms
+- [Homeowners Association Property Lot](h-o-a-lot-c1c2989e/README.md) — 2 ch · 7 tables · 7 terms
+- [Happy Hour Special](happy-hour-special-d5a064ea/README.md) — 2 ch · 7 tables · 5 terms
+- [Health and Safety Policy](health-and-safety-policy-c17b8425/README.md) — 2 ch · 7 tables · 7 terms
+- [Health Information Technology System](health-information-technology-system-01e63770/README.md) — 2 ch · 7 tables · 6 terms
+- [Health Plan](health-plan-ff1c6f6a/README.md) — 2 ch · 15 tables · 7 terms
+- [Healthcare Organization](healthcare-organization-a6bfd6bb/README.md) — 2 ch · 10 tables · 6 terms
+- [Healthcare Organization](healthcare-organization-d848278a/README.md) — 2 ch · 6 tables · 5 terms
+- [Healthcare Professional](healthcare-professional-189f9ad4/README.md) — 2 ch · 5 tables · 5 terms
+- [Healthcare Provider](healthcare-provider-98bb8445/README.md) — 2 ch · 5 tables · 5 terms
+- [Condensing Heat Recovery System](heat-recovery-system-a29f5e17/README.md) — 2 ch · 7 tables · 6 terms
+- [Household](household-8ff26aac/README.md) — 2 ch · 14 tables · 7 terms
+- [Housing Advisory Case](housing-advisory-case-ff66dccb/README.md) — 2 ch · 11 tables · 7 terms
+- [Human Person](human-person-22e87690/README.md) — 2 ch · 7 tables · 7 terms
+- [Daily Hunting Rate](hunting-rate-1ea84c8e/README.md) — 2 ch · 8 tables · 6 terms
+- [Hypothesis Test](hypothesis-test-75c2dda4/README.md) — 2 ch · 6 tables · 5 terms
+- [Ideological Movement](ideological-movement-8c7e8379/README.md) — 2 ch · 6 tables · 6 terms
+- [Imaging Study](imaging-study-4a715b7c/README.md) — 2 ch · 6 tables · 5 terms
+- [Immigration Status Declaration](immigration-status-declaration-1ff65101/README.md) — 2 ch · 7 tables · 7 terms
+- [Indigenous Knowledge Base](indigenous-knowledge-base-7d048994/README.md) — 2 ch · 6 tables · 5 terms
+- [Indoor Air Quality Measurement](indoor-air-quality-measurement-4dd2478c/README.md) — 2 ch · 7 tables · 7 terms
+- [Information Logistics Strategy](information-logistics-strategy-82a785b0/README.md) — 2 ch · 8 tables · 6 terms
+- [Information Logistics Strategy](information-logistics-strategy-ff783775/README.md) — 2 ch · 17 tables · 6 terms
+- [Information Sharing Agreement](information-sharing-agreement-d48edc8a/README.md) — 2 ch · 15 tables · 6 terms
+- [Infrastructure Construction Phase](infrastructure-phase-98b0547d/README.md) — 2 ch · 11 tables · 8 terms
+- [Regulatory Inspection Event](inspection-event-9fdc6d58/README.md) — 2 ch · 14 tables · 7 terms
+- [Inspection Report](inspection-report-b789f836/README.md) — 2 ch · 8 tables · 7 terms
+- [Insulation Tubing](insulation-tubing-baf61c4f/README.md) — 2 ch · 9 tables · 6 terms
+- [Insurance Application](insurance-application-973c0af3/README.md) — 2 ch · 10 tables · 8 terms
+- [Intelligence Report](intelligence-report-c0f78d39/README.md) — 2 ch · 15 tables · 7 terms
+- [Internal Audit Role](internal-audit-role-ce7dc2a3/README.md) — 2 ch · 5 tables · 5 terms
+- [International Environmental Conference](international-environmental-conference-050080c7/README.md) — 2 ch · 8 tables · 8 terms
+- [International Financial Institution](international-financial-institution-0f87f1bd/README.md) — 2 ch · 6 tables · 5 terms
+- [Interpretation](interpretation-73e45cfe/README.md) — 2 ch · 5 tables · 5 terms
+- [Interview Question](interview-question-22e16f17/README.md) — 2 ch · 15 tables · 6 terms
+- [Inventory Item](inventory-item-fbf77f08/README.md) — 2 ch · 7 tables · 5 terms
+- [Investigation Case](investigation-case-93112a07/README.md) — 2 ch · 6 tables · 6 terms
+- [Internet of Things Device](io-t-device-bd19bc4d/README.md) — 2 ch · 6 tables · 6 terms
+- [Job Application](job-application-73a1da49/README.md) — 2 ch · 11 tables · 6 terms
+- [Journalist](journalist-6a37ee77/README.md) — 2 ch · 7 tables · 5 terms
+- [Jurisdictional Statute](jurisdictional-statute-ce6ae433/README.md) — 2 ch · 10 tables · 5 terms
+- [Knowledge Organization System](knowledge-organization-system-a398849f/README.md) — 2 ch · 10 tables · 7 terms
+- [Lab Activity](lab-activity-d2ccd9a6/README.md) — 2 ch · 11 tables · 6 terms
+- [Laser Diode Module](laser-diode-module-93301581/README.md) — 2 ch · 6 tables · 6 terms
+- [Laser Diode Module](laser-diode-module-d42f710e/README.md) — 2 ch · 6 tables · 6 terms
+- [Lateral Restraint Strap](lateral-restraint-strap-21eae306/README.md) — 2 ch · 4 tables · 4 terms
+- [Lecture Session](lecture-session-03a341da/README.md) — 2 ch · 10 tables · 5 terms
+- [Lecture Session](lecture-session-3c195c2f/README.md) — 2 ch · 10 tables · 6 terms
+- [Legal Act](legal-act-a13834e6/README.md) — 2 ch · 7 tables · 7 terms
+- [Legal Case](legal-case-129eb3db/README.md) — 2 ch · 6 tables · 6 terms
+- [Legal Case](legal-case-47877451/README.md) — 2 ch · 7 tables · 6 terms
+- [Legislative Act](legislative-act-28ff205c/README.md) — 2 ch · 8 tables · 8 terms
+- [Legislative Act](legislative-act-c5624981/README.md) — 2 ch · 4 tables · 4 terms
+- [Legislative Committee](legislative-committee-2c0b4d09/README.md) — 2 ch · 8 tables · 5 terms
+- [Library Staff Member](library-staff-member-0681738f/README.md) — 2 ch · 8 tables · 8 terms
+- [License Application](license-application-2212bf19/README.md) — 2 ch · 11 tables · 6 terms
+- [Line Dance Routine](line-dance-routine-dd3ea574/README.md) — 2 ch · 8 tables · 5 terms
+- [MESA Academic Support Program](m-e-s-a-program-1fea91f5/README.md) — 2 ch · 16 tables · 6 terms
+- [Malware](malware-326c5660/README.md) — 2 ch · 10 tables · 8 terms
+- [Managed Investment Scheme](managed-investment-scheme-950766f6/README.md) — 2 ch · 17 tables · 8 terms
+- [Managed Investment Scheme](managed-investment-scheme-f2a9e5c4/README.md) — 2 ch · 12 tables · 6 terms
+- [Management System Standard](management-system-standard-0fc20fb7/README.md) — 2 ch · 5 tables · 5 terms
+- [Mathematical Concept](mathematical-concept-20a13d52/README.md) — 2 ch · 10 tables · 6 terms
+- [Medical Device](medical-device-457123b6/README.md) — 2 ch · 12 tables · 7 terms
+- [Medical Practice](medical-practice-e0b343a1/README.md) — 2 ch · 14 tables · 6 terms
+- [Medication](medication-ee1f40d5/README.md) — 2 ch · 5 tables · 5 terms
+- [Membership Transfer Request](membership-transfer-request-30e256c4/README.md) — 2 ch · 7 tables · 4 terms
+- [Mental Health Education Program](mental-health-education-program-0fd21588/README.md) — 2 ch · 9 tables · 6 terms
+- [Menu Category](menu-category-06a00276/README.md) — 2 ch · 9 tables · 5 terms
+- [Menu Category](menu-category-f83ca3c5/README.md) — 2 ch · 8 tables · 6 terms
+- [Menu Course](menu-course-4305e1f0/README.md) — 2 ch · 7 tables · 6 terms
+- [Menu Course](menu-course-77257b61/README.md) — 2 ch · 8 tables · 6 terms
+- [Menu Item](menu-item-18a32495/README.md) — 2 ch · 13 tables · 6 terms
+- [Menu Item](menu-item-1bea711d/README.md) — 2 ch · 8 tables · 5 terms
+- [Menu Item](menu-item-2d20a9a1/README.md) — 2 ch · 11 tables · 6 terms
+- [Menu Item](menu-item-49b7a51d/README.md) — 2 ch · 9 tables · 6 terms
+- [Menu Item](menu-item-4f1c8f76/README.md) — 2 ch · 5 tables · 5 terms
+- [Menu Item](menu-item-68ea549b/README.md) — 2 ch · 5 tables · 5 terms
+- [Menu Item](menu-item-80666da1/README.md) — 2 ch · 9 tables · 5 terms
+- [Menu Item](menu-item-84991800/README.md) — 2 ch · 6 tables · 5 terms
+- [Menu Item](menu-item-9cec86ce/README.md) — 2 ch · 6 tables · 5 terms
+- [Menu Line Item](menu-line-item-3a8f319f/README.md) — 2 ch · 5 tables · 5 terms
+- [Microenterprise](microenterprise-1dcabe79/README.md) — 2 ch · 4 tables · 3 terms
+- [Migration Event](migration-event-839003d9/README.md) — 2 ch · 15 tables · 6 terms
+- [Mobile Worker](mobile-worker-67c22431/README.md) — 2 ch · 10 tables · 7 terms
+- [National Diabetes Plan](national-diabetes-plan-4dd7145b/README.md) — 2 ch · 8 tables · 8 terms
+- [Network Account](network-account-a71c0762/README.md) — 2 ch · 6 tables · 6 terms
+- [Network Device](network-device-d521b5e1/README.md) — 2 ch · 9 tables · 6 terms
+- [Nonprofit Organization](nonprofit-organization-ee11d4cb/README.md) — 2 ch · 8 tables · 6 terms
+- [Norm](norm-98438b10/README.md) — 2 ch · 9 tables · 7 terms
+- [Nuclear Facility](nuclear-facility-d8bb38e5/README.md) — 2 ch · 9 tables · 7 terms
+- [Nursing and Care Quality Forum](nursing-forum-2505c24f/README.md) — 2 ch · 10 tables · 6 terms
+- [Nursing and Care Quality Forum](nursing-forum-94c911e9/README.md) — 2 ch · 7 tables · 6 terms
+- [Children's Nutrition Unit](nutrition-unit-7401e1a1/README.md) — 2 ch · 8 tables · 8 terms
+- [A recorded astronomical observation event](observation-ee730954/README.md) — 2 ch · 5 tables · 5 terms
+- [Observatory Facility](observatory-facility-25a5f268/README.md) — 2 ch · 11 tables · 6 terms
+- [Occasion Card](occasion-card-e887ddd3/README.md) — 2 ch · 9 tables · 5 terms
+- [ALICO Office](office-bb1c00bf/README.md) — 2 ch · 6 tables · 6 terms
+- [Office Staff Role](office-staff-role-f59af210/README.md) — 2 ch · 8 tables · 8 terms
+- [Operating Division](operating-division-a707e523/README.md) — 2 ch · 19 tables · 8 terms
+- [Organization](organization-e804d585/README.md) — 2 ch · 5 tables · 5 terms
+- [Owner or Operator](owner-operator-4bd88e52/README.md) — 2 ch · 15 tables · 7 terms
+- [Annual Memorial Parade Event](parade-event-fa1374ee/README.md) — 2 ch · 7 tables · 5 terms
+- [Parasitic Weed Species](parasitic-weed-species-029cc1f9/README.md) — 2 ch · 7 tables · 5 terms
+- [Participating Entity](participating-entity-e6f2b5ef/README.md) — 2 ch · 6 tables · 5 terms
+- [Participating Organization](participating-organization-cdaa4697/README.md) — 2 ch · 8 tables · 6 terms
+- [Party Platter](party-platter-272bc863/README.md) — 2 ch · 10 tables · 8 terms
+- [Pastoral Community](pastoral-community-524c278a/README.md) — 2 ch · 6 tables · 6 terms
+- [Pastoral Territory](pastoral-territory-b481cd0c/README.md) — 2 ch · 15 tables · 5 terms
+- [Patient](patient-410522f9/README.md) — 2 ch · 10 tables · 5 terms
+- [Patient](patient-57ac3441/README.md) — 2 ch · 6 tables · 5 terms
+- [Patient Record](patient-record-d41c0aac/README.md) — 2 ch · 6 tables · 6 terms
+- [Person](person-4a8bdfaa/README.md) — 2 ch · 6 tables · 6 terms
+- [Person](person-8abed5fd/README.md) — 2 ch · 6 tables · 6 terms
+- [Person with Albinism](person-with-albinism-cddbeef9/README.md) — 2 ch · 9 tables · 5 terms
+- [Personal Data Record](personal-data-record-e05a730c/README.md) — 2 ch · 9 tables · 7 terms
+- [Physical School Location](physical-location-819beb2e/README.md) — 2 ch · 14 tables · 8 terms
+- [Planning Application](planning-application-057f17d1/README.md) — 2 ch · 16 tables · 8 terms
+- [Policy Document](policy-document-635fd55c/README.md) — 2 ch · 5 tables · 5 terms
+- [Municipal Swimming Pool Facility](pool-facility-b877d5b1/README.md) — 2 ch · 15 tables · 6 terms
+- [Position](position-ac7bde24/README.md) — 2 ch · 6 tables · 5 terms
+- [Power Splitter/Combiner Device](power-splitter-combiner-77786d2e/README.md) — 2 ch · 8 tables · 6 terms
+- [Prescribed Entity](prescribed-entity-0ccbcdcf/README.md) — 2 ch · 7 tables · 7 terms
+- [Royal Proclamation](proclamation-f205c670/README.md) — 2 ch · 11 tables · 6 terms
+- [Product Design](product-design-24f56865/README.md) — 2 ch · 10 tables · 6 terms
+- [Product Specification](product-specification-3880b920/README.md) — 2 ch · 8 tables · 4 terms
+- [Production Record](production-record-46341b8a/README.md) — 2 ch · 18 tables · 10 terms
+- [Production Report](production-report-0ce10d23/README.md) — 2 ch · 6 tables · 6 terms
+- [Program Session](program-session-11838e59/README.md) — 2 ch · 8 tables · 6 terms
+- [Protected Area](protected-area-455be55b/README.md) — 2 ch · 11 tables · 7 terms
+- [Protected Area](protected-area-d8b90d52/README.md) — 2 ch · 8 tables · 6 terms
+- [Protected Disclosure](protected-disclosure-22b483b2/README.md) — 2 ch · 8 tables · 7 terms
+- [Protected Disclosure](protected-disclosure-6709e40a/README.md) — 2 ch · 7 tables · 6 terms
+- [Protein Structure](protein-structure-5982edf4/README.md) — 2 ch · 9 tables · 9 terms
+- [Biological Protoplasm](protoplasm-46775537/README.md) — 2 ch · 10 tables · 7 terms
+- [Provider Change Request](provider-change-request-3f2e5f74/README.md) — 2 ch · 6 tables · 6 terms
+- [Public Health Nurse](public-health-nurse-386667eb/README.md) — 2 ch · 6 tables · 5 terms
+- [A periodical or newspaper issued to the public](publication-51342c74/README.md) — 2 ch · 9 tables · 7 terms
+- [Quality Assurance System](quality-assurance-system-5e90afed/README.md) — 2 ch · 7 tables · 6 terms
+- [Quality Assurance System](quality-assurance-system-80a0a330/README.md) — 2 ch · 9 tables · 7 terms
+- [Quality Improvement Program](quality-improvement-program-171e0454/README.md) — 2 ch · 8 tables · 6 terms
+- [Quality Improvement Program](quality-improvement-program-8b904ab0/README.md) — 2 ch · 13 tables · 7 terms
+- [Quantum Computer](quantum-computer-60dff632/README.md) — 2 ch · 8 tables · 7 terms
+- [College Readiness Benchmark](readiness-benchmark-f63e5db0/README.md) — 2 ch · 16 tables · 6 terms
+- [Reading Challenge](reading-challenge-e6ff0e60/README.md) — 2 ch · 13 tables · 6 terms
+- [Recertification Application](recertification-application-e027fe1d/README.md) — 2 ch · 8 tables · 7 terms
+- [Recruiting Role](recruiting-role-41243260/README.md) — 2 ch · 11 tables · 6 terms
+- [EUSR Registration Card](registration-card-aa84321e/README.md) — 2 ch · 16 tables · 8 terms
+- [Regulated Person](regulated-person-b1452832/README.md) — 2 ch · 6 tables · 6 terms
+- [Regulation](regulation-94c21257/README.md) — 2 ch · 6 tables · 6 terms
+- [Regulatory Advisory Question](regulatory-advisory-question-30c9d94a/README.md) — 2 ch · 7 tables · 5 terms
+- [Regulatory Instrument](regulatory-instrument-a7e3ee7a/README.md) — 2 ch · 10 tables · 6 terms
+- [Regulatory Sign](regulatory-sign-6e2739b5/README.md) — 2 ch · 4 tables · 4 terms
+- [Regulatory Violation](regulatory-violation-0377af08/README.md) — 2 ch · 7 tables · 5 terms
+- [Religious Practice](religious-practice-b7198f40/README.md) — 2 ch · 6 tables · 6 terms
+- [Research Award](research-award-f66f7951/README.md) — 2 ch · 7 tables · 7 terms
+- [Research Committee Academic Board](research-committee-1a69e436/README.md) — 2 ch · 13 tables · 10 terms
+- [Research Committee Academic Board](research-committee-c9be3677/README.md) — 2 ch · 7 tables · 5 terms
+- [Research Desk](research-desk-cdae42b9/README.md) — 2 ch · 6 tables · 6 terms
+- [Research Project](research-project-aec9d039/README.md) — 2 ch · 15 tables · 6 terms
+- [Equity Research Report](research-report-aef07dc3/README.md) — 2 ch · 9 tables · 6 terms
+- [Young Researcher](researcher-0501ee1b/README.md) — 2 ch · 10 tables · 6 terms
+- [Young Researcher](researcher-5205112b/README.md) — 2 ch · 10 tables · 8 terms
+- [Researcher](researcher-9d03f103/README.md) — 2 ch · 6 tables · 6 terms
+- [Responsible Investor](responsible-investor-579b9a8c/README.md) — 2 ch · 6 tables · 6 terms
+- [Restaurant](restaurant-d301a6f7/README.md) — 2 ch · 8 tables · 8 terms
+- [Retirement Plan Member](retirement-plan-member-14992ca2/README.md) — 2 ch · 10 tables · 6 terms
+- [Retreat Program](retreat-program-04ed85ec/README.md) — 2 ch · 5 tables · 5 terms
+- [Role Concept](role-concept-486f898e/README.md) — 2 ch · 6 tables · 6 terms
+- [Small and Medium-sized Enterprise](s-m-e-27332510/README.md) — 2 ch · 14 tables · 7 terms
+- [Small and Medium-sized Enterprise Employer](s-m-e-employer-5d11990c/README.md) — 2 ch · 6 tables · 6 terms
+- [Safeguarding Policy](safeguarding-policy-80eb40e8/README.md) — 2 ch · 17 tables · 6 terms
+- [Safeguarding Policy](safeguarding-policy-a19aa14c/README.md) — 2 ch · 15 tables · 8 terms
+- [Sailing Event](sailing-event-45f09539/README.md) — 2 ch · 10 tables · 6 terms
+- [Sales Activity Record](sales-activity-record-efe9643e/README.md) — 2 ch · 10 tables · 6 terms
+- [School](school-4361f571/README.md) — 2 ch · 7 tables · 4 terms
+- [Educational Institution](school-9af75fee/README.md) — 2 ch · 5 tables · 5 terms
+- [School Division](school-division-7bcf958f/README.md) — 2 ch · 15 tables · 7 terms
+- [School Librarian](school-librarian-323d46ee/README.md) — 2 ch · 7 tables · 7 terms
+- [School Library Program](school-library-program-f7dff945/README.md) — 2 ch · 18 tables · 7 terms
+- [School Site](school-site-bcc9f264/README.md) — 2 ch · 7 tables · 7 terms
+- [Scripture](scripture-2e348fdd/README.md) — 2 ch · 12 tables · 6 terms
+- [Security Camera](security-camera-b619c992/README.md) — 2 ch · 7 tables · 7 terms
+- [Security Software Package](security-software-package-a9314e27/README.md) — 2 ch · 6 tables · 5 terms
+- [Selectboard Member](selectboard-member-17d5b6fd/README.md) — 2 ch · 10 tables · 9 terms
+- [Service Inspection](service-inspection-01a31dc8/README.md) — 2 ch · 14 tables · 6 terms
+- [Service Transition](service-transition-f72e068f/README.md) — 2 ch · 7 tables · 7 terms
+- [Scheduled Academic Session](session-92d15b8d/README.md) — 2 ch · 15 tables · 6 terms
+- [Share](share-38b71375/README.md) — 2 ch · 7 tables · 6 terms
+- [Share Capital](share-capital-90bfd212/README.md) — 2 ch · 12 tables · 7 terms
+- [Shareholder](shareholder-226a568e/README.md) — 2 ch · 9 tables · 6 terms
+- [Shell Reading](shell-reading-3c304307/README.md) — 2 ch · 8 tables · 5 terms
+- [Shock Absorber](shock-absorber-4a663659/README.md) — 2 ch · 6 tables · 6 terms
+- [Shooting Event](shooting-event-913b789c/README.md) — 2 ch · 10 tables · 5 terms
+- [Shooting Event](shooting-event-be77f0a4/README.md) — 2 ch · 12 tables · 5 terms
+- [Small Group Discussion Session](small-group-session-315b8b31/README.md) — 2 ch · 8 tables · 6 terms
+- [Social Enterprise](social-enterprise-9bfde422/README.md) — 2 ch · 6 tables · 6 terms
+- [Social Media Account](social-media-account-6beafc0a/README.md) — 2 ch · 6 tables · 6 terms
+- [Social Media Account](social-media-account-76178f37/README.md) — 2 ch · 11 tables · 6 terms
+- [Social Media Account](social-media-account-b5c56d9e/README.md) — 2 ch · 10 tables · 5 terms
+- [Social Media Platform](social-media-platform-55a9c482/README.md) — 2 ch · 14 tables · 5 terms
+- [Social Service Resource](social-service-resource-0423d00e/README.md) — 2 ch · 15 tables · 6 terms
+- [Social Service Resource](social-service-resource-180ad7fb/README.md) — 2 ch · 5 tables · 5 terms
+- [Society Charter](society-charter-b1dc9c7a/README.md) — 2 ch · 5 tables · 5 terms
+- [Spatial Planning Paradigm](spatial-planning-paradigm-003eddc1/README.md) — 2 ch · 11 tables · 8 terms
+- [Special Day Class Teacher](special-day-class-teacher-c161c6e3/README.md) — 2 ch · 17 tables · 7 terms
+- [Special Interest Group](special-interest-group-035642bc/README.md) — 2 ch · 7 tables · 6 terms
+- [Spill Incident](spill-incident-6de7a88c/README.md) — 2 ch · 8 tables · 6 terms
+- [Sponsorship Package](sponsorship-package-703dc5e4/README.md) — 2 ch · 7 tables · 7 terms
+- [Staff Position](staff-position-04a7d20e/README.md) — 2 ch · 7 tables · 6 terms
+- [Stakeholder Group](stakeholder-group-5e429b69/README.md) — 2 ch · 12 tables · 6 terms
+- [Standard Weight or Measure](standard-weight-or-measure-3215d060/README.md) — 2 ch · 6 tables · 6 terms
+- [Statutory Agency](statutory-agency-9171c34d/README.md) — 2 ch · 6 tables · 5 terms
+- [Student](student-06dca9c6/README.md) — 2 ch · 6 tables · 6 terms
+- [Student](student-310c7d3e/README.md) — 2 ch · 8 tables · 6 terms
+- [Student](student-69bccf22/README.md) — 2 ch · 14 tables · 7 terms
+- [Student](student-6b609f99/README.md) — 2 ch · 7 tables · 7 terms
+- [Student Athlete](student-athlete-260d8e82/README.md) — 2 ch · 15 tables · 7 terms
+- [Student](student-c10dcbe9/README.md) — 2 ch · 7 tables · 7 terms
+- [Student](student-e0cf5a3e/README.md) — 2 ch · 17 tables · 8 terms
+- [Student](student-f6e24b50/README.md) — 2 ch · 8 tables · 5 terms
+- [Student Placement Record](student-placement-3158807e/README.md) — 2 ch · 7 tables · 7 terms
+- [Study Design](study-design-e33b5447/README.md) — 2 ch · 22 tables · 7 terms
+- [Study Protocol](study-protocol-bbfa94cd/README.md) — 2 ch · 13 tables · 7 terms
+- [Substance Abuse Survey](substance-abuse-survey-fa0c59a0/README.md) — 2 ch · 15 tables · 7 terms
+- [Support System](support-system-6fcd0458/README.md) — 2 ch · 7 tables · 7 terms
+- [Surveillance Camera](surveillance-camera-2622a44e/README.md) — 2 ch · 5 tables · 5 terms
+- [Video Surveillance Installation Project](surveillance-installation-9a56c7cb/README.md) — 2 ch · 6 tables · 6 terms
+- [Surveillance Site](surveillance-site-b8201439/README.md) — 2 ch · 25 tables · 8 terms
+- [Taper Gage](taper-gage-6665f14f/README.md) — 2 ch · 4 tables · 4 terms
+- [Taper Gage](taper-gage-d6a4f9d3/README.md) — 2 ch · 6 tables · 4 terms
+- [Tax Registration](tax-registration-1d2fc353/README.md) — 2 ch · 8 tables · 8 terms
+- [Federal Tax Regulation](tax-regulation-34567191/README.md) — 2 ch · 7 tables · 7 terms
+- [Textbook](textbook-8a92610f/README.md) — 2 ch · 10 tables · 6 terms
+- [Top-Level Domain](top-level-domain-55695748/README.md) — 2 ch · 10 tables · 6 terms
+- [Tournament](tournament-e000a0d6/README.md) — 2 ch · 13 tables · 8 terms
+- [Tournament Game](tournament-game-7c756efe/README.md) — 2 ch · 15 tables · 6 terms
+- [Traffic Control Sign](traffic-control-sign-048d27a5/README.md) — 2 ch · 6 tables · 6 terms
+- [Training Plan](training-plan-1b5c534d/README.md) — 2 ch · 12 tables · 6 terms
+- [Transport Authorization](transport-authorization-e269bc84/README.md) — 2 ch · 6 tables · 6 terms
+- [Treatment Program](treatment-program-e270cd81/README.md) — 2 ch · 6 tables · 6 terms
+- [Universal Periodic Review Cycle](u-p-r-review-cycle-081382c7/README.md) — 2 ch · 11 tables · 7 terms
+- [University Support System](university-support-system-7afa1cab/README.md) — 2 ch · 13 tables · 6 terms
+- [User Account](user-account-0bb1b07a/README.md) — 2 ch · 5 tables · 5 terms
+- [User Account](user-account-23a6d953/README.md) — 2 ch · 6 tables · 6 terms
+- [User Account](user-account-42ec9b46/README.md) — 2 ch · 7 tables · 7 terms
+- [User Account](user-account-5783d30a/README.md) — 2 ch · 6 tables · 5 terms
+- [Vector Species](vector-species-5440544e/README.md) — 2 ch · 9 tables · 8 terms
+- [Vehicle Inspection Record](vehicle-inspection-record-4442182a/README.md) — 2 ch · 10 tables · 5 terms
+- [Vehicle Model](vehicle-model-0d8ebe5b/README.md) — 2 ch · 7 tables · 7 terms
+- [Video Delivery Service](video-delivery-service-a91f9499/README.md) — 2 ch · 21 tables · 6 terms
+- [Enterprise Video Management System](video-management-system-0154b642/README.md) — 2 ch · 10 tables · 6 terms
+- [VPN Server Device](vpn-server-fe08f7f2/README.md) — 2 ch · 15 tables · 7 terms
+- [Wall Line Dance](wall-line-dance-7685133b/README.md) — 2 ch · 9 tables · 6 terms
+- [Waste Processing Facility](waste-processing-facility-6e18cc8f/README.md) — 2 ch · 6 tables · 6 terms
+- [Waste Processing Facility](waste-processing-facility-9e55166c/README.md) — 2 ch · 16 tables · 7 terms
+- [Wastewater Treatment Process](wastewater-treatment-process-5a573bcb/README.md) — 2 ch · 22 tables · 7 terms
+- [Webinar Session](webinar-session-927f0888/README.md) — 2 ch · 7 tables · 6 terms
+- [Withholding Rule](withholding-rule-efd02f14/README.md) — 2 ch · 13 tables · 6 terms
+- [Workplace Award](workplace-award-b2684e94/README.md) — 2 ch · 9 tables · 7 terms
+- [Workplace Survey](workplace-survey-6c5ba184/README.md) — 2 ch · 13 tables · 7 terms
+- [Workshop Session](workshop-session-95c21476/README.md) — 2 ch · 15 tables · 8 terms
+- [Workshop Session](workshop-session-c878a0d5/README.md) — 2 ch · 19 tables · 6 terms
+- [World Café Event](world-caf-event-8ac47dab/README.md) — 2 ch · 26 tables · 8 terms
+- [Juvenile in Custody](youth-7a2a57ec/README.md) — 2 ch · 6 tables · 6 terms
+- [Youth Empowerment Summit](youth-empowerment-summit-0b788872/README.md) — 2 ch · 16 tables · 7 terms
+- [Mission Zone](zone-b1616806/README.md) — 2 ch · 15 tables · 8 terms
+- [Mission Zone](zone-d4bd539f/README.md) — 2 ch · 12 tables · 7 terms

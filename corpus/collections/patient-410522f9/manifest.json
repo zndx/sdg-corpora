@@ -1,0 +1,169 @@
+{
+ "construct_id": "410522f9e4692c1a",
+ "slug": "patient-410522f9",
+ "passage": "410522f9e4692c1a736a5f45fddc141788ba9438503ca969450ff75adf0f9721.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 11,
+ "entities": [
+  "Patient",
+  "OzoneTherapySession",
+  "OphthalmologicalExam",
+  "VisualFunctionParameter",
+  "OzoneTherapyProtocol"
+ ],
+ "terms": [
+  {
+   "name": "Patient",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "OzoneTherapySession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OphthalmologicalExam",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "VisualFunctionParameter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OzoneTherapyProtocol",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "patient_id",
+    "age",
+    "sex",
+    "diagnosis",
+    "disease_duration",
+    "baseline_visual_acuity",
+    "baseline_visual_field",
+    "baseline_v_e_p",
+    "baseline_p_r_c_s_t",
+    "treatment_group",
+    "ozone_therapy_protocol_id"
+   ]
+  },
+  {
+   "name": "ozone_therapy_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_number",
+    "ozone_concentration",
+    "ozone_dose",
+    "treatment_date",
+    "administered_by",
+    "session_status",
+    "patient_id",
+    "ozone_therapy_protocol_id"
+   ]
+  },
+  {
+   "name": "ophthalmological_exams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "exam_date",
+    "exam_type",
+    "visual_acuity",
+    "visual_field",
+    "visual_evoked_potentials",
+    "contrast_sensitivity",
+    "exam_performed_by",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "visual_function_parameters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parameter_name",
+    "pre_treatment_value",
+    "post_treatment_value",
+    "improvement_percentage",
+    "improvement_status",
+    "ophthalmological_exam_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "ozone_therapy_protocols",
+   "rows": 4,
+   "columns": [
+    "ozone_therapy_protocol_id",
+    "protocol_id",
+    "total_sessions",
+    "oxygen_ratio",
+    "administration_method",
+    "biochemical_adjustment"
+   ]
+  },
+  {
+   "name": "patients_sessions",
+   "rows": 8,
+   "columns": [
+    "patient_id",
+    "ozone_therapy_session_id"
+   ]
+  },
+  {
+   "name": "patients_exams",
+   "rows": 8,
+   "columns": [
+    "patient_id",
+    "ophthalmological_exam_id"
+   ]
+  },
+  {
+   "name": "exams_parameters",
+   "rows": 8,
+   "columns": [
+    "ophthalmological_exam_id",
+    "visual_function_parameter_id"
+   ]
+  },
+  {
+   "name": "protocols_patients",
+   "rows": 8,
+   "columns": [
+    "ozone_therapy_protocol_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "protocols_sessions",
+   "rows": 8,
+   "columns": [
+    "ozone_therapy_protocol_id",
+    "ozone_therapy_session_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_patient_ozone_therapy_session_detail",
+  "v_patient_ophthalmological_exam_detail",
+  "v_patient_ozone_therapy_protocol",
+  "v_ozone_therapy_session_patient",
+  "v_ozone_therapy_session_ozone_therapy_protocol",
+  "v_ophthalmological_exam_patient",
+  "v_ophthalmological_exam_visual_function_parameter_detail",
+  "v_visual_function_parameter_ophthalmological_exam",
+  "v_visual_function_parameter_patient",
+  "v_ozone_therapy_protocol_patient_detail",
+  "v_ozone_therapy_protocol_ozone_therapy_session_detail"
+ ]
+}

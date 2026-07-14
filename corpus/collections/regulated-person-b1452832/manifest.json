@@ -1,0 +1,142 @@
+{
+ "construct_id": "b1452832e97b9368",
+ "slug": "regulated-person-b1452832",
+ "passage": "b1452832e97b93688cc46184c78896c3d2fdd4ae371b9f681a94e27b838a1a93.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "RegulatedPerson",
+  "Application",
+  "Applicant",
+  "RegulatedPosition",
+  "Qualification",
+  "ProfessionalMembership"
+ ],
+ "terms": [
+  {
+   "name": "RegulatedPerson",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Application",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Applicant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RegulatedPosition",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Qualification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProfessionalMembership",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "RegulatedPerson",
+   "rows": 4,
+   "columns": [
+    "id",
+    "certificateNumber",
+    "legalName",
+    "registeredAddress",
+    "status",
+    "registrationDate",
+    "applicantId",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "Application",
+   "rows": 4,
+   "columns": [
+    "id",
+    "applicationId",
+    "submissionDate",
+    "status",
+    "applicationType",
+    "processingOffice",
+    "personId",
+    "applicantId",
+    "positionId"
+   ]
+  },
+  {
+   "name": "Applicant",
+   "rows": 4,
+   "columns": [
+    "applicantId",
+    "passportNumber",
+    "socialSecurityNumber",
+    "dateOfBirth",
+    "placeOfBirth",
+    "nationality",
+    "currentResidence",
+    "residenceDuration",
+    "qualificationId",
+    "membershipNumber",
+    "personId"
+   ]
+  },
+  {
+   "name": "RegulatedPosition",
+   "rows": 4,
+   "columns": [
+    "positionId",
+    "positionTitle",
+    "proposedStartDate",
+    "isMoneyLaunderingReportingOfficer",
+    "employmentType",
+    "applicantId",
+    "personId"
+   ]
+  },
+  {
+   "name": "Qualification",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institutionName",
+    "qualificationType",
+    "completionDate",
+    "applicantId"
+   ]
+  },
+  {
+   "name": "ProfessionalMembership",
+   "rows": 4,
+   "columns": [
+    "organizationName",
+    "membershipStatus",
+    "memberSince",
+    "membershipNumber",
+    "applicantId"
+   ]
+  }
+ ],
+ "views": [
+  "regulated_person_applicant_view",
+  "regulated_person_application_view",
+  "application_regulated_person_view",
+  "application_applicant_view",
+  "application_regulated_position_view",
+  "applicant_qualification_view",
+  "applicant_professional_membership_view",
+  "applicant_regulated_person_view",
+  "regulated_position_applicant_view",
+  "regulated_position_regulated_person_view",
+  "qualification_applicant_view",
+  "professional_membership_applicant_view"
+ ]
+}

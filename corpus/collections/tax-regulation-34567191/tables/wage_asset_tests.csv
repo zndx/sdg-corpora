@@ -1,0 +1,5 @@
+id,wage_limit,asset_limit,combined_limit,phase_in_percentage,is_fully_applicable,test_year,trade_or_business_employer_id,tax_deduction_id
+1,12.72,10.45,12.70,6.95,true,28,The Hongkong and Shanghai Banking Corporation Limited,1000
+2,14.31,12.90,14.40,10.90,false,34,ChargePoint Holdings.,1001
+3,19.97,15.35,16.10,14.85,true,40,Intl. Business Machines,1002
+4,17.41,17.80,17.80,18.80,false,46,Feedback Ratings,1003

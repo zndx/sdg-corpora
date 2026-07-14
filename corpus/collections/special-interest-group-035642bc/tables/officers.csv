@@ -1,0 +1,5 @@
+id,role,appointment_date,term_end_date,status,special_interest_group_id
+1000,Chair,2022-05-03T16:12:00,2025-08-24T07:45:00,active,1
+1001,Vice-Chair,2023-10-14T23:29:00,2022-01-08T14:02:00,former,2
+1002,Treasurer,2024-03-25T06:46:00,2023-06-19T21:19:00,active,3
+1003,Secretary,2025-08-09T13:03:00,2024-11-03T04:36:00,former,4

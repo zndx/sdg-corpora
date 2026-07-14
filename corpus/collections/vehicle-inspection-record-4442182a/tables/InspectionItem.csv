@@ -1,0 +1,5 @@
+itemId,itemName,systemCategory,complianceStatus,defectDescription,rectificationDate,vehicleId,recordId,issueId
+1,Seasonal Survey,ELECTRICAL SYSTEM & LIGHTS,compliant,Extended Initiative,2022-01-08,1,1,1
+2,Integrated Corridor,SEAT BELTS & RESTRAINTS,non-compliant,Pilot Model A,2023-06-19,2,2,2
+3,Extended Series D,WHEELS & TYRES,compliant,Baseline Cluster,2024-11-03,3,3,3
+4,Pilot Assessment,BRAKES,non-compliant,Distributed Review,2025-04-14,4,4,4

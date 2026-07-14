@@ -1,0 +1,5 @@
+hotline_identifier,phone_number,text_keyword,availability_schedule,is_free,is_confidential,service_organization_id,social_issue_id,social_service_resource_id
+HOT-2203,PHO-2092,seasonal-text-47,24/7,true,false,1,1,1000
+HOT-2207,PHO-2093,regional-text-48,Business Hours,false,true,2,2,1001
+HOT-2211,PHO-2094,legacy-text-49,Evening Only,true,false,3,3,1002
+HOT-2215,PHO-2095,compact-text-50,24/7,false,true,4,4,1003

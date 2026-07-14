@@ -1,0 +1,5 @@
+id,system_id,version,deployment_type,ha_enabled,last_audit_date,compliance_standard,u_m_m_id,created_at
+1,8189503,seasonal-version-71,compact-deployme-68,false,2023-10-23,SOX,100,2025-01-01 00:14:00
+2,3717623,regional-version-72,composite-deployme-69,true,2024-03-07,IT-GCC,101,2025-02-06 03:14:00
+3,7441161,legacy-version-73,primary-deployme-70,false,2025-08-18,SOX,102,2025-03-11 06:14:00
+4,605963,compact-version-74,adaptive-deployme-71,true,2022-01-02,IT-GCC,103,2025-04-16 09:14:00

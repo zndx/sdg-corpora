@@ -1,0 +1,178 @@
+{
+ "construct_id": "171e04549b58e7aa",
+ "slug": "quality-improvement-program-171e0454",
+ "passage": "171e04549b58e7aae639db445a27a336f278bfef4496e1be9f6ec6cd190c6633.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 16,
+ "entities": [
+  "QualityImprovementProgram",
+  "FirstResponderOrganization",
+  "Municipality",
+  "ClinicalPerformanceData",
+  "QuantitativeAnalyticTool",
+  "PatientOutcome"
+ ],
+ "terms": [
+  {
+   "name": "QualityImprovementProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FirstResponderOrganization",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Municipality",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalPerformanceData",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "QuantitativeAnalyticTool",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PatientOutcome",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "quality_improvement_programs",
+   "rows": 4,
+   "columns": [
+    "quality_improvement_program_id",
+    "program_identifier",
+    "program_name",
+    "start_date",
+    "status",
+    "methodology",
+    "target_population",
+    "first_responder_organization_id",
+    "clinical_performance_data_id",
+    "patient_outcome_id"
+   ]
+  },
+  {
+   "name": "first_responder_organizations",
+   "rows": 4,
+   "columns": [
+    "first_responder_organization_id",
+    "organization_i_d",
+    "organization_name",
+    "jurisdiction",
+    "established_date",
+    "service_type",
+    "participation_status",
+    "quality_improvement_program_id",
+    "municipality_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "municipalities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "municipality_i_d",
+    "municipality_name",
+    "state",
+    "population",
+    "area_sq_km",
+    "incorporation_date",
+    "quality_improvement_program_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "clinical_performance_datas",
+   "rows": 4,
+   "columns": [
+    "clinical_performance_data_id",
+    "data_record_i_d",
+    "collection_date",
+    "metric_type",
+    "value",
+    "unit_of_measure",
+    "data_quality",
+    "first_responder_organization_id",
+    "quantitative_analytic_tool_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "quantitative_analytic_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_i_d",
+    "tool_name",
+    "tool_type",
+    "version",
+    "last_updated",
+    "validation_status",
+    "patient_outcome_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "patient_outcomes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outcome_i_d",
+    "measurement_date",
+    "outcome_type",
+    "value",
+    "unit_of_measure",
+    "improvement_direction",
+    "quality_improvement_program_id",
+    "quantitative_analytic_tool_id",
+    "first_responder_organization_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "municipalities_organizations",
+   "rows": 8,
+   "columns": [
+    "municipality_id",
+    "first_responder_organization_id"
+   ]
+  },
+  {
+   "name": "tools_datas",
+   "rows": 8,
+   "columns": [
+    "quantitative_analytic_tool_id",
+    "clinical_performance_data_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_quality_improvement_program_first_responder_organization",
+  "vw_quality_improvement_program_clinical_performance_data",
+  "vw_quality_improvement_program_patient_outcome",
+  "vw_first_responder_organization_quality_improvement_program",
+  "vw_first_responder_organization_municipality",
+  "vw_municipality_first_responder_organization_detail",
+  "vw_municipality_quality_improvement_program",
+  "vw_clinical_performance_data_first_responder_organization",
+  "vw_clinical_performance_data_quantitative_analytic_tool",
+  "vw_clinical_performance_data_quality_improvement_program",
+  "vw_quantitative_analytic_tool_clinical_performance_data_detail",
+  "vw_quantitative_analytic_tool_patient_outcome",
+  "vw_quantitative_analytic_tool_quality_improvement_program",
+  "vw_patient_outcome_quality_improvement_program",
+  "vw_patient_outcome_quantitative_analytic_tool",
+  "vw_patient_outcome_first_responder_organization"
+ ]
+}

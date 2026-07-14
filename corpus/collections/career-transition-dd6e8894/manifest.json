@@ -1,0 +1,198 @@
+{
+ "construct_id": "dd6e88944e7c59f0",
+ "slug": "career-transition-dd6e8894",
+ "passage": "dd6e88944e7c59f051af3388724fd7d177cbf352e33fdd8131edd1039370e42b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 11,
+ "entities": [
+  "CareerTransition",
+  "OlderAdult",
+  "ResearchPhase",
+  "PrincipalInvestigator",
+  "ResearchCoordinator",
+  "ResearchAssistant",
+  "FundingGrant"
+ ],
+ "terms": [
+  {
+   "name": "CareerTransition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OlderAdult",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchPhase",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PrincipalInvestigator",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchCoordinator",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchAssistant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FundingGrant",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "career_transitions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transition_id",
+    "transition_type",
+    "start_date",
+    "end_date",
+    "description",
+    "phase_id"
+   ]
+  },
+  {
+   "name": "older_adults",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participant_id",
+    "age",
+    "gender",
+    "employment_status",
+    "previous_occupation",
+    "career_transition_id",
+    "phase_id"
+   ]
+  },
+  {
+   "name": "research_phases",
+   "rows": 4,
+   "columns": [
+    "phase_id",
+    "phase_number",
+    "focus_area",
+    "start_date",
+    "end_date",
+    "status",
+    "principal_investigator_id",
+    "research_coordinator_id"
+   ]
+  },
+  {
+   "name": "principal_investigators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "investigator_id",
+    "full_name",
+    "title",
+    "affiliation",
+    "contact_email",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "research_coordinators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "coordinator_id",
+    "full_name",
+    "role",
+    "start_date",
+    "end_date",
+    "phase_id"
+   ]
+  },
+  {
+   "name": "research_assistants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assistant_id",
+    "full_name",
+    "degree",
+    "institution",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "funding_grants",
+   "rows": 4,
+   "columns": [
+    "funding_grant_id",
+    "grant_id",
+    "funder_name",
+    "amount",
+    "award_date",
+    "purpose"
+   ]
+  },
+  {
+   "name": "transitions_adults",
+   "rows": 8,
+   "columns": [
+    "career_transition_id",
+    "older_adult_id"
+   ]
+  },
+  {
+   "name": "phases_assistants",
+   "rows": 8,
+   "columns": [
+    "phase_id",
+    "research_assistant_id"
+   ]
+  },
+  {
+   "name": "investigators_phases",
+   "rows": 8,
+   "columns": [
+    "principal_investigator_id",
+    "phase_id"
+   ]
+  },
+  {
+   "name": "assistants_phases",
+   "rows": 8,
+   "columns": [
+    "research_assistant_id",
+    "phase_id"
+   ]
+  },
+  {
+   "name": "grants_phases",
+   "rows": 8,
+   "columns": [
+    "funding_grant_id",
+    "phase_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_career_transition_older_adult_detail",
+  "v_career_transition_research_phase",
+  "v_older_adult_career_transition",
+  "v_older_adult_research_phase",
+  "v_research_phase_principal_investigator",
+  "v_research_phase_research_coordinator",
+  "v_research_phase_research_assistant_detail",
+  "v_principal_investigator_research_phase_detail",
+  "v_research_coordinator_research_phase",
+  "v_research_assistant_research_phase_detail",
+  "v_funding_grant_research_phase_detail"
+ ]
+}

@@ -1,0 +1,5 @@
+id,org_id,org_name,org_type,is_philanthropic,founding_year,campus_event_id,academic_department_id
+1000,790471,Extended Review,Sorority,false,43,100,1
+1001,1717,Pilot Initiative A,Fraternity,true,48,101,2
+1002,69437,Baseline Model,Club,false,53,102,3
+1003,m16,Distributed Cluster,Ensemble,true,58,103,4

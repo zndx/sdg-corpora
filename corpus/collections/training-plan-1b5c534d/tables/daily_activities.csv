@@ -1,0 +1,5 @@
+id,activity_type,scheduled_day,duration_minutes,distance_km,pace,is_rest_day,weekly_schedule_id,dog_id,owner_id
+1000,rest,Monday,35,254.69342,walk,false,100,1,1
+1001,walk,Tuesday,38,0.075,jog,true,101,2,2
+1002,jog,Wednesday,41,150.80444,run,false,102,3,3
+1003,interval,Thursday,44,37.5,walk,true,103,4,4

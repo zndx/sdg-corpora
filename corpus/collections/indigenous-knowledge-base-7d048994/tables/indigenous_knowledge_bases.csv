@@ -1,0 +1,5 @@
+knowledge_base_id,community_name,region,primary_hazard_type,transmission_mode,last_verified_date,is_integrated,community_id,strategy_id,interacts_with_knowledge_base_id
+220,Primary Initiative A,distributed-region-12,tsunami,oral_tradition,2024-11-16T10:42:00,true,1,392481,220
+5844261,Composite Model,baseline-region-13,volcanic_ash,ritual_practice,2025-04-27T17:59:00,false,2,24897677,5844261
+flexible-thinking,Compact Cluster,pilot-region-14,landslide,landmark_based,2022-09-11T00:16:00,true,3,9736901,flexible-thinking
+727060,Legacy Review D,extended-region-15,cyclone,kinship_network,2023-02-22T07:33:00,false,4,25893422,727060

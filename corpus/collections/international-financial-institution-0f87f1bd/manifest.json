@@ -1,0 +1,141 @@
+{
+ "construct_id": "0f87f1bd03005fec",
+ "slug": "international-financial-institution-0f87f1bd",
+ "passage": "0f87f1bd03005fec7246a184e21b63d5d90dfc0208866d6da14ff804914be97e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "InternationalFinancialInstitution",
+  "AccountabilityMechanism",
+  "DevelopmentProject",
+  "AffectedCommunity",
+  "PolicyReform"
+ ],
+ "terms": [
+  {
+   "name": "InternationalFinancialInstitution",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AccountabilityMechanism",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DevelopmentProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AffectedCommunity",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PolicyReform",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "international_financial_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "name",
+    "founding_year",
+    "governance_structure",
+    "primary_mission",
+    "accountability_mechanism_id",
+    "development_project_id"
+   ]
+  },
+  {
+   "name": "accountability_mechanisms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mechanism_id",
+    "mechanism_name",
+    "establishment_year",
+    "independence_level",
+    "scope_of_authority",
+    "current_status",
+    "international_financial_institution_id",
+    "development_project_id",
+    "affected_community_id"
+   ]
+  },
+  {
+   "name": "development_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_id",
+    "project_name",
+    "project_type",
+    "location_country",
+    "funding_institution",
+    "start_date",
+    "end_date",
+    "total_budget",
+    "international_financial_institution_id",
+    "accountability_mechanism_id"
+   ]
+  },
+  {
+   "name": "affected_communities",
+   "rows": 4,
+   "columns": [
+    "affected_community_id",
+    "community_id",
+    "community_name",
+    "region",
+    "population_size",
+    "vulnerability_index",
+    "primary_language",
+    "development_project_id",
+    "accountability_mechanism_id"
+   ]
+  },
+  {
+   "name": "policy_reforms",
+   "rows": 4,
+   "columns": [
+    "policy_reform_id",
+    "reform_id",
+    "reform_title",
+    "proposed_year",
+    "target_mechanism",
+    "reform_type",
+    "implementation_status",
+    "international_financial_institution_id",
+    "accountability_mechanism_id"
+   ]
+  },
+  {
+   "name": "projects_communities",
+   "rows": 8,
+   "columns": [
+    "development_project_id",
+    "affected_community_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_international_financial_institution_accountability_mechanism",
+  "vw_international_financial_institution_development_project",
+  "vw_accountability_mechanism_international_financial_institution",
+  "vw_accountability_mechanism_development_project",
+  "vw_accountability_mechanism_affected_community",
+  "vw_development_project_international_financial_institution",
+  "vw_development_project_affected_community_detail",
+  "vw_development_project_accountability_mechanism",
+  "vw_affected_community_development_project",
+  "vw_affected_community_accountability_mechanism",
+  "vw_policy_reform_international_financial_institution",
+  "vw_policy_reform_accountability_mechanism"
+ ]
+}

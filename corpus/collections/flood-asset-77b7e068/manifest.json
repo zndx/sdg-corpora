@@ -1,0 +1,225 @@
+{
+ "construct_id": "77b7e068aa941649",
+ "slug": "flood-asset-77b7e068",
+ "passage": "77b7e068aa941649796b491ecb5d20046b679b25ccbfd6f7e41b6640f62cfa17.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 19,
+ "entities": [
+  "FloodAsset",
+  "ConditionRecord",
+  "EarthObservationData",
+  "GeographicZone",
+  "FloodHazard",
+  "SatelliteMission",
+  "MeasurementMethod"
+ ],
+ "terms": [
+  {
+   "name": "FloodAsset",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ConditionRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EarthObservationData",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "GeographicZone",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "FloodHazard",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SatelliteMission",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MeasurementMethod",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "flood_assets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "asset_id",
+    "asset_name",
+    "asset_type",
+    "construction_year",
+    "design_capacity",
+    "is_critical",
+    "geographic_zone_id",
+    "flood_hazard_id"
+   ]
+  },
+  {
+   "name": "condition_records",
+   "rows": 4,
+   "columns": [
+    "record_id",
+    "assessment_date",
+    "condition_score",
+    "vulnerability_level",
+    "defect_type",
+    "is_verified",
+    "flood_asset_id",
+    "earth_observation_data_id",
+    "measurement_method_id"
+   ]
+  },
+  {
+   "name": "earth_observation_datas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "data_product_id",
+    "acquisition_date",
+    "sensor_type",
+    "spatial_resolution",
+    "coverage_area",
+    "data_quality_index",
+    "is_copernicus_source",
+    "geographic_zone_id",
+    "satellite_mission_id"
+   ]
+  },
+  {
+   "name": "geographic_zones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "zone_id",
+    "zone_name",
+    "zone_type",
+    "area_size",
+    "population_density",
+    "is_coastal",
+    "flood_hazard_id",
+    "earth_observation_data_id"
+   ]
+  },
+  {
+   "name": "flood_hazards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "hazard_id",
+    "event_date",
+    "peak_water_level",
+    "duration",
+    "hazard_severity",
+    "cause_type",
+    "geographic_zone_id",
+    "record_id"
+   ]
+  },
+  {
+   "name": "satellite_missions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mission_id",
+    "mission_name",
+    "operator",
+    "launch_year",
+    "orbit_type",
+    "is_copernicus_mission",
+    "geographic_zone_id"
+   ]
+  },
+  {
+   "name": "measurement_methods",
+   "rows": 4,
+   "columns": [
+    "measurement_method_id",
+    "method_id",
+    "method_name",
+    "method_type",
+    "accuracy_level",
+    "cost_index",
+    "is_automated",
+    "flood_asset_id"
+   ]
+  },
+  {
+   "name": "assets_records",
+   "rows": 8,
+   "columns": [
+    "flood_asset_id",
+    "record_id"
+   ]
+  },
+  {
+   "name": "datas_records",
+   "rows": 8,
+   "columns": [
+    "earth_observation_data_id",
+    "record_id"
+   ]
+  },
+  {
+   "name": "zones_assets",
+   "rows": 8,
+   "columns": [
+    "geographic_zone_id",
+    "flood_asset_id"
+   ]
+  },
+  {
+   "name": "hazards_assets",
+   "rows": 8,
+   "columns": [
+    "flood_hazard_id",
+    "flood_asset_id"
+   ]
+  },
+  {
+   "name": "missions_datas",
+   "rows": 8,
+   "columns": [
+    "satellite_mission_id",
+    "earth_observation_data_id"
+   ]
+  },
+  {
+   "name": "methods_records",
+   "rows": 8,
+   "columns": [
+    "measurement_method_id",
+    "record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_flood_asset_condition_record_detail",
+  "v_flood_asset_geographic_zone",
+  "v_flood_asset_flood_hazard",
+  "v_condition_record_flood_asset",
+  "v_condition_record_earth_observation_data",
+  "v_condition_record_measurement_method",
+  "v_earth_observation_data_condition_record_detail",
+  "v_earth_observation_data_geographic_zone",
+  "v_earth_observation_data_satellite_mission",
+  "v_geographic_zone_flood_asset_detail",
+  "v_geographic_zone_flood_hazard",
+  "v_geographic_zone_earth_observation_data",
+  "v_flood_hazard_flood_asset_detail",
+  "v_flood_hazard_geographic_zone",
+  "v_flood_hazard_condition_record",
+  "v_satellite_mission_earth_observation_data_detail",
+  "v_satellite_mission_geographic_zone",
+  "v_measurement_method_condition_record_detail",
+  "v_measurement_method_flood_asset"
+ ]
+}

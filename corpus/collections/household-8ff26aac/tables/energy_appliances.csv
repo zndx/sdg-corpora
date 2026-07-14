@@ -1,0 +1,5 @@
+id,appliance_id,appliance_type,rated_power_watts,energy_star_rating,purchase_date,operational_status,household_id
+1,b_VB-IC-12,refrigerator,18.45,18,2022-01-07,active,1000
+2,CH9UT3,air_conditioner,20.90,27,2023-06-18,inactive,1001
+3,790487,water_heater,23.35,36,2024-11-02,maintenance,1002
+4,9125640,lighting,25.80,45,2025-04-13,active,1003

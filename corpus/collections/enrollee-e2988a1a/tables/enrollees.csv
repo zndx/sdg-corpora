@@ -1,0 +1,5 @@
+id,enrollee_id,enrollment_date,plan_name,status,reminder_letter_id,created_at,updated_at
+1000,6564388,2022-05-11,Regional Cluster,active,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,3744022,2023-10-22,Seasonal Review D,transitioning,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,97e76936-9bad-11eb-a8a2-19ed5c03f8d3,2024-03-06,Integrated Initiative,lapsed,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,10207169,2025-08-17,Extended Model,active,103,2025-04-16 09:14:00,2025-04-23 15:41:00

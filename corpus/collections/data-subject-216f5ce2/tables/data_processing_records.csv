@@ -1,0 +1,5 @@
+data_processing_record_id,processing_purpose,legal_ground,data_extent,processing_period_start,processing_period_end,is_objection_allowed,data_controller_id
+1,website_improvement,legitimate_interest,behavioral_data,2024-11-09T22:30:00,2023-02-07T01:51:00,false,1000
+2,customer_communication,consent,contact_details,2025-04-20T05:47:00,2024-07-18T08:08:00,true,1001
+3,commercial_offers,legitimate_interest,communication_history,2022-09-04T12:04:00,2025-12-02T15:25:00,false,1002
+4,partner_offers,consent,behavioral_data,2023-02-15T19:21:00,2022-05-13T22:42:00,true,1003

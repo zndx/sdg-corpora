@@ -1,0 +1,5 @@
+account_number,minimum_capital_requirement,asset_liquidity_status,bank_identifier,service_provider_id
+ACC-2253,17.70,false,BAN-2796,1000
+ACC-2256,22.40,true,BAN-2798,1001
+ACC-2259,27.10,false,BAN-2800,1002
+ACC-2262,31.80,true,BAN-2802,1003

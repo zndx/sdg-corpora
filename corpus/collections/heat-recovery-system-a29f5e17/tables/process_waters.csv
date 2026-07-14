@@ -1,0 +1,5 @@
+id,water_identifier,usage_type,flow_rate,temperature,preheated_by,heat_recovery_system_id,pulp_mill_id
+1,WAT-2792,boiler_makeup,11.45,1.33,true,1,100
+2,WAT-2794,bleach_plant_makeup,15.90,1.1714807757148185,false,2,101
+3,WAT-2796,cooling,20.35,0.51,true,3,102
+4,WAT-2798,boiler_makeup,24.80,0.85,false,4,103

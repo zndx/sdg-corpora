@@ -1,0 +1,5 @@
+germination_requirement_id,requirement_type,cue_substance,moisture_threshold,host_root_proximity_required,parasitic_weed_species_id,created_at
+1,biochemical_cue,seasonal-cue-17,22.45,true,100,2025-01-01 00:14:00
+2,soil_moisture,regional-cue-18,26.90,false,101,2025-02-06 03:14:00
+3,temperature,legacy-cue-19,31.35,true,102,2025-03-11 06:14:00
+4,biochemical_cue,compact-cue-20,35.80,false,103,2025-04-16 09:14:00

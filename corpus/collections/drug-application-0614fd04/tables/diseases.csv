@@ -1,0 +1,5 @@
+disease_id,disease_name,icd_code,prevalence,incidence,mortality_rate,chronic_status,transmission_route,primary_treatment,global_burden,active_pharmaceutical_ingredient_api_id,geographic_region_id,has_carrier_count_geographic_region_id
+884351,Regional Protocol,a0f8eb4e-8fcd-11eb-924d-9cd76263cbd0,20.45,21.45,3.70,false,regional-transmis-90,seasonal-primary-11,primary-global-76,0579699c-8fc7-11eb-924d-9cd76263cbd0,1000,1000
+790478,Seasonal Programme D,4180967,24.90,25.90,7.40,true,legacy-transmis-91,regional-primary-12,adaptive-global-77,476b5bc0-9bad-11eb-a8a2-19ed5c03f8d3,1001,1001
+d3c3d00e-8fb2-11eb-924d-9cd76263cbd0,Integrated Standard,974938,29.35,30.35,11.10,false,compact-transmis-92,legacy-primary-13,distributed-global-78,4447008,1002,1002
+state_et_7,Extended Framework,id_25,33.80,34.80,14.80,true,composite-transmis-93,compact-primary-14,baseline-global-79,9246330,1003,1003

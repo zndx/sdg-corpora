@@ -1,0 +1,5 @@
+registration_id,issue_date,expiry_date,status,turnover_threshold,state_of_registration,application_submission_date,is_exempted,trader_id,jurisdiction_code,input_tax_credit_id,created_at,updated_at
+2106693,2023-02-01,2023-10-24,active,8.95,composite-state-51,2023-06-12T17:51:00,true,1,5917299,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+778572,2024-07-12,2024-03-08,pending,11.90,primary-state-52,2024-11-23T00:08:00,false,2,id_25,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+8387538,2025-12-23,2025-08-19,cancelled,14.85,adaptive-state-53,2025-04-07T07:25:00,true,3,7731856,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4277008,2022-05-07,2022-01-03,provisional,17.80,distributed-state-54,2022-09-18T14:42:00,false,4,7c692762-8fcd-11eb-924d-9cd76263cbd0,103,2025-04-16 09:14:00,2025-04-23 15:41:00

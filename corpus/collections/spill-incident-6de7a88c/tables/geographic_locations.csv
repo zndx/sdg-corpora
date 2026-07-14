@@ -1,0 +1,5 @@
+id,location_id,latitude,longitude,location_name,water_depth,distance_from_shore,location_type,spill_incident_id,ecological_resource_id
+1,778556,13.95,21.20,Legacy Review D,249.62567,5.12,incident_site,100,1
+2,1250220,17.90,25.40,Regional Initiative,1.42,0.07499999,salvage_site,101,2
+3,14511,21.85,29.60,Seasonal Model,191.0,5.0,scuttle_site,102,3
+4,611510,25.80,33.80,Integrated Cluster A,38.53310265213535,0.01999998,refuge_boundary,103,4

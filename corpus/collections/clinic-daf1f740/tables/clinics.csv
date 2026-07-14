@@ -1,0 +1,5 @@
+id,clinic_id,clinic_name,branch_of,address,city,state,has_telehealth,program_id,charting_software_id
+1,gd_taxc_1122,Distributed Standard,legacy-branch-37,distributed-address-72,integrated-city-34,distributed-state-84,true,103176,1
+2,2106713,Adaptive Framework D,compact-branch-38,baseline-address-73,seasonal-city-35,baseline-state-85,false,2986219,2
+3,506004,Primary Protocol,composite-branch-39,pilot-address-74,regional-city-36,pilot-state-86,true,1186079,3
+4,8928507,Composite Programme,primary-branch-40,extended-address-75,legacy-city-37,extended-state-87,false,1562855,4

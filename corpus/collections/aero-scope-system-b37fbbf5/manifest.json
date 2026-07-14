@@ -1,0 +1,273 @@
+{
+ "construct_id": "b37fbbf5b8fe3676",
+ "slug": "aero-scope-system-b37fbbf5",
+ "passage": "b37fbbf5b8fe36764534b3a8528c2e75e0b9bad884aa89c9e0e76a9e8183e389.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 29,
+ "entities": [
+  "AeroScopeSystem",
+  "DongleModule",
+  "Drone",
+  "DataPackage",
+  "FlightPathPoint",
+  "DjiServer",
+  "EncryptionKey",
+  "NetworkSegment",
+  "SecurityPolicy",
+  "SecurityAudit",
+  "VulnerabilityReport"
+ ],
+ "terms": [
+  {
+   "name": "AeroScopeSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DongleModule",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Drone",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DataPackage",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FlightPathPoint",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DjiServer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EncryptionKey",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkSegment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SecurityPolicy",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SecurityAudit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VulnerabilityReport",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "aero_scope_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "firmware_version",
+    "detection_range_km",
+    "status",
+    "last_maintenance_date",
+    "dongle_module_id",
+    "drone_id",
+    "network_segment_id"
+   ]
+  },
+  {
+   "name": "dongle_modules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dongle_id",
+    "firmware_hash",
+    "manufacture_date",
+    "encryption_support",
+    "security_risk_level",
+    "server_id",
+    "aero_scope_system_id"
+   ]
+  },
+  {
+   "name": "drones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "serial_number",
+    "manufacturer",
+    "flight_status",
+    "last_known_location",
+    "encryption_status",
+    "aero_scope_system_id",
+    "data_package_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "data_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "package_id",
+    "timestamp",
+    "payload_size_bytes",
+    "encryption_algorithm",
+    "decryption_status",
+    "drone_id",
+    "aero_scope_system_id"
+   ]
+  },
+  {
+   "name": "flight_path_points",
+   "rows": 4,
+   "columns": [
+    "id",
+    "point_id",
+    "latitude",
+    "longitude",
+    "altitude_meters",
+    "timestamp",
+    "data_package_id",
+    "aero_scope_system_id"
+   ]
+  },
+  {
+   "name": "dji_servers",
+   "rows": 4,
+   "columns": [
+    "server_id",
+    "ip_address",
+    "last_communication_time",
+    "response_latency_ms",
+    "security_audit_status",
+    "dongle_module_id",
+    "key_id",
+    "network_segment_id"
+   ]
+  },
+  {
+   "name": "encryption_keys",
+   "rows": 4,
+   "columns": [
+    "key_id",
+    "algorithm_type",
+    "key_length_bits",
+    "expiration_date",
+    "usage_count",
+    "server_id",
+    "dongle_module_id",
+    "data_package_id"
+   ]
+  },
+  {
+   "name": "network_segments",
+   "rows": 4,
+   "columns": [
+    "network_segment_id",
+    "segment_id",
+    "security_level",
+    "firewall_enabled",
+    "last_audit_date",
+    "connected_devices_count",
+    "aero_scope_system_id",
+    "server_id",
+    "security_policy_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "security_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_name",
+    "effective_date",
+    "last_review_date",
+    "compliance_status",
+    "network_segment_id",
+    "audit_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "security_audits",
+   "rows": 4,
+   "columns": [
+    "audit_id",
+    "audit_date",
+    "auditor_name",
+    "findings_count",
+    "risk_rating",
+    "network_segment_id",
+    "security_policy_id",
+    "vulnerability_report_id"
+   ]
+  },
+  {
+   "name": "vulnerability_reports",
+   "rows": 4,
+   "columns": [
+    "vulnerability_report_id",
+    "report_id",
+    "vulnerability_type",
+    "severity_score",
+    "discovery_date",
+    "remediation_status",
+    "audit_id",
+    "network_segment_id",
+    "security_policy_id"
+   ]
+  },
+  {
+   "name": "packages_points",
+   "rows": 8,
+   "columns": [
+    "data_package_id",
+    "flight_path_point_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_aero_scope_system_dongle_module",
+  "vw_aero_scope_system_drone",
+  "vw_aero_scope_system_network_segment",
+  "vw_dongle_module_dji_server",
+  "vw_dongle_module_aero_scope_system",
+  "vw_drone_aero_scope_system",
+  "vw_drone_data_package",
+  "vw_data_package_drone",
+  "vw_data_package_aero_scope_system",
+  "vw_data_package_flight_path_point_detail",
+  "vw_flight_path_point_data_package",
+  "vw_flight_path_point_aero_scope_system",
+  "vw_dji_server_dongle_module",
+  "vw_dji_server_encryption_key",
+  "vw_dji_server_network_segment",
+  "vw_encryption_key_dji_server",
+  "vw_encryption_key_dongle_module",
+  "vw_encryption_key_data_package",
+  "vw_network_segment_aero_scope_system",
+  "vw_network_segment_dji_server",
+  "vw_network_segment_security_policy",
+  "vw_security_policy_network_segment",
+  "vw_security_policy_security_audit",
+  "vw_security_audit_network_segment",
+  "vw_security_audit_security_policy",
+  "vw_security_audit_vulnerability_report",
+  "vw_vulnerability_report_security_audit",
+  "vw_vulnerability_report_network_segment",
+  "vw_vulnerability_report_security_policy"
+ ]
+}

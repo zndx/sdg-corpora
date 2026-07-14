@@ -1,0 +1,5 @@
+id,process_id,process_name,average_duration_hours,efficiency_gain_percent,process_status,budget_submission_id
+1,template_ivacode_pagata_art15,Distributed Review,18.20,5.70,manual,100
+2,27cebc1c-9bad-11eb-a8a2-19ed5c03f8d3,Adaptive Initiative D,22.40,9.40,automated,101
+3,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,Primary Model,26.60,13.10,hybrid,102
+4,1205-0002-XL,Composite Cluster,30.80,16.80,manual,103

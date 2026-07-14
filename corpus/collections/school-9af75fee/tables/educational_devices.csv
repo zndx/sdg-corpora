@@ -1,0 +1,5 @@
+device_id,device_type,manufacturer,model_number,procurement_cost,specification_score,status,school_id,supplier_id
+3744015,tablet,Standard Chartered,MOD-2238,"2,996",7.20,procured,100,1
+392495,laptop,General Motors,MOD-2244,"172,403",10.40,distributed,101,2
+209205,desktop,Column Name cannot be empty,MOD-2250,19.97,13.60,deployed,102,3
+22106999,chromebook,Financial Information Service Co. Ltd.,MOD-2256,261.79,16.80,retired,103,4

@@ -1,0 +1,5 @@
+id,population_identifier,household_count,average_household_size,evacuation_compliance_rate,transportation_access,geographic_zone_id,warning_method_id,evacuation_order_id
+1,POP-2555,66,3.9440646171569824,9.95,private_vehicle,100,1,1
+2,POP-2556,5,1.65,12.90,public_transit,101,2,2
+3,POP-2557,21,1.15,15.85,none,102,3,3
+4,POP-2558,3,2.82,18.80,private_vehicle,103,4,4

@@ -1,0 +1,161 @@
+{
+ "construct_id": "9da7d2d67fc709f9",
+ "slug": "chemical-management-expert-9da7d2d6",
+ "passage": "9da7d2d67fc709f9af6e3f9a284a76df35723778a8314d2b918cbc9e991a43ce.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "ChemicalManagementExpert",
+  "EnvironmentalAuthority",
+  "InternationalNetwork",
+  "EnvironmentalRegulation",
+  "ChemicalActivity",
+  "Facility"
+ ],
+ "terms": [
+  {
+   "name": "ChemicalManagementExpert",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "EnvironmentalAuthority",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InternationalNetwork",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnvironmentalRegulation",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "ChemicalActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "chemical_management_experts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "expert_identifier",
+    "full_name",
+    "degree",
+    "specialization",
+    "start_date",
+    "current_status",
+    "environmental_authority_id",
+    "international_network_id"
+   ]
+  },
+  {
+   "name": "environmental_authorities",
+   "rows": 4,
+   "columns": [
+    "environmental_authority_id",
+    "authority_code",
+    "authority_name",
+    "country_code",
+    "established_date",
+    "competence_level",
+    "is_competent_authority",
+    "regulation_id"
+   ]
+  },
+  {
+   "name": "international_networks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "network_code",
+    "network_name",
+    "founding_date",
+    "member_count",
+    "scope",
+    "is_active",
+    "chemical_management_expert_id",
+    "environmental_authority_id"
+   ]
+  },
+  {
+   "name": "environmental_regulations",
+   "rows": 4,
+   "columns": [
+    "regulation_id",
+    "regulation_title",
+    "issuing_body",
+    "effective_date",
+    "jurisdiction",
+    "status",
+    "environmental_authority_id",
+    "chemical_activity_id"
+   ]
+  },
+  {
+   "name": "chemical_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "activity_type",
+    "start_date",
+    "end_date",
+    "status",
+    "risk_level",
+    "chemical_management_expert_id",
+    "regulation_id",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_id",
+    "facility_name",
+    "address",
+    "permit_number",
+    "operational_status",
+    "last_inspection_date",
+    "chemical_activity_id",
+    "environmental_authority_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "authorities_experts",
+   "rows": 8,
+   "columns": [
+    "environmental_authority_id",
+    "chemical_management_expert_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_chemical_management_expert_environmental_authority",
+  "v_chemical_management_expert_international_network",
+  "v_environmental_authority_chemical_management_expert_detail",
+  "v_environmental_authority_environmental_regulation",
+  "v_international_network_chemical_management_expert",
+  "v_international_network_environmental_authority",
+  "v_environmental_regulation_environmental_authority",
+  "v_environmental_regulation_chemical_activity",
+  "v_chemical_activity_chemical_management_expert",
+  "v_chemical_activity_environmental_regulation",
+  "v_chemical_activity_facility",
+  "v_facility_chemical_activity",
+  "v_facility_environmental_authority"
+ ]
+}

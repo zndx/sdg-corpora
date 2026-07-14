@@ -1,0 +1,5 @@
+id,consent_id,signed_date,is_signed,verification_method,immigration_status_declaration_id,member_id
+1,9fffb746-9bac-11eb-a8a2-19ed5c03f8d3,2024-07-17,false,E-Verify,1000,10207158
+2,790462,2025-12-01,true,DirectContact,1001,10207158
+3,4277037,2022-05-12,false,ThirdParty,1002,25820616
+4,3990176,2023-10-23,true,E-Verify,1003,2002007020250

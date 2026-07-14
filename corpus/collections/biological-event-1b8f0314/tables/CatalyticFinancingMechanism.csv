@@ -1,0 +1,5 @@
+mechanismId,mechanismID,mechanismName,totalFundingUSD,fundingStatus,targetCountries,disbursementDate,fundsMechanismId,normID,facilityID
+1,MEC-2455,Legacy Programme D,3.70,planned,legacy-target-43,2024-03-25,1000,NOR-2779,FAC-2492
+2,MEC-2462,Regional Standard,7.40,active,compact-target-44,2025-08-09,1001,NOR-2781,FAC-2499
+3,MEC-2469,Seasonal Framework,11.10,completed,composite-target-45,2022-01-20,1002,NOR-2783,FAC-2506
+4,MEC-2476,Integrated Protocol A,14.80,planned,primary-target-46,2023-06-04,1003,NOR-2785,FAC-2513

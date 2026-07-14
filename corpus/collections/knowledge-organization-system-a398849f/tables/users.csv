@@ -1,0 +1,5 @@
+id,user_id,username,registration_date,role,affiliation,is_active,resource_id,social_tag_id,tagging_activity_id
+1,9736910,Pilot Review,2023-06-19,reader,baseline-affiliat-55,true,1167,1000,1
+2,40c1e50ce74c42d6801b1e2f409c1cfc,Baseline Initiative,2024-11-03,author,pilot-affiliat-56,false,2106708,1001,2
+3,92297f70-9bad-11eb-a8a2-19ed5c03f8d3,Distributed Model A,2025-04-14,indexer,extended-affiliat-57,true,4180945,1002,3
+4,9125634,Adaptive Cluster,2022-09-25,admin,integrated-affiliat-58,false,10238270,1003,4

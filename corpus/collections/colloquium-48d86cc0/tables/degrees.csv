@@ -1,0 +1,5 @@
+degree_id,identifier,name,level,field,issuing_institution,institution_id,speaker_id
+1,IDE-2086,Extended Review,bachelors,primary-field-58,distributed-issuing-96,1,1
+2,IDE-2091,Pilot Initiative A,masters,adaptive-field-59,baseline-issuing-97,2,2
+3,IDE-2096,Baseline Model,doctorate,distributed-field-60,pilot-issuing-98,3,3
+4,IDE-2101,Distributed Cluster,postdoctoral,baseline-field-61,extended-issuing-99,4,4

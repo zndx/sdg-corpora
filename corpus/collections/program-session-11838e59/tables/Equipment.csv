@@ -1,0 +1,5 @@
+id,equipmentIdentifier,equipmentName,equipmentType,isSkidFree,isChangingTable,roomId
+1000,EQU-2761,Legacy Review D,integrated-equipmen-58,true,false,1
+1001,EQU-2763,Regional Initiative,seasonal-equipmen-59,false,true,2
+1002,EQU-2765,Seasonal Model,regional-equipmen-60,true,false,3
+1003,EQU-2767,Integrated Cluster A,legacy-equipmen-61,false,true,4

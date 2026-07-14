@@ -1,0 +1,5 @@
+id,conference_id,start_date,end_date,host_city,host_country,declaration_title,action_plan_title,total_recommendations,has_n_g_o_forum,environmental_declaration_id,action_plan_id,international_environmental_institution_id,international_environmental_conference_id
+1000,10966213,2022-09-05T20:24:00,2022-09-01T08:00:00,seasonal-host-83,composite-host-21,Composite Review,Regional Cluster,8,true,1000,1,1,1000
+1001,505978,2023-02-16T03:41:00,2023-02-12T15:17:00,regional-host-84,primary-host-22,Compact Initiative A,Seasonal Review D,43,false,1001,2,2,1001
+1002,005588c4-9bac-11eb-a8a2-19ed5c03f8d3,2024-07-27T10:58:00,2024-07-23T22:34:00,legacy-host-85,adaptive-host-23,Legacy Model,Integrated Initiative,1,true,1002,3,3,1002
+1003,4793480,2025-12-11T17:15:00,2025-12-07T05:51:00,compact-host-86,distributed-host-24,Regional Cluster,Extended Model,55,false,1003,4,4,1003

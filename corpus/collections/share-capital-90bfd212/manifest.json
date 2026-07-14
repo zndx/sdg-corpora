@@ -1,0 +1,214 @@
+{
+ "construct_id": "90bfd212441e129f",
+ "slug": "share-capital-90bfd212",
+ "passage": "90bfd212441e129fbc853c2a753eaae505ce2f5bd13b258bc61430a16def2770.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 16,
+ "entities": [
+  "ShareCapital",
+  "Shareholder",
+  "AnnualGeneralMeeting",
+  "BoardMember",
+  "NominationCommittee",
+  "DividendResolution",
+  "FeeResolution"
+ ],
+ "terms": [
+  {
+   "name": "ShareCapital",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Shareholder",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnnualGeneralMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "NominationCommittee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DividendResolution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FeeResolution",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "share_capitals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "total_value",
+    "currency_code",
+    "total_shares_issued",
+    "voting_rights_per_share",
+    "record_date",
+    "resolution_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "shareholders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shareholder_id",
+    "shareholder_name",
+    "share_count",
+    "ownership_percentage",
+    "is_foreign_owner",
+    "registration_date",
+    "share_capital_id",
+    "nomination_committee_id"
+   ]
+  },
+  {
+   "name": "annual_general_meetings",
+   "rows": 4,
+   "columns": [
+    "meeting_id",
+    "meeting_date",
+    "location",
+    "total_shares_represented",
+    "attendee_shareholder_count",
+    "quorum_met",
+    "minutes_published",
+    "nomination_committee_id",
+    "resolution_id"
+   ]
+  },
+  {
+   "name": "board_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_id",
+    "full_name",
+    "role",
+    "is_employee",
+    "appointment_year",
+    "fee_amount",
+    "currency_code",
+    "nomination_committee_id",
+    "fee_resolution_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "nomination_committees",
+   "rows": 4,
+   "columns": [
+    "nomination_committee_id",
+    "committee_id",
+    "meeting_date",
+    "min_members",
+    "max_members",
+    "chairman_name",
+    "instructions_adopted",
+    "meeting_id"
+   ]
+  },
+  {
+   "name": "dividend_resolutions",
+   "rows": 4,
+   "columns": [
+    "resolution_id",
+    "amount_per_share",
+    "currency_code",
+    "payment_date",
+    "approved_by_meeting",
+    "meeting_id",
+    "share_capital_id"
+   ]
+  },
+  {
+   "name": "fee_resolutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resolution_id",
+    "role_type",
+    "fee_amount",
+    "currency_code",
+    "payment_frequency",
+    "approved_by_meeting",
+    "meeting_id"
+   ]
+  },
+  {
+   "name": "capitals_shareholders",
+   "rows": 8,
+   "columns": [
+    "share_capital_id",
+    "shareholder_id"
+   ]
+  },
+  {
+   "name": "meetings_members",
+   "rows": 8,
+   "columns": [
+    "meeting_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "meetings_resolutions",
+   "rows": 8,
+   "columns": [
+    "meeting_id",
+    "fee_resolution_id"
+   ]
+  },
+  {
+   "name": "committees_members",
+   "rows": 8,
+   "columns": [
+    "nomination_committee_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "resolutions_members",
+   "rows": 8,
+   "columns": [
+    "fee_resolution_id",
+    "board_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_share_capital_shareholder_detail",
+  "v_share_capital_dividend_resolution",
+  "v_shareholder_share_capital",
+  "v_shareholder_nomination_committee",
+  "v_annual_general_meeting_board_member_detail",
+  "v_annual_general_meeting_nomination_committee",
+  "v_annual_general_meeting_dividend_resolution",
+  "v_annual_general_meeting_fee_resolution_detail",
+  "v_board_member_nomination_committee",
+  "v_board_member_fee_resolution",
+  "v_nomination_committee_annual_general_meeting",
+  "v_nomination_committee_board_member_detail",
+  "v_dividend_resolution_annual_general_meeting",
+  "v_dividend_resolution_share_capital",
+  "v_fee_resolution_annual_general_meeting",
+  "v_fee_resolution_board_member_detail"
+ ]
+}

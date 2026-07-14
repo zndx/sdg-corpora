@@ -1,0 +1,5 @@
+patient_id,admission_date,discharge_date,room_number,bed_number,hcahps_score,medication_id,medication_fact_sheet_id,display_endpoint_id
+8387541,2023-06-22,2022-09-02,ROO-2106,BED-2363,12.70,1,1,100
+10207142,2024-11-06,2023-02-13,ROO-2113,BED-2369,15.40,2,2,101
+7119782,2025-04-17,2024-07-24,ROO-2120,BED-2375,18.10,3,3,102
+gd_acc_160003,2022-09-01,2025-12-08,ROO-2127,BED-2381,20.80,4,4,103

@@ -1,0 +1,148 @@
+{
+ "construct_id": "6507c1392d92fd4e",
+ "slug": "canape-6507c139",
+ "passage": "6507c1392d92fd4e536cd4b5fa6ebea1c4dcc5b39d5fcbc151c634e24c04f6ea.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 10,
+ "entities": [
+  "Canape",
+  "BreadBase",
+  "FoodIngredient",
+  "TastingBowl",
+  "PricingScheme"
+ ],
+ "terms": [
+  {
+   "name": "Canape",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BreadBase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TastingBowl",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PricingScheme",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "canapes",
+   "rows": 4,
+   "columns": [
+    "canape_id",
+    "name",
+    "price",
+    "category",
+    "dietary_classification",
+    "recommended_count_per_person",
+    "bread_base_id",
+    "pricing_scheme_id"
+   ]
+  },
+  {
+   "name": "bread_bases",
+   "rows": 4,
+   "columns": [
+    "bread_base_id",
+    "base_id",
+    "name",
+    "type",
+    "canape_id"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "food_ingredient_id",
+    "ingredient_id",
+    "name",
+    "category",
+    "is_allergen"
+   ]
+  },
+  {
+   "name": "tasting_bowls",
+   "rows": 4,
+   "columns": [
+    "bowl_id",
+    "name",
+    "price",
+    "category",
+    "dietary_classification",
+    "recommended_count_per_person",
+    "pricing_scheme_id"
+   ]
+  },
+  {
+   "name": "pricing_schemes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "scheme_id",
+    "price_point",
+    "currency",
+    "valid_from",
+    "canape_id",
+    "bowl_id"
+   ]
+  },
+  {
+   "name": "canapes_ingredients",
+   "rows": 8,
+   "columns": [
+    "canape_id",
+    "food_ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_canapes",
+   "rows": 8,
+   "columns": [
+    "food_ingredient_id",
+    "canape_id"
+   ]
+  },
+  {
+   "name": "ingredients_bowls",
+   "rows": 8,
+   "columns": [
+    "food_ingredient_id",
+    "bowl_id"
+   ]
+  },
+  {
+   "name": "bowls_ingredients",
+   "rows": 8,
+   "columns": [
+    "bowl_id",
+    "food_ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_canape_bread_base",
+  "v_canape_food_ingredient_detail",
+  "v_canape_pricing_scheme",
+  "v_bread_base_canape",
+  "v_food_ingredient_canape_detail",
+  "v_food_ingredient_tasting_bowl_detail",
+  "v_tasting_bowl_food_ingredient_detail",
+  "v_tasting_bowl_pricing_scheme",
+  "v_pricing_scheme_canape",
+  "v_pricing_scheme_tasting_bowl"
+ ]
+}

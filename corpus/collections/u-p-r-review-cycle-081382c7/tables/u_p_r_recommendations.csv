@@ -1,0 +1,5 @@
+id,recommendation_id,recommendation_text,topic_area,acceptance_status,priority_level,u_p_r_review_cycle_id,state_id,vulnerable_group_id
+1,3158134,pilot-recommen-20,education,accepted,high,100,100,100
+2,4649,extended-recommen-21,health,noted,medium,101,101,101
+3,9fff478e-9bac-11eb-a8a2-19ed5c03f8d3,integrated-recommen-22,indigenous_rights,rejected,low,102,102,102
+4,89820,seasonal-recommen-23,gender_based_violence,accepted,high,103,103,103

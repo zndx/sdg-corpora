@@ -1,0 +1,5 @@
+id,metric_id,metric_name,category,standard,unit_of_measure,is_material,report_id,e_s_g_advisor_id
+1000,3744010,Primary Programme A,Environmental,SASB,composite-unit-69,false,1202-0008-S,100
+1001,136630a8-8fcc-11eb-924d-9cd76263cbd0,Composite Standard,Social,GRI,primary-unit-70,true,8189500,101
+1002,2986226,Compact Framework,Governance,TCFD,adaptive-unit-71,false,L355,102
+1003,2002007020010,Legacy Protocol D,Environmental,Internal,distributed-unit-72,true,5844272,103

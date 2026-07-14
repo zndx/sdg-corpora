@@ -1,0 +1,5 @@
+enrollment_id,patient_age,clinical_diagnosis,enrollment_date,referring_physician_id,medicare_beneficiary_id,imaging_procedure_id,study_protocol_id,scan_result_id
+4447035,27,Mild Cognitive Impairment,2022-05-11T16:00:00,8189502,23461971,1,1,1000
+gd_taxc_2121,38,Dementia of Uncertain Cause,2023-10-22T23:17:00,136727ba-8fcc-11eb-924d-9cd76263cbd0,c747be34-8fcc-11eb-924d-9cd76263cbd0,2,2,1001
+id_30,49,Mild Cognitive Impairment,2024-03-06T06:34:00,supp1,Salangin,3,3,1002
+b_VB-EC-0,60,Dementia of Uncertain Cause,2025-08-17T13:51:00,4985147,lu_tax_code_template_m423,4,4,1003

@@ -1,0 +1,141 @@
+{
+ "construct_id": "ee7309543bb91b6f",
+ "slug": "observation-ee730954",
+ "passage": "ee7309543bb91b6f3825915303a5ea3b2a6559b6425113eff36d25dea52d3f03.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "Observation",
+  "CelestialBody",
+  "Telescope",
+  "Observer",
+  "Event"
+ ],
+ "terms": [
+  {
+   "name": "Observation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CelestialBody",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Telescope",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Observer",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "observations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "observation_identifier",
+    "observation_date_time",
+    "target_body_name",
+    "target_body_type",
+    "angular_separation",
+    "instrument_used",
+    "observer_name",
+    "weather_condition",
+    "celestial_body_id",
+    "observer_id",
+    "telescope_id"
+   ]
+  },
+  {
+   "name": "celestial_bodies",
+   "rows": 4,
+   "columns": [
+    "celestial_body_id",
+    "body_identifier",
+    "body_name",
+    "body_type",
+    "right_ascension",
+    "declination",
+    "magnitude",
+    "discovery_date",
+    "discoverer_name",
+    "observation_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "telescopes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "telescope_identifier",
+    "manufacturer",
+    "aperture_inches",
+    "mounting_type",
+    "year_manufactured",
+    "current_location",
+    "status",
+    "accessories",
+    "observation_id",
+    "observer_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "observers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "observer_identifier",
+    "full_name",
+    "birth_date",
+    "death_date",
+    "location",
+    "affiliation",
+    "role",
+    "observation_id",
+    "telescope_id"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "event_name",
+    "event_date_time",
+    "event_type",
+    "location",
+    "participants",
+    "description",
+    "celestial_body_id",
+    "observer_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_observation_celestial_body",
+  "v_observation_observer",
+  "v_observation_telescope",
+  "v_celestial_body_observation",
+  "v_telescope_observation",
+  "v_telescope_observer",
+  "v_observer_observation",
+  "v_observer_telescope",
+  "v_event_celestial_body",
+  "v_event_observer"
+ ]
+}

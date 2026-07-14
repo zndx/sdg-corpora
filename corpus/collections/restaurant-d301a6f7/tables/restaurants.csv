@@ -1,0 +1,5 @@
+id,restaurant_id,name,city,state,operating_since,corkage_fee,has_grand_award,grand_award_year,wine_award_id,person_id,has_owner_person_id,event_id
+1,48104239,Extended Review,integrated-city-34,distributed-state-84,25,9.47,false,18,100,1000,1000,1000
+2,3355790,Pilot Initiative A,seasonal-city-35,baseline-state-85,35,24.09,true,28,101,1001,1001,1001
+3,b351025e-8fcd-11eb-924d-9cd76263cbd0,Baseline Model,regional-city-36,pilot-state-86,45,14.58,false,38,102,1002,1002,1002
+4,16658,Distributed Cluster,legacy-city-37,extended-state-87,55,4.15,true,48,103,1003,1003,1003

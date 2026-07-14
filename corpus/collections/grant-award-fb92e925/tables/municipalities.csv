@@ -1,0 +1,5 @@
+municipality_id,municipality_name,municipality_code,state_province,country,population,area_sq_km,facility_id
+1000,Compact Model,8843744,primary-state-28,compact-country-26,42,15.45,1000
+1001,Legacy Cluster,c7476bbe-8fcc-11eb-924d-9cd76263cbd0,adaptive-state-29,composite-country-27,49,17.90,1001
+1002,Regional Review A,3012833,distributed-state-30,primary-country-28,56,20.35,1002
+1003,Seasonal Initiative,46d4e72c-8fcc-11eb-924d-9cd76263cbd0,baseline-state-31,adaptive-country-29,63,22.80,1003

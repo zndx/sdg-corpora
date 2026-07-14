@@ -1,0 +1,5 @@
+memberId,staffId,fullName,employmentStatus,role,dateOfCommencement,emailAddress,department,accountId,institutionId,codeId
+1000,937735,Theodore Mcgrath,permanent,pilot-role-20,2022-01-27,primary-email-70,adaptive-departme-89,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,1,1000
+1001,3158139,Account Name,temporary,extended-role-21,2023-06-11,adaptive-email-71,distributed-departme-90,10207152,2,1001
+1002,8189502,Saipan International Airport,casual,integrated-role-22,2024-11-22,distributed-email-72,baseline-departme-91,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,3,1002
+1003,69438,Norma Fisher,fixed_term,seasonal-role-23,2025-04-06,baseline-email-73,pilot-departme-92,3717632,4,1003

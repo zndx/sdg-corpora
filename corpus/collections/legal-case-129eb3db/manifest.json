@@ -1,0 +1,152 @@
+{
+ "construct_id": "129eb3dbc7085e2a",
+ "slug": "legal-case-129eb3db",
+ "passage": "129eb3dbc7085e2ac9ca224d5a331d26e6184acc0f9571d26aee51a7443f8137.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "LegalCase",
+  "LegalPerson",
+  "LegalOutcome",
+  "LegalStatute",
+  "ProfessionalBody",
+  "LegalDocument"
+ ],
+ "terms": [
+  {
+   "name": "LegalCase",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalPerson",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "LegalOutcome",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalStatute",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProfessionalBody",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalDocument",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legal_cases",
+   "rows": 4,
+   "columns": [
+    "legal_case_id",
+    "case_identifier",
+    "court_name",
+    "case_type",
+    "date_filed",
+    "status",
+    "jurisdiction",
+    "legal_person_id",
+    "has_prosecutor_legal_person_id",
+    "legal_outcome_id",
+    "legal_statute_id"
+   ]
+  },
+  {
+   "name": "legal_persons",
+   "rows": 4,
+   "columns": [
+    "legal_person_id",
+    "full_name",
+    "role",
+    "qualification",
+    "bar_circuit",
+    "specialization",
+    "legal_case_id",
+    "professional_body_id"
+   ]
+  },
+  {
+   "name": "legal_outcomes",
+   "rows": 4,
+   "columns": [
+    "legal_outcome_id",
+    "outcome_type",
+    "date_issued",
+    "sentence_length",
+    "fine_amount",
+    "is_appealed",
+    "legal_case_id",
+    "legal_statute_id"
+   ]
+  },
+  {
+   "name": "legal_statutes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statute_name",
+    "year_enacted",
+    "section_number",
+    "jurisdiction",
+    "status",
+    "legal_case_id",
+    "legal_statute_id"
+   ]
+  },
+  {
+   "name": "professional_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_name",
+    "founding_year",
+    "membership_type",
+    "focus_area",
+    "legal_person_id",
+    "legal_document_id"
+   ]
+  },
+  {
+   "name": "legal_documents",
+   "rows": 4,
+   "columns": [
+    "legal_document_id",
+    "document_title",
+    "publication_date",
+    "publisher",
+    "document_type",
+    "co_author",
+    "legal_case_id",
+    "legal_statute_id",
+    "professional_body_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "vw_legal_case_legal_person",
+  "vw_legal_case_legal_outcome",
+  "vw_legal_case_legal_statute",
+  "vw_legal_person_legal_case",
+  "vw_legal_person_professional_body",
+  "vw_legal_outcome_legal_case",
+  "vw_legal_outcome_legal_statute",
+  "vw_legal_statute_legal_case",
+  "vw_legal_statute_legal_statute",
+  "vw_professional_body_legal_person",
+  "vw_professional_body_legal_document",
+  "vw_legal_document_legal_case",
+  "vw_legal_document_legal_statute",
+  "vw_legal_document_professional_body"
+ ]
+}

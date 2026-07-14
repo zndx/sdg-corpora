@@ -1,0 +1,5 @@
+id,firm_id,firm_name,founding_year,headquarters_location,firm_type,active_status,design_competition_id,design_firm_id
+1,575216,Legacy Review D,43,composite-headquar-63,independent,false,1000,1
+2,e4ea9416-8fd1-11eb-924d-9cd76263cbd0,Regional Initiative,48,primary-headquar-64,merged,true,1001,2
+3,884351,Seasonal Model,53,adaptive-headquar-65,subsidiary,false,1002,3
+4,L907,Integrated Cluster A,58,distributed-headquar-66,independent,true,1003,4

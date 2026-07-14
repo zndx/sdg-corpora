@@ -1,0 +1,241 @@
+{
+ "construct_id": "9e55166c547400d0",
+ "slug": "waste-processing-facility-9e55166c",
+ "passage": "9e55166c547400d03c62206517809e64b955f28dc0fbddb74e54443dcf673dec.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 17,
+ "entities": [
+  "WasteProcessingFacility",
+  "WasteStream",
+  "IntegratedWasteSystem",
+  "EnergyOutput",
+  "PowerGrid",
+  "StaffMember",
+  "Jurisdiction"
+ ],
+ "terms": [
+  {
+   "name": "WasteProcessingFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "WasteStream",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IntegratedWasteSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnergyOutput",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PowerGrid",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "WasteProcessingFacility",
+   "rows": 4,
+   "columns": [
+    "facilityId",
+    "facilityName",
+    "location",
+    "operationalStatus",
+    "wasteCapacityTonsPerDay",
+    "energyOutputMWhPerDay",
+    "lastInspectionDate"
+   ]
+  },
+  {
+   "name": "WasteStream",
+   "rows": 4,
+   "columns": [
+    "id",
+    "streamId",
+    "streamType",
+    "sourceJurisdiction",
+    "deliveryFrequency",
+    "averageWeightTons",
+    "contaminationRatePercent",
+    "facilityId",
+    "systemId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "IntegratedWasteSystem",
+   "rows": 4,
+   "columns": [
+    "id",
+    "systemId",
+    "systemName",
+    "efficiencyRating",
+    "landfillCapacitySavedPercent",
+    "energyGeneratedMWh",
+    "lastAuditDate",
+    "facilityId"
+   ]
+  },
+  {
+   "name": "EnergyOutput",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outputId",
+    "energyType",
+    "quantityMWh",
+    "gridConnectionStatus",
+    "qualityStandard",
+    "measurementDate",
+    "systemId",
+    "gridId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "PowerGrid",
+   "rows": 4,
+   "columns": [
+    "gridId",
+    "gridOperator",
+    "voltageLevel",
+    "capacityMVA",
+    "lastMaintenanceDate"
+   ]
+  },
+  {
+   "name": "StaffMember",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staffId",
+    "fullName",
+    "roleTitle",
+    "employmentStatus",
+    "yearsOfExperience",
+    "educationLevel",
+    "facilityId",
+    "memberId",
+    "systemId"
+   ]
+  },
+  {
+   "name": "Jurisdiction",
+   "rows": 4,
+   "columns": [
+    "id",
+    "jurisdictionId",
+    "jurisdictionName",
+    "jurisdictionType",
+    "population",
+    "wasteGenerationRateTonsPerCapita"
+   ]
+  },
+  {
+   "name": "WasteProcessingFacilityWasteStream",
+   "rows": 8,
+   "columns": [
+    "facilityId",
+    "streamId"
+   ]
+  },
+  {
+   "name": "WasteProcessingFacilityJurisdiction",
+   "rows": 8,
+   "columns": [
+    "facilityId",
+    "jurisdictionId"
+   ]
+  },
+  {
+   "name": "WasteProcessingFacilityStaffMember",
+   "rows": 8,
+   "columns": [
+    "facilityId",
+    "memberId"
+   ]
+  },
+  {
+   "name": "IntegratedWasteSystemWasteStream",
+   "rows": 8,
+   "columns": [
+    "systemId",
+    "streamId"
+   ]
+  },
+  {
+   "name": "IntegratedWasteSystemEnergyOutput",
+   "rows": 8,
+   "columns": [
+    "systemId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "PowerGridEnergyOutput",
+   "rows": 8,
+   "columns": [
+    "gridId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "PowerGridJurisdiction",
+   "rows": 8,
+   "columns": [
+    "gridId",
+    "jurisdictionId"
+   ]
+  },
+  {
+   "name": "JurisdictionWasteProcessingFacility",
+   "rows": 8,
+   "columns": [
+    "jurisdictionId",
+    "facilityId"
+   ]
+  },
+  {
+   "name": "JurisdictionPowerGrid",
+   "rows": 8,
+   "columns": [
+    "jurisdictionId",
+    "gridId"
+   ]
+  }
+ ],
+ "views": [
+  "waste_processing_facility_waste_stream_detail_view",
+  "waste_processing_facility_jurisdiction_detail_view",
+  "waste_processing_facility_staff_member_detail_view",
+  "waste_stream_waste_processing_facility_view",
+  "waste_stream_integrated_waste_system_view",
+  "integrated_waste_system_waste_stream_detail_view",
+  "integrated_waste_system_waste_processing_facility_view",
+  "integrated_waste_system_energy_output_detail_view",
+  "energy_output_integrated_waste_system_view",
+  "energy_output_power_grid_view",
+  "power_grid_energy_output_detail_view",
+  "power_grid_jurisdiction_detail_view",
+  "staff_member_waste_processing_facility_view",
+  "staff_member_staff_member_view",
+  "staff_member_integrated_waste_system_view",
+  "jurisdiction_waste_processing_facility_detail_view",
+  "jurisdiction_power_grid_detail_view"
+ ]
+}

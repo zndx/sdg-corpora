@@ -1,0 +1,5 @@
+id,stream_id,bitrate,frame_rate,codec_type,encryption_status,recording_status,surveillance_camera_id,video_analytics_module_id
+1,2839512,18.20,5.70,compact-codec-86,false,Active,1000,1000
+2,e7a5231e-8fc3-11eb-924d-9cd76263cbd0,22.40,9.40,composite-codec-87,true,Paused,1001,1001
+3,3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,26.60,13.10,primary-codec-88,false,Stopped,1002,1002
+4,1186092,30.80,16.80,adaptive-codec-89,true,Active,1003,1003

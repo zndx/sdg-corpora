@@ -1,0 +1,144 @@
+{
+ "construct_id": "7df643b0cd44535c",
+ "slug": "database-instance-7df643b0",
+ "passage": "7df643b0cd44535c184fec9d3887594c7ec8b112745848a1d920107bcb7c87fd.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "DatabaseInstance",
+  "ServerHost",
+  "StorageStructure",
+  "DBA",
+  "MaintenanceTask",
+  "PerformanceReport"
+ ],
+ "terms": [
+  {
+   "name": "DatabaseInstance",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ServerHost",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StorageStructure",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DBA",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "MaintenanceTask",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PerformanceReport",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "database_instances",
+   "rows": 4,
+   "columns": [
+    "instance_id",
+    "version",
+    "operating_system",
+    "status",
+    "environment_type",
+    "created_date",
+    "server_host_id",
+    "d_b_a_id",
+    "storage_structure_id"
+   ]
+  },
+  {
+   "name": "server_hosts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "host_id",
+    "os_type",
+    "os_version",
+    "cpu_count",
+    "ram_g_b",
+    "san_allocation_g_b",
+    "instance_id"
+   ]
+  },
+  {
+   "name": "storage_structures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "structure_id",
+    "structure_type",
+    "size_g_b",
+    "storage_location",
+    "instance_id"
+   ]
+  },
+  {
+   "name": "d_b_as",
+   "rows": 4,
+   "columns": [
+    "d_b_a_id",
+    "dba_id",
+    "name",
+    "years_experience",
+    "specialization",
+    "employer",
+    "instance_id",
+    "maintenance_task_id"
+   ]
+  },
+  {
+   "name": "maintenance_tasks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "task_id",
+    "task_type",
+    "start_date",
+    "end_date",
+    "status",
+    "tool_used",
+    "d_b_a_id",
+    "instance_id"
+   ]
+  },
+  {
+   "name": "performance_reports",
+   "rows": 4,
+   "columns": [
+    "performance_report_id",
+    "report_id",
+    "report_type",
+    "generated_date",
+    "duration_hours",
+    "top_wait_event",
+    "instance_id",
+    "d_b_a_id"
+   ]
+  }
+ ],
+ "views": [
+  "database_instance_server_host_view",
+  "database_instance_d_b_a_view",
+  "database_instance_storage_structure_view",
+  "server_host_database_instance_view",
+  "storage_structure_database_instance_view",
+  "d_b_a_database_instance_view",
+  "d_b_a_maintenance_task_view",
+  "maintenance_task_d_b_a_view",
+  "maintenance_task_database_instance_view",
+  "performance_report_database_instance_view",
+  "performance_report_d_b_a_view"
+ ]
+}

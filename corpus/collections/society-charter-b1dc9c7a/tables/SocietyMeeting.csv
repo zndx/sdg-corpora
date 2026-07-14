@@ -1,0 +1,5 @@
+id,meetingDate,meetingType,location,isEligibilityRequirement,charterId,professionalId
+1,2023-10-23T21:39:00,Postgraduate Meeting,extended-location-99,false,1,100
+2,2024-03-07T04:56:00,Seminar,integrated-location-100,true,2,101
+3,2025-08-18T11:13:00,Organizational Meeting,seasonal-location-101,false,3,102
+4,2022-01-02T18:30:00,Postgraduate Meeting,regional-location-102,true,4,103

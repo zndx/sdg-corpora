@@ -1,0 +1,12 @@
+CREATE TABLE students (
+  id INTEGER NOT NULL,
+  student_id VARCHAR(32),
+  first_name VARCHAR(32),
+  chinese_name VARCHAR(32),
+  birth_date DATE,
+  school_name VARCHAR(32),
+  enrollment_status VARCHAR(32),
+  enrollment_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (enrollment_id) REFERENCES enrollments (id)
+);

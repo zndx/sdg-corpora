@@ -1,0 +1,5 @@
+h_c_a_h_p_s_metric_id,metric_id,survey_date,category,score,benchmark,trend,patient_id,medication_fact_sheet_id
+1,3744010,2024-07-23,medicationCommunication,9.20,15.45,improving,8387541,1
+2,136630a8-8fcc-11eb-924d-9cd76263cbd0,2025-12-07,painManagement,13.40,18.90,stable,10207142,2
+3,2986226,2022-05-18,dischargeInformation,17.60,22.35,declining,7119782,3
+4,2002007020010,2023-10-02,medicationCommunication,21.80,25.80,improving,gd_acc_160003,4

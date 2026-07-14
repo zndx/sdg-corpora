@@ -1,0 +1,151 @@
+{
+ "construct_id": "eeafb7f96fb3e1d1",
+ "slug": "birth-event-eeafb7f9",
+ "passage": "eeafb7f96fb3e1d1a559da9c968977bcde8a26676c32114006b9f75de4992887.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 12,
+ "entities": [
+  "BirthEvent",
+  "Human",
+  "Location",
+  "CensusRegistration",
+  "LegislativeDecree",
+  "InfantCareItem"
+ ],
+ "terms": [
+  {
+   "name": "BirthEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Human",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CensusRegistration",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LegislativeDecree",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InfantCareItem",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "birth_events",
+   "rows": 4,
+   "columns": [
+    "birth_event_id",
+    "identifier",
+    "birth_date",
+    "location_name",
+    "parent_female_name",
+    "parent_male_name",
+    "infant_name",
+    "location_id",
+    "human_id",
+    "involves_mother_human_id",
+    "involves_father_human_id"
+   ]
+  },
+  {
+   "name": "humans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "given_name",
+    "family_name",
+    "role",
+    "ancestral_town",
+    "occupation",
+    "location_id",
+    "census_registration_id"
+   ]
+  },
+  {
+   "name": "locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "type",
+    "description",
+    "birth_event_id",
+    "human_id"
+   ]
+  },
+  {
+   "name": "census_registrations",
+   "rows": 4,
+   "columns": [
+    "census_registration_id",
+    "registration_date",
+    "mandated_by",
+    "purpose",
+    "registrant_name",
+    "legislative_decree_id",
+    "human_id",
+    "location_id"
+   ]
+  },
+  {
+   "name": "legislative_decrees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "issuer_name",
+    "issuance_date",
+    "mandate_description",
+    "objective",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "infant_care_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_type",
+    "material",
+    "condition",
+    "birth_event_id",
+    "location_id"
+   ]
+  },
+  {
+   "name": "decrees_registrations",
+   "rows": 8,
+   "columns": [
+    "legislative_decree_id",
+    "census_registration_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_birth_event_location",
+  "v_birth_event_human",
+  "v_human_location",
+  "v_human_census_registration",
+  "v_location_birth_event",
+  "v_location_human",
+  "v_census_registration_legislative_decree",
+  "v_census_registration_human",
+  "v_census_registration_location",
+  "v_legislative_decree_census_registration_detail",
+  "v_infant_care_item_birth_event",
+  "v_infant_care_item_location"
+ ]
+}

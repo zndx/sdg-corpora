@@ -1,0 +1,5 @@
+id,region_id,region_name,country_code,region_type,regulatory_authority,market_size,prevalence_rate,currency_code,language_code,time_zone,pharmaceutical_company_id,hosts_rn_d_pharmaceutical_company_id,drug_application_id,disease_id,jurisdiction_for_regulation_drug_application_id
+1000,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,country,composite-regulato-99,1.48,22.45,gd_fp_eu_acc3,20723567,extended-time-69,1000,1000,1,884351,1
+1001,4180948,Adaptive Survey D,lu_tax_code_template_m_I_2,state,primary-regulato-100,1.0,25.90,managing-resources,32825,integrated-time-70,1001,1001,2,790478,2
+1002,3012829,Primary Corridor,default_chart_a_account_57,city,adaptive-regulato-101,0.58,29.35,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,b_VB-EC-15,seasonal-time-71,1002,1002,3,d3c3d00e-8fb2-11eb-924d-9cd76263cbd0,3
+1003,778576,Composite Series,727045,market,distributed-regulato-102,0.9,32.80,10445649,974927,regional-time-72,1003,1003,4,state_et_7,4

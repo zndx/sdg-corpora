@@ -1,0 +1,151 @@
+{
+ "construct_id": "d860fb6d4dac5482",
+ "slug": "coaching-engagement-d860fb6d",
+ "passage": "d860fb6d4dac54829c18f6bcb85348852b2b78fb680033d4b23b259b1cf3a816.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "CoachingEngagement",
+  "Coach",
+  "Client",
+  "CoachingTopic",
+  "ProfessionalMembership",
+  "ClientFeedback"
+ ],
+ "terms": [
+  {
+   "name": "CoachingEngagement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Coach",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Client",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "CoachingTopic",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProfessionalMembership",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ClientFeedback",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "coaching_engagements",
+   "rows": 4,
+   "columns": [
+    "coaching_engagement_id",
+    "engagement_id",
+    "start_date",
+    "end_date",
+    "status",
+    "session_count",
+    "coaching_goal",
+    "coach_id",
+    "client_id",
+    "coaching_topic_id"
+   ]
+  },
+  {
+   "name": "coaches",
+   "rows": 4,
+   "columns": [
+    "id",
+    "coach_id",
+    "full_name",
+    "qualifications",
+    "years_experience",
+    "specialization",
+    "contact_email",
+    "contact_phone",
+    "professional_membership_id"
+   ]
+  },
+  {
+   "name": "clients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "client_id",
+    "full_name",
+    "occupation",
+    "industry",
+    "coaching_needs",
+    "client_since",
+    "coaching_engagement_id"
+   ]
+  },
+  {
+   "name": "coaching_topics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "topic_id",
+    "topic_name",
+    "description",
+    "category",
+    "coaching_engagement_id"
+   ]
+  },
+  {
+   "name": "professional_memberships",
+   "rows": 4,
+   "columns": [
+    "id",
+    "membership_id",
+    "organization_name",
+    "certification_level",
+    "issue_date",
+    "expiry_date",
+    "coach_id"
+   ]
+  },
+  {
+   "name": "client_feedbacks",
+   "rows": 4,
+   "columns": [
+    "client_feedback_id",
+    "feedback_id",
+    "feedback_date",
+    "rating",
+    "testimonial",
+    "sentiment",
+    "client_id",
+    "coaching_engagement_id"
+   ]
+  },
+  {
+   "name": "coaches_engagements",
+   "rows": 8,
+   "columns": [
+    "coach_id",
+    "coaching_engagement_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_coaching_engagement_coach",
+  "v_coaching_engagement_client",
+  "v_coaching_engagement_coaching_topic",
+  "v_coach_professional_membership",
+  "v_coach_coaching_engagement_detail",
+  "v_client_coaching_engagement",
+  "v_coaching_topic_coaching_engagement",
+  "v_professional_membership_coach",
+  "v_client_feedback_client",
+  "v_client_feedback_coaching_engagement"
+ ]
+}

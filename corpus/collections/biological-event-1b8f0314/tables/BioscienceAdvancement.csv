@@ -1,0 +1,5 @@
+id,advancementID,technologyType,riskLevel,implementationDate,dualUsePotential,technicalBarrierLevel,eventId,facilityID,normID
+1,ADV-2463,DNA_editing,low,2024-11-14,false,6.20,1000,FAC-2492,NOR-2779
+2,ADV-2466,RNA_synthesis,medium,2025-04-25,true,10.40,1001,FAC-2499,NOR-2781
+3,ADV-2469,AI_design,high,2022-09-09,false,14.60,1002,FAC-2506,NOR-2783
+4,ADV-2472,automation,critical,2023-02-20,true,18.80,1003,FAC-2513,NOR-2785

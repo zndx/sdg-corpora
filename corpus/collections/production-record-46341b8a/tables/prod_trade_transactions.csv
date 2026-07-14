@@ -1,0 +1,5 @@
+id,transaction_id,volume,unit,date,direction,status,geographic_region_id,involves_importer_geographic_region_id,commodity_id
+1,937738,9.45,distributed-unit-18,2023-02-05T13:03:00,primary-directio-88,regional-status-84,1,1,790492
+2,89509,11.90,baseline-unit-19,2024-07-16T20:20:00,adaptive-directio-89,legacy-status-85,2,2,5844256
+3,1186092,14.35,pilot-unit-20,2025-12-27T03:37:00,distributed-directio-90,compact-status-86,3,3,3355768
+4,9085243,16.80,extended-unit-21,2022-05-11T10:54:00,baseline-directio-91,composite-status-87,4,4,2986241

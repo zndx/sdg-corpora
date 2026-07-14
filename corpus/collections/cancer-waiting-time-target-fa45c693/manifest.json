@@ -1,0 +1,136 @@
+{
+ "construct_id": "fa45c69336405624",
+ "slug": "cancer-waiting-time-target-fa45c693",
+ "passage": "fa45c69336405624326a97104104628d49f522545e0001708fc1f9e0e4d687f8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "CancerWaitingTimeTarget",
+  "CancerType",
+  "NHSBoard",
+  "WaitingTimeStatistic",
+  "PatientCohort"
+ ],
+ "terms": [
+  {
+   "name": "CancerWaitingTimeTarget",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CancerType",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NHSBoard",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WaitingTimeStatistic",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PatientCohort",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cancer_waiting_time_targets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "target_duration",
+    "triggering_clinical_event",
+    "tolerance_percentage",
+    "implementation_date",
+    "status",
+    "n_h_s_board_id"
+   ]
+  },
+  {
+   "name": "cancer_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cancer_name",
+    "anatomical_region",
+    "is_primary",
+    "clinical_code",
+    "cancer_waiting_time_target_id"
+   ]
+  },
+  {
+   "name": "n_h_s_boards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "board_name",
+    "is_island_board",
+    "region",
+    "reporting_status",
+    "cancer_waiting_time_target_id"
+   ]
+  },
+  {
+   "name": "waiting_time_statistics",
+   "rows": 4,
+   "columns": [
+    "waiting_time_statistic_id",
+    "reporting_period",
+    "compliance_percentage",
+    "eligible_patient_count",
+    "treatment_start_count",
+    "percentile90",
+    "data_quality",
+    "cancer_waiting_time_target_id",
+    "n_h_s_board_id",
+    "cancer_type_id"
+   ]
+  },
+  {
+   "name": "patient_cohorts",
+   "rows": 4,
+   "columns": [
+    "patient_cohort_id",
+    "age_threshold",
+    "diagnosis_date",
+    "referral_route",
+    "cohort_size",
+    "cancer_type_id",
+    "n_h_s_board_id"
+   ]
+  },
+  {
+   "name": "targets_types",
+   "rows": 8,
+   "columns": [
+    "cancer_waiting_time_target_id",
+    "cancer_type_id"
+   ]
+  },
+  {
+   "name": "boards_statistics",
+   "rows": 8,
+   "columns": [
+    "n_h_s_board_id",
+    "waiting_time_statistic_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_cancer_waiting_time_target_cancer_type_detail",
+  "v_cancer_waiting_time_target_n_h_s_board",
+  "v_cancer_type_cancer_waiting_time_target",
+  "v_n_h_s_board_cancer_waiting_time_target",
+  "v_n_h_s_board_waiting_time_statistic_detail",
+  "v_waiting_time_statistic_cancer_waiting_time_target",
+  "v_waiting_time_statistic_n_h_s_board",
+  "v_waiting_time_statistic_cancer_type",
+  "v_patient_cohort_cancer_type",
+  "v_patient_cohort_n_h_s_board"
+ ]
+}

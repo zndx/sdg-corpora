@@ -1,0 +1,5 @@
+unit_i_d,unit_name,unit_type,is_subsidiary,last_audit_date,governance_member_id,governance_committee_id
+UNI-2698,Compact Series,composite-unit-45,false,2023-10-23,100,1
+UNI-2702,Legacy Assessment,primary-unit-46,true,2024-03-07,101,2
+UNI-2706,Regional Survey A,adaptive-unit-47,false,2025-08-18,102,3
+UNI-2710,Seasonal Corridor,distributed-unit-48,true,2022-01-02,103,4

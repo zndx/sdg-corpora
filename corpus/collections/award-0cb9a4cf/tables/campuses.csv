@@ -1,0 +1,5 @@
+campus_id,campus_name,campus_level,enrollment,location,organization_id,program_id,created_at,updated_at
+1,Integrated Assessment A,elementary,13,extended-location-99,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Extended Survey,middle,21,integrated-location-100,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Pilot Corridor,high,29,seasonal-location-101,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Baseline Series D,k12,37,regional-location-102,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

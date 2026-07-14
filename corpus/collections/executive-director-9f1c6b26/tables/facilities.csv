@@ -1,0 +1,5 @@
+id,building_count,age_min,age_max,safety_status,last_inspection_date,maintenance_schedule,is_historic,organization_id
+1000,15,19,24,integrated-safety-88,2025-04-12,adaptive-maintena-59,true,1
+1001,45,25,27,seasonal-safety-89,2022-09-23,distributed-maintena-60,false,2
+1002,18,31,30,regional-safety-90,2023-02-07,baseline-maintena-61,true,3
+1003,7,37,33,legacy-safety-91,2024-07-18,pilot-maintena-62,false,4

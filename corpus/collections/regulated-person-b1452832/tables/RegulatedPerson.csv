@@ -1,0 +1,5 @@
+id,certificateNumber,legalName,registeredAddress,status,registrationDate,applicantId,applicationId
+1,CER-2622,Jorge Sullivan,regional-register-36,active,2023-06-19,1000,1
+2,CER-2626,Walter Pratt,legacy-register-37,suspended,2024-11-03,1001,2
+3,CER-2630,Home Medix Oxygen,compact-register-38,revoked,2025-04-14,1002,3
+4,CER-2634,Hector Garcia,composite-register-39,pending,2022-09-25,1003,4

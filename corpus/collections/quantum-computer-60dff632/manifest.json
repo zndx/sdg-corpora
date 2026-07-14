@@ -1,0 +1,155 @@
+{
+ "construct_id": "60dff632d6038610",
+ "slug": "quantum-computer-60dff632",
+ "passage": "60dff632d6038610f8974445e3d01b4ae8130242282ef6df53a8da5d2a4796d5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "QuantumComputer",
+  "Qubit",
+  "Cryptosystem",
+  "MathematicalProblem",
+  "CyberSecurityProtocol",
+  "QuantumKeyDistribution",
+  "Receiver"
+ ],
+ "terms": [
+  {
+   "name": "QuantumComputer",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Qubit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Cryptosystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MathematicalProblem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CyberSecurityProtocol",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "QuantumKeyDistribution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Receiver",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "quantum_computers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "qubit_count",
+    "error_rate",
+    "fault_tolerance",
+    "manufacturer",
+    "model_name",
+    "operational_status",
+    "qubit_id",
+    "cryptosystem_id"
+   ]
+  },
+  {
+   "name": "qubits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "state_vector",
+    "superposition_enabled",
+    "entangled_with"
+   ]
+  },
+  {
+   "name": "cryptosystems",
+   "rows": 4,
+   "columns": [
+    "cryptosystem_id",
+    "algorithm_type",
+    "security_basis",
+    "key_length",
+    "vulnerability_status",
+    "mathematical_problem_id",
+    "cyber_security_protocol_id"
+   ]
+  },
+  {
+   "name": "mathematical_problems",
+   "rows": 4,
+   "columns": [
+    "mathematical_problem_id",
+    "problem_name",
+    "classical_complexity",
+    "quantum_complexity",
+    "quantum_computer_id"
+   ]
+  },
+  {
+   "name": "cyber_security_protocols",
+   "rows": 4,
+   "columns": [
+    "cyber_security_protocol_id",
+    "protocol_name",
+    "transmission_medium",
+    "max_distance",
+    "disruption_risk",
+    "quantum_key_distribution_id"
+   ]
+  },
+  {
+   "name": "quantum_key_distributions",
+   "rows": 4,
+   "columns": [
+    "quantum_key_distribution_id",
+    "photon_polarization_states",
+    "detector_type",
+    "eavesdropping_detection",
+    "cyber_security_protocol_id",
+    "receiver_device_i_d"
+   ]
+  },
+  {
+   "name": "receivers",
+   "rows": 4,
+   "columns": [
+    "device_i_d",
+    "location",
+    "detector_sensitivity",
+    "quantum_key_distribution_id"
+   ]
+  },
+  {
+   "name": "qubits_computers",
+   "rows": 8,
+   "columns": [
+    "qubit_id",
+    "quantum_computer_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_quantum_computer_qubit",
+  "v_quantum_computer_cryptosystem",
+  "v_qubit_quantum_computer_detail",
+  "v_cryptosystem_mathematical_problem",
+  "v_cryptosystem_cyber_security_protocol",
+  "v_mathematical_problem_quantum_computer",
+  "v_cyber_security_protocol_quantum_key_distribution",
+  "v_quantum_key_distribution_cyber_security_protocol",
+  "v_quantum_key_distribution_receiver",
+  "v_receiver_quantum_key_distribution"
+ ]
+}

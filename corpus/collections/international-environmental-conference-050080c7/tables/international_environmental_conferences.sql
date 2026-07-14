@@ -1,0 +1,21 @@
+CREATE TABLE international_environmental_conferences (
+  id INTEGER NOT NULL,
+  conference_id VARCHAR(44),
+  start_date TIMESTAMP,
+  end_date TIMESTAMP,
+  host_city VARCHAR(32),
+  host_country VARCHAR(32),
+  declaration_title VARCHAR(32),
+  action_plan_title VARCHAR(32),
+  total_recommendations INTEGER,
+  has_n_g_o_forum BOOLEAN,
+  environmental_declaration_id INTEGER,
+  action_plan_id INTEGER,
+  international_environmental_institution_id INTEGER,
+  international_environmental_conference_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (environmental_declaration_id) REFERENCES environmental_declarations (id),
+  FOREIGN KEY (action_plan_id) REFERENCES action_plans (id),
+  FOREIGN KEY (international_environmental_institution_id) REFERENCES international_environmental_institutions (id),
+  FOREIGN KEY (international_environmental_conference_id) REFERENCES international_environmental_conferences (id)
+);

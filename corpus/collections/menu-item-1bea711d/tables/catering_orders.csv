@@ -1,0 +1,5 @@
+catering_order_id,order_id,order_date,delivery_date,order_status,total_amount,contact_phone
+1000,1030,2023-02-27T13:15:00,2022-09-10,regional-order-84,112.11,Joe Tsai
+1001,comi,2024-07-11T20:32:00,2023-02-21,legacy-order-85,"1,979",Stephanie Collins
+1002,state_uk_22,2025-12-22T03:49:00,2024-07-05,compact-order-86,"15,418",Tasha Rodriguez
+1003,99669,2022-05-06T10:06:00,2025-12-16,composite-order-87,"12,579",Walter Pratt

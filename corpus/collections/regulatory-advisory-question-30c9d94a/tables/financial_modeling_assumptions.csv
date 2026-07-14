@@ -1,0 +1,5 @@
+id,assumption_id,assumption_type,parameter_name,value_range_lower_bound,value_range_upper_bound,is_benchmark,status,cost_of_capital_id,regulatory_advisory_question_id
+1,57e4fc72-8fcd-11eb-924d-9cd76263cbd0,extended-assumpti-75,Extended Model,6.45,21.70,true,regional-status-84,100,1
+2,43197169,integrated-assumpti-76,Pilot Cluster A,10.90,26.40,false,legacy-status-85,101,2
+3,46d530ec-8fcc-11eb-924d-9cd76263cbd0,seasonal-assumpti-77,Baseline Review,15.35,31.10,true,compact-status-86,102,3
+4,5082980,regional-assumpti-78,Distributed Initiative,19.80,35.80,false,composite-status-87,103,4

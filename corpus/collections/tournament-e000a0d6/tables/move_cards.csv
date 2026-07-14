@@ -1,0 +1,5 @@
+move_card_id,card_id,game_id,player_id,move_notation,time_used,total_time,postmark_date,transmission_date,status,belongs_game_game_id,submitted_by_player_id,tournament_director_td_id
+100,17788643,8350009,gd_fp_eu_acc2,primary-move-94,7.45,17.45,2024-03-07,2023-06-14T05:27:00,received,8350009,100,8189491
+101,ChIJ20iLSYBt5kcRqH2vq_dd6GU,8843755,605941,adaptive-move-95,10.90,19.90,2025-08-18,2024-11-25T12:44:00,processed,8843755,101,2106706
+102,1336192,24341655,195362,distributed-move-96,14.35,22.35,2022-01-02,2025-04-09T19:01:00,ambiguous,24341655,102,10449524
+103,5917278,3001009030250,id_26,baseline-move-97,17.80,24.80,2023-06-13,2022-09-20T02:18:00,received,3001009030250,103,3355777

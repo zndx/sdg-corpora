@@ -1,0 +1,21 @@
+CREATE TABLE active_pharmaceutical_ingredients (
+  api_id VARCHAR(44) NOT NULL,
+  api_name VARCHAR(32),
+  chemical_class VARCHAR(32),
+  therapeutic_class VARCHAR(32),
+  molecular_weight DECIMAL,
+  solubility VARCHAR(32),
+  storage_condition VARCHAR(32),
+  shelf_life_months INTEGER,
+  regulatory_status VARCHAR(32),
+  first_line_therapy BOOLEAN,
+  drug_application_id INTEGER,
+  pharmaceutical_company_id INTEGER,
+  supplied_to_pharmaceutical_company_id INTEGER,
+  disease_id VARCHAR(44),
+  PRIMARY KEY (api_id),
+  FOREIGN KEY (drug_application_id) REFERENCES drug_applications (drug_application_id),
+  FOREIGN KEY (pharmaceutical_company_id) REFERENCES pharmaceutical_companies (pharmaceutical_company_id),
+  FOREIGN KEY (supplied_to_pharmaceutical_company_id) REFERENCES pharmaceutical_companies (pharmaceutical_company_id),
+  FOREIGN KEY (disease_id) REFERENCES diseases (disease_id)
+);

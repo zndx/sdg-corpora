@@ -1,0 +1,174 @@
+{
+ "construct_id": "5f7bb57c073ef4a9",
+ "slug": "academic-program-5f7bb57c",
+ "passage": "5f7bb57c073ef4a9f779b3de5be221275b53703394c21284b68f9fe293131f03.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "AcademicProgram",
+  "Concentration",
+  "Competency",
+  "ProfessionalRole",
+  "ResearchActivity",
+  "StatisticalMethod"
+ ],
+ "terms": [
+  {
+   "name": "AcademicProgram",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Concentration",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Competency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProfessionalRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ResearchActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StatisticalMethod",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_programs",
+   "rows": 4,
+   "columns": [
+    "academic_program_id",
+    "program_code",
+    "degree_level",
+    "concentration",
+    "total_credit_hours_required",
+    "max_advanced_standing_credits",
+    "enrollment_mode",
+    "effective_date",
+    "status",
+    "concentration_id",
+    "professional_role_id"
+   ]
+  },
+  {
+   "name": "concentrations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "concentration_name",
+    "focus_area",
+    "methodology_type",
+    "is_core",
+    "academic_program_id",
+    "statistical_method_id"
+   ]
+  },
+  {
+   "name": "competencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "competency_i_d",
+    "competency_title",
+    "competency_description",
+    "proficiency_level",
+    "assessment_type",
+    "academic_program_id",
+    "professional_role_id",
+    "research_activity_id"
+   ]
+  },
+  {
+   "name": "professional_roles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role_name",
+    "role_category",
+    "primary_responsibility",
+    "academic_program_id",
+    "research_activity_id"
+   ]
+  },
+  {
+   "name": "research_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_i_d",
+    "activity_type",
+    "study_design",
+    "data_source",
+    "start_date",
+    "end_date",
+    "status",
+    "statistical_method_id",
+    "competency_id",
+    "professional_role_id",
+    "involves_collaborator_professional_role_id"
+   ]
+  },
+  {
+   "name": "statistical_methods",
+   "rows": 4,
+   "columns": [
+    "statistical_method_id",
+    "method_i_d",
+    "method_name",
+    "method_category",
+    "complexity_level",
+    "is_standardized",
+    "concentration_id",
+    "research_activity_id",
+    "professional_role_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "programs_competencies",
+   "rows": 8,
+   "columns": [
+    "academic_program_id",
+    "competency_id"
+   ]
+  },
+  {
+   "name": "roles_competencies",
+   "rows": 8,
+   "columns": [
+    "professional_role_id",
+    "competency_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_academic_program_concentration",
+  "v_academic_program_competency_detail",
+  "v_academic_program_professional_role",
+  "v_concentration_academic_program",
+  "v_concentration_statistical_method",
+  "v_competency_academic_program",
+  "v_competency_professional_role",
+  "v_competency_research_activity",
+  "v_professional_role_academic_program",
+  "v_professional_role_competency_detail",
+  "v_professional_role_research_activity",
+  "v_research_activity_statistical_method",
+  "v_research_activity_competency",
+  "v_research_activity_professional_role",
+  "v_statistical_method_concentration",
+  "v_statistical_method_research_activity",
+  "v_statistical_method_professional_role"
+ ]
+}

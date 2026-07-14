@@ -1,0 +1,160 @@
+{
+ "construct_id": "f7a8a066422981b7",
+ "slug": "client-engagement-f7a8a066",
+ "passage": "f7a8a066422981b70d7fa02b4479130716d3730e5a0af751bc3803cacce06fca.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 16,
+ "entities": [
+  "ClientEngagement",
+  "FinancialController",
+  "ManagementAccount",
+  "ComplianceTask",
+  "FinancialForecast",
+  "JuniorAccountant"
+ ],
+ "terms": [
+  {
+   "name": "ClientEngagement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FinancialController",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ManagementAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ComplianceTask",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FinancialForecast",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "JuniorAccountant",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "clie_client_engagements",
+   "rows": 4,
+   "columns": [
+    "engagement_id",
+    "client_name",
+    "industry_sector",
+    "start_date",
+    "end_date",
+    "status",
+    "financial_controller_id",
+    "account_id",
+    "compliance_task_id"
+   ]
+  },
+  {
+   "name": "clie_financial_controllers",
+   "rows": 4,
+   "columns": [
+    "financial_controller_id",
+    "controller_id",
+    "full_name",
+    "qualification_status",
+    "employment_type",
+    "days_per_week",
+    "base_location",
+    "has_driver_license",
+    "engagement_id",
+    "junior_accountant_id"
+   ]
+  },
+  {
+   "name": "clie_management_accounts",
+   "rows": 4,
+   "columns": [
+    "account_id",
+    "reporting_period",
+    "total_revenue",
+    "total_expenses",
+    "net_profit",
+    "status",
+    "review_date",
+    "engagement_id",
+    "financial_controller_id"
+   ]
+  },
+  {
+   "name": "clie_compliance_tasks",
+   "rows": 4,
+   "columns": [
+    "compliance_task_id",
+    "task_id",
+    "task_type",
+    "due_date",
+    "filing_deadline",
+    "status",
+    "external_advisor_id",
+    "financial_controller_id",
+    "engagement_id",
+    "account_id"
+   ]
+  },
+  {
+   "name": "clie_financial_forecasts",
+   "rows": 4,
+   "columns": [
+    "forecast_id",
+    "forecast_type",
+    "projection_period",
+    "projected_revenue",
+    "projected_expenses",
+    "projected_net_cash",
+    "confidence_level",
+    "engagement_id",
+    "financial_controller_id",
+    "account_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "clie_junior_accountants",
+   "rows": 4,
+   "columns": [
+    "junior_accountant_id",
+    "accountant_id",
+    "full_name",
+    "qualification_level",
+    "specialization",
+    "hours_allocated",
+    "financial_controller_id",
+    "engagement_id",
+    "account_id"
+   ]
+  }
+ ],
+ "views": [
+  "client_engagement_financial_controller_view",
+  "client_engagement_management_account_view",
+  "client_engagement_compliance_task_view",
+  "financial_controller_client_engagement_view",
+  "financial_controller_junior_accountant_view",
+  "management_account_client_engagement_view",
+  "management_account_financial_controller_view",
+  "compliance_task_financial_controller_view",
+  "compliance_task_client_engagement_view",
+  "compliance_task_management_account_view",
+  "financial_forecast_client_engagement_view",
+  "financial_forecast_financial_controller_view",
+  "financial_forecast_management_account_view",
+  "junior_accountant_financial_controller_view",
+  "junior_accountant_client_engagement_view",
+  "junior_accountant_management_account_view"
+ ]
+}

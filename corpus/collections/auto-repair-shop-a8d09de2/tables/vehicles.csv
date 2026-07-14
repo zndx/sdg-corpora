@@ -1,0 +1,5 @@
+id,vin,make,model,year,mileage,customer_name,customer_id,repair_job_id,created_at
+1000,legacy-vin-25,extended-make-81,composite-model-81,12,20,Susan Wagner,1,1000,2025-01-01 00:14:00
+1001,compact-vin-26,integrated-make-82,primary-model-82,21,29,Norma Fisher,2,1001,2025-02-06 03:14:00
+1002,composite-vin-27,seasonal-make-83,adaptive-model-83,30,38,Peter Anthony,3,1002,2025-03-11 06:14:00
+1003,primary-vin-28,regional-make-84,distributed-model-84,39,47,Bobby Flores,4,1003,2025-04-16 09:14:00

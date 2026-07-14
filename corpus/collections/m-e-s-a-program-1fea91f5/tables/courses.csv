@@ -1,0 +1,5 @@
+course_id,course_code,course_title,department,is_math_based,prerequisite,credits
+1,10238263,Baseline Series D,adaptive-departme-89,false,seasonal-prerequi-71,28
+2,4463667,Distributed Assessment,distributed-departme-90,true,regional-prerequi-72,33
+3,24077793,Adaptive Survey,baseline-departme-91,false,legacy-prerequi-73,38
+4,1204-0009-L,Primary Corridor A,pilot-departme-92,true,compact-prerequi-74,43

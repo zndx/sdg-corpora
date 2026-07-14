@@ -1,0 +1,5 @@
+id,plant_id,species_name,variety,growth_stage,stress_tolerance_level,yield_metric,pathogen_id,small_molecule_id
+1,5082988,Primary Programme A,primary-variety-16,adaptive-growth-35,11.45,14.70,1996917,1
+2,template_ivacode_pagata_20ind,Composite Standard,adaptive-variety-17,distributed-growth-36,15.90,19.40,7119791,2
+3,L331,Compact Framework,distributed-variety-18,baseline-growth-37,20.35,24.10,392493,3
+4,14484998,Legacy Protocol D,baseline-variety-19,pilot-growth-38,24.80,28.80,13483868,4

@@ -1,0 +1,216 @@
+{
+ "construct_id": "455be55ba37b5d03",
+ "slug": "protected-area-455be55b",
+ "passage": "455be55ba37b5d03a0c6bf0728161f560f43186e212ad620070664262b078da5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 17,
+ "entities": [
+  "ProtectedArea",
+  "AlpineRegion",
+  "TransalpineEcologicalNetwork",
+  "ALPARC",
+  "JointEuropeanProject",
+  "ProjectLeader",
+  "ProfessionalEvent"
+ ],
+ "terms": [
+  {
+   "name": "ProtectedArea",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AlpineRegion",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "TransalpineEcologicalNetwork",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ALPARC",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "JointEuropeanProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProjectLeader",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ProfessionalEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "protected_areas",
+   "rows": 4,
+   "columns": [
+    "protected_area_id",
+    "identifier",
+    "name",
+    "area_hectares",
+    "established_date",
+    "protection_level",
+    "administering_entity",
+    "is_a_l_p_a_r_c_member",
+    "alpine_region_id",
+    "transalpine_ecological_network_id"
+   ]
+  },
+  {
+   "name": "alpine_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_code",
+    "total_area_hectares",
+    "member_states",
+    "perimeter_definition_date"
+   ]
+  },
+  {
+   "name": "transalpine_ecological_networks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "network_id",
+    "name",
+    "established_date",
+    "total_corridor_length_km",
+    "status",
+    "coordinating_entity",
+    "a_l_p_a_r_c_organization_id"
+   ]
+  },
+  {
+   "name": "a_l_p_a_r_cs",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "name",
+    "founded_date",
+    "headquarters_city",
+    "headquarters_country",
+    "total_member_areas",
+    "coverage_percentage",
+    "transalpine_ecological_network_id",
+    "project_code",
+    "project_leader_id",
+    "professional_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "joint_european_projects",
+   "rows": 4,
+   "columns": [
+    "project_code",
+    "title",
+    "start_date",
+    "end_date",
+    "funding_source",
+    "budget_euros",
+    "status",
+    "deliverable_count",
+    "a_l_p_a_r_c_organization_id",
+    "project_leader_id"
+   ]
+  },
+  {
+   "name": "project_leaders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "contract_start_date",
+    "contract_end_date",
+    "weekly_hours",
+    "primary_language",
+    "secondary_language",
+    "has_driving_license",
+    "years_experience",
+    "a_l_p_a_r_c_organization_id"
+   ]
+  },
+  {
+   "name": "professional_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "title",
+    "event_type",
+    "start_date",
+    "end_date",
+    "location_city",
+    "location_country",
+    "participant_count",
+    "status",
+    "topic",
+    "a_l_p_a_r_c_organization_id",
+    "project_code",
+    "project_leader_id"
+   ]
+  },
+  {
+   "name": "regions_areas",
+   "rows": 8,
+   "columns": [
+    "alpine_region_id",
+    "protected_area_id"
+   ]
+  },
+  {
+   "name": "networks_areas",
+   "rows": 8,
+   "columns": [
+    "transalpine_ecological_network_id",
+    "protected_area_id"
+   ]
+  },
+  {
+   "name": "projects_areas",
+   "rows": 8,
+   "columns": [
+    "project_code",
+    "protected_area_id"
+   ]
+  },
+  {
+   "name": "leaders_projects",
+   "rows": 8,
+   "columns": [
+    "project_leader_id",
+    "project_code"
+   ]
+  }
+ ],
+ "views": [
+  "protected_area_alpine_region_view",
+  "protected_area_transalpine_ecological_network_view",
+  "alpine_region_protected_area_detail_view",
+  "transalpine_ecological_network_protected_area_detail_view",
+  "transalpine_ecological_network_a_l_p_a_r_c_view",
+  "a_l_p_a_r_c_transalpine_ecological_network_view",
+  "a_l_p_a_r_c_joint_european_project_view",
+  "a_l_p_a_r_c_project_leader_view",
+  "a_l_p_a_r_c_professional_event_view",
+  "joint_european_project_protected_area_detail_view",
+  "joint_european_project_a_l_p_a_r_c_view",
+  "joint_european_project_project_leader_view",
+  "project_leader_joint_european_project_detail_view",
+  "project_leader_a_l_p_a_r_c_view",
+  "professional_event_a_l_p_a_r_c_view",
+  "professional_event_joint_european_project_view",
+  "professional_event_project_leader_view"
+ ]
+}

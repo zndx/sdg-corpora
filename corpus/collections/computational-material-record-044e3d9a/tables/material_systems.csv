@@ -1,0 +1,5 @@
+id,system_id,chemical_formula,crystal_system,space_group_number,lattice_parameter_a,lattice_parameter_b,lattice_parameter_c,formation_energy,material_property_id
+1,8189503,integrated-chemical-82,cubic,41,20.45,3.95,17.20,1.95,100
+2,3717623,seasonal-chemical-83,tetragonal,51,23.90,7.90,19.40,3.90,101
+3,7441161,regional-chemical-84,orthorhombic,61,27.35,11.85,21.60,5.85,102
+4,605963,legacy-chemical-85,hexagonal,71,30.80,15.80,23.80,7.80,103

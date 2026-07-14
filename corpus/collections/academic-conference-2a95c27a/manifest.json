@@ -1,0 +1,267 @@
+{
+ "construct_id": "2a95c27a107c6d26",
+ "slug": "academic-conference-2a95c27a",
+ "passage": "2a95c27a107c6d269d242ba2fb10131e0587cca9c87219085f66b6f4d96b52f1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 32,
+ "entities": [
+  "AcademicConference",
+  "LearnedSociety",
+  "AcademicInstitution",
+  "AcademicDepartment",
+  "SteeringCommittee",
+  "ProgrammeCommittee",
+  "LocalOrganizationCommittee",
+  "AcademicResearcher",
+  "AcademicLecture",
+  "AcademicPaper"
+ ],
+ "terms": [
+  {
+   "name": "AcademicConference",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LearnedSociety",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicDepartment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SteeringCommittee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProgrammeCommittee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LocalOrganizationCommittee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicResearcher",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicLecture",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicPaper",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_conferences",
+   "rows": 4,
+   "columns": [
+    "identifier",
+    "title",
+    "start_date",
+    "end_date",
+    "status",
+    "region_code",
+    "academic_institution_id",
+    "learned_society_id",
+    "steering_committee_id",
+    "programme_committee_id",
+    "local_organization_committee_id"
+   ]
+  },
+  {
+   "name": "learned_societies",
+   "rows": 4,
+   "columns": [
+    "learned_society_id",
+    "identifier",
+    "name",
+    "founding_year",
+    "status",
+    "funding_model",
+    "academic_conference_region_code"
+   ]
+  },
+  {
+   "name": "academic_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "city",
+    "country",
+    "postal_code",
+    "website",
+    "academic_conference_region_code",
+    "academic_department_id"
+   ]
+  },
+  {
+   "name": "academic_departments",
+   "rows": 4,
+   "columns": [
+    "academic_department_id",
+    "identifier",
+    "name",
+    "head_name",
+    "contact_email",
+    "contact_phone",
+    "academic_institution_id",
+    "local_organization_committee_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "steering_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "role",
+    "responsibility_level",
+    "academic_conference_region_code",
+    "programme_committee_id",
+    "local_organization_committee_id"
+   ]
+  },
+  {
+   "name": "programme_committees",
+   "rows": 4,
+   "columns": [
+    "programme_committee_id",
+    "identifier",
+    "chair_name",
+    "selection_deadline",
+    "membership_limit",
+    "academic_conference_region_code",
+    "academic_researcher_id",
+    "selects_speaker_academic_researcher_id",
+    "academic_paper_id"
+   ]
+  },
+  {
+   "name": "local_organization_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "convenor_name",
+    "task_category",
+    "academic_conference_region_code",
+    "academic_institution_id"
+   ]
+  },
+  {
+   "name": "academic_researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "full_name",
+    "affiliation",
+    "email",
+    "role",
+    "is_fellow",
+    "academic_institution_id",
+    "steering_committee_id",
+    "programme_committee_id",
+    "local_organization_committee_id",
+    "academic_lecture_id",
+    "academic_paper_id"
+   ]
+  },
+  {
+   "name": "academic_lectures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "title",
+    "lecture_type",
+    "named_after",
+    "scheduled_date",
+    "venue_room",
+    "academic_conference_region_code",
+    "academic_researcher_id",
+    "academic_institution_id"
+   ]
+  },
+  {
+   "name": "academic_papers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "title",
+    "submission_date",
+    "status",
+    "is_contributed",
+    "author_membership_required",
+    "academic_conference_region_code",
+    "programme_committee_id"
+   ]
+  },
+  {
+   "name": "committees_researchers",
+   "rows": 8,
+   "columns": [
+    "steering_committee_id",
+    "academic_researcher_id"
+   ]
+  },
+  {
+   "name": "papers_researchers",
+   "rows": 8,
+   "columns": [
+    "academic_paper_id",
+    "academic_researcher_id"
+   ]
+  }
+ ],
+ "views": [
+  "academic_conference_academic_institution_view",
+  "academic_conference_learned_society_view",
+  "academic_conference_steering_committee_view",
+  "academic_conference_programme_committee_view",
+  "academic_conference_local_organization_committee_view",
+  "learned_society_academic_conference_view",
+  "academic_institution_academic_conference_view",
+  "academic_institution_academic_department_view",
+  "academic_department_academic_institution_view",
+  "academic_department_local_organization_committee_view",
+  "steering_committee_academic_conference_view",
+  "steering_committee_academic_researcher_detail_view",
+  "steering_committee_programme_committee_view",
+  "steering_committee_local_organization_committee_view",
+  "programme_committee_academic_conference_view",
+  "programme_committee_academic_researcher_view",
+  "programme_committee_academic_paper_view",
+  "local_organization_committee_academic_conference_view",
+  "local_organization_committee_academic_researcher_detail_view",
+  "local_organization_committee_academic_institution_view",
+  "academic_researcher_academic_institution_view",
+  "academic_researcher_steering_committee_view",
+  "academic_researcher_programme_committee_view",
+  "academic_researcher_local_organization_committee_view",
+  "academic_researcher_academic_lecture_view",
+  "academic_researcher_academic_paper_view",
+  "academic_lecture_academic_conference_view",
+  "academic_lecture_academic_researcher_view",
+  "academic_lecture_academic_institution_view",
+  "academic_paper_academic_conference_view",
+  "academic_paper_academic_researcher_detail_view",
+  "academic_paper_programme_committee_view"
+ ]
+}

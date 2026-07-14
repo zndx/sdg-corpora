@@ -1,0 +1,20 @@
+CREATE TABLE CourseUnit (
+  id INTEGER NOT NULL,
+  unitCode INTEGER,
+  unitTitle VARCHAR(32),
+  trainingTypeCode VARCHAR(44),
+  trainingTypeName VARCHAR(32),
+  accreditationStatus VARCHAR(32),
+  currentEffectiveDate TIMESTAMP,
+  expiryDate TIMESTAMP,
+  isRestricted BOOLEAN,
+  authorityId INTEGER,
+  periodId INTEGER,
+  restrictionId INTEGER,
+  detailId INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (authorityId) REFERENCES RecognitionAuthority (id),
+  FOREIGN KEY (periodId) REFERENCES CurrencyPeriod (periodId),
+  FOREIGN KEY (restrictionId) REFERENCES Restriction (id),
+  FOREIGN KEY (detailId) REFERENCES ContactDetail (id)
+);

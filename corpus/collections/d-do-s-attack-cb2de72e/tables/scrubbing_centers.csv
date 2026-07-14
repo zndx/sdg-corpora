@@ -1,0 +1,5 @@
+id,center_id,location,current_load_percent,is_accepting_traffic,last_traffic_redirect,d_do_s_attack_id,athena_platform_id
+100,5844261,extended-location-99,10.95,true,2024-07-27T06:54:00,1000,1
+101,1437588,integrated-location-100,14.90,false,2025-12-11T13:11:00,1001,2
+102,6564397,seasonal-location-101,18.85,true,2022-05-22T20:28:00,1002,3
+103,default_chart_a_tax_13,regional-location-102,22.80,false,2023-10-06T03:45:00,1003,4

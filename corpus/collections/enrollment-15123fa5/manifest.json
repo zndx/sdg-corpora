@@ -1,0 +1,161 @@
+{
+ "construct_id": "15123fa523906688",
+ "slug": "enrollment-15123fa5",
+ "passage": "15123fa5239066889ef186a26b1a1015a5f5e2ba6455f5839d26f3f3e8d2908d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 10,
+ "entities": [
+  "Enrollment",
+  "Student",
+  "Parent",
+  "MediaRelease",
+  "ReferralSource"
+ ],
+ "terms": [
+  {
+   "name": "Enrollment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Parent",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MediaRelease",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ReferralSource",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "enrollments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enrollment_id",
+    "registration_fee",
+    "monthly_tuition",
+    "late_fee",
+    "enrollment_date",
+    "program_period_start",
+    "program_period_end",
+    "is_refundable",
+    "student_id",
+    "media_release_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "first_name",
+    "chinese_name",
+    "birth_date",
+    "school_name",
+    "enrollment_status",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "parents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parent_id",
+    "first_name",
+    "chinese_name",
+    "home_phone",
+    "cell_phone",
+    "email",
+    "home_address",
+    "city",
+    "zip_code",
+    "student_id"
+   ]
+  },
+  {
+   "name": "media_releases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "release_id",
+    "allows_video_recording",
+    "allows_audio_recording",
+    "allows_photography",
+    "allows_promotional_use",
+    "waives_right_to_sue",
+    "hold_harmless_agreement",
+    "signed_date",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "referral_sources",
+   "rows": 4,
+   "columns": [
+    "referral_source_id",
+    "source_id",
+    "source_name",
+    "other_details",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "enrollments_parents",
+   "rows": 8,
+   "columns": [
+    "enrollment_id",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "students_parents",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "parents_enrollments",
+   "rows": 8,
+   "columns": [
+    "parent_id",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "releases_parents",
+   "rows": 8,
+   "columns": [
+    "media_release_id",
+    "parent_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_enrollment_student",
+  "v_enrollment_parent_detail",
+  "v_enrollment_media_release",
+  "v_student_enrollment",
+  "v_student_parent_detail",
+  "v_parent_enrollment_detail",
+  "v_parent_student",
+  "v_media_release_enrollment",
+  "v_media_release_parent_detail",
+  "v_referral_source_enrollment"
+ ]
+}

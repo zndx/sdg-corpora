@@ -1,0 +1,22 @@
+CREATE TABLE performance_reports (
+  performance_report_id INTEGER NOT NULL,
+  report_date TIMESTAMP,
+  period_start DATE,
+  period_end DATE,
+  trailing_return DECIMAL,
+  benchmark_return DECIMAL,
+  standard_deviation DECIMAL,
+  sharpe_ratio DECIMAL,
+  alpha DECIMAL,
+  beta DECIMAL,
+  report_type VARCHAR(32),
+  fund_id INTEGER,
+  underlying_fund_id INTEGER,
+  benchmark_index_id INTEGER,
+  fund_manager_id INTEGER,
+  PRIMARY KEY (performance_report_id),
+  FOREIGN KEY (fund_id) REFERENCES funds (fund_id),
+  FOREIGN KEY (underlying_fund_id) REFERENCES underlying_funds (underlying_fund_id),
+  FOREIGN KEY (benchmark_index_id) REFERENCES benchmark_indexes (benchmark_index_id),
+  FOREIGN KEY (fund_manager_id) REFERENCES fund_managers (fund_manager_id)
+);

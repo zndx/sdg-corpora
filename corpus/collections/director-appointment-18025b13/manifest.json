@@ -1,0 +1,144 @@
+{
+ "construct_id": "18025b13c73d02f0",
+ "slug": "director-appointment-18025b13",
+ "passage": "18025b13c73d02f0388a6ae5022b90fbf4e3e09b2cb5ab1a4f97adba336bdc9c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 9,
+ "entities": [
+  "DirectorAppointment",
+  "ProfessionalAdvisor",
+  "CorporateDivision",
+  "ClientProfile",
+  "FinancialProduct"
+ ],
+ "terms": [
+  {
+   "name": "DirectorAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProfessionalAdvisor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CorporateDivision",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ClientProfile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialProduct",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "DirectorAppointment",
+   "rows": 4,
+   "columns": [
+    "appointmentId",
+    "appointmentDate",
+    "divisionName",
+    "status",
+    "terminationDate",
+    "advisorId",
+    "divisionId"
+   ]
+  },
+  {
+   "name": "ProfessionalAdvisor",
+   "rows": 4,
+   "columns": [
+    "id",
+    "advisorId",
+    "firstName",
+    "lastName",
+    "corporateTitle",
+    "specialization",
+    "educationProgramCompleted",
+    "contactEmail",
+    "contactPhone",
+    "appointmentId",
+    "divisionId"
+   ]
+  },
+  {
+   "name": "CorporateDivision",
+   "rows": 4,
+   "columns": [
+    "id",
+    "divisionId",
+    "divisionName",
+    "parentOrganization",
+    "foundingDate",
+    "targetClientele"
+   ]
+  },
+  {
+   "name": "ClientProfile",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clientId",
+    "clientType",
+    "assetProtectionStatus",
+    "careerPhase",
+    "financialFootingStatus",
+    "advisorId"
+   ]
+  },
+  {
+   "name": "FinancialProduct",
+   "rows": 4,
+   "columns": [
+    "productId",
+    "productName",
+    "productCategory",
+    "availabilityScope",
+    "targetSegment",
+    "advisorId"
+   ]
+  },
+  {
+   "name": "CorporateDivisionProfessionalAdvisor",
+   "rows": 8,
+   "columns": [
+    "divisionId",
+    "advisorId"
+   ]
+  },
+  {
+   "name": "ClientProfileFinancialProduct",
+   "rows": 8,
+   "columns": [
+    "profileId",
+    "productId"
+   ]
+  },
+  {
+   "name": "FinancialProductClientProfile",
+   "rows": 8,
+   "columns": [
+    "productId",
+    "profileId"
+   ]
+  }
+ ],
+ "views": [
+  "v_director_appointment_professional_advisor",
+  "v_director_appointment_corporate_division",
+  "v_professional_advisor_director_appointment",
+  "v_professional_advisor_corporate_division",
+  "v_corporate_division_professional_advisor_detail",
+  "v_client_profile_professional_advisor",
+  "v_client_profile_financial_product_detail",
+  "v_financial_product_professional_advisor",
+  "v_financial_product_client_profile_detail"
+ ]
+}

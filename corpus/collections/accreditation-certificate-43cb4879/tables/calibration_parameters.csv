@@ -1,0 +1,5 @@
+calibration_parameter_id,parameter_name,measurement_range,expanded_uncertainty,uncertainty_unit,frequency_range,coverage_factor,calibration_laboratory_id,calibration_standard_id
+1,Extended Model,primary-measurem-88,17.45,primary-uncertai-88,seasonal-frequenc-41,4.95,1,1
+2,Pilot Cluster A,adaptive-measurem-89,20.90,adaptive-uncertai-89,regional-frequenc-42,8.90,2,2
+3,Baseline Review,distributed-measurem-90,24.35,distributed-uncertai-90,legacy-frequenc-43,12.85,3,3
+4,Distributed Initiative,baseline-measurem-91,27.80,baseline-uncertai-91,compact-frequenc-44,16.80,4,4

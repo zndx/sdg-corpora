@@ -1,0 +1,5 @@
+id,manufacturer_part_number,ean_number,gpu_architecture,memory_capacity_bytes,memory_interface_width,memory_bandwidth_gbps,max_power_consumption_watts,form_factor,thermal_solution,workstation_enclosure_id
+1,American Express Co,EAN-2138,extended-gpu-75,31,36,21.70,26,distributed-form-42,adaptive-thermal-89,100
+2,Firestone Tire & Rubber,EAN-2143,integrated-gpu-76,42,41,25.40,34,baseline-form-43,distributed-thermal-90,101
+3,LDAP First Name Field,EAN-2148,seasonal-gpu-77,53,46,29.10,42,pilot-form-44,baseline-thermal-91,102
+4,Blink Charging Co.,EAN-2153,regional-gpu-78,64,51,32.80,50,extended-form-45,pilot-thermal-92,103

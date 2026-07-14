@@ -1,0 +1,5 @@
+consolidation_impact_id,impact_id,cost_savings,salary_savings,position_count_change,efficiency_gain,requires_new_infrastructure,mission_statement_id,created_at,updated_at
+1000,gd_taxc_1123,"8,753","48,467",1,true,true,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,57e54d62-8fcd-11eb-924d-9cd76263cbd0,0.22,"51,001",12,false,false,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,5844275,"8,598","16,639",1,true,true,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,605949,"9,957",4.44,8,false,false,103,2025-04-16 09:14:00,2025-04-23 15:41:00

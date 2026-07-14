@@ -1,0 +1,5 @@
+minor_dependent_id,minor_id,full_name,age,citizenship_status,immigration_status_declaration_id,leasing_officer_id,created_at,updated_at
+100,b_VB-EC-12,Theodore Mcgrath,35,Citizen,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,20155792,Account Name,40,Naturalized Citizen,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,1889764,Saipan International Airport,45,National,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,32806,Norma Fisher,50,Eligible Noncitizen,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

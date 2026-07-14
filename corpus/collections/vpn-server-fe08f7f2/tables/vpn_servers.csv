@@ -1,0 +1,5 @@
+vpn_server_id,serial_number,firmware_version,max_concurrent_connections,power_consumption_watts,form_factor,status,security_policy_id
+100,5844275,distributed-firmware-48,18,19.45,distributed-form-42,active,1
+101,69422,baseline-firmware-49,27,21.90,baseline-form-43,standby,2
+102,7731874,pilot-firmware-50,36,24.35,pilot-form-44,offline,3
+103,10445632,extended-firmware-51,45,26.80,extended-form-45,maintenance,4

@@ -1,0 +1,5 @@
+inspection_event_id,inspection_date,inspection_type,regulatory_basis,overall_safety_rating,overall_effectiveness_rating,overall_caring_rating,overall_responsive_rating,overall_well_led_rating,clinical_service_id
+100,2025-12-03T23:09:00,announced,distributed-regulato-78,safe,effective,caring,responsive,well-led,100
+101,2022-05-14T06:26:00,unannounced,baseline-regulato-79,unsafe,ineffective,uncaring,unresponsive,poorly-led,101
+102,2023-10-25T13:43:00,comprehensive,pilot-regulato-80,requires_improvement,requires_improvement,requires_improvement,requires_improvement,requires_improvement,102
+103,2024-03-09T20:00:00,announced,extended-regulato-81,safe,effective,caring,responsive,well-led,103

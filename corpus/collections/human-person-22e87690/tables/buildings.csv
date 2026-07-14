@@ -1,0 +1,5 @@
+id,has_building_type,has_material_composition,has_occupancy_status,has_animal_occupants,settlement_id,birth_event_id,created_at
+1,composite-building-87,distributed-material-66,distributed-occupanc-18,true,1,1,2025-01-01 00:14:00
+2,primary-building-88,baseline-material-67,baseline-occupanc-19,false,2,2,2025-02-06 03:14:00
+3,adaptive-building-89,pilot-material-68,pilot-occupanc-20,true,3,3,2025-03-11 06:14:00
+4,distributed-building-90,extended-material-69,extended-occupanc-21,false,4,4,2025-04-16 09:14:00

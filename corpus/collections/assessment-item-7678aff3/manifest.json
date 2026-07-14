@@ -1,0 +1,144 @@
+{
+ "construct_id": "7678aff3d4367213",
+ "slug": "assessment-item-7678aff3",
+ "passage": "7678aff3d43672131ef15b15ccdaf056c03a7ae6dec02f94033f46962ca6dfc5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "AssessmentItem",
+  "SourceMaterial",
+  "MarkingScheme",
+  "Concept",
+  "AnswerKey",
+  "ScoringRule"
+ ],
+ "terms": [
+  {
+   "name": "AssessmentItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SourceMaterial",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MarkingScheme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Concept",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AnswerKey",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ScoringRule",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "assessment_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_identifier",
+    "section_designation",
+    "question_number",
+    "sub_question_index",
+    "allocated_marks",
+    "item_type",
+    "status",
+    "source_material_id",
+    "marking_scheme_id"
+   ]
+  },
+  {
+   "name": "source_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "title",
+    "publisher",
+    "unit_number",
+    "chapter_number",
+    "page_reference",
+    "material_type",
+    "assessment_item_id"
+   ]
+  },
+  {
+   "name": "marking_schemes",
+   "rows": 4,
+   "columns": [
+    "marking_scheme_id",
+    "scheme_identifier",
+    "academic_session",
+    "subject_code",
+    "total_marks",
+    "duration_minutes",
+    "version",
+    "assessment_item_id"
+   ]
+  },
+  {
+   "name": "concepts",
+   "rows": 4,
+   "columns": [
+    "concept_id",
+    "concept_name",
+    "domain_category",
+    "definition_text",
+    "complexity_level",
+    "assessment_item_id",
+    "source_material_id"
+   ]
+  },
+  {
+   "name": "answer_keys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "key_identifier",
+    "response_text",
+    "is_correct",
+    "alternative_accepted",
+    "format_type",
+    "assessment_item_id",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "scoring_rules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rule_identifier",
+    "required_points",
+    "points_awarded",
+    "condition_type",
+    "penalty_applied",
+    "assessment_item_id",
+    "answer_key_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_assessment_item_source_material",
+  "v_assessment_item_marking_scheme",
+  "v_source_material_assessment_item",
+  "v_marking_scheme_assessment_item",
+  "v_concept_assessment_item",
+  "v_concept_source_material",
+  "v_answer_key_assessment_item",
+  "v_answer_key_concept",
+  "v_scoring_rule_assessment_item",
+  "v_scoring_rule_answer_key"
+ ]
+}

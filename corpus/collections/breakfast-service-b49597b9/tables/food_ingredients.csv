@@ -1,0 +1,5 @@
+id,ingredient_id,name,origin,allergen_flag,is_local_sourced,storage_temp,menu_option_id,created_at
+1,1450638,Extended Review,distributed-origin-66,false,false,22.70,1,2025-01-01 00:14:00
+2,5844284,Pilot Initiative A,baseline-origin-67,true,true,26.40,2,2025-02-06 03:14:00
+3,template_ivacode_pagata_20det40ind,Baseline Model,pilot-origin-68,false,false,30.10,3,2025-03-11 06:14:00
+4,2087735,Distributed Cluster,extended-origin-69,true,true,33.80,4,2025-04-16 09:14:00

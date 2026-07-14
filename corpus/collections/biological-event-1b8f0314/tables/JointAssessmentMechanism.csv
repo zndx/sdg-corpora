@@ -1,0 +1,5 @@
+id,mechanismID,mechanismName,activationDate,investigationOutcome,resourcesAllocated,participatingAgencies,eventId,mechanismId,facilityID
+1000,MEC-2455,Legacy Programme D,2024-03-03T14:42:00,source_identified,17.45,pilot-particip-56,1000,1,FAC-2492
+1001,MEC-2462,Regional Standard,2025-08-14T21:59:00,ongoing,20.90,extended-particip-57,1001,2,FAC-2499
+1002,MEC-2469,Seasonal Framework,2022-01-25T04:16:00,inconclusive,24.35,integrated-particip-58,1002,3,FAC-2506
+1003,MEC-2476,Integrated Protocol A,2023-06-09T11:33:00,source_identified,27.80,seasonal-particip-59,1003,4,FAC-2513

@@ -1,0 +1,169 @@
+{
+ "construct_id": "4c3690bb7ce2d03e",
+ "slug": "ganglion-cyst-4c3690bb",
+ "passage": "4c3690bb7ce2d03eeaef6eb9115fcc780b01c5282eb83f47fe1c2d3efeed3702.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 12,
+ "entities": [
+  "GanglionCyst",
+  "AnatomicalRegion",
+  "ConnectiveTissue",
+  "NerveFascicle",
+  "ImagingStudy",
+  "PathologicalSpecimen",
+  "PathologicalAnalysis"
+ ],
+ "terms": [
+  {
+   "name": "GanglionCyst",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AnatomicalRegion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ConnectiveTissue",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NerveFascicle",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ImagingStudy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PathologicalSpecimen",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PathologicalAnalysis",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ganglion_cysts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cyst_id",
+    "diameter_cm",
+    "is_multilocular",
+    "cyst_location",
+    "cyst_type",
+    "contains_mucinous_fluid",
+    "has_synovial_lining",
+    "anatomical_region_id",
+    "connective_tissue_id",
+    "nerve_fascicle_id",
+    "imaging_study_id"
+   ]
+  },
+  {
+   "name": "anatomical_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_id",
+    "region_name",
+    "is_subchondral",
+    "is_near_joint",
+    "is_near_tendon_sheath",
+    "ganglion_cyst_id",
+    "nerve_fascicle_id"
+   ]
+  },
+  {
+   "name": "connective_tissues",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tissue_id",
+    "tissue_type",
+    "is_degenerated",
+    "has_collagen_sheets",
+    "ganglion_cyst_id"
+   ]
+  },
+  {
+   "name": "nerve_fascicles",
+   "rows": 4,
+   "columns": [
+    "nerve_fascicle_id",
+    "nerve_id",
+    "nerve_name",
+    "is_compressed",
+    "has_paresthesia",
+    "has_weakness",
+    "has_atrophy",
+    "ganglion_cyst_id"
+   ]
+  },
+  {
+   "name": "imaging_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "study_id",
+    "study_date",
+    "modality",
+    "is_diagnostic",
+    "findings_description",
+    "ganglion_cyst_id"
+   ]
+  },
+  {
+   "name": "pathological_specimens",
+   "rows": 4,
+   "columns": [
+    "id",
+    "specimen_id",
+    "collection_date",
+    "is_multilobulated",
+    "has_mucinous_fluid",
+    "has_synovial_epithelium",
+    "has_fibro_connective_tissue",
+    "ganglion_cyst_id",
+    "pathological_analysis_id"
+   ]
+  },
+  {
+   "name": "pathological_analysises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "analysis_id",
+    "analysis_date",
+    "staining_method",
+    "has_collagen_sheets",
+    "has_fibroblasts",
+    "has_mesenchymal_cells",
+    "has_necrosis",
+    "has_inflammatory_changes",
+    "pathological_specimen_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "vw_ganglion_cyst_anatomical_region",
+  "vw_ganglion_cyst_connective_tissue",
+  "vw_ganglion_cyst_nerve_fascicle",
+  "vw_ganglion_cyst_imaging_study",
+  "vw_anatomical_region_ganglion_cyst",
+  "vw_anatomical_region_nerve_fascicle",
+  "vw_connective_tissue_ganglion_cyst",
+  "vw_nerve_fascicle_ganglion_cyst",
+  "vw_imaging_study_ganglion_cyst",
+  "vw_pathological_specimen_ganglion_cyst",
+  "vw_pathological_specimen_pathological_analysis",
+  "vw_pathological_analysis_pathological_specimen"
+ ]
+}

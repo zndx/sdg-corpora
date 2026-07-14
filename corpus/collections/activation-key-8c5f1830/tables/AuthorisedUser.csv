@@ -1,0 +1,5 @@
+id,userName,userRole,isConcurrent,customerRegistrationNumber,softwareId,sessionId
+1,Desiree Cain,Employee,true,REG-2136,1,1
+2,Jennifer Summers,Student,false,REG-2142,2,2
+3,Nicole Todd,Individual,true,REG-2148,3,3
+4,Rebekah Mueller,Employee,false,REG-2154,4,4

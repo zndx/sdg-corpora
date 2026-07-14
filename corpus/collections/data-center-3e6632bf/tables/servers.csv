@@ -1,0 +1,5 @@
+id,server_id,os_type,racs_client_installed,access_level,last_log_push,status,r_a_c_s_id
+100,911352d5dab64576b7a6da51aa69d76d,extended-os-27,Carlos Kennedy,command,2022-09-22T08:12:00,active,1
+101,1450637,integrated-os-28,Walter Pratt,directory,2023-02-06T15:29:00,inactive,2
+102,4985152,seasonal-os-29,Garrison Keillor,application,2024-07-17T22:46:00,maintenance,3
+103,9736887,regional-os-30,Stephanie Sutton,command,2025-12-01T05:03:00,active,4

@@ -1,0 +1,5 @@
+id,assessment_identifier,assessment_date,decision_topic,assessor_role,outcome,support_provided,individual_id,decision_context_id,best_interest_determination_id
+1,ASS-2505,2022-05-10T04:24:00,pilot-decision-20,clinician,hasCapacity,false,1,1000,1
+2,ASS-2510,2023-10-21T11:41:00,extended-decision-21,socialWorker,lacksCapacity,true,2,1001,2
+3,ASS-2515,2024-03-05T18:58:00,integrated-decision-22,legalAdvocate,fluctuatingCapacity,false,3,1002,3
+4,ASS-2520,2025-08-16T01:15:00,seasonal-decision-23,guardian,hasCapacity,true,4,1003,4

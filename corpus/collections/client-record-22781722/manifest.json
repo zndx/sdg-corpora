@@ -1,0 +1,149 @@
+{
+ "construct_id": "227817224c87de2e",
+ "slug": "client-record-22781722",
+ "passage": "227817224c87de2e81d06c5ce07075e89daa520cca319382acf480fe8af34428.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "ClientRecord",
+  "ServiceDelivery",
+  "StaffRecord",
+  "DonorRecord",
+  "DonationTransaction",
+  "ConsentRecord"
+ ],
+ "terms": [
+  {
+   "name": "ClientRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceDelivery",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DonorRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DonationTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ConsentRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "client_records",
+   "rows": 4,
+   "columns": [
+    "client_identifier",
+    "full_name",
+    "date_of_birth",
+    "home_address",
+    "phone_number",
+    "email_address",
+    "health_history_summary",
+    "emergency_contact_name",
+    "emergency_contact_phone",
+    "client_record_phone_number",
+    "service_delivery_id",
+    "consent_record_id"
+   ]
+  },
+  {
+   "name": "service_deliveries",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_type",
+    "delivery_date",
+    "service_status",
+    "provider_staff_id",
+    "interaction_notes",
+    "client_record_phone_number",
+    "staff_record_id"
+   ]
+  },
+  {
+   "name": "staff_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_identifier",
+    "full_name",
+    "home_address",
+    "date_of_birth",
+    "social_insurance_number",
+    "bank_account_number",
+    "employment_status",
+    "performance_rating",
+    "service_delivery_id"
+   ]
+  },
+  {
+   "name": "donor_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "donor_identifier",
+    "full_name",
+    "home_address",
+    "email_address",
+    "total_donation_amount",
+    "tax_receipt_issued",
+    "donation_transaction_id"
+   ]
+  },
+  {
+   "name": "donation_transactions",
+   "rows": 4,
+   "columns": [
+    "donation_transaction_id",
+    "transaction_id",
+    "transaction_date",
+    "amount",
+    "payment_method",
+    "tax_receipt_number",
+    "donor_record_id",
+    "staff_record_id"
+   ]
+  },
+  {
+   "name": "consent_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consent_id",
+    "consent_date",
+    "consent_status",
+    "scope_of_consent",
+    "client_record_phone_number",
+    "service_delivery_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_client_record_client_record",
+  "v_client_record_service_delivery",
+  "v_client_record_consent_record",
+  "v_service_delivery_client_record",
+  "v_service_delivery_staff_record",
+  "v_staff_record_service_delivery",
+  "v_donor_record_donation_transaction",
+  "v_donation_transaction_donor_record",
+  "v_donation_transaction_staff_record",
+  "v_consent_record_client_record",
+  "v_consent_record_service_delivery"
+ ]
+}

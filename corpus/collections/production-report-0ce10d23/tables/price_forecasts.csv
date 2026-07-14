@@ -1,0 +1,5 @@
+id,forecast_id,issue_date,target_year,price_value,currency_code,forecast_source,commodity_name,corporate_entity_id
+1,7119771,2023-02-01,10,36.43,gd_fp_eu_acc3,baseline-forecast-19,Extended Survey,1
+2,3012834,2024-07-12,19,14.31,managing-resources,pilot-forecast-20,Pilot Corridor A,2
+3,2b2bb518-8fcd-11eb-924d-9cd76263cbd0,2025-12-23,28,17.41,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,extended-forecast-21,Baseline Series,3
+4,13219,2022-05-07,37,12.87,10445649,integrated-forecast-22,Distributed Assessment,4

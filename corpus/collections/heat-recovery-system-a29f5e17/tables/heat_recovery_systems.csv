@@ -1,0 +1,5 @@
+id,system_identifier,system_model,design_capacity,commissioning_date,delivery_mode,status,pulp_mill_id,exhaust_stream_id
+1,SYS-2050,composite-system-93,12.45,2025-12-03T11:57:00,turn-key,planned,100,100
+2,SYS-2051,primary-system-94,14.90,2022-05-14T18:14:00,phased,installed,101,101
+3,SYS-2052,adaptive-system-95,17.35,2023-10-25T01:31:00,modular,commissioned,102,102
+4,SYS-2053,distributed-system-96,19.80,2024-03-09T08:48:00,turn-key,operational,103,103

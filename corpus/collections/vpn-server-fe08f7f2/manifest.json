@@ -1,0 +1,239 @@
+{
+ "construct_id": "fe08f7f2161e8dec",
+ "slug": "vpn-server-fe08f7f2",
+ "passage": "fe08f7f2161e8dec760ad5fcc41d4a5002d47fed1ad36a8c133d0ead9b006f12.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 18,
+ "entities": [
+  "VpnServer",
+  "VpnClient",
+  "VpnProtocol",
+  "SecurityPolicy",
+  "NetworkSegment",
+  "NetworkDevice",
+  "DataPacket"
+ ],
+ "terms": [
+  {
+   "name": "VpnServer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VpnClient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VpnProtocol",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SecurityPolicy",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkSegment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkDevice",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DataPacket",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "vpn_servers",
+   "rows": 4,
+   "columns": [
+    "vpn_server_id",
+    "serial_number",
+    "firmware_version",
+    "max_concurrent_connections",
+    "power_consumption_watts",
+    "form_factor",
+    "status",
+    "security_policy_id"
+   ]
+  },
+  {
+   "name": "vpn_clients",
+   "rows": 4,
+   "columns": [
+    "vpn_client_id",
+    "serial_number",
+    "firmware_version",
+    "connection_mode",
+    "routing_mode",
+    "mac_address",
+    "status",
+    "vpn_server_id"
+   ]
+  },
+  {
+   "name": "vpn_protocols",
+   "rows": 4,
+   "columns": [
+    "id",
+    "protocol_name",
+    "encryption_standard",
+    "port_number",
+    "transport_layer",
+    "is_deprecated",
+    "security_rating",
+    "created_at"
+   ]
+  },
+  {
+   "name": "security_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_name",
+    "last_updated",
+    "encryption_level",
+    "access_control_mode",
+    "audit_log_retention_days",
+    "vpn_server_id",
+    "network_segment_id"
+   ]
+  },
+  {
+   "name": "network_segments",
+   "rows": 4,
+   "columns": [
+    "network_segment_id",
+    "segment_id",
+    "segment_name",
+    "subnet_mask",
+    "gateway_ip",
+    "location_type",
+    "isolation_level",
+    "vpn_server_id"
+   ]
+  },
+  {
+   "name": "network_devices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_id",
+    "device_name",
+    "device_type",
+    "os_version",
+    "mac_address",
+    "last_seen",
+    "is_authenticated",
+    "vpn_client_id",
+    "network_segment_id"
+   ]
+  },
+  {
+   "name": "data_packets",
+   "rows": 4,
+   "columns": [
+    "packet_id",
+    "payload_size_bytes",
+    "timestamp",
+    "encryption_algorithm",
+    "protocol_type",
+    "is_encrypted",
+    "integrity_check_hash",
+    "vpn_client_id",
+    "vpn_server_id",
+    "network_device_id"
+   ]
+  },
+  {
+   "name": "servers_protocols",
+   "rows": 8,
+   "columns": [
+    "vpn_server_id",
+    "vpn_protocol_id"
+   ]
+  },
+  {
+   "name": "servers_clients",
+   "rows": 8,
+   "columns": [
+    "vpn_server_id",
+    "vpn_client_id"
+   ]
+  },
+  {
+   "name": "clients_protocols",
+   "rows": 8,
+   "columns": [
+    "vpn_client_id",
+    "vpn_protocol_id"
+   ]
+  },
+  {
+   "name": "clients_devices",
+   "rows": 8,
+   "columns": [
+    "vpn_client_id",
+    "network_device_id"
+   ]
+  },
+  {
+   "name": "protocols_servers",
+   "rows": 8,
+   "columns": [
+    "vpn_protocol_id",
+    "vpn_server_id"
+   ]
+  },
+  {
+   "name": "protocols_clients",
+   "rows": 8,
+   "columns": [
+    "vpn_protocol_id",
+    "vpn_client_id"
+   ]
+  },
+  {
+   "name": "segments_devices",
+   "rows": 8,
+   "columns": [
+    "network_segment_id",
+    "network_device_id"
+   ]
+  },
+  {
+   "name": "devices_packets",
+   "rows": 8,
+   "columns": [
+    "network_device_id",
+    "packet_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_vpn_server_security_policy",
+  "v_vpn_server_vpn_protocol_detail",
+  "v_vpn_server_vpn_client_detail",
+  "v_vpn_client_vpn_server",
+  "v_vpn_client_vpn_protocol_detail",
+  "v_vpn_client_network_device_detail",
+  "v_vpn_protocol_vpn_server_detail",
+  "v_vpn_protocol_vpn_client_detail",
+  "v_security_policy_vpn_server",
+  "v_security_policy_network_segment",
+  "v_network_segment_network_device_detail",
+  "v_network_segment_vpn_server",
+  "v_network_device_vpn_client",
+  "v_network_device_network_segment",
+  "v_network_device_data_packet_detail",
+  "v_data_packet_vpn_client",
+  "v_data_packet_vpn_server",
+  "v_data_packet_network_device"
+ ]
+}

@@ -1,0 +1,5 @@
+equipment_id,equipment_name,condition,quantity,last_maintenance_date,athletic_event_id,facility_id
+1000,Legacy Review D,good,9,2024-03-27,1,1
+1001,Regional Initiative,damaged,8,2025-08-11,2,2
+1002,Seasonal Model,lost,0,2022-01-22,3,3
+1003,Integrated Cluster A,good,12,2023-06-06,4,4

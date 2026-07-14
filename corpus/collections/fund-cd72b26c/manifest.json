@@ -1,0 +1,292 @@
+{
+ "construct_id": "cd72b26c184adb31",
+ "slug": "fund-cd72b26c",
+ "passage": "cd72b26c184adb313d36de14e405302812aa681c9b7be4251b5aed28ddffc0d2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 25,
+ "entities": [
+  "Fund",
+  "UnderlyingFund",
+  "BenchmarkIndex",
+  "PerformanceReport",
+  "Asset",
+  "FundManager",
+  "CharitableCause",
+  "CorporateMeeting"
+ ],
+ "terms": [
+  {
+   "name": "Fund",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "UnderlyingFund",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BenchmarkIndex",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PerformanceReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Asset",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FundManager",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CharitableCause",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CorporateMeeting",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "funds",
+   "rows": 4,
+   "columns": [
+    "fund_id",
+    "fund_identifier",
+    "fund_name",
+    "inception_date",
+    "fund_class",
+    "total_assets_under_management",
+    "management_fee_rate",
+    "performance_fee_rate",
+    "charitable_donation_status",
+    "benchmark_index_id",
+    "charitable_cause_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "underlying_funds",
+   "rows": 4,
+   "columns": [
+    "underlying_fund_id",
+    "underlying_fund_identifier",
+    "underlying_fund_name",
+    "management_fee_waived",
+    "performance_fee_waived",
+    "investment_strategy",
+    "geographic_focus",
+    "asset_class",
+    "manager_name",
+    "fund_id",
+    "benchmark_index_id"
+   ]
+  },
+  {
+   "name": "benchmark_indexes",
+   "rows": 4,
+   "columns": [
+    "benchmark_index_id",
+    "index_name",
+    "index_ticker",
+    "index_type",
+    "currency",
+    "rebalancing_frequency",
+    "weighting_scheme",
+    "number_of_components",
+    "is_hedged",
+    "fund_id",
+    "underlying_fund_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "performance_reports",
+   "rows": 4,
+   "columns": [
+    "performance_report_id",
+    "report_date",
+    "period_start",
+    "period_end",
+    "trailing_return",
+    "benchmark_return",
+    "standard_deviation",
+    "sharpe_ratio",
+    "alpha",
+    "beta",
+    "report_type",
+    "fund_id",
+    "underlying_fund_id",
+    "benchmark_index_id",
+    "fund_manager_id"
+   ]
+  },
+  {
+   "name": "assets",
+   "rows": 4,
+   "columns": [
+    "asset_id",
+    "asset_identifier",
+    "asset_name",
+    "asset_type",
+    "market_cap",
+    "sector",
+    "country_of_incorporation",
+    "currency_denomination",
+    "is_equity",
+    "is_fixed_income",
+    "underlying_fund_id",
+    "benchmark_index_id"
+   ]
+  },
+  {
+   "name": "fund_managers",
+   "rows": 4,
+   "columns": [
+    "fund_manager_id",
+    "manager_identifier",
+    "manager_name",
+    "regulatory_license",
+    "management_fee_waived",
+    "performance_fee_waived",
+    "headquarters_country",
+    "total_a_u_m",
+    "years_in_operation"
+   ]
+  },
+  {
+   "name": "charitable_causes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cause_identifier",
+    "cause_name",
+    "cause_category",
+    "total_donations_received",
+    "donation_frequency",
+    "next_donation_date",
+    "tax_exempt_status",
+    "geographic_focus",
+    "fund_id",
+    "underlying_fund_id"
+   ]
+  },
+  {
+   "name": "corporate_meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_identifier",
+    "meeting_date",
+    "meeting_type",
+    "participants_count",
+    "meeting_outcome",
+    "is_confidential",
+    "meeting_duration_minutes",
+    "location",
+    "fund_manager_id",
+    "asset_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "funds_funds",
+   "rows": 8,
+   "columns": [
+    "fund_id",
+    "underlying_fund_id"
+   ]
+  },
+  {
+   "name": "funds_reports",
+   "rows": 8,
+   "columns": [
+    "fund_id",
+    "performance_report_id"
+   ]
+  },
+  {
+   "name": "funds_assets",
+   "rows": 8,
+   "columns": [
+    "underlying_fund_id",
+    "asset_id"
+   ]
+  },
+  {
+   "name": "indexes_assets",
+   "rows": 8,
+   "columns": [
+    "benchmark_index_id",
+    "asset_id"
+   ]
+  },
+  {
+   "name": "managers_funds",
+   "rows": 8,
+   "columns": [
+    "fund_manager_id",
+    "underlying_fund_id"
+   ]
+  },
+  {
+   "name": "managers_reports",
+   "rows": 8,
+   "columns": [
+    "fund_manager_id",
+    "performance_report_id"
+   ]
+  },
+  {
+   "name": "managers_assets",
+   "rows": 8,
+   "columns": [
+    "fund_manager_id",
+    "asset_id"
+   ]
+  },
+  {
+   "name": "managers_meetings",
+   "rows": 8,
+   "columns": [
+    "fund_manager_id",
+    "corporate_meeting_id"
+   ]
+  }
+ ],
+ "views": [
+  "fund_underlying_fund_detail_view",
+  "fund_benchmark_index_view",
+  "fund_performance_report_detail_view",
+  "fund_charitable_cause_view",
+  "underlying_fund_fund_view",
+  "underlying_fund_asset_detail_view",
+  "underlying_fund_benchmark_index_view",
+  "underlying_fund_performance_report_detail_view",
+  "benchmark_index_asset_detail_view",
+  "benchmark_index_fund_view",
+  "benchmark_index_underlying_fund_view",
+  "performance_report_fund_view",
+  "performance_report_underlying_fund_view",
+  "performance_report_benchmark_index_view",
+  "performance_report_fund_manager_view",
+  "asset_underlying_fund_view",
+  "asset_benchmark_index_view",
+  "fund_manager_underlying_fund_detail_view",
+  "fund_manager_performance_report_detail_view",
+  "fund_manager_asset_detail_view",
+  "fund_manager_corporate_meeting_detail_view",
+  "charitable_cause_fund_view",
+  "charitable_cause_underlying_fund_view",
+  "corporate_meeting_fund_manager_view",
+  "corporate_meeting_asset_view"
+ ]
+}

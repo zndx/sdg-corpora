@@ -1,0 +1,5 @@
+id,transaction_id,transaction_date,transaction_type,amount,currency_code,status,customer_account_id,third_party_service_id
+1,937738,2023-02-25T01:39:00,buy,13.49,gd_fp_eu_acc3,pending,1000,100
+2,89509,2024-07-09T08:56:00,sell,25.47,managing-resources,completed,1001,101
+3,1186092,2025-12-20T15:13:00,deposit,19.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,failed,1002,102
+4,9085243,2022-05-04T22:30:00,withdrawal,12.74,10445649,reversed,1003,103

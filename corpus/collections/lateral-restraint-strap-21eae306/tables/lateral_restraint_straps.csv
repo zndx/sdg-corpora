@@ -1,0 +1,5 @@
+id,strap_identifier,minimum_length,gauge,material,turn_down_configuration,max_spacing_along_wall,masonry_wall_id,floor_assembly_id,fixing_method_id
+100,STR-2556,0.615,10,primary-material-94,one_end,15.95,1000,1,1
+101,STR-2562,0.52580792,19,adaptive-material-95,both_ends,18.90,1001,2,2
+102,STR-2568,0.61,28,distributed-material-96,one_end,21.85,1002,3,3
+103,STR-2574,0.74,37,baseline-material-97,both_ends,24.80,1003,4,4

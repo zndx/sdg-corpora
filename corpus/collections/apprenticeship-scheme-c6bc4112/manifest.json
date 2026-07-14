@@ -1,0 +1,203 @@
+{
+ "construct_id": "c6bc4112d578dbfa",
+ "slug": "apprenticeship-scheme-c6bc4112",
+ "passage": "c6bc4112d578dbfaa1499272852573d628c1d82ba531ab4d0563a8408404f012.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 22,
+ "entities": [
+  "ApprenticeshipScheme",
+  "TrainingFramework",
+  "EconomicSector",
+  "ApprenticeshipParticipant",
+  "Employer",
+  "FundingInstrument",
+  "SkillGap",
+  "Qualification"
+ ],
+ "terms": [
+  {
+   "name": "ApprenticeshipScheme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrainingFramework",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EconomicSector",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ApprenticeshipParticipant",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Employer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FundingInstrument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SkillGap",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Qualification",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "apprenticeship_schemes",
+   "rows": 4,
+   "columns": [
+    "scheme_id",
+    "level",
+    "sector",
+    "duration_months",
+    "status",
+    "framework_id",
+    "training_framework_id",
+    "economic_sector_id",
+    "funding_instrument_id"
+   ]
+  },
+  {
+   "name": "training_frameworks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "framework_id",
+    "title",
+    "version",
+    "last_updated",
+    "competency_count",
+    "scheme_id",
+    "qualification_id"
+   ]
+  },
+  {
+   "name": "economic_sectors",
+   "rows": 4,
+   "columns": [
+    "economic_sector_id",
+    "sector_code",
+    "sector_name",
+    "skill_shortage_level",
+    "apprenticeship_capacity",
+    "scheme_id",
+    "gap_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "apprenticeship_participants",
+   "rows": 4,
+   "columns": [
+    "apprenticeship_participant_id",
+    "participant_id",
+    "age",
+    "employment_status",
+    "gender",
+    "start_date",
+    "completion_status",
+    "scheme_id",
+    "employer_id",
+    "qualification_id"
+   ]
+  },
+  {
+   "name": "employers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employer_id",
+    "name",
+    "sector",
+    "total_workforce",
+    "apprentice_count",
+    "reclassification_rate",
+    "scheme_id",
+    "apprenticeship_participant_id",
+    "funding_instrument_id"
+   ]
+  },
+  {
+   "name": "funding_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "instrument_id",
+    "type",
+    "amount",
+    "currency",
+    "eligibility_criteria",
+    "effective_date",
+    "scheme_id",
+    "employer_id",
+    "apprenticeship_participant_id"
+   ]
+  },
+  {
+   "name": "skill_gaps",
+   "rows": 4,
+   "columns": [
+    "gap_id",
+    "sector",
+    "occupation",
+    "severity",
+    "estimated_shortage",
+    "reported_date",
+    "economic_sector_id",
+    "scheme_id",
+    "qualification_id"
+   ]
+  },
+  {
+   "name": "qualifications",
+   "rows": 4,
+   "columns": [
+    "qualification_id",
+    "title",
+    "level",
+    "issuing_body",
+    "credits",
+    "awarded_date",
+    "apprenticeship_participant_id",
+    "training_framework_id",
+    "gap_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_apprenticeship_scheme_training_framework",
+  "v_apprenticeship_scheme_economic_sector",
+  "v_apprenticeship_scheme_funding_instrument",
+  "v_training_framework_apprenticeship_scheme",
+  "v_training_framework_qualification",
+  "v_economic_sector_apprenticeship_scheme",
+  "v_economic_sector_skill_gap",
+  "v_apprenticeship_participant_apprenticeship_scheme",
+  "v_apprenticeship_participant_employer",
+  "v_apprenticeship_participant_qualification",
+  "v_employer_apprenticeship_scheme",
+  "v_employer_apprenticeship_participant",
+  "v_employer_funding_instrument",
+  "v_funding_instrument_apprenticeship_scheme",
+  "v_funding_instrument_employer",
+  "v_funding_instrument_apprenticeship_participant",
+  "v_skill_gap_economic_sector",
+  "v_skill_gap_apprenticeship_scheme",
+  "v_skill_gap_qualification",
+  "v_qualification_apprenticeship_participant",
+  "v_qualification_training_framework",
+  "v_qualification_skill_gap"
+ ]
+}

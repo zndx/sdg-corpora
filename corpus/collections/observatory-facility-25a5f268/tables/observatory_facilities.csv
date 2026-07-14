@@ -1,0 +1,5 @@
+id,facility_id,facility_name,location,land_area_acres,land_ownership_type,operational_status,established_date,managing_organization_id
+1000,69447,Integrated Protocol A,extended-location-99,4.95,government_owned,active,2024-03-27,1
+1001,1040,Extended Programme,integrated-location-100,7.90,leased,inactive,2025-08-11,2
+1002,2986228,Pilot Standard,seasonal-location-101,10.85,association_owned,planned,2022-01-22,3
+1003,ChIJvSxSbfdv5kcRanVzI8RRu20,Baseline Framework D,regional-location-102,13.80,government_owned,active,2023-06-06,4

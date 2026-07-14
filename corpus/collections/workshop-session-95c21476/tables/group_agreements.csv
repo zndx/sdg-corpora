@@ -1,0 +1,5 @@
+group_agreement_id,agreement_id,rule_description,is_enforced,violation_count,learning_environment_id
+1,348c2b52-8fcc-11eb-924d-9cd76263cbd0,Integrated Series A,false,96,100
+2,4716391,Extended Assessment,true,11,101
+3,3001009030180,Pilot Survey,false,61,102
+4,d9d925ce-8fcc-11eb-924d-9cd76263cbd0,Baseline Corridor D,true,52,103

@@ -1,0 +1,5 @@
+id,service_id,service_name,service_type,is_current,is_potential,survey_response_id,session_id
+1,1996925,Distributed Initiative,housing_assistance,true,false,1,1186087
+2,3990164,Adaptive Model D,maintenance,false,true,2,2087748
+3,5844258,Primary Cluster,application,true,false,3,4716414
+4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,informational,false,true,4,005588c4-9bac-11eb-a8a2-19ed5c03f8d3

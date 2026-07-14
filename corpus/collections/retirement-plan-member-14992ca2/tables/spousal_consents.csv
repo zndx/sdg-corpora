@@ -1,0 +1,5 @@
+spousal_consent_id,consent_id,consent_date,spouse_ssn,notary_name,notary_commission_expiry,witnessed_by_plan_rep,retirement_benefit_application_id,member_id
+1,9fffb746-9bac-11eb-a8a2-19ed5c03f8d3,2023-10-03T09:15:00,distributed-spouse-54,Extended Review,2025-08-07,false,100,10207158
+2,790462,2024-03-14T16:32:00,baseline-spouse-55,Pilot Initiative A,2022-01-18,true,101,10207158
+3,4277037,2025-08-25T23:49:00,pilot-spouse-56,Baseline Model,2023-06-02,false,102,25820616
+4,3990176,2022-01-09T06:06:00,extended-spouse-57,Distributed Cluster,2024-11-13,true,103,2002007020250

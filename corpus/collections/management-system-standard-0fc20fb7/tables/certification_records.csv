@@ -1,0 +1,5 @@
+certification_record_id,certificate_id,issue_date,expiry_date,scope_description,certification_body,status,organization_id,management_system_standard_id
+100,778563,2023-02-01,2023-10-24,Integrated Model A,integrated-certific-58,Active,1,100
+101,7119762,2024-07-12,2024-03-08,Extended Cluster,seasonal-certific-59,Suspended,2,101
+102,22106999,2025-12-23,2025-08-19,Pilot Review,regional-certific-60,Withdrawn,3,102
+103,2986238,2022-05-07,2022-01-03,Baseline Initiative D,legacy-certific-61,Expired,4,103

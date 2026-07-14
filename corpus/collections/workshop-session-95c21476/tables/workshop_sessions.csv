@@ -1,0 +1,5 @@
+id,session_identifier,start_date,end_date,location,topic,status,learning_environment_id
+1,SES-2443,2022-09-05T20:24:00,2022-09-01T08:00:00,extended-location-99,distributed-topic-60,planned,100
+2,SES-2449,2023-02-16T03:41:00,2023-02-12T15:17:00,integrated-location-100,baseline-topic-61,in_progress,101
+3,SES-2455,2024-07-27T10:58:00,2024-07-23T22:34:00,seasonal-location-101,pilot-topic-62,completed,102
+4,SES-2461,2025-12-11T17:15:00,2025-12-07T05:51:00,regional-location-102,extended-topic-63,cancelled,103

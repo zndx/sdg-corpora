@@ -1,0 +1,5 @@
+u_m_m_id,module_id,database_type,authentication_protocol,registered_applications,last_sync_date,status,created_at,updated_at
+100,13061773,MySQL,adaptive-authenti-71,27,2023-10-02T09:39:00,active,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,template_ivacode_pagata_0,LDAP,distributed-authenti-72,38,2024-03-13T16:56:00,inactive,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,3744024,MySQL,baseline-authenti-73,49,2025-08-24T23:13:00,active,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,727063,LDAP,pilot-authenti-74,60,2022-01-08T06:30:00,inactive,2025-04-16 09:14:00,2025-04-23 15:41:00

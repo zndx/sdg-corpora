@@ -1,0 +1,5 @@
+certificate_of_occupancy_id,c_of_o_id,issue_date,reason,building_square_footage,occupancy_status,property_parcel_id,permit_id,building_inspections_division_id
+100,209217,2023-02-01,new_tenant,15.70,approved,1,3ac831c6-8fb5-11eb-924d-9cd76263cbd0,100
+101,10039,2024-07-12,management_change,17.40,conditional,2,ase,101
+102,lu_tax_code_template_b_VB-IC-6,2025-12-23,name_change,19.10,revoked,3,6969410,102
+103,10782165,2022-05-07,ownership_change,20.80,approved,4,727069,103

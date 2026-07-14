@@ -1,0 +1,5 @@
+estate_id,identifier,owner_name,total_value,currency_code,creation_date,status,beneficiary_designation_id,joint_ownership_id,will_id
+1,IDE-2086,Craig Childs,9.45,gd_fp_eu_acc3,2022-01-13T12:24:00,active,1,100,1
+2,IDE-2091,Kimberly Smith,12.90,managing-resources,2023-06-24T19:41:00,probate,2,101,2
+3,IDE-2096,Michelle Kelley,16.35,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,2024-11-08T02:58:00,settled,3,102,3
+4,IDE-2101,Jorge Sullivan,19.80,10445649,2025-04-19T09:15:00,active,4,103,4

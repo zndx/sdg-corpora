@@ -1,0 +1,172 @@
+{
+ "construct_id": "8a92610fe0d689b4",
+ "slug": "textbook-8a92610f",
+ "passage": "8a92610fe0d689b40582680ed02654edfd20b9e8f8abf9e599b295022d943ca8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "Textbook",
+  "ExerciseBook",
+  "StationeryItem",
+  "GradeLevel",
+  "Subject",
+  "Publisher"
+ ],
+ "terms": [
+  {
+   "name": "Textbook",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExerciseBook",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StationeryItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GradeLevel",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Subject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Publisher",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "textbooks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "isbn",
+    "title",
+    "publisher",
+    "edition",
+    "price",
+    "subject",
+    "grade_level",
+    "part_identifier",
+    "grade_level_id",
+    "publisher_id"
+   ]
+  },
+  {
+   "name": "exercise_books",
+   "rows": 4,
+   "columns": [
+    "exercise_book_id",
+    "code",
+    "description",
+    "size",
+    "line_type",
+    "unit_price",
+    "required_quantity",
+    "subject",
+    "is_compulsory",
+    "grade_level_id",
+    "subject_id"
+   ]
+  },
+  {
+   "name": "stationery_items",
+   "rows": 4,
+   "columns": [
+    "code",
+    "description",
+    "unit_price",
+    "required_quantity",
+    "is_compulsory",
+    "color",
+    "grade_level_id",
+    "subject_id"
+   ]
+  },
+  {
+   "name": "grade_levels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "grade_number",
+    "academic_year",
+    "school_name"
+   ]
+  },
+  {
+   "name": "subjects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "language_code",
+    "textbook_id",
+    "exercise_book_id"
+   ]
+  },
+  {
+   "name": "publishers",
+   "rows": 4,
+   "columns": [
+    "publisher_id",
+    "name",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "levels_textbooks",
+   "rows": 8,
+   "columns": [
+    "grade_level_id",
+    "textbook_id"
+   ]
+  },
+  {
+   "name": "levels_books",
+   "rows": 8,
+   "columns": [
+    "grade_level_id",
+    "exercise_book_id"
+   ]
+  },
+  {
+   "name": "levels_items",
+   "rows": 8,
+   "columns": [
+    "grade_level_id",
+    "stationery_item_code"
+   ]
+  },
+  {
+   "name": "publishers_textbooks",
+   "rows": 8,
+   "columns": [
+    "publisher_id",
+    "textbook_id"
+   ]
+  }
+ ],
+ "views": [
+  "textbook_grade_level_view",
+  "textbook_publisher_view",
+  "exercise_book_grade_level_view",
+  "exercise_book_subject_view",
+  "stationery_item_grade_level_view",
+  "stationery_item_subject_view",
+  "grade_level_textbook_detail_view",
+  "grade_level_exercise_book_detail_view",
+  "grade_level_stationery_item_detail_view",
+  "subject_textbook_view",
+  "subject_exercise_book_view",
+  "publisher_textbook_detail_view"
+ ]
+}

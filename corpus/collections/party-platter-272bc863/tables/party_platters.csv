@@ -1,0 +1,5 @@
+id,platter_id,serves_count,base_price,epic_price,status,last_updated,side_item_side_id,beverage_id,dessert_id
+1000,15134,45,12.72,12.34,available,2023-06-17T17:27:00,ChIJD7fiBh9u5kcRYJSMaMOCCwQ,884345,1
+1001,9568453,31,12.87,19.97,unavailable,2024-11-01T00:44:00,937737,4447029,2
+1002,lu_tax_code_template_b_VB-IC-Tab,0,17.41,27.02,available,2025-04-12T07:01:00,6564389,2002007020170,3
+1003,10207157,5,18.59,36.43,unavailable,2022-09-23T14:18:00,103178,3158148,4

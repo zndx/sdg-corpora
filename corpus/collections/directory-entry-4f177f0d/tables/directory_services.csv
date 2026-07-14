@@ -1,0 +1,5 @@
+id,service_name,protocol,port_number,host_address,response_format,connection_behavior,directory_entry_id,network_host_id
+1000,Distributed Review,distributed-protocol-24,30,adaptive-host-65,human-readable,stateless,1,1
+1001,Adaptive Initiative D,baseline-protocol-25,35,distributed-host-66,machine-readable,stateful,2,2
+1002,Primary Model,pilot-protocol-26,40,baseline-host-67,human-readable,stateless,3,3
+1003,Composite Cluster,extended-protocol-27,45,pilot-host-68,machine-readable,stateful,4,4

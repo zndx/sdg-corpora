@@ -1,0 +1,22 @@
+CREATE TABLE insurance_applications (
+  insurance_application_id INTEGER NOT NULL,
+  application_id VARCHAR(32),
+  organization_name VARCHAR(32),
+  headquarters_street VARCHAR(32),
+  headquarters_city VARCHAR(32),
+  headquarters_state VARCHAR(32),
+  headquarters_zip VARCHAR(32),
+  date_of_formation DATE,
+  chartered_in_state VARCHAR(32),
+  submission_date TIMESTAMP,
+  is_binding BOOLEAN,
+  organization_id INTEGER,
+  event_id INTEGER,
+  coverage_policy_id INTEGER,
+  claim_record_id INTEGER,
+  PRIMARY KEY (insurance_application_id),
+  FOREIGN KEY (organization_id) REFERENCES organizations (id),
+  FOREIGN KEY (event_id) REFERENCES events (event_id),
+  FOREIGN KEY (coverage_policy_id) REFERENCES coverage_policies (id),
+  FOREIGN KEY (claim_record_id) REFERENCES claim_records (id)
+);

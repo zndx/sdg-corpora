@@ -1,0 +1,5 @@
+id,platform_id,platform_name,platform_type,url,cookie_enabled,analytics_provider,tracking_software_id
+1,state_uk_28,Baseline Initiative D,Website,https://www.nature.com/articles/nphoton.2017.123,true,adaptive-analytic-11,1000
+2,e6ce01fe-8fc3-11eb-924d-9cd76263cbd0,Distributed Model,MobileApp,http://www.mdpi.com/2073-445X/8/3/43/pdf,false,distributed-analytic-12,1001
+3,4716417,Adaptive Cluster,Website,https://www.deshaw.com/recruit/UnivListing.html,true,baseline-analytic-13,1002
+4,10966228,Primary Review A,MobileApp,https://www.nature.com/articles/nphoton.2015.276,false,pilot-analytic-14,1003

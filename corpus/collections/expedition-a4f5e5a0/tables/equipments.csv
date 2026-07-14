@@ -1,0 +1,5 @@
+equipment_id,name,type,weight_kg,designer,status,expedition_id
+1,Extended Review,sled,1.48,pilot-designer-50,designed,8189498
+2,Pilot Initiative A,sleepingBag,0.385,extended-designer-51,manufactured,8387552
+3,Baseline Model,clothing,0.5465680900000001,integrated-designer-52,deployed,6926365
+4,Distributed Cluster,cookingStove,0.9,seasonal-designer-53,lost,3355779

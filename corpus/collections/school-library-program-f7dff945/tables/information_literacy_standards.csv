@@ -1,0 +1,5 @@
+id,standard_id,standard_code,description,effective_date,review_cycle,compliance_level,target_grade_level,created_at,updated_at
+1000,7119764,L459,Extended Survey,2023-02-14,40,non_compliant,integrated-target-34,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,9125617,account_pymes_596,Pilot Corridor A,2024-07-25,43,partial,seasonal-target-35,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,338526,9125613,Baseline Series,2025-12-09,46,full,regional-target-36,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,3717623,8189504,Distributed Assessment,2022-05-20,49,exemplary,legacy-target-37,2025-04-16 09:14:00,2025-04-23 15:41:00

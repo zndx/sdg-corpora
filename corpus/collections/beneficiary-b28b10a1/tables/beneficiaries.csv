@@ -1,0 +1,5 @@
+beneficiary_id,full_name,age,gender,location,vulnerability_status,household_id,program_id,activity_id,belongs_household_to_household_id
+325448,Theodore Mcgrath,35,male,extended-location-99,orphan,726044,1000,1000,1000
+7731875,Account Name,40,female,integrated-location-100,vulnerable_child,16605652,1001,1001,1001
+4447008,Saipan International Airport,45,other,seasonal-location-101,youth,8928495,1002,1002,1002
+39800616,Norma Fisher,50,male,regional-location-102,adult,5844284,1003,1003,1003

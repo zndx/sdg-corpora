@@ -1,0 +1,197 @@
+{
+ "construct_id": "d0b6e89f51ba9ae3",
+ "slug": "credit-union-d0b6e89f",
+ "passage": "d0b6e89f51ba9ae3d83ab79e2ba62c8d56fa819cbd6f5f8bf7ddfdd2080dc270.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 18,
+ "entities": [
+  "CreditUnion",
+  "ExecutiveRole",
+  "Person",
+  "EducationalInstitution",
+  "DegreeProgram",
+  "Award",
+  "Organization",
+  "ScholarshipFund"
+ ],
+ "terms": [
+  {
+   "name": "CreditUnion",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExecutiveRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EducationalInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DegreeProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Award",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Organization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ScholarshipFund",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cred_credit_unions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "legal_name",
+    "founding_date",
+    "headquarters_city",
+    "headquarters_state",
+    "member_eligibility_criteria",
+    "regulatory_status",
+    "executive_role_id",
+    "award_id"
+   ]
+  },
+  {
+   "name": "cred_executive_roles",
+   "rows": 4,
+   "columns": [
+    "executive_role_id",
+    "role_title",
+    "appointment_date",
+    "termination_date",
+    "reporting_to",
+    "compensation_band",
+    "is_current",
+    "person_id",
+    "credit_union_id",
+    "previously_held_executive_role_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "cred_persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "residence_city",
+    "residence_state",
+    "marital_status",
+    "number_of_dependents",
+    "executive_role_id",
+    "educational_institution_id",
+    "award_id"
+   ]
+  },
+  {
+   "name": "cred_educational_institutions",
+   "rows": 4,
+   "columns": [
+    "educational_institution_id",
+    "institution_name",
+    "location_city",
+    "location_state",
+    "accreditation_status",
+    "founding_year",
+    "person_id",
+    "degree_program_id"
+   ]
+  },
+  {
+   "name": "cred_degree_programs",
+   "rows": 4,
+   "columns": [
+    "degree_program_id",
+    "program_name",
+    "degree_type",
+    "duration_years",
+    "field_of_study",
+    "educational_institution_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "cred_awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_name",
+    "award_year",
+    "presented_by",
+    "citation_text",
+    "is_lifetime_achievement",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "cred_organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "organization_name",
+    "organization_type",
+    "founding_year",
+    "headquarters_location",
+    "award_id",
+    "scholarship_fund_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "cred_scholarship_funds",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fund_name",
+    "established_year",
+    "target_beneficiaries",
+    "funding_source",
+    "organization_id",
+    "person_id",
+    "awarded_to_person_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_credit_union_executive_role",
+  "v_credit_union_award",
+  "v_executive_role_person",
+  "v_executive_role_credit_union",
+  "v_executive_role_executive_role",
+  "v_person_executive_role",
+  "v_person_educational_institution",
+  "v_person_award",
+  "v_educational_institution_person",
+  "v_educational_institution_degree_program",
+  "v_degree_program_educational_institution",
+  "v_degree_program_person",
+  "v_award_person",
+  "v_award_organization",
+  "v_organization_award",
+  "v_organization_scholarship_fund",
+  "v_scholarship_fund_organization",
+  "v_scholarship_fund_person"
+ ]
+}

@@ -1,0 +1,5 @@
+id,facility_id,facility_name,address,permit_number,operational_status,last_inspection_date,chemical_activity_id,environmental_authority_id,created_at,updated_at
+1,69447,Integrated Protocol A,distributed-address-72,PER-2638,active,2025-04-12,100,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,1040,Extended Programme,baseline-address-73,PER-2640,suspended,2022-09-23,101,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,2986228,Pilot Standard,pilot-address-74,PER-2642,closed,2023-02-07,102,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ChIJvSxSbfdv5kcRanVzI8RRu20,Baseline Framework D,extended-address-75,PER-2644,active,2024-07-18,103,103,2025-04-16 09:14:00,2025-04-23 15:41:00

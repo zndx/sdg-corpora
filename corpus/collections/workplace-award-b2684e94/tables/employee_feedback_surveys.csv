@@ -1,0 +1,5 @@
+employee_feedback_survey_id,survey_id,administered_by,number_of_employees,number_of_organizations,measurement_aspects,survey_date,response_rate,organization_id,workplace_award_id
+1,21005921,legacy-administ-49,20,22,compact-measurem-62,2024-07-23T18:30:00,18.45,1000,1
+2,726059,compact-administ-50,30,28,composite-measurem-63,2025-12-07T01:47:00,21.90,1001,2
+3,32814,composite-administ-51,40,34,primary-measurem-64,2022-05-18T08:04:00,25.35,1002,3
+4,b83e028a-8fcd-11eb-924d-9cd76263cbd0,primary-administ-52,50,40,adaptive-measurem-65,2023-10-02T15:21:00,28.80,1003,4

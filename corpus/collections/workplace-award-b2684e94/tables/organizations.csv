@@ -1,0 +1,5 @@
+id,org_id,org_name,founding_year,headquarters_location,industry_sector,membership_level,is_b_corp,workplace_award_id,employee_feedback_survey_id,health_id,partner_organization_id
+1000,790471,Extended Review,43,composite-headquar-63,seasonal-industry-35,pilot-membersh-32,true,1,1,3990171,1
+1001,1717,Pilot Initiative A,48,primary-headquar-64,regional-industry-36,extended-membersh-33,false,2,2,101,2
+1002,69437,Baseline Model,53,adaptive-headquar-65,legacy-industry-37,integrated-membersh-34,true,3,3,select,3
+1003,m16,Distributed Cluster,58,distributed-headquar-66,compact-industry-38,seasonal-membersh-35,false,4,4,778569,4

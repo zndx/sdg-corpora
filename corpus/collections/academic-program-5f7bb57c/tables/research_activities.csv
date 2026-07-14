@@ -1,0 +1,5 @@
+id,activity_i_d,activity_type,study_design,data_source,start_date,end_date,status,statistical_method_id,competency_id,professional_role_id,involves_collaborator_professional_role_id
+1,ACT-2460,foundational,adaptive-study-11,pilot-data-38,2022-09-05T20:24:00,2022-09-01T08:00:00,planned,100,1,100,100
+2,ACT-2464,methodological,distributed-study-12,extended-data-39,2023-02-16T03:41:00,2023-02-12T15:17:00,ongoing,101,2,101,101
+3,ACT-2468,application,baseline-study-13,integrated-data-40,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,102,3,102,102
+4,ACT-2472,dissemination,pilot-study-14,seasonal-data-41,2025-12-11T17:15:00,2025-12-07T05:51:00,published,103,4,103,103

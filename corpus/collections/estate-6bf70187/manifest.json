@@ -1,0 +1,222 @@
+{
+ "construct_id": "6bf70187ad544162",
+ "slug": "estate-6bf70187",
+ "passage": "6bf70187ad54416221b0bf0973f84a56fb903930321b419f07989d92b3ee3bf0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 22,
+ "entities": [
+  "Estate",
+  "BeneficiaryDesignation",
+  "JointOwnership",
+  "Will",
+  "InvestmentFundAccount",
+  "SystematicWithdrawal",
+  "Person",
+  "BankAccount"
+ ],
+ "terms": [
+  {
+   "name": "Estate",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BeneficiaryDesignation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "JointOwnership",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Will",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "InvestmentFundAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SystematicWithdrawal",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "BankAccount",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "estates",
+   "rows": 4,
+   "columns": [
+    "estate_id",
+    "identifier",
+    "owner_name",
+    "total_value",
+    "currency_code",
+    "creation_date",
+    "status",
+    "beneficiary_designation_id",
+    "joint_ownership_id",
+    "will_id"
+   ]
+  },
+  {
+   "name": "beneficiary_designations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "designation_id",
+    "account_reference",
+    "named_beneficiary",
+    "percentage_share",
+    "effective_date",
+    "revocable",
+    "investment_fund_account_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "joint_ownerships",
+   "rows": 4,
+   "columns": [
+    "joint_ownership_id",
+    "ownership_id",
+    "asset_type",
+    "survivorship_right",
+    "registration_date",
+    "jurisdiction",
+    "ownership_percentage",
+    "investment_fund_account_id"
+   ]
+  },
+  {
+   "name": "wills",
+   "rows": 4,
+   "columns": [
+    "will_id",
+    "testator_name",
+    "execution_date",
+    "probate_filed",
+    "executor_name",
+    "last_amendment_date",
+    "estate_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "investment_fund_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_number",
+    "fund_type",
+    "tax_efficiency",
+    "current_balance",
+    "currency_code",
+    "account_status",
+    "person_id",
+    "systematic_withdrawal_id",
+    "beneficiary_designation_id",
+    "joint_ownership_id"
+   ]
+  },
+  {
+   "name": "systematic_withdrawals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "withdrawal_id",
+    "frequency",
+    "amount",
+    "start_date",
+    "end_date",
+    "tax_liability_share",
+    "investment_fund_account_id",
+    "bank_account_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "person_id",
+    "full_name",
+    "date_of_birth",
+    "relationship_to_testator",
+    "tax_residency",
+    "generation",
+    "investment_fund_account_id",
+    "will_id",
+    "systematic_withdrawal_id",
+    "joint_ownership_id"
+   ]
+  },
+  {
+   "name": "bank_accounts",
+   "rows": 4,
+   "columns": [
+    "bank_account_id",
+    "account_number",
+    "bank_name",
+    "account_type",
+    "currency_code",
+    "open_date",
+    "status",
+    "systematic_withdrawal_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "ownerships_persons",
+   "rows": 8,
+   "columns": [
+    "joint_ownership_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "withdrawals_persons",
+   "rows": 8,
+   "columns": [
+    "systematic_withdrawal_id",
+    "person_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_estate_beneficiary_designation",
+  "vw_estate_joint_ownership",
+  "vw_estate_will",
+  "vw_beneficiary_designation_investment_fund_account",
+  "vw_beneficiary_designation_person",
+  "vw_joint_ownership_investment_fund_account",
+  "vw_joint_ownership_person_detail",
+  "vw_will_estate",
+  "vw_will_person",
+  "vw_investment_fund_account_person",
+  "vw_investment_fund_account_systematic_withdrawal",
+  "vw_investment_fund_account_beneficiary_designation",
+  "vw_investment_fund_account_joint_ownership",
+  "vw_systematic_withdrawal_investment_fund_account",
+  "vw_systematic_withdrawal_bank_account",
+  "vw_systematic_withdrawal_person_detail",
+  "vw_person_investment_fund_account",
+  "vw_person_will",
+  "vw_person_systematic_withdrawal",
+  "vw_person_joint_ownership",
+  "vw_bank_account_systematic_withdrawal",
+  "vw_bank_account_person"
+ ]
+}

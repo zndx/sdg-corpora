@@ -1,0 +1,5 @@
+client_asset_portfolio_id,portfolio_identifier,total_value_u_s_d,asset_type,segregation_status,custodian_entity,last_valuation_date,risk_rating,insurance_policy_id,financial_institution_id,regulatory_framework_id,created_at
+1,POR-2268,7.20,securities,segregated,adaptive-custodia-23,2025-08-03T07:09:00,compact-risk-68,1,1,100,2025-01-01 00:14:00
+2,POR-2271,10.40,cash,commingled,distributed-custodia-24,2022-01-14T14:26:00,composite-risk-69,2,2,101,2025-02-06 03:14:00
+3,POR-2274,13.60,mixed,pending,baseline-custodia-25,2023-06-25T21:43:00,primary-risk-70,3,3,102,2025-03-11 06:14:00
+4,POR-2277,16.80,securities,segregated,pilot-custodia-26,2024-11-09T04:00:00,adaptive-risk-71,4,4,103,2025-04-16 09:14:00

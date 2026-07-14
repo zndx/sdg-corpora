@@ -1,0 +1,5 @@
+id,dataset_id,dataset_name,format,creation_date,record_count,data_quality_score,storage_location,research_method_id,study_design_id
+1000,325443,Composite Protocol,csv,2022-01-13T12:24:00,50,8.70,distributed-storage-48,1,1000
+1001,4716402,Compact Programme A,json,2023-06-24T19:41:00,17,10.40,baseline-storage-49,2,1001
+1002,14202,Legacy Standard,xml,2024-11-08T02:58:00,19,12.10,pilot-storage-50,3,1002
+1003,1186088,Regional Framework,sql_dump,2025-04-19T09:15:00,17,13.80,extended-storage-51,4,1003

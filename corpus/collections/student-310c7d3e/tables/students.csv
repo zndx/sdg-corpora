@@ -1,0 +1,5 @@
+id,id_number,name,signature_date,academic_advisor_id,degree_program_id,transfer_credit_record_id,created_at
+1,611508,Extended Review,2022-09-20T08:48:00,1,100,1,2025-01-01 00:14:00
+2,974919,Pilot Initiative A,2023-02-04T15:05:00,2,101,2,2025-02-06 03:14:00
+3,b2b12b6c-8fcd-11eb-924d-9cd76263cbd0,Baseline Model,2024-07-15T22:22:00,3,102,3,2025-03-11 06:14:00
+4,6b79636f-5851-491d-aa2f-815615d61cff,Distributed Cluster,2025-12-26T05:39:00,4,103,4,2025-04-16 09:14:00

@@ -1,0 +1,124 @@
+{
+ "construct_id": "0bb1b07abf1e2e15",
+ "slug": "user-account-0bb1b07a",
+ "passage": "0bb1b07abf1e2e153763d331b922af29604b120134c80b689d652b802b4d9334.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 7,
+ "entities": [
+  "UserAccount",
+  "UserSession",
+  "DataProcessingConsent",
+  "MarketingCommunication",
+  "CookieIdentifier"
+ ],
+ "terms": [
+  {
+   "name": "UserAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "UserSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DataProcessingConsent",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MarketingCommunication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CookieIdentifier",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "user_accounts",
+   "rows": 4,
+   "columns": [
+    "user_account_id",
+    "account_id",
+    "email_address",
+    "password_hash",
+    "account_status",
+    "created_at",
+    "last_login_at",
+    "user_session_id",
+    "data_processing_consent_id"
+   ]
+  },
+  {
+   "name": "user_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_id",
+    "ip_address",
+    "user_agent",
+    "operating_system",
+    "device_name",
+    "country_code",
+    "session_start",
+    "session_end",
+    "user_account_id"
+   ]
+  },
+  {
+   "name": "data_processing_consents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consent_id",
+    "legal_basis",
+    "purpose_description",
+    "granted_at",
+    "revoked_at",
+    "is_revoked",
+    "user_account_id"
+   ]
+  },
+  {
+   "name": "marketing_communications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "message_id",
+    "subject_line",
+    "sent_at",
+    "delivery_status",
+    "campaign_type",
+    "user_account_id",
+    "data_processing_consent_id"
+   ]
+  },
+  {
+   "name": "cookie_identifiers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cookie_id",
+    "cookie_name",
+    "purpose",
+    "expiry_date",
+    "is_third_party",
+    "user_session_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "vw_user_account_user_session",
+  "vw_user_account_data_processing_consent",
+  "vw_user_session_user_account",
+  "vw_data_processing_consent_user_account",
+  "vw_marketing_communication_user_account",
+  "vw_marketing_communication_data_processing_consent",
+  "vw_cookie_identifier_user_session"
+ ]
+}

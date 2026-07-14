@@ -1,0 +1,5 @@
+id,beverage_type,brand,volume,unit,price,happy_hour_special_id
+100,craft_beer,Adobe Systems Inc,9.45,distributed-unit-18,12.87,1
+101,wine,Assicurazioni Generali,11.90,baseline-unit-19,35.45,2
+102,cocktail,LDAP First Name Field,14.35,pilot-unit-20,29.24,3
+103,craft_beer,National University of Singapore,16.80,extended-unit-21,29.99,4

@@ -1,0 +1,5 @@
+capital_access_program_id,program_identifier,program_name,established_date,total_financed_amount,max_guarantee_amount,program_status,target_jurisdiction,economic_development_bank_id,financial_development_corporation_id,small_business_id,underserved_community_id
+100,PRO-2198,Extended Review,2024-03-27T14:30:00,"25,211","2,996",active,seasonal-target-11,1,1,1,1
+101,PRO-2205,Pilot Initiative A,2025-08-11T21:47:00,"27,602","161,744",inactive,regional-target-12,2,2,2,2
+102,PRO-2212,Baseline Model,2022-01-22T04:04:00,"11,121","45,650",pending,legacy-target-13,3,3,3,3
+103,PRO-2219,Distributed Cluster,2023-06-06T11:21:00,233.57,"8,753",active,compact-target-14,4,4,4,4

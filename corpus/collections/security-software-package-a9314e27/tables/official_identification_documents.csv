@@ -1,0 +1,5 @@
+official_identification_document_id,document_type,issuing_country_code,document_number,m_r_z_line1,m_r_z_line2,m_r_z_recognition_status,extraction_timestamp,extracted_personal_data_record_id,hardware_scanner_device_id
+1,ID card,89511,DOC-2409,primary-m-40,compact-m-56,recognized,2024-11-03T22:42:00,100,1000
+2,passport,1996928,DOC-2410,adaptive-m-41,composite-m-57,failed,2025-04-14T05:59:00,101,1001
+3,ID card,6564382,DOC-2411,distributed-m-42,primary-m-58,partial,2022-09-25T12:16:00,102,1002
+4,passport,lu_tax_code_template_b_VB-IC-0,DOC-2412,baseline-m-43,adaptive-m-59,recognized,2023-02-09T19:33:00,103,1003

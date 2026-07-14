@@ -1,0 +1,5 @@
+id,governor_id,full_name,state,term_start_date,term_end_date,prior_profession,commute_mode,state_code,vehicle_id
+1,6aa09e22-8fb2-11eb-924d-9cd76263cbd0,Theodore Mcgrath,distributed-state-84,2022-05-26T16:36:00,2025-08-24T07:45:00,composite-prior-81,walk,17788643,1
+2,1996917,Account Name,baseline-state-85,2023-10-10T23:53:00,2022-01-08T14:02:00,primary-prior-82,drive,8350031,2
+3,2087742,Saipan International Airport,pilot-state-86,2024-03-21T06:10:00,2023-06-19T21:19:00,adaptive-prior-83,state_trooper_escort,790483,3
+4,340312da-9bad-11eb-a8a2-19ed5c03f8d3,Norma Fisher,extended-state-87,2025-08-05T13:27:00,2024-11-03T04:36:00,distributed-prior-84,walk,8387549,4

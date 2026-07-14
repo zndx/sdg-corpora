@@ -1,0 +1,5 @@
+id,text_id,book_name,chapter_number,verse_range,language,is_historic_narrative,interpretation_id,theological_claim_id
+1,6a4248dc-8fc0-11eb-924d-9cd76263cbd0,Compact Corridor,49,primary-verse-70,composite-language-45,false,1,100
+2,7731874,Legacy Series,60,adaptive-verse-71,primary-language-46,true,2,101
+3,5917299,Regional Assessment A,71,distributed-verse-72,adaptive-language-47,false,3,102
+4,611500,Seasonal Survey,82,baseline-verse-73,distributed-language-48,true,4,103

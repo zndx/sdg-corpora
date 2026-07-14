@@ -1,0 +1,217 @@
+{
+ "construct_id": "b9124aa5eefb645f",
+ "slug": "drone-detection-system-b9124aa5",
+ "passage": "b9124aa5eefb645f492958a9bf01cb1c607adb59e1a7abec172ba5fde7817b98.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 14,
+ "entities": [
+  "DroneDetectionSystem",
+  "UpgradeModule",
+  "DroneSignal",
+  "ManufacturerServer",
+  "AirspaceZone",
+  "Drone"
+ ],
+ "terms": [
+  {
+   "name": "DroneDetectionSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "UpgradeModule",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DroneSignal",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ManufacturerServer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AirspaceZone",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Drone",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "drone_detection_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_identifier",
+    "manufacturer",
+    "model_number",
+    "deployment_status",
+    "effective_range_meters",
+    "last_firmware_version",
+    "module_serial_number"
+   ]
+  },
+  {
+   "name": "upgrade_modules",
+   "rows": 4,
+   "columns": [
+    "module_serial_number",
+    "firmware_version",
+    "encryption_standard",
+    "authentication_status",
+    "session_key",
+    "compatibility_status",
+    "drone_detection_system_id",
+    "manufacturer_server_id"
+   ]
+  },
+  {
+   "name": "drone_signals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "signal_id",
+    "drone_serial_number",
+    "flight_status",
+    "pilot_location",
+    "encryption_status",
+    "timestamp",
+    "drone_id",
+    "module_serial_number",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "manufacturer_servers",
+   "rows": 4,
+   "columns": [
+    "manufacturer_server_id",
+    "server_id",
+    "server_location",
+    "access_level",
+    "last_maintenance_date",
+    "security_audit_status"
+   ]
+  },
+  {
+   "name": "airspace_zones",
+   "rows": 4,
+   "columns": [
+    "zone_id",
+    "zone_type",
+    "altitude_limit_meters",
+    "radius_meters",
+    "enforcement_level",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "drones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "drone_id",
+    "manufacturer",
+    "model",
+    "serial_number",
+    "operational_status"
+   ]
+  },
+  {
+   "name": "systems_signals",
+   "rows": 8,
+   "columns": [
+    "drone_detection_system_id",
+    "drone_signal_id"
+   ]
+  },
+  {
+   "name": "systems_zones",
+   "rows": 8,
+   "columns": [
+    "drone_detection_system_id",
+    "zone_id"
+   ]
+  },
+  {
+   "name": "signals_systems",
+   "rows": 8,
+   "columns": [
+    "drone_signal_id",
+    "drone_detection_system_id"
+   ]
+  },
+  {
+   "name": "servers_modules",
+   "rows": 8,
+   "columns": [
+    "manufacturer_server_id",
+    "module_serial_number"
+   ]
+  },
+  {
+   "name": "servers_systems",
+   "rows": 8,
+   "columns": [
+    "manufacturer_server_id",
+    "drone_detection_system_id"
+   ]
+  },
+  {
+   "name": "zones_systems",
+   "rows": 8,
+   "columns": [
+    "zone_id",
+    "drone_detection_system_id"
+   ]
+  },
+  {
+   "name": "zones_drones",
+   "rows": 8,
+   "columns": [
+    "zone_id",
+    "drone_id"
+   ]
+  },
+  {
+   "name": "drones_signals",
+   "rows": 8,
+   "columns": [
+    "drone_id",
+    "drone_signal_id"
+   ]
+  },
+  {
+   "name": "drones_zones",
+   "rows": 8,
+   "columns": [
+    "drone_id",
+    "zone_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_drone_detection_system_upgrade_module",
+  "vw_drone_detection_system_drone_signal_detail",
+  "vw_drone_detection_system_airspace_zone_detail",
+  "vw_upgrade_module_drone_detection_system",
+  "vw_upgrade_module_manufacturer_server",
+  "vw_drone_signal_drone_detection_system_detail",
+  "vw_drone_signal_drone",
+  "vw_drone_signal_upgrade_module",
+  "vw_manufacturer_server_upgrade_module_detail",
+  "vw_manufacturer_server_drone_detection_system_detail",
+  "vw_airspace_zone_drone_detection_system_detail",
+  "vw_airspace_zone_drone_detail",
+  "vw_drone_drone_signal_detail",
+  "vw_drone_airspace_zone_detail"
+ ]
+}

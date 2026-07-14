@@ -1,0 +1,5 @@
+network_segment_id,segment_id,segment_name,subnet_mask,gateway_ip,location_type,isolation_level,vpn_server_id
+100,422a03c4-8fcc-11eb-924d-9cd76263cbd0,Adaptive Series,distributed-subnet-30,regional-gateway-54,home,isolated,100
+101,32825,Primary Assessment,baseline-subnet-31,legacy-gateway-55,corporate,restricted,101
+102,974920,Composite Survey D,pilot-subnet-32,compact-gateway-56,remote_branch,open,102
+103,2933482,Compact Corridor,extended-subnet-33,composite-gateway-57,home,isolated,103

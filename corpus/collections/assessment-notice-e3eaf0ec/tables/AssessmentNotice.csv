@@ -1,0 +1,5 @@
+id,noticeIdentifier,propertyType,noticePeriod,taxYear,status,issueDate,parcelLandUseCode,appraiserId
+100,NOT-2678,Real Property,21-Day,26,Pending,2023-02-01,IVC10,1
+101,NOT-2679,Personal Property,30-Day,36,Submitted for Approval,2024-07-12,1202-0001-S,2
+102,NOT-2680,Non-Homesteaded Mobile Home,21-Day,46,Approved,2025-12-23,82873,3
+103,NOT-2681,Real Property,30-Day,56,Rejected,2022-05-07,1336178,4

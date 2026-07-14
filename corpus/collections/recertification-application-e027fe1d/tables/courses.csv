@@ -1,0 +1,5 @@
+id,course_id,course_title,institution,course_level,completion_date,applies_to_body_of_knowledge,is_audited,is_sponsored_by_employer,certified_professional_id,attended_by_certified_professional_id,activity_id
+100,6983,Baseline Series D,baseline-institut-31,college,2024-03-14,true,true,The NEA Foundation for the Improvement of Education,100,100,8843761
+101,8189505,Distributed Assessment,pilot-institut-32,non_college,2025-08-25,false,false,Esperion Therapeutics Inc.,101,101,4180957
+102,9246307,Adaptive Survey,extended-institut-33,college,2022-01-09,true,true,PubMatic Inc.,102,102,168545
+103,99615,Primary Corridor A,integrated-institut-34,non_college,2023-06-20,false,false,Link Title,103,103,default_chart_a_account_53

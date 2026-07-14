@@ -1,0 +1,5 @@
+migrant_id,nationality,residence_status,employment_type,salary_level,language_proficiency,integration_intent,city_id,business_id
+1,composite-national-39,composite-residenc-39,adaptive-employme-17,12.36,integrated-language-34,integrated-integrat-22,e5a1c32e-8fc3-11eb-924d-9cd76263cbd0,1
+2,primary-national-40,primary-residenc-40,distributed-employme-18,33.06,seasonal-language-35,seasonal-integrat-23,level-4,2
+3,adaptive-national-41,adaptive-residenc-41,baseline-employme-19,35.57,regional-language-36,regional-integrat-24,3012810,3
+4,distributed-national-42,distributed-residenc-42,pilot-employme-20,12.72,legacy-language-37,legacy-integrat-25,8189488,4

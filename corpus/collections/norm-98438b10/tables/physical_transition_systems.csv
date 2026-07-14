@@ -1,0 +1,5 @@
+physical_transition_system_id,system_id,initial_state_id,state_count,transition_relation_id,valuation_function_id,physical_atoms,sanction_atoms,norm_id
+1,8189503,1336170,0,978-0-07-162442-8,ChIJe0zpU4Bt5kcRC2Er6yFuxzs,legacy-physical-67,composite-sanction-87,1
+2,3717623,L137,3,10238260,4985162,compact-physical-68,primary-sanction-88,2
+3,7441161,21016225,1,2839507,5c6f01c708ff420a862fd80b80bd80dc,composite-physical-69,adaptive-sanction-89,3
+4,605963,12388,0,c74553ec-8fcc-11eb-924d-9cd76263cbd0,937741,primary-physical-70,distributed-sanction-90,4

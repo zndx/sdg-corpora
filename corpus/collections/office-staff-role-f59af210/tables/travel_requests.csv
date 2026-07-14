@@ -1,0 +1,5 @@
+travel_request_id,request_id,submission_date,meeting_name,requires_absence_authorization,requires_university_car,is_submitted_early,person_id,office_staff_role_id,voucher_id
+100,2087732,2025-04-24,Regional Initiative,false,true,true,1,1,2986224
+101,575213,2022-09-08,Seasonal Model D,true,false,false,2,2,5917292
+102,103167,2023-02-19,Integrated Cluster,false,true,true,3,3,5006456
+103,611510,2024-07-03,Extended Review,true,false,false,4,4,974947

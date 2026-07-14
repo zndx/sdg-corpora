@@ -1,0 +1,159 @@
+{
+ "construct_id": "f5f5331ce1ed2c6b",
+ "slug": "cognitive-training-program-f5f5331c",
+ "passage": "f5f5331ce1ed2c6b4e68f4fc3761473a639571fb446fedefa605ec400b0f6499.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 11,
+ "entities": [
+  "CognitiveTrainingProgram",
+  "CognitiveCapacity",
+  "CognitiveAssessment",
+  "ResearchInstitution",
+  "NeuroplasticityEvent"
+ ],
+ "terms": [
+  {
+   "name": "CognitiveTrainingProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CognitiveCapacity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CognitiveAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NeuroplasticityEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cognitive_training_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_identifier",
+    "program_name",
+    "target_capacity",
+    "delivery_mode",
+    "target_population",
+    "evidence_level",
+    "launch_date",
+    "research_institution_id",
+    "cognitive_assessment_administrator_i_d"
+   ]
+  },
+  {
+   "name": "cognitive_capacities",
+   "rows": 4,
+   "columns": [
+    "cognitive_capacity_id",
+    "capacity_identifier",
+    "capacity_name",
+    "domain",
+    "baseline_score",
+    "improvement_threshold",
+    "assessment_method",
+    "cognitive_training_program_id"
+   ]
+  },
+  {
+   "name": "cognitive_assessments",
+   "rows": 4,
+   "columns": [
+    "assessment_identifier",
+    "assessment_name",
+    "administration_date",
+    "administrator_i_d",
+    "participant_i_d",
+    "score",
+    "status",
+    "cognitive_capacity_id",
+    "research_institution_id"
+   ]
+  },
+  {
+   "name": "research_institutions",
+   "rows": 4,
+   "columns": [
+    "research_institution_id",
+    "institution_i_d",
+    "institution_name",
+    "location",
+    "founding_year",
+    "specialization",
+    "status"
+   ]
+  },
+  {
+   "name": "neuroplasticity_events",
+   "rows": 4,
+   "columns": [
+    "event_i_d",
+    "event_date",
+    "brain_region",
+    "trigger_type",
+    "intensity",
+    "outcome",
+    "cognitive_capacity_id",
+    "research_institution_id"
+   ]
+  },
+  {
+   "name": "programs_capacities",
+   "rows": 8,
+   "columns": [
+    "cognitive_training_program_id",
+    "cognitive_capacity_id"
+   ]
+  },
+  {
+   "name": "capacities_assessments",
+   "rows": 8,
+   "columns": [
+    "cognitive_capacity_id",
+    "cognitive_assessment_administrator_i_d"
+   ]
+  },
+  {
+   "name": "institutions_programs",
+   "rows": 8,
+   "columns": [
+    "research_institution_id",
+    "cognitive_training_program_id"
+   ]
+  },
+  {
+   "name": "institutions_assessments",
+   "rows": 8,
+   "columns": [
+    "research_institution_id",
+    "cognitive_assessment_administrator_i_d"
+   ]
+  }
+ ],
+ "views": [
+  "cognitive_training_program_cognitive_capacity_detail_view",
+  "cognitive_training_program_research_institution_view",
+  "cognitive_training_program_cognitive_assessment_view",
+  "cognitive_capacity_cognitive_assessment_detail_view",
+  "cognitive_capacity_cognitive_training_program_view",
+  "cognitive_assessment_cognitive_capacity_view",
+  "cognitive_assessment_research_institution_view",
+  "research_institution_cognitive_training_program_detail_view",
+  "research_institution_cognitive_assessment_detail_view",
+  "neuroplasticity_event_cognitive_capacity_view",
+  "neuroplasticity_event_research_institution_view"
+ ]
+}

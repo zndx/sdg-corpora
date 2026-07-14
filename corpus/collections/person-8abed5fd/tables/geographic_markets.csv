@@ -1,0 +1,5 @@
+id,market_id,region_name,country_code,market_type,strategic_initiative_id,industry_sector_id
+1,9fffb746-9bac-11eb-a8a2-19ed5c03f8d3,Distributed Assessment,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,domestic,100,1
+2,1889766,Adaptive Survey D,lu_tax_code_template_m_I_2,international,101,2
+3,eb7b0b58-8fd1-11eb-924d-9cd76263cbd0,Primary Corridor,default_chart_a_account_57,emerging,102,3
+4,8928496,Composite Series,727045,domestic,103,4

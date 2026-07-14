@@ -1,0 +1,199 @@
+{
+ "construct_id": "d8bb38e5a07862d4",
+ "slug": "nuclear-facility-d8bb38e5",
+ "passage": "d8bb38e5a07862d4327f323c96d1e0724548ce99b9b1554349552aa537feb2df.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 20,
+ "entities": [
+  "NuclearFacility",
+  "SafetyDirector",
+  "ForumMeeting",
+  "HSSSEQIssue",
+  "SubGroup",
+  "MeetingDocument",
+  "ActionItem"
+ ],
+ "terms": [
+  {
+   "name": "NuclearFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SafetyDirector",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ForumMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HSSSEQIssue",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SubGroup",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MeetingDocument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ActionItem",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "nuclear_facilities",
+   "rows": 4,
+   "columns": [
+    "facility_id",
+    "facility_name",
+    "license_status",
+    "operational_status",
+    "site_type",
+    "last_inspection_date",
+    "director_id",
+    "h_s_s_s_e_q_issue_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "safety_directors",
+   "rows": 4,
+   "columns": [
+    "director_id",
+    "full_name",
+    "role_type",
+    "appointment_date",
+    "is_sponsor",
+    "facility_id",
+    "sub_group_id",
+    "forum_meeting_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "forum_meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_id",
+    "meeting_date",
+    "meeting_type",
+    "venue",
+    "status",
+    "total_cost",
+    "director_id",
+    "meeting_document_id",
+    "action_item_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "h_s_s_s_e_q_issues",
+   "rows": 4,
+   "columns": [
+    "id",
+    "issue_id",
+    "issue_title",
+    "category",
+    "risk_level",
+    "status",
+    "reported_date",
+    "facility_id",
+    "sub_group_id"
+   ]
+  },
+  {
+   "name": "sub_groups",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sub_group_id",
+    "sub_group_title",
+    "focus_area",
+    "is_active",
+    "established_date",
+    "director_id",
+    "meeting_document_id"
+   ]
+  },
+  {
+   "name": "meeting_documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_id",
+    "document_type",
+    "publication_date",
+    "version",
+    "is_public",
+    "forum_meeting_id",
+    "director_id",
+    "action_item_id"
+   ]
+  },
+  {
+   "name": "action_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "action_id",
+    "description",
+    "due_date",
+    "priority",
+    "status",
+    "director_id",
+    "h_s_s_s_e_q_issue_id",
+    "meeting_document_id"
+   ]
+  },
+  {
+   "name": "meetings_directors",
+   "rows": 8,
+   "columns": [
+    "forum_meeting_id",
+    "director_id"
+   ]
+  },
+  {
+   "name": "groups_issues",
+   "rows": 8,
+   "columns": [
+    "sub_group_id",
+    "h_s_s_s_e_q_issue_id"
+   ]
+  }
+ ],
+ "views": [
+  "nuclear_facility_safety_director_view",
+  "nuclear_facility_h_s_s_s_e_q_issue_view",
+  "safety_director_nuclear_facility_view",
+  "safety_director_sub_group_view",
+  "safety_director_forum_meeting_view",
+  "forum_meeting_safety_director_view",
+  "forum_meeting_safety_director_detail_view",
+  "forum_meeting_meeting_document_view",
+  "forum_meeting_action_item_view",
+  "h_s_s_s_e_q_issue_nuclear_facility_view",
+  "h_s_s_s_e_q_issue_sub_group_view",
+  "sub_group_safety_director_view",
+  "sub_group_h_s_s_s_e_q_issue_detail_view",
+  "sub_group_meeting_document_view",
+  "meeting_document_forum_meeting_view",
+  "meeting_document_safety_director_view",
+  "meeting_document_action_item_view",
+  "action_item_safety_director_view",
+  "action_item_h_s_s_s_e_q_issue_view",
+  "action_item_meeting_document_view"
+ ]
+}

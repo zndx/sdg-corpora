@@ -1,0 +1,5 @@
+cookie_id,purpose,expiration_date,is_essential,third_party_provider,data_controller_id,user_device_id
+392479,adaptive-purpose-11,2025-08-18,false,integrated-third-22,1000,1
+6983,distributed-purpose-12,2022-01-02,true,seasonal-third-23,1001,2
+19609505,baseline-purpose-13,2023-06-13,false,regional-third-24,1002,3
+2106722,pilot-purpose-14,2024-11-24,true,legacy-third-25,1003,4

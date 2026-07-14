@@ -1,0 +1,5 @@
+personal_information_id,information_type,data_field,collection_method,is_sensitive,retention_period,digital_technology_id,individual_id,created_at
+1000,contact,email_address,direct_provision,false,baseline-retentio-91,1000,1,2025-01-01 00:14:00
+1001,professional,physical_address,social_media_interaction,true,pilot-retentio-92,1001,2,2025-02-06 03:14:00
+1002,identity,telephone_number,mobile_application,false,extended-retentio-93,1002,3,2025-03-11 06:14:00
+1003,financial,occupational_history,survey,true,integrated-retentio-94,1003,4,2025-04-16 09:14:00

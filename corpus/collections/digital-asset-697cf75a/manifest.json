@@ -1,0 +1,152 @@
+{
+ "construct_id": "697cf75a5995560d",
+ "slug": "digital-asset-697cf75a",
+ "passage": "697cf75a5995560d2bf25150ea2549e5b98366d9aded2fbd5350777f512da1b4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 12,
+ "entities": [
+  "DigitalAsset",
+  "Project",
+  "SoftwareTool",
+  "ExternalResource",
+  "AnimationSequence"
+ ],
+ "terms": [
+  {
+   "name": "DigitalAsset",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Project",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SoftwareTool",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExternalResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AnimationSequence",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "digital_assets",
+   "rows": 4,
+   "columns": [
+    "digital_asset_id",
+    "asset_identifier",
+    "asset_title",
+    "creation_date",
+    "file_format",
+    "duration_seconds",
+    "frame_count",
+    "status",
+    "tool_id",
+    "project_id",
+    "exported_to_digital_asset_id"
+   ]
+  },
+  {
+   "name": "projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_id",
+    "project_title",
+    "start_date",
+    "end_date",
+    "project_type",
+    "description",
+    "resource_id"
+   ]
+  },
+  {
+   "name": "software_tools",
+   "rows": 4,
+   "columns": [
+    "tool_id",
+    "tool_name",
+    "version",
+    "tool_category",
+    "vendor",
+    "digital_asset_id"
+   ]
+  },
+  {
+   "name": "external_resources",
+   "rows": 4,
+   "columns": [
+    "resource_id",
+    "resource_title",
+    "source_url",
+    "resource_type",
+    "license",
+    "project_id",
+    "digital_asset_id"
+   ]
+  },
+  {
+   "name": "animation_sequences",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sequence_id",
+    "sequence_name",
+    "duration_seconds",
+    "frame_count",
+    "animation_type",
+    "keyframe_count",
+    "project_id",
+    "digital_asset_id",
+    "uses_rig_digital_asset_id"
+   ]
+  },
+  {
+   "name": "projects_assets",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "digital_asset_id"
+   ]
+  },
+  {
+   "name": "projects_tools",
+   "rows": 8,
+   "columns": [
+    "project_id",
+    "tool_id"
+   ]
+  },
+  {
+   "name": "tools_projects",
+   "rows": 8,
+   "columns": [
+    "tool_id",
+    "project_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_digital_asset_software_tool",
+  "v_digital_asset_project",
+  "v_digital_asset_digital_asset",
+  "v_project_digital_asset_detail",
+  "v_project_software_tool_detail",
+  "v_project_external_resource",
+  "v_software_tool_project_detail",
+  "v_software_tool_digital_asset",
+  "v_external_resource_project",
+  "v_external_resource_digital_asset",
+  "v_animation_sequence_project",
+  "v_animation_sequence_digital_asset"
+ ]
+}

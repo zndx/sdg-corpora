@@ -1,0 +1,157 @@
+{
+ "construct_id": "ff4cb277a234e063",
+ "slug": "accreditation-certificate-ff4cb277",
+ "passage": "ff4cb277a234e06321500cb1b70c553cfbc3d3ac37a05d4d752c84840f80d8b1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "AccreditationCertificate",
+  "AccreditedOrganization",
+  "AccreditationScope",
+  "CalibrationCapability",
+  "MeasurementStandard",
+  "AccreditationStandard"
+ ],
+ "terms": [
+  {
+   "name": "AccreditationCertificate",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AccreditedOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AccreditationScope",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CalibrationCapability",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MeasurementStandard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AccreditationStandard",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "AccreditationCertificate",
+   "rows": 4,
+   "columns": [
+    "id",
+    "certificateNumber",
+    "issueDate",
+    "expiryDate",
+    "status",
+    "issuingBodyName",
+    "organizationPostalCode",
+    "scopeId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "AccreditedOrganization",
+   "rows": 4,
+   "columns": [
+    "legalName",
+    "streetAddress",
+    "city",
+    "state",
+    "postalCode",
+    "contactPhone",
+    "certificateId"
+   ]
+  },
+  {
+   "name": "AccreditationScope",
+   "rows": 4,
+   "columns": [
+    "scopeId",
+    "scopeTitle",
+    "technicalDomain",
+    "isOnSiteAvailable",
+    "scopeVersion",
+    "certificateId"
+   ]
+  },
+  {
+   "name": "CalibrationCapability",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parameterName",
+    "equipmentType",
+    "measurementRangeMin",
+    "measurementRangeMax",
+    "unitOfMeasurement",
+    "expandedUncertaintyValue",
+    "coverageFactor",
+    "scopeId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "MeasurementStandard",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standardIdentifier",
+    "standardType",
+    "manufacturer",
+    "calibrationDueDate",
+    "status",
+    "capabilityId"
+   ]
+  },
+  {
+   "name": "AccreditationStandard",
+   "rows": 4,
+   "columns": [
+    "standardId",
+    "standardNumber",
+    "standardTitle",
+    "publicationYear",
+    "issuingOrganization",
+    "certificateId"
+   ]
+  },
+  {
+   "name": "AccreditationCertificateAccreditationStandard",
+   "rows": 8,
+   "columns": [
+    "certificateId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "AccreditationScopeCalibrationCapability",
+   "rows": 8,
+   "columns": [
+    "scopeId",
+    "capabilityId"
+   ]
+  }
+ ],
+ "views": [
+  "v_accreditation_certificate_accredited_organization",
+  "v_accreditation_certificate_accreditation_scope",
+  "v_accreditation_certificate_accreditation_standard_detail",
+  "v_accredited_organization_accreditation_certificate",
+  "v_accreditation_scope_accreditation_certificate",
+  "v_accreditation_scope_calibration_capability_detail",
+  "v_calibration_capability_accreditation_scope",
+  "v_calibration_capability_measurement_standard",
+  "v_measurement_standard_calibration_capability",
+  "v_accreditation_standard_accreditation_certificate"
+ ]
+}

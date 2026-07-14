@@ -1,0 +1,5 @@
+id,side_item_id,name,price,is_included,menu_item_id
+100,SID-2588,Extended Review,12.87,true,MEN-2563
+101,SID-2595,Pilot Initiative A,35.45,false,MEN-2569
+102,SID-2602,Baseline Model,29.24,true,MEN-2575
+103,SID-2609,Distributed Cluster,29.99,false,MEN-2581

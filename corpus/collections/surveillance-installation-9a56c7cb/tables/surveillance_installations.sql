@@ -1,0 +1,20 @@
+CREATE TABLE surveillance_installations (
+  surveillance_installation_id INTEGER NOT NULL,
+  installation_id INTEGER,
+  project_name VARCHAR(32),
+  target_scale VARCHAR(32),
+  deployment_date TIMESTAMP,
+  status VARCHAR(32),
+  total_cost DECIMAL,
+  server_hardware_id INTEGER,
+  storage_system_id INTEGER,
+  video_management_software_id INTEGER,
+  client_organization_org_id VARCHAR(32),
+  channel_partner_id INTEGER,
+  PRIMARY KEY (surveillance_installation_id),
+  FOREIGN KEY (server_hardware_id) REFERENCES server_hardwares (id),
+  FOREIGN KEY (storage_system_id) REFERENCES storage_systems (id),
+  FOREIGN KEY (video_management_software_id) REFERENCES video_management_softwares (id),
+  FOREIGN KEY (client_organization_org_id) REFERENCES client_organizations (org_id),
+  FOREIGN KEY (channel_partner_id) REFERENCES channel_partners (id)
+);

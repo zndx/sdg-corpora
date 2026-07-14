@@ -1,0 +1,121 @@
+{
+ "construct_id": "a98e068ba4b13eda",
+ "slug": "economic-recession-a98e068b",
+ "passage": "a98e068ba4b13edad8a3414bd5ebbe99ed2b8a7a3e1594b124ec985120a6b62f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "EconomicRecession",
+  "ChildPovertyMeasure",
+  "Household",
+  "SafetyNetProgram",
+  "HouseholdIncomeChange"
+ ],
+ "terms": [
+  {
+   "name": "EconomicRecession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ChildPovertyMeasure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Household",
+   "genus": "bfo:0000017"
+  },
+  {
+   "name": "SafetyNetProgram",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HouseholdIncomeChange",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "economic_recessions",
+   "rows": 4,
+   "columns": [
+    "economic_recession_id",
+    "start_date",
+    "end_date",
+    "peak_unemployment_rate",
+    "affected_states",
+    "severity_level",
+    "child_poverty_measure_id",
+    "household_income_change_id"
+   ]
+  },
+  {
+   "name": "child_poverty_measures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measure_type",
+    "poverty_rate",
+    "year",
+    "state_code",
+    "household_income_percentile",
+    "economic_recession_id",
+    "household_id"
+   ]
+  },
+  {
+   "name": "households",
+   "rows": 4,
+   "columns": [
+    "household_id",
+    "total_members",
+    "child_count",
+    "immigrant_status",
+    "income_level",
+    "household_income_change_id",
+    "safety_net_program_id"
+   ]
+  },
+  {
+   "name": "safety_net_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_name",
+    "program_type",
+    "eligibility_criteria",
+    "funding_source",
+    "household_id",
+    "child_poverty_measure_id"
+   ]
+  },
+  {
+   "name": "household_income_changes",
+   "rows": 4,
+   "columns": [
+    "household_income_change_id",
+    "change_percentage",
+    "direction",
+    "cause",
+    "measurement_period",
+    "economic_recession_id",
+    "household_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_economic_recession_child_poverty_measure",
+  "v_economic_recession_household_income_change",
+  "v_child_poverty_measure_economic_recession",
+  "v_child_poverty_measure_household",
+  "v_household_household_income_change",
+  "v_household_safety_net_program",
+  "v_safety_net_program_household",
+  "v_safety_net_program_child_poverty_measure",
+  "v_household_income_change_economic_recession",
+  "v_household_income_change_household"
+ ]
+}

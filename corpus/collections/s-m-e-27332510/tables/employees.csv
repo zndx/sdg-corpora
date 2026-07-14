@@ -1,0 +1,5 @@
+employee_id,full_name,role,department,start_date,termination_date,is_leader,performance_rating,s_m_e_id,job_role_id,jurisdiction_id
+1,Theodore Mcgrath,pilot-role-20,adaptive-departme-89,2022-09-05,2022-09-11,true,15.95,1,100,1
+2,Account Name,extended-role-21,distributed-departme-90,2023-02-16,2023-02-22,false,18.90,2,101,2
+3,Saipan International Airport,integrated-role-22,baseline-departme-91,2024-07-27,2024-07-06,true,21.85,3,102,3
+4,Norma Fisher,seasonal-role-23,pilot-departme-92,2025-12-11,2025-12-17,false,24.80,4,103,4

@@ -1,0 +1,5 @@
+id,courseIdentifier,courseName,price,isVegetarian,isVegan,description,packageId,ingredientId
+1,soup,Legacy Protocol D,12.87,true,false,Extended Survey,100,1450638
+2,starter,Regional Programme,35.45,false,true,Pilot Corridor A,101,5844284
+3,main,Seasonal Standard,29.24,true,false,Baseline Series,102,template_ivacode_pagata_20det40ind
+4,dessert,Integrated Framework A,29.99,false,true,Distributed Assessment,103,2087735

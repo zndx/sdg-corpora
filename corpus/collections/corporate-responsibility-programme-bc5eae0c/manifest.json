@@ -1,0 +1,208 @@
+{
+ "construct_id": "bc5eae0c8700aa0a",
+ "slug": "corporate-responsibility-programme-bc5eae0c",
+ "passage": "bc5eae0c8700aa0a8ae9321a1d19ce763228fe0c35c6290dad4f37a9c7365b6c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 18,
+ "entities": [
+  "CorporateResponsibilityProgramme",
+  "CSRComponent",
+  "ExecutiveRole",
+  "BusinessUnit",
+  "GeographicRegion",
+  "Professional",
+  "EducationalInstitution",
+  "Campaign"
+ ],
+ "terms": [
+  {
+   "name": "CorporateResponsibilityProgramme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CSRComponent",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExecutiveRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "BusinessUnit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Professional",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EducationalInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Campaign",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "corporate_responsibility_programmes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programme_identifier",
+    "programme_name",
+    "start_date",
+    "status",
+    "scope",
+    "executive_role_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "c_s_r_components",
+   "rows": 4,
+   "columns": [
+    "id",
+    "component_identifier",
+    "component_name",
+    "component_type",
+    "budget",
+    "target_audience",
+    "corporate_responsibility_programme_id",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "executive_roles",
+   "rows": 4,
+   "columns": [
+    "executive_role_id",
+    "role_identifier",
+    "role_title",
+    "department",
+    "start_date",
+    "end_date",
+    "employment_status",
+    "professional_id",
+    "business_unit_id",
+    "corporate_responsibility_programme_id"
+   ]
+  },
+  {
+   "name": "business_units",
+   "rows": 4,
+   "columns": [
+    "business_unit_id",
+    "unit_identifier",
+    "unit_name",
+    "sector",
+    "revenue",
+    "employee_count",
+    "executive_role_id",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_code",
+    "region_name",
+    "region_type",
+    "population",
+    "primary_language",
+    "business_unit_id",
+    "c_s_r_component_id"
+   ]
+  },
+  {
+   "name": "professionals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "professional_id",
+    "full_name",
+    "birth_date",
+    "current_employer",
+    "primary_expertise",
+    "executive_role_id",
+    "educational_institution_id"
+   ]
+  },
+  {
+   "name": "educational_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "institution_name",
+    "location",
+    "founding_year",
+    "institution_type",
+    "professional_id",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "campaigns",
+   "rows": 4,
+   "columns": [
+    "id",
+    "campaign_id",
+    "campaign_title",
+    "launch_date",
+    "end_date",
+    "reach",
+    "campaign_status",
+    "professional_id",
+    "c_s_r_component_id"
+   ]
+  },
+  {
+   "name": "programmes_components",
+   "rows": 8,
+   "columns": [
+    "corporate_responsibility_programme_id",
+    "c_s_r_component_id"
+   ]
+  },
+  {
+   "name": "campaigns_regions",
+   "rows": 8,
+   "columns": [
+    "campaign_id",
+    "geographic_region_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_corporate_responsibility_programme_executive_role",
+  "v_corporate_responsibility_programme_c_s_r_component_detail",
+  "v_c_s_r_component_corporate_responsibility_programme",
+  "v_c_s_r_component_geographic_region",
+  "v_executive_role_professional",
+  "v_executive_role_business_unit",
+  "v_executive_role_corporate_responsibility_programme",
+  "v_business_unit_executive_role",
+  "v_business_unit_geographic_region",
+  "v_geographic_region_business_unit",
+  "v_geographic_region_c_s_r_component",
+  "v_professional_executive_role",
+  "v_professional_educational_institution",
+  "v_educational_institution_professional",
+  "v_educational_institution_geographic_region",
+  "v_campaign_professional",
+  "v_campaign_geographic_region_detail",
+  "v_campaign_c_s_r_component"
+ ]
+}

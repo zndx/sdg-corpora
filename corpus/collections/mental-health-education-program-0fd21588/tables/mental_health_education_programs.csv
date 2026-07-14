@@ -1,0 +1,5 @@
+mental_health_education_program_id,program_identifier,program_title,target_age_group,delivery_mode,is_evidence_based,start_date,end_date,status,trained_speaker_id,youth_demographic_id,educational_venue_id
+1,PRO-2198,Legacy Review D,middle school,in-school,false,2022-09-05T20:24:00,2022-09-01T08:00:00,planned,1,1,100
+2,PRO-2205,Regional Initiative,high school,community-wide,true,2023-02-16T03:41:00,2023-02-12T15:17:00,running,2,2,101
+3,PRO-2212,Seasonal Model,college,in-school,false,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,3,3,102
+4,PRO-2219,Integrated Cluster A,middle school,community-wide,true,2025-12-11T17:15:00,2025-12-07T05:51:00,cancelled,4,4,103

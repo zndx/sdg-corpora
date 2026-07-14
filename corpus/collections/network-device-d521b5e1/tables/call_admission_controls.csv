@@ -1,0 +1,5 @@
+call_admission_control_id,cac_id,algorithm_type,current_load,threshold_utilization,decision_status,timestamp,traffic_class_id,service_level_agreement_id,resource_management_system_id
+1,4793475,per-flow,20.95,5.20,admitted,2024-07-08T18:18:00,1,100,1000
+2,3001009030250,aggregate,22.90,8.40,rejected,2025-12-19T01:35:00,2,101,1001
+3,605946,dynamic,24.85,11.60,pending,2022-05-03T08:52:00,3,102,1002
+4,32811,per-flow,26.80,14.80,admitted,2023-10-14T15:09:00,4,103,1003

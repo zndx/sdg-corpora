@@ -1,0 +1,136 @@
+{
+ "construct_id": "c9be3677dca3d1e3",
+ "slug": "research-committee-c9be3677",
+ "passage": "c9be3677dca3d1e3e1746696d8e488fb2661cf5e4a90764083d4b73832886ffd.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "ResearchCommittee",
+  "ResearchExecutive",
+  "DoctoralSchool",
+  "DoctoralCollege",
+  "ResearchLaboratory"
+ ],
+ "terms": [
+  {
+   "name": "ResearchCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchExecutive",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DoctoralSchool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DoctoralCollege",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchLaboratory",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ResearchCommittee",
+   "rows": 4,
+   "columns": [
+    "committeeId",
+    "committeeIdentifier",
+    "establishedDate",
+    "governanceStatus",
+    "executiveDepartmentCode",
+    "laboratoryId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "ResearchExecutive",
+   "rows": 4,
+   "columns": [
+    "executiveIdentifier",
+    "fullLegalName",
+    "appointmentDate",
+    "departmentCode",
+    "committeeId",
+    "laboratoryId"
+   ]
+  },
+  {
+   "name": "DoctoralSchool",
+   "rows": 4,
+   "columns": [
+    "id",
+    "schoolCode",
+    "schoolName",
+    "academicFocus",
+    "memberLaboratoryCount",
+    "jurisdictionalScope",
+    "executiveDepartmentCode",
+    "collegeId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "DoctoralCollege",
+   "rows": 4,
+   "columns": [
+    "id",
+    "collegeIdentifier",
+    "collegeName",
+    "geographicRegion",
+    "constituentSchoolCount"
+   ]
+  },
+  {
+   "name": "ResearchLaboratory",
+   "rows": 4,
+   "columns": [
+    "laboratoryId",
+    "laboratoryIdentifier",
+    "laboratoryName",
+    "researchDomain",
+    "operationalStatus",
+    "schoolId",
+    "executiveDepartmentCode"
+   ]
+  },
+  {
+   "name": "DoctoralSchoolResearchLaboratory",
+   "rows": 8,
+   "columns": [
+    "schoolId",
+    "laboratoryId"
+   ]
+  },
+  {
+   "name": "DoctoralCollegeDoctoralSchool",
+   "rows": 8,
+   "columns": [
+    "collegeId",
+    "schoolId"
+   ]
+  }
+ ],
+ "views": [
+  "research_committee_research_executive_view",
+  "research_committee_research_laboratory_view",
+  "research_executive_research_committee_view",
+  "research_executive_research_laboratory_view",
+  "doctoral_school_research_executive_view",
+  "doctoral_school_research_laboratory_detail_view",
+  "doctoral_school_doctoral_college_view",
+  "doctoral_college_doctoral_school_detail_view",
+  "research_laboratory_doctoral_school_view",
+  "research_laboratory_research_executive_view"
+ ]
+}

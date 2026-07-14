@@ -1,0 +1,5 @@
+survey_response_id,response_id,survey_date,respondent_age,respondent_gender,country,household_size,is_sick_in_household,religious_identity_id,religious_practice_id,traditional_healer_id,sacred_object_id
+1000,ChIJr7cItPtt5kcRM6ry7ecIYgw,2024-07-23T18:30:00,11,primary-responde-94,compact-country-26,11,true,1,1,1,1
+1001,9736917,2025-12-07T01:47:00,18,adaptive-responde-95,composite-country-27,22,false,2,2,2,2
+1002,8189493,2022-05-18T08:04:00,25,distributed-responde-96,primary-country-28,33,true,3,3,3,3
+1003,Invoice,2023-10-02T15:21:00,32,baseline-responde-97,adaptive-country-29,44,false,4,4,4,4

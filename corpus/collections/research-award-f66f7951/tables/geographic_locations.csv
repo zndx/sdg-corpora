@@ -1,0 +1,5 @@
+geographic_location_id,location_identifier,location_name,location_type,city,state,country,research_organization_id,research_project_id
+1,LOC-2721,Legacy Review D,legacy-location-19,integrated-city-34,distributed-state-84,compact-country-26,100,1
+2,LOC-2726,Regional Initiative,compact-location-20,seasonal-city-35,baseline-state-85,composite-country-27,101,2
+3,LOC-2731,Seasonal Model,composite-location-21,regional-city-36,pilot-state-86,primary-country-28,102,3
+4,LOC-2736,Integrated Cluster A,primary-location-22,legacy-city-37,extended-state-87,adaptive-country-29,103,4

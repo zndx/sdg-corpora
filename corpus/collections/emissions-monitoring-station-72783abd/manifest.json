@@ -1,0 +1,171 @@
+{
+ "construct_id": "72783abd6795629d",
+ "slug": "emissions-monitoring-station-72783abd",
+ "passage": "72783abd6795629d4b3e5217b082ddfe9d82aadf6baad238871632b217e0ede6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 15,
+ "entities": [
+  "EmissionsMonitoringStation",
+  "EmissionSource",
+  "TestCrew",
+  "ProjectManager",
+  "EmissionsTestProgram",
+  "RegionalOffice"
+ ],
+ "terms": [
+  {
+   "name": "EmissionsMonitoringStation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EmissionSource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TestCrew",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ProjectManager",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EmissionsTestProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RegionalOffice",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "emissions_monitoring_stations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "station_id",
+    "installation_date",
+    "last_calibration_date",
+    "operational_status",
+    "manufacturer",
+    "model_number",
+    "emission_source_id",
+    "test_crew_id"
+   ]
+  },
+  {
+   "name": "emission_sources",
+   "rows": 4,
+   "columns": [
+    "emission_source_id",
+    "source_id",
+    "source_type",
+    "commissioning_date",
+    "operational_status",
+    "fuel_type",
+    "capacity_mw",
+    "emissions_monitoring_station_id",
+    "test_crew_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "test_crews",
+   "rows": 4,
+   "columns": [
+    "test_crew_id",
+    "crew_id",
+    "crew_name",
+    "supervisor_id",
+    "certification_level",
+    "active_since",
+    "manager_id",
+    "emission_source_id",
+    "emissions_monitoring_station_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "project_managers",
+   "rows": 4,
+   "columns": [
+    "manager_id",
+    "full_name",
+    "office_location",
+    "certifications",
+    "years_of_experience",
+    "regional_office_id",
+    "emissions_test_program_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "emissions_test_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "test_type",
+    "status",
+    "emission_source_id",
+    "emissions_monitoring_station_id"
+   ]
+  },
+  {
+   "name": "regional_offices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "office_id",
+    "office_name",
+    "city",
+    "state",
+    "established_date",
+    "manager_id",
+    "test_crew_id"
+   ]
+  },
+  {
+   "name": "managers_crews",
+   "rows": 8,
+   "columns": [
+    "manager_id",
+    "test_crew_id"
+   ]
+  },
+  {
+   "name": "programs_crews",
+   "rows": 8,
+   "columns": [
+    "emissions_test_program_id",
+    "test_crew_id"
+   ]
+  }
+ ],
+ "views": [
+  "emissions_monitoring_station_emission_source_view",
+  "emissions_monitoring_station_test_crew_view",
+  "emission_source_emissions_monitoring_station_view",
+  "emission_source_test_crew_view",
+  "test_crew_project_manager_view",
+  "test_crew_emission_source_view",
+  "test_crew_emissions_monitoring_station_view",
+  "project_manager_regional_office_view",
+  "project_manager_test_crew_detail_view",
+  "project_manager_emissions_test_program_view",
+  "emissions_test_program_emission_source_view",
+  "emissions_test_program_emissions_monitoring_station_view",
+  "emissions_test_program_test_crew_detail_view",
+  "regional_office_project_manager_view",
+  "regional_office_test_crew_view"
+ ]
+}

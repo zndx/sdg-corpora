@@ -1,0 +1,5 @@
+wheel_assembly_id,position,tire_width,tire_height,rim_diameter,rim_material,tire_model,suspension_system_id,brake_system_id,created_at,updated_at
+100,compact-position-20,1.05,1.12,10.95,baseline-rim-19,composite-tire-57,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,composite-position-21,0.56,0.37591002,14.90,pilot-rim-20,primary-tire-58,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,primary-position-22,0.52,0.74,18.85,extended-rim-21,adaptive-tire-59,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,adaptive-position-23,1.05,0.84,22.80,integrated-rim-22,distributed-tire-60,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

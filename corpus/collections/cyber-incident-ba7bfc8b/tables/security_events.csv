@@ -1,0 +1,5 @@
+id,event_id,event_type,source_ip,destination_ip,timestamp,correlation_score,threat_detection_system_id,cyber_incident_id,automated_response_id
+1,2002007020060,phishing,baseline-source-37,legacy-destinat-79,2024-07-08T18:18:00,21.95,1000,100,1
+2,168535,malware,pilot-source-38,compact-destinat-80,2025-12-19T01:35:00,25.90,1001,101,2
+3,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,unauthorized_access,extended-source-39,composite-destinat-81,2022-05-03T08:52:00,29.85,1002,102,3
+4,1186089,policy_violation,integrated-source-40,primary-destinat-82,2023-10-14T15:09:00,33.80,1003,103,4

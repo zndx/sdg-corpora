@@ -1,0 +1,5 @@
+id,forecast_id,target_price,currency,year,commodity,issuing_body,institution_id,commodity_id,created_at,updated_at
+100,7119771,35.57,seasonal-currency-71,12,legacy-commodit-19,baseline-issuing-13,9424913,790492,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,3012834,20.14,regional-currency-72,21,compact-commodit-20,pilot-issuing-14,8189481,5844256,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,2b2bb518-8fcd-11eb-924d-9cd76263cbd0,12.34,legacy-currency-73,30,composite-commodit-21,extended-issuing-15,1437604,3355768,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,13219,14.58,compact-currency-74,39,primary-commodit-22,integrated-issuing-16,884346,2986241,2025-04-16 09:14:00,2025-04-23 15:41:00

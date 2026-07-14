@@ -1,0 +1,5 @@
+id,record_id,collection_date,data_category,is_sensitive,retention_period_months,disclosure_status,digital_platform_id,customer_profile_id,vendor_id
+1,10449530,2025-12-17T11:57:00,Identifiers,false,30,InternalUse,1,1,Continental Group
+2,10445619,2022-05-01T18:14:00,CommercialInformation,true,38,SharedWithVendor,2,2,PubMatic Inc.
+3,9568457,2023-10-12T01:31:00,NetworkActivity,false,46,PubliclyDisclosed,3,3,Dhillon Crane Service
+4,20743593,2024-03-23T08:48:00,InferredProfile,true,54,InternalUse,4,4,Sealed Air

@@ -1,0 +1,154 @@
+{
+ "construct_id": "378e8ed9334629c3",
+ "slug": "financial-institution-378e8ed9",
+ "passage": "378e8ed9334629c32748fa29fa80b2bac3f902df71c28b0af47dbb0faaf1de54.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "FinancialInstitution",
+  "ComplianceInvestigation",
+  "ComplianceDeficiency",
+  "BankingDivision",
+  "HighRiskClient",
+  "SuspiciousActivityReport"
+ ],
+ "terms": [
+  {
+   "name": "FinancialInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ComplianceInvestigation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ComplianceDeficiency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BankingDivision",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HighRiskClient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SuspiciousActivityReport",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "financial_institutions",
+   "rows": 4,
+   "columns": [
+    "financial_institution_id",
+    "institution_id",
+    "legal_name",
+    "headquarters_city",
+    "headquarters_country",
+    "charter_type",
+    "fed_member_status",
+    "regulatory_status",
+    "has_subsidiary_financial_institution_id",
+    "compliance_investigation_id"
+   ]
+  },
+  {
+   "name": "compliance_investigations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "investigation_id",
+    "initiation_date",
+    "status",
+    "issuing_authority",
+    "finding_severity",
+    "penalty_amount",
+    "financial_institution_id",
+    "compliance_investigation_id",
+    "deficiency_id"
+   ]
+  },
+  {
+   "name": "compliance_deficiencies",
+   "rows": 4,
+   "columns": [
+    "deficiency_id",
+    "category",
+    "description",
+    "discovery_date",
+    "remediation_status",
+    "compliance_investigation_id",
+    "banking_division_id",
+    "client_id"
+   ]
+  },
+  {
+   "name": "banking_divisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "division_code",
+    "division_name",
+    "oversight_level",
+    "compliance_officer_id",
+    "financial_institution_id",
+    "client_id",
+    "deficiency_id"
+   ]
+  },
+  {
+   "name": "high_risk_clients",
+   "rows": 4,
+   "columns": [
+    "client_id",
+    "client_type",
+    "risk_rating",
+    "jurisdiction",
+    "relationship_status",
+    "financial_institution_id",
+    "banking_division_id",
+    "suspicious_activity_report_sar_id"
+   ]
+  },
+  {
+   "name": "suspicious_activity_reports",
+   "rows": 4,
+   "columns": [
+    "sar_id",
+    "filing_date",
+    "status",
+    "triggering_transaction_id",
+    "flagging_specialist_id",
+    "client_id",
+    "banking_division_id",
+    "deficiency_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_financial_institution_financial_institution",
+  "vw_financial_institution_compliance_investigation",
+  "vw_compliance_investigation_financial_institution",
+  "vw_compliance_investigation_compliance_investigation",
+  "vw_compliance_investigation_compliance_deficiency",
+  "vw_compliance_deficiency_compliance_investigation",
+  "vw_compliance_deficiency_banking_division",
+  "vw_compliance_deficiency_high_risk_client",
+  "vw_banking_division_financial_institution",
+  "vw_banking_division_high_risk_client",
+  "vw_banking_division_compliance_deficiency",
+  "vw_high_risk_client_financial_institution",
+  "vw_high_risk_client_banking_division",
+  "vw_high_risk_client_suspicious_activity_report",
+  "vw_suspicious_activity_report_high_risk_client",
+  "vw_suspicious_activity_report_banking_division",
+  "vw_suspicious_activity_report_compliance_deficiency"
+ ]
+}

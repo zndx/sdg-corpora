@@ -1,0 +1,103 @@
+{
+ "construct_id": "c56249814944df4f",
+ "slug": "legislative-act-c5624981",
+ "passage": "c56249814944df4fe213a2600ac2e0aaf217d29a8f330d28947efbe0410ef47b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 4,
+ "n_views": 7,
+ "entities": [
+  "LegislativeAct",
+  "LegislativeBody",
+  "StatutoryAmendment",
+  "GovernmentOfficial"
+ ],
+ "terms": [
+  {
+   "name": "LegislativeAct",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LegislativeBody",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StatutoryAmendment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentOfficial",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legislative_acts",
+   "rows": 4,
+   "columns": [
+    "act_number",
+    "short_title",
+    "enactment_date",
+    "assent_date",
+    "jurisdiction",
+    "status",
+    "amends_act_number",
+    "legislative_body_id"
+   ]
+  },
+  {
+   "name": "legislative_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_name",
+    "jurisdiction_name",
+    "session_year",
+    "status",
+    "act_number"
+   ]
+  },
+  {
+   "name": "statutory_amendments",
+   "rows": 4,
+   "columns": [
+    "statutory_amendment_id",
+    "amendment_id",
+    "target_section",
+    "target_clause",
+    "original_value",
+    "substituted_value",
+    "amendment_type",
+    "act_number",
+    "legislative_body_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "government_officials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "official_name",
+    "designation",
+    "department",
+    "certification_date",
+    "status",
+    "act_number",
+    "legislative_body_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_legislative_act_legislative_act",
+  "v_legislative_act_legislative_body",
+  "v_legislative_body_legislative_act",
+  "v_statutory_amendment_legislative_act",
+  "v_statutory_amendment_legislative_body",
+  "v_government_official_legislative_act",
+  "v_government_official_legislative_body"
+ ]
+}

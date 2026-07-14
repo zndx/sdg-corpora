@@ -1,0 +1,5 @@
+satellite_id,orbit_type,memory_capacity,downlink_mode,status,signal_id,ligno_sat_downlink_signal_id
+id_18,distributed-orbit-18,8,cw,operational,317,1000
+884366,baseline-orbit-19,11,fm_packet,maintenance,6564371,1001
+69447,pilot-orbit-20,14,cw,decommissioned,4463669,1002
+lu_tax_code_template_m_I_2_6,extended-orbit-21,17,fm_packet,operational,6969425,1003

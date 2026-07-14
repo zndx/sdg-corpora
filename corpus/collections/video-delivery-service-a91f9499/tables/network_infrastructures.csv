@@ -1,0 +1,5 @@
+network_id,protocol,bandwidth,latency,operating_system,status,created_at,updated_at
+e6196808-8fd1-11eb-924d-9cd76263cbd0,TCP/IP,20.20,13.45,windows,online,2025-01-01 00:14:00,2025-01-02 00:41:00
+7441146,UDP,23.40,17.90,linux,offline,2025-02-06 03:14:00,2025-02-09 05:41:00
+8387535,HTTP,26.60,22.35,macos,degraded,2025-03-11 06:14:00,2025-03-16 10:41:00
+6589,HTTPS,29.80,26.80,windows,online,2025-04-16 09:14:00,2025-04-23 15:41:00

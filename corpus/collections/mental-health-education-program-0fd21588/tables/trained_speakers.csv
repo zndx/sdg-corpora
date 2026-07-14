@@ -1,0 +1,5 @@
+id,speaker_identifier,full_name,training_completion_date,specialization,presentation_count,is_available,bio_url,mental_health_issue_id,created_at,updated_at
+1,SPE-2108,Theodore Mcgrath,2024-11-27,mood disorders,54,true,http://en.wikipedia.org/wiki/Arroyo_toad,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,SPE-2113,Account Name,2025-04-11,suicide ideation,8,false,https://bugs.launchpad.net/rally/+bug/1596756,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,SPE-2118,Saipan International Airport,2022-09-22,eating disorders,0,true,https://ecocyc.org/gene?orgid=ECOLI&id=EG10352,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,SPE-2123,Norma Fisher,2023-02-06,addictive behavior,56,false,https://www.nature.com/articles/nphoton.2012.92,4,2025-04-16 09:14:00,2025-04-23 15:41:00

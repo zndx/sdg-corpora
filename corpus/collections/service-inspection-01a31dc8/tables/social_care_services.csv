@@ -1,0 +1,5 @@
+service_code,service_name,service_type,delivery_mode,is_integrated,eligibility_criteria,agency_id,needs_assessment_id
+20789856,Distributed Initiative,personal_care,in_home,true,composite-eligibil-57,U.S. Steel,1000
+3990167,Adaptive Model D,child_care,centre_based,false,primary-eligibil-58,Nikola Corporation,1001
+14484998,Primary Cluster,family_support,community,true,adaptive-eligibil-59,Oberthur Technologies,1002
+Total,Composite Review,multi_purpose,in_home,false,distributed-eligibil-60,General Telephone & Electronics,1003

@@ -1,0 +1,5 @@
+part_number,center_wavelength,output_power,threshold_current,operating_current,operating_voltage,monitor_current,pd_reverse_voltage,fiber_assembly_id,package_style_id,fiber_connector_id
+PAR-2291,23.70,20.70,9.45,9.70,21.95,5.95,16.70,1,1,1
+PAR-2297,28.40,25.40,13.90,11.40,25.90,9.90,19.40,2,2,2
+PAR-2303,33.10,30.10,18.35,13.10,29.85,13.85,22.10,3,3,3
+PAR-2309,37.80,34.80,22.80,14.80,33.80,17.80,24.80,4,4,4

@@ -1,0 +1,5 @@
+id,unit_id,established_date,annual_budget,currency_code,service_status,operational_scope,target_population,management_quality,geographic_area_id,beneficiary_group_id,research_study_id,staff_member_id
+1,39800614,2024-03-27,"44,248",gd_fp_eu_acc3,active,inpatient,urban_poor,high,1000,1,1,1000
+2,611523,2025-08-11,"76,784",managing-resources,inactive,outpatient,hard_core_poor,medium,1001,2,2,1001
+3,57dbb53c-8fcc-11eb-924d-9cd76263cbd0,2022-01-22,"41,373",f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,suspended,daycare,slum_residents,low,1002,3,3,1002
+4,account_pymes_1040,2023-06-06,"175,434",10445649,active,community,urban_poor,high,1003,4,4,1003

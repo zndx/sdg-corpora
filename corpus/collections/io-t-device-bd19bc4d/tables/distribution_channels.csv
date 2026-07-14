@@ -1,0 +1,5 @@
+channel_id,channel_name,region_served,contract_start_date,contract_end_date,is_negotiating,io_t_device_id,market_region_id
+1562831,Adaptive Corridor,adaptive-region-53,2022-01-26,2025-12-07,false,1,1
+df2de334-8fcc-11eb-924d-9cd76263cbd0,Primary Series,distributed-region-54,2023-06-10,2022-05-18,true,2,2
+ae409270-8fcd-11eb-924d-9cd76263cbd0,Composite Assessment D,baseline-region-55,2024-11-21,2023-10-02,false,3,3
+4447006,Compact Survey,pilot-region-56,2025-04-05,2024-03-13,true,4,4

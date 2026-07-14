@@ -1,0 +1,5 @@
+id,product_identifier,product_name,nominal_size_range,service_condition,material_type,approval_status,approval_standard_id,approving_authority_id,manufacturer_id
+1,PRO-2322,Composite Assessment,distributed-nominal-30,seasonal-service-59,adaptive-material-71,Approved,1,1,1
+2,PRO-2324,Compact Survey A,baseline-nominal-31,regional-service-60,distributed-material-72,Pending,2,2,2
+3,PRO-2326,Legacy Corridor,pilot-nominal-32,legacy-service-61,baseline-material-73,Suspended,3,3,3
+4,PRO-2328,Regional Series,extended-nominal-33,compact-service-62,pilot-material-74,Revoked,4,4,4

@@ -1,0 +1,5 @@
+id,judgementText,isNecessary,isUniversal,isAmpliative,requiresIntuition,proofMethod,conceptId,hasPredicateConceptConceptId
+1,baseline-judgemen-73,true,true,true,true,primary-proof-16,1,1
+2,pilot-judgemen-74,false,false,false,false,adaptive-proof-17,2,2
+3,extended-judgemen-75,true,true,true,true,distributed-proof-18,3,3
+4,integrated-judgemen-76,false,false,false,false,baseline-proof-19,4,4

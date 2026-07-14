@@ -1,0 +1,5 @@
+hazard_event_id,event_identifier,event_category,severity_level,onset_date_time,peak_intensity_date_time,affected_population_count,is_monitored,evacuation_order_id,evacuation_route_id
+100,EVE-2706,weather,29,2023-02-16T01:27:00,2022-01-11T00:24:00,17,false,1,1
+101,EVE-2707,industrial,40,2024-07-27T08:44:00,2023-06-22T07:41:00,493,true,2,2
+102,EVE-2708,transportation,51,2025-12-11T15:01:00,2024-11-06T14:58:00,14463,false,3,3
+103,EVE-2709,fire,62,2022-05-22T22:18:00,2025-04-17T21:15:00,13,true,4,4

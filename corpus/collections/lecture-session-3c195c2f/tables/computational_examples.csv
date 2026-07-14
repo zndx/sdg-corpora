@@ -1,0 +1,5 @@
+id,example_identifier,title,software_version,file_size_bytes,status,lecture_session_id
+1000,EXA-2550,Compact Initiative,seasonal-software-47,32,draft,1
+1001,EXA-2551,Legacy Model,regional-software-48,38,reviewed,2
+1002,EXA-2552,Regional Cluster A,legacy-software-49,44,published,3
+1003,EXA-2553,Seasonal Review,compact-software-50,50,draft,4

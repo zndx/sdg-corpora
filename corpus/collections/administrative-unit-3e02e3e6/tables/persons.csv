@@ -1,0 +1,5 @@
+person_id,first_name,last_name,email_address,employment_status,hire_date,role_id,reports_to_person_id,created_at,updated_at
+George Bernard Shaw,Stephanie Collins,Paul Allen,primary-email-70,active,2023-06-01,2933463,George Bernard Shaw,2025-01-01 00:14:00,2025-01-02 00:41:00
+Maria Rodriguez,Janice Johnston,Heather Beasley,adaptive-email-71,inactive,2024-11-12,id_3,Maria Rodriguez,2025-02-06 03:14:00,2025-02-09 05:41:00
+Sarah Villanueva,Upal Saha,Audrey Taylor,distributed-email-72,on_leave,2025-04-23,gd_taxc_2111,Sarah Villanueva,2025-03-11 06:14:00,2025-03-16 10:41:00
+Susan Wagner,Katherine Snyder,Susan Wagner,baseline-email-73,active,2022-09-07,994a4fa0-9bad-11eb-a8a2-19ed5c03f8d3,Susan Wagner,2025-04-16 09:14:00,2025-04-23 15:41:00

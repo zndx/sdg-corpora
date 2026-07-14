@@ -1,0 +1,5 @@
+repository_id,repository_name,location,capacity_t_b,last_updated,access_protocol
+611503,Baseline Series D,extended-location-99,15.45,2023-06-17T17:27:00,HTTPS
+2106692,Distributed Assessment,integrated-location-100,17.90,2024-11-01T00:44:00,SFTP
+884340,Adaptive Survey,seasonal-location-101,20.35,2025-04-12T07:01:00,HTTPS
+884350,Primary Corridor A,regional-location-102,22.80,2022-09-23T14:18:00,SFTP

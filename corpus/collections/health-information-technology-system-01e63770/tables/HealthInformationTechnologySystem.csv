@@ -1,0 +1,5 @@
+id,systemIdentifier,systemName,deploymentDate,systemType,usabilityScore,interoperabilityStandard,isStandardized,departmentId,clinicianId,participantId,assessmentId
+1,SYS-2050,Legacy Programme D,2023-02-14T13:51:00,ERP,15.70,distributed-interope-72,false,1,100,100,1
+2,SYS-2051,Regional Standard,2024-07-25T20:08:00,ClinicalDocumentation,17.40,baseline-interope-73,true,2,101,101,2
+3,SYS-2052,Seasonal Framework,2025-12-09T03:25:00,OrderEntry,19.10,pilot-interope-74,false,3,102,102,3
+4,SYS-2053,Integrated Protocol A,2022-05-20T10:42:00,DataRetrieval,20.80,extended-interope-75,true,4,103,103,4

@@ -1,0 +1,5 @@
+id,track_identifier,track_title,file_format,is_original,duration_seconds,animation_project_id,software_tool_id,created_at
+1000,TRA-2455,Legacy Cluster D,OGG,false,7.45,1,1000,2025-01-01 00:14:00
+1001,TRA-2459,Regional Review,TAK,true,9.90,2,1001,2025-02-06 03:14:00
+1002,TRA-2463,Seasonal Initiative,OGG,false,12.35,3,1002,2025-03-11 06:14:00
+1003,TRA-2467,Integrated Model A,TAK,true,14.80,4,1003,2025-04-16 09:14:00

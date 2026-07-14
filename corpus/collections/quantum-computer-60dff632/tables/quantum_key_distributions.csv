@@ -1,0 +1,5 @@
+quantum_key_distribution_id,photon_polarization_states,detector_type,eavesdropping_detection,cyber_security_protocol_id,receiver_device_i_d
+1,40,baseline-detector-13,false,100,DEV-2597
+2,46,pilot-detector-14,true,101,DEV-2599
+3,52,extended-detector-15,false,102,DEV-2601
+4,58,integrated-detector-16,true,103,DEV-2603

@@ -1,0 +1,5 @@
+report_id,submission_date,observation_type,priority_level,is_actionable,account_manager_id,executive_id,created_at,updated_at
+1202-0008-S,2025-04-24T03:57:00,Client Feedback,22,false,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+8189500,2022-09-08T10:14:00,Strategic Recommendation,25,true,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+L355,2023-02-19T17:31:00,Service Issue,28,false,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+5844272,2024-07-03T00:48:00,Client Feedback,31,true,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

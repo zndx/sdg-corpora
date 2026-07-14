@@ -1,0 +1,5 @@
+instrument_id,name,type,implementation_date,target_sector,multilateral_environmental_agreement_id,state_id,created_at,updated_at
+6926365,Extended Review,regulation,2024-11-14T10:06:00,industrial,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+account_pymes_691,Pilot Initiative A,market_incentive,2025-04-25T17:23:00,agricultural,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+726063,Baseline Model,institutional_pressure,2022-09-09T00:40:00,energy,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+23256422,Distributed Cluster,financial_assistance,2023-02-20T07:57:00,waste,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

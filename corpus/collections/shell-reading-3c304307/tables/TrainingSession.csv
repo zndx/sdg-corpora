@@ -1,0 +1,5 @@
+sessionId,sessionTitle,durationMinutes,classLevel,instructorName,sessionStatus,readingId,createdAt,updatedAt
+1,Seasonal Review,35,Class 1,Legacy Cluster D,scheduled,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Integrated Initiative,38,Class 2,Regional Review,completed,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Extended Model D,41,Level II,Seasonal Initiative,archived,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Pilot Cluster,44,Class 1,Integrated Model A,scheduled,4,2025-04-16 09:14:00,2025-04-23 15:41:00

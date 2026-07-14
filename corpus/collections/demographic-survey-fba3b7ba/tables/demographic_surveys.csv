@@ -1,0 +1,5 @@
+demographic_survey_id,survey_id,survey_year,territory,total_population_count,child_population_count,child_population_percentage,under_five_percentage,five_to_nine_percentage,ten_to_fourteen_percentage,fifteen_to_seventeen_percentage,statistical_bureau_id,geographic_region_id,created_at
+1,21005921,9,primary-territor-58,3.95,21.45,10.95,16.95,14.70,16.70,6.20,1,1000,2025-01-01 00:14:00
+2,726059,15,adaptive-territor-59,6.90,25.90,12.90,19.90,17.40,20.40,10.40,2,1001,2025-02-06 03:14:00
+3,32814,21,distributed-territor-60,9.85,30.35,14.85,22.85,20.10,24.10,14.60,3,1002,2025-03-11 06:14:00
+4,b83e028a-8fcd-11eb-924d-9cd76263cbd0,27,baseline-territor-61,12.80,34.80,16.80,25.80,22.80,27.80,18.80,4,1003,2025-04-16 09:14:00

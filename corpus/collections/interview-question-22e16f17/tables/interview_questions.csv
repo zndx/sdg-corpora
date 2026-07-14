@@ -1,0 +1,5 @@
+id,question_id,question_text,category,is_panel_question,is_behavioral,priority_level,role_code,hiring_process_id,candidate_response_id
+100,325448,composite-question-63,Behavioral,true,true,22,6969430,1000,1
+101,5006438,primary-question-64,Competency-based,false,false,25,lu_tax_code_template_m16,1001,2
+102,dc0d0562-8fcd-11eb-924d-9cd76263cbd0,adaptive-question-65,Technical,true,true,28,3158154,1002,3
+103,ChIJEctqrYFt5kcRUrBEPR-XXBE,distributed-question-66,Leadership,false,false,31,39800616,1003,4

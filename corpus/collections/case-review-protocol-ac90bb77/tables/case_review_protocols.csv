@@ -1,0 +1,5 @@
+id,protocol_identifier,protocol_name,version_number,review_date,status,scope_description,reviewer_name,system_domain_id,expert_reviewer_id,legal_case_id,created_at
+1,PRO-2717,Baseline Initiative D,VER-2245,2024-11-03T22:54:00,draft,Integrated Model A,Baseline Initiative D,1,1,100,2025-01-01 00:14:00
+2,PRO-2719,Distributed Model,VER-2249,2025-04-14T05:11:00,under_review,Extended Cluster,Distributed Model,2,2,101,2025-02-06 03:14:00
+3,PRO-2721,Adaptive Cluster,VER-2253,2022-09-25T12:28:00,approved,Pilot Review,Adaptive Cluster,3,3,102,2025-03-11 06:14:00
+4,PRO-2723,Primary Review A,VER-2257,2023-02-09T19:45:00,rejected,Baseline Initiative D,Primary Review A,4,4,103,2025-04-16 09:14:00

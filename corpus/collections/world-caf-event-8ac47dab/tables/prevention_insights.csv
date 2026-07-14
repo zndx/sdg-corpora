@@ -1,0 +1,5 @@
+id,insight_identifier,content,source_session,theme,quality_rating,is_recurring,is_new_element,discussion_session_id,burglary_prevention_topic_id,project_report_id
+1000,INS-2710,adaptive-content-83,regional-source-18,baseline-theme-79,low,true,false,100,1,1
+1001,INS-2714,distributed-content-84,legacy-source-19,pilot-theme-80,medium,false,true,101,2,2
+1002,INS-2718,baseline-content-85,compact-source-20,extended-theme-81,high,true,false,102,3,3
+1003,INS-2722,pilot-content-86,composite-source-21,integrated-theme-82,low,false,true,103,4,4

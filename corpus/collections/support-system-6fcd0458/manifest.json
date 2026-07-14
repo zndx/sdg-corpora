@@ -1,0 +1,162 @@
+{
+ "construct_id": "6fcd0458e817b3bb",
+ "slug": "support-system-6fcd0458",
+ "passage": "6fcd0458e817b3bb14383eff4c7304ed3b8213f4ce2e6d91f5789d3e61993b2e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "SupportSystem",
+  "LimitingConditionOfOperation",
+  "HazardBarrier",
+  "AlternateTemporarySystem",
+  "AcceptabilityEvaluation",
+  "MaintenanceAction",
+  "Snubber"
+ ],
+ "terms": [
+  {
+   "name": "SupportSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LimitingConditionOfOperation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HazardBarrier",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AlternateTemporarySystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AcceptabilityEvaluation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MaintenanceAction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Snubber",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "support_systems",
+   "rows": 4,
+   "columns": [
+    "support_system_id",
+    "system_identifier",
+    "system_name",
+    "is_technical_specification_bound",
+    "operability_status",
+    "risk_significance_level",
+    "limiting_condition_of_operation_id",
+    "hazard_barrier_id",
+    "maintenance_action_id",
+    "alternate_temporary_system_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "limiting_condition_of_operations",
+   "rows": 4,
+   "columns": [
+    "limiting_condition_of_operation_id",
+    "lco_identifier",
+    "lco_description",
+    "is_necessary",
+    "is_required",
+    "compliance_deadline",
+    "support_system_id"
+   ]
+  },
+  {
+   "name": "hazard_barriers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "barrier_identifier",
+    "barrier_type",
+    "effectiveness_rating",
+    "regulatory_initiative",
+    "support_system_id"
+   ]
+  },
+  {
+   "name": "alternate_temporary_systems",
+   "rows": 4,
+   "columns": [
+    "alternate_temporary_system_id",
+    "ats_identifier",
+    "deployment_date",
+    "removal_date",
+    "acceptability_status",
+    "evaluation_criteria_met",
+    "support_system_id",
+    "evaluation_id"
+   ]
+  },
+  {
+   "name": "acceptability_evaluations",
+   "rows": 4,
+   "columns": [
+    "evaluation_id",
+    "evaluation_date",
+    "risk_consideration_included",
+    "result",
+    "evaluator_licensee_id",
+    "alternate_temporary_system_id"
+   ]
+  },
+  {
+   "name": "maintenance_actions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "maintenance_id",
+    "start_date",
+    "end_date",
+    "action_type",
+    "completes_on_schedule",
+    "support_system_id",
+    "limiting_condition_of_operation_id"
+   ]
+  },
+  {
+   "name": "snubbers",
+   "rows": 4,
+   "columns": [
+    "snubber_id",
+    "location",
+    "is_operable",
+    "is_functional",
+    "regulatory_address",
+    "support_system_id",
+    "maintenance_action_id"
+   ]
+  }
+ ],
+ "views": [
+  "support_system_limiting_condition_of_operation_view",
+  "support_system_hazard_barrier_view",
+  "support_system_maintenance_action_view",
+  "support_system_alternate_temporary_system_view",
+  "limiting_condition_of_operation_support_system_view",
+  "hazard_barrier_support_system_view",
+  "alternate_temporary_system_support_system_view",
+  "alternate_temporary_system_acceptability_evaluation_view",
+  "acceptability_evaluation_alternate_temporary_system_view",
+  "maintenance_action_support_system_view",
+  "maintenance_action_limiting_condition_of_operation_view",
+  "snubber_support_system_view",
+  "snubber_maintenance_action_view"
+ ]
+}

@@ -1,0 +1,5 @@
+bus_route_id,route_code,district,round_trip_fee,single_trip_fee,academic_year,status,school_campus_id,bus_operator_license_number
+1000,2405,integrated-district-40,26.25,17.12,legacy-academic-43,active,100,LIC-2589
+1001,ChIJIbRFlPtt5kcR5kM81XdpSfI,seasonal-district-41,29.43,19.97,compact-academic-44,pending,101,LIC-2596
+1002,9085264,regional-district-42,19.97,12.74,composite-academic-45,archived,102,LIC-2603
+1003,e02275d4-8fd1-11eb-924d-9cd76263cbd0,legacy-district-43,13.49,29.99,primary-academic-46,active,103,LIC-2610

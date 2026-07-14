@@ -1,0 +1,5 @@
+wine_id,producer,vintage,variety,appellation,vineyard_source,parker_rating,contains_resveratrol,person_id,vineyard_id,restaurant_id,food_id
+100,seasonal-producer-89,33,Pinot Noir,composite-appellat-99,pilot-vineyard-26,pilot-parker-86,true,1000,1000,1,1
+101,regional-producer-90,37,Burgundy,primary-appellat-100,extended-vineyard-27,extended-parker-87,false,1001,1001,2,2
+102,legacy-producer-91,41,Red,adaptive-appellat-101,integrated-vineyard-28,integrated-parker-88,true,1002,1002,3,3
+103,compact-producer-92,45,Pinot Noir,distributed-appellat-102,seasonal-vineyard-29,seasonal-parker-89,false,1003,1003,4,4

@@ -1,0 +1,5 @@
+id,isbn,edition,publication_date,format,suggested_retail_price,title,academic_author_id,access_card_package_id,digital_platform_id
+1,2618568,baseline-edition-91,2025-12-01T23:33:00,legacy-format-25,16.54,Compact Initiative,1,1000,1
+2,4277024,pilot-edition-92,2022-05-12T06:50:00,compact-format-26,32.21,Legacy Model,2,1001,2
+3,1208-0004-M,extended-edition-93,2023-10-23T13:07:00,composite-format-27,33.06,Regional Cluster A,3,1002,3
+4,3717612,integrated-edition-94,2024-03-07T20:24:00,primary-format-28,29.99,Seasonal Review,4,1003,4

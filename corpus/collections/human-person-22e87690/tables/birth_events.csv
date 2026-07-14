@@ -1,0 +1,5 @@
+birth_event_id,has_event_date,has_birth_location,building_id,human_person_id,has_father_human_person_id,has_child_human_person_id
+1,2025-12-24,pilot-birth-68,1,1000,1000,1000
+2,2022-05-08,extended-birth-69,2,1001,1001,1001
+3,2023-10-19,integrated-birth-70,3,1002,1002,1002
+4,2024-03-03,seasonal-birth-71,4,1003,1003,1003

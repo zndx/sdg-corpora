@@ -1,0 +1,5 @@
+record_id,pay_period_start,pay_period_end,employee_id,base_salary,overtime_hours,overtime_rate,total_gross_pay,compliance_status,municipal_employee_id,audited_by_municipal_employee_id
+10449530,2022-01-23,2022-09-20,Norma Fisher,11.94,7.95,8.45,"1,326",compliant,1,1
+10445619,2023-06-07,2023-02-04,Tasha Rodriguez,29.24,10.90,12.90,763.46,non_compliant,2,2
+9568457,2024-11-18,2024-07-15,Theodore Mcgrath,19.72,13.85,17.35,0.11,under_review,3,3
+20743593,2025-04-02,2025-12-26,Peter Mcdowell,25.47,16.80,21.80,"1,234",compliant,4,4

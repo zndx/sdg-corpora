@@ -1,0 +1,5 @@
+id,region_id,region_name,is_subchondral,is_near_joint,is_near_tendon_sheath,ganglion_cyst_id,nerve_fascicle_id
+1,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,false,false,false,1000,1
+2,4180948,Adaptive Survey D,true,true,true,1001,2
+3,3012829,Primary Corridor,false,false,false,1002,3
+4,778576,Composite Series,true,true,true,1003,4

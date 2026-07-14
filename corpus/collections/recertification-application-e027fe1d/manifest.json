@@ -1,0 +1,199 @@
+{
+ "construct_id": "e027fe1db9dc8dcf",
+ "slug": "recertification-application-e027fe1d",
+ "passage": "e027fe1db9dc8dcf83669569989f12178b0ab606c6acdf0c22abaef639e38a51.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 15,
+ "entities": [
+  "RecertificationApplication",
+  "CertifiedProfessional",
+  "RecertificationUnitRecord",
+  "ProfessionalActivity",
+  "ProfessionalDocument",
+  "Course",
+  "ProfessionalSocietyRole"
+ ],
+ "terms": [
+  {
+   "name": "RecertificationApplication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CertifiedProfessional",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "RecertificationUnitRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProfessionalActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProfessionalDocument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProfessionalSocietyRole",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "recertification_applications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "application_id",
+    "submission_date",
+    "fee_amount",
+    "status",
+    "verification_status",
+    "ethics_pledge_signed",
+    "ru_total_earned",
+    "ru_required",
+    "certified_professional_id"
+   ]
+  },
+  {
+   "name": "certified_professionals",
+   "rows": 4,
+   "columns": [
+    "certified_professional_id",
+    "professional_id",
+    "certification_status",
+    "current_certification_period_start",
+    "current_certification_period_end",
+    "ru_requirement",
+    "code_of_ethics_pledge",
+    "employment_type",
+    "recertification_application_id",
+    "professional_society_role_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "recertification_unit_records",
+   "rows": 4,
+   "columns": [
+    "recertification_unit_record_id",
+    "record_id",
+    "activity_category",
+    "sub_category",
+    "ru_credits_earned",
+    "activity_date",
+    "applies_to_body_of_knowledge",
+    "double_counting_allowed",
+    "verification_required",
+    "recertification_application_id",
+    "activity_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "professional_activities",
+   "rows": 4,
+   "columns": [
+    "activity_id",
+    "activity_type",
+    "start_date",
+    "end_date",
+    "authorship_role",
+    "accreditation_status",
+    "is_part_of_regular_duties",
+    "credits_awarded",
+    "certified_professional_id",
+    "document_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "professional_documents",
+   "rows": 4,
+   "columns": [
+    "document_id",
+    "title",
+    "publication_date",
+    "publisher",
+    "document_type",
+    "applies_to_body_of_knowledge",
+    "claimed_once_per_period",
+    "total_authors",
+    "certified_professional_id",
+    "activity_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_id",
+    "course_title",
+    "institution",
+    "course_level",
+    "completion_date",
+    "applies_to_body_of_knowledge",
+    "is_audited",
+    "is_sponsored_by_employer",
+    "certified_professional_id",
+    "attended_by_certified_professional_id",
+    "activity_id"
+   ]
+  },
+  {
+   "name": "professional_society_roles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role_instance_id",
+    "role_title",
+    "society_name",
+    "start_date",
+    "end_date",
+    "ru_credits_per_year",
+    "applies_to_body_of_knowledge",
+    "certified_professional_id",
+    "activity_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "applications_records",
+   "rows": 8,
+   "columns": [
+    "recertification_application_id",
+    "recertification_unit_record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_recertification_application_certified_professional",
+  "v_recertification_application_recertification_unit_record_detail",
+  "v_certified_professional_recertification_application",
+  "v_certified_professional_professional_society_role",
+  "v_recertification_unit_record_recertification_application",
+  "v_recertification_unit_record_professional_activity",
+  "v_professional_activity_certified_professional",
+  "v_professional_activity_professional_document",
+  "v_professional_activity_course",
+  "v_professional_document_certified_professional",
+  "v_professional_document_professional_activity",
+  "v_course_certified_professional",
+  "v_course_professional_activity",
+  "v_professional_society_role_certified_professional",
+  "v_professional_society_role_professional_activity"
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "construct_id": "3e6632bf4e5d059a",
+ "slug": "data-center-3e6632bf",
+ "passage": "3e6632bf4e5d059aa276c3c74bb627ccdec31fe016d54f6966dcbc206c3a6ce4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 12,
+ "entities": [
+  "DataCenter",
+  "Server",
+  "RACS",
+  "UMM",
+  "AccessLog",
+  "Network",
+  "ArbourSystem"
+ ],
+ "terms": [
+  {
+   "name": "DataCenter",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Server",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RACS",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "UMM",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AccessLog",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Network",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ArbourSystem",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "data_centers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location",
+    "power_supply_reliability",
+    "guarding_schedule",
+    "access_control_level",
+    "hosts_national_interconnect",
+    "latency_reduction_strategy"
+   ]
+  },
+  {
+   "name": "servers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "os_type",
+    "racs_client_installed",
+    "access_level",
+    "last_log_push",
+    "status",
+    "r_a_c_s_id"
+   ]
+  },
+  {
+   "name": "r_a_c_ses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "version",
+    "deployment_type",
+    "ha_enabled",
+    "last_audit_date",
+    "compliance_standard",
+    "u_m_m_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "u_m_ms",
+   "rows": 4,
+   "columns": [
+    "u_m_m_id",
+    "module_id",
+    "database_type",
+    "authentication_protocol",
+    "registered_applications",
+    "last_sync_date",
+    "status",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "access_logs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "log_id",
+    "timestamp",
+    "user_id",
+    "server_id",
+    "operation_type",
+    "status",
+    "generated_by_server_id",
+    "r_a_c_s_id"
+   ]
+  },
+  {
+   "name": "networks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "network_id",
+    "peering_i_s_ps",
+    "firewall_enabled",
+    "vpn_required",
+    "tls_version",
+    "ddos_protection_enabled",
+    "arbour_system_id"
+   ]
+  },
+  {
+   "name": "arbour_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "monitoring_schedule",
+    "alert_proactive",
+    "filtering_automatic",
+    "last_analysis_date",
+    "status",
+    "network_id"
+   ]
+  },
+  {
+   "name": "centers_servers",
+   "rows": 8,
+   "columns": [
+    "data_center_id",
+    "server_id"
+   ]
+  },
+  {
+   "name": "centers_networks",
+   "rows": 8,
+   "columns": [
+    "data_center_id",
+    "network_id"
+   ]
+  },
+  {
+   "name": "servers_logs",
+   "rows": 8,
+   "columns": [
+    "server_id",
+    "access_log_id"
+   ]
+  },
+  {
+   "name": "ses_servers",
+   "rows": 8,
+   "columns": [
+    "r_a_c_s_id",
+    "server_id"
+   ]
+  },
+  {
+   "name": "ses_logs",
+   "rows": 8,
+   "columns": [
+    "r_a_c_s_id",
+    "access_log_id"
+   ]
+  },
+  {
+   "name": "networks_centers",
+   "rows": 8,
+   "columns": [
+    "network_id",
+    "data_center_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_data_center_server_detail",
+  "v_data_center_network_detail",
+  "v_server_r_a_c_s",
+  "v_server_access_log_detail",
+  "v_r_a_c_s_server_detail",
+  "v_r_a_c_s_u_m_m",
+  "v_r_a_c_s_access_log_detail",
+  "v_access_log_server",
+  "v_access_log_r_a_c_s",
+  "v_network_data_center_detail",
+  "v_network_arbour_system",
+  "v_arbour_system_network"
+ ]
+}

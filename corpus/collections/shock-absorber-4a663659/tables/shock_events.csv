@@ -1,0 +1,5 @@
+shock_event_id,identifier,start_time,end_time,intensity,depth,force,status,duration,structure_id,temperature_reading_id,sensor_id
+1,IDE-2086,2024-03-27T14:42:00,2023-02-26T13:27:00,7.20,0.15,20.70,pending,4.20,1000,1,100
+2,IDE-2091,2025-08-11T21:59:00,2024-07-10T20:44:00,9.40,0.07500005,23.40,running,8.40,1001,2,101
+3,IDE-2096,2022-01-22T04:16:00,2025-12-21T03:01:00,11.60,2.5,26.10,complete,12.60,1002,3,102
+4,IDE-2101,2023-06-06T11:33:00,2022-05-05T10:18:00,13.80,0.44305528,28.80,failed,16.80,1003,4,103

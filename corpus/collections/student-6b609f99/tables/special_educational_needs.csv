@@ -1,0 +1,5 @@
+special_educational_need_id,need_code,need_name,severity_level,is_primary,requires_specialized_therapy,student_id,staff_training_module_id
+1,account_pymes_2405,Integrated Cluster A,mild,true,true,1000,1
+2,1250214,Extended Review,moderate,false,false,1001,2
+3,937719,Pilot Initiative,severe,true,true,1002,3
+4,321,Baseline Model D,complex,false,false,1003,4

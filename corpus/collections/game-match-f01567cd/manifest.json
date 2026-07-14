@@ -1,0 +1,166 @@
+{
+ "construct_id": "f01567cde67dba00",
+ "slug": "game-match-f01567cd",
+ "passage": "f01567cde67dba00c133c0bed676e8e7a5b10791782afc7fb9b59d735124d02e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 11,
+ "entities": [
+  "GameMatch",
+  "PlayingField",
+  "Team",
+  "Player",
+  "OfficiatingCrew",
+  "Penalty"
+ ],
+ "terms": [
+  {
+   "name": "GameMatch",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PlayingField",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Team",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Player",
+   "genus": "bfo:0000006"
+  },
+  {
+   "name": "OfficiatingCrew",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Penalty",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "game_matches",
+   "rows": 4,
+   "columns": [
+    "match_id",
+    "start_date",
+    "status",
+    "home_team_id",
+    "away_team_id",
+    "venue_id",
+    "officials_count",
+    "playing_field_id",
+    "officiating_crew_id"
+   ]
+  },
+  {
+   "name": "playing_fields",
+   "rows": 4,
+   "columns": [
+    "id",
+    "field_id",
+    "length_yards",
+    "width_yards",
+    "end_zone_depth_yards",
+    "has_goal_posts",
+    "has_hash_marks",
+    "has_no_run_zone",
+    "surface_type",
+    "match_id"
+   ]
+  },
+  {
+   "name": "teams",
+   "rows": 4,
+   "columns": [
+    "team_id",
+    "team_name",
+    "affiliation_id",
+    "max_squad_size",
+    "min_squad_size",
+    "gender",
+    "age_group",
+    "match_id"
+   ]
+  },
+  {
+   "name": "players",
+   "rows": 4,
+   "columns": [
+    "id",
+    "player_id",
+    "first_name",
+    "last_name",
+    "jersey_number",
+    "position",
+    "is_eligible_to_blitz",
+    "stance_type",
+    "team_id",
+    "match_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "officiating_crews",
+   "rows": 4,
+   "columns": [
+    "id",
+    "crew_id",
+    "mechanics_manual_version",
+    "officials_count",
+    "supervision_status",
+    "match_id"
+   ]
+  },
+  {
+   "name": "penalties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "penalty_id",
+    "rule_article",
+    "yardage",
+    "penalty_type",
+    "enforced_by",
+    "match_id",
+    "team_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "matches_teams",
+   "rows": 8,
+   "columns": [
+    "match_id",
+    "team_id"
+   ]
+  },
+  {
+   "name": "teams_players",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "player_id"
+   ]
+  }
+ ],
+ "views": [
+  "game_match_playing_field_view",
+  "game_match_officiating_crew_view",
+  "game_match_team_detail_view",
+  "playing_field_game_match_view",
+  "team_game_match_view",
+  "team_player_detail_view",
+  "player_team_view",
+  "player_game_match_view",
+  "officiating_crew_game_match_view",
+  "penalty_game_match_view",
+  "penalty_team_view"
+ ]
+}

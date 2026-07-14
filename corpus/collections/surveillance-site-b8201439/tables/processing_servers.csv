@@ -1,0 +1,5 @@
+id,server_id,server_role,os_version,database_type,uptime,last_health_check,control_centre_id
+1,911352d5dab64576b7a6da51aa69d76d,primary,integrated-os-46,distributed-database-60,6.70,2023-06-08T05:39:00,1000
+2,1450637,redundant,seasonal-os-47,baseline-database-61,8.40,2024-11-19T12:56:00,1001
+3,4985152,backup,regional-os-48,pilot-database-62,10.10,2025-04-03T19:13:00,1002
+4,9736887,primary,legacy-os-49,extended-database-63,11.80,2022-09-14T02:30:00,1003

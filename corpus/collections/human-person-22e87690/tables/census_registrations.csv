@@ -1,0 +1,5 @@
+id,has_registration_date,has_registration_location,has_mandating_authority,has_purpose,government_decree_id,human_person_id,settlement_id,created_at,updated_at
+1,2023-10-25,seasonal-registra-53,legacy-mandatin-85,compact-purpose-98,100,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2024-03-09,regional-registra-54,compact-mandatin-86,composite-purpose-99,101,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,2025-08-20,legacy-registra-55,composite-mandatin-87,primary-purpose-100,102,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,2022-01-04,compact-registra-56,primary-mandatin-88,adaptive-purpose-101,103,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

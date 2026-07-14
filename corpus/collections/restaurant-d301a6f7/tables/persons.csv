@@ -1,0 +1,5 @@
+person_id,first_name,last_name,role,is_celebrity,restaurant_id,works_as_chef_restaurant_id,wine_id,vineyard_id
+1000,Stephanie Collins,Paul Allen,Owner,false,1,1,100,1000
+1001,Janice Johnston,Heather Beasley,Chef,true,2,2,101,1001
+1002,Upal Saha,Audrey Taylor,Winemaker,false,3,3,102,1002
+1003,Katherine Snyder,Susan Wagner,Celebrity,true,4,4,103,1003

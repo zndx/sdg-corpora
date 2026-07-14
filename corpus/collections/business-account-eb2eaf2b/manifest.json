@@ -1,0 +1,200 @@
+{
+ "construct_id": "eb2eaf2bdc15ffd3",
+ "slug": "business-account-eb2eaf2b",
+ "passage": "eb2eaf2bdc15ffd354c465e99cb84bfd3dc032dba6e1e643d1dbc3f6c0c1ddfa.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 17,
+ "entities": [
+  "BusinessAccount",
+  "SoftwareAdministrator",
+  "WorkMethod",
+  "MotionElement",
+  "StandardElementLibrary",
+  "LocalizedDescription",
+  "PlatformCompany",
+  "LaborCostingSoftware"
+ ],
+ "terms": [
+  {
+   "name": "BusinessAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SoftwareAdministrator",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "WorkMethod",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MotionElement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StandardElementLibrary",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LocalizedDescription",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PlatformCompany",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "LaborCostingSoftware",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "business_accounts",
+   "rows": 4,
+   "columns": [
+    "business_identifier",
+    "vat_number",
+    "registered_address",
+    "subscription_status",
+    "primary_language",
+    "software_administrator_id",
+    "method_id",
+    "labor_costing_software_id"
+   ]
+  },
+  {
+   "name": "software_administrators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "administrator_id",
+    "role_status",
+    "authorization_level",
+    "business_account_vat_number",
+    "method_id"
+   ]
+  },
+  {
+   "name": "work_methods",
+   "rows": 4,
+   "columns": [
+    "method_id",
+    "data_classification",
+    "creation_date",
+    "export_format",
+    "language_code",
+    "business_account_vat_number",
+    "standard_element_library_id"
+   ]
+  },
+  {
+   "name": "motion_elements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "element_id",
+    "element_type",
+    "standard_time_value",
+    "copyright_owner",
+    "method_id",
+    "localized_description_id"
+   ]
+  },
+  {
+   "name": "standard_element_libraries",
+   "rows": 4,
+   "columns": [
+    "standard_element_library_id",
+    "library_version",
+    "content_status",
+    "last_updated",
+    "platform_company_id"
+   ]
+  },
+  {
+   "name": "localized_descriptions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "locale_code",
+    "text_content",
+    "translation_status",
+    "motion_element_id"
+   ]
+  },
+  {
+   "name": "platform_companies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "company_registration_number",
+    "vat_number",
+    "registered_office",
+    "jurisdiction",
+    "labor_costing_software_id",
+    "standard_element_library_id"
+   ]
+  },
+  {
+   "name": "labor_costing_softwares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_version",
+    "licensing_model",
+    "edi_enabled",
+    "export_capabilities",
+    "standard_element_library_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "methods_elements",
+   "rows": 8,
+   "columns": [
+    "method_id",
+    "motion_element_id"
+   ]
+  },
+  {
+   "name": "libraries_elements",
+   "rows": 8,
+   "columns": [
+    "standard_element_library_id",
+    "motion_element_id"
+   ]
+  },
+  {
+   "name": "softwares_accounts",
+   "rows": 8,
+   "columns": [
+    "labor_costing_software_id",
+    "business_account_vat_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_business_account_software_administrator",
+  "v_business_account_work_method",
+  "v_business_account_labor_costing_software",
+  "v_software_administrator_business_account",
+  "v_software_administrator_work_method",
+  "v_work_method_motion_element_detail",
+  "v_work_method_business_account",
+  "v_work_method_standard_element_library",
+  "v_motion_element_work_method",
+  "v_motion_element_localized_description",
+  "v_standard_element_library_motion_element_detail",
+  "v_standard_element_library_platform_company",
+  "v_localized_description_motion_element",
+  "v_platform_company_labor_costing_software",
+  "v_platform_company_standard_element_library",
+  "v_labor_costing_software_business_account_detail",
+  "v_labor_costing_software_standard_element_library"
+ ]
+}

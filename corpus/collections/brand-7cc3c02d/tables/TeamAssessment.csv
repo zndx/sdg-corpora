@@ -1,0 +1,5 @@
+id,assessmentId,assessmentType,dateConducted,durationMinutes,modelUsed,resultStatus,teamId,executiveId
+1,template_ivacode_pagata_20det40ind,survey,2025-08-16T19:09:00,35,distributed-model-12,completed,1450649,1
+2,19508914,interview,2022-01-27T02:26:00,38,baseline-model-13,pending,1437598,2
+3,506000,observation,2023-06-11T09:43:00,41,pilot-model-14,failed,id_14,3
+4,1204-0009-M,survey,2024-11-22T16:00:00,44,extended-model-15,completed,99701,4

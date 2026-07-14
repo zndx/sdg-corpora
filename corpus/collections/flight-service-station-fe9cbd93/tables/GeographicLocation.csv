@@ -1,0 +1,5 @@
+id,locationId,cityName,provinceState,country,latitude,longitude,elevation,timezone
+100,778556,Regional Protocol,baseline-province-13,compact-country-26,13.95,21.20,16.45,regional-timezone-12
+101,1250220,Seasonal Programme D,pilot-province-14,composite-country-27,17.90,25.40,18.90,legacy-timezone-13
+102,14511,Integrated Standard,extended-province-15,primary-country-28,21.85,29.60,21.35,compact-timezone-14
+103,611510,Extended Framework,integrated-province-16,adaptive-country-29,25.80,33.80,23.80,composite-timezone-15

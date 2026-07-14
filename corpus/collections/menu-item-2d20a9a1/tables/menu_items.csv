@@ -1,0 +1,5 @@
+id,item_id,name,category,price,description,is_gluten_free,is_baked,is_breaded,is_grilled,is_fried,is_pan_seared
+1,ITE-2792,Extended Review,Appetizer,12.87,Extended Survey,true,true,true,false,true,true
+2,ITE-2795,Pilot Initiative A,Salad,35.45,Pilot Corridor A,false,false,false,true,false,false
+3,ITE-2798,Baseline Model,Pizza,29.24,Baseline Series,true,true,true,false,true,true
+4,ITE-2801,Distributed Cluster,Specialty Dish,29.99,Distributed Assessment,false,false,false,true,false,false

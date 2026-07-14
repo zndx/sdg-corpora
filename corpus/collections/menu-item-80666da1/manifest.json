@@ -1,0 +1,153 @@
+{
+ "construct_id": "80666da13f195b93",
+ "slug": "menu-item-80666da1",
+ "passage": "80666da13f195b93291c617b6f97e25a624b7e83acf563ad57b2c134b852797d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "SideDish",
+  "Sauce",
+  "MenuSection"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Sauce",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuSection",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "menu_item_id",
+    "item_id",
+    "name",
+    "price",
+    "weight",
+    "cooking_time",
+    "is_vegetarian",
+    "is_vegan",
+    "category",
+    "side_dish_side_id",
+    "section_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "is_allergen",
+    "allergen_category",
+    "origin",
+    "form",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "side_id",
+    "name",
+    "price",
+    "preparation_style",
+    "is_vegetarian",
+    "is_vegan",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "sauces",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sauce_id",
+    "name",
+    "price",
+    "base_ingredient",
+    "is_spicy",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "menu_sections",
+   "rows": 4,
+   "columns": [
+    "section_id",
+    "name",
+    "sort_order",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "dishes_ingredients",
+   "rows": 8,
+   "columns": [
+    "side_dish_side_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "sauces_ingredients",
+   "rows": 8,
+   "columns": [
+    "sauce_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "sections_items",
+   "rows": 8,
+   "columns": [
+    "section_id",
+    "menu_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_item_ingredient_detail",
+  "vw_menu_item_side_dish",
+  "vw_menu_item_menu_section",
+  "vw_ingredient_menu_item",
+  "vw_side_dish_menu_item",
+  "vw_side_dish_ingredient_detail",
+  "vw_sauce_menu_item",
+  "vw_sauce_ingredient_detail",
+  "vw_menu_section_menu_item_detail"
+ ]
+}

@@ -1,0 +1,5 @@
+id,sector_id,name,industry_classification_code,growth_rate,is_growth_sector,description,jurisdiction_id,created_at,updated_at
+1000,7119771,Extended Review,4447026,6.20,false,Extended Survey,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,726049,Pilot Initiative A,8843745,9.40,true,Pilot Corridor A,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,103175,Baseline Model,9125619,12.60,false,Baseline Series,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,9125631,Distributed Cluster,790487,15.80,true,Distributed Assessment,4,2025-04-16 09:14:00,2025-04-23 15:41:00

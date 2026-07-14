@@ -1,0 +1,146 @@
+{
+ "construct_id": "927f08889918f8b0",
+ "slug": "webinar-session-927f0888",
+ "passage": "927f08889918f8b0684f20b46845c3a3ee751d020f2a930544f173b7b492a037.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "WebinarSession",
+  "GradeLevel",
+  "GeographicRegion",
+  "Meteorologist",
+  "VideoRecording",
+  "RegistrationLink"
+ ],
+ "terms": [
+  {
+   "name": "WebinarSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GradeLevel",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Meteorologist",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "VideoRecording",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegistrationLink",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "webinar_sessions",
+   "rows": 4,
+   "columns": [
+    "webinar_session_id",
+    "session_identifier",
+    "scheduled_start_date_time",
+    "scheduled_end_date_time",
+    "registration_deadline",
+    "max_participants",
+    "current_registrations",
+    "status",
+    "language",
+    "geographic_region_id",
+    "meteorologist_id",
+    "video_recording_id",
+    "registration_link_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "grade_levels",
+   "rows": 4,
+   "columns": [
+    "grade_identifier",
+    "grade_number",
+    "description",
+    "webinar_session_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_identifier",
+    "region_name",
+    "region_type",
+    "hurricane_vulnerability",
+    "webinar_session_id"
+   ]
+  },
+  {
+   "name": "meteorologists",
+   "rows": 4,
+   "columns": [
+    "meteorologist_id",
+    "meteorologist_identifier",
+    "full_name",
+    "specialization",
+    "affiliation",
+    "webinar_session_id"
+   ]
+  },
+  {
+   "name": "video_recordings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recording_identifier",
+    "hosting_platform",
+    "access_url",
+    "publish_date",
+    "duration_seconds",
+    "webinar_session_id"
+   ]
+  },
+  {
+   "name": "registration_links",
+   "rows": 4,
+   "columns": [
+    "id",
+    "link_identifier",
+    "url",
+    "expiration_date",
+    "webinar_session_id"
+   ]
+  },
+  {
+   "name": "sessions_levels",
+   "rows": 8,
+   "columns": [
+    "webinar_session_id",
+    "grade_level_grade_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_webinar_session_grade_level_detail",
+  "v_webinar_session_geographic_region",
+  "v_webinar_session_meteorologist",
+  "v_webinar_session_video_recording",
+  "v_webinar_session_registration_link",
+  "v_grade_level_webinar_session",
+  "v_geographic_region_webinar_session",
+  "v_meteorologist_webinar_session",
+  "v_video_recording_webinar_session",
+  "v_registration_link_webinar_session"
+ ]
+}

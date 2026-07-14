@@ -1,0 +1,272 @@
+{
+ "construct_id": "f7dff94522a4c045",
+ "slug": "school-library-program-f7dff945",
+ "passage": "f7dff94522a4c045a9cd0cec4a74e649e6b9e062acc22dd6b0d8606607ba61bd.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 18,
+ "n_views": 19,
+ "entities": [
+  "SchoolLibraryProgram",
+  "TeacherLibrarian",
+  "InformationResource",
+  "Student",
+  "InformationLiteracyStandard",
+  "AssessmentMetric",
+  "AssessmentRecord"
+ ],
+ "terms": [
+  {
+   "name": "SchoolLibraryProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TeacherLibrarian",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "InformationResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InformationLiteracyStandard",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AssessmentMetric",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AssessmentRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "school_library_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "name",
+    "established_date",
+    "last_review_date",
+    "funding_level",
+    "operational_status",
+    "collection_size",
+    "service_hours"
+   ]
+  },
+  {
+   "name": "teacher_librarians",
+   "rows": 4,
+   "columns": [
+    "teacher_librarian_id",
+    "employee_id",
+    "full_name",
+    "certification_level",
+    "years_of_experience",
+    "employment_status",
+    "specialization",
+    "hire_date",
+    "school_library_program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "information_resources",
+   "rows": 4,
+   "columns": [
+    "resource_id",
+    "title",
+    "format_type",
+    "acquisition_date",
+    "condition_status",
+    "curriculum_alignment",
+    "access_restriction",
+    "last_cataloged_date",
+    "school_library_program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "grade_level",
+    "enrollment_date",
+    "literacy_proficiency",
+    "attendance_rate",
+    "special_needs_flag"
+   ]
+  },
+  {
+   "name": "information_literacy_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_id",
+    "standard_code",
+    "description",
+    "effective_date",
+    "review_cycle",
+    "compliance_level",
+    "target_grade_level",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "assessment_metrics",
+   "rows": 4,
+   "columns": [
+    "metric_id",
+    "metric_name",
+    "measurement_type",
+    "administered_date",
+    "score_threshold",
+    "result_status",
+    "rater_id",
+    "information_literacy_standard_id",
+    "teacher_librarian_id",
+    "assessment_record_id"
+   ]
+  },
+  {
+   "name": "assessment_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "assessment_date",
+    "raw_score",
+    "normalized_score",
+    "feedback_notes",
+    "review_status",
+    "data_integrity_check",
+    "metric_id",
+    "student_id",
+    "school_library_program_id"
+   ]
+  },
+  {
+   "name": "programs_librarians",
+   "rows": 8,
+   "columns": [
+    "school_library_program_id",
+    "teacher_librarian_id"
+   ]
+  },
+  {
+   "name": "programs_students",
+   "rows": 8,
+   "columns": [
+    "school_library_program_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "programs_standards",
+   "rows": 8,
+   "columns": [
+    "school_library_program_id",
+    "information_literacy_standard_id"
+   ]
+  },
+  {
+   "name": "librarians_resources",
+   "rows": 8,
+   "columns": [
+    "teacher_librarian_id",
+    "resource_id"
+   ]
+  },
+  {
+   "name": "resources_students",
+   "rows": 8,
+   "columns": [
+    "resource_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "students_programs",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "school_library_program_id"
+   ]
+  },
+  {
+   "name": "students_resources",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "resource_id"
+   ]
+  },
+  {
+   "name": "students_librarians",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "teacher_librarian_id"
+   ]
+  },
+  {
+   "name": "standards_programs",
+   "rows": 8,
+   "columns": [
+    "information_literacy_standard_id",
+    "school_library_program_id"
+   ]
+  },
+  {
+   "name": "standards_metrics",
+   "rows": 8,
+   "columns": [
+    "information_literacy_standard_id",
+    "metric_id"
+   ]
+  },
+  {
+   "name": "metrics_students",
+   "rows": 8,
+   "columns": [
+    "metric_id",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "school_library_program_teacher_librarian_detail_view",
+  "school_library_program_student_detail_view",
+  "school_library_program_information_literacy_standard_detail_view",
+  "teacher_librarian_school_library_program_view",
+  "teacher_librarian_information_resource_detail_view",
+  "information_resource_school_library_program_view",
+  "information_resource_student_detail_view",
+  "student_school_library_program_detail_view",
+  "student_information_resource_detail_view",
+  "student_teacher_librarian_detail_view",
+  "information_literacy_standard_school_library_program_detail_view",
+  "information_literacy_standard_assessment_metric_detail_view",
+  "assessment_metric_student_detail_view",
+  "assessment_metric_information_literacy_standard_view",
+  "assessment_metric_teacher_librarian_view",
+  "assessment_metric_assessment_record_view",
+  "assessment_record_assessment_metric_view",
+  "assessment_record_student_view",
+  "assessment_record_school_library_program_view"
+ ]
+}

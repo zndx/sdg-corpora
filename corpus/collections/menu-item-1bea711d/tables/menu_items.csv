@@ -1,0 +1,5 @@
+menu_item_id,item_identifier,item_name,base_price,category,is_available,minimum_order_quantity,side_item_id
+1,ITE-2045,Seasonal Survey,12.72,compact-category-92,true,0,1
+2,ITE-2050,Integrated Corridor,12.87,composite-category-93,false,5,2
+3,ITE-2055,Extended Series D,17.41,primary-category-94,true,0,3
+4,ITE-2060,Pilot Assessment,18.59,adaptive-category-95,false,14,4

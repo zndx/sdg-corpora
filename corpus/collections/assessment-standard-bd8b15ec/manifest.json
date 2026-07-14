@@ -1,0 +1,131 @@
+{
+ "construct_id": "bd8b15ecb5431738",
+ "slug": "assessment-standard-bd8b15ec",
+ "passage": "bd8b15ecb5431738c13263e11c8869c819ae63046afdf2dde321eaf4d5dab9e6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 8,
+ "entities": [
+  "AssessmentStandard",
+  "Course",
+  "AssessmentEvent",
+  "Teacher",
+  "Qualification"
+ ],
+ "terms": [
+  {
+   "name": "AssessmentStandard",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Course",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AssessmentEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Teacher",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Qualification",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "assessment_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_number",
+    "version",
+    "level",
+    "credits",
+    "literacy_or_numeracy_requirement",
+    "full_title",
+    "method_of_assessment",
+    "assessment_opportunities_offered",
+    "course_id",
+    "assessment_event_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "course_code",
+    "year_level",
+    "subject_area",
+    "total_credits",
+    "endorsable_status",
+    "teacher_name",
+    "description",
+    "teacher_id"
+   ]
+  },
+  {
+   "name": "assessment_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_date",
+    "method",
+    "status",
+    "opportunity_number",
+    "assessment_standard_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "teachers",
+   "rows": 4,
+   "columns": [
+    "teacher_id",
+    "full_name",
+    "employee_id",
+    "department",
+    "signature_status",
+    "course_id"
+   ]
+  },
+  {
+   "name": "qualifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "qualification_name",
+    "issuing_body",
+    "credits_required",
+    "endorsement_eligible",
+    "course_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "courses_standards",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "assessment_standard_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_assessment_standard_course",
+  "vw_assessment_standard_assessment_event",
+  "vw_course_assessment_standard_detail",
+  "vw_course_teacher",
+  "vw_assessment_event_assessment_standard",
+  "vw_assessment_event_course",
+  "vw_teacher_course",
+  "vw_qualification_course"
+ ]
+}

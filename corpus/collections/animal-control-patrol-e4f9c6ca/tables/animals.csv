@@ -1,0 +1,5 @@
+id,animal_id,species,breed,age,weight,health_status,temperament,impound_status,incident_report_id,adoption_assessment_id
+100,6511,pilot-species-14,compact-breed-80,35,1.02669,healthy,aggressive,free,1,1000
+101,10966216,extended-species-15,composite-breed-81,40,0.6,injured,friendly,impounded,2,1001
+102,5844275,integrated-species-16,primary-breed-82,45,0.48410348,ill,fearful,adopted,3,1002
+103,1250199,seasonal-species-17,adaptive-breed-83,50,0.6000001,deceased,neutral,euthanized,4,1003

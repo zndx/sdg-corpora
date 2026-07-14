@@ -1,0 +1,5 @@
+user_account_id,account_id,email_address,password_hash,account_status,created_at,last_login_at,user_session_id,data_processing_consent_id
+1,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,primary-email-70,integrated-password-76,active,2023-06-27T17:15:00,2022-09-13T20:12:00,1,100
+2,10207152,adaptive-email-71,seasonal-password-77,suspended,2024-11-11T00:32:00,2023-02-24T03:29:00,2,101
+3,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,distributed-email-72,regional-password-78,deleted,2025-04-22T07:49:00,2024-07-08T10:46:00,3,102
+4,3717632,baseline-email-73,legacy-password-79,active,2022-09-06T14:06:00,2025-12-19T17:03:00,4,103

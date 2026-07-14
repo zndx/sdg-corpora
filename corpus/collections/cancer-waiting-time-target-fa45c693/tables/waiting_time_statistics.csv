@@ -1,0 +1,5 @@
+waiting_time_statistic_id,reporting_period,compliance_percentage,eligible_patient_count,treatment_start_count,percentile90,data_quality,cancer_waiting_time_target_id,n_h_s_board_id,cancer_type_id
+1000,2023-06-18,3.95,5,85,20.70,final,1,100,1
+1001,2024-11-02,7.90,11,10,22.40,provisional,2,101,2
+1002,2025-04-13,11.85,0,15,24.10,final,3,102,3
+1003,2022-09-24,15.80,33,11,25.80,provisional,4,103,4

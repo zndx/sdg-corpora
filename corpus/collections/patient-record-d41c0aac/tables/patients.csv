@@ -1,0 +1,5 @@
+id,patient_id,preferred_contact_method,preferred_contact_location,consent_status,record_id,treatment_event_id
+1,8387541,phone,home,false,10449530,1
+2,10207142,mail,work,true,10445619,2
+3,7119782,email,mobile,false,9568457,3
+4,gd_acc_160003,phone,home,true,20743593,4

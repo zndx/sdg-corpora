@@ -1,0 +1,5 @@
+id,group_code,group_name,group_type,is_eligible_for_services,service_function_id,administrative_unit_id
+1,168543,Julian Brown,students,true,1,100
+2,2087746,Devin Wise,faculty,false,2,101
+3,bc908e7a-8fcd-11eb-924d-9cd76263cbd0,Terry Pratchett,staff,true,3,102
+4,7021001070080,Joshua Harris,external_institutions,false,4,103

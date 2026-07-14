@@ -1,0 +1,5 @@
+workplace_award_id,award_id,award_year,rank,category,issuing_organization,survey_methodology,is_repeat_winner,organization_id,employee_feedback_survey_id
+1,e02275d4-8fd1-11eb-924d-9cd76263cbd0,36,16,compact-category-92,Alphabet Inc Class A,pilot-survey-14,false,1000,1
+2,3012811,43,20,composite-category-93,ITT Industries,extended-survey-15,true,1001,2
+3,15493350,50,24,primary-category-94,Switch Card Services Ltd.,integrated-survey-16,false,1002,3
+4,state_uk_17,57,28,adaptive-category-95,Buypass AS,seasonal-survey-17,true,1003,4

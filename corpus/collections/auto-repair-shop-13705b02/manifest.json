@@ -1,0 +1,153 @@
+{
+ "construct_id": "13705b02db3923de",
+ "slug": "auto-repair-shop-13705b02",
+ "passage": "13705b02db3923de285660d965b54cf08d6b1641729e9b027eb26a14d5554ef8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 12,
+ "entities": [
+  "AutoRepairShop",
+  "Technician",
+  "RepairTask",
+  "Customer",
+  "DiagnosticTool"
+ ],
+ "terms": [
+  {
+   "name": "AutoRepairShop",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Technician",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "RepairTask",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Customer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DiagnosticTool",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "auto_repair_shops",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shop_id",
+    "shop_name",
+    "established_date",
+    "shop_type",
+    "daily_production_target",
+    "current_daily_production",
+    "is_profitable",
+    "diagnostic_tool_id"
+   ]
+  },
+  {
+   "name": "technicians",
+   "rows": 4,
+   "columns": [
+    "id",
+    "technician_id",
+    "first_name",
+    "last_name",
+    "hourly_rate",
+    "skill_level",
+    "is_assigned_to_repair",
+    "auto_repair_shop_id",
+    "task_id"
+   ]
+  },
+  {
+   "name": "repair_tasks",
+   "rows": 4,
+   "columns": [
+    "task_id",
+    "task_description",
+    "estimated_duration",
+    "actual_duration",
+    "task_status",
+    "labor_cost",
+    "technician_id",
+    "customer_id",
+    "diagnostic_tool_id"
+   ]
+  },
+  {
+   "name": "customers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "customer_id",
+    "first_name",
+    "last_name",
+    "contact_number",
+    "satisfaction_score",
+    "is_raving_fan",
+    "auto_repair_shop_id"
+   ]
+  },
+  {
+   "name": "diagnostic_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "tool_type",
+    "is_free",
+    "last_calibration_date",
+    "technician_id",
+    "task_id"
+   ]
+  },
+  {
+   "name": "shops_technicians",
+   "rows": 8,
+   "columns": [
+    "auto_repair_shop_id",
+    "technician_id"
+   ]
+  },
+  {
+   "name": "shops_customers",
+   "rows": 8,
+   "columns": [
+    "auto_repair_shop_id",
+    "customer_id"
+   ]
+  },
+  {
+   "name": "customers_tasks",
+   "rows": 8,
+   "columns": [
+    "customer_id",
+    "task_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_auto_repair_shop_technician_detail",
+  "v_auto_repair_shop_customer_detail",
+  "v_auto_repair_shop_diagnostic_tool",
+  "v_technician_auto_repair_shop",
+  "v_technician_repair_task",
+  "v_repair_task_technician",
+  "v_repair_task_customer",
+  "v_repair_task_diagnostic_tool",
+  "v_customer_auto_repair_shop",
+  "v_customer_repair_task_detail",
+  "v_diagnostic_tool_technician",
+  "v_diagnostic_tool_repair_task"
+ ]
+}

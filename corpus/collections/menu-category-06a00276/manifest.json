@@ -1,0 +1,144 @@
+{
+ "construct_id": "06a002769008a33b",
+ "slug": "menu-category-06a00276",
+ "passage": "06a002769008a33b79466ba524f1ba48ca628809524b46c6115ac8544c5dc305.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "MenuCategory",
+  "FoodItem",
+  "FoodIngredient",
+  "CheeseType",
+  "SideDish"
+ ],
+ "terms": [
+  {
+   "name": "MenuCategory",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FoodItem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CheeseType",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SideDish",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_categories",
+   "rows": 4,
+   "columns": [
+    "menu_category_id",
+    "category_name",
+    "display_order",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "food_items",
+   "rows": 4,
+   "columns": [
+    "food_item_id",
+    "item_name",
+    "base_price",
+    "serving_weight",
+    "is_vegetarian",
+    "is_gluten_free",
+    "allergen_codes",
+    "menu_category_id",
+    "cheese_type_id"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "food_ingredient_id",
+    "ingredient_name",
+    "is_raw",
+    "is_cooked",
+    "is_condiment",
+    "is_side_dish",
+    "is_subtype_of_food_ingredient_id"
+   ]
+  },
+  {
+   "name": "cheese_types",
+   "rows": 4,
+   "columns": [
+    "cheese_type_id",
+    "cheese_name"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "side_dish_id",
+    "side_name",
+    "substitution_cost",
+    "is_default_side",
+    "food_item_id",
+    "substitutes_for_side_dish_id"
+   ]
+  },
+  {
+   "name": "categories_items",
+   "rows": 8,
+   "columns": [
+    "menu_category_id",
+    "food_item_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "food_item_id",
+    "food_ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_items",
+   "rows": 8,
+   "columns": [
+    "food_ingredient_id",
+    "food_item_id"
+   ]
+  },
+  {
+   "name": "types_items",
+   "rows": 8,
+   "columns": [
+    "cheese_type_id",
+    "food_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_category_food_item_detail",
+  "vw_food_item_menu_category",
+  "vw_food_item_food_ingredient_detail",
+  "vw_food_item_cheese_type",
+  "vw_food_ingredient_food_item_detail",
+  "vw_food_ingredient_food_ingredient",
+  "vw_cheese_type_food_item_detail",
+  "vw_side_dish_food_item",
+  "vw_side_dish_side_dish"
+ ]
+}

@@ -1,0 +1,5 @@
+id,concept_id,concept_name,concept_type,difficulty_level,prerequisite_concept_id,mathematical_concept_id,course_id
+1000,884350,Pilot Cluster,skill-oriented,22,778560,1000,1000
+1001,392497,Baseline Review,concept-oriented,28,505992,1001,1001
+1002,2106713,Distributed Initiative A,skill-oriented,34,account_pymes_132,1002,1002
+1003,4463648,Adaptive Model,concept-oriented,40,32806,1003,1003

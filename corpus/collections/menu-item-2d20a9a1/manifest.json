@@ -1,0 +1,180 @@
+{
+ "construct_id": "2d20a9a18c6ba50d",
+ "slug": "menu-item-2d20a9a1",
+ "passage": "2d20a9a18c6ba50da3968905166aa8b1f8ac9a50400fe9162098e918aa37b1b7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 9,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "SideDish",
+  "Salad",
+  "Pizza",
+  "Topping"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Salad",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Pizza",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Topping",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_id",
+    "name",
+    "category",
+    "price",
+    "description",
+    "is_gluten_free",
+    "is_baked",
+    "is_breaded",
+    "is_grilled",
+    "is_fried",
+    "is_pan_seared"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "origin",
+    "state",
+    "is_locally_grown",
+    "is_wild_caught",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "side_id",
+    "name",
+    "type",
+    "is_included",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "salads",
+   "rows": 4,
+   "columns": [
+    "id",
+    "salad_id",
+    "name",
+    "base_greens",
+    "dressing",
+    "is_chef_special",
+    "menu_item_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "pizzas",
+   "rows": 4,
+   "columns": [
+    "pizza_id",
+    "name",
+    "sauce_type",
+    "crust_type",
+    "is_specialty"
+   ]
+  },
+  {
+   "name": "toppings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "topping_id",
+    "name",
+    "tier",
+    "price_adjustment",
+    "pizza_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "items_dishes",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "side_dish_side_id"
+   ]
+  },
+  {
+   "name": "items_salads",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "salad_id"
+   ]
+  },
+  {
+   "name": "salads_ingredients",
+   "rows": 8,
+   "columns": [
+    "salad_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "pizzas_ingredients",
+   "rows": 8,
+   "columns": [
+    "pizza_id",
+    "ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "menu_item_ingredient_detail_view",
+  "menu_item_side_dish_detail_view",
+  "menu_item_salad_detail_view",
+  "ingredient_menu_item_view",
+  "side_dish_menu_item_view",
+  "salad_ingredient_detail_view",
+  "salad_menu_item_view",
+  "pizza_ingredient_detail_view",
+  "topping_pizza_view"
+ ]
+}

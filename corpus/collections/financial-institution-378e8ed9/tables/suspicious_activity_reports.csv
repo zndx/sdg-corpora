@@ -1,0 +1,5 @@
+sar_id,filing_date,status,triggering_transaction_id,flagging_specialist_id,client_id,banking_division_id,deficiency_id
+5fd7eb48-8fcc-11eb-924d-9cd76263cbd0,2023-02-09T13:15:00,filed,gd_acc_260002,state_uk_25,Erin Olson,1,13910633
+b75be5bc-8fcd-11eb-924d-9cd76263cbd0,2024-07-20T20:32:00,rejected,ain,3355771,Jorge Sullivan,2,8387527
+7441159,2025-12-04T03:49:00,suppressed,194ce604-8fba-11eb-924d-9cd76263cbd0,gd_acc_760000,Kimberly Maynard,3,9474
+2106716,2022-05-15T10:06:00,pending_review,505996,3158158,Michelle Kelley,4,client-focus

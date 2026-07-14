@@ -1,0 +1,5 @@
+id,server_id,server_name,operating_system,is_breached,location,data_file_id,encryption_key_id,automated_script_id
+100,911352d5dab64576b7a6da51aa69d76d,Adaptive Model,Windows,true,extended-location-99,100,1000,1
+101,1450637,Primary Cluster,HP-UX,false,integrated-location-100,101,1001,2
+102,4985152,Composite Review D,Red Hat Enterprise Linux,true,seasonal-location-101,102,1002,3
+103,9736887,Compact Initiative,Sun Solaris,false,regional-location-102,103,1003,4

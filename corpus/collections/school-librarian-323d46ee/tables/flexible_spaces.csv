@@ -1,0 +1,5 @@
+space_id,space_name,space_type,capacity,equipment_provided,is_bookable,accessibility_compliant,library_program_id,created_at,updated_at
+195344,Baseline Protocol D,physical,32,regional-equipmen-30,false,false,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+16611019,Distributed Programme,virtual,41,legacy-equipmen-31,true,true,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+L237,Adaptive Standard,hybrid,50,compact-equipmen-32,false,false,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+BjoernKW,Primary Framework A,physical,59,composite-equipmen-33,true,true,103,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,referral_id,referral_date,monthly_volume,source_system,outcome_status,recidivism_rate,treatment_facility_id,demographic_id,created_at,updated_at
+1000,9736917,2022-05-20T04:48:00,31,criminal_justice,completed,13.70,1,levels,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,ChIJkzsYUIBt5kcRM6_JHx26ONk,2023-10-04T11:05:00,34,healthcare,dropped_out,15.40,2,32824,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,5844263,2024-03-15T18:22:00,37,self_referral,ongoing,17.10,3,coms1,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,group_system,2025-08-26T01:39:00,40,employer,failed,18.80,4,id_24,2025-04-16 09:14:00,2025-04-23 15:41:00

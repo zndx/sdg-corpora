@@ -1,0 +1,5 @@
+id,job_id,job_type,start_time,end_time,labor_cost,parts_cost,status,technician_id,vehicle_id,invoice_id
+1000,template_ivacode_pagata_art15,oil_change,2024-03-27T14:42:00,2023-02-26T13:27:00,16.54,25.36,pending,1,1000,9125631
+1001,analytical-thinking,brake_repair,2025-08-11T21:59:00,2024-07-10T20:44:00,35.61,14.31,in_progress,2,1001,4985154
+1002,BJibe,engine_diagnostic,2022-01-22T04:16:00,2025-12-21T03:01:00,12.72,24.01,complete,3,1002,726063
+1003,325469,transmission_repair,2023-06-06T11:33:00,2022-05-05T10:18:00,33.06,17.41,failed,4,1003,e604b688-8fd1-11eb-924d-9cd76263cbd0

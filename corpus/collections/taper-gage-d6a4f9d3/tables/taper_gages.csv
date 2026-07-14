@@ -1,0 +1,5 @@
+taper_gage_id,gage_type,tool_number,mark_size,status,large_end_diameter,small_end_diameter,taper_per_foot,taper_per_inch,taper_tolerance,included_angle,gage_specification_id,manufacturer_id,requestor_id
+1,RING,TOO-2137,compact-mark-38,REQUESTED,21.95,13.45,6.20,3.70,5.95,7.20,1,1000,1
+2,PLUG,TOO-2139,composite-mark-39,IN_PRODUCTION,25.90,16.90,9.40,6.40,7.90,11.40,2,1001,2
+3,RING,TOO-2141,primary-mark-40,CALIBRATED,29.85,20.35,12.60,9.10,9.85,15.60,3,1002,3
+4,PLUG,TOO-2143,adaptive-mark-41,SHIPPED,33.80,23.80,15.80,11.80,11.80,19.80,4,1003,4

@@ -1,0 +1,142 @@
+{
+ "construct_id": "d41c0aac3d2cf437",
+ "slug": "patient-record-d41c0aac",
+ "passage": "d41c0aac3d2cf437fc107d7f9ec9d7c917fa030c99fa3505de8dccf63268ed93.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "PatientRecord",
+  "Patient",
+  "TreatmentEvent",
+  "HealthcareProvider",
+  "BillingRecord",
+  "DisclosureRecord"
+ ],
+ "terms": [
+  {
+   "name": "PatientRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TreatmentEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareProvider",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "BillingRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DisclosureRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "patient_records",
+   "rows": 4,
+   "columns": [
+    "record_id",
+    "patient_name",
+    "date_of_service",
+    "record_status",
+    "access_level",
+    "patient_id",
+    "billing_record_id",
+    "treatment_event_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "patient_id",
+    "preferred_contact_method",
+    "preferred_contact_location",
+    "consent_status",
+    "record_id",
+    "treatment_event_id"
+   ]
+  },
+  {
+   "name": "treatment_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_date",
+    "service_code",
+    "event_status",
+    "patient_id",
+    "healthcare_provider_id",
+    "billing_record_id"
+   ]
+  },
+  {
+   "name": "healthcare_providers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "provider_id",
+    "provider_name",
+    "role",
+    "access_permission",
+    "treatment_event_id",
+    "disclosure_record_disclosure_id"
+   ]
+  },
+  {
+   "name": "billing_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "billing_id",
+    "amount",
+    "payment_status",
+    "billing_date",
+    "treatment_event_id",
+    "record_id"
+   ]
+  },
+  {
+   "name": "disclosure_records",
+   "rows": 4,
+   "columns": [
+    "disclosure_id",
+    "disclosure_date",
+    "purpose",
+    "recipient",
+    "record_id",
+    "healthcare_provider_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_patient_record_patient",
+  "v_patient_record_billing_record",
+  "v_patient_record_treatment_event",
+  "v_patient_patient_record",
+  "v_patient_treatment_event",
+  "v_treatment_event_patient",
+  "v_treatment_event_healthcare_provider",
+  "v_treatment_event_billing_record",
+  "v_healthcare_provider_treatment_event",
+  "v_healthcare_provider_disclosure_record",
+  "v_billing_record_treatment_event",
+  "v_billing_record_patient_record",
+  "v_disclosure_record_patient_record",
+  "v_disclosure_record_healthcare_provider"
+ ]
+}

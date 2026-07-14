@@ -1,0 +1,5 @@
+id,serviceId,serviceName,serviceCategory,securityClassification,availabilityStatus,providerOrganization,environmentId
+100,1996925,Distributed Initiative,Mission Service,Unclassified,Available,DoD,1000
+101,3990164,Adaptive Model D,Business Service,Confidential,Under Development,DNI,1001
+102,5844258,Primary Cluster,Infrastructure Service,Secret,Deprecated,Joint,1002
+103,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,Mission Service,Top Secret,Available,DoD,1003

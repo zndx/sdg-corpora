@@ -1,0 +1,5 @@
+patient_id,full_name,age_group,diagnosis,insurance_provider,has_caregiver,enrolled_in_program,provider_id,program_id
+8387541,Theodore Mcgrath,Child,Binge Eating,seasonal-insuranc-11,false,true,100,103176
+10207142,Account Name,Adolescent,Restrictive Eating,regional-insuranc-12,true,false,101,2986219
+7119782,Saipan International Airport,Adult,Body Dysmorphia,legacy-insuranc-13,false,true,102,1186079
+gd_acc_160003,Norma Fisher,Senior,Exercise Addiction,compact-insuranc-14,true,false,103,1562855

@@ -1,0 +1,5 @@
+id,location,power_supply_reliability,guarding_schedule,access_control_level,hosts_national_interconnect,latency_reduction_strategy
+1000,extended-location-99,high,regional-guarding-60,multi-level,false,baseline-latency-37
+1001,integrated-location-100,medium,legacy-guarding-61,biometric,true,pilot-latency-38
+1002,seasonal-location-101,low,compact-guarding-62,surveillance,false,extended-latency-39
+1003,regional-location-102,high,composite-guarding-63,multi-level,true,integrated-latency-40

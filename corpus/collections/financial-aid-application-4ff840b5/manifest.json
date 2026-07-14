@@ -1,0 +1,194 @@
+{
+ "construct_id": "4ff840b5f67b62b6",
+ "slug": "financial-aid-application-4ff840b5",
+ "passage": "4ff840b5f67b62b64000639018619ad7ea377c1ad21fd15902b15f7f449114b3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 17,
+ "entities": [
+  "FinancialAidApplication",
+  "Student",
+  "AcademicProgram",
+  "AcademicTerm",
+  "EnrollmentPlan",
+  "FinancialAward",
+  "SatisfactoryAcademicProgress",
+  "OtherFinancialResource"
+ ],
+ "terms": [
+  {
+   "name": "FinancialAidApplication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicTerm",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnrollmentPlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SatisfactoryAcademicProgress",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OtherFinancialResource",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "FinancialAidApplication",
+   "rows": 4,
+   "columns": [
+    "id",
+    "applicationId",
+    "submissionDate",
+    "academicYear",
+    "isElectronicSignatureAccepted",
+    "hasPriorFederalAid",
+    "status",
+    "studentId",
+    "awardId"
+   ]
+  },
+  {
+   "name": "Student",
+   "rows": 4,
+   "columns": [
+    "id",
+    "studentId",
+    "fullName",
+    "phone",
+    "emailAddress",
+    "isGraduateStudent",
+    "programId",
+    "applicationId",
+    "progressId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "AcademicProgram",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programCode",
+    "programName",
+    "standardTimeframeYears",
+    "isEligibleForFederalAid",
+    "studentId"
+   ]
+  },
+  {
+   "name": "AcademicTerm",
+   "rows": 4,
+   "columns": [
+    "termId",
+    "termName",
+    "startDate",
+    "endDate",
+    "numberOfWeeks",
+    "isEnrollmentRequired",
+    "planId",
+    "awardId"
+   ]
+  },
+  {
+   "name": "EnrollmentPlan",
+   "rows": 4,
+   "columns": [
+    "planId",
+    "plannedCredits",
+    "isHalfTimeMinimum",
+    "isWithdrawing",
+    "doesNotNeedAid",
+    "termId",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "FinancialAward",
+   "rows": 4,
+   "columns": [
+    "id",
+    "awardId",
+    "awardType",
+    "estimatedAmount",
+    "isWithinAnnualLimit",
+    "isWithinAggregateLimit",
+    "disbursementStatus",
+    "studentId",
+    "applicationId",
+    "resourceId"
+   ]
+  },
+  {
+   "name": "SatisfactoryAcademicProgress",
+   "rows": 4,
+   "columns": [
+    "id",
+    "completionRatePercent",
+    "cumulativeGPA",
+    "maxTimeframePercent",
+    "isEligible",
+    "studentId"
+   ]
+  },
+  {
+   "name": "OtherFinancialResource",
+   "rows": 4,
+   "columns": [
+    "resourceId",
+    "sourceType",
+    "amount",
+    "isVerified",
+    "studentId",
+    "awardId"
+   ]
+  },
+  {
+   "name": "FinancialAidApplicationAcademicTerm",
+   "rows": 8,
+   "columns": [
+    "applicationId",
+    "termId"
+   ]
+  }
+ ],
+ "views": [
+  "v_financial_aid_application_student",
+  "v_financial_aid_application_academic_term_detail",
+  "v_financial_aid_application_financial_award",
+  "v_student_academic_program",
+  "v_student_financial_aid_application",
+  "v_student_satisfactory_academic_progress",
+  "v_academic_program_student",
+  "v_academic_term_enrollment_plan",
+  "v_academic_term_financial_award",
+  "v_enrollment_plan_academic_term",
+  "v_enrollment_plan_financial_aid_application",
+  "v_financial_award_student",
+  "v_financial_award_financial_aid_application",
+  "v_financial_award_other_financial_resource",
+  "v_satisfactory_academic_progress_student",
+  "v_other_financial_resource_student",
+  "v_other_financial_resource_financial_award"
+ ]
+}

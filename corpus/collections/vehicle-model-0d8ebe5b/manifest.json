@@ -1,0 +1,178 @@
+{
+ "construct_id": "0d8ebe5b9c1866b0",
+ "slug": "vehicle-model-0d8ebe5b",
+ "passage": "0d8ebe5b9c1866b0ccf7395221934462633bf4602eefe916a1a9491258f2b0ad.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 18,
+ "entities": [
+  "VehicleModel",
+  "Powertrain",
+  "ChassisFrame",
+  "SuspensionSystem",
+  "BrakeSystem",
+  "WheelAssembly",
+  "CapacitySpecification"
+ ],
+ "terms": [
+  {
+   "name": "VehicleModel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Powertrain",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ChassisFrame",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SuspensionSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BrakeSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WheelAssembly",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CapacitySpecification",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "vehicle_models",
+   "rows": 4,
+   "columns": [
+    "model_identifier",
+    "model_display_name",
+    "manufacturer_code",
+    "color_variant",
+    "trim_level",
+    "powertrain_id",
+    "chassis_frame_id",
+    "suspension_system_id",
+    "brake_system_id",
+    "wheel_assembly_id",
+    "capacity_specification_id"
+   ]
+  },
+  {
+   "name": "powertrains",
+   "rows": 4,
+   "columns": [
+    "powertrain_id",
+    "engine_type",
+    "displacement",
+    "horsepower",
+    "cooling_method",
+    "fuel_delivery_system",
+    "transmission_type",
+    "gear_positions",
+    "drive_mode",
+    "wheel_assembly_id"
+   ]
+  },
+  {
+   "name": "chassis_frames",
+   "rows": 4,
+   "columns": [
+    "chassis_frame_id",
+    "frame_designation",
+    "technology_name",
+    "geometry_control",
+    "wheelbase",
+    "ground_clearance",
+    "suspension_system_id",
+    "brake_system_id",
+    "capacity_specification_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "suspension_systems",
+   "rows": 4,
+   "columns": [
+    "suspension_system_id",
+    "front_type",
+    "rear_type",
+    "seat_height",
+    "dive_control",
+    "chassis_frame_id",
+    "wheel_assembly_id"
+   ]
+  },
+  {
+   "name": "brake_systems",
+   "rows": 4,
+   "columns": [
+    "brake_system_id",
+    "front_disc_diameter",
+    "rear_disc_diameter",
+    "caliper_type",
+    "ventilation",
+    "chassis_frame_id",
+    "wheel_assembly_id"
+   ]
+  },
+  {
+   "name": "wheel_assemblies",
+   "rows": 4,
+   "columns": [
+    "wheel_assembly_id",
+    "position",
+    "tire_width",
+    "tire_height",
+    "rim_diameter",
+    "rim_material",
+    "tire_model",
+    "suspension_system_id",
+    "brake_system_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "capacity_specifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "capacity_type",
+    "value",
+    "unit",
+    "location",
+    "chassis_frame_id",
+    "powertrain_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_vehicle_model_powertrain",
+  "vw_vehicle_model_chassis_frame",
+  "vw_vehicle_model_suspension_system",
+  "vw_vehicle_model_brake_system",
+  "vw_vehicle_model_wheel_assembly",
+  "vw_vehicle_model_capacity_specification",
+  "vw_powertrain_wheel_assembly",
+  "vw_chassis_frame_suspension_system",
+  "vw_chassis_frame_brake_system",
+  "vw_chassis_frame_capacity_specification",
+  "vw_suspension_system_chassis_frame",
+  "vw_suspension_system_wheel_assembly",
+  "vw_brake_system_chassis_frame",
+  "vw_brake_system_wheel_assembly",
+  "vw_wheel_assembly_suspension_system",
+  "vw_wheel_assembly_brake_system",
+  "vw_capacity_specification_chassis_frame",
+  "vw_capacity_specification_powertrain"
+ ]
+}

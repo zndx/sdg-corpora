@@ -1,0 +1,5 @@
+id,parameter_name,pre_treatment_value,post_treatment_value,improvement_percentage,improvement_status,ophthalmological_exam_id,patient_id
+1,visual acuity,22.70,13.45,13.45,improved,1,1
+2,visual field,27.40,16.90,16.90,no change,2,2
+3,visual evoked potentials,32.10,20.35,20.35,worsened,3,3
+4,contrast sensitivity,36.80,23.80,23.80,improved,4,4

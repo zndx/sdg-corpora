@@ -1,0 +1,5 @@
+id,data_product_id,acquisition_date,sensor_type,spatial_resolution,coverage_area,data_quality_index,is_copernicus_source,geographic_zone_id,satellite_mission_id
+100,DAT-2737,2023-02-07T01:39:00,SAR,19.20,20.45,8.45,true,1000,1
+101,DAT-2740,2024-07-18T08:56:00,Optical,21.40,23.90,12.90,false,1001,2
+102,DAT-2743,2025-12-02T15:13:00,LiDAR,23.60,27.35,17.35,true,1002,3
+103,DAT-2746,2022-05-13T22:30:00,Thermal,25.80,30.80,21.80,false,1003,4

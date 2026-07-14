@@ -1,0 +1,5 @@
+country_id,country_code,country_name,has_partner,has_local_network,partner_organization_id,has_local_network_established_by_partner_organization_id
+1,727051,Pilot Assessment,true,false,1,1
+2,select,Baseline Survey,false,true,2,2
+3,5f9467a0-8fcd-11eb-924d-9cd76263cbd0,Distributed Corridor A,true,false,3,3
+4,8843764,Adaptive Series,false,true,4,4

@@ -1,0 +1,5 @@
+id,commission_id,name,country,establishment_date,status,jurisdiction_level,quality_assurance_system_id,capacity_building_training_id
+1000,24563916,Extended Review,compact-country-26,2024-07-11,active,distributed-jurisdic-48,1000,1
+1001,c747f9a8-8fcc-11eb-924d-9cd76263cbd0,Pilot Initiative A,composite-country-27,2025-12-22,inactive,baseline-jurisdic-49,1001,2
+1002,8928502,Baseline Model,primary-country-28,2022-05-06,merging,pilot-jurisdic-50,1002,3
+1003,937734,Distributed Cluster,adaptive-country-29,2023-10-17,dissolved,extended-jurisdic-51,1003,4

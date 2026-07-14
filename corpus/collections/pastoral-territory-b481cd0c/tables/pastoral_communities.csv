@@ -1,0 +1,5 @@
+pastoral_community_id,community_identifier,community_name,population_size,primary_livelihood,herd_size,decimation_event,adaptation_strategy,geographic_region_id
+1000,COM-2792,Primary Initiative A,35,pastoralism,26,pilot-decimati-50,baseline-adaptati-37,1
+1001,COM-2799,Composite Model,42,agro-pastoralism,37,extended-decimati-51,pilot-adaptati-38,2
+1002,COM-2806,Compact Cluster,49,sedentary_agriculture,48,integrated-decimati-52,extended-adaptati-39,3
+1003,COM-2813,Legacy Review D,56,wage_labour,59,seasonal-decimati-53,integrated-adaptati-40,4

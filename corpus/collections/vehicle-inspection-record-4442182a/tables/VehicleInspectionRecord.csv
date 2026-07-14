@@ -1,0 +1,5 @@
+id,inspectionDate,reviewDueDate,odometerReading,registrationNumber,mechanicName,mechanicSignature,businessName,businessAddress,vehicleId,mechanicId
+1,2025-12-03,2023-06-24,17,REG-2136,Integrated Model A,compact-mechanic-98,Baseline Protocol D,pilot-business-32,1,100
+2,2022-05-14,2024-11-08,23,REG-2142,Extended Cluster,composite-mechanic-99,Distributed Programme,extended-business-33,2,101
+3,2023-10-25,2025-04-19,29,REG-2148,Pilot Review,primary-mechanic-100,Adaptive Standard,integrated-business-34,3,102
+4,2024-03-09,2022-09-03,35,REG-2154,Baseline Initiative D,adaptive-mechanic-101,Primary Framework A,seasonal-business-35,4,103

@@ -1,0 +1,5 @@
+id,tissue_id,tissue_type,is_degenerated,has_collagen_sheets,ganglion_cyst_id
+1,8843767,joint_capsule,false,false,1000
+2,gd_acc_121000,tendon_sheath,true,true,1001
+3,17565595,periosteum,false,false,1002
+4,135,meniscus,true,true,1003

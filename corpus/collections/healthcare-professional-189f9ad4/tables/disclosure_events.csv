@@ -1,0 +1,5 @@
+id,event_id,disclosure_date,method,is_successful,is_nerve_wracking,patient_id,person_id,healthcare_professional_id
+1,2002007020060,2025-08-02T19:33:00,seasonal-method-77,true,false,100,George Bernard Shaw,1000
+2,168535,2022-01-13T02:50:00,regional-method-78,false,true,101,Maria Rodriguez,1001
+3,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,2023-06-24T09:07:00,legacy-method-79,true,false,102,Sarah Villanueva,1002
+4,1186089,2024-11-08T16:24:00,compact-method-80,false,true,103,Susan Wagner,1003

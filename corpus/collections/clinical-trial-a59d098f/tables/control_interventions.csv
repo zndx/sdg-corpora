@@ -1,0 +1,5 @@
+control_intervention_id,name,dosage,unit,control_group_id
+1000,Extended Review,7.20,distributed-unit-18,4060641
+1001,Pilot Initiative A,11.40,baseline-unit-19,IVC10I
+1002,Baseline Model,15.60,pilot-unit-20,1250208
+1003,Distributed Cluster,19.80,extended-unit-21,5006455

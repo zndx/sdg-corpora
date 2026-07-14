@@ -1,0 +1,175 @@
+{
+ "construct_id": "226a568ee0066489",
+ "slug": "shareholder-226a568e",
+ "passage": "226a568ee00664893c3cdb0ced237850098dbf53ef1b63f7d547c6030732dc3d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 14,
+ "entities": [
+  "Shareholder",
+  "Company",
+  "FinancialReport",
+  "GeneralMeeting",
+  "RegulatoryAuthority",
+  "InvestorRelationsDirector"
+ ],
+ "terms": [
+  {
+   "name": "Shareholder",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Company",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeneralMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RegulatoryAuthority",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InvestorRelationsDirector",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "shareholders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shareholder_id",
+    "name",
+    "type",
+    "registration_date",
+    "contact_email",
+    "share_count",
+    "company_id",
+    "general_meeting_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "companies",
+   "rows": 4,
+   "columns": [
+    "company_id",
+    "legal_name",
+    "registration_number",
+    "listing_status",
+    "fiscal_year",
+    "governance_code",
+    "director_id"
+   ]
+  },
+  {
+   "name": "financial_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_type",
+    "issuance_date",
+    "fiscal_period",
+    "consolidation_status",
+    "publication_url",
+    "auditor_name",
+    "company_id",
+    "regulatory_authority_id"
+   ]
+  },
+  {
+   "name": "general_meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_id",
+    "meeting_date",
+    "meeting_type",
+    "quorum_met",
+    "agenda_items",
+    "minute_url",
+    "company_id",
+    "financial_report_id"
+   ]
+  },
+  {
+   "name": "regulatory_authorities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authority_id",
+    "authority_name",
+    "jurisdiction",
+    "regulation_code",
+    "bulletin_name",
+    "financial_report_id",
+    "company_id"
+   ]
+  },
+  {
+   "name": "investor_relations_directors",
+   "rows": 4,
+   "columns": [
+    "director_id",
+    "appointment_year",
+    "reporting_period",
+    "compliance_status",
+    "company_id",
+    "shareholder_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "companies_reports",
+   "rows": 8,
+   "columns": [
+    "company_id",
+    "financial_report_id"
+   ]
+  },
+  {
+   "name": "companies_meetings",
+   "rows": 8,
+   "columns": [
+    "company_id",
+    "general_meeting_id"
+   ]
+  },
+  {
+   "name": "meetings_shareholders",
+   "rows": 8,
+   "columns": [
+    "general_meeting_id",
+    "shareholder_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_shareholder_company",
+  "v_shareholder_general_meeting",
+  "v_company_financial_report_detail",
+  "v_company_general_meeting_detail",
+  "v_company_investor_relations_director",
+  "v_financial_report_company",
+  "v_financial_report_regulatory_authority",
+  "v_general_meeting_company",
+  "v_general_meeting_shareholder_detail",
+  "v_general_meeting_financial_report",
+  "v_regulatory_authority_financial_report",
+  "v_regulatory_authority_company",
+  "v_investor_relations_director_company",
+  "v_investor_relations_director_shareholder"
+ ]
+}

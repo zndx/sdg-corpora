@@ -1,0 +1,5 @@
+student_profile_id,student_id,admission_status,high_school_g_p_a,class_rank,has_g_e_d,enrollment_date,institution_code,is_developmental_required,created_at
+1000,392507,Pending,6.45,8,false,2022-05-11,4092,false,2025-01-01 00:14:00
+1001,25388256,Admitted,8.90,14,true,2023-10-22,82873,true,2025-02-06 03:14:00
+1002,id_16,Enrolled,11.35,20,false,2024-03-06,state_uk_20,false,2025-03-11 06:14:00
+1003,gd_taxc_2211,Deferred,13.80,26,true,2025-08-17,8928518,true,2025-04-16 09:14:00

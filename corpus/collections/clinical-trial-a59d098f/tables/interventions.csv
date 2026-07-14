@@ -1,0 +1,5 @@
+intervention_id,name,dosage,unit,frequency,route,clinical_trial_id,created_at,updated_at
+1000,Extended Review,7.20,distributed-unit-18,regional-frequenc-36,baseline-route-19,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,Pilot Initiative A,11.40,baseline-unit-19,legacy-frequenc-37,pilot-route-20,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,Baseline Model,15.60,pilot-unit-20,compact-frequenc-38,extended-route-21,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,Distributed Cluster,19.80,extended-unit-21,composite-frequenc-39,integrated-route-22,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

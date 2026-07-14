@@ -1,0 +1,5 @@
+id,voucher_id,submission_date,total_amount,currency,is_notarized,receipt_count,administrative_staff_member_id,travel_request_id,created_at
+1000,2986224,2025-04-24T03:57:00,112.11,seasonal-currency-71,true,28,1,1,2025-01-01 00:14:00
+1001,5917292,2022-09-08T10:14:00,"1,979",regional-currency-72,false,10,2,2,2025-02-06 03:14:00
+1002,5006456,2023-02-19T17:31:00,"15,418",legacy-currency-73,true,65,3,3,2025-03-11 06:14:00
+1003,974947,2024-07-03T00:48:00,"12,579",compact-currency-74,false,83,4,4,2025-04-16 09:14:00

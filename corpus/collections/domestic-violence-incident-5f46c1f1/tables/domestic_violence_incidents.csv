@@ -1,0 +1,5 @@
+incident_id,report_date,severity_level,location,offender_id,victim_id,police_report_number,lethality_score,police_report_id,involves_victim_victim_id,involves_offender_offender_id
+1336174,2024-03-02T02:54:00,low,extended-location-99,9125616,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,POL-2395,16.70,100,100,100
+state_uk_4,2025-08-13T09:11:00,medium,integrated-location-100,671,99669,POL-2399,18.40,101,101,101
+2933483,2022-01-24T16:28:00,high,seasonal-location-101,195352,1889772,POL-2403,20.10,102,102,102
+2986243,2023-06-08T23:45:00,critical,regional-location-102,338522,9568439,POL-2407,21.80,103,103,103

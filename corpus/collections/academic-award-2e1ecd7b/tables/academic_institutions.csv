@@ -1,0 +1,5 @@
+academic_institution_id,institution_identifier,institution_name,founding_year,location_city,location_state,location_country,institution_type,researcher_id,awarded_degree_to_researcher_id,leadership_position_id,created_at
+1000,INS-2717,Extended Corridor,43,seasonal-location-23,composite-location-93,adaptive-location-47,university,1,1,1,2025-01-01 00:14:00
+1001,INS-2718,Pilot Series A,48,regional-location-24,primary-location-94,distributed-location-48,medical_school,2,2,2,2025-02-06 03:14:00
+1002,INS-2719,Baseline Assessment,53,legacy-location-25,adaptive-location-95,baseline-location-49,research_institute,3,3,3,2025-03-11 06:14:00
+1003,INS-2720,Distributed Survey,58,compact-location-26,distributed-location-96,pilot-location-50,university,4,4,4,2025-04-16 09:14:00

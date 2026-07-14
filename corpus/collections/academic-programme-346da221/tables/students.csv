@@ -1,0 +1,5 @@
+id,student_id,first_name,last_name,date_of_birth,gender,enrollment_date,expected_graduation_date,academic_standing,contact_email,contact_phone,address,emergency_contact_name,emergency_contact_phone,academic_programme_id,faculty_member_id
+1,392507,Stephanie Collins,Paul Allen,2025-04-02,male,2022-05-11T16:00:00,2022-01-26,good_standing,Christopher Wilson,Joe Tsai,distributed-address-72,Elizabeth Woods,Jennifer Summers,1,100
+2,25388256,Janice Johnston,Heather Beasley,2022-09-13,female,2023-10-22T23:17:00,2023-06-10,probation,Charles Larsen,Stephanie Collins,baseline-address-73,Apache Commons Net,Cheryl Bradley,2,101
+3,id_16,Upal Saha,Audrey Taylor,2023-02-24,other,2024-03-06T06:34:00,2024-11-21,suspended,Mary Alvarez,Tasha Rodriguez,pilot-address-74,Desiree Cain,Sheila Lane,3,102
+4,gd_taxc_2211,Katherine Snyder,Susan Wagner,2024-07-08,prefer_not_to_say,2025-08-17T13:51:00,2025-04-05,graduated,April Snyder,Walter Pratt,extended-address-75,Heavy Torpedo,Stephanie Collins,4,103

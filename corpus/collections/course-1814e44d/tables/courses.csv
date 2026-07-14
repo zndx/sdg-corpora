@@ -1,0 +1,5 @@
+id,course_code,title,units,level,status,degree_requirement_id,course_list_id,created_at,updated_at
+1,10238263,Compact Initiative,6,lower,active,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,4463667,Legacy Model,8,upper,inactive,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,24077793,Regional Cluster A,1,lower,active,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,1204-0009-L,Seasonal Review,9,upper,inactive,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

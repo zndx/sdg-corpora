@@ -1,0 +1,5 @@
+id,institution_id,name,location_city,location_state,location_country,founding_year,academic_department_id,academic_award_id
+1,9424913,Extended Review,seasonal-location-23,composite-location-93,adaptive-location-47,43,1000,1
+2,8189481,Pilot Initiative A,regional-location-24,primary-location-94,distributed-location-48,48,1001,2
+3,1437604,Baseline Model,legacy-location-25,adaptive-location-95,baseline-location-49,53,1002,3
+4,884346,Distributed Cluster,compact-location-26,distributed-location-96,pilot-location-50,58,1003,4

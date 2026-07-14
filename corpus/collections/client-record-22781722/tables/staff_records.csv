@@ -1,0 +1,5 @@
+id,staff_identifier,full_name,home_address,date_of_birth,social_insurance_number,bank_account_number,employment_status,performance_rating,service_delivery_id
+1,STA-2659,Theodore Mcgrath,distributed-home-60,2025-04-02,SOC-2068,BAN-2488,active,15.95,1
+2,STA-2661,Account Name,baseline-home-61,2022-09-13,SOC-2075,BAN-2492,inactive,18.90,2
+3,STA-2663,Saipan International Airport,pilot-home-62,2023-02-24,SOC-2082,BAN-2496,terminated,21.85,3
+4,STA-2665,Norma Fisher,extended-home-63,2024-07-08,SOC-2089,BAN-2500,active,24.80,4

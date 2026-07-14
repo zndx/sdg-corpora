@@ -1,0 +1,5 @@
+id,protocol_name,encryption_standard,port_number,transport_layer,is_deprecated,security_rating,created_at
+1,Baseline Initiative D,pilot-encrypti-26,18,tcp,true,high,2025-01-01 00:14:00
+2,Distributed Model,extended-encrypti-27,23,udp,false,medium,2025-02-06 03:14:00
+3,Adaptive Cluster,integrated-encrypti-28,28,icmp,true,low,2025-03-11 06:14:00
+4,Primary Review A,seasonal-encrypti-29,33,tcp,false,untrusted,2025-04-16 09:14:00

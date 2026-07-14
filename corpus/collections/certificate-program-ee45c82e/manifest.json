@@ -1,0 +1,161 @@
+{
+ "construct_id": "ee45c82e3b009606",
+ "slug": "certificate-program-ee45c82e",
+ "passage": "ee45c82e3b009606f67f93465c62f1071522fe3af8dcd280409d0c6d5e5f560b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 11,
+ "entities": [
+  "CertificateProgram",
+  "AdmissionRequirement",
+  "Credential",
+  "EnglishProficiencyTest",
+  "TestScore",
+  "Applicant"
+ ],
+ "terms": [
+  {
+   "name": "CertificateProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdmissionRequirement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Credential",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnglishProficiencyTest",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TestScore",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Applicant",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "certificate_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "delivery_mode",
+    "effective_date",
+    "minimum_g_p_a",
+    "word_limit",
+    "credential_id"
+   ]
+  },
+  {
+   "name": "admission_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requirement_id",
+    "requirement_type",
+    "description",
+    "is_mandatory",
+    "valid_from",
+    "certificate_program_id",
+    "admission_requirement_id"
+   ]
+  },
+  {
+   "name": "credentials",
+   "rows": 4,
+   "columns": [
+    "credential_id",
+    "credential_type",
+    "issuing_institution",
+    "issue_date",
+    "status",
+    "admission_requirement_id"
+   ]
+  },
+  {
+   "name": "english_proficiency_tests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "test_id",
+    "test_name",
+    "min_score",
+    "test_format",
+    "admission_requirement_id",
+    "test_score_id"
+   ]
+  },
+  {
+   "name": "test_scores",
+   "rows": 4,
+   "columns": [
+    "id",
+    "score_id",
+    "score_value",
+    "test_date",
+    "valid_until",
+    "english_proficiency_test_id",
+    "applicant_id"
+   ]
+  },
+  {
+   "name": "applicants",
+   "rows": 4,
+   "columns": [
+    "applicant_id",
+    "full_name",
+    "nationality",
+    "application_status",
+    "submission_date"
+   ]
+  },
+  {
+   "name": "programs_requirements",
+   "rows": 8,
+   "columns": [
+    "certificate_program_id",
+    "admission_requirement_id"
+   ]
+  },
+  {
+   "name": "applicants_requirements",
+   "rows": 8,
+   "columns": [
+    "applicant_id",
+    "admission_requirement_id"
+   ]
+  },
+  {
+   "name": "applicants_credentials",
+   "rows": 8,
+   "columns": [
+    "applicant_id",
+    "credential_id"
+   ]
+  }
+ ],
+ "views": [
+  "certificate_program_admission_requirement_detail_view",
+  "certificate_program_credential_view",
+  "admission_requirement_certificate_program_view",
+  "admission_requirement_admission_requirement_view",
+  "credential_admission_requirement_view",
+  "english_proficiency_test_admission_requirement_view",
+  "english_proficiency_test_test_score_view",
+  "test_score_english_proficiency_test_view",
+  "test_score_applicant_view",
+  "applicant_admission_requirement_detail_view",
+  "applicant_credential_detail_view"
+ ]
+}

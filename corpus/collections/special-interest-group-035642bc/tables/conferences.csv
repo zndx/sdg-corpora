@@ -1,0 +1,5 @@
+conference_id,name,location,start_date,end_date,expected_attendance,cluster,special_interest_group_id
+1,Extended Review,extended-location-99,2022-09-05,2022-09-01,15,extended-cluster-75,1
+2,Pilot Initiative A,integrated-location-100,2023-02-16,2023-02-12,21,integrated-cluster-76,2
+3,Baseline Model,seasonal-location-101,2024-07-27,2024-07-23,27,seasonal-cluster-77,3
+4,Distributed Cluster,regional-location-102,2025-12-11,2025-12-07,33,regional-cluster-78,4

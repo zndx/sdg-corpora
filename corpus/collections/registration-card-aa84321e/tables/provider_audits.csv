@@ -1,0 +1,5 @@
+id,audit_id,audit_date,audit_type,audit_result,vat_excluded_price,provider_approval_id
+1,bjackman,2025-12-04T23:33:00,Annual,Pass,"8,627",1000
+2,69430,2022-05-15T06:50:00,Smart Metering Technical,Fail,0.18,1001
+3,10238266,2023-10-26T13:07:00,Annual,Conditional,289.59,1002
+4,6969437,2024-03-10T20:24:00,Smart Metering Technical,Pass,442.51,1003

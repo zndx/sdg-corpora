@@ -1,0 +1,5 @@
+id,parcel_id,address,land_use,area,zoning_district,owner_name,assessment_notice_id,exemption_id,appeal_waiver_id
+1,4447034,distributed-address-72,compact-land-14,5.95,adaptive-zoning-95,Craig Childs,1,5006458,1
+2,325464,baseline-address-73,composite-land-15,7.90,distributed-zoning-96,Kimberly Smith,2,611515,2
+3,3990187,pilot-address-74,primary-land-16,9.85,baseline-zoning-97,Michelle Kelley,3,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,3
+4,110,extended-address-75,adaptive-land-17,11.80,pilot-zoning-98,Jorge Sullivan,4,10238272,4

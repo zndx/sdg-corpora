@@ -1,0 +1,5 @@
+id,session_identifier,scheduled_date,duration_minutes,topic,status
+1000,SES-2443,2024-11-27,35,distributed-topic-60,scheduled
+1001,SES-2449,2025-04-11,38,baseline-topic-61,in_progress
+1002,SES-2455,2022-09-22,41,pilot-topic-62,completed
+1003,SES-2461,2023-02-06,44,extended-topic-63,cancelled

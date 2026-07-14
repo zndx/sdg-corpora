@@ -1,0 +1,233 @@
+{
+ "construct_id": "fa0c59a0658bce40",
+ "slug": "substance-abuse-survey-fa0c59a0",
+ "passage": "fa0c59a0658bce4082be2826b1548cf16d4ee97beb0b998b653159a63ee8ba4e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 14,
+ "entities": [
+  "SubstanceAbuseSurvey",
+  "SubstanceAbuseForm",
+  "TreatmentFacility",
+  "FundingSource",
+  "CoordinatingCouncil",
+  "ReferralEvent",
+  "PatientDemographic"
+ ],
+ "terms": [
+  {
+   "name": "SubstanceAbuseSurvey",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SubstanceAbuseForm",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TreatmentFacility",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FundingSource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CoordinatingCouncil",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ReferralEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PatientDemographic",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "substance_abuse_surveys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "survey_id",
+    "conducted_date",
+    "response_rate",
+    "total_counties_responded",
+    "data_format",
+    "status"
+   ]
+  },
+  {
+   "name": "substance_abuse_forms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "form_code",
+    "form_name",
+    "prevalence_rate",
+    "risk_category",
+    "is_controlled_substance",
+    "substance_abuse_survey_id"
+   ]
+  },
+  {
+   "name": "treatment_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_id",
+    "facility_name",
+    "facility_type",
+    "county_location",
+    "capacity",
+    "accepts_medicaid",
+    "funding_source_id"
+   ]
+  },
+  {
+   "name": "funding_sources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "funding_id",
+    "source_name",
+    "total_amount",
+    "currency",
+    "fiscal_year",
+    "allocation_type"
+   ]
+  },
+  {
+   "name": "coordinating_councils",
+   "rows": 4,
+   "columns": [
+    "coordinating_council_id",
+    "council_id",
+    "council_name",
+    "county_served",
+    "has_funding_available",
+    "utilization_rate",
+    "established_date",
+    "funding_source_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "referral_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "referral_id",
+    "referral_date",
+    "monthly_volume",
+    "source_system",
+    "outcome_status",
+    "recidivism_rate",
+    "treatment_facility_id",
+    "demographic_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "patient_demographics",
+   "rows": 4,
+   "columns": [
+    "demographic_id",
+    "primary_race",
+    "primary_gender",
+    "has_health_insurance",
+    "is_veteran",
+    "is_pregnant",
+    "access_to_care",
+    "funding_source_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "surveys_forms",
+   "rows": 8,
+   "columns": [
+    "substance_abuse_survey_id",
+    "substance_abuse_form_id"
+   ]
+  },
+  {
+   "name": "forms_facilities",
+   "rows": 8,
+   "columns": [
+    "substance_abuse_form_id",
+    "treatment_facility_id"
+   ]
+  },
+  {
+   "name": "facilities_forms",
+   "rows": 8,
+   "columns": [
+    "treatment_facility_id",
+    "substance_abuse_form_id"
+   ]
+  },
+  {
+   "name": "sources_facilities",
+   "rows": 8,
+   "columns": [
+    "funding_source_id",
+    "treatment_facility_id"
+   ]
+  },
+  {
+   "name": "sources_councils",
+   "rows": 8,
+   "columns": [
+    "funding_source_id",
+    "coordinating_council_id"
+   ]
+  },
+  {
+   "name": "councils_facilities",
+   "rows": 8,
+   "columns": [
+    "coordinating_council_id",
+    "treatment_facility_id"
+   ]
+  },
+  {
+   "name": "demographics_facilities",
+   "rows": 8,
+   "columns": [
+    "demographic_id",
+    "treatment_facility_id"
+   ]
+  },
+  {
+   "name": "demographics_events",
+   "rows": 8,
+   "columns": [
+    "demographic_id",
+    "referral_event_id"
+   ]
+  }
+ ],
+ "views": [
+  "substance_abuse_survey_substance_abuse_form_detail_view",
+  "substance_abuse_form_substance_abuse_survey_view",
+  "substance_abuse_form_treatment_facility_detail_view",
+  "treatment_facility_substance_abuse_form_detail_view",
+  "treatment_facility_funding_source_view",
+  "funding_source_treatment_facility_detail_view",
+  "funding_source_coordinating_council_detail_view",
+  "coordinating_council_funding_source_view",
+  "coordinating_council_treatment_facility_detail_view",
+  "referral_event_treatment_facility_view",
+  "referral_event_patient_demographic_view",
+  "patient_demographic_treatment_facility_detail_view",
+  "patient_demographic_referral_event_detail_view",
+  "patient_demographic_funding_source_view"
+ ]
+}

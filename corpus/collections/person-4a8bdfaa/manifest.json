@@ -1,0 +1,142 @@
+{
+ "construct_id": "4a8bdfaaf381a8d9",
+ "slug": "person-4a8bdfaa",
+ "passage": "4a8bdfaaf381a8d90d10f72ff83a1a904abcf705ef1898f14f9866f83bc06b43.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "Person",
+  "Role",
+  "Organization",
+  "StrategicObjective",
+  "Project",
+  "Policy"
+ ],
+ "terms": [
+  {
+   "name": "Person",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Role",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StrategicObjective",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Project",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Policy",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "person_id",
+    "full_name",
+    "start_date",
+    "end_date",
+    "status",
+    "role_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "roles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role_name",
+    "start_date",
+    "end_date",
+    "status",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "org_id",
+    "org_name",
+    "founding_date",
+    "status",
+    "person_id",
+    "role_id"
+   ]
+  },
+  {
+   "name": "strategic_objectives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "objective_id",
+    "objective_name",
+    "start_date",
+    "end_date",
+    "status",
+    "organization_id",
+    "project_id"
+   ]
+  },
+  {
+   "name": "projects",
+   "rows": 4,
+   "columns": [
+    "project_id",
+    "project_name",
+    "start_date",
+    "end_date",
+    "status",
+    "strategic_objective_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "policies",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "policy_name",
+    "start_date",
+    "end_date",
+    "status",
+    "organization_id",
+    "strategic_objective_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_person_role",
+  "v_person_organization",
+  "v_role_person",
+  "v_role_organization",
+  "v_organization_person",
+  "v_organization_role",
+  "v_strategic_objective_organization",
+  "v_strategic_objective_project",
+  "v_project_strategic_objective",
+  "v_project_person",
+  "v_policy_organization",
+  "v_policy_strategic_objective"
+ ]
+}

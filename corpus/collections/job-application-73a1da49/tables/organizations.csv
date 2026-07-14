@@ -1,0 +1,5 @@
+organization_id,organization_name,street_address,city,state,zip_code,telephone,fax,eopo_status
+1,Staples Inc.,composite-street-15,integrated-city-34,distributed-state-84,69434,adaptive-telephon-23,distributed-fax-12,false
+2,Oscar Health Inc.,primary-street-16,seasonal-city-35,baseline-state-85,13589,distributed-telephon-24,baseline-fax-13,true
+3,Atlantic Richfield,adaptive-street-17,regional-city-36,pilot-state-86,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,baseline-telephon-25,pilot-fax-14,false
+4,Port Loko,distributed-street-18,legacy-city-37,extended-state-87,1250214,pilot-telephon-26,extended-fax-15,true

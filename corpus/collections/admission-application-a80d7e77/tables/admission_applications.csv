@@ -1,0 +1,5 @@
+id,application_id,application_date,status,academic_year,reference_number,child_id,school_id,created_at,updated_at
+100,505997,2022-05-16,submitted,legacy-academic-43,REF-2039,100,1152671,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,1250196,2023-10-27,under_review,compact-academic-44,REF-2040,101,1186099,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,124,2024-03-11,offered,composite-academic-45,REF-2041,102,7441154,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,IVC20det40,2025-08-22,refused,primary-academic-46,REF-2042,103,338514,2025-04-16 09:14:00,2025-04-23 15:41:00

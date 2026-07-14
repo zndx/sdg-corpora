@@ -1,0 +1,5 @@
+id,device_id,manufacturer,model,os_version,camera_resolution,scanning_process_id,created_at,updated_at
+1,3744015,Standard Chartered,composite-model-81,integrated-os-46,10.70,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,392495,General Motors,primary-model-82,seasonal-os-47,12.40,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,209205,Column Name cannot be empty,adaptive-model-83,regional-os-48,14.10,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,22106999,Financial Information Service Co. Ltd.,distributed-model-84,legacy-os-49,15.80,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

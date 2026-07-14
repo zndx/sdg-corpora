@@ -1,0 +1,5 @@
+id,check_id,check_date,eligibility_status,ggpa_met,residency_met,financial_obligations_met,completion_deadline_met,student_id,program_of_study_id,parchment_id
+1,611510,2025-08-21T07:57:00,Eligible,true,true,true,false,1,100,1
+2,974935,2022-01-05T14:14:00,Ineligible,false,false,false,true,2,101,2
+3,9fff03be-9bac-11eb-a8a2-19ed5c03f8d3,2023-06-16T21:31:00,PendingReview,true,true,true,false,3,102,3
+4,b_VB-EC-12,2024-11-27T04:48:00,Eligible,false,false,false,true,4,103,4

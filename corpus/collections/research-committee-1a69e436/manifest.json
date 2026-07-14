@@ -1,0 +1,226 @@
+{
+ "construct_id": "1a69e4366aa46989",
+ "slug": "research-committee-1a69e436",
+ "passage": "1a69e4366aa4698996f0c0d4b5c10e71be571d7a2dca5fefdf2e8b963f2aff7d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 13,
+ "entities": [
+  "ResearchCommittee",
+  "ResearchVicePresident",
+  "ScientificBureau",
+  "DoctoralSchool",
+  "DoctoralSchoolDirector",
+  "DoctoralCollege",
+  "ResearchLaboratory",
+  "TechnologyTransferDepartment",
+  "AdministrativeDirector",
+  "TechnologyTransferVicePresident"
+ ],
+ "terms": [
+  {
+   "name": "ResearchCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchVicePresident",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ScientificBureau",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DoctoralSchool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DoctoralSchoolDirector",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DoctoralCollege",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchLaboratory",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TechnologyTransferDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdministrativeDirector",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TechnologyTransferVicePresident",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "research_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "committee_id",
+    "name",
+    "established_date",
+    "status",
+    "research_vice_president_id"
+   ]
+  },
+  {
+   "name": "research_vice_presidents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "official_name",
+    "title",
+    "appointment_date",
+    "status",
+    "research_committee_id",
+    "scientific_bureau_id"
+   ]
+  },
+  {
+   "name": "scientific_bureaus",
+   "rows": 4,
+   "columns": [
+    "id",
+    "bureau_id",
+    "name",
+    "established_date",
+    "status"
+   ]
+  },
+  {
+   "name": "doctoral_schools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "school_id",
+    "name",
+    "code",
+    "established_date",
+    "status",
+    "doctoral_school_director_id",
+    "doctoral_college_id"
+   ]
+  },
+  {
+   "name": "doctoral_school_directors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "official_name",
+    "title",
+    "appointment_date",
+    "status",
+    "doctoral_school_id"
+   ]
+  },
+  {
+   "name": "doctoral_colleges",
+   "rows": 4,
+   "columns": [
+    "doctoral_college_id",
+    "college_id",
+    "name",
+    "established_date",
+    "status"
+   ]
+  },
+  {
+   "name": "research_laboratories",
+   "rows": 4,
+   "columns": [
+    "lab_id",
+    "name",
+    "established_date",
+    "status"
+   ]
+  },
+  {
+   "name": "technology_transfer_departments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "department_id",
+    "name",
+    "established_date",
+    "status",
+    "administrative_director_id",
+    "technology_transfer_vice_president_id"
+   ]
+  },
+  {
+   "name": "administrative_directors",
+   "rows": 4,
+   "columns": [
+    "administrative_director_id",
+    "official_name",
+    "title",
+    "appointment_date",
+    "status",
+    "technology_transfer_department_id"
+   ]
+  },
+  {
+   "name": "technology_transfer_vice_presidents",
+   "rows": 4,
+   "columns": [
+    "technology_transfer_vice_president_id",
+    "official_name",
+    "title",
+    "appointment_date",
+    "status",
+    "technology_transfer_department_id"
+   ]
+  },
+  {
+   "name": "schools_laboratories",
+   "rows": 8,
+   "columns": [
+    "doctoral_school_id",
+    "research_laboratory_lab_id"
+   ]
+  },
+  {
+   "name": "colleges_schools",
+   "rows": 8,
+   "columns": [
+    "doctoral_college_id",
+    "doctoral_school_id"
+   ]
+  },
+  {
+   "name": "laboratories_schools",
+   "rows": 8,
+   "columns": [
+    "research_laboratory_lab_id",
+    "doctoral_school_id"
+   ]
+  }
+ ],
+ "views": [
+  "research_committee_research_vice_president_view",
+  "research_vice_president_research_committee_view",
+  "research_vice_president_scientific_bureau_view",
+  "doctoral_school_doctoral_school_director_view",
+  "doctoral_school_research_laboratory_detail_view",
+  "doctoral_school_doctoral_college_view",
+  "doctoral_school_director_doctoral_school_view",
+  "doctoral_college_doctoral_school_detail_view",
+  "research_laboratory_doctoral_school_detail_view",
+  "technology_transfer_department_administrative_director_view",
+  "technology_transfer_department_technology_transfer_vice_president_view",
+  "administrative_director_technology_transfer_department_view",
+  "technology_transfer_vice_president_technology_transfer_department_view"
+ ]
+}

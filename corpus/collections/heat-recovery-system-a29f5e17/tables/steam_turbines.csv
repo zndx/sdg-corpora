@@ -1,0 +1,5 @@
+id,turbine_identifier,power_output,steam_input_rate,operational_season,heat_sink_id,pulp_mill_id
+1000,TUR-2119,14.95,13.20,winter,100,100
+1001,TUR-2122,18.90,16.40,summer,101,101
+1002,TUR-2125,22.85,19.60,year-round,102,102
+1003,TUR-2128,26.80,22.80,winter,103,103

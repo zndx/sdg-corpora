@@ -1,0 +1,5 @@
+id,instrument_id,type,amount,currency,eligibility_criteria,effective_date,scheme_id,employer_id,apprenticeship_participant_id
+1000,6926365,employer_levy,13.49,seasonal-currency-71,composite-eligibil-57,2023-02-14,4716393,1,100
+1001,account_pymes_691,grant,25.47,regional-currency-72,primary-eligibil-58,2024-07-25,338514,2,101
+1002,726063,tax_relief,19.72,legacy-currency-73,adaptive-eligibil-59,2025-12-09,template_ivacode_pagata_20ind,3,102
+1003,23256422,reimbursement,12.74,compact-currency-74,distributed-eligibil-60,2022-05-20,4bbb5d4c-9bad-11eb-a8a2-19ed5c03f8d3,4,103

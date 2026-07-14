@@ -1,0 +1,5 @@
+id,zone_id,zone_name,zone_type,area_size,population_density,is_coastal,flood_hazard_id,earth_observation_data_id
+1000,937724,Pilot Series,Catchment,1.52,15.70,false,1000,100
+1001,99504,Baseline Assessment,District,0.65,19.40,true,1001,101
+1002,10207142,Distributed Survey A,AssetLocation,0.43012016,23.10,false,1002,102
+1003,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,Adaptive Corridor,UrbanArea,0.6000001,26.80,true,1003,103

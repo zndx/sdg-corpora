@@ -1,0 +1,5 @@
+product_model_id,model_number,product_description,nominal_pipe_size,rated_working_pressure_psi,rated_working_pressure_kpa,remarks,approval_certificate_id,manufacturer_id,material_specification_id,dimensional_standard_id
+100,MOD-2238,Baseline Initiative D,distributed-nominal-66,8.20,19.45,composite-remarks-99,100,1,1000,1
+101,MOD-2244,Distributed Model,baseline-nominal-67,10.40,23.90,primary-remarks-100,101,2,1001,2
+102,MOD-2250,Adaptive Cluster,pilot-nominal-68,12.60,28.35,adaptive-remarks-101,102,3,1002,3
+103,MOD-2256,Primary Review A,extended-nominal-69,14.80,32.80,distributed-remarks-102,103,4,1003,4

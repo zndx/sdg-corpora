@@ -1,0 +1,5 @@
+course_id,course_code,course_title,department,credits,is_verified,is_advanced,semester,faculty_member_id,prerequisite_of_course_id,diploma_requirement_id,created_at
+1,10238263,Baseline Series D,adaptive-departme-89,7.45,true,true,fall,1,1,1,2025-01-01 00:14:00
+2,4463667,Distributed Assessment,distributed-departme-90,11.90,false,false,spring,2,2,2,2025-02-06 03:14:00
+3,24077793,Adaptive Survey,baseline-departme-91,16.35,true,true,year,3,3,3,2025-03-11 06:14:00
+4,1204-0009-L,Primary Corridor A,pilot-departme-92,20.80,false,false,fall,4,4,4,2025-04-16 09:14:00

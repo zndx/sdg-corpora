@@ -1,0 +1,5 @@
+id,registrationNumber,legalForm,registrationDate,jurisdiction,status,taxIdentificationNumber,jurisdictionCountryCode,structureId,statementId
+1000,REG-2136,sole_proprietorship,2023-06-19T17:27:00,russia,active,TAX-2648,RU,1,1000
+1001,REG-2142,partnership,2024-11-03T00:44:00,slovakia,inactive,TAX-2653,SK,2,1001
+1002,REG-2148,corporation,2025-04-14T07:01:00,other,dissolved,TAX-2658,US,3,1002
+1003,REG-2154,limited_liability_company,2022-09-25T14:18:00,russia,under_review,TAX-2663,DE,4,1003

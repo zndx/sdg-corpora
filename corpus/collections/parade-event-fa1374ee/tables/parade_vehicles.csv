@@ -1,0 +1,5 @@
+parade_vehicle_id,vehicle_type,is_diesel_powered,vehicle_identifier,vehicle_status,parade_entry_id,created_at,updated_at
+1000,float,false,VEH-2163,approved,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,specialty vehicle,true,VEH-2166,pending inspection,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,military vehicle,false,VEH-2169,rejected,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,other,true,VEH-2172,approved,4,2025-04-16 09:14:00,2025-04-23 15:41:00

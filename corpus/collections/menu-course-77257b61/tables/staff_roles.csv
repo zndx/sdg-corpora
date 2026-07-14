@@ -1,0 +1,5 @@
+staff_role_id,role_identifier,role_name,department,receives_service_charge,receives_direct_tips,service_charge_id,menu_course_id
+1,ROL-2012,Terry Pratchett,Front of House,true,true,1,100
+2,ROL-2016,Theodore Mcgrath,Back of House,false,false,2,101
+3,ROL-2020,Janice Johnston,Front of House,true,true,3,102
+4,ROL-2024,Theodore Mcgrath,Back of House,false,false,4,103

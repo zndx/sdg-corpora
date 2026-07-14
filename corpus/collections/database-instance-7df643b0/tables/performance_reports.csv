@@ -1,0 +1,5 @@
+performance_report_id,report_id,report_type,generated_date,duration_hours,top_wait_event,instance_id,d_b_a_id
+1,1202-0008-S,STATSPACK,2024-11-04T10:30:00,3.70,distributed-top-78,26730215,1
+2,8189500,AWR,2025-04-15T17:47:00,7.40,baseline-top-79,en_AU,2
+3,L355,ADDM,2022-09-26T00:04:00,11.10,pilot-top-80,IVC20det15,3
+4,5844272,STATSPACK,2023-02-10T07:21:00,14.80,extended-top-81,937736,4

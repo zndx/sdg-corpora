@@ -1,0 +1,5 @@
+computational_material_record_id,record_id,creation_date,file_size_bytes,file_format,status,checksum,computational_code_id,material_system_id,pipeline_id
+100,10449530,2022-01-13T12:24:00,32,pilot-file-44,parsed,integrated-checksum-40,1,1,en_US
+101,10445619,2023-06-24T19:41:00,38,extended-file-45,validated,seasonal-checksum-41,2,2,43197171
+102,9568457,2024-11-08T02:58:00,44,integrated-file-46,archived,regional-checksum-42,3,3,7731880
+103,20743593,2025-04-19T09:15:00,50,seasonal-file-47,corrupted,legacy-checksum-43,4,4,10782184

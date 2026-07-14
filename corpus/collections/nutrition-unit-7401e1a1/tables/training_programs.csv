@@ -1,0 +1,5 @@
+id,program_id,program_name,start_date,end_date,duration_hours,target_audience,completion_rate,effectiveness_rating,nutrition_unit_id,staff_member_id,created_at,updated_at
+1,103176,Extended Review,2022-09-05,2022-09-01,29,government_staff,19.70,high,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2986219,Pilot Initiative A,2023-02-16,2023-02-12,38,ngo_staff,22.40,medium,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,1186079,Baseline Model,2024-07-27,2024-07-23,47,community_workers,25.10,low,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,1562855,Distributed Cluster,2025-12-11,2025-12-07,56,government_staff,27.80,high,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

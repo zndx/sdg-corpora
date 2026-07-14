@@ -1,0 +1,118 @@
+{
+ "construct_id": "d42f710e9b8088d9",
+ "slug": "laser-diode-module-d42f710e",
+ "passage": "d42f710e9b8088d9a682ec8b74025ae9be8bae37f7bd6ea846fe412e769198e7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 4,
+ "entities": [
+  "LaserDiodeModule",
+  "FiberConnector",
+  "OpticalFiber",
+  "PackageStyle",
+  "Photodiode",
+  "OperatingCondition"
+ ],
+ "terms": [
+  {
+   "name": "LaserDiodeModule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FiberConnector",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OpticalFiber",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PackageStyle",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Photodiode",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OperatingCondition",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "LaserDiodeModule",
+   "rows": 4,
+   "columns": [
+    "id",
+    "partNumber",
+    "centerWavelength",
+    "outputPower",
+    "monitorCurrent",
+    "thresholdCurrent",
+    "operatingCurrent",
+    "operatingVoltage",
+    "fiberLength",
+    "connectorId",
+    "fiberId",
+    "styleId"
+   ]
+  },
+  {
+   "name": "FiberConnector",
+   "rows": 4,
+   "columns": [
+    "connectorId",
+    "connectorType",
+    "fiberLength"
+   ]
+  },
+  {
+   "name": "OpticalFiber",
+   "rows": 4,
+   "columns": [
+    "fiberId",
+    "fiberType",
+    "fiberCore"
+   ]
+  },
+  {
+   "name": "PackageStyle",
+   "rows": 4,
+   "columns": [
+    "styleId",
+    "packageStyle"
+   ]
+  },
+  {
+   "name": "Photodiode",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pdReverseVoltage",
+    "monitorCurrent"
+   ]
+  },
+  {
+   "name": "OperatingCondition",
+   "rows": 4,
+   "columns": [
+    "id",
+    "operatingTemperature",
+    "storageTemperature",
+    "solderingTemperature",
+    "reverseVoltage",
+    "moduleId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_laser_diode_module_fiber_connector",
+  "vw_laser_diode_module_optical_fiber",
+  "vw_laser_diode_module_package_style",
+  "vw_operating_condition_laser_diode_module"
+ ]
+}

@@ -1,0 +1,5 @@
+affected_community_id,community_id,community_name,region,population_size,vulnerability_index,primary_language,development_project_id,accountability_mechanism_id
+1,325466,Primary Initiative A,distributed-region-12,35,10.45,primary-primary-10,100,1000
+2,5082990,Composite Model,baseline-region-13,42,13.90,adaptive-primary-11,101,1001
+3,dce14308-8fba-11eb-924d-9cd76263cbd0,Compact Cluster,pilot-region-14,49,17.35,distributed-primary-12,102,1002
+4,d9d981b8-8fcc-11eb-924d-9cd76263cbd0,Legacy Review D,extended-region-15,56,20.80,baseline-primary-13,103,1003

@@ -1,0 +1,156 @@
+{
+ "construct_id": "b5c56d9e9d43279f",
+ "slug": "social-media-account-b5c56d9e",
+ "passage": "b5c56d9e9d43279fe432ceb36bc702f4d6c8ccf1f2d64b19c1ba1f5e50d66dac.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 10,
+ "entities": [
+  "SocialMediaAccount",
+  "DistrictEmployee",
+  "SchoolDistrictEntity",
+  "BoardPolicy",
+  "PublicInformationOfficer"
+ ],
+ "terms": [
+  {
+   "name": "SocialMediaAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DistrictEmployee",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SchoolDistrictEntity",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "BoardPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PublicInformationOfficer",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "social_media_accounts",
+   "rows": 4,
+   "columns": [
+    "social_media_account_id",
+    "account_identifier",
+    "platform_type",
+    "registration_status",
+    "creation_date",
+    "last_audit_date",
+    "district_employee_id",
+    "school_district_entity_id",
+    "board_policy_id"
+   ]
+  },
+  {
+   "name": "district_employees",
+   "rows": 4,
+   "columns": [
+    "district_employee_id",
+    "employee_id",
+    "full_name",
+    "role",
+    "contact_extension",
+    "employment_status",
+    "board_policy_id"
+   ]
+  },
+  {
+   "name": "school_district_entities",
+   "rows": 4,
+   "columns": [
+    "school_district_entity_id",
+    "entity_id",
+    "entity_name",
+    "entity_type",
+    "affiliation_status"
+   ]
+  },
+  {
+   "name": "board_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_number",
+    "policy_title",
+    "effective_date",
+    "policy_status"
+   ]
+  },
+  {
+   "name": "public_information_officers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "officer_id",
+    "full_name",
+    "contact_extension",
+    "access_level",
+    "board_policy_id"
+   ]
+  },
+  {
+   "name": "employees_accounts",
+   "rows": 8,
+   "columns": [
+    "district_employee_id",
+    "social_media_account_id"
+   ]
+  },
+  {
+   "name": "entities_accounts",
+   "rows": 8,
+   "columns": [
+    "school_district_entity_id",
+    "social_media_account_id"
+   ]
+  },
+  {
+   "name": "policies_accounts",
+   "rows": 8,
+   "columns": [
+    "board_policy_id",
+    "social_media_account_id"
+   ]
+  },
+  {
+   "name": "policies_employees",
+   "rows": 8,
+   "columns": [
+    "board_policy_id",
+    "district_employee_id"
+   ]
+  },
+  {
+   "name": "officers_accounts",
+   "rows": 8,
+   "columns": [
+    "public_information_officer_id",
+    "social_media_account_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_social_media_account_district_employee",
+  "v_social_media_account_school_district_entity",
+  "v_social_media_account_board_policy",
+  "v_district_employee_social_media_account_detail",
+  "v_district_employee_board_policy",
+  "v_school_district_entity_social_media_account_detail",
+  "v_board_policy_social_media_account_detail",
+  "v_board_policy_district_employee_detail",
+  "v_public_information_officer_social_media_account_detail",
+  "v_public_information_officer_board_policy"
+ ]
+}

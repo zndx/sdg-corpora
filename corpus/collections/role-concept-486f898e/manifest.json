@@ -1,0 +1,151 @@
+{
+ "construct_id": "486f898e33c96acc",
+ "slug": "role-concept-486f898e",
+ "passage": "486f898e33c96accf01a56ba3d7ff8e84baa64837f35d8d89b24a43b7d783cf4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 16,
+ "entities": [
+  "RoleConcept",
+  "RoleEnactment",
+  "RolePerception",
+  "CLDN",
+  "HealthcareDelivery",
+  "InterAgencyBoundary"
+ ],
+ "terms": [
+  {
+   "name": "RoleConcept",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RoleEnactment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RolePerception",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CLDN",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "HealthcareDelivery",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InterAgencyBoundary",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "role_concepts",
+   "rows": 4,
+   "columns": [
+    "concept_id",
+    "origin_language",
+    "theoretical_perspective",
+    "definition_text",
+    "related_concepts",
+    "enactment_id",
+    "perception_id"
+   ]
+  },
+  {
+   "name": "role_enactments",
+   "rows": 4,
+   "columns": [
+    "enactment_id",
+    "quality_of_enactment",
+    "influencing_factors",
+    "inter_agency_boundaries",
+    "role_conflict_present",
+    "concept_id",
+    "c_l_d_n_id",
+    "healthcare_delivery_id"
+   ]
+  },
+  {
+   "name": "role_perceptions",
+   "rows": 4,
+   "columns": [
+    "perception_id",
+    "clarity_level",
+    "influencing_factors",
+    "public_health_roles",
+    "reflexive_practice",
+    "concept_id",
+    "c_l_d_n_id",
+    "enactment_id"
+   ]
+  },
+  {
+   "name": "c_l_d_ns",
+   "rows": 4,
+   "columns": [
+    "id",
+    "nurse_id",
+    "specialization",
+    "years_of_experience",
+    "inter_agency_collaboration",
+    "role_clarity",
+    "enactment_id",
+    "perception_id",
+    "inter_agency_boundary_id"
+   ]
+  },
+  {
+   "name": "healthcare_deliveries",
+   "rows": 4,
+   "columns": [
+    "healthcare_delivery_id",
+    "delivery_id",
+    "service_type",
+    "complexity_level",
+    "patient_needs",
+    "effectiveness",
+    "c_l_d_n_id",
+    "enactment_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "inter_agency_boundaries",
+   "rows": 4,
+   "columns": [
+    "id",
+    "boundary_id",
+    "agency_type",
+    "tension_level",
+    "encroachment_present",
+    "impact_on_role",
+    "c_l_d_n_id",
+    "enactment_id",
+    "perception_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_role_concept_role_enactment",
+  "v_role_concept_role_perception",
+  "v_role_enactment_role_concept",
+  "v_role_enactment_c_l_d_n",
+  "v_role_enactment_healthcare_delivery",
+  "v_role_perception_role_concept",
+  "v_role_perception_c_l_d_n",
+  "v_role_perception_role_enactment",
+  "v_c_l_d_n_role_enactment",
+  "v_c_l_d_n_role_perception",
+  "v_c_l_d_n_inter_agency_boundary",
+  "v_healthcare_delivery_c_l_d_n",
+  "v_healthcare_delivery_role_enactment",
+  "v_inter_agency_boundary_c_l_d_n",
+  "v_inter_agency_boundary_role_enactment",
+  "v_inter_agency_boundary_role_perception"
+ ]
+}

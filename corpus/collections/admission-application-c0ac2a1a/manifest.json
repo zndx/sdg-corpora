@@ -1,0 +1,183 @@
+{
+ "construct_id": "c0ac2a1a7b23cf8b",
+ "slug": "admission-application-c0ac2a1a",
+ "passage": "c0ac2a1a7b23cf8b679c4f8398d400535bfa82de0b313472c66d087eee8de8b3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "AdmissionApplication",
+  "Student",
+  "AcademicRecord",
+  "SubjectGrade",
+  "InterviewScore",
+  "ActivityEvidence",
+  "IdentityDocument"
+ ],
+ "terms": [
+  {
+   "name": "AdmissionApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "AcademicRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SubjectGrade",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InterviewScore",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ActivityEvidence",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "IdentityDocument",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "AdmissionApplication",
+   "rows": 4,
+   "columns": [
+    "applicationId",
+    "academicYear",
+    "submissionDate",
+    "status",
+    "totalScore",
+    "rank",
+    "interviewDate",
+    "interviewResult",
+    "studentId",
+    "recordId",
+    "scoreId"
+   ]
+  },
+  {
+   "name": "Student",
+   "rows": 4,
+   "columns": [
+    "id",
+    "studentId",
+    "fullName",
+    "dateOfBirth",
+    "currentGradeLevel",
+    "schoolNumber",
+    "documentId"
+   ]
+  },
+  {
+   "name": "AcademicRecord",
+   "rows": 4,
+   "columns": [
+    "recordId",
+    "gradeLevel",
+    "term",
+    "conductScore",
+    "academicScore",
+    "overallWeightedScore",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "SubjectGrade",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subjectName",
+    "grade",
+    "score",
+    "term",
+    "recordId"
+   ]
+  },
+  {
+   "name": "InterviewScore",
+   "rows": 4,
+   "columns": [
+    "scoreId",
+    "appearanceAndPoliteness",
+    "manner",
+    "totalInterviewScore",
+    "weighting",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "ActivityEvidence",
+   "rows": 4,
+   "columns": [
+    "evidenceId",
+    "activityName",
+    "activityType",
+    "achievementLevel",
+    "awardedScore",
+    "isTopFive",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "IdentityDocument",
+   "rows": 4,
+   "columns": [
+    "id",
+    "documentId",
+    "documentType",
+    "issueDate",
+    "expiryDate",
+    "verificationStatus",
+    "studentId"
+   ]
+  },
+  {
+   "name": "AdmissionApplicationActivityEvidence",
+   "rows": 8,
+   "columns": [
+    "applicationId",
+    "evidenceId"
+   ]
+  },
+  {
+   "name": "StudentAdmissionApplication",
+   "rows": 8,
+   "columns": [
+    "studentId",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "AcademicRecordSubjectGrade",
+   "rows": 8,
+   "columns": [
+    "recordId",
+    "gradeId"
+   ]
+  }
+ ],
+ "views": [
+  "v_admission_application_student",
+  "v_admission_application_academic_record",
+  "v_admission_application_interview_score",
+  "v_admission_application_activity_evidence_detail",
+  "v_student_admission_application_detail",
+  "v_student_identity_document",
+  "v_academic_record_admission_application",
+  "v_academic_record_subject_grade_detail",
+  "v_subject_grade_academic_record",
+  "v_interview_score_admission_application",
+  "v_activity_evidence_admission_application",
+  "v_identity_document_student"
+ ]
+}

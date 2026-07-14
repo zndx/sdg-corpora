@@ -1,0 +1,5 @@
+id,group_identifier,group_name,risk_category,geographic_distribution,population_size,u_p_r_recommendation_id,state_id
+100,GRO-2079,Baseline Corridor D,education_disparity,rural,35,1,100
+101,GRO-2081,Distributed Series,healthcare_access,urban,42,2,101
+102,GRO-2083,Adaptive Assessment,gender_based_violence,mixed,49,3,102
+103,GRO-2085,Primary Survey A,discrimination,rural,56,4,103

@@ -1,0 +1,5 @@
+game_id,start_date,end_date,status,time_control,notation_type,transmission_method,move_count,player_id,has_player2_player_id,tournament_id,dispute_id
+8350009,2022-09-05T20:24:00,2022-09-01T08:00:00,active,10/30,algebraic,mail,5,100,100,1,1000
+8843755,2023-02-16T03:41:00,2023-02-12T15:17:00,completed,10/60,numeric,email,18,101,101,2,1001
+24341655,2024-07-27T10:58:00,2024-07-23T22:34:00,forfeited,10/30,mixed,fax,41,102,102,3,1002
+3001009030250,2025-12-11T17:15:00,2025-12-07T05:51:00,drawn,10/60,algebraic,mail,12,103,103,4,1003

@@ -1,0 +1,5 @@
+id,operation_code,operation_name,description,target_region,implementation_method,is_coercive,ideological_movement_id,geopolitical_region_id
+100,4221,tawtin,Extended Survey,extended-target-87,mosque_building,true,100,1
+101,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,tamkin,Pilot Corridor A,integrated-target-88,property_purchase,false,101,2
+102,468,tawtin,Baseline Series,seasonal-target-89,school_establishment,true,102,3
+103,5f90e206-8fcd-11eb-924d-9cd76263cbd0,tamkin,Distributed Assessment,regional-target-90,political_infiltration,false,103,4

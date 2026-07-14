@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,quality_score,standard_compliance,assessor_name,assessment_method,festival_enrollment_id,director_id
+1000,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,19.45,false,Primary Framework A,distributed-assessme-18,1000,195339
+1001,19508914,2023-10-21T11:41:00,22.90,true,Composite Protocol,baseline-assessme-19,1001,9125611
+1002,506000,2024-03-05T18:58:00,26.35,false,Compact Programme,pilot-assessme-20,1002,2933481
+1003,1204-0009-M,2025-08-16T01:15:00,29.80,true,Legacy Standard D,extended-assessme-21,1003,2087758

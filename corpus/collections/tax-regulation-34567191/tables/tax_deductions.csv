@@ -1,0 +1,5 @@
+tax_deduction_id,deduction_percentage,max_deduction_amount,effective_tax_rate,phase_in_threshold,phase_out_threshold,applies_to_a_m_t,affects_basis,affects_n_i_i,qualified_business_income_id,wage_asset_test_id,disqualified_activity_id
+1000,9.20,"4,437",8.45,2.70,12.20,true,false,true,1,1,1000
+1001,12.40,"4,223",11.90,5.40,14.40,false,true,false,2,2,1001
+1002,15.60,"16,254",15.35,8.10,16.60,true,false,true,3,3,1002
+1003,18.80,"8,308",18.80,10.80,18.80,false,true,false,4,4,1003

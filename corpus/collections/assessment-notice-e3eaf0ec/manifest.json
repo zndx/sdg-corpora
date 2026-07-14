@@ -1,0 +1,149 @@
+{
+ "construct_id": "e3eaf0ec77923950",
+ "slug": "assessment-notice-e3eaf0ec",
+ "passage": "e3eaf0ec779239503247f2023473c70218e94b0b4cfe2dbd47bfa9b00242289f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "AssessmentNotice",
+  "PropertyExemption",
+  "BoardMeeting",
+  "BoardOfAssessors",
+  "ChiefAppraiser",
+  "PropertyParcel"
+ ],
+ "terms": [
+  {
+   "name": "AssessmentNotice",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PropertyExemption",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BoardMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardOfAssessors",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ChiefAppraiser",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PropertyParcel",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "AssessmentNotice",
+   "rows": 4,
+   "columns": [
+    "id",
+    "noticeIdentifier",
+    "propertyType",
+    "noticePeriod",
+    "taxYear",
+    "status",
+    "issueDate",
+    "parcelLandUseCode",
+    "appraiserId"
+   ]
+  },
+  {
+   "name": "PropertyExemption",
+   "rows": 4,
+   "columns": [
+    "exemptionId",
+    "exemptionIdentifier",
+    "exemptionType",
+    "taxYear",
+    "reductionAmount",
+    "status",
+    "applicationDate",
+    "parcelLandUseCode",
+    "assessorsId"
+   ]
+  },
+  {
+   "name": "BoardMeeting",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meetingIdentifier",
+    "meetingDate",
+    "meetingType",
+    "status",
+    "quorumPresent",
+    "noticeId",
+    "exemptionId",
+    "assessorsId"
+   ]
+  },
+  {
+   "name": "BoardOfAssessors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "boardIdentifier",
+    "jurisdiction",
+    "establishedDate",
+    "currentSession",
+    "meetingId",
+    "appraiserId"
+   ]
+  },
+  {
+   "name": "ChiefAppraiser",
+   "rows": 4,
+   "columns": [
+    "appraiserId",
+    "appraiserIdentifier",
+    "appointmentDate",
+    "currentTermEnd",
+    "officeLocation",
+    "noticeId",
+    "exemptionId",
+    "assessorsId"
+   ]
+  },
+  {
+   "name": "PropertyParcel",
+   "rows": 4,
+   "columns": [
+    "parcelIdentifier",
+    "address",
+    "landUseCode",
+    "assessedValue",
+    "taxYear",
+    "isHomesteaded",
+    "noticeId",
+    "exemptionId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_assessment_notice_property_parcel",
+  "vw_assessment_notice_chief_appraiser",
+  "vw_property_exemption_property_parcel",
+  "vw_property_exemption_board_of_assessors",
+  "vw_board_meeting_assessment_notice",
+  "vw_board_meeting_property_exemption",
+  "vw_board_meeting_board_of_assessors",
+  "vw_board_of_assessors_board_meeting",
+  "vw_board_of_assessors_chief_appraiser",
+  "vw_chief_appraiser_assessment_notice",
+  "vw_chief_appraiser_property_exemption",
+  "vw_chief_appraiser_board_of_assessors",
+  "vw_property_parcel_assessment_notice",
+  "vw_property_parcel_property_exemption"
+ ]
+}

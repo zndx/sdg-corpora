@@ -1,0 +1,120 @@
+{
+ "construct_id": "4133971e5cdad079",
+ "slug": "educator-4133971e",
+ "passage": "4133971e5cdad079ea4ade3d0d4c27561c6d2772c4978ff596d4af66b6742f9b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 7,
+ "entities": [
+  "Educator",
+  "Chapter",
+  "Program",
+  "Specialization"
+ ],
+ "terms": [
+  {
+   "name": "Educator",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Chapter",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Specialization",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "educators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "educator_id",
+    "first_name",
+    "last_name",
+    "years_of_experience",
+    "specialization",
+    "membership_status",
+    "chapter_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "chapters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "chapter_id",
+    "chapter_name",
+    "location",
+    "founding_date",
+    "current_members",
+    "program_id"
+   ]
+  },
+  {
+   "name": "programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_title",
+    "duration",
+    "status",
+    "target_audience",
+    "chapter_id"
+   ]
+  },
+  {
+   "name": "specializations",
+   "rows": 4,
+   "columns": [
+    "specialization_id",
+    "specialization_name",
+    "description"
+   ]
+  },
+  {
+   "name": "chapters_educators",
+   "rows": 8,
+   "columns": [
+    "chapter_id",
+    "educator_id"
+   ]
+  },
+  {
+   "name": "programs_educators",
+   "rows": 8,
+   "columns": [
+    "program_id",
+    "educator_id"
+   ]
+  },
+  {
+   "name": "specializations_educators",
+   "rows": 8,
+   "columns": [
+    "specialization_id",
+    "educator_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_educator_chapter",
+  "v_educator_program",
+  "v_chapter_program",
+  "v_chapter_educator_detail",
+  "v_program_chapter",
+  "v_program_educator_detail",
+  "v_specialization_educator_detail"
+ ]
+}

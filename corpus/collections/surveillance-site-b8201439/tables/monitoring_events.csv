@@ -1,0 +1,5 @@
+id,event_id,event_timestamp,event_type,severity,description,resolved,resolution_time,surveillance_site_id
+1,2002007020060,2025-04-17T15:57:00,fault,critical,Extended Survey,true,2024-11-10T10:30:00,1
+2,168535,2022-09-01T22:14:00,warning,high,Pilot Corridor A,false,2025-04-21T17:47:00,2
+3,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,2023-02-12T05:31:00,status_change,medium,Baseline Series,true,2022-09-05T00:04:00,3
+4,1186089,2024-07-23T12:48:00,maintenance,low,Distributed Assessment,false,2023-02-16T07:21:00,4

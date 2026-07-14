@@ -1,0 +1,5 @@
+id,conduct_id,conduct_date,conduct_type,severity_level,is_criminal,description,disclosure_id,investigation_id
+1,2986238,2025-12-12T23:21:00,legal_violation,29,false,Extended Survey,195359,100
+2,3744007,2022-05-23T06:38:00,misuse_of_resources,40,true,Pilot Corridor A,1250217,101
+3,e5a1c32e-8fc3-11eb-924d-9cd76263cbd0,2023-10-07T13:55:00,economic_waste,51,false,Baseline Series,4447022,102
+4,10238282,2024-03-18T20:12:00,safety_threat,62,true,Distributed Assessment,1437596,103

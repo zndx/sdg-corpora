@@ -1,0 +1,214 @@
+{
+ "construct_id": "bbfa94cd3f453f99",
+ "slug": "study-protocol-bbfa94cd",
+ "passage": "bbfa94cd3f453f999b60c0264ed7f1e5108ff61665d11503ddff20fe1a06afe2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 17,
+ "entities": [
+  "StudyProtocol",
+  "PatientEnrollment",
+  "ImagingProcedure",
+  "ScanResult",
+  "ImagingFacility",
+  "Physician",
+  "ReimbursementRecord"
+ ],
+ "terms": [
+  {
+   "name": "StudyProtocol",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PatientEnrollment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ImagingProcedure",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ScanResult",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ImagingFacility",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Physician",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ReimbursementRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "study_protocols",
+   "rows": 4,
+   "columns": [
+    "study_protocol_id",
+    "study_identifier",
+    "study_title",
+    "target_enrollment_count",
+    "start_date",
+    "funding_source",
+    "coverage_policy",
+    "imaging_procedure_id"
+   ]
+  },
+  {
+   "name": "patient_enrollments",
+   "rows": 4,
+   "columns": [
+    "enrollment_id",
+    "patient_age",
+    "clinical_diagnosis",
+    "enrollment_date",
+    "referring_physician_id",
+    "medicare_beneficiary_id",
+    "imaging_procedure_id",
+    "study_protocol_id",
+    "scan_result_id"
+   ]
+  },
+  {
+   "name": "imaging_procedures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "procedure_id",
+    "procedure_date",
+    "modality",
+    "anatomical_region",
+    "tracer_agent",
+    "facility_id",
+    "imaging_facility_id",
+    "physician_id",
+    "interpreted_by_physician_id",
+    "scan_result_id"
+   ]
+  },
+  {
+   "name": "scan_results",
+   "rows": 4,
+   "columns": [
+    "id",
+    "result_id",
+    "amyloid_status",
+    "interpretation_text",
+    "result_date",
+    "clinical_impact",
+    "imaging_procedure_id",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "imaging_facilities",
+   "rows": 4,
+   "columns": [
+    "imaging_facility_id",
+    "facility_id",
+    "facility_name",
+    "location",
+    "certification_status"
+   ]
+  },
+  {
+   "name": "physicians",
+   "rows": 4,
+   "columns": [
+    "physician_id",
+    "specialty",
+    "board_certified",
+    "role_in_study"
+   ]
+  },
+  {
+   "name": "reimbursement_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "reimbursement_id",
+    "amount",
+    "payment_date",
+    "payer",
+    "policy_code",
+    "imaging_procedure_id",
+    "imaging_facility_id"
+   ]
+  },
+  {
+   "name": "protocols_enrollments",
+   "rows": 8,
+   "columns": [
+    "study_protocol_id",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "protocols_records",
+   "rows": 8,
+   "columns": [
+    "study_protocol_id",
+    "reimbursement_record_id"
+   ]
+  },
+  {
+   "name": "facilities_procedures",
+   "rows": 8,
+   "columns": [
+    "imaging_facility_id",
+    "imaging_procedure_id"
+   ]
+  },
+  {
+   "name": "physicians_enrollments",
+   "rows": 8,
+   "columns": [
+    "physician_id",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "physicians_procedures",
+   "rows": 8,
+   "columns": [
+    "physician_id",
+    "imaging_procedure_id"
+   ]
+  },
+  {
+   "name": "physicians_results",
+   "rows": 8,
+   "columns": [
+    "physician_id",
+    "scan_result_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_study_protocol_patient_enrollment_detail",
+  "v_study_protocol_imaging_procedure",
+  "v_study_protocol_reimbursement_record_detail",
+  "v_patient_enrollment_imaging_procedure",
+  "v_patient_enrollment_study_protocol",
+  "v_patient_enrollment_scan_result",
+  "v_imaging_procedure_imaging_facility",
+  "v_imaging_procedure_physician",
+  "v_imaging_procedure_scan_result",
+  "v_scan_result_imaging_procedure",
+  "v_scan_result_patient_enrollment",
+  "v_imaging_facility_imaging_procedure_detail",
+  "v_physician_patient_enrollment_detail",
+  "v_physician_imaging_procedure_detail",
+  "v_physician_scan_result_detail",
+  "v_reimbursement_record_imaging_procedure",
+  "v_reimbursement_record_imaging_facility"
+ ]
+}

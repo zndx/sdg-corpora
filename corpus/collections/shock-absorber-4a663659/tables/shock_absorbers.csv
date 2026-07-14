@@ -1,0 +1,5 @@
+id,identifier,model,max_force,max_voltage,max_power,status,installation_date,structure_id,temperature_reading_id,power_system_id
+1000,IDE-2086,composite-model-81,18.45,3.45,21.95,pending,2022-01-10T00:12:00,1000,1,100
+1001,IDE-2091,primary-model-82,22.90,6.90,24.90,running,2023-06-21T07:29:00,1001,2,101
+1002,IDE-2096,adaptive-model-83,27.35,10.35,27.85,complete,2024-11-05T14:46:00,1002,3,102
+1003,IDE-2101,distributed-model-84,31.80,13.80,30.80,failed,2025-04-16T21:03:00,1003,4,103

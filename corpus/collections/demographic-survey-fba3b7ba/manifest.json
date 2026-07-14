@@ -1,0 +1,186 @@
+{
+ "construct_id": "fba3b7bad2702352",
+ "slug": "demographic-survey-fba3b7ba",
+ "passage": "fba3b7bad27023521bcb5acc8406679f47b8dcc3a96a3dc5a8e18cfd0bde5449.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "DemographicSurvey",
+  "HealthMortalityRecord",
+  "EducationEnrollment",
+  "ChildLaborStatistic",
+  "PovertyIndex",
+  "GeographicRegion",
+  "StatisticalBureau"
+ ],
+ "terms": [
+  {
+   "name": "DemographicSurvey",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthMortalityRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EducationEnrollment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ChildLaborStatistic",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PovertyIndex",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "StatisticalBureau",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "demographic_surveys",
+   "rows": 4,
+   "columns": [
+    "demographic_survey_id",
+    "survey_id",
+    "survey_year",
+    "territory",
+    "total_population_count",
+    "child_population_count",
+    "child_population_percentage",
+    "under_five_percentage",
+    "five_to_nine_percentage",
+    "ten_to_fourteen_percentage",
+    "fifteen_to_seventeen_percentage",
+    "statistical_bureau_id",
+    "geographic_region_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "health_mortality_records",
+   "rows": 4,
+   "columns": [
+    "record_id",
+    "cause_of_death",
+    "cause_percentage",
+    "male_percentage",
+    "female_percentage",
+    "age_group",
+    "record_year",
+    "region",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "education_enrollments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enrollment_id",
+    "academic_year",
+    "education_level",
+    "total_students",
+    "dropout_rate",
+    "male_dropout_rate",
+    "female_dropout_rate",
+    "failure_rate",
+    "male_failure_rate",
+    "female_failure_rate",
+    "geographic_region_id",
+    "demographic_survey_id"
+   ]
+  },
+  {
+   "name": "child_labor_statistics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "labor_stat_id",
+    "stat_year",
+    "employment_rate",
+    "male_employment_rate",
+    "female_employment_rate",
+    "school_and_work_rate",
+    "average_daily_wage",
+    "weekly_working_hours",
+    "currency_code",
+    "geographic_region_id",
+    "demographic_survey_id"
+   ]
+  },
+  {
+   "name": "poverty_indexes",
+   "rows": 4,
+   "columns": [
+    "poverty_index_id",
+    "index_year",
+    "household_poverty_rate",
+    "child_poverty_rate",
+    "poor_households_with_children_percent",
+    "region",
+    "geographic_region_id",
+    "demographic_survey_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "geographic_region_id",
+    "region_id",
+    "region_name",
+    "country",
+    "demographic_survey_id",
+    "record_id",
+    "education_enrollment_id",
+    "child_labor_statistic_id",
+    "poverty_index_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "statistical_bureaus",
+   "rows": 4,
+   "columns": [
+    "id",
+    "bureau_id",
+    "bureau_name",
+    "location",
+    "contact_phone",
+    "contact_email",
+    "demographic_survey_id",
+    "statistical_bureau_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_demographic_survey_statistical_bureau",
+  "v_demographic_survey_geographic_region",
+  "v_health_mortality_record_geographic_region",
+  "v_education_enrollment_geographic_region",
+  "v_education_enrollment_demographic_survey",
+  "v_child_labor_statistic_geographic_region",
+  "v_child_labor_statistic_demographic_survey",
+  "v_poverty_index_geographic_region",
+  "v_poverty_index_demographic_survey",
+  "v_geographic_region_demographic_survey",
+  "v_geographic_region_health_mortality_record",
+  "v_geographic_region_education_enrollment",
+  "v_geographic_region_child_labor_statistic",
+  "v_geographic_region_poverty_index",
+  "v_statistical_bureau_demographic_survey",
+  "v_statistical_bureau_statistical_bureau"
+ ]
+}

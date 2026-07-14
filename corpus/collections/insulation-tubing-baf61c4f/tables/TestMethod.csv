@@ -1,0 +1,5 @@
+methodId,methodCode,testType,standardBody,agingCondition,specificationId,tubingId
+100,ASTM D 2671,mechanical,ASTM,"120°C, 168 hrs.",1,1000
+101,IEC 243,electrical,IEC,"-40°C, 4 hrs.",2,1001
+102,IEC 250,thermal,ASTM,none,3,1002
+103,IEC 93,flammability,IEC,"120°C, 168 hrs.",4,1003

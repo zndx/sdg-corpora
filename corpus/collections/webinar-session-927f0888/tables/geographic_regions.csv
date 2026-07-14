@@ -1,0 +1,5 @@
+id,region_identifier,region_name,region_type,hurricane_vulnerability,webinar_session_id
+1000,REG-2093,Distributed Assessment,Country,false,1
+1001,REG-2100,Adaptive Survey D,State,true,2
+1002,REG-2107,Primary Corridor,Territory,false,3
+1003,REG-2114,Composite Series,CoastalZone,true,4

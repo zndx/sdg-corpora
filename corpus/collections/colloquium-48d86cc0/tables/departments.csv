@@ -1,0 +1,5 @@
+department_id,identifier,name,code,parent_institution,established_date,series_id,institution_id
+1000,IDE-2086,Extended Review,lu_tax_code_template_m_I_4,seasonal-parent-53,2024-03-27,1,1
+1001,IDE-2091,Pilot Initiative A,2986219,regional-parent-54,2025-08-11,2,2
+1002,IDE-2096,Baseline Model,8928520,legacy-parent-55,2022-01-22,3,3
+1003,IDE-2101,Distributed Cluster,195369,compact-parent-56,2023-06-06,4,4

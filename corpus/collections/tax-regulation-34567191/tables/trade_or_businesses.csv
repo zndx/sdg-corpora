@@ -1,0 +1,5 @@
+entity_type,employer_id,location,is_s_s_t_b,total_wages_paid,unadjusted_basis_of_property,tax_year,qualified_business_income_id,wage_asset_test_id,disqualified_activity_id
+soleProprietorship,The Hongkong and Shanghai Banking Corporation Limited,extended-location-99,true,21.20,18.70,26,1,1,1000
+partnership,ChargePoint Holdings.,integrated-location-100,false,23.40,20.40,36,2,2,1001
+S_Corporation,Intl. Business Machines,seasonal-location-101,true,25.60,22.10,46,3,3,1002
+LLC,Feedback Ratings,regional-location-102,false,27.80,23.80,56,4,4,1003

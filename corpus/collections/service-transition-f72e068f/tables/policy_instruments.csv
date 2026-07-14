@@ -1,0 +1,5 @@
+id,policy_id,name,type,effective_date,status,description,service_user_id,health_care_setting_id,service_transition_id
+1,5844252,Extended Review,direct payment,2023-02-14,active,Extended Survey,1,1,1
+2,10207142,Pilot Initiative A,personal budget,2024-07-25,inactive,Pilot Corridor A,2,2,2
+3,1562847,Baseline Model,eligibility framework,2025-12-09,proposed,Baseline Series,3,3,3
+4,ChIJkzsYUIBt5kcRM6_JHx26ONk,Distributed Cluster,direct payment,2022-05-20,active,Distributed Assessment,4,4,4

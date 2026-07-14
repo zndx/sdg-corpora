@@ -1,0 +1,5 @@
+id,unit_id,unit_name,unit_type,established_date,is_shared_service,jurisdiction_scope,role_id,stakeholder_group_id,administrative_unit_id
+100,39800614,Compact Series,department,2024-03-27T14:30:00,true,campus_wide,2933463,1,100
+101,611523,Legacy Assessment,office,2025-08-11T21:47:00,false,institution_specific,id_3,2,101
+102,57dbb53c-8fcc-11eb-924d-9cd76263cbd0,Regional Survey A,service_center,2022-01-22T04:04:00,true,multi_institution,gd_taxc_2111,3,102
+103,account_pymes_1040,Seasonal Corridor,division,2023-06-06T11:21:00,false,campus_wide,994a4fa0-9bad-11eb-a8a2-19ed5c03f8d3,4,103

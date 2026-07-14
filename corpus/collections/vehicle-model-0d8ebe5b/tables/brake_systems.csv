@@ -1,0 +1,5 @@
+brake_system_id,front_disc_diameter,rear_disc_diameter,caliper_type,ventilation,chassis_frame_id,wheel_assembly_id
+1,3.95,4.70,distributed-caliper-72,false,1,100
+2,6.90,9.40,baseline-caliper-73,true,2,101
+3,9.85,14.10,pilot-caliper-74,false,3,102
+4,12.80,18.80,extended-caliper-75,true,4,103

@@ -1,0 +1,5 @@
+id,outputIdentifier,outputName,outputType,value,measurementDate,targetValue,activityId
+1,OUT-2721,Baseline Standard D,service_count,19.95,2024-07-01T18:54:00,13.45,1
+2,OUT-2728,Distributed Framework,product_quantity,21.90,2025-12-12T01:11:00,15.90,2
+3,OUT-2735,Adaptive Protocol,client_count,23.85,2022-05-23T08:28:00,18.35,3
+4,OUT-2742,Primary Programme A,satisfaction_score,25.80,2023-10-07T15:45:00,20.80,4

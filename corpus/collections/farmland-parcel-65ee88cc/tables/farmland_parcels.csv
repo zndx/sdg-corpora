@@ -1,0 +1,5 @@
+farmland_parcel_id,parcel_id,acreage,zoning_district,soil_quality_index,purchase_date,current_market_value,institutional_investor_id,geographic_region_id,created_at
+1000,4447034,19.20,adaptive-zoning-95,15.95,2022-01-07T00:36:00,17.45,1000,1,2025-01-01 00:14:00
+1001,325464,21.40,distributed-zoning-96,17.90,2023-06-18T07:53:00,19.90,1001,2,2025-02-06 03:14:00
+1002,3990187,23.60,baseline-zoning-97,19.85,2024-11-02T14:10:00,22.35,1002,3,2025-03-11 06:14:00
+1003,110,25.80,pilot-zoning-98,21.80,2025-04-13T21:27:00,24.80,1003,4,2025-04-16 09:14:00

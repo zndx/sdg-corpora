@@ -1,0 +1,5 @@
+id,organization_id,name,location,established_date,operating_margin,is_sustainable,electronic_health_record_ehr_id,healthcare_professional_id,analytics_solution_id
+1000,Shell Oil,Extended Review,extended-location-99,2024-03-27,21.70,true,195366,1,100
+1001,GlobalPlatform Inc.,Pilot Initiative A,integrated-location-100,2025-08-11,25.40,false,611509,2,101
+1002,Whatsapp Inc.,Baseline Model,seasonal-location-101,2022-01-22,29.10,true,884338,3,102
+1003,American Institutes for Research,Distributed Cluster,regional-location-102,2023-06-06,32.80,false,gd_taxc_1123,4,103

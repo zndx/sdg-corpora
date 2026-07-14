@@ -1,0 +1,5 @@
+water_management_practice_id,practice_name,conservation_level,historical_period,effectiveness,pastoral_community_id,territory_id,hydrological_stress_id
+1,Seasonal Survey,compact-conserva-68,compact-historic-26,legacy-effectiv-73,1,1000,1
+2,Integrated Corridor,composite-conserva-69,composite-historic-27,compact-effectiv-74,2,1001,2
+3,Extended Series D,primary-conserva-70,primary-historic-28,composite-effectiv-75,3,1002,3
+4,Pilot Assessment,adaptive-conserva-71,adaptive-historic-29,primary-effectiv-76,4,1003,4

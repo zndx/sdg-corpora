@@ -1,0 +1,179 @@
+{
+ "construct_id": "08162fba5e294463",
+ "slug": "digital-technology-08162fba",
+ "passage": "08162fba5e29446395132f655db495739643f5b7a6ad6e860764cabc5f2d41d2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 11,
+ "entities": [
+  "DigitalTechnology",
+  "PersonalInformation",
+  "Individual",
+  "PrivacyPolicy",
+  "SocialMediaPlatform",
+  "ConsentRecord"
+ ],
+ "terms": [
+  {
+   "name": "DigitalTechnology",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PersonalInformation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "PrivacyPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SocialMediaPlatform",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ConsentRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "digital_technologies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_identifier",
+    "platform_name",
+    "platform_type",
+    "effective_date",
+    "privacy_policy_u_r_l"
+   ]
+  },
+  {
+   "name": "personal_informations",
+   "rows": 4,
+   "columns": [
+    "personal_information_id",
+    "information_type",
+    "data_field",
+    "collection_method",
+    "is_sensitive",
+    "retention_period",
+    "digital_technology_id",
+    "individual_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "individual_i_d",
+    "name",
+    "date_of_birth",
+    "nationality",
+    "gender",
+    "account_type",
+    "privacy_policy_id"
+   ]
+  },
+  {
+   "name": "privacy_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_i_d",
+    "policy_title",
+    "effective_date",
+    "issuing_entity",
+    "jurisdiction"
+   ]
+  },
+  {
+   "name": "social_media_platforms",
+   "rows": 4,
+   "columns": [
+    "social_media_platform_id",
+    "platform_name",
+    "platform_u_r_l",
+    "data_collection_policy",
+    "is_external",
+    "digital_technology_id"
+   ]
+  },
+  {
+   "name": "consent_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consent_i_d",
+    "consent_date",
+    "consent_method",
+    "is_withdrawable",
+    "withdrawal_date",
+    "individual_id",
+    "privacy_policy_id"
+   ]
+  },
+  {
+   "name": "technologies_informations",
+   "rows": 8,
+   "columns": [
+    "digital_technology_id",
+    "personal_information_id"
+   ]
+  },
+  {
+   "name": "individuals_informations",
+   "rows": 8,
+   "columns": [
+    "individual_id",
+    "personal_information_id"
+   ]
+  },
+  {
+   "name": "policies_technologies",
+   "rows": 8,
+   "columns": [
+    "privacy_policy_id",
+    "digital_technology_id"
+   ]
+  },
+  {
+   "name": "policies_individuals",
+   "rows": 8,
+   "columns": [
+    "privacy_policy_id",
+    "individual_id"
+   ]
+  },
+  {
+   "name": "platforms_individuals",
+   "rows": 8,
+   "columns": [
+    "social_media_platform_id",
+    "individual_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_digital_technology_personal_information_detail",
+  "vw_personal_information_digital_technology",
+  "vw_personal_information_individual",
+  "vw_individual_personal_information_detail",
+  "vw_individual_privacy_policy",
+  "vw_privacy_policy_digital_technology_detail",
+  "vw_privacy_policy_individual_detail",
+  "vw_social_media_platform_individual_detail",
+  "vw_social_media_platform_digital_technology",
+  "vw_consent_record_individual",
+  "vw_consent_record_privacy_policy"
+ ]
+}

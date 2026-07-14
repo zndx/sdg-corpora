@@ -1,0 +1,20 @@
+CREATE TABLE InspectionEvent (
+  id INTEGER NOT NULL,
+  inspectionId VARCHAR(32),
+  inspectionType VARCHAR(32),
+  inspectionDate TIMESTAMP,
+  inspectorRole VARCHAR(32),
+  deficiencyCount INTEGER,
+  punchListItems INTEGER,
+  status VARCHAR(32),
+  notes VARCHAR(32),
+  phaseId INTEGER,
+  deficiencyId VARCHAR(32),
+  sheetTestSheetId VARCHAR(44),
+  createdAt TIMESTAMP,
+  updatedAt TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (phaseId) REFERENCES InfrastructurePhase (phaseId),
+  FOREIGN KEY (deficiencyId) REFERENCES Deficiency (deficiencyId),
+  FOREIGN KEY (sheetTestSheetId) REFERENCES TestSheet (testSheetId)
+);

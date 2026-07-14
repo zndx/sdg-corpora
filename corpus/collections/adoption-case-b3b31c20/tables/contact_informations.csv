@@ -1,0 +1,5 @@
+contact_information_id,contact_person,street_address,cell_phone,city,state,zip_code,alternate_phone,email
+1,Alyssa Chung,composite-street-15,distributed-cell-72,integrated-city-34,distributed-state-84,69434,integrated-alternat-58,seasonal-email-11
+2,Brianna Mejia,primary-street-16,baseline-cell-73,seasonal-city-35,baseline-state-85,13589,seasonal-alternat-59,regional-email-12
+3,Eric Schultz,adaptive-street-17,pilot-cell-74,regional-city-36,pilot-state-86,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,regional-alternat-60,legacy-email-13
+4,Peter Montgomery,distributed-street-18,extended-cell-75,legacy-city-37,extended-state-87,1250214,legacy-alternat-61,compact-email-14

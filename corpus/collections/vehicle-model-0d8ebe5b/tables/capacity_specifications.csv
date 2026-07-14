@@ -1,0 +1,5 @@
+id,capacity_type,value,unit,location,chassis_frame_id,powertrain_id
+1000,regional-capacity-42,19.95,distributed-unit-18,extended-location-99,1,1
+1001,legacy-capacity-43,21.90,baseline-unit-19,integrated-location-100,2,2
+1002,compact-capacity-44,23.85,pilot-unit-20,seasonal-location-101,3,3
+1003,composite-capacity-45,25.80,extended-unit-21,regional-location-102,4,4

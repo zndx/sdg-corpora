@@ -1,0 +1,5 @@
+image_capture_id,capture_identifier,timestamp,shutter_speed,aperture_value,iso_setting,exposure_mode,white_balance,metering_mode,focus_mode,file_format,camera_device_id,memory_card_id,celestial_object_id
+1,CAP-2684,2024-07-08T18:18:00,1.25,16.45,8,integrated-exposure-94,regional-white-66,legacy-metering-97,seasonal-focus-89,pilot-file-44,1,100,1000
+2,CAP-2687,2025-12-19T01:35:00,0.2866154649074,18.90,16,seasonal-exposure-95,legacy-white-67,compact-metering-98,regional-focus-90,extended-file-45,2,101,1001
+3,CAP-2690,2022-05-03T08:52:00,0.47,21.35,24,regional-exposure-96,compact-white-68,composite-metering-99,legacy-focus-91,integrated-file-46,3,102,1002
+4,CAP-2693,2023-10-14T15:09:00,0.6,23.80,32,legacy-exposure-97,composite-white-69,primary-metering-100,compact-focus-92,seasonal-file-47,4,103,1003

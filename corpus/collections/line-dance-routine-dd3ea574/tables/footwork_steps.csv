@@ -1,0 +1,5 @@
+footwork_step_id,step_name,foot_used,direction,turn_angle,execution_count,step_type,dance_section_id
+100,Baseline Model D,Left,Forward,19.70,2,Skate,1
+101,Distributed Cluster,Right,Backward,23.40,19,Chasse,2
+102,Adaptive Review,Both,Left,27.10,0,Shuffle,3
+103,Primary Initiative A,Left,Right,30.80,0,Pivot,4

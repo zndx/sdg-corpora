@@ -1,0 +1,197 @@
+{
+ "construct_id": "2f441661b04a0f78",
+ "slug": "educational-organization-2f441661",
+ "passage": "2f441661b04a0f78ec32073bd2539616c2ec8d74ec6faba3358378ae869b98f8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 17,
+ "entities": [
+  "EducationalOrganization",
+  "Building",
+  "Person",
+  "EducationalProgram",
+  "Award",
+  "GovernmentBody",
+  "Policy"
+ ],
+ "terms": [
+  {
+   "name": "EducationalOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Building",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EducationalProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Award",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GovernmentBody",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Policy",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "educational_organizations",
+   "rows": 4,
+   "columns": [
+    "educational_organization_id",
+    "organization_id",
+    "name",
+    "founding_date",
+    "legal_status",
+    "tuition_policy",
+    "is_state_supported",
+    "building_id",
+    "educational_program_id"
+   ]
+  },
+  {
+   "name": "buildings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "building_id",
+    "address",
+    "district",
+    "construction_year",
+    "last_renovation_date",
+    "lease_term_years",
+    "lease_start_date",
+    "lease_grantor",
+    "educational_organization_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "full_name",
+    "role",
+    "affiliation",
+    "email",
+    "is_draft_exempt",
+    "educational_organization_id",
+    "teaches_at_educational_organization_id",
+    "government_body_id",
+    "award_id"
+   ]
+  },
+  {
+   "name": "educational_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "program_type",
+    "target_audience",
+    "is_draft_exempt",
+    "enrollment_count",
+    "educational_organization_id",
+    "building_id"
+   ]
+  },
+  {
+   "name": "awards",
+   "rows": 4,
+   "columns": [
+    "award_id",
+    "award_name",
+    "granting_authority",
+    "award_date",
+    "monetary_value",
+    "government_body_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "government_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_id",
+    "body_name",
+    "jurisdiction_level",
+    "head_official",
+    "educational_organization_id",
+    "award_id",
+    "policy_id"
+   ]
+  },
+  {
+   "name": "policies",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "policy_title",
+    "effective_date",
+    "status",
+    "affects_draft_exemption",
+    "government_body_id",
+    "educational_program_id"
+   ]
+  },
+  {
+   "name": "organizations_persons",
+   "rows": 8,
+   "columns": [
+    "educational_organization_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "programs_persons",
+   "rows": 8,
+   "columns": [
+    "educational_program_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "awards_persons",
+   "rows": 8,
+   "columns": [
+    "award_id",
+    "person_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_educational_organization_building",
+  "v_educational_organization_person_detail",
+  "v_educational_organization_educational_program",
+  "v_building_educational_organization",
+  "v_person_educational_organization",
+  "v_person_government_body",
+  "v_person_award",
+  "v_educational_program_educational_organization",
+  "v_educational_program_building",
+  "v_educational_program_person_detail",
+  "v_award_person_detail",
+  "v_award_government_body",
+  "v_government_body_educational_organization",
+  "v_government_body_award",
+  "v_government_body_policy",
+  "v_policy_government_body",
+  "v_policy_educational_program"
+ ]
+}

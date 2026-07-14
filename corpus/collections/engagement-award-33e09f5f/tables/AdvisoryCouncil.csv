@@ -1,0 +1,5 @@
+id,councilId,councilName,organizationId,establishmentDate,councilStatus,memberCount,meetingFrequency,projectId,advisesOrganizationId,outputId
+1,ae409270-8fcd-11eb-924d-9cd76263cbd0,Legacy Standard D,Shell Oil,2024-07-11,active,4,weekly,1000,1000,1
+2,Bjornfant,Regional Framework,GlobalPlatform Inc.,2025-12-22,inactive,17,monthly,1001,1001,2
+3,726041,Seasonal Protocol,Whatsapp Inc.,2022-05-06,dissolved,9,quarterly,1002,1002,3
+4,2a540c6d30d447058e7e4de6c68c2d6d,Integrated Programme A,American Institutes for Research,2023-10-17,forming,0,ad_hoc,1003,1003,4

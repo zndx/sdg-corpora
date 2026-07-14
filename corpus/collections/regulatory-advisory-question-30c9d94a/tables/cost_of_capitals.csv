@@ -1,0 +1,5 @@
+cost_of_capital_id,cost_id,calculation_date,discount_rate,risk_free_rate,beta_estimate,methodology,investment_project_id
+100,12042,2025-04-11T15:45:00,4.20,10.20,21.20,compact-methodol-68,1
+101,8387552,2022-09-22T22:02:00,8.40,14.40,25.40,composite-methodol-69,2
+102,1437587,2023-02-06T05:19:00,12.60,18.60,29.60,primary-methodol-70,3
+103,3906,2024-07-17T12:36:00,16.80,22.80,33.80,adaptive-methodol-71,4

@@ -1,0 +1,5 @@
+id,partNumber,centerWavelength,outputPower,monitorCurrent,thresholdCurrent,operatingCurrent,operatingVoltage,fiberLength,connectorId,fiberId,styleId
+1,PAR-2291,23.70,20.70,5.95,9.45,9.70,21.95,0.6000001,1,1,100
+2,PAR-2297,28.40,25.40,9.90,13.90,11.40,25.90,0.6,2,2,101
+3,PAR-2303,33.10,30.10,13.85,18.35,13.10,29.85,0.42195992,3,3,102
+4,PAR-2309,37.80,34.80,17.80,22.80,14.80,33.80,0.42195992,4,4,103

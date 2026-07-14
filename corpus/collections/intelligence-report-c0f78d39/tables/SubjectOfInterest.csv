@@ -1,0 +1,5 @@
+interestId,subjectIdentifier,subjectName,subjectType,riskLevel,lastKnownLocation,associatedThreats,unitId,reportId
+1,SUB-2370,Baseline Framework D,Individual,Low,pilot-last-26,Terrorism,1000,1
+2,SUB-2374,Distributed Protocol,Organization,Medium,extended-last-27,Drug Trafficking,1001,2
+3,SUB-2378,Adaptive Programme,Group,High,integrated-last-28,Cyber Crime,1002,3
+4,SUB-2382,Primary Standard A,Entity,Critical,seasonal-last-29,Human Trafficking,1003,4

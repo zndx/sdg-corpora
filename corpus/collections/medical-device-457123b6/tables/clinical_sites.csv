@@ -1,0 +1,5 @@
+clinical_site_id,site_identifier,site_name,site_type,address,is_connected_to_network,total_devices_at_site,last_audit_date,clinical_engineering_team_id
+100,SIT-2771,Composite Review,hospital,distributed-address-72,false,10,2023-10-23,100
+101,SIT-2772,Compact Initiative A,outpatient_clinic,baseline-address-73,true,15,2024-03-07,101
+102,SIT-2773,Legacy Model,home_care,pilot-address-74,false,1,2025-08-18,102
+103,SIT-2774,Regional Cluster,telehealth_hub,extended-address-75,true,5,2022-01-02,103

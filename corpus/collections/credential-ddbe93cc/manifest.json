@@ -1,0 +1,167 @@
+{
+ "construct_id": "ddbe93ccee6fdc60",
+ "slug": "credential-ddbe93cc",
+ "passage": "ddbe93ccee6fdc6045e2ea1272439958cec50b616be2ebfdbd100495f7921472.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 12,
+ "entities": [
+  "Credential",
+  "Student",
+  "ProgramOfStudy",
+  "Parchment",
+  "GraduationEligibilityCheck",
+  "ExceptionRecord"
+ ],
+ "terms": [
+  {
+   "name": "Credential",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProgramOfStudy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Parchment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GraduationEligibilityCheck",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExceptionRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "credentials",
+   "rows": 4,
+   "columns": [
+    "credential_id",
+    "credential_type",
+    "program_name",
+    "issuing_institution",
+    "issue_date",
+    "status",
+    "honours_notation",
+    "student_id",
+    "program_of_study_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "enrollment_status",
+    "start_date",
+    "residency_percentage",
+    "financial_obligations_met",
+    "ggpa",
+    "credential_id"
+   ]
+  },
+  {
+   "name": "program_of_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_code",
+    "program_name",
+    "approval_authority",
+    "standard_length",
+    "completion_deadline_multiplier",
+    "is_apprentice_program",
+    "current_version"
+   ]
+  },
+  {
+   "name": "parchments",
+   "rows": 4,
+   "columns": [
+    "parchment_id",
+    "issue_date",
+    "graduate_name",
+    "program_name_at_graduation",
+    "honours_notation",
+    "is_reissued",
+    "revocation_reason",
+    "student_id",
+    "credential_id"
+   ]
+  },
+  {
+   "name": "graduation_eligibility_checks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "check_id",
+    "check_date",
+    "eligibility_status",
+    "ggpa_met",
+    "residency_met",
+    "financial_obligations_met",
+    "completion_deadline_met",
+    "student_id",
+    "program_of_study_id",
+    "parchment_id"
+   ]
+  },
+  {
+   "name": "exception_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "exception_id",
+    "exception_date",
+    "nature_of_exception",
+    "alignment_confirmation",
+    "risk_description",
+    "approval_status",
+    "student_id",
+    "program_of_study_id"
+   ]
+  },
+  {
+   "name": "students_studies",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "program_of_study_id"
+   ]
+  },
+  {
+   "name": "studies_credentials",
+   "rows": 8,
+   "columns": [
+    "program_of_study_id",
+    "credential_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_credential_student",
+  "v_credential_program_of_study",
+  "v_student_program_of_study_detail",
+  "v_student_credential",
+  "v_program_of_study_credential_detail",
+  "v_parchment_student",
+  "v_parchment_credential",
+  "v_graduation_eligibility_check_student",
+  "v_graduation_eligibility_check_program_of_study",
+  "v_graduation_eligibility_check_parchment",
+  "v_exception_record_student",
+  "v_exception_record_program_of_study"
+ ]
+}

@@ -1,0 +1,5 @@
+cds_id,trigger_condition,recommendation,effectiveness_score,last_updated,is_proactive,analytics_solution_id
+784e2c06-8fb2-11eb-924d-9cd76263cbd0,legacy-trigger-49,pilot-recommen-38,3.45,2023-06-17T17:27:00,false,100
+9568460,compact-trigger-50,extended-recommen-39,5.90,2024-11-01T00:44:00,true,101
+Invoices,composite-trigger-51,integrated-recommen-40,8.35,2025-04-12T07:01:00,false,102
+Tanggal,primary-trigger-52,seasonal-recommen-41,10.80,2022-09-23T14:18:00,true,103

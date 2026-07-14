@@ -1,0 +1,162 @@
+{
+ "construct_id": "e270cd81adcfcbbc",
+ "slug": "treatment-program-e270cd81",
+ "passage": "e270cd81adcfcbbc0e0fead029ec82fd2e3e5a7d57d00d645618b936e89288b5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "TreatmentProgram",
+  "ClinicalService",
+  "Patient",
+  "RiskAssessment",
+  "Facility",
+  "PaymentSource"
+ ],
+ "terms": [
+  {
+   "name": "TreatmentProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ClinicalService",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "RiskAssessment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PaymentSource",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "treatment_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "delivery_mode",
+    "risk_level",
+    "status",
+    "accreditation_body",
+    "service_code",
+    "facility_id",
+    "payment_source_id"
+   ]
+  },
+  {
+   "name": "clinical_services",
+   "rows": 4,
+   "columns": [
+    "service_code",
+    "service_name",
+    "service_type",
+    "frequency",
+    "duration",
+    "status",
+    "treatment_program_id",
+    "patient_id",
+    "risk_assessment_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "patient_id",
+    "admission_date",
+    "discharge_date",
+    "risk_category",
+    "substance_history",
+    "offense_history",
+    "priority_status",
+    "demographic_group",
+    "treatment_program_id",
+    "service_code",
+    "risk_assessment_id",
+    "payment_source_id"
+   ]
+  },
+  {
+   "name": "risk_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "risk_score",
+    "assessment_type",
+    "result",
+    "assessor_id",
+    "patient_id",
+    "treatment_program_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "facility_id",
+    "facility_name",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "bus_accessible",
+    "evening_hours",
+    "admissions_hours",
+    "treatment_program_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "payment_sources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "source_id",
+    "source_name",
+    "source_type",
+    "coverage_status",
+    "effective_date",
+    "patient_id",
+    "service_code"
+   ]
+  }
+ ],
+ "views": [
+  "v_treatment_program_clinical_service",
+  "v_treatment_program_facility",
+  "v_treatment_program_payment_source",
+  "v_clinical_service_treatment_program",
+  "v_clinical_service_patient",
+  "v_clinical_service_risk_assessment",
+  "v_patient_treatment_program",
+  "v_patient_clinical_service",
+  "v_patient_risk_assessment",
+  "v_patient_payment_source",
+  "v_risk_assessment_patient",
+  "v_risk_assessment_treatment_program",
+  "v_risk_assessment_clinical_service",
+  "v_facility_treatment_program",
+  "v_facility_clinical_service",
+  "v_payment_source_patient",
+  "v_payment_source_clinical_service"
+ ]
+}

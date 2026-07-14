@@ -1,0 +1,5 @@
+digital_asset_id,asset_identifier,asset_title,creation_date,file_format,duration_seconds,frame_count,status,tool_id,project_id,exported_to_digital_asset_id
+1,ASS-2752,Integrated Framework A,2022-01-13T12:24:00,pilot-file-44,7.45,5,draft,comi,1000,1
+2,ASS-2756,Extended Protocol,2023-06-24T19:41:00,extended-file-45,9.90,3,rendered,195360,1001,2
+3,ASS-2760,Pilot Programme,2024-11-08T02:58:00,integrated-file-46,12.35,9,published,3355763,1002,3
+4,ASS-2764,Baseline Standard D,2025-04-19T09:15:00,seasonal-file-47,14.80,6,archived,8387539,1003,4

@@ -1,0 +1,230 @@
+{
+ "construct_id": "b877d5b117bdeaba",
+ "slug": "pool-facility-b877d5b1",
+ "passage": "b877d5b117bdeaba65b3ae44941dfd9bb8252f7cd3c69bfdfb301b0ff66986c0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 16,
+ "entities": [
+  "PoolFacility",
+  "PoolStaffMember",
+  "SafetyCertification",
+  "MaintenanceActivity",
+  "PoolEquipment",
+  "AquaticEvent"
+ ],
+ "terms": [
+  {
+   "name": "PoolFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PoolStaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SafetyCertification",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MaintenanceActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PoolEquipment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AquaticEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "pool_facilities",
+   "rows": 4,
+   "columns": [
+    "pool_facility_id",
+    "facility_id",
+    "facility_name",
+    "municipality",
+    "state",
+    "is_outdoor",
+    "operating_season",
+    "last_inspection_date",
+    "health_department_compliance_status"
+   ]
+  },
+  {
+   "name": "pool_staff_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "full_name",
+    "position_title",
+    "employment_status",
+    "hire_date",
+    "termination_date",
+    "supervisor_id",
+    "certifications",
+    "pool_staff_member_id",
+    "pool_facility_id"
+   ]
+  },
+  {
+   "name": "safety_certifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cert_id",
+    "cert_type",
+    "issuing_body",
+    "issue_date",
+    "expiration_date",
+    "is_current"
+   ]
+  },
+  {
+   "name": "maintenance_activities",
+   "rows": 4,
+   "columns": [
+    "maintenance_activity_id",
+    "activity_id",
+    "activity_type",
+    "scheduled_date",
+    "completed_date",
+    "performed_by",
+    "health_standard_compliance",
+    "notes",
+    "pool_facility_id",
+    "pool_staff_member_id"
+   ]
+  },
+  {
+   "name": "pool_equipments",
+   "rows": 4,
+   "columns": [
+    "pool_equipment_id",
+    "equipment_id",
+    "equipment_name",
+    "equipment_type",
+    "installation_date",
+    "last_maintenance_date",
+    "operational_status",
+    "weight_kg",
+    "pool_facility_id",
+    "pool_staff_member_id"
+   ]
+  },
+  {
+   "name": "aquatic_events",
+   "rows": 4,
+   "columns": [
+    "aquatic_event_id",
+    "event_id",
+    "event_name",
+    "event_type",
+    "start_date",
+    "end_date",
+    "capacity",
+    "registration_fee",
+    "is_cancelled",
+    "pool_facility_id"
+   ]
+  },
+  {
+   "name": "facilities_members",
+   "rows": 8,
+   "columns": [
+    "pool_facility_id",
+    "pool_staff_member_id"
+   ]
+  },
+  {
+   "name": "facilities_activities",
+   "rows": 8,
+   "columns": [
+    "pool_facility_id",
+    "maintenance_activity_id"
+   ]
+  },
+  {
+   "name": "facilities_events",
+   "rows": 8,
+   "columns": [
+    "pool_facility_id",
+    "aquatic_event_id"
+   ]
+  },
+  {
+   "name": "members_certifications",
+   "rows": 8,
+   "columns": [
+    "pool_staff_member_id",
+    "safety_certification_id"
+   ]
+  },
+  {
+   "name": "certifications_members",
+   "rows": 8,
+   "columns": [
+    "safety_certification_id",
+    "pool_staff_member_id"
+   ]
+  },
+  {
+   "name": "activities_equipments",
+   "rows": 8,
+   "columns": [
+    "maintenance_activity_id",
+    "pool_equipment_id"
+   ]
+  },
+  {
+   "name": "equipments_activities",
+   "rows": 8,
+   "columns": [
+    "pool_equipment_id",
+    "maintenance_activity_id"
+   ]
+  },
+  {
+   "name": "events_members",
+   "rows": 8,
+   "columns": [
+    "aquatic_event_id",
+    "pool_staff_member_id"
+   ]
+  },
+  {
+   "name": "events_activities",
+   "rows": 8,
+   "columns": [
+    "aquatic_event_id",
+    "maintenance_activity_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_pool_facility_pool_staff_member_detail",
+  "v_pool_facility_maintenance_activity_detail",
+  "v_pool_facility_aquatic_event_detail",
+  "v_pool_staff_member_pool_staff_member",
+  "v_pool_staff_member_pool_facility",
+  "v_pool_staff_member_safety_certification_detail",
+  "v_safety_certification_pool_staff_member_detail",
+  "v_maintenance_activity_pool_facility",
+  "v_maintenance_activity_pool_staff_member",
+  "v_maintenance_activity_pool_equipment_detail",
+  "v_pool_equipment_pool_facility",
+  "v_pool_equipment_pool_staff_member",
+  "v_pool_equipment_maintenance_activity_detail",
+  "v_aquatic_event_pool_facility",
+  "v_aquatic_event_pool_staff_member_detail",
+  "v_aquatic_event_maintenance_activity_detail"
+ ]
+}

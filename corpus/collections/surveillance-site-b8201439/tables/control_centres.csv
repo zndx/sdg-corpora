@@ -1,0 +1,5 @@
+id,centre_identifier,centre_name,jurisdiction,centre_type,established_date,is_primary
+1000,CEN-2480,Regional Cluster,regional-jurisdic-30,fixed,2024-03-27,true
+1001,CEN-2487,Seasonal Review D,legacy-jurisdic-31,deployable,2025-08-11,false
+1002,CEN-2494,Integrated Initiative,compact-jurisdic-32,mobile,2022-01-22,true
+1003,CEN-2501,Extended Model,composite-jurisdic-33,fixed,2023-06-06,false

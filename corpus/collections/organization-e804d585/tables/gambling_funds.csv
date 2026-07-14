@@ -1,0 +1,5 @@
+id,fund_id,fund_amount,currency_code,source_activity_id,restriction_status,gambling_activity_id,campaign_id
+100,3158147,11.11,gd_fp_eu_acc3,gd_taxc_1113,restricted_from_political_use,100,1
+101,6510,29.24,managing-resources,8843764,unrestricted,101,2
+102,lu_tax_code_template_m_I,12.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,69423,pending_allocation,102,3
+103,3990185,22.35,10445649,4716393,restricted_from_political_use,103,4

@@ -1,0 +1,5 @@
+id,name,required_credits,status,degree_program_id
+1,Extended Review,27,COMPLETE,100
+2,Pilot Initiative A,36,IN PROGRESS,101
+3,Baseline Model,45,WAIVED,102
+4,Distributed Cluster,54,NOT STARTED,103

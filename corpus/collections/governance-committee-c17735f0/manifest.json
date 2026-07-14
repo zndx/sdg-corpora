@@ -1,0 +1,129 @@
+{
+ "construct_id": "c17735f02db6e81d",
+ "slug": "governance-committee-c17735f0",
+ "passage": "c17735f02db6e81dcf0fab2b0b3c9abd464e20495b338aeaaa1d7fb192bc238e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "GovernanceCommittee",
+  "GovernanceDomain",
+  "GovernanceMember",
+  "BusinessUnit",
+  "GovernancePolicy"
+ ],
+ "terms": [
+  {
+   "name": "GovernanceCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernanceDomain",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernanceMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BusinessUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernancePolicy",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "governance_committees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "committee_name",
+    "establishment_date",
+    "primary_objective",
+    "is_cross_functional",
+    "reporting_frequency",
+    "governance_domain_id"
+   ]
+  },
+  {
+   "name": "governance_domains",
+   "rows": 4,
+   "columns": [
+    "governance_domain_id",
+    "domain_name",
+    "domain_code",
+    "regulatory_basis",
+    "is_mandatory",
+    "governance_committee_id",
+    "unit_i_d"
+   ]
+  },
+  {
+   "name": "governance_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_i_d",
+    "role_title",
+    "is_external",
+    "certification_type",
+    "appointment_date",
+    "governance_committee_id",
+    "unit_i_d"
+   ]
+  },
+  {
+   "name": "business_units",
+   "rows": 4,
+   "columns": [
+    "unit_i_d",
+    "unit_name",
+    "unit_type",
+    "is_subsidiary",
+    "last_audit_date",
+    "governance_member_id",
+    "governance_committee_id"
+   ]
+  },
+  {
+   "name": "governance_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_i_d",
+    "policy_title",
+    "effective_date",
+    "issuing_authority",
+    "compliance_status",
+    "unit_i_d",
+    "governance_domain_id"
+   ]
+  },
+  {
+   "name": "committees_members",
+   "rows": 8,
+   "columns": [
+    "governance_committee_id",
+    "governance_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_governance_committee_governance_domain",
+  "vw_governance_committee_governance_member_detail",
+  "vw_governance_domain_governance_committee",
+  "vw_governance_domain_business_unit",
+  "vw_governance_member_governance_committee",
+  "vw_governance_member_business_unit",
+  "vw_business_unit_governance_member",
+  "vw_business_unit_governance_committee",
+  "vw_governance_policy_business_unit",
+  "vw_governance_policy_governance_domain"
+ ]
+}

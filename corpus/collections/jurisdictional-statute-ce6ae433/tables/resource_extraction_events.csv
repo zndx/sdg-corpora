@@ -1,0 +1,5 @@
+id,event_identifier,measurement_date_time,volume_barrels,volume_thousand_cubic_feet,pressure_p_s_i,fluid_type,extraction_well_id,land_parcel_id,jurisdictional_statute_id
+1,EVE-2706,2023-06-16T05:39:00,21.45,6.20,3.45,crude_oil,1,1000,100
+2,EVE-2707,2024-11-27T12:56:00,24.90,9.40,5.90,natural_gas,2,1001,101
+3,EVE-2708,2025-04-11T19:13:00,28.35,12.60,8.35,produced_water,3,1002,102
+4,EVE-2709,2022-09-22T02:30:00,31.80,15.80,10.80,mixed,4,1003,103

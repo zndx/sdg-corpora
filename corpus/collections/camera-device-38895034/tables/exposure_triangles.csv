@@ -1,0 +1,5 @@
+exposure_triangle_id,triangle_identifier,shutter_speed,aperture_value,iso_setting,exposure_value,is_balanced,image_capture_id
+1,TRI-2171,1.25,16.45,8,6.95,true,1
+2,TRI-2177,0.2866154649074,18.90,16,9.90,false,2
+3,TRI-2183,0.47,21.35,24,12.85,true,3
+4,TRI-2189,0.6,23.80,32,15.80,false,4

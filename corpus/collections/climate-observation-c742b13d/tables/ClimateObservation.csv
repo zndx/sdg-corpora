@@ -1,0 +1,5 @@
+observationId,recordedAt,variableType,value,unit,status,zoneId,reportId
+2986222,2024-03-06T02:06:00,seaSurfaceTemperature,19.95,distributed-unit-18,measured,937724,1
+605970,2025-08-17T09:23:00,airTemperature,21.90,baseline-unit-19,estimated,99504,2
+6564399,2022-01-01T16:40:00,rainfall,23.85,pilot-unit-20,projected,10207142,3
+9125614,2023-06-12T23:57:00,windVelocity,25.80,extended-unit-21,measured,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,4

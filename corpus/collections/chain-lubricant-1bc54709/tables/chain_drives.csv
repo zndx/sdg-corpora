@@ -1,0 +1,5 @@
+drive_id,drive_type,is_critical_operation,installation_date,lubricant_id,operating_condition_id,created_at
+505996,distributed-drive-96,true,2022-01-10T00:12:00,8928502,100,2025-01-01 00:14:00
+9424933,baseline-drive-97,false,2023-06-21T07:29:00,5f940350-8fcd-11eb-924d-9cd76263cbd0,101,2025-02-06 03:14:00
+6926357,pilot-drive-98,true,2024-11-05T14:46:00,c8a7d91b-e587-45b4-bae6-0c0a51b6241b,102,2025-03-11 06:14:00
+ChIJkXWylYht5kcRUCfYt4dK_wU,extended-drive-99,false,2025-04-16T21:03:00,1437589,103,2025-04-16 09:14:00

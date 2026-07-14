@@ -1,0 +1,5 @@
+v_p_n_gateway_id,gateway_id,location,region,max_concurrent_users,encryption_protocol,status,capacity_utilization,corporate_network_id,equipment_id
+1,9085257,New York,NA,33,IPsec,Active,7.20,1,128
+2,1996915,Houston,EMEA,43,SSL,Maintenance,9.40,2,lu_tax_code_template_m_I_2
+3,3001009030300,Sacramento,LATAM,53,IPsec,Offline,11.60,3,1336190
+4,884341,London,APAC,63,SSL,Active,13.80,4,611514

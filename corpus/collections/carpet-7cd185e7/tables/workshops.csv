@@ -1,0 +1,5 @@
+id,workshop_id,location,established_date,patron,specialization,production_volume,operational_status,market_region_id
+1,8928498,extended-location-99,2024-03-27T14:30:00,Ottoman Court,pile carpets,15,active,1
+2,12383516,integrated-location-100,2025-08-11T21:47:00,Safavid Court,kilims,25,closed,2
+3,9424920,seasonal-location-101,2022-01-22T04:04:00,Ottoman Court,designer rugs,35,active,3
+4,2986231,regional-location-102,2023-06-06T11:21:00,Safavid Court,pile carpets,45,closed,4

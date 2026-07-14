@@ -1,0 +1,5 @@
+legal_outcome_id,outcome_type,date_issued,sentence_length,fine_amount,is_appealed,legal_case_id,legal_statute_id
+1,Sentence,2023-10-10T09:39:00,27,29.99,false,1,1
+2,Ruling,2024-03-21T16:56:00,32,16.11,true,2,2
+3,Finding,2025-08-05T23:13:00,37,32.21,false,3,3
+4,Dismissal,2022-01-16T06:30:00,42,35.45,true,4,4

@@ -1,0 +1,5 @@
+event_id,location,start_time,end_time,activity_type,weather_condition,location_id
+2002007020060,extended-location-99,2024-03-27T14:42:00,2023-02-26T13:27:00,conversation,sunny,1
+168535,integrated-location-100,2025-08-11T21:59:00,2024-07-10T20:44:00,swimming,cloudy,2
+ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,seasonal-location-101,2022-01-22T04:16:00,2025-12-21T03:01:00,shopping,rainy,3
+1186089,regional-location-102,2023-06-06T11:33:00,2022-05-05T10:18:00,sliding,warm,4

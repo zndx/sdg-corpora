@@ -1,0 +1,5 @@
+id,approval_id,approval_standard,approval_granted_date,date_authorized,revision_request,issuing_organization,issuing_officer,issuing_officer_title,manufacturer_id
+100,17629497,primary-approval-10,2023-02-11T01:27:00,2024-11-16T10:30:00,baseline-revision-97,Alphabet Inc Class A,extended-issuing-21,Regional Corridor,1
+101,3355765,adaptive-approval-11,2024-07-22T08:44:00,2025-04-27T17:47:00,pilot-revision-98,ITT Industries,integrated-issuing-22,Seasonal Series D,2
+102,18175211,distributed-approval-12,2025-12-06T15:01:00,2022-09-11T00:04:00,extended-revision-99,Switch Card Services Ltd.,seasonal-issuing-23,Integrated Assessment,3
+103,6564391,baseline-approval-13,2022-05-17T22:18:00,2023-02-22T07:21:00,integrated-revision-100,Buypass AS,regional-issuing-24,Extended Survey,4

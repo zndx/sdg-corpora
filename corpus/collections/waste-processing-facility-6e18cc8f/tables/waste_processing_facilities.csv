@@ -1,0 +1,5 @@
+waste_processing_facility_id,facility_id,facility_name,location,capacity_tons_per_day,operational_status,commissioning_date,waste_stream_id,energy_output_id
+1000,69447,Integrated Protocol A,extended-location-99,1.70,active,2025-12-03,100,1
+1001,1040,Extended Programme,integrated-location-100,3.40,inactive,2022-05-14,101,2
+1002,2986228,Pilot Standard,seasonal-location-101,5.10,under_maintenance,2023-10-25,102,3
+1003,ChIJvSxSbfdv5kcRanVzI8RRu20,Baseline Framework D,regional-location-102,6.80,active,2024-03-09,103,4

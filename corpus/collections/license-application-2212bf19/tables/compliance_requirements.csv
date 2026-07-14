@@ -1,0 +1,5 @@
+requirement_id,category,legal_reference,is_mandatory,regulatory_authority_id
+778568,AML_CFT,composite-legal-63,true,1
+lu_tax_code_template_b_VB-EC-0,financial_integrity,primary-legal-64,false,2
+99901,IT_security,adaptive-legal-65,true,3
+5917277,accounting_standards,distributed-legal-66,false,4

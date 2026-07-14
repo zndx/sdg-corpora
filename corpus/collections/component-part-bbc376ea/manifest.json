@@ -1,0 +1,124 @@
+{
+ "construct_id": "bbc376ea908fe23c",
+ "slug": "component-part-bbc376ea",
+ "passage": "bbc376ea908fe23ca8a42a455a152c46e369f06d3503544b708cdf21bb767eb5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 7,
+ "entities": [
+  "ComponentPart",
+  "ElectricalSpecification",
+  "ElectricalRating",
+  "MechanicalSpecification",
+  "ScreeningStandard"
+ ],
+ "terms": [
+  {
+   "name": "ComponentPart",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ElectricalSpecification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ElectricalRating",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MechanicalSpecification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ScreeningStandard",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "component_parts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "part_number",
+    "base_part_number",
+    "suffix",
+    "case_style",
+    "marking_style",
+    "is_ro_hs_compliant",
+    "is_high_reliability",
+    "screening_standard",
+    "electrical_specification_id",
+    "mechanical_specification_id",
+    "electrical_rating_id"
+   ]
+  },
+  {
+   "name": "electrical_specifications",
+   "rows": 4,
+   "columns": [
+    "electrical_specification_id",
+    "test_ambient_temperature",
+    "test_condition_description",
+    "blocking_voltage_rating",
+    "dc_on_state_current",
+    "repetitive_peak_on_state_current",
+    "peak_surge_current",
+    "peak_gate_current",
+    "average_gate_current",
+    "reverse_gate_voltage",
+    "junction_temperature_range",
+    "component_part_id"
+   ]
+  },
+  {
+   "name": "electrical_ratings",
+   "rows": 4,
+   "columns": [
+    "electrical_rating_id",
+    "symbol",
+    "value",
+    "unit",
+    "condition",
+    "is_repetitive",
+    "is_surge",
+    "component_part_id"
+   ]
+  },
+  {
+   "name": "mechanical_specifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_style",
+    "marking_style",
+    "pinout_description",
+    "storage_temperature_range",
+    "component_part_id"
+   ]
+  },
+  {
+   "name": "screening_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_code",
+    "level",
+    "description",
+    "component_part_id"
+   ]
+  }
+ ],
+ "views": [
+  "component_part_electrical_specification_view",
+  "component_part_mechanical_specification_view",
+  "component_part_electrical_rating_view",
+  "electrical_specification_component_part_view",
+  "electrical_rating_component_part_view",
+  "mechanical_specification_component_part_view",
+  "screening_standard_component_part_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,orgId,orgName,orgType,locationCity,locationState,foundedDate,bedCount,outputId
+1000,790471,Extended Review,hospital,seasonal-location-23,composite-location-93,2024-03-15,19,1
+1001,1717,Pilot Initiative A,clinic,regional-location-24,primary-location-94,2025-08-26,75,2
+1002,69437,Baseline Model,health_system,legacy-location-25,adaptive-location-95,2022-01-10,2,3
+1003,m16,Distributed Cluster,non_profit,compact-location-26,distributed-location-96,2023-06-21,17,4

@@ -1,0 +1,5 @@
+id,member_name,member_email,is_former_member,membership_duration_months,membership_type,membership_transfer_request_id,is_recipient_of_membership_transfer_request_id
+1000,Stephanie Higgins,composite-member-87,true,29,individual,1,1
+1001,Stephanie Sutton,primary-member-88,false,36,lifetime,2,2
+1002,Michael Oconnell,adaptive-member-89,true,43,individual,3,3
+1003,Theodore Mcgrath,distributed-member-90,false,50,lifetime,4,4

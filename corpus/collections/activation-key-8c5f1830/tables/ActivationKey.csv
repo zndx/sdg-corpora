@@ -1,0 +1,5 @@
+id,keyString,issuedDate,licenseType,licensePeriodStart,licensePeriodEnd,maxConcurrentSessions,softwareId,customerRegistrationNumber
+1,pilot-key-20,2022-09-24T20:24:00,SUSM,2025-08-27,2023-10-22,36,1,REG-2136
+2,extended-key-21,2023-02-08T03:41:00,Concurrent,2022-01-11,2024-03-06,44,2,REG-2142
+3,integrated-key-22,2024-07-19T10:58:00,SUSM,2023-06-22,2025-08-17,52,3,REG-2148
+4,seasonal-key-23,2025-12-03T17:15:00,Concurrent,2024-11-06,2022-01-01,60,4,REG-2154

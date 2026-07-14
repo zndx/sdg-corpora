@@ -1,0 +1,5 @@
+advertising_network_id,network_id,network_name,network_type,coverage_area,active_status,monthly_impressions,subsidiary_id,publication_id
+1,e6196808-8fd1-11eb-924d-9cd76263cbd0,Seasonal Programme,integrated-network-10,extended-coverage-87,false,25,1,1
+2,7441146,Integrated Standard,seasonal-network-11,integrated-coverage-88,true,32,2,2
+3,8387535,Extended Framework D,regional-network-12,seasonal-coverage-89,false,39,3,3
+4,6589,Pilot Protocol,legacy-network-13,regional-coverage-90,true,46,4,4

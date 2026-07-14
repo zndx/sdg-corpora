@@ -1,0 +1,5 @@
+technician_id,tech_id,full_name,hourly_rate,skill_level,is_owner,daily_tasks_completed,auto_repair_shop_id,repair_job_id
+1,b350e544-8fcd-11eb-924d-9cd76263cbd0,Theodore Mcgrath,13.45,entry_level,Nathaniel Hood,4,1,1000
+2,7441163,Account Name,17.90,basic,Michelle Kelley,8,2,1001
+3,2839497,Saipan International Airport,22.35,master,Kimberly Maynard,12,3,1002
+4,9125641,Norma Fisher,26.80,entry_level,Theodore Mcgrath,16,4,1003

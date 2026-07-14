@@ -1,0 +1,5 @@
+id,model_id,architecture_type,accuracy,training_date,clinical_profile_id
+1,1562845,feed_forward_back_propagation,17.20,2025-12-24,1
+2,10039,cascade_forward_back_propagation,21.40,2022-05-08,2
+3,d3c3d00e-8fb2-11eb-924d-9cd76263cbd0,feed_forward_back_propagation,25.60,2023-10-19,3
+4,gd_taxr_3,cascade_forward_back_propagation,29.80,2024-03-03,4

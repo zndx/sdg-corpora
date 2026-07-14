@@ -1,0 +1,208 @@
+{
+ "construct_id": "ff66dccb66d47e31",
+ "slug": "housing-advisory-case-ff66dccb",
+ "passage": "ff66dccb66d47e3109941481e7a411c3c17587ca1dcd8e527001851b61366ae6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 18,
+ "entities": [
+  "HousingAdvisoryCase",
+  "HousingSpecialist",
+  "HousingClient",
+  "TrainingModule",
+  "HousingAdviser",
+  "NHAS",
+  "LegalTopic"
+ ],
+ "terms": [
+  {
+   "name": "HousingAdvisoryCase",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HousingSpecialist",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HousingClient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TrainingModule",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HousingAdviser",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NHAS",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalTopic",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "hous_housing_advisory_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_id",
+    "case_type",
+    "status",
+    "priority_level",
+    "referral_source",
+    "date_opened",
+    "date_closed",
+    "housing_specialist_id",
+    "housing_client_id",
+    "module_id"
+   ]
+  },
+  {
+   "name": "hous_housing_specialists",
+   "rows": 4,
+   "columns": [
+    "id",
+    "specialist_id",
+    "full_name",
+    "specialization",
+    "employment_status",
+    "certification_level",
+    "contact_email",
+    "contact_phone",
+    "module_id",
+    "n_h_a_s_id"
+   ]
+  },
+  {
+   "name": "hous_housing_clients",
+   "rows": 4,
+   "columns": [
+    "housing_client_id",
+    "client_id",
+    "household_size",
+    "current_housing_status",
+    "primary_need",
+    "date_of_referral",
+    "has_dependents",
+    "housing_advisory_case_id"
+   ]
+  },
+  {
+   "name": "hous_training_modules",
+   "rows": 4,
+   "columns": [
+    "module_id",
+    "title",
+    "delivery_mode",
+    "level",
+    "duration_hours",
+    "is_free",
+    "last_updated",
+    "housing_specialist_id",
+    "topic_id"
+   ]
+  },
+  {
+   "name": "hous_housing_advisers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "adviser_id",
+    "full_name",
+    "employer_type",
+    "years_experience",
+    "last_training_date",
+    "contact_email",
+    "module_id",
+    "housing_advisory_case_id",
+    "n_h_a_s_id"
+   ]
+  },
+  {
+   "name": "hous_n_h_a_ses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_id",
+    "funding_source",
+    "operating_hours",
+    "is_free",
+    "established_year",
+    "module_id"
+   ]
+  },
+  {
+   "name": "hous_legal_topics",
+   "rows": 4,
+   "columns": [
+    "topic_id",
+    "topic_name",
+    "category",
+    "last_reviewed",
+    "is_current",
+    "module_id",
+    "housing_advisory_case_id"
+   ]
+  },
+  {
+   "name": "hous_housing_specialistsHousingAdvisoryCase",
+   "rows": 8,
+   "columns": [
+    "housing_specialist_id",
+    "housing_advisory_case_id"
+   ]
+  },
+  {
+   "name": "hous_training_modulesHousingAdviser",
+   "rows": 8,
+   "columns": [
+    "module_id",
+    "housing_adviser_id"
+   ]
+  },
+  {
+   "name": "hous_n_h_a_sesHousingSpecialist",
+   "rows": 8,
+   "columns": [
+    "n_h_a_s_id",
+    "housing_specialist_id"
+   ]
+  },
+  {
+   "name": "hous_n_h_a_sesHousingAdviser",
+   "rows": 8,
+   "columns": [
+    "n_h_a_s_id",
+    "housing_adviser_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_housing_advisory_case_housing_specialist",
+  "v_housing_advisory_case_housing_client",
+  "v_housing_advisory_case_training_module",
+  "v_housing_specialist_housing_advisory_case_detail",
+  "v_housing_specialist_training_module",
+  "v_housing_specialist_n_h_a_s",
+  "v_housing_client_housing_advisory_case",
+  "v_training_module_housing_specialist",
+  "v_training_module_housing_adviser_detail",
+  "v_training_module_legal_topic",
+  "v_housing_adviser_training_module",
+  "v_housing_adviser_housing_advisory_case",
+  "v_housing_adviser_n_h_a_s",
+  "v_n_h_a_s_housing_specialist_detail",
+  "v_n_h_a_s_housing_adviser_detail",
+  "v_n_h_a_s_training_module",
+  "v_legal_topic_training_module",
+  "v_legal_topic_housing_advisory_case"
+ ]
+}

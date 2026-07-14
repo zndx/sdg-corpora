@@ -1,0 +1,195 @@
+{
+ "construct_id": "b2684e944f7ab6d9",
+ "slug": "workplace-award-b2684e94",
+ "passage": "b2684e944f7ab6d912db7753cc63d44f919f9245f26d74fabbe171b0dafb2b09.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 18,
+ "entities": [
+  "WorkplaceAward",
+  "EmployeeFeedbackSurvey",
+  "WorkplaceCultureDimension",
+  "OrganizationalHealth",
+  "Organization",
+  "PartnerOrganization",
+  "IndustrySector"
+ ],
+ "terms": [
+  {
+   "name": "WorkplaceAward",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EmployeeFeedbackSurvey",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WorkplaceCultureDimension",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "OrganizationalHealth",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PartnerOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IndustrySector",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "workplace_awards",
+   "rows": 4,
+   "columns": [
+    "workplace_award_id",
+    "award_id",
+    "award_year",
+    "rank",
+    "category",
+    "issuing_organization",
+    "survey_methodology",
+    "is_repeat_winner",
+    "organization_id",
+    "employee_feedback_survey_id"
+   ]
+  },
+  {
+   "name": "employee_feedback_surveys",
+   "rows": 4,
+   "columns": [
+    "employee_feedback_survey_id",
+    "survey_id",
+    "administered_by",
+    "number_of_employees",
+    "number_of_organizations",
+    "measurement_aspects",
+    "survey_date",
+    "response_rate",
+    "organization_id",
+    "workplace_award_id"
+   ]
+  },
+  {
+   "name": "workplace_culture_dimensions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dimension_id",
+    "dimension_name",
+    "description",
+    "measurement_scale",
+    "is_core_metric",
+    "employee_feedback_survey_id",
+    "health_id"
+   ]
+  },
+  {
+   "name": "organizational_healths",
+   "rows": 4,
+   "columns": [
+    "health_id",
+    "organization_id",
+    "health_score",
+    "assessment_date",
+    "health_status",
+    "improvement_areas",
+    "assessed_for_organization_id",
+    "workplace_award_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "founding_year",
+    "headquarters_location",
+    "industry_sector",
+    "membership_level",
+    "is_b_corp",
+    "workplace_award_id",
+    "employee_feedback_survey_id",
+    "health_id",
+    "partner_organization_id"
+   ]
+  },
+  {
+   "name": "partner_organizations",
+   "rows": 4,
+   "columns": [
+    "partner_organization_id",
+    "partner_id",
+    "partner_name",
+    "partnership_type",
+    "membership_level",
+    "start_date",
+    "organization_id",
+    "industry_sector_id"
+   ]
+  },
+  {
+   "name": "industry_sectors",
+   "rows": 4,
+   "columns": [
+    "industry_sector_id",
+    "sector_id",
+    "sector_name",
+    "description",
+    "is_public_sector",
+    "organization_id",
+    "partner_organization_id"
+   ]
+  },
+  {
+   "name": "surveys_dimensions",
+   "rows": 8,
+   "columns": [
+    "employee_feedback_survey_id",
+    "workplace_culture_dimension_id"
+   ]
+  },
+  {
+   "name": "healths_dimensions",
+   "rows": 8,
+   "columns": [
+    "health_id",
+    "workplace_culture_dimension_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_workplace_award_organization",
+  "vw_workplace_award_employee_feedback_survey",
+  "vw_employee_feedback_survey_workplace_culture_dimension_detail",
+  "vw_employee_feedback_survey_organization",
+  "vw_employee_feedback_survey_workplace_award",
+  "vw_workplace_culture_dimension_employee_feedback_survey",
+  "vw_workplace_culture_dimension_organizational_health",
+  "vw_organizational_health_organization",
+  "vw_organizational_health_workplace_culture_dimension_detail",
+  "vw_organizational_health_workplace_award",
+  "vw_organization_workplace_award",
+  "vw_organization_employee_feedback_survey",
+  "vw_organization_organizational_health",
+  "vw_organization_partner_organization",
+  "vw_partner_organization_organization",
+  "vw_partner_organization_industry_sector",
+  "vw_industry_sector_organization",
+  "vw_industry_sector_partner_organization"
+ ]
+}

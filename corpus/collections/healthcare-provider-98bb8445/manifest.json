@@ -1,0 +1,107 @@
+{
+ "construct_id": "98bb84450c7e9525",
+ "slug": "healthcare-provider-98bb8445",
+ "passage": "98bb84450c7e95258f42f47010b17aa79ff8f117c37c301761ed4254d5ec525a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 5,
+ "entities": [
+  "HealthcareProvider",
+  "Patient",
+  "DisclosureEvent",
+  "Recipient",
+  "SupportResource"
+ ],
+ "terms": [
+  {
+   "name": "HealthcareProvider",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DisclosureEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Recipient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SupportResource",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "HealthcareProvider",
+   "rows": 4,
+   "columns": [
+    "providerId",
+    "providerName",
+    "specialty",
+    "contactInfo"
+   ]
+  },
+  {
+   "name": "Patient",
+   "rows": 4,
+   "columns": [
+    "id",
+    "patientId",
+    "patientName",
+    "diagnosisDate",
+    "ageAtDiagnosis",
+    "providerId"
+   ]
+  },
+  {
+   "name": "DisclosureEvent",
+   "rows": 4,
+   "columns": [
+    "id",
+    "eventId",
+    "disclosureDate",
+    "disclosureMethod",
+    "disclosureOutcome",
+    "patientId",
+    "recipientId"
+   ]
+  },
+  {
+   "name": "Recipient",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recipientId",
+    "recipientName",
+    "relationshipType",
+    "trustLevel",
+    "patientId"
+   ]
+  },
+  {
+   "name": "SupportResource",
+   "rows": 4,
+   "columns": [
+    "resourceId",
+    "resourceName",
+    "resourceType",
+    "availabilityStatus",
+    "patientId"
+   ]
+  }
+ ],
+ "views": [
+  "v_patient_healthcare_provider",
+  "v_disclosure_event_patient",
+  "v_disclosure_event_recipient",
+  "v_recipient_patient",
+  "v_support_resource_patient"
+ ]
+}

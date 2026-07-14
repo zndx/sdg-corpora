@@ -1,0 +1,5 @@
+id,pollutant_id,pollutant_name,source_type,toxicity_level,regulatory_limit,health_impact_category,source_id,vulnerable_population_id,created_at
+100,2087746,Integrated Series A,building_materials,low,7.95,respiratory,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,1,2025-01-01 00:14:00
+101,129,Extended Assessment,fossil_fuel_appliances,moderate,9.90,cognitive,7021001070050,2,2025-02-06 03:14:00
+102,73a5d11c-9bac-11eb-a8a2-19ed5c03f8d3,Pilot Survey,cleaning_products,high,11.85,developmental,achat,3,2025-03-11 06:14:00
+103,3717632,Baseline Corridor D,damp_mould,critical,13.80,cardiovascular,template_impcode_pagata_10det50,4,2025-04-16 09:14:00

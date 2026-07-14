@@ -1,0 +1,5 @@
+healthcare_delivery_id,delivery_id,service_type,complexity_level,patient_needs,effectiveness,c_l_d_n_id,enactment_id,created_at
+100,4060633,community,low,seasonal-patient-35,effective,1,8189497,2025-01-01 00:14:00
+101,48753454,hospital,medium,regional-patient-36,partially_effective,2,1562836,2025-02-06 03:14:00
+102,ba649482-8fbb-11eb-924d-9cd76263cbd0,specialized,high,legacy-patient-37,ineffective,3,575200,2025-03-11 06:14:00
+103,1336176,community,low,compact-patient-38,effective,4,10445649,2025-04-16 09:14:00

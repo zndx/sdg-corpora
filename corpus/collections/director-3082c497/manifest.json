@@ -1,0 +1,110 @@
+{
+ "construct_id": "3082c497263ba7fc",
+ "slug": "director-3082c497",
+ "passage": "3082c497263ba7fc265e0d91b018e085e7146b9c53ba0f64f3c5f87413110cf8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 6,
+ "entities": [
+  "Director",
+  "Board",
+  "BoardCommittee",
+  "CorporateEntity"
+ ],
+ "terms": [
+  {
+   "name": "Director",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Board",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BoardCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CorporateEntity",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Director",
+   "rows": 4,
+   "columns": [
+    "id",
+    "directorId",
+    "fullName",
+    "roleType",
+    "appointmentDate",
+    "status",
+    "boardId",
+    "committeeId"
+   ]
+  },
+  {
+   "name": "Board",
+   "rows": 4,
+   "columns": [
+    "boardId",
+    "establishmentDate",
+    "jurisdiction",
+    "status"
+   ]
+  },
+  {
+   "name": "BoardCommittee",
+   "rows": 4,
+   "columns": [
+    "committeeId",
+    "committeeName",
+    "establishmentDate",
+    "status",
+    "directorId"
+   ]
+  },
+  {
+   "name": "CorporateEntity",
+   "rows": 4,
+   "columns": [
+    "id",
+    "entityId",
+    "legalName",
+    "incorporationDate",
+    "jurisdiction",
+    "stockCode",
+    "entityType",
+    "boardId"
+   ]
+  },
+  {
+   "name": "BoardDirector",
+   "rows": 8,
+   "columns": [
+    "boardId",
+    "directorId"
+   ]
+  },
+  {
+   "name": "BoardCommitteeDirector",
+   "rows": 8,
+   "columns": [
+    "committeeId",
+    "directorId"
+   ]
+  }
+ ],
+ "views": [
+  "v_director_board",
+  "v_director_board_committee",
+  "v_board_director_detail",
+  "v_board_committee_director",
+  "v_board_committee_director_detail",
+  "v_corporate_entity_board"
+ ]
+}

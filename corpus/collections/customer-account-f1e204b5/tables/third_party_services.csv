@@ -1,0 +1,5 @@
+id,service_id,service_name,service_type,contract_start_date,contract_end_date,security_level
+100,1996925,Distributed Initiative,data_processing,2022-01-26,2025-12-07,low
+101,3990164,Adaptive Model D,securities_execution,2023-06-10,2022-05-18,medium
+102,5844258,Primary Cluster,security_safeguard,2024-11-21,2023-10-02,high
+103,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,compliance_monitoring,2025-04-05,2024-03-13,low

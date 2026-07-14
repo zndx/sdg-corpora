@@ -1,0 +1,5 @@
+id,trail_id,generated_timestamp,sender_identity,content_hash,is_verified,data_transaction_id,digital_signature_id
+100,cad8432e-8fcd-11eb-924d-9cd76263cbd0,2023-02-07T01:51:00,legacy-sender-91,integrated-content-40,true,1,1000
+101,48753455,2024-07-18T08:08:00,compact-sender-92,seasonal-content-41,false,2,1001
+102,7731879,2025-12-02T15:25:00,composite-sender-93,regional-content-42,true,3,1002
+103,168539,2022-05-13T22:42:00,primary-sender-94,legacy-content-43,false,4,1003

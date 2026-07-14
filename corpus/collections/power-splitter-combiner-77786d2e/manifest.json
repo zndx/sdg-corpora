@@ -1,0 +1,165 @@
+{
+ "construct_id": "77786d2e5092d93f",
+ "slug": "power-splitter-combiner-77786d2e",
+ "passage": "77786d2e5092d93f9f4af8d0cf4c8309048989f1ee52da631be8fed0e6e945f5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 13,
+ "entities": [
+  "PowerSplitterCombiner",
+  "RFPort",
+  "SignalCharacteristic",
+  "Antenna",
+  "Receiver",
+  "Transformer"
+ ],
+ "terms": [
+  {
+   "name": "PowerSplitterCombiner",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RFPort",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SignalCharacteristic",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Antenna",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Receiver",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Transformer",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "power_splitter_combiners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_identifier",
+    "device_type",
+    "nominal_impedance",
+    "port_count",
+    "isolation_rating",
+    "theoretical_insertion_loss",
+    "phase_relationship",
+    "status",
+    "signal_characteristic_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "r_f_ports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "port_identifier",
+    "port_label",
+    "impedance",
+    "termination_state",
+    "vswr",
+    "power_splitter_combiner_id",
+    "antenna_id",
+    "receiver_id"
+   ]
+  },
+  {
+   "name": "signal_characteristics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "characteristic_type",
+    "value",
+    "unit",
+    "measurement_condition",
+    "status",
+    "power_splitter_combiner_id",
+    "r_f_port_id"
+   ]
+  },
+  {
+   "name": "antennas",
+   "rows": 4,
+   "columns": [
+    "antenna_id",
+    "antenna_identifier",
+    "antenna_type",
+    "resonant_frequency",
+    "impedance",
+    "status",
+    "r_f_port_id",
+    "receiver_id"
+   ]
+  },
+  {
+   "name": "receivers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "receiver_identifier",
+    "receiver_type",
+    "input_impedance",
+    "sensitivity",
+    "status",
+    "r_f_port_id",
+    "antenna_id"
+   ]
+  },
+  {
+   "name": "transformers",
+   "rows": 4,
+   "columns": [
+    "transformer_id",
+    "transformer_identifier",
+    "turns_ratio",
+    "impedance_ratio",
+    "phase_shift",
+    "status",
+    "power_splitter_combiner_id"
+   ]
+  },
+  {
+   "name": "combiners_ports",
+   "rows": 8,
+   "columns": [
+    "power_splitter_combiner_id",
+    "r_f_port_id"
+   ]
+  },
+  {
+   "name": "transformers_ports",
+   "rows": 8,
+   "columns": [
+    "transformer_id",
+    "r_f_port_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_power_splitter_combiner_r_f_port_detail",
+  "v_power_splitter_combiner_signal_characteristic",
+  "v_r_f_port_power_splitter_combiner",
+  "v_r_f_port_antenna",
+  "v_r_f_port_receiver",
+  "v_signal_characteristic_power_splitter_combiner",
+  "v_signal_characteristic_r_f_port",
+  "v_antenna_r_f_port",
+  "v_antenna_receiver",
+  "v_receiver_r_f_port",
+  "v_receiver_antenna",
+  "v_transformer_power_splitter_combiner",
+  "v_transformer_r_f_port_detail"
+ ]
+}

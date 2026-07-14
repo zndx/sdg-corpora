@@ -1,0 +1,5 @@
+underlying_fund_id,underlying_fund_identifier,underlying_fund_name,management_fee_waived,performance_fee_waived,investment_strategy,geographic_focus,asset_class,manager_name,fund_id,benchmark_index_id
+100,UND-2523,Baseline Framework D,true,true,extended-investme-93,extended-geograph-99,legacy-asset-43,Extended Initiative,100,1
+101,UND-2524,Distributed Protocol,false,false,integrated-investme-94,integrated-geograph-100,compact-asset-44,Pilot Model A,101,2
+102,UND-2525,Adaptive Programme,true,true,seasonal-investme-95,seasonal-geograph-101,composite-asset-45,Baseline Cluster,102,3
+103,UND-2526,Primary Standard A,false,false,regional-investme-96,regional-geograph-102,primary-asset-46,Distributed Review,103,4

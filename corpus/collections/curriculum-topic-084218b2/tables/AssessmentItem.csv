@@ -1,0 +1,5 @@
+itemId,itemText,itemType,maxScore,timeLimitSeconds,isPublic,subtopicId
+100,baseline-item-31,multiple_choice,29,31,false,1
+101,pilot-item-32,short_answer,32,35,true,2
+102,extended-item-33,calculation,35,39,false,3
+103,integrated-item-34,proof,38,43,true,4

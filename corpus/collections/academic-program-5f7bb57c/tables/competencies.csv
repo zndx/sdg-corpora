@@ -1,0 +1,5 @@
+id,competency_i_d,competency_title,competency_description,proficiency_level,assessment_type,academic_program_id,professional_role_id,research_activity_id
+1,COM-2721,Adaptive Framework,Primary Corridor A,novice,written,1,100,1
+2,COM-2725,Primary Protocol,Composite Series,proficient,oral,2,101,2
+3,COM-2729,Composite Programme D,Compact Assessment,expert,graphical,3,102,3
+4,COM-2733,Compact Standard,Legacy Survey D,novice,practical,4,103,4

@@ -1,0 +1,5 @@
+special_day_class_teacher_id,credential_type,employee_id,employment_status,salary_schedule,hire_date,last_evaluation_date,supervisory_role,school_site_id
+1000,distributed-credenti-60,Norma Fisher,Active,compact-salary-38,2023-06-01,2024-11-19,false,1
+1001,baseline-credenti-61,Tasha Rodriguez,Inactive,composite-salary-39,2024-11-12,2025-04-03,true,2
+1002,pilot-credenti-62,Theodore Mcgrath,On Leave,primary-salary-40,2025-04-23,2022-09-14,false,3
+1003,extended-credenti-63,Peter Mcdowell,Active,adaptive-salary-41,2022-09-07,2023-02-25,true,4

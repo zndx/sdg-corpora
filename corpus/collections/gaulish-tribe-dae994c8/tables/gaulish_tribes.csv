@@ -1,0 +1,5 @@
+gaulish_tribe_id,tribe_name,primary_occupation,settlement_region,ethnicity,is_celtic,settlement_area_id,ancient_inscription_id,created_at,updated_at
+100,Extended Corridor,composite-primary-39,baseline-settleme-61,primary-ethnicit-28,false,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,Pilot Series A,primary-primary-40,pilot-settleme-62,adaptive-ethnicit-29,true,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,Baseline Assessment,adaptive-primary-41,extended-settleme-63,distributed-ethnicit-30,false,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,Distributed Survey,distributed-primary-42,integrated-settleme-64,baseline-ethnicit-31,true,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

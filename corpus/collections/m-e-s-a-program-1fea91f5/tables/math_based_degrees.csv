@@ -1,0 +1,5 @@
+id,degree_name,requires_consecutive_math,requires_physics_or_chem_or_bio,target_institution
+1,Extended Review,true,false,integrated-target-82
+2,Pilot Initiative A,false,true,seasonal-target-83
+3,Baseline Model,true,false,regional-target-84
+4,Distributed Cluster,false,true,legacy-target-85

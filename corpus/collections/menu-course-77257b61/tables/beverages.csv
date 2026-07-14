@@ -1,0 +1,5 @@
+beverage_id,beverage_identifier,beverage_name,beverage_type,serving_temperature,alcohol_content,menu_course_id,dining_package_id,created_at,updated_at
+100,BEV-2236,Compact Initiative,Cocktail,Chilled,7.70,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,BEV-2237,Legacy Model,Wine,Room Temperature,10.40,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,BEV-2238,Regional Cluster A,Beer,Warm,13.10,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,BEV-2239,Seasonal Review,Non-Alcoholic,Chilled,15.80,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

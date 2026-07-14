@@ -1,0 +1,5 @@
+prescribed_entity_id,entity_identifier,entity_name,prescription_date,approval_status,review_cycle,privacy_review_id,health_information_custodian_id,health_registry_id
+100,ENT-2129,Regional Cluster,2023-02-21T01:03:00,approved,40,1,1000,1000
+101,ENT-2135,Seasonal Review D,2024-07-05T08:20:00,pending,43,2,1001,1001
+102,ENT-2141,Integrated Initiative,2025-12-16T15:37:00,revoked,46,3,1002,1002
+103,ENT-2147,Extended Model,2022-05-27T22:54:00,approved,49,4,1003,1003

@@ -1,0 +1,5 @@
+model_identifier,model_display_name,manufacturer_code,color_variant,trim_level,powertrain_id,chassis_frame_id,suspension_system_id,brake_system_id,wheel_assembly_id,capacity_specification_id
+MOD-2065,Pilot Survey,Whirlpool Corporation,Brown,adaptive-trim-41,1,1,1,1,100,1000
+MOD-2070,Baseline Corridor,Lucas Industries,Chestnut,distributed-trim-42,2,2,2,2,101,1001
+MOD-2075,Distributed Series A,Luddic Path,Orange,baseline-trim-43,3,3,3,3,102,1002
+MOD-2080,Adaptive Assessment,Diners Club Switzerland Ltd,Brown,pilot-trim-44,4,4,4,4,103,1003

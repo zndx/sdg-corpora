@@ -1,0 +1,5 @@
+account_id,reporting_period,total_revenue,total_expenses,net_profit,status,review_date,engagement_id,financial_controller_id
+fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,2023-06-18,29.24,8.20,12.20,Draft,2024-11-03T22:54:00,3717629,1
+10207152,2024-11-02,18.47,12.40,14.40,PendingReview,2025-04-14T05:11:00,1562852,2
+a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,2025-04-13,19.93,16.60,16.60,Approved,2022-09-25T12:28:00,9246331,3
+3717632,2022-09-24,24.09,20.80,18.80,Filed,2023-02-09T19:45:00,32827,4

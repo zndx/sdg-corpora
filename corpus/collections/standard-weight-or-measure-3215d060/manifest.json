@@ -1,0 +1,154 @@
+{
+ "construct_id": "3215d0605fab3200",
+ "slug": "standard-weight-or-measure-3215d060",
+ "passage": "3215d0605fab320027b3419c3f57b08bbb2af66b41587e89acf5a388c5e29479.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "StandardWeightOrMeasure",
+  "SecureStorageFacility",
+  "CertificationAuthority",
+  "FieldStandard",
+  "GovernmentOffice",
+  "WeightsAndMeasuresFunction"
+ ],
+ "terms": [
+  {
+   "name": "StandardWeightOrMeasure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SecureStorageFacility",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CertificationAuthority",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FieldStandard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GovernmentOffice",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WeightsAndMeasuresFunction",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "standard_weight_or_measures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_identifier",
+    "certification_date",
+    "last_certification_date",
+    "next_certification_due_date",
+    "storage_location",
+    "certification_status",
+    "standard_type",
+    "is_primary_standard",
+    "secure_storage_facility_id",
+    "certification_authority_id",
+    "field_standard_id"
+   ]
+  },
+  {
+   "name": "secure_storage_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_identifier",
+    "facility_name",
+    "location_description",
+    "security_level",
+    "access_control_policy",
+    "is_authorized_for_removal",
+    "standard_weight_or_measure_id",
+    "government_office_id"
+   ]
+  },
+  {
+   "name": "certification_authorities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authority_identifier",
+    "authority_name",
+    "certification_protocol",
+    "certification_frequency",
+    "is_federal_agency",
+    "standard_weight_or_measure_id",
+    "issues_certification_for_standard_weight_or_measure_id"
+   ]
+  },
+  {
+   "name": "field_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "field_standard_identifier",
+    "verification_date",
+    "verification_status",
+    "usage_context",
+    "is_portable",
+    "last_calibration_date",
+    "standard_weight_or_measure_id"
+   ]
+  },
+  {
+   "name": "government_offices",
+   "rows": 4,
+   "columns": [
+    "government_office_id",
+    "office_identifier",
+    "office_name",
+    "office_type",
+    "jurisdiction_level",
+    "is_responsible_for_standards",
+    "standard_weight_or_measure_id",
+    "secure_storage_facility_id",
+    "weights_and_measures_function_id"
+   ]
+  },
+  {
+   "name": "weights_and_measures_functions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "function_identifier",
+    "function_name",
+    "function_status",
+    "transfer_date",
+    "original_responsible_office",
+    "current_responsible_office",
+    "government_office_id",
+    "standard_weight_or_measure_id",
+    "field_standard_id"
+   ]
+  }
+ ],
+ "views": [
+  "standard_weight_or_measure_secure_storage_facility_view",
+  "standard_weight_or_measure_certification_authority_view",
+  "standard_weight_or_measure_field_standard_view",
+  "secure_storage_facility_standard_weight_or_measure_view",
+  "secure_storage_facility_government_office_view",
+  "certification_authority_standard_weight_or_measure_view",
+  "field_standard_standard_weight_or_measure_view",
+  "government_office_standard_weight_or_measure_view",
+  "government_office_secure_storage_facility_view",
+  "government_office_weights_and_measures_function_view",
+  "weights_and_measures_function_government_office_view",
+  "weights_and_measures_function_standard_weight_or_measure_view",
+  "weights_and_measures_function_field_standard_view"
+ ]
+}

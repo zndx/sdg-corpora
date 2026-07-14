@@ -1,0 +1,5 @@
+health_information_custodian_id,custodian_id,custodian_name,custodian_type,registration_date,compliance_status,prescribed_entity_id
+1000,5082971,Composite Review,hospital,2023-06-19T17:27:00,compliant,100
+1001,ChIJB4i7Dqpt5kcRfEnfwsHulbU,Compact Initiative A,clinic,2024-11-03T00:44:00,non-compliant,101
+1002,17206951,Legacy Model,lab,2025-04-14T07:01:00,pending,102
+1003,state_uk_14,Regional Cluster,other,2022-09-25T14:18:00,compliant,103

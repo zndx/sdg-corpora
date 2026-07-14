@@ -1,0 +1,5 @@
+id,awardId,awardType,estimatedAmount,isWithinAnnualLimit,isWithinAggregateLimit,disbursementStatus,studentId,applicationId,resourceId
+1,e02275d4-8fd1-11eb-924d-9cd76263cbd0,Direct_Unsubsidized,13.49,false,true,pending,100,100,1167
+2,3012811,Direct_Plus,10.72,true,false,disbursed,101,101,2106708
+3,15493350,Graduate_Assistantship,25.36,false,true,adjusted,102,102,4180945
+4,state_uk_17,Fellowship,18.47,true,false,pending,103,103,10238270

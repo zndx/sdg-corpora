@@ -1,0 +1,5 @@
+medical_professional_id,professional_i_d,full_name,medical_license_number,employment_status,specialty,ethical_decision_id,course_id
+1000,PRO-2325,Theodore Mcgrath,MED-2242,FULL_TIME,extended-specialt-21,1,1
+1001,PRO-2330,Account Name,MED-2246,PART_TIME,integrated-specialt-22,2,2
+1002,PRO-2335,Saipan International Airport,MED-2250,CONTRACT,seasonal-specialt-23,3,3
+1003,PRO-2340,Norma Fisher,MED-2254,FULL_TIME,regional-specialt-24,4,4

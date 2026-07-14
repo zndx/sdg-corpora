@@ -1,0 +1,5 @@
+programmeId,programmeName,subjectArea,targetAgeGroup,isCore,isVocational,sequencingStrategy,phonicsApproach,siteId,enrolmentId,activityId,outcomeId
+1,Extended Standard,mathematics,primary,false,true,spiral,consistent,1,1,100,100
+2,Pilot Framework A,reading,secondary,true,false,linear,inconsistent,2,2,101,101
+3,Baseline Protocol,vocational,sixth form,false,true,modular,not applicable,3,3,102,102
+4,Distributed Programme,personal development,primary,true,false,spiral,consistent,4,4,103,103

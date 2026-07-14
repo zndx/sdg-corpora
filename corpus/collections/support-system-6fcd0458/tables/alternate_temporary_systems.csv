@@ -1,0 +1,5 @@
+alternate_temporary_system_id,ats_identifier,deployment_date,removal_date,acceptability_status,evaluation_criteria_met,support_system_id,evaluation_id
+1,ATS-2400,2023-02-14T13:51:00,2024-11-27T22:18:00,Accepted,true,1,comi
+2,ATS-2404,2024-07-25T20:08:00,2025-04-11T05:35:00,PendingEvaluation,false,2,eff2857c-8fcb-11eb-924d-9cd76263cbd0
+3,ATS-2408,2025-12-09T03:25:00,2022-09-22T12:52:00,Rejected,true,3,1210-0007-S
+4,ATS-2412,2022-05-20T10:42:00,2023-02-06T19:09:00,Accepted,false,4,727042

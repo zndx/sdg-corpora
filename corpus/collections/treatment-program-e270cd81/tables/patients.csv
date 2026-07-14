@@ -1,0 +1,5 @@
+patient_id,admission_date,discharge_date,risk_category,substance_history,offense_history,priority_status,demographic_group,treatment_program_id,service_code,risk_assessment_id,payment_source_id
+8387541,2023-06-22T05:39:00,2022-09-02T08:24:00,high_risk,significant,significant,true,adolescent,1,20789856,1,1
+10207142,2024-11-06T12:56:00,2023-02-13T15:41:00,moderate_risk,minimal,minimal,false,pregnant_woman,2,3990167,2,2
+7119782,2025-04-17T19:13:00,2024-07-24T22:58:00,low_risk,none,none,true,veteran,3,14484998,3,3
+gd_acc_160003,2022-09-01T02:30:00,2025-12-08T05:15:00,high_risk,significant,significant,false,iv_drug_user,4,Total,4,4

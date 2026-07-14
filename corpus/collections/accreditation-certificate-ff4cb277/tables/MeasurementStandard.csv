@@ -1,0 +1,5 @@
+id,standardIdentifier,standardType,manufacturer,calibrationDueDate,status,capabilityId
+1,STA-2646,extended-standard-27,Standard Chartered,2023-06-04,active,1
+2,STA-2649,integrated-standard-28,General Motors,2024-11-15,out_of_service,2
+3,STA-2652,seasonal-standard-29,Column Name cannot be empty,2025-04-26,pending_calibration,3
+4,STA-2655,regional-standard-30,Financial Information Service Co. Ltd.,2022-09-10,active,4

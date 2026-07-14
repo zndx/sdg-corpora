@@ -1,0 +1,242 @@
+{
+ "construct_id": "e000a0d6168a354f",
+ "slug": "tournament-e000a0d6",
+ "passage": "e000a0d6168a354fc35cebb2fd63ab8eb4819e4d749ecac0f6a7d1698e8514b9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 24,
+ "entities": [
+  "Tournament",
+  "Player",
+  "Team",
+  "TeamCaptain",
+  "TournamentDirector",
+  "ChessGame",
+  "MoveCard",
+  "Dispute"
+ ],
+ "terms": [
+  {
+   "name": "Tournament",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Player",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Team",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TeamCaptain",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TournamentDirector",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ChessGame",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MoveCard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Dispute",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "tournaments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tournament_id",
+    "start_date",
+    "end_date",
+    "format",
+    "status",
+    "time_control",
+    "td_id",
+    "captain_id"
+   ]
+  },
+  {
+   "name": "players",
+   "rows": 4,
+   "columns": [
+    "id",
+    "player_id",
+    "full_name",
+    "email",
+    "country",
+    "rating",
+    "status",
+    "tournament_id",
+    "game_id",
+    "team_id"
+   ]
+  },
+  {
+   "name": "teams",
+   "rows": 4,
+   "columns": [
+    "team_id",
+    "team_name",
+    "country",
+    "captain_id",
+    "has_captain_captain_id",
+    "tournament_id"
+   ]
+  },
+  {
+   "name": "team_captains",
+   "rows": 4,
+   "columns": [
+    "captain_id",
+    "full_name",
+    "email",
+    "team_id",
+    "leads_team_team_id",
+    "tournament_director_td_id"
+   ]
+  },
+  {
+   "name": "tournament_directors",
+   "rows": 4,
+   "columns": [
+    "td_id",
+    "full_name",
+    "email",
+    "jurisdiction",
+    "tournament_id",
+    "game_id",
+    "dispute_id"
+   ]
+  },
+  {
+   "name": "chess_games",
+   "rows": 4,
+   "columns": [
+    "game_id",
+    "start_date",
+    "end_date",
+    "status",
+    "time_control",
+    "notation_type",
+    "transmission_method",
+    "move_count",
+    "player_id",
+    "has_player2_player_id",
+    "tournament_id",
+    "dispute_id"
+   ]
+  },
+  {
+   "name": "move_cards",
+   "rows": 4,
+   "columns": [
+    "move_card_id",
+    "card_id",
+    "game_id",
+    "player_id",
+    "move_notation",
+    "time_used",
+    "total_time",
+    "postmark_date",
+    "transmission_date",
+    "status",
+    "belongs_game_game_id",
+    "submitted_by_player_id",
+    "tournament_director_td_id"
+   ]
+  },
+  {
+   "name": "disputes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dispute_id",
+    "game_id",
+    "type",
+    "status",
+    "resolution",
+    "arises_in_game_id",
+    "tournament_director_td_id"
+   ]
+  },
+  {
+   "name": "tournaments_players",
+   "rows": 8,
+   "columns": [
+    "tournament_id",
+    "player_id"
+   ]
+  },
+  {
+   "name": "tournaments_games",
+   "rows": 8,
+   "columns": [
+    "tournament_id",
+    "game_id"
+   ]
+  },
+  {
+   "name": "teams_players",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "player_id"
+   ]
+  },
+  {
+   "name": "games_cards",
+   "rows": 8,
+   "columns": [
+    "game_id",
+    "move_card_id"
+   ]
+  },
+  {
+   "name": "disputes_players",
+   "rows": 8,
+   "columns": [
+    "dispute_id",
+    "player_id"
+   ]
+  }
+ ],
+ "views": [
+  "tournament_player_detail_view",
+  "tournament_chess_game_detail_view",
+  "tournament_team_captain_view",
+  "player_tournament_view",
+  "player_chess_game_view",
+  "player_team_view",
+  "team_player_detail_view",
+  "team_team_captain_view",
+  "team_tournament_view",
+  "team_captain_team_view",
+  "team_captain_tournament_director_view",
+  "tournament_director_tournament_view",
+  "tournament_director_chess_game_view",
+  "tournament_director_dispute_view",
+  "chess_game_player_view",
+  "chess_game_tournament_view",
+  "chess_game_move_card_detail_view",
+  "chess_game_dispute_view",
+  "move_card_chess_game_view",
+  "move_card_player_view",
+  "move_card_tournament_director_view",
+  "dispute_chess_game_view",
+  "dispute_tournament_director_view",
+  "dispute_player_detail_view"
+ ]
+}

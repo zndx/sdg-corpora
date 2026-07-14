@@ -1,0 +1,5 @@
+individual_id,individual_identifier,first_name,last_name,role,needs_complex_communication,organization_id,assistive_technology_id
+1,IND-2713,Ta-Nehisi Coates,Clay Bennett,user,true,100,1
+2,IND-2715,William Welch,Jason Schmidt,practitioner,false,101,2
+3,IND-2717,Jennifer Quinn,April Snyder,family_member,true,102,3
+4,IND-2719,Elizabeth Woods,Stephanie Sutton,speech_language_pathologist,false,103,4

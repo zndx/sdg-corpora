@@ -1,0 +1,5 @@
+id,segment_code,segment_name,segment_type,is_consolidated,parent_organization_id,controlling_report_id,business_segment_id
+1,3990169,Adaptive Series,retail,false,Senseonics Holdings Inc.,1000,1
+2,9085246,Primary Assessment,properties,true,Singapore General Hospital,1001,2
+3,5006449,Composite Survey D,flight_operations,false,RECRUIT EXPRESS PTE LTD,1002,3
+4,L137,Compact Corridor,real_estate,true,Akamai Technologies,1003,4

@@ -1,0 +1,5 @@
+id,asset_identifier,asset_name,asset_type,polygon_count,is_rigged,source_origin,animation_project_id,rigging_system_id,created_at,updated_at
+1,ASS-2752,Pilot Programme,Model,10,true,Created,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ASS-2756,Baseline Standard,Texture,11,false,Downloaded,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,ASS-2760,Distributed Framework A,Environment,15,true,Created,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ASS-2764,Adaptive Protocol,Character,6,false,Downloaded,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

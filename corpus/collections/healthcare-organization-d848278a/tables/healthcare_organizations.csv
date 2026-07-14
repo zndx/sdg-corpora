@@ -1,0 +1,5 @@
+id,organization_id,name,location_city,location_state,location_country,operating_margin,is_sustainable,electronic_health_record_ehr_id,healthcare_analytics_solution_id,clinical_decision_support_id
+1000,Shell Oil,Extended Review,seasonal-location-23,composite-location-93,adaptive-location-47,21.70,true,195366,1,100
+1001,GlobalPlatform Inc.,Pilot Initiative A,regional-location-24,primary-location-94,distributed-location-48,25.40,false,611509,2,101
+1002,Whatsapp Inc.,Baseline Model,legacy-location-25,adaptive-location-95,baseline-location-49,29.10,true,884338,3,102
+1003,American Institutes for Research,Distributed Cluster,compact-location-26,distributed-location-96,pilot-location-50,32.80,false,gd_taxc_1123,4,103

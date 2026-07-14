@@ -1,0 +1,195 @@
+{
+ "construct_id": "0e510987f65d4da7",
+ "slug": "brand-strategy-0e510987",
+ "passage": "0e510987f65d4da71cd7fae471a33ebd2cac0bbff74095fb41c19d6cf23d0682.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 6,
+ "entities": [
+  "BrandStrategy",
+  "CampaignStrategy",
+  "ContentStrategy",
+  "ResponsiveWebsite",
+  "MobileApp",
+  "EcommerceWebsite",
+  "BrandIdentity",
+  "PrintMaterial"
+ ],
+ "terms": [
+  {
+   "name": "BrandStrategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CampaignStrategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ContentStrategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResponsiveWebsite",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MobileApp",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EcommerceWebsite",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BrandIdentity",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PrintMaterial",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "BrandStrategy",
+   "rows": 4,
+   "columns": [
+    "strategyId",
+    "brandName",
+    "positioningStatement",
+    "targetAudience",
+    "status",
+    "createdDate",
+    "lastModified"
+   ]
+  },
+  {
+   "name": "CampaignStrategy",
+   "rows": 4,
+   "columns": [
+    "campaignId",
+    "campaignName",
+    "startDate",
+    "endDate",
+    "budget",
+    "status",
+    "channel",
+    "targetEngagementRate",
+    "strategyId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "ContentStrategy",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contentId",
+    "contentTitle",
+    "contentType",
+    "publishDate",
+    "status",
+    "conversionRate",
+    "platform",
+    "strategyCampaignId"
+   ]
+  },
+  {
+   "name": "ResponsiveWebsite",
+   "rows": 4,
+   "columns": [
+    "websiteId",
+    "domainName",
+    "launchDate",
+    "conversionRate",
+    "trafficSource",
+    "mobileOptimized",
+    "cmsPlatform"
+   ]
+  },
+  {
+   "name": "MobileApp",
+   "rows": 4,
+   "columns": [
+    "appId",
+    "appName",
+    "platform",
+    "launchDate",
+    "loadTime",
+    "activeUsers",
+    "status"
+   ]
+  },
+  {
+   "name": "EcommerceWebsite",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ecommerceId",
+    "storeName",
+    "conversionRate",
+    "paymentGateway",
+    "inventorySystem",
+    "socialIntegration",
+    "lastAuditDate"
+   ]
+  },
+  {
+   "name": "BrandIdentity",
+   "rows": 4,
+   "columns": [
+    "identityId",
+    "brandName",
+    "logoUrl",
+    "primaryColor",
+    "secondaryColor",
+    "fontFamily",
+    "version",
+    "strategyId"
+   ]
+  },
+  {
+   "name": "PrintMaterial",
+   "rows": 4,
+   "columns": [
+    "materialId",
+    "materialType",
+    "printDate",
+    "quantity",
+    "paperType",
+    "finish",
+    "status",
+    "identityId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "BrandStrategyBrandIdentity",
+   "rows": 8,
+   "columns": [
+    "strategyId",
+    "identityId"
+   ]
+  },
+  {
+   "name": "BrandIdentityPrintMaterial",
+   "rows": 8,
+   "columns": [
+    "identityId",
+    "materialId"
+   ]
+  }
+ ],
+ "views": [
+  "v_brand_strategy_brand_identity_detail",
+  "v_campaign_strategy_brand_strategy",
+  "v_content_strategy_campaign_strategy",
+  "v_brand_identity_brand_strategy",
+  "v_brand_identity_print_material_detail",
+  "v_print_material_brand_identity"
+ ]
+}

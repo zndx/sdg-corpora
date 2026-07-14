@@ -1,0 +1,5 @@
+id,incident_id,reported_date,incident_date,location,severity_rating,status,risk_level,staff_member_staff_id
+1,1336174,2025-04-27T03:09:00,2022-09-26T20:48:00,extended-location-99,39,reported,low,937735
+2,state_uk_4,2022-09-11T10:26:00,2023-02-10T03:05:00,integrated-location-100,43,under_investigation,medium,3158139
+3,2933483,2023-02-22T17:43:00,2024-07-21T10:22:00,seasonal-location-101,47,substantiated,high,8189502
+4,2986243,2024-07-06T00:00:00,2025-12-05T17:39:00,regional-location-102,51,unsubstantiated,critical,69438

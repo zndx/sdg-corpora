@@ -1,0 +1,5 @@
+health_safety_risk_assessment_id,assessment_id,assessment_date,risk_level,mitigation_plan,completed_by,status,student_id,admission_application_id,staff_training_module_id
+1,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,low,pilot-mitigati-26,compact-complete-26,draft,1000,1,1
+2,19508914,2023-10-21T11:41:00,medium,extended-mitigati-27,composite-complete-27,approved,1001,2,2
+3,506000,2024-03-05T18:58:00,high,integrated-mitigati-28,primary-complete-28,implemented,1002,3,3
+4,1204-0009-M,2025-08-16T01:15:00,critical,seasonal-mitigati-29,adaptive-complete-29,reviewed,1003,4,4

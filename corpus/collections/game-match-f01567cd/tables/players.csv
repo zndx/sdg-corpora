@@ -1,0 +1,5 @@
+id,player_id,first_name,last_name,jersey_number,position,is_eligible_to_blitz,stance_type,team_id,match_id,created_at,updated_at
+1,gd_fp_eu_acc2,Stephanie Collins,Paul Allen,22,compact-position-20,false,three-point,1000,727038,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,605941,Janice Johnston,Heather Beasley,30,composite-position-21,true,four-point,1001,10207150,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,195362,Upal Saha,Audrey Taylor,38,primary-position-22,false,standing,1002,8881,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,id_26,Katherine Snyder,Susan Wagner,46,adaptive-position-23,true,backfield,1003,2839507,2025-04-16 09:14:00,2025-04-23 15:41:00

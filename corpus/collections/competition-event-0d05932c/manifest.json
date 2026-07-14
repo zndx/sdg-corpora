@@ -1,0 +1,200 @@
+{
+ "construct_id": "0d05932c766bbac7",
+ "slug": "competition-event-0d05932c",
+ "passage": "0d05932c766bbac794013a09ad76a538227c947f23f728fed9b31adf4e45551b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 14,
+ "entities": [
+  "CompetitionEvent",
+  "Competitor",
+  "Assessment",
+  "Tool",
+  "ScoreSheet"
+ ],
+ "terms": [
+  {
+   "name": "CompetitionEvent",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Competitor",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Assessment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Tool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ScoreSheet",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "competition_events",
+   "rows": 4,
+   "columns": [
+    "competition_event_id",
+    "event_id",
+    "event_title",
+    "event_year",
+    "event_status",
+    "registration_deadline",
+    "total_score_weight"
+   ]
+  },
+  {
+   "name": "competitors",
+   "rows": 4,
+   "columns": [
+    "competitor_id",
+    "first_name",
+    "last_name",
+    "apprentice_level",
+    "registration_status",
+    "contact_email",
+    "contact_phone",
+    "competition_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "assessments",
+   "rows": 4,
+   "columns": [
+    "assessment_id",
+    "assessment_type",
+    "duration_minutes",
+    "score_weight_percentage",
+    "max_score",
+    "assessment_status",
+    "competition_event_id"
+   ]
+  },
+  {
+   "name": "tools",
+   "rows": 4,
+   "columns": [
+    "tool_id",
+    "tool_name",
+    "tool_category",
+    "brand_reference",
+    "specification",
+    "tool_status",
+    "assessment_id"
+   ]
+  },
+  {
+   "name": "score_sheets",
+   "rows": 4,
+   "columns": [
+    "score_sheet_id",
+    "score_sheet_version",
+    "total_max_points",
+    "safety_scope_included",
+    "is_sample",
+    "last_updated",
+    "assessment_id",
+    "competition_event_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "events_competitors",
+   "rows": 8,
+   "columns": [
+    "competition_event_id",
+    "competitor_id"
+   ]
+  },
+  {
+   "name": "events_assessments",
+   "rows": 8,
+   "columns": [
+    "competition_event_id",
+    "assessment_id"
+   ]
+  },
+  {
+   "name": "events_sheets",
+   "rows": 8,
+   "columns": [
+    "competition_event_id",
+    "score_sheet_id"
+   ]
+  },
+  {
+   "name": "competitors_sheets",
+   "rows": 8,
+   "columns": [
+    "competitor_id",
+    "score_sheet_id"
+   ]
+  },
+  {
+   "name": "competitors_tools",
+   "rows": 8,
+   "columns": [
+    "competitor_id",
+    "tool_id"
+   ]
+  },
+  {
+   "name": "assessments_competitors",
+   "rows": 8,
+   "columns": [
+    "assessment_id",
+    "competitor_id"
+   ]
+  },
+  {
+   "name": "assessments_sheets",
+   "rows": 8,
+   "columns": [
+    "assessment_id",
+    "score_sheet_id"
+   ]
+  },
+  {
+   "name": "tools_competitors",
+   "rows": 8,
+   "columns": [
+    "tool_id",
+    "competitor_id"
+   ]
+  },
+  {
+   "name": "sheets_competitors",
+   "rows": 8,
+   "columns": [
+    "score_sheet_id",
+    "competitor_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_competition_event_competitor_detail",
+  "v_competition_event_assessment_detail",
+  "v_competition_event_score_sheet_detail",
+  "v_competitor_competition_event",
+  "v_competitor_score_sheet_detail",
+  "v_competitor_tool_detail",
+  "v_assessment_competition_event",
+  "v_assessment_competitor_detail",
+  "v_assessment_score_sheet_detail",
+  "v_tool_competitor_detail",
+  "v_tool_assessment",
+  "v_score_sheet_assessment",
+  "v_score_sheet_competitor_detail",
+  "v_score_sheet_competition_event"
+ ]
+}

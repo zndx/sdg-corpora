@@ -1,0 +1,5 @@
+id,requestIdentifier,requestType,isRequested,donorZipCode
+1000,REQ-2516,Volunteer,false,69434
+1001,REQ-2522,Newsletter,true,13589
+1002,REQ-2528,DeferredGiving,false,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0
+1003,REQ-2534,Volunteer,true,1250214

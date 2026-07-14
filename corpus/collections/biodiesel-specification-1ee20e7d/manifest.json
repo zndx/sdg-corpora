@@ -1,0 +1,134 @@
+{
+ "construct_id": "1ee20e7d2cc1c214",
+ "slug": "biodiesel-specification-1ee20e7d",
+ "passage": "1ee20e7d2cc1c21476ff697fc501d0c5eb3d966826178f29d7e3867c307dc1c1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 7,
+ "entities": [
+  "BiodieselSpecification",
+  "BiodieselProperty",
+  "PropertyLimit",
+  "BiodieselBlend",
+  "FuelComponent"
+ ],
+ "terms": [
+  {
+   "name": "BiodieselSpecification",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "BiodieselProperty",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PropertyLimit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BiodieselBlend",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FuelComponent",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "biodiesel_specifications",
+   "rows": 4,
+   "columns": [
+    "biodiesel_specification_id",
+    "specification_id",
+    "standard_number",
+    "publication_year",
+    "grade",
+    "is_critical"
+   ]
+  },
+  {
+   "name": "biodiesel_properties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "property_name",
+    "astm_method_number",
+    "unit_of_measure",
+    "is_critical",
+    "biodiesel_specification_id"
+   ]
+  },
+  {
+   "name": "property_limits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "limit_value",
+    "limit_type",
+    "grade",
+    "biodiesel_property_id"
+   ]
+  },
+  {
+   "name": "biodiesel_blends",
+   "rows": 4,
+   "columns": [
+    "biodiesel_blend_id",
+    "blend_id",
+    "biodiesel_percentage",
+    "petroleum_diesel_percentage",
+    "blend_date",
+    "status"
+   ]
+  },
+  {
+   "name": "fuel_components",
+   "rows": 4,
+   "columns": [
+    "component_id",
+    "component_type",
+    "volume",
+    "batch_id",
+    "biodiesel_blend_id",
+    "biodiesel_specification_id"
+   ]
+  },
+  {
+   "name": "specifications_properties",
+   "rows": 8,
+   "columns": [
+    "biodiesel_specification_id",
+    "biodiesel_property_id"
+   ]
+  },
+  {
+   "name": "properties_limits",
+   "rows": 8,
+   "columns": [
+    "biodiesel_property_id",
+    "property_limit_id"
+   ]
+  },
+  {
+   "name": "blends_components",
+   "rows": 8,
+   "columns": [
+    "biodiesel_blend_id",
+    "component_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_biodiesel_specification_biodiesel_property_detail",
+  "v_biodiesel_property_biodiesel_specification",
+  "v_biodiesel_property_property_limit_detail",
+  "v_property_limit_biodiesel_property",
+  "v_biodiesel_blend_fuel_component_detail",
+  "v_fuel_component_biodiesel_blend",
+  "v_fuel_component_biodiesel_specification"
+ ]
+}

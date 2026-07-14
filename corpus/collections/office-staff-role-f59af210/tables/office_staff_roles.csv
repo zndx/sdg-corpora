@@ -1,0 +1,5 @@
+office_staff_role_id,role_title,office_location,phone_extension,is_authorized_operator,has_emergency_authority,person_id,office_process_id,created_at,updated_at
+1,Distributed Standard,composite-office-99,integrated-phone-82,true,false,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Adaptive Framework D,primary-office-100,seasonal-phone-83,false,true,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Primary Protocol,adaptive-office-101,regional-phone-84,true,false,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Composite Programme,distributed-office-102,legacy-phone-85,false,true,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

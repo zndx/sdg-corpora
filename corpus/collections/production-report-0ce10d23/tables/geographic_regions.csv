@@ -1,0 +1,5 @@
+geographic_region_id,region_id,region_name,country_code,latitude,longitude,region_type
+1000,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,13.95,21.20,composite-region-21
+1001,4180948,Adaptive Survey D,lu_tax_code_template_m_I_2,17.90,25.40,primary-region-22
+1002,3012829,Primary Corridor,default_chart_a_account_57,21.85,29.60,adaptive-region-23
+1003,778576,Composite Series,727045,25.80,33.80,distributed-region-24

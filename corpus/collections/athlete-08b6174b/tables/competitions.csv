@@ -1,0 +1,5 @@
+id,competition_id,competition_name,competition_level,start_date,end_date,location,is_on_site_registration,state_association_id,qualifies_for_competition_id
+1,4277014,Compact Model,state,2022-09-05,2022-09-01,extended-location-99,false,1000,1
+2,575210,Legacy Cluster,national,2023-02-16,2023-02-12,integrated-location-100,true,1001,2
+3,619,Regional Review A,state,2024-07-27,2024-07-23,seasonal-location-101,false,1002,3
+4,10449520,Seasonal Initiative,national,2025-12-11,2025-12-07,regional-location-102,true,1003,4

@@ -1,0 +1,5 @@
+id,survey_id,administered_by,survey_date,total_employees,organizational_health_score,alignment_score,execution_score,connection_score,status,research_firm_id,organization_id,workplace_award_id
+1,21005921,legacy-administ-49,2024-07-23T18:30:00,56,19.95,9.45,11.45,6.20,pending,1,1,1
+2,726059,compact-administ-50,2025-12-07T01:47:00,1150,22.90,12.90,14.90,10.40,running,2,2,2
+3,32814,composite-administ-51,2022-05-18T08:04:00,24,25.85,16.35,18.35,14.60,complete,3,3,3
+4,b83e028a-8fcd-11eb-924d-9cd76263cbd0,primary-administ-52,2023-10-02T15:21:00,1574,28.80,19.80,21.80,18.80,failed,4,4,4

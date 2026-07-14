@@ -1,0 +1,5 @@
+discretionary_place_application_id,application_id,submission_date,academic_year,status,total_score,rank,interview_date,student_id,school_id,admission_committee_id,academic_record_id,interview_score_id,extracurricular_record_id
+1,505997,2025-04-24T03:57:00,legacy-academic-43,pending,16.45,16,2025-08-23T19:57:00,1000,1,1,1,1,100
+2,1250196,2022-09-08T10:14:00,compact-academic-44,under_review,19.90,20,2022-01-07T02:14:00,1001,2,2,2,2,101
+3,124,2023-02-19T17:31:00,composite-academic-45,admitted,23.35,24,2023-06-18T09:31:00,1002,3,3,3,3,102
+4,IVC20det40,2024-07-03T00:48:00,primary-academic-46,waitlisted,26.80,28,2024-11-02T16:48:00,1003,4,4,4,4,103

@@ -1,0 +1,142 @@
+{
+ "construct_id": "b3b31c2086744be0",
+ "slug": "adoption-case-b3b31c20",
+ "passage": "b3b31c2086744be088ed6b763c43409d2ff7e810947c472add00fca056bec687.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 7,
+ "entities": [
+  "AdoptionCase",
+  "AdoptionPetitioner",
+  "AdultAdoptee",
+  "ContactInformation",
+  "Jurisdiction"
+ ],
+ "terms": [
+  {
+   "name": "AdoptionCase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdoptionPetitioner",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "AdultAdoptee",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ContactInformation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "adoption_cases",
+   "rows": 4,
+   "columns": [
+    "case_id",
+    "filing_date",
+    "status",
+    "jurisdiction",
+    "case_notes",
+    "petitioner_contact_person",
+    "nlf_rep",
+    "adoption_petitioner_social_security_number",
+    "adult_adoptee_id"
+   ]
+  },
+  {
+   "name": "adoption_petitioners",
+   "rows": 4,
+   "columns": [
+    "full_name",
+    "date_of_birth",
+    "social_security_number",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "phone_number",
+    "email_address",
+    "date_moved_to_nevada",
+    "relationship_to_adoptee",
+    "duration_of_acquaintance",
+    "adult_adoptee_id",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "adult_adoptees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_name",
+    "date_of_birth",
+    "social_security_number",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "phone_number",
+    "email_address",
+    "date_moved_to_nevada",
+    "birth_city_state",
+    "preferred_post_adoption_name",
+    "birth_mother_name",
+    "birth_father_name",
+    "adoption_petitioner_social_security_number",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "contact_informations",
+   "rows": 4,
+   "columns": [
+    "contact_information_id",
+    "contact_person",
+    "street_address",
+    "cell_phone",
+    "city",
+    "state",
+    "zip_code",
+    "alternate_phone",
+    "email"
+   ]
+  },
+  {
+   "name": "jurisdictions",
+   "rows": 4,
+   "columns": [
+    "jurisdiction_id",
+    "state_code",
+    "state_name",
+    "court_system"
+   ]
+  },
+  {
+   "name": "informations_cases",
+   "rows": 8,
+   "columns": [
+    "contact_information_id",
+    "case_id"
+   ]
+  }
+ ],
+ "views": [
+  "adoption_case_adoption_petitioner_view",
+  "adoption_case_adult_adoptee_view",
+  "adoption_petitioner_adult_adoptee_view",
+  "adoption_petitioner_jurisdiction_view",
+  "adult_adoptee_adoption_petitioner_view",
+  "adult_adoptee_jurisdiction_view",
+  "contact_information_adoption_case_detail_view"
+ ]
+}

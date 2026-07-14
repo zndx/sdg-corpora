@@ -1,0 +1,5 @@
+incident_id,incident_date,severity_level,is_repeated,is_cyber_bullying,description,location,status,person_id,targeted_by_person_id,perpetrated_by_person_id,type_id,role_id
+1336174,2022-09-26T20:48:00,low,true,true,Extended Survey,extended-location-99,reported,1,1,1,5082983,2933463
+state_uk_4,2023-02-10T03:05:00,medium,false,false,Pilot Corridor A,integrated-location-100,investigating,2,2,2,a0f8eb4e-8fcd-11eb-924d-9cd76263cbd0,id_3
+2933483,2024-07-21T10:22:00,high,true,true,Baseline Series,seasonal-location-101,resolved,3,3,3,884340,gd_taxc_2111
+2986243,2025-12-05T17:39:00,critical,false,false,Distributed Assessment,regional-location-102,escalated,4,4,4,57e4c59a-8fcd-11eb-924d-9cd76263cbd0,994a4fa0-9bad-11eb-a8a2-19ed5c03f8d3

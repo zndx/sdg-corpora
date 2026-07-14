@@ -1,0 +1,217 @@
+{
+ "construct_id": "8ff26aac93c468ac",
+ "slug": "household-8ff26aac",
+ "passage": "8ff26aac93c468ac00e98e99dc19c4f209406b6b1d0313b2e038e1a3d001cbe2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 16,
+ "entities": [
+  "Household",
+  "ElectricityMeter",
+  "EnergyConsumptionEvent",
+  "EnergyTariff",
+  "EnergyAppliance",
+  "HomeEnergyReductionProgram",
+  "EnergyConsultant"
+ ],
+ "terms": [
+  {
+   "name": "Household",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ElectricityMeter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EnergyConsumptionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnergyTariff",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EnergyAppliance",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HomeEnergyReductionProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnergyConsultant",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "households",
+   "rows": 4,
+   "columns": [
+    "id",
+    "household_id",
+    "address",
+    "occupancy_status",
+    "construction_year",
+    "floor_area",
+    "electricity_meter_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "electricity_meters",
+   "rows": 4,
+   "columns": [
+    "electricity_meter_id",
+    "meter_id",
+    "installation_date",
+    "meter_type",
+    "current_reading",
+    "last_calibration_date",
+    "household_id"
+   ]
+  },
+  {
+   "name": "energy_consumption_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_timestamp",
+    "consumption_kwh",
+    "interval_duration",
+    "measurement_quality",
+    "tariff_band",
+    "electricity_meter_id",
+    "household_id",
+    "tariff_code"
+   ]
+  },
+  {
+   "name": "energy_tariffs",
+   "rows": 4,
+   "columns": [
+    "tariff_code",
+    "provider_name",
+    "base_charge",
+    "rate_per_kwh",
+    "effective_date",
+    "expiration_date"
+   ]
+  },
+  {
+   "name": "energy_appliances",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appliance_id",
+    "appliance_type",
+    "rated_power_watts",
+    "energy_star_rating",
+    "purchase_date",
+    "operational_status",
+    "household_id"
+   ]
+  },
+  {
+   "name": "home_energy_reduction_programs",
+   "rows": 4,
+   "columns": [
+    "program_id",
+    "start_date",
+    "end_date",
+    "program_status",
+    "target_savings_percent",
+    "household_id",
+    "consultant_id"
+   ]
+  },
+  {
+   "name": "energy_consultants",
+   "rows": 4,
+   "columns": [
+    "consultant_id",
+    "business_name",
+    "certification_level",
+    "contact_email"
+   ]
+  },
+  {
+   "name": "households_appliances",
+   "rows": 8,
+   "columns": [
+    "household_id",
+    "energy_appliance_id"
+   ]
+  },
+  {
+   "name": "meters_events",
+   "rows": 8,
+   "columns": [
+    "electricity_meter_id",
+    "energy_consumption_event_id"
+   ]
+  },
+  {
+   "name": "tariffs_events",
+   "rows": 8,
+   "columns": [
+    "tariff_code",
+    "energy_consumption_event_id"
+   ]
+  },
+  {
+   "name": "appliances_events",
+   "rows": 8,
+   "columns": [
+    "energy_appliance_id",
+    "energy_consumption_event_id"
+   ]
+  },
+  {
+   "name": "programs_events",
+   "rows": 8,
+   "columns": [
+    "program_id",
+    "energy_consumption_event_id"
+   ]
+  },
+  {
+   "name": "consultants_programs",
+   "rows": 8,
+   "columns": [
+    "consultant_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "consultants_appliances",
+   "rows": 8,
+   "columns": [
+    "consultant_id",
+    "energy_appliance_id"
+   ]
+  }
+ ],
+ "views": [
+  "household_electricity_meter_view",
+  "household_energy_appliance_detail_view",
+  "household_home_energy_reduction_program_view",
+  "electricity_meter_energy_consumption_event_detail_view",
+  "electricity_meter_household_view",
+  "energy_consumption_event_electricity_meter_view",
+  "energy_consumption_event_household_view",
+  "energy_consumption_event_energy_tariff_view",
+  "energy_tariff_energy_consumption_event_detail_view",
+  "energy_appliance_household_view",
+  "energy_appliance_energy_consumption_event_detail_view",
+  "home_energy_reduction_program_household_view",
+  "home_energy_reduction_program_energy_consultant_view",
+  "home_energy_reduction_program_energy_consumption_event_detail_view",
+  "energy_consultant_home_energy_reduction_program_detail_view",
+  "energy_consultant_energy_appliance_detail_view"
+ ]
+}

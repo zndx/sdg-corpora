@@ -1,0 +1,5 @@
+safeguarding_procedure_id,procedure_code,procedure_name,trigger_condition,response_time_limit,status,assigned_role,incident_report_id
+1000,3990183,Integrated Protocol A,legacy-trigger-49,9.70,pending,adaptive-assigned-35,1
+1001,10782181,Extended Programme,compact-trigger-50,12.40,active,distributed-assigned-36,2
+1002,account_pymes_663,Pilot Standard,composite-trigger-51,15.10,archived,baseline-assigned-37,3
+1003,1c87986a-8fcd-11eb-924d-9cd76263cbd0,Baseline Framework D,primary-trigger-52,17.80,pending,pilot-assigned-38,4

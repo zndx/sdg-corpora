@@ -1,0 +1,5 @@
+tax_regulation_id,regulation_id,title,publication_date,status,effective_date,hearing_date,federal_register_citation,tax_statute_id,tax_deduction_id,created_at,updated_at
+1000,2087741,Compact Initiative,2025-12-01T23:33:00,proposed,2023-02-14,2025-04-02T15:33:00,integrated-federal-34,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,4057,Legacy Model,2022-05-12T06:50:00,final,2024-07-25,2022-09-13T22:50:00,seasonal-federal-35,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,5917301,Regional Cluster A,2023-10-23T13:07:00,withdrawn,2025-12-09,2023-02-24T05:07:00,regional-federal-36,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,10445633,Seasonal Review,2024-03-07T20:24:00,proposed,2022-05-20,2024-07-08T12:24:00,legacy-federal-37,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

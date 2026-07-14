@@ -1,0 +1,5 @@
+id,program_id,program_name,host_institution,location_building,location_room,contact_phone,contact_fax,transfer_rate,total_students_served,underrepresented_percentage
+1,103176,Extended Review,regional-host-24,compact-location-80,baseline-location-97,Joe Tsai,Brian Hamilton,10.95,75,3.45
+2,2986219,Pilot Initiative A,legacy-host-25,composite-location-81,pilot-location-98,Stephanie Collins,Sean Green,13.90,4373,5.90
+3,1186079,Baseline Model,compact-host-26,primary-location-82,extended-location-99,Tasha Rodriguez,Susan Levy,16.85,67,8.35
+4,1562855,Distributed Cluster,composite-host-27,adaptive-location-83,integrated-location-100,Walter Pratt,Tyler Cole,19.80,162,10.80

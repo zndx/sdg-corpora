@@ -1,0 +1,186 @@
+{
+ "construct_id": "28c9e73645203f38",
+ "slug": "compliance-year-28c9e736",
+ "passage": "28c9e73645203f38d17993953cfbcca19aaf5223fa7718027de9d0263a1a3ca6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 18,
+ "entities": [
+  "ComplianceYear",
+  "Attorney",
+  "ComplianceReport",
+  "DeficiencyPlan",
+  "LateFee",
+  "DisciplinaryReferral",
+  "MCLECommission"
+ ],
+ "terms": [
+  {
+   "name": "ComplianceYear",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Attorney",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ComplianceReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DeficiencyPlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LateFee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DisciplinaryReferral",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MCLECommission",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ComplianceYear",
+   "rows": 4,
+   "columns": [
+    "yearId",
+    "yearStart",
+    "yearEnd",
+    "creditRequirement",
+    "planId"
+   ]
+  },
+  {
+   "name": "Attorney",
+   "rows": 4,
+   "columns": [
+    "id",
+    "barLicenseNumber",
+    "fullName",
+    "barStatus",
+    "planId",
+    "feeId"
+   ]
+  },
+  {
+   "name": "ComplianceReport",
+   "rows": 4,
+   "columns": [
+    "id",
+    "reportId",
+    "submissionDate",
+    "creditsEarned",
+    "professionalismCourseCompleted",
+    "reportStatus",
+    "yearId",
+    "attorneyId",
+    "feeId"
+   ]
+  },
+  {
+   "name": "DeficiencyPlan",
+   "rows": 4,
+   "columns": [
+    "planId",
+    "submissionDate",
+    "completionDeadline",
+    "planStatus",
+    "goodCauseJustification",
+    "yearId",
+    "attorneyId",
+    "feeId"
+   ]
+  },
+  {
+   "name": "LateFee",
+   "rows": 4,
+   "columns": [
+    "feeId",
+    "feeAmount",
+    "feeType",
+    "impositionDate",
+    "paymentStatus",
+    "attorneyId",
+    "reportId",
+    "planId"
+   ]
+  },
+  {
+   "name": "DisciplinaryReferral",
+   "rows": 4,
+   "columns": [
+    "id",
+    "referralId",
+    "referralDate",
+    "referralReason",
+    "forwardedTo",
+    "commissionId"
+   ]
+  },
+  {
+   "name": "MCLECommission",
+   "rows": 4,
+   "columns": [
+    "id",
+    "commissionId",
+    "commissionName",
+    "executiveDirectorName",
+    "referralId",
+    "planId"
+   ]
+  },
+  {
+   "name": "ComplianceYearComplianceReport",
+   "rows": 8,
+   "columns": [
+    "yearId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "AttorneyComplianceReport",
+   "rows": 8,
+   "columns": [
+    "attorneyId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "DisciplinaryReferralAttorney",
+   "rows": 8,
+   "columns": [
+    "referralId",
+    "attorneyId"
+   ]
+  }
+ ],
+ "views": [
+  "compliance_year_compliance_report_detail_view",
+  "compliance_year_deficiency_plan_view",
+  "attorney_compliance_report_detail_view",
+  "attorney_deficiency_plan_view",
+  "attorney_late_fee_view",
+  "compliance_report_compliance_year_view",
+  "compliance_report_attorney_view",
+  "compliance_report_late_fee_view",
+  "deficiency_plan_compliance_year_view",
+  "deficiency_plan_attorney_view",
+  "deficiency_plan_late_fee_view",
+  "late_fee_attorney_view",
+  "late_fee_compliance_report_view",
+  "late_fee_deficiency_plan_view",
+  "disciplinary_referral_attorney_detail_view",
+  "disciplinary_referral_m_c_l_e_commission_view",
+  "m_c_l_e_commission_disciplinary_referral_view",
+  "m_c_l_e_commission_deficiency_plan_view"
+ ]
+}

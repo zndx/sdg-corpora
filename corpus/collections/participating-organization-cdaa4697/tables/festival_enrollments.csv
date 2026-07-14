@@ -1,0 +1,5 @@
+id,enrollment_id,submission_date,festival_name,festival_start_date,festival_end_date,venue_name,venue_city,evaluation_outcome,participating_organization_id,quality_assessment_id,festival_stall_id,created_at
+1000,4447035,2025-04-24T03:57:00,Compact Series,2022-05-16,2022-01-18,Legacy Review D,primary-venue-10,pending,1,1000,100,2025-01-01 00:14:00
+1001,gd_taxc_2121,2022-09-08T10:14:00,Legacy Assessment,2023-10-27,2023-06-02,Regional Initiative,adaptive-venue-11,passed,2,1001,101,2025-02-06 03:14:00
+1002,id_30,2023-02-19T17:31:00,Regional Survey A,2024-03-11,2024-11-13,Seasonal Model,distributed-venue-12,failed,3,1002,102,2025-03-11 06:14:00
+1003,b_VB-EC-0,2024-07-03T00:48:00,Seasonal Corridor,2025-08-22,2025-04-24,Integrated Cluster A,baseline-venue-13,pending,4,1003,103,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+parade_event_id,event_date,start_time,location_city,location_state,location_zip,organizing_municipality,is_diesel_powered_allowed,candy_throwing_prohibited
+1,2025-04-15,2024-03-27T14:42:00,seasonal-location-23,composite-location-93,distributed-location-36,integrated-organizi-82,true,true
+2,2022-09-26,2025-08-11T21:59:00,regional-location-24,primary-location-94,baseline-location-37,seasonal-organizi-83,false,false
+3,2023-02-10,2022-01-22T04:16:00,legacy-location-25,adaptive-location-95,pilot-location-38,regional-organizi-84,true,true
+4,2024-07-21,2023-06-06T11:33:00,compact-location-26,distributed-location-96,extended-location-39,legacy-organizi-85,false,false

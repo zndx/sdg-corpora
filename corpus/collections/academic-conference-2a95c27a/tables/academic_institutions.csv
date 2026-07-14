@@ -1,0 +1,5 @@
+id,identifier,name,city,country,postal_code,website,academic_conference_region_code,academic_department_id
+1000,IDE-2086,Extended Review,integrated-city-34,compact-country-26,9125611,https://bugs.launchpad.net/murano/+bug/1294080,1562837,1
+1001,IDE-2091,Pilot Initiative A,seasonal-city-35,composite-country-27,ChIJt4hBkzhu5kcRJJDUNqGUpso,https://bugs.launchpad.net/murano/+bug/1294080,6564391,2
+1002,IDE-2096,Baseline Model,regional-city-36,primary-country-28,3001009030200,https://www.nature.com/articles/nphoton.2008.245,778560,3
+1003,IDE-2101,Distributed Cluster,legacy-city-37,adaptive-country-29,4060635,https://bugs.launchpad.net/trove/+bug/1347114,8667ec1da10c4a0293d91388b49bc77c,4

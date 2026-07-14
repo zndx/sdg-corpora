@@ -1,0 +1,5 @@
+applicationId,academicYear,submissionDate,status,totalScore,rank,interviewDate,interviewResult,studentId,recordId,scoreId
+1,legacy-academic-43,2025-04-24T03:57:00,pending,16.45,16,2025-08-23T19:57:00,passed,100,10449530,100
+2,compact-academic-44,2022-09-08T10:14:00,under_review,19.90,20,2022-01-07T02:14:00,failed,101,10445619,101
+3,composite-academic-45,2023-02-19T17:31:00,admitted,23.35,24,2023-06-18T09:31:00,pending,102,9568457,102
+4,primary-academic-46,2024-07-03T00:48:00,waiting_list,26.80,28,2024-11-02T16:48:00,passed,103,20743593,103

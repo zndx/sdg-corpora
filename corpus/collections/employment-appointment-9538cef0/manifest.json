@@ -1,0 +1,154 @@
+{
+ "construct_id": "9538cef0a88ba6e9",
+ "slug": "employment-appointment-9538cef0",
+ "passage": "9538cef0a88ba6e9c06e7307b25b57b10d1696c150bb692195e5771be54fbc28.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 9,
+ "entities": [
+  "EmploymentAppointment",
+  "MunicipalEmployee",
+  "MunicipalOfficial",
+  "MunicipalCouncil",
+  "PayrollRecord",
+  "FLSAComplianceIssue"
+ ],
+ "terms": [
+  {
+   "name": "EmploymentAppointment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MunicipalEmployee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MunicipalOfficial",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "MunicipalCouncil",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PayrollRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FLSAComplianceIssue",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "employment_appointments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appointment_id",
+    "position_title",
+    "appointee_name",
+    "term_start_date",
+    "term_end_date",
+    "nomination_date",
+    "approval_status",
+    "reappointment_count",
+    "municipal_official_id",
+    "municipal_council_id",
+    "municipal_employee_id"
+   ]
+  },
+  {
+   "name": "municipal_employees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "department",
+    "job_title",
+    "years_of_service",
+    "employment_status",
+    "hire_date",
+    "municipal_official_id",
+    "reports_to_municipal_official_id"
+   ]
+  },
+  {
+   "name": "municipal_officials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "official_id",
+    "full_name",
+    "office_title",
+    "term_start_date",
+    "term_end_date",
+    "party_affiliation",
+    "contact_email",
+    "municipal_employee_id"
+   ]
+  },
+  {
+   "name": "municipal_councils",
+   "rows": 4,
+   "columns": [
+    "municipal_council_id",
+    "council_id",
+    "municipality_name",
+    "meeting_date",
+    "quorum_present",
+    "session_type",
+    "agenda_items_count"
+   ]
+  },
+  {
+   "name": "payroll_records",
+   "rows": 4,
+   "columns": [
+    "record_id",
+    "pay_period_start",
+    "pay_period_end",
+    "employee_id",
+    "base_salary",
+    "overtime_hours",
+    "overtime_rate",
+    "total_gross_pay",
+    "compliance_status",
+    "municipal_employee_id",
+    "audited_by_municipal_employee_id"
+   ]
+  },
+  {
+   "name": "f_l_s_a_compliance_issues",
+   "rows": 4,
+   "columns": [
+    "id",
+    "issue_id",
+    "issue_description",
+    "discovery_date",
+    "resolution_date",
+    "affected_department",
+    "violation_type",
+    "severity_level",
+    "municipal_employee_id",
+    "municipal_official_id",
+    "record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_employment_appointment_municipal_official",
+  "v_employment_appointment_municipal_council",
+  "v_employment_appointment_municipal_employee",
+  "v_municipal_employee_municipal_official",
+  "v_municipal_official_municipal_employee",
+  "v_payroll_record_municipal_employee",
+  "v_f_l_s_a_compliance_issue_municipal_employee",
+  "v_f_l_s_a_compliance_issue_municipal_official",
+  "v_f_l_s_a_compliance_issue_payroll_record"
+ ]
+}

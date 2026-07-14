@@ -1,0 +1,5 @@
+institutional_lender_id,lender_identifier,lender_name,lender_type,total_capital_deployed,risk_tolerance,jurisdiction,financial_development_corporation_id,capital_access_program_id
+1,LEN-2543,Composite Cluster,commercial_bank,13.20,low,regional-jurisdic-30,1,100
+2,LEN-2546,Compact Review A,credit_union,17.40,medium,legacy-jurisdic-31,2,101
+3,LEN-2549,Legacy Initiative,cdfi,21.60,high,compact-jurisdic-32,3,102
+4,LEN-2552,Regional Model,non_bank,25.80,low,composite-jurisdic-33,4,103

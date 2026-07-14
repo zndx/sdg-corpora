@@ -1,0 +1,5 @@
+membership_id,membership_type,registration_date,fee_amount,expiration_date,is_eligible_for_competition,athlete_id,background_check_id,created_at,updated_at
+100,athlete,2023-06-19T17:27:00,38.08,2025-08-18,true,1000,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,coach,2024-11-03T00:44:00,18.47,2022-01-02,false,1001,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,referee,2025-04-14T07:01:00,38.08,2023-06-13,true,1002,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,instructor,2022-09-25T14:18:00,26.25,2024-11-24,false,1003,103,2025-04-16 09:14:00,2025-04-23 15:41:00

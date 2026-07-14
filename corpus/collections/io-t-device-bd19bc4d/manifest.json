@@ -1,0 +1,154 @@
+{
+ "construct_id": "bd19bc4d09277d3a",
+ "slug": "io-t-device-bd19bc4d",
+ "passage": "bd19bc4d09277d3a65ee2df7dc2bce13a3734a9252bd870da58b9b8202f812d0.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "IoTDevice",
+  "Manufacturer",
+  "DistributionChannel",
+  "MarketRegion",
+  "SafetyCertification",
+  "IntellectualPropertyAsset"
+ ],
+ "terms": [
+  {
+   "name": "IoTDevice",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Manufacturer",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DistributionChannel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MarketRegion",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SafetyCertification",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "IntellectualPropertyAsset",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "io_t_devices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_identifier",
+    "device_name",
+    "device_model",
+    "firmware_version",
+    "manufacturing_date",
+    "is_certified",
+    "certification_body",
+    "manufacturer_id",
+    "channel_id",
+    "market_region_id"
+   ]
+  },
+  {
+   "name": "manufacturers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manufacturer_id",
+    "company_name",
+    "country_of_operation",
+    "contract_status",
+    "certification_level",
+    "contact_email",
+    "io_t_device_id",
+    "channel_id"
+   ]
+  },
+  {
+   "name": "distribution_channels",
+   "rows": 4,
+   "columns": [
+    "channel_id",
+    "channel_name",
+    "region_served",
+    "contract_start_date",
+    "contract_end_date",
+    "is_negotiating",
+    "io_t_device_id",
+    "market_region_id"
+   ]
+  },
+  {
+   "name": "market_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_id",
+    "region_name",
+    "household_count",
+    "housing_starts_rate",
+    "market_maturity",
+    "is_target_market",
+    "channel_id",
+    "io_t_device_id"
+   ]
+  },
+  {
+   "name": "safety_certifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "certification_id",
+    "standard_code",
+    "issuing_authority",
+    "issue_date",
+    "expiry_date",
+    "status",
+    "scope_description",
+    "io_t_device_id",
+    "manufacturer_id"
+   ]
+  },
+  {
+   "name": "intellectual_property_assets",
+   "rows": 4,
+   "columns": [
+    "asset_id",
+    "asset_name",
+    "asset_type",
+    "valuation_amount",
+    "currency_code",
+    "registration_date",
+    "is_licensed",
+    "io_t_device_id",
+    "manufacturer_id"
+   ]
+  }
+ ],
+ "views": [
+  "io_t_device_manufacturer_view",
+  "io_t_device_distribution_channel_view",
+  "io_t_device_market_region_view",
+  "manufacturer_io_t_device_view",
+  "manufacturer_distribution_channel_view",
+  "distribution_channel_io_t_device_view",
+  "distribution_channel_market_region_view",
+  "market_region_distribution_channel_view",
+  "market_region_io_t_device_view",
+  "safety_certification_io_t_device_view",
+  "safety_certification_manufacturer_view",
+  "intellectual_property_asset_io_t_device_view",
+  "intellectual_property_asset_manufacturer_view"
+ ]
+}

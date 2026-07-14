@@ -1,0 +1,5 @@
+id,file_number,application_date,hearing_date,property_address,legal_description,zoning_district,requested_relief,status,applicant_id,representative_id,board_session_id,building_report_id
+1,FIL-2275,2022-05-16,2025-04-02,pilot-property-14,Composite Protocol,adaptive-zoning-95,regional-requeste-18,Pending,1000,1,1,1000
+2,FIL-2277,2023-10-27,2022-09-13,extended-property-15,Compact Programme A,distributed-zoning-96,legacy-requeste-19,Hearing Scheduled,1001,2,2,1001
+3,FIL-2279,2024-03-11,2023-02-24,integrated-property-16,Legacy Standard,baseline-zoning-97,compact-requeste-20,Approved,1002,3,3,1002
+4,FIL-2281,2025-08-22,2024-07-08,seasonal-property-17,Regional Framework,pilot-zoning-98,composite-requeste-21,Denied,1003,4,4,1003

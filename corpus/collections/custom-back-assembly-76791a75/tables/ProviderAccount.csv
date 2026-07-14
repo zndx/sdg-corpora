@@ -1,0 +1,5 @@
+accountId,accountNumber,providerName,addressLine1,addressLine2,city,state,zipCode,country,phone,email
+1000,ACC-2253,Primary Initiative A,adaptive-address-77,regional-address-90,integrated-city-34,distributed-state-84,69434,compact-country-26,compact-phone-26,seasonal-email-11
+1001,ACC-2256,Composite Model,distributed-address-78,legacy-address-91,seasonal-city-35,baseline-state-85,13589,composite-country-27,composite-phone-27,regional-email-12
+1002,ACC-2259,Compact Cluster,baseline-address-79,compact-address-92,regional-city-36,pilot-state-86,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,primary-country-28,primary-phone-28,legacy-email-13
+1003,ACC-2262,Legacy Review D,pilot-address-80,composite-address-93,legacy-city-37,extended-state-87,1250214,adaptive-country-29,adaptive-phone-29,compact-email-14

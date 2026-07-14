@@ -1,0 +1,5 @@
+facility_id,facility_name,license_status,operational_status,site_type,last_inspection_date,director_id,h_s_s_s_e_q_issue_id,created_at,updated_at
+69447,Integrated Protocol A,licensed,operational,civil,2025-04-12T15:09:00,195339,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1040,Extended Programme,authorised,standby,moD,2022-09-23T22:26:00,9125611,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+2986228,Pilot Standard,decommissioning,maintenance,research,2023-02-07T05:43:00,2933481,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+ChIJvSxSbfdv5kcRanVzI8RRu20,Baseline Framework D,closed,shutdown,waste,2024-07-18T12:00:00,2087758,4,2025-04-16 09:14:00,2025-04-23 15:41:00

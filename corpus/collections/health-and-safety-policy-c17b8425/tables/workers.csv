@@ -1,0 +1,5 @@
+worker_id,role,department,safety_training_status,certification_expiry,workplace_activity_id,reports_to_worker_id,harassment_policy_id
+1,employee,adaptive-departme-89,completed,2023-02-10,1000,1,1000
+2,manager,distributed-departme-90,in_progress,2024-07-21,1001,2,1001
+3,supervisor,baseline-departme-91,not_started,2025-12-05,1002,3,1002
+4,contractor,pilot-departme-92,expired,2022-05-16,1003,4,1003

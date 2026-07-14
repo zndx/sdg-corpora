@@ -1,0 +1,5 @@
+id,assembly_identifier,assembly_type,infill_material,tolerance_level,floor_height,lateral_restraint_strap_id,masonry_wall_id
+1,ASS-2075,beam_and_block,aerated_concrete,tight,0.9,100,1000
+2,ASS-2080,precast_plank,dense_concrete,standard,0.77,101,1001
+3,ASS-2085,prestressed_plank,none,tight,1.33,102,1002
+4,ASS-2090,beam_and_block,aerated_concrete,standard,0.87,103,1003

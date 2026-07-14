@@ -1,0 +1,20 @@
+CREATE TABLE SchoolSite (
+  id INTEGER NOT NULL,
+  siteId VARCHAR(32),
+  streetAddress VARCHAR(32),
+  city VARCHAR(32),
+  county VARCHAR(32),
+  postalCode VARCHAR(35),
+  country VARCHAR(32),
+  latitude DECIMAL,
+  longitude DECIMAL,
+  eventId INTEGER,
+  programmeId INTEGER,
+  memberId INTEGER,
+  enrolmentId INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (eventId) REFERENCES InspectionEvent (id),
+  FOREIGN KEY (programmeId) REFERENCES CurriculumProgramme (programmeId),
+  FOREIGN KEY (memberId) REFERENCES StaffMember (id),
+  FOREIGN KEY (enrolmentId) REFERENCES StudentEnrolment (enrolmentId)
+);

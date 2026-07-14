@@ -1,0 +1,20 @@
+CREATE TABLE tagging_activities (
+  id INTEGER NOT NULL,
+  activity_id VARCHAR(34),
+  start_time TIMESTAMP,
+  end_time TIMESTAMP,
+  method VARCHAR(32),
+  quality_score DECIMAL,
+  indexer_role VARCHAR(32),
+  resource_id INTEGER,
+  knowledge_organization_system_id INTEGER,
+  social_tag_id INTEGER,
+  controlled_term_id INTEGER,
+  user_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (resource_id) REFERENCES digital_resources (resource_id),
+  FOREIGN KEY (knowledge_organization_system_id) REFERENCES knowledge_organization_systems (knowledge_organization_system_id),
+  FOREIGN KEY (social_tag_id) REFERENCES social_tags (id),
+  FOREIGN KEY (controlled_term_id) REFERENCES controlled_terms (controlled_term_id),
+  FOREIGN KEY (user_id) REFERENCES users (id)
+);

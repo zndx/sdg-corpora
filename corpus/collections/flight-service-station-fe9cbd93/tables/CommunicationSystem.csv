@@ -1,0 +1,5 @@
+id,systemId,systemName,frequencyBand,coverageRange,signalQuality,dataFormat,encryptionStatus,lastMaintenanceDate
+1,8189503,Legacy Programme D,HF,6.20,clear,Morse_code,false,2024-03-27
+2,3717623,Regional Standard,VHF,9.40,weak,voice,true,2025-08-11
+3,7441161,Seasonal Framework,SSB,12.60,noisy,AFTN,false,2022-01-22
+4,605963,Integrated Protocol A,HF,15.80,clear,GIA,true,2023-06-06

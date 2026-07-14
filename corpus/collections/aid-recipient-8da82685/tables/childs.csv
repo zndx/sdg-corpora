@@ -1,0 +1,5 @@
+id,child_name,age,sex,shirt_size,pants_size,shoe_size,diaper_size,favorite_color,aid_recipient_id,created_at,updated_at
+100,Integrated Framework A,35,male,pilot-shirt-68,pilot-pants-44,composite-shoe-99,compact-diaper-44,Strawberry Blond,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,Extended Protocol,40,female,extended-shirt-69,extended-pants-45,primary-shoe-100,composite-diaper-45,Brownn,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,Pilot Programme,45,other,integrated-shirt-70,integrated-pants-46,adaptive-shoe-101,primary-diaper-46,Black,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,Baseline Standard D,50,male,seasonal-shirt-71,seasonal-pants-47,distributed-shoe-102,adaptive-diaper-47,Pink,4,2025-04-16 09:14:00,2025-04-23 15:41:00

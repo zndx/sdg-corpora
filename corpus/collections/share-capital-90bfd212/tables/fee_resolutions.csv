@@ -1,0 +1,5 @@
+id,resolution_id,role_type,fee_amount,currency_code,payment_frequency,approved_by_meeting,meeting_id
+100,9085246,baseline-role-67,38.08,gd_fp_eu_acc3,legacy-payment-19,baseline-approved-73,20967529
+101,gd_acc_120000,pilot-role-68,18.47,managing-resources,compact-payment-20,pilot-approved-74,ChIJd13ymnZu5kcRXM7jx5boJBs
+102,16587506,extended-role-69,38.08,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,composite-payment-21,extended-approved-75,gd_acc_763000
+103,9736899,integrated-role-70,26.25,10445649,primary-payment-22,integrated-approved-76,922ad118-9bad-11eb-a8a2-19ed5c03f8d3

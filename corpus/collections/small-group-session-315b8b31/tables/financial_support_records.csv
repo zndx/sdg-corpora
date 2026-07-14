@@ -1,0 +1,5 @@
+id,record_id,record_date,amount_needed,amount_given,funding_gap,support_status,marriage_prayer_focus_id
+1,10449530,2023-10-23,18.47,13.49,19.45,under_funded,100
+2,10445619,2024-03-07,12.36,47.66,23.90,fully_funded,101
+3,9568457,2025-08-18,18.47,47.66,28.35,over_funded,102
+4,20743593,2022-01-02,26.04,18.47,32.80,under_funded,103

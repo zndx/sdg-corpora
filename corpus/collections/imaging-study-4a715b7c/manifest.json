@@ -1,0 +1,137 @@
+{
+ "construct_id": "4a715b7c7825eff3",
+ "slug": "imaging-study-4a715b7c",
+ "passage": "4a715b7c7825eff3aef1aeab9e6140eef0915e5e599d6fe87e5c2525cb0edf85.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "ImagingStudy",
+  "Radiologist",
+  "HospitalCampus",
+  "ThoracicProcedure",
+  "PostProcessingSoftware"
+ ],
+ "terms": [
+  {
+   "name": "ImagingStudy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Radiologist",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "HospitalCampus",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ThoracicProcedure",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PostProcessingSoftware",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "imaging_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "study_identifier",
+    "modality",
+    "study_date",
+    "body_region",
+    "status",
+    "contrast_used",
+    "campus_code",
+    "radiologist_id",
+    "post_processing_software_id"
+   ]
+  },
+  {
+   "name": "radiologists",
+   "rows": 4,
+   "columns": [
+    "id",
+    "physician_identifier",
+    "full_name",
+    "certification_body",
+    "specialization",
+    "employment_status",
+    "bilingual",
+    "campus_code",
+    "thoracic_procedure_id"
+   ]
+  },
+  {
+   "name": "hospital_campuses",
+   "rows": 4,
+   "columns": [
+    "campus_code",
+    "campus_name",
+    "bed_capacity",
+    "trauma_level",
+    "location",
+    "imaging_study_id",
+    "radiologist_id",
+    "thoracic_procedure_id"
+   ]
+  },
+  {
+   "name": "thoracic_procedures",
+   "rows": 4,
+   "columns": [
+    "thoracic_procedure_id",
+    "procedure_code",
+    "procedure_name",
+    "procedure_date",
+    "invasiveness_level",
+    "status",
+    "radiologist_id",
+    "campus_code",
+    "imaging_study_id"
+   ]
+  },
+  {
+   "name": "post_processing_softwares",
+   "rows": 4,
+   "columns": [
+    "post_processing_software_id",
+    "software_name",
+    "version",
+    "vendor",
+    "license_status",
+    "imaging_study_id"
+   ]
+  },
+  {
+   "name": "radiologists_studies",
+   "rows": 8,
+   "columns": [
+    "radiologist_id",
+    "imaging_study_id"
+   ]
+  }
+ ],
+ "views": [
+  "imaging_study_hospital_campus_view",
+  "imaging_study_radiologist_view",
+  "imaging_study_post_processing_software_view",
+  "radiologist_hospital_campus_view",
+  "radiologist_imaging_study_detail_view",
+  "radiologist_thoracic_procedure_view",
+  "hospital_campus_imaging_study_view",
+  "hospital_campus_radiologist_view",
+  "hospital_campus_thoracic_procedure_view",
+  "thoracic_procedure_radiologist_view",
+  "thoracic_procedure_hospital_campus_view",
+  "thoracic_procedure_imaging_study_view",
+  "post_processing_software_imaging_study_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,assignment_id,scheduled_date_time,completed_date_time,staff_count_required,assignment_status,care_recipient_id,care_task_id
+1,4462,2023-10-18T21:03:00,2023-06-17T05:51:00,35,scheduled,1,1000
+2,5f933650-8fcd-11eb-924d-9cd76263cbd0,2024-03-02T04:20:00,2024-11-01T12:08:00,20,in progress,2,1001
+3,57e54d62-8fcd-11eb-924d-9cd76263cbd0,2025-08-13T11:37:00,2025-04-12T19:25:00,10,completed,3,1002
+4,3355778,2022-01-24T18:54:00,2022-09-23T02:42:00,37,cancelled,4,1003

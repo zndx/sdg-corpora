@@ -1,0 +1,154 @@
+{
+ "construct_id": "93112a07a030f6bb",
+ "slug": "investigation-case-93112a07",
+ "passage": "93112a07a030f6bb6b838ed58e4165baf2705e1b00f262e7b18e5d1cf115616c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "InvestigationCase",
+  "LegalTechSolutionLab",
+  "DiscoveryOperationCenter",
+  "ForensicOperationCenter",
+  "AIEngine",
+  "DataAnalysisTool"
+ ],
+ "terms": [
+  {
+   "name": "InvestigationCase",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LegalTechSolutionLab",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DiscoveryOperationCenter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ForensicOperationCenter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AIEngine",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DataAnalysisTool",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "investigation_cases",
+   "rows": 4,
+   "columns": [
+    "case_id",
+    "case_title",
+    "start_date",
+    "end_date",
+    "case_status",
+    "case_type",
+    "data_volume",
+    "lab_id",
+    "engine_id",
+    "data_analysis_tool_id"
+   ]
+  },
+  {
+   "name": "legal_tech_solution_labs",
+   "rows": 4,
+   "columns": [
+    "lab_id",
+    "lab_name",
+    "location",
+    "establishment_date",
+    "isms_compliant",
+    "service_scope",
+    "supported_languages",
+    "discovery_operation_center_id",
+    "forensic_operation_center_id",
+    "engine_id",
+    "data_analysis_tool_id"
+   ]
+  },
+  {
+   "name": "discovery_operation_centers",
+   "rows": 4,
+   "columns": [
+    "discovery_operation_center_id",
+    "center_id",
+    "center_name",
+    "focus_area",
+    "data_sources",
+    "analysis_techniques",
+    "lab_id",
+    "case_id"
+   ]
+  },
+  {
+   "name": "forensic_operation_centers",
+   "rows": 4,
+   "columns": [
+    "forensic_operation_center_id",
+    "center_id",
+    "center_name",
+    "focus_area",
+    "techniques",
+    "reporting_capability",
+    "lab_id",
+    "case_id"
+   ]
+  },
+  {
+   "name": "a_i_engines",
+   "rows": 4,
+   "columns": [
+    "engine_id",
+    "engine_name",
+    "version",
+    "training_data",
+    "supported_languages",
+    "processing_efficiency",
+    "lab_id",
+    "case_id"
+   ]
+  },
+  {
+   "name": "data_analysis_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "tool_type",
+    "developer",
+    "version",
+    "features",
+    "lab_id",
+    "case_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_investigation_case_legal_tech_solution_lab",
+  "vw_investigation_case_a_i_engine",
+  "vw_investigation_case_data_analysis_tool",
+  "vw_legal_tech_solution_lab_discovery_operation_center",
+  "vw_legal_tech_solution_lab_forensic_operation_center",
+  "vw_legal_tech_solution_lab_a_i_engine",
+  "vw_legal_tech_solution_lab_data_analysis_tool",
+  "vw_discovery_operation_center_legal_tech_solution_lab",
+  "vw_discovery_operation_center_investigation_case",
+  "vw_forensic_operation_center_legal_tech_solution_lab",
+  "vw_forensic_operation_center_investigation_case",
+  "vw_a_i_engine_legal_tech_solution_lab",
+  "vw_a_i_engine_investigation_case",
+  "vw_data_analysis_tool_legal_tech_solution_lab",
+  "vw_data_analysis_tool_investigation_case"
+ ]
+}

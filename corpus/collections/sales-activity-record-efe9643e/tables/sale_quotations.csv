@@ -1,0 +1,5 @@
+id,quotation_id,issue_date,expiry_date,total_amount,status,description,prospective_customer_id,sales_administrator_id,sales_activity_record_id,created_at,updated_at
+1,12715698,2023-02-01,2023-10-24,112.11,Draft,Extended Survey,1,1000,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,1996939,2024-07-12,2024-03-08,"1,979",Sent,Pilot Corridor A,2,1001,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,1050,2025-12-23,2025-08-19,"15,418",Accepted,Baseline Series,3,1002,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,2087744,2022-05-07,2022-01-03,"12,579",Rejected,Distributed Assessment,4,1003,103,2025-04-16 09:14:00,2025-04-23 15:41:00

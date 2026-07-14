@@ -1,0 +1,166 @@
+{
+ "construct_id": "b25dc9bf5759d991",
+ "slug": "catering-package-b25dc9bf",
+ "passage": "b25dc9bf5759d991931652d56f66526c0834d014faadc87dab385c5a571c87ae.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 11,
+ "entities": [
+  "CateringPackage",
+  "FoodBeverageItem",
+  "BeverageSelection",
+  "ServiceCharge",
+  "SandwichVariety",
+  "BoxedLunchSide"
+ ],
+ "terms": [
+  {
+   "name": "CateringPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodBeverageItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BeverageSelection",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceCharge",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SandwichVariety",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BoxedLunchSide",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "catering_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "package_id",
+    "package_name",
+    "meal_period",
+    "base_price_per_person",
+    "is_buffet",
+    "includes_dessert",
+    "beverage_selection_id",
+    "service_charge_id"
+   ]
+  },
+  {
+   "name": "food_beverage_items",
+   "rows": 4,
+   "columns": [
+    "food_beverage_item_id",
+    "item_id",
+    "item_name",
+    "item_category",
+    "is_seasonal",
+    "is_housemade",
+    "allergen_info",
+    "catering_package_id",
+    "beverage_selection_id"
+   ]
+  },
+  {
+   "name": "beverage_selections",
+   "rows": 4,
+   "columns": [
+    "id",
+    "selection_id",
+    "selection_name",
+    "includes_hot_beverages",
+    "includes_cold_beverages",
+    "includes_alcohol",
+    "catering_package_id"
+   ]
+  },
+  {
+   "name": "service_charges",
+   "rows": 4,
+   "columns": [
+    "id",
+    "charge_id",
+    "charge_type",
+    "charge_value",
+    "charge_name",
+    "applies_to_group_size",
+    "catering_package_id"
+   ]
+  },
+  {
+   "name": "sandwich_varieties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "variety_id",
+    "variety_name",
+    "bread_type",
+    "primary_protein",
+    "includes_cheese",
+    "catering_package_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "boxed_lunch_sides",
+   "rows": 4,
+   "columns": [
+    "boxed_lunch_side_id",
+    "side_id",
+    "side_name",
+    "side_category",
+    "sandwich_variety_id"
+   ]
+  },
+  {
+   "name": "packages_items",
+   "rows": 8,
+   "columns": [
+    "catering_package_id",
+    "food_beverage_item_id"
+   ]
+  },
+  {
+   "name": "selections_items",
+   "rows": 8,
+   "columns": [
+    "beverage_selection_id",
+    "food_beverage_item_id"
+   ]
+  },
+  {
+   "name": "varieties_sides",
+   "rows": 8,
+   "columns": [
+    "sandwich_variety_id",
+    "boxed_lunch_side_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_catering_package_food_beverage_item_detail",
+  "v_catering_package_beverage_selection",
+  "v_catering_package_service_charge",
+  "v_food_beverage_item_catering_package",
+  "v_food_beverage_item_beverage_selection",
+  "v_beverage_selection_catering_package",
+  "v_beverage_selection_food_beverage_item_detail",
+  "v_service_charge_catering_package",
+  "v_sandwich_variety_catering_package",
+  "v_sandwich_variety_boxed_lunch_side_detail",
+  "v_boxed_lunch_side_sandwich_variety"
+ ]
+}

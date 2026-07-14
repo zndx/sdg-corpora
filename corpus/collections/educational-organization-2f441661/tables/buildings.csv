@@ -1,0 +1,5 @@
+id,building_id,address,district,construction_year,last_renovation_date,lease_term_years,lease_start_date,lease_grantor,educational_organization_id
+1,10090,distributed-address-72,integrated-district-40,14,2025-08-19,17,2024-07-24,adaptive-lease-41,1
+2,3744019,baseline-address-73,seasonal-district-41,21,2022-01-03,24,2025-12-08,distributed-lease-42,2
+3,3001009030150,pilot-address-74,regional-district-42,28,2023-06-14,31,2022-05-19,baseline-lease-43,3
+4,325468,extended-address-75,legacy-district-43,35,2024-11-25,38,2023-10-03,pilot-lease-44,4

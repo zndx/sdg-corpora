@@ -1,0 +1,5 @@
+id,dessert_id,dessert_name,price,type,is_available,party_platter_id,box_lunch_id,created_at,updated_at
+1,L486,Integrated Framework A,12.87,cookie,true,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,a0f8b44e-8fcd-11eb-924d-9cd76263cbd0,Extended Protocol,35.45,brownie,false,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,7119779,Pilot Programme,29.24,cookie,true,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,1437585,Baseline Standard D,29.99,brownie,false,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

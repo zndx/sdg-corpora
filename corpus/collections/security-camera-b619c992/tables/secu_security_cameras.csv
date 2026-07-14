@@ -1,0 +1,5 @@
+security_camera_id,camera_id,location,installation_date,is_audio_enabled,status,library_property_id,video_surveillance_data_id
+1,98a0473a-8fcd-11eb-924d-9cd76263cbd0,extended-location-99,2022-01-10T00:12:00,true,active,100,1
+2,4e383924-8fcc-11eb-924d-9cd76263cbd0,integrated-location-100,2023-06-21T07:29:00,false,inactive,101,2
+3,1450647,seasonal-location-101,2024-11-05T14:46:00,true,maintenance,102,3
+4,2839509,regional-location-102,2025-04-16T21:03:00,false,active,103,4

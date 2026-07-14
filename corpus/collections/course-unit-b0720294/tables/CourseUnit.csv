@@ -1,0 +1,5 @@
+id,unitCode,unitTitle,trainingTypeCode,trainingTypeName,accreditationStatus,currentEffectiveDate,expiryDate,isRestricted,authorityId,periodId,restrictionId,detailId
+1,16375765,Integrated Framework A,2882,Regional Initiative,accredited,2023-02-04T13:51:00,2023-10-24T21:15:00,false,1000,1,1,1
+2,43197173,Extended Protocol,Waktu,Seasonal Model D,suspended,2024-07-15T20:08:00,2024-03-08T04:32:00,true,1001,2,2,2
+3,1186104,Pilot Programme,9736915,Integrated Cluster,withdrawn,2025-12-26T03:25:00,2025-08-19T11:49:00,false,1002,3,3,3
+4,69419,Baseline Standard D,e6f1c698-8fc3-11eb-924d-9cd76263cbd0,Extended Review,accredited,2022-05-10T10:42:00,2022-01-03T18:06:00,true,1003,4,4,4

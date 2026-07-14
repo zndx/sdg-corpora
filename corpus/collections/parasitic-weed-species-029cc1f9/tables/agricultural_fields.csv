@@ -1,0 +1,5 @@
+field_id,landscape_position,soil_drainage,soil_moisture_level,primary_crop,affected_households,crop_species_id,parasitic_weed_species_id,geographic_region_id,created_at
+9085253,upland,free-draining,extended-soil-45,extended-primary-87,6,1,100,1,2025-01-01 00:14:00
+1c87986a-8fcd-11eb-924d-9cd76263cbd0,lowland,waterlogged,integrated-soil-46,integrated-primary-88,11,2,101,2,2025-02-06 03:14:00
+1996924,upland,free-draining,seasonal-soil-47,seasonal-primary-89,16,3,102,3,2025-03-11 06:14:00
+2298,lowland,waterlogged,regional-soil-48,regional-primary-90,21,4,103,4,2025-04-16 09:14:00

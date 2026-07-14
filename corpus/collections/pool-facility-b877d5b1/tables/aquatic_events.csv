@@ -1,0 +1,5 @@
+aquatic_event_id,event_id,event_name,event_type,start_date,end_date,capacity,registration_fee,is_cancelled,pool_facility_id
+1000,2002007020060,Seasonal Standard,public_session,2022-09-05T20:24:00,2022-09-01T08:00:00,32,24.01,false,1
+1001,168535,Integrated Framework,swim_lesson,2023-02-16T03:41:00,2023-02-12T15:17:00,41,12.87,true,2
+1002,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,Extended Protocol D,rental,2024-07-27T10:58:00,2024-07-23T22:34:00,50,19.72,false,3
+1003,1186089,Pilot Programme,special_event,2025-12-11T17:15:00,2025-12-07T05:51:00,59,16.11,true,4

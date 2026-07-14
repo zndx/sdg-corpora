@@ -1,0 +1,5 @@
+board_member_id,member_id,full_name,role,is_present,voting_record,board_session_id,board_motion_id
+1000,10207158,Theodore Mcgrath,Vice Chair,false,Ayes,1,1
+1001,10207158,Account Name,Regular Member,true,Nays,2,2
+1002,25820616,Saipan International Airport,Alternate Member,false,Absent,3,3
+1003,2002007020250,Norma Fisher,Vice Chair,true,Ayes,4,4

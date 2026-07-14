@@ -1,0 +1,124 @@
+{
+ "construct_id": "483845c358f63bda",
+ "slug": "capacity-enhancement-483845c3",
+ "passage": "483845c358f63bdac273006465b22792eb649fde1d0405fa004eb3d888f0f97d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "CapacityEnhancement",
+  "ManufacturingFacility",
+  "ProductLine",
+  "Enterprise",
+  "GeographicRegion"
+ ],
+ "terms": [
+  {
+   "name": "CapacityEnhancement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ManufacturingFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProductLine",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Enterprise",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "capacity_enhancements",
+   "rows": 4,
+   "columns": [
+    "capacity_enhancement_id",
+    "planned_capacity_m_w",
+    "actual_capacity_m_w",
+    "planning_period",
+    "effective_date",
+    "status",
+    "manufacturing_facility_id",
+    "enterprise_id"
+   ]
+  },
+  {
+   "name": "manufacturing_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_name",
+    "location",
+    "facility_type",
+    "operational_status",
+    "geographic_region_id",
+    "product_line_id"
+   ]
+  },
+  {
+   "name": "product_lines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "product_category",
+    "technology_readiness_level",
+    "target_output_m_w",
+    "is_strategic",
+    "enterprise_id",
+    "manufacturing_facility_id"
+   ]
+  },
+  {
+   "name": "enterprises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enterprise_name",
+    "ownership_type",
+    "registration_number",
+    "regulatory_authority",
+    "manufacturing_facility_id",
+    "product_line_id",
+    "enterprise_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_name",
+    "country_code",
+    "state_province",
+    "region_type",
+    "manufacturing_facility_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_capacity_enhancement_manufacturing_facility",
+  "v_capacity_enhancement_enterprise",
+  "v_manufacturing_facility_geographic_region",
+  "v_manufacturing_facility_product_line",
+  "v_product_line_enterprise",
+  "v_product_line_manufacturing_facility",
+  "v_enterprise_manufacturing_facility",
+  "v_enterprise_product_line",
+  "v_enterprise_enterprise",
+  "v_geographic_region_manufacturing_facility"
+ ]
+}

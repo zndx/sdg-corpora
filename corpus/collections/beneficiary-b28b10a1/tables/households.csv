@@ -1,0 +1,5 @@
+household_id,household_head,number_of_members,location,economic_status,vulnerability_level,support_received,program_id,created_at,updated_at
+1000,pilot-househol-86,43,extended-location-99,low_income,low,true,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,extended-househol-87,52,integrated-location-100,middle_income,medium,false,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,integrated-househol-88,61,seasonal-location-101,high_income,high,true,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,seasonal-househol-89,70,regional-location-102,low_income,low,false,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

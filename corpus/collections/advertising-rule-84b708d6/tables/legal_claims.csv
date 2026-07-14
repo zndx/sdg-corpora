@@ -1,0 +1,5 @@
+legal_claim_id,claim_text,claim_type,is_verifiable,is_misleading,requires_disclaimer,disclaimer_text,advertisement_id,advertising_rule_id
+1000,pilot-claim-56,success_prediction,true,false,true,adaptive-disclaim-89,1,100
+1001,extended-claim-57,past_result,false,true,false,distributed-disclaim-90,2,101
+1002,integrated-claim-58,skill_comparison,true,false,true,baseline-disclaim-91,3,102
+1003,seasonal-claim-59,fee_statement,false,true,false,pilot-disclaim-92,4,103

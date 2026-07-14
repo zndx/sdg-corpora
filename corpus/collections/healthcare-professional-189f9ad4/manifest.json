@@ -1,0 +1,119 @@
+{
+ "construct_id": "189f9ad4ca59a56d",
+ "slug": "healthcare-professional-189f9ad4",
+ "passage": "189f9ad4ca59a56debdf0d73319597d65e2f36e0e216184a28032bd077d18b93.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 9,
+ "entities": [
+  "HealthcareProfessional",
+  "Patient",
+  "Person",
+  "DisclosureEvent",
+  "Clinic"
+ ],
+ "terms": [
+  {
+   "name": "HealthcareProfessional",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DisclosureEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Clinic",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "healthcare_professionals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "professional_id",
+    "full_name",
+    "specialty",
+    "clinic_id",
+    "is_primary_care",
+    "patient_id",
+    "works_at_clinic_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "patient_id",
+    "date_of_birth",
+    "diagnosis_date",
+    "status",
+    "is_minor",
+    "healthcare_professional_id",
+    "person_id",
+    "has_family_member_person_id",
+    "has_close_friend_person_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "full_name",
+    "relationship_to_patient",
+    "is_trusted",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "disclosure_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "disclosure_date",
+    "method",
+    "is_successful",
+    "is_nerve_wracking",
+    "patient_id",
+    "person_id",
+    "healthcare_professional_id"
+   ]
+  },
+  {
+   "name": "clinics",
+   "rows": 4,
+   "columns": [
+    "clinic_id",
+    "clinic_name",
+    "location",
+    "has_workshops",
+    "healthcare_professional_id"
+   ]
+  }
+ ],
+ "views": [
+  "healthcare_professional_patient_view",
+  "healthcare_professional_clinic_view",
+  "patient_healthcare_professional_view",
+  "patient_person_view",
+  "person_patient_view",
+  "disclosure_event_patient_view",
+  "disclosure_event_person_view",
+  "disclosure_event_healthcare_professional_view",
+  "clinic_healthcare_professional_view"
+ ]
+}

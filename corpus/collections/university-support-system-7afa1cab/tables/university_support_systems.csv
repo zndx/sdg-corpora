@@ -1,0 +1,5 @@
+university_support_system_id,system_id,system_name,system_type,start_date,end_date,status,budget,accessibility_score,department_id,created_at
+1,8189503,Legacy Programme D,Mentorship,2022-09-05T20:24:00,2022-09-01T08:00:00,Active,35.45,11.20,2087755,2025-01-01 00:14:00
+2,3717623,Regional Standard,Funding,2023-02-16T03:41:00,2023-02-12T15:17:00,Inactive,18.47,15.40,790483,2025-02-06 03:14:00
+3,7441161,Seasonal Framework,Incubation,2024-07-27T10:58:00,2024-07-23T22:34:00,Planned,26.25,19.60,505978,2025-03-11 06:14:00
+4,605963,Integrated Protocol A,Workshop,2025-12-11T17:15:00,2025-12-07T05:51:00,Active,17.12,23.80,id_6,2025-04-16 09:14:00

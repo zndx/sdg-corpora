@@ -1,0 +1,161 @@
+{
+ "construct_id": "49b7a51d19d336bf",
+ "slug": "menu-item-49b7a51d",
+ "passage": "49b7a51d19d336bfc5d0566edf12921959dc112542fb6468e74b24f2f7286868.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 13,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "SideItem",
+  "PreparationMethod",
+  "DrinkVariant",
+  "OmeletteAddOn"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PreparationMethod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DrinkVariant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OmeletteAddOn",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "menu_item_id",
+    "name",
+    "price",
+    "category",
+    "is_alcoholic",
+    "is_spicy",
+    "side_item_id",
+    "method_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "name",
+    "type",
+    "is_allergen",
+    "is_seasonal",
+    "menu_item_id",
+    "method_id"
+   ]
+  },
+  {
+   "name": "side_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "side_item_id",
+    "name",
+    "price",
+    "is_included",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "preparation_methods",
+   "rows": 4,
+   "columns": [
+    "method_id",
+    "name",
+    "cooking_temperature",
+    "cooking_duration",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "drink_variants",
+   "rows": 4,
+   "columns": [
+    "variant_id",
+    "name",
+    "base_alcohol",
+    "price",
+    "alcohol_content",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "omelette_add_ons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "add_on_id",
+    "name",
+    "additional_cost",
+    "category",
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "methods_ingredients",
+   "rows": 8,
+   "columns": [
+    "method_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "variants_ingredients",
+   "rows": 8,
+   "columns": [
+    "variant_id",
+    "ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_menu_item_ingredient_detail",
+  "v_menu_item_side_item",
+  "v_menu_item_preparation_method",
+  "v_ingredient_menu_item",
+  "v_ingredient_preparation_method",
+  "v_side_item_menu_item",
+  "v_side_item_ingredient_detail",
+  "v_preparation_method_ingredient_detail",
+  "v_preparation_method_menu_item",
+  "v_drink_variant_ingredient_detail",
+  "v_drink_variant_menu_item",
+  "v_omelette_add_on_menu_item",
+  "v_omelette_add_on_ingredient"
+ ]
+}

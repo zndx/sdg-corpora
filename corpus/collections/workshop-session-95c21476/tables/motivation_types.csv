@@ -1,0 +1,5 @@
+id,motivation_id,motivation_category,intensity,trigger_source,is_sustainable,participant_id
+100,1250209,intrinsic,7.20,distributed-trigger-96,true,1
+101,a001f18c-9bac-11eb-a8a2-19ed5c03f8d3,extrinsic,9.40,baseline-trigger-97,false,2
+102,89146,intrinsic,11.60,pilot-trigger-98,true,3
+103,4793478,extrinsic,13.80,extended-trigger-99,false,4

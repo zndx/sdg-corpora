@@ -1,0 +1,5 @@
+id,agent_id,agent_type,current_sanction_count,max_allowed_sanctions,norm_id,transition_id,sanction_id
+1,3012833,adaptive-agent-89,7,24,1,BJewellGraham,1
+2,lu_tax_code_template_b_VB-IC-12,distributed-agent-90,21,34,2,2106698,2
+3,9229dcd6-9bad-11eb-a8a2-19ed5c03f8d3,baseline-agent-91,15,44,3,state_uk_21,3
+4,4447004,pilot-agent-92,21,54,4,4332,4

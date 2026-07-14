@@ -1,0 +1,183 @@
+{
+ "construct_id": "d0e3ba7bbc10cf91",
+ "slug": "didactical-situation-d0e3ba7b",
+ "passage": "d0e3ba7bbc10cf914eef6fc48b7ef7ff07484cfaab2dfded17c67c98d4ca3cc1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 13,
+ "entities": [
+  "DidacticalSituation",
+  "MathematicalConcept",
+  "EducationalActor",
+  "DidacticInstrument",
+  "DidacticInstitution",
+  "LearningOutcome"
+ ],
+ "terms": [
+  {
+   "name": "DidacticalSituation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MathematicalConcept",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EducationalActor",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DidacticInstrument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DidacticInstitution",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LearningOutcome",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "didactical_situations",
+   "rows": 4,
+   "columns": [
+    "situation_id",
+    "title",
+    "period_start",
+    "period_end",
+    "status",
+    "description",
+    "didactic_instrument_id"
+   ]
+  },
+  {
+   "name": "mathematical_concepts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "concept_id",
+    "name",
+    "domain",
+    "complexity_level",
+    "prerequisite_concept_id",
+    "is_abstract",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "educational_actors",
+   "rows": 4,
+   "columns": [
+    "actor_id",
+    "role",
+    "institution",
+    "years_of_experience",
+    "demographic_group",
+    "situation_id"
+   ]
+  },
+  {
+   "name": "didactic_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "instrument_id",
+    "title",
+    "type",
+    "publication_year",
+    "author_name",
+    "is_digital",
+    "situation_id"
+   ]
+  },
+  {
+   "name": "didactic_institutions",
+   "rows": 4,
+   "columns": [
+    "didactic_institution_id",
+    "institution_id",
+    "name",
+    "jurisdiction",
+    "founding_year",
+    "type",
+    "situation_id"
+   ]
+  },
+  {
+   "name": "learning_outcomes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outcome_id",
+    "assessment_score",
+    "mastery_level",
+    "date_assessed",
+    "is_achieved",
+    "situation_id",
+    "mathematical_concept_id",
+    "actor_id"
+   ]
+  },
+  {
+   "name": "situations_concepts",
+   "rows": 8,
+   "columns": [
+    "situation_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "situations_actors",
+   "rows": 8,
+   "columns": [
+    "situation_id",
+    "actor_id"
+   ]
+  },
+  {
+   "name": "concepts_situations",
+   "rows": 8,
+   "columns": [
+    "mathematical_concept_id",
+    "situation_id"
+   ]
+  },
+  {
+   "name": "instruments_concepts",
+   "rows": 8,
+   "columns": [
+    "didactic_instrument_id",
+    "mathematical_concept_id"
+   ]
+  },
+  {
+   "name": "institutions_actors",
+   "rows": 8,
+   "columns": [
+    "didactic_institution_id",
+    "actor_id"
+   ]
+  }
+ ],
+ "views": [
+  "didactical_situation_mathematical_concept_detail_view",
+  "didactical_situation_educational_actor_detail_view",
+  "didactical_situation_didactic_instrument_view",
+  "mathematical_concept_didactical_situation_detail_view",
+  "mathematical_concept_mathematical_concept_view",
+  "educational_actor_didactical_situation_view",
+  "didactic_instrument_mathematical_concept_detail_view",
+  "didactic_instrument_didactical_situation_view",
+  "didactic_institution_didactical_situation_view",
+  "didactic_institution_educational_actor_detail_view",
+  "learning_outcome_didactical_situation_view",
+  "learning_outcome_mathematical_concept_view",
+  "learning_outcome_educational_actor_view"
+ ]
+}

@@ -1,0 +1,5 @@
+health_service_id,service_id,service_name,service_category,availability_status,target_group,geographic_coverage,cost_coverage_percent,jurisdiction_id,population_segment_id
+1,1996925,Distributed Initiative,self_management_education,limited,composite-target-81,pilot-geograph-26,18.47,1,1000
+2,3990164,Adaptive Model D,specialized_care,available,primary-target-82,extended-geograph-27,19.97,2,1001
+3,5844258,Primary Cluster,preventive_screening,restricted,adaptive-target-83,integrated-geograph-28,9.54,3,1002
+4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,treatment,limited,distributed-target-84,seasonal-geograph-29,13.94,4,1003

@@ -1,0 +1,219 @@
+{
+ "construct_id": "bda34d6eb2065210",
+ "slug": "capital-access-program-bda34d6e",
+ "passage": "bda34d6eb2065210bd99b8acee654b6e97a637991865f754cbc9443c5528d645.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 23,
+ "entities": [
+  "CapitalAccessProgram",
+  "EconomicDevelopmentBank",
+  "FinancialDevelopmentCorporation",
+  "SmallBusiness",
+  "UnderservedCommunity",
+  "InfrastructureProject",
+  "InstitutionalLender"
+ ],
+ "terms": [
+  {
+   "name": "CapitalAccessProgram",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EconomicDevelopmentBank",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialDevelopmentCorporation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SmallBusiness",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "UnderservedCommunity",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "InfrastructureProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InstitutionalLender",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "capital_access_programs",
+   "rows": 4,
+   "columns": [
+    "capital_access_program_id",
+    "program_identifier",
+    "program_name",
+    "established_date",
+    "total_financed_amount",
+    "max_guarantee_amount",
+    "program_status",
+    "target_jurisdiction",
+    "economic_development_bank_id",
+    "financial_development_corporation_id",
+    "small_business_id",
+    "underserved_community_id"
+   ]
+  },
+  {
+   "name": "economic_development_banks",
+   "rows": 4,
+   "columns": [
+    "economic_development_bank_id",
+    "bank_identifier",
+    "bank_name",
+    "founding_year",
+    "governing_office",
+    "total_financed_amount",
+    "bond_issuance_authority",
+    "jurisdiction",
+    "financial_development_corporation_id",
+    "infrastructure_project_id",
+    "small_business_id"
+   ]
+  },
+  {
+   "name": "financial_development_corporations",
+   "rows": 4,
+   "columns": [
+    "financial_development_corporation_id",
+    "fdc_identifier",
+    "fdc_name",
+    "establishment_date",
+    "public_dollars_leveraged",
+    "total_guarantee_issuance",
+    "deployment_status",
+    "jurisdiction",
+    "capital_access_program_id",
+    "institutional_lender_id",
+    "underserved_community_id"
+   ]
+  },
+  {
+   "name": "small_businesses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "business_identifier",
+    "business_name",
+    "industry_sector",
+    "employee_count",
+    "job_creation_commitment",
+    "employee_retention_commitment",
+    "tax_base_impact",
+    "capital_access_program_id",
+    "financial_development_corporation_id",
+    "underserved_community_id"
+   ]
+  },
+  {
+   "name": "underserved_communities",
+   "rows": 4,
+   "columns": [
+    "underserved_community_id",
+    "community_identifier",
+    "community_name",
+    "geographic_boundary",
+    "population_density",
+    "median_income",
+    "access_level",
+    "targeted_status",
+    "small_business_id",
+    "capital_access_program_id"
+   ]
+  },
+  {
+   "name": "infrastructure_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_identifier",
+    "project_name",
+    "project_type",
+    "total_cost",
+    "financed_amount",
+    "start_date",
+    "completion_date",
+    "project_status",
+    "economic_development_bank_id",
+    "underserved_community_id",
+    "small_business_id"
+   ]
+  },
+  {
+   "name": "institutional_lenders",
+   "rows": 4,
+   "columns": [
+    "institutional_lender_id",
+    "lender_identifier",
+    "lender_name",
+    "lender_type",
+    "total_capital_deployed",
+    "risk_tolerance",
+    "jurisdiction",
+    "financial_development_corporation_id",
+    "capital_access_program_id"
+   ]
+  },
+  {
+   "name": "banks_programs",
+   "rows": 8,
+   "columns": [
+    "economic_development_bank_id",
+    "capital_access_program_id"
+   ]
+  },
+  {
+   "name": "corporations_businesses",
+   "rows": 8,
+   "columns": [
+    "financial_development_corporation_id",
+    "small_business_id"
+   ]
+  },
+  {
+   "name": "lenders_businesses",
+   "rows": 8,
+   "columns": [
+    "institutional_lender_id",
+    "small_business_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_capital_access_program_economic_development_bank",
+  "v_capital_access_program_financial_development_corporation",
+  "v_capital_access_program_small_business",
+  "v_capital_access_program_underserved_community",
+  "v_economic_development_bank_capital_access_program_detail",
+  "v_economic_development_bank_financial_development_corporation",
+  "v_economic_development_bank_infrastructure_project",
+  "v_economic_development_bank_small_business",
+  "v_financial_development_corporation_capital_access_program",
+  "v_financial_development_corporation_small_business_detail",
+  "v_financial_development_corporation_institutional_lender",
+  "v_financial_development_corporation_underserved_community",
+  "v_small_business_capital_access_program",
+  "v_small_business_financial_development_corporation",
+  "v_small_business_underserved_community",
+  "v_underserved_community_small_business",
+  "v_underserved_community_capital_access_program",
+  "v_infrastructure_project_economic_development_bank",
+  "v_infrastructure_project_underserved_community",
+  "v_infrastructure_project_small_business",
+  "v_institutional_lender_financial_development_corporation",
+  "v_institutional_lender_small_business_detail",
+  "v_institutional_lender_capital_access_program"
+ ]
+}

@@ -1,0 +1,5 @@
+medication_id,brand_name,generic_name,is_formulary,mme_limit,controlled_substance_schedule
+100,The College-Ready Promise,Distributed Review,true,20.45,Schedule I
+101,General Foods,Adaptive Initiative D,false,22.90,Schedule II
+102,Navistar International,Primary Model,true,25.35,Schedule III
+103,Root Inc.,Composite Cluster,false,27.80,Schedule IV

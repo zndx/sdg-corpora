@@ -1,0 +1,187 @@
+{
+ "construct_id": "34567191a063b939",
+ "slug": "tax-regulation-34567191",
+ "passage": "34567191a063b93904eb93aaf46e69aa5f7499114b57b9544c13e5995c42f6cc.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 18,
+ "entities": [
+  "TaxRegulation",
+  "TaxStatute",
+  "TaxDeduction",
+  "QualifiedBusinessIncome",
+  "TradeOrBusiness",
+  "WageAssetTest",
+  "DisqualifiedActivity"
+ ],
+ "terms": [
+  {
+   "name": "TaxRegulation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TaxStatute",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TaxDeduction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "QualifiedBusinessIncome",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TradeOrBusiness",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WageAssetTest",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DisqualifiedActivity",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "tax_regulations",
+   "rows": 4,
+   "columns": [
+    "tax_regulation_id",
+    "regulation_id",
+    "title",
+    "publication_date",
+    "status",
+    "effective_date",
+    "hearing_date",
+    "federal_register_citation",
+    "tax_statute_id",
+    "tax_deduction_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "tax_statutes",
+   "rows": 4,
+   "columns": [
+    "tax_statute_id",
+    "statute_code",
+    "section_number",
+    "enactment_date",
+    "short_title",
+    "long_title",
+    "amendment_status",
+    "tax_deduction_id",
+    "disqualified_activity_id"
+   ]
+  },
+  {
+   "name": "tax_deductions",
+   "rows": 4,
+   "columns": [
+    "tax_deduction_id",
+    "deduction_percentage",
+    "max_deduction_amount",
+    "effective_tax_rate",
+    "phase_in_threshold",
+    "phase_out_threshold",
+    "applies_to_a_m_t",
+    "affects_basis",
+    "affects_n_i_i",
+    "qualified_business_income_id",
+    "wage_asset_test_id",
+    "disqualified_activity_id"
+   ]
+  },
+  {
+   "name": "qualified_business_incomes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "income_amount",
+    "loss_amount",
+    "net_q_b_i",
+    "carried_forward_loss",
+    "source_type",
+    "is_s_s_t_b",
+    "calculation_year",
+    "trade_or_business_employer_id",
+    "wage_asset_test_id",
+    "disqualified_activity_id"
+   ]
+  },
+  {
+   "name": "trade_or_businesses",
+   "rows": 4,
+   "columns": [
+    "entity_type",
+    "employer_id",
+    "location",
+    "is_s_s_t_b",
+    "total_wages_paid",
+    "unadjusted_basis_of_property",
+    "tax_year",
+    "qualified_business_income_id",
+    "wage_asset_test_id",
+    "disqualified_activity_id"
+   ]
+  },
+  {
+   "name": "wage_asset_tests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "wage_limit",
+    "asset_limit",
+    "combined_limit",
+    "phase_in_percentage",
+    "is_fully_applicable",
+    "test_year",
+    "trade_or_business_employer_id",
+    "tax_deduction_id"
+   ]
+  },
+  {
+   "name": "disqualified_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_code",
+    "activity_name",
+    "is_de_minimis",
+    "de_minimis_threshold",
+    "anti_abuse_rule",
+    "exclusion_status",
+    "trade_or_business_employer_id",
+    "tax_deduction_id",
+    "tax_regulation_id"
+   ]
+  }
+ ],
+ "views": [
+  "tax_regulation_tax_statute_view",
+  "tax_regulation_tax_deduction_view",
+  "tax_statute_tax_deduction_view",
+  "tax_statute_disqualified_activity_view",
+  "tax_deduction_qualified_business_income_view",
+  "tax_deduction_wage_asset_test_view",
+  "tax_deduction_disqualified_activity_view",
+  "qualified_business_income_trade_or_business_view",
+  "qualified_business_income_wage_asset_test_view",
+  "qualified_business_income_disqualified_activity_view",
+  "trade_or_business_qualified_business_income_view",
+  "trade_or_business_wage_asset_test_view",
+  "trade_or_business_disqualified_activity_view",
+  "wage_asset_test_trade_or_business_view",
+  "wage_asset_test_tax_deduction_view",
+  "disqualified_activity_trade_or_business_view",
+  "disqualified_activity_tax_deduction_view",
+  "disqualified_activity_tax_regulation_view"
+ ]
+}

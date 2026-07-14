@@ -1,0 +1,5 @@
+insurance_application_id,application_id,organization_name,headquarters_street,headquarters_city,headquarters_state,headquarters_zip,date_of_formation,chartered_in_state,submission_date,is_binding,organization_id,event_id,coverage_policy_id,claim_record_id
+1,505997,Staples Inc.,adaptive-headquar-65,seasonal-headquar-83,compact-headquar-74,pilot-headquar-92,2023-02-08,composite-chartere-81,2025-04-24T03:57:00,true,100,1,100,1000
+2,1250196,Oscar Health Inc.,distributed-headquar-66,regional-headquar-84,composite-headquar-75,extended-headquar-93,2024-07-19,primary-chartere-82,2022-09-08T10:14:00,false,101,2,101,1001
+3,124,Atlantic Richfield,baseline-headquar-67,legacy-headquar-85,primary-headquar-76,integrated-headquar-94,2025-12-03,adaptive-chartere-83,2023-02-19T17:31:00,true,102,3,102,1002
+4,IVC20det40,Port Loko,pilot-headquar-68,compact-headquar-86,adaptive-headquar-77,seasonal-headquar-95,2022-05-14,distributed-chartere-84,2024-07-03T00:48:00,false,103,4,103,1003

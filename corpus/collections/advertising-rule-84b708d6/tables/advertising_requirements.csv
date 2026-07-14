@@ -1,0 +1,5 @@
+advertising_requirement_id,requirement_text,requirement_category,is_safe_harbor,applies_to_media,advertising_rule_id,advertisement_id
+1000,distributed-requirem-12,required_content,false,all,100,1
+1001,baseline-requirem-13,prohibited_content,true,written,101,2
+1002,pilot-requirem-14,formatting,false,spoken,102,3
+1003,extended-requirem-15,disclosure,true,electronic,103,4

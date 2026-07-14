@@ -1,0 +1,5 @@
+id,customer_identifier,full_name,ssn,date_of_birth,occupation,annual_income,address,telephone_number,created_at
+100,April Snyder,Theodore Mcgrath,legacy-ssn-43,2025-04-02,legacy-occupati-37,26.04,distributed-address-72,TEL-2173,2025-01-01 00:14:00
+101,Rachel Peterson,Account Name,compact-ssn-44,2022-09-13,compact-occupati-38,19.97,baseline-address-73,TEL-2177,2025-02-06 03:14:00
+102,Douglas Adams,Saipan International Airport,composite-ssn-45,2023-02-24,composite-occupati-39,20.14,pilot-address-74,TEL-2181,2025-03-11 06:14:00
+103,John Morales,Norma Fisher,primary-ssn-46,2024-07-08,primary-occupati-40,19.95,extended-address-75,TEL-2185,2025-04-16 09:14:00

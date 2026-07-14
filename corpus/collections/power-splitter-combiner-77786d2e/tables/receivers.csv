@@ -1,0 +1,5 @@
+id,receiver_identifier,receiver_type,input_impedance,sensitivity,status,r_f_port_id,antenna_id
+1000,REC-2087,superheterodyne,21.20,2.95,active,1,1
+1001,REC-2093,direct_conversion,24.40,5.90,standby,2,2
+1002,REC-2099,superheterodyne,27.60,8.85,fault,3,3
+1003,REC-2105,direct_conversion,30.80,11.80,active,4,4

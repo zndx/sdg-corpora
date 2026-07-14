@@ -1,0 +1,5 @@
+financial_institution_id,institution_id,institution_name,headquarters_location,customer_count,ethical_policy_adopted,insurance_product_id,entity_id
+1,9424913,Extended Corridor,composite-headquar-63,3,false,100,1996912
+2,8189481,Pilot Series A,primary-headquar-64,22,true,101,57e4a9d4-8fcd-11eb-924d-9cd76263cbd0
+3,1437604,Baseline Assessment,adaptive-headquar-65,2,false,102,9736894
+4,884346,Distributed Survey,distributed-headquar-66,47,true,103,974946

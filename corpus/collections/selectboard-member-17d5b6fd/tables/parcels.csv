@@ -1,0 +1,5 @@
+id,parcel_id,address,zoning_district,land_use,owner_name,is_publicly_accessible,business_entity_business_id,project_id,municipal_board_id
+1000,4447034,distributed-address-72,adaptive-zoning-95,parking,Craig Childs,false,3122ef58d8b44fb197236734beef7b29,1,100
+1001,325464,baseline-address-73,distributed-zoning-96,commercial,Kimberly Smith,true,StasStaStS,2,101
+1002,3990187,pilot-address-74,baseline-zoning-97,residential,Michelle Kelley,false,3990175,3,102
+1003,110,extended-address-75,pilot-zoning-98,public,Jorge Sullivan,true,14484998,4,103

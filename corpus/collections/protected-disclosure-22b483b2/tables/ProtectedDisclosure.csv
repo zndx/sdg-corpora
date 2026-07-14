@@ -1,0 +1,5 @@
+disclosureId,disclosureDate,disclosureMethod,isGoodFaith,contentSummary,status,whistleblowerId,conductId,investigationId
+1,2025-08-02T19:33:00,email,true,seasonal-content-41,submitted,100,1,1
+2,2022-01-13T02:50:00,phone,false,regional-content-42,under_review,101,2,2
+3,2023-06-24T09:07:00,in_person,true,legacy-content-43,investigated,102,3,3
+4,2024-11-08T16:24:00,written_letter,false,compact-content-44,closed,103,4,4

@@ -1,0 +1,5 @@
+id,property_name,astm_method_number,unit_of_measure,is_critical,biodiesel_specification_id
+1,Baseline Standard D,AST-2044,composite-unit-69,false,100
+2,Distributed Framework,AST-2049,primary-unit-70,true,101
+3,Adaptive Protocol,AST-2054,adaptive-unit-71,false,102
+4,Primary Programme A,AST-2059,distributed-unit-72,true,103

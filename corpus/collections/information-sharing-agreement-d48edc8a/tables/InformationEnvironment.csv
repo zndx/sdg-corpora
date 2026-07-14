@@ -1,0 +1,5 @@
+id,environmentId,environmentName,architectureType,operationalStatus,visibilityLevel,boardId
+1000,726050,DoD Net-Centric Services Environment,Service-Oriented Architecture,Planned,Full,1
+1001,1996940,DNI Information Environment,Stand-Alone Application,Deployed,Partial,2
+1002,2986218,DoD Net-Centric Services Environment,Hybrid,Operational,Restricted,3
+1003,8350020,DNI Information Environment,Service-Oriented Architecture,Decommissioned,Full,4

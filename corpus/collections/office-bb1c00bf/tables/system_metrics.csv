@@ -1,0 +1,5 @@
+id,metric_id,metric_type,value,timestamp,unit,is_anomalous,server_id,monitoring_tool_id
+1,3744010,extended-metric-87,19.95,2024-07-08T18:18:00,distributed-unit-18,true,1,1000
+2,136630a8-8fcc-11eb-924d-9cd76263cbd0,integrated-metric-88,21.90,2025-12-19T01:35:00,baseline-unit-19,false,2,1001
+3,2986226,seasonal-metric-89,23.85,2022-05-03T08:52:00,pilot-unit-20,true,3,1002
+4,2002007020010,regional-metric-90,25.80,2023-10-14T15:09:00,extended-unit-21,false,4,1003

@@ -1,0 +1,160 @@
+{
+ "construct_id": "8b2f5f708c1804a1",
+ "slug": "calendar-order-8b2f5f70",
+ "passage": "8b2f5f708c1804a1bf35181c0ded45710f015dfef081f9cf88ca3fdd97aab859.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "CalendarOrder",
+  "BusinessClient",
+  "CalendarTheme",
+  "AdCopy",
+  "CorporateLogo"
+ ],
+ "terms": [
+  {
+   "name": "CalendarOrder",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BusinessClient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CalendarTheme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdCopy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CorporateLogo",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "calendar_orders",
+   "rows": 4,
+   "columns": [
+    "calendar_order_id",
+    "order_reference",
+    "order_date",
+    "unit_price",
+    "setup_fee",
+    "total_quantity",
+    "status",
+    "submission_deadline",
+    "business_client_id",
+    "calendar_theme_id",
+    "ad_copy_id",
+    "corporate_logo_id"
+   ]
+  },
+  {
+   "name": "business_clients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "business_name",
+    "contact_name",
+    "membership_status",
+    "email_address",
+    "fax_number",
+    "website_url"
+   ]
+  },
+  {
+   "name": "calendar_themes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "theme_name",
+    "category",
+    "preview_url"
+   ]
+  },
+  {
+   "name": "ad_copies",
+   "rows": 4,
+   "columns": [
+    "ad_copy_id",
+    "copy_area_dimensions",
+    "print_color",
+    "language",
+    "imprint_source",
+    "calendar_order_id",
+    "business_client_id",
+    "corporate_logo_id"
+   ]
+  },
+  {
+   "name": "corporate_logos",
+   "rows": 4,
+   "columns": [
+    "id",
+    "logo_type",
+    "vendor"
+   ]
+  },
+  {
+   "name": "clients_orders",
+   "rows": 8,
+   "columns": [
+    "business_client_id",
+    "calendar_order_id"
+   ]
+  },
+  {
+   "name": "clients_copies",
+   "rows": 8,
+   "columns": [
+    "business_client_id",
+    "ad_copy_id"
+   ]
+  },
+  {
+   "name": "themes_orders",
+   "rows": 8,
+   "columns": [
+    "calendar_theme_id",
+    "calendar_order_id"
+   ]
+  },
+  {
+   "name": "logos_orders",
+   "rows": 8,
+   "columns": [
+    "corporate_logo_id",
+    "calendar_order_id"
+   ]
+  },
+  {
+   "name": "logos_copies",
+   "rows": 8,
+   "columns": [
+    "corporate_logo_id",
+    "ad_copy_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_calendar_order_business_client",
+  "v_calendar_order_calendar_theme",
+  "v_calendar_order_ad_copy",
+  "v_calendar_order_corporate_logo",
+  "v_business_client_calendar_order_detail",
+  "v_business_client_ad_copy_detail",
+  "v_calendar_theme_calendar_order_detail",
+  "v_ad_copy_calendar_order",
+  "v_ad_copy_business_client",
+  "v_ad_copy_corporate_logo",
+  "v_corporate_logo_calendar_order_detail",
+  "v_corporate_logo_ad_copy_detail"
+ ]
+}

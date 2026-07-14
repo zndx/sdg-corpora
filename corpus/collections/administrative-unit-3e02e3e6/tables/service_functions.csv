@@ -1,0 +1,5 @@
+id,function_id,function_name,function_category,is_core_function,service_level,administrative_unit_id,stakeholder_group_id
+1,lu_tax_code_template_b_VB-TR-6,Integrated Protocol A,financial,false,essential,100,1
+2,state_uk_5,Extended Programme,human_resources,true,support,101,2
+3,IVCN,Pilot Standard,facilities,false,optional,102,3
+4,884367,Baseline Framework D,safety,true,essential,103,4

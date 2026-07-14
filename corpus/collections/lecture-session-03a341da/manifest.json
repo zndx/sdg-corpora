@@ -1,0 +1,164 @@
+{
+ "construct_id": "03a341dadd1411f7",
+ "slug": "lecture-session-03a341da",
+ "passage": "03a341dadd1411f7acdb42cf451d28c66778fa6c4ac6f93d354782845184a759.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 10,
+ "entities": [
+  "LectureSession",
+  "LectureNote",
+  "ComputationalExample",
+  "MathematicalConcept",
+  "DigitalRepository"
+ ],
+ "terms": [
+  {
+   "name": "LectureSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LectureNote",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ComputationalExample",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MathematicalConcept",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DigitalRepository",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "lecture_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_identifier",
+    "scheduled_date",
+    "duration_minutes",
+    "topic",
+    "status"
+   ]
+  },
+  {
+   "name": "lecture_notes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "note_id",
+    "title",
+    "version_number",
+    "page_count",
+    "last_modified",
+    "format",
+    "lecture_session_id",
+    "computational_example_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "computational_examples",
+   "rows": 4,
+   "columns": [
+    "id",
+    "example_id",
+    "title",
+    "file_format",
+    "file_size_bytes",
+    "creation_date",
+    "author",
+    "license",
+    "digital_repository_id"
+   ]
+  },
+  {
+   "name": "mathematical_concepts",
+   "rows": 4,
+   "columns": [
+    "concept_id",
+    "name",
+    "category",
+    "complexity_level",
+    "prerequisite_concepts",
+    "computational_example_id",
+    "lecture_session_id"
+   ]
+  },
+  {
+   "name": "digital_repositories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "repository_id",
+    "name",
+    "storage_path",
+    "total_capacity_g_b",
+    "last_backup",
+    "access_level"
+   ]
+  },
+  {
+   "name": "sessions_notes",
+   "rows": 8,
+   "columns": [
+    "lecture_session_id",
+    "lecture_note_id"
+   ]
+  },
+  {
+   "name": "sessions_examples",
+   "rows": 8,
+   "columns": [
+    "lecture_session_id",
+    "computational_example_id"
+   ]
+  },
+  {
+   "name": "examples_concepts",
+   "rows": 8,
+   "columns": [
+    "computational_example_id",
+    "concept_id"
+   ]
+  },
+  {
+   "name": "repositories_examples",
+   "rows": 8,
+   "columns": [
+    "digital_repository_id",
+    "computational_example_id"
+   ]
+  },
+  {
+   "name": "repositories_notes",
+   "rows": 8,
+   "columns": [
+    "digital_repository_id",
+    "lecture_note_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_lecture_session_lecture_note_detail",
+  "v_lecture_session_computational_example_detail",
+  "v_lecture_note_lecture_session",
+  "v_lecture_note_computational_example",
+  "v_computational_example_mathematical_concept_detail",
+  "v_computational_example_digital_repository",
+  "v_mathematical_concept_computational_example",
+  "v_mathematical_concept_lecture_session",
+  "v_digital_repository_computational_example_detail",
+  "v_digital_repository_lecture_note_detail"
+ ]
+}

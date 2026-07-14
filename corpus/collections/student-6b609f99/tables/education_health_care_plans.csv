@@ -1,0 +1,5 @@
+id,ehcp_id,issuing_l_e_a,issue_date,review_date,funding_status,legal_status,student_id
+1,Pelanggan,integrated-issuing-58,2023-02-01T13:51:00,2024-11-03T22:54:00,approved,active,1000
+2,template_impcode_pagata_10,seasonal-issuing-59,2024-07-12T20:08:00,2025-04-14T05:11:00,pending,expired,1001
+3,71df0302-9bad-11eb-a8a2-19ed5c03f8d3,regional-issuing-60,2025-12-23T03:25:00,2022-09-25T12:28:00,rejected,under_review,1002
+4,24119665,legacy-issuing-61,2022-05-07T10:42:00,2023-02-09T19:45:00,approved,active,1003

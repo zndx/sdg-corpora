@@ -1,0 +1,5 @@
+id,reportId,submissionDate,creditsEarned,professionalismCourseCompleted,reportStatus,yearId,attorneyId,feeId
+1,1202-0008-S,2025-04-24T03:57:00,6.45,false,submitted,1000,1,100
+2,8189500,2022-09-08T10:14:00,10.90,true,late,1001,2,101
+3,L355,2023-02-19T17:31:00,15.35,false,approved,1002,3,102
+4,5844272,2024-07-03T00:48:00,19.80,true,rejected,1003,4,103

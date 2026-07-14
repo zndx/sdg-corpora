@@ -1,0 +1,5 @@
+id,field_id,length_yards,width_yards,end_zone_depth_yards,has_goal_posts,has_hash_marks,has_no_run_zone,surface_type,match_id
+1,9085253,0.05000001,0.6,0.2849275832422,false,true,true,integrated-surface-10,727038
+2,1c87986a-8fcd-11eb-924d-9cd76263cbd0,0.74,0.83,1.0,true,false,false,seasonal-surface-11,10207150
+3,1996924,98.74285714285716,0.4,1.72,false,true,true,regional-surface-12,8881
+4,2298,36.5,1.76,1.12,true,false,false,legacy-surface-13,2839507

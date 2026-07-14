@@ -1,0 +1,159 @@
+{
+ "construct_id": "023983eca8a2fc1b",
+ "slug": "application-document-023983ec",
+ "passage": "023983eca8a2fc1b7ff80c33e8176dfa5061882b4fb6757bca994ff5bc15d93c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 11,
+ "entities": [
+  "ApplicationDocument",
+  "ApplicationPage",
+  "ScanningProcess",
+  "MobileDevice",
+  "ExportProcess",
+  "ExportMethod"
+ ],
+ "terms": [
+  {
+   "name": "ApplicationDocument",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ApplicationPage",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ScanningProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MobileDevice",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ExportProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExportMethod",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "application_documents",
+   "rows": 4,
+   "columns": [
+    "document_id",
+    "file_name",
+    "file_size_bytes",
+    "page_count",
+    "creation_date",
+    "format",
+    "scanning_process_id"
+   ]
+  },
+  {
+   "name": "application_pages",
+   "rows": 4,
+   "columns": [
+    "application_page_id",
+    "page_number",
+    "content_type",
+    "image_resolution",
+    "is_color",
+    "orientation",
+    "document_id",
+    "scanning_process_id"
+   ]
+  },
+  {
+   "name": "scanning_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_id",
+    "start_date",
+    "end_date",
+    "device_type",
+    "app_used",
+    "status",
+    "document_id",
+    "mobile_device_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "mobile_devices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_id",
+    "manufacturer",
+    "model",
+    "os_version",
+    "camera_resolution",
+    "scanning_process_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "export_processes",
+   "rows": 4,
+   "columns": [
+    "export_id",
+    "export_date",
+    "method",
+    "target_file_size_m_b",
+    "status",
+    "document_id",
+    "export_method_id"
+   ]
+  },
+  {
+   "name": "export_methods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "method_id",
+    "method_name",
+    "supports_compression",
+    "max_file_size_g_b",
+    "export_process_export_id"
+   ]
+  },
+  {
+   "name": "documents_pages",
+   "rows": 8,
+   "columns": [
+    "document_id",
+    "application_page_id"
+   ]
+  },
+  {
+   "name": "processes_pages",
+   "rows": 8,
+   "columns": [
+    "scanning_process_id",
+    "application_page_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_application_document_application_page_detail",
+  "vw_application_document_scanning_process",
+  "vw_application_page_application_document",
+  "vw_application_page_scanning_process",
+  "vw_scanning_process_application_document",
+  "vw_scanning_process_application_page_detail",
+  "vw_scanning_process_mobile_device",
+  "vw_mobile_device_scanning_process",
+  "vw_export_process_application_document",
+  "vw_export_process_export_method",
+  "vw_export_method_export_process"
+ ]
+}

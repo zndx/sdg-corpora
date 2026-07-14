@@ -1,0 +1,5 @@
+authorization_id,request_date,fax_number,email_address,service_date,payment_status,supervision_status,minor_passenger_id,guardian_id,emergency_contact_id,location_id,specifies_dropoff_location_location_id
+9568453,2025-12-24T23:45:00,FAX-2047,primary-email-70,2025-08-22,pending,attended,1000,1000,1000,100,100
+state_uk_17,2022-05-08T06:02:00,FAX-2049,adaptive-email-71,2022-01-06,paid_at_service,unattended,1001,1001,1001,101,101
+2002007020070,2023-10-19T13:19:00,FAX-2051,distributed-email-72,2023-06-17,pre_arranged,attended,1002,1002,1002,102,102
+2839499,2024-03-03T20:36:00,FAX-2053,baseline-email-73,2024-11-01,pending,unattended,1003,1003,1003,103,103

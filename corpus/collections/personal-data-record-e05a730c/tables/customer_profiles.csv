@@ -1,0 +1,5 @@
+id,profile_id,customer_name,household_id,profile_status,last_updated,preference_tags,purchase_transaction_id
+1,72623baa-9bad-11eb-a8a2-19ed5c03f8d3,Susan Wagner,726044,Active,2023-06-17T17:27:00,adaptive-preferen-17,1000
+2,d9d925ce-8fcc-11eb-924d-9cd76263cbd0,Norma Fisher,16605652,Inactive,2024-11-01T00:44:00,distributed-preferen-18,1001
+3,10207150,Peter Anthony,8928495,Deleted,2025-04-12T07:01:00,baseline-preferen-19,1002
+4,611506,Bobby Flores,5844284,Active,2022-09-23T14:18:00,pilot-preferen-20,1003

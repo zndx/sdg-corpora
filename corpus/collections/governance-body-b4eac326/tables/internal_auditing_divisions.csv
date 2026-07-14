@@ -1,0 +1,5 @@
+id,division_identifier,division_name,member_count,certification_requirement,audit_scope,business_unit_id
+1,DIV-2046,Composite Protocol,4,regional-certific-36,baseline-audit-61,100
+2,DIV-2051,Compact Programme A,17,legacy-certific-37,pilot-audit-62,101
+3,DIV-2056,Legacy Standard,9,compact-certific-38,extended-audit-63,102
+4,DIV-2061,Regional Framework,0,composite-certific-39,integrated-audit-64,103

@@ -1,0 +1,154 @@
+{
+ "construct_id": "a71c076246fc3886",
+ "slug": "network-account-a71c0762",
+ "passage": "a71c076246fc3886044925e190b24cd40e69a06a732480168090cf6a13d0157e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "NetworkAccount",
+  "Student",
+  "NetworkAdministrator",
+  "AcceptableUsePolicy",
+  "NetworkResource",
+  "SecurityIncident"
+ ],
+ "terms": [
+  {
+   "name": "NetworkAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "NetworkAdministrator",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AcceptableUsePolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "NetworkResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SecurityIncident",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "network_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_identifier",
+    "username",
+    "password_hash",
+    "status",
+    "creation_date",
+    "last_login_timestamp",
+    "account_type",
+    "student_id",
+    "network_administrator_admin_id",
+    "network_resource_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "grade_level",
+    "school_enrollment",
+    "is_eligible_for_internet",
+    "parent_guardian_contact",
+    "network_account_id",
+    "acceptable_use_policy_id"
+   ]
+  },
+  {
+   "name": "network_administrators",
+   "rows": 4,
+   "columns": [
+    "admin_id",
+    "full_name",
+    "role_level",
+    "appointment_date",
+    "is_authorized_to_revoke",
+    "network_account_id",
+    "acceptable_use_policy_id"
+   ]
+  },
+  {
+   "name": "acceptable_use_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "version_number",
+    "effective_date",
+    "is_legally_binding",
+    "prohibits_commercial_use",
+    "requires_ethical_behavior",
+    "network_account_id",
+    "student_id",
+    "network_administrator_admin_id"
+   ]
+  },
+  {
+   "name": "network_resources",
+   "rows": 4,
+   "columns": [
+    "network_resource_id",
+    "resource_id",
+    "resource_name",
+    "resource_type",
+    "is_fee_based",
+    "requires_prior_approval",
+    "access_level",
+    "network_account_id",
+    "acceptable_use_policy_id"
+   ]
+  },
+  {
+   "name": "security_incidents",
+   "rows": 4,
+   "columns": [
+    "incident_id",
+    "incident_type",
+    "severity_level",
+    "reported_date",
+    "is_resolved",
+    "resulting_action",
+    "network_account_id",
+    "network_administrator_admin_id",
+    "acceptable_use_policy_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_network_account_student",
+  "vw_network_account_network_administrator",
+  "vw_network_account_network_resource",
+  "vw_student_network_account",
+  "vw_student_acceptable_use_policy",
+  "vw_network_administrator_network_account",
+  "vw_network_administrator_acceptable_use_policy",
+  "vw_acceptable_use_policy_network_account",
+  "vw_acceptable_use_policy_student",
+  "vw_acceptable_use_policy_network_administrator",
+  "vw_network_resource_network_account",
+  "vw_network_resource_acceptable_use_policy",
+  "vw_security_incident_network_account",
+  "vw_security_incident_network_administrator",
+  "vw_security_incident_acceptable_use_policy"
+ ]
+}

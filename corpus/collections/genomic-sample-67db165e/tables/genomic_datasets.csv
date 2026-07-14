@@ -1,0 +1,5 @@
+id,dataset_id,creation_date,size_in_g_b,format,checksum,access_level,sequencing_assay_id,repository_id
+100,325443,2022-01-13T12:24:00,1.15,FASTQ,integrated-checksum-40,public,1,611503
+101,4716402,2023-06-24T19:41:00,0.6000001,BAM,seasonal-checksum-41,restricted,2,2106692
+102,14202,2024-11-08T02:58:00,0.6,VCF,regional-checksum-42,private,3,884340
+103,1186088,2025-04-19T09:15:00,0.5249525700000001,FASTQ,legacy-checksum-43,public,4,884350

@@ -1,0 +1,5 @@
+capacity_building_training_id,training_id,title,start_date,end_date,target_audience,status,participants_count,quality_assurance_office_id,quality_assurance_system_id
+1,1205-0002-M,Compact Initiative,2022-09-05T20:24:00,2022-09-01T08:00:00,legacy-target-25,planned,25,100,1000
+2,c746bff2-8fcc-11eb-924d-9cd76263cbd0,Legacy Model,2023-02-16T03:41:00,2023-02-12T15:17:00,compact-target-26,scheduled,9,101,1001
+3,34036cc6-9bad-11eb-a8a2-19ed5c03f8d3,Regional Cluster A,2024-07-27T10:58:00,2024-07-23T22:34:00,composite-target-27,in_progress,27,102,1002
+4,10207144,Seasonal Review,2025-12-11T17:15:00,2025-12-07T05:51:00,primary-target-28,completed,45,103,1003

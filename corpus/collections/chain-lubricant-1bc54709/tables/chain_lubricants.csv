@@ -1,0 +1,5 @@
+lubricant_id,chemical_family,base_name,viscosity_grade,is_tacky,is_soluble_moly,is_e_p,is_aerosol,operating_condition_id,manufacturer_id
+8928502,legacy-chemical-97,Pilot Survey,primary-viscosit-82,true,false,true,true,100,1
+5f940350-8fcd-11eb-924d-9cd76263cbd0,compact-chemical-98,Baseline Corridor,adaptive-viscosit-83,false,true,false,false,101,2
+c8a7d91b-e587-45b4-bae6-0c0a51b6241b,composite-chemical-99,Distributed Series A,distributed-viscosit-84,true,false,true,true,102,3
+1437589,primary-chemical-100,Adaptive Assessment,baseline-viscosit-85,false,true,false,false,103,4

@@ -1,0 +1,5 @@
+production_batch_id,batch_id,production_date,production_facility_id,total_volume,feedstock_type,batch_status,biodiesel_grade_id,tank_id
+1,050bdfa8-8fc7-11eb-924d-9cd76263cbd0,2025-04-06T03:21:00,407,4.20,legacy-feedstoc-67,in_progress,1,4060653
+2,2087741,2022-09-17T10:38:00,Harga,8.40,compact-feedstoc-68,completed,2,9246320
+3,2106724,2023-02-01T17:55:00,ChIJd13ymnZu5kcRXM7jx5boJBs,12.60,composite-feedstoc-69,quarantined,3,8387534
+4,4060663,2024-07-12T00:12:00,8350008,16.80,primary-feedstoc-70,released,4,id_5

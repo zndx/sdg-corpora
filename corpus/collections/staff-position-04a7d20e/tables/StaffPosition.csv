@@ -1,0 +1,5 @@
+id,positionId,title,department,supervisorTitle,educationRequired,experienceRequired,status,memberId,reportsToPositionId
+1,14477856,Compact Initiative,adaptive-departme-89,Pilot Series,distributed-educatio-12,pilot-experien-68,active,1,1
+2,gd_acc_260002,Legacy Model,distributed-departme-90,Baseline Assessment,baseline-educatio-13,extended-experien-69,vacant,2,2
+3,3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,Regional Cluster A,baseline-departme-91,Distributed Survey A,pilot-educatio-14,integrated-experien-70,terminated,3,3
+4,82871,Seasonal Review,pilot-departme-92,Adaptive Corridor,extended-educatio-15,seasonal-experien-71,active,4,4

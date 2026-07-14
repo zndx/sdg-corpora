@@ -1,0 +1,169 @@
+{
+ "construct_id": "cf61c89ddb633acc",
+ "slug": "e-s-g-metric-cf61c89d",
+ "passage": "cf61c89ddb633acc62b30870c259e36f7a3402a448fcdc73ca3985ef2765c21e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "ESG_Metric",
+  "ESG_Measurement",
+  "ESG_Report",
+  "ESG_Strategy",
+  "Policy_Change",
+  "ESG_Advisor"
+ ],
+ "terms": [
+  {
+   "name": "ESG_Metric",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ESG_Measurement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ESG_Report",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ESG_Strategy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Policy_Change",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ESG_Advisor",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "e_s_g_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_id",
+    "metric_name",
+    "standard_framework",
+    "category",
+    "unit_of_measure",
+    "is_material",
+    "report_id",
+    "e_s_g_measurement_id"
+   ]
+  },
+  {
+   "name": "e_s_g_measurements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measurement_id",
+    "measurement_date",
+    "numeric_value",
+    "status",
+    "data_source",
+    "e_s_g_metric_id",
+    "e_s_g_advisor_id"
+   ]
+  },
+  {
+   "name": "e_s_g_reports",
+   "rows": 4,
+   "columns": [
+    "report_id",
+    "report_title",
+    "publication_date",
+    "reporting_period_start",
+    "reporting_period_end",
+    "compliance_status",
+    "e_s_g_advisor_id",
+    "e_s_g_strategy_id"
+   ]
+  },
+  {
+   "name": "e_s_g_strategies",
+   "rows": 4,
+   "columns": [
+    "e_s_g_strategy_id",
+    "strategy_id",
+    "strategy_name",
+    "target_year",
+    "status",
+    "alignment_framework",
+    "e_s_g_advisor_id",
+    "policy_change_policy_id"
+   ]
+  },
+  {
+   "name": "policy_changes",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "policy_title",
+    "issuing_jurisdiction",
+    "effective_date",
+    "impact_level",
+    "e_s_g_strategy_id",
+    "e_s_g_measurement_id",
+    "e_s_g_advisor_id"
+   ]
+  },
+  {
+   "name": "e_s_g_advisors",
+   "rows": 4,
+   "columns": [
+    "e_s_g_advisor_id",
+    "advisor_id",
+    "advisor_name",
+    "designation",
+    "years_experience",
+    "employment_status",
+    "e_s_g_strategy_id",
+    "report_id",
+    "e_s_g_measurement_id",
+    "policy_change_policy_id"
+   ]
+  },
+  {
+   "name": "reports_metrics",
+   "rows": 8,
+   "columns": [
+    "report_id",
+    "e_s_g_metric_id"
+   ]
+  },
+  {
+   "name": "strategies_metrics",
+   "rows": 8,
+   "columns": [
+    "e_s_g_strategy_id",
+    "e_s_g_metric_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_e_s_g_metric_e_s_g_report",
+  "vw_e_s_g_metric_e_s_g_measurement",
+  "vw_e_s_g_measurement_e_s_g_metric",
+  "vw_e_s_g_measurement_e_s_g_advisor",
+  "vw_e_s_g_report_e_s_g_metric_detail",
+  "vw_e_s_g_report_e_s_g_advisor",
+  "vw_e_s_g_report_e_s_g_strategy",
+  "vw_e_s_g_strategy_e_s_g_metric_detail",
+  "vw_e_s_g_strategy_e_s_g_advisor",
+  "vw_e_s_g_strategy_policy_change",
+  "vw_policy_change_e_s_g_strategy",
+  "vw_policy_change_e_s_g_measurement",
+  "vw_policy_change_e_s_g_advisor",
+  "vw_e_s_g_advisor_e_s_g_strategy",
+  "vw_e_s_g_advisor_e_s_g_report",
+  "vw_e_s_g_advisor_e_s_g_measurement",
+  "vw_e_s_g_advisor_policy_change"
+ ]
+}

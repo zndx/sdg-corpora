@@ -1,0 +1,127 @@
+{
+ "construct_id": "0f7776f9e3a3480b",
+ "slug": "crown-dependency-0f7776f9",
+ "passage": "0f7776f9e3a3480b03505dd6c24efbd87c2719e83171b988c6942e78cb83f647.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "CrownDependency",
+  "OverseasTerritory",
+  "GovernmentDepartment",
+  "HumanRightsInstrument",
+  "DevelopmentFunding"
+ ],
+ "terms": [
+  {
+   "name": "CrownDependency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OverseasTerritory",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GovernmentDepartment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HumanRightsInstrument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DevelopmentFunding",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "crown_dependencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "location",
+    "population",
+    "economic_status",
+    "historical_link",
+    "government_department_id",
+    "human_rights_instrument_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "overseas_territories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "location",
+    "population",
+    "economic_status",
+    "historical_link",
+    "non_self_governing",
+    "government_department_id",
+    "human_rights_instrument_id",
+    "development_funding_id"
+   ]
+  },
+  {
+   "name": "government_departments",
+   "rows": 4,
+   "columns": [
+    "government_department_id",
+    "identifier",
+    "name",
+    "responsibility_area",
+    "crown_dependency_id",
+    "overseas_territory_id"
+   ]
+  },
+  {
+   "name": "human_rights_instruments",
+   "rows": 4,
+   "columns": [
+    "human_rights_instrument_id",
+    "identifier",
+    "name",
+    "type",
+    "status",
+    "crown_dependency_id",
+    "overseas_territory_id"
+   ]
+  },
+  {
+   "name": "development_fundings",
+   "rows": 4,
+   "columns": [
+    "development_funding_id",
+    "identifier",
+    "amount",
+    "currency",
+    "start_date",
+    "end_date",
+    "purpose",
+    "overseas_territory_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_crown_dependency_government_department",
+  "v_crown_dependency_human_rights_instrument",
+  "v_overseas_territory_government_department",
+  "v_overseas_territory_human_rights_instrument",
+  "v_overseas_territory_development_funding",
+  "v_government_department_crown_dependency",
+  "v_government_department_overseas_territory",
+  "v_human_rights_instrument_crown_dependency",
+  "v_human_rights_instrument_overseas_territory",
+  "v_development_funding_overseas_territory"
+ ]
+}

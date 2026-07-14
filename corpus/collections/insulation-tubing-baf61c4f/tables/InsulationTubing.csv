@@ -1,0 +1,5 @@
+tubingId,productCode,shrinkRatio,operatingTemperatureMin,operatingTemperatureMax,minimumShrinkTemperature,halogenFree,rohsCompliant,continuousLength,specificationId,barId
+1000,QBM,regional-shrink-90,0.77,12.45,0.075,false,true,false,1,1
+1001,QBT,legacy-shrink-91,0.74,16.90,0.6000001,true,false,true,2,2
+1002,QBT-200C,compact-shrink-92,0.48,21.35,0.68,false,true,false,3,3
+1003,QBM,composite-shrink-93,1.02669,25.80,0.9,true,false,true,4,4

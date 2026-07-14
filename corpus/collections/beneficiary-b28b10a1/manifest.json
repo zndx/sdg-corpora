@@ -1,0 +1,172 @@
+{
+ "construct_id": "b28b10a1f00b9922",
+ "slug": "beneficiary-b28b10a1",
+ "passage": "b28b10a1f00b992208a83d4b03bd48cb7831192d611fcdac847783985d766659.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 15,
+ "entities": [
+  "Beneficiary",
+  "Program",
+  "Activity",
+  "Resource",
+  "Household",
+  "Organization"
+ ],
+ "terms": [
+  {
+   "name": "Beneficiary",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Activity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Resource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Household",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "beneficiaries",
+   "rows": 4,
+   "columns": [
+    "beneficiary_id",
+    "full_name",
+    "age",
+    "gender",
+    "location",
+    "vulnerability_status",
+    "household_id",
+    "program_id",
+    "activity_id",
+    "belongs_household_to_household_id"
+   ]
+  },
+  {
+   "name": "programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "status",
+    "target_population",
+    "budget",
+    "funding_source",
+    "beneficiary_id",
+    "activity_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "activities",
+   "rows": 4,
+   "columns": [
+    "activity_id",
+    "activity_name",
+    "activity_type",
+    "date",
+    "location",
+    "participants_count",
+    "status",
+    "resources_used",
+    "program_id",
+    "beneficiary_id",
+    "resource_id"
+   ]
+  },
+  {
+   "name": "resources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resource_id",
+    "resource_name",
+    "resource_type",
+    "quantity",
+    "unit_cost",
+    "total_cost",
+    "distribution_date",
+    "status",
+    "activity_id",
+    "beneficiary_id"
+   ]
+  },
+  {
+   "name": "households",
+   "rows": 4,
+   "columns": [
+    "household_id",
+    "household_head",
+    "number_of_members",
+    "location",
+    "economic_status",
+    "vulnerability_level",
+    "support_received",
+    "program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "established_year",
+    "location",
+    "status",
+    "membership",
+    "program_id",
+    "beneficiary_id"
+   ]
+  },
+  {
+   "name": "households_beneficiaries",
+   "rows": 8,
+   "columns": [
+    "household_id",
+    "beneficiary_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_beneficiary_program",
+  "v_beneficiary_activity",
+  "v_beneficiary_household",
+  "v_program_beneficiary",
+  "v_program_activity",
+  "v_program_organization",
+  "v_activity_program",
+  "v_activity_beneficiary",
+  "v_activity_resource",
+  "v_resource_activity",
+  "v_resource_beneficiary",
+  "v_household_beneficiary_detail",
+  "v_household_program",
+  "v_organization_program",
+  "v_organization_beneficiary"
+ ]
+}

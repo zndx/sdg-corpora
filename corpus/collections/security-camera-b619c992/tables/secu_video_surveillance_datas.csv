@@ -1,0 +1,5 @@
+id,data_id,capture_date_time,duration_seconds,data_format,storage_status,access_level,security_camera_id,incident_id,data_storage_system_id
+1,505998,2023-10-26T09:51:00,31,mp4,archived,public,1,1336174,1
+2,7441152,2024-03-10T16:08:00,37,avi,active,staff_only,2,state_uk_4,2
+3,3775,2025-08-21T23:25:00,43,mkv,deleted,director_only,3,2933483,3
+4,dirrh,2022-01-05T06:42:00,49,mp4,archived,public,4,2986243,4

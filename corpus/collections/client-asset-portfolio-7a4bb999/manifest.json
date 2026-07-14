@@ -1,0 +1,195 @@
+{
+ "construct_id": "7a4bb999fe7ef02e",
+ "slug": "client-asset-portfolio-7a4bb999",
+ "passage": "7a4bb999fe7ef02ee7f5d3b4ddc2344dbae1e1874b44e9d8b7736bb51946b8f2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 19,
+ "entities": [
+  "ClientAssetPortfolio",
+  "InsurancePolicy",
+  "FinancialInstitution",
+  "RegulatoryFramework",
+  "AuditReport",
+  "InsuranceUnderwriter",
+  "RatingAgency"
+ ],
+ "terms": [
+  {
+   "name": "ClientAssetPortfolio",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InsurancePolicy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegulatoryFramework",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AuditReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "InsuranceUnderwriter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RatingAgency",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "client_asset_portfolios",
+   "rows": 4,
+   "columns": [
+    "client_asset_portfolio_id",
+    "portfolio_identifier",
+    "total_value_u_s_d",
+    "asset_type",
+    "segregation_status",
+    "custodian_entity",
+    "last_valuation_date",
+    "risk_rating",
+    "insurance_policy_id",
+    "financial_institution_id",
+    "regulatory_framework_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "insurance_policies",
+   "rows": 4,
+   "columns": [
+    "insurance_policy_id",
+    "policy_identifier",
+    "provider_name",
+    "coverage_limit_u_s_d",
+    "effective_date",
+    "expiration_date",
+    "rating_agency",
+    "credit_rating",
+    "policy_type",
+    "client_asset_portfolio_id",
+    "insurance_underwriter_id",
+    "supersedes_insurance_policy_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "financial_institutions",
+   "rows": 4,
+   "columns": [
+    "financial_institution_id",
+    "institution_identifier",
+    "legal_name",
+    "registration_status",
+    "net_capital_u_s_d",
+    "total_assets_u_s_d",
+    "shareholders_equity_u_s_d",
+    "market_capitalization_u_s_d",
+    "parent_company",
+    "client_asset_portfolio_id",
+    "insurance_policy_id",
+    "regulatory_framework_id",
+    "audit_report_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "regulatory_frameworks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "framework_identifier",
+    "issuing_authority",
+    "jurisdiction",
+    "compliance_status",
+    "last_audit_date",
+    "regulatory_type",
+    "financial_institution_id",
+    "client_asset_portfolio_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "audit_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_identifier",
+    "audit_firm",
+    "report_date",
+    "audit_type",
+    "findings_summary",
+    "compliance_rating",
+    "scope_description",
+    "financial_institution_id",
+    "client_asset_portfolio_id",
+    "regulatory_framework_id"
+   ]
+  },
+  {
+   "name": "insurance_underwriters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "underwriter_identifier",
+    "legal_name",
+    "location",
+    "credit_rating_s_p",
+    "credit_rating_a_m_best",
+    "credit_rating_fitch",
+    "rating_date",
+    "insurance_policy_id",
+    "rating_agency_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "rating_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_identifier",
+    "agency_name",
+    "rating_methodology",
+    "last_review_date",
+    "insurance_underwriter_id",
+    "financial_institution_id"
+   ]
+  }
+ ],
+ "views": [
+  "client_asset_portfolio_insurance_policy_view",
+  "client_asset_portfolio_financial_institution_view",
+  "client_asset_portfolio_regulatory_framework_view",
+  "insurance_policy_client_asset_portfolio_view",
+  "insurance_policy_insurance_underwriter_view",
+  "insurance_policy_insurance_policy_view",
+  "financial_institution_client_asset_portfolio_view",
+  "financial_institution_insurance_policy_view",
+  "financial_institution_regulatory_framework_view",
+  "financial_institution_audit_report_view",
+  "regulatory_framework_financial_institution_view",
+  "regulatory_framework_client_asset_portfolio_view",
+  "audit_report_financial_institution_view",
+  "audit_report_client_asset_portfolio_view",
+  "audit_report_regulatory_framework_view",
+  "insurance_underwriter_insurance_policy_view",
+  "insurance_underwriter_rating_agency_view",
+  "rating_agency_insurance_underwriter_view",
+  "rating_agency_financial_institution_view"
+ ]
+}

@@ -1,0 +1,5 @@
+economic_recession_id,start_date,end_date,peak_unemployment_rate,affected_states,severity_level,child_poverty_measure_id,household_income_change_id
+1000,2022-09-05,2022-09-01,14.20,legacy-affected-85,mild,1,1
+1001,2023-02-16,2023-02-12,17.40,compact-affected-86,moderate,2,2
+1002,2024-07-27,2024-07-23,20.60,composite-affected-87,severe,3,3
+1003,2025-12-11,2025-12-07,23.80,primary-affected-88,critical,4,4

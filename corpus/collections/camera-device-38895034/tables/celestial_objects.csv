@@ -1,0 +1,5 @@
+celestial_object_id,object_identifier,common_name,catalog_designation,object_type,constellation,right_ascension,declination,apparent_magnitude,image_capture_id
+1000,OBJ-2556,Seasonal Review,integrated-catalog-70,adaptive-object-71,legacy-constell-61,19.20,7.20,21.70,1
+1001,OBJ-2563,Integrated Initiative,seasonal-catalog-71,distributed-object-72,compact-constell-62,22.40,9.40,25.40,2
+1002,OBJ-2570,Extended Model D,regional-catalog-72,baseline-object-73,composite-constell-63,25.60,11.60,29.10,3
+1003,OBJ-2577,Pilot Cluster,legacy-catalog-73,pilot-object-74,primary-constell-64,28.80,13.80,32.80,4

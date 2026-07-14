@@ -1,0 +1,21 @@
+CREATE TABLE payments (
+  payment_id INTEGER NOT NULL,
+  payment_amount DECIMAL,
+  payment_date TIMESTAMP,
+  payment_type VARCHAR(32),
+  currency VARCHAR(32),
+  status VARCHAR(32),
+  trigger_condition VARCHAR(32),
+  recipient VARCHAR(32),
+  payer VARCHAR(32),
+  tax_withheld BOOLEAN,
+  asset_transfer_id INTEGER,
+  pharmaceutical_company_id INTEGER,
+  paid_by_pharmaceutical_company_id INTEGER,
+  geographic_region_id INTEGER,
+  PRIMARY KEY (payment_id),
+  FOREIGN KEY (asset_transfer_id) REFERENCES asset_transfers (id),
+  FOREIGN KEY (pharmaceutical_company_id) REFERENCES pharmaceutical_companies (pharmaceutical_company_id),
+  FOREIGN KEY (paid_by_pharmaceutical_company_id) REFERENCES pharmaceutical_companies (pharmaceutical_company_id),
+  FOREIGN KEY (geographic_region_id) REFERENCES geographic_regions (id)
+);

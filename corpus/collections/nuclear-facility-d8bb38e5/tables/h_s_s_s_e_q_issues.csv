@@ -1,0 +1,5 @@
+id,issue_id,issue_title,category,risk_level,status,reported_date,facility_id,sub_group_id
+1,5082978,Seasonal Programme,health,low,identified,2025-04-27T03:09:00,69447,1000
+2,2bc3c87c-8fcc-11eb-924d-9cd76263cbd0,Integrated Standard,safety,medium,underReview,2022-09-11T10:26:00,1040,1001
+3,506004,Extended Framework D,security,high,resolved,2023-02-22T17:43:00,2986228,1002
+4,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,Pilot Protocol,safeguards,critical,escalated,2024-07-06T00:00:00,ChIJvSxSbfdv5kcRanVzI8RRu20,1003

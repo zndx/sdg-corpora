@@ -1,0 +1,5 @@
+partner_organization_id,org_id,org_name,org_type,country_code,is_coordinator,is_originator,coordinates_project_partner_organization_id,event_id,country_id
+1,id_18,Extended Model,University,727051,true,false,1,ChIJEctqrYFt5kcRUrBEPR-XXBE,1
+2,lu_tax_code_template_m14,Pilot Cluster A,Research Institution,select,false,true,2,209230,2
+3,10207153,Baseline Review,SME,5f9467a0-8fcd-11eb-924d-9cd76263cbd0,true,false,3,69440,3
+4,6926378,Distributed Initiative,University,8843764,false,true,4,4793467,4

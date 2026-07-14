@@ -1,0 +1,5 @@
+id,account_id,email_address,full_name,home_address,work_address,telephone_number,account_status,date_created,session_id,survey_response_id,demographic_profile_id,created_at,updated_at
+100,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,primary-email-70,Theodore Mcgrath,distributed-home-60,compact-work-74,TEL-2173,active,2024-11-08T10:54:00,1186087,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,10207152,adaptive-email-71,Account Name,baseline-home-61,composite-work-75,TEL-2177,inactive,2025-04-19T17:11:00,2087748,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,distributed-email-72,Saipan International Airport,pilot-home-62,primary-work-76,TEL-2181,suspended,2022-09-03T00:28:00,4716414,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,3717632,baseline-email-73,Norma Fisher,extended-home-63,adaptive-work-77,TEL-2185,pending_verification,2023-02-14T07:45:00,005588c4-9bac-11eb-a8a2-19ed5c03f8d3,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,place_name,water_source,reliability,socio_ecological_niche,territory_id,pastoral_community_id,water_management_practice_id
+1,Distributed Cluster,compact-water-92,integrated-reliabil-40,true,1000,1,1
+2,Adaptive Review D,composite-water-93,seasonal-reliabil-41,false,1001,2,2
+3,Primary Initiative,primary-water-94,regional-reliabil-42,true,1002,3,3
+4,Composite Model,adaptive-water-95,legacy-reliabil-43,false,1003,4,4

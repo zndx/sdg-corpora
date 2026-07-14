@@ -1,0 +1,5 @@
+id,inspectionId,startDate,endDate,inspectionType,overallEffectiveness,qualityOfEducation,behaviourAndAttitudes,personalDevelopment,leadershipAndManagement,welfareAndSafeguarding,siteId,programmeId,outcomeId
+100,BJanecke,2022-09-05T20:24:00,2022-09-01T08:00:00,full,outstanding,outstanding,outstanding,outstanding,outstanding,outstanding,1,1,100
+101,575199,2023-02-16T03:41:00,2023-02-12T15:17:00,partial,good,good,good,good,good,good,2,2,101
+102,state_uk_4,2024-07-27T10:58:00,2024-07-23T22:34:00,monitoring,requires improvement,requires improvement,requires improvement,requires improvement,requires improvement,requires improvement,3,3,102
+103,8350011,2025-12-11T17:15:00,2025-12-07T05:51:00,full,inadequate,inadequate,inadequate,inadequate,inadequate,inadequate,4,4,103

@@ -1,0 +1,139 @@
+{
+ "construct_id": "1bea711dbaf41e80",
+ "slug": "menu-item-1bea711d",
+ "passage": "1bea711dbaf41e8052d4521ef8cc8bbf2fe99635941db0e312653f1d01023b5e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 7,
+ "entities": [
+  "MenuItem",
+  "FoodIngredient",
+  "SideItem",
+  "OrderLine",
+  "CateringOrder"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OrderLine",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CateringOrder",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "menu_item_id",
+    "item_identifier",
+    "item_name",
+    "base_price",
+    "category",
+    "is_available",
+    "minimum_order_quantity",
+    "side_item_id"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "ingredient_name",
+    "ingredient_type",
+    "is_allergen",
+    "origin_region"
+   ]
+  },
+  {
+   "name": "side_items",
+   "rows": 4,
+   "columns": [
+    "side_item_id",
+    "side_id",
+    "side_name",
+    "side_type",
+    "is_included",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "order_lines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "line_id",
+    "quantity",
+    "unit_price",
+    "line_total",
+    "special_instructions",
+    "menu_item_id",
+    "catering_order_id"
+   ]
+  },
+  {
+   "name": "catering_orders",
+   "rows": 4,
+   "columns": [
+    "catering_order_id",
+    "order_id",
+    "order_date",
+    "delivery_date",
+    "order_status",
+    "total_amount",
+    "contact_phone"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_items",
+   "rows": 8,
+   "columns": [
+    "ingredient_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "orders_lines",
+   "rows": 8,
+   "columns": [
+    "catering_order_id",
+    "order_line_id"
+   ]
+  }
+ ],
+ "views": [
+  "menu_item_food_ingredient_detail_view",
+  "menu_item_side_item_view",
+  "food_ingredient_menu_item_detail_view",
+  "side_item_menu_item_view",
+  "order_line_menu_item_view",
+  "order_line_catering_order_view",
+  "catering_order_order_line_detail_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,provider_id,provider_name,provider_type,provider_change_request_id,clinic_id,created_at,updated_at
+1,3717633,Primary Initiative A,seasonal-provider-41,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ChIJYRd8uPtt5kcRunQjrWb4IKs,Composite Model,regional-provider-42,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,8928519,Compact Cluster,legacy-provider-43,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,lu_tax_code_template_m13,Legacy Review D,compact-provider-44,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

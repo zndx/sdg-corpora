@@ -1,0 +1,5 @@
+id,individual_id,date_of_birth,sex,enrollment_status,insurance_provider,health_record_id,clinical_program_id
+1000,4277024,2025-04-02,baseline-sex-49,active,seasonal-insuranc-11,1,1000
+1001,default_chart_a_tax_code_40,2022-09-13,pilot-sex-50,withdrawn,regional-insuranc-12,2,1001
+1002,195368,2023-02-24,extended-sex-51,deceased,legacy-insuranc-13,3,1002
+1003,dce5fe58-8fcd-11eb-924d-9cd76263cbd0,2024-07-08,integrated-sex-52,active,compact-insuranc-14,4,1003

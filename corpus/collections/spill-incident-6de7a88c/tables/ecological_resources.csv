@@ -1,0 +1,5 @@
+id,resource_id,resource_name,resource_type,affected_status,species_list,commercial_use,geographic_location_id,spill_incident_id,hazardous_material_id
+1,1167,Adaptive Corridor,wildlife_refuge,unaffected,baseline-species-25,true,1,100,1000
+2,2106708,Primary Series,fishery,potentially_affected,pilot-species-26,false,2,101,1001
+3,4180945,Composite Assessment D,habitat,oiled,extended-species-27,true,3,102,1002
+4,10238270,Compact Survey,species,monitored,integrated-species-28,false,4,103,1003

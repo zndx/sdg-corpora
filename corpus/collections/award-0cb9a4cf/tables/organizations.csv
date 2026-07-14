@@ -1,0 +1,5 @@
+id,org_id,org_name,org_type,founding_date,headquarters_location,person_id,award_id,campus_id
+1,790471,Extended Review,school_district,2023-06-24,composite-headquar-63,100,1,1
+2,1717,Pilot Initiative A,professional_society,2024-11-08,primary-headquar-64,101,2,2
+3,69437,Baseline Model,university,2025-04-19,adaptive-headquar-65,102,3,3
+4,m16,Distributed Cluster,school_district,2022-09-03,distributed-headquar-66,103,4,4

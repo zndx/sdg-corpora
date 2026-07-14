@@ -1,0 +1,162 @@
+{
+ "construct_id": "01e6377096f7ed8b",
+ "slug": "health-information-technology-system-01e63770",
+ "passage": "01e6377096f7ed8b0e8b28efc08cf89f5661ea30ed6825d96e8786407454ee38.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 15,
+ "entities": [
+  "HealthInformationTechnologySystem",
+  "EmergencyDepartment",
+  "Clinician",
+  "HospitalManager",
+  "UsabilityAssessment",
+  "ITParticipant"
+ ],
+ "terms": [
+  {
+   "name": "HealthInformationTechnologySystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EmergencyDepartment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Clinician",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "HospitalManager",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "UsabilityAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ITParticipant",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "HealthInformationTechnologySystem",
+   "rows": 4,
+   "columns": [
+    "id",
+    "systemIdentifier",
+    "systemName",
+    "deploymentDate",
+    "systemType",
+    "usabilityScore",
+    "interoperabilityStandard",
+    "isStandardized",
+    "departmentId",
+    "clinicianId",
+    "participantId",
+    "assessmentId"
+   ]
+  },
+  {
+   "name": "EmergencyDepartment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "departmentCode",
+    "locationName",
+    "patientVolume",
+    "averageWaitTime",
+    "staffingLevel",
+    "operationalStatus",
+    "systemId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "Clinician",
+   "rows": 4,
+   "columns": [
+    "clinicianId",
+    "clinicianID",
+    "specialty",
+    "yearsOfExperience",
+    "moraleLevel",
+    "productivityMetric",
+    "isCertified",
+    "departmentId",
+    "systemId",
+    "managerId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "HospitalManager",
+   "rows": 4,
+   "columns": [
+    "id",
+    "managerID",
+    "departmentAssigned",
+    "yearsInRole",
+    "focusArea",
+    "departmentId",
+    "systemId"
+   ]
+  },
+  {
+   "name": "UsabilityAssessment",
+   "rows": 4,
+   "columns": [
+    "assessmentId",
+    "assessmentID",
+    "assessmentDate",
+    "score",
+    "testSubjectGroup",
+    "isCompleted",
+    "systemId",
+    "participantId"
+   ]
+  },
+  {
+   "name": "ITParticipant",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participantID",
+    "skillLevel",
+    "roleInProject",
+    "affiliatedOrganization",
+    "systemId",
+    "assessmentId"
+   ]
+  },
+  {
+   "name": "EmergencyDepartmentClinician",
+   "rows": 8,
+   "columns": [
+    "departmentId",
+    "clinicianId"
+   ]
+  }
+ ],
+ "views": [
+  "health_information_technology_system_emergency_department_view",
+  "health_information_technology_system_clinician_view",
+  "health_information_technology_system_i_t_participant_view",
+  "health_information_technology_system_usability_assessment_view",
+  "emergency_department_clinician_detail_view",
+  "emergency_department_health_information_technology_system_view",
+  "clinician_emergency_department_view",
+  "clinician_health_information_technology_system_view",
+  "clinician_hospital_manager_view",
+  "hospital_manager_emergency_department_view",
+  "hospital_manager_health_information_technology_system_view",
+  "usability_assessment_health_information_technology_system_view",
+  "usability_assessment_i_t_participant_view",
+  "i_t_participant_health_information_technology_system_view",
+  "i_t_participant_usability_assessment_view"
+ ]
+}

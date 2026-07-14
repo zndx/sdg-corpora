@@ -1,0 +1,5 @@
+id,mailbox_address,mailbox_type,mailbox_status
+1,integrated-mailbox-82,user,active
+2,seasonal-mailbox-83,organization,inactive
+3,regional-mailbox-84,user,active
+4,legacy-mailbox-85,organization,inactive

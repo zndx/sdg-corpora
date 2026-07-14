@@ -1,0 +1,128 @@
+{
+ "construct_id": "9cec86ce2d0f3a04",
+ "slug": "menu-item-9cec86ce",
+ "passage": "9cec86ce2d0f3a049573bc4f277b1b4c543f8782fa705d45a16e4b6b3a018d10.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 7,
+ "entities": [
+  "MenuItem",
+  "FoodIngredient",
+  "MenuItemSize",
+  "PizzaTopping",
+  "AddOnOption"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuItemSize",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PizzaTopping",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AddOnOption",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "menu_item_id",
+    "name",
+    "price",
+    "category",
+    "is_gluten_free",
+    "is_available_for_order",
+    "cooking_method",
+    "food_ingredient_id",
+    "menu_item_size_id"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "is_allergen",
+    "is_vegetarian",
+    "is_vegan",
+    "is_gluten_free",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "menu_item_sizes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "size_id",
+    "weight_oz",
+    "price",
+    "description",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "pizza_toppings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "topping_id",
+    "name",
+    "type",
+    "is_extra_cost",
+    "extra_cost_amount",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "add_on_options",
+   "rows": 4,
+   "columns": [
+    "id",
+    "add_on_id",
+    "name",
+    "additional_price",
+    "type",
+    "menu_item_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "food_ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_item_food_ingredient_detail",
+  "vw_menu_item_food_ingredient",
+  "vw_menu_item_menu_item_size",
+  "vw_food_ingredient_menu_item",
+  "vw_menu_item_size_menu_item",
+  "vw_pizza_topping_menu_item",
+  "vw_add_on_option_menu_item"
+ ]
+}

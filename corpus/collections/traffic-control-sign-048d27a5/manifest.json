@@ -1,0 +1,143 @@
+{
+ "construct_id": "048d27a5fd1d992f",
+ "slug": "traffic-control-sign-048d27a5",
+ "passage": "048d27a5fd1d992f8c58e376e70dafca533f136c11e273ca41def2448677dd45.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "TrafficControlSign",
+  "TrafficRule",
+  "StreetSegment",
+  "VehicleClass",
+  "VehicleOperator",
+  "MunicipalCode"
+ ],
+ "terms": [
+  {
+   "name": "TrafficControlSign",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrafficRule",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StreetSegment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "VehicleClass",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VehicleOperator",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MunicipalCode",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "traffic_control_signs",
+   "rows": 4,
+   "columns": [
+    "traffic_control_sign_id",
+    "sign_identifier",
+    "sign_type",
+    "installation_date",
+    "last_inspection_date",
+    "compliance_status",
+    "manual_revision",
+    "street_segment_id",
+    "rule_code"
+   ]
+  },
+  {
+   "name": "traffic_rules",
+   "rows": 4,
+   "columns": [
+    "rule_code",
+    "rule_description",
+    "enforcement_level",
+    "effective_date",
+    "repeal_date",
+    "municipal_code_id",
+    "vehicle_class_id"
+   ]
+  },
+  {
+   "name": "street_segments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "segment_id",
+    "street_name",
+    "lane_count",
+    "is_one_way",
+    "is_closed_for_repairs",
+    "surface_type",
+    "traffic_control_sign_id",
+    "rule_code",
+    "created_at"
+   ]
+  },
+  {
+   "name": "vehicle_classes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vehicle_class_code",
+    "class_description",
+    "requires_muffler",
+    "requires_brakes",
+    "requires_lights",
+    "rule_code",
+    "operator_id"
+   ]
+  },
+  {
+   "name": "vehicle_operators",
+   "rows": 4,
+   "columns": [
+    "operator_id",
+    "license_number",
+    "license_status",
+    "last_violation_date",
+    "vehicle_class_id",
+    "rule_code"
+   ]
+  },
+  {
+   "name": "municipal_codes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "code_title",
+    "code_chapter",
+    "code_section",
+    "enactment_date",
+    "amendment_date",
+    "rule_code"
+   ]
+  }
+ ],
+ "views": [
+  "v_traffic_control_sign_street_segment",
+  "v_traffic_control_sign_traffic_rule",
+  "v_traffic_rule_municipal_code",
+  "v_traffic_rule_vehicle_class",
+  "v_street_segment_traffic_control_sign",
+  "v_street_segment_traffic_rule",
+  "v_vehicle_class_traffic_rule",
+  "v_vehicle_class_vehicle_operator",
+  "v_vehicle_operator_vehicle_class",
+  "v_vehicle_operator_traffic_rule",
+  "v_municipal_code_traffic_rule"
+ ]
+}

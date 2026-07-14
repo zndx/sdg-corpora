@@ -1,0 +1,5 @@
+id,partner_id,organization_name,organization_type,country,is_coordinator,event_id,partner_organization_id
+100,69420,Staples Inc.,University,compact-country-26,false,1000,100
+101,9085260,Oscar Health Inc.,Research Institution,composite-country-27,true,1001,101
+102,195367,Atlantic Richfield,SME,primary-country-28,false,1002,102
+103,b_VB-EC-12,Port Loko,University,adaptive-country-29,true,1003,103

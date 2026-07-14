@@ -1,0 +1,153 @@
+{
+ "construct_id": "e887ddd37246e050",
+ "slug": "occasion-card-e887ddd3",
+ "passage": "e887ddd37246e050ed29c655a5761fc16fdeceb23bdf006cf22b35b62dbd0e6b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 12,
+ "entities": [
+  "OccasionCard",
+  "PerpetualFolder",
+  "Enrolment",
+  "Enrollee",
+  "OrderRequest"
+ ],
+ "terms": [
+  {
+   "name": "OccasionCard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PerpetualFolder",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Enrolment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Enrollee",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "OrderRequest",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "occasion_cards",
+   "rows": 4,
+   "columns": [
+    "occasion_card_id",
+    "card_type",
+    "reference_number",
+    "suggested_donation",
+    "is_pre_signed",
+    "is_free",
+    "perpetual_folder_id"
+   ]
+  },
+  {
+   "name": "perpetual_folders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "folder_name",
+    "cover_color",
+    "suggested_donation",
+    "has_society_logo",
+    "enrollee_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "enrolments",
+   "rows": 4,
+   "columns": [
+    "enrolment_id",
+    "enrolment_status",
+    "duration_years",
+    "donation_amount",
+    "enrolment_date",
+    "occasion_card_id",
+    "perpetual_folder_id",
+    "enrollee_id"
+   ]
+  },
+  {
+   "name": "enrollees",
+   "rows": 4,
+   "columns": [
+    "enrollee_id",
+    "full_name",
+    "is_deceased",
+    "relationship_to_requester",
+    "perpetual_folder_id"
+   ]
+  },
+  {
+   "name": "order_requests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "request_id",
+    "submission_date",
+    "delivery_method",
+    "total_quantity",
+    "perpetual_folder_id",
+    "enrollee_id"
+   ]
+  },
+  {
+   "name": "cards_enrolments",
+   "rows": 8,
+   "columns": [
+    "occasion_card_id",
+    "enrolment_id"
+   ]
+  },
+  {
+   "name": "folders_enrolments",
+   "rows": 8,
+   "columns": [
+    "perpetual_folder_id",
+    "enrolment_id"
+   ]
+  },
+  {
+   "name": "enrollees_enrolments",
+   "rows": 8,
+   "columns": [
+    "enrollee_id",
+    "enrolment_id"
+   ]
+  },
+  {
+   "name": "requests_cards",
+   "rows": 8,
+   "columns": [
+    "order_request_id",
+    "occasion_card_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_occasion_card_enrolment_detail",
+  "v_occasion_card_perpetual_folder",
+  "v_perpetual_folder_enrolment_detail",
+  "v_perpetual_folder_enrollee",
+  "v_enrolment_occasion_card",
+  "v_enrolment_perpetual_folder",
+  "v_enrolment_enrollee",
+  "v_enrollee_enrolment_detail",
+  "v_enrollee_perpetual_folder",
+  "v_order_request_occasion_card_detail",
+  "v_order_request_perpetual_folder",
+  "v_order_request_enrollee"
+ ]
+}

@@ -1,0 +1,5 @@
+id,building_id,building_name,year_built,building_type,has_fiber_optic_cable,number_of_floors,academic_department_id,campus_area_id
+1,10090,Compact Initiative,28,Academic,false,11,1,100
+2,3744019,Legacy Model,37,Residential,true,22,2,101
+3,3001009030150,Regional Cluster A,46,Administrative,false,33,3,102
+4,325468,Seasonal Review,55,Academic,true,44,4,103

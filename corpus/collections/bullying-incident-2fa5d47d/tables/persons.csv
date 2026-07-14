@@ -1,0 +1,5 @@
+id,person_id,full_name,role,year_group,email_address,is_vulnerable,special_needs,role_id,incident_id,created_at,updated_at
+1,George Bernard Shaw,Theodore Mcgrath,student,45,primary-email-70,false,false,2933463,1336174,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Maria Rodriguez,Account Name,staff,55,adaptive-email-71,true,true,id_3,state_uk_4,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Sarah Villanueva,Saipan International Airport,governor,65,distributed-email-72,false,false,gd_taxc_2111,2933483,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Susan Wagner,Norma Fisher,parent,75,baseline-email-73,true,true,994a4fa0-9bad-11eb-a8a2-19ed5c03f8d3,2986243,2025-04-16 09:14:00,2025-04-23 15:41:00

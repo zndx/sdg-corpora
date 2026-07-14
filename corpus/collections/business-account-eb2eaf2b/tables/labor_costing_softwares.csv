@@ -1,0 +1,5 @@
+id,software_version,licensing_model,edi_enabled,export_capabilities,standard_element_library_id,created_at
+1,seasonal-software-47,primary-licensin-16,false,PDF,1,2025-01-01 00:14:00
+2,regional-software-48,adaptive-licensin-17,true,Excel,2,2025-02-06 03:14:00
+3,legacy-software-49,distributed-licensin-18,false,EDI_flat_file,3,2025-03-11 06:14:00
+4,compact-software-50,baseline-licensin-19,true,PDF,4,2025-04-16 09:14:00

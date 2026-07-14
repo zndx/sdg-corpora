@@ -1,0 +1,218 @@
+{
+ "construct_id": "a398849ff43de872",
+ "slug": "knowledge-organization-system-a398849f",
+ "passage": "a398849ff43de872bd7502d43b5be12ec009a5a52da1580f14dbe9476ea32760.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 22,
+ "entities": [
+  "KnowledgeOrganizationSystem",
+  "ControlledTerm",
+  "SocialTag",
+  "DigitalResource",
+  "TaggingActivity",
+  "User",
+  "DigitalCollection"
+ ],
+ "terms": [
+  {
+   "name": "KnowledgeOrganizationSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ControlledTerm",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SocialTag",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DigitalResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TaggingActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "User",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "DigitalCollection",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "knowledge_organization_systems",
+   "rows": 4,
+   "columns": [
+    "knowledge_organization_system_id",
+    "identifier",
+    "name",
+    "version",
+    "last_updated",
+    "scope",
+    "status",
+    "tagging_activity_id"
+   ]
+  },
+  {
+   "name": "controlled_terms",
+   "rows": 4,
+   "columns": [
+    "controlled_term_id",
+    "term_id",
+    "pref_label",
+    "alt_label",
+    "definition",
+    "broader_term",
+    "narrower_term",
+    "related_term",
+    "knowledge_organization_system_id",
+    "synonym_of_controlled_term_id",
+    "broader_than_controlled_term_id",
+    "narrower_than_controlled_term_id"
+   ]
+  },
+  {
+   "name": "social_tags",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tag_id",
+    "tag_text",
+    "spelling_variant",
+    "usage_count",
+    "first_used",
+    "last_used",
+    "is_ambiguous",
+    "resource_id",
+    "user_id",
+    "controlled_term_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "digital_resources",
+   "rows": 4,
+   "columns": [
+    "resource_id",
+    "title",
+    "format",
+    "date_created",
+    "date_modified",
+    "size_bytes",
+    "status",
+    "controlled_term_id",
+    "user_id",
+    "digital_collection_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "tagging_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "start_time",
+    "end_time",
+    "method",
+    "quality_score",
+    "indexer_role",
+    "resource_id",
+    "knowledge_organization_system_id",
+    "social_tag_id",
+    "controlled_term_id",
+    "user_id"
+   ]
+  },
+  {
+   "name": "users",
+   "rows": 4,
+   "columns": [
+    "id",
+    "user_id",
+    "username",
+    "registration_date",
+    "role",
+    "affiliation",
+    "is_active",
+    "resource_id",
+    "social_tag_id",
+    "tagging_activity_id"
+   ]
+  },
+  {
+   "name": "digital_collections",
+   "rows": 4,
+   "columns": [
+    "digital_collection_id",
+    "collection_id",
+    "name",
+    "description",
+    "date_established",
+    "resource_count",
+    "access_level",
+    "knowledge_organization_system_id",
+    "user_id"
+   ]
+  },
+  {
+   "name": "systems_terms",
+   "rows": 8,
+   "columns": [
+    "knowledge_organization_system_id",
+    "controlled_term_id"
+   ]
+  },
+  {
+   "name": "resources_tags",
+   "rows": 8,
+   "columns": [
+    "resource_id",
+    "social_tag_id"
+   ]
+  },
+  {
+   "name": "collections_resources",
+   "rows": 8,
+   "columns": [
+    "digital_collection_id",
+    "resource_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_knowledge_organization_system_controlled_term_detail",
+  "v_knowledge_organization_system_tagging_activity",
+  "v_controlled_term_knowledge_organization_system",
+  "v_controlled_term_controlled_term",
+  "v_social_tag_digital_resource",
+  "v_social_tag_user",
+  "v_social_tag_controlled_term",
+  "v_digital_resource_social_tag_detail",
+  "v_digital_resource_controlled_term",
+  "v_digital_resource_user",
+  "v_digital_resource_digital_collection",
+  "v_tagging_activity_digital_resource",
+  "v_tagging_activity_knowledge_organization_system",
+  "v_tagging_activity_social_tag",
+  "v_tagging_activity_controlled_term",
+  "v_tagging_activity_user",
+  "v_user_digital_resource",
+  "v_user_social_tag",
+  "v_user_tagging_activity",
+  "v_digital_collection_digital_resource_detail",
+  "v_digital_collection_knowledge_organization_system",
+  "v_digital_collection_user"
+ ]
+}

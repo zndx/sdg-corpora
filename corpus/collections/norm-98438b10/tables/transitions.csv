@@ -1,0 +1,5 @@
+transition_id,action_id,precondition,effect,state_id,terminates_at_state_id,physical_transition_system_id
+BJewellGraham,8250,seasonal-precondi-83,regional-effect-24,1,1,1
+2106698,450,regional-precondi-84,legacy-effect-25,2,2,2
+state_uk_21,21005921,legacy-precondi-85,compact-effect-26,3,3,3
+4332,1437589,compact-precondi-86,composite-effect-27,4,4,4

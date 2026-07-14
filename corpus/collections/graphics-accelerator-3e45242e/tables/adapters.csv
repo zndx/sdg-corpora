@@ -1,0 +1,5 @@
+adapter_id,manufacturer_part_number,source_connector_type,target_connector_type,quantity_included,graphics_accelerator_id
+100,American Express Co,integrated-source-28,compact-target-68,9,1
+101,Firestone Tire & Rubber,seasonal-source-29,composite-target-69,14,2
+102,LDAP First Name Field,regional-source-30,primary-target-70,15,3
+103,Blink Charging Co.,legacy-source-31,adaptive-target-71,10,4

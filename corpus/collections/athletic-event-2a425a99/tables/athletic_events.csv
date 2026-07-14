@@ -1,0 +1,5 @@
+id,event_identifier,event_name,scheduled_start,scheduled_end,status,sport_type,facility_id
+1,EVE-2706,Seasonal Standard,2025-12-07T11:45:00,2023-10-10T09:15:00,scheduled,adaptive-sport-83,1
+2,EVE-2707,Integrated Framework,2022-05-18T18:02:00,2024-03-21T16:32:00,in_progress,distributed-sport-84,2
+3,EVE-2708,Extended Protocol D,2023-10-02T01:19:00,2025-08-05T23:49:00,completed,baseline-sport-85,3
+4,EVE-2709,Pilot Programme,2024-03-13T08:36:00,2022-01-16T06:06:00,cancelled,pilot-sport-86,4

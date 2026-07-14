@@ -1,0 +1,5 @@
+mental_health_issue_id,issue_code,issue_name,severity_level,is_treatable,prevalence_in_teens,barrier_to_treatment,youth_demographic_id
+1,505995,Distributed Review,low,true,17.95,stigma,1
+2,Harga,Adaptive Initiative D,medium,false,21.90,shame,2
+3,27cf055a-9bad-11eb-a8a2-19ed5c03f8d3,Primary Model,high,true,25.85,lack of awareness,3
+4,4060640,Composite Cluster,low,false,29.80,stigma,4

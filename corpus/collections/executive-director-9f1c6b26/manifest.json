@@ -1,0 +1,249 @@
+{
+ "construct_id": "9f1c6b26220a17ca",
+ "slug": "executive-director-9f1c6b26",
+ "passage": "9f1c6b26220a17ca1fa6cc700618f777121238d03f54abeab47546fa19a2a89b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 24,
+ "entities": [
+  "ExecutiveDirector",
+  "Organization",
+  "Facility",
+  "Event",
+  "Program",
+  "StaffMember",
+  "Donor"
+ ],
+ "terms": [
+  {
+   "name": "ExecutiveDirector",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Donor",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "executive_directors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "reporting_to",
+    "position_type",
+    "salary_min",
+    "salary_max",
+    "degree_level",
+    "years_experience",
+    "is_exempt",
+    "organization_id",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "founded_year",
+    "annual_revenue",
+    "employee_count",
+    "volunteer_count",
+    "location",
+    "is_nonprofit",
+    "facility_id",
+    "donor_id"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "building_count",
+    "age_min",
+    "age_max",
+    "safety_status",
+    "last_inspection_date",
+    "maintenance_schedule",
+    "is_historic",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "event_date",
+    "event_type",
+    "is_rental_show",
+    "attendee_count",
+    "revenue_generated",
+    "facility_id",
+    "organization_id",
+    "staff_member_staff_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "programs",
+   "rows": 4,
+   "columns": [
+    "program_id",
+    "program_name",
+    "year",
+    "event_count",
+    "budget",
+    "status",
+    "executive_director_id",
+    "donor_id"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_id",
+    "full_name",
+    "employment_type",
+    "department",
+    "hire_date",
+    "salary",
+    "is_supervisor",
+    "organization_id",
+    "executive_director_id",
+    "facility_id",
+    "event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "donors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "donor_id",
+    "donor_name",
+    "donor_type",
+    "total_contributed",
+    "last_donation_date",
+    "is_major_donor",
+    "organization_id",
+    "program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "directors_members",
+   "rows": 8,
+   "columns": [
+    "executive_director_id",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "organizations_members",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "organizations_programs",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "program_id"
+   ]
+  },
+  {
+   "name": "facilities_events",
+   "rows": 8,
+   "columns": [
+    "facility_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "facilities_members",
+   "rows": 8,
+   "columns": [
+    "facility_id",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "programs_events",
+   "rows": 8,
+   "columns": [
+    "program_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "donors_members",
+   "rows": 8,
+   "columns": [
+    "donor_id",
+    "staff_member_staff_id"
+   ]
+  }
+ ],
+ "views": [
+  "executive_director_organization_view",
+  "executive_director_staff_member_detail_view",
+  "executive_director_facility_view",
+  "organization_staff_member_detail_view",
+  "organization_facility_view",
+  "organization_program_detail_view",
+  "organization_donor_view",
+  "facility_organization_view",
+  "facility_event_detail_view",
+  "facility_staff_member_detail_view",
+  "event_facility_view",
+  "event_organization_view",
+  "event_staff_member_view",
+  "event_program_view",
+  "program_event_detail_view",
+  "program_executive_director_view",
+  "program_donor_view",
+  "staff_member_organization_view",
+  "staff_member_executive_director_view",
+  "staff_member_facility_view",
+  "staff_member_event_view",
+  "donor_organization_view",
+  "donor_program_view",
+  "donor_staff_member_detail_view"
+ ]
+}

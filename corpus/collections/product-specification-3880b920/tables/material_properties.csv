@@ -1,0 +1,5 @@
+id,property_type,measured_value,unit_of_measure,condition_location,moisture_content,product_specification_id,product_variant_id,created_at,updated_at
+1,Compressive Strength,9.20,N/mm2,Above DPC,4.70,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Thermal Conductivity,12.40,W/m.K,Below Ground,8.40,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Density,15.60,Kg/m3,Dry,12.10,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Compressive Strength,18.80,N/mm2,Above DPC,15.80,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

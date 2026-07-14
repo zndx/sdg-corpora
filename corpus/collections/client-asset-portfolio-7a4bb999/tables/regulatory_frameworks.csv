@@ -1,0 +1,5 @@
+id,framework_identifier,issuing_authority,jurisdiction,compliance_status,last_audit_date,regulatory_type,financial_institution_id,client_asset_portfolio_id,created_at,updated_at
+100,FRA-2787,extended-issuing-33,regional-jurisdic-30,compliant,2023-10-23,securities,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,FRA-2788,integrated-issuing-34,legacy-jurisdic-31,non_compliant,2024-03-07,banking,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,FRA-2789,seasonal-issuing-35,compact-jurisdic-32,under_review,2025-08-18,insurance,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,FRA-2790,regional-issuing-36,composite-jurisdic-33,compliant,2022-01-02,mixed,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

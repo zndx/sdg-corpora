@@ -1,0 +1,193 @@
+{
+ "construct_id": "51342c74c84d73e3",
+ "slug": "publication-51342c74",
+ "passage": "51342c74c84d73e33cec9ba1a1f2f5f4d323bf90e6653fc3aeaf644c3f2c19b7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 15,
+ "entities": [
+  "Publication",
+  "MediaGroup",
+  "DeliveryPlatform",
+  "Subsidiary",
+  "AdvertisingNetwork",
+  "RadioChannel",
+  "JointVenture"
+ ],
+ "terms": [
+  {
+   "name": "Publication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MediaGroup",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DeliveryPlatform",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Subsidiary",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdvertisingNetwork",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RadioChannel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "JointVenture",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "publications",
+   "rows": 4,
+   "columns": [
+    "publication_id",
+    "title",
+    "language",
+    "frequency",
+    "status",
+    "circulation_count",
+    "online_page_views",
+    "unique_visitors",
+    "group_id",
+    "delivery_platform_id"
+   ]
+  },
+  {
+   "name": "media_groups",
+   "rows": 4,
+   "columns": [
+    "group_id",
+    "group_name",
+    "headquarters_location",
+    "founding_year",
+    "market_share",
+    "total_audience",
+    "total_page_views",
+    "total_unique_visitors",
+    "subsidiary_id",
+    "delivery_platform_id"
+   ]
+  },
+  {
+   "name": "delivery_platforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_id",
+    "platform_name",
+    "platform_type",
+    "access_method",
+    "active_status",
+    "monthly_visitors",
+    "monthly_page_views",
+    "publication_id",
+    "group_id"
+   ]
+  },
+  {
+   "name": "subsidiaries",
+   "rows": 4,
+   "columns": [
+    "subsidiary_id",
+    "subsidiary_name",
+    "ownership_percentage",
+    "business_type",
+    "operational_status",
+    "location",
+    "group_id",
+    "delivery_platform_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "advertising_networks",
+   "rows": 4,
+   "columns": [
+    "advertising_network_id",
+    "network_id",
+    "network_name",
+    "network_type",
+    "coverage_area",
+    "active_status",
+    "monthly_impressions",
+    "subsidiary_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "radio_channels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "channel_id",
+    "channel_name",
+    "frequency",
+    "language",
+    "operational_status",
+    "audience_size",
+    "joint_venture_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "joint_ventures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "venture_id",
+    "venture_name",
+    "ownership_structure",
+    "business_type",
+    "operational_status",
+    "location",
+    "group_id"
+   ]
+  },
+  {
+   "name": "groups_publications",
+   "rows": 8,
+   "columns": [
+    "group_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "ventures_channels",
+   "rows": 8,
+   "columns": [
+    "joint_venture_id",
+    "radio_channel_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_publication_media_group",
+  "v_publication_delivery_platform",
+  "v_media_group_publication_detail",
+  "v_media_group_subsidiary",
+  "v_media_group_delivery_platform",
+  "v_delivery_platform_publication",
+  "v_delivery_platform_media_group",
+  "v_subsidiary_media_group",
+  "v_subsidiary_delivery_platform",
+  "v_advertising_network_subsidiary",
+  "v_advertising_network_publication",
+  "v_radio_channel_joint_venture",
+  "v_radio_channel_publication",
+  "v_joint_venture_radio_channel_detail",
+  "v_joint_venture_media_group"
+ ]
+}

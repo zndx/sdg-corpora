@@ -1,0 +1,200 @@
+{
+ "construct_id": "0bf5440d54a01a6f",
+ "slug": "academic-appointment-0bf5440d",
+ "passage": "0bf5440d54a01a6f11317a88edf3e6889647a5bb8fcdfb08c88a72470ddd257a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 20,
+ "entities": [
+  "AcademicAppointment",
+  "AcademicInstitution",
+  "AcademicDepartment",
+  "LawEnforcementAppointment",
+  "LawEnforcementAgency",
+  "LawEnforcementDivision",
+  "AcademicAward",
+  "Person"
+ ],
+ "terms": [
+  {
+   "name": "AcademicAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicInstitution",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LawEnforcementAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LawEnforcementAgency",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LawEnforcementDivision",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicAward",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_appointments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appointment_id",
+    "start_date",
+    "end_date",
+    "title",
+    "department",
+    "institution_name",
+    "academic_institution_id",
+    "person_id",
+    "academic_department_id"
+   ]
+  },
+  {
+   "name": "academic_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "name",
+    "location_city",
+    "location_state",
+    "location_country",
+    "founding_year",
+    "academic_department_id",
+    "academic_award_id"
+   ]
+  },
+  {
+   "name": "academic_departments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "department_id",
+    "name",
+    "parent_institution_id",
+    "established_date",
+    "academic_institution_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "law_enforcement_appointments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appointment_id",
+    "start_date",
+    "end_date",
+    "title",
+    "agency_name",
+    "jurisdiction",
+    "law_enforcement_agency_id",
+    "person_id",
+    "law_enforcement_division_id"
+   ]
+  },
+  {
+   "name": "law_enforcement_agencies",
+   "rows": 4,
+   "columns": [
+    "law_enforcement_agency_id",
+    "agency_id",
+    "name",
+    "location_city",
+    "location_state",
+    "location_country",
+    "established_year",
+    "person_id",
+    "law_enforcement_division_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "law_enforcement_divisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "division_id",
+    "name",
+    "parent_agency_id",
+    "established_date",
+    "law_enforcement_agency_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "academic_awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_id",
+    "name",
+    "awarding_organization",
+    "year_awarded",
+    "citation",
+    "person_id",
+    "academic_institution_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "first_name",
+    "last_name",
+    "birth_date",
+    "nationality",
+    "academic_appointment_id",
+    "law_enforcement_appointment_id",
+    "academic_award_id",
+    "academic_institution_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_academic_appointment_academic_institution",
+  "v_academic_appointment_person",
+  "v_academic_appointment_academic_department",
+  "v_academic_institution_academic_department",
+  "v_academic_institution_academic_award",
+  "v_academic_department_academic_institution",
+  "v_academic_department_person",
+  "v_law_enforcement_appointment_law_enforcement_agency",
+  "v_law_enforcement_appointment_person",
+  "v_law_enforcement_appointment_law_enforcement_division",
+  "v_law_enforcement_agency_person",
+  "v_law_enforcement_agency_law_enforcement_division",
+  "v_law_enforcement_division_law_enforcement_agency",
+  "v_law_enforcement_division_person",
+  "v_academic_award_person",
+  "v_academic_award_academic_institution",
+  "v_person_academic_appointment",
+  "v_person_law_enforcement_appointment",
+  "v_person_academic_award",
+  "v_person_academic_institution"
+ ]
+}

@@ -1,0 +1,5 @@
+training_id,training_date,topic,status,staff_member_id,student_placement_id,assigned_to_staff_staff_member_id,created_at,updated_at
+1205-0002-M,2025-12-24,Autism Spectrum,scheduled,209204,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+c746bff2-8fcc-11eb-924d-9cd76263cbd0,2022-05-08,Pathological Demand Avoidance,in_progress,922a1b88-9bad-11eb-a8a2-19ed5c03f8d3,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+34036cc6-9bad-11eb-a8a2-19ed5c03f8d3,2023-10-19,Chromosome Disorders,completed,ba649482-8fbb-11eb-924d-9cd76263cbd0,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+10207144,2024-03-03,Communication Difficulties,cancelled,10207143,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

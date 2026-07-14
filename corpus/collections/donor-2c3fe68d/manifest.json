@@ -1,0 +1,138 @@
+{
+ "construct_id": "2c3fe68dc0eeace7",
+ "slug": "donor-2c3fe68d",
+ "passage": "2c3fe68dc0eeace774f9380718f1271228bb45f1c716b282a8ae2da93f3bf43a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "Donor",
+  "Donation",
+  "Program",
+  "Honoree",
+  "ContactRecipient",
+  "ContactRequest"
+ ],
+ "terms": [
+  {
+   "name": "Donor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Donation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Honoree",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ContactRecipient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ContactRequest",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Donor",
+   "rows": 4,
+   "columns": [
+    "donorIdentifier",
+    "donorName",
+    "streetAddress",
+    "city",
+    "state",
+    "zipCode",
+    "emailAddress",
+    "isAnonymous",
+    "donationId",
+    "requestId"
+   ]
+  },
+  {
+   "name": "Donation",
+   "rows": 4,
+   "columns": [
+    "donationId",
+    "donationIdentifier",
+    "amount",
+    "donationDate",
+    "isMemorial",
+    "isHonor",
+    "isDeferred",
+    "donorZipCode",
+    "programId",
+    "honoreeId",
+    "recipientId"
+   ]
+  },
+  {
+   "name": "Program",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programIdentifier",
+    "programName",
+    "programType",
+    "donationId"
+   ]
+  },
+  {
+   "name": "Honoree",
+   "rows": 4,
+   "columns": [
+    "id",
+    "honoreeName",
+    "honoreeType",
+    "donationId"
+   ]
+  },
+  {
+   "name": "ContactRecipient",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recipientName",
+    "streetAddress",
+    "city",
+    "state",
+    "zipCode",
+    "relationship",
+    "donationId"
+   ]
+  },
+  {
+   "name": "ContactRequest",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requestIdentifier",
+    "requestType",
+    "isRequested",
+    "donorZipCode"
+   ]
+  }
+ ],
+ "views": [
+  "donor_donation_view",
+  "donor_contact_request_view",
+  "donation_donor_view",
+  "donation_program_view",
+  "donation_honoree_view",
+  "donation_contact_recipient_view",
+  "program_donation_view",
+  "honoree_donation_view",
+  "contact_recipient_donation_view",
+  "contact_request_donor_view"
+ ]
+}

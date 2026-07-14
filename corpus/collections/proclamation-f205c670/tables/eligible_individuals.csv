@@ -1,0 +1,5 @@
+eligible_individual_id,individual_id,full_name,age,residence,eligibility_status,date_of_birth,proclamation_id,monarch_id
+1,4277024,Theodore Mcgrath,35,regional-residenc-54,eligible,2025-04-02,1000,1
+2,default_chart_a_tax_code_40,Account Name,40,legacy-residenc-55,ineligible,2022-09-13,1001,2
+3,195368,Saipan International Airport,45,compact-residenc-56,pending_review,2023-02-24,1002,3
+4,dce5fe58-8fcd-11eb-924d-9cd76263cbd0,Norma Fisher,50,composite-residenc-57,eligible,2024-07-08,1003,4

@@ -1,0 +1,5 @@
+id,contractIdentifier,executionDate,totalValue,contractType,isMateriallyModified,modificationDate,entityId,contractorId
+1,CON-2782,2023-06-02,9.45,prime,true,2025-08-03,100,1
+2,CON-2786,2024-11-13,12.90,subcontract,false,2022-01-14,101,2
+3,CON-2790,2025-04-24,16.35,classified,true,2023-06-25,102,3
+4,CON-2794,2022-09-08,19.80,confidential,false,2024-11-09,103,4

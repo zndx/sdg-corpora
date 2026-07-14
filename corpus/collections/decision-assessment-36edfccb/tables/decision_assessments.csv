@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,decision_topic,assessor_id,capacity_status,support_provided,person_id,topic_id,professional_id
+1,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,pilot-decision-20,5f901eb6-8fcd-11eb-924d-9cd76263cbd0,capable,none,George Bernard Shaw,lu_tax_code_template_b_VB-IC-Tab,100
+2,19508914,2023-10-21T11:41:00,extended-decision-21,4060646,incapable,informational,Maria Rodriguez,8387534,101
+3,506000,2024-03-05T18:58:00,integrated-decision-22,eff24a44-8fcb-11eb-924d-9cd76263cbd0,uncertain,communication_aid,Sarah Villanueva,2933463,102
+4,1204-0009-M,2025-08-16T01:15:00,seasonal-decision-23,2933475,capable,advocacy,Susan Wagner,2839516,103

@@ -1,0 +1,5 @@
+food_item_id,item_name,base_price,serving_weight,is_vegetarian,is_gluten_free,allergen_codes,menu_category_id,cheese_type_id
+1,Seasonal Survey,12.72,0.96,true,true,extended-allergen-15,1,1
+2,Integrated Corridor,12.87,1.48,false,false,integrated-allergen-16,2,2
+3,Extended Series D,17.41,0.635,true,true,seasonal-allergen-17,3,3
+4,Pilot Assessment,18.59,1.42,false,false,regional-allergen-18,4,4

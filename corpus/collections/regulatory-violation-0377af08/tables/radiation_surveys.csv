@@ -1,0 +1,5 @@
+id,survey_id,survey_date,area_type,measured_dose_rate,unit_of_measure,compliance_status,licensee_id,regulatory_violation_id
+100,21005921,2024-07-23T18:30:00,controlled,18.20,composite-unit-69,compliant,100,1
+101,726059,2025-12-07T01:47:00,unrestricted,22.40,primary-unit-70,non-compliant,101,2
+102,32814,2022-05-18T08:04:00,controlled,26.60,adaptive-unit-71,pending_review,102,3
+103,b83e028a-8fcd-11eb-924d-9cd76263cbd0,2023-10-02T15:21:00,unrestricted,30.80,distributed-unit-72,compliant,103,4

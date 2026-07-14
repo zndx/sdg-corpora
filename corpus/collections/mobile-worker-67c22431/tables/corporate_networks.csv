@@ -1,0 +1,5 @@
+id,network_id,network_name,ip_range,security_level,last_audit_date,v_p_n_gateway_id
+1,e6196808-8fd1-11eb-924d-9cd76263cbd0,Seasonal Programme,integrated-ip-70,High,2023-10-23,1
+2,7441146,Integrated Standard,seasonal-ip-71,Medium,2024-03-07,2
+3,8387535,Extended Framework D,regional-ip-72,Low,2025-08-18,3
+4,6589,Pilot Protocol,legacy-ip-73,High,2022-01-02,4

@@ -1,0 +1,5 @@
+id,question_id,question_text,paraphrased,asked_date,responded_in_report_paragraph,expert_advisory_report_id,financial_modeling_assumption_id
+1,325448,composite-question-63,false,2024-07-16T18:18:00,pilot-responde-26,1000,1
+2,5006438,primary-question-64,true,2025-12-27T01:35:00,extended-responde-27,1001,2
+3,dc0d0562-8fcd-11eb-924d-9cd76263cbd0,adaptive-question-65,false,2022-05-11T08:52:00,integrated-responde-28,1002,3
+4,ChIJEctqrYFt5kcRUrBEPR-XXBE,distributed-question-66,true,2023-10-22T15:09:00,seasonal-responde-29,1003,4

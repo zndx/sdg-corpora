@@ -1,0 +1,5 @@
+surveillance_site_id,site_identifier,site_name,latitude,longitude,site_type,operational_status,deployment_date
+1,SIT-2771,Composite Review,13.95,21.20,radar,online,2023-02-14
+2,SIT-2772,Compact Initiative A,17.90,25.40,sensor,offline,2024-07-25
+3,SIT-2773,Legacy Model,21.85,29.60,mixed,maintenance,2025-12-09
+4,SIT-2774,Regional Cluster,25.80,33.80,radar,decommissioned,2022-05-20

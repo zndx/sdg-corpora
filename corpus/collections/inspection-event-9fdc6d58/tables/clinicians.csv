@@ -1,0 +1,5 @@
+id,clinician_id,clinician_name,specialization,training_completed,safeguarding_awareness,supervision_status,clinical_service_id
+100,325439,Adaptive Series,legacy-speciali-13,false,true,supervised,100
+101,2986233,Primary Assessment,compact-speciali-14,true,false,unsupervised,101
+102,168567,Composite Survey D,composite-speciali-15,false,true,supervised,102
+103,884366,Compact Corridor,primary-speciali-16,true,false,unsupervised,103

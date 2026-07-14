@@ -1,0 +1,5 @@
+learning_environment_id,environment_id,safety_level,noise_level,lighting_condition,temperature,is_secure,workshop_session_id,group_agreement_id
+100,726050,low,10.70,baseline-lighting-25,1.33,false,1,1
+101,1996940,medium,13.40,pilot-lighting-26,1.1714807757148185,true,2,2
+102,2986218,high,16.10,extended-lighting-27,0.51,false,3,3
+103,8350020,low,18.80,integrated-lighting-28,0.85,true,4,4

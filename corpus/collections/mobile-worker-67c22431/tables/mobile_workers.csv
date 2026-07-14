@@ -1,0 +1,5 @@
+mobile_worker_id,worker_id,employee_name,department,role,device_type,os_platform,authentication_realm,last_login_timestamp,authentication_server_id,user_role_id,v_p_n_gateway_id,created_at
+1,Tangguhkan,Cole Vasquez,adaptive-departme-89,Standard,Laptop,Windows,AD,2024-11-16T10:42:00,100,100,1,2025-01-01 00:14:00
+2,207,Susan Levy,distributed-departme-90,Admin,Tablet,macOS,LDAP,2025-04-27T17:59:00,101,101,2,2025-02-06 03:14:00
+3,7021001070072,Tasha Rodriguez,baseline-departme-91,Guest,Smartphone,Linux,RADIUS,2022-09-11T00:16:00,102,102,3,2025-03-11 06:14:00
+4,3717625,Sarah Villanueva,pilot-departme-92,Standard,Laptop,Android,AD,2023-02-22T07:33:00,103,103,4,2025-04-16 09:14:00

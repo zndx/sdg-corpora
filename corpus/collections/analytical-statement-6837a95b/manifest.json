@@ -1,0 +1,168 @@
+{
+ "construct_id": "6837a95bd1f61bc3",
+ "slug": "analytical-statement-6837a95b",
+ "passage": "6837a95bd1f61bc3be8f3e325c9d0512b0de79b29a4c5c358c9f1a458032ca73.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 10,
+ "entities": [
+  "AnalyticalStatement",
+  "SyntheticAPrioriJudgement",
+  "EmpiricalJudgement",
+  "Concept",
+  "Intuition",
+  "MathematicalStatement"
+ ],
+ "terms": [
+  {
+   "name": "AnalyticalStatement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SyntheticAPrioriJudgement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EmpiricalJudgement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Concept",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Intuition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MathematicalStatement",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "AnalyticalStatement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statementText",
+    "subjectConcept",
+    "predicateConcept",
+    "isContradictory",
+    "isExplicative",
+    "conceptId",
+    "hasPredicateConceptConceptId"
+   ]
+  },
+  {
+   "name": "SyntheticAPrioriJudgement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "judgementText",
+    "isNecessary",
+    "isUniversal",
+    "isAmpliative",
+    "requiresIntuition",
+    "proofMethod",
+    "conceptId",
+    "hasPredicateConceptConceptId"
+   ]
+  },
+  {
+   "name": "EmpiricalJudgement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "judgementText",
+    "isParticular",
+    "isContingent",
+    "requiresPerception",
+    "observationContext",
+    "conceptId",
+    "hasPredicateConceptConceptId"
+   ]
+  },
+  {
+   "name": "Concept",
+   "rows": 4,
+   "columns": [
+    "conceptId",
+    "conceptName",
+    "isIncoherent",
+    "isConstructible",
+    "domain",
+    "containsConceptId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "Intuition",
+   "rows": 4,
+   "columns": [
+    "id",
+    "intuitionType",
+    "isSensible",
+    "isPossible",
+    "amplifiesConcept",
+    "conceptId",
+    "judgementId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "MathematicalStatement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statementText",
+    "isNecessary",
+    "isUniversal",
+    "requiresConstruction",
+    "proofMethod",
+    "conceptId",
+    "hasPredicateConceptConceptId"
+   ]
+  },
+  {
+   "name": "SyntheticAPrioriJudgementConcept",
+   "rows": 8,
+   "columns": [
+    "judgementId",
+    "conceptId"
+   ]
+  },
+  {
+   "name": "ConceptConcept",
+   "rows": 8,
+   "columns": [
+    "conceptId",
+    "isConstructedFromConceptId"
+   ]
+  },
+  {
+   "name": "MathematicalStatementConcept",
+   "rows": 8,
+   "columns": [
+    "statementId",
+    "conceptId"
+   ]
+  }
+ ],
+ "views": [
+  "analytical_statement_concept_view",
+  "synthetic_a_priori_judgement_concept_view",
+  "synthetic_a_priori_judgement_concept_detail_view",
+  "empirical_judgement_concept_view",
+  "concept_concept_view",
+  "concept_concept_detail_view",
+  "intuition_concept_view",
+  "intuition_synthetic_a_priori_judgement_view",
+  "mathematical_statement_concept_view",
+  "mathematical_statement_concept_detail_view"
+ ]
+}

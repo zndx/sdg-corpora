@@ -1,0 +1,5 @@
+id,person_id,full_name,date_of_birth,relationship_to_testator,tax_residency,generation,investment_fund_account_id,will_id,systematic_withdrawal_id,joint_ownership_id
+100,George Bernard Shaw,Theodore Mcgrath,2025-04-02,regional-relation-42,baseline-tax-25,parent,1,1,1,100
+101,Maria Rodriguez,Account Name,2022-09-13,legacy-relation-43,pilot-tax-26,child,2,2,2,101
+102,Sarah Villanueva,Saipan International Airport,2023-02-24,compact-relation-44,extended-tax-27,grandchild,3,3,3,102
+103,Susan Wagner,Norma Fisher,2024-07-08,composite-relation-45,integrated-tax-28,parent,4,4,4,103

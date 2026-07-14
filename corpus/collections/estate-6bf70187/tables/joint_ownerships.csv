@@ -1,0 +1,5 @@
+joint_ownership_id,ownership_id,asset_type,survivorship_right,registration_date,jurisdiction,ownership_percentage,investment_fund_account_id
+100,9bb5de9a-8fcc-11eb-924d-9cd76263cbd0,pilot-asset-86,true,2023-06-19,regional-jurisdic-30,6.95,1
+101,13734000,extended-asset-87,false,2024-11-03,legacy-jurisdic-31,8.90,2
+102,937736,integrated-asset-88,true,2025-04-14,compact-jurisdic-32,10.85,3
+103,10966212,seasonal-asset-89,false,2022-09-25,composite-jurisdic-33,12.80,4

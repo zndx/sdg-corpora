@@ -1,0 +1,5 @@
+id,dongle_id,firmware_hash,manufacture_date,encryption_support,security_risk_level,server_id,aero_scope_system_id
+100,8843746,adaptive-firmware-53,2023-06-05,true,low,911352d5dab64576b7a6da51aa69d76d,1000
+101,4277021,distributed-firmware-54,2024-11-16,false,medium,1450637,1001
+102,1996912,baseline-firmware-55,2025-04-27,true,high,4985152,1002
+103,4060638,pilot-firmware-56,2022-09-11,false,critical,9736887,1003

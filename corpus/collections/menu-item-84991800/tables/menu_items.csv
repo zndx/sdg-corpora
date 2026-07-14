@@ -1,0 +1,5 @@
+id,menu_id,name,base_price,category,is_vegetarian,is_vegan,is_gluten_free,serving_time,side_dish_id,price_option_id
+100,b_VB-IC-15,Extended Review,12.72,scrambles,true,false,true,breakfast,1,100
+101,2839520,Pilot Initiative A,12.87,rooster slinger,false,true,false,brunch,2,101
+102,id_3,Baseline Model,17.41,fried egg sandwich,true,false,true,lunch,3,102
+103,id_25,Distributed Cluster,18.59,b.e.l.t.,false,true,false,dinner,4,103

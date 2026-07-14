@@ -1,0 +1,191 @@
+{
+ "construct_id": "fb92e9250dd9c73d",
+ "slug": "grant-award-fb92e925",
+ "passage": "fb92e9250dd9c73df15f8647983fcbbec3544ccf183f43ae66a1e5ca91538194.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 18,
+ "entities": [
+  "GrantAward",
+  "SustainabilityProject",
+  "WaterHarvestingSystem",
+  "Facility",
+  "CommunityOrganization",
+  "CorporateSponsor",
+  "Municipality"
+ ],
+ "terms": [
+  {
+   "name": "GrantAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SustainabilityProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WaterHarvestingSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CommunityOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CorporateSponsor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Municipality",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "grant_awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "grant_amount",
+    "grant_currency",
+    "award_date",
+    "grant_program_name",
+    "grant_status",
+    "grant_reference_id",
+    "community_organization_id",
+    "corporate_sponsor_id",
+    "sustainability_project_id"
+   ]
+  },
+  {
+   "name": "sustainability_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_name",
+    "project_description",
+    "project_status",
+    "start_date",
+    "end_date",
+    "project_location",
+    "facility_id",
+    "community_organization_id"
+   ]
+  },
+  {
+   "name": "water_harvesting_systems",
+   "rows": 4,
+   "columns": [
+    "water_harvesting_system_id",
+    "system_type",
+    "capacity_liters",
+    "installation_date",
+    "material_type",
+    "system_status",
+    "manufacturer",
+    "facility_id",
+    "corporate_sponsor_id"
+   ]
+  },
+  {
+   "name": "facilities",
+   "rows": 4,
+   "columns": [
+    "facility_id",
+    "facility_name",
+    "facility_address",
+    "facility_type",
+    "construction_year",
+    "roof_completion_date",
+    "facility_status",
+    "community_organization_id",
+    "water_harvesting_system_id",
+    "municipality_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "community_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_name",
+    "organization_type",
+    "registration_number",
+    "founding_date",
+    "membership_count",
+    "organization_status",
+    "facility_id",
+    "grant_award_id",
+    "sustainability_project_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "corporate_sponsors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "company_name",
+    "company_type",
+    "headquarters_location",
+    "industry_sector",
+    "sponsorship_program_name",
+    "total_funding_distributed",
+    "grant_award_id",
+    "water_harvesting_system_id",
+    "community_organization_id"
+   ]
+  },
+  {
+   "name": "municipalities",
+   "rows": 4,
+   "columns": [
+    "municipality_id",
+    "municipality_name",
+    "municipality_code",
+    "state_province",
+    "country",
+    "population",
+    "area_sq_km",
+    "facility_id"
+   ]
+  },
+  {
+   "name": "projects_systems",
+   "rows": 8,
+   "columns": [
+    "sustainability_project_id",
+    "water_harvesting_system_id"
+   ]
+  }
+ ],
+ "views": [
+  "grant_award_community_organization_view",
+  "grant_award_corporate_sponsor_view",
+  "grant_award_sustainability_project_view",
+  "sustainability_project_facility_view",
+  "sustainability_project_community_organization_view",
+  "sustainability_project_water_harvesting_system_detail_view",
+  "water_harvesting_system_facility_view",
+  "water_harvesting_system_corporate_sponsor_view",
+  "facility_community_organization_view",
+  "facility_water_harvesting_system_view",
+  "facility_municipality_view",
+  "community_organization_facility_view",
+  "community_organization_grant_award_view",
+  "community_organization_sustainability_project_view",
+  "corporate_sponsor_grant_award_view",
+  "corporate_sponsor_water_harvesting_system_view",
+  "corporate_sponsor_community_organization_view",
+  "municipality_facility_view"
+ ]
+}

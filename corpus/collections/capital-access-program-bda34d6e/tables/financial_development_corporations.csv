@@ -1,0 +1,5 @@
+financial_development_corporation_id,fdc_identifier,fdc_name,establishment_date,public_dollars_leveraged,total_guarantee_issuance,deployment_status,jurisdiction,capital_access_program_id,institutional_lender_id,underserved_community_id
+1,FDC-2618,Distributed Assessment,2024-07-11T06:18:00,18.70,15.45,active,regional-jurisdic-30,100,1,1
+2,FDC-2623,Adaptive Survey D,2025-12-22T13:35:00,20.40,19.90,inactive,legacy-jurisdic-31,101,2,2
+3,FDC-2628,Primary Corridor,2022-05-06T20:52:00,22.10,24.35,pending,compact-jurisdic-32,102,3,3
+4,FDC-2633,Composite Series,2023-10-17T03:09:00,23.80,28.80,active,composite-jurisdic-33,103,4,4

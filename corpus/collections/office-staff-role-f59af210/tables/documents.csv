@@ -1,0 +1,5 @@
+id,document_type,creation_date,is_copyrighted,has_original_pages,has_copy_count,is_emergency,drop_box_location,person_id,office_process_id,copy_request_form_id,postal_address_id
+1,distributed-document-96,2022-01-13,false,35,12,true,seasonal-drop-65,1,1,1,100
+2,baseline-document-97,2023-06-24,true,44,21,false,regional-drop-66,2,2,2,101
+3,pilot-document-98,2024-11-08,false,53,30,true,legacy-drop-67,3,3,3,102
+4,extended-document-99,2025-04-19,true,62,39,false,compact-drop-68,4,4,4,103

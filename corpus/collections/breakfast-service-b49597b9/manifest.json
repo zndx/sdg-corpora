@@ -1,0 +1,136 @@
+{
+ "construct_id": "b49597b9c60fe750",
+ "slug": "breakfast-service-b49597b9",
+ "passage": "b49597b9c60fe7504cc5532befba46253a647ea8b1bfbcb630f07f42418dd8f3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 9,
+ "entities": [
+  "BreakfastService",
+  "MenuOption",
+  "FoodIngredient",
+  "BeverageType",
+  "GuestReservation"
+ ],
+ "terms": [
+  {
+   "name": "BreakfastService",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MenuOption",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BeverageType",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GuestReservation",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "breakfast_services",
+   "rows": 4,
+   "columns": [
+    "breakfast_service_id",
+    "service_id",
+    "name",
+    "start_time",
+    "end_time",
+    "status",
+    "is_buffet_style",
+    "guest_reservation_id"
+   ]
+  },
+  {
+   "name": "menu_options",
+   "rows": 4,
+   "columns": [
+    "menu_option_id",
+    "option_id",
+    "name",
+    "category",
+    "is_gluten_free",
+    "is_vegetarian",
+    "is_vegan",
+    "serving_size",
+    "breakfast_service_id",
+    "food_ingredient_id",
+    "beverage_type_id"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "origin",
+    "allergen_flag",
+    "is_local_sourced",
+    "storage_temp",
+    "menu_option_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "beverage_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "beverage_id",
+    "name",
+    "type",
+    "serving_temp",
+    "caffeinated",
+    "menu_option_id"
+   ]
+  },
+  {
+   "name": "guest_reservations",
+   "rows": 4,
+   "columns": [
+    "guest_reservation_id",
+    "reservation_id",
+    "guest_name",
+    "check_in_date",
+    "room_number",
+    "dietary_restrictions",
+    "status",
+    "breakfast_service_id",
+    "menu_option_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "services_options",
+   "rows": 8,
+   "columns": [
+    "breakfast_service_id",
+    "menu_option_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_breakfast_service_menu_option_detail",
+  "v_breakfast_service_guest_reservation",
+  "v_menu_option_breakfast_service",
+  "v_menu_option_food_ingredient",
+  "v_menu_option_beverage_type",
+  "v_food_ingredient_menu_option",
+  "v_beverage_type_menu_option",
+  "v_guest_reservation_breakfast_service",
+  "v_guest_reservation_menu_option"
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "construct_id": "3880b920ece735f2",
+ "slug": "product-specification-3880b920",
+ "passage": "3880b920ece735f2c423668f90c4ceee373dce63a7cf7ba996ef08e40bfec0f7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 8,
+ "entities": [
+  "ProductSpecification",
+  "MaterialProperty",
+  "ProductVariant",
+  "DimensionalSpec"
+ ],
+ "terms": [
+  {
+   "name": "ProductSpecification",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "MaterialProperty",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProductVariant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DimensionalSpec",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "product_specifications",
+   "rows": 4,
+   "columns": [
+    "product_specification_id",
+    "product_identifier",
+    "brand_name",
+    "document_type",
+    "design_sulfate_class",
+    "joint_type",
+    "availability_status"
+   ]
+  },
+  {
+   "name": "material_properties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "property_type",
+    "measured_value",
+    "unit_of_measure",
+    "condition_location",
+    "moisture_content",
+    "product_specification_id",
+    "product_variant_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "product_variants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "variant_identifier",
+    "face_length",
+    "face_width",
+    "unit",
+    "has_handholds",
+    "product_specification_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "dimensional_specs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "thickness",
+    "weight",
+    "weight_unit",
+    "density_condition",
+    "moisture_adjustment",
+    "product_variant_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "specifications_properties",
+   "rows": 8,
+   "columns": [
+    "product_specification_id",
+    "material_property_id"
+   ]
+  },
+  {
+   "name": "specifications_variants",
+   "rows": 8,
+   "columns": [
+    "product_specification_id",
+    "product_variant_id"
+   ]
+  },
+  {
+   "name": "variants_properties",
+   "rows": 8,
+   "columns": [
+    "product_variant_id",
+    "material_property_id"
+   ]
+  },
+  {
+   "name": "variants_specs",
+   "rows": 8,
+   "columns": [
+    "product_variant_id",
+    "dimensional_spec_id"
+   ]
+  }
+ ],
+ "views": [
+  "product_specification_material_property_detail_view",
+  "product_specification_product_variant_detail_view",
+  "material_property_product_specification_view",
+  "material_property_product_variant_view",
+  "product_variant_product_specification_view",
+  "product_variant_material_property_detail_view",
+  "product_variant_dimensional_spec_detail_view",
+  "dimensional_spec_product_variant_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,parameter_id,parameter_name,value,unit,species,source_reference,chemical_substance_id
+1,348c2b52-8fcc-11eb-924d-9cd76263cbd0,Extended Model,19.95,years,human,integrated-source-58,1
+2,7441144,Pilot Cluster A,21.90,days,rodent,seasonal-source-59,2
+3,3717628,Baseline Review,23.85,years,human,regional-source-60,3
+4,3001009030280,Distributed Initiative,25.80,days,rodent,legacy-source-61,4

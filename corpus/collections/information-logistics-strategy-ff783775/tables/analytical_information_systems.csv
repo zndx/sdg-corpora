@@ -1,0 +1,5 @@
+id,system_identifier,system_name,deployment_date,system_type,uptime_percentage,organizational_unit_id,information_logistics_strategy_id
+1000,SYS-2050,Legacy Programme D,2023-02-14,business_intelligence,16.45,100,1
+1001,SYS-2051,Regional Standard,2024-07-25,data_warehousing,18.90,101,2
+1002,SYS-2052,Seasonal Framework,2025-12-09,decision_support,21.35,102,3
+1003,SYS-2053,Integrated Protocol A,2022-05-20,business_intelligence,23.80,103,4

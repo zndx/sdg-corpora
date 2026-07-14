@@ -1,0 +1,242 @@
+{
+ "construct_id": "27332510692f8821",
+ "slug": "s-m-e-27332510",
+ "passage": "27332510692f88212604e81a712ef494be06bb79ff0831243fc62453d26e1bed.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 17,
+ "entities": [
+  "SME",
+  "BusinessOwner",
+  "Employee",
+  "JobRole",
+  "MarketSector",
+  "Jurisdiction",
+  "Survey"
+ ],
+ "terms": [
+  {
+   "name": "SME",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BusinessOwner",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Employee",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "JobRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "MarketSector",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Survey",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "s_m_es",
+   "rows": 4,
+   "columns": [
+    "s_m_e_id",
+    "enterprise_id",
+    "name",
+    "employee_count",
+    "annual_revenue",
+    "sector",
+    "country_of_operation",
+    "is_publicly_traded",
+    "founding_date",
+    "market_sector_id",
+    "jurisdiction_id",
+    "business_owner_id"
+   ]
+  },
+  {
+   "name": "business_owners",
+   "rows": 4,
+   "columns": [
+    "business_owner_id",
+    "owner_id",
+    "full_name",
+    "generation",
+    "age",
+    "title",
+    "years_of_experience",
+    "exit_plan",
+    "exit_timeframe",
+    "s_m_e_id",
+    "jurisdiction_id",
+    "survey_id"
+   ]
+  },
+  {
+   "name": "employees",
+   "rows": 4,
+   "columns": [
+    "employee_id",
+    "full_name",
+    "role",
+    "department",
+    "start_date",
+    "termination_date",
+    "is_leader",
+    "performance_rating",
+    "s_m_e_id",
+    "job_role_id",
+    "jurisdiction_id"
+   ]
+  },
+  {
+   "name": "job_roles",
+   "rows": 4,
+   "columns": [
+    "job_role_id",
+    "role_id",
+    "title",
+    "department",
+    "required_skills",
+    "is_leadership",
+    "min_qualifications",
+    "salary_range"
+   ]
+  },
+  {
+   "name": "market_sectors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sector_id",
+    "name",
+    "industry_classification_code",
+    "growth_rate",
+    "is_growth_sector",
+    "description",
+    "jurisdiction_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "jurisdictions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "jurisdiction_id",
+    "name",
+    "country_code",
+    "region",
+    "population",
+    "gdp",
+    "regulatory_environment",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "surveys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "survey_id",
+    "title",
+    "commissioned_by",
+    "conducted_by",
+    "start_date",
+    "end_date",
+    "total_respondents",
+    "countries_covered",
+    "timeframe"
+   ]
+  },
+  {
+   "name": "es_employees",
+   "rows": 8,
+   "columns": [
+    "s_m_e_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "roles_employees",
+   "rows": 8,
+   "columns": [
+    "job_role_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "sectors_es",
+   "rows": 8,
+   "columns": [
+    "market_sector_id",
+    "s_m_e_id"
+   ]
+  },
+  {
+   "name": "jurisdictions_es",
+   "rows": 8,
+   "columns": [
+    "jurisdiction_id",
+    "s_m_e_id"
+   ]
+  },
+  {
+   "name": "jurisdictions_owners",
+   "rows": 8,
+   "columns": [
+    "jurisdiction_id",
+    "business_owner_id"
+   ]
+  },
+  {
+   "name": "jurisdictions_employees",
+   "rows": 8,
+   "columns": [
+    "jurisdiction_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "surveys_owners",
+   "rows": 8,
+   "columns": [
+    "survey_id",
+    "business_owner_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_s_m_e_market_sector",
+  "vw_s_m_e_jurisdiction",
+  "vw_s_m_e_employee_detail",
+  "vw_s_m_e_business_owner",
+  "vw_business_owner_s_m_e",
+  "vw_business_owner_jurisdiction",
+  "vw_business_owner_survey",
+  "vw_employee_s_m_e",
+  "vw_employee_job_role",
+  "vw_employee_jurisdiction",
+  "vw_job_role_employee_detail",
+  "vw_market_sector_s_m_e_detail",
+  "vw_market_sector_jurisdiction",
+  "vw_jurisdiction_s_m_e_detail",
+  "vw_jurisdiction_business_owner_detail",
+  "vw_jurisdiction_employee_detail",
+  "vw_survey_business_owner_detail"
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "construct_id": "d9c53cfd1347d5a6",
+ "slug": "capacity-assessment-d9c53cfd",
+ "passage": "d9c53cfd1347d5a6884898fe153f96d536ee3f4b66fa492ae15aab15fa4461ea.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 19,
+ "entities": [
+  "CapacityAssessment",
+  "Individual",
+  "DecisionContext",
+  "BestInterestDetermination",
+  "Intervention",
+  "LegalRepresentative"
+ ],
+ "terms": [
+  {
+   "name": "CapacityAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DecisionContext",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BestInterestDetermination",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Intervention",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LegalRepresentative",
+   "genus": "bfo:0000003"
+  }
+ ],
+ "tables": [
+  {
+   "name": "capacity_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_identifier",
+    "assessment_date",
+    "decision_topic",
+    "assessor_role",
+    "outcome",
+    "support_provided",
+    "individual_id",
+    "decision_context_id",
+    "best_interest_determination_id"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "individual_id",
+    "individual_identifier",
+    "date_of_birth",
+    "legal_status",
+    "primary_language",
+    "communication_needs",
+    "legal_representative_id"
+   ]
+  },
+  {
+   "name": "decision_contexts",
+   "rows": 4,
+   "columns": [
+    "decision_context_id",
+    "context_identifier",
+    "decision_category",
+    "urgency_level",
+    "risk_level",
+    "description",
+    "capacity_assessment_id",
+    "best_interest_determination_id"
+   ]
+  },
+  {
+   "name": "best_interest_determinations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "determination_identifier",
+    "determination_date",
+    "least_restrictive_option",
+    "consultation_participants",
+    "outcome_description",
+    "review_date",
+    "individual_id",
+    "decision_context_id",
+    "legal_representative_id"
+   ]
+  },
+  {
+   "name": "interventions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "intervention_identifier",
+    "intervention_type",
+    "start_date",
+    "end_date",
+    "restrictiveness_level",
+    "status",
+    "individual_id",
+    "best_interest_determination_id",
+    "decision_context_id"
+   ]
+  },
+  {
+   "name": "legal_representatives",
+   "rows": 4,
+   "columns": [
+    "legal_representative_id",
+    "representative_identifier",
+    "relationship_type",
+    "authorization_date",
+    "scope_of_authority",
+    "contact_information",
+    "individual_id"
+   ]
+  },
+  {
+   "name": "individuals_assessments",
+   "rows": 8,
+   "columns": [
+    "individual_id",
+    "capacity_assessment_id"
+   ]
+  },
+  {
+   "name": "individuals_determinations",
+   "rows": 8,
+   "columns": [
+    "individual_id",
+    "best_interest_determination_id"
+   ]
+  },
+  {
+   "name": "contexts_interventions",
+   "rows": 8,
+   "columns": [
+    "decision_context_id",
+    "intervention_id"
+   ]
+  },
+  {
+   "name": "determinations_interventions",
+   "rows": 8,
+   "columns": [
+    "best_interest_determination_id",
+    "intervention_id"
+   ]
+  },
+  {
+   "name": "representatives_determinations",
+   "rows": 8,
+   "columns": [
+    "legal_representative_id",
+    "best_interest_determination_id"
+   ]
+  },
+  {
+   "name": "representatives_interventions",
+   "rows": 8,
+   "columns": [
+    "legal_representative_id",
+    "intervention_id"
+   ]
+  }
+ ],
+ "views": [
+  "capacity_assessment_individual_view",
+  "capacity_assessment_decision_context_view",
+  "capacity_assessment_best_interest_determination_view",
+  "individual_capacity_assessment_detail_view",
+  "individual_best_interest_determination_detail_view",
+  "individual_legal_representative_view",
+  "decision_context_capacity_assessment_view",
+  "decision_context_best_interest_determination_view",
+  "decision_context_intervention_detail_view",
+  "best_interest_determination_individual_view",
+  "best_interest_determination_decision_context_view",
+  "best_interest_determination_intervention_detail_view",
+  "best_interest_determination_legal_representative_view",
+  "intervention_individual_view",
+  "intervention_best_interest_determination_view",
+  "intervention_decision_context_view",
+  "legal_representative_individual_view",
+  "legal_representative_best_interest_determination_detail_view",
+  "legal_representative_intervention_detail_view"
+ ]
+}

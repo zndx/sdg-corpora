@@ -1,0 +1,5 @@
+financial_institution_id,institution_id,legal_name,headquarters_city,headquarters_country,charter_type,fed_member_status,regulatory_status,has_subsidiary_financial_institution_id,compliance_investigation_id
+1,9424913,Adaptive Model,seasonal-headquar-83,regional-headquar-42,state-chartered,false,active,1,100
+2,8189481,Primary Cluster,regional-headquar-84,legacy-headquar-43,federal,true,sanctioned,2,101
+3,1437604,Composite Review D,legacy-headquar-85,compact-headquar-44,foreign,false,under_investigation,3,102
+4,884346,Compact Initiative,compact-headquar-86,composite-headquar-45,state-chartered,true,active,4,103

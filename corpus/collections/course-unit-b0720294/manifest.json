@@ -1,0 +1,123 @@
+{
+ "construct_id": "b07202945cdff68e",
+ "slug": "course-unit-b0720294",
+ "passage": "b07202945cdff68ea169585da3d9d0629e04fba24283c22fab91d4b597750f85.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 9,
+ "entities": [
+  "CourseUnit",
+  "RecognitionAuthority",
+  "CurrencyPeriod",
+  "Restriction",
+  "ContactDetail"
+ ],
+ "terms": [
+  {
+   "name": "CourseUnit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RecognitionAuthority",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "CurrencyPeriod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Restriction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ContactDetail",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CourseUnit",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unitCode",
+    "unitTitle",
+    "trainingTypeCode",
+    "trainingTypeName",
+    "accreditationStatus",
+    "currentEffectiveDate",
+    "expiryDate",
+    "isRestricted",
+    "authorityId",
+    "periodId",
+    "restrictionId",
+    "detailId"
+   ]
+  },
+  {
+   "name": "RecognitionAuthority",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authorityName",
+    "legalBasis",
+    "jurisdiction",
+    "accreditationStartDate",
+    "unitId"
+   ]
+  },
+  {
+   "name": "CurrencyPeriod",
+   "rows": 4,
+   "columns": [
+    "periodId",
+    "periodStartDate",
+    "periodEndDate",
+    "legislativeReference",
+    "isCurrentPeriod",
+    "unitId",
+    "authorityId"
+   ]
+  },
+  {
+   "name": "Restriction",
+   "rows": 4,
+   "columns": [
+    "id",
+    "restrictionType",
+    "restrictionDescription",
+    "restrictionStartDate",
+    "restrictionEndDate",
+    "isActive",
+    "unitId"
+   ]
+  },
+  {
+   "name": "ContactDetail",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contactType",
+    "contactValue",
+    "contactStartDate",
+    "contactEndDate",
+    "isPrimary",
+    "unitId"
+   ]
+  }
+ ],
+ "views": [
+  "course_unit_recognition_authority_view",
+  "course_unit_currency_period_view",
+  "course_unit_restriction_view",
+  "course_unit_contact_detail_view",
+  "recognition_authority_course_unit_view",
+  "currency_period_course_unit_view",
+  "currency_period_recognition_authority_view",
+  "restriction_course_unit_view",
+  "contact_detail_course_unit_view"
+ ]
+}

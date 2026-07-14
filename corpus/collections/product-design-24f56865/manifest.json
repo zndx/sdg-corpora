@@ -1,0 +1,192 @@
+{
+ "construct_id": "24f56865d21e6a36",
+ "slug": "product-design-24f56865",
+ "passage": "24f56865d21e6a361433f207df1f4776d6af21977c36f07caf0c0145406435ee.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 18,
+ "entities": [
+  "ProductDesign",
+  "Designer",
+  "SoftwareTool",
+  "DesignCompetition",
+  "PhotorealisticRender",
+  "DesignFirm"
+ ],
+ "terms": [
+  {
+   "name": "ProductDesign",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Designer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SoftwareTool",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DesignCompetition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PhotorealisticRender",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DesignFirm",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "product_designs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "design_identifier",
+    "design_name",
+    "design_status",
+    "creation_date",
+    "designer_role",
+    "rendering_complexity",
+    "designer_id",
+    "software_tool_id",
+    "design_competition_id",
+    "render_id"
+   ]
+  },
+  {
+   "name": "designers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "designer_id",
+    "designer_name",
+    "employment_status",
+    "career_start_year",
+    "primary_skill",
+    "contact_email",
+    "design_firm_id",
+    "design_competition_id"
+   ]
+  },
+  {
+   "name": "software_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_id",
+    "software_name",
+    "software_version",
+    "developer_name",
+    "interface_type",
+    "learning_curve",
+    "product_design_id"
+   ]
+  },
+  {
+   "name": "design_competitions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "competition_id",
+    "competition_name",
+    "competition_year",
+    "organizer_name",
+    "evaluation_criteria",
+    "grand_prize_awarded",
+    "design_firm_id",
+    "designer_id"
+   ]
+  },
+  {
+   "name": "photorealistic_renders",
+   "rows": 4,
+   "columns": [
+    "render_id",
+    "render_date",
+    "lighting_setup",
+    "resolution",
+    "render_time_hours",
+    "file_size_m_b",
+    "product_design_id",
+    "software_tool_id",
+    "design_competition_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "design_firms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "firm_id",
+    "firm_name",
+    "founding_year",
+    "headquarters_location",
+    "firm_type",
+    "active_status",
+    "design_competition_id",
+    "design_firm_id"
+   ]
+  },
+  {
+   "name": "designers_designs",
+   "rows": 8,
+   "columns": [
+    "designer_id",
+    "product_design_id"
+   ]
+  },
+  {
+   "name": "tools_designers",
+   "rows": 8,
+   "columns": [
+    "software_tool_id",
+    "designer_id"
+   ]
+  },
+  {
+   "name": "competitions_designs",
+   "rows": 8,
+   "columns": [
+    "design_competition_id",
+    "product_design_id"
+   ]
+  },
+  {
+   "name": "firms_designers",
+   "rows": 8,
+   "columns": [
+    "design_firm_id",
+    "designer_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_product_design_designer",
+  "v_product_design_software_tool",
+  "v_product_design_design_competition",
+  "v_product_design_photorealistic_render",
+  "v_designer_product_design_detail",
+  "v_designer_design_firm",
+  "v_designer_design_competition",
+  "v_software_tool_designer_detail",
+  "v_software_tool_product_design",
+  "v_design_competition_product_design_detail",
+  "v_design_competition_design_firm",
+  "v_design_competition_designer",
+  "v_photorealistic_render_product_design",
+  "v_photorealistic_render_software_tool",
+  "v_photorealistic_render_design_competition",
+  "v_design_firm_designer_detail",
+  "v_design_firm_design_competition",
+  "v_design_firm_design_firm"
+ ]
+}

@@ -1,0 +1,5 @@
+learned_society_id,identifier,name,founding_year,status,funding_model,academic_conference_region_code
+1,IDE-2086,Extended Review,43,active,self-supporting,1562837
+2,IDE-2091,Pilot Initiative A,48,inactive,grant-funded,6564391
+3,IDE-2096,Baseline Model,53,dissolved,mixed,778560
+4,IDE-2101,Distributed Cluster,58,active,self-supporting,8667ec1da10c4a0293d91388b49bc77c

@@ -1,0 +1,5 @@
+settlement_area_id,region_name,geographic_coordinates,historical_period,is_coastal,gaulish_tribe_id,toponym_id
+100,Distributed Assessment,baseline-geograph-43,compact-historic-26,false,100,1
+101,Adaptive Survey D,pilot-geograph-44,composite-historic-27,true,101,2
+102,Primary Corridor,extended-geograph-45,primary-historic-28,false,102,3
+103,Composite Series,integrated-geograph-46,adaptive-historic-29,true,103,4

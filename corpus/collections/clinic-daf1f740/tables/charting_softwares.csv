@@ -1,0 +1,5 @@
+id,software_id,software_name,version,has_billing_module,has_scheduling_module,is_cloud_based
+1,gd_taxc_2111,Primary Review A,seasonal-version-71,true,false,true
+2,5917273,Composite Initiative,regional-version-72,false,true,false
+3,id_4,Compact Model,legacy-version-73,true,false,true
+4,8928496,Legacy Cluster D,compact-version-74,false,true,false

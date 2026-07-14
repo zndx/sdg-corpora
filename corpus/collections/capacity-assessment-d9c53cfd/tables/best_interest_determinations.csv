@@ -1,0 +1,5 @@
+id,determination_identifier,determination_date,least_restrictive_option,consultation_participants,outcome_description,review_date,individual_id,decision_context_id,legal_representative_id
+1,DET-2083,2022-09-06T08:36:00,true,legacy-consulta-67,Legacy Assessment D,2024-11-03T22:54:00,1,1000,1
+2,DET-2085,2023-02-17T15:53:00,false,compact-consulta-68,Regional Survey,2025-04-14T05:11:00,2,1001,2
+3,DET-2087,2024-07-01T22:10:00,true,composite-consulta-69,Seasonal Corridor,2022-09-25T12:28:00,3,1002,3
+4,DET-2089,2025-12-12T05:27:00,false,primary-consulta-70,Integrated Series A,2023-02-09T19:45:00,4,1003,4

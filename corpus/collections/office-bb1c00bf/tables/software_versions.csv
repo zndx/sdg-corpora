@@ -1,0 +1,5 @@
+software_version_id,software_id,application_name,version_number,release_date,is_obsolete,maintenance_status,office_id,server_id
+1,gd_taxc_2111,Integrated Protocol A,VER-2245,2022-09-07,false,extended-maintena-33,1,1
+2,5917273,Extended Programme,VER-2249,2023-02-18,true,integrated-maintena-34,2,2
+3,id_4,Pilot Standard,VER-2253,2024-07-02,false,seasonal-maintena-35,3,3
+4,8928496,Baseline Framework D,VER-2257,2025-12-13,true,regional-maintena-36,4,4

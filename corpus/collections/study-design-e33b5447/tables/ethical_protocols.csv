@@ -1,0 +1,5 @@
+id,protocol_id,protocol_name,approval_date,reviewing_body,principles,status,created_at,updated_at
+100,9085260,Baseline Initiative D,2023-10-10T21:27:00,compact-reviewin-62,respect_for_persons,approved,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,6926357,Distributed Model,2024-03-21T04:44:00,composite-reviewin-63,beneficence,pending_review,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,4277008,Adaptive Cluster,2025-08-05T11:01:00,primary-reviewin-64,justice,revoked,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,726040,Primary Review A,2022-01-16T18:18:00,adaptive-reviewin-65,respect_for_persons,approved,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,187 @@
+{
+ "construct_id": "fa61ac482545d079",
+ "slug": "data-transaction-fa61ac48",
+ "passage": "fa61ac482545d0797012625d3c0b51780cd71a735fa82fe96dec5b2a9a7cfaca.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 19,
+ "entities": [
+  "DataTransaction",
+  "DataFile",
+  "EncryptionKey",
+  "AutomatedScript",
+  "Server",
+  "AuditTrail",
+  "DigitalSignature"
+ ],
+ "terms": [
+  {
+   "name": "DataTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DataFile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EncryptionKey",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AutomatedScript",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Server",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AuditTrail",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DigitalSignature",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "data_transactions",
+   "rows": 4,
+   "columns": [
+    "data_transaction_id",
+    "transaction_id",
+    "timestamp",
+    "protocol",
+    "data_volume_bytes",
+    "status",
+    "compliance_standard",
+    "encryption_key_id",
+    "automated_script_id",
+    "audit_trail_id"
+   ]
+  },
+  {
+   "name": "data_files",
+   "rows": 4,
+   "columns": [
+    "data_file_id",
+    "file_id",
+    "file_name",
+    "file_size_bytes",
+    "storage_location",
+    "is_encrypted",
+    "is_deleted_securely",
+    "compression_ratio",
+    "server_id",
+    "data_transaction_id",
+    "digital_signature_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "encryption_keys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "key_id",
+    "key_type",
+    "creation_date",
+    "expiration_date",
+    "is_revoked",
+    "managed_by_server",
+    "server_id",
+    "data_transaction_id"
+   ]
+  },
+  {
+   "name": "automated_scripts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "script_id",
+    "script_name",
+    "platform",
+    "is_legacy",
+    "execution_frequency",
+    "server_id",
+    "data_transaction_id"
+   ]
+  },
+  {
+   "name": "servers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "server_name",
+    "operating_system",
+    "is_breached",
+    "location",
+    "data_file_id",
+    "encryption_key_id",
+    "automated_script_id"
+   ]
+  },
+  {
+   "name": "audit_trails",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trail_id",
+    "generated_timestamp",
+    "sender_identity",
+    "content_hash",
+    "is_verified",
+    "data_transaction_id",
+    "digital_signature_id"
+   ]
+  },
+  {
+   "name": "digital_signatures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "signature_id",
+    "algorithm",
+    "signing_date",
+    "is_valid",
+    "data_file_id",
+    "encryption_key_id",
+    "audit_trail_id"
+   ]
+  },
+  {
+   "name": "transactions_files",
+   "rows": 8,
+   "columns": [
+    "data_transaction_id",
+    "data_file_id"
+   ]
+  }
+ ],
+ "views": [
+  "data_transaction_encryption_key_view",
+  "data_transaction_data_file_detail_view",
+  "data_transaction_automated_script_view",
+  "data_transaction_audit_trail_view",
+  "data_file_server_view",
+  "data_file_data_transaction_view",
+  "data_file_digital_signature_view",
+  "encryption_key_server_view",
+  "encryption_key_data_transaction_view",
+  "automated_script_server_view",
+  "automated_script_data_transaction_view",
+  "server_data_file_view",
+  "server_encryption_key_view",
+  "server_automated_script_view",
+  "audit_trail_data_transaction_view",
+  "audit_trail_digital_signature_view",
+  "digital_signature_data_file_view",
+  "digital_signature_encryption_key_view",
+  "digital_signature_audit_trail_view"
+ ]
+}

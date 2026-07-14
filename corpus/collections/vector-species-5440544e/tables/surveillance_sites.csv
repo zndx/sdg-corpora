@@ -1,0 +1,5 @@
+surveillance_site_id,site_code,district_name,region_type,is_endemic_zone,latitude,longitude,vector_species_id,clinical_case_id,administrative_region_id,created_at,updated_at
+1,account_pymes_2935,Extended Review,Urban,false,13.95,21.20,1,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,7731860,Pilot Initiative A,Suburban,true,17.90,25.40,2,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,1336176,Baseline Model,Rural,false,21.85,29.60,3,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,10207160,Distributed Cluster,Peri-urban,true,25.80,33.80,4,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

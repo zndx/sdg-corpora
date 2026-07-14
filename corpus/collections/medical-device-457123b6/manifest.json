@@ -1,0 +1,228 @@
+{
+ "construct_id": "457123b6ff1e9b84",
+ "slug": "medical-device-457123b6",
+ "passage": "457123b6ff1e9b8470a956bbd2556c801be1f0ed3b4190925bef05f2778011a5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 19,
+ "entities": [
+  "MedicalDevice",
+  "CyberRiskScore",
+  "CyberThreat",
+  "ClinicalSite",
+  "ClinicalEngineeringTeam",
+  "CybersecurityProgram",
+  "NetworkMonitoringSolution"
+ ],
+ "terms": [
+  {
+   "name": "MedicalDevice",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CyberRiskScore",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CyberThreat",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalSite",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ClinicalEngineeringTeam",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CybersecurityProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NetworkMonitoringSolution",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "medical_devices",
+   "rows": 4,
+   "columns": [
+    "device_identifier",
+    "manufacturer",
+    "model_number",
+    "serial_number",
+    "operating_system",
+    "firmware_version",
+    "is_network_capable",
+    "is_currently_connected",
+    "deployment_date",
+    "expected_service_life_years",
+    "cyber_risk_score_id",
+    "clinical_site_id",
+    "clinical_engineering_team_id",
+    "cyber_threat_id"
+   ]
+  },
+  {
+   "name": "cyber_risk_scores",
+   "rows": 4,
+   "columns": [
+    "id",
+    "score_value",
+    "risk_level",
+    "assessment_date",
+    "scoring_methodology",
+    "is_prioritized_for_response",
+    "response_action",
+    "medical_device_model_number",
+    "cyber_threat_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "cyber_threats",
+   "rows": 4,
+   "columns": [
+    "id",
+    "threat_identifier",
+    "threat_type",
+    "target_operating_system",
+    "target_device_model",
+    "discovery_date",
+    "severity_level",
+    "is_exploited",
+    "mitigation_status",
+    "medical_device_model_number",
+    "network_monitoring_solution_id"
+   ]
+  },
+  {
+   "name": "clinical_sites",
+   "rows": 4,
+   "columns": [
+    "clinical_site_id",
+    "site_identifier",
+    "site_name",
+    "site_type",
+    "address",
+    "is_connected_to_network",
+    "total_devices_at_site",
+    "last_audit_date",
+    "clinical_engineering_team_id"
+   ]
+  },
+  {
+   "name": "clinical_engineering_teams",
+   "rows": 4,
+   "columns": [
+    "clinical_engineering_team_id",
+    "team_identifier",
+    "team_name",
+    "has_c_i_o",
+    "has_c_i_s_o",
+    "responsibility_scope",
+    "is_formalized",
+    "cybersecurity_program_id"
+   ]
+  },
+  {
+   "name": "cybersecurity_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_identifier",
+    "program_name",
+    "is_formalized",
+    "has_risk_scoring_process",
+    "has_network_monitoring",
+    "has_device_inventory_management",
+    "has_defined_roles",
+    "implementation_date",
+    "clinical_engineering_team_id",
+    "cyber_threat_id"
+   ]
+  },
+  {
+   "name": "network_monitoring_solutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "solution_identifier",
+    "solution_name",
+    "is_real_time",
+    "monitors_device_inventory",
+    "detects_vulnerabilities",
+    "last_scan_date",
+    "alert_threshold",
+    "cyber_threat_id",
+    "clinical_site_id"
+   ]
+  },
+  {
+   "name": "sites_devices",
+   "rows": 8,
+   "columns": [
+    "clinical_site_id",
+    "medical_device_model_number"
+   ]
+  },
+  {
+   "name": "teams_devices",
+   "rows": 8,
+   "columns": [
+    "clinical_engineering_team_id",
+    "medical_device_model_number"
+   ]
+  },
+  {
+   "name": "teams_sites",
+   "rows": 8,
+   "columns": [
+    "clinical_engineering_team_id",
+    "clinical_site_id"
+   ]
+  },
+  {
+   "name": "programs_devices",
+   "rows": 8,
+   "columns": [
+    "cybersecurity_program_id",
+    "medical_device_model_number"
+   ]
+  },
+  {
+   "name": "solutions_devices",
+   "rows": 8,
+   "columns": [
+    "network_monitoring_solution_id",
+    "medical_device_model_number"
+   ]
+  }
+ ],
+ "views": [
+  "vw_medical_device_cyber_risk_score",
+  "vw_medical_device_clinical_site",
+  "vw_medical_device_clinical_engineering_team",
+  "vw_medical_device_cyber_threat",
+  "vw_cyber_risk_score_medical_device",
+  "vw_cyber_risk_score_cyber_threat",
+  "vw_cyber_threat_medical_device",
+  "vw_cyber_threat_network_monitoring_solution",
+  "vw_clinical_site_medical_device_detail",
+  "vw_clinical_site_clinical_engineering_team",
+  "vw_clinical_engineering_team_medical_device_detail",
+  "vw_clinical_engineering_team_clinical_site_detail",
+  "vw_clinical_engineering_team_cybersecurity_program",
+  "vw_cybersecurity_program_clinical_engineering_team",
+  "vw_cybersecurity_program_medical_device_detail",
+  "vw_cybersecurity_program_cyber_threat",
+  "vw_network_monitoring_solution_medical_device_detail",
+  "vw_network_monitoring_solution_cyber_threat",
+  "vw_network_monitoring_solution_clinical_site"
+ ]
+}

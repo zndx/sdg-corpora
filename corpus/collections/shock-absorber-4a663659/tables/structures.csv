@@ -1,0 +1,5 @@
+id,identifier,name,location,area,volume,status,construction_date,shock_absorber_id,shock_event_id
+1000,IDE-2086,Extended Review,extended-location-99,5.95,9.45,pending,2023-06-12T05:27:00,1000,1
+1001,IDE-2091,Pilot Initiative A,integrated-location-100,7.90,11.90,running,2024-11-23T12:44:00,1001,2
+1002,IDE-2096,Baseline Model,seasonal-location-101,9.85,14.35,complete,2025-04-07T19:01:00,1002,3
+1003,IDE-2101,Distributed Cluster,regional-location-102,11.80,16.80,failed,2022-09-18T02:18:00,1003,4

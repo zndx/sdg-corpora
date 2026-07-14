@@ -1,0 +1,5 @@
+reference_id,full_name,address,phone,relationship_type,is_relative,applicant_id
+1,Theodore Mcgrath,distributed-address-72,compact-phone-26,Supervisor,false,1000
+2,Account Name,baseline-address-73,composite-phone-27,Manager,true,1001
+3,Saipan International Airport,pilot-address-74,primary-phone-28,Owner,false,1002
+4,Norma Fisher,extended-address-75,adaptive-phone-29,Personal,true,1003

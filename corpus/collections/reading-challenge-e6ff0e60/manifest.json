@@ -1,0 +1,204 @@
+{
+ "construct_id": "e6ff0e608471958e",
+ "slug": "reading-challenge-e6ff0e60",
+ "passage": "e6ff0e608471958edbebeb08b9ae2bb1ecd636fceaca4298434b0b3576136f4f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 13,
+ "entities": [
+  "ReadingChallenge",
+  "ReadingParticipant",
+  "ReadingRecord",
+  "Book",
+  "ReadingCategory",
+  "AwardTier"
+ ],
+ "terms": [
+  {
+   "name": "ReadingChallenge",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReadingParticipant",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReadingRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Book",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ReadingCategory",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "AwardTier",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "reading_challenges",
+   "rows": 4,
+   "columns": [
+    "id",
+    "challenge_id",
+    "start_date",
+    "end_date",
+    "institution_name",
+    "year_group",
+    "status"
+   ]
+  },
+  {
+   "name": "reading_participants",
+   "rows": 4,
+   "columns": [
+    "participant_id",
+    "full_name",
+    "year_group",
+    "enrollment_date",
+    "status",
+    "reading_challenge_id"
+   ]
+  },
+  {
+   "name": "reading_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "book_title",
+    "author_name",
+    "completion_date",
+    "category",
+    "page_count",
+    "cover_color",
+    "is_recommended",
+    "recommended_by",
+    "participant_id",
+    "reading_category_id",
+    "book_id"
+   ]
+  },
+  {
+   "name": "books",
+   "rows": 4,
+   "columns": [
+    "book_id",
+    "title",
+    "author_name",
+    "page_count",
+    "genre",
+    "cover_color",
+    "has_award",
+    "is_poetry",
+    "is_non_fiction",
+    "is_wordless"
+   ]
+  },
+  {
+   "name": "reading_categories",
+   "rows": 4,
+   "columns": [
+    "reading_category_id",
+    "category_id",
+    "category_name",
+    "description",
+    "is_required",
+    "year_group",
+    "reading_challenge_id"
+   ]
+  },
+  {
+   "name": "award_tiers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_id",
+    "award_name",
+    "required_count",
+    "ceremony_date",
+    "status",
+    "reading_challenge_id"
+   ]
+  },
+  {
+   "name": "challenges_participants",
+   "rows": 8,
+   "columns": [
+    "reading_challenge_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "challenges_tiers",
+   "rows": 8,
+   "columns": [
+    "reading_challenge_id",
+    "award_tier_id"
+   ]
+  },
+  {
+   "name": "participants_records",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "reading_record_id"
+   ]
+  },
+  {
+   "name": "books_records",
+   "rows": 8,
+   "columns": [
+    "book_id",
+    "reading_record_id"
+   ]
+  },
+  {
+   "name": "books_categories",
+   "rows": 8,
+   "columns": [
+    "book_id",
+    "reading_category_id"
+   ]
+  },
+  {
+   "name": "categories_books",
+   "rows": 8,
+   "columns": [
+    "reading_category_id",
+    "book_id"
+   ]
+  },
+  {
+   "name": "tiers_participants",
+   "rows": 8,
+   "columns": [
+    "award_tier_id",
+    "participant_id"
+   ]
+  }
+ ],
+ "views": [
+  "reading_challenge_reading_participant_detail_view",
+  "reading_challenge_award_tier_detail_view",
+  "reading_participant_reading_challenge_view",
+  "reading_participant_reading_record_detail_view",
+  "reading_record_reading_participant_view",
+  "reading_record_reading_category_view",
+  "reading_record_book_view",
+  "book_reading_record_detail_view",
+  "book_reading_category_detail_view",
+  "reading_category_reading_challenge_view",
+  "reading_category_book_detail_view",
+  "award_tier_reading_challenge_view",
+  "award_tier_reading_participant_detail_view"
+ ]
+}

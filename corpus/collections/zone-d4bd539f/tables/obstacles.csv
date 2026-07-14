@@ -1,0 +1,5 @@
+obstacle_id,obstacle_type,obstacle_x,obstacle_y,obstacle_radius,obstacle_status,zone_id
+1,island,12.70,7.95,8.20,sensed,1
+2,parking_line,15.40,11.90,12.40,mapped,2
+3,cul_de_sac,18.10,15.85,16.60,avoided,3
+4,vehicle,20.80,19.80,20.80,sensed,4

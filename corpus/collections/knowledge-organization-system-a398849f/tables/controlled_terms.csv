@@ -1,0 +1,5 @@
+controlled_term_id,term_id,pref_label,alt_label,definition,broader_term,narrower_term,related_term,knowledge_organization_system_id,synonym_of_controlled_term_id,broader_than_controlled_term_id,narrower_than_controlled_term_id
+1000,model_delegation_child0,Pilot Review,Primary Framework A,primary-definiti-22,integrated-broader-16,composite-narrower-45,primary-related-22,1,1000,1000,1000
+1001,2986222,Baseline Initiative,Composite Protocol,adaptive-definiti-23,seasonal-broader-17,primary-narrower-46,adaptive-related-23,2,1001,1001,1001
+1002,id_26,Distributed Model A,Compact Programme,distributed-definiti-24,regional-broader-18,adaptive-narrower-47,distributed-related-24,3,1002,1002,1002
+1003,5006436,Adaptive Cluster,Legacy Standard D,baseline-definiti-25,legacy-broader-19,distributed-narrower-48,baseline-related-25,4,1003,1003,1003

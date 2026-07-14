@@ -1,0 +1,161 @@
+{
+ "construct_id": "d59eb3d8065efd4a",
+ "slug": "cyborg-d59eb3d8",
+ "passage": "d59eb3d8065efd4ae642ba5ca6d86af2d7dc910a1270070dbd4b81b151ab47dd.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "Cyborg",
+  "NeuralImplant",
+  "CyborgationProcess",
+  "Hybrot",
+  "ComputerSystem",
+  "NerveFiber",
+  "Muscle"
+ ],
+ "terms": [
+  {
+   "name": "Cyborg",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NeuralImplant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CyborgationProcess",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Hybrot",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ComputerSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NerveFiber",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Muscle",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cyborgs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cyborg_id",
+    "classification",
+    "implant_location",
+    "neural_integration_level",
+    "status",
+    "neural_implant_id",
+    "cyborgation_process_id"
+   ]
+  },
+  {
+   "name": "neural_implants",
+   "rows": 4,
+   "columns": [
+    "neural_implant_id",
+    "implant_id",
+    "type",
+    "material",
+    "power_source",
+    "signal_format",
+    "nerve_fiber_id",
+    "computer_system_id"
+   ]
+  },
+  {
+   "name": "cyborgation_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_id",
+    "start_date",
+    "end_date",
+    "procedure_type",
+    "success_rate",
+    "cyborg_id",
+    "neural_implant_id"
+   ]
+  },
+  {
+   "name": "hybrots",
+   "rows": 4,
+   "columns": [
+    "id",
+    "hybrot_id",
+    "biological_component",
+    "electronic_component",
+    "longevity",
+    "status",
+    "neural_implant_id",
+    "computer_system_id"
+   ]
+  },
+  {
+   "name": "computer_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "processing_power",
+    "storage_capacity",
+    "communication_protocol",
+    "status",
+    "neural_implant_id",
+    "cyborg_id"
+   ]
+  },
+  {
+   "name": "nerve_fibers",
+   "rows": 4,
+   "columns": [
+    "nerve_fiber_id",
+    "fiber_id",
+    "location",
+    "diameter",
+    "signal_speed",
+    "neural_implant_id",
+    "muscle_id"
+   ]
+  },
+  {
+   "name": "muscles",
+   "rows": 4,
+   "columns": [
+    "muscle_id",
+    "type",
+    "location",
+    "strength",
+    "nerve_fiber_id"
+   ]
+  }
+ ],
+ "views": [
+  "cyborg_neural_implant_view",
+  "cyborg_cyborgation_process_view",
+  "neural_implant_nerve_fiber_view",
+  "neural_implant_computer_system_view",
+  "cyborgation_process_cyborg_view",
+  "cyborgation_process_neural_implant_view",
+  "hybrot_neural_implant_view",
+  "hybrot_computer_system_view",
+  "computer_system_neural_implant_view",
+  "computer_system_cyborg_view",
+  "nerve_fiber_neural_implant_view",
+  "nerve_fiber_muscle_view",
+  "muscle_nerve_fiber_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,fund_id,fund_name,jurisdiction,total_assets,is_empirically_analyzed,focus_region,corporation_id,responsible_investor_id,empirical_study_id,created_at
+1,3158147,Seasonal Programme,regional-jurisdic-30,21.70,true,extended-focus-99,bc908e7a-8fcd-11eb-924d-9cd76263cbd0,1,100,2025-01-01 00:14:00
+2,6510,Integrated Standard,legacy-jurisdic-31,24.40,false,integrated-focus-100,ChIJyxw4mjhu5kcR9yl4qn8CFbo,2,101,2025-02-06 03:14:00
+3,lu_tax_code_template_m_I,Extended Framework D,compact-jurisdic-32,27.10,true,seasonal-focus-101,790486,3,102,2025-03-11 06:14:00
+4,3990185,Pilot Protocol,composite-jurisdic-33,29.80,false,regional-focus-102,2087751,4,103,2025-04-16 09:14:00

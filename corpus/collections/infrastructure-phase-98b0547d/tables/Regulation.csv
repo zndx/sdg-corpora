@@ -1,0 +1,5 @@
+id,ruleId,ruleNumber,ruleTitle,effectiveDate,issuingAuthority,isElectronicRequired,scope,sheetTestSheetId,drawingId,phaseId
+1,1437602,RUL-2640,Integrated Assessment A,2023-02-14,extended-issuing-33,true,integrated-scope-52,2106711,1000,1
+2,325452,RUL-2647,Extended Survey,2024-07-25,integrated-issuing-34,false,seasonal-scope-53,5006448,1001,2
+3,9246325,RUL-2654,Pilot Corridor,2025-12-09,seasonal-issuing-35,true,regional-scope-54,3001009030020,1002,3
+4,14985260,RUL-2661,Baseline Series D,2022-05-20,regional-issuing-36,false,legacy-scope-55,c7460a44-8fcc-11eb-924d-9cd76263cbd0,1003,4

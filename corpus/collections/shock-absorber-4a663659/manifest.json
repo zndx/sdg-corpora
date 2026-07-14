@@ -1,0 +1,167 @@
+{
+ "construct_id": "4a663659d54ce726",
+ "slug": "shock-absorber-4a663659",
+ "passage": "4a663659d54ce7265ea70ed21dd07a6f10a34fbd19fa049a8213a665282b941e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "ShockAbsorber",
+  "Structure",
+  "ShockEvent",
+  "TemperatureReading",
+  "PowerSystem",
+  "Sensor"
+ ],
+ "terms": [
+  {
+   "name": "ShockAbsorber",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Structure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ShockEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TemperatureReading",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PowerSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Sensor",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "shock_absorbers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "model",
+    "max_force",
+    "max_voltage",
+    "max_power",
+    "status",
+    "installation_date",
+    "structure_id",
+    "temperature_reading_id",
+    "power_system_id"
+   ]
+  },
+  {
+   "name": "structures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "location",
+    "area",
+    "volume",
+    "status",
+    "construction_date",
+    "shock_absorber_id",
+    "shock_event_id"
+   ]
+  },
+  {
+   "name": "shock_events",
+   "rows": 4,
+   "columns": [
+    "shock_event_id",
+    "identifier",
+    "start_time",
+    "end_time",
+    "intensity",
+    "depth",
+    "force",
+    "status",
+    "duration",
+    "structure_id",
+    "temperature_reading_id",
+    "sensor_id"
+   ]
+  },
+  {
+   "name": "temperature_readings",
+   "rows": 4,
+   "columns": [
+    "temperature_reading_id",
+    "identifier",
+    "value",
+    "unit",
+    "timestamp",
+    "location",
+    "status",
+    "sensor_id",
+    "structure_id",
+    "shock_event_id",
+    "measured_by_sensor_id"
+   ]
+  },
+  {
+   "name": "power_systems",
+   "rows": 4,
+   "columns": [
+    "power_system_id",
+    "identifier",
+    "voltage",
+    "current",
+    "power",
+    "status",
+    "installation_date",
+    "cable_type",
+    "shock_absorber_id",
+    "structure_id",
+    "sensor_id"
+   ]
+  },
+  {
+   "name": "sensors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "type",
+    "accuracy",
+    "status",
+    "installation_date",
+    "calibration_date",
+    "temperature_reading_id",
+    "power_system_id",
+    "structure_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_shock_absorber_structure",
+  "vw_shock_absorber_temperature_reading",
+  "vw_shock_absorber_power_system",
+  "vw_structure_shock_absorber",
+  "vw_structure_shock_event",
+  "vw_shock_event_structure",
+  "vw_shock_event_temperature_reading",
+  "vw_shock_event_sensor",
+  "vw_temperature_reading_structure",
+  "vw_temperature_reading_shock_event",
+  "vw_temperature_reading_sensor",
+  "vw_power_system_shock_absorber",
+  "vw_power_system_structure",
+  "vw_power_system_sensor",
+  "vw_sensor_temperature_reading",
+  "vw_sensor_power_system",
+  "vw_sensor_structure"
+ ]
+}

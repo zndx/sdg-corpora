@@ -1,0 +1,5 @@
+id,ingredient_id,name,type,origin_region,allergen_flag,menu_item_id,created_at
+1,1450638,Extended Review,PROTEIN,baseline-origin-61,false,100,2025-01-01 00:14:00
+2,5844284,Pilot Initiative A,VEGETABLE,pilot-origin-62,true,101,2025-02-06 03:14:00
+3,template_ivacode_pagata_20det40ind,Baseline Model,FRUIT,extended-origin-63,false,102,2025-03-11 06:14:00
+4,2087735,Distributed Cluster,SPICE,integrated-origin-64,true,103,2025-04-16 09:14:00

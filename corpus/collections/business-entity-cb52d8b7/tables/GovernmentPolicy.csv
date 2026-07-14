@@ -1,0 +1,5 @@
+policyId,policyType,issuingAuthority,effectiveDate,expirationDate,targetSector,entityId,jurisdictionCountryCode,businessId
+1,subsidy,extended-issuing-33,2023-02-14,2025-08-18,pilot-target-74,1000,RU,1
+2,tax_incentive,integrated-issuing-34,2024-07-25,2022-01-02,extended-target-75,1001,SK,2
+3,regulation,seasonal-issuing-35,2025-12-09,2023-06-13,integrated-target-76,1002,US,3
+4,public_private_partnership,regional-issuing-36,2022-05-20,2024-11-24,seasonal-target-77,1003,DE,4

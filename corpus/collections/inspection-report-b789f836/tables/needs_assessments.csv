@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,assessment_type,family_size,status,family_unit_id
+1000,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,holistic,9,pending,100
+1001,19508914,2023-10-21T11:41:00,service-led,12,in_progress,101
+1002,506000,2024-03-05T18:58:00,partial,15,complete,102
+1003,1204-0009-M,2025-08-16T01:15:00,holistic,18,failed,103

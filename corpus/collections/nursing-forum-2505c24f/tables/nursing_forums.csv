@@ -1,0 +1,5 @@
+nursing_forum_id,forum_identifier,forum_name,established_date,status,jurisdiction,nursing_professional_id,created_at,updated_at
+1000,FOR-2131,Compact Model,2024-03-27,active,national,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,FOR-2132,Legacy Cluster,2025-08-11,dissolved,regional,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,FOR-2133,Regional Review A,2022-01-22,pending,local,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,FOR-2134,Seasonal Initiative,2023-06-06,active,national,4,2025-04-16 09:14:00,2025-04-23 15:41:00

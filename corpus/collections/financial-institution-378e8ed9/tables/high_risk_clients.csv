@@ -1,0 +1,5 @@
+client_id,client_type,risk_rating,jurisdiction,relationship_status,financial_institution_id,banking_division_id,suspicious_activity_report_sar_id
+Erin Olson,politically_exposed_person,15,regional-jurisdic-30,active,1,1,5fd7eb48-8fcc-11eb-924d-9cd76263cbd0
+Jorge Sullivan,business_entity,22,legacy-jurisdic-31,closed,2,2,b75be5bc-8fcd-11eb-924d-9cd76263cbd0
+Kimberly Maynard,foreign_government,29,compact-jurisdic-32,flagged,3,3,7441159
+Michelle Kelley,politically_exposed_person,36,composite-jurisdic-33,active,4,4,2106716

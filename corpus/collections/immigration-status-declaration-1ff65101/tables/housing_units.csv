@@ -1,0 +1,5 @@
+id,unit_id,address,bedrooms,monthly_rent,occupancy_status,member_id
+1,39800614,distributed-address-72,16,10.20,Vacant,10207158
+2,611523,baseline-address-73,19,12.40,Occupied,10207158
+3,57dbb53c-8fcc-11eb-924d-9cd76263cbd0,pilot-address-74,22,14.60,Pending,25820616
+4,account_pymes_1040,extended-address-75,25,16.80,Vacant,2002007020250

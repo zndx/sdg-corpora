@@ -1,0 +1,229 @@
+{
+ "construct_id": "0614fd0442a06bee",
+ "slug": "drug-application-0614fd04",
+ "passage": "0614fd0442a06beec756b9ddd3859670ed6dd078f0c571a2ed40dad8dc510935.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 24,
+ "entities": [
+  "DrugApplication",
+  "PharmaceuticalCompany",
+  "ActivePharmaceuticalIngredient",
+  "GeographicRegion",
+  "AssetTransfer",
+  "Payment",
+  "Disease"
+ ],
+ "terms": [
+  {
+   "name": "DrugApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PharmaceuticalCompany",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ActivePharmaceuticalIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AssetTransfer",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Payment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Disease",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "drug_applications",
+   "rows": 4,
+   "columns": [
+    "drug_application_id",
+    "application_id",
+    "application_type",
+    "drug_substance",
+    "approval_status",
+    "filing_date",
+    "approval_date",
+    "therapeutic_indication",
+    "dosage_form",
+    "strength",
+    "regulatory_authority",
+    "pharmaceutical_company_id",
+    "transferred_from_pharmaceutical_company_id",
+    "active_pharmaceutical_ingredient_api_id",
+    "geographic_region_id",
+    "asset_transfer_id"
+   ]
+  },
+  {
+   "name": "pharmaceutical_companies",
+   "rows": 4,
+   "columns": [
+    "pharmaceutical_company_id",
+    "company_id",
+    "company_name",
+    "stock_ticker",
+    "stock_exchange",
+    "is_incorporated",
+    "headquarters_location",
+    "primary_therapeutic_area",
+    "manufacturing_capacity",
+    "api_supplier",
+    "finished_dosage_manufacturer",
+    "drug_application_id",
+    "transfers_application_drug_application_id",
+    "receives_application_drug_application_id",
+    "active_pharmaceutical_ingredient_api_id",
+    "geographic_region_id",
+    "has_subsidiary_pharmaceutical_company_id",
+    "has_rn_d_location_geographic_region_id"
+   ]
+  },
+  {
+   "name": "active_pharmaceutical_ingredients",
+   "rows": 4,
+   "columns": [
+    "api_id",
+    "api_name",
+    "chemical_class",
+    "therapeutic_class",
+    "molecular_weight",
+    "solubility",
+    "storage_condition",
+    "shelf_life_months",
+    "regulatory_status",
+    "first_line_therapy",
+    "drug_application_id",
+    "pharmaceutical_company_id",
+    "supplied_to_pharmaceutical_company_id",
+    "disease_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_id",
+    "region_name",
+    "country_code",
+    "region_type",
+    "regulatory_authority",
+    "market_size",
+    "prevalence_rate",
+    "currency_code",
+    "language_code",
+    "time_zone",
+    "pharmaceutical_company_id",
+    "hosts_rn_d_pharmaceutical_company_id",
+    "drug_application_id",
+    "disease_id",
+    "jurisdiction_for_regulation_drug_application_id"
+   ]
+  },
+  {
+   "name": "asset_transfers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transfer_id",
+    "transfer_date",
+    "transfer_value",
+    "payment_structure",
+    "status",
+    "currency",
+    "effective_date",
+    "expiration_date",
+    "governing_law",
+    "confidentiality_level",
+    "drug_application_id",
+    "pharmaceutical_company_id",
+    "received_by_pharmaceutical_company_id",
+    "geographic_region_id",
+    "payment_id",
+    "asset_transfer_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "payments",
+   "rows": 4,
+   "columns": [
+    "payment_id",
+    "payment_amount",
+    "payment_date",
+    "payment_type",
+    "currency",
+    "status",
+    "trigger_condition",
+    "recipient",
+    "payer",
+    "tax_withheld",
+    "asset_transfer_id",
+    "pharmaceutical_company_id",
+    "paid_by_pharmaceutical_company_id",
+    "geographic_region_id"
+   ]
+  },
+  {
+   "name": "diseases",
+   "rows": 4,
+   "columns": [
+    "disease_id",
+    "disease_name",
+    "icd_code",
+    "prevalence",
+    "incidence",
+    "mortality_rate",
+    "chronic_status",
+    "transmission_route",
+    "primary_treatment",
+    "global_burden",
+    "active_pharmaceutical_ingredient_api_id",
+    "geographic_region_id",
+    "has_carrier_count_geographic_region_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_drug_application_pharmaceutical_company",
+  "vw_drug_application_active_pharmaceutical_ingredient",
+  "vw_drug_application_geographic_region",
+  "vw_drug_application_asset_transfer",
+  "vw_pharmaceutical_company_drug_application",
+  "vw_pharmaceutical_company_active_pharmaceutical_ingredient",
+  "vw_pharmaceutical_company_geographic_region",
+  "vw_pharmaceutical_company_pharmaceutical_company",
+  "vw_active_pharmaceutical_ingredient_drug_application",
+  "vw_active_pharmaceutical_ingredient_pharmaceutical_company",
+  "vw_active_pharmaceutical_ingredient_disease",
+  "vw_geographic_region_pharmaceutical_company",
+  "vw_geographic_region_drug_application",
+  "vw_geographic_region_disease",
+  "vw_asset_transfer_drug_application",
+  "vw_asset_transfer_pharmaceutical_company",
+  "vw_asset_transfer_geographic_region",
+  "vw_asset_transfer_payment",
+  "vw_asset_transfer_asset_transfer",
+  "vw_payment_asset_transfer",
+  "vw_payment_pharmaceutical_company",
+  "vw_payment_geographic_region",
+  "vw_disease_active_pharmaceutical_ingredient",
+  "vw_disease_geographic_region"
+ ]
+}

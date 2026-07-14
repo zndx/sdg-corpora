@@ -1,0 +1,5 @@
+id,donation_id,amount,currency_code,donation_date,status,is_anonymous,spiritual_seeker_id,spiritual_organization_id,retreat_program_id
+1000,1996936,13.49,gd_fp_eu_acc3,2022-01-26T12:36:00,pending,true,100,1000,1
+1001,10445623,25.47,managing-resources,2023-06-10T19:53:00,received,false,101,1001,2
+1002,168,19.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,2024-11-21T02:10:00,allocated,true,102,1002,3
+1003,supp1,12.74,10445649,2025-04-05T09:27:00,pending,false,103,1003,4

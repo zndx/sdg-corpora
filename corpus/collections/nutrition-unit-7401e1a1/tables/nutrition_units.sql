@@ -1,0 +1,20 @@
+CREATE TABLE nutrition_units (
+  id INTEGER NOT NULL,
+  unit_id VARCHAR(44),
+  established_date DATE,
+  annual_budget VARCHAR(32),
+  currency_code VARCHAR(44),
+  service_status VARCHAR(32),
+  operational_scope VARCHAR(32),
+  target_population VARCHAR(32),
+  management_quality VARCHAR(32),
+  geographic_area_id INTEGER,
+  beneficiary_group_id INTEGER,
+  research_study_id INTEGER,
+  staff_member_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (geographic_area_id) REFERENCES geographic_areas (id),
+  FOREIGN KEY (beneficiary_group_id) REFERENCES beneficiary_groups (beneficiary_group_id),
+  FOREIGN KEY (research_study_id) REFERENCES research_studies (research_study_id),
+  FOREIGN KEY (staff_member_id) REFERENCES staff_members (staff_member_id)
+);

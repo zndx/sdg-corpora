@@ -1,0 +1,366 @@
+{
+ "construct_id": "c40af45c59150f08",
+ "slug": "community-program-c40af45c",
+ "passage": "c40af45c59150f0803bced6c27c3bb4fcad8b46b895e75c901da623e84459dc3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 29,
+ "n_views": 27,
+ "entities": [
+  "CommunityProgram",
+  "LogicModel",
+  "CommunityNeed",
+  "ProgramInput",
+  "ProgramActivity",
+  "ProgramOutput",
+  "ProgramOutcome",
+  "CausalAssumption"
+ ],
+ "terms": [
+  {
+   "name": "CommunityProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LogicModel",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CommunityNeed",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ProgramInput",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProgramActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProgramOutput",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProgramOutcome",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CausalAssumption",
+   "genus": "bfo:0000016"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CommunityProgram",
+   "rows": 4,
+   "columns": [
+    "id",
+    "programIdentifier",
+    "programName",
+    "startDate",
+    "endDate",
+    "status",
+    "scope",
+    "modelId"
+   ]
+  },
+  {
+   "name": "LogicModel",
+   "rows": 4,
+   "columns": [
+    "id",
+    "modelIdentifier",
+    "layoutOrientation",
+    "creationDate",
+    "isVerified",
+    "isExplicit",
+    "isMeaningful",
+    "programId"
+   ]
+  },
+  {
+   "name": "CommunityNeed",
+   "rows": 4,
+   "columns": [
+    "needId",
+    "needIdentifier",
+    "needDescription",
+    "severityLevel",
+    "targetPopulation",
+    "geographicScope"
+   ]
+  },
+  {
+   "name": "ProgramInput",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inputIdentifier",
+    "inputName",
+    "resourceType",
+    "quantity",
+    "cost",
+    "acquisitionDate",
+    "programId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "ProgramActivity",
+   "rows": 4,
+   "columns": [
+    "activityId",
+    "activityIdentifier",
+    "activityName",
+    "startDate",
+    "endDate",
+    "frequency",
+    "duration",
+    "programId"
+   ]
+  },
+  {
+   "name": "ProgramOutput",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outputIdentifier",
+    "outputName",
+    "outputType",
+    "value",
+    "measurementDate",
+    "targetValue",
+    "activityId"
+   ]
+  },
+  {
+   "name": "ProgramOutcome",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outcomeIdentifier",
+    "outcomeDescription",
+    "timeHorizon",
+    "changeDirection",
+    "targetLevel",
+    "measurableValue",
+    "measurementDate",
+    "programId"
+   ]
+  },
+  {
+   "name": "CausalAssumption",
+   "rows": 4,
+   "columns": [
+    "assumptionId",
+    "assumptionIdentifier",
+    "assumptionText",
+    "confidenceLevel",
+    "isVerified",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "CommunityProgramCommunityNeed",
+   "rows": 8,
+   "columns": [
+    "programId",
+    "needId"
+   ]
+  },
+  {
+   "name": "CommunityProgramProgramInput",
+   "rows": 8,
+   "columns": [
+    "programId",
+    "inputId"
+   ]
+  },
+  {
+   "name": "CommunityProgramProgramActivity",
+   "rows": 8,
+   "columns": [
+    "programId",
+    "activityId"
+   ]
+  },
+  {
+   "name": "CommunityProgramProgramOutput",
+   "rows": 8,
+   "columns": [
+    "programId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "CommunityProgramProgramOutcome",
+   "rows": 8,
+   "columns": [
+    "programId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "LogicModelProgramInput",
+   "rows": 8,
+   "columns": [
+    "modelId",
+    "inputId"
+   ]
+  },
+  {
+   "name": "LogicModelProgramActivity",
+   "rows": 8,
+   "columns": [
+    "modelId",
+    "activityId"
+   ]
+  },
+  {
+   "name": "LogicModelProgramOutput",
+   "rows": 8,
+   "columns": [
+    "modelId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "LogicModelProgramOutcome",
+   "rows": 8,
+   "columns": [
+    "modelId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "LogicModelCausalAssumption",
+   "rows": 8,
+   "columns": [
+    "modelId",
+    "assumptionId"
+   ]
+  },
+  {
+   "name": "CommunityNeedCommunityProgram",
+   "rows": 8,
+   "columns": [
+    "needId",
+    "programId"
+   ]
+  },
+  {
+   "name": "CommunityNeedProgramOutcome",
+   "rows": 8,
+   "columns": [
+    "needId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "ProgramInputProgramActivity",
+   "rows": 8,
+   "columns": [
+    "inputId",
+    "activityId"
+   ]
+  },
+  {
+   "name": "ProgramActivityProgramInput",
+   "rows": 8,
+   "columns": [
+    "activityId",
+    "inputId"
+   ]
+  },
+  {
+   "name": "ProgramActivityProgramOutput",
+   "rows": 8,
+   "columns": [
+    "activityId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "ProgramActivityProgramOutcome",
+   "rows": 8,
+   "columns": [
+    "activityId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "ProgramOutputProgramOutcome",
+   "rows": 8,
+   "columns": [
+    "outputId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "ProgramOutcomeProgramOutput",
+   "rows": 8,
+   "columns": [
+    "outcomeId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "ProgramOutcomeCommunityNeed",
+   "rows": 8,
+   "columns": [
+    "outcomeId",
+    "needId"
+   ]
+  },
+  {
+   "name": "CausalAssumptionProgramInput",
+   "rows": 8,
+   "columns": [
+    "assumptionId",
+    "inputId"
+   ]
+  },
+  {
+   "name": "CausalAssumptionProgramActivity",
+   "rows": 8,
+   "columns": [
+    "assumptionId",
+    "activityId"
+   ]
+  }
+ ],
+ "views": [
+  "community_program_logic_model_view",
+  "community_program_community_need_detail_view",
+  "community_program_program_input_detail_view",
+  "community_program_program_activity_detail_view",
+  "community_program_program_output_detail_view",
+  "community_program_program_outcome_detail_view",
+  "logic_model_community_program_view",
+  "logic_model_program_input_detail_view",
+  "logic_model_program_activity_detail_view",
+  "logic_model_program_output_detail_view",
+  "logic_model_program_outcome_detail_view",
+  "logic_model_causal_assumption_detail_view",
+  "community_need_community_program_detail_view",
+  "community_need_program_outcome_detail_view",
+  "program_input_community_program_view",
+  "program_input_program_activity_detail_view",
+  "program_activity_community_program_view",
+  "program_activity_program_input_detail_view",
+  "program_activity_program_output_detail_view",
+  "program_activity_program_outcome_detail_view",
+  "program_output_program_activity_view",
+  "program_output_program_outcome_detail_view",
+  "program_outcome_community_program_view",
+  "program_outcome_program_output_detail_view",
+  "program_outcome_community_need_detail_view",
+  "causal_assumption_program_input_detail_view",
+  "causal_assumption_program_activity_detail_view"
+ ]
+}

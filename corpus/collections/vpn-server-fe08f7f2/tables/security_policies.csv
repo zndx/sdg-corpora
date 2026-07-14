@@ -1,0 +1,5 @@
+id,policy_id,policy_name,last_updated,encryption_level,access_control_mode,audit_log_retention_days,vpn_server_id,network_segment_id
+1,5844252,Regional Series,2023-06-17T17:27:00,none,open,42,100,100
+2,10207142,Seasonal Assessment D,2024-11-01T00:44:00,standard,whitelist,50,101,101
+3,1562847,Integrated Survey,2025-04-12T07:01:00,high,blacklist,58,102,102
+4,ChIJkzsYUIBt5kcRM6_JHx26ONk,Extended Corridor,2022-09-23T14:18:00,military_grade,certificate_based,66,103,103

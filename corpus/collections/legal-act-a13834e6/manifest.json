@@ -1,0 +1,178 @@
+{
+ "construct_id": "a13834e6ecb6b3c7",
+ "slug": "legal-act-a13834e6",
+ "passage": "a13834e6ecb6b3c7403d7a9f98140e8e74b56176f7266cb7b9771bd4a26baac9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 19,
+ "entities": [
+  "LegalAct",
+  "FundOperation",
+  "Agent",
+  "BoardOfGovernors",
+  "BoardMeeting",
+  "Document",
+  "ArchiveLocation"
+ ],
+ "terms": [
+  {
+   "name": "LegalAct",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FundOperation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Agent",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "BoardOfGovernors",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Document",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ArchiveLocation",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legal_acts",
+   "rows": 4,
+   "columns": [
+    "legal_act_id",
+    "act_identifier",
+    "act_title",
+    "issuing_body",
+    "effective_date",
+    "legal_status",
+    "fund_operation_id",
+    "cites_legal_act_id"
+   ]
+  },
+  {
+   "name": "fund_operations",
+   "rows": 4,
+   "columns": [
+    "fund_operation_id",
+    "operation_code",
+    "operation_type",
+    "start_date",
+    "end_date",
+    "status",
+    "legal_act_id",
+    "agent_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "agents",
+   "rows": 4,
+   "columns": [
+    "agent_id",
+    "agent_identifier",
+    "agent_name",
+    "appointment_date",
+    "termination_date",
+    "agent_type",
+    "board_of_governors_id",
+    "fund_operation_id",
+    "archive_location_id"
+   ]
+  },
+  {
+   "name": "board_of_governorses",
+   "rows": 4,
+   "columns": [
+    "board_of_governors_id",
+    "board_identifier",
+    "meeting_date",
+    "meeting_location",
+    "attendance_status",
+    "decision_outcome",
+    "agent_id",
+    "fund_operation_id",
+    "board_meeting_id"
+   ]
+  },
+  {
+   "name": "board_meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_identifier",
+    "meeting_date",
+    "agenda_item",
+    "minutes_status",
+    "confidentiality_level",
+    "board_of_governors_id",
+    "document_id",
+    "fund_operation_id"
+   ]
+  },
+  {
+   "name": "documents",
+   "rows": 4,
+   "columns": [
+    "document_id",
+    "document_identifier",
+    "document_title",
+    "creation_date",
+    "language",
+    "access_status",
+    "agent_id",
+    "fund_operation_id",
+    "archive_location_id",
+    "legal_act_id"
+   ]
+  },
+  {
+   "name": "archive_locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location_identifier",
+    "location_name",
+    "city",
+    "country",
+    "access_policy",
+    "document_id",
+    "archive_location_id"
+   ]
+  }
+ ],
+ "views": [
+  "legal_act_fund_operation_view",
+  "legal_act_legal_act_view",
+  "fund_operation_legal_act_view",
+  "fund_operation_agent_view",
+  "agent_board_of_governors_view",
+  "agent_fund_operation_view",
+  "agent_archive_location_view",
+  "board_of_governors_agent_view",
+  "board_of_governors_fund_operation_view",
+  "board_of_governors_board_meeting_view",
+  "board_meeting_board_of_governors_view",
+  "board_meeting_document_view",
+  "board_meeting_fund_operation_view",
+  "document_agent_view",
+  "document_fund_operation_view",
+  "document_archive_location_view",
+  "document_legal_act_view",
+  "archive_location_document_view",
+  "archive_location_archive_location_view"
+ ]
+}

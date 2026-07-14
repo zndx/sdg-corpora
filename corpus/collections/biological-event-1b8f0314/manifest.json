@@ -1,0 +1,162 @@
+{
+ "construct_id": "1b8f0314623dd32d",
+ "slug": "biological-event-1b8f0314",
+ "passage": "1b8f0314623dd32dce19880866e54bd4bb075256bddf55a88de2f4ab0a20bc5f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "BiologicalEvent",
+  "BioscienceAdvancement",
+  "ResearchFacility",
+  "BiosecurityNorm",
+  "JointAssessmentMechanism",
+  "CatalyticFinancingMechanism"
+ ],
+ "terms": [
+  {
+   "name": "BiologicalEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BioscienceAdvancement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchFacility",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BiosecurityNorm",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "JointAssessmentMechanism",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CatalyticFinancingMechanism",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "BiologicalEvent",
+   "rows": 4,
+   "columns": [
+    "eventId",
+    "eventIdentifier",
+    "pathogenName",
+    "infectionCount",
+    "mortalityCount",
+    "economicLossUSD",
+    "onsetDate",
+    "status",
+    "mechanismId",
+    "advancementId",
+    "fundedByMechanismId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "BioscienceAdvancement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "advancementID",
+    "technologyType",
+    "riskLevel",
+    "implementationDate",
+    "dualUsePotential",
+    "technicalBarrierLevel",
+    "eventId",
+    "facilityID",
+    "normID"
+   ]
+  },
+  {
+   "name": "ResearchFacility",
+   "rows": 4,
+   "columns": [
+    "facilityID",
+    "facilityName",
+    "locationCountry",
+    "biosafetyLevel",
+    "operationalStatus",
+    "lastInspectionDate",
+    "accidentRate",
+    "advancementId",
+    "normID"
+   ]
+  },
+  {
+   "name": "BiosecurityNorm",
+   "rows": 4,
+   "columns": [
+    "normID",
+    "normName",
+    "issuingBody",
+    "effectiveDate",
+    "enforcementLevel",
+    "complianceRate",
+    "facilityID",
+    "eventId",
+    "mechanismId"
+   ]
+  },
+  {
+   "name": "JointAssessmentMechanism",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mechanismID",
+    "mechanismName",
+    "activationDate",
+    "investigationOutcome",
+    "resourcesAllocated",
+    "participatingAgencies",
+    "eventId",
+    "mechanismId",
+    "facilityID"
+   ]
+  },
+  {
+   "name": "CatalyticFinancingMechanism",
+   "rows": 4,
+   "columns": [
+    "mechanismId",
+    "mechanismID",
+    "mechanismName",
+    "totalFundingUSD",
+    "fundingStatus",
+    "targetCountries",
+    "disbursementDate",
+    "fundsMechanismId",
+    "normID",
+    "facilityID"
+   ]
+  }
+ ],
+ "views": [
+  "v_biological_event_joint_assessment_mechanism",
+  "v_biological_event_bioscience_advancement",
+  "v_biological_event_catalytic_financing_mechanism",
+  "v_bioscience_advancement_biological_event",
+  "v_bioscience_advancement_research_facility",
+  "v_bioscience_advancement_biosecurity_norm",
+  "v_research_facility_bioscience_advancement",
+  "v_research_facility_biosecurity_norm",
+  "v_biosecurity_norm_research_facility",
+  "v_biosecurity_norm_biological_event",
+  "v_biosecurity_norm_catalytic_financing_mechanism",
+  "v_joint_assessment_mechanism_biological_event",
+  "v_joint_assessment_mechanism_catalytic_financing_mechanism",
+  "v_joint_assessment_mechanism_research_facility",
+  "v_catalytic_financing_mechanism_joint_assessment_mechanism",
+  "v_catalytic_financing_mechanism_biosecurity_norm",
+  "v_catalytic_financing_mechanism_research_facility"
+ ]
+}

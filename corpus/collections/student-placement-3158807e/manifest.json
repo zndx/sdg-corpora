@@ -1,0 +1,172 @@
+{
+ "construct_id": "3158807e302148ca",
+ "slug": "student-placement-3158807e",
+ "passage": "3158807e302148caac0de0c98141818552bcb47f04e5721812d7cf3b88a77e07.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "StudentPlacement",
+  "Student",
+  "EducationHealthCarePlan",
+  "LocalEducationAuthority",
+  "HealthSafetyRiskAssessment",
+  "StaffProfessionalDevelopment",
+  "StaffMember"
+ ],
+ "terms": [
+  {
+   "name": "StudentPlacement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationHealthCarePlan",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LocalEducationAuthority",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HealthSafetyRiskAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffProfessionalDevelopment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "student_placements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "placement_id",
+    "start_date",
+    "status",
+    "funding_source",
+    "risk_assessment_status",
+    "interview_completed",
+    "student_id",
+    "education_health_care_plan_id",
+    "local_education_authority_id",
+    "staff_professional_development_training_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "date_of_birth",
+    "primary_diagnosis",
+    "has_communication_difficulty",
+    "has_medical_needs",
+    "has_continence_needs",
+    "age",
+    "student_placement_id",
+    "education_health_care_plan_id",
+    "assessment_id"
+   ]
+  },
+  {
+   "name": "education_health_care_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ehcp_id",
+    "issue_date",
+    "review_date",
+    "status",
+    "funding_agreed",
+    "student_id",
+    "local_education_authority_id"
+   ]
+  },
+  {
+   "name": "local_education_authorities",
+   "rows": 4,
+   "columns": [
+    "local_education_authority_id",
+    "lea_code",
+    "region_name",
+    "contact_email",
+    "funding_status",
+    "education_health_care_plan_id",
+    "student_placement_id"
+   ]
+  },
+  {
+   "name": "health_safety_risk_assessments",
+   "rows": 4,
+   "columns": [
+    "assessment_id",
+    "assessment_date",
+    "risk_level",
+    "mitigation_steps",
+    "completed_by",
+    "student_id",
+    "student_placement_id"
+   ]
+  },
+  {
+   "name": "staff_professional_developments",
+   "rows": 4,
+   "columns": [
+    "training_id",
+    "training_date",
+    "topic",
+    "status",
+    "staff_member_id",
+    "student_placement_id",
+    "assigned_to_staff_staff_member_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_member_id",
+    "staff_id",
+    "full_name",
+    "role",
+    "employment_status",
+    "staff_professional_development_training_id"
+   ]
+  }
+ ],
+ "views": [
+  "student_placement_student_view",
+  "student_placement_education_health_care_plan_view",
+  "student_placement_local_education_authority_view",
+  "student_placement_staff_professional_development_view",
+  "student_student_placement_view",
+  "student_education_health_care_plan_view",
+  "student_health_safety_risk_assessment_view",
+  "education_health_care_plan_student_view",
+  "education_health_care_plan_local_education_authority_view",
+  "local_education_authority_education_health_care_plan_view",
+  "local_education_authority_student_placement_view",
+  "health_safety_risk_assessment_student_view",
+  "health_safety_risk_assessment_student_placement_view",
+  "staff_professional_development_student_placement_view",
+  "staff_professional_development_staff_member_view",
+  "staff_member_staff_professional_development_view"
+ ]
+}

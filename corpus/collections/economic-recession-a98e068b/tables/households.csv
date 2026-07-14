@@ -1,0 +1,5 @@
+household_id,total_members,child_count,immigrant_status,income_level,household_income_change_id,safety_net_program_id
+1,31,6,false,12.74,1,100
+2,77,5,true,24.09,2,101
+3,2,13,false,35.57,3,102
+4,20,2,true,14.31,4,103

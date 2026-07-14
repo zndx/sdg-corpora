@@ -1,0 +1,5 @@
+id,activity_id,activity_name,is_consideration_required,legal_status,start_date,end_date,organization_id,gambling_fund_id,regulatory_statute_id
+100,8843761,raffle,false,lawful,2022-09-05T20:24:00,2022-09-01T08:00:00,1,100,1
+101,4180957,drawing,true,unlawful,2023-02-16T03:41:00,2023-02-12T15:17:00,2,101,2
+102,168545,pull-tab,false,pending_review,2024-07-27T10:58:00,2024-07-23T22:34:00,3,102,3
+103,default_chart_a_account_53,tipboard,true,lawful,2025-12-11T17:15:00,2025-12-07T05:51:00,4,103,4

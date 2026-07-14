@@ -1,0 +1,5 @@
+id,method_id,method_name,method_category,accuracy_level,bias_risk,is_standardized
+1,209228,Pilot Assessment,anthropometry,22.70,low,false
+2,7441161,Baseline Survey,biomarker,27.40,medium,true
+3,89447,Distributed Corridor A,dietary,32.10,high,false
+4,4180941,Adaptive Series,energy_expenditure,36.80,low,true

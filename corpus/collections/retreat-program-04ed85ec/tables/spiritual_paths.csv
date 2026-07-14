@@ -1,0 +1,5 @@
+spiritual_path_id,path_id,path_name,core_principle,origin_tradition,is_universal,spiritual_seeker_id,retreat_program_id,created_at,updated_at
+100,b_VB-EC-15,Pilot Protocol,legacy-core-31,regional-origin-54,true,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,48753444,Baseline Programme,compact-core-32,legacy-origin-55,false,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,a000e9cc-9bac-11eb-a8a2-19ed5c03f8d3,Distributed Standard A,composite-core-33,compact-origin-56,true,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,interpersonal,Adaptive Framework,primary-core-34,composite-origin-57,false,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

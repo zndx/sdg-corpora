@@ -1,0 +1,5 @@
+id,inspectionId,inspectionType,inspectionDate,inspectorRole,deficiencyCount,punchListItems,status,notes,phaseId,deficiencyId,sheetTestSheetId,createdAt,updatedAt
+100,BJanecke,final,2025-12-03T23:09:00,City_Engineering,32,42,scheduled,extended-notes-75,1,13910633,2106711,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,575199,re-inspection,2022-05-14T06:26:00,Developer_Representative,11,45,in_progress,integrated-notes-76,2,8387527,5006448,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,state_uk_4,punch-list,2023-10-25T13:43:00,Contractor,50,48,completed,seasonal-notes-77,3,9474,3001009030020,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,8350011,final,2024-03-09T20:00:00,City_Engineering,88,51,failed,regional-notes-78,4,client-focus,c7460a44-8fcc-11eb-924d-9cd76263cbd0,2025-04-16 09:14:00,2025-04-23 15:41:00

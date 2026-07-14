@@ -1,0 +1,5 @@
+food_industry_application_id,application_id,application_type,target_food_matrix,dosage,efficacy_score,food_formulation_id
+1,505997,legacy-applicat-73,adaptive-target-29,7.20,13.20,1
+2,1250196,compact-applicat-74,distributed-target-30,11.40,16.40,2
+3,124,composite-applicat-75,baseline-target-31,15.60,19.60,3
+4,IVC20det40,primary-applicat-76,pilot-target-32,19.80,22.80,4

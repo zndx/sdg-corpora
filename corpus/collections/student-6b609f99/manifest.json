@@ -1,0 +1,184 @@
+{
+ "construct_id": "6b609f9924eb6f5c",
+ "slug": "student-6b609f99",
+ "passage": "6b609f9924eb6f5c48f729029ddc0ebe878cee0e40d4a02d829e7a5c67ff9bca.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 19,
+ "entities": [
+  "Student",
+  "SpecialEducationalNeed",
+  "EducationHealthCarePlan",
+  "AdmissionApplication",
+  "HealthSafetyRiskAssessment",
+  "StaffTrainingModule",
+  "StaffMember"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SpecialEducationalNeed",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EducationHealthCarePlan",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AdmissionApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HealthSafetyRiskAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffTrainingModule",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "date_of_birth",
+    "age",
+    "primary_diagnosis",
+    "ehcp_reference",
+    "enrollment_status",
+    "education_health_care_plan_id",
+    "special_educational_need_id",
+    "health_safety_risk_assessment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "special_educational_needs",
+   "rows": 4,
+   "columns": [
+    "special_educational_need_id",
+    "need_code",
+    "need_name",
+    "severity_level",
+    "is_primary",
+    "requires_specialized_therapy",
+    "student_id",
+    "staff_training_module_id"
+   ]
+  },
+  {
+   "name": "education_health_care_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ehcp_id",
+    "issuing_l_e_a",
+    "issue_date",
+    "review_date",
+    "funding_status",
+    "legal_status",
+    "student_id"
+   ]
+  },
+  {
+   "name": "admission_applications",
+   "rows": 4,
+   "columns": [
+    "admission_application_id",
+    "application_id",
+    "submission_date",
+    "application_status",
+    "funding_agreement_id",
+    "interview_scheduled",
+    "oversubscribed",
+    "student_id",
+    "special_educational_need_id",
+    "education_health_care_plan_id",
+    "health_safety_risk_assessment_id"
+   ]
+  },
+  {
+   "name": "health_safety_risk_assessments",
+   "rows": 4,
+   "columns": [
+    "health_safety_risk_assessment_id",
+    "assessment_id",
+    "assessment_date",
+    "risk_level",
+    "mitigation_plan",
+    "completed_by",
+    "status",
+    "student_id",
+    "admission_application_id",
+    "staff_training_module_id"
+   ]
+  },
+  {
+   "name": "staff_training_modules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "module_id",
+    "module_name",
+    "delivery_date",
+    "completion_status",
+    "target_audience",
+    "hours_required",
+    "special_educational_need_id",
+    "staff_member_id",
+    "health_safety_risk_assessment_id"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_member_id",
+    "staff_id",
+    "full_name",
+    "role",
+    "department",
+    "is_qualified",
+    "employment_status",
+    "staff_training_module_id",
+    "student_id",
+    "health_safety_risk_assessment_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "student_education_health_care_plan_view",
+  "student_special_educational_need_view",
+  "student_health_safety_risk_assessment_view",
+  "special_educational_need_student_view",
+  "special_educational_need_staff_training_module_view",
+  "education_health_care_plan_student_view",
+  "admission_application_student_view",
+  "admission_application_special_educational_need_view",
+  "admission_application_education_health_care_plan_view",
+  "admission_application_health_safety_risk_assessment_view",
+  "health_safety_risk_assessment_student_view",
+  "health_safety_risk_assessment_admission_application_view",
+  "health_safety_risk_assessment_staff_training_module_view",
+  "staff_training_module_special_educational_need_view",
+  "staff_training_module_staff_member_view",
+  "staff_training_module_health_safety_risk_assessment_view",
+  "staff_member_staff_training_module_view",
+  "staff_member_student_view",
+  "staff_member_health_safety_risk_assessment_view"
+ ]
+}

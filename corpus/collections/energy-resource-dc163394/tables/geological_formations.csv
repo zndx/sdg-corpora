@@ -1,0 +1,5 @@
+formation_id,formation_name,formation_type,depth,temperature,location_region,energy_resource_id,heat_transport_mechanism_id
+4985147,Seasonal Initiative,natural geothermal system,0.15,1.33,extended-location-93,1,1
+168542,Integrated Model,hot dry rock,0.07500005,1.1714807757148185,integrated-location-94,2,2
+727068,Extended Cluster D,sedimentary basin,2.5,0.51,seasonal-location-95,3,3
+13483868,Pilot Review,aquifer,0.44305528,0.85,regional-location-96,4,4

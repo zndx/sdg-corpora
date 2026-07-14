@@ -1,0 +1,5 @@
+insurance_policy_id,policy_identifier,provider_name,coverage_limit_u_s_d,effective_date,expiration_date,rating_agency,credit_rating,policy_type,client_asset_portfolio_id,insurance_underwriter_id,supersedes_insurance_policy_id,created_at,updated_at
+1,POL-2480,Primary Initiative A,13.20,2023-02-14,2025-08-18,Luddic Path,composite-credit-45,SIPC,1,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,POL-2486,Composite Model,16.40,2024-07-25,2022-01-02,Council Of The Great City Schools,primary-credit-46,excess_SIPC,2,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,POL-2492,Compact Cluster,19.60,2025-12-09,2023-06-13,American Institutes for Research,adaptive-credit-47,other,3,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,POL-2498,Legacy Review D,22.80,2022-05-20,2024-11-24,Taito Corporation Japan,distributed-credit-48,SIPC,4,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

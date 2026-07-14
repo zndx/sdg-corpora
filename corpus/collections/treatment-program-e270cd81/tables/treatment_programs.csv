@@ -1,0 +1,5 @@
+id,program_id,program_name,delivery_mode,risk_level,status,accreditation_body,service_code,facility_id,payment_source_id
+1,103176,Extended Review,video,high,active,integrated-accredit-88,20789856,1,1
+2,2986219,Pilot Initiative A,in-office,moderate,inactive,seasonal-accredit-89,3990167,2,2
+3,1186079,Baseline Model,video,low,active,regional-accredit-90,14484998,3,3
+4,1562855,Distributed Cluster,in-office,high,inactive,legacy-accredit-91,Total,4,4

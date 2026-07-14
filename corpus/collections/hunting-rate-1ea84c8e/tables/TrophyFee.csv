@@ -1,0 +1,5 @@
+id,feeId,scoringRange,surchargeAmount,currency,appliesToTrophy,serviceId
+1,10966225,SCI_Bronze,4.15,seasonal-currency-71,adaptive-applies-29,1
+2,c7474e2c-8fcc-11eb-924d-9cd76263cbd0,SCI_Gold,763.46,regional-currency-72,distributed-applies-30,2
+3,Penangguhan,SCI_Bronze,8.17,legacy-currency-73,baseline-applies-31,3
+4,11856350,SCI_Gold,0.02,compact-currency-74,pilot-applies-32,4

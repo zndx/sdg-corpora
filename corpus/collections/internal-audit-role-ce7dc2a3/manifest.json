@@ -1,0 +1,131 @@
+{
+ "construct_id": "ce7dc2a3d5c3d496",
+ "slug": "internal-audit-role-ce7dc2a3",
+ "passage": "ce7dc2a3d5c3d496a38f84b7ade7ddbb69237e800208babade266cac3338f858.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "InternalAuditRole",
+  "PublicServiceOrganisation",
+  "AuditStandard",
+  "AuditCommittee",
+  "GovernanceFramework"
+ ],
+ "terms": [
+  {
+   "name": "InternalAuditRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "PublicServiceOrganisation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AuditStandard",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AuditCommittee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernanceFramework",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "internal_audit_roles",
+   "rows": 4,
+   "columns": [
+    "internal_audit_role_id",
+    "role_identifier",
+    "role_title",
+    "standard_compliance_status",
+    "contracting_organisation",
+    "shared_service_flag",
+    "last_review_date",
+    "performance_rating",
+    "public_service_organisation_id",
+    "governance_framework_id"
+   ]
+  },
+  {
+   "name": "public_service_organisations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organisation_id",
+    "organisation_name",
+    "jurisdiction",
+    "establishment_date",
+    "service_type",
+    "annual_budget",
+    "governance_maturity_level",
+    "internal_audit_role_id",
+    "audit_standard_id",
+    "committee_id"
+   ]
+  },
+  {
+   "name": "audit_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_id",
+    "standard_name",
+    "issuing_body",
+    "effective_date",
+    "revision_number",
+    "compliance_level",
+    "public_service_organisation_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "audit_committees",
+   "rows": 4,
+   "columns": [
+    "committee_id",
+    "committee_name",
+    "establishment_date",
+    "meeting_frequency",
+    "member_count",
+    "independence_level",
+    "internal_audit_role_id",
+    "public_service_organisation_id"
+   ]
+  },
+  {
+   "name": "governance_frameworks",
+   "rows": 4,
+   "columns": [
+    "governance_framework_id",
+    "framework_id",
+    "framework_name",
+    "version",
+    "last_updated",
+    "compliance_score",
+    "risk_assessment_frequency",
+    "internal_audit_role_id",
+    "public_service_organisation_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_internal_audit_role_public_service_organisation",
+  "v_internal_audit_role_governance_framework",
+  "v_public_service_organisation_internal_audit_role",
+  "v_public_service_organisation_audit_standard",
+  "v_public_service_organisation_audit_committee",
+  "v_audit_standard_public_service_organisation",
+  "v_audit_committee_internal_audit_role",
+  "v_audit_committee_public_service_organisation",
+  "v_governance_framework_internal_audit_role",
+  "v_governance_framework_public_service_organisation"
+ ]
+}

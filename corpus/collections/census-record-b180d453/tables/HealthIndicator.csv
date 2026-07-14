@@ -1,0 +1,5 @@
+id,indicatorName,percentage,year,region,dataSource,groupId,surveyId
+100,Compact Survey,5.70,12,distributed-region-12,pilot-data-38,1,1
+101,Legacy Corridor,10.40,21,baseline-region-13,extended-data-39,2,2
+102,Regional Series A,15.10,30,pilot-region-14,integrated-data-40,3,3
+103,Seasonal Assessment,19.80,39,extended-region-15,seasonal-data-41,4,4

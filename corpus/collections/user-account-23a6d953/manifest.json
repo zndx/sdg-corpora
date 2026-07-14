@@ -1,0 +1,155 @@
+{
+ "construct_id": "23a6d9539630b74e",
+ "slug": "user-account-23a6d953",
+ "passage": "23a6d9539630b74e8e014186b126b0d63c2ed1d29911eca4492f1f3f75fd4d0a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "UserAccount",
+  "WebSession",
+  "DemographicProfile",
+  "SurveyResponse",
+  "ServiceOffering",
+  "CookieRecord"
+ ],
+ "terms": [
+  {
+   "name": "UserAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WebSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DemographicProfile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveyResponse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceOffering",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CookieRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "user_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_id",
+    "email_address",
+    "full_name",
+    "home_address",
+    "work_address",
+    "telephone_number",
+    "account_status",
+    "date_created",
+    "session_id",
+    "survey_response_id",
+    "demographic_profile_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "web_sessions",
+   "rows": 4,
+   "columns": [
+    "session_id",
+    "ip_address",
+    "browser_type",
+    "domain_name",
+    "access_timestamp",
+    "referring_url",
+    "session_duration_seconds",
+    "is_secure",
+    "user_account_id",
+    "cookie_record_id"
+   ]
+  },
+  {
+   "name": "demographic_profiles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "profile_id",
+    "zip_code",
+    "age_group",
+    "gender",
+    "primary_interest",
+    "favorite_category",
+    "is_anonymized",
+    "user_account_id"
+   ]
+  },
+  {
+   "name": "survey_responses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "response_id",
+    "survey_topic",
+    "rating_score",
+    "feedback_text",
+    "submission_date",
+    "is_anonymous",
+    "user_account_id",
+    "service_offering_id"
+   ]
+  },
+  {
+   "name": "service_offerings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_id",
+    "service_name",
+    "service_type",
+    "is_current",
+    "is_potential",
+    "survey_response_id",
+    "session_id"
+   ]
+  },
+  {
+   "name": "cookie_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cookie_id",
+    "cookie_name",
+    "content_hash",
+    "expiration_date",
+    "is_essential",
+    "session_id",
+    "user_account_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_user_account_web_session",
+  "v_user_account_survey_response",
+  "v_user_account_demographic_profile",
+  "v_web_session_user_account",
+  "v_web_session_cookie_record",
+  "v_demographic_profile_user_account",
+  "v_survey_response_user_account",
+  "v_survey_response_service_offering",
+  "v_service_offering_survey_response",
+  "v_service_offering_web_session",
+  "v_cookie_record_web_session",
+  "v_cookie_record_user_account"
+ ]
+}

@@ -1,0 +1,5 @@
+id,resolution_id,pass_date,resolution_type,amount,currency,is_published,annual_general_meeting_id,shareholder_id,board_member_id
+1000,9085246,2024-11-13T22:18:00,dividend,13.49,seasonal-currency-71,true,1,1,1
+1001,gd_acc_120000,2025-04-24T05:35:00,fee,25.47,regional-currency-72,false,2,2,2
+1002,16587506,2022-09-08T12:52:00,appointment,19.72,legacy-currency-73,true,3,3,3
+1003,9736899,2023-02-19T19:09:00,discharge,12.74,compact-currency-74,false,4,4,4

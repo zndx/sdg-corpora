@@ -1,0 +1,5 @@
+id,line_id,quantity,unit_price,total_price,selected_sauce,is_epic_upgrade,menu_food_item_id,catering_package_id,sauce_id
+1,ChIJyxw4mjhu5kcR9yl4qn8CFbo,9,"5,692",43.48,pilot-selected-20,false,1,1,100
+2,57dcd340-8fcc-11eb-924d-9cd76263cbd0,8,"45,650",25.36,extended-selected-21,true,2,2,101
+3,69436,0,"2,705",16.11,integrated-selected-22,false,3,3,102
+4,9085267,12,211.07,14.31,seasonal-selected-23,true,4,4,103

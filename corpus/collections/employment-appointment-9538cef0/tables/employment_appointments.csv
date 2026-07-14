@@ -1,0 +1,5 @@
+id,appointment_id,position_title,appointee_name,term_start_date,term_end_date,nomination_date,approval_status,reappointment_count,municipal_official_id,municipal_council_id,municipal_employee_id
+1,2087748,Extended Model,Regional Initiative,2022-05-26,2025-08-24,2025-04-13T15:45:00,approved,0,100,100,1
+2,ChIJJ60m-q5t5kcRMZ9MdM8fVm4,Pilot Cluster A,Seasonal Model D,2023-10-10,2022-01-08,2022-09-24T22:02:00,rejected,11,101,101,2
+3,2087740,Baseline Review,Integrated Cluster,2024-03-21,2023-06-19,2023-02-08T05:19:00,pending,22,102,102,3
+4,1250223,Distributed Initiative,Extended Review,2025-08-05,2024-11-03,2024-07-19T12:36:00,approved,2,103,103,4

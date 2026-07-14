@@ -1,0 +1,5 @@
+id,camera_id,location,installation_date,is_active,coverage_area,resolution,school_zone_id
+1000,98a0473a-8fcd-11eb-924d-9cd76263cbd0,extended-location-99,2022-01-10,true,extended-coverage-87,regional-resoluti-30,100
+1001,4e383924-8fcc-11eb-924d-9cd76263cbd0,integrated-location-100,2023-06-21,false,integrated-coverage-88,legacy-resoluti-31,101
+1002,1450647,seasonal-location-101,2024-11-05,true,seasonal-coverage-89,compact-resoluti-32,102
+1003,2839509,regional-location-102,2025-04-16,false,regional-coverage-90,composite-resoluti-33,103

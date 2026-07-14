@@ -1,0 +1,5 @@
+antenna_id,antenna_identifier,antenna_type,resonant_frequency,impedance,status,r_f_port_id,receiver_id
+1,ANT-2607,directional,11.95,6.20,active,1,1000
+2,ANT-2611,omnidirectional,13.90,10.40,faulty,2,1001
+3,ANT-2615,directional,15.85,14.60,open,3,1002
+4,ANT-2619,omnidirectional,17.80,18.80,short,4,1003

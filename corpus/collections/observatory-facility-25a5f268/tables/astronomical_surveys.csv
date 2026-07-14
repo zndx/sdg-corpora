@@ -1,0 +1,5 @@
+astronomical_survey_id,survey_id,survey_name,start_date,end_date,nights_allocated_per_year,primary_objective,status,telescope_id,funding_agency_id
+1,21005921,Composite Protocol,2022-09-05,2022-09-01,21,primary-primary-58,planned,100,1
+2,726059,Compact Programme A,2023-02-16,2023-02-12,31,adaptive-primary-59,active,101,2
+3,32814,Legacy Standard,2024-07-27,2024-07-23,41,distributed-primary-60,completed,102,3
+4,b83e028a-8fcd-11eb-924d-9cd76263cbd0,Regional Framework,2025-12-11,2025-12-07,51,baseline-primary-61,planned,103,4

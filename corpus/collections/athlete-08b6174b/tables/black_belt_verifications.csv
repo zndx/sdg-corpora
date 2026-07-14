@@ -1,0 +1,5 @@
+id,verification_id,verification_date,verification_method,is_verified,issuing_organization,athlete_id,state_association_id
+1,2986233,2024-07-24T06:18:00,uploaded,true,Alphabet Inc Class A,1000,1000
+2,778548,2025-12-08T13:35:00,physical_copy,false,ITT Industries,1001,1001
+3,32828,2022-05-19T20:52:00,form,true,Switch Card Services Ltd.,1002,1002
+4,e429623c-9bac-11eb-a8a2-19ed5c03f8d3,2023-10-03T03:09:00,uploaded,false,Buypass AS,1003,1003

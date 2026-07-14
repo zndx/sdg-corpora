@@ -1,0 +1,5 @@
+vpn_client_id,serial_number,firmware_version,connection_mode,routing_mode,mac_address,status,vpn_server_id
+1,5844275,distributed-firmware-48,automatic,all_traffic,primary-mac-94,connected,100
+2,69422,baseline-firmware-49,manual,split_tunnel,adaptive-mac-95,disconnected,101
+3,7731874,pilot-firmware-50,disabled,passthrough,distributed-mac-96,error,102
+4,10445632,extended-firmware-51,automatic,all_traffic,baseline-mac-97,idle,103

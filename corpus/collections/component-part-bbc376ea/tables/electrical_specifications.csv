@@ -1,0 +1,5 @@
+electrical_specification_id,test_ambient_temperature,test_condition_description,blocking_voltage_rating,dc_on_state_current,repetitive_peak_on_state_current,peak_surge_current,peak_gate_current,average_gate_current,reverse_gate_voltage,junction_temperature_range,component_part_id
+1,0.74,Composite Protocol,9.95,19.20,14.70,6.20,12.45,3.70,16.70,adaptive-junction-59,100
+2,0.13,Compact Programme A,11.90,22.40,18.40,8.40,14.90,7.40,18.40,distributed-junction-60,101
+3,0.075,Legacy Standard,13.85,25.60,22.10,10.60,17.35,11.10,20.10,baseline-junction-61,102
+4,0.195,Regional Framework,15.80,28.80,25.80,12.80,19.80,14.80,21.80,pilot-junction-62,103

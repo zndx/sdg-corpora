@@ -1,0 +1,5 @@
+inspection_event_id,inspection_id,inspection_date,inspection_type,overall_rating,safety_rating,effectiveness_rating,caring_rating,responsive_rating,well_led_rating,publication_date,care_agency_id,inspection_report_id
+100,BJanecke,2025-12-03T23:09:00,announced,inadequate,inadequate,inadequate,inadequate,inadequate,inadequate,2025-12-01T23:33:00,1,100
+101,575199,2022-05-14T06:26:00,unannounced,requires improvement,requires improvement,requires improvement,requires improvement,requires improvement,requires improvement,2022-05-12T06:50:00,2,101
+102,state_uk_4,2023-10-25T13:43:00,announced,good,good,good,good,good,good,2023-10-23T13:07:00,3,102
+103,8350011,2024-03-09T20:00:00,unannounced,outstanding,outstanding,outstanding,outstanding,outstanding,outstanding,2024-03-07T20:24:00,4,103

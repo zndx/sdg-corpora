@@ -1,0 +1,5 @@
+animation_project_id,project_identifier,project_title,creation_date,total_frames,render_resolution,is_rigged,has_green_screen,software_tool_id,digital_asset_id,audio_track_id,video_file_id
+1,PRO-2058,Integrated Model A,2022-01-13T12:24:00,11,regional-render-18,true,true,1000,1,1000,1
+2,PRO-2059,Extended Cluster,2023-06-24T19:41:00,29,legacy-render-19,false,false,1001,2,1001,2
+3,PRO-2060,Pilot Review,2024-11-08T02:58:00,9,compact-render-20,true,true,1002,3,1002,3
+4,PRO-2061,Baseline Initiative D,2025-04-19T09:15:00,3,composite-render-21,false,false,1003,4,1003,4

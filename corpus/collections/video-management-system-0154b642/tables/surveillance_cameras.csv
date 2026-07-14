@@ -1,0 +1,5 @@
+id,camera_serial_number,camera_type,resolution,is_embedded_analytics,installation_date,firmware_version,video_stream_id,video_management_system_version_number
+1000,611515,IP,regional-resoluti-30,true,2022-01-10,distributed-firmware-48,1,VER-2245
+1001,7441164,Megapixel,legacy-resoluti-31,false,2023-06-21,baseline-firmware-49,2,VER-2249
+1002,5082966,Analog,compact-resoluti-32,true,2024-11-05,pilot-firmware-50,3,VER-2253
+1003,1186082,ThermalImager,composite-resoluti-33,false,2025-04-16,extended-firmware-51,4,VER-2257

@@ -1,0 +1,5 @@
+government_body_id,body_id,body_name,country_code,policy_status,budget_allocation,coordination_level,last_policy_review,policy_recommendation_id,nutrition_unit_id,staff_member_id,created_at
+1,6564383,Regional Corridor,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,clearly_stated,446.22,high,2025-08-09,1000,1,1000,2025-01-01 00:14:00
+2,168556,Seasonal Series D,lu_tax_code_template_m_I_2,vague,763.46,medium,2022-01-20,1001,2,1001,2025-02-06 03:14:00
+3,strategic,Integrated Assessment,default_chart_a_account_57,non_existent,12.34,low,2023-06-04,1002,3,1002,2025-03-11 06:14:00
+4,195361,Extended Survey,727045,clearly_stated,"1,737",high,2024-11-15,1003,4,1003,2025-04-16 09:14:00

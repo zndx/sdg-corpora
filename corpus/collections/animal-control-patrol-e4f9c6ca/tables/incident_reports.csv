@@ -1,0 +1,5 @@
+id,report_id,incident_type,reported_date,location,severity,resolution_status,citizen_complaint_id,officer_id,animal_id,citation_id
+1,1202-0008-S,bite,2025-04-27T03:09:00,extended-location-99,low,open,407,103165,100,strategic-networking
+2,8189500,stray,2022-09-11T10:26:00,integrated-location-100,medium,investigating,d9d981b8-8fcc-11eb-924d-9cd76263cbd0,2933464,101,2933470
+3,L355,nuisance,2023-02-22T17:43:00,seasonal-location-101,high,closed,2087733,10445622,102,4447022
+4,5844272,complaint,2024-07-06T00:00:00,regional-location-102,critical,escalated,8350037,7441150,103,bj1

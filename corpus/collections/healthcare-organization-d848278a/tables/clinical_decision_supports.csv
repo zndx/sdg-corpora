@@ -1,0 +1,5 @@
+id,cds_id,cds_name,cds_type,effectiveness,is_proactive,is_predictive,healthcare_analytics_solution_id,electronic_health_record_ehr_id,healthcare_organization_id
+100,784e2c06-8fb2-11eb-924d-9cd76263cbd0,Baseline Protocol D,primary-cds-10,16.45,false,false,1,195366,1000
+101,9568460,Distributed Programme,adaptive-cds-11,19.90,true,true,2,611509,1001
+102,Invoices,Adaptive Standard,distributed-cds-12,23.35,false,false,3,884338,1002
+103,Tanggal,Primary Framework A,baseline-cds-13,26.80,true,true,4,gd_taxc_1123,1003

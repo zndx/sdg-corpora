@@ -1,0 +1,5 @@
+id,package_id,package_name,meal_period,base_price_per_person,is_buffet,includes_dessert,beverage_selection_id,service_charge_id
+1,9424918,Legacy Standard D,Breakfast,19.97,false,true,1,100
+2,account_pymes_1044,Regional Framework,Morning Break,19.93,true,false,2,101
+3,5844275,Seasonal Protocol,Afternoon Break,18.47,false,true,3,102
+4,2106710,Integrated Programme A,Lunch,36.43,true,false,4,103

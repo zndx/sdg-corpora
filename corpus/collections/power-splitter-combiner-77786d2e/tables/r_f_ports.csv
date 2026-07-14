@@ -1,0 +1,5 @@
+id,port_identifier,port_label,impedance,termination_state,vswr,power_splitter_combiner_id,antenna_id,receiver_id
+1,POR-2480,input,6.20,open,6.95,1,1,1000
+2,POR-2483,output,10.40,matched,9.90,2,2,1001
+3,POR-2486,sum,14.60,short,12.85,3,3,1002
+4,POR-2489,A,18.80,open,15.80,4,4,1003

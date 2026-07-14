@@ -1,0 +1,5 @@
+id,report_id,officer_id,report_date,incident_id,status,narrative,evidence_collected,records_incident_incident_id,created_at
+100,1202-0008-S,103165,2024-03-02T02:54:00,1336174,pending,legacy-narrativ-31,false,1336174,2025-01-01 00:14:00
+101,8189500,2933464,2025-08-13T09:11:00,state_uk_4,reviewed,compact-narrativ-32,true,state_uk_4,2025-02-06 03:14:00
+102,L355,10445622,2022-01-24T16:28:00,2933483,submitted,composite-narrativ-33,false,2933483,2025-03-11 06:14:00
+103,5844272,7441150,2023-06-08T23:45:00,2986243,archived,primary-narrativ-34,true,2986243,2025-04-16 09:14:00

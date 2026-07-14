@@ -1,0 +1,212 @@
+{
+ "construct_id": "aec9d039b9723d4c",
+ "slug": "research-project-aec9d039",
+ "passage": "aec9d039b9723d4c64e3a210af4ebc2164dc616f19a18ef17b7219c0bfff3504.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 14,
+ "entities": [
+  "ResearchProject",
+  "Publication",
+  "Researcher",
+  "Institution",
+  "Journal",
+  "EditorialBoard"
+ ],
+ "terms": [
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Publication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Institution",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Journal",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "EditorialBoard",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_identifier",
+    "project_title",
+    "funding_agency",
+    "start_date",
+    "end_date",
+    "project_status"
+   ]
+  },
+  {
+   "name": "publications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "publication_identifier",
+    "title",
+    "publication_date",
+    "publication_type",
+    "language",
+    "peer_reviewed",
+    "journal_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "researcher_id",
+    "full_name",
+    "institution",
+    "department",
+    "role",
+    "institution_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "institutions",
+   "rows": 4,
+   "columns": [
+    "institution_id",
+    "institution_name",
+    "country",
+    "institution_type",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "journals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "journal_id",
+    "journal_name",
+    "issn",
+    "publisher",
+    "impact_factor"
+   ]
+  },
+  {
+   "name": "editorial_boards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "board_id",
+    "role",
+    "appointment_date",
+    "journal_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "projects_researchers",
+   "rows": 8,
+   "columns": [
+    "research_project_id",
+    "researcher_id"
+   ]
+  },
+  {
+   "name": "projects_publications",
+   "rows": 8,
+   "columns": [
+    "research_project_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "publications_researchers",
+   "rows": 8,
+   "columns": [
+    "publication_id",
+    "researcher_id"
+   ]
+  },
+  {
+   "name": "researchers_projects",
+   "rows": 8,
+   "columns": [
+    "researcher_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "researchers_publications",
+   "rows": 8,
+   "columns": [
+    "researcher_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "institutions_researchers",
+   "rows": 8,
+   "columns": [
+    "institution_id",
+    "researcher_id"
+   ]
+  },
+  {
+   "name": "journals_publications",
+   "rows": 8,
+   "columns": [
+    "journal_id",
+    "publication_id"
+   ]
+  },
+  {
+   "name": "journals_boards",
+   "rows": 8,
+   "columns": [
+    "journal_id",
+    "editorial_board_id"
+   ]
+  },
+  {
+   "name": "boards_researchers",
+   "rows": 8,
+   "columns": [
+    "editorial_board_id",
+    "researcher_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_research_project_researcher_detail",
+  "v_research_project_publication_detail",
+  "v_publication_researcher_detail",
+  "v_publication_journal",
+  "v_publication_research_project",
+  "v_researcher_institution",
+  "v_researcher_research_project_detail",
+  "v_researcher_publication_detail",
+  "v_institution_researcher_detail",
+  "v_institution_research_project",
+  "v_journal_publication_detail",
+  "v_journal_editorial_board_detail",
+  "v_editorial_board_journal",
+  "v_editorial_board_researcher_detail"
+ ]
+}

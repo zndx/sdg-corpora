@@ -1,0 +1,172 @@
+{
+ "construct_id": "2212bf19b75e08dd",
+ "slug": "license-application-2212bf19",
+ "passage": "2212bf19b75e08dd14955804273cc4c470a07ba2f586a8454865e85ea0bec3d9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 12,
+ "entities": [
+  "LicenseApplication",
+  "ServiceProvider",
+  "FeeSchedule",
+  "CustodianAccount",
+  "RegulatoryAuthority",
+  "ComplianceRequirement"
+ ],
+ "terms": [
+  {
+   "name": "LicenseApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ServiceProvider",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FeeSchedule",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CustodianAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegulatoryAuthority",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ComplianceRequirement",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "license_applications",
+   "rows": 4,
+   "columns": [
+    "license_application_id",
+    "application_id",
+    "submission_date",
+    "status",
+    "regulatory_reference",
+    "service_provider_id",
+    "regulatory_authority_id",
+    "fee_schedule_id"
+   ]
+  },
+  {
+   "name": "service_providers",
+   "rows": 4,
+   "columns": [
+    "service_provider_id",
+    "legal_name",
+    "incorporation_date",
+    "shareholding_structure",
+    "compliance_status",
+    "account_number"
+   ]
+  },
+  {
+   "name": "fee_schedules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "application_fee",
+    "initial_license_fee",
+    "annual_renewal_fee",
+    "currency",
+    "regulatory_authority_id"
+   ]
+  },
+  {
+   "name": "custodian_accounts",
+   "rows": 4,
+   "columns": [
+    "account_number",
+    "minimum_capital_requirement",
+    "asset_liquidity_status",
+    "bank_identifier",
+    "service_provider_id"
+   ]
+  },
+  {
+   "name": "regulatory_authorities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authority_name",
+    "website_url",
+    "effective_date",
+    "oversight_scope"
+   ]
+  },
+  {
+   "name": "compliance_requirements",
+   "rows": 4,
+   "columns": [
+    "requirement_id",
+    "category",
+    "legal_reference",
+    "is_mandatory",
+    "regulatory_authority_id"
+   ]
+  },
+  {
+   "name": "providers_applications",
+   "rows": 8,
+   "columns": [
+    "service_provider_id",
+    "license_application_id"
+   ]
+  },
+  {
+   "name": "schedules_applications",
+   "rows": 8,
+   "columns": [
+    "fee_schedule_id",
+    "license_application_id"
+   ]
+  },
+  {
+   "name": "authorities_applications",
+   "rows": 8,
+   "columns": [
+    "regulatory_authority_id",
+    "license_application_id"
+   ]
+  },
+  {
+   "name": "authorities_requirements",
+   "rows": 8,
+   "columns": [
+    "regulatory_authority_id",
+    "requirement_id"
+   ]
+  },
+  {
+   "name": "requirements_providers",
+   "rows": 8,
+   "columns": [
+    "requirement_id",
+    "service_provider_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_license_application_service_provider",
+  "v_license_application_regulatory_authority",
+  "v_license_application_fee_schedule",
+  "v_service_provider_license_application_detail",
+  "v_service_provider_custodian_account",
+  "v_fee_schedule_license_application_detail",
+  "v_fee_schedule_regulatory_authority",
+  "v_custodian_account_service_provider",
+  "v_regulatory_authority_license_application_detail",
+  "v_regulatory_authority_compliance_requirement_detail",
+  "v_compliance_requirement_service_provider_detail",
+  "v_compliance_requirement_regulatory_authority"
+ ]
+}

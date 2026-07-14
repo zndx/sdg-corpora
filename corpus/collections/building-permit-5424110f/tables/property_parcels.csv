@@ -1,0 +1,5 @@
+id,street_address,municipality,parcel_id,zoning_district,land_use_category,permit_id,inspection_event_id,created_at,updated_at
+1,composite-street-15,extended-municipa-99,4447034,adaptive-zoning-95,adaptive-land-65,3ac831c6-8fb5-11eb-924d-9cd76263cbd0,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,primary-street-16,integrated-municipa-100,325464,distributed-zoning-96,distributed-land-66,ase,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,adaptive-street-17,seasonal-municipa-101,3990187,baseline-zoning-97,baseline-land-67,6969410,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,distributed-street-18,regional-municipa-102,110,pilot-zoning-98,pilot-land-68,727069,103,2025-04-16 09:14:00,2025-04-23 15:41:00

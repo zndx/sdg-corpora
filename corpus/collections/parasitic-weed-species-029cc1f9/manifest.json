@@ -1,0 +1,141 @@
+{
+ "construct_id": "029cc1f9fe9fcb8d",
+ "slug": "parasitic-weed-species-029cc1f9",
+ "passage": "029cc1f9fe9fcb8de806b297950588bd06b76edf6b9f3bb4f4877e48848f2c1e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "ParasiticWeedSpecies",
+  "CropSpecies",
+  "AgriculturalField",
+  "GerminationRequirement",
+  "GeographicRegion"
+ ],
+ "terms": [
+  {
+   "name": "ParasiticWeedSpecies",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CropSpecies",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AgriculturalField",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "GerminationRequirement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "parasitic_weed_specieses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "species_code",
+    "common_name",
+    "parasitic_type",
+    "chlorophyll_presence",
+    "seed_production_rate",
+    "seed_longevity_years",
+    "seed_size_micrograms",
+    "germination_cue_required",
+    "field_id",
+    "germination_requirement_id"
+   ]
+  },
+  {
+   "name": "crop_specieses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "scientific_name",
+    "crop_type",
+    "growth_region",
+    "is_host_for_striga",
+    "is_host_for_rhamphicarpa",
+    "parasitic_weed_species_id",
+    "field_id"
+   ]
+  },
+  {
+   "name": "agricultural_fields",
+   "rows": 4,
+   "columns": [
+    "field_id",
+    "landscape_position",
+    "soil_drainage",
+    "soil_moisture_level",
+    "primary_crop",
+    "affected_households",
+    "crop_species_id",
+    "parasitic_weed_species_id",
+    "geographic_region_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "germination_requirements",
+   "rows": 4,
+   "columns": [
+    "germination_requirement_id",
+    "requirement_type",
+    "cue_substance",
+    "moisture_threshold",
+    "host_root_proximity_required",
+    "parasitic_weed_species_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_code",
+    "region_name",
+    "climate_zone",
+    "dominant_soil_type"
+   ]
+  },
+  {
+   "name": "specieses_specieses",
+   "rows": 8,
+   "columns": [
+    "parasitic_weed_species_id",
+    "crop_species_id"
+   ]
+  },
+  {
+   "name": "regions_fields",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "field_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_parasitic_weed_species_crop_species_detail",
+  "vw_parasitic_weed_species_agricultural_field",
+  "vw_parasitic_weed_species_germination_requirement",
+  "vw_crop_species_parasitic_weed_species",
+  "vw_crop_species_agricultural_field",
+  "vw_agricultural_field_crop_species",
+  "vw_agricultural_field_parasitic_weed_species",
+  "vw_agricultural_field_geographic_region",
+  "vw_germination_requirement_parasitic_weed_species",
+  "vw_geographic_region_agricultural_field_detail"
+ ]
+}

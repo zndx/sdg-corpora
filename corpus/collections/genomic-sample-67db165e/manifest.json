@@ -1,0 +1,192 @@
+{
+ "construct_id": "67db165e58d902f8",
+ "slug": "genomic-sample-67db165e",
+ "passage": "67db165e58d902f8464480394e12b1aca2d07b62388e8080a6960bc7d44ef021.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 13,
+ "entities": [
+  "GenomicSample",
+  "SequencingAssay",
+  "GenomicDataset",
+  "DataRepository",
+  "Individual",
+  "HealthRecord",
+  "ClinicalTrial"
+ ],
+ "terms": [
+  {
+   "name": "GenomicSample",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SequencingAssay",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GenomicDataset",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DataRepository",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "HealthRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClinicalTrial",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "genomic_samples",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sample_id",
+    "collection_date",
+    "tissue_type",
+    "sequencing_coverage",
+    "quality_score",
+    "storage_location",
+    "sequencing_assay_id",
+    "individual_id"
+   ]
+  },
+  {
+   "name": "sequencing_assays",
+   "rows": 4,
+   "columns": [
+    "sequencing_assay_id",
+    "assay_id",
+    "assay_type",
+    "start_date",
+    "end_date",
+    "coverage_depth",
+    "platform",
+    "genomic_dataset_id",
+    "genomic_sample_id"
+   ]
+  },
+  {
+   "name": "genomic_datasets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dataset_id",
+    "creation_date",
+    "size_in_g_b",
+    "format",
+    "checksum",
+    "access_level",
+    "sequencing_assay_id",
+    "repository_id"
+   ]
+  },
+  {
+   "name": "data_repositories",
+   "rows": 4,
+   "columns": [
+    "repository_id",
+    "repository_name",
+    "location",
+    "capacity_t_b",
+    "last_updated",
+    "access_protocol"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "individual_id",
+    "date_of_birth",
+    "sex",
+    "ethnicity",
+    "enrollment_date",
+    "status",
+    "record_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "health_records",
+   "rows": 4,
+   "columns": [
+    "record_id",
+    "compilation_date",
+    "risk_score",
+    "diagnosis_codes",
+    "medication_list",
+    "last_review_date",
+    "individual_id",
+    "genomic_dataset_id"
+   ]
+  },
+  {
+   "name": "clinical_trials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trial_id",
+    "phase",
+    "start_date",
+    "end_date",
+    "status",
+    "primary_outcome",
+    "genomic_dataset_id"
+   ]
+  },
+  {
+   "name": "repositories_datasets",
+   "rows": 8,
+   "columns": [
+    "repository_id",
+    "genomic_dataset_id"
+   ]
+  },
+  {
+   "name": "individuals_samples",
+   "rows": 8,
+   "columns": [
+    "individual_id",
+    "genomic_sample_id"
+   ]
+  },
+  {
+   "name": "trials_individuals",
+   "rows": 8,
+   "columns": [
+    "clinical_trial_id",
+    "individual_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_genomic_sample_sequencing_assay",
+  "v_genomic_sample_individual",
+  "v_sequencing_assay_genomic_dataset",
+  "v_sequencing_assay_genomic_sample",
+  "v_genomic_dataset_sequencing_assay",
+  "v_genomic_dataset_data_repository",
+  "v_data_repository_genomic_dataset_detail",
+  "v_individual_genomic_sample_detail",
+  "v_individual_health_record",
+  "v_health_record_individual",
+  "v_health_record_genomic_dataset",
+  "v_clinical_trial_individual_detail",
+  "v_clinical_trial_genomic_dataset"
+ ]
+}

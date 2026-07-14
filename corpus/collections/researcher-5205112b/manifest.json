@@ -1,0 +1,207 @@
+{
+ "construct_id": "5205112bead7b930",
+ "slug": "researcher-5205112b",
+ "passage": "5205112bead7b930b17ed67ebc044caf12f505eb1d830157d3a4336c50a4d8ec.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 19,
+ "entities": [
+  "Researcher",
+  "Event",
+  "PartnerOrganization",
+  "ResearchIdea",
+  "ResearchTeam",
+  "ResearchTheme",
+  "SocietalChallenge",
+  "Country"
+ ],
+ "terms": [
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PartnerOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchIdea",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchTeam",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchTheme",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SocietalChallenge",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Country",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "researcher_id",
+    "full_name",
+    "phd_award_date",
+    "current_affiliation",
+    "email_address",
+    "is_selected_for_funding",
+    "event_id",
+    "research_team_id",
+    "research_idea_id"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "event_type",
+    "start_date",
+    "end_date",
+    "location_region",
+    "is_funded",
+    "partner_organization_id",
+    "research_theme_id"
+   ]
+  },
+  {
+   "name": "partner_organizations",
+   "rows": 4,
+   "columns": [
+    "partner_organization_id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "country_code",
+    "is_coordinator",
+    "is_originator",
+    "coordinates_project_partner_organization_id",
+    "event_id",
+    "country_id"
+   ]
+  },
+  {
+   "name": "research_ideas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "idea_id",
+    "idea_title",
+    "risk_level",
+    "is_selected_for_incubator",
+    "is_selected_for_funding",
+    "research_team_id",
+    "research_theme_id",
+    "challenge_id"
+   ]
+  },
+  {
+   "name": "research_teams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "team_id",
+    "team_name",
+    "formation_region",
+    "is_formed_for_incubator",
+    "research_idea_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "research_themes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "theme_id",
+    "theme_name",
+    "is_disruptive",
+    "is_interdisciplinary",
+    "event_id",
+    "research_idea_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "societal_challenges",
+   "rows": 4,
+   "columns": [
+    "challenge_id",
+    "challenge_name",
+    "is_policy_relevant",
+    "research_idea_id"
+   ]
+  },
+  {
+   "name": "countries",
+   "rows": 4,
+   "columns": [
+    "country_id",
+    "country_code",
+    "country_name",
+    "has_partner",
+    "has_local_network",
+    "partner_organization_id",
+    "has_local_network_established_by_partner_organization_id"
+   ]
+  },
+  {
+   "name": "events_researchers",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "researcher_id"
+   ]
+  },
+  {
+   "name": "teams_researchers",
+   "rows": 8,
+   "columns": [
+    "research_team_id",
+    "researcher_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_researcher_event",
+  "v_researcher_research_team",
+  "v_researcher_research_idea",
+  "v_event_partner_organization",
+  "v_event_researcher_detail",
+  "v_event_research_theme",
+  "v_partner_organization_partner_organization",
+  "v_partner_organization_event",
+  "v_partner_organization_country",
+  "v_research_idea_research_team",
+  "v_research_idea_research_theme",
+  "v_research_idea_societal_challenge",
+  "v_research_team_researcher_detail",
+  "v_research_team_research_idea",
+  "v_research_team_event",
+  "v_research_theme_event",
+  "v_research_theme_research_idea",
+  "v_societal_challenge_research_idea",
+  "v_country_partner_organization"
+ ]
+}

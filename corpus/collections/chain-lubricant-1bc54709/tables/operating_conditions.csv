@@ -1,0 +1,5 @@
+operating_condition_id,condition_id,temperature_min,temperature_max,load_level,is_wet,is_exposed_to_foreign_materials,lubricant_id,drive_id,created_at
+100,a9624ee2-9bad-11eb-a8a2-19ed5c03f8d3,36.900001525878906,0.34,Medium,false,false,8928502,505996,2025-01-01 00:14:00
+101,9568469,3.62,0.83,High,true,true,5f940350-8fcd-11eb-924d-9cd76263cbd0,9424933,2025-02-06 03:14:00
+102,4716413,0.43012016,1.603487606015595,Medium,false,false,c8a7d91b-e587-45b4-bae6-0c0a51b6241b,6926357,2025-03-11 06:14:00
+103,dce72594-8fcd-11eb-924d-9cd76263cbd0,0.075,0.38254625,High,true,true,1437589,ChIJkXWylYht5kcRUCfYt4dK_wU,2025-04-16 09:14:00

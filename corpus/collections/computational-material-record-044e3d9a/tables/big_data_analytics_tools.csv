@@ -1,0 +1,5 @@
+id,tool_id,tool_name,algorithm_type,start_date,end_date,status,novel_materials_discovered,parsed_data_store_id,center_id
+1,comi,Composite Model,data_mining,2022-09-05,2022-09-01,planned,46,1000,5844261
+2,195360,Compact Cluster A,statistical_analysis,2023-02-16,2023-02-12,running,55,1001,1437588
+3,3355763,Legacy Review,machine_learning,2024-07-27,2024-07-23,completed,64,1002,6564397
+4,8387539,Regional Initiative,neural_network,2025-12-11,2025-12-07,archived,73,1003,default_chart_a_tax_13

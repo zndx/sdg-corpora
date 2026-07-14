@@ -1,0 +1,5 @@
+checkpoint_id,checkpoint_type,checkpoint_x,checkpoint_y,checkpoint_status,zone_id,route_id,serves_as_end_for_route_id
+21956270,entry,22.95,19.95,pending,1,1000,1000
+195341,exit,26.90,23.90,reached,2,1001,1001
+3158149,parking,30.85,27.85,missed,3,1002,1002
+974918,destination,34.80,31.80,pending,4,1003,1003

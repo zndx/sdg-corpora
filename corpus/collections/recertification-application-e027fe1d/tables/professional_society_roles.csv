@@ -1,0 +1,5 @@
+id,role_instance_id,role_title,society_name,start_date,end_date,ru_credits_per_year,applies_to_body_of_knowledge,certified_professional_id,activity_id,created_at,updated_at
+1000,c7443b9c-8fcc-11eb-924d-9cd76263cbd0,officer,Composite Model,2022-09-05,2022-09-01,19,true,100,8843761,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,ca398dba-8fcd-11eb-924d-9cd76263cbd0,committee_leader,Compact Cluster A,2023-02-16,2023-02-12,30,false,101,4180957,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,id_15,committee_member,Legacy Review,2024-07-27,2024-07-23,41,true,102,168545,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,2b2bd0a2-8fcd-11eb-924d-9cd76263cbd0,individual_member,Regional Initiative,2025-12-11,2025-12-07,52,false,103,default_chart_a_account_53,2025-04-16 09:14:00,2025-04-23 15:41:00

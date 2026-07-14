@@ -1,0 +1,5 @@
+id,drone_id,manufacturer,model,serial_number,operational_status
+1,1437577,Standard Chartered,composite-model-81,5844275,active
+2,5917277,General Motors,primary-model-82,69422,inactive
+3,5917276,Column Name cannot be empty,adaptive-model-83,7731874,decommissioned
+4,3990167,Financial Information Service Co. Ltd.,distributed-model-84,10445632,active

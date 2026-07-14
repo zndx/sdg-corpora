@@ -1,0 +1,5 @@
+id,accountNumber,accountType,openDate,currentBalance,currencyCode,accountStatus,lastStatementDate,clientId,assetId,plannerId
+100,ACC-2253,checking,2025-08-07,"1,387",gd_fp_eu_acc3,active,2025-12-06,1000,1,1
+101,ACC-2256,savings,2022-01-18,"1,867",managing-resources,frozen,2022-05-17,1001,2,2
+102,ACC-2259,investment,2023-06-02,65.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,closed,2023-10-01,1002,3,3
+103,ACC-2262,loan,2024-11-13,"2,453",10445649,overdrawn,2024-03-12,1003,4,4

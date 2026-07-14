@@ -1,0 +1,169 @@
+{
+ "construct_id": "7685133b3b42073a",
+ "slug": "wall-line-dance-7685133b",
+ "passage": "7685133b3b42073aa0c5a125b793eb2a77c1983a1bc33bcc9d67ad0de22258ed.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "WallLineDance",
+  "DanceSection",
+  "DanceStep",
+  "MusicTrack",
+  "DanceEvent",
+  "Venue"
+ ],
+ "terms": [
+  {
+   "name": "WallLineDance",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DanceSection",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DanceStep",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MusicTrack",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DanceEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Venue",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "wall_line_dances",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dance_id",
+    "title",
+    "level",
+    "total_counts",
+    "music_bpm",
+    "start_offset_seconds",
+    "choreographer_name",
+    "choreography_date",
+    "dedication_text",
+    "music_track_id"
+   ]
+  },
+  {
+   "name": "dance_sections",
+   "rows": 4,
+   "columns": [
+    "section_id",
+    "section_number",
+    "count_range",
+    "actual_footwork",
+    "calling_suggestion",
+    "step_count",
+    "wall_line_dance_id"
+   ]
+  },
+  {
+   "name": "dance_steps",
+   "rows": 4,
+   "columns": [
+    "id",
+    "step_id",
+    "step_name",
+    "foot_used",
+    "direction",
+    "turn_angle",
+    "execution_order",
+    "section_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "music_tracks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "track_id",
+    "title",
+    "artist_name",
+    "album_title",
+    "tempo_bpm",
+    "duration_seconds",
+    "release_year",
+    "wall_line_dance_id"
+   ]
+  },
+  {
+   "name": "dance_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_name",
+    "event_date",
+    "location",
+    "competition_level",
+    "participant_count",
+    "wall_line_dance_id",
+    "venue_id"
+   ]
+  },
+  {
+   "name": "venues",
+   "rows": 4,
+   "columns": [
+    "venue_id",
+    "venue_name",
+    "city",
+    "country",
+    "floor_type",
+    "capacity"
+   ]
+  },
+  {
+   "name": "dances_sections",
+   "rows": 8,
+   "columns": [
+    "wall_line_dance_id",
+    "section_id"
+   ]
+  },
+  {
+   "name": "sections_steps",
+   "rows": 8,
+   "columns": [
+    "section_id",
+    "dance_step_id"
+   ]
+  },
+  {
+   "name": "venues_events",
+   "rows": 8,
+   "columns": [
+    "venue_id",
+    "dance_event_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_wall_line_dance_dance_section_detail",
+  "v_wall_line_dance_music_track",
+  "v_dance_section_wall_line_dance",
+  "v_dance_section_dance_step_detail",
+  "v_dance_step_dance_section",
+  "v_music_track_wall_line_dance",
+  "v_dance_event_wall_line_dance",
+  "v_dance_event_venue",
+  "v_venue_dance_event_detail"
+ ]
+}

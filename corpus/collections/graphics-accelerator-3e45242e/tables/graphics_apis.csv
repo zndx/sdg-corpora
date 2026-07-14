@@ -1,0 +1,5 @@
+graphics_api_id,api_name,specification_version,conformance_status,standard_body
+1,Baseline Model D,compact-specific-56,Conformant,composite-standard-57
+2,Distributed Cluster,composite-specific-57,Pending,primary-standard-58
+3,Adaptive Review,primary-specific-58,Non-Conformant,adaptive-standard-59
+4,Primary Initiative A,adaptive-specific-59,Conformant,distributed-standard-60

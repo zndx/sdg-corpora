@@ -1,0 +1,186 @@
+{
+ "construct_id": "28ff205c7365d5c9",
+ "slug": "legislative-act-28ff205c",
+ "passage": "28ff205c7365d5c94cb33c4ee980fb325a9293d2d9132c0157db1b4d4585aed4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 12,
+ "entities": [
+  "LegislativeAct",
+  "Governor",
+  "Vehicle",
+  "Driver",
+  "DisposableProduct",
+  "Consumer",
+  "HealthIndex",
+  "State"
+ ],
+ "terms": [
+  {
+   "name": "LegislativeAct",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Governor",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Vehicle",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Driver",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DisposableProduct",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Consumer",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "HealthIndex",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "State",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legislative_acts",
+   "rows": 4,
+   "columns": [
+    "legislative_act_id",
+    "act_identifier",
+    "jurisdiction",
+    "enactment_date",
+    "status",
+    "target_chemical_class",
+    "legal_effect"
+   ]
+  },
+  {
+   "name": "governors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "governor_id",
+    "full_name",
+    "state",
+    "term_start_date",
+    "term_end_date",
+    "prior_profession",
+    "commute_mode",
+    "state_code",
+    "vehicle_id"
+   ]
+  },
+  {
+   "name": "vehicles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vehicle_id",
+    "make",
+    "model",
+    "year",
+    "fuel_type",
+    "emission_level",
+    "driver_id",
+    "governor_id"
+   ]
+  },
+  {
+   "name": "drivers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "driver_id",
+    "full_name",
+    "employer",
+    "license_number",
+    "shift_status",
+    "vehicle_id"
+   ]
+  },
+  {
+   "name": "disposable_products",
+   "rows": 4,
+   "columns": [
+    "id",
+    "product_code",
+    "product_name",
+    "material_composition",
+    "shelf_life",
+    "disposal_method",
+    "planned_obsolescence",
+    "consumer_id"
+   ]
+  },
+  {
+   "name": "consumers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consumer_id",
+    "full_name",
+    "residence_state",
+    "lifestyle_type",
+    "disposable_product_id",
+    "state_code"
+   ]
+  },
+  {
+   "name": "health_indexes",
+   "rows": 4,
+   "columns": [
+    "index_id",
+    "index_name",
+    "calculation_date",
+    "life_expectancy_score",
+    "happiness_score",
+    "ecological_footprint",
+    "global_rank",
+    "state_code"
+   ]
+  },
+  {
+   "name": "states",
+   "rows": 4,
+   "columns": [
+    "state_code",
+    "state_name",
+    "population",
+    "gdp",
+    "pesticide_ban_status",
+    "happy_planet_rank",
+    "governor_id",
+    "legislative_act_id",
+    "index_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "governor_state_view",
+  "governor_vehicle_view",
+  "vehicle_driver_view",
+  "vehicle_governor_view",
+  "driver_vehicle_view",
+  "disposable_product_consumer_view",
+  "consumer_disposable_product_view",
+  "consumer_state_view",
+  "health_index_state_view",
+  "state_governor_view",
+  "state_legislative_act_view",
+  "state_health_index_view"
+ ]
+}

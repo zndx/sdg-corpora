@@ -1,0 +1,5 @@
+id,report_id,report_date,report_type,injured_party,description,review_status,animal_emergency_id,animal_control_officer_id,safety_meeting_id,created_at,updated_at
+100,1202-0008-S,2024-03-02T02:54:00,Accident,legacy-injured-13,Extended Survey,Draft,1,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,8189500,2025-08-13T09:11:00,Injury,compact-injured-14,Pilot Corridor A,Under Review,2,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,L355,2022-01-24T16:28:00,Emergency Response,composite-injured-15,Baseline Series,Approved,3,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,5844272,2023-06-08T23:45:00,Accident,primary-injured-16,Distributed Assessment,Draft,4,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

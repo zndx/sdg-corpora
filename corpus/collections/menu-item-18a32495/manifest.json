@@ -1,0 +1,193 @@
+{
+ "construct_id": "18a32495be6cab52",
+ "slug": "menu-item-18a32495",
+ "passage": "18a32495be6cab52242ef3418c233ff8465854d9d08123ee53a2b62a57349f69.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 12,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "MenuCategory",
+  "SideDish",
+  "OrderType",
+  "Policy"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuCategory",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SideDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OrderType",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Policy",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_id",
+    "name",
+    "price",
+    "category",
+    "status",
+    "minimum_order_quantity",
+    "side_dish_id",
+    "menu_category_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "allergen_flag",
+    "sourcing_region",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "menu_categories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "category_id",
+    "name",
+    "display_order",
+    "includes_side",
+    "order_type_id"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "side_id",
+    "name",
+    "is_house_made",
+    "included_in_price",
+    "menu_category_id"
+   ]
+  },
+  {
+   "name": "order_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "order_type_id",
+    "name",
+    "minimum_quantity",
+    "requires_advance_notice",
+    "policy_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "policies",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "description",
+    "effective_date",
+    "is_active"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_items",
+   "rows": 8,
+   "columns": [
+    "ingredient_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "categories_items",
+   "rows": 8,
+   "columns": [
+    "menu_category_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "dishes_items",
+   "rows": 8,
+   "columns": [
+    "side_dish_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "types_items",
+   "rows": 8,
+   "columns": [
+    "order_type_id",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "policies_types",
+   "rows": 8,
+   "columns": [
+    "policy_id",
+    "order_type_id"
+   ]
+  },
+  {
+   "name": "policies_items",
+   "rows": 8,
+   "columns": [
+    "policy_id",
+    "menu_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_menu_item_ingredient_detail",
+  "v_menu_item_side_dish",
+  "v_menu_item_menu_category",
+  "v_ingredient_menu_item_detail",
+  "v_menu_category_menu_item_detail",
+  "v_menu_category_order_type",
+  "v_side_dish_menu_item_detail",
+  "v_side_dish_menu_category",
+  "v_order_type_menu_item_detail",
+  "v_order_type_policy",
+  "v_policy_order_type_detail",
+  "v_policy_menu_item_detail"
+ ]
+}

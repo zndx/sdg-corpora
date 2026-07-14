@@ -1,0 +1,5 @@
+id,transactionId,amount,transactionDate,paymentMethod,status,processedBy,recordId,appointmentId,createdAt
+1,937738,13.49,2023-02-25T01:39:00,cash,pending,adaptive-processe-41,100,100,2025-01-01 00:14:00
+2,89509,25.47,2024-07-09T08:56:00,credit_card,completed,distributed-processe-42,101,101,2025-02-06 03:14:00
+3,1186092,19.72,2025-12-20T15:13:00,check,failed,baseline-processe-43,102,102,2025-03-11 06:14:00
+4,9085243,12.74,2022-05-04T22:30:00,insurance,refunded,pilot-processe-44,103,103,2025-04-16 09:14:00

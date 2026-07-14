@@ -1,0 +1,128 @@
+{
+ "construct_id": "54830053b53383d4",
+ "slug": "golf-shot-54830053",
+ "passage": "54830053b53383d410afab7ef36a585aafaa968c7cc86fce21f4a18c802fd080.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 9,
+ "entities": [
+  "GolfShot",
+  "GolfClub",
+  "LandingSpot",
+  "GripMechanics",
+  "PracticeRoutine"
+ ],
+ "terms": [
+  {
+   "name": "GolfShot",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GolfClub",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LandingSpot",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "GripMechanics",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PracticeRoutine",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "GolfShot",
+   "rows": 4,
+   "columns": [
+    "shotId",
+    "shotIdentifier",
+    "shotType",
+    "targetDistance",
+    "targetDirection",
+    "executionStatus",
+    "practiceSessionId",
+    "clubId",
+    "spotId",
+    "routineId"
+   ]
+  },
+  {
+   "name": "GolfClub",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clubId",
+    "clubType",
+    "loftAngle",
+    "shaftLength",
+    "gripStyle",
+    "shotId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "LandingSpot",
+   "rows": 4,
+   "columns": [
+    "spotId",
+    "distanceFromBall",
+    "surfaceType",
+    "elevationChange",
+    "shotId"
+   ]
+  },
+  {
+   "name": "GripMechanics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mechanicId",
+    "handPlacement",
+    "pressureLevel",
+    "musclePadContact",
+    "clubId",
+    "shotId"
+   ]
+  },
+  {
+   "name": "PracticeRoutine",
+   "rows": 4,
+   "columns": [
+    "id",
+    "routineId",
+    "routineName",
+    "focusArea",
+    "isQualityFocused",
+    "mechanicsId"
+   ]
+  },
+  {
+   "name": "PracticeRoutineGolfShot",
+   "rows": 8,
+   "columns": [
+    "routineId",
+    "shotId"
+   ]
+  }
+ ],
+ "views": [
+  "v_golf_shot_golf_club",
+  "v_golf_shot_landing_spot",
+  "v_golf_shot_practice_routine",
+  "v_golf_club_golf_shot",
+  "v_landing_spot_golf_shot",
+  "v_grip_mechanics_golf_club",
+  "v_grip_mechanics_golf_shot",
+  "v_practice_routine_golf_shot_detail",
+  "v_practice_routine_grip_mechanics"
+ ]
+}

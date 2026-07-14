@@ -1,0 +1,5 @@
+person_id,full_name,relationship_to_patient,is_trusted,patient_id
+George Bernard Shaw,Theodore Mcgrath,adaptive-relation-71,false,100
+Maria Rodriguez,Account Name,distributed-relation-72,true,101
+Sarah Villanueva,Saipan International Airport,baseline-relation-73,false,102
+Susan Wagner,Norma Fisher,pilot-relation-74,true,103

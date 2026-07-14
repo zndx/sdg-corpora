@@ -1,0 +1,108 @@
+{
+ "construct_id": "21eae30657e8c6b2",
+ "slug": "lateral-restraint-strap-21eae306",
+ "passage": "21eae30657e8c6b2ab4dd4482a04dccce2cd05f2892c1683a2f3db62b0cdd33d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 4,
+ "n_views": 9,
+ "entities": [
+  "LateralRestraintStrap",
+  "MasonryWall",
+  "FloorAssembly",
+  "FixingMethod"
+ ],
+ "terms": [
+  {
+   "name": "LateralRestraintStrap",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MasonryWall",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FloorAssembly",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FixingMethod",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "lateral_restraint_straps",
+   "rows": 4,
+   "columns": [
+    "id",
+    "strap_identifier",
+    "minimum_length",
+    "gauge",
+    "material",
+    "turn_down_configuration",
+    "max_spacing_along_wall",
+    "masonry_wall_id",
+    "floor_assembly_id",
+    "fixing_method_id"
+   ]
+  },
+  {
+   "name": "masonry_walls",
+   "rows": 4,
+   "columns": [
+    "masonry_wall_id",
+    "wall_identifier",
+    "wall_height",
+    "wall_type",
+    "masonry_unit_type",
+    "structural_role",
+    "lateral_restraint_strap_id",
+    "floor_assembly_id"
+   ]
+  },
+  {
+   "name": "floor_assemblies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assembly_identifier",
+    "assembly_type",
+    "infill_material",
+    "tolerance_level",
+    "floor_height",
+    "lateral_restraint_strap_id",
+    "masonry_wall_id"
+   ]
+  },
+  {
+   "name": "fixing_methods",
+   "rows": 4,
+   "columns": [
+    "fixing_method_id",
+    "method_identifier",
+    "screw_length",
+    "screw_gauge",
+    "plug_type",
+    "screw_spacing",
+    "min_screws_per_strap",
+    "applies_to_material",
+    "lateral_restraint_strap_id",
+    "floor_assembly_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_lateral_restraint_strap_masonry_wall",
+  "v_lateral_restraint_strap_floor_assembly",
+  "v_lateral_restraint_strap_fixing_method",
+  "v_masonry_wall_lateral_restraint_strap",
+  "v_masonry_wall_floor_assembly",
+  "v_floor_assembly_lateral_restraint_strap",
+  "v_floor_assembly_masonry_wall",
+  "v_fixing_method_lateral_restraint_strap",
+  "v_fixing_method_floor_assembly"
+ ]
+}

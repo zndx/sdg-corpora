@@ -1,0 +1,157 @@
+{
+ "construct_id": "76791a75e0ca977e",
+ "slug": "custom-back-assembly-76791a75",
+ "passage": "76791a75e0ca977e7f5e66e7b7dd92ee666f121e595875a9bcf27522fff580b8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "CustomBackAssembly",
+  "AirCellPlacement",
+  "AirCompartment",
+  "ProviderAccount",
+  "ManufacturingOrder"
+ ],
+ "terms": [
+  {
+   "name": "CustomBackAssembly",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AirCellPlacement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AirCompartment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProviderAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ManufacturingOrder",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "CustomBackAssembly",
+   "rows": 4,
+   "columns": [
+    "assemblyId",
+    "shellWidth",
+    "shellHeight",
+    "shellDepth",
+    "status",
+    "orderReference",
+    "manufactureLeadTime",
+    "accountId"
+   ]
+  },
+  {
+   "name": "AirCellPlacement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cellId",
+    "profileType",
+    "widthCm",
+    "heightCm",
+    "gridRow",
+    "gridColumn",
+    "assemblyId"
+   ]
+  },
+  {
+   "name": "AirCompartment",
+   "rows": 4,
+   "columns": [
+    "compartmentId",
+    "compartmentName",
+    "isAdjustable",
+    "valveLocation",
+    "assemblyId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "ProviderAccount",
+   "rows": 4,
+   "columns": [
+    "accountId",
+    "accountNumber",
+    "providerName",
+    "addressLine1",
+    "addressLine2",
+    "city",
+    "state",
+    "zipCode",
+    "country",
+    "phone",
+    "email"
+   ]
+  },
+  {
+   "name": "ManufacturingOrder",
+   "rows": 4,
+   "columns": [
+    "orderId",
+    "orderNumber",
+    "orderDate",
+    "orderType",
+    "poNumber",
+    "specialInstructions",
+    "assemblyId",
+    "accountId"
+   ]
+  },
+  {
+   "name": "CustomBackAssemblyAirCellPlacement",
+   "rows": 8,
+   "columns": [
+    "assemblyId",
+    "placementId"
+   ]
+  },
+  {
+   "name": "CustomBackAssemblyAirCompartment",
+   "rows": 8,
+   "columns": [
+    "assemblyId",
+    "compartmentId"
+   ]
+  },
+  {
+   "name": "AirCompartmentAirCellPlacement",
+   "rows": 8,
+   "columns": [
+    "compartmentId",
+    "placementId"
+   ]
+  },
+  {
+   "name": "ProviderAccountCustomBackAssembly",
+   "rows": 8,
+   "columns": [
+    "accountId",
+    "assemblyId"
+   ]
+  }
+ ],
+ "views": [
+  "custom_back_assembly_air_cell_placement_detail_view",
+  "custom_back_assembly_air_compartment_detail_view",
+  "custom_back_assembly_provider_account_view",
+  "air_cell_placement_custom_back_assembly_view",
+  "air_compartment_air_cell_placement_detail_view",
+  "air_compartment_custom_back_assembly_view",
+  "provider_account_custom_back_assembly_detail_view",
+  "manufacturing_order_custom_back_assembly_view",
+  "manufacturing_order_provider_account_view"
+ ]
+}

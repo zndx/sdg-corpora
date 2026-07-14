@@ -1,0 +1,5 @@
+id,has_image_status,has_sin_condition,has_reconciliation_status,has_eternal_destiny,divine_person_id,divine_act_id,church_id
+1,true,false,Separated,Eternal Life,100,1,1
+2,false,true,Reconciled,Eternal Condemnation,101,2,2
+3,true,false,Justified,Eternal Life,102,3,3
+4,false,true,Condemned,Eternal Condemnation,103,4,4

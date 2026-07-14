@@ -1,0 +1,225 @@
+{
+ "construct_id": "8b904ab05d742028",
+ "slug": "quality-improvement-program-8b904ab0",
+ "passage": "8b904ab05d7420281efbb0c1ec05b240380d7a7894af170cf6c1437c09a04b36.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 20,
+ "entities": [
+  "QualityImprovementProgram",
+  "ClinicalPerformanceData",
+  "MeasurementActivity",
+  "HealthcareProfessional",
+  "Organization",
+  "PolicyInstrument",
+  "AnalyticTool"
+ ],
+ "terms": [
+  {
+   "name": "QualityImprovementProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClinicalPerformanceData",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MeasurementActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareProfessional",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AnalyticTool",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "quality_improvement_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_identifier",
+    "program_name",
+    "start_date",
+    "status",
+    "methodology",
+    "organization_org_id",
+    "policy_instrument_policy_id"
+   ]
+  },
+  {
+   "name": "clinical_performance_datas",
+   "rows": 4,
+   "columns": [
+    "clinical_performance_data_id",
+    "data_record_id",
+    "collection_date",
+    "metric_type",
+    "value",
+    "unit_of_measure",
+    "data_quality_score",
+    "measurement_activity_id",
+    "analytic_tool_id"
+   ]
+  },
+  {
+   "name": "measurement_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "start_time",
+    "end_time",
+    "protocol_version",
+    "instrument_used",
+    "status",
+    "healthcare_professional_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "healthcare_professionals",
+   "rows": 4,
+   "columns": [
+    "healthcare_professional_id",
+    "professional_id",
+    "full_name",
+    "role",
+    "years_of_experience",
+    "certification_status",
+    "organization_affiliation",
+    "organization_org_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "org_id",
+    "org_name",
+    "org_type",
+    "jurisdiction",
+    "established_date",
+    "status",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "policy_id",
+    "policy_title",
+    "effective_date",
+    "issuing_authority",
+    "policy_type",
+    "version",
+    "status",
+    "quality_improvement_program_id",
+    "clinical_performance_data_id",
+    "organization_org_id"
+   ]
+  },
+  {
+   "name": "analytic_tools",
+   "rows": 4,
+   "columns": [
+    "analytic_tool_id",
+    "tool_id",
+    "tool_name",
+    "tool_type",
+    "version",
+    "last_updated",
+    "validation_status",
+    "healthcare_professional_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "programs_datas",
+   "rows": 8,
+   "columns": [
+    "quality_improvement_program_id",
+    "clinical_performance_data_id"
+   ]
+  },
+  {
+   "name": "activities_datas",
+   "rows": 8,
+   "columns": [
+    "measurement_activity_id",
+    "clinical_performance_data_id"
+   ]
+  },
+  {
+   "name": "professionals_activities",
+   "rows": 8,
+   "columns": [
+    "healthcare_professional_id",
+    "measurement_activity_id"
+   ]
+  },
+  {
+   "name": "organizations_programs",
+   "rows": 8,
+   "columns": [
+    "organization_org_id",
+    "quality_improvement_program_id"
+   ]
+  },
+  {
+   "name": "organizations_professionals",
+   "rows": 8,
+   "columns": [
+    "organization_org_id",
+    "healthcare_professional_id"
+   ]
+  },
+  {
+   "name": "tools_datas",
+   "rows": 8,
+   "columns": [
+    "analytic_tool_id",
+    "clinical_performance_data_id"
+   ]
+  }
+ ],
+ "views": [
+  "quality_improvement_program_organization_view",
+  "quality_improvement_program_clinical_performance_data_detail_view",
+  "quality_improvement_program_policy_instrument_view",
+  "clinical_performance_data_measurement_activity_view",
+  "clinical_performance_data_analytic_tool_view",
+  "measurement_activity_healthcare_professional_view",
+  "measurement_activity_clinical_performance_data_detail_view",
+  "measurement_activity_quality_improvement_program_view",
+  "healthcare_professional_organization_view",
+  "healthcare_professional_measurement_activity_detail_view",
+  "healthcare_professional_quality_improvement_program_view",
+  "organization_quality_improvement_program_detail_view",
+  "organization_healthcare_professional_detail_view",
+  "organization_quality_improvement_program_view",
+  "policy_instrument_quality_improvement_program_view",
+  "policy_instrument_clinical_performance_data_view",
+  "policy_instrument_organization_view",
+  "analytic_tool_clinical_performance_data_detail_view",
+  "analytic_tool_healthcare_professional_view",
+  "analytic_tool_quality_improvement_program_view"
+ ]
+}

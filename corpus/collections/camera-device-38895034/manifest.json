@@ -1,0 +1,154 @@
+{
+ "construct_id": "38895034e6cf50d8",
+ "slug": "camera-device-38895034",
+ "passage": "38895034e6cf50d8263834740ffd2247c0cb4f34d2c3650cbe81c64b149ba879.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 9,
+ "entities": [
+  "CameraDevice",
+  "CameraLens",
+  "MemoryCard",
+  "ImageCapture",
+  "CelestialObject",
+  "ExposureTriangle"
+ ],
+ "terms": [
+  {
+   "name": "CameraDevice",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CameraLens",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MemoryCard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ImageCapture",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CelestialObject",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ExposureTriangle",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "camera_devices",
+   "rows": 4,
+   "columns": [
+    "camera_device_id",
+    "device_identifier",
+    "manufacturer",
+    "model_number",
+    "sensor_type",
+    "megapixels",
+    "lens_mount_type",
+    "is_mirrorless",
+    "camera_lens_id",
+    "memory_card_id"
+   ]
+  },
+  {
+   "name": "camera_lenses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "lens_identifier",
+    "manufacturer",
+    "model_number",
+    "focal_length",
+    "max_aperture",
+    "mount_compatibility",
+    "is_prime",
+    "camera_device_id"
+   ]
+  },
+  {
+   "name": "memory_cards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "card_identifier",
+    "manufacturer",
+    "model_number",
+    "storage_capacity",
+    "write_speed",
+    "file_system_format",
+    "is_formatted",
+    "camera_device_id"
+   ]
+  },
+  {
+   "name": "image_captures",
+   "rows": 4,
+   "columns": [
+    "image_capture_id",
+    "capture_identifier",
+    "timestamp",
+    "shutter_speed",
+    "aperture_value",
+    "iso_setting",
+    "exposure_mode",
+    "white_balance",
+    "metering_mode",
+    "focus_mode",
+    "file_format",
+    "camera_device_id",
+    "memory_card_id",
+    "celestial_object_id"
+   ]
+  },
+  {
+   "name": "celestial_objects",
+   "rows": 4,
+   "columns": [
+    "celestial_object_id",
+    "object_identifier",
+    "common_name",
+    "catalog_designation",
+    "object_type",
+    "constellation",
+    "right_ascension",
+    "declination",
+    "apparent_magnitude",
+    "image_capture_id"
+   ]
+  },
+  {
+   "name": "exposure_triangles",
+   "rows": 4,
+   "columns": [
+    "exposure_triangle_id",
+    "triangle_identifier",
+    "shutter_speed",
+    "aperture_value",
+    "iso_setting",
+    "exposure_value",
+    "is_balanced",
+    "image_capture_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_camera_device_camera_lens",
+  "vw_camera_device_memory_card",
+  "vw_camera_lens_camera_device",
+  "vw_memory_card_camera_device",
+  "vw_image_capture_camera_device",
+  "vw_image_capture_memory_card",
+  "vw_image_capture_celestial_object",
+  "vw_celestial_object_image_capture",
+  "vw_exposure_triangle_image_capture"
+ ]
+}

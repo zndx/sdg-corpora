@@ -1,0 +1,5 @@
+id,provider_identifier,provider_name,specialty,license_number,accepts_new_patients
+1,PRO-2328,Primary Initiative A,primary_care,LIC-2589,true
+2,PRO-2331,Composite Model,ob_gyn,LIC-2596,false
+3,PRO-2334,Compact Cluster,pediatrician,LIC-2603,true
+4,PRO-2337,Legacy Review D,other,LIC-2610,false

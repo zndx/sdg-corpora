@@ -1,0 +1,5 @@
+id,benchmark_id,assessment_domain,minimum_score,assessment_type,effective_date,expiration_months,is_mandatory,score_scale,instrument_code
+1,7441141,English,6.20,ACT,2023-02-14,38,true,seasonal-score-47,5006445
+2,default_chart_a_tax_code_21,Reading,8.40,SAT,2024-07-25,41,false,regional-score-48,6564383
+3,3717629,Mathematics_General,10.60,COMPASS,2025-12-09,44,true,legacy-score-49,476
+4,gd_taxr_2,Mathematics_CollegeAlgebra,12.80,Asset,2022-05-20,47,false,compact-score-50,12300298

@@ -1,0 +1,5 @@
+release_event_id,release_identifier,release_date,release_type,authorization_obtained,youth_id,health_care_summary_format_code,healthcare_facility_id
+100,REL-2122,2022-09-07T20:24:00,community,false,1000,gd_taxp_3,1
+101,REL-2124,2023-02-18T03:41:00,court_ordered,true,1001,9736899,2
+102,REL-2126,2024-07-02T10:58:00,statutory,false,1002,2002007020260,3
+103,REL-2128,2025-12-13T17:15:00,community,true,1003,255,4

@@ -1,0 +1,5 @@
+id,institution_name,institution_type,asset_size,currency,risk_rating,is_systemically_important,bailout_program_id,government_agency_id,economic_condition_id
+1,Extended Corridor,bank,0.4836947300000001,seasonal-currency-71,compact-risk-68,false,1,1000,1
+2,Pilot Series A,investmentFirm,0.6000001,regional-currency-72,composite-risk-69,true,2,1001,2
+3,Baseline Assessment,insuranceCompany,0.56,legacy-currency-73,primary-risk-70,false,3,1002,3
+4,Distributed Survey,bank,0.351342673308077,compact-currency-74,adaptive-risk-71,true,4,1003,4

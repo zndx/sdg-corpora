@@ -1,0 +1,172 @@
+{
+ "construct_id": "ce6ae4334fede0f3",
+ "slug": "jurisdictional-statute-ce6ae433",
+ "passage": "ce6ae4334fede0f3635ebd0ebe38932b7f802d8cd43e6c8d9662dda8cb73c358.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 14,
+ "entities": [
+  "JurisdictionalStatute",
+  "ExtractionWell",
+  "LandParcel",
+  "ResourceExtractionEvent",
+  "LeaseAgreement"
+ ],
+ "terms": [
+  {
+   "name": "JurisdictionalStatute",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ExtractionWell",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LandParcel",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResourceExtractionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LeaseAgreement",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "jurisdictional_statutes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statute_identifier",
+    "enactment_date",
+    "jurisdiction_name",
+    "status",
+    "subject_matter",
+    "jurisdictional_statute_id"
+   ]
+  },
+  {
+   "name": "extraction_wells",
+   "rows": 4,
+   "columns": [
+    "id",
+    "well_identifier",
+    "completion_date",
+    "well_type",
+    "depth_meters",
+    "operator_name",
+    "status",
+    "land_parcel_id",
+    "extraction_well_id"
+   ]
+  },
+  {
+   "name": "land_parcels",
+   "rows": 4,
+   "columns": [
+    "land_parcel_id",
+    "parcel_identifier",
+    "county_name",
+    "state_name",
+    "total_area_acres",
+    "zoning_classification",
+    "surface_owner_name",
+    "jurisdictional_statute_id"
+   ]
+  },
+  {
+   "name": "resource_extraction_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "measurement_date_time",
+    "volume_barrels",
+    "volume_thousand_cubic_feet",
+    "pressure_p_s_i",
+    "fluid_type",
+    "extraction_well_id",
+    "land_parcel_id",
+    "jurisdictional_statute_id"
+   ]
+  },
+  {
+   "name": "lease_agreements",
+   "rows": 4,
+   "columns": [
+    "lease_agreement_id",
+    "lease_identifier",
+    "effective_date",
+    "expiration_date",
+    "royalty_percentage",
+    "bonus_payment_amount",
+    "lessor_name",
+    "lessee_name",
+    "land_parcel_id",
+    "jurisdictional_statute_id"
+   ]
+  },
+  {
+   "name": "statutes_wells",
+   "rows": 8,
+   "columns": [
+    "jurisdictional_statute_id",
+    "extraction_well_id"
+   ]
+  },
+  {
+   "name": "wells_events",
+   "rows": 8,
+   "columns": [
+    "extraction_well_id",
+    "resource_extraction_event_id"
+   ]
+  },
+  {
+   "name": "parcels_wells",
+   "rows": 8,
+   "columns": [
+    "land_parcel_id",
+    "extraction_well_id"
+   ]
+  },
+  {
+   "name": "parcels_agreements",
+   "rows": 8,
+   "columns": [
+    "land_parcel_id",
+    "lease_agreement_id"
+   ]
+  },
+  {
+   "name": "agreements_wells",
+   "rows": 8,
+   "columns": [
+    "lease_agreement_id",
+    "extraction_well_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_jurisdictional_statute_extraction_well_detail",
+  "v_jurisdictional_statute_jurisdictional_statute",
+  "v_extraction_well_land_parcel",
+  "v_extraction_well_extraction_well",
+  "v_extraction_well_resource_extraction_event_detail",
+  "v_land_parcel_extraction_well_detail",
+  "v_land_parcel_lease_agreement_detail",
+  "v_land_parcel_jurisdictional_statute",
+  "v_resource_extraction_event_extraction_well",
+  "v_resource_extraction_event_land_parcel",
+  "v_resource_extraction_event_jurisdictional_statute",
+  "v_lease_agreement_land_parcel",
+  "v_lease_agreement_extraction_well_detail",
+  "v_lease_agreement_jurisdictional_statute"
+ ]
+}

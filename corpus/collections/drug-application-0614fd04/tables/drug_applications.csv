@@ -1,0 +1,5 @@
+drug_application_id,application_id,application_type,drug_substance,approval_status,filing_date,approval_date,therapeutic_indication,dosage_form,strength,regulatory_authority,pharmaceutical_company_id,transferred_from_pharmaceutical_company_id,active_pharmaceutical_ingredient_api_id,geographic_region_id,asset_transfer_id
+1,505997,ANDA,distributed-drug-48,pending,2023-02-09T13:15:00,2023-10-10T21:27:00,distributed-therapeu-60,primary-dosage-40,seasonal-strength-95,composite-regulato-99,1000,1000,0579699c-8fc7-11eb-924d-9cd76263cbd0,1000,1
+2,1250196,NDA,baseline-drug-49,approved,2024-07-20T20:32:00,2024-03-21T04:44:00,baseline-therapeu-61,adaptive-dosage-41,regional-strength-96,primary-regulato-100,1001,1001,476b5bc0-9bad-11eb-a8a2-19ed5c03f8d3,1001,2
+3,124,BLA,pilot-drug-50,withdrawn,2025-12-04T03:49:00,2025-08-05T11:01:00,pilot-therapeu-62,distributed-dosage-42,legacy-strength-97,adaptive-regulato-101,1002,1002,4447008,1002,3
+4,IVC20det40,ANDA,extended-drug-51,transferred,2022-05-15T10:06:00,2022-01-16T18:18:00,extended-therapeu-63,baseline-dosage-43,compact-strength-98,distributed-regulato-102,1003,1003,9246330,1003,4

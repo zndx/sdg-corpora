@@ -1,0 +1,5 @@
+religious_practice_id,practice_id,practice_name,practice_type,prevalence_percentage,region,is_syncretic,survey_response_id,religious_identity_id
+1,fbc3f876-9bac-11eb-a8a2-19ed5c03f8d3,Seasonal Survey,ancestor_veneration,19.70,distributed-region-12,false,1000,1
+2,1562852,Integrated Corridor,spirit_sacrifice,23.40,baseline-region-13,true,1001,2
+3,L683,Extended Series D,charm_usage,27.10,pilot-region-14,false,1002,3
+4,organisational-alignment,Pilot Assessment,healing_ritual,30.80,extended-region-15,true,1003,4

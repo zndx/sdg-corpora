@@ -1,0 +1,5 @@
+id,identifier,title,submission_date,status,is_contributed,author_membership_required,academic_conference_region_code,programme_committee_id
+100,IDE-2086,Compact Initiative,2025-04-24T03:57:00,submitted,false,Susan Levy,1562837,1000
+101,IDE-2091,Legacy Model,2022-09-08T10:14:00,under-review,true,Jeff Benjamin,6564391,1001
+102,IDE-2096,Regional Cluster A,2023-02-19T17:31:00,accepted,false,Theodore Mcgrath,778560,1002
+103,IDE-2101,Seasonal Review,2024-07-03T00:48:00,rejected,true,Kimberly Maynard,8667ec1da10c4a0293d91388b49bc77c,1003

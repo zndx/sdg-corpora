@@ -1,0 +1,5 @@
+board_of_governors_id,board_identifier,meeting_date,meeting_location,attendance_status,decision_outcome,agent_id,fund_operation_id,board_meeting_id
+1,BOA-2651,2023-10-23T21:39:00,legacy-meeting-43,quorum_present,approved,100,100,100
+2,BOA-2652,2024-03-07T04:56:00,compact-meeting-44,quorum_absent,rejected,101,101,101
+3,BOA-2653,2025-08-18T11:13:00,composite-meeting-45,adjourned,deferred,102,102,102
+4,BOA-2654,2022-01-02T18:30:00,primary-meeting-46,quorum_present,approved,103,103,103

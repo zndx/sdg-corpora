@@ -1,0 +1,151 @@
+{
+ "construct_id": "d1a5454dc35bd2d3",
+ "slug": "academic-text-d1a5454d",
+ "passage": "d1a5454dc35bd2d3222b13eb2e3f336ad5d8be6e85bdf318740c1336e1f09eb9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "AcademicText",
+  "AcademicAuthor",
+  "AccessCardPackage",
+  "DigitalPlatform",
+  "StatisticalExercise",
+  "StatisticalConcept"
+ ],
+ "terms": [
+  {
+   "name": "AcademicText",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AcademicAuthor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AccessCardPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DigitalPlatform",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StatisticalExercise",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StatisticalConcept",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_texts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "isbn",
+    "edition",
+    "publication_date",
+    "format",
+    "suggested_retail_price",
+    "title",
+    "academic_author_id",
+    "access_card_package_id",
+    "digital_platform_id"
+   ]
+  },
+  {
+   "name": "academic_authors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "author_id",
+    "full_name",
+    "affiliation",
+    "role",
+    "academic_text_id"
+   ]
+  },
+  {
+   "name": "access_card_packages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "package_id",
+    "access_duration",
+    "platform_name",
+    "status",
+    "activation_date",
+    "digital_platform_id",
+    "academic_text_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "digital_platforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_id",
+    "platform_name",
+    "version",
+    "provider",
+    "is_available",
+    "academic_text_id"
+   ]
+  },
+  {
+   "name": "statistical_exercises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "exercise_id",
+    "exercise_type",
+    "difficulty_level",
+    "is_updated",
+    "concept_covered",
+    "digital_platform_id",
+    "statistical_concept_id"
+   ]
+  },
+  {
+   "name": "statistical_concepts",
+   "rows": 4,
+   "columns": [
+    "statistical_concept_id",
+    "concept_id",
+    "concept_name",
+    "category",
+    "is_core",
+    "statistical_exercise_id"
+   ]
+  },
+  {
+   "name": "platforms_exercises",
+   "rows": 8,
+   "columns": [
+    "digital_platform_id",
+    "statistical_exercise_id"
+   ]
+  }
+ ],
+ "views": [
+  "academic_text_academic_author_view",
+  "academic_text_access_card_package_view",
+  "academic_text_digital_platform_view",
+  "academic_author_academic_text_view",
+  "access_card_package_digital_platform_view",
+  "access_card_package_academic_text_view",
+  "digital_platform_academic_text_view",
+  "digital_platform_statistical_exercise_detail_view",
+  "statistical_exercise_digital_platform_view",
+  "statistical_exercise_statistical_concept_view",
+  "statistical_concept_statistical_exercise_view"
+ ]
+}

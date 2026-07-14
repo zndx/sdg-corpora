@@ -1,0 +1,5 @@
+id,shelter_identifier,shelter_name,shelter_type,current_occupancy,max_capacity,operational_status
+100,SHE-2726,Regional Cluster,public_building,27,32,open
+101,SHE-2729,Seasonal Review D,community_center,36,42,full
+102,SHE-2732,Integrated Initiative,temporary_camp,45,52,closed
+103,SHE-2735,Extended Model,public_building,54,62,open

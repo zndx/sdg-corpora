@@ -1,0 +1,5 @@
+testament_id,name,is_pre_christian,is_post_resurrection,contains_gospels,contains_law,contains_prophecy
+1,Old Testament,false,false,true,false,false
+2,New Testament,true,true,false,true,true
+3,Old Testament,false,false,true,false,false
+4,New Testament,true,true,false,true,true

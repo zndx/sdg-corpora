@@ -1,0 +1,5 @@
+tierId,tierIdentifier,tierName,costPerChild,ticketCount,totalCost,paymentMethod,sessionId
+1,TIE-2665,Primary Corridor A,25.47,39,61.82,composite-payment-45,1
+2,TIE-2672,Composite Series,14.31,57,89.53,primary-payment-46,2
+3,TIE-2679,Compact Assessment,32.21,4,29.24,adaptive-payment-47,3
+4,TIE-2686,Legacy Survey D,19.97,10,13.94,distributed-payment-48,4

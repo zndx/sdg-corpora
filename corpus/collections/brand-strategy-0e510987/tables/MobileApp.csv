@@ -1,0 +1,5 @@
+appId,appName,platform,launchDate,loadTime,activeUsers,status
+100,Pilot Cluster,iOS,2022-05-17,8.45,21,beta
+101,Baseline Review,Android,2023-10-01,12.90,25,live
+102,Distributed Initiative A,cross-platform,2024-03-12,17.35,29,deprecated
+103,Adaptive Model,iOS,2025-08-23,21.80,33,beta

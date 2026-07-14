@@ -1,0 +1,5 @@
+id,session_id,session_name,start_time,end_time,location,is_mandatory,major_event_id,sponsoring_organization_org_id,created_at,updated_at
+1000,1186087,Seasonal Standard,2024-03-27T14:42:00,2023-02-26T13:27:00,extended-location-99,true,100,790471,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,2087748,Integrated Framework,2025-08-11T21:59:00,2024-07-10T20:44:00,integrated-location-100,false,101,1717,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,4716414,Extended Protocol D,2022-01-22T04:16:00,2025-12-21T03:01:00,seasonal-location-101,true,102,69437,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,005588c4-9bac-11eb-a8a2-19ed5c03f8d3,Pilot Programme,2023-06-06T11:33:00,2022-05-05T10:18:00,regional-location-102,false,103,m16,2025-04-16 09:14:00,2025-04-23 15:41:00

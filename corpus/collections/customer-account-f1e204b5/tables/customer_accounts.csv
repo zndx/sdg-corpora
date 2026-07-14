@@ -1,0 +1,5 @@
+id,account_identifier,account_status,opening_date,closing_date,account_type,customer_id,introducing_firm_registration_number
+1000,ACC-2500,active,2025-04-25T15:33:00,2022-09-11T20:12:00,margin,100,REG-2136
+1001,ACC-2502,closed,2022-09-09T22:50:00,2023-02-22T03:29:00,cash,101,REG-2142
+1002,ACC-2504,suspended,2023-02-20T05:07:00,2024-07-06T10:46:00,retirement,102,REG-2148
+1003,ACC-2506,active,2024-07-04T12:24:00,2025-12-17T17:03:00,margin,103,REG-2154

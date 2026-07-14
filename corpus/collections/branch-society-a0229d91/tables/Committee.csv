@@ -1,0 +1,5 @@
+committeeName,committeeCode,meetingFrequency,meetingTime,meetingLocation,appointmentMonth,locationId,createdAt,updatedAt
+Composite Cluster,7441158,30,integrated-meeting-58,legacy-meeting-43,20,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+Compact Review A,2933476,40,seasonal-meeting-59,compact-meeting-44,25,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+Legacy Initiative,6926352,50,regional-meeting-60,composite-meeting-45,30,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+Regional Model,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,60,legacy-meeting-61,primary-meeting-46,35,4,2025-04-16 09:14:00,2025-04-23 15:41:00

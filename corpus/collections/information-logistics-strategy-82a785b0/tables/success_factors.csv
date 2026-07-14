@@ -1,0 +1,5 @@
+success_factor_id,factor_name,factor_category,validation_status,influence_strength,measurement_method,information_logistics_strategy_id,empirical_study_id
+1,Legacy Cluster D,comprehensiveness,validated,20.70,baseline-measurem-25,1,1
+2,Regional Review,flexibility,not validated,25.40,pilot-measurem-26,2,2
+3,Seasonal Initiative,support,pending,30.10,extended-measurem-27,3,3
+4,Integrated Model A,communication,validated,34.80,integrated-measurem-28,4,4

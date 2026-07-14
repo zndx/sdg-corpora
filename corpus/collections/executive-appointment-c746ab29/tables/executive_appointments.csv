@@ -1,0 +1,5 @@
+executive_appointment_id,appointment_date,start_date,end_date,appointment_status,appointment_identifier,executive_person_id,corporate_entity_id,executive_role_id,created_at
+1,2022-05-03,2022-09-05,2022-09-01,active,APP-2343,1,1,1,2025-01-01 00:14:00
+2,2023-10-14,2023-02-16,2023-02-12,terminated,APP-2345,2,2,2,2025-02-06 03:14:00
+3,2024-03-25,2024-07-27,2024-07-23,pending,APP-2347,3,3,3,2025-03-11 06:14:00
+4,2025-08-09,2025-12-11,2025-12-07,active,APP-2349,4,4,4,2025-04-16 09:14:00

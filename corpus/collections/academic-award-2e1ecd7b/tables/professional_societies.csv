@@ -1,0 +1,5 @@
+professional_society_id,society_identifier,society_name,founding_year,headquarters_location,membership_count,primary_discipline,academic_award_id,researcher_id,leadership_position_id
+100,SOC-2579,Composite Model,43,composite-headquar-63,242,compact-primary-44,1000,1,1
+101,SOC-2583,Compact Cluster A,48,primary-headquar-64,77,composite-primary-45,1001,2,2
+102,SOC-2587,Legacy Review,53,adaptive-headquar-65,601,primary-primary-46,1002,3,3
+103,SOC-2591,Regional Initiative,58,distributed-headquar-66,300,adaptive-primary-47,1003,4,4

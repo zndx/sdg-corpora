@@ -1,0 +1,5 @@
+id,outcomeIdentifier,outcomeDescription,timeHorizon,changeDirection,targetLevel,measurableValue,measurementDate,programId
+1,OUT-2476,Legacy Assessment D,short_term,increased,individual,11.95,2024-07-01T18:54:00,1
+2,OUT-2479,Regional Survey,medium_term,decreased,group,14.90,2025-12-12T01:11:00,2
+3,OUT-2482,Seasonal Corridor,long_term,improved,community,17.85,2022-05-23T08:28:00,3
+4,OUT-2485,Integrated Series A,short_term,enhanced,individual,20.80,2023-10-07T15:45:00,4

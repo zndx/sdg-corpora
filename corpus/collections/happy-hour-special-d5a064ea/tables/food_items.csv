@@ -1,0 +1,5 @@
+food_item_id,name,category,price,serving_size,ingredients,happy_hour_special_id
+100,Extended Review,small_plates,12.87,primary-serving-40,regional-ingredie-42,1
+101,Pilot Initiative A,desserts,35.45,adaptive-serving-41,legacy-ingredie-43,2
+102,Baseline Model,small_plates,29.24,distributed-serving-42,compact-ingredie-44,3
+103,Distributed Cluster,desserts,29.99,baseline-serving-43,composite-ingredie-45,4

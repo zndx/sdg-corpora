@@ -1,0 +1,225 @@
+{
+ "construct_id": "5982edf4be463cd5",
+ "slug": "protein-structure-5982edf4",
+ "passage": "5982edf4be463cd505a646391e98332113c9acf68fc8aeb96cfde4e3f98620eb.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 19,
+ "entities": [
+  "ProteinStructure",
+  "Protein",
+  "SmallMolecule",
+  "MolecularDynamicsSimulation",
+  "SoftwareTool",
+  "Pathogen",
+  "CropPlant",
+  "FoodFormulation",
+  "FoodIndustryApplication"
+ ],
+ "terms": [
+  {
+   "name": "ProteinStructure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Protein",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SmallMolecule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MolecularDynamicsSimulation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SoftwareTool",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Pathogen",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CropPlant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodFormulation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIndustryApplication",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "protein_structures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "structure_id",
+    "pdb_code",
+    "resolution",
+    "method",
+    "date_resolved",
+    "chain_count",
+    "rmsd_value",
+    "software_tool_id",
+    "protein_id"
+   ]
+  },
+  {
+   "name": "proteins",
+   "rows": 4,
+   "columns": [
+    "protein_id",
+    "uniprot_accession",
+    "gene_name",
+    "organism",
+    "molecular_weight",
+    "sequence_length",
+    "function",
+    "protein_structure_id",
+    "small_molecule_id",
+    "pathogen_id"
+   ]
+  },
+  {
+   "name": "small_molecules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "molecule_id",
+    "smiles",
+    "iupac_name",
+    "molecular_formula",
+    "molecular_weight",
+    "activity_class",
+    "toxicity_score",
+    "optimization_status",
+    "protein_id",
+    "food_formulation_id"
+   ]
+  },
+  {
+   "name": "molecular_dynamics_simulations",
+   "rows": 4,
+   "columns": [
+    "molecular_dynamics_simulation_id",
+    "simulation_id",
+    "start_time",
+    "end_time",
+    "duration",
+    "temperature",
+    "pressure",
+    "force_field",
+    "convergence_status",
+    "software_tool_id",
+    "protein_structure_id"
+   ]
+  },
+  {
+   "name": "software_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "version",
+    "license_type",
+    "primary_function",
+    "developer",
+    "molecular_dynamics_simulation_id",
+    "protein_structure_id",
+    "small_molecule_id"
+   ]
+  },
+  {
+   "name": "pathogens",
+   "rows": 4,
+   "columns": [
+    "pathogen_id",
+    "scientific_name",
+    "common_name",
+    "host_plant",
+    "disease_name",
+    "geographic_distribution",
+    "crop_plant_id",
+    "protein_id"
+   ]
+  },
+  {
+   "name": "crop_plants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plant_id",
+    "species_name",
+    "variety",
+    "growth_stage",
+    "stress_tolerance_level",
+    "yield_metric",
+    "pathogen_id",
+    "small_molecule_id"
+   ]
+  },
+  {
+   "name": "food_formulations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "formulation_id",
+    "product_code",
+    "colorant_source",
+    "concentration",
+    "ph_level",
+    "shelf_life",
+    "regulatory_status",
+    "small_molecule_id",
+    "food_industry_application_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "food_industry_applications",
+   "rows": 4,
+   "columns": [
+    "food_industry_application_id",
+    "application_id",
+    "application_type",
+    "target_food_matrix",
+    "dosage",
+    "efficacy_score",
+    "food_formulation_id"
+   ]
+  }
+ ],
+ "views": [
+  "protein_structure_software_tool_view",
+  "protein_structure_protein_view",
+  "protein_protein_structure_view",
+  "protein_small_molecule_view",
+  "protein_pathogen_view",
+  "small_molecule_protein_view",
+  "small_molecule_food_formulation_view",
+  "molecular_dynamics_simulation_software_tool_view",
+  "molecular_dynamics_simulation_protein_structure_view",
+  "software_tool_molecular_dynamics_simulation_view",
+  "software_tool_protein_structure_view",
+  "software_tool_small_molecule_view",
+  "pathogen_crop_plant_view",
+  "pathogen_protein_view",
+  "crop_plant_pathogen_view",
+  "crop_plant_small_molecule_view",
+  "food_formulation_small_molecule_view",
+  "food_formulation_food_industry_application_view",
+  "food_industry_application_food_formulation_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,case_i_d,diagnosis_date,symptom_profile,disease_form,patient_age,outcome,healthcare_facility_id,pathogen_id,surveillance_site_id
+1,CAS-2654,2023-10-26T21:51:00,legacy-symptom-13,Dengue Fever,27,Recovered,1,1,1
+2,CAS-2660,2024-03-10T04:08:00,compact-symptom-14,Dengue Hemorrhagic Fever,38,Fatal,2,2,2
+3,CAS-2666,2025-08-21T11:25:00,composite-symptom-15,Dengue Shock Syndrome,49,Ongoing,3,3,3
+4,CAS-2672,2022-01-05T18:42:00,primary-symptom-16,Dengue Fever,60,Recovered,4,4,4

@@ -1,0 +1,5 @@
+id,identifier,name,location,population,economic_status,historical_link,non_self_governing,government_department_id,human_rights_instrument_id,development_funding_id
+1,IDE-2086,Extended Review,extended-location-99,42,self-sufficient,crown,false,1,1,1000
+2,IDE-2091,Pilot Initiative A,integrated-location-100,49,dependent,colonial,true,2,2,1001
+3,IDE-2096,Baseline Model,seasonal-location-101,56,self-sufficient,crown,false,3,3,1002
+4,IDE-2101,Distributed Cluster,regional-location-102,63,dependent,colonial,true,4,4,1003

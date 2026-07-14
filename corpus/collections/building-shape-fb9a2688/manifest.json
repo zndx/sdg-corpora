@@ -1,0 +1,127 @@
+{
+ "construct_id": "fb9a26881eeb4e74",
+ "slug": "building-shape-fb9a2688",
+ "passage": "fb9a26881eeb4e74d9b68a32a1df79376cf6d2ecb484c8bf6ac6cedc6624e501.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 8,
+ "entities": [
+  "BuildingShape",
+  "EnergySimulation",
+  "GlazingRatio",
+  "BuildingMaterial",
+  "OptimizationProcess"
+ ],
+ "terms": [
+  {
+   "name": "BuildingShape",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnergySimulation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GlazingRatio",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BuildingMaterial",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "OptimizationProcess",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "building_shapes",
+   "rows": 4,
+   "columns": [
+    "building_shape_id",
+    "shape_id",
+    "ground_plan_type",
+    "vertical_division_type",
+    "volume",
+    "surface_area",
+    "shape_factor",
+    "aerodynamic_coefficient",
+    "energy_simulation_id",
+    "glazing_ratio_id"
+   ]
+  },
+  {
+   "name": "energy_simulations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "simulation_id",
+    "simulation_date",
+    "energy_consumption",
+    "heating_load",
+    "cooling_load",
+    "ventilation_rate",
+    "indoor_temperature",
+    "outdoor_temperature",
+    "building_shape_id",
+    "building_material_id"
+   ]
+  },
+  {
+   "name": "glazing_ratios",
+   "rows": 4,
+   "columns": [
+    "id",
+    "glazing_ratio_id",
+    "wall_area",
+    "glazing_area",
+    "ratio_percentage",
+    "orientation",
+    "building_shape_id"
+   ]
+  },
+  {
+   "name": "building_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_id",
+    "material_name",
+    "thermal_conductivity",
+    "density",
+    "thickness",
+    "installation_date",
+    "energy_simulation_id"
+   ]
+  },
+  {
+   "name": "optimization_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_id",
+    "start_date",
+    "end_date",
+    "cost_reduction",
+    "efficiency_gain",
+    "status",
+    "building_shape_id",
+    "energy_simulation_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_building_shape_energy_simulation",
+  "vw_building_shape_glazing_ratio",
+  "vw_energy_simulation_building_shape",
+  "vw_energy_simulation_building_material",
+  "vw_glazing_ratio_building_shape",
+  "vw_building_material_energy_simulation",
+  "vw_optimization_process_building_shape",
+  "vw_optimization_process_energy_simulation"
+ ]
+}

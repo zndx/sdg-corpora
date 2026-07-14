@@ -1,0 +1,5 @@
+coordinating_council_id,council_id,council_name,county_served,has_funding_available,utilization_rate,established_date,funding_source_id,created_at
+1,ae409270-8fcd-11eb-924d-9cd76263cbd0,Legacy Standard D,baseline-county-37,false,4.20,2024-03-27,1,2025-01-01 00:14:00
+2,Bjornfant,Regional Framework,pilot-county-38,true,7.40,2025-08-11,2,2025-02-06 03:14:00
+3,726041,Seasonal Protocol,extended-county-39,false,10.60,2022-01-22,3,2025-03-11 06:14:00
+4,2a540c6d30d447058e7e4de6c68c2d6d,Integrated Programme A,integrated-county-40,true,13.80,2023-06-06,4,2025-04-16 09:14:00

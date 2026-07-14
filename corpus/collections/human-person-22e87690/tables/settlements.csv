@@ -1,0 +1,5 @@
+settlement_id,has_settlement_name,has_geographic_region,has_population_density,building_id,census_registration_id
+1,Integrated Model A,distributed-geograph-24,13,1,1
+2,Extended Cluster,baseline-geograph-25,16,2,2
+3,Pilot Review,pilot-geograph-26,19,3,3
+4,Baseline Initiative D,extended-geograph-27,22,4,4

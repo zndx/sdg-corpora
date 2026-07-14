@@ -1,0 +1,198 @@
+{
+ "construct_id": "a7e3ee7a9ed8c84e",
+ "slug": "regulatory-instrument-a7e3ee7a",
+ "passage": "a7e3ee7a9ed8c84eb4f3d18c80deb1dea061f0e8cd1c1a312634a237e548011c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 17,
+ "entities": [
+  "RegulatoryInstrument",
+  "FinancialCounterparty",
+  "OTCDerivativeTrade",
+  "NettingAgreement",
+  "Collateral",
+  "CreditSupportAnnex"
+ ],
+ "terms": [
+  {
+   "name": "RegulatoryInstrument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "FinancialCounterparty",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "OTCDerivativeTrade",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NettingAgreement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Collateral",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CreditSupportAnnex",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "regulatory_instruments",
+   "rows": 4,
+   "columns": [
+    "regulatory_instrument_id",
+    "instrument_identifier",
+    "title",
+    "issuing_authority",
+    "adoption_date",
+    "publication_date",
+    "entry_into_force_date",
+    "status",
+    "supersedes_regulatory_instrument_id",
+    "amends_regulatory_instrument_id",
+    "financial_counterparty_id"
+   ]
+  },
+  {
+   "name": "financial_counterparties",
+   "rows": 4,
+   "columns": [
+    "financial_counterparty_id",
+    "counterparty_identifier",
+    "legal_name",
+    "entity_type",
+    "jurisdiction",
+    "registration_status",
+    "clearing_threshold_exceeded",
+    "regulatory_instrument_id",
+    "collateral_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "o_t_c_derivative_trades",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trade_identifier",
+    "trade_date",
+    "trade_type",
+    "settlement_type",
+    "notional_amount",
+    "currency",
+    "maturity_date",
+    "status",
+    "netting_agreement_id",
+    "collateral_id",
+    "regulatory_instrument_id"
+   ]
+  },
+  {
+   "name": "netting_agreements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agreement_identifier",
+    "agreement_type",
+    "enforceability_review_status",
+    "reviewed_by",
+    "effective_date",
+    "termination_date",
+    "regulatory_instrument_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "collaterals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "collateral_identifier",
+    "asset_type",
+    "issuing_entity",
+    "credit_quality_rating",
+    "denomination",
+    "eligibility_status",
+    "wrong_way_risk",
+    "financial_counterparty_id",
+    "o_t_c_derivative_trade_id",
+    "regulatory_instrument_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "credit_support_annexes",
+   "rows": 4,
+   "columns": [
+    "credit_support_annex_id",
+    "csa_identifier",
+    "netting_set",
+    "amendment_status",
+    "effective_date",
+    "termination_date",
+    "netting_agreement_id",
+    "regulatory_instrument_id"
+   ]
+  },
+  {
+   "name": "counterparties_trades",
+   "rows": 8,
+   "columns": [
+    "financial_counterparty_id",
+    "o_t_c_derivative_trade_id"
+   ]
+  },
+  {
+   "name": "trades_counterparties",
+   "rows": 8,
+   "columns": [
+    "o_t_c_derivative_trade_id",
+    "financial_counterparty_id"
+   ]
+  },
+  {
+   "name": "agreements_trades",
+   "rows": 8,
+   "columns": [
+    "netting_agreement_id",
+    "o_t_c_derivative_trade_id"
+   ]
+  },
+  {
+   "name": "annexes_collaterals",
+   "rows": 8,
+   "columns": [
+    "credit_support_annex_id",
+    "collateral_id"
+   ]
+  }
+ ],
+ "views": [
+  "regulatory_instrument_regulatory_instrument_view",
+  "regulatory_instrument_financial_counterparty_view",
+  "financial_counterparty_regulatory_instrument_view",
+  "financial_counterparty_o_t_c_derivative_trade_detail_view",
+  "financial_counterparty_collateral_view",
+  "o_t_c_derivative_trade_financial_counterparty_detail_view",
+  "o_t_c_derivative_trade_netting_agreement_view",
+  "o_t_c_derivative_trade_collateral_view",
+  "o_t_c_derivative_trade_regulatory_instrument_view",
+  "netting_agreement_o_t_c_derivative_trade_detail_view",
+  "netting_agreement_regulatory_instrument_view",
+  "collateral_financial_counterparty_view",
+  "collateral_o_t_c_derivative_trade_view",
+  "collateral_regulatory_instrument_view",
+  "credit_support_annex_netting_agreement_view",
+  "credit_support_annex_collateral_detail_view",
+  "credit_support_annex_regulatory_instrument_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,staffId,staffName,roleType,shiftStart,shiftEnd,receivesServiceChargeShare,outletId,courseId
+100,937735,Jim Henson,waiter,2024-11-04T22:30:00,2023-06-07T05:51:00,false,1,1
+101,3158139,Purnima Medical,runner,2025-04-15T05:47:00,2024-11-18T12:08:00,true,2,2
+102,8189502,Deanna Turner,chef,2022-09-26T12:04:00,2025-04-02T19:25:00,false,3,3
+103,69438,Kimberly Myers,kitchen_porter,2023-02-10T19:21:00,2022-09-13T02:42:00,true,4,4

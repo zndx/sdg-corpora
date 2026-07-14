@@ -1,0 +1,20 @@
+CREATE TABLE insurance_policies (
+  insurance_policy_id INTEGER NOT NULL,
+  policy_identifier VARCHAR(32),
+  provider_name VARCHAR(32),
+  coverage_limit_u_s_d DECIMAL,
+  effective_date DATE,
+  expiration_date DATE,
+  rating_agency VARCHAR(41),
+  credit_rating VARCHAR(32),
+  policy_type VARCHAR(32),
+  client_asset_portfolio_id INTEGER,
+  insurance_underwriter_id INTEGER,
+  supersedes_insurance_policy_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (insurance_policy_id),
+  FOREIGN KEY (client_asset_portfolio_id) REFERENCES client_asset_portfolios (client_asset_portfolio_id),
+  FOREIGN KEY (insurance_underwriter_id) REFERENCES insurance_underwriters (id),
+  FOREIGN KEY (supersedes_insurance_policy_id) REFERENCES insurance_policies (insurance_policy_id)
+);

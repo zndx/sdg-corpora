@@ -1,0 +1,5 @@
+id,server_id,model,partition_type,ipar_count,status,last_health_check_date,office_id,software_version_id,system_metric_id
+1,911352d5dab64576b7a6da51aa69d76d,composite-model-81,legacy-partitio-91,13,regional-status-84,2023-10-23,1,1,1
+2,1450637,primary-model-82,compact-partitio-92,15,legacy-status-85,2024-03-07,2,2,2
+3,4985152,adaptive-model-83,composite-partitio-93,4,compact-status-86,2025-08-18,3,3,3
+4,9736887,distributed-model-84,primary-partitio-94,4,composite-status-87,2022-01-02,4,4,4

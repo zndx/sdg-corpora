@@ -1,0 +1,5 @@
+id,inspection_id,inspection_date,inspection_status,inspection_scope,findings_summary,policy_document_policy_ref
+1,BJanecke,2025-12-03T23:09:00,planned,national,pilot-findings-32,8189490
+2,575199,2022-05-14T06:26:00,in_progress,local_authority,extended-findings-33,1450659
+3,state_uk_4,2023-10-25T13:43:00,completed,agency_specific,integrated-findings-34,937738
+4,8350011,2024-03-09T20:00:00,archived,national,seasonal-findings-35,4277030

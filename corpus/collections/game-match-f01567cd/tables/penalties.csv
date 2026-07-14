@@ -1,0 +1,5 @@
+id,penalty_id,rule_article,yardage,penalty_type,enforced_by,match_id,team_id,created_at
+1000,4180959,integrated-rule-52,27,primary-penalty-46,legacy-enforced-19,727038,1000,2025-01-01 00:14:00
+1001,325460,seasonal-rule-53,30,adaptive-penalty-47,compact-enforced-20,10207150,1001,2025-02-06 03:14:00
+1002,7119762,regional-rule-54,33,distributed-penalty-48,composite-enforced-21,8881,1002,2025-03-11 06:14:00
+1003,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,legacy-rule-55,36,baseline-penalty-49,primary-enforced-22,2839507,1003,2025-04-16 09:14:00

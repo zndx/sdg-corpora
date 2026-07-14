@@ -1,0 +1,5 @@
+id,reportIdentifier,reportDate,classificationLevel,threatCategory,status,complianceStandard,repositoryId,analystId,interestId,agencyId
+1000,REP-2544,2024-03-02T02:54:00,Unclassified,Terrorism,Draft,CHRIA,100,1,1,1000
+1001,REP-2545,2025-08-13T09:11:00,Law Enforcement Sensitive,Homegrown Violent Extremist,Under Review,28 CFR Part 23,101,2,2,1001
+1002,REP-2546,2022-01-24T16:28:00,Confidential,Lone Offender,Approved,CHRIA,102,3,3,1002
+1003,REP-2547,2023-06-08T23:45:00,Secret,Drug Trafficking,Disseminated,28 CFR Part 23,103,4,4,1003

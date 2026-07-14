@@ -1,0 +1,148 @@
+{
+ "construct_id": "a80d7e77164f2fc6",
+ "slug": "admission-application-a80d7e77",
+ "passage": "a80d7e77164f2fc67d087a4ef19502119bfbf47c7933ef225553a892de5b9a74.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "AdmissionApplication",
+  "Child",
+  "Guardian",
+  "Address",
+  "School"
+ ],
+ "terms": [
+  {
+   "name": "AdmissionApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Child",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Guardian",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Address",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "School",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "admission_applications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "application_id",
+    "application_date",
+    "status",
+    "academic_year",
+    "reference_number",
+    "child_id",
+    "school_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "childs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "child_id",
+    "full_name",
+    "date_of_birth",
+    "gender",
+    "year_group",
+    "birth_certificate_reference",
+    "has_sibling_child_id",
+    "school_id"
+   ]
+  },
+  {
+   "name": "guardians",
+   "rows": 4,
+   "columns": [
+    "guardian_id",
+    "full_name",
+    "relationship",
+    "home_phone",
+    "mobile_phone",
+    "work_phone",
+    "email",
+    "admission_application_id",
+    "address_id",
+    "child_id"
+   ]
+  },
+  {
+   "name": "addresses",
+   "rows": 4,
+   "columns": [
+    "address_id",
+    "street",
+    "city",
+    "county",
+    "post_code",
+    "address_type",
+    "guardian_id",
+    "child_id"
+   ]
+  },
+  {
+   "name": "schools",
+   "rows": 4,
+   "columns": [
+    "school_id",
+    "school_name",
+    "street_address",
+    "post_code",
+    "telephone",
+    "website",
+    "child_id",
+    "address_id"
+   ]
+  },
+  {
+   "name": "applications_guardians",
+   "rows": 8,
+   "columns": [
+    "admission_application_id",
+    "guardian_id"
+   ]
+  },
+  {
+   "name": "childs_guardians",
+   "rows": 8,
+   "columns": [
+    "child_id",
+    "guardian_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_admission_application_child",
+  "v_admission_application_guardian_detail",
+  "v_admission_application_school",
+  "v_child_child",
+  "v_child_school",
+  "v_child_guardian_detail",
+  "v_guardian_admission_application",
+  "v_guardian_address",
+  "v_guardian_child",
+  "v_address_guardian",
+  "v_address_child",
+  "v_school_child",
+  "v_school_address"
+ ]
+}

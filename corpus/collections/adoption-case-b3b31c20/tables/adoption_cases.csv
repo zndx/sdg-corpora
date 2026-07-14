@@ -1,0 +1,5 @@
+case_id,filing_date,status,jurisdiction,case_notes,petitioner_contact_person,nlf_rep,adoption_petitioner_social_security_number,adult_adoptee_id
+39800622,2023-02-09,pending,regional-jurisdic-30,compact-case-98,Brandon Long,baseline-nlf-85,SOC-2466,1
+4891,2024-07-20,under_review,legacy-jurisdic-31,composite-case-99,Stephanie Lawrence,pilot-nlf-86,SOC-2467,2
+17374813,2025-12-04,approved,compact-jurisdic-32,primary-case-100,Mary Alvarez,extended-nlf-87,SOC-2468,3
+state_uk_9,2022-05-15,denied,composite-jurisdic-33,adaptive-case-101,Theodore Mcgrath,integrated-nlf-88,SOC-2469,4

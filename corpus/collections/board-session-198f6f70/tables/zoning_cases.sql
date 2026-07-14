@@ -1,0 +1,20 @@
+CREATE TABLE zoning_cases (
+  id INTEGER NOT NULL,
+  file_number VARCHAR(32),
+  application_date DATE,
+  hearing_date DATE,
+  property_address VARCHAR(32),
+  legal_description VARCHAR(32),
+  zoning_district VARCHAR(32),
+  requested_relief VARCHAR(32),
+  status VARCHAR(32),
+  applicant_id INTEGER,
+  representative_id INTEGER,
+  board_session_id INTEGER,
+  building_report_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (applicant_id) REFERENCES applicants (applicant_id),
+  FOREIGN KEY (representative_id) REFERENCES representatives (id),
+  FOREIGN KEY (board_session_id) REFERENCES board_sessions (board_session_id),
+  FOREIGN KEY (building_report_id) REFERENCES building_reports (id)
+);

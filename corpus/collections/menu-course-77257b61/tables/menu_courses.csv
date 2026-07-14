@@ -1,0 +1,5 @@
+id,course_identifier,course_name,course_description,is_vegetarian,is_vegan,course_type,dining_package_id,food_ingredient_id
+100,COU-2154,Legacy Protocol D,Integrated Framework A,true,false,Soup,1,1
+101,COU-2158,Regional Programme,Extended Protocol,false,true,Starter,2,2
+102,COU-2162,Seasonal Standard,Pilot Programme,true,false,Main,3,3
+103,COU-2166,Integrated Framework A,Baseline Standard D,false,true,Dessert,4,4

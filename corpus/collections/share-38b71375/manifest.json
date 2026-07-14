@@ -1,0 +1,163 @@
+{
+ "construct_id": "38b713755dcc6cde",
+ "slug": "share-38b71375",
+ "passage": "38b713755dcc6cdeba67387dc99fb99ec677d2c46633329c3d0bac8ecac80cd6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 14,
+ "entities": [
+  "Share",
+  "Shareholder",
+  "AnnualGeneralMeeting",
+  "BoardMember",
+  "NominationCommittee",
+  "Resolution"
+ ],
+ "terms": [
+  {
+   "name": "Share",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Shareholder",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AnnualGeneralMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardMember",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "NominationCommittee",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Resolution",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "shares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "nominal_value",
+    "voting_rights",
+    "issuance_date",
+    "current_status",
+    "shareholder_id"
+   ]
+  },
+  {
+   "name": "shareholders",
+   "rows": 4,
+   "columns": [
+    "shareholder_id",
+    "identifier",
+    "legal_name",
+    "shareholder_type",
+    "registration_date",
+    "is_proxy_holder",
+    "share_id",
+    "annual_general_meeting_id"
+   ]
+  },
+  {
+   "name": "annual_general_meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_id",
+    "scheduled_date",
+    "actual_date",
+    "location",
+    "quorum_met",
+    "total_shares_represented",
+    "attendee_count",
+    "board_member_id",
+    "nomination_committee_id",
+    "resolution_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "board_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_id",
+    "full_name",
+    "appointment_date",
+    "term_end_date",
+    "is_chairman",
+    "fee_amount",
+    "payment_method",
+    "annual_general_meeting_id",
+    "resolution_id"
+   ]
+  },
+  {
+   "name": "nomination_committees",
+   "rows": 4,
+   "columns": [
+    "nomination_committee_id",
+    "committee_id",
+    "charter_version",
+    "min_members",
+    "max_members",
+    "chairman_id",
+    "annual_general_meeting_id",
+    "resolution_id"
+   ]
+  },
+  {
+   "name": "resolutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resolution_id",
+    "pass_date",
+    "resolution_type",
+    "amount",
+    "currency",
+    "is_published",
+    "annual_general_meeting_id",
+    "shareholder_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "meetings_shareholders",
+   "rows": 8,
+   "columns": [
+    "annual_general_meeting_id",
+    "shareholder_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_share_shareholder",
+  "vw_shareholder_share",
+  "vw_shareholder_annual_general_meeting",
+  "vw_annual_general_meeting_board_member",
+  "vw_annual_general_meeting_nomination_committee",
+  "vw_annual_general_meeting_resolution",
+  "vw_annual_general_meeting_shareholder_detail",
+  "vw_board_member_annual_general_meeting",
+  "vw_board_member_resolution",
+  "vw_nomination_committee_annual_general_meeting",
+  "vw_nomination_committee_resolution",
+  "vw_resolution_annual_general_meeting",
+  "vw_resolution_shareholder",
+  "vw_resolution_board_member"
+ ]
+}

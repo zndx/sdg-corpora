@@ -1,0 +1,5 @@
+ancient_inscription_id,inscription_i_d,script_type,discovery_location,date_discovered,deciphered_text,linguistic_interpretation,settlement_area_id,gaulish_tribe_id,writing_system_id
+1,INS-2612,regional-script-18,baseline-discover-43,2023-06-01,integrated-decipher-64,seasonal-linguist-29,100,100,1
+2,INS-2617,legacy-script-19,pilot-discover-44,2024-11-12,seasonal-decipher-65,regional-linguist-30,101,101,2
+3,INS-2622,compact-script-20,extended-discover-45,2025-04-23,regional-decipher-66,legacy-linguist-31,102,102,3
+4,INS-2627,composite-script-21,integrated-discover-46,2022-09-07,legacy-decipher-67,compact-linguist-32,103,103,4

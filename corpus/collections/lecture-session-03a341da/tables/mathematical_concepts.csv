@@ -1,0 +1,5 @@
+concept_id,name,category,complexity_level,prerequisite_concepts,computational_example_id,lecture_session_id
+884350,Extended Review,calculus,37,distributed-prerequi-72,100,1000
+392497,Pilot Initiative A,differential_equations,45,baseline-prerequi-73,101,1001
+2106713,Baseline Model,linear_algebra,53,pilot-prerequi-74,102,1002
+4463648,Distributed Cluster,numerical_methods,61,extended-prerequi-75,103,1003

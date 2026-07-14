@@ -1,0 +1,5 @@
+id,partnership_id,partnership_name,partner_type,start_date,end_date,is_active,focus_area,librarian_id,digital_resource_id
+1,6564393,Distributed Review,family,2022-09-05,2022-09-01,true,engagement,1250209,1000
+2,gd_fp_eu_acc1,Adaptive Initiative D,non_profit,2023-02-16,2023-02-12,false,lifelong_learning,7119786,1001
+3,32814,Primary Model,government,2024-07-27,2024-07-23,true,resource_sharing,4985163,1002
+4,76a22c6ecc114448872b4c7cb5d4d087,Composite Cluster,public_library,2025-12-11,2025-12-07,false,mentorship,b_VB-EC-15,1003

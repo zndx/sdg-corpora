@@ -1,0 +1,5 @@
+assessment_id,assessment_type,duration_minutes,score_weight_percentage,max_score,assessment_status,competition_event_id
+1,written,35,17.70,7.70,pending,1
+2,practical,38,22.40,9.40,in-progress,2
+3,written,41,27.10,11.10,graded,3
+4,practical,44,31.80,12.80,archived,4

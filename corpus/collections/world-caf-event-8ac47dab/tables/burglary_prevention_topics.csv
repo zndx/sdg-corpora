@@ -1,0 +1,5 @@
+id,topic_identifier,topic_name,category,complexity_level,is_primary_focus,security_project_id
+1,TOP-2690,Regional Model,awareness,low,true,1
+2,TOP-2696,Seasonal Cluster D,practice_exchange,medium,false,2
+3,TOP-2702,Integrated Review,cooperation,high,true,3
+4,TOP-2708,Extended Initiative,policy,low,false,4

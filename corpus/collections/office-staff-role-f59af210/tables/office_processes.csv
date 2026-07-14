@@ -1,0 +1,5 @@
+id,process_type,operating_hours_start,operating_hours_end,is_lunch_break_included,lunch_break_start,lunch_break_end,semester_restriction,office_staff_role_id,document_id
+1,distributed-process-36,2025-12-25T11:21:00,2023-02-03T01:15:00,true,2023-06-23T05:15:00,2023-10-10T21:39:00,regional-semester-42,1,1
+2,baseline-process-37,2022-05-09T18:38:00,2024-07-14T08:32:00,false,2024-11-07T12:32:00,2024-03-21T04:56:00,legacy-semester-43,2,2
+3,pilot-process-38,2023-10-20T01:55:00,2025-12-25T15:49:00,true,2025-04-18T19:49:00,2025-08-05T11:13:00,compact-semester-44,3,3
+4,extended-process-39,2024-03-04T08:12:00,2022-05-09T22:06:00,false,2022-09-02T02:06:00,2022-01-16T18:30:00,composite-semester-45,4,4

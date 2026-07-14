@@ -1,0 +1,117 @@
+{
+ "construct_id": "30e256c49c4e7a3e",
+ "slug": "membership-transfer-request-30e256c4",
+ "passage": "30e256c49c4e7a3e9f8a8ba57f0886ac927ac2795dabfdb3845f8ce691a9a900.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 6,
+ "entities": [
+  "MembershipTransferRequest",
+  "RequestSubmitter",
+  "BPROMember",
+  "BenefitProgram"
+ ],
+ "terms": [
+  {
+   "name": "MembershipTransferRequest",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RequestSubmitter",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "BPROMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "BenefitProgram",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "membership_transfer_requests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "request_id",
+    "submission_date",
+    "status",
+    "transfer_reason",
+    "processing_days",
+    "request_submitter_id",
+    "b_p_r_o_member_id",
+    "involves_recipient_b_p_r_o_member_id"
+   ]
+  },
+  {
+   "name": "request_submitters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "submitter_name",
+    "submitter_email",
+    "created_at"
+   ]
+  },
+  {
+   "name": "b_p_r_o_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_name",
+    "member_email",
+    "is_former_member",
+    "membership_duration_months",
+    "membership_type",
+    "membership_transfer_request_id",
+    "is_recipient_of_membership_transfer_request_id"
+   ]
+  },
+  {
+   "name": "benefit_programs",
+   "rows": 4,
+   "columns": [
+    "benefit_program_id",
+    "program_code",
+    "program_name"
+   ]
+  },
+  {
+   "name": "requests_programs",
+   "rows": 8,
+   "columns": [
+    "membership_transfer_request_id",
+    "benefit_program_id"
+   ]
+  },
+  {
+   "name": "submitters_requests",
+   "rows": 8,
+   "columns": [
+    "request_submitter_id",
+    "membership_transfer_request_id"
+   ]
+  },
+  {
+   "name": "programs_requests",
+   "rows": 8,
+   "columns": [
+    "benefit_program_id",
+    "membership_transfer_request_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_membership_transfer_request_request_submitter",
+  "vw_membership_transfer_request_b_p_r_o_member",
+  "vw_membership_transfer_request_benefit_program_detail",
+  "vw_request_submitter_membership_transfer_request_detail",
+  "vw_b_p_r_o_member_membership_transfer_request",
+  "vw_benefit_program_membership_transfer_request_detail"
+ ]
+}

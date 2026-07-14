@@ -1,0 +1,5 @@
+channelId,channelIdentifier,channelType,urlOrEndpoint,supportsMultilingual,isFree,organizationId,createdAt,updatedAt
+1000,CHA-2292,website,https://bugs.launchpad.net/openstack-manuals/+bug/1341342,false,true,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,CHA-2294,mobile_app,https://www.mfsa.com.mt/financial-services-register/,true,false,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,CHA-2296,interactive_kiosk,https://grants.nih.gov/grants/guide/pa-files/PAR-18-251.html,false,true,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,CHA-2298,telephone,https://bugs.launchpad.net/trove/+bug/1366175,true,false,4,2025-04-16 09:14:00,2025-04-23 15:41:00

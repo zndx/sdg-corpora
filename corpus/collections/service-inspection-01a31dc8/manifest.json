@@ -1,0 +1,215 @@
+{
+ "construct_id": "01a31dc8d305cf96",
+ "slug": "service-inspection-01a31dc8",
+ "passage": "01a31dc8d305cf96bf65dda5e40ea6e96efb49ea918232aa91a5338d86812054.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 17,
+ "entities": [
+  "ServiceInspection",
+  "SocialCareService",
+  "ServiceUser",
+  "NeedsAssessment",
+  "ServiceAgency",
+  "PolicyDocument"
+ ],
+ "terms": [
+  {
+   "name": "ServiceInspection",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SocialCareService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceUser",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "NeedsAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceAgency",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PolicyDocument",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "service_inspections",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inspection_id",
+    "inspection_date",
+    "inspection_status",
+    "inspection_scope",
+    "findings_summary",
+    "policy_document_policy_ref"
+   ]
+  },
+  {
+   "name": "social_care_services",
+   "rows": 4,
+   "columns": [
+    "service_code",
+    "service_name",
+    "service_type",
+    "delivery_mode",
+    "is_integrated",
+    "eligibility_criteria",
+    "agency_id",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "service_users",
+   "rows": 4,
+   "columns": [
+    "id",
+    "user_id",
+    "user_type",
+    "has_disability",
+    "disability_type",
+    "parenting_status",
+    "needs_acknowledged",
+    "service_user_id",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "needs_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "assessment_type",
+    "is_service_led",
+    "needs_identified",
+    "assessment_outcome",
+    "agency_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "service_agencies",
+   "rows": 4,
+   "columns": [
+    "agency_id",
+    "agency_name",
+    "agency_type",
+    "has_specific_policy",
+    "jurisdiction",
+    "adoption_of_social_model",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "policy_documents",
+   "rows": 4,
+   "columns": [
+    "policy_ref",
+    "policy_title",
+    "publish_date",
+    "policy_scope",
+    "legislation_reference",
+    "is_mandatory",
+    "service_code",
+    "service_inspection_id"
+   ]
+  },
+  {
+   "name": "inspections_services",
+   "rows": 8,
+   "columns": [
+    "service_inspection_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "services_users",
+   "rows": 8,
+   "columns": [
+    "service_code",
+    "service_user_id"
+   ]
+  },
+  {
+   "name": "users_services",
+   "rows": 8,
+   "columns": [
+    "service_user_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "assessments_users",
+   "rows": 8,
+   "columns": [
+    "needs_assessment_id",
+    "service_user_id"
+   ]
+  },
+  {
+   "name": "agencies_services",
+   "rows": 8,
+   "columns": [
+    "agency_id",
+    "service_code"
+   ]
+  },
+  {
+   "name": "agencies_assessments",
+   "rows": 8,
+   "columns": [
+    "agency_id",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "agencies_agencies",
+   "rows": 8,
+   "columns": [
+    "agency_id",
+    "collaborates_with_agency_id"
+   ]
+  },
+  {
+   "name": "documents_agencies",
+   "rows": 8,
+   "columns": [
+    "policy_document_policy_ref",
+    "agency_id"
+   ]
+  }
+ ],
+ "views": [
+  "service_inspection_social_care_service_detail_view",
+  "service_inspection_policy_document_view",
+  "social_care_service_service_agency_view",
+  "social_care_service_service_user_detail_view",
+  "social_care_service_needs_assessment_view",
+  "service_user_social_care_service_detail_view",
+  "service_user_service_user_view",
+  "service_user_needs_assessment_view",
+  "needs_assessment_service_user_detail_view",
+  "needs_assessment_service_agency_view",
+  "needs_assessment_social_care_service_view",
+  "service_agency_social_care_service_detail_view",
+  "service_agency_needs_assessment_detail_view",
+  "service_agency_service_agency_detail_view",
+  "policy_document_service_agency_detail_view",
+  "policy_document_social_care_service_view",
+  "policy_document_service_inspection_view"
+ ]
+}

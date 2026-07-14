@@ -1,0 +1,192 @@
+{
+ "construct_id": "2505c24f44f23b42",
+ "slug": "nursing-forum-2505c24f",
+ "passage": "2505c24f44f23b423440dfe98847425742f297c13c2bc470ccae0e95875218ab.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 16,
+ "entities": [
+  "NursingForum",
+  "NursingProfessional",
+  "QualityWorkstream",
+  "HealthTrust",
+  "ClinicalOutcome",
+  "EducationalInstitution"
+ ],
+ "terms": [
+  {
+   "name": "NursingForum",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "NursingProfessional",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "QualityWorkstream",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthTrust",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClinicalOutcome",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationalInstitution",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "nursing_forums",
+   "rows": 4,
+   "columns": [
+    "nursing_forum_id",
+    "forum_identifier",
+    "forum_name",
+    "established_date",
+    "status",
+    "jurisdiction",
+    "nursing_professional_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "nursing_professionals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "professional_id",
+    "full_name",
+    "registration_number",
+    "primary_qualification",
+    "years_of_experience",
+    "current_role_title",
+    "has_fellowship",
+    "health_trust_id",
+    "nursing_forum_id",
+    "quality_workstream_id",
+    "educational_institution_id"
+   ]
+  },
+  {
+   "name": "quality_workstreams",
+   "rows": 4,
+   "columns": [
+    "quality_workstream_id",
+    "workstream_id",
+    "workstream_title",
+    "start_date",
+    "target_metric",
+    "status",
+    "scope",
+    "nursing_forum_id",
+    "nursing_professional_id",
+    "clinical_outcome_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "health_trusts",
+   "rows": 4,
+   "columns": [
+    "health_trust_id",
+    "trust_id",
+    "trust_name",
+    "trust_type",
+    "region",
+    "cqc_rating",
+    "established_year",
+    "clinical_outcome_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "clinical_outcomes",
+   "rows": 4,
+   "columns": [
+    "clinical_outcome_id",
+    "outcome_id",
+    "outcome_type",
+    "measurement_value",
+    "unit_of_measure",
+    "measurement_date",
+    "trend",
+    "data_source",
+    "health_trust_id",
+    "quality_workstream_id",
+    "nursing_professional_id"
+   ]
+  },
+  {
+   "name": "educational_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "institution_name",
+    "institution_type",
+    "location",
+    "accreditation_body"
+   ]
+  },
+  {
+   "name": "forums_professionals",
+   "rows": 8,
+   "columns": [
+    "nursing_forum_id",
+    "nursing_professional_id"
+   ]
+  },
+  {
+   "name": "forums_workstreams",
+   "rows": 8,
+   "columns": [
+    "nursing_forum_id",
+    "quality_workstream_id"
+   ]
+  },
+  {
+   "name": "trusts_professionals",
+   "rows": 8,
+   "columns": [
+    "health_trust_id",
+    "nursing_professional_id"
+   ]
+  },
+  {
+   "name": "institutions_professionals",
+   "rows": 8,
+   "columns": [
+    "educational_institution_id",
+    "nursing_professional_id"
+   ]
+  }
+ ],
+ "views": [
+  "nursing_forum_nursing_professional_detail_view",
+  "nursing_forum_nursing_professional_view",
+  "nursing_forum_quality_workstream_detail_view",
+  "nursing_professional_health_trust_view",
+  "nursing_professional_nursing_forum_view",
+  "nursing_professional_quality_workstream_view",
+  "nursing_professional_educational_institution_view",
+  "quality_workstream_nursing_forum_view",
+  "quality_workstream_nursing_professional_view",
+  "quality_workstream_clinical_outcome_view",
+  "health_trust_nursing_professional_detail_view",
+  "health_trust_clinical_outcome_view",
+  "clinical_outcome_health_trust_view",
+  "clinical_outcome_quality_workstream_view",
+  "clinical_outcome_nursing_professional_view",
+  "educational_institution_nursing_professional_detail_view"
+ ]
+}

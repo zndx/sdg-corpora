@@ -1,0 +1,5 @@
+animal_control_officer_id,employee_id,full_name,certification_level,license_status,on_call_status,safety_coordinator_role,vector_control_activity_id,animal_emergency_id
+100,Norma Fisher,Theodore Mcgrath,Basic Animal Handling,Valid,Active,false,1,1
+101,Tasha Rodriguez,Account Name,Euthanasia,Expired,Inactive,true,2,2
+102,Theodore Mcgrath,Saipan International Airport,State of Texas Basic Animal Control,Suspended,Active,false,3,3
+103,Peter Mcdowell,Norma Fisher,Basic Animal Handling,Valid,Inactive,true,4,4

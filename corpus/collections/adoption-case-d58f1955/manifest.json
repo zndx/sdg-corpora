@@ -1,0 +1,180 @@
+{
+ "construct_id": "d58f19558dde4b17",
+ "slug": "adoption-case-d58f1955",
+ "passage": "d58f19558dde4b1786efd274a16f8052d37e9b34a0d376871bed9463c6888f4a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 16,
+ "entities": [
+  "AdoptionCase",
+  "AdoptionPetitioner",
+  "AdultToBeAdopted",
+  "ResidentialAddress",
+  "ContactMethod",
+  "NLFRepresentative",
+  "Person"
+ ],
+ "terms": [
+  {
+   "name": "AdoptionCase",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AdoptionPetitioner",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdultToBeAdopted",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResidentialAddress",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ContactMethod",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "NLFRepresentative",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "adoption_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_identifier",
+    "filing_date",
+    "jurisdiction_code",
+    "case_status",
+    "court_docket_number",
+    "adoption_petitioner_id",
+    "adult_to_be_adopted_social_security_number",
+    "n_l_f_representative_id"
+   ]
+  },
+  {
+   "name": "adoption_petitioners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_legal_name",
+    "date_of_birth",
+    "social_security_number",
+    "residency_start_date",
+    "relationship_to_adult",
+    "duration_of_acquaintance",
+    "residential_address_id",
+    "adoption_case_id"
+   ]
+  },
+  {
+   "name": "adult_to_be_adopteds",
+   "rows": 4,
+   "columns": [
+    "full_legal_name",
+    "date_of_birth",
+    "social_security_number",
+    "residency_start_date",
+    "birth_city",
+    "birth_state",
+    "preferred_post_adoption_name",
+    "residential_address_id",
+    "adoption_case_id",
+    "person_id",
+    "has_birth_father_person_id"
+   ]
+  },
+  {
+   "name": "residential_addresses",
+   "rows": 4,
+   "columns": [
+    "residential_address_id",
+    "street_address",
+    "city",
+    "state_code",
+    "zip_code",
+    "adoption_petitioner_id",
+    "adult_to_be_adopted_social_security_number"
+   ]
+  },
+  {
+   "name": "contact_methods",
+   "rows": 4,
+   "columns": [
+    "contact_method_id",
+    "contact_value",
+    "contact_type",
+    "is_primary",
+    "adoption_petitioner_id",
+    "adult_to_be_adopted_social_security_number"
+   ]
+  },
+  {
+   "name": "n_l_f_representatives",
+   "rows": 4,
+   "columns": [
+    "n_l_f_representative_id",
+    "rep_identifier",
+    "rep_name",
+    "adoption_case_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "full_name",
+    "adult_to_be_adopted_social_security_number",
+    "is_birth_father_of_adult_to_be_adopted_social_security_number",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "petitioners_methods",
+   "rows": 8,
+   "columns": [
+    "adoption_petitioner_id",
+    "contact_method_id"
+   ]
+  },
+  {
+   "name": "adopteds_methods",
+   "rows": 8,
+   "columns": [
+    "adult_to_be_adopted_social_security_number",
+    "contact_method_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_adoption_case_adoption_petitioner",
+  "v_adoption_case_adult_to_be_adopted",
+  "v_adoption_case_n_l_f_representative",
+  "v_adoption_petitioner_residential_address",
+  "v_adoption_petitioner_contact_method_detail",
+  "v_adoption_petitioner_adoption_case",
+  "v_adult_to_be_adopted_residential_address",
+  "v_adult_to_be_adopted_contact_method_detail",
+  "v_adult_to_be_adopted_adoption_case",
+  "v_adult_to_be_adopted_person",
+  "v_residential_address_adoption_petitioner",
+  "v_residential_address_adult_to_be_adopted",
+  "v_contact_method_adoption_petitioner",
+  "v_contact_method_adult_to_be_adopted",
+  "v_n_l_f_representative_adoption_case",
+  "v_person_adult_to_be_adopted"
+ ]
+}

@@ -1,0 +1,5 @@
+health_trust_id,trust_id,trust_name,trust_type,region,cqc_rating,established_year,clinical_outcome_id,created_at
+1,5f923cfa-8fcd-11eb-924d-9cd76263cbd0,Compact Framework,Foundation_Trust,distributed-region-12,outstanding,10,1000,2025-01-01 00:14:00
+2,8387551,Legacy Protocol,Specialist_Trust,baseline-region-13,good,16,1001,2025-02-06 03:14:00
+3,ChIJAaQOcwdu5kcRArYphCv0bl0,Regional Programme A,Acute_Trust,pilot-region-14,requires_improvement,22,1002,2025-03-11 06:14:00
+4,27cebc1c-9bad-11eb-a8a2-19ed5c03f8d3,Seasonal Standard,Foundation_Trust,extended-region-15,inadequate,28,1003,2025-04-16 09:14:00

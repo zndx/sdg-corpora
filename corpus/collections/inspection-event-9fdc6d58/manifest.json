@@ -1,0 +1,230 @@
+{
+ "construct_id": "9fdc6d585408a9ac",
+ "slug": "inspection-event-9fdc6d58",
+ "passage": "9fdc6d585408a9ac24d67cc6b00d442e8f40fa0bbc1ba4806551bae71e2ae489.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 17,
+ "entities": [
+  "InspectionEvent",
+  "ClinicalService",
+  "RegulatoryFinding",
+  "Patient",
+  "Clinician",
+  "Medicine",
+  "RegulatoryRequirement"
+ ],
+ "terms": [
+  {
+   "name": "InspectionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalService",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RegulatoryFinding",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Clinician",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "Medicine",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegulatoryRequirement",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "inspection_events",
+   "rows": 4,
+   "columns": [
+    "inspection_event_id",
+    "inspection_date",
+    "inspection_type",
+    "regulatory_basis",
+    "overall_safety_rating",
+    "overall_effectiveness_rating",
+    "overall_caring_rating",
+    "overall_responsive_rating",
+    "overall_well_led_rating",
+    "clinical_service_id"
+   ]
+  },
+  {
+   "name": "clinical_services",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_id",
+    "service_type",
+    "operating_hours",
+    "location_address",
+    "location_postcode",
+    "number_of_clinicians",
+    "number_of_support_staff",
+    "service_status"
+   ]
+  },
+  {
+   "name": "regulatory_findings",
+   "rows": 4,
+   "columns": [
+    "finding_id",
+    "finding_category",
+    "finding_status",
+    "finding_description",
+    "finding_date",
+    "prior_finding_id",
+    "clinical_service_id",
+    "inspection_event_id",
+    "regulatory_requirement_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "patient_id",
+    "patient_age",
+    "patient_gender",
+    "consultation_frequency",
+    "feedback_rating",
+    "risk_screening_status",
+    "clinical_service_id",
+    "finding_id"
+   ]
+  },
+  {
+   "name": "clinicians",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clinician_id",
+    "clinician_name",
+    "specialization",
+    "training_completed",
+    "safeguarding_awareness",
+    "supervision_status",
+    "clinical_service_id"
+   ]
+  },
+  {
+   "name": "medicines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "medicine_id",
+    "medicine_name",
+    "medicine_type",
+    "prescription_status",
+    "storage_condition",
+    "clinical_need_justification",
+    "clinician_id"
+   ]
+  },
+  {
+   "name": "regulatory_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requirement_id",
+    "requirement_category",
+    "requirement_description",
+    "legal_basis",
+    "compliance_status",
+    "clinical_service_id",
+    "finding_id"
+   ]
+  },
+  {
+   "name": "events_findings",
+   "rows": 8,
+   "columns": [
+    "inspection_event_id",
+    "finding_id"
+   ]
+  },
+  {
+   "name": "services_clinicians",
+   "rows": 8,
+   "columns": [
+    "clinical_service_id",
+    "clinician_id"
+   ]
+  },
+  {
+   "name": "services_patients",
+   "rows": 8,
+   "columns": [
+    "clinical_service_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "patients_clinicians",
+   "rows": 8,
+   "columns": [
+    "patient_id",
+    "clinician_id"
+   ]
+  },
+  {
+   "name": "clinicians_medicines",
+   "rows": 8,
+   "columns": [
+    "clinician_id",
+    "medicine_id"
+   ]
+  },
+  {
+   "name": "clinicians_patients",
+   "rows": 8,
+   "columns": [
+    "clinician_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "medicines_patients",
+   "rows": 8,
+   "columns": [
+    "medicine_id",
+    "patient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_inspection_event_clinical_service",
+  "v_inspection_event_regulatory_finding_detail",
+  "v_clinical_service_clinician_detail",
+  "v_clinical_service_patient_detail",
+  "v_regulatory_finding_clinical_service",
+  "v_regulatory_finding_inspection_event",
+  "v_regulatory_finding_regulatory_requirement",
+  "v_patient_clinical_service",
+  "v_patient_clinician_detail",
+  "v_patient_regulatory_finding",
+  "v_clinician_clinical_service",
+  "v_clinician_medicine_detail",
+  "v_clinician_patient_detail",
+  "v_medicine_patient_detail",
+  "v_medicine_clinician",
+  "v_regulatory_requirement_clinical_service",
+  "v_regulatory_requirement_regulatory_finding"
+ ]
+}

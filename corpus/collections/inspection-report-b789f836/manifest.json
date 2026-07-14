@@ -1,0 +1,162 @@
+{
+ "construct_id": "b789f836e90f16f5",
+ "slug": "inspection-report-b789f836",
+ "passage": "b789f836e90f16f59eb841eae3b6cf560bb9f48bdb606f1127fe8e0223b6b3ba.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "InspectionReport",
+  "InspectionBody",
+  "ServiceDomain",
+  "NeedsAssessment",
+  "FamilyUnit",
+  "ServiceDelivery",
+  "PolicyInstrument"
+ ],
+ "terms": [
+  {
+   "name": "InspectionReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "InspectionBody",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceDomain",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NeedsAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FamilyUnit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceDelivery",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "inspection_reports",
+   "rows": 4,
+   "columns": [
+    "inspection_report_id",
+    "report_id",
+    "publication_date",
+    "reference_code",
+    "publisher",
+    "status",
+    "inspection_body_id",
+    "service_domain_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "inspection_bodies",
+   "rows": 4,
+   "columns": [
+    "inspection_body_id",
+    "body_name",
+    "parent_department",
+    "statutory_powers",
+    "jurisdiction"
+   ]
+  },
+  {
+   "name": "service_domains",
+   "rows": 4,
+   "columns": [
+    "service_domain_id",
+    "domain_name",
+    "target_population",
+    "service_type",
+    "is_holistic",
+    "inspection_report_id"
+   ]
+  },
+  {
+   "name": "needs_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "assessment_type",
+    "family_size",
+    "status",
+    "family_unit_id"
+   ]
+  },
+  {
+   "name": "family_units",
+   "rows": 4,
+   "columns": [
+    "family_unit_id",
+    "family_id",
+    "has_disabled_parent",
+    "has_children",
+    "impairment_type",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "service_deliveries",
+   "rows": 4,
+   "columns": [
+    "delivery_id",
+    "start_date",
+    "end_date",
+    "provider_type",
+    "quality_rating",
+    "family_unit_id",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "instrument_id",
+    "title",
+    "enactment_date",
+    "scope",
+    "is_statutory",
+    "service_domain_id",
+    "needs_assessment_id"
+   ]
+  },
+  {
+   "name": "units_deliveries",
+   "rows": 8,
+   "columns": [
+    "family_unit_id",
+    "delivery_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_inspection_report_inspection_body",
+  "v_inspection_report_service_domain",
+  "v_service_domain_inspection_report",
+  "v_needs_assessment_family_unit",
+  "v_family_unit_needs_assessment",
+  "v_family_unit_service_delivery_detail",
+  "v_service_delivery_family_unit",
+  "v_service_delivery_needs_assessment",
+  "v_policy_instrument_service_domain",
+  "v_policy_instrument_needs_assessment"
+ ]
+}

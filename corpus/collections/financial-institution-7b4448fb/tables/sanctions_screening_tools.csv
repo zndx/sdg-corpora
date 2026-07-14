@@ -1,0 +1,5 @@
+sanctions_screening_tool_id,tool_id,provider,deployment_model,implementation_months,cost_percentage,last_updated,list_coverage,is_auto_updating,financial_institution_id,consultancy_team_id
+100,comi,legacy-provider-37,web-based,15.20,0.11,2023-06-17T17:27:00,compact-list-92,false,1000,1000
+101,195360,compact-provider-38,on-premise,18.40,16.54,2024-11-01T00:44:00,composite-list-93,true,1001,1001
+102,3355763,composite-provider-39,hybrid,21.60,25.47,2025-04-12T07:01:00,primary-list-94,false,1002,1002
+103,8387539,primary-provider-40,web-based,24.80,33.06,2022-09-23T14:18:00,adaptive-list-95,true,1003,1003

@@ -1,0 +1,5 @@
+manufacturer_server_id,server_id,server_location,access_level,last_maintenance_date,security_audit_status
+1,911352d5dab64576b7a6da51aa69d76d,extended-server-99,public,2024-03-27,passed
+2,1450637,integrated-server-100,restricted,2025-08-11,failed
+3,4985152,seasonal-server-101,government,2022-01-22,pending
+4,9736887,regional-server-102,public,2023-06-06,passed

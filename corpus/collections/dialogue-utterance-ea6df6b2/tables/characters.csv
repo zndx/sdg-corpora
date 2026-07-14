@@ -1,0 +1,5 @@
+character_id,full_name,age_group,gender,has_goggles,swimming_ability,dialogue_utterance_id,interacts_with_character_id,goggle_id
+7021001070170,Theodore Mcgrath,child,male,false,beginner,1,7021001070170,7536
+a0f8eb4e-8fcd-11eb-924d-9cd76263cbd0,Account Name,adult,female,true,intermediate,2,a0f8eb4e-8fcd-11eb-924d-9cd76263cbd0,b1b6a13c-8fb5-11eb-924d-9cd76263cbd0
+4793488,Saipan International Airport,elder,other,false,advanced,3,4793488,727050
+id_31,Norma Fisher,child,male,true,beginner,4,id_31,103181

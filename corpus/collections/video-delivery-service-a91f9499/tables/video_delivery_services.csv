@@ -1,0 +1,5 @@
+service_id,service_tier,uptime_percentage,supported_platforms,region,status
+1996925,premium,16.45,web,china,active
+3990164,standard,18.90,mobile,europe,maintenance
+5844258,basic,21.35,smart_tv,global,decommissioned
+e29bafe2-8fd1-11eb-924d-9cd76263cbd0,premium,23.80,set_top_box,china,active

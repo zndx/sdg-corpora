@@ -1,0 +1,5 @@
+id,form_code,form_name,prevalence_rate,risk_category,is_controlled_substance,substance_abuse_survey_id
+1,12616,Primary Framework A,22.45,high,true,100
+2,2087755,Composite Protocol,25.90,medium,false,101
+3,template_impcode_pagata_4det50,Compact Programme,29.35,low,true,102
+4,id_9,Legacy Standard D,32.80,high,false,103

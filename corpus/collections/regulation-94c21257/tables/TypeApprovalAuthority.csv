@@ -1,0 +1,5 @@
+id,authorityId,authorityName,jurisdiction,witnessingPolicy,contactEmail,typeId,facilityId,protocolId
+1000,ChIJyxw4mjhu5kcR9yl4qn8CFbo,Laurie Wallace,regional-jurisdic-30,mandatory,Julie Chen,1000,39800621,1
+1001,9246308,Stan Kroenke,legacy-jurisdic-31,optional,Bobby Flores,1001,1889772,2
+1002,103176,Collin Lopez,compact-jurisdic-32,none,Elizabeth Woods,1002,d9d94964-8fcc-11eb-924d-9cd76263cbd0,3
+1003,5082964,Dana Nguyen,composite-jurisdic-33,mandatory,Herb Simon,1003,8843756,4

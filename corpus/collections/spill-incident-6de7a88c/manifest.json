@@ -1,0 +1,186 @@
+{
+ "construct_id": "6de7a88ccbddb555",
+ "slug": "spill-incident-6de7a88c",
+ "passage": "6de7a88ccbddb5553a00c0a761740afc2f58eafec138bf6f6a17b40620ad2834.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "SpillIncident",
+  "GeographicLocation",
+  "HazardousMaterial",
+  "Vessel",
+  "ResponseAgency",
+  "EcologicalResource"
+ ],
+ "terms": [
+  {
+   "name": "SpillIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicLocation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HazardousMaterial",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Vessel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ResponseAgency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EcologicalResource",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "spill_incidents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "incident_id",
+    "incident_name",
+    "spill_number",
+    "incident_date_time",
+    "incident_status",
+    "vessel_name",
+    "vessel_type",
+    "vessel_length",
+    "geographic_location_id",
+    "vessel_id",
+    "ecological_resource_id",
+    "response_agency_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "geographic_locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location_id",
+    "latitude",
+    "longitude",
+    "location_name",
+    "water_depth",
+    "distance_from_shore",
+    "location_type",
+    "spill_incident_id",
+    "ecological_resource_id"
+   ]
+  },
+  {
+   "name": "hazardous_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_id",
+    "material_type",
+    "estimated_quantity",
+    "unit_of_measure",
+    "onboard_quantity",
+    "spilled_quantity",
+    "removed_quantity",
+    "vessel_id",
+    "spill_incident_id"
+   ]
+  },
+  {
+   "name": "vessels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vessel_id",
+    "vessel_name",
+    "vessel_type",
+    "vessel_length",
+    "vessel_status",
+    "owner_name",
+    "owner_location",
+    "total_constructive_loss",
+    "spill_incident_id",
+    "geographic_location_id",
+    "moved_to_geographic_location_id"
+   ]
+  },
+  {
+   "name": "response_agencies",
+   "rows": 4,
+   "columns": [
+    "response_agency_id",
+    "agency_id",
+    "agency_name",
+    "agency_type",
+    "contact_person",
+    "contact_phone",
+    "contact_email",
+    "notification_method",
+    "spill_incident_id",
+    "notified_of_spill_incident_id",
+    "vessel_id"
+   ]
+  },
+  {
+   "name": "ecological_resources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resource_id",
+    "resource_name",
+    "resource_type",
+    "affected_status",
+    "species_list",
+    "commercial_use",
+    "geographic_location_id",
+    "spill_incident_id",
+    "hazardous_material_id"
+   ]
+  },
+  {
+   "name": "incidents_materials",
+   "rows": 8,
+   "columns": [
+    "spill_incident_id",
+    "hazardous_material_id"
+   ]
+  },
+  {
+   "name": "vessels_materials",
+   "rows": 8,
+   "columns": [
+    "vessel_id",
+    "hazardous_material_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_spill_incident_geographic_location",
+  "v_spill_incident_vessel",
+  "v_spill_incident_hazardous_material_detail",
+  "v_spill_incident_ecological_resource",
+  "v_spill_incident_response_agency",
+  "v_geographic_location_spill_incident",
+  "v_geographic_location_ecological_resource",
+  "v_hazardous_material_vessel",
+  "v_hazardous_material_spill_incident",
+  "v_vessel_spill_incident",
+  "v_vessel_hazardous_material_detail",
+  "v_vessel_geographic_location",
+  "v_response_agency_spill_incident",
+  "v_response_agency_vessel",
+  "v_ecological_resource_geographic_location",
+  "v_ecological_resource_spill_incident",
+  "v_ecological_resource_hazardous_material"
+ ]
+}

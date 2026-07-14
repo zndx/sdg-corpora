@@ -1,0 +1,197 @@
+{
+ "construct_id": "b4eac3263783d216",
+ "slug": "governance-body-b4eac326",
+ "passage": "b4eac3263783d216b0b6357e951d2ff52faa5884eb1260cd6361617a3b389063.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 16,
+ "entities": [
+  "GovernanceBody",
+  "GovernanceMember",
+  "BusinessUnit",
+  "InternalAuditingDivision",
+  "InternalAuditor",
+  "Meeting",
+  "PolicyDocument"
+ ],
+ "terms": [
+  {
+   "name": "GovernanceBody",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernanceMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BusinessUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InternalAuditingDivision",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InternalAuditor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Meeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PolicyDocument",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "governance_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_identifier",
+    "body_name",
+    "body_type",
+    "meeting_frequency",
+    "establishment_date",
+    "is_external",
+    "business_unit_id",
+    "audits_business_unit_id"
+   ]
+  },
+  {
+   "name": "governance_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "member_identifier",
+    "member_name",
+    "member_role",
+    "appointment_date",
+    "is_external",
+    "certification_status",
+    "governance_body_id",
+    "meeting_id"
+   ]
+  },
+  {
+   "name": "business_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_identifier",
+    "unit_name",
+    "unit_type",
+    "reporting_frequency",
+    "operational_status",
+    "governance_body_id",
+    "internal_auditing_division_id",
+    "supervised_by_governance_body_id"
+   ]
+  },
+  {
+   "name": "internal_auditing_divisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "division_identifier",
+    "division_name",
+    "member_count",
+    "certification_requirement",
+    "audit_scope",
+    "business_unit_id"
+   ]
+  },
+  {
+   "name": "internal_auditors",
+   "rows": 4,
+   "columns": [
+    "internal_auditor_id",
+    "auditor_identifier",
+    "auditor_name",
+    "certification_type",
+    "assignment_date",
+    "specialization",
+    "internal_auditing_division_id",
+    "business_unit_id"
+   ]
+  },
+  {
+   "name": "meetings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "meeting_identifier",
+    "meeting_type",
+    "scheduled_date",
+    "duration_hours",
+    "agenda_items",
+    "meeting_status",
+    "governance_body_id",
+    "business_unit_id"
+   ]
+  },
+  {
+   "name": "policy_documents",
+   "rows": 4,
+   "columns": [
+    "policy_document_id",
+    "document_identifier",
+    "document_title",
+    "publication_date",
+    "issuing_authority",
+    "compliance_standard",
+    "document_status",
+    "business_unit_id",
+    "governance_body_id",
+    "meeting_id"
+   ]
+  },
+  {
+   "name": "bodies_members",
+   "rows": 8,
+   "columns": [
+    "governance_body_id",
+    "governance_member_id"
+   ]
+  },
+  {
+   "name": "divisions_auditors",
+   "rows": 8,
+   "columns": [
+    "internal_auditing_division_id",
+    "internal_auditor_id"
+   ]
+  },
+  {
+   "name": "meetings_members",
+   "rows": 8,
+   "columns": [
+    "meeting_id",
+    "governance_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "governance_body_business_unit_view",
+  "governance_body_governance_member_detail_view",
+  "governance_member_governance_body_view",
+  "governance_member_meeting_view",
+  "business_unit_governance_body_view",
+  "business_unit_internal_auditing_division_view",
+  "internal_auditing_division_business_unit_view",
+  "internal_auditing_division_internal_auditor_detail_view",
+  "internal_auditor_internal_auditing_division_view",
+  "internal_auditor_business_unit_view",
+  "meeting_governance_body_view",
+  "meeting_governance_member_detail_view",
+  "meeting_business_unit_view",
+  "policy_document_business_unit_view",
+  "policy_document_governance_body_view",
+  "policy_document_meeting_view"
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "construct_id": "216f5ce2a984a184",
+ "slug": "data-subject-216f5ce2",
+ "passage": "216f5ce2a984a1848a3d7c1abf6d0530212016b4137250f80e7f58236b50feb8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 12,
+ "entities": [
+  "DataSubject",
+  "DataController",
+  "DataProcessingRecord",
+  "CommunicationChannel",
+  "ConsentRecord",
+  "BusinessPartner"
+ ],
+ "terms": [
+  {
+   "name": "DataSubject",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DataController",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DataProcessingRecord",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CommunicationChannel",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ConsentRecord",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BusinessPartner",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "data_subjects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subject_identifier",
+    "given_name",
+    "family_name",
+    "email_address",
+    "ip_address",
+    "cookie_id"
+   ]
+  },
+  {
+   "name": "data_controllers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "registration_number",
+    "registered_office",
+    "court_registry",
+    "website_url",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "data_processing_records",
+   "rows": 4,
+   "columns": [
+    "data_processing_record_id",
+    "processing_purpose",
+    "legal_ground",
+    "data_extent",
+    "processing_period_start",
+    "processing_period_end",
+    "is_objection_allowed",
+    "data_controller_id"
+   ]
+  },
+  {
+   "name": "communication_channels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "channel_type",
+    "url",
+    "is_active"
+   ]
+  },
+  {
+   "name": "consent_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consent_timestamp",
+    "consent_status",
+    "consent_scope",
+    "withdrawal_timestamp",
+    "data_subject_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "business_partners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "partner_name",
+    "partner_type",
+    "data_sharing_agreement_id",
+    "data_controller_id"
+   ]
+  },
+  {
+   "name": "subjects_records",
+   "rows": 8,
+   "columns": [
+    "data_subject_id",
+    "data_processing_record_id"
+   ]
+  },
+  {
+   "name": "controllers_records",
+   "rows": 8,
+   "columns": [
+    "data_controller_id",
+    "data_processing_record_id"
+   ]
+  },
+  {
+   "name": "records_subjects",
+   "rows": 8,
+   "columns": [
+    "data_processing_record_id",
+    "data_subject_id"
+   ]
+  },
+  {
+   "name": "records_channels",
+   "rows": 8,
+   "columns": [
+    "data_processing_record_id",
+    "communication_channel_id"
+   ]
+  },
+  {
+   "name": "channels_records",
+   "rows": 8,
+   "columns": [
+    "communication_channel_id",
+    "data_processing_record_id"
+   ]
+  },
+  {
+   "name": "records_records",
+   "rows": 8,
+   "columns": [
+    "consent_record_id",
+    "data_processing_record_id"
+   ]
+  },
+  {
+   "name": "partners_subjects",
+   "rows": 8,
+   "columns": [
+    "business_partner_id",
+    "data_subject_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_data_subject_data_processing_record_detail",
+  "v_data_subject_consent_record_detail",
+  "v_data_controller_data_processing_record_detail",
+  "v_data_controller_consent_record_detail",
+  "v_data_processing_record_data_controller",
+  "v_data_processing_record_data_subject_detail",
+  "v_data_processing_record_communication_channel_detail",
+  "v_communication_channel_data_processing_record_detail",
+  "v_consent_record_data_subject",
+  "v_consent_record_data_processing_record_detail",
+  "v_business_partner_data_controller",
+  "v_business_partner_data_subject_detail"
+ ]
+}

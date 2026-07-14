@@ -1,0 +1,5 @@
+id,request_id,submission_date,travel_purpose,destination,funding_source,approval_status,is_emergency,administrative_staff_member_id,processed_by_administrative_staff_member_id,travel_voucher_id
+1,2087732,2025-04-24T03:57:00,legacy-travel-43,seasonal-destinat-53,baseline-funding-73,adaptive-approval-65,true,1,1,1000
+2,575213,2022-09-08T10:14:00,compact-travel-44,regional-destinat-54,pilot-funding-74,distributed-approval-66,false,2,2,1001
+3,103167,2023-02-19T17:31:00,composite-travel-45,legacy-destinat-55,extended-funding-75,baseline-approval-67,true,3,3,1002
+4,611510,2024-07-03T00:48:00,primary-travel-46,compact-destinat-56,integrated-funding-76,pilot-approval-68,false,4,4,1003

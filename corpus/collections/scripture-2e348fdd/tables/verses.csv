@@ -1,0 +1,5 @@
+id,book_reference,chapter_number,verse_number,text_content,is_promise,is_teaching,is_prophecy,is_historical,scripture_id,person_id
+1,integrated-book-16,49,12,integrated-text-58,true,false,false,false,1,1
+2,seasonal-book-17,60,23,seasonal-text-59,false,true,true,true,2,2
+3,regional-book-18,71,34,regional-text-60,true,false,false,false,3,3
+4,legacy-book-19,82,45,legacy-text-61,false,true,true,true,4,4

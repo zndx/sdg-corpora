@@ -1,0 +1,5 @@
+id,investigation_id,start_date,end_date,status,findings_summary,corrective_action_taken,disclosure_id,improper_conduct_id
+100,ChIJCbVGx_tt5kcRJYrXOupoDgA,2022-09-05T20:24:00,2022-09-01T08:00:00,pending,pilot-findings-32,true,195359,1
+101,8843769,2023-02-16T03:41:00,2023-02-12T15:17:00,active,extended-findings-33,false,1250217,2
+102,974942,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,integrated-findings-34,true,4447022,3
+103,8599e66e-9bad-11eb-a8a2-19ed5c03f8d3,2025-12-11T17:15:00,2025-12-07T05:51:00,closed,seasonal-findings-35,false,1437596,4

@@ -1,0 +1,5 @@
+department_id,department_name,school_id,establishment_date,status,head_of_department_id,contact_email,contact_phone,academic_school_id,created_at,updated_at
+2087755,Baseline Framework D,1152671,2024-07-11T06:18:00,active,id_27,Christopher Wilson,Joe Tsai,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+790483,Distributed Protocol,1186099,2025-12-22T13:35:00,inactive,8350033,Charles Larsen,Stephanie Collins,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+505978,Adaptive Programme,7441154,2022-05-06T20:52:00,merging,575203,Mary Alvarez,Tasha Rodriguez,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+id_6,Primary Standard A,338514,2023-10-17T03:09:00,dissolving,8350027,April Snyder,Walter Pratt,103,2025-04-16 09:14:00,2025-04-23 15:41:00

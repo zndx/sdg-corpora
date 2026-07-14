@@ -1,0 +1,20 @@
+CREATE TABLE athletes (
+  id INTEGER NOT NULL,
+  athlete_id VARCHAR(44),
+  first_name VARCHAR(32),
+  last_name VARCHAR(32),
+  date_of_birth DATE,
+  membership_status VARCHAR(32),
+  citizenship_status VARCHAR(32),
+  black_belt_rank INTEGER,
+  background_check_status BOOLEAN,
+  membership_id INTEGER,
+  competition_id INTEGER,
+  black_belt_verification_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (membership_id) REFERENCES memberships (membership_id),
+  FOREIGN KEY (competition_id) REFERENCES competitions (id),
+  FOREIGN KEY (black_belt_verification_id) REFERENCES black_belt_verifications (id)
+);

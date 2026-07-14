@@ -1,0 +1,5 @@
+workshop_session_id,session_identifier,start_date,end_date,location,max_capacity,current_attendance,status,environment_id
+1,SES-2443,2022-09-05T20:24:00,2022-09-01T08:00:00,extended-location-99,32,23,planned,726050
+2,SES-2449,2023-02-16T03:41:00,2023-02-12T15:17:00,integrated-location-100,42,31,active,1996940
+3,SES-2455,2024-07-27T10:58:00,2024-07-23T22:34:00,seasonal-location-101,52,39,completed,2986218
+4,SES-2461,2025-12-11T17:15:00,2025-12-07T05:51:00,regional-location-102,62,47,cancelled,8350020

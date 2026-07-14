@@ -1,0 +1,5 @@
+housing_client_id,client_id,household_size,current_housing_status,primary_need,date_of_referral,has_dependents,housing_advisory_case_id
+1,Erin Olson,11,homeless,rent_arrears,2024-11-03T10:18:00,false,1000
+2,Jorge Sullivan,22,at_risk,mortgage_arrears,2025-04-14T17:35:00,true,1001
+3,Kimberly Maynard,33,tenanted,possession,2022-09-25T00:52:00,false,1002
+4,Michelle Kelley,44,owner_occupier,disrepair,2023-02-09T07:09:00,true,1003

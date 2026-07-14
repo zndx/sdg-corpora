@@ -1,0 +1,5 @@
+shipment_record_id,tracking_number,shipment_date,carrier_name,total_weight,shipping_method,status,customer_account_id
+1,TRA-2505,2023-10-02T21:51:00,Integrated Assessment A,1.48,express,pending,100
+2,TRA-2511,2024-03-13T04:08:00,Extended Survey,1.65,standard,dispatched,101
+3,TRA-2517,2025-08-24T11:25:00,Pilot Corridor,1.25,overnight,delivered,102
+4,TRA-2523,2022-01-08T18:42:00,Baseline Series D,0.6000001,express,returned,103

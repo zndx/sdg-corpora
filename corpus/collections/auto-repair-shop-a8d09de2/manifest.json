@@ -1,0 +1,163 @@
+{
+ "construct_id": "a8d09de220589338",
+ "slug": "auto-repair-shop-a8d09de2",
+ "passage": "a8d09de220589338a787ed66493dcedb428598fe7c7ed5bee326aa4a8fe1a43d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "AutoRepairShop",
+  "Technician",
+  "RepairJob",
+  "Vehicle",
+  "Customer",
+  "Invoice"
+ ],
+ "terms": [
+  {
+   "name": "AutoRepairShop",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Technician",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "RepairJob",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Vehicle",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Customer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Invoice",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "auto_repair_shops",
+   "rows": 4,
+   "columns": [
+    "auto_repair_shop_id",
+    "shop_id",
+    "shop_name",
+    "established_date",
+    "shop_type",
+    "daily_production_target",
+    "customer_satisfaction_score",
+    "is_profitable",
+    "customer_id"
+   ]
+  },
+  {
+   "name": "technicians",
+   "rows": 4,
+   "columns": [
+    "technician_id",
+    "tech_id",
+    "full_name",
+    "hourly_rate",
+    "skill_level",
+    "is_owner",
+    "daily_tasks_completed",
+    "auto_repair_shop_id",
+    "repair_job_id"
+   ]
+  },
+  {
+   "name": "repair_jobs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "job_id",
+    "job_type",
+    "start_time",
+    "end_time",
+    "labor_cost",
+    "parts_cost",
+    "status",
+    "technician_id",
+    "vehicle_id",
+    "invoice_id"
+   ]
+  },
+  {
+   "name": "vehicles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vin",
+    "make",
+    "model",
+    "year",
+    "mileage",
+    "customer_name",
+    "customer_id",
+    "repair_job_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "customers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "customer_id",
+    "full_name",
+    "contact_phone",
+    "email_address",
+    "total_visits",
+    "satisfaction_rating",
+    "vehicle_id",
+    "invoice_id"
+   ]
+  },
+  {
+   "name": "invoices",
+   "rows": 4,
+   "columns": [
+    "invoice_id",
+    "issue_date",
+    "total_amount",
+    "tax_amount",
+    "payment_status",
+    "due_date",
+    "repair_job_id",
+    "customer_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "shops_technicians",
+   "rows": 8,
+   "columns": [
+    "auto_repair_shop_id",
+    "technician_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_auto_repair_shop_technician_detail",
+  "vw_auto_repair_shop_customer",
+  "vw_technician_auto_repair_shop",
+  "vw_technician_repair_job",
+  "vw_repair_job_technician",
+  "vw_repair_job_vehicle",
+  "vw_repair_job_invoice",
+  "vw_vehicle_customer",
+  "vw_vehicle_repair_job",
+  "vw_customer_vehicle",
+  "vw_customer_invoice",
+  "vw_invoice_repair_job",
+  "vw_invoice_customer"
+ ]
+}

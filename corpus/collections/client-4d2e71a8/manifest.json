@@ -1,0 +1,222 @@
+{
+ "construct_id": "4d2e71a83efd3045",
+ "slug": "client-4d2e71a8",
+ "passage": "4d2e71a83efd3045ec210de2224e5acccb80b25c38d202eae637c37d92d005ca.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 26,
+ "entities": [
+  "Client",
+  "FinancialAccount",
+  "InvestmentPortfolio",
+  "FinancialAsset",
+  "TradeTransaction",
+  "FinancialPlanningAssistant",
+  "FinancialPlanner",
+  "ComplianceRecord"
+ ],
+ "terms": [
+  {
+   "name": "Client",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FinancialAccount",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InvestmentPortfolio",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FinancialAsset",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TradeTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FinancialPlanningAssistant",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "FinancialPlanner",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ComplianceRecord",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "Client",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clientId",
+    "fullName",
+    "dateOfBirth",
+    "contactEmail",
+    "contactPhone",
+    "residentialAddress",
+    "clientStatus",
+    "accountId",
+    "portfolioId",
+    "plannerId"
+   ]
+  },
+  {
+   "name": "FinancialAccount",
+   "rows": 4,
+   "columns": [
+    "id",
+    "accountNumber",
+    "accountType",
+    "openDate",
+    "currentBalance",
+    "currencyCode",
+    "accountStatus",
+    "lastStatementDate",
+    "clientId",
+    "assetId",
+    "plannerId"
+   ]
+  },
+  {
+   "name": "InvestmentPortfolio",
+   "rows": 4,
+   "columns": [
+    "id",
+    "portfolioId",
+    "riskProfile",
+    "totalValue",
+    "currencyCode",
+    "lastRebalanceDate",
+    "portfolioStatus",
+    "clientId",
+    "assetId",
+    "plannerId"
+   ]
+  },
+  {
+   "name": "FinancialAsset",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assetId",
+    "tickerSymbol",
+    "assetType",
+    "currentMarketValue",
+    "purchaseDate",
+    "purchasePrice",
+    "quantity",
+    "assetStatus",
+    "portfolioId",
+    "transactionId"
+   ]
+  },
+  {
+   "name": "TradeTransaction",
+   "rows": 4,
+   "columns": [
+    "transactionId",
+    "transactionDate",
+    "transactionType",
+    "amount",
+    "currencyCode",
+    "executionStatus",
+    "settlementDate",
+    "assetId",
+    "accountId",
+    "clientId",
+    "assistantId"
+   ]
+  },
+  {
+   "name": "FinancialPlanningAssistant",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employeeId",
+    "fullName",
+    "licenseStatus",
+    "licenseExpiryDate",
+    "officeLocation",
+    "employmentStatus",
+    "yearsExperience",
+    "plannerId",
+    "transactionId",
+    "clientId",
+    "recordId"
+   ]
+  },
+  {
+   "name": "FinancialPlanner",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plannerId",
+    "fullName",
+    "licenseNumber",
+    "specialization",
+    "yearsExperience",
+    "employmentStatus",
+    "portfolioId",
+    "clientId",
+    "assistantId",
+    "recordId"
+   ]
+  },
+  {
+   "name": "ComplianceRecord",
+   "rows": 4,
+   "columns": [
+    "recordId",
+    "recordType",
+    "issueDate",
+    "expiryDate",
+    "issuingAuthority",
+    "verificationStatus",
+    "documentUrl",
+    "plannerId",
+    "assistantId",
+    "transactionId",
+    "createdAt",
+    "updatedAt"
+   ]
+  }
+ ],
+ "views": [
+  "client_financial_account_view",
+  "client_investment_portfolio_view",
+  "client_financial_planner_view",
+  "financial_account_client_view",
+  "financial_account_financial_asset_view",
+  "financial_account_financial_planner_view",
+  "investment_portfolio_client_view",
+  "investment_portfolio_financial_asset_view",
+  "investment_portfolio_financial_planner_view",
+  "financial_asset_investment_portfolio_view",
+  "financial_asset_trade_transaction_view",
+  "trade_transaction_financial_asset_view",
+  "trade_transaction_financial_account_view",
+  "trade_transaction_client_view",
+  "trade_transaction_financial_planning_assistant_view",
+  "financial_planning_assistant_financial_planner_view",
+  "financial_planning_assistant_trade_transaction_view",
+  "financial_planning_assistant_client_view",
+  "financial_planning_assistant_compliance_record_view",
+  "financial_planner_investment_portfolio_view",
+  "financial_planner_client_view",
+  "financial_planner_financial_planning_assistant_view",
+  "financial_planner_compliance_record_view",
+  "compliance_record_financial_planner_view",
+  "compliance_record_financial_planning_assistant_view",
+  "compliance_record_trade_transaction_view"
+ ]
+}

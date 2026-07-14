@@ -1,0 +1,5 @@
+device_identifier,manufacturer,model_number,serial_number,operating_system,firmware_version,is_network_capable,is_currently_connected,deployment_date,expected_service_life_years,cyber_risk_score_id,clinical_site_id,clinical_engineering_team_id,cyber_threat_id
+DEV-2372,Standard Chartered,MOD-2238,5844275,distributed-operatin-66,distributed-firmware-48,false,false,2023-02-14T13:51:00,37,1,100,100,100
+DEV-2378,General Motors,MOD-2244,69422,baseline-operatin-67,baseline-firmware-49,true,true,2024-07-25T20:08:00,42,2,101,101,101
+DEV-2384,Column Name cannot be empty,MOD-2250,7731874,pilot-operatin-68,pilot-firmware-50,false,false,2025-12-09T03:25:00,47,3,102,102,102
+DEV-2390,Financial Information Service Co. Ltd.,MOD-2256,10445632,extended-operatin-69,extended-firmware-51,true,true,2022-05-20T10:42:00,52,4,103,103,103

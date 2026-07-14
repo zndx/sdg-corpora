@@ -1,0 +1,5 @@
+clinical_documentation_id,doc_id,doc_type,creation_date,status,contains_supplement_review,is_public_facing,provider_id,patient_id,charting_software_id
+100,16605652,Treatment Plan,2022-01-13T12:24:00,Draft,false,true,100,8387541,1
+101,43197176,Session Note,2023-06-24T19:41:00,Pending Review,true,false,101,10207142,2
+102,19655015,Insurance Claim,2024-11-08T02:58:00,Finalized,false,true,102,7119782,3
+103,10207160,Lab Review,2025-04-19T09:15:00,Submitted,true,false,103,gd_acc_160003,4

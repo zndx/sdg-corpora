@@ -1,0 +1,5 @@
+id,software_id,version,license_type,max_cameras,supports_h_d,supports_i_p,supports_analog,surveillance_installation_id
+1,gd_taxc_2111,seasonal-version-71,regional-license-78,34,true,false,true,100
+2,5917273,regional-version-72,legacy-license-79,37,false,true,false,101
+3,id_4,legacy-version-73,compact-license-80,40,true,false,true,102
+4,8928496,compact-version-74,composite-license-81,43,false,true,false,103

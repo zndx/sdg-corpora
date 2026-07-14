@@ -1,0 +1,5 @@
+id,dispute_id,game_id,type,status,resolution,arises_in_game_id,tournament_director_td_id
+1000,9bb474ba-8fcc-11eb-924d-9cd76263cbd0,8350009,ambiguous_move,open,regional-resoluti-30,8350009,8189491
+1001,121,8843755,time_violation,resolved,legacy-resoluti-31,8843755,2106706
+1002,d9d9d79e-8fcc-11eb-924d-9cd76263cbd0,24341655,communication_breakdown,escalated,compact-resoluti-32,24341655,10449524
+1003,level-3,3001009030250,forfeiture,open,composite-resoluti-33,3001009030250,3355777

@@ -1,0 +1,5 @@
+forensic_operation_center_id,center_id,center_name,focus_area,techniques,reporting_capability,lab_id,case_id
+100,5844261,Seasonal Survey,forensics,data_salvaging,true,2106706,39800622
+101,1437588,Integrated Corridor,fraud_investigation,data_restoration,false,1437591,4891
+102,6564397,Extended Series D,digital_forensics,log_tracing,true,12042,17374813
+103,default_chart_a_tax_13,Pilot Assessment,forensics,behavioral_analysis,false,1562831,state_uk_9

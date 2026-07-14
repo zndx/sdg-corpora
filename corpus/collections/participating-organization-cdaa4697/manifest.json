@@ -1,0 +1,170 @@
+{
+ "construct_id": "cdaa4697464d5cb8",
+ "slug": "participating-organization-cdaa4697",
+ "passage": "cdaa4697464d5cb82a7726f85b92248300e47fdaed32d4d28ccdffdac1e170b2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 13,
+ "entities": [
+  "ParticipatingOrganization",
+  "FestivalEnrollment",
+  "QualityAssessment",
+  "FestivalStall",
+  "AgriculturalProduct",
+  "ProjectDirector"
+ ],
+ "terms": [
+  {
+   "name": "ParticipatingOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FestivalEnrollment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "QualityAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FestivalStall",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "AgriculturalProduct",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProjectDirector",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "participating_organizations",
+   "rows": 4,
+   "columns": [
+    "participating_organization_id",
+    "organization_id",
+    "legal_name",
+    "organization_type",
+    "registration_date",
+    "contact_person",
+    "contact_phone",
+    "contact_email",
+    "enrollment_status",
+    "festival_enrollment_id",
+    "festival_stall_id"
+   ]
+  },
+  {
+   "name": "festival_enrollments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enrollment_id",
+    "submission_date",
+    "festival_name",
+    "festival_start_date",
+    "festival_end_date",
+    "venue_name",
+    "venue_city",
+    "evaluation_outcome",
+    "participating_organization_id",
+    "quality_assessment_id",
+    "festival_stall_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "quality_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "quality_score",
+    "standard_compliance",
+    "assessor_name",
+    "assessment_method",
+    "festival_enrollment_id",
+    "director_id"
+   ]
+  },
+  {
+   "name": "festival_stalls",
+   "rows": 4,
+   "columns": [
+    "festival_stall_id",
+    "stall_id",
+    "stall_location_code",
+    "stall_size",
+    "stall_status",
+    "utility_access",
+    "festival_enrollment_id"
+   ]
+  },
+  {
+   "name": "agricultural_products",
+   "rows": 4,
+   "columns": [
+    "product_id",
+    "product_name",
+    "product_category",
+    "weight",
+    "unit_of_measure",
+    "price",
+    "expiry_date",
+    "participating_organization_id"
+   ]
+  },
+  {
+   "name": "project_directors",
+   "rows": 4,
+   "columns": [
+    "director_id",
+    "full_name",
+    "office_location",
+    "office_address",
+    "office_city",
+    "office_pincode",
+    "quality_assessment_id",
+    "festival_enrollment_id"
+   ]
+  },
+  {
+   "name": "stalls_products",
+   "rows": 8,
+   "columns": [
+    "festival_stall_id",
+    "product_id"
+   ]
+  },
+  {
+   "name": "products_stalls",
+   "rows": 8,
+   "columns": [
+    "product_id",
+    "festival_stall_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_participating_organization_festival_enrollment",
+  "v_participating_organization_festival_stall",
+  "v_festival_enrollment_participating_organization",
+  "v_festival_enrollment_quality_assessment",
+  "v_festival_enrollment_festival_stall",
+  "v_quality_assessment_festival_enrollment",
+  "v_quality_assessment_project_director",
+  "v_festival_stall_festival_enrollment",
+  "v_festival_stall_agricultural_product_detail",
+  "v_agricultural_product_festival_stall_detail",
+  "v_agricultural_product_participating_organization",
+  "v_project_director_quality_assessment",
+  "v_project_director_festival_enrollment"
+ ]
+}

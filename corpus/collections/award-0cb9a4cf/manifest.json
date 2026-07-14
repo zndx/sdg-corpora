@@ -1,0 +1,173 @@
+{
+ "construct_id": "0cb9a4cfd1f0c300",
+ "slug": "award-0cb9a4cf",
+ "passage": "0cb9a4cfd1f0c3000843e7db81028e1c413865944215fdceb1b2ff6827789ca3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 17,
+ "entities": [
+  "Award",
+  "Person",
+  "Position",
+  "Organization",
+  "Campus",
+  "Program",
+  "Policy"
+ ],
+ "terms": [
+  {
+   "name": "Award",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Position",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Campus",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Program",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Policy",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "awards",
+   "rows": 4,
+   "columns": [
+    "award_id",
+    "award_name",
+    "award_year",
+    "award_description",
+    "award_status",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "first_name",
+    "last_name",
+    "degree",
+    "certification",
+    "birth_date",
+    "position_id",
+    "award_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "positions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "position_id",
+    "position_title",
+    "start_date",
+    "end_date",
+    "responsibilities",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "founding_date",
+    "headquarters_location",
+    "person_id",
+    "award_id",
+    "campus_id"
+   ]
+  },
+  {
+   "name": "campuses",
+   "rows": 4,
+   "columns": [
+    "campus_id",
+    "campus_name",
+    "campus_level",
+    "enrollment",
+    "location",
+    "organization_id",
+    "program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "program_type",
+    "start_date",
+    "end_date",
+    "budget",
+    "campus_id",
+    "person_id",
+    "policy_id"
+   ]
+  },
+  {
+   "name": "policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_name",
+    "policy_type",
+    "effective_date",
+    "status",
+    "program_id",
+    "campus_id"
+   ]
+  }
+ ],
+ "views": [
+  "award_person_view",
+  "award_organization_view",
+  "person_position_view",
+  "person_award_view",
+  "person_organization_view",
+  "position_person_view",
+  "position_organization_view",
+  "organization_person_view",
+  "organization_award_view",
+  "organization_campus_view",
+  "campus_organization_view",
+  "campus_program_view",
+  "program_campus_view",
+  "program_person_view",
+  "program_policy_view",
+  "policy_program_view",
+  "policy_campus_view"
+ ]
+}

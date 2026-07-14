@@ -1,0 +1,5 @@
+id,recipientId,recipientName,relationshipType,trustLevel,patientId
+1,b_VB-EC-15,Legacy Cluster D,composite-relation-69,baseline-trust-73,1
+2,1889791,Regional Review,primary-relation-70,pilot-trust-74,2
+3,4180946,Seasonal Initiative,adaptive-relation-71,extended-trust-75,3
+4,5789a9197ed7473eb37814ca09efb2c8,Integrated Model A,distributed-relation-72,integrated-trust-76,4

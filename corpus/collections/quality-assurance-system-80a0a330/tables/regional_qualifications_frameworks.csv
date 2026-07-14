@@ -1,0 +1,5 @@
+id,framework_id,name,version,status,total_levels,credit_system_type,quality_assurance_system_id,created_at,updated_at
+100,lu_tax_code_template_m11,Extended Review,seasonal-version-71,in_development,2,composite-credit-81,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,228bd7e4-9bad-11eb-a8a2-19ed5c03f8d3,Pilot Initiative A,regional-version-72,draft,12,primary-credit-82,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,8843756,Baseline Model,legacy-version-73,published,12,adaptive-credit-83,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,ChIJm7V_gxFu5kcRAbqaOJHQUy0,Distributed Cluster,compact-version-74,implemented,4,distributed-credit-84,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

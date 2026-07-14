@@ -1,0 +1,146 @@
+{
+ "construct_id": "310c7d3e84ae6269",
+ "slug": "student-310c7d3e",
+ "passage": "310c7d3e84ae6269e7d3e5d23e915d1284442609c9626ea7c73b6ee295961bbe.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "Student",
+  "AcademicAdvisor",
+  "DegreeProgram",
+  "Course",
+  "CurriculumRequirement",
+  "TransferCreditRecord"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AcademicAdvisor",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DegreeProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CurriculumRequirement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TransferCreditRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "id_number",
+    "name",
+    "signature_date",
+    "academic_advisor_id",
+    "degree_program_id",
+    "transfer_credit_record_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "academic_advisors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "student_id"
+   ]
+  },
+  {
+   "name": "degree_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "level",
+    "total_credits_required",
+    "minimum_g_p_a",
+    "upper_division_credits_required"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "prefix",
+    "title",
+    "credits",
+    "is_upper_division",
+    "is_waived",
+    "curriculum_requirement_id"
+   ]
+  },
+  {
+   "name": "curriculum_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "required_credits",
+    "status",
+    "degree_program_id"
+   ]
+  },
+  {
+   "name": "transfer_credit_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "source_institution",
+    "credits_applied",
+    "evaluation_status",
+    "student_id",
+    "curriculum_requirement_id"
+   ]
+  },
+  {
+   "name": "programs_courses",
+   "rows": 8,
+   "columns": [
+    "degree_program_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "requirements_courses",
+   "rows": 8,
+   "columns": [
+    "curriculum_requirement_id",
+    "course_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_academic_advisor",
+  "v_student_degree_program",
+  "v_student_transfer_credit_record",
+  "v_academic_advisor_student",
+  "v_degree_program_course_detail",
+  "v_course_curriculum_requirement",
+  "v_curriculum_requirement_course_detail",
+  "v_curriculum_requirement_degree_program",
+  "v_transfer_credit_record_student",
+  "v_transfer_credit_record_curriculum_requirement"
+ ]
+}

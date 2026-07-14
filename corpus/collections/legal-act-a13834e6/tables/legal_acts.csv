@@ -1,0 +1,5 @@
+legal_act_id,act_identifier,act_title,issuing_body,effective_date,legal_status,fund_operation_id,cites_legal_act_id
+1,ACT-2177,Regional Corridor,baseline-issuing-13,2023-02-14T13:27:00,active,100,1
+2,ACT-2182,Seasonal Series D,pilot-issuing-14,2024-07-25T20:44:00,repealed,101,2
+3,ACT-2187,Integrated Assessment,extended-issuing-15,2025-12-09T03:01:00,amended,102,3
+4,ACT-2192,Extended Survey,integrated-issuing-16,2022-05-20T10:18:00,active,103,4

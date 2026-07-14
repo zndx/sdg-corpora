@@ -1,0 +1,5 @@
+id,setupId,setupName,hipAngle,armPosition,weightDistribution,createdAt,updatedAt
+1,5f901eb6-8fcd-11eb-924d-9cd76263cbd0,Seasonal Assessment,17.70,pilot-arm-62,regional-weight-66,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,9736893,Integrated Survey,19.40,extended-arm-63,legacy-weight-67,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,5f8f9bda-8fcd-11eb-924d-9cd76263cbd0,Extended Corridor D,21.10,integrated-arm-64,compact-weight-68,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,9085248,Pilot Series,22.80,seasonal-arm-65,composite-weight-69,2025-04-16 09:14:00,2025-04-23 15:41:00

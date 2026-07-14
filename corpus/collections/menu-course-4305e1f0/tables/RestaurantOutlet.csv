@@ -1,0 +1,5 @@
+id,outletId,outletName,addressLine1,city,postalCode,operatingHours,packageId,staffId,createdAt,updatedAt
+1,48753442,Extended Review,adaptive-address-77,integrated-city-34,9125611,pilot-operatin-50,100,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2618568,Pilot Initiative A,distributed-address-78,seasonal-city-35,ChIJt4hBkzhu5kcRJJDUNqGUpso,extended-operatin-51,101,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,9085247,Baseline Model,baseline-address-79,regional-city-36,3001009030200,integrated-operatin-52,102,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,2125,Distributed Cluster,pilot-address-80,legacy-city-37,4060635,seasonal-operatin-53,103,103,2025-04-16 09:14:00,2025-04-23 15:41:00

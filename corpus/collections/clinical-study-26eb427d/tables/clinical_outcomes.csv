@@ -1,0 +1,5 @@
+id,outcome_id,outcome_name,measurement_type,unit,clinical_study_id
+1,2618555,Primary Corridor A,binary,distributed-unit-18,1
+2,lu_tax_code_template_m46,Composite Series,continuous,baseline-unit-19,2
+3,168561,Compact Assessment,ordinal,pilot-unit-20,3
+4,1210-0007-M,Legacy Survey D,time_to_event,extended-unit-21,4

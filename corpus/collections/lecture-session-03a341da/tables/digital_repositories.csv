@@ -1,0 +1,5 @@
+id,repository_id,name,storage_path,total_capacity_g_b,last_backup,access_level
+1,611503,Extended Review,compact-storage-32,13.70,2022-09-14T08:48:00,public
+2,2106692,Pilot Initiative A,composite-storage-33,16.40,2023-02-25T15:05:00,restricted
+3,884340,Baseline Model,primary-storage-34,19.10,2024-07-09T22:22:00,private
+4,884350,Distributed Cluster,adaptive-storage-35,21.80,2025-12-20T05:39:00,public

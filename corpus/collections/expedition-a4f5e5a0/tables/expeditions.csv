@@ -1,0 +1,5 @@
+expedition_id,start_date,end_date,duration_days,objective,status,team_size,region,explorer_id,equipment_id,observation_id,geographic_area_id
+8189498,2022-09-05,2022-09-01,38,distributed-objectiv-36,planned,19,distributed-region-12,100,1,2986222,1
+8387552,2023-02-16,2023-02-12,49,baseline-objectiv-37,ongoing,23,baseline-region-13,101,2,605970,2
+6926365,2024-07-27,2024-07-23,60,pilot-objectiv-38,completed,27,pilot-region-14,102,3,6564399,3
+3355779,2025-12-11,2025-12-07,71,extended-objectiv-39,abandoned,31,extended-region-15,103,4,9125614,4

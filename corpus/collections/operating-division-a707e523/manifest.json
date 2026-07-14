@@ -1,0 +1,269 @@
+{
+ "construct_id": "a707e523f6916140",
+ "slug": "operating-division-a707e523",
+ "passage": "a707e523f691614009f06ffee96e894ea1679d754a82c3068a5ae7e7690742e4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 19,
+ "n_views": 18,
+ "entities": [
+  "OperatingDivision",
+  "BudgetSubmission",
+  "BudgetLineItem",
+  "InternalTrainingClass",
+  "Employee",
+  "OfficeLocation",
+  "ProductivityTool",
+  "BusinessProcess"
+ ],
+ "terms": [
+  {
+   "name": "OperatingDivision",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BudgetSubmission",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BudgetLineItem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InternalTrainingClass",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Employee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "OfficeLocation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProductivityTool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BusinessProcess",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "operating_divisions",
+   "rows": 4,
+   "columns": [
+    "division_id",
+    "division_name",
+    "headquarters_location",
+    "employee_count",
+    "fiscal_year"
+   ]
+  },
+  {
+   "name": "budget_submissions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "submission_id",
+    "total_projected_expenditure",
+    "submission_date",
+    "fiscal_year",
+    "submission_status",
+    "division_id"
+   ]
+  },
+  {
+   "name": "budget_line_items",
+   "rows": 4,
+   "columns": [
+    "budget_line_item_id",
+    "line_item_id",
+    "category_name",
+    "allocated_amount",
+    "currency_code",
+    "approval_status",
+    "budget_submission_id",
+    "division_id"
+   ]
+  },
+  {
+   "name": "internal_training_classes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "class_id",
+    "class_name",
+    "topic_category",
+    "scheduled_date",
+    "max_capacity",
+    "current_enrollment",
+    "office_location_id"
+   ]
+  },
+  {
+   "name": "employees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "full_name",
+    "job_title",
+    "office_location",
+    "hire_date",
+    "is_manager",
+    "division_id",
+    "budget_submission_id"
+   ]
+  },
+  {
+   "name": "office_locations",
+   "rows": 4,
+   "columns": [
+    "office_location_id",
+    "location_id",
+    "city",
+    "state",
+    "is_headquarters",
+    "employee_capacity"
+   ]
+  },
+  {
+   "name": "productivity_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "software_version",
+    "deployment_date",
+    "is_collaborative"
+   ]
+  },
+  {
+   "name": "business_processes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "process_id",
+    "process_name",
+    "average_duration_hours",
+    "efficiency_gain_percent",
+    "process_status",
+    "budget_submission_id"
+   ]
+  },
+  {
+   "name": "divisions_submissions",
+   "rows": 8,
+   "columns": [
+    "division_id",
+    "budget_submission_id"
+   ]
+  },
+  {
+   "name": "submissions_items",
+   "rows": 8,
+   "columns": [
+    "budget_submission_id",
+    "budget_line_item_id"
+   ]
+  },
+  {
+   "name": "classes_employees",
+   "rows": 8,
+   "columns": [
+    "internal_training_class_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "employees_classes",
+   "rows": 8,
+   "columns": [
+    "employee_id",
+    "internal_training_class_id"
+   ]
+  },
+  {
+   "name": "employees_tools",
+   "rows": 8,
+   "columns": [
+    "employee_id",
+    "productivity_tool_id"
+   ]
+  },
+  {
+   "name": "locations_classes",
+   "rows": 8,
+   "columns": [
+    "office_location_id",
+    "internal_training_class_id"
+   ]
+  },
+  {
+   "name": "locations_employees",
+   "rows": 8,
+   "columns": [
+    "office_location_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "tools_employees",
+   "rows": 8,
+   "columns": [
+    "productivity_tool_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "tools_processes",
+   "rows": 8,
+   "columns": [
+    "productivity_tool_id",
+    "business_process_id"
+   ]
+  },
+  {
+   "name": "processes_employees",
+   "rows": 8,
+   "columns": [
+    "business_process_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "processes_tools",
+   "rows": 8,
+   "columns": [
+    "business_process_id",
+    "productivity_tool_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_operating_division_budget_submission_detail",
+  "vw_budget_submission_operating_division",
+  "vw_budget_submission_budget_line_item_detail",
+  "vw_budget_line_item_budget_submission",
+  "vw_budget_line_item_operating_division",
+  "vw_internal_training_class_office_location",
+  "vw_internal_training_class_employee_detail",
+  "vw_employee_operating_division",
+  "vw_employee_budget_submission",
+  "vw_employee_internal_training_class_detail",
+  "vw_employee_productivity_tool_detail",
+  "vw_office_location_internal_training_class_detail",
+  "vw_office_location_employee_detail",
+  "vw_productivity_tool_employee_detail",
+  "vw_productivity_tool_business_process_detail",
+  "vw_business_process_employee_detail",
+  "vw_business_process_productivity_tool_detail",
+  "vw_business_process_budget_submission"
+ ]
+}

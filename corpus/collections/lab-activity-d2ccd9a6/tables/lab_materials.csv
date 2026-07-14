@@ -1,0 +1,5 @@
+id,material_id,name,quantity,unit,storage_location,lab_activity_id
+1,2839521,Extended Review,3.95,distributed-unit-18,distributed-storage-48,1
+2,937739,Pilot Initiative A,6.90,baseline-unit-19,baseline-storage-49,2
+3,27cf9038-9bad-11eb-a8a2-19ed5c03f8d3,Baseline Model,9.85,pilot-unit-20,pilot-storage-50,3
+4,7021001070070,Distributed Cluster,12.80,extended-unit-21,extended-storage-51,4

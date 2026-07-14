@@ -1,0 +1,5 @@
+id,address_line,location_type,supervision_required,authorization_id,is_dropoff_for_authorization_id
+100,baseline-address-79,pickup,false,9568453,9568453
+101,pilot-address-80,dropoff,true,state_uk_17,state_uk_17
+102,extended-address-81,pickup,false,2002007020070,2002007020070
+103,integrated-address-82,dropoff,true,2839499,2839499

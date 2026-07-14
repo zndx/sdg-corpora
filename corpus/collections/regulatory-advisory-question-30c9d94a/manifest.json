@@ -1,0 +1,142 @@
+{
+ "construct_id": "30c9d94a88e7410b",
+ "slug": "regulatory-advisory-question-30c9d94a",
+ "passage": "30c9d94a88e7410bd18aa9f48ee27746812edab938703120bd0b357d147daeee.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "RegulatoryAdvisoryQuestion",
+  "ExpertAdvisoryReport",
+  "FinancialModelingAssumption",
+  "CostOfCapital",
+  "InvestmentProject"
+ ],
+ "terms": [
+  {
+   "name": "RegulatoryAdvisoryQuestion",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ExpertAdvisoryReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "FinancialModelingAssumption",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CostOfCapital",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InvestmentProject",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "regulatory_advisory_questions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "question_id",
+    "question_text",
+    "paraphrased",
+    "asked_date",
+    "responded_in_report_paragraph",
+    "expert_advisory_report_id",
+    "financial_modeling_assumption_id"
+   ]
+  },
+  {
+   "name": "expert_advisory_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "author_name",
+    "publication_date",
+    "report_title",
+    "commission_name",
+    "financial_modeling_assumption_id"
+   ]
+  },
+  {
+   "name": "financial_modeling_assumptions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assumption_id",
+    "assumption_type",
+    "parameter_name",
+    "value_range_lower_bound",
+    "value_range_upper_bound",
+    "is_benchmark",
+    "status",
+    "cost_of_capital_id",
+    "regulatory_advisory_question_id"
+   ]
+  },
+  {
+   "name": "cost_of_capitals",
+   "rows": 4,
+   "columns": [
+    "cost_of_capital_id",
+    "cost_id",
+    "calculation_date",
+    "discount_rate",
+    "risk_free_rate",
+    "beta_estimate",
+    "methodology",
+    "investment_project_id"
+   ]
+  },
+  {
+   "name": "investment_projects",
+   "rows": 4,
+   "columns": [
+    "investment_project_id",
+    "project_id",
+    "provider_name",
+    "funding_source",
+    "total_value",
+    "implementation_status",
+    "risk_category",
+    "cost_of_capital_id",
+    "regulatory_advisory_question_id"
+   ]
+  },
+  {
+   "name": "reports_questions",
+   "rows": 8,
+   "columns": [
+    "expert_advisory_report_id",
+    "regulatory_advisory_question_id"
+   ]
+  },
+  {
+   "name": "capitals_assumptions",
+   "rows": 8,
+   "columns": [
+    "cost_of_capital_id",
+    "financial_modeling_assumption_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_regulatory_advisory_question_expert_advisory_report",
+  "v_regulatory_advisory_question_financial_modeling_assumption",
+  "v_expert_advisory_report_regulatory_advisory_question_detail",
+  "v_expert_advisory_report_financial_modeling_assumption",
+  "v_financial_modeling_assumption_cost_of_capital",
+  "v_financial_modeling_assumption_regulatory_advisory_question",
+  "v_cost_of_capital_financial_modeling_assumption_detail",
+  "v_cost_of_capital_investment_project",
+  "v_investment_project_cost_of_capital",
+  "v_investment_project_regulatory_advisory_question"
+ ]
+}

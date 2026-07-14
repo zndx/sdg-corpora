@@ -1,0 +1,5 @@
+shotId,shotIdentifier,shotType,targetDistance,targetDirection,executionStatus,practiceSessionId,clubId,spotId,routineId
+1,SHO-2468,Putting,1.09,legacy-target-73,Planned,4463660,100,8843760,100
+2,SHO-2471,Chipping,0.04999995,compact-target-74,Executed,3743996,101,3990184,101
+3,SHO-2474,Pitching,0.4,composite-target-75,Observed,c7445b72-8fcc-11eb-924d-9cd76263cbd0,102,4277010,102
+4,SHO-2477,SandShot,0.01999998,primary-target-76,Planned,organisational-alignment,103,Catatan,103

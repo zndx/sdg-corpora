@@ -1,0 +1,5 @@
+id,initiativeId,initiativeName,startDate,endDate,budgetAmount,fundingAgency,completionStatus,projectId,createdAt
+1000,compta,Baseline Corridor D,2022-09-05,2022-09-01,43.48,Alaska Air Group Inc,planned,1,2025-01-01 00:14:00
+1001,f209107c-8fcd-11eb-924d-9cd76263cbd0,Distributed Series,2023-02-16,2023-02-12,37.54,General Foods,ongoing,2,2025-02-06 03:14:00
+1002,8928495,Adaptive Assessment,2024-07-27,2024-07-23,35.57,Oscar Health Inc.,completed,3,2025-03-11 06:14:00
+1003,392495,Primary Survey A,2025-12-11,2025-12-07,19.95,Mastercard International,cancelled,4,2025-04-16 09:14:00

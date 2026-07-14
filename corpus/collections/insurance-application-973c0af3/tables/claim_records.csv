@@ -1,0 +1,5 @@
+id,claim_id,claim_year,premium_paid,total_incurred_claims,claim_description,exceeds_threshold,threshold_amount,organization_id,coverage_policy_id
+1000,6969435,23,4.95,16.95,Baseline Initiative D,true,19.93,100,100
+1001,4463668,32,8.90,19.90,Distributed Model,false,18.59,101,101
+1002,lu_tax_code_template_b_VB-EC-Tab,41,12.85,22.85,Adaptive Cluster,true,13.49,102,102
+1003,727058,50,16.80,25.80,Primary Review A,false,34.08,103,103

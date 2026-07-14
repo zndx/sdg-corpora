@@ -1,0 +1,5 @@
+id,medication_id,brand_name,generic_name,dosage_form,strength,administration_route,medication_fact_sheet_id,patient_id,created_at
+1,4716397,The College-Ready Promise,Distributed Review,primary-dosage-40,seasonal-strength-95,primary-administ-22,1,8387541,2025-01-01 00:14:00
+2,1c87986a-8fcd-11eb-924d-9cd76263cbd0,General Foods,Adaptive Initiative D,adaptive-dosage-41,regional-strength-96,adaptive-administ-23,2,10207142,2025-02-06 03:14:00
+3,1562853,Navistar International,Primary Model,distributed-dosage-42,legacy-strength-97,distributed-administ-24,3,7119782,2025-03-11 06:14:00
+4,e02275d4-8fd1-11eb-924d-9cd76263cbd0,Root Inc.,Composite Cluster,baseline-dosage-43,compact-strength-98,baseline-administ-25,4,gd_acc_160003,2025-04-16 09:14:00

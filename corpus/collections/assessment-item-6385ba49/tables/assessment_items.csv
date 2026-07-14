@@ -1,0 +1,5 @@
+id,item_id,section_designation,question_number,sub_question_label,marks_allotted,question_type,status,examination_paper_id,source_material_id,concept_id
+1,ITE-2792,SECTION_A,9,Extended Corridor,5.20,OBJECTIVE,DRAFT,1,1,1
+2,ITE-2795,SECTION_B,15,Pilot Series A,7.40,SUBJECTIVE,APPROVED,2,2,2
+3,ITE-2798,SECTION_A,21,Baseline Assessment,9.60,OBJECTIVE,ARCHIVED,3,3,3
+4,ITE-2801,SECTION_B,27,Distributed Survey,11.80,SUBJECTIVE,DRAFT,4,4,4

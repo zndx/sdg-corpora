@@ -1,0 +1,5 @@
+id,sample_id,collection_date,tissue_type,sequencing_coverage,sample_status,sequencing_assay_id,individual_id
+1000,1562854,2025-12-17T11:57:00,pilot-tissue-44,4.45,collected,100,1000
+1001,726043,2022-05-01T18:14:00,extended-tissue-45,8.90,processed,101,1001
+1002,89106,2023-10-12T01:31:00,integrated-tissue-46,13.35,sequenced,102,1002
+1003,10966221,2024-03-23T08:48:00,seasonal-tissue-47,17.80,archived,103,1003

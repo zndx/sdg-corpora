@@ -1,0 +1,5 @@
+finding_id,finding_category,finding_status,finding_description,finding_date,prior_finding_id,clinical_service_id,inspection_event_id,regulatory_requirement_id
+dbea2f30-8fcb-11eb-924d-9cd76263cbd0,safe,compliant,Primary Framework A,2025-08-26T19:09:00,client-focus,100,100,1000
+4793483,effective,non_compliant,Composite Protocol,2022-01-10T02:26:00,575200,101,101,1001
+6564384,caring,requires_improvement,Compact Programme,2023-06-21T09:43:00,9125635,102,102,1002
+8928500,responsive,compliant,Legacy Standard D,2024-11-05T16:00:00,1186102,103,103,1003

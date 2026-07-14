@@ -1,0 +1,216 @@
+{
+ "construct_id": "198f6f70ac0c867e",
+ "slug": "board-session-198f6f70",
+ "passage": "198f6f70ac0c867efd90c76b46323bbb6ad39334d6c8ee6cc0d56bb1f12c904e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 19,
+ "entities": [
+  "BoardSession",
+  "BoardMember",
+  "BoardStaff",
+  "ZoningCase",
+  "Applicant",
+  "Representative",
+  "BuildingReport",
+  "BoardMotion"
+ ],
+ "terms": [
+  {
+   "name": "BoardSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BoardMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "BoardStaff",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ZoningCase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Applicant",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Representative",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "BuildingReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BoardMotion",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "board_sessions",
+   "rows": 4,
+   "columns": [
+    "board_session_id",
+    "session_date",
+    "start_time",
+    "end_time",
+    "session_type",
+    "panel_designation",
+    "location",
+    "chairperson_name",
+    "is_precedent_setting",
+    "zoning_case_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "board_members",
+   "rows": 4,
+   "columns": [
+    "board_member_id",
+    "member_id",
+    "full_name",
+    "role",
+    "is_present",
+    "voting_record",
+    "board_session_id",
+    "board_motion_id"
+   ]
+  },
+  {
+   "name": "board_staffs",
+   "rows": 4,
+   "columns": [
+    "board_staff_id",
+    "staff_id",
+    "full_name",
+    "job_title",
+    "is_present",
+    "board_session_id",
+    "zoning_case_id"
+   ]
+  },
+  {
+   "name": "zoning_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "file_number",
+    "application_date",
+    "hearing_date",
+    "property_address",
+    "legal_description",
+    "zoning_district",
+    "requested_relief",
+    "status",
+    "applicant_id",
+    "representative_id",
+    "board_session_id",
+    "building_report_id"
+   ]
+  },
+  {
+   "name": "applicants",
+   "rows": 4,
+   "columns": [
+    "applicant_id",
+    "full_name",
+    "contact_info",
+    "representation_status",
+    "zoning_case_id",
+    "representative_id"
+   ]
+  },
+  {
+   "name": "representatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "representative_id",
+    "full_name",
+    "profession",
+    "applicant_id",
+    "board_session_id"
+   ]
+  },
+  {
+   "name": "building_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_date",
+    "prepared_by",
+    "regulation_cited",
+    "finding",
+    "recommendation",
+    "zoning_case_id",
+    "board_staff_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "board_motions",
+   "rows": 4,
+   "columns": [
+    "board_motion_id",
+    "motion_id",
+    "motion_text",
+    "proposed_by",
+    "seconded_by",
+    "outcome",
+    "vote_count",
+    "board_session_id",
+    "board_member_id",
+    "seconded_by_member_board_member_id",
+    "votes_on_board_member_id"
+   ]
+  },
+  {
+   "name": "sessions_members",
+   "rows": 8,
+   "columns": [
+    "board_session_id",
+    "board_member_id"
+   ]
+  },
+  {
+   "name": "sessions_staffs",
+   "rows": 8,
+   "columns": [
+    "board_session_id",
+    "board_staff_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_board_session_board_member_detail",
+  "vw_board_session_board_staff_detail",
+  "vw_board_session_zoning_case",
+  "vw_board_member_board_session",
+  "vw_board_member_board_motion",
+  "vw_board_staff_board_session",
+  "vw_board_staff_zoning_case",
+  "vw_zoning_case_applicant",
+  "vw_zoning_case_representative",
+  "vw_zoning_case_board_session",
+  "vw_zoning_case_building_report",
+  "vw_applicant_zoning_case",
+  "vw_applicant_representative",
+  "vw_representative_applicant",
+  "vw_representative_board_session",
+  "vw_building_report_zoning_case",
+  "vw_building_report_board_staff",
+  "vw_board_motion_board_session",
+  "vw_board_motion_board_member"
+ ]
+}

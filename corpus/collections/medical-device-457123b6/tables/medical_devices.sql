@@ -1,0 +1,21 @@
+CREATE TABLE medical_devices (
+  device_identifier VARCHAR(32),
+  manufacturer VARCHAR(46),
+  model_number VARCHAR(32) NOT NULL,
+  serial_number INTEGER,
+  operating_system VARCHAR(32),
+  firmware_version VARCHAR(32),
+  is_network_capable BOOLEAN,
+  is_currently_connected BOOLEAN,
+  deployment_date TIMESTAMP,
+  expected_service_life_years INTEGER,
+  cyber_risk_score_id INTEGER,
+  clinical_site_id INTEGER,
+  clinical_engineering_team_id INTEGER,
+  cyber_threat_id INTEGER,
+  PRIMARY KEY (model_number),
+  FOREIGN KEY (cyber_risk_score_id) REFERENCES cyber_risk_scores (id),
+  FOREIGN KEY (clinical_site_id) REFERENCES clinical_sites (clinical_site_id),
+  FOREIGN KEY (clinical_engineering_team_id) REFERENCES clinical_engineering_teams (clinical_engineering_team_id),
+  FOREIGN KEY (cyber_threat_id) REFERENCES cyber_threats (id)
+);

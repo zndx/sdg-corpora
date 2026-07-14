@@ -1,0 +1,160 @@
+{
+ "construct_id": "019b1c3510a12f8b",
+ "slug": "biodiesel-grade-019b1c35",
+ "passage": "019b1c3510a12f8b8e9f08c38703a581caf572560d4f97377b8985036ba84d95.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 14,
+ "entities": [
+  "BiodieselGrade",
+  "FuelProperty",
+  "FuelSample",
+  "ProductionBatch",
+  "ASTMTestMethod",
+  "StorageTank"
+ ],
+ "terms": [
+  {
+   "name": "BiodieselGrade",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FuelProperty",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FuelSample",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProductionBatch",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ASTMTestMethod",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "StorageTank",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "biodiesel_grades",
+   "rows": 4,
+   "columns": [
+    "id",
+    "grade_code",
+    "sulfur_limit",
+    "flash_point_min",
+    "cetane_min",
+    "cloud_point_max",
+    "acid_number_max",
+    "free_glycerin_max",
+    "total_glycerin_max",
+    "a_s_t_m_test_method_id",
+    "fuel_property_id"
+   ]
+  },
+  {
+   "name": "fuel_properties",
+   "rows": 4,
+   "columns": [
+    "fuel_property_id",
+    "property_name",
+    "specification_limit",
+    "unit_of_measure",
+    "is_critical",
+    "test_condition",
+    "biodiesel_grade_id",
+    "fuel_sample_id"
+   ]
+  },
+  {
+   "name": "fuel_samples",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sample_id",
+    "collection_date",
+    "source_batch_id",
+    "storage_temperature",
+    "sample_volume",
+    "sample_status",
+    "fuel_property_id",
+    "production_batch_id",
+    "a_s_t_m_test_method_id"
+   ]
+  },
+  {
+   "name": "production_batches",
+   "rows": 4,
+   "columns": [
+    "production_batch_id",
+    "batch_id",
+    "production_date",
+    "production_facility_id",
+    "total_volume",
+    "feedstock_type",
+    "batch_status",
+    "biodiesel_grade_id",
+    "tank_id"
+   ]
+  },
+  {
+   "name": "a_s_t_m_test_methods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "astm_number",
+    "method_description",
+    "applicable_grade",
+    "is_b_q9000_critical",
+    "fuel_property_id",
+    "fuel_sample_id"
+   ]
+  },
+  {
+   "name": "storage_tanks",
+   "rows": 4,
+   "columns": [
+    "tank_id",
+    "tank_capacity",
+    "current_fill_level",
+    "tank_material",
+    "last_inspection_date",
+    "tank_status",
+    "production_batch_id",
+    "fuel_sample_id"
+   ]
+  },
+  {
+   "name": "batches_samples",
+   "rows": 8,
+   "columns": [
+    "production_batch_id",
+    "fuel_sample_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_biodiesel_grade_a_s_t_m_test_method",
+  "v_biodiesel_grade_fuel_property",
+  "v_fuel_property_biodiesel_grade",
+  "v_fuel_property_fuel_sample",
+  "v_fuel_sample_fuel_property",
+  "v_fuel_sample_production_batch",
+  "v_fuel_sample_a_s_t_m_test_method",
+  "v_production_batch_fuel_sample_detail",
+  "v_production_batch_biodiesel_grade",
+  "v_production_batch_storage_tank",
+  "v_a_s_t_m_test_method_fuel_property",
+  "v_a_s_t_m_test_method_fuel_sample",
+  "v_storage_tank_production_batch",
+  "v_storage_tank_fuel_sample"
+ ]
+}

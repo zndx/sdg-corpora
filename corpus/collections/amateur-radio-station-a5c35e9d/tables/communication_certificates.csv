@@ -1,0 +1,5 @@
+certificate_id,issue_date,valid_until,communication_type,status,amateur_radio_station_id,signal_id
+778563,2023-02-01,2023-06-09,cw,issued,1,317
+7119762,2024-07-12,2024-11-20,fm_packet,revoked,2,6564371
+22106999,2025-12-23,2025-04-04,cw,expired,3,4463669
+2986238,2022-05-07,2022-09-15,fm_packet,issued,4,6969425

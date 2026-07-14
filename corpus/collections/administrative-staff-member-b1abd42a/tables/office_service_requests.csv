@@ -1,0 +1,5 @@
+id,request_id,submission_date,service_type,page_count,is_copyrighted,estimated_completion_time,is_emergency,administrative_staff_member_id,processed_by_administrative_staff_member_id,form_id
+1000,2087732,2025-04-24T03:57:00,composite-service-81,6,false,composite-estimate-57,true,1,1,template_impcode_pagata_20det10
+1001,575213,2022-09-08T10:14:00,primary-service-82,7,true,primary-estimate-58,false,2,2,937744
+1002,103167,2023-02-19T17:31:00,adaptive-service-83,0,false,adaptive-estimate-59,true,3,3,1250195
+1003,611510,2024-07-03T00:48:00,distributed-service-84,15,true,distributed-estimate-60,false,4,4,3355762

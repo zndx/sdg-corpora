@@ -1,0 +1,5 @@
+id,evidence_id,event_timestamp,evidence_type,confidence_score,is_verified,storage_location,video_analytics_module_id,video_management_system_version_number,created_at,updated_at
+1,195358,2025-04-17T15:57:00,IntrusionAlert,8.20,true,distributed-storage-48,1000,VER-2245,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,6564396,2022-09-01T22:14:00,SpeedViolation,10.40,false,baseline-storage-49,1001,VER-2249,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,047473c0-9bac-11eb-a8a2-19ed5c03f8d3,2023-02-12T05:31:00,LicensePlateCapture,12.60,true,pilot-storage-50,1002,VER-2253,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,4985170,2024-07-23T12:48:00,PeopleCount,14.80,false,extended-storage-51,1003,VER-2257,2025-04-16 09:14:00,2025-04-23 15:41:00

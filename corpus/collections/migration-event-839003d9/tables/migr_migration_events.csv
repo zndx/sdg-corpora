@@ -1,0 +1,5 @@
+migration_event_id,event_identifier,arrival_date,departure_country,destination_city,purpose_of_stay,is_transit,city_id
+1000,EVE-2706,2023-02-20,seasonal-departur-23,pilot-destinat-62,baseline-purpose-67,true,e5a1c32e-8fc3-11eb-924d-9cd76263cbd0
+1001,EVE-2707,2024-07-04,regional-departur-24,extended-destinat-63,pilot-purpose-68,false,level-4
+1002,EVE-2708,2025-12-15,legacy-departur-25,integrated-destinat-64,extended-purpose-69,true,3012810
+1003,EVE-2709,2022-05-26,compact-departur-26,seasonal-destinat-65,integrated-purpose-70,false,8189488

@@ -1,0 +1,5 @@
+id,ingredient_id,name,is_allergen,allergen_category,origin,form,menu_item_id
+1,1450638,Extended Review,false,gluten,distributed-origin-66,raw,1
+2,5844284,Pilot Initiative A,true,crustaceans,baseline-origin-67,processed,2
+3,template_ivacode_pagata_20det40ind,Baseline Model,false,molluscs,pilot-origin-68,cooked,3
+4,2087735,Distributed Cluster,true,milk,extended-origin-69,sauce,4

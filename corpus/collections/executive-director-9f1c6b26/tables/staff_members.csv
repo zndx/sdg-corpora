@@ -1,0 +1,5 @@
+staff_id,full_name,employment_type,department,hire_date,salary,is_supervisor,organization_id,executive_director_id,facility_id,event_id,created_at,updated_at
+937735,Theodore Mcgrath,adaptive-employme-17,adaptive-departme-89,2023-06-01,13.94,true,1,1,1000,2002007020060,2025-01-01 00:14:00,2025-01-02 00:41:00
+3158139,Account Name,distributed-employme-18,distributed-departme-90,2024-11-12,18.47,false,2,2,1001,168535,2025-02-06 03:14:00,2025-02-09 05:41:00
+8189502,Saipan International Airport,baseline-employme-19,baseline-departme-91,2025-04-23,66.14,true,3,3,1002,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,2025-03-11 06:14:00,2025-03-16 10:41:00
+69438,Norma Fisher,pilot-employme-20,pilot-departme-92,2022-09-07,61.82,false,4,4,1003,1186089,2025-04-16 09:14:00,2025-04-23 15:41:00

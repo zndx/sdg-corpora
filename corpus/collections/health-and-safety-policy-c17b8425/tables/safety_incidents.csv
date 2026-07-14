@@ -1,0 +1,5 @@
+id,incident_id,incident_type,severity_level,reported_date,investigation_status,worker_id,facility_zone_id,investigated_by_worker_id
+1,1336174,harassment,minor,2025-04-27T03:09:00,open,1,1,1
+2,state_uk_4,violence,moderate,2022-09-11T10:26:00,under_review,2,2,2
+3,2933483,unsafe_condition,severe,2023-02-22T17:43:00,closed,3,3,3
+4,2986243,near_miss,critical,2024-07-06T00:00:00,escalated,4,4,4

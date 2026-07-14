@@ -1,0 +1,5 @@
+id,condition_type,measurement_value,measurement_unit,geographic_scope,time_period,financial_crisis_id
+1,inequality,14.45,extended-measurem-87,distributed-geograph-78,pilot-time-26,1
+2,debt,17.90,integrated-measurem-88,baseline-geograph-79,extended-time-27,2
+3,stagnantIncome,21.35,seasonal-measurem-89,pilot-geograph-80,integrated-time-28,3
+4,financialization,24.80,regional-measurem-90,extended-geograph-81,seasonal-time-29,4

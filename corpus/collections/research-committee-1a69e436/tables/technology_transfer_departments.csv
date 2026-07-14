@@ -1,0 +1,5 @@
+id,department_id,name,established_date,status,administrative_director_id,technology_transfer_vice_president_id
+1,2087755,Extended Review,2024-03-27,active,1,100
+2,790483,Pilot Initiative A,2025-08-11,inactive,2,101
+3,505978,Baseline Model,2022-01-22,pending,3,102
+4,id_6,Distributed Cluster,2023-06-06,active,4,103

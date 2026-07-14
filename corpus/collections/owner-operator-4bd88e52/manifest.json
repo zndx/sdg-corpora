@@ -1,0 +1,229 @@
+{
+ "construct_id": "4bd88e52e3d1dd8e",
+ "slug": "owner-operator-4bd88e52",
+ "passage": "4bd88e52e3d1dd8ea9db5dbc5e239567c0c1923a0b47277307df12d5d02c2b9d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 16,
+ "entities": [
+  "OwnerOperator",
+  "Facility",
+  "Watershed",
+  "AnimalConfinementBuilding",
+  "AnimalCapacity",
+  "PermitApplication",
+  "OtherPermit"
+ ],
+ "terms": [
+  {
+   "name": "OwnerOperator",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Watershed",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AnimalConfinementBuilding",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AnimalCapacity",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "PermitApplication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OtherPermit",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "OwnerOperator",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legalName",
+    "contactPerson",
+    "streetAddress",
+    "city",
+    "state",
+    "zipCode",
+    "phone",
+    "emailAddress",
+    "entityType"
+   ]
+  },
+  {
+   "name": "Facility",
+   "rows": 4,
+   "columns": [
+    "facilityName",
+    "streetAddress",
+    "city",
+    "state",
+    "zipCode",
+    "county",
+    "township",
+    "section",
+    "contactPhone",
+    "contactEmail",
+    "watershedId"
+   ]
+  },
+  {
+   "name": "Watershed",
+   "rows": 4,
+   "columns": [
+    "id",
+    "watershedName",
+    "epaAddressCode"
+   ]
+  },
+  {
+   "name": "AnimalConfinementBuilding",
+   "rows": 4,
+   "columns": [
+    "id",
+    "buildingIdentifier",
+    "buildingType",
+    "constructionStatus",
+    "facilityZipCode"
+   ]
+  },
+  {
+   "name": "AnimalCapacity",
+   "rows": 4,
+   "columns": [
+    "capacityId",
+    "animalType",
+    "capacityCount",
+    "facilityClassification",
+    "buildingId",
+    "facilityZipCode"
+   ]
+  },
+  {
+   "name": "PermitApplication",
+   "rows": 4,
+   "columns": [
+    "applicationId",
+    "applicationDate",
+    "permitType",
+    "reasonCode",
+    "feeAmount",
+    "preparedBy",
+    "preparedByCompany",
+    "preparedByPhone",
+    "preparedByEmail",
+    "facilityZipCode",
+    "operatorId",
+    "permitId"
+   ]
+  },
+  {
+   "name": "OtherPermit",
+   "rows": 4,
+   "columns": [
+    "id",
+    "permitName",
+    "issuingAuthority",
+    "permitNumber",
+    "status",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "OwnerOperatorPermitApplication",
+   "rows": 8,
+   "columns": [
+    "operatorId",
+    "applicationId"
+   ]
+  },
+  {
+   "name": "OwnerOperatorFacility",
+   "rows": 8,
+   "columns": [
+    "operatorId",
+    "facilityZipCode"
+   ]
+  },
+  {
+   "name": "FacilityOwnerOperator",
+   "rows": 8,
+   "columns": [
+    "facilityZipCode",
+    "operatorId"
+   ]
+  },
+  {
+   "name": "FacilityAnimalConfinementBuilding",
+   "rows": 8,
+   "columns": [
+    "facilityZipCode",
+    "buildingId"
+   ]
+  },
+  {
+   "name": "FacilityAnimalCapacity",
+   "rows": 8,
+   "columns": [
+    "facilityZipCode",
+    "capacityId"
+   ]
+  },
+  {
+   "name": "WatershedFacility",
+   "rows": 8,
+   "columns": [
+    "watershedId",
+    "facilityZipCode"
+   ]
+  },
+  {
+   "name": "AnimalConfinementBuildingAnimalCapacity",
+   "rows": 8,
+   "columns": [
+    "buildingId",
+    "capacityId"
+   ]
+  },
+  {
+   "name": "PermitApplicationOwnerOperator",
+   "rows": 8,
+   "columns": [
+    "applicationId",
+    "operatorId"
+   ]
+  }
+ ],
+ "views": [
+  "owner_operator_permit_application_detail_view",
+  "owner_operator_facility_detail_view",
+  "facility_watershed_view",
+  "facility_owner_operator_detail_view",
+  "facility_animal_confinement_building_detail_view",
+  "facility_animal_capacity_detail_view",
+  "watershed_facility_detail_view",
+  "animal_confinement_building_facility_view",
+  "animal_confinement_building_animal_capacity_detail_view",
+  "animal_capacity_animal_confinement_building_view",
+  "animal_capacity_facility_view",
+  "permit_application_owner_operator_detail_view",
+  "permit_application_facility_view",
+  "permit_application_owner_operator_view",
+  "permit_application_other_permit_view",
+  "other_permit_permit_application_view"
+ ]
+}

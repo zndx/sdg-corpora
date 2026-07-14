@@ -1,0 +1,5 @@
+vineyard_id,name,location,acres,average_vine_age,ownership_type,wine_id,person_id
+1000,Extended Review,extended-location-99,5.70,40,Owned,100,1000
+1001,Pilot Initiative A,integrated-location-100,10.40,51,Leased,101,1001
+1002,Baseline Model,seasonal-location-101,15.10,62,Owned,102,1002
+1003,Distributed Cluster,regional-location-102,19.80,73,Leased,103,1003

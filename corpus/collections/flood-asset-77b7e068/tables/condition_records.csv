@@ -1,0 +1,5 @@
+record_id,assessment_date,condition_score,vulnerability_level,defect_type,is_verified,flood_asset_id,earth_observation_data_id,measurement_method_id
+10449530,2022-05-10T04:24:00,10.70,Low,Erosion,true,1,100,100
+10445619,2023-10-21T11:41:00,14.40,Medium,Cracking,false,2,101,101
+9568457,2024-03-05T18:58:00,18.10,High,VegetationOvergrowth,true,3,102,102
+20743593,2025-08-16T01:15:00,21.80,Critical,StructuralFailure,false,4,103,103

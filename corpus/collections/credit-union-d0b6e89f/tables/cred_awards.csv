@@ -1,0 +1,5 @@
+id,award_name,award_year,presented_by,citation_text,is_lifetime_achievement,person_id,organization_id
+1000,Primary Review A,36,baseline-presente-13,pilot-citation-80,false,1,1
+1001,Composite Initiative,43,pilot-presente-14,extended-citation-81,true,2,2
+1002,Compact Model,50,extended-presente-15,integrated-citation-82,false,3,3
+1003,Legacy Cluster D,57,integrated-presente-16,seasonal-citation-83,true,4,4

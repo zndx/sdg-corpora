@@ -1,0 +1,177 @@
+{
+ "construct_id": "65ee88ccb3a6b6a8",
+ "slug": "farmland-parcel-65ee88cc",
+ "passage": "65ee88ccb3a6b6a86ecf155f2c705720ab815dba6a7cdb86a3059f4f7ad5fbea.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 11,
+ "entities": [
+  "FarmlandParcel",
+  "InstitutionalInvestor",
+  "ParentCorporation",
+  "AgriculturalLease",
+  "LandOwner",
+  "GeographicRegion"
+ ],
+ "terms": [
+  {
+   "name": "FarmlandParcel",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InstitutionalInvestor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ParentCorporation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AgriculturalLease",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LandOwner",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "farmland_parcels",
+   "rows": 4,
+   "columns": [
+    "farmland_parcel_id",
+    "parcel_id",
+    "acreage",
+    "zoning_district",
+    "soil_quality_index",
+    "purchase_date",
+    "current_market_value",
+    "institutional_investor_id",
+    "geographic_region_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "institutional_investors",
+   "rows": 4,
+   "columns": [
+    "institutional_investor_id",
+    "investor_id",
+    "investor_name",
+    "investor_type",
+    "total_agricultural_assets",
+    "headquarters_location",
+    "registration_date",
+    "parent_corporation_id"
+   ]
+  },
+  {
+   "name": "parent_corporations",
+   "rows": 4,
+   "columns": [
+    "parent_corporation_id",
+    "corp_id",
+    "corp_name",
+    "country_of_origin",
+    "industry_sector",
+    "founding_year",
+    "is_publicly_traded"
+   ]
+  },
+  {
+   "name": "agricultural_leases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "lease_id",
+    "start_date",
+    "end_date",
+    "annual_rent",
+    "lease_status",
+    "crop_type",
+    "farmland_parcel_id",
+    "institutional_investor_id",
+    "owner_id"
+   ]
+  },
+  {
+   "name": "land_owners",
+   "rows": 4,
+   "columns": [
+    "owner_id",
+    "owner_name",
+    "owner_type",
+    "total_land_held",
+    "retirement_status",
+    "last_sale_price",
+    "institutional_investor_id"
+   ]
+  },
+  {
+   "name": "geographic_regions",
+   "rows": 4,
+   "columns": [
+    "geographic_region_id",
+    "region_id",
+    "region_name",
+    "region_type",
+    "total_agricultural_acreage",
+    "average_land_price",
+    "dominant_crops"
+   ]
+  },
+  {
+   "name": "investors_parcels",
+   "rows": 8,
+   "columns": [
+    "institutional_investor_id",
+    "farmland_parcel_id"
+   ]
+  },
+  {
+   "name": "corporations_investors",
+   "rows": 8,
+   "columns": [
+    "parent_corporation_id",
+    "institutional_investor_id"
+   ]
+  },
+  {
+   "name": "owners_parcels",
+   "rows": 8,
+   "columns": [
+    "owner_id",
+    "farmland_parcel_id"
+   ]
+  },
+  {
+   "name": "regions_parcels",
+   "rows": 8,
+   "columns": [
+    "geographic_region_id",
+    "farmland_parcel_id"
+   ]
+  }
+ ],
+ "views": [
+  "farmland_parcel_institutional_investor_view",
+  "farmland_parcel_geographic_region_view",
+  "institutional_investor_farmland_parcel_detail_view",
+  "institutional_investor_parent_corporation_view",
+  "parent_corporation_institutional_investor_detail_view",
+  "agricultural_lease_farmland_parcel_view",
+  "agricultural_lease_institutional_investor_view",
+  "agricultural_lease_land_owner_view",
+  "land_owner_farmland_parcel_detail_view",
+  "land_owner_institutional_investor_view",
+  "geographic_region_farmland_parcel_detail_view"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "construct_id": "68ea549b6bbdc24a",
+ "slug": "menu-item-68ea549b",
+ "passage": "68ea549b6bbdc24ae114dfbfe631f7a14732024a76c6a204d11a98de75ce15f6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 6,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "MenuCourse",
+  "PricingTier",
+  "DiningOccasion"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuCourse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PricingTier",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DiningOccasion",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "item_id",
+    "name",
+    "price",
+    "category",
+    "is_vegetarian",
+    "description",
+    "weight_grams",
+    "ingredient_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "origin_region",
+    "allergen_flag",
+    "menu_item_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "menu_courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "name",
+    "sequence_order",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "pricing_tiers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tier_id",
+    "course_count",
+    "price",
+    "valid_days",
+    "valid_start",
+    "valid_end",
+    "course_id"
+   ]
+  },
+  {
+   "name": "dining_occasions",
+   "rows": 4,
+   "columns": [
+    "dining_occasion_id",
+    "occasion_id",
+    "name",
+    "duration_minutes",
+    "is_available",
+    "pricing_tier_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_menu_item_ingredient",
+  "v_menu_item_menu_course",
+  "v_ingredient_menu_item",
+  "v_menu_course_menu_item",
+  "v_pricing_tier_menu_course",
+  "v_dining_occasion_pricing_tier"
+ ]
+}

@@ -1,0 +1,5 @@
+id,protocol_name,version,deployment_status,last_verified,top_level_domain_id,abuse_rate_id
+1,Baseline Initiative D,seasonal-version-71,deployed,2022-05-10,1000,100
+2,Distributed Model,regional-version-72,pending,2023-10-21,1001,101
+3,Adaptive Cluster,legacy-version-73,not_deployed,2024-03-05,1002,102
+4,Primary Review A,compact-version-74,deployed,2025-08-16,1003,103

@@ -1,0 +1,5 @@
+id,item_identifier,section_designation,question_number,sub_question_index,allocated_marks,item_type,status,source_material_id,marking_scheme_id
+1,ITE-2045,A,9,23,4.95,Objective,Draft,1,1
+2,ITE-2050,B,15,29,8.90,Subjective,Finalized,2,2
+3,ITE-2055,A,21,35,12.85,Objective,Published,3,3
+4,ITE-2060,B,27,41,16.80,Subjective,Draft,4,4

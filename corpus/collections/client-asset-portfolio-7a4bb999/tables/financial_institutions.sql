@@ -1,0 +1,21 @@
+CREATE TABLE financial_institutions (
+  financial_institution_id INTEGER NOT NULL,
+  institution_identifier VARCHAR(32),
+  legal_name VARCHAR(32),
+  registration_status VARCHAR(32),
+  net_capital_u_s_d DECIMAL,
+  total_assets_u_s_d DECIMAL,
+  shareholders_equity_u_s_d DECIMAL,
+  market_capitalization_u_s_d DECIMAL,
+  parent_company VARCHAR(35),
+  client_asset_portfolio_id INTEGER,
+  insurance_policy_id INTEGER,
+  regulatory_framework_id INTEGER,
+  audit_report_id INTEGER,
+  created_at TIMESTAMP,
+  PRIMARY KEY (financial_institution_id),
+  FOREIGN KEY (client_asset_portfolio_id) REFERENCES client_asset_portfolios (client_asset_portfolio_id),
+  FOREIGN KEY (insurance_policy_id) REFERENCES insurance_policies (insurance_policy_id),
+  FOREIGN KEY (regulatory_framework_id) REFERENCES regulatory_frameworks (id),
+  FOREIGN KEY (audit_report_id) REFERENCES audit_reports (id)
+);

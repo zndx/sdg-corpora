@@ -1,0 +1,5 @@
+summary_identifier,creation_date,format_code,has_records,confidentiality_status,youth_id,healthcare_facility_id,authorization_id
+SUM-2619,2022-01-13T12:24:00,gd_taxp_3,false,confidential,1000,1,1
+SUM-2623,2023-06-24T19:41:00,9736899,true,restricted,1001,2,2
+SUM-2627,2024-11-08T02:58:00,2002007020260,false,public,1002,3,3
+SUM-2631,2025-04-19T09:15:00,255,true,confidential,1003,4,4

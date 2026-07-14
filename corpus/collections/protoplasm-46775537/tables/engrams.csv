@@ -1,0 +1,5 @@
+id,engram_id,stimulus_energy,reaction_pattern,retention_date,disorder_association,protoplasm_id,stimulus_id,mental_disorder_id,created_at,updated_at
+100,1186100,20.45,composite-reaction-75,2024-07-22T18:54:00,true,100,100,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,8843757,24.90,primary-reaction-76,2025-12-06T01:11:00,false,101,101,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,f2094b32-8fcd-11eb-924d-9cd76263cbd0,29.35,adaptive-reaction-77,2022-05-17T08:28:00,true,102,102,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,5844256,33.80,distributed-reaction-78,2023-10-01T15:45:00,false,103,103,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

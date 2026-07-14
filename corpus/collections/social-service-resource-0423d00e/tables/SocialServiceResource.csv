@@ -1,0 +1,5 @@
+id,resourceIdentifier,resourceName,serviceCategory,isConfidential,isFree,operatingHours,organizationId
+1,RES-2673,Adaptive Corridor,food_pantry,false,true,24/7,1
+2,RES-2676,Primary Series,emergency_shelter,true,false,business_hours,2
+3,RES-2679,Composite Assessment D,childcare,false,true,24/7,3
+4,RES-2682,Compact Survey,housing,true,false,business_hours,4

@@ -1,0 +1,5 @@
+id,service_type,delivery_date,service_status,provider_staff_id,interaction_notes,client_record_phone_number,staff_record_id
+1,personal care,2022-09-10T08:48:00,scheduled,10445645,composite-interact-93,PHO-2092,1
+2,transportation,2023-02-21T15:05:00,in progress,2933462,primary-interact-94,PHO-2093,2
+3,counseling,2024-07-05T22:22:00,completed,2087734,adaptive-interact-95,PHO-2094,3
+4,care coordination,2025-12-16T05:39:00,cancelled,DR-AT1,distributed-interact-96,PHO-2095,4

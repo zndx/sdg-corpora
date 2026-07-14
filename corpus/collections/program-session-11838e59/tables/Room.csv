@@ -1,0 +1,5 @@
+id,roomIdentifier,roomName,roomType,hasChangingTables,allowsFood,requiresShoeRemoval,facilityId,equipmentId
+1,ROO-2647,Pilot Protocol,legacy-room-25,false,true,true,1,1000
+2,ROO-2654,Baseline Programme,compact-room-26,true,false,false,2,1001
+3,ROO-2661,Distributed Standard A,composite-room-27,false,true,true,3,1002
+4,ROO-2668,Adaptive Framework,primary-room-28,true,false,false,4,1003

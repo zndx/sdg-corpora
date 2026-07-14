@@ -1,0 +1,155 @@
+{
+ "construct_id": "1ea84c8e79754f2c",
+ "slug": "hunting-rate-1ea84c8e",
+ "passage": "1ea84c8e79754f2cbf22d9dc3c3280b8efe65ca705d5272a99e395dade7f3600.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 8,
+ "entities": [
+  "HuntingRate",
+  "HuntingPackage",
+  "HuntingService",
+  "HuntingLicense",
+  "TrophyFee",
+  "Accommodation"
+ ],
+ "terms": [
+  {
+   "name": "HuntingRate",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HuntingPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HuntingService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HuntingLicense",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrophyFee",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Accommodation",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "HuntingRate",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rateId",
+    "rateType",
+    "dailyFee",
+    "currency",
+    "validFrom",
+    "validTo",
+    "packageId"
+   ]
+  },
+  {
+   "name": "HuntingPackage",
+   "rows": 4,
+   "columns": [
+    "packageId",
+    "packageName",
+    "totalPrice",
+    "currency",
+    "durationNights",
+    "durationDays",
+    "status",
+    "accommodationId"
+   ]
+  },
+  {
+   "name": "HuntingService",
+   "rows": 4,
+   "columns": [
+    "serviceId",
+    "serviceName",
+    "serviceType",
+    "unitPrice",
+    "unitType",
+    "quantity",
+    "packageId",
+    "licenseId"
+   ]
+  },
+  {
+   "name": "HuntingLicense",
+   "rows": 4,
+   "columns": [
+    "id",
+    "licenseId",
+    "licenseType",
+    "issuingAuthority",
+    "feeAmount",
+    "issueDate",
+    "expiryDate",
+    "status"
+   ]
+  },
+  {
+   "name": "TrophyFee",
+   "rows": 4,
+   "columns": [
+    "id",
+    "feeId",
+    "scoringRange",
+    "surchargeAmount",
+    "currency",
+    "appliesToTrophy",
+    "serviceId"
+   ]
+  },
+  {
+   "name": "Accommodation",
+   "rows": 4,
+   "columns": [
+    "id",
+    "accommodationId",
+    "accommodationType",
+    "location",
+    "nightsIncluded",
+    "mealPlan",
+    "packageId"
+   ]
+  },
+  {
+   "name": "HuntingPackageHuntingService",
+   "rows": 8,
+   "columns": [
+    "packageId",
+    "serviceId"
+   ]
+  },
+  {
+   "name": "HuntingLicenseHuntingService",
+   "rows": 8,
+   "columns": [
+    "licenseId",
+    "serviceId"
+   ]
+  }
+ ],
+ "views": [
+  "hunting_rate_hunting_package_view",
+  "hunting_package_hunting_service_detail_view",
+  "hunting_package_accommodation_view",
+  "hunting_service_hunting_package_view",
+  "hunting_service_hunting_license_view",
+  "hunting_license_hunting_service_detail_view",
+  "trophy_fee_hunting_service_view",
+  "accommodation_hunting_package_view"
+ ]
+}

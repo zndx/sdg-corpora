@@ -1,0 +1,5 @@
+id,report_id,publish_date,ticker_symbol,recommendation,performance_vs_index,is_bold_call,client_account_id
+1,1202-0008-S,2023-06-06T17:03:00,composite-ticker-63,BUY,4.20,false,1000
+2,8189500,2024-11-17T00:20:00,primary-ticker-64,SELL,6.40,true,1001
+3,L355,2025-04-01T07:37:00,adaptive-ticker-65,HOLD,8.60,false,1002
+4,5844272,2022-09-12T14:54:00,distributed-ticker-66,BUY,10.80,true,1003

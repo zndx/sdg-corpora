@@ -1,0 +1,5 @@
+id,asset_id,asset_name,asset_type,construction_year,design_capacity,is_critical,geographic_zone_id,flood_hazard_id
+1,7731874,Pilot Programme,Levee,14,12.45,false,1000,1000
+2,6564392,Baseline Standard,Embankment,21,14.90,true,1001,1001
+3,5917296,Distributed Framework A,PumpingStation,28,17.35,false,1002,1002
+4,990e161e10664c5885182d95dc07e606,Adaptive Protocol,SluiceGate,35,19.80,true,1003,1003

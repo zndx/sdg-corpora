@@ -1,0 +1,5 @@
+quality_assurance_system_id,system_identifier,implementation_date,status,region,framework_version,regional_commission_id,academic_program_id,quality_benchmark_id
+1,SYS-2050,2024-11-14T10:06:00,planned,distributed-region-12,adaptive-framewor-53,1,1,1
+2,SYS-2051,2025-04-25T17:23:00,in_progress,baseline-region-13,distributed-framewor-54,2,2,2
+3,SYS-2052,2022-09-09T00:40:00,completed,pilot-region-14,baseline-framewor-55,3,3,3
+4,SYS-2053,2023-02-20T07:57:00,deprecated,extended-region-15,pilot-framewor-56,4,4,4

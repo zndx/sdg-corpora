@@ -1,0 +1,5 @@
+id,restrictionType,restrictionDescription,restrictionStartDate,restrictionEndDate,isActive,unitId
+1,prerequisite,Adaptive Framework,2024-03-01T02:06:00,2022-09-22T08:36:00,true,1
+2,enrollment_limit,Primary Protocol,2025-08-12T09:23:00,2023-02-06T15:53:00,false,2
+3,geographic,Composite Programme D,2022-01-23T16:40:00,2024-07-17T22:10:00,true,3
+4,delivery_mode,Compact Standard,2023-06-07T23:57:00,2025-12-01T05:27:00,false,4

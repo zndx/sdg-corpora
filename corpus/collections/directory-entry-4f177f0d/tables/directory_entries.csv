@@ -1,0 +1,5 @@
+id,handle,full_name,middle_initial,mailing_address,zip_code,telephone,autovon_number,fts_number,network_mailbox,registration_date,network_information_center_id,network_host_id,network_mailbox_id
+1,distributed-handle-60,Friedrich Nietzsche,regional-middle-30,compact-mailing-32,9fffb746-9bac-11eb-a8a2-19ed5c03f8d3,extended-telephon-15,AUT-2593,FTS-2551,composite-network-27,2023-10-21T09:51:00,100,1,1
+2,baseline-handle-61,Theodore Mcgrath,legacy-middle-31,composite-mailing-33,7731887,integrated-telephon-16,AUT-2599,FTS-2552,primary-network-28,2024-03-05T16:08:00,101,2,2
+3,pilot-handle-62,Patrick Mckee,compact-middle-32,primary-mailing-34,4793464,seasonal-telephon-17,AUT-2605,FTS-2553,adaptive-network-29,2025-08-16T23:25:00,102,3,3
+4,extended-handle-63,Jay Cunningham,composite-middle-33,adaptive-mailing-35,3012821,regional-telephon-18,AUT-2611,FTS-2554,distributed-network-30,2022-01-27T06:42:00,103,4,4

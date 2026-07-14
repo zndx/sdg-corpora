@@ -1,0 +1,5 @@
+industry_sector_id,sector_id,sector_name,description,is_public_sector,organization_id,partner_organization_id
+1,7119771,Distributed Survey,Extended Survey,true,1000,1
+2,726049,Adaptive Corridor D,Pilot Corridor A,false,1001,2
+3,103175,Primary Series,Baseline Series,true,1002,3
+4,9125631,Composite Assessment,Distributed Assessment,false,1003,4

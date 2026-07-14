@@ -1,0 +1,148 @@
+{
+ "construct_id": "54b64d86d64ec50f",
+ "slug": "certified-organization-54b64d86",
+ "passage": "54b64d86d64ec50f22da70d99148f9f3ebfe6e157813539d95eab9cb48036885.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "CertifiedOrganization",
+  "CertificationRecord",
+  "ManagementStandard",
+  "CertificationScope",
+  "ApprovalEvent"
+ ],
+ "terms": [
+  {
+   "name": "CertifiedOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CertificationRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ManagementStandard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CertificationScope",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ApprovalEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "certified_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "registered_address",
+    "certification_body",
+    "certification_body_region",
+    "certification_body_representative",
+    "certification_body_title"
+   ]
+  },
+  {
+   "name": "certification_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "certificate_identity_number",
+    "current_issue_date",
+    "expiry_date",
+    "status",
+    "certified_organization_id",
+    "management_standard_id",
+    "certification_scope_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "management_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_identifier",
+    "standard_title",
+    "version_number",
+    "issuing_body",
+    "publication_year"
+   ]
+  },
+  {
+   "name": "certification_scopes",
+   "rows": 4,
+   "columns": [
+    "certification_scope_id",
+    "scope_description",
+    "activity_type",
+    "product_category",
+    "certification_record_id"
+   ]
+  },
+  {
+   "name": "approval_events",
+   "rows": 4,
+   "columns": [
+    "approval_event_id",
+    "approval_date",
+    "approval_number",
+    "approval_type",
+    "management_standard_id"
+   ]
+  },
+  {
+   "name": "organizations_records",
+   "rows": 8,
+   "columns": [
+    "certified_organization_id",
+    "certification_record_id"
+   ]
+  },
+  {
+   "name": "records_events",
+   "rows": 8,
+   "columns": [
+    "certification_record_id",
+    "approval_event_id"
+   ]
+  },
+  {
+   "name": "standards_records",
+   "rows": 8,
+   "columns": [
+    "management_standard_id",
+    "certification_record_id"
+   ]
+  },
+  {
+   "name": "events_records",
+   "rows": 8,
+   "columns": [
+    "approval_event_id",
+    "certification_record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_certified_organization_certification_record_detail",
+  "v_certification_record_certified_organization",
+  "v_certification_record_management_standard",
+  "v_certification_record_certification_scope",
+  "v_certification_record_approval_event_detail",
+  "v_management_standard_certification_record_detail",
+  "v_certification_scope_certification_record",
+  "v_approval_event_certification_record_detail",
+  "v_approval_event_management_standard"
+ ]
+}

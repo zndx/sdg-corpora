@@ -1,0 +1,145 @@
+{
+ "construct_id": "9a56c7cbde77ed5a",
+ "slug": "surveillance-installation-9a56c7cb",
+ "passage": "9a56c7cbde77ed5ad70038825e1efcbccb665e85dca4fe44b81c1df2d4d67f99.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "SurveillanceInstallation",
+  "ServerHardware",
+  "StorageSystem",
+  "VideoManagementSoftware",
+  "ClientOrganization",
+  "ChannelPartner"
+ ],
+ "terms": [
+  {
+   "name": "SurveillanceInstallation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServerHardware",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StorageSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VideoManagementSoftware",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ClientOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ChannelPartner",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "surveillance_installations",
+   "rows": 4,
+   "columns": [
+    "surveillance_installation_id",
+    "installation_id",
+    "project_name",
+    "target_scale",
+    "deployment_date",
+    "status",
+    "total_cost",
+    "server_hardware_id",
+    "storage_system_id",
+    "video_management_software_id",
+    "client_organization_org_id",
+    "channel_partner_id"
+   ]
+  },
+  {
+   "name": "server_hardwares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "manufacturer",
+    "form_factor",
+    "model_number",
+    "serial_number",
+    "warranty_expiry",
+    "is_managed_service",
+    "surveillance_installation_id"
+   ]
+  },
+  {
+   "name": "storage_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "storage_id",
+    "storage_type",
+    "capacity_t_b",
+    "manufacturer",
+    "model_number",
+    "encryption_enabled",
+    "surveillance_installation_id"
+   ]
+  },
+  {
+   "name": "video_management_softwares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_id",
+    "version",
+    "license_type",
+    "max_cameras",
+    "supports_h_d",
+    "supports_i_p",
+    "supports_analog",
+    "surveillance_installation_id"
+   ]
+  },
+  {
+   "name": "client_organizations",
+   "rows": 4,
+   "columns": [
+    "org_id",
+    "org_name",
+    "sector",
+    "region",
+    "org_size",
+    "surveillance_installation_id"
+   ]
+  },
+  {
+   "name": "channel_partners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "partner_id",
+    "partner_name",
+    "certification_level",
+    "service_area",
+    "surveillance_installation_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_surveillance_installation_server_hardware",
+  "vw_surveillance_installation_storage_system",
+  "vw_surveillance_installation_video_management_software",
+  "vw_surveillance_installation_client_organization",
+  "vw_surveillance_installation_channel_partner",
+  "vw_server_hardware_surveillance_installation",
+  "vw_storage_system_surveillance_installation",
+  "vw_video_management_software_surveillance_installation",
+  "vw_client_organization_surveillance_installation",
+  "vw_channel_partner_surveillance_installation"
+ ]
+}

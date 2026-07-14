@@ -1,0 +1,142 @@
+{
+ "construct_id": "9bfde4225719b643",
+ "slug": "social-enterprise-9bfde422",
+ "passage": "9bfde4225719b64317f96d3a9bc188996fd545c3dabb6e8c6c3ef4b2ba3a4b0d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 10,
+ "entities": [
+  "SocialEnterprise",
+  "GeographicRegion",
+  "ServiceDomain",
+  "ClientSector",
+  "CensusPeriod",
+  "Country"
+ ],
+ "terms": [
+  {
+   "name": "SocialEnterprise",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicRegion",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ServiceDomain",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClientSector",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CensusPeriod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Country",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "SocialEnterprise",
+   "rows": 4,
+   "columns": [
+    "enterpriseId",
+    "legalForm",
+    "annualIncome",
+    "ageYears",
+    "isCharity",
+    "selfIdentifiesAsSocialEnterprise",
+    "headquartersLocation",
+    "primaryMarketType",
+    "regionId",
+    "domainId",
+    "sectorId",
+    "periodId"
+   ]
+  },
+  {
+   "name": "GeographicRegion",
+   "rows": 4,
+   "columns": [
+    "id",
+    "regionCode",
+    "regionName",
+    "regionType",
+    "population",
+    "socialEnterpriseDensity",
+    "isRural",
+    "enterpriseId",
+    "countryId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "ServiceDomain",
+   "rows": 4,
+   "columns": [
+    "domainId",
+    "domainCode",
+    "domainName",
+    "sectorShareOfIncome",
+    "isPrimaryProvider",
+    "enterpriseId"
+   ]
+  },
+  {
+   "name": "ClientSector",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sectorCode",
+    "sectorName",
+    "isPublicSector",
+    "incomeShare",
+    "enterpriseId"
+   ]
+  },
+  {
+   "name": "CensusPeriod",
+   "rows": 4,
+   "columns": [
+    "periodId",
+    "startYear",
+    "endYear",
+    "isBaseline",
+    "totalEnterprises",
+    "growthRate",
+    "enterpriseId"
+   ]
+  },
+  {
+   "name": "Country",
+   "rows": 4,
+   "columns": [
+    "id",
+    "countryCode",
+    "countryName",
+    "totalPopulation",
+    "totalSocialEnterprises",
+    "regionId"
+   ]
+  }
+ ],
+ "views": [
+  "social_enterprise_geographic_region_view",
+  "social_enterprise_service_domain_view",
+  "social_enterprise_client_sector_view",
+  "social_enterprise_census_period_view",
+  "geographic_region_social_enterprise_view",
+  "geographic_region_country_view",
+  "service_domain_social_enterprise_view",
+  "client_sector_social_enterprise_view",
+  "census_period_social_enterprise_view",
+  "country_geographic_region_view"
+ ]
+}

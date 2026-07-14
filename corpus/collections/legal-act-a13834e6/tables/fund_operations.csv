@@ -1,0 +1,5 @@
+fund_operation_id,operation_code,operation_type,start_date,end_date,status,legal_act_id,agent_id,created_at,updated_at
+100,4221,currency_monitoring,2022-09-05T20:24:00,2022-09-01T08:00:00,planned,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,short_term_financing,2023-02-16T03:41:00,2023-02-12T15:17:00,active,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,468,ecu_creation,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,5f90e206-8fcd-11eb-924d-9cd76263cbd0,loan_administration,2025-12-11T17:15:00,2025-12-07T05:51:00,dissolved,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

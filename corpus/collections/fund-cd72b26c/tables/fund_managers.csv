@@ -1,0 +1,5 @@
+fund_manager_id,manager_identifier,manager_name,regulatory_license,management_fee_waived,performance_fee_waived,headquarters_country,total_a_u_m,years_in_operation
+1000,MAN-2729,Melissa Hernandez,legacy-regulato-25,true,true,regional-headquar-42,6.95,32
+1001,MAN-2736,Jorge Sullivan,compact-regulato-26,false,false,legacy-headquar-43,8.90,40
+1002,MAN-2743,Norma Fisher,composite-regulato-27,true,true,compact-headquar-44,10.85,48
+1003,MAN-2750,Norma Fisher,primary-regulato-28,false,false,composite-headquar-45,12.80,56

@@ -1,0 +1,164 @@
+{
+ "construct_id": "ba7bfc8b9331a54d",
+ "slug": "cyber-incident-ba7bfc8b",
+ "passage": "ba7bfc8b9331a54df75b1fd673abb10ca3102627751ce577c278f120d57d6323.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 15,
+ "entities": [
+  "CyberIncident",
+  "ThreatDetectionSystem",
+  "SecurityEvent",
+  "DigitalAsset",
+  "SecurityPlatform",
+  "AutomatedResponse"
+ ],
+ "terms": [
+  {
+   "name": "CyberIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ThreatDetectionSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SecurityEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "DigitalAsset",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SecurityPlatform",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AutomatedResponse",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cyber_incidents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "incident_id",
+    "timestamp",
+    "severity_level",
+    "dwell_time",
+    "status",
+    "false_positive_flag",
+    "threat_detection_system_id",
+    "asset_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "threat_detection_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_id",
+    "system_name",
+    "deployment_type",
+    "monitoring_status",
+    "last_scan_date",
+    "ai_enabled",
+    "asset_id",
+    "security_event_id",
+    "security_platform_id"
+   ]
+  },
+  {
+   "name": "security_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_type",
+    "source_ip",
+    "destination_ip",
+    "timestamp",
+    "correlation_score",
+    "threat_detection_system_id",
+    "cyber_incident_id",
+    "automated_response_id"
+   ]
+  },
+  {
+   "name": "digital_assets",
+   "rows": 4,
+   "columns": [
+    "asset_id",
+    "asset_name",
+    "asset_type",
+    "os_type",
+    "criticality_level",
+    "last_compliance_check",
+    "security_platform_id",
+    "security_event_id"
+   ]
+  },
+  {
+   "name": "security_platforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_id",
+    "platform_name",
+    "version",
+    "deployment_date",
+    "compliance_framework",
+    "is_open_xdr",
+    "automated_response_id"
+   ]
+  },
+  {
+   "name": "automated_responses",
+   "rows": 4,
+   "columns": [
+    "automated_response_id",
+    "response_id",
+    "response_type",
+    "execution_time",
+    "success_status",
+    "trigger_event_id",
+    "security_event_id",
+    "asset_id",
+    "security_platform_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "platforms_systems",
+   "rows": 8,
+   "columns": [
+    "security_platform_id",
+    "threat_detection_system_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_cyber_incident_threat_detection_system",
+  "vw_cyber_incident_digital_asset",
+  "vw_threat_detection_system_digital_asset",
+  "vw_threat_detection_system_security_event",
+  "vw_threat_detection_system_security_platform",
+  "vw_security_event_threat_detection_system",
+  "vw_security_event_cyber_incident",
+  "vw_security_event_automated_response",
+  "vw_digital_asset_security_platform",
+  "vw_digital_asset_security_event",
+  "vw_security_platform_threat_detection_system_detail",
+  "vw_security_platform_automated_response",
+  "vw_automated_response_security_event",
+  "vw_automated_response_digital_asset",
+  "vw_automated_response_security_platform"
+ ]
+}

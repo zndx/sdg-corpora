@@ -1,0 +1,5 @@
+id,application_id,status,submission_date,proposal_type,total_floor_area,total_height,land_parcel_id,authority_id,created_at,updated_at
+1000,505997,submitted,2025-04-24,residential,6.45,10,1000,974930,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,1250196,under_review,2022-09-08,commercial,9.90,7,1001,5917289,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,124,objection_raised,2023-02-19,mixed_use,13.35,0,1002,8843762,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,IVC20det40,rejected,2024-07-03,infrastructure,16.80,11,1003,2087738,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,activity_id,start_time,end_time,protocol_version,instrument_used,status,healthcare_professional_id,quality_improvement_program_id
+1,8843761,2024-03-27T14:42:00,2023-02-26T13:27:00,legacy-protocol-43,pilot-instrume-62,scheduled,100,1
+2,4180957,2025-08-11T21:59:00,2024-07-10T20:44:00,compact-protocol-44,extended-instrume-63,inProgress,101,2
+3,168545,2022-01-22T04:16:00,2025-12-21T03:01:00,composite-protocol-45,integrated-instrume-64,completed,102,3
+4,default_chart_a_account_53,2023-06-06T11:33:00,2022-05-05T10:18:00,primary-protocol-46,seasonal-instrume-65,failed,103,4

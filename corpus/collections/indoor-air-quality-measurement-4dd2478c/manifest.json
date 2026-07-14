@@ -1,0 +1,172 @@
+{
+ "construct_id": "4dd2478cdd6c2e9f",
+ "slug": "indoor-air-quality-measurement-4dd2478c",
+ "passage": "4dd2478cdd6c2e9fa3a67482ee4119b92a42c9455bc7971861111f6818bbdbbf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 14,
+ "entities": [
+  "IndoorAirQualityMeasurement",
+  "IndoorEnvironment",
+  "IndoorPollutant",
+  "PollutantSource",
+  "VulnerablePopulation",
+  "PolicyInstrument",
+  "GovernmentDepartment"
+ ],
+ "terms": [
+  {
+   "name": "IndoorAirQualityMeasurement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "IndoorEnvironment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IndoorPollutant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PollutantSource",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VulnerablePopulation",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentDepartment",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "indoor_air_quality_measurements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measurement_id",
+    "timestamp",
+    "pollutant_concentration",
+    "unit_of_measure",
+    "measurement_method",
+    "sensor_calibration_date",
+    "indoor_environment_id",
+    "indoor_pollutant_id"
+   ]
+  },
+  {
+   "name": "indoor_environments",
+   "rows": 4,
+   "columns": [
+    "indoor_environment_id",
+    "environment_id",
+    "environment_type",
+    "building_age",
+    "ventilation_rate",
+    "occupancy_level",
+    "last_inspection_date",
+    "indoor_pollutant_id"
+   ]
+  },
+  {
+   "name": "indoor_pollutants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pollutant_id",
+    "pollutant_name",
+    "source_type",
+    "toxicity_level",
+    "regulatory_limit",
+    "health_impact_category",
+    "source_id",
+    "vulnerable_population_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "pollutant_sources",
+   "rows": 4,
+   "columns": [
+    "source_id",
+    "source_name",
+    "source_category",
+    "emission_rate",
+    "installation_date",
+    "maintenance_status",
+    "indoor_environment_id",
+    "indoor_pollutant_id"
+   ]
+  },
+  {
+   "name": "vulnerable_populations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "population_group_id",
+    "group_type",
+    "prevalence_rate",
+    "risk_factor",
+    "health_outcome",
+    "indoor_pollutant_id",
+    "indoor_environment_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "instrument_id",
+    "instrument_name",
+    "instrument_type",
+    "issuing_authority",
+    "effective_date",
+    "enforcement_level",
+    "indoor_pollutant_id",
+    "indoor_environment_id",
+    "department_id"
+   ]
+  },
+  {
+   "name": "government_departments",
+   "rows": 4,
+   "columns": [
+    "department_id",
+    "department_name",
+    "department_code",
+    "responsibility_area",
+    "ministerial_lead",
+    "established_date",
+    "policy_instrument_id",
+    "coordinates_with_department_id"
+   ]
+  }
+ ],
+ "views": [
+  "indoor_air_quality_measurement_indoor_environment_view",
+  "indoor_air_quality_measurement_indoor_pollutant_view",
+  "indoor_environment_indoor_pollutant_view",
+  "indoor_pollutant_pollutant_source_view",
+  "indoor_pollutant_vulnerable_population_view",
+  "pollutant_source_indoor_environment_view",
+  "pollutant_source_indoor_pollutant_view",
+  "vulnerable_population_indoor_pollutant_view",
+  "vulnerable_population_indoor_environment_view",
+  "policy_instrument_indoor_pollutant_view",
+  "policy_instrument_indoor_environment_view",
+  "policy_instrument_government_department_view",
+  "government_department_policy_instrument_view",
+  "government_department_government_department_view"
+ ]
+}

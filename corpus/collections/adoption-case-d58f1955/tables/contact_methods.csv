@@ -1,0 +1,5 @@
+contact_method_id,contact_value,contact_type,is_primary,adoption_petitioner_id,adult_to_be_adopted_social_security_number
+1,Jennifer Summers,cell_phone,true,1,SOC-2466
+2,Friedrich Nietzsche,alternate_phone,false,2,SOC-2467
+3,Theodore Mcgrath,email,true,3,SOC-2468
+4,Tasha Rodriguez,cell_phone,false,4,SOC-2469

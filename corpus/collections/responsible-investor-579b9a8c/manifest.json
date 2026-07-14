@@ -1,0 +1,160 @@
+{
+ "construct_id": "579b9a8c1421c5ea",
+ "slug": "responsible-investor-579b9a8c",
+ "passage": "579b9a8c1421c5eab978df8c8fc52ccfeabc6e7c0ad977f15d9834e882368022.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "ResponsibleInvestor",
+  "Corporation",
+  "EnvironmentalExternality",
+  "CorporatePolicy",
+  "ResponsibleInvestmentFund",
+  "EmpiricalStudy"
+ ],
+ "terms": [
+  {
+   "name": "ResponsibleInvestor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Corporation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnvironmentalExternality",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CorporatePolicy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResponsibleInvestmentFund",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EmpiricalStudy",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "responsible_investors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "investor_id",
+    "name",
+    "wealth",
+    "diversification_opportunities",
+    "motivation_type",
+    "is_green_agent",
+    "corporation_id",
+    "environmental_externality_id",
+    "corporate_policy_id"
+   ]
+  },
+  {
+   "name": "corporations",
+   "rows": 4,
+   "columns": [
+    "corporation_id",
+    "name",
+    "industry_type",
+    "environmental_pollution_level",
+    "corporate_reputation_score",
+    "is_subject_of_diversification",
+    "has_cleaning_technology",
+    "environmental_externality_id",
+    "responsible_investor_id",
+    "corporate_policy_id"
+   ]
+  },
+  {
+   "name": "environmental_externalities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "externality_id",
+    "pollution_size",
+    "abatement_cost",
+    "impact_on_utility",
+    "is_internalized",
+    "corporation_id",
+    "corporate_policy_id"
+   ]
+  },
+  {
+   "name": "corporate_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_type",
+    "implementation_date",
+    "is_ethical",
+    "target_pollution_reduction",
+    "corporation_id",
+    "environmental_externality_id",
+    "responsible_investor_id"
+   ]
+  },
+  {
+   "name": "responsible_investment_funds",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fund_id",
+    "fund_name",
+    "jurisdiction",
+    "total_assets",
+    "is_empirically_analyzed",
+    "focus_region",
+    "corporation_id",
+    "responsible_investor_id",
+    "empirical_study_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "empirical_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "study_id",
+    "study_title",
+    "region",
+    "data_source",
+    "is_theoretical_model",
+    "has_recommendations",
+    "responsible_investment_fund_id",
+    "environmental_externality_id",
+    "corporate_policy_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_responsible_investor_corporation",
+  "v_responsible_investor_environmental_externality",
+  "v_responsible_investor_corporate_policy",
+  "v_corporation_environmental_externality",
+  "v_corporation_responsible_investor",
+  "v_corporation_corporate_policy",
+  "v_environmental_externality_corporation",
+  "v_environmental_externality_corporate_policy",
+  "v_corporate_policy_corporation",
+  "v_corporate_policy_environmental_externality",
+  "v_corporate_policy_responsible_investor",
+  "v_responsible_investment_fund_corporation",
+  "v_responsible_investment_fund_responsible_investor",
+  "v_responsible_investment_fund_empirical_study",
+  "v_empirical_study_responsible_investment_fund",
+  "v_empirical_study_environmental_externality",
+  "v_empirical_study_corporate_policy"
+ ]
+}

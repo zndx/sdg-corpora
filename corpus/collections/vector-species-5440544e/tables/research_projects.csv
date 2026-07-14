@@ -1,0 +1,5 @@
+id,project_code,start_date,end_date,primary_objective,is_completed,methodology_type,administrative_region_id,health_authority_id,pathogen_id
+1000,IVC20det15,2022-09-05,2022-09-01,primary-primary-58,false,Entomological Surveillance,100,100,1
+1001,8599bbd0-9bad-11eb-a8a2-19ed5c03f8d3,2023-02-16,2023-02-12,adaptive-primary-59,true,Clinical Review,101,101,2
+1002,324,2024-07-27,2024-07-23,distributed-primary-60,false,Stakeholder Meeting,102,102,3
+1003,template_ivacode_pagata_20det50,2025-12-11,2025-12-07,baseline-primary-61,true,Entomological Surveillance,103,103,4

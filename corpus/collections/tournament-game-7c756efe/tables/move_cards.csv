@@ -1,0 +1,5 @@
+move_card_id,card_id,move_number,player_id,move_notation,time_used,postmark_date,transmission_timestamp,is_ambiguous,status,tournament_game_id,submitted_by_player_id,received_by_player_id,tournament_director_td_id,created_at
+1,17788643,17,gd_fp_eu_acc2,primary-move-94,7.45,2024-03-07,2025-12-08T23:57:00,true,pending,1000,gd_fp_eu_acc2,gd_fp_eu_acc2,8189491,2025-01-01 00:14:00
+2,ChIJ20iLSYBt5kcRqH2vq_dd6GU,25,605941,adaptive-move-95,10.90,2025-08-18,2022-05-19T06:14:00,false,clarified,1001,605941,605941,2106706,2025-02-06 03:14:00
+3,1336192,33,195362,distributed-move-96,14.35,2022-01-02,2023-10-03T13:31:00,true,accepted,1002,195362,195362,10449524,2025-03-11 06:14:00
+4,5917278,41,id_26,baseline-move-97,17.80,2023-06-13,2024-03-14T20:48:00,false,rejected,1003,id_26,id_26,3355777,2025-04-16 09:14:00

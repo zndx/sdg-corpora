@@ -1,0 +1,5 @@
+id,judgementText,isParticular,isContingent,requiresPerception,observationContext,conceptId,hasPredicateConceptConceptId
+100,baseline-judgemen-73,true,false,true,legacy-observat-49,1,1
+101,pilot-judgemen-74,false,true,false,compact-observat-50,2,2
+102,extended-judgemen-75,true,false,true,composite-observat-51,3,3
+103,integrated-judgemen-76,false,true,false,primary-observat-52,4,4

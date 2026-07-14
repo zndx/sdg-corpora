@@ -1,0 +1,183 @@
+{
+ "construct_id": "7b4448fbffab7787",
+ "slug": "financial-institution-7b4448fb",
+ "passage": "7b4448fbffab778701b7d164473dfbf531ca616eeb7e6f19812fff1834beb28c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 16,
+ "entities": [
+  "FinancialInstitution",
+  "SanctionsScreeningTool",
+  "SanctionsList",
+  "RegulatoryAgency",
+  "ComplianceTraining",
+  "ConsultancyTeam"
+ ],
+ "terms": [
+  {
+   "name": "FinancialInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SanctionsScreeningTool",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SanctionsList",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegulatoryAgency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ComplianceTraining",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ConsultancyTeam",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "financial_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_id",
+    "legal_name",
+    "jurisdiction",
+    "market_value_rank",
+    "established_year",
+    "is_cross_border",
+    "regulatory_status",
+    "sanctions_screening_tool_id",
+    "financial_institution_id"
+   ]
+  },
+  {
+   "name": "sanctions_screening_tools",
+   "rows": 4,
+   "columns": [
+    "sanctions_screening_tool_id",
+    "tool_id",
+    "provider",
+    "deployment_model",
+    "implementation_months",
+    "cost_percentage",
+    "last_updated",
+    "list_coverage",
+    "is_auto_updating",
+    "financial_institution_id",
+    "consultancy_team_id"
+   ]
+  },
+  {
+   "name": "sanctions_lists",
+   "rows": 4,
+   "columns": [
+    "sanctions_list_id",
+    "list_id",
+    "issuing_authority",
+    "effective_date",
+    "expiration_date",
+    "record_count",
+    "list_type",
+    "sanctions_screening_tool_id",
+    "agency_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "regulatory_agencies",
+   "rows": 4,
+   "columns": [
+    "agency_id",
+    "agency_name",
+    "jurisdiction",
+    "is_international",
+    "founded_year",
+    "enforcement_level",
+    "financial_institution_id"
+   ]
+  },
+  {
+   "name": "compliance_trainings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "training_id",
+    "start_date",
+    "end_date",
+    "location",
+    "attendee_count",
+    "is_completed",
+    "follow_up_frequency",
+    "financial_institution_id",
+    "consultancy_team_id",
+    "sanctions_screening_tool_id"
+   ]
+  },
+  {
+   "name": "consultancy_teams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "team_id",
+    "vendor_name",
+    "primary_region",
+    "specialization",
+    "is_active",
+    "financial_institution_id",
+    "compliance_training_id",
+    "sanctions_screening_tool_id"
+   ]
+  },
+  {
+   "name": "institutions_agencies",
+   "rows": 8,
+   "columns": [
+    "financial_institution_id",
+    "agency_id"
+   ]
+  },
+  {
+   "name": "tools_lists",
+   "rows": 8,
+   "columns": [
+    "sanctions_screening_tool_id",
+    "sanctions_list_id"
+   ]
+  },
+  {
+   "name": "agencies_lists",
+   "rows": 8,
+   "columns": [
+    "agency_id",
+    "sanctions_list_id"
+   ]
+  }
+ ],
+ "views": [
+  "financial_institution_sanctions_screening_tool_view",
+  "financial_institution_financial_institution_view",
+  "financial_institution_regulatory_agency_detail_view",
+  "sanctions_screening_tool_financial_institution_view",
+  "sanctions_screening_tool_sanctions_list_detail_view",
+  "sanctions_screening_tool_consultancy_team_view",
+  "sanctions_list_sanctions_screening_tool_view",
+  "sanctions_list_regulatory_agency_view",
+  "regulatory_agency_sanctions_list_detail_view",
+  "regulatory_agency_financial_institution_view",
+  "compliance_training_financial_institution_view",
+  "compliance_training_consultancy_team_view",
+  "compliance_training_sanctions_screening_tool_view",
+  "consultancy_team_financial_institution_view",
+  "consultancy_team_compliance_training_view",
+  "consultancy_team_sanctions_screening_tool_view"
+ ]
+}

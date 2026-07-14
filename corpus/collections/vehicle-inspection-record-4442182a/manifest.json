@@ -1,0 +1,165 @@
+{
+ "construct_id": "4442182aa39ca5dc",
+ "slug": "vehicle-inspection-record-4442182a",
+ "passage": "4442182aa39ca5dc555e3e31d39cc1239368dea3423902afe788587d1120434f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "VehicleInspectionRecord",
+  "Vehicle",
+  "InspectionItem",
+  "NonComplianceIssue",
+  "QualifiedMechanic"
+ ],
+ "terms": [
+  {
+   "name": "VehicleInspectionRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Vehicle",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InspectionItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NonComplianceIssue",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "QualifiedMechanic",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "VehicleInspectionRecord",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inspectionDate",
+    "reviewDueDate",
+    "odometerReading",
+    "registrationNumber",
+    "mechanicName",
+    "mechanicSignature",
+    "businessName",
+    "businessAddress",
+    "vehicleId",
+    "mechanicId"
+   ]
+  },
+  {
+   "name": "Vehicle",
+   "rows": 4,
+   "columns": [
+    "id",
+    "makeModel",
+    "registrationNumber",
+    "ownerName",
+    "odometerReading",
+    "inspectionStatus"
+   ]
+  },
+  {
+   "name": "InspectionItem",
+   "rows": 4,
+   "columns": [
+    "itemId",
+    "itemName",
+    "systemCategory",
+    "complianceStatus",
+    "defectDescription",
+    "rectificationDate",
+    "vehicleId",
+    "recordId",
+    "issueId"
+   ]
+  },
+  {
+   "name": "NonComplianceIssue",
+   "rows": 4,
+   "columns": [
+    "id",
+    "issueNumber",
+    "description",
+    "dateRectified",
+    "severity",
+    "itemId",
+    "mechanicId"
+   ]
+  },
+  {
+   "name": "QualifiedMechanic",
+   "rows": 4,
+   "columns": [
+    "mechanicId",
+    "fullName",
+    "businessName",
+    "businessAddress",
+    "phone",
+    "fax"
+   ]
+  },
+  {
+   "name": "VehicleInspectionRecordInspectionItem",
+   "rows": 8,
+   "columns": [
+    "recordId",
+    "itemId"
+   ]
+  },
+  {
+   "name": "VehicleVehicleInspectionRecord",
+   "rows": 8,
+   "columns": [
+    "vehicleId",
+    "recordId"
+   ]
+  },
+  {
+   "name": "VehicleInspectionItem",
+   "rows": 8,
+   "columns": [
+    "vehicleId",
+    "itemId"
+   ]
+  },
+  {
+   "name": "QualifiedMechanicVehicleInspectionRecord",
+   "rows": 8,
+   "columns": [
+    "mechanicId",
+    "recordId"
+   ]
+  },
+  {
+   "name": "QualifiedMechanicNonComplianceIssue",
+   "rows": 8,
+   "columns": [
+    "mechanicId",
+    "issueId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_vehicle_inspection_record_vehicle",
+  "vw_vehicle_inspection_record_qualified_mechanic",
+  "vw_vehicle_inspection_record_inspection_item_detail",
+  "vw_vehicle_vehicle_inspection_record_detail",
+  "vw_vehicle_inspection_item_detail",
+  "vw_inspection_item_vehicle",
+  "vw_inspection_item_vehicle_inspection_record",
+  "vw_inspection_item_non_compliance_issue",
+  "vw_non_compliance_issue_inspection_item",
+  "vw_non_compliance_issue_qualified_mechanic",
+  "vw_qualified_mechanic_vehicle_inspection_record_detail",
+  "vw_qualified_mechanic_non_compliance_issue_detail"
+ ]
+}

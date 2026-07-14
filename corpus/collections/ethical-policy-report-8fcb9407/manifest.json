@@ -1,0 +1,186 @@
+{
+ "construct_id": "8fcb94075be077cd",
+ "slug": "ethical-policy-report-8fcb9407",
+ "passage": "8fcb94075be077cd8a72b21e947be0662495ea3dbe2a2133fad84377f77a86b1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "EthicalPolicyReport",
+  "FinancialInstitution",
+  "InsuranceProduct",
+  "CorporateEntity",
+  "Territory",
+  "SettlementProject",
+  "HumanRightsViolation",
+  "PopulationGroup"
+ ],
+ "terms": [
+  {
+   "name": "EthicalPolicyReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "FinancialInstitution",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InsuranceProduct",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CorporateEntity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Territory",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SettlementProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HumanRightsViolation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PopulationGroup",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ethical_policy_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "publish_date",
+    "report_title",
+    "issuing_institution",
+    "compliance_status",
+    "financial_institution_id"
+   ]
+  },
+  {
+   "name": "financial_institutions",
+   "rows": 4,
+   "columns": [
+    "financial_institution_id",
+    "institution_id",
+    "institution_name",
+    "headquarters_location",
+    "customer_count",
+    "ethical_policy_adopted",
+    "insurance_product_id",
+    "entity_id"
+   ]
+  },
+  {
+   "name": "insurance_products",
+   "rows": 4,
+   "columns": [
+    "insurance_product_id",
+    "product_id",
+    "product_name",
+    "product_type",
+    "underwriter",
+    "coverage_scope",
+    "financial_institution_id"
+   ]
+  },
+  {
+   "name": "corporate_entities",
+   "rows": 4,
+   "columns": [
+    "entity_id",
+    "entity_name",
+    "industry_sector",
+    "country_of_operation",
+    "un_database_listed",
+    "financial_institution_id",
+    "territory_id",
+    "settlement_project_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "territories",
+   "rows": 4,
+   "columns": [
+    "territory_id",
+    "territory_name",
+    "legal_status",
+    "coordinates",
+    "recognized_by_u_n",
+    "settlement_project_id",
+    "violation_id"
+   ]
+  },
+  {
+   "name": "settlement_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_id",
+    "project_name",
+    "project_type",
+    "construction_status",
+    "funding_amount",
+    "territory_id",
+    "entity_id",
+    "violation_id"
+   ]
+  },
+  {
+   "name": "human_rights_violations",
+   "rows": 4,
+   "columns": [
+    "violation_id",
+    "violation_type",
+    "severity_level",
+    "date_reported",
+    "documented_by",
+    "territory_id",
+    "entity_id",
+    "group_id"
+   ]
+  },
+  {
+   "name": "population_groups",
+   "rows": 4,
+   "columns": [
+    "group_id",
+    "group_name",
+    "population_size",
+    "legal_status",
+    "prisoner_count",
+    "violation_id",
+    "territory_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_ethical_policy_report_financial_institution",
+  "vw_financial_institution_insurance_product",
+  "vw_financial_institution_corporate_entity",
+  "vw_insurance_product_financial_institution",
+  "vw_corporate_entity_financial_institution",
+  "vw_corporate_entity_territory",
+  "vw_corporate_entity_settlement_project",
+  "vw_territory_settlement_project",
+  "vw_territory_human_rights_violation",
+  "vw_settlement_project_territory",
+  "vw_settlement_project_corporate_entity",
+  "vw_settlement_project_human_rights_violation",
+  "vw_human_rights_violation_territory",
+  "vw_human_rights_violation_corporate_entity",
+  "vw_human_rights_violation_population_group",
+  "vw_population_group_human_rights_violation",
+  "vw_population_group_territory"
+ ]
+}

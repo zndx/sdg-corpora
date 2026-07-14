@@ -1,0 +1,5 @@
+apprenticeship_participant_id,participant_id,age,employment_status,gender,start_date,completion_status,scheme_id,employer_id,qualification_id
+100,3990185,35,new_hire,male,2022-09-05,in_progress,4716393,1,005588c4-9bac-11eb-a8a2-19ed5c03f8d3
+101,4716387,40,existing_employee,female,2023-02-16,completed,338514,2,1562831
+102,69430,45,unemployed,other,2024-07-27,dropped_out,template_ivacode_pagata_20ind,3,9424925
+103,c7460a44-8fcc-11eb-924d-9cd76263cbd0,50,new_hire,male,2025-12-11,in_progress,4bbb5d4c-9bad-11eb-a8a2-19ed5c03f8d3,4,1996940

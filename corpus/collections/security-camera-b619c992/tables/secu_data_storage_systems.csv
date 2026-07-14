@@ -1,0 +1,5 @@
+id,system_id,system_name,storage_capacity_g_b,last_backup_date,encryption_status,video_surveillance_data_id,created_at,updated_at
+1,8189503,Legacy Programme D,4.20,2022-05-27,false,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,3717623,Regional Standard,7.40,2023-10-11,true,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,7441161,Seasonal Framework,10.60,2024-03-22,false,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,605963,Integrated Protocol A,13.80,2025-08-06,true,4,2025-04-16 09:14:00,2025-04-23 15:41:00

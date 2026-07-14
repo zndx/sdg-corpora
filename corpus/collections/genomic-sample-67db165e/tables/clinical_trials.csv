@@ -1,0 +1,5 @@
+id,trial_id,phase,start_date,end_date,status,primary_outcome,genomic_dataset_id
+1,4716418,I,2022-09-05T20:24:00,2022-09-01T08:00:00,recruiting,extended-primary-63,100
+2,2618555,II,2023-02-16T03:41:00,2023-02-12T15:17:00,active,integrated-primary-64,101
+3,ad481f3a-8fb6-11eb-924d-9cd76263cbd0,III,2024-07-27T10:58:00,2024-07-23T22:34:00,completed,seasonal-primary-65,102
+4,default_chart_a_tax_code_29,IV,2025-12-11T17:15:00,2025-12-07T05:51:00,terminated,regional-primary-66,103

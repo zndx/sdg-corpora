@@ -1,0 +1,249 @@
+{
+ "construct_id": "057f17d1b3986de9",
+ "slug": "planning-application-057f17d1",
+ "passage": "057f17d1b3986de9b26c70f4adc493ae65942a288a9b08641f0e01037bae8aaf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 19,
+ "entities": [
+  "PlanningApplication",
+  "LandParcel",
+  "HousingUnit",
+  "DevelopmentProject",
+  "Infrastructure",
+  "PublicObjection",
+  "Municipality",
+  "LocalAuthority"
+ ],
+ "terms": [
+  {
+   "name": "PlanningApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LandParcel",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HousingUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DevelopmentProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Infrastructure",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PublicObjection",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Municipality",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LocalAuthority",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "planning_applications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "application_id",
+    "status",
+    "submission_date",
+    "proposal_type",
+    "total_floor_area",
+    "total_height",
+    "land_parcel_id",
+    "authority_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "land_parcels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parcel_id",
+    "zoning_district",
+    "area_hectares",
+    "current_land_use",
+    "topography",
+    "municipality_id",
+    "planning_application_id"
+   ]
+  },
+  {
+   "name": "housing_units",
+   "rows": 4,
+   "columns": [
+    "unit_id",
+    "unit_type",
+    "bedrooms",
+    "has_garden",
+    "floor_level",
+    "building_height",
+    "development_project_id"
+   ]
+  },
+  {
+   "name": "development_projects",
+   "rows": 4,
+   "columns": [
+    "development_project_id",
+    "project_id",
+    "project_name",
+    "total_units",
+    "total_floors",
+    "estimated_cost",
+    "start_date",
+    "land_parcel_id"
+   ]
+  },
+  {
+   "name": "infrastructures",
+   "rows": 4,
+   "columns": [
+    "infra_id",
+    "infra_type",
+    "capacity",
+    "current_utilization",
+    "condition",
+    "municipality_id",
+    "land_parcel_id"
+   ]
+  },
+  {
+   "name": "public_objections",
+   "rows": 4,
+   "columns": [
+    "objection_id",
+    "submission_date",
+    "objection_reason",
+    "severity",
+    "is_formal",
+    "planning_application_id"
+   ]
+  },
+  {
+   "name": "municipalities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "municipality_id",
+    "name",
+    "population",
+    "density",
+    "garden_city_status",
+    "authority_id"
+   ]
+  },
+  {
+   "name": "local_authorities",
+   "rows": 4,
+   "columns": [
+    "authority_id",
+    "authority_name",
+    "jurisdiction",
+    "decision",
+    "municipality_id"
+   ]
+  },
+  {
+   "name": "applications_objections",
+   "rows": 8,
+   "columns": [
+    "planning_application_id",
+    "objection_id"
+   ]
+  },
+  {
+   "name": "projects_units",
+   "rows": 8,
+   "columns": [
+    "development_project_id",
+    "unit_id"
+   ]
+  },
+  {
+   "name": "projects_infrastructures",
+   "rows": 8,
+   "columns": [
+    "development_project_id",
+    "infrastructure_infra_id"
+   ]
+  },
+  {
+   "name": "infrastructures_projects",
+   "rows": 8,
+   "columns": [
+    "infrastructure_infra_id",
+    "development_project_id"
+   ]
+  },
+  {
+   "name": "objections_infrastructures",
+   "rows": 8,
+   "columns": [
+    "objection_id",
+    "infrastructure_infra_id"
+   ]
+  },
+  {
+   "name": "municipalities_parcels",
+   "rows": 8,
+   "columns": [
+    "municipality_id",
+    "land_parcel_id"
+   ]
+  },
+  {
+   "name": "municipalities_infrastructures",
+   "rows": 8,
+   "columns": [
+    "municipality_id",
+    "infrastructure_infra_id"
+   ]
+  },
+  {
+   "name": "authorities_applications",
+   "rows": 8,
+   "columns": [
+    "authority_id",
+    "planning_application_id"
+   ]
+  }
+ ],
+ "views": [
+  "planning_application_land_parcel_view",
+  "planning_application_local_authority_view",
+  "planning_application_public_objection_detail_view",
+  "land_parcel_municipality_view",
+  "land_parcel_planning_application_view",
+  "housing_unit_development_project_view",
+  "development_project_land_parcel_view",
+  "development_project_housing_unit_detail_view",
+  "development_project_infrastructure_detail_view",
+  "infrastructure_municipality_view",
+  "infrastructure_development_project_detail_view",
+  "infrastructure_land_parcel_view",
+  "public_objection_planning_application_view",
+  "public_objection_infrastructure_detail_view",
+  "municipality_land_parcel_detail_view",
+  "municipality_local_authority_view",
+  "municipality_infrastructure_detail_view",
+  "local_authority_planning_application_detail_view",
+  "local_authority_municipality_view"
+ ]
+}

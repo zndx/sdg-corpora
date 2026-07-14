@@ -1,0 +1,5 @@
+data_file_id,file_id,file_name,file_size_bytes,storage_location,is_encrypted,is_deleted_securely,compression_ratio,server_id,data_transaction_id,digital_signature_id,created_at
+100,68f46afd953b4de8824b596a1bff565c,Compact Standard,344.0,distributed-storage-48,false,true,11.95,100,1,1000,2025-01-01 00:14:00
+101,state_et_5,Legacy Framework,1.05,baseline-storage-49,true,false,15.90,101,2,1001,2025-02-06 03:14:00
+102,922b9d78-9bad-11eb-a8a2-19ed5c03f8d3,Regional Protocol A,540.0,pilot-storage-50,false,true,19.85,102,3,1002,2025-03-11 06:14:00
+103,lu_tax_code_template_m22,Seasonal Programme,105.482,extended-storage-51,true,false,23.80,103,4,1003,2025-04-16 09:14:00

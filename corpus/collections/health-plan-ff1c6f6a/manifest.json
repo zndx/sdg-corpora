@@ -1,0 +1,241 @@
+{
+ "construct_id": "ff1c6f6a1dc06ffd",
+ "slug": "health-plan-ff1c6f6a",
+ "passage": "ff1c6f6a1dc06ffdbc801418b21a1f86a99ca421b238c93f28a158c31b23dc01.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 17,
+ "entities": [
+  "HealthPlan",
+  "ComplianceObligation",
+  "EligibleIndividual",
+  "PlanDocument",
+  "ReportingRequirement",
+  "HealthcareProvider",
+  "InsuranceClaim"
+ ],
+ "terms": [
+  {
+   "name": "HealthPlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ComplianceObligation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EligibleIndividual",
+   "genus": "bfo:0000001"
+  },
+  {
+   "name": "PlanDocument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ReportingRequirement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareProvider",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "InsuranceClaim",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "health_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_identifier",
+    "plan_name",
+    "insurance_type",
+    "grandfathered_status",
+    "effective_date",
+    "termination_date",
+    "is_cafeteria_plan",
+    "employer_size"
+   ]
+  },
+  {
+   "name": "compliance_obligations",
+   "rows": 4,
+   "columns": [
+    "compliance_obligation_id",
+    "obligation_identifier",
+    "description",
+    "compliance_deadline",
+    "status",
+    "applicable_year",
+    "requires_amendment",
+    "guidance_status",
+    "health_plan_id",
+    "reporting_requirement_id"
+   ]
+  },
+  {
+   "name": "eligible_individuals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "individual_identifier",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "relationship_to_employee",
+    "is_adult_dependent",
+    "coverage_status",
+    "health_plan_id",
+    "healthcare_provider_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "plan_documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_identifier",
+    "document_type",
+    "version_number",
+    "issue_date",
+    "distribution_status",
+    "contains_grandfather_status",
+    "requires_amendment",
+    "health_plan_id"
+   ]
+  },
+  {
+   "name": "reporting_requirements",
+   "rows": 4,
+   "columns": [
+    "reporting_requirement_id",
+    "requirement_identifier",
+    "report_type",
+    "effective_date",
+    "is_voluntary",
+    "applicable_entity_size",
+    "status",
+    "health_plan_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "healthcare_providers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "provider_identifier",
+    "provider_name",
+    "specialty",
+    "license_number",
+    "accepts_new_patients"
+   ]
+  },
+  {
+   "name": "insurance_claims",
+   "rows": 4,
+   "columns": [
+    "id",
+    "claim_identifier",
+    "claim_date",
+    "claim_amount",
+    "claim_status",
+    "covers_over_the_counter",
+    "requires_pre_authorization",
+    "eligible_individual_id",
+    "health_plan_id",
+    "healthcare_provider_id"
+   ]
+  },
+  {
+   "name": "plans_obligations",
+   "rows": 8,
+   "columns": [
+    "health_plan_id",
+    "compliance_obligation_id"
+   ]
+  },
+  {
+   "name": "plans_individuals",
+   "rows": 8,
+   "columns": [
+    "health_plan_id",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "obligations_documents",
+   "rows": 8,
+   "columns": [
+    "compliance_obligation_id",
+    "plan_document_id"
+   ]
+  },
+  {
+   "name": "individuals_claims",
+   "rows": 8,
+   "columns": [
+    "eligible_individual_id",
+    "insurance_claim_id"
+   ]
+  },
+  {
+   "name": "documents_obligations",
+   "rows": 8,
+   "columns": [
+    "plan_document_id",
+    "compliance_obligation_id"
+   ]
+  },
+  {
+   "name": "documents_individuals",
+   "rows": 8,
+   "columns": [
+    "plan_document_id",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "providers_individuals",
+   "rows": 8,
+   "columns": [
+    "healthcare_provider_id",
+    "eligible_individual_id"
+   ]
+  },
+  {
+   "name": "providers_claims",
+   "rows": 8,
+   "columns": [
+    "healthcare_provider_id",
+    "insurance_claim_id"
+   ]
+  }
+ ],
+ "views": [
+  "health_plan_compliance_obligation_detail_view",
+  "health_plan_eligible_individual_detail_view",
+  "compliance_obligation_health_plan_view",
+  "compliance_obligation_plan_document_detail_view",
+  "compliance_obligation_reporting_requirement_view",
+  "eligible_individual_health_plan_view",
+  "eligible_individual_healthcare_provider_view",
+  "eligible_individual_insurance_claim_detail_view",
+  "plan_document_health_plan_view",
+  "plan_document_compliance_obligation_detail_view",
+  "plan_document_eligible_individual_detail_view",
+  "reporting_requirement_health_plan_view",
+  "healthcare_provider_eligible_individual_detail_view",
+  "healthcare_provider_insurance_claim_detail_view",
+  "insurance_claim_eligible_individual_view",
+  "insurance_claim_health_plan_view",
+  "insurance_claim_healthcare_provider_view"
+ ]
+}

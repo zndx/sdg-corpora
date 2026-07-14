@@ -1,0 +1,5 @@
+id,case_identifier,filing_date,jurisdiction_code,case_status,court_docket_number,adoption_petitioner_id,adult_to_be_adopted_social_security_number,n_l_f_representative_id
+1000,CAS-2099,2023-02-09,5917299,pending,COU-2632,1,SOC-2466,1
+1001,CAS-2100,2024-07-20,id_25,under_review,COU-2637,2,SOC-2467,2
+1002,CAS-2101,2025-12-04,7731856,approved,COU-2642,3,SOC-2468,3
+1003,CAS-2102,2022-05-15,7c692762-8fcd-11eb-924d-9cd76263cbd0,denied,COU-2647,4,SOC-2469,4

@@ -1,0 +1,5 @@
+id,incidentIdentifier,incidentType,reportedDateTime,isConfirmed,severityLevel,hotlineId,organizationId
+1,INC-2635,human_trafficking,2024-11-12T22:18:00,true,low,1000,1
+2,INC-2641,sexual_assault,2025-04-23T05:35:00,false,medium,1001,2
+3,INC-2647,substance_abuse,2022-09-07T12:52:00,true,high,1002,3
+4,INC-2653,mental_health_crisis,2023-02-18T19:09:00,false,critical,1003,4

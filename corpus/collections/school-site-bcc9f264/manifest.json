@@ -1,0 +1,210 @@
+{
+ "construct_id": "bcc9f264966846dc",
+ "slug": "school-site-bcc9f264",
+ "passage": "bcc9f264966846dc07f768263fc2ad9ffc4ed9e72f9c2ba8976f8cb6a98ca1f7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 25,
+ "entities": [
+  "SchoolSite",
+  "InspectionEvent",
+  "CurriculumProgramme",
+  "StudentEnrolment",
+  "StudentOutcome",
+  "StaffMember",
+  "LearningActivity"
+ ],
+ "terms": [
+  {
+   "name": "SchoolSite",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InspectionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CurriculumProgramme",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StudentEnrolment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StudentOutcome",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LearningActivity",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "SchoolSite",
+   "rows": 4,
+   "columns": [
+    "id",
+    "siteId",
+    "streetAddress",
+    "city",
+    "county",
+    "postalCode",
+    "country",
+    "latitude",
+    "longitude",
+    "eventId",
+    "programmeId",
+    "memberId",
+    "enrolmentId"
+   ]
+  },
+  {
+   "name": "InspectionEvent",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inspectionId",
+    "startDate",
+    "endDate",
+    "inspectionType",
+    "overallEffectiveness",
+    "qualityOfEducation",
+    "behaviourAndAttitudes",
+    "personalDevelopment",
+    "leadershipAndManagement",
+    "welfareAndSafeguarding",
+    "siteId",
+    "programmeId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "CurriculumProgramme",
+   "rows": 4,
+   "columns": [
+    "programmeId",
+    "programmeName",
+    "subjectArea",
+    "targetAgeGroup",
+    "isCore",
+    "isVocational",
+    "sequencingStrategy",
+    "phonicsApproach",
+    "siteId",
+    "enrolmentId",
+    "activityId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "StudentEnrolment",
+   "rows": 4,
+   "columns": [
+    "enrolmentId",
+    "studentId",
+    "dateOfBirth",
+    "gender",
+    "attendanceRate",
+    "persistentAbsence",
+    "ehcPlan",
+    "ehcPlanId",
+    "currentYearGroup",
+    "isSixthForm",
+    "siteId",
+    "programmeId",
+    "outcomeId",
+    "memberId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "StudentOutcome",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outcomeId",
+    "outcomeType",
+    "qualificationName",
+    "qualificationGrade",
+    "destinationType",
+    "destinationProvider",
+    "achievementDate",
+    "isSuccessful",
+    "enrolmentId",
+    "programmeId",
+    "memberId"
+   ]
+  },
+  {
+   "name": "StaffMember",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staffId",
+    "staffName",
+    "role",
+    "specialism",
+    "isQualified",
+    "yearsOfService",
+    "workloadWellbeing",
+    "siteId",
+    "programmeId",
+    "enrolmentId",
+    "outcomeId"
+   ]
+  },
+  {
+   "name": "LearningActivity",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activityId",
+    "activityName",
+    "activityType",
+    "location",
+    "date",
+    "participantCount",
+    "isOptional",
+    "memberId",
+    "enrolmentId",
+    "programmeId"
+   ]
+  }
+ ],
+ "views": [
+  "school_site_inspection_event_view",
+  "school_site_curriculum_programme_view",
+  "school_site_staff_member_view",
+  "school_site_student_enrolment_view",
+  "inspection_event_school_site_view",
+  "inspection_event_curriculum_programme_view",
+  "inspection_event_student_outcome_view",
+  "curriculum_programme_school_site_view",
+  "curriculum_programme_student_enrolment_view",
+  "curriculum_programme_learning_activity_view",
+  "curriculum_programme_student_outcome_view",
+  "student_enrolment_school_site_view",
+  "student_enrolment_curriculum_programme_view",
+  "student_enrolment_student_outcome_view",
+  "student_enrolment_staff_member_view",
+  "student_outcome_student_enrolment_view",
+  "student_outcome_curriculum_programme_view",
+  "student_outcome_staff_member_view",
+  "staff_member_school_site_view",
+  "staff_member_curriculum_programme_view",
+  "staff_member_student_enrolment_view",
+  "staff_member_student_outcome_view",
+  "learning_activity_staff_member_view",
+  "learning_activity_student_enrolment_view",
+  "learning_activity_curriculum_programme_view"
+ ]
+}

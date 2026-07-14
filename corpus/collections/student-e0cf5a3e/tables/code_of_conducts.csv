@@ -1,0 +1,5 @@
+id,document_id,title,effective_date,version_number,approval_date,issuing_body,interim_suspension_id,no_contact_directive_id,student_activity_id
+1,IVC10I,Compact Initiative,2023-02-14,VER-2245,2023-10-10,baseline-issuing-13,1,1000,1
+2,605943,Legacy Model,2024-07-25,VER-2249,2024-03-21,pilot-issuing-14,2,1001,2
+3,10449525,Regional Cluster A,2025-12-09,VER-2253,2025-08-05,extended-issuing-15,3,1002,3
+4,5f93a090-8fcd-11eb-924d-9cd76263cbd0,Seasonal Review,2022-05-20,VER-2257,2022-01-16,integrated-issuing-16,4,1003,4

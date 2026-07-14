@@ -1,0 +1,142 @@
+{
+ "construct_id": "e6f2b5ef00ddd4e1",
+ "slug": "participating-entity-e6f2b5ef",
+ "passage": "e6f2b5ef00ddd4e18fcab28dce74fee25f442118986ac446fe48add4b737949d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "ParticipatingEntity",
+  "FestivalParticipation",
+  "FestivalBooth",
+  "FestivalVenue",
+  "ProductDisplay"
+ ],
+ "terms": [
+  {
+   "name": "ParticipatingEntity",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "FestivalParticipation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FestivalBooth",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FestivalVenue",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ProductDisplay",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "participating_entities",
+   "rows": 4,
+   "columns": [
+    "participating_entity_id",
+    "entity_identifier",
+    "entity_type",
+    "entity_name",
+    "contact_person",
+    "contact_address",
+    "contact_phone",
+    "enrolment_status",
+    "festival_participation_id",
+    "festival_booth_id"
+   ]
+  },
+  {
+   "name": "festival_participations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "participation_id",
+    "festival_name",
+    "application_date",
+    "evaluation_result",
+    "quality_score",
+    "standard_compliance",
+    "participating_entity_id",
+    "festival_booth_id",
+    "product_display_id"
+   ]
+  },
+  {
+   "name": "festival_booths",
+   "rows": 4,
+   "columns": [
+    "id",
+    "booth_id",
+    "booth_location",
+    "booth_size",
+    "booth_status",
+    "setup_date",
+    "dismantle_date",
+    "festival_venue_id",
+    "festival_participation_id",
+    "product_display_id"
+   ]
+  },
+  {
+   "name": "festival_venues",
+   "rows": 4,
+   "columns": [
+    "id",
+    "venue_id",
+    "venue_name",
+    "city",
+    "district",
+    "state",
+    "pin_code",
+    "festival_start_date",
+    "festival_end_date"
+   ]
+  },
+  {
+   "name": "product_displays",
+   "rows": 4,
+   "columns": [
+    "product_display_id",
+    "display_id",
+    "product_name",
+    "product_category",
+    "quantity",
+    "unit_of_measure",
+    "price_per_unit",
+    "quality_grade",
+    "festival_participation_id",
+    "festival_booth_id"
+   ]
+  },
+  {
+   "name": "venues_booths",
+   "rows": 8,
+   "columns": [
+    "festival_venue_id",
+    "festival_booth_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_participating_entity_festival_participation",
+  "v_participating_entity_festival_booth",
+  "v_festival_participation_participating_entity",
+  "v_festival_participation_festival_booth",
+  "v_festival_participation_product_display",
+  "v_festival_booth_festival_venue",
+  "v_festival_booth_festival_participation",
+  "v_festival_booth_product_display",
+  "v_festival_venue_festival_booth_detail",
+  "v_product_display_festival_participation",
+  "v_product_display_festival_booth"
+ ]
+}

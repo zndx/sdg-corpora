@@ -1,0 +1,5 @@
+id,event_id,event_name,event_type,start_date,end_date,region,status,followed_by_event_id,project_proposal_id
+1000,2002007020060,Seasonal Standard,Lab Surfing Workshop,2022-09-05,2022-09-01,North and Irish Sea,planned,1000,100
+1001,168535,Integrated Framework,Blue Sky Conference,2023-02-16,2023-02-12,Black Sea and South Mediterranean,running,1001,101
+1002,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0,Extended Protocol D,Science Incubator Summer School,2024-07-27,2024-07-23,Western Balkans,completed,1002,102
+1003,1186089,Pilot Programme,Lab Surfing Workshop,2025-12-11,2025-12-07,Central and Eastern Europe,planned,1003,103

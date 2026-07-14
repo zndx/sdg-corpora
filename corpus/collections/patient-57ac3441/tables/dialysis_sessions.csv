@@ -1,0 +1,5 @@
+session_id,start_date,duration,status,patient_id,facility_id
+1186087,2022-09-05T20:24:00,4.20,scheduled,1,1000
+2087748,2023-02-16T03:41:00,8.40,in_progress,2,1001
+4716414,2024-07-27T10:58:00,12.60,completed,3,1002
+005588c4-9bac-11eb-a8a2-19ed5c03f8d3,2025-12-11T17:15:00,16.80,failed,4,1003

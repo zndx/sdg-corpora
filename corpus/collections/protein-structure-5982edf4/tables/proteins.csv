@@ -1,0 +1,5 @@
+protein_id,uniprot_accession,gene_name,organism,molecular_weight,sequence_length,function,protein_structure_id,small_molecule_id,pathogen_id
+1,extended-uniprot-27,Regional Protocol,extended-organism-75,0.53,11,extended-function-33,1000,1,1996917
+2,integrated-uniprot-28,Seasonal Programme D,integrated-organism-76,0.74,17,integrated-function-34,1001,2,7119791
+3,seasonal-uniprot-29,Integrated Standard,seasonal-organism-77,0.74,23,seasonal-function-35,1002,3,392493
+4,regional-uniprot-30,Extended Framework,regional-organism-78,0.6,29,regional-function-36,1003,4,13483868

@@ -1,0 +1,186 @@
+{
+ "construct_id": "c2ba4cfe249e899c",
+ "slug": "care-agency-c2ba4cfe",
+ "passage": "c2ba4cfe249e899c614dc7ade884754eb3d84880fcfbc019de62716a2cbbf7be.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 14,
+ "entities": [
+  "CareAgency",
+  "InspectionEvent",
+  "InspectionReport",
+  "CareRecipient",
+  "CarePlan",
+  "StaffAssignment",
+  "CareTask"
+ ],
+ "terms": [
+  {
+   "name": "CareAgency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InspectionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InspectionReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CareRecipient",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CarePlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StaffAssignment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CareTask",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "care_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_id",
+    "agency_name",
+    "registered_address",
+    "contact_telephone",
+    "website_url",
+    "registration_status",
+    "last_inspection_date",
+    "inspection_event_id",
+    "care_recipient_id"
+   ]
+  },
+  {
+   "name": "inspection_events",
+   "rows": 4,
+   "columns": [
+    "inspection_event_id",
+    "inspection_id",
+    "inspection_date",
+    "inspection_type",
+    "overall_rating",
+    "safety_rating",
+    "effectiveness_rating",
+    "caring_rating",
+    "responsive_rating",
+    "well_led_rating",
+    "publication_date",
+    "care_agency_id",
+    "inspection_report_id"
+   ]
+  },
+  {
+   "name": "inspection_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_title",
+    "summary_of_findings",
+    "compliance_status",
+    "previous_inspection_date",
+    "previous_compliance_status",
+    "inspection_event_id"
+   ]
+  },
+  {
+   "name": "care_recipients",
+   "rows": 4,
+   "columns": [
+    "care_recipient_id",
+    "recipient_id",
+    "first_name",
+    "last_name",
+    "address",
+    "support_needs_assessment_date",
+    "dietary_preferences",
+    "mental_capacity_status",
+    "care_agency_id",
+    "staff_assignment_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "care_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "care_plan_id",
+    "plan_start_date",
+    "plan_end_date",
+    "review_frequency",
+    "nutrition_monitoring",
+    "hydration_monitoring",
+    "medication_management",
+    "care_recipient_id",
+    "care_task_id"
+   ]
+  },
+  {
+   "name": "staff_assignments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assignment_id",
+    "scheduled_date_time",
+    "completed_date_time",
+    "staff_count_required",
+    "assignment_status",
+    "care_recipient_id",
+    "care_task_id"
+   ]
+  },
+  {
+   "name": "care_tasks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "task_id",
+    "task_description",
+    "task_category",
+    "requires_two_staff",
+    "care_plan_id",
+    "staff_assignment_id"
+   ]
+  },
+  {
+   "name": "recipients_plans",
+   "rows": 8,
+   "columns": [
+    "care_recipient_id",
+    "care_plan_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_care_agency_inspection_event",
+  "v_care_agency_care_recipient",
+  "v_inspection_event_care_agency",
+  "v_inspection_event_inspection_report",
+  "v_inspection_report_inspection_event",
+  "v_care_recipient_care_agency",
+  "v_care_recipient_care_plan_detail",
+  "v_care_recipient_staff_assignment",
+  "v_care_plan_care_recipient",
+  "v_care_plan_care_task",
+  "v_staff_assignment_care_recipient",
+  "v_staff_assignment_care_task",
+  "v_care_task_care_plan",
+  "v_care_task_staff_assignment"
+ ]
+}

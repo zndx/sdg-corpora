@@ -1,0 +1,5 @@
+id,account_id,client_type,region,account_status,revenue_generated,account_manager_id,research_report_id
+1000,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,Family Office,distributed-region-12,Active,13.49,100,1
+1001,10207152,Institutional Investor,baseline-region-13,Prospect,19.97,101,2
+1002,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,Retail Client,pilot-region-14,Churned,13.49,102,3
+1003,3717632,Hedge Fund,extended-region-15,Active,21.11,103,4

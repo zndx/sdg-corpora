@@ -1,0 +1,5 @@
+id,species_code,common_name,parasitic_type,chlorophyll_presence,seed_production_rate,seed_longevity_years,seed_size_micrograms,germination_cue_required,field_id,germination_requirement_id
+100,Striga asiatica,Seasonal Review,obligate,true,21.70,6.70,1.00331,true,9085253,1
+101,Striga hermonthica,Integrated Initiative,facultative,false,24.40,11.40,0.74,false,1c87986a-8fcd-11eb-924d-9cd76263cbd0,2
+102,Rhamphicarpa fistulosa,Extended Model D,obligate,true,27.10,16.10,0.74,true,1996924,3
+103,Striga asiatica,Pilot Cluster,facultative,false,29.80,20.80,0.6000001,false,2298,4

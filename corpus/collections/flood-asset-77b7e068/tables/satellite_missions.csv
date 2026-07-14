@@ -1,0 +1,5 @@
+id,mission_id,mission_name,operator,launch_year,orbit_type,is_copernicus_mission,geographic_zone_id
+1,57da7384-8fcc-11eb-924d-9cd76263cbd0,Extended Framework,ESA,41,SunSynchronous,false,1000
+2,82869,Pilot Protocol A,NASA,47,Geostationary,true,1001
+3,8928505,Baseline Programme,CNES,53,Polar,false,1002
+4,4716411,Distributed Standard,ISRO,59,SunSynchronous,true,1003

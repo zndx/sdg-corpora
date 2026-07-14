@@ -1,0 +1,5 @@
+id,source_id,source_name,source_type,coverage_status,effective_date,patient_id,service_code
+1,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,Composite Model,private_insurance,accepted,2023-02-14,8387541,20789856
+2,7021001070050,Compact Cluster A,medical_assistance,not_accepted,2024-07-25,10207142,3990167
+3,achat,Legacy Review,county_funding,accepted,2025-12-09,7119782,14484998
+4,template_impcode_pagata_10det50,Regional Initiative,private_insurance,not_accepted,2022-05-20,gd_acc_160003,Total

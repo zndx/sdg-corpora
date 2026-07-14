@@ -1,0 +1,205 @@
+{
+ "construct_id": "5440544eb14af174",
+ "slug": "vector-species-5440544e",
+ "passage": "5440544eb14af17403e444e4b5ee9c162446d6f56983921761c2ee423e5b0cd2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 19,
+ "entities": [
+  "VectorSpecies",
+  "Pathogen",
+  "SurveillanceSite",
+  "ClinicalCase",
+  "HealthcareFacility",
+  "AdministrativeRegion",
+  "HealthAuthority",
+  "ResearchProject"
+ ],
+ "terms": [
+  {
+   "name": "VectorSpecies",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Pathogen",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveillanceSite",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalCase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HealthcareFacility",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdministrativeRegion",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthAuthority",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "vector_specieses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "species_code",
+    "common_name",
+    "is_primary_vector",
+    "breeding_preference",
+    "is_urban_adapted",
+    "pathogen_id",
+    "surveillance_site_id"
+   ]
+  },
+  {
+   "name": "pathogens",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pathogen_code",
+    "disease_name",
+    "severity_level",
+    "is_endemic",
+    "circulating_strain",
+    "vector_species_id"
+   ]
+  },
+  {
+   "name": "surveillance_sites",
+   "rows": 4,
+   "columns": [
+    "surveillance_site_id",
+    "site_code",
+    "district_name",
+    "region_type",
+    "is_endemic_zone",
+    "latitude",
+    "longitude",
+    "vector_species_id",
+    "clinical_case_id",
+    "administrative_region_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "clinical_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_i_d",
+    "diagnosis_date",
+    "symptom_profile",
+    "disease_form",
+    "patient_age",
+    "outcome",
+    "healthcare_facility_id",
+    "pathogen_id",
+    "surveillance_site_id"
+   ]
+  },
+  {
+   "name": "healthcare_facilities",
+   "rows": 4,
+   "columns": [
+    "healthcare_facility_id",
+    "facility_code",
+    "facility_name",
+    "facility_type",
+    "city_location",
+    "has_referral_capacity",
+    "surveillance_site_id",
+    "pathogen_id",
+    "receives_referrals_healthcare_facility_id"
+   ]
+  },
+  {
+   "name": "administrative_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_code",
+    "region_name",
+    "region_level",
+    "bordering_country",
+    "climate_zone",
+    "health_authority_id"
+   ]
+  },
+  {
+   "name": "health_authorities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authority_code",
+    "authority_name",
+    "authority_type",
+    "is_regulatory",
+    "funding_source",
+    "administrative_region_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "project_code",
+    "start_date",
+    "end_date",
+    "primary_objective",
+    "is_completed",
+    "methodology_type",
+    "administrative_region_id",
+    "health_authority_id",
+    "pathogen_id"
+   ]
+  },
+  {
+   "name": "regions_sites",
+   "rows": 8,
+   "columns": [
+    "administrative_region_id",
+    "surveillance_site_id"
+   ]
+  }
+ ],
+ "views": [
+  "vector_species_pathogen_view",
+  "vector_species_surveillance_site_view",
+  "pathogen_vector_species_view",
+  "surveillance_site_vector_species_view",
+  "surveillance_site_clinical_case_view",
+  "surveillance_site_administrative_region_view",
+  "clinical_case_healthcare_facility_view",
+  "clinical_case_pathogen_view",
+  "clinical_case_surveillance_site_view",
+  "healthcare_facility_surveillance_site_view",
+  "healthcare_facility_pathogen_view",
+  "healthcare_facility_healthcare_facility_view",
+  "administrative_region_surveillance_site_detail_view",
+  "administrative_region_health_authority_view",
+  "health_authority_administrative_region_view",
+  "health_authority_research_project_view",
+  "research_project_administrative_region_view",
+  "research_project_health_authority_view",
+  "research_project_pathogen_view"
+ ]
+}

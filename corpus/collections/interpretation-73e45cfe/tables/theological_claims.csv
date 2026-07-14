@@ -1,0 +1,5 @@
+id,claim_id,claim_text,claim_type,is_covenantal,is_eschatological,biblical_text_id,is_contradicted_by_biblical_text_id,interpretation_id,created_at,updated_at
+100,6969435,pilot-claim-56,baseline-claim-31,false,true,1,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,4463668,extended-claim-57,pilot-claim-32,true,false,2,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,lu_tax_code_template_b_VB-EC-Tab,integrated-claim-58,extended-claim-33,false,true,3,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,727058,seasonal-claim-59,integrated-claim-34,true,false,4,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

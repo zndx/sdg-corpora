@@ -1,0 +1,161 @@
+{
+ "construct_id": "1da7ef2d7474560f",
+ "slug": "animal-control-officer-1da7ef2d",
+ "passage": "1da7ef2d7474560f5226b8a6080d158f142bac859d6f16d6fddda47b4df43e3c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "AnimalControlOfficer",
+  "VectorControlActivity",
+  "AnimalEmergency",
+  "Animal",
+  "SafetyMeeting",
+  "IncidentReport"
+ ],
+ "terms": [
+  {
+   "name": "AnimalControlOfficer",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "VectorControlActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnimalEmergency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Animal",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SafetyMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "IncidentReport",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "animal_control_officers",
+   "rows": 4,
+   "columns": [
+    "animal_control_officer_id",
+    "employee_id",
+    "full_name",
+    "certification_level",
+    "license_status",
+    "on_call_status",
+    "safety_coordinator_role",
+    "vector_control_activity_id",
+    "animal_emergency_id"
+   ]
+  },
+  {
+   "name": "vector_control_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "spray_date",
+    "treated_area",
+    "chemical_agent",
+    "calibration_status",
+    "report_status",
+    "animal_control_officer_id"
+   ]
+  },
+  {
+   "name": "animal_emergencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "emergency_id",
+    "incident_date_time",
+    "severity_level",
+    "location",
+    "resolution_status",
+    "requires_immobilization",
+    "animal_control_officer_id",
+    "animal_id",
+    "incident_report_id"
+   ]
+  },
+  {
+   "name": "animals",
+   "rows": 4,
+   "columns": [
+    "animal_id",
+    "species",
+    "breed",
+    "weight_kg",
+    "health_status",
+    "microchip_id",
+    "animal_emergency_id",
+    "animal_control_officer_id"
+   ]
+  },
+  {
+   "name": "safety_meetings",
+   "rows": 4,
+   "columns": [
+    "safety_meeting_id",
+    "meeting_id",
+    "meeting_date",
+    "facilitator",
+    "attendance_count",
+    "notes_status",
+    "concerns_raised",
+    "animal_control_officer_id"
+   ]
+  },
+  {
+   "name": "incident_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_date",
+    "report_type",
+    "injured_party",
+    "description",
+    "review_status",
+    "animal_emergency_id",
+    "animal_control_officer_id",
+    "safety_meeting_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "meetings_officers",
+   "rows": 8,
+   "columns": [
+    "safety_meeting_id",
+    "animal_control_officer_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_animal_control_officer_vector_control_activity",
+  "vw_animal_control_officer_animal_emergency",
+  "vw_vector_control_activity_animal_control_officer",
+  "vw_animal_emergency_animal_control_officer",
+  "vw_animal_emergency_animal",
+  "vw_animal_emergency_incident_report",
+  "vw_animal_animal_emergency",
+  "vw_animal_animal_control_officer",
+  "vw_safety_meeting_animal_control_officer",
+  "vw_safety_meeting_animal_control_officer_detail",
+  "vw_incident_report_animal_emergency",
+  "vw_incident_report_animal_control_officer",
+  "vw_incident_report_safety_meeting"
+ ]
+}

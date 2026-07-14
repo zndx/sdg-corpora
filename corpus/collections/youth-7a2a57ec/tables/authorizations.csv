@@ -1,0 +1,5 @@
+id,authorization_identifier,issue_date,grantor_type,is_court_ordered,status,youth_id,transfer_event_id,release_event_id
+1,AUT-2420,2023-02-01T13:51:00,youth,true,pending,1000,1,100
+2,AUT-2423,2024-07-12T20:08:00,parent,false,obtained,1001,2,101
+3,AUT-2426,2025-12-23T03:25:00,legal_guardian,true,waived,1002,3,102
+4,AUT-2429,2022-05-07T10:42:00,youth,false,pending,1003,4,103

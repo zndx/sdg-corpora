@@ -1,0 +1,5 @@
+response_agency_id,agency_id,agency_name,agency_type,contact_person,contact_phone,contact_email,notification_method,spill_incident_id,notified_of_spill_incident_id,vessel_id
+100,U.S. Steel,FSG Social Impact Advisors,state,Alyssa Chung,Joe Tsai,Christopher Wilson,email,100,100,1
+101,Nikola Corporation,Whirlpool Corporation,federal,Brianna Mejia,Stephanie Collins,Charles Larsen,fax,101,101,2
+102,Oberthur Technologies,Education Writers Association,local,Eric Schultz,Tasha Rodriguez,Mary Alvarez,phone,102,102,3
+103,General Telephone & Electronics,Switch Card Services Ltd.,non_profit,Peter Montgomery,Walter Pratt,April Snyder,email,103,103,4

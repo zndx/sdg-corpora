@@ -1,0 +1,5 @@
+id,program_name,program_type,eligibility_criteria,funding_source,household_id,child_poverty_measure_id
+100,Extended Review,cash,composite-eligibil-57,baseline-funding-73,1,1
+101,Pilot Initiative A,in-kind,primary-eligibil-58,pilot-funding-74,2,2
+102,Baseline Model,tax_credit,adaptive-eligibil-59,extended-funding-75,3,3
+103,Distributed Cluster,cash,distributed-eligibil-60,integrated-funding-76,4,4

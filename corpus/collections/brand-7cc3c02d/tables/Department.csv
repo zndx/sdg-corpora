@@ -1,0 +1,5 @@
+departmentId,deptId,deptName,headCount,budget,isSharedService,operationalStatus,executiveId,brandId,collaboratesWithDepartmentId
+1,IVC20Ndet40,Legacy Review D,49,35.45,true,active,1,The GEO Group Inc.,1
+2,4543,Regional Initiative,0,18.47,false,inactive,2,Royal Saudi Air Force,2
+3,103182,Seasonal Model,12,26.25,true,merger,3,Feedback Ratings,3
+4,575216,Integrated Cluster A,1,17.12,false,active,4,LDAP First Name Field,4

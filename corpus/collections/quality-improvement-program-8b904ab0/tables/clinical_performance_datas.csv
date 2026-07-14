@@ -1,0 +1,5 @@
+clinical_performance_data_id,data_record_id,collection_date,metric_type,value,unit_of_measure,data_quality_score,measurement_activity_id,analytic_tool_id
+1,1889764,2025-12-17T11:57:00,outcome,19.95,composite-unit-69,8.70,1,1000
+2,1437601,2022-05-01T18:14:00,process,21.90,primary-unit-70,10.40,2,1001
+3,9736911,2023-10-12T01:31:00,structure,23.85,adaptive-unit-71,12.10,3,1002
+4,7119777,2024-03-23T08:48:00,outcome,25.80,distributed-unit-72,13.80,4,1003

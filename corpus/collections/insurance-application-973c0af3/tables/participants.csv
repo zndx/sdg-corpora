@@ -1,0 +1,5 @@
+participant_id,full_name,is_minor,waiver_signed,assumption_of_risk_signed,event_id,coverage_policy_id
+1,Theodore Mcgrath,true,false,false,1,100
+2,Account Name,false,true,true,2,101
+3,Saipan International Airport,true,false,false,3,102
+4,Norma Fisher,false,true,true,4,103

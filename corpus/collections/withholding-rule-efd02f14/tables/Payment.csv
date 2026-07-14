@@ -1,0 +1,5 @@
+id,paymentIdentifier,amount,disbursementDate,paymentType,isWithheld,withholdingAmount,entityId,contractorId,contractId
+1000,PAY-2093,13.49,2024-03-25T14:30:00,supply,false,21.11,100,1,1
+1001,PAY-2095,25.47,2025-08-09T21:47:00,service,true,434.86,101,2,2
+1002,PAY-2097,19.72,2022-01-20T04:04:00,interim,false,9.99,102,3,3
+1003,PAY-2099,12.74,2023-06-04T11:21:00,progress,true,"40,408",103,4,4

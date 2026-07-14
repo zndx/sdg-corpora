@@ -1,0 +1,5 @@
+id,factor_identifier,factor_name,validation_status,impact_coefficient,measurement_method,performance_metric_id,organizational_unit_id
+1,FAC-2476,Legacy Cluster D,validated,11.70,structural_equation_modeling,1,100
+2,FAC-2478,Regional Review,not_validated,14.40,survey,2,101
+3,FAC-2480,Seasonal Initiative,pending,17.10,expert_interview,3,102
+4,FAC-2482,Integrated Model A,validated,19.80,structural_equation_modeling,4,103

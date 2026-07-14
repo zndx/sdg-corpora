@@ -1,0 +1,5 @@
+id,outcome_id,assessment_score,mastery_level,date_assessed,is_achieved,situation_id,mathematical_concept_id,actor_id
+1,2618555,11.20,novice,2023-10-24,true,ChIJe0zpU4Bt5kcR4t9EwgzhF0U,1,9125629
+2,lu_tax_code_template_m46,14.40,competent,2024-03-08,false,209223,2,611506
+3,168561,17.60,expert,2025-08-19,true,974928,3,611522
+4,1210-0007-M,20.80,novice,2022-01-03,false,gd_acc_160001,4,1205-0002-M

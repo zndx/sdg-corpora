@@ -1,0 +1,5 @@
+id,action_identifier,action_type,initiation_date,status,cost_incurred,h_o_a_violation_id,h_o_a_member_id,h_o_a_assessment_id,created_at,updated_at
+1,ACT-2345,direct_resolution,2025-12-09T11:57:00,initiated,12.74,1,1000,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ACT-2350,management_intervention,2022-05-20T18:14:00,in_progress,12.34,2,1001,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,ACT-2355,monetary_fine,2023-10-04T01:31:00,completed,12.36,3,1002,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ACT-2360,self_help_abatement,2024-03-15T08:48:00,failed,19.93,4,1003,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,204 @@
+{
+ "construct_id": "33e09f5f2dd6248d",
+ "slug": "engagement-award-33e09f5f",
+ "passage": "33e09f5f2dd6248da0fe5859a1f4e02e6daca9aedb0f6c95cc1d9df018ce5c6e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 17,
+ "entities": [
+  "EngagementAward",
+  "ResearchProject",
+  "AdvisoryCouncil",
+  "HealthcareOrganization",
+  "ResearchOutput",
+  "FundingAgency",
+  "ReviewPanel"
+ ],
+ "terms": [
+  {
+   "name": "EngagementAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AdvisoryCouncil",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareOrganization",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchOutput",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FundingAgency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReviewPanel",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "EngagementAward",
+   "rows": 4,
+   "columns": [
+    "id",
+    "awardId",
+    "awardAmount",
+    "awardDate",
+    "awardStatus",
+    "fundingProgram",
+    "reviewOutcome",
+    "agencyId",
+    "projectId",
+    "panelId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "ResearchProject",
+   "rows": 4,
+   "columns": [
+    "projectId",
+    "projectTitle",
+    "startDate",
+    "endDate",
+    "projectStatus",
+    "primaryObjective",
+    "deliverableCount",
+    "awardId",
+    "outputId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "AdvisoryCouncil",
+   "rows": 4,
+   "columns": [
+    "id",
+    "councilId",
+    "councilName",
+    "organizationId",
+    "establishmentDate",
+    "councilStatus",
+    "memberCount",
+    "meetingFrequency",
+    "projectId",
+    "advisesOrganizationId",
+    "outputId"
+   ]
+  },
+  {
+   "name": "HealthcareOrganization",
+   "rows": 4,
+   "columns": [
+    "id",
+    "orgId",
+    "orgName",
+    "orgType",
+    "locationCity",
+    "locationState",
+    "foundedDate",
+    "bedCount",
+    "outputId"
+   ]
+  },
+  {
+   "name": "ResearchOutput",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outputId",
+    "outputType",
+    "creationDate",
+    "versionNumber",
+    "status",
+    "accessLevel",
+    "projectId",
+    "councilId"
+   ]
+  },
+  {
+   "name": "FundingAgency",
+   "rows": 4,
+   "columns": [
+    "agencyId",
+    "agencyName",
+    "foundingYear",
+    "agencyType",
+    "authorizationSource",
+    "headquartersCity",
+    "panelId"
+   ]
+  },
+  {
+   "name": "ReviewPanel",
+   "rows": 4,
+   "columns": [
+    "id",
+    "panelId",
+    "panelName",
+    "reviewDate",
+    "reviewCriteria",
+    "panelStatus",
+    "memberCount",
+    "awardId",
+    "agencyId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "ResearchProjectAdvisoryCouncil",
+   "rows": 8,
+   "columns": [
+    "projectId",
+    "councilId"
+   ]
+  },
+  {
+   "name": "HealthcareOrganizationAdvisoryCouncil",
+   "rows": 8,
+   "columns": [
+    "organizationId",
+    "councilId"
+   ]
+  },
+  {
+   "name": "FundingAgencyEngagementAward",
+   "rows": 8,
+   "columns": [
+    "agencyId",
+    "awardId"
+   ]
+  }
+ ],
+ "views": [
+  "v_engagement_award_funding_agency",
+  "v_engagement_award_research_project",
+  "v_engagement_award_review_panel",
+  "v_research_project_engagement_award",
+  "v_research_project_advisory_council_detail",
+  "v_research_project_research_output",
+  "v_advisory_council_research_project",
+  "v_advisory_council_healthcare_organization",
+  "v_advisory_council_research_output",
+  "v_healthcare_organization_advisory_council_detail",
+  "v_healthcare_organization_research_output",
+  "v_research_output_research_project",
+  "v_research_output_advisory_council",
+  "v_funding_agency_engagement_award_detail",
+  "v_funding_agency_review_panel",
+  "v_review_panel_engagement_award",
+  "v_review_panel_funding_agency"
+ ]
+}

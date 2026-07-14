@@ -1,0 +1,5 @@
+accountId,platformName,accountType,creationDate,status,lastLoginDate,passwordHash,memberId,registerId,policyId
+fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,Baseline Initiative D,staff_personal,2022-01-13T12:24:00,active,2025-12-21T23:57:00,integrated-password-76,1000,1,1
+10207152,Distributed Model,institutional,2023-06-24T19:41:00,suspended,2022-05-05T06:14:00,seasonal-password-77,1001,2,2
+a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,Adaptive Cluster,student,2024-11-08T02:58:00,archived,2023-10-16T13:31:00,regional-password-78,1002,3,3
+3717632,Primary Review A,staff_personal,2025-04-19T09:15:00,pending_approval,2024-03-27T20:48:00,legacy-password-79,1003,4,4

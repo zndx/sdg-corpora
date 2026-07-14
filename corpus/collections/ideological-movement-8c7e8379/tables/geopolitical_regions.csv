@@ -1,0 +1,5 @@
+id,region_identifier,region_name,region_type,current_influence_level,historical_status,strategic_operation_id,religious_organization_id
+1,REG-2093,Distributed Assessment,country,high,acquired_territory,100,1
+2,REG-2100,Adaptive Survey D,continent,medium,target_territory,101,2
+3,REG-2107,Primary Corridor,city,low,neutral,102,3
+4,REG-2114,Composite Series,country,none,acquired_territory,103,4

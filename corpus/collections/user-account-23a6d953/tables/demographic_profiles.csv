@@ -1,0 +1,5 @@
+id,profile_id,zip_code,age_group,gender,primary_interest,favorite_category,is_anonymized,user_account_id
+1,72623baa-9bad-11eb-a8a2-19ed5c03f8d3,69434,integrated-age-22,compact-gender-62,compact-primary-32,integrated-favorite-28,true,100
+2,d9d925ce-8fcc-11eb-924d-9cd76263cbd0,13589,seasonal-age-23,composite-gender-63,composite-primary-33,seasonal-favorite-29,false,101
+3,10207150,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,regional-age-24,primary-gender-64,primary-primary-34,regional-favorite-30,true,102
+4,611506,1250214,legacy-age-25,adaptive-gender-65,adaptive-primary-35,legacy-favorite-31,false,103

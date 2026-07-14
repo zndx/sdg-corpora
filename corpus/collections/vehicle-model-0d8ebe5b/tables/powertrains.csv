@@ -1,0 +1,5 @@
+powertrain_id,engine_type,displacement,horsepower,cooling_method,fuel_delivery_system,transmission_type,gear_positions,drive_mode,wheel_assembly_id
+1,legacy-engine-61,17.95,7.70,primary-cooling-34,pilot-fuel-32,primary-transmis-34,compact-gear-50,primary-drive-70,100
+2,compact-engine-62,19.90,12.40,adaptive-cooling-35,extended-fuel-33,adaptive-transmis-35,composite-gear-51,adaptive-drive-71,101
+3,composite-engine-63,21.85,17.10,distributed-cooling-36,integrated-fuel-34,distributed-transmis-36,primary-gear-52,distributed-drive-72,102
+4,primary-engine-64,23.80,21.80,baseline-cooling-37,seasonal-fuel-35,baseline-transmis-37,adaptive-gear-53,baseline-drive-73,103

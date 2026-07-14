@@ -1,0 +1,5 @@
+id,segment_id,segment_name,age_min,age_max,total_count,diagnosed_count,undiagnosed_count,prevalence_rate,jurisdiction_id,surveillance_metric_id
+1000,422a03c4-8fcc-11eb-924d-9cd76263cbd0,Adaptive Series,19,24,57,22,60,22.45,1,1
+1001,32825,Primary Assessment,25,27,7,20,77,25.90,2,2
+1002,974920,Composite Survey D,31,30,6,93,36,29.35,3,3
+1003,2933482,Compact Corridor,37,33,0,12,14,32.80,4,4

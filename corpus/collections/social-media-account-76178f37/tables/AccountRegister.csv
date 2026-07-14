@@ -1,0 +1,5 @@
+registerId,institutionId,lastAuditDate,totalActiveAccounts,complianceStatus,recordFormat,maintainedByInstitutionId,memberId
+1,9424913,2023-10-23T09:51:00,257,compliant,extended-record-93,1,1000
+2,8189481,2024-03-07T16:08:00,5596,non_compliant,integrated-record-94,2,1001
+3,1437604,2025-08-18T23:25:00,107,under_review,seasonal-record-95,3,1002
+4,884346,2022-01-02T06:42:00,106,compliant,regional-record-96,4,1003

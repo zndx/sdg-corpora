@@ -1,0 +1,5 @@
+id,complaint_id,lodged_date,status,resolution_date,escalated_to,investor_id,authorised_representative_id,external_ombudsman_id
+1000,8189480,2024-07-11T18:06:00,pending,2024-07-05,Financial Ombudsman Service,1,1000,1
+1001,575197,2025-12-22T01:23:00,acknowledged,2025-12-16,ASIC,2,1001,2
+1002,13862,2022-05-06T08:40:00,resolved,2022-05-27,Financial Ombudsman Service,3,1002,3
+1003,04ee30b4-8fb5-11eb-924d-9cd76263cbd0,2023-10-17T15:57:00,escalated,2023-10-11,ASIC,4,1003,4

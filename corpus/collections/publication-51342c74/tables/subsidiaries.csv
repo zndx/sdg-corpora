@@ -1,0 +1,5 @@
+subsidiary_id,subsidiary_name,ownership_percentage,business_type,operational_status,location,group_id,delivery_platform_id,created_at,updated_at
+1,Adaptive Corridor,6.95,primary-business-46,active,extended-location-99,10449530,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Primary Series,8.90,adaptive-business-47,inactive,integrated-location-100,8189483,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Composite Assessment D,10.85,distributed-business-48,active,seasonal-location-101,3718658437,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Compact Survey,12.80,baseline-business-49,inactive,regional-location-102,IVC0,4,2025-04-16 09:14:00,2025-04-23 15:41:00

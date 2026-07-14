@@ -1,0 +1,143 @@
+{
+ "construct_id": "8da82685edcfd58e",
+ "slug": "aid-recipient-8da82685",
+ "passage": "8da82685edcfd58e911cf26103dc66071cd77a6e3bd8833a1d6aee9cbdfa7c54.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 9,
+ "entities": [
+  "AidRecipient",
+  "Child",
+  "AidProgram",
+  "DistributionSite",
+  "NotificationEvent"
+ ],
+ "terms": [
+  {
+   "name": "AidRecipient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Child",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AidProgram",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DistributionSite",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "NotificationEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "aid_recipients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contact_name",
+    "cell_phone",
+    "physical_address",
+    "registration_deadline",
+    "registration_status",
+    "aid_program_id",
+    "notification_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "childs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "child_name",
+    "age",
+    "sex",
+    "shirt_size",
+    "pants_size",
+    "shoe_size",
+    "diaper_size",
+    "favorite_color",
+    "aid_recipient_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "aid_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_name",
+    "season",
+    "supporting_organization",
+    "registration_deadline",
+    "pickup_date",
+    "pickup_start_time",
+    "pickup_end_time",
+    "distribution_site_id"
+   ]
+  },
+  {
+   "name": "distribution_sites",
+   "rows": 4,
+   "columns": [
+    "id",
+    "site_name",
+    "street_address",
+    "city",
+    "state",
+    "postal_code",
+    "aid_program_id"
+   ]
+  },
+  {
+   "name": "notification_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "notification_type",
+    "scheduled_date",
+    "delivery_status",
+    "aid_recipient_id",
+    "aid_program_id"
+   ]
+  },
+  {
+   "name": "recipients_childs",
+   "rows": 8,
+   "columns": [
+    "aid_recipient_id",
+    "child_id"
+   ]
+  },
+  {
+   "name": "programs_recipients",
+   "rows": 8,
+   "columns": [
+    "aid_program_id",
+    "aid_recipient_id"
+   ]
+  }
+ ],
+ "views": [
+  "aid_recipient_child_detail_view",
+  "aid_recipient_aid_program_view",
+  "aid_recipient_notification_event_view",
+  "child_aid_recipient_view",
+  "aid_program_distribution_site_view",
+  "aid_program_aid_recipient_detail_view",
+  "distribution_site_aid_program_view",
+  "notification_event_aid_recipient_view",
+  "notification_event_aid_program_view"
+ ]
+}

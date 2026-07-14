@@ -1,0 +1,5 @@
+id,decision_identifier,decision_date,decision_status,clinical_context,is_controversial,bioethical_topic_id,medical_professional_id
+1,DEC-2011,2023-10-27T21:27:00,PROPOSED,seasonal-clinical-89,false,1,1000
+2,DEC-2013,2024-03-11T04:44:00,EVALUATED,regional-clinical-90,true,2,1001
+3,DEC-2015,2025-08-22T11:01:00,IMPLEMENTED,legacy-clinical-91,false,3,1002
+4,DEC-2017,2022-01-06T18:18:00,REJECTED,compact-clinical-92,true,4,1003

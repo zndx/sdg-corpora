@@ -1,0 +1,5 @@
+id,beverage_id,name,type,serving_temp,caffeinated,menu_option_id
+100,884345,Extended Review,coffee,hot,true,1
+101,4447029,Pilot Initiative A,tea,cold,false,2
+102,2002007020170,Baseline Model,juice,room_temp,true,3
+103,3158148,Distributed Cluster,water,hot,false,4

@@ -1,0 +1,5 @@
+id,activityId,activityName,activityType,location,date,participantCount,isOptional,memberId,enrolmentId,programmeId
+100,8843761,Composite Programme,trip,extended-location-99,2023-02-05T13:03:00,100,true,1,1,1
+101,4180957,Compact Standard A,workshop,integrated-location-100,2024-07-16T20:20:00,27,false,2,2,2
+102,168545,Legacy Framework,club,seasonal-location-101,2025-12-27T03:37:00,23,true,3,3,3
+103,default_chart_a_account_53,Regional Protocol,award programme,regional-location-102,2022-05-11T10:54:00,34,false,4,4,4

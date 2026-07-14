@@ -1,0 +1,5 @@
+id,facility_identifier,facility_name,location_description,security_level,access_control_policy,is_authorized_for_removal,standard_weight_or_measure_id,government_office_id
+1,FAC-2066,Integrated Protocol A,Compact Initiative,low,legacy-access-61,false,1,1
+2,FAC-2067,Extended Programme,Legacy Model,medium,compact-access-62,true,2,2
+3,FAC-2068,Pilot Standard,Regional Cluster A,high,composite-access-63,false,3,3
+4,FAC-2069,Baseline Framework D,Seasonal Review,maximum,primary-access-64,true,4,4

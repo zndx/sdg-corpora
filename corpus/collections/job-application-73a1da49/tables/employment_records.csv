@@ -1,0 +1,5 @@
+employment_record_id,start_date,end_date,salary,position_title,reason_for_leaving,contact_permission,employer_name,employer_address,employer_phone,applicant_id,organization_id,created_at
+1,2022-09-05,2022-09-01,13.94,Extended Model,compact-reason-26,Brian Hamilton,Air Products & Chemicals Inc,National University of Singapore,Gazprom Neft,1000,1,2025-01-01 00:14:00
+2,2023-02-16,2023-02-12,18.47,Pilot Cluster A,composite-reason-27,Distribution Settings,AT&T Technologies,Continental Group,Column Name cannot be empty,1001,2,2025-02-06 03:14:00
+3,2024-07-27,2024-07-23,66.14,Baseline Review,primary-reason-28,Alexandria Pugh,Beam Global,The College-Ready Promise,Altria Group Inc,1002,3,2025-03-11 06:14:00
+4,2025-12-11,2025-12-07,61.82,Distributed Initiative,adaptive-reason-29,Sarah Villanueva,Staples Inc.,LINK Interchange Network Ltd,McDonnell Douglas,1003,4,2025-04-16 09:14:00

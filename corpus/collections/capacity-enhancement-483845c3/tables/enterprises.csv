@@ -1,0 +1,5 @@
+id,enterprise_name,ownership_type,registration_number,regulatory_authority,manufacturing_facility_id,product_line_id,enterprise_id,created_at,updated_at
+1,Distributed Cluster,public_sector,REG-2136,composite-regulato-99,1000,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Adaptive Review D,private_sector,REG-2142,primary-regulato-100,1001,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Primary Initiative,joint_venture,REG-2148,adaptive-regulato-101,1002,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Composite Model,public_sector,REG-2154,distributed-regulato-102,1003,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

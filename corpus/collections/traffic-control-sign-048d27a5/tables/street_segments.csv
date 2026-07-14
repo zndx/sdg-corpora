@@ -1,0 +1,5 @@
+id,segment_id,street_name,lane_count,is_one_way,is_closed_for_repairs,surface_type,traffic_control_sign_id,rule_code,created_at
+100,422a03c4-8fcc-11eb-924d-9cd76263cbd0,Primary Standard A,6,true,false,ASPHALT,1000,2839520,2025-01-01 00:14:00
+101,32825,Composite Framework,2,false,true,CONCRETE,1001,72623baa-9bad-11eb-a8a2-19ed5c03f8d3,2025-02-06 03:14:00
+102,974920,Compact Protocol,3,true,false,GRAVEL,1002,romeg_ul,2025-03-11 06:14:00
+103,2933482,Legacy Programme D,4,false,true,ASPHALT,1003,73a5d11c-9bac-11eb-a8a2-19ed5c03f8d3,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+id,serviceId,serviceName,baseUrl,serviceType,status,lastUpdated,applicationId,storageId
+1,1996925,Distributed Initiative,https://bugs.launchpad.net/vmware-nsx/+bug/1570676,LMS,active,2023-06-17T17:27:00,1,100
+2,3990164,Adaptive Model D,https://api.github.com/repos/thombashi/tcconfig,productivity_suite,deprecated,2024-11-01T00:44:00,2,101
+3,5844258,Primary Cluster,http://www.aurelienribon.com,cloud_storage,maintenance,2025-04-12T07:01:00,3,102
+4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,https://grants.nih.gov/grants/guide/pa-files/PAR-16-349.html,portal,active,2022-09-23T14:18:00,4,103

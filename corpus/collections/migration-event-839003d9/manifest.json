@@ -1,0 +1,224 @@
+{
+ "construct_id": "839003d98bde9e5d",
+ "slug": "migration-event-839003d9",
+ "passage": "839003d98bde9e5db7d6aca2b8bdab9c6b7276e3a69f5dd87af3f8e09f8d3a81.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 18,
+ "entities": [
+  "MigrationEvent",
+  "Migrant",
+  "Local",
+  "City",
+  "Business",
+  "SurveyResponse"
+ ],
+ "terms": [
+  {
+   "name": "MigrationEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Migrant",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Local",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "City",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Business",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SurveyResponse",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "migr_migration_events",
+   "rows": 4,
+   "columns": [
+    "migration_event_id",
+    "event_identifier",
+    "arrival_date",
+    "departure_country",
+    "destination_city",
+    "purpose_of_stay",
+    "is_transit",
+    "city_id"
+   ]
+  },
+  {
+   "name": "migr_migrants",
+   "rows": 4,
+   "columns": [
+    "migrant_id",
+    "nationality",
+    "residence_status",
+    "employment_type",
+    "salary_level",
+    "language_proficiency",
+    "integration_intent",
+    "city_id",
+    "business_id"
+   ]
+  },
+  {
+   "name": "migr_locals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "local_id",
+    "nationality",
+    "residence_city",
+    "language_proficiency",
+    "perception_of_migrants",
+    "employment_sector",
+    "city_id",
+    "business_id"
+   ]
+  },
+  {
+   "name": "migr_cities",
+   "rows": 4,
+   "columns": [
+    "city_id",
+    "city_name",
+    "region",
+    "population_density",
+    "cost_of_living_index"
+   ]
+  },
+  {
+   "name": "migr_businesses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "business_id",
+    "business_name",
+    "business_type",
+    "target_clientele",
+    "establishment_date",
+    "operating_status",
+    "migrant_id",
+    "city_id"
+   ]
+  },
+  {
+   "name": "migr_survey_responses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "response_id",
+    "survey_date",
+    "respondent_type",
+    "perception_score",
+    "integration_assessment",
+    "language_barrier_perception",
+    "local_id",
+    "migrant_id"
+   ]
+  },
+  {
+   "name": "migr_migration_eventsMigrant",
+   "rows": 8,
+   "columns": [
+    "migration_event_id",
+    "migrant_id"
+   ]
+  },
+  {
+   "name": "migr_migrantsMigrationEvent",
+   "rows": 8,
+   "columns": [
+    "migrant_id",
+    "migration_event_id"
+   ]
+  },
+  {
+   "name": "migr_migrantsLocal",
+   "rows": 8,
+   "columns": [
+    "migrant_id",
+    "local_id"
+   ]
+  },
+  {
+   "name": "migr_localsMigrant",
+   "rows": 8,
+   "columns": [
+    "local_id",
+    "migrant_id"
+   ]
+  },
+  {
+   "name": "migr_citiesMigrant",
+   "rows": 8,
+   "columns": [
+    "city_id",
+    "migrant_id"
+   ]
+  },
+  {
+   "name": "migr_citiesLocal",
+   "rows": 8,
+   "columns": [
+    "city_id",
+    "local_id"
+   ]
+  },
+  {
+   "name": "migr_citiesBusiness",
+   "rows": 8,
+   "columns": [
+    "city_id",
+    "business_id"
+   ]
+  },
+  {
+   "name": "migr_businessesLocal",
+   "rows": 8,
+   "columns": [
+    "business_id",
+    "local_id"
+   ]
+  },
+  {
+   "name": "migr_survey_responsesMigrant",
+   "rows": 8,
+   "columns": [
+    "survey_response_id",
+    "migrant_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_migration_event_city",
+  "v_migration_event_migrant_detail",
+  "v_migrant_migration_event_detail",
+  "v_migrant_city",
+  "v_migrant_business",
+  "v_migrant_local_detail",
+  "v_local_migrant_detail",
+  "v_local_city",
+  "v_local_business",
+  "v_city_migrant_detail",
+  "v_city_local_detail",
+  "v_city_business_detail",
+  "v_business_migrant",
+  "v_business_city",
+  "v_business_local_detail",
+  "v_survey_response_local",
+  "v_survey_response_migrant",
+  "v_survey_response_migrant_detail"
+ ]
+}

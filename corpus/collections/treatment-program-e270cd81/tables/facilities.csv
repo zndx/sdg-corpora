@@ -1,0 +1,5 @@
+facility_id,facility_name,street_address,city,state,zip_code,bus_accessible,evening_hours,admissions_hours,treatment_program_id,service_code
+1,Integrated Protocol A,composite-street-15,integrated-city-34,distributed-state-84,69434,true,false,24/7,1,20789856
+2,Extended Programme,primary-street-16,seasonal-city-35,baseline-state-85,13589,false,true,business_hours,2,3990167
+3,Pilot Standard,adaptive-street-17,regional-city-36,pilot-state-86,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,true,false,24/7,3,14484998
+4,Baseline Framework D,distributed-street-18,legacy-city-37,extended-state-87,1250214,false,true,business_hours,4,Total

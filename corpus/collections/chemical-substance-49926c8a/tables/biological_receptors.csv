@@ -1,0 +1,5 @@
+receptor_id,receptor_name,ubiquitous_in_vertebrates,affinity_for_t_c_d_d,function,chemical_substance_id,mechanism_of_carcinogenesis_id
+790471,Ah receptor,true,high,signal transducer,1,100
+3001009030190,aromatic hydrocarbon receptor,false,medium,activator for gene transcription,2,101
+3717630,Ah receptor,true,low,signal transducer,3,102
+1250200,aromatic hydrocarbon receptor,false,high,activator for gene transcription,4,103

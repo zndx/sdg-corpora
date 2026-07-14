@@ -1,0 +1,5 @@
+library_program_id,program_id,program_name,program_type,start_date,end_date,is_active,target_audience,librarian_id,space_id,digital_resource_id,future_ready_goal_id
+100,103176,Extended Review,inquiry,2022-09-05,2022-09-01,true,students,1250209,195344,1000,1000
+101,2986219,Pilot Initiative A,creativity,2023-02-16,2023-02-12,false,teachers,7119786,16611019,1001,1001
+102,1186079,Baseline Model,collaboration,2024-07-27,2024-07-23,true,community,4985163,L237,1002,1002
+103,1562855,Distributed Cluster,community,2025-12-11,2025-12-07,false,all,b_VB-EC-15,BjoernKW,1003,1003

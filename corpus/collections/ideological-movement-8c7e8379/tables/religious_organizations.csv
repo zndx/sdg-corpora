@@ -1,0 +1,5 @@
+religious_organization_id,org_identifier,org_name,affiliation,founding_date,headquarters_location,is_political,membership_count,ideological_movement_id,geopolitical_region_id,individual_id,created_at,updated_at
+1,ORG-2637,Extended Review,muslim_brotherhood,2023-06-24T05:03:00,composite-headquar-63,false,242,100,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ORG-2643,Pilot Initiative A,independent,2024-11-08T12:20:00,primary-headquar-64,true,77,101,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,ORG-2649,Baseline Model,sufi,2025-04-19T19:37:00,adaptive-headquar-65,false,601,102,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ORG-2655,Distributed Cluster,apolitical,2022-09-03T02:54:00,distributed-headquar-66,true,300,103,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,measurement_id,timestamp,pollutant_concentration,unit_of_measure,measurement_method,sensor_calibration_date,indoor_environment_id,indoor_pollutant_id
+1,2618580,2024-07-08T18:18:00,18.95,composite-unit-69,baseline-measurem-25,2024-11-22,1,100
+2,1450664,2025-12-19T01:35:00,21.90,primary-unit-70,pilot-measurem-26,2025-04-06,2,101
+3,8843762,2022-05-03T08:52:00,24.85,adaptive-unit-71,extended-measurem-27,2022-09-17,3,102
+4,392481,2023-10-14T15:09:00,27.80,distributed-unit-72,integrated-measurem-28,2023-02-01,4,103

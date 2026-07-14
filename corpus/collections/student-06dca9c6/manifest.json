@@ -1,0 +1,148 @@
+{
+ "construct_id": "06dca9c64d536328",
+ "slug": "student-06dca9c6",
+ "passage": "06dca9c64d5363282c6603951e5f3c85e67b1b7469917c22836404efdd4e6f8d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "Student",
+  "Residence",
+  "Guardian",
+  "School",
+  "AthleticHistory",
+  "TransferWaiver"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Residence",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Guardian",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "School",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AthleticHistory",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TransferWaiver",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "date_of_birth",
+    "grade_level",
+    "age",
+    "current_address",
+    "date_entered9th_grade",
+    "is_eligible",
+    "residence_id",
+    "school_id",
+    "athletic_history_id"
+   ]
+  },
+  {
+   "name": "residences",
+   "rows": 4,
+   "columns": [
+    "residence_id",
+    "address",
+    "date_moved_in",
+    "duration_months",
+    "school_district",
+    "is_primary_residence",
+    "student_id",
+    "guardian_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "guardians",
+   "rows": 4,
+   "columns": [
+    "guardian_id",
+    "full_name",
+    "relationship",
+    "telephone",
+    "is_parent",
+    "residence_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "schools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "school_name",
+    "school_type",
+    "district",
+    "has_open_enrollment",
+    "student_id",
+    "athletic_history_id"
+   ]
+  },
+  {
+   "name": "athletic_histories",
+   "rows": 4,
+   "columns": [
+    "athletic_history_id",
+    "season",
+    "year",
+    "sport",
+    "level",
+    "practices_completed",
+    "is_eligible",
+    "student_id",
+    "school_id"
+   ]
+  },
+  {
+   "name": "transfer_waivers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "waiver_type",
+    "approval_date",
+    "approved_by",
+    "is_one_time_only",
+    "student_id",
+    "school_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_residence",
+  "v_student_school",
+  "v_student_athletic_history",
+  "v_residence_student",
+  "v_residence_guardian",
+  "v_guardian_residence",
+  "v_guardian_student",
+  "v_school_student",
+  "v_school_athletic_history",
+  "v_athletic_history_student",
+  "v_athletic_history_school",
+  "v_transfer_waiver_student",
+  "v_transfer_waiver_school"
+ ]
+}

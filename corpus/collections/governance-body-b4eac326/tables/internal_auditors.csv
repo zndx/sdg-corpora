@@ -1,0 +1,5 @@
+internal_auditor_id,auditor_identifier,auditor_name,certification_type,assignment_date,specialization,internal_auditing_division_id,business_unit_id
+1,AUD-2074,Compact Initiative,distributed-certific-96,2024-11-03,legacy-speciali-13,1,100
+2,AUD-2076,Legacy Model,baseline-certific-97,2025-04-14,compact-speciali-14,2,101
+3,AUD-2078,Regional Cluster A,pilot-certific-98,2022-09-25,composite-speciali-15,3,102
+4,AUD-2080,Seasonal Review,extended-certific-99,2023-02-09,primary-speciali-16,4,103

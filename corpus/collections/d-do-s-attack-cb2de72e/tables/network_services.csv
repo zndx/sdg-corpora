@@ -1,0 +1,5 @@
+id,service_id,service_name,ip_address,port,protocol,criticality_level,is_internet_facing,d_do_s_attack_id,forti_d_do_s_appliance_id,scrubbing_center_id
+1,1996925,Distributed Initiative,extended-ip-15,39,seasonal-protocol-11,low,false,1000,1,100
+2,3990164,Adaptive Model D,integrated-ip-16,48,regional-protocol-12,medium,true,1001,2,101
+3,5844258,Primary Cluster,seasonal-ip-17,57,legacy-protocol-13,high,false,1002,3,102
+4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,regional-ip-18,66,compact-protocol-14,critical,true,1003,4,103

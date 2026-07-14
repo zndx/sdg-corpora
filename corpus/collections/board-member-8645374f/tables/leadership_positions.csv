@@ -1,0 +1,5 @@
+position_id,position_title,sector,start_date,end_date,is_current,person_id,organization_id
+14477856,Extended Model,adaptive-sector-53,2022-09-05,2022-09-01,true,1000,1
+gd_acc_260002,Pilot Cluster A,distributed-sector-54,2023-02-16,2023-02-12,false,1001,2
+3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,Baseline Review,baseline-sector-55,2024-07-27,2024-07-23,true,1002,3
+82871,Distributed Initiative,pilot-sector-56,2025-12-11,2025-12-07,false,1003,4

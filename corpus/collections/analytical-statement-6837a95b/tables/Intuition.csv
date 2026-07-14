@@ -1,0 +1,5 @@
+id,intuitionType,isSensible,isPossible,amplifiesConcept,conceptId,judgementId,createdAt,updatedAt
+1,baseline-intuitio-91,false,true,adaptive-amplifie-83,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,pilot-intuitio-92,true,false,distributed-amplifie-84,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,extended-intuitio-93,false,true,baseline-amplifie-85,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,integrated-intuitio-94,true,false,pilot-amplifie-86,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

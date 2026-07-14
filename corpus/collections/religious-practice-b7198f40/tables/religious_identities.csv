@@ -1,0 +1,5 @@
+religious_identity_id,identity_id,identity_label,is_primary,adherence_level,survey_response_id,religious_practice_id
+1,4155bf60-8fcc-11eb-924d-9cd76263cbd0,Adaptive Protocol,true,deeply_committed,1000,1
+2,d87f6fa90b894eb8be0b031dcc4d667a,Primary Programme,false,moderately_committed,1001,2
+3,3744023,Composite Standard D,true,casual,1002,3
+4,103179,Compact Framework,false,non_practicing,1003,4

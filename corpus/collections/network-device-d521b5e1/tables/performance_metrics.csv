@@ -1,0 +1,5 @@
+id,metric_id,metric_type,value,unit,sample_time,source_device_id,network_device_id,service_level_agreement_id,resource_management_system_id
+100,3744010,bandwidth,19.95,Mbps,2022-01-13T12:48:00,14827,100,100,1000
+101,136630a8-8fcc-11eb-924d-9cd76263cbd0,latency,21.90,ms,2023-06-24T19:05:00,468,101,101,1001
+102,2986226,packetLoss,23.85,percent,2024-11-08T02:22:00,3355789,102,102,1002
+103,2002007020010,jitter,25.80,Mbps,2025-04-19T09:39:00,2002007020050,103,103,1003

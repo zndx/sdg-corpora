@@ -1,0 +1,168 @@
+{
+ "construct_id": "5424110f2d769884",
+ "slug": "building-permit-5424110f",
+ "passage": "5424110f2d769884c58b94ff1c09fd78d32715a77a44e041dddcf9b345d7b0ee.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "BuildingPermit",
+  "PropertyParcel",
+  "InspectionEvent",
+  "ProjectSegment",
+  "CertificateOfOccupancy",
+  "BuildingInspectionsDivision"
+ ],
+ "terms": [
+  {
+   "name": "BuildingPermit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PropertyParcel",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InspectionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProjectSegment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CertificateOfOccupancy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BuildingInspectionsDivision",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "building_permits",
+   "rows": 4,
+   "columns": [
+    "permit_id",
+    "issue_date",
+    "expiry_date",
+    "project_type_code",
+    "project_type_description",
+    "ownership_type",
+    "total_units",
+    "contracted_square_feet",
+    "status",
+    "property_parcel_id",
+    "building_inspections_division_id"
+   ]
+  },
+  {
+   "name": "property_parcels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "street_address",
+    "municipality",
+    "parcel_id",
+    "zoning_district",
+    "land_use_category",
+    "permit_id",
+    "inspection_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "inspection_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inspection_id",
+    "scheduled_date",
+    "completion_date",
+    "inspection_type",
+    "result_status",
+    "completed_within24_hours",
+    "inspector_badge_number",
+    "permit_id",
+    "property_parcel_id",
+    "project_segment_id"
+   ]
+  },
+  {
+   "name": "project_segments",
+   "rows": 4,
+   "columns": [
+    "project_segment_id",
+    "segment_code",
+    "segment_description",
+    "valuation_amount",
+    "fee_amount",
+    "segment_count",
+    "permit_id",
+    "inspection_event_id"
+   ]
+  },
+  {
+   "name": "certificate_of_occupancies",
+   "rows": 4,
+   "columns": [
+    "certificate_of_occupancy_id",
+    "c_of_o_id",
+    "issue_date",
+    "reason",
+    "building_square_footage",
+    "occupancy_status",
+    "property_parcel_id",
+    "permit_id",
+    "building_inspections_division_id"
+   ]
+  },
+  {
+   "name": "building_inspections_divisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "division_code",
+    "jurisdiction_name",
+    "reporting_period_start",
+    "reporting_period_end",
+    "total_permit_fees_collected",
+    "performance_target",
+    "permit_id",
+    "certificate_of_occupancy_id",
+    "inspection_event_id"
+   ]
+  },
+  {
+   "name": "permits_events",
+   "rows": 8,
+   "columns": [
+    "permit_id",
+    "inspection_event_id"
+   ]
+  }
+ ],
+ "views": [
+  "building_permit_property_parcel_view",
+  "building_permit_building_inspections_division_view",
+  "building_permit_inspection_event_detail_view",
+  "property_parcel_building_permit_view",
+  "property_parcel_inspection_event_view",
+  "inspection_event_building_permit_view",
+  "inspection_event_property_parcel_view",
+  "inspection_event_project_segment_view",
+  "project_segment_building_permit_view",
+  "project_segment_inspection_event_view",
+  "certificate_of_occupancy_property_parcel_view",
+  "certificate_of_occupancy_building_permit_view",
+  "certificate_of_occupancy_building_inspections_division_view",
+  "building_inspections_division_building_permit_view",
+  "building_inspections_division_certificate_of_occupancy_view",
+  "building_inspections_division_inspection_event_view"
+ ]
+}

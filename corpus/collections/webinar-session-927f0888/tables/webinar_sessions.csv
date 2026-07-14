@@ -1,0 +1,5 @@
+webinar_session_id,session_identifier,scheduled_start_date_time,scheduled_end_date_time,registration_deadline,max_participants,current_registrations,status,language,geographic_region_id,meteorologist_id,video_recording_id,registration_link_id,created_at,updated_at
+1,SES-2443,2025-12-01T11:45:00,2024-11-24T22:18:00,2023-02-05T13:15:00,22,18,scheduled,English,1000,1000,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,SES-2449,2022-05-12T18:02:00,2025-04-08T05:35:00,2024-07-16T20:32:00,25,25,in_progress,Español,1001,1001,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,SES-2455,2023-10-23T01:19:00,2022-09-19T12:52:00,2025-12-27T03:49:00,28,32,completed,English,1002,1002,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,SES-2461,2024-03-07T08:36:00,2023-02-03T19:09:00,2022-05-11T10:06:00,31,39,cancelled,Español,1003,1003,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

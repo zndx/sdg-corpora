@@ -1,0 +1,20 @@
+CREATE TABLE vehicle_models (
+  model_identifier VARCHAR(32),
+  model_display_name VARCHAR(32),
+  manufacturer_code VARCHAR(35) NOT NULL,
+  color_variant VARCHAR(32),
+  trim_level VARCHAR(32),
+  powertrain_id INTEGER,
+  chassis_frame_id INTEGER,
+  suspension_system_id INTEGER,
+  brake_system_id INTEGER,
+  wheel_assembly_id INTEGER,
+  capacity_specification_id INTEGER,
+  PRIMARY KEY (manufacturer_code),
+  FOREIGN KEY (powertrain_id) REFERENCES powertrains (powertrain_id),
+  FOREIGN KEY (chassis_frame_id) REFERENCES chassis_frames (chassis_frame_id),
+  FOREIGN KEY (suspension_system_id) REFERENCES suspension_systems (suspension_system_id),
+  FOREIGN KEY (brake_system_id) REFERENCES brake_systems (brake_system_id),
+  FOREIGN KEY (wheel_assembly_id) REFERENCES wheel_assemblies (wheel_assembly_id),
+  FOREIGN KEY (capacity_specification_id) REFERENCES capacity_specifications (id)
+);

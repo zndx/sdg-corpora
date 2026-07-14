@@ -1,0 +1,5 @@
+id,program_identifier,program_name,start_date,end_date,location,is_annual,spiritual_organization_id,donation_id
+1,PRO-2198,Extended Review,2022-09-05T20:24:00,2022-09-01T08:00:00,extended-location-99,false,1000,1000
+2,PRO-2205,Pilot Initiative A,2023-02-16T03:41:00,2023-02-12T15:17:00,integrated-location-100,true,1001,1001
+3,PRO-2212,Baseline Model,2024-07-27T10:58:00,2024-07-23T22:34:00,seasonal-location-101,false,1002,1002
+4,PRO-2219,Distributed Cluster,2025-12-11T17:15:00,2025-12-07T05:51:00,regional-location-102,true,1003,1003

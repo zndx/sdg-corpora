@@ -1,0 +1,5 @@
+degree_program_id,program_name,degree_type,duration_years,field_of_study,educational_institution_id,person_id
+1,Extended Review,compact-degree-62,14,legacy-field-25,1,1
+2,Pilot Initiative A,composite-degree-63,18,compact-field-26,2,2
+3,Baseline Model,primary-degree-64,22,composite-field-27,3,3
+4,Distributed Cluster,adaptive-degree-65,26,primary-field-28,4,4

@@ -1,0 +1,5 @@
+id,sauce_id,name,price,base_ingredient,is_spicy,menu_item_id
+1,4985159,Extended Review,12.87,pilot-base-20,true,1
+2,1186095,Pilot Initiative A,35.45,extended-base-21,false,2
+3,4277037,Baseline Model,29.24,integrated-base-22,true,3
+4,99835,Distributed Cluster,29.99,seasonal-base-23,false,4

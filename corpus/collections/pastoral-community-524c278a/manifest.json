@@ -1,0 +1,149 @@
+{
+ "construct_id": "524c278a167791eb",
+ "slug": "pastoral-community-524c278a",
+ "passage": "524c278a167791eb061cba2e902821aab6bc87ae7294ef9d0ebf4c0e43431918.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "PastoralCommunity",
+  "Territory",
+  "WellWateredPlace",
+  "WaterManagementPractice",
+  "HydrologicalStress",
+  "AlternativeLivelihood"
+ ],
+ "terms": [
+  {
+   "name": "PastoralCommunity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Territory",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "WellWateredPlace",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "WaterManagementPractice",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HydrologicalStress",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AlternativeLivelihood",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "pastoral_communities",
+   "rows": 4,
+   "columns": [
+    "pastoral_community_id",
+    "community_name",
+    "territory_name",
+    "primary_livelihood",
+    "historical_presence",
+    "territory_id",
+    "water_management_practice_id",
+    "alternative_livelihood_id"
+   ]
+  },
+  {
+   "name": "territories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "territory_name",
+    "location",
+    "area_size",
+    "dominant_ecosystem",
+    "well_watered_place_id",
+    "territory_id",
+    "pastoral_community_id"
+   ]
+  },
+  {
+   "name": "well_watered_places",
+   "rows": 4,
+   "columns": [
+    "id",
+    "place_name",
+    "water_source",
+    "reliability",
+    "socio_ecological_niche",
+    "territory_id",
+    "pastoral_community_id",
+    "water_management_practice_id"
+   ]
+  },
+  {
+   "name": "water_management_practices",
+   "rows": 4,
+   "columns": [
+    "water_management_practice_id",
+    "practice_name",
+    "conservation_level",
+    "historical_period",
+    "effectiveness",
+    "pastoral_community_id",
+    "territory_id",
+    "hydrological_stress_id"
+   ]
+  },
+  {
+   "name": "hydrological_stresses",
+   "rows": 4,
+   "columns": [
+    "hydrological_stress_id",
+    "stress_level",
+    "duration",
+    "affected_area",
+    "impact_on_livelihood",
+    "pastoral_community_id",
+    "territory_id",
+    "water_management_practice_id"
+   ]
+  },
+  {
+   "name": "alternative_livelihoods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "livelihood_type",
+    "adoption_rate",
+    "primary_drivers",
+    "sustainability",
+    "pastoral_community_id",
+    "well_watered_place_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_pastoral_community_territory",
+  "vw_pastoral_community_water_management_practice",
+  "vw_pastoral_community_alternative_livelihood",
+  "vw_territory_well_watered_place",
+  "vw_territory_territory",
+  "vw_territory_pastoral_community",
+  "vw_well_watered_place_territory",
+  "vw_well_watered_place_pastoral_community",
+  "vw_well_watered_place_water_management_practice",
+  "vw_water_management_practice_pastoral_community",
+  "vw_water_management_practice_territory",
+  "vw_water_management_practice_hydrological_stress",
+  "vw_hydrological_stress_pastoral_community",
+  "vw_hydrological_stress_territory",
+  "vw_hydrological_stress_water_management_practice",
+  "vw_alternative_livelihood_pastoral_community",
+  "vw_alternative_livelihood_well_watered_place"
+ ]
+}

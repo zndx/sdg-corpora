@@ -1,0 +1,5 @@
+sanctions_list_id,list_id,issuing_authority,effective_date,expiration_date,record_count,list_type,sanctions_screening_tool_id,agency_id,created_at
+1,3001009030140,extended-issuing-33,2023-02-14,2025-08-18,50,individual,100,U.S. Steel,2025-01-01 00:14:00
+2,338543,integrated-issuing-34,2024-07-25,2022-01-02,17,entity,101,Nikola Corporation,2025-02-06 03:14:00
+3,eb56fb15-2499-4b47-b59d-8319ca5ad273,seasonal-issuing-35,2025-12-09,2023-06-13,19,vessel,102,Oberthur Technologies,2025-03-11 06:14:00
+4,ChIJEcyftPtt5kcRrhHB9SZ21dE,regional-issuing-36,2022-05-20,2024-11-24,17,aircraft,103,General Telephone & Electronics,2025-04-16 09:14:00

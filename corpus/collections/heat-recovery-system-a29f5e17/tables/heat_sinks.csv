@@ -1,0 +1,5 @@
+heat_sink_id,sink_identifier,sink_type,target_temperature,flow_volume,unit_count,heat_recovery_system_id,pulp_mill_id
+100,SIN-2066,air,1.63,4.20,0,1,100
+101,SIN-2071,water,0.50102748,7.40,2,2,101
+102,SIN-2076,steam,0.286487255225401,10.60,7,3,102
+103,SIN-2081,air,0.02000001,13.80,5,4,103

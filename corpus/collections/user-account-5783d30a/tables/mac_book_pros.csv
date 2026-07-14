@@ -1,0 +1,5 @@
+mac_book_pro_id,serial_number,model_identifier,os_version,last_reboot_date,is_reboot_required,account_id,network_configuration_id
+1000,5844275,MOD-2065,integrated-os-46,2024-07-06T06:18:00,true,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,1
+1001,69422,MOD-2070,seasonal-os-47,2025-12-17T13:35:00,false,10207152,2
+1002,7731874,MOD-2075,regional-os-48,2022-05-01T20:52:00,true,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,3
+1003,10445632,MOD-2080,legacy-os-49,2023-10-12T03:09:00,false,3717632,4

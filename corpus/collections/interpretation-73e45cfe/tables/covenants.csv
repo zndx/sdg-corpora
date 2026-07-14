@@ -1,0 +1,5 @@
+id,covenant_id,covenant_name,is_unilateral,is_bilateral,promises,requirements,humanity_id,theological_claim_id,biblical_text_id
+1,4e386610-8fcc-11eb-924d-9cd76263cbd0,Extended Model,false,false,pilot-promises-38,composite-requirem-15,1,100,1
+2,195361,Pilot Cluster A,true,true,extended-promises-39,primary-requirem-16,2,101,2
+3,10207171,Baseline Review,false,false,integrated-promises-40,adaptive-requirem-17,3,102,3
+4,168555,Distributed Initiative,true,true,seasonal-promises-41,distributed-requirem-18,4,103,4

@@ -1,0 +1,5 @@
+parsed_data_store_id,store_id,store_name,total_records,last_updated,storage_size_g_b,data_integrity_status,big_data_analytics_tool_id,visualization_service_id
+1000,pgc_pyme_551,Distributed Standard,235,2023-06-17T17:27:00,0.96,verified,1,100
+1001,ee5baef3-0504-4234-bef8-c21eaafd150e,Adaptive Framework D,6,2024-11-01T00:44:00,0.63,pending_verification,2,101
+1002,2986218,Primary Protocol,4,2025-04-12T07:01:00,0.46,corrupted,3,102
+1003,9424908,Composite Programme,5,2022-09-23T14:18:00,1.19,verified,4,103

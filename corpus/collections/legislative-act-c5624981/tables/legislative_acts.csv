@@ -1,0 +1,5 @@
+act_number,short_title,enactment_date,assent_date,jurisdiction,status,amends_act_number,legislative_body_id
+ACT-2168,Regional Initiative,2022-01-04T12:24:00,2023-10-22,regional-jurisdic-30,proposed,ACT-2168,1000
+ACT-2172,Seasonal Model D,2023-06-15T19:41:00,2024-03-06,legacy-jurisdic-31,enacted,ACT-2172,1001
+ACT-2176,Integrated Cluster,2024-11-26T02:58:00,2025-08-17,compact-jurisdic-32,amended,ACT-2176,1002
+ACT-2180,Extended Review,2025-04-10T09:15:00,2022-01-01,composite-jurisdic-33,repealed,ACT-2180,1003

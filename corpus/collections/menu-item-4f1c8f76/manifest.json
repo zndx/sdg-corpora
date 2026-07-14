@@ -1,0 +1,116 @@
+{
+ "construct_id": "4f1c8f76050cbd59",
+ "slug": "menu-item-4f1c8f76",
+ "passage": "4f1c8f76050cbd5911ec5abe79aaf4affcef5f0975ff8274e0dc1f730f50804f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 7,
+ "entities": [
+  "MenuItem",
+  "MenuCategory",
+  "Ingredient",
+  "SideDish",
+  "Sauce"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuCategory",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Sauce",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "menu_item_id",
+    "item_id",
+    "name",
+    "price",
+    "description",
+    "weight",
+    "cooking_time",
+    "is_vegetarian",
+    "is_vegan",
+    "menu_category_id",
+    "ingredient_id",
+    "side_dish_id"
+   ]
+  },
+  {
+   "name": "menu_categories",
+   "rows": 4,
+   "columns": [
+    "menu_category_id",
+    "category_id",
+    "name",
+    "sort_order",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "name",
+    "is_allergen",
+    "allergen_type",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "side_id",
+    "name",
+    "price",
+    "description",
+    "is_vegetarian",
+    "is_vegan",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "sauces",
+   "rows": 4,
+   "columns": [
+    "sauce_id",
+    "name",
+    "price",
+    "description",
+    "menu_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_menu_item_menu_category",
+  "v_menu_item_ingredient",
+  "v_menu_item_side_dish",
+  "v_menu_category_menu_item",
+  "v_ingredient_menu_item",
+  "v_side_dish_menu_item",
+  "v_sauce_menu_item"
+ ]
+}

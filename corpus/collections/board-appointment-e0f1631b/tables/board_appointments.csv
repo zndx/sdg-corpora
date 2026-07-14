@@ -1,0 +1,5 @@
+board_appointment_id,appointment_id,appointment_date,role_title,term_start_date,term_end_date,appointment_status,person_id,non_profit_organization_id,succeeds_previous_appointee_person_id,created_at
+1000,2087748,2022-05-03T16:12:00,Distributed Standard,2022-05-26T16:36:00,2025-08-24T07:45:00,active,1,1,1,2025-01-01 00:14:00
+1001,ChIJJ60m-q5t5kcRMZ9MdM8fVm4,2023-10-14T23:29:00,Adaptive Framework D,2023-10-10T23:53:00,2022-01-08T14:02:00,completed,2,2,2,2025-02-06 03:14:00
+1002,2087740,2024-03-25T06:46:00,Primary Protocol,2024-03-21T06:10:00,2023-06-19T21:19:00,pending,3,3,3,2025-03-11 06:14:00
+1003,1250223,2025-08-09T13:03:00,Composite Programme,2025-08-05T13:27:00,2024-11-03T04:36:00,active,4,4,4,2025-04-16 09:14:00

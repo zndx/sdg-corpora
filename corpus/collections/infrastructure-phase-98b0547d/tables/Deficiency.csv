@@ -1,0 +1,5 @@
+deficiencyId,description,severity,identifiedDate,correctedDate,status,requiresReInspection,eventId,contractorId,verifiedByEventId
+13910633,Extended Survey,minor,2022-01-10T12:00:00,2025-12-21T23:33:00,open,false,100,1000,100
+8387527,Pilot Corridor A,major,2023-06-21T19:17:00,2022-05-05T06:50:00,in_progress,true,101,1001,101
+9474,Baseline Series,critical,2024-11-05T02:34:00,2023-10-16T13:07:00,closed,false,102,1002,102
+client-focus,Distributed Assessment,minor,2025-04-16T09:51:00,2024-03-27T20:24:00,rejected,true,103,1003,103

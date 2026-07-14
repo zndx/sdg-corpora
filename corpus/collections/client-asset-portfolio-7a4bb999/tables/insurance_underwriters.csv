@@ -1,0 +1,5 @@
+id,underwriter_identifier,legal_name,location,credit_rating_s_p,credit_rating_a_m_best,credit_rating_fitch,rating_date,insurance_policy_id,rating_agency_id,created_at
+1000,UND-2760,Adaptive Model,extended-location-99,distributed-credit-66,primary-credit-70,regional-credit-18,2025-04-11,1,100,2025-01-01 00:14:00
+1001,UND-2762,Primary Cluster,integrated-location-100,baseline-credit-67,adaptive-credit-71,legacy-credit-19,2022-09-22,2,101,2025-02-06 03:14:00
+1002,UND-2764,Composite Review D,seasonal-location-101,pilot-credit-68,distributed-credit-72,compact-credit-20,2023-02-06,3,102,2025-03-11 06:14:00
+1003,UND-2766,Compact Initiative,regional-location-102,extended-credit-69,baseline-credit-73,composite-credit-21,2024-07-17,4,103,2025-04-16 09:14:00

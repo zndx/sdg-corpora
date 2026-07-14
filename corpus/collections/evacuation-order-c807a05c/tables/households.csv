@@ -1,0 +1,5 @@
+id,household_identifier,vehicle_count,has_transportation_arrangement,disaster_kit_ready,evacuation_status,fuel_level_percent,property_id,shelter_id,warning_channel_id
+1000,HOU-2425,4,true,true,preparing,9.45,1000,100,100
+1001,HOU-2429,3,false,false,departed,11.90,1001,101,101
+1002,HOU-2433,51,true,true,at_shelter,14.35,1002,102,102
+1003,HOU-2437,4,false,false,returned,16.80,1003,103,103

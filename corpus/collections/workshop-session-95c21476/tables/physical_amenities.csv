@@ -1,0 +1,5 @@
+physical_amenity_id,amenity_id,amenity_type,quantity_provided,is_clean,is_accessible,learning_environment_id,participant_id
+100,3158143,snack,4,true,true,100,1
+101,default_chart_a_tax_code_37,lunch,15,false,false,101,2
+102,BJBBB,toilet,2,true,true,102,3
+103,L851,hearing_aid,1,false,false,103,4

@@ -1,0 +1,5 @@
+food_beverage_item_id,item_id,item_name,item_category,is_seasonal,is_housemade,allergen_info,catering_package_id,beverage_selection_id
+100,ITE-2792,Seasonal Survey,Main Dish,false,false,distributed-allergen-72,1,1
+101,ITE-2795,Integrated Corridor,Side Dish,true,true,baseline-allergen-73,2,2
+102,ITE-2798,Extended Series D,Bread/Pastry,false,false,pilot-allergen-74,3,3
+103,ITE-2801,Pilot Assessment,Fruit,true,true,extended-allergen-75,4,4

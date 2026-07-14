@@ -1,0 +1,224 @@
+{
+ "construct_id": "1fea91f54ab15c04",
+ "slug": "m-e-s-a-program-1fea91f5",
+ "passage": "1fea91f54ab15c0456d3eb6d0d774f68a4492be108f24697e62f65dff44f0263.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 16,
+ "n_views": 13,
+ "entities": [
+  "MESAProgram",
+  "StudentEnrollment",
+  "SupportService",
+  "Course",
+  "MathBasedDegree",
+  "FourYearUniversity"
+ ],
+ "terms": [
+  {
+   "name": "MESAProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentEnrollment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SupportService",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Course",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MathBasedDegree",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "FourYearUniversity",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "m_e_s_a_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "host_institution",
+    "location_building",
+    "location_room",
+    "contact_phone",
+    "contact_fax",
+    "transfer_rate",
+    "total_students_served",
+    "underrepresented_percentage"
+   ]
+  },
+  {
+   "name": "student_enrollments",
+   "rows": 4,
+   "columns": [
+    "student_enrollment_id",
+    "enrollment_id",
+    "student_id",
+    "major",
+    "ethnicity",
+    "transfer_status",
+    "target_university",
+    "enrollment_date",
+    "graduation_date",
+    "m_e_s_a_program_id",
+    "four_year_university_id"
+   ]
+  },
+  {
+   "name": "support_services",
+   "rows": 4,
+   "columns": [
+    "support_service_id",
+    "service_id",
+    "service_name",
+    "service_type",
+    "description",
+    "frequency",
+    "is_mandatory",
+    "m_e_s_a_program_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "course_id",
+    "course_code",
+    "course_title",
+    "department",
+    "is_math_based",
+    "prerequisite",
+    "credits"
+   ]
+  },
+  {
+   "name": "math_based_degrees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "degree_name",
+    "requires_consecutive_math",
+    "requires_physics_or_chem_or_bio",
+    "target_institution"
+   ]
+  },
+  {
+   "name": "four_year_universities",
+   "rows": 4,
+   "columns": [
+    "four_year_university_id",
+    "university_name",
+    "accepts_transfer",
+    "location"
+   ]
+  },
+  {
+   "name": "programs_enrollments",
+   "rows": 8,
+   "columns": [
+    "m_e_s_a_program_id",
+    "student_enrollment_id"
+   ]
+  },
+  {
+   "name": "programs_services",
+   "rows": 8,
+   "columns": [
+    "m_e_s_a_program_id",
+    "support_service_id"
+   ]
+  },
+  {
+   "name": "programs_degrees",
+   "rows": 8,
+   "columns": [
+    "m_e_s_a_program_id",
+    "math_based_degree_id"
+   ]
+  },
+  {
+   "name": "enrollments_courses",
+   "rows": 8,
+   "columns": [
+    "student_enrollment_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "services_enrollments",
+   "rows": 8,
+   "columns": [
+    "support_service_id",
+    "student_enrollment_id"
+   ]
+  },
+  {
+   "name": "courses_degrees",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "math_based_degree_id"
+   ]
+  },
+  {
+   "name": "courses_enrollments",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "student_enrollment_id"
+   ]
+  },
+  {
+   "name": "degrees_courses",
+   "rows": 8,
+   "columns": [
+    "math_based_degree_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "degrees_enrollments",
+   "rows": 8,
+   "columns": [
+    "math_based_degree_id",
+    "student_enrollment_id"
+   ]
+  },
+  {
+   "name": "universities_enrollments",
+   "rows": 8,
+   "columns": [
+    "four_year_university_id",
+    "student_enrollment_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_m_e_s_a_program_student_enrollment_detail",
+  "vw_m_e_s_a_program_support_service_detail",
+  "vw_m_e_s_a_program_math_based_degree_detail",
+  "vw_student_enrollment_m_e_s_a_program",
+  "vw_student_enrollment_course_detail",
+  "vw_student_enrollment_four_year_university",
+  "vw_support_service_m_e_s_a_program",
+  "vw_support_service_student_enrollment_detail",
+  "vw_course_math_based_degree_detail",
+  "vw_course_student_enrollment_detail",
+  "vw_math_based_degree_course_detail",
+  "vw_math_based_degree_student_enrollment_detail",
+  "vw_four_year_university_student_enrollment_detail"
+ ]
+}

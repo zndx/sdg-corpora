@@ -1,0 +1,5 @@
+cognitive_capacity_id,capacity_identifier,capacity_name,domain,baseline_score,improvement_threshold,assessment_method,cognitive_training_program_id
+1,CAP-2248,Adaptive Model,executive,14.45,21.95,distributed-assessme-18,1
+2,CAP-2253,Primary Cluster,memory,17.90,25.90,baseline-assessme-19,2
+3,CAP-2258,Composite Review D,perceptual,21.35,29.85,pilot-assessme-20,3
+4,CAP-2263,Compact Initiative,attentional,24.80,33.80,extended-assessme-21,4

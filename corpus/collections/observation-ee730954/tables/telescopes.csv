@@ -1,0 +1,5 @@
+id,telescope_identifier,manufacturer,aperture_inches,mounting_type,year_manufactured,current_location,status,accessories,observation_id,observer_id,created_at,updated_at
+1000,TEL-2748,Standard Chartered,9.45,integrated-mounting-58,19,baseline-current-43,regional-status-84,legacy-accessor-37,100,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,TEL-2755,General Motors,13.90,seasonal-mounting-59,25,pilot-current-44,legacy-status-85,compact-accessor-38,101,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,TEL-2762,Column Name cannot be empty,18.35,regional-mounting-60,31,extended-current-45,compact-status-86,composite-accessor-39,102,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,TEL-2769,Financial Information Service Co. Ltd.,22.80,legacy-mounting-61,37,integrated-current-46,composite-status-87,primary-accessor-40,103,103,2025-04-16 09:14:00,2025-04-23 15:41:00

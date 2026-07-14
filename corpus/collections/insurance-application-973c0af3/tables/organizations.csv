@@ -1,0 +1,5 @@
+id,organization_id,official_name,license_number,formation_date,chartered_state,headquarters_address,telephone_number,fax_number,has_coach_instruction_program,has_injury_control_program,officer_id,insurance_application_id,event_id
+100,Shell Oil,Extended Review,LIC-2589,2023-10-24,composite-chartere-75,baseline-headquar-43,TEL-2173,FAX-2047,true,true,1,1,1
+101,GlobalPlatform Inc.,Pilot Initiative A,LIC-2596,2024-03-08,primary-chartere-76,pilot-headquar-44,TEL-2177,FAX-2049,false,false,2,2,2
+102,Whatsapp Inc.,Baseline Model,LIC-2603,2025-08-19,adaptive-chartere-77,extended-headquar-45,TEL-2181,FAX-2051,true,true,3,3,3
+103,American Institutes for Research,Distributed Cluster,LIC-2610,2022-01-03,distributed-chartere-78,integrated-headquar-46,TEL-2185,FAX-2053,false,false,4,4,4

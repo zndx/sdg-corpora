@@ -1,0 +1,5 @@
+ehr_id,patient_id,collection_date,data_volume,data_format,is_complete,storage_location,healthcare_organization_id
+195366,8387541,2025-12-17T11:57:00,9.95,primary-data-16,false,distributed-storage-48,1000
+611509,10207142,2022-05-01T18:14:00,12.90,adaptive-data-17,true,baseline-storage-49,1001
+884338,7119782,2023-10-12T01:31:00,15.85,distributed-data-18,false,pilot-storage-50,1002
+gd_taxc_1123,gd_acc_160003,2024-03-23T08:48:00,18.80,baseline-data-19,true,extended-storage-51,1003

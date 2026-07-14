@@ -1,0 +1,200 @@
+{
+ "construct_id": "efd02f14b6b27b47",
+ "slug": "withholding-rule-efd02f14",
+ "passage": "efd02f14b6b27b4757f547459b6b32c7597de09b0659f8be2597ef4755c73473.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 13,
+ "entities": [
+  "WithholdingRule",
+  "Payment",
+  "Contract",
+  "GovernmentalEntity",
+  "Contractor",
+  "Statute"
+ ],
+ "terms": [
+  {
+   "name": "WithholdingRule",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Payment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Contract",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "GovernmentalEntity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Contractor",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Statute",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "WithholdingRule",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ruleIdentifier",
+    "effectiveDate",
+    "withholdingRate",
+    "paymentThreshold",
+    "status",
+    "issuingAgency",
+    "statuteId"
+   ]
+  },
+  {
+   "name": "Payment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "paymentIdentifier",
+    "amount",
+    "disbursementDate",
+    "paymentType",
+    "isWithheld",
+    "withholdingAmount",
+    "entityId",
+    "contractorId",
+    "contractId"
+   ]
+  },
+  {
+   "name": "Contract",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contractIdentifier",
+    "executionDate",
+    "totalValue",
+    "contractType",
+    "isMateriallyModified",
+    "modificationDate",
+    "entityId",
+    "contractorId"
+   ]
+  },
+  {
+   "name": "GovernmentalEntity",
+   "rows": 4,
+   "columns": [
+    "entityId",
+    "entityIdentifier",
+    "entityName",
+    "jurisdictionLevel",
+    "annualPaymentVolume",
+    "isInstrumentality"
+   ]
+  },
+  {
+   "name": "Contractor",
+   "rows": 4,
+   "columns": [
+    "contractorId",
+    "contractorIdentifier",
+    "contractorName",
+    "contractorType",
+    "taxIdentificationNumber",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "Statute",
+   "rows": 4,
+   "columns": [
+    "statuteId",
+    "statuteIdentifier",
+    "statuteName",
+    "enactmentDate",
+    "sectionNumber",
+    "amends"
+   ]
+  },
+  {
+   "name": "WithholdingRulePayment",
+   "rows": 8,
+   "columns": [
+    "ruleId",
+    "paymentId"
+   ]
+  },
+  {
+   "name": "ContractPayment",
+   "rows": 8,
+   "columns": [
+    "contractId",
+    "paymentId"
+   ]
+  },
+  {
+   "name": "GovernmentalEntityPayment",
+   "rows": 8,
+   "columns": [
+    "entityId",
+    "paymentId"
+   ]
+  },
+  {
+   "name": "GovernmentalEntityContract",
+   "rows": 8,
+   "columns": [
+    "entityId",
+    "contractId"
+   ]
+  },
+  {
+   "name": "ContractorPayment",
+   "rows": 8,
+   "columns": [
+    "contractorId",
+    "paymentId"
+   ]
+  },
+  {
+   "name": "ContractorContract",
+   "rows": 8,
+   "columns": [
+    "contractorId",
+    "contractId"
+   ]
+  },
+  {
+   "name": "StatuteWithholdingRule",
+   "rows": 8,
+   "columns": [
+    "statuteId",
+    "ruleId"
+   ]
+  }
+ ],
+ "views": [
+  "v_withholding_rule_payment_detail",
+  "v_withholding_rule_statute",
+  "v_payment_governmental_entity",
+  "v_payment_contractor",
+  "v_payment_contract",
+  "v_contract_governmental_entity",
+  "v_contract_contractor",
+  "v_contract_payment_detail",
+  "v_governmental_entity_payment_detail",
+  "v_governmental_entity_contract_detail",
+  "v_contractor_payment_detail",
+  "v_contractor_contract_detail",
+  "v_statute_withholding_rule_detail"
+ ]
+}

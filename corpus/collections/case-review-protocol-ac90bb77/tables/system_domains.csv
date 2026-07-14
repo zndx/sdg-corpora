@@ -1,0 +1,5 @@
+id,domain_identifier,domain_name,responsible_agency,assessment_criteria,is_within_jurisdiction,case_review_protocol_id,government_agency_id
+1,DOM-2183,Regional Protocol,General Telephone & Electronics,extended-assessme-63,true,1,100
+2,DOM-2187,Seasonal Programme D,New Mexico Business Roundtable for Educational Excellence,integrated-assessme-64,false,2,101
+3,DOM-2191,Integrated Standard,Senseonics Holdings Inc.,seasonal-assessme-65,true,3,102
+4,DOM-2195,Extended Framework,National University of Singapore,regional-assessme-66,false,4,103

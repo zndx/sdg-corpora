@@ -1,0 +1,190 @@
+{
+ "construct_id": "efe9643e3cce7cb6",
+ "slug": "sales-activity-record-efe9643e",
+ "passage": "efe9643e3cce7cb6a92606c4dedefb73e3a3b24dea77a91af92e4d8f431b1f1d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 15,
+ "entities": [
+  "SalesActivityRecord",
+  "ProspectiveCustomer",
+  "Quotation",
+  "SalesReport",
+  "SalesAdministrator",
+  "MarketingManager"
+ ],
+ "terms": [
+  {
+   "name": "SalesActivityRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProspectiveCustomer",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Quotation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SalesReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SalesAdministrator",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MarketingManager",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "sale_sales_activity_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "activity_date",
+    "activity_type",
+    "duration_minutes",
+    "outcome",
+    "notes",
+    "sales_administrator_id",
+    "prospective_customer_id",
+    "sales_report_id"
+   ]
+  },
+  {
+   "name": "sale_prospective_customers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "customer_id",
+    "company_name",
+    "contact_person",
+    "contact_email",
+    "contact_phone",
+    "lead_source",
+    "status",
+    "quotation_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "sale_quotations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "quotation_id",
+    "issue_date",
+    "expiry_date",
+    "total_amount",
+    "status",
+    "description",
+    "prospective_customer_id",
+    "sales_administrator_id",
+    "sales_activity_record_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "sale_sales_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_date",
+    "total_calls",
+    "new_prospects",
+    "appointments_set",
+    "status",
+    "sales_administrator_id"
+   ]
+  },
+  {
+   "name": "sale_sales_administrators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "admin_id",
+    "full_name",
+    "department",
+    "office_location",
+    "weekly_hours",
+    "salary_grade",
+    "marketing_manager_id",
+    "quotation_id",
+    "sales_report_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "sale_marketing_managers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manager_id",
+    "full_name",
+    "department",
+    "office_location"
+   ]
+  },
+  {
+   "name": "sale_prospective_customersSalesActivityRecord",
+   "rows": 8,
+   "columns": [
+    "prospective_customer_id",
+    "sales_activity_record_id"
+   ]
+  },
+  {
+   "name": "sale_sales_reportsSalesActivityRecord",
+   "rows": 8,
+   "columns": [
+    "sales_report_id",
+    "sales_activity_record_id"
+   ]
+  },
+  {
+   "name": "sale_sales_administratorsSalesActivityRecord",
+   "rows": 8,
+   "columns": [
+    "sales_administrator_id",
+    "sales_activity_record_id"
+   ]
+  },
+  {
+   "name": "sale_marketing_managersSalesAdministrator",
+   "rows": 8,
+   "columns": [
+    "marketing_manager_id",
+    "sales_administrator_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_sales_activity_record_sales_administrator",
+  "v_sales_activity_record_prospective_customer",
+  "v_sales_activity_record_sales_report",
+  "v_prospective_customer_sales_activity_record_detail",
+  "v_prospective_customer_quotation",
+  "v_quotation_prospective_customer",
+  "v_quotation_sales_administrator",
+  "v_quotation_sales_activity_record",
+  "v_sales_report_sales_administrator",
+  "v_sales_report_sales_activity_record_detail",
+  "v_sales_administrator_marketing_manager",
+  "v_sales_administrator_sales_activity_record_detail",
+  "v_sales_administrator_quotation",
+  "v_sales_administrator_sales_report",
+  "v_marketing_manager_sales_administrator_detail"
+ ]
+}

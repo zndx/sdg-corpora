@@ -1,0 +1,5 @@
+evacuation_route_id,route_identifier,route_name,route_status,capacity_rating,is_shortcut,flood_risk_level,shelter_id
+1,ROU-2146,Pilot Survey,open,35,true,none,100
+2,ROU-2152,Baseline Corridor,blocked,43,false,low,101
+3,ROU-2158,Distributed Series A,washed_out,51,true,high,102
+4,ROU-2164,Adaptive Assessment,restricted,59,false,none,103

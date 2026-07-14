@@ -1,0 +1,5 @@
+id,rateId,rateType,dailyFee,currency,validFrom,validTo,packageId
+1000,3990179,1x1,17.12,seasonal-currency-71,2025-12-17,2023-06-19,1000
+1001,13195,2x1,17.41,regional-currency-72,2022-05-01,2024-11-03,1001
+1002,89419,Observer,30.51,legacy-currency-73,2023-10-12,2025-04-14,1002
+1003,6926379,Secretary,12.87,compact-currency-74,2024-03-23,2022-09-25,1003

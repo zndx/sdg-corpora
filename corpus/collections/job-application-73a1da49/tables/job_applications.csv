@@ -1,0 +1,5 @@
+id,application_id,submission_date,desired_position,desired_wage,availability_status,overtime_eligibility,preferred_shift,shift_flexibility,earliest_start_date,applicant_id,organization_id
+1,505997,2025-04-24T03:57:00,extended-desired-27,30.51,Full Time,true,integrated-preferre-82,true,2025-04-18,1000,1
+2,1250196,2022-09-08T10:14:00,integrated-desired-28,26.04,Part Time,false,seasonal-preferre-83,false,2022-09-02,1001,2
+3,124,2023-02-19T17:31:00,seasonal-desired-29,33.06,Unavailable,true,regional-preferre-84,true,2023-02-13,1002,3
+4,IVC20det40,2024-07-03T00:48:00,regional-desired-30,12.74,Full Time,false,legacy-preferre-85,false,2024-07-24,1003,4

@@ -1,0 +1,5 @@
+id,telescope_id,telescope_name,aperture_meters,telescope_class,primary_instrument,observation_mode,community_access_percentage,funding_consortium,observatory_facility_id,astronomical_survey_id,managing_organization_id
+100,mike1452,Adaptive Assessment,1.70,extended-telescop-33,legacy-primary-79,optical,10.95,regional-funding-66,1000,1,1
+101,7441142,Primary Survey,3.40,integrated-telescop-34,compact-primary-80,infrared,14.90,legacy-funding-67,1001,2,2
+102,a556311c-8fb2-11eb-924d-9cd76263cbd0,Composite Corridor D,5.10,seasonal-telescop-35,composite-primary-81,radio,18.85,compact-funding-68,1002,3,3
+103,10207145,Compact Series,6.80,regional-telescop-36,primary-primary-82,optical,22.80,composite-funding-69,1003,4,4

@@ -1,0 +1,191 @@
+{
+ "construct_id": "55a9c482ac6b71c1",
+ "slug": "social-media-platform-55a9c482",
+ "passage": "55a9c482ac6b71c1299f4bae9f0d993e3ccbd81650bc890e7e5cb596a3e26bfd.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 11,
+ "entities": [
+  "SocialMediaPlatform",
+  "InternalCommunicationEvent",
+  "Employee",
+  "CommunicationFactor",
+  "OrganizationalPolicy"
+ ],
+ "terms": [
+  {
+   "name": "SocialMediaPlatform",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InternalCommunicationEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Employee",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "CommunicationFactor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OrganizationalPolicy",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "social_media_platforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_identifier",
+    "platform_name",
+    "primary_function",
+    "adoption_status",
+    "usage_frequency",
+    "is_enterprise_grade"
+   ]
+  },
+  {
+   "name": "internal_communication_events",
+   "rows": 4,
+   "columns": [
+    "internal_communication_event_id",
+    "event_identifier",
+    "timestamp",
+    "communication_direction",
+    "content_type",
+    "is_formal",
+    "effectiveness_rating",
+    "social_media_platform_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "employees",
+   "rows": 4,
+   "columns": [
+    "employee_id",
+    "department",
+    "role",
+    "years_of_service",
+    "digital_literacy_level"
+   ]
+  },
+  {
+   "name": "communication_factors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "factor_id",
+    "factor_name",
+    "category",
+    "impact_score",
+    "is_positive"
+   ]
+  },
+  {
+   "name": "organizational_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_title",
+    "effective_date",
+    "status",
+    "scope",
+    "created_at"
+   ]
+  },
+  {
+   "name": "platforms_employees",
+   "rows": 8,
+   "columns": [
+    "social_media_platform_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "platforms_events",
+   "rows": 8,
+   "columns": [
+    "social_media_platform_id",
+    "internal_communication_event_id"
+   ]
+  },
+  {
+   "name": "events_employees",
+   "rows": 8,
+   "columns": [
+    "internal_communication_event_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "employees_platforms",
+   "rows": 8,
+   "columns": [
+    "employee_id",
+    "social_media_platform_id"
+   ]
+  },
+  {
+   "name": "employees_events",
+   "rows": 8,
+   "columns": [
+    "employee_id",
+    "internal_communication_event_id"
+   ]
+  },
+  {
+   "name": "factors_platforms",
+   "rows": 8,
+   "columns": [
+    "communication_factor_id",
+    "social_media_platform_id"
+   ]
+  },
+  {
+   "name": "factors_employees",
+   "rows": 8,
+   "columns": [
+    "communication_factor_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "policies_platforms",
+   "rows": 8,
+   "columns": [
+    "organizational_policy_id",
+    "social_media_platform_id"
+   ]
+  },
+  {
+   "name": "policies_employees",
+   "rows": 8,
+   "columns": [
+    "organizational_policy_id",
+    "employee_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_social_media_platform_employee_detail",
+  "v_social_media_platform_internal_communication_event_detail",
+  "v_internal_communication_event_social_media_platform",
+  "v_internal_communication_event_employee",
+  "v_internal_communication_event_employee_detail",
+  "v_employee_social_media_platform_detail",
+  "v_employee_internal_communication_event_detail",
+  "v_communication_factor_social_media_platform_detail",
+  "v_communication_factor_employee_detail",
+  "v_organizational_policy_social_media_platform_detail",
+  "v_organizational_policy_employee_detail"
+ ]
+}

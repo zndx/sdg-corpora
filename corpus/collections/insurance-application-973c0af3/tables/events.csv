@@ -1,0 +1,5 @@
+event_id,event_name,location_name,estimated_date,expected_attendance,is_minor_participant_event,coverage_requested,organization_id,coverage_policy_id
+1,Seasonal Standard,Legacy Review D,2022-09-01,15,false,baseline-coverage-55,100,100
+2,Integrated Framework,Regional Initiative,2023-02-12,21,true,pilot-coverage-56,101,101
+3,Extended Protocol D,Seasonal Model,2024-07-23,27,false,extended-coverage-57,102,102
+4,Pilot Programme,Integrated Cluster A,2025-12-07,33,true,integrated-coverage-58,103,103

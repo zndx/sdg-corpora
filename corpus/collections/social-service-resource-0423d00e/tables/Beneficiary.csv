@@ -1,0 +1,5 @@
+id,beneficiaryIdentifier,primaryLanguage,immigrationStatus,needsAssistance,requiresInterpreter,hotlineId,incidentId
+100,BEN-2039,english,refugee,false,true,1000,1
+101,BEN-2044,spanish,asylum_seeker,true,false,1001,2
+102,BEN-2049,arabic,immigrant,false,true,1002,3
+103,BEN-2054,other,citizen,true,false,1003,4

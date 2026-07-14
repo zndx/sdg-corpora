@@ -1,0 +1,5 @@
+governance_framework_id,framework_id,framework_name,version,last_updated,compliance_score,risk_assessment_frequency,internal_audit_role_id,public_service_organisation_id
+1000,lu_tax_code_template_m11,Adaptive Corridor,seasonal-version-71,2023-06-17T17:27:00,21.95,Annual,1,1
+1001,228bd7e4-9bad-11eb-a8a2-19ed5c03f8d3,Primary Series,regional-version-72,2024-11-01T00:44:00,24.90,Biannual,2,2
+1002,8843756,Composite Assessment D,legacy-version-73,2025-04-12T07:01:00,27.85,Quarterly,3,3
+1003,ChIJm7V_gxFu5kcRAbqaOJHQUy0,Compact Survey,compact-version-74,2022-09-23T14:18:00,30.80,Annual,4,4

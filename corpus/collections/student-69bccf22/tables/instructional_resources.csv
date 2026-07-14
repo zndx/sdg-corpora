@@ -1,0 +1,5 @@
+instructional_resource_id,resource_id,resource_name,category,requires_additional_login,access_method,grade_range,authentication_method_id
+100,1167,Adaptive Corridor,LMS,true,Clever,legacy-grade-79,1000
+101,2106708,Primary Series,Curriculum,false,Direct,compact-grade-80,1001
+102,4180945,Composite Assessment D,TestPrep,true,App,composite-grade-81,1002
+103,10238270,Compact Survey,Intervention,false,Clever,primary-grade-82,1003

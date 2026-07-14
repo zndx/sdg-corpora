@@ -1,0 +1,185 @@
+{
+ "construct_id": "14992ca2af216d73",
+ "slug": "retirement-plan-member-14992ca2",
+ "passage": "14992ca2af216d73ed5ec2c87bf31b6c7d2bc7b3083d094047b02111510a2da9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 13,
+ "entities": [
+  "RetirementPlanMember",
+  "RetirementBenefitApplication",
+  "BenefitOption",
+  "Beneficiary",
+  "SpousalConsent",
+  "ParticipatingEmployer"
+ ],
+ "terms": [
+  {
+   "name": "RetirementPlanMember",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RetirementBenefitApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "BenefitOption",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Beneficiary",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SpousalConsent",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ParticipatingEmployer",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "retirement_plan_members",
+   "rows": 4,
+   "columns": [
+    "member_id",
+    "full_name",
+    "ssn",
+    "date_of_birth",
+    "gender",
+    "address",
+    "telephone",
+    "email_address",
+    "has_spouse_member_id",
+    "participating_employer_id"
+   ]
+  },
+  {
+   "name": "retirement_benefit_applications",
+   "rows": 4,
+   "columns": [
+    "retirement_benefit_application_id",
+    "application_id",
+    "application_date",
+    "benefit_type",
+    "benefit_option",
+    "benefit_start_date",
+    "marital_status",
+    "spouse_consent_status",
+    "application_status",
+    "member_id",
+    "benefit_option_id",
+    "spousal_consent_id"
+   ]
+  },
+  {
+   "name": "benefit_options",
+   "rows": 4,
+   "columns": [
+    "id",
+    "option_id",
+    "option_name",
+    "payment_duration",
+    "has_guarantee_period",
+    "guarantee_months",
+    "survivor_benefit_percentage"
+   ]
+  },
+  {
+   "name": "beneficiaries",
+   "rows": 4,
+   "columns": [
+    "id",
+    "beneficiary_id",
+    "full_name",
+    "relationship",
+    "ssn",
+    "date_of_birth",
+    "address",
+    "telephone",
+    "email_address",
+    "beneficiary_type",
+    "member_id",
+    "benefit_option_id"
+   ]
+  },
+  {
+   "name": "spousal_consents",
+   "rows": 4,
+   "columns": [
+    "spousal_consent_id",
+    "consent_id",
+    "consent_date",
+    "spouse_ssn",
+    "notary_name",
+    "notary_commission_expiry",
+    "witnessed_by_plan_rep",
+    "retirement_benefit_application_id",
+    "member_id"
+   ]
+  },
+  {
+   "name": "participating_employers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employer_id",
+    "employer_name",
+    "ein",
+    "plan_start_date"
+   ]
+  },
+  {
+   "name": "members_applications",
+   "rows": 8,
+   "columns": [
+    "member_id",
+    "retirement_benefit_application_id"
+   ]
+  },
+  {
+   "name": "members_beneficiaries",
+   "rows": 8,
+   "columns": [
+    "member_id",
+    "beneficiary_id"
+   ]
+  },
+  {
+   "name": "options_applications",
+   "rows": 8,
+   "columns": [
+    "benefit_option_id",
+    "retirement_benefit_application_id"
+   ]
+  },
+  {
+   "name": "employers_members",
+   "rows": 8,
+   "columns": [
+    "participating_employer_id",
+    "member_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_retirement_plan_member_retirement_benefit_application_detail",
+  "vw_retirement_plan_member_beneficiary_detail",
+  "vw_retirement_plan_member_retirement_plan_member",
+  "vw_retirement_plan_member_participating_employer",
+  "vw_retirement_benefit_application_retirement_plan_member",
+  "vw_retirement_benefit_application_benefit_option",
+  "vw_retirement_benefit_application_spousal_consent",
+  "vw_benefit_option_retirement_benefit_application_detail",
+  "vw_beneficiary_retirement_plan_member",
+  "vw_beneficiary_benefit_option",
+  "vw_spousal_consent_retirement_benefit_application",
+  "vw_spousal_consent_retirement_plan_member",
+  "vw_participating_employer_retirement_plan_member_detail"
+ ]
+}

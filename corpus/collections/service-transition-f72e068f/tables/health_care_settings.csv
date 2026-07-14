@@ -1,0 +1,5 @@
+id,setting_id,name,type,location,contact_info,service_user_id,service_transition_id,destined_for_transition_service_transition_id
+1,10445640,Extended Review,hospital,extended-location-99,Jorge Luis Borges,1,1,1
+2,6564398,Pilot Initiative A,community care,integrated-location-100,Focus Device,2,2,2
+3,fro,Baseline Model,residential care,seasonal-location-101,Thomas Rivers,3,3,3
+4,4180954,Distributed Cluster,home care,regional-location-102,Kimberly Myers,4,4,4

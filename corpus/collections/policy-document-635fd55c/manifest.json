@@ -1,0 +1,140 @@
+{
+ "construct_id": "635fd55c9052a412",
+ "slug": "policy-document-635fd55c",
+ "passage": "635fd55c9052a4128fe08f670b8c14839cff23528877a39cda2e3975692a3279.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 13,
+ "entities": [
+  "PolicyDocument",
+  "PersonnelRole",
+  "SocialMediaPlatform",
+  "SocialMediaPost",
+  "Investigation"
+ ],
+ "terms": [
+  {
+   "name": "PolicyDocument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PersonnelRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SocialMediaPlatform",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SocialMediaPost",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Investigation",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "policy_documents",
+   "rows": 4,
+   "columns": [
+    "policy_number",
+    "title",
+    "last_updated",
+    "issued_by",
+    "approved_by",
+    "status",
+    "policy_document_policy_number",
+    "is_superseded_by_policy_document_policy_number",
+    "references_policy_document_policy_number",
+    "personnel_role_id"
+   ]
+  },
+  {
+   "name": "personnel_roles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role_type",
+    "department",
+    "clearance_level",
+    "start_date",
+    "end_date",
+    "is_active",
+    "personnel_role_id",
+    "policy_document_policy_number",
+    "subject_to_policy_document_policy_number",
+    "created_at"
+   ]
+  },
+  {
+   "name": "social_media_platforms",
+   "rows": 4,
+   "columns": [
+    "social_media_platform_id",
+    "platform_name",
+    "platform_url",
+    "is_official",
+    "approval_date",
+    "monitoring_section",
+    "contact_info",
+    "personnel_role_id",
+    "policy_document_policy_number",
+    "social_media_post_id"
+   ]
+  },
+  {
+   "name": "social_media_posts",
+   "rows": 4,
+   "columns": [
+    "social_media_post_id",
+    "post_id",
+    "content",
+    "post_date",
+    "post_type",
+    "is_official",
+    "is_monitored",
+    "is_subject_to_disclosure",
+    "social_media_platform_id",
+    "personnel_role_id",
+    "policy_document_policy_number",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "investigations",
+   "rows": 4,
+   "columns": [
+    "investigation_id",
+    "case_number",
+    "start_date",
+    "end_date",
+    "status",
+    "lead_investigator",
+    "social_media_post_id",
+    "personnel_role_id",
+    "policy_document_policy_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_policy_document_policy_document",
+  "v_policy_document_personnel_role",
+  "v_personnel_role_personnel_role",
+  "v_personnel_role_policy_document",
+  "v_social_media_platform_personnel_role",
+  "v_social_media_platform_policy_document",
+  "v_social_media_platform_social_media_post",
+  "v_social_media_post_social_media_platform",
+  "v_social_media_post_personnel_role",
+  "v_social_media_post_policy_document",
+  "v_investigation_social_media_post",
+  "v_investigation_personnel_role",
+  "v_investigation_policy_document"
+ ]
+}

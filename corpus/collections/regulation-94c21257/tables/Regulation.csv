@@ -1,0 +1,5 @@
+regulationId,identifier,title,status,effectiveDate,issuingBody,corrigendumId,typeId,supersededByRegulationId
+1,IDE-2086,Compact Initiative,draft,2025-04-08,compact-issuing-32,100,1000,1
+2,IDE-2091,Legacy Model,in_force,2022-09-19,composite-issuing-33,101,1001,2
+3,IDE-2096,Regional Cluster A,amended,2023-02-03,primary-issuing-34,102,1002,3
+4,IDE-2101,Seasonal Review,withdrawn,2024-07-14,adaptive-issuing-35,103,1003,4

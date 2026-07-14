@@ -1,0 +1,5 @@
+id,account_identifier,username,password_hash,status,creation_date,last_login_timestamp,account_type,student_id,network_administrator_admin_id,network_resource_id
+1,ACC-2500,Pilot Review,integrated-password-76,active,2022-01-13T12:24:00,2024-11-16T10:42:00,student,1,2986232,1
+2,ACC-2502,Baseline Initiative,seasonal-password-77,suspended,2023-06-24T19:41:00,2025-04-27T17:59:00,staff,2,9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,2
+3,ACC-2504,Distributed Model A,regional-password-78,revoked,2024-11-08T02:58:00,2022-09-11T00:16:00,administrator,3,859ac854-9bad-11eb-a8a2-19ed5c03f8d3,3
+4,ACC-2506,Adaptive Cluster,legacy-password-79,pending,2025-04-19T09:15:00,2023-02-22T07:33:00,student,4,57e4c59a-8fcd-11eb-924d-9cd76263cbd0,4

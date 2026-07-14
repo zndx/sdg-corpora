@@ -1,0 +1,154 @@
+{
+ "construct_id": "6e18cc8fc9e5669b",
+ "slug": "waste-processing-facility-6e18cc8f",
+ "passage": "6e18cc8fc9e5669b706837d822b11d176cb0e10077c664ef993be1c4448a8ea1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "WasteProcessingFacility",
+  "WasteStream",
+  "EnergyOutput",
+  "FinancialReport",
+  "FinancialStaff",
+  "Department"
+ ],
+ "terms": [
+  {
+   "name": "WasteProcessingFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "WasteStream",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "EnergyOutput",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "FinancialReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialStaff",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Department",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "waste_processing_facilities",
+   "rows": 4,
+   "columns": [
+    "waste_processing_facility_id",
+    "facility_id",
+    "facility_name",
+    "location",
+    "capacity_tons_per_day",
+    "operational_status",
+    "commissioning_date",
+    "waste_stream_id",
+    "energy_output_id"
+   ]
+  },
+  {
+   "name": "waste_streams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "stream_id",
+    "waste_type",
+    "origin_jurisdiction",
+    "daily_volume_tons",
+    "collection_frequency",
+    "hauler_contract_id",
+    "waste_processing_facility_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "energy_outputs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "output_id",
+    "energy_type",
+    "capacity_megawatts",
+    "daily_generation_m_wh",
+    "grid_connection_status",
+    "measurement_date",
+    "waste_processing_facility_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "financial_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_type",
+    "fiscal_year",
+    "reporting_period_start",
+    "reporting_period_end",
+    "status",
+    "prepared_by_staff_id",
+    "waste_processing_facility_id",
+    "financial_staff_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "financial_staffs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "full_name",
+    "role",
+    "employment_status",
+    "hire_date",
+    "supervisor_staff_id",
+    "financial_report_id",
+    "financial_staff_id",
+    "department_id"
+   ]
+  },
+  {
+   "name": "departments",
+   "rows": 4,
+   "columns": [
+    "department_id",
+    "department_name",
+    "head_staff_id",
+    "budget_allocation",
+    "established_date",
+    "financial_staff_id",
+    "waste_processing_facility_id",
+    "financial_report_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_waste_processing_facility_waste_stream",
+  "v_waste_processing_facility_energy_output",
+  "v_waste_stream_waste_processing_facility",
+  "v_energy_output_waste_processing_facility",
+  "v_financial_report_waste_processing_facility",
+  "v_financial_report_financial_staff",
+  "v_financial_staff_financial_report",
+  "v_financial_staff_financial_staff",
+  "v_financial_staff_department",
+  "v_department_financial_staff",
+  "v_department_waste_processing_facility",
+  "v_department_financial_report"
+ ]
+}

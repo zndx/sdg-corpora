@@ -1,0 +1,159 @@
+{
+ "construct_id": "36edfccb4d68d2cf",
+ "slug": "decision-assessment-36edfccb",
+ "passage": "36edfccb4d68d2cf89635cd8f85f3decfa58218de7a372af165d1b410082c1f1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 13,
+ "entities": [
+  "DecisionAssessment",
+  "Person",
+  "DecisionTopic",
+  "BestInterestDetermination",
+  "Professional"
+ ],
+ "terms": [
+  {
+   "name": "DecisionAssessment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "DecisionTopic",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "BestInterestDetermination",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Professional",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "decision_assessments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "assessment_id",
+    "assessment_date",
+    "decision_topic",
+    "assessor_id",
+    "capacity_status",
+    "support_provided",
+    "person_id",
+    "topic_id",
+    "professional_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "legal_name",
+    "date_of_birth",
+    "jurisdiction",
+    "vulnerable_status",
+    "best_interest_determination_id"
+   ]
+  },
+  {
+   "name": "decision_topics",
+   "rows": 4,
+   "columns": [
+    "topic_id",
+    "category_code",
+    "urgency_level",
+    "description",
+    "best_interest_determination_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "best_interest_determinations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "determination_id",
+    "decision_date",
+    "chosen_option",
+    "restrictiveness_level",
+    "justification_text",
+    "status",
+    "person_id",
+    "topic_id",
+    "decision_assessment_id",
+    "professional_id"
+   ]
+  },
+  {
+   "name": "professionals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "professional_id",
+    "full_name",
+    "license_number",
+    "role_type",
+    "jurisdiction"
+   ]
+  },
+  {
+   "name": "persons_assessments",
+   "rows": 8,
+   "columns": [
+    "person_id",
+    "decision_assessment_id"
+   ]
+  },
+  {
+   "name": "topics_assessments",
+   "rows": 8,
+   "columns": [
+    "topic_id",
+    "decision_assessment_id"
+   ]
+  },
+  {
+   "name": "professionals_assessments",
+   "rows": 8,
+   "columns": [
+    "professional_id",
+    "decision_assessment_id"
+   ]
+  },
+  {
+   "name": "professionals_determinations",
+   "rows": 8,
+   "columns": [
+    "professional_id",
+    "best_interest_determination_id"
+   ]
+  }
+ ],
+ "views": [
+  "decision_assessment_person_view",
+  "decision_assessment_decision_topic_view",
+  "decision_assessment_professional_view",
+  "person_decision_assessment_detail_view",
+  "person_best_interest_determination_view",
+  "decision_topic_decision_assessment_detail_view",
+  "decision_topic_best_interest_determination_view",
+  "best_interest_determination_person_view",
+  "best_interest_determination_decision_topic_view",
+  "best_interest_determination_decision_assessment_view",
+  "best_interest_determination_professional_view",
+  "professional_decision_assessment_detail_view",
+  "professional_best_interest_determination_detail_view"
+ ]
+}

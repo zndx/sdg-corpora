@@ -1,0 +1,5 @@
+parcelIdentifier,address,landUseCode,assessedValue,taxYear,isHomesteaded,noticeId,exemptionId
+PAR-2364,distributed-address-72,IVC10,4.70,26,false,100,1
+PAR-2368,baseline-address-73,1202-0001-S,8.40,36,true,101,2
+PAR-2372,pilot-address-74,82873,12.10,46,false,102,3
+PAR-2376,extended-address-75,1336178,15.80,56,true,103,4

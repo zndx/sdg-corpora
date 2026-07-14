@@ -1,0 +1,5 @@
+retirement_benefit_application_id,application_id,application_date,benefit_type,benefit_option,benefit_start_date,marital_status,spouse_consent_status,application_status,member_id,benefit_option_id,spousal_consent_id
+100,505997,2022-05-16T16:24:00,Normal,Life Annuity with 5-Year Guarantee,2023-02-09,Not Married,Not Required,Submitted,10207158,1,1
+101,1250196,2023-10-27T23:41:00,Early,Contingent Annuity with 100% Survivor Benefit,2024-07-20,Married,Required,Under Review,10207158,2,2
+102,124,2024-03-11T06:58:00,Deferred,Contingent Annuity with 75% Survivor Benefit,2025-12-04,Not Married,Obtained,Approved,25820616,3,3
+103,IVC20det40,2025-08-22T13:15:00,Normal,Contingent Annuity with 50% Survivor Benefit,2022-05-15,Married,Waived - Inability to Locate,Rejected,2002007020250,4,4

@@ -1,0 +1,5 @@
+parchment_id,issue_date,graduate_name,program_name_at_graduation,honours_notation,is_reissued,revocation_reason,student_id,credential_id
+1,2023-02-01T13:51:00,Distributed Review,distributed-program-78,true,false,legacy-revocati-49,1,1
+2,2024-07-12T20:08:00,Adaptive Initiative D,baseline-program-79,false,true,compact-revocati-50,2,2
+3,2025-12-23T03:25:00,Primary Model,pilot-program-80,true,false,composite-revocati-51,3,3
+4,2022-05-07T10:42:00,Composite Cluster,extended-program-81,false,true,primary-revocati-52,4,4

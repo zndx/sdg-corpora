@@ -1,0 +1,5 @@
+id,unit_code,unit_name,support_type,staff_count,budget_allocation,statutory_agency_id,staffing_plan_id,created_at,updated_at
+1,16375765,Compact Series,in-house,21,446.22,100,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,43197173,Legacy Assessment,shared,40,763.46,101,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,1186104,Regional Survey A,outsourced,3,12.34,102,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,69419,Seasonal Corridor,in-house,8,"1,737",103,103,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+obstacle_id,obstacle_type,position_x,position_y,is_static,zone_id
+1,island,13.20,11.70,false,100
+2,parking_line,16.40,13.40,true,101
+3,vehicle,19.60,15.10,false,102
+4,cul_de_sac,22.80,16.80,true,103

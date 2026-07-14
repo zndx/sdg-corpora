@@ -1,0 +1,5 @@
+media_personality_id,full_name,callsign,recognition_title,years_active,is_retired,news_organization_id,historical_event_id
+1,Theodore Mcgrath,integrated-callsign-16,Pilot Series,21,false,100,1
+2,Account Name,seasonal-callsign-17,Baseline Assessment,30,true,101,2
+3,Saipan International Airport,regional-callsign-18,Distributed Survey A,39,false,102,3
+4,Norma Fisher,legacy-callsign-19,Adaptive Corridor,48,true,103,4

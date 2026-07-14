@@ -1,0 +1,5 @@
+id,registration_fee,monthly_tuition,late_fee_amount,payment_due_day,late_fee_deadline_day,program_months,consent_given,waiver_signed,enrollment_date,student_id,acquisition_source_id
+1,24.01,16.20,13.49,44,29,composite-program-21,false,false,2022-05-11,100,100
+2,12.87,19.40,25.47,54,34,primary-program-22,true,true,2023-10-22,101,101
+3,19.72,22.60,0.18,64,39,adaptive-program-23,false,false,2024-03-06,102,102
+4,16.11,25.80,9.54,74,44,distributed-program-24,true,true,2025-08-17,103,103

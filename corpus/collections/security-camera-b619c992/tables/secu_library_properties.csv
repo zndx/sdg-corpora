@@ -1,0 +1,5 @@
+library_property_id,property_id,address,property_type,square_footage,last_inspection_date,security_camera_id,incident_id
+100,23461971,distributed-address-72,exterior,7.45,2025-04-12,1,1336174
+101,9424936,baseline-address-73,interior,11.90,2022-09-23,2,state_uk_4
+102,4985172,pilot-address-74,parking_lot,16.35,2023-02-07,3,2933483
+103,25566008,extended-address-75,exterior,20.80,2024-07-18,4,2986243

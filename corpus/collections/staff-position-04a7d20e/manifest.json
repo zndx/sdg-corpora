@@ -1,0 +1,158 @@
+{
+ "construct_id": "04a7d20efa616ab4",
+ "slug": "staff-position-04a7d20e",
+ "passage": "04a7d20efa616ab46f25bb6d1187290e583a8feaa4afe57380cdc6dad48e3fd6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "StaffPosition",
+  "StaffMember",
+  "PatientAppointment",
+  "PatientRecord",
+  "PaymentTransaction",
+  "InventoryItem"
+ ],
+ "terms": [
+  {
+   "name": "StaffPosition",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PatientAppointment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PatientRecord",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PaymentTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InventoryItem",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "StaffPosition",
+   "rows": 4,
+   "columns": [
+    "id",
+    "positionId",
+    "title",
+    "department",
+    "supervisorTitle",
+    "educationRequired",
+    "experienceRequired",
+    "status",
+    "memberId",
+    "reportsToPositionId"
+   ]
+  },
+  {
+   "name": "StaffMember",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staffId",
+    "firstName",
+    "lastName",
+    "hireDate",
+    "employmentStatus",
+    "contactEmail",
+    "positionId"
+   ]
+  },
+  {
+   "name": "PatientAppointment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appointmentId",
+    "scheduledDateTime",
+    "status",
+    "providerId",
+    "patientId",
+    "serviceType",
+    "reminderSent",
+    "memberId",
+    "recordId"
+   ]
+  },
+  {
+   "name": "PatientRecord",
+   "rows": 4,
+   "columns": [
+    "recordId",
+    "dateOfBirth",
+    "insuranceProvider",
+    "policyNumber",
+    "lastUpdated",
+    "hipaaCompliant",
+    "transactionId"
+   ]
+  },
+  {
+   "name": "PaymentTransaction",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transactionId",
+    "amount",
+    "transactionDate",
+    "paymentMethod",
+    "status",
+    "processedBy",
+    "recordId",
+    "appointmentId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "InventoryItem",
+   "rows": 4,
+   "columns": [
+    "id",
+    "itemId",
+    "itemName",
+    "category",
+    "quantityOnHand",
+    "reorderLevel",
+    "lastRestocked",
+    "memberId",
+    "appointmentId"
+   ]
+  },
+  {
+   "name": "PatientRecordPatientAppointment",
+   "rows": 8,
+   "columns": [
+    "recordId",
+    "appointmentId"
+   ]
+  }
+ ],
+ "views": [
+  "v_staff_position_staff_member",
+  "v_staff_position_staff_position",
+  "v_staff_member_staff_position",
+  "v_patient_appointment_staff_member",
+  "v_patient_appointment_patient_record",
+  "v_patient_record_patient_appointment_detail",
+  "v_patient_record_payment_transaction",
+  "v_payment_transaction_patient_record",
+  "v_payment_transaction_patient_appointment",
+  "v_inventory_item_staff_member",
+  "v_inventory_item_patient_appointment"
+ ]
+}

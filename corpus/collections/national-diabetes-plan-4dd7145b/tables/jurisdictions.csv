@@ -1,0 +1,5 @@
+id,jurisdiction_id,jurisdiction_name,country_code,administrative_level,population_count,area_code,population_segment_id,policy_id,health_service_id
+1,8387534,Pilot Cluster,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,national,15021,1996912,1000,5844252,1
+2,99654,Baseline Review,lu_tax_code_template_m_I_2,regional,10,17788643,1001,10207142,2
+3,lu_tax_code_template_m_I_4,Distributed Initiative A,default_chart_a_account_57,local,18,4793470,1002,1562847,3
+4,1186090,Adaptive Model,727045,national,50,8843760,1003,ChIJkzsYUIBt5kcRM6_JHx26ONk,4

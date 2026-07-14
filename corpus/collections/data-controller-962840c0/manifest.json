@@ -1,0 +1,179 @@
+{
+ "construct_id": "962840c01ca06240",
+ "slug": "data-controller-962840c0",
+ "passage": "962840c01ca06240680b4ef8751115e4c87baccc4674361973f98a3c3f75c6cc.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 14,
+ "entities": [
+  "DataController",
+  "DataProcessor",
+  "PrivacyRepresentative",
+  "SurfingData",
+  "PersonalData",
+  "DataSubject",
+  "Cookie",
+  "UserDevice"
+ ],
+ "terms": [
+  {
+   "name": "DataController",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DataProcessor",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PrivacyRepresentative",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SurfingData",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PersonalData",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DataSubject",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Cookie",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "UserDevice",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "data_controllers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "registration_number",
+    "registered_address",
+    "contact_email",
+    "jurisdiction",
+    "data_processor_id",
+    "privacy_representative_id"
+   ]
+  },
+  {
+   "name": "data_processors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "registration_number",
+    "registered_address",
+    "service_type",
+    "contract_start_date",
+    "data_controller_id",
+    "personal_data_id"
+   ]
+  },
+  {
+   "name": "privacy_representatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "contact_email",
+    "contact_phone",
+    "appointment_date",
+    "data_controller_id"
+   ]
+  },
+  {
+   "name": "surfing_datas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ip_address",
+    "domain_name",
+    "operating_system",
+    "visit_timestamp",
+    "session_duration",
+    "is_anonymous",
+    "data_controller_id"
+   ]
+  },
+  {
+   "name": "personal_datas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "data_category",
+    "consent_status",
+    "collection_purpose",
+    "retention_period",
+    "is_sensitive",
+    "data_controller_id",
+    "data_subject_id"
+   ]
+  },
+  {
+   "name": "data_subjects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subject_identifier",
+    "consent_given",
+    "contact_method",
+    "data_controller_id",
+    "data_processor_id"
+   ]
+  },
+  {
+   "name": "cookies",
+   "rows": 4,
+   "columns": [
+    "cookie_id",
+    "purpose",
+    "expiration_date",
+    "is_essential",
+    "third_party_provider",
+    "data_controller_id",
+    "user_device_id"
+   ]
+  },
+  {
+   "name": "user_devices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "device_id",
+    "device_type",
+    "operating_system",
+    "browser_version",
+    "data_subject_id",
+    "cookie_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_data_controller_data_processor",
+  "vw_data_controller_privacy_representative",
+  "vw_data_processor_data_controller",
+  "vw_data_processor_personal_data",
+  "vw_privacy_representative_data_controller",
+  "vw_surfing_data_data_controller",
+  "vw_personal_data_data_controller",
+  "vw_personal_data_data_subject",
+  "vw_data_subject_data_controller",
+  "vw_data_subject_data_processor",
+  "vw_cookie_data_controller",
+  "vw_cookie_user_device",
+  "vw_user_device_data_subject",
+  "vw_user_device_cookie"
+ ]
+}

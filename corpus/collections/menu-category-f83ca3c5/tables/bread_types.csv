@@ -1,0 +1,5 @@
+bread_type_id,bread_code,bread_name,is_house_made,is_gluten_free,is_vegan,item_code
+100,3355775,Regional Series,true,true,false,ITE-2446
+101,9085261,Seasonal Assessment D,false,false,true,ITE-2452
+102,4716414,Integrated Survey,true,true,false,ITE-2458
+103,4180957,Extended Corridor,false,false,true,ITE-2464

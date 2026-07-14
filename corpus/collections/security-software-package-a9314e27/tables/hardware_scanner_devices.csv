@@ -1,0 +1,5 @@
+id,device_model_name,camera_resolution_megapixels,maximum_scanning_size,power_source_type,interface_type,retail_price,currency_code,has_external_button,has_barcode_scanner,security_software_package_id,official_identification_document_id
+1000,Baseline Protocol D,26,seasonal-maximum-65,adaptive-power-77,seasonal-interfac-77,29.99,1235,false,884353,1000,1
+1001,Distributed Programme,31,regional-maximum-66,distributed-power-78,regional-interfac-78,27.02,10782179,true,2986243,1001,2
+1002,Adaptive Standard,36,legacy-maximum-67,baseline-power-79,legacy-interfac-79,11.11,9125631,false,1889774,1002,3
+1003,Primary Framework A,41,compact-maximum-68,pilot-power-80,compact-interfac-80,35.45,4e386610-8fcc-11eb-924d-9cd76263cbd0,true,99654,1003,4

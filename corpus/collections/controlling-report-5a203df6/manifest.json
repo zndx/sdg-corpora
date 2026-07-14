@@ -1,0 +1,131 @@
+{
+ "construct_id": "5a203df6b53111a3",
+ "slug": "controlling-report-5a203df6",
+ "passage": "5a203df6b53111a3e81140d914e8f45088af401242890012ee3eea51abd2bfda.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 13,
+ "entities": [
+  "ControllingReport",
+  "BusinessSegment",
+  "ControllingUser",
+  "StrategicPlan",
+  "BusinessProcess"
+ ],
+ "terms": [
+  {
+   "name": "ControllingReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BusinessSegment",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ControllingUser",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "StrategicPlan",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BusinessProcess",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "controlling_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "report_name",
+    "report_type",
+    "creation_date",
+    "status",
+    "layout_format",
+    "process_id",
+    "business_segment_id",
+    "user_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "business_segments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "segment_code",
+    "segment_name",
+    "segment_type",
+    "is_consolidated",
+    "parent_organization_id",
+    "controlling_report_id",
+    "business_segment_id"
+   ]
+  },
+  {
+   "name": "controlling_users",
+   "rows": 4,
+   "columns": [
+    "user_id",
+    "user_name",
+    "role_title",
+    "department",
+    "is_strategic_planner",
+    "controlling_report_id",
+    "strategic_plan_id"
+   ]
+  },
+  {
+   "name": "strategic_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_id",
+    "plan_name",
+    "planning_horizon",
+    "is_driver_based",
+    "approval_status",
+    "last_review_date",
+    "user_id",
+    "business_segment_id",
+    "controlling_report_id"
+   ]
+  },
+  {
+   "name": "business_processes",
+   "rows": 4,
+   "columns": [
+    "process_id",
+    "process_name",
+    "process_category",
+    "is_automated",
+    "execution_frequency",
+    "controlling_report_id",
+    "business_segment_id",
+    "user_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_controlling_report_business_process",
+  "vw_controlling_report_business_segment",
+  "vw_controlling_report_controlling_user",
+  "vw_business_segment_controlling_report",
+  "vw_business_segment_business_segment",
+  "vw_controlling_user_controlling_report",
+  "vw_controlling_user_strategic_plan",
+  "vw_strategic_plan_controlling_user",
+  "vw_strategic_plan_business_segment",
+  "vw_strategic_plan_controlling_report",
+  "vw_business_process_controlling_report",
+  "vw_business_process_business_segment",
+  "vw_business_process_controlling_user"
+ ]
+}

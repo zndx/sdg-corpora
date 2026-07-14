@@ -1,0 +1,5 @@
+beneficiary_group_id,group_id,group_name,age_range,gender,enrollment_date,discharge_date,recovery_status,participation_level,nutrition_unit_id,training_program_id
+1,10449530,Baseline Corridor D,adaptive-age-65,female,2022-05-11,2022-09-02,recovered,inpatient,1,1
+2,8189483,Distributed Series,distributed-age-66,male,2023-10-22,2023-02-13,ongoing,outpatient,2,2
+3,3718658437,Adaptive Assessment,baseline-age-67,both,2024-03-06,2024-07-24,failed,community,3,3
+4,IVC0,Primary Survey A,pilot-age-68,female,2025-08-17,2025-12-08,transferred,none,4,4

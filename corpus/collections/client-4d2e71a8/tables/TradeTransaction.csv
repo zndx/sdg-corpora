@@ -1,0 +1,5 @@
+transactionId,transactionDate,transactionType,amount,currencyCode,executionStatus,settlementDate,assetId,accountId,clientId,assistantId
+1,2023-02-25T01:39:00,buy,13.49,gd_fp_eu_acc3,pending,2025-12-22,1,100,1000,1
+2,2024-07-09T08:56:00,sell,25.47,managing-resources,executed,2022-05-06,2,101,1001,2
+3,2025-12-20T15:13:00,dividend,19.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,failed,2023-10-17,3,102,1002,3
+4,2022-05-04T22:30:00,transfer,12.74,10445649,reversed,2024-03-01,4,103,1003,4

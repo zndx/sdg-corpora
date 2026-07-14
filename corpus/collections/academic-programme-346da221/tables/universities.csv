@@ -1,0 +1,5 @@
+id,university_id,university_name,legal_name,establishment_date,status,campus_location,total_campus_area_acres,funding_source,accreditation_body,accreditation_status
+100,gd_acc_160002,Compact Initiative,Adaptive Model,2024-07-11T06:18:00,active,pilot-campus-62,3.70,baseline-funding-73,integrated-accredit-88,accredited
+101,d87f6fa90b894eb8be0b031dcc4d667a,Legacy Model,Primary Cluster,2025-12-22T13:35:00,inactive,extended-campus-63,6.40,pilot-funding-74,seasonal-accredit-89,provisional
+102,2002007020150,Regional Cluster A,Composite Review D,2022-05-06T20:52:00,merging,integrated-campus-64,9.10,extended-funding-75,regional-accredit-90,suspended
+103,392482,Seasonal Review,Compact Initiative,2023-10-17T03:09:00,dissolving,seasonal-campus-65,11.80,integrated-funding-76,legacy-accredit-91,denied

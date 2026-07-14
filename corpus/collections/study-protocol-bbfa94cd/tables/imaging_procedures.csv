@@ -1,0 +1,5 @@
+id,procedure_id,procedure_date,modality,anatomical_region,tracer_agent,facility_id,imaging_facility_id,physician_id,interpreted_by_physician_id,scan_result_id
+1,790490,2022-05-19T04:48:00,seasonal-modality-17,pilot-anatomic-20,adaptive-tracer-23,69447,1,100,100,1000
+2,4060658,2023-10-03T11:05:00,regional-modality-18,extended-anatomic-21,distributed-tracer-24,1040,2,101,101,1001
+3,L384,2024-03-14T18:22:00,legacy-modality-19,integrated-anatomic-22,baseline-tracer-25,2986228,3,102,102,1002
+4,3012831,2025-08-25T01:39:00,compact-modality-20,seasonal-anatomic-23,pilot-tracer-26,ChIJvSxSbfdv5kcRanVzI8RRu20,4,103,103,1003

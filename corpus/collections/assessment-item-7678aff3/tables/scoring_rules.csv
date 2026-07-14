@@ -1,0 +1,5 @@
+id,rule_identifier,required_points,points_awarded,condition_type,penalty_applied,assessment_item_id,answer_key_id
+1,RUL-2144,36,15.20,Keyword Match,true,1,1
+2,RUL-2151,39,18.40,Concept Explanation,false,2,2
+3,RUL-2158,42,21.60,List Items,true,3,3
+4,RUL-2165,45,24.80,Justification,false,4,4

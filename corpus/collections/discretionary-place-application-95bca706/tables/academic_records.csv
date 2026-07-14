@@ -1,0 +1,5 @@
+id,record_id,grade_level,term,conduct_score,academic_score,total_weighted_score,student_id,created_at
+1,10449530,adaptive-grade-65,P5,12.70,19.70,7.20,1000,2025-01-01 00:14:00
+2,10445619,distributed-grade-66,P6_Term1,14.40,24.40,11.40,1001,2025-02-06 03:14:00
+3,9568457,baseline-grade-67,P5,16.10,29.10,15.60,1002,2025-03-11 06:14:00
+4,20743593,pilot-grade-68,P6_Term1,17.80,33.80,19.80,1003,2025-04-16 09:14:00

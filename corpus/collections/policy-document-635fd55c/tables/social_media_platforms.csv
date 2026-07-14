@@ -1,0 +1,5 @@
+social_media_platform_id,platform_name,platform_url,is_official,approval_date,monitoring_section,contact_info,personnel_role_id,policy_document_policy_number,social_media_post_id
+100,Baseline Initiative D,https://bugs.launchpad.net/openstack-manuals/+bug/1458714,false,2023-10-10,adaptive-monitori-89,Jorge Luis Borges,1,POL-2302,1
+101,Distributed Model,https://www.nature.com/articles/nphoton.2017.99,true,2024-03-21,distributed-monitori-90,Focus Device,2,POL-2304,2
+102,Adaptive Cluster,https://www.nature.com/articles/nphoton.2014.26,false,2025-08-05,baseline-monitori-91,Thomas Rivers,3,POL-2306,3
+103,Primary Review A,https://defenders.org/elephant/basic-facts,true,2022-01-16,pilot-monitori-92,Kimberly Myers,4,POL-2308,4

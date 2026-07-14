@@ -1,0 +1,5 @@
+id,study_id,study_date,modality,is_diagnostic,findings_description,ganglion_cyst_id
+1,Karyawan,2024-11-08T10:06:00,ultrasound,true,Pilot Assessment,1000
+2,392491,2025-04-19T17:23:00,mri,false,Baseline Survey,1001
+3,9568466,2022-09-03T00:40:00,ultrasound,true,Distributed Corridor A,1002
+4,4985166,2023-02-14T07:57:00,mri,false,Adaptive Series,1003

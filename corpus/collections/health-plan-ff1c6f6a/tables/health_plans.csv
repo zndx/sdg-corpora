@@ -1,0 +1,5 @@
+id,plan_identifier,plan_name,insurance_type,grandfathered_status,effective_date,termination_date,is_cafeteria_plan,employer_size
+100,PLA-2674,Regional Cluster,fully_insured,grandfathered,2023-02-14,2022-09-11,true,21
+101,PLA-2676,Seasonal Review D,self_funded,non_grandfathered,2024-07-25,2023-02-22,false,26
+102,PLA-2678,Integrated Initiative,fully_insured,grandfathered,2025-12-09,2024-07-06,true,31
+103,PLA-2680,Extended Model,self_funded,non_grandfathered,2022-05-20,2025-12-17,false,36

@@ -1,0 +1,5 @@
+measurement_id,measurement_value,unit_of_measure,measurement_date,measurement_type,reference_standard,status,dataset_id,research_method_id,individual_participant_id
+2618580,14.45,kg,2024-07-01T18:54:00,anthropometric,extended-referenc-15,valid,1000,1,3990185
+1450664,17.90,cm,2025-12-12T01:11:00,biomarker,integrated-referenc-16,invalid,1001,2,4716387
+8843762,21.35,kcal/day,2022-05-23T08:28:00,energy_expenditure,seasonal-referenc-17,pending_review,1002,3,69430
+392481,24.80,mmHg,2023-10-07T15:45:00,anthropometric,regional-referenc-18,valid,1003,4,c7460a44-8fcc-11eb-924d-9cd76263cbd0

@@ -1,0 +1,202 @@
+{
+ "construct_id": "08b6174bb8568d1b",
+ "slug": "athlete-08b6174b",
+ "passage": "08b6174bb8568d1b869558044e1656bae0693f4c8934ba3a3426de858717892e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 16,
+ "entities": [
+  "Athlete",
+  "Membership",
+  "Competition",
+  "CompetitionDivision",
+  "StateAssociation",
+  "BlackBeltVerification",
+  "BackgroundCheck"
+ ],
+ "terms": [
+  {
+   "name": "Athlete",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Membership",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Competition",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CompetitionDivision",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "StateAssociation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BlackBeltVerification",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BackgroundCheck",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "athletes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "athlete_id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "membership_status",
+    "citizenship_status",
+    "black_belt_rank",
+    "background_check_status",
+    "membership_id",
+    "competition_id",
+    "black_belt_verification_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "memberships",
+   "rows": 4,
+   "columns": [
+    "membership_id",
+    "membership_type",
+    "registration_date",
+    "fee_amount",
+    "expiration_date",
+    "is_eligible_for_competition",
+    "athlete_id",
+    "background_check_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "competitions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "competition_id",
+    "competition_name",
+    "competition_level",
+    "start_date",
+    "end_date",
+    "location",
+    "is_on_site_registration",
+    "state_association_id",
+    "qualifies_for_competition_id"
+   ]
+  },
+  {
+   "name": "competition_divisions",
+   "rows": 4,
+   "columns": [
+    "division_id",
+    "division_name",
+    "age_category",
+    "rank_requirement",
+    "event_type",
+    "rule_set",
+    "head_contact_allowed",
+    "competition_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "state_associations",
+   "rows": 4,
+   "columns": [
+    "state_association_id",
+    "association_id",
+    "association_name",
+    "state_code",
+    "contact_email",
+    "contact_phone",
+    "black_belt_verification_id"
+   ]
+  },
+  {
+   "name": "black_belt_verifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "verification_id",
+    "verification_date",
+    "verification_method",
+    "is_verified",
+    "issuing_organization",
+    "athlete_id",
+    "state_association_id"
+   ]
+  },
+  {
+   "name": "background_checks",
+   "rows": 4,
+   "columns": [
+    "background_check_id",
+    "check_id",
+    "check_date",
+    "check_status",
+    "required_for_role",
+    "membership_id",
+    "state_association_id"
+   ]
+  },
+  {
+   "name": "competitions_divisions",
+   "rows": 8,
+   "columns": [
+    "competition_id",
+    "division_id"
+   ]
+  },
+  {
+   "name": "divisions_athletes",
+   "rows": 8,
+   "columns": [
+    "division_id",
+    "athlete_id"
+   ]
+  },
+  {
+   "name": "associations_competitions",
+   "rows": 8,
+   "columns": [
+    "state_association_id",
+    "competition_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_athlete_membership",
+  "vw_athlete_competition",
+  "vw_athlete_black_belt_verification",
+  "vw_membership_athlete",
+  "vw_membership_background_check",
+  "vw_competition_state_association",
+  "vw_competition_competition",
+  "vw_competition_competition_division_detail",
+  "vw_competition_division_competition",
+  "vw_competition_division_athlete_detail",
+  "vw_state_association_competition_detail",
+  "vw_state_association_black_belt_verification",
+  "vw_black_belt_verification_athlete",
+  "vw_black_belt_verification_state_association",
+  "vw_background_check_membership",
+  "vw_background_check_state_association"
+ ]
+}

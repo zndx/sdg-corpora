@@ -1,0 +1,5 @@
+id,option_id,option_name,is_choice_based,associated_price_id,menu_line_item_id,ingredient_id
+100,a4e3c328-8fb9-11eb-924d-9cd76263cbd0,Seasonal Initiative,false,organisational-knowledge,1,100
+101,1204-0009-S,Integrated Model,true,195350,2,101
+102,9424920,Extended Cluster D,false,3001009030130,3,102
+103,1186083,Pilot Review,true,4277034,4,103

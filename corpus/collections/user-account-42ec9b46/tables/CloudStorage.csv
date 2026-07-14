@@ -1,0 +1,5 @@
+id,storageId,storageName,capacityTb,isPrivate,autoSaveEnabled,serviceId,documentId
+100,82868,Legacy Standard D,15.95,false,true,1,1000
+101,611501,Regional Framework,18.90,true,false,2,1001
+102,id_29,Seasonal Protocol,21.85,false,true,3,1002
+103,ZUGLB8,Integrated Programme A,24.80,true,false,4,1003

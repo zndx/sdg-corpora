@@ -1,0 +1,5 @@
+id,concentration_name,focus_area,methodology_type,is_core,academic_program_id,statistical_method_id
+1000,Adaptive Corridor,pilot-focus-20,primary-methodol-22,false,1,100
+1001,Primary Series,extended-focus-21,adaptive-methodol-23,true,2,101
+1002,Composite Assessment D,integrated-focus-22,distributed-methodol-24,false,3,102
+1003,Compact Survey,seasonal-focus-23,baseline-methodol-25,true,4,103

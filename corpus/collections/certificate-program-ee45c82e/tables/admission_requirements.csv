@@ -1,0 +1,5 @@
+id,requirement_id,requirement_type,description,is_mandatory,valid_from,certificate_program_id,admission_requirement_id
+1,778568,composite-requirem-93,Extended Survey,true,2025-12-17,1000,1
+2,lu_tax_code_template_b_VB-EC-0,primary-requirem-94,Pilot Corridor A,false,2022-05-01,1001,2
+3,99901,adaptive-requirem-95,Baseline Series,true,2023-10-12,1002,3
+4,5917277,distributed-requirem-96,Distributed Assessment,false,2024-03-23,1003,4

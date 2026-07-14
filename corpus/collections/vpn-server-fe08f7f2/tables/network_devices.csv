@@ -1,0 +1,5 @@
+id,device_id,device_name,device_type,os_version,mac_address,last_seen,is_authenticated,vpn_client_id,network_segment_id
+1,3744015,Pilot Assessment,desktop,integrated-os-46,primary-mac-94,2023-02-23T13:51:00,false,1,100
+2,392495,Baseline Survey,mobile,seasonal-os-47,adaptive-mac-95,2024-07-07T20:08:00,true,2,101
+3,209205,Distributed Corridor A,iot,regional-os-48,distributed-mac-96,2025-12-18T03:25:00,false,3,102
+4,22106999,Adaptive Series,server,legacy-os-49,baseline-mac-97,2022-05-02T10:42:00,true,4,103

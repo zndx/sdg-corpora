@@ -1,0 +1,5 @@
+office_id,city,region,country,is_active,established_date,server_id,software_version_id,created_at,updated_at
+1,integrated-city-34,distributed-region-12,compact-country-26,true,2024-03-27,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,seasonal-city-35,baseline-region-13,composite-country-27,false,2025-08-11,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,regional-city-36,pilot-region-14,primary-country-28,true,2022-01-22,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,legacy-city-37,extended-region-15,adaptive-country-29,false,2023-06-06,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

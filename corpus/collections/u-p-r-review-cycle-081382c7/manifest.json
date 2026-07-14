@@ -1,0 +1,208 @@
+{
+ "construct_id": "081382c7a105b535",
+ "slug": "u-p-r-review-cycle-081382c7",
+ "passage": "081382c7a105b53592074b56de3dc6567462f6619281e777dccd1eb71861ab20.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 20,
+ "entities": [
+  "UPRReviewCycle",
+  "UPRRecommendation",
+  "State",
+  "VulnerableGroup",
+  "RightsBarrier",
+  "NGOCoalition",
+  "NGOMember"
+ ],
+ "terms": [
+  {
+   "name": "UPRReviewCycle",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "UPRRecommendation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "State",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "VulnerableGroup",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "RightsBarrier",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NGOCoalition",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "NGOMember",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "u_p_r_review_cycles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "cycle_id",
+    "session_date",
+    "reviewing_state",
+    "review_status",
+    "review_outcome",
+    "state_id"
+   ]
+  },
+  {
+   "name": "u_p_r_recommendations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recommendation_id",
+    "recommendation_text",
+    "topic_area",
+    "acceptance_status",
+    "priority_level",
+    "u_p_r_review_cycle_id",
+    "state_id",
+    "vulnerable_group_id"
+   ]
+  },
+  {
+   "name": "states",
+   "rows": 4,
+   "columns": [
+    "id",
+    "state_code",
+    "state_name",
+    "government_type",
+    "hrc_membership_status",
+    "last_review_date",
+    "u_p_r_review_cycle_id",
+    "vulnerable_group_id"
+   ]
+  },
+  {
+   "name": "vulnerable_groups",
+   "rows": 4,
+   "columns": [
+    "id",
+    "group_identifier",
+    "group_name",
+    "risk_category",
+    "geographic_distribution",
+    "population_size",
+    "u_p_r_recommendation_id",
+    "state_id"
+   ]
+  },
+  {
+   "name": "rights_barriers",
+   "rows": 4,
+   "columns": [
+    "rights_barrier_id",
+    "barrier_id",
+    "barrier_type",
+    "severity_level",
+    "documented_evidence",
+    "mitigation_status",
+    "vulnerable_group_id",
+    "u_p_r_recommendation_id",
+    "state_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "n_g_o_coalitions",
+   "rows": 4,
+   "columns": [
+    "n_g_o_coalition_id",
+    "coalition_id",
+    "coalition_name",
+    "submission_date",
+    "submission_type",
+    "signatory_count",
+    "u_p_r_review_cycle_id",
+    "u_p_r_recommendation_id"
+   ]
+  },
+  {
+   "name": "n_g_o_members",
+   "rows": 4,
+   "columns": [
+    "n_g_o_member_id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "focus_area",
+    "registration_country",
+    "n_g_o_coalition_id",
+    "u_p_r_recommendation_id",
+    "state_id"
+   ]
+  },
+  {
+   "name": "cycles_recommendations",
+   "rows": 8,
+   "columns": [
+    "u_p_r_review_cycle_id",
+    "u_p_r_recommendation_id"
+   ]
+  },
+  {
+   "name": "states_recommendations",
+   "rows": 8,
+   "columns": [
+    "state_id",
+    "u_p_r_recommendation_id"
+   ]
+  },
+  {
+   "name": "groups_barriers",
+   "rows": 8,
+   "columns": [
+    "vulnerable_group_id",
+    "rights_barrier_id"
+   ]
+  },
+  {
+   "name": "coalitions_members",
+   "rows": 8,
+   "columns": [
+    "n_g_o_coalition_id",
+    "n_g_o_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_u_p_r_review_cycle_u_p_r_recommendation_detail",
+  "v_u_p_r_review_cycle_state",
+  "v_u_p_r_recommendation_u_p_r_review_cycle",
+  "v_u_p_r_recommendation_state",
+  "v_u_p_r_recommendation_vulnerable_group",
+  "v_state_u_p_r_review_cycle",
+  "v_state_u_p_r_recommendation_detail",
+  "v_state_vulnerable_group",
+  "v_vulnerable_group_u_p_r_recommendation",
+  "v_vulnerable_group_state",
+  "v_vulnerable_group_rights_barrier_detail",
+  "v_rights_barrier_vulnerable_group",
+  "v_rights_barrier_u_p_r_recommendation",
+  "v_rights_barrier_state",
+  "v_n_g_o_coalition_u_p_r_review_cycle",
+  "v_n_g_o_coalition_n_g_o_member_detail",
+  "v_n_g_o_coalition_u_p_r_recommendation",
+  "v_n_g_o_member_n_g_o_coalition",
+  "v_n_g_o_member_u_p_r_recommendation",
+  "v_n_g_o_member_state"
+ ]
+}

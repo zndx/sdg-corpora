@@ -1,0 +1,5 @@
+id,state_vector,superposition_enabled,entangled_with
+1,seasonal-state-71,false,composite-entangle-57
+2,regional-state-72,true,primary-entangle-58
+3,legacy-state-73,false,adaptive-entangle-59
+4,compact-state-74,true,distributed-entangle-60

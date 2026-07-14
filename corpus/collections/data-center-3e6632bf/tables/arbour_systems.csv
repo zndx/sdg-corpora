@@ -1,0 +1,5 @@
+id,system_id,monitoring_schedule,alert_proactive,filtering_automatic,last_analysis_date,status,network_id
+1,8189503,compact-monitori-56,true,false,2023-06-16T17:39:00,active,1
+2,3717623,composite-monitori-57,false,true,2024-11-27T00:56:00,inactive,2
+3,7441161,primary-monitori-58,true,false,2025-04-11T07:13:00,active,3
+4,605963,adaptive-monitori-59,false,true,2022-09-22T14:30:00,inactive,4

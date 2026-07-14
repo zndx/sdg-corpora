@@ -1,0 +1,260 @@
+{
+ "construct_id": "a91f94995c093ccb",
+ "slug": "video-delivery-service-a91f9499",
+ "passage": "a91f94995c093ccbd07a0b35f9f29756afab70680eb4e3d7c1e857cb4bdf091e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 21,
+ "n_views": 15,
+ "entities": [
+  "VideoDeliveryService",
+  "DRMSystem",
+  "VideoCodec",
+  "ClientOrganization",
+  "TechnicalSupportEngineer",
+  "NetworkInfrastructure"
+ ],
+ "terms": [
+  {
+   "name": "VideoDeliveryService",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DRMSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VideoCodec",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ClientOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TechnicalSupportEngineer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkInfrastructure",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "video_delivery_services",
+   "rows": 4,
+   "columns": [
+    "service_id",
+    "service_tier",
+    "uptime_percentage",
+    "supported_platforms",
+    "region",
+    "status"
+   ]
+  },
+  {
+   "name": "d_r_m_systems",
+   "rows": 4,
+   "columns": [
+    "drm_id",
+    "vendor_name",
+    "encryption_standard",
+    "compliance_level",
+    "license_server_url"
+   ]
+  },
+  {
+   "name": "video_codecs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "codec_id",
+    "codec_name",
+    "compression_ratio",
+    "bitrate",
+    "resolution",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "client_organizations",
+   "rows": 4,
+   "columns": [
+    "client_id",
+    "organization_name",
+    "industry_sector",
+    "region",
+    "account_manager"
+   ]
+  },
+  {
+   "name": "technical_support_engineers",
+   "rows": 4,
+   "columns": [
+    "technical_support_engineer_id",
+    "engineer_id",
+    "name",
+    "location",
+    "experience_years",
+    "languages",
+    "education_level",
+    "employment_status"
+   ]
+  },
+  {
+   "name": "network_infrastructures",
+   "rows": 4,
+   "columns": [
+    "network_id",
+    "protocol",
+    "bandwidth",
+    "latency",
+    "operating_system",
+    "status",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "services_codecs",
+   "rows": 8,
+   "columns": [
+    "service_id",
+    "video_codec_id"
+   ]
+  },
+  {
+   "name": "services_systems",
+   "rows": 8,
+   "columns": [
+    "service_id",
+    "d_r_m_system_drm_id"
+   ]
+  },
+  {
+   "name": "services_organizations",
+   "rows": 8,
+   "columns": [
+    "service_id",
+    "client_organization_client_id"
+   ]
+  },
+  {
+   "name": "systems_services",
+   "rows": 8,
+   "columns": [
+    "d_r_m_system_drm_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "codecs_services",
+   "rows": 8,
+   "columns": [
+    "video_codec_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "codecs_infrastructures",
+   "rows": 8,
+   "columns": [
+    "video_codec_id",
+    "network_infrastructure_network_id"
+   ]
+  },
+  {
+   "name": "organizations_services",
+   "rows": 8,
+   "columns": [
+    "client_organization_client_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "organizations_engineers",
+   "rows": 8,
+   "columns": [
+    "client_organization_client_id",
+    "technical_support_engineer_id"
+   ]
+  },
+  {
+   "name": "organizations_infrastructures",
+   "rows": 8,
+   "columns": [
+    "client_organization_client_id",
+    "network_infrastructure_network_id"
+   ]
+  },
+  {
+   "name": "engineers_organizations",
+   "rows": 8,
+   "columns": [
+    "technical_support_engineer_id",
+    "client_organization_client_id"
+   ]
+  },
+  {
+   "name": "engineers_infrastructures",
+   "rows": 8,
+   "columns": [
+    "technical_support_engineer_id",
+    "network_infrastructure_network_id"
+   ]
+  },
+  {
+   "name": "engineers_services",
+   "rows": 8,
+   "columns": [
+    "technical_support_engineer_id",
+    "service_id"
+   ]
+  },
+  {
+   "name": "infrastructures_organizations",
+   "rows": 8,
+   "columns": [
+    "network_infrastructure_network_id",
+    "client_organization_client_id"
+   ]
+  },
+  {
+   "name": "infrastructures_codecs",
+   "rows": 8,
+   "columns": [
+    "network_infrastructure_network_id",
+    "video_codec_id"
+   ]
+  },
+  {
+   "name": "infrastructures_engineers",
+   "rows": 8,
+   "columns": [
+    "network_infrastructure_network_id",
+    "technical_support_engineer_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_video_delivery_service_video_codec_detail",
+  "v_video_delivery_service_d_r_m_system_detail",
+  "v_video_delivery_service_client_organization_detail",
+  "v_d_r_m_system_video_delivery_service_detail",
+  "v_video_codec_video_delivery_service_detail",
+  "v_video_codec_network_infrastructure_detail",
+  "v_client_organization_video_delivery_service_detail",
+  "v_client_organization_technical_support_engineer_detail",
+  "v_client_organization_network_infrastructure_detail",
+  "v_technical_support_engineer_client_organization_detail",
+  "v_technical_support_engineer_network_infrastructure_detail",
+  "v_technical_support_engineer_video_delivery_service_detail",
+  "v_network_infrastructure_client_organization_detail",
+  "v_network_infrastructure_video_codec_detail",
+  "v_network_infrastructure_technical_support_engineer_detail"
+ ]
+}

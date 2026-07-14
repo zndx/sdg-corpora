@@ -1,0 +1,5 @@
+ehr_id,patient_id,collection_date,data_volume,data_variety,status,healthcare_organization_id
+195366,8387541,2025-12-17T11:57:00,9.95,adaptive-data-65,active,1000
+611509,10207142,2022-05-01T18:14:00,12.90,distributed-data-66,archived,1001
+884338,7119782,2023-10-12T01:31:00,15.85,baseline-data-67,incomplete,1002
+gd_taxc_1123,gd_acc_160003,2024-03-23T08:48:00,18.80,pilot-data-68,active,1003

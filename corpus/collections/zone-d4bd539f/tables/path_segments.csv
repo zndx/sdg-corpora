@@ -1,0 +1,5 @@
+path_segment_id,segment_id,segment_length,segment_start_x,segment_start_y,segment_end_x,segment_end_y,segment_status,tangent_circle_id,connects_end_tangent_circle_id,route_id
+1,422a03c4-8fcc-11eb-924d-9cd76263cbd0,0.52,6.95,20.70,6.70,23.20,planned,100,100,1000
+2,32825,0.77,8.90,25.40,9.40,27.40,executed,101,101,1001
+3,974920,0.4827489,10.85,30.10,12.10,31.60,failed,102,102,1002
+4,2933482,1.05,12.80,34.80,14.80,35.80,planned,103,103,1003

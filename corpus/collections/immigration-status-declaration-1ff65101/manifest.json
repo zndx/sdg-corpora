@@ -1,0 +1,167 @@
+{
+ "construct_id": "1ff65101db238816",
+ "slug": "immigration-status-declaration-1ff65101",
+ "passage": "1ff65101db238816ef6d73817d0b2cf86c5ea2328fb019cda15bab3d3cb15c39.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 13,
+ "entities": [
+  "ImmigrationStatusDeclaration",
+  "HouseholdMember",
+  "MinorDependent",
+  "ImmigrationDocument",
+  "VerificationConsentForm",
+  "LeasingOfficer",
+  "HousingUnit"
+ ],
+ "terms": [
+  {
+   "name": "ImmigrationStatusDeclaration",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HouseholdMember",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "MinorDependent",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ImmigrationDocument",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VerificationConsentForm",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LeasingOfficer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HousingUnit",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "immigration_status_declarations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "declaration_id",
+    "declaration_date",
+    "revision_date",
+    "form_version",
+    "certification_status",
+    "perjury_acknowledged",
+    "member_id",
+    "minor_dependent_id"
+   ]
+  },
+  {
+   "name": "household_members",
+   "rows": 4,
+   "columns": [
+    "member_id",
+    "full_name",
+    "ssn",
+    "role",
+    "age",
+    "is_senior",
+    "immigration_status_declaration_id",
+    "housing_unit_id"
+   ]
+  },
+  {
+   "name": "minor_dependents",
+   "rows": 4,
+   "columns": [
+    "minor_dependent_id",
+    "minor_id",
+    "full_name",
+    "age",
+    "citizenship_status",
+    "immigration_status_declaration_id",
+    "leasing_officer_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "immigration_documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_id",
+    "form_code",
+    "issuing_agency",
+    "annotation",
+    "issue_date",
+    "expiry_date",
+    "document_type",
+    "immigration_status_declaration_id",
+    "verification_consent_form_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "verification_consent_forms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consent_id",
+    "signed_date",
+    "is_signed",
+    "verification_method",
+    "immigration_status_declaration_id",
+    "member_id"
+   ]
+  },
+  {
+   "name": "leasing_officers",
+   "rows": 4,
+   "columns": [
+    "leasing_officer_id",
+    "officer_id",
+    "full_name",
+    "employee_id",
+    "department",
+    "immigration_status_declaration_id",
+    "minor_dependent_id"
+   ]
+  },
+  {
+   "name": "housing_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_id",
+    "address",
+    "bedrooms",
+    "monthly_rent",
+    "occupancy_status",
+    "member_id"
+   ]
+  }
+ ],
+ "views": [
+  "immigration_status_declaration_household_member_view",
+  "immigration_status_declaration_minor_dependent_view",
+  "household_member_immigration_status_declaration_view",
+  "household_member_housing_unit_view",
+  "minor_dependent_immigration_status_declaration_view",
+  "minor_dependent_leasing_officer_view",
+  "immigration_document_immigration_status_declaration_view",
+  "immigration_document_verification_consent_form_view",
+  "verification_consent_form_immigration_status_declaration_view",
+  "verification_consent_form_household_member_view",
+  "leasing_officer_immigration_status_declaration_view",
+  "leasing_officer_minor_dependent_view",
+  "housing_unit_household_member_view"
+ ]
+}

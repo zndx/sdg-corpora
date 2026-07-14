@@ -1,0 +1,190 @@
+{
+ "construct_id": "98438b1003d09de1",
+ "slug": "norm-98438b10",
+ "passage": "98438b1003d09de1de61d90f2985c187f44f0328c8d7eaf1d9fe00fa0391cb9b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 20,
+ "entities": [
+  "Norm",
+  "PhysicalTransitionSystem",
+  "State",
+  "Transition",
+  "NormViolation",
+  "Sanction",
+  "Agent"
+ ],
+ "terms": [
+  {
+   "name": "Norm",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PhysicalTransitionSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "State",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Transition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NormViolation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Sanction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Agent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "norms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "norm_id",
+    "norm_type",
+    "trigger_condition",
+    "deadline_condition",
+    "enforcement_mode",
+    "sanction_type",
+    "physical_transition_system_id",
+    "norm_violation_id",
+    "sanction_id"
+   ]
+  },
+  {
+   "name": "physical_transition_systems",
+   "rows": 4,
+   "columns": [
+    "physical_transition_system_id",
+    "system_id",
+    "initial_state_id",
+    "state_count",
+    "transition_relation_id",
+    "valuation_function_id",
+    "physical_atoms",
+    "sanction_atoms",
+    "norm_id"
+   ]
+  },
+  {
+   "name": "states",
+   "rows": 4,
+   "columns": [
+    "id",
+    "state_id",
+    "state_index",
+    "is_initial_state",
+    "satisfied_atoms",
+    "timestamp",
+    "physical_transition_system_id",
+    "transitions_to_state_id",
+    "norm_id"
+   ]
+  },
+  {
+   "name": "transitions",
+   "rows": 4,
+   "columns": [
+    "transition_id",
+    "action_id",
+    "precondition",
+    "effect",
+    "state_id",
+    "terminates_at_state_id",
+    "physical_transition_system_id"
+   ]
+  },
+  {
+   "name": "norm_violations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "violation_id",
+    "violation_timestamp",
+    "violation_type",
+    "sanction_incurment",
+    "norm_id",
+    "state_id",
+    "sanction_id"
+   ]
+  },
+  {
+   "name": "sanctions",
+   "rows": 4,
+   "columns": [
+    "sanction_id",
+    "sanction_type",
+    "severity_level",
+    "is_regimented",
+    "norm_id",
+    "norm_violation_id",
+    "agent_id"
+   ]
+  },
+  {
+   "name": "agents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agent_id",
+    "agent_type",
+    "current_sanction_count",
+    "max_allowed_sanctions",
+    "norm_id",
+    "transition_id",
+    "sanction_id"
+   ]
+  },
+  {
+   "name": "systems_states",
+   "rows": 8,
+   "columns": [
+    "physical_transition_system_id",
+    "state_id"
+   ]
+  },
+  {
+   "name": "systems_transitions",
+   "rows": 8,
+   "columns": [
+    "physical_transition_system_id",
+    "transition_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_norm_physical_transition_system",
+  "v_norm_norm_violation",
+  "v_norm_sanction",
+  "v_physical_transition_system_state_detail",
+  "v_physical_transition_system_transition_detail",
+  "v_physical_transition_system_norm",
+  "v_state_physical_transition_system",
+  "v_state_state",
+  "v_state_norm",
+  "v_transition_state",
+  "v_transition_physical_transition_system",
+  "v_norm_violation_norm",
+  "v_norm_violation_state",
+  "v_norm_violation_sanction",
+  "v_sanction_norm",
+  "v_sanction_norm_violation",
+  "v_sanction_agent",
+  "v_agent_norm",
+  "v_agent_transition",
+  "v_agent_sanction"
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "construct_id": "d4bd539f1247288a",
+ "slug": "zone-d4bd539f",
+ "passage": "d4bd539f1247288ad21c7fe7d188c83e72f9ffc02eac3e1bc92422850f7c1626.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 16,
+ "entities": [
+  "Zone",
+  "Obstacle",
+  "TangentCircle",
+  "PathSegment",
+  "Route",
+  "Checkpoint",
+  "Vehicle"
+ ],
+ "terms": [
+  {
+   "name": "Zone",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Obstacle",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "TangentCircle",
+   "genus": "bfo:0000141"
+  },
+  {
+   "name": "PathSegment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Route",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Checkpoint",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Vehicle",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "zones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "zone_identifier",
+    "zone_length",
+    "zone_width",
+    "zone_elevation",
+    "zone_status",
+    "checkpoint_id",
+    "has_exit_point_checkpoint_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "obstacles",
+   "rows": 4,
+   "columns": [
+    "obstacle_id",
+    "obstacle_type",
+    "obstacle_x",
+    "obstacle_y",
+    "obstacle_radius",
+    "obstacle_status",
+    "zone_id"
+   ]
+  },
+  {
+   "name": "tangent_circles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "circle_id",
+    "circle_radius",
+    "circle_center_x",
+    "circle_center_y",
+    "circle_curvature",
+    "obstacle_id"
+   ]
+  },
+  {
+   "name": "path_segments",
+   "rows": 4,
+   "columns": [
+    "path_segment_id",
+    "segment_id",
+    "segment_length",
+    "segment_start_x",
+    "segment_start_y",
+    "segment_end_x",
+    "segment_end_y",
+    "segment_status",
+    "tangent_circle_id",
+    "connects_end_tangent_circle_id",
+    "route_id"
+   ]
+  },
+  {
+   "name": "routes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "route_id",
+    "route_status",
+    "total_length",
+    "generation_time",
+    "steering_compliant",
+    "zone_id",
+    "checkpoint_id",
+    "ends_at_checkpoint_id"
+   ]
+  },
+  {
+   "name": "checkpoints",
+   "rows": 4,
+   "columns": [
+    "checkpoint_id",
+    "checkpoint_type",
+    "checkpoint_x",
+    "checkpoint_y",
+    "checkpoint_status",
+    "zone_id",
+    "route_id",
+    "serves_as_end_for_route_id"
+   ]
+  },
+  {
+   "name": "vehicles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "vehicle_id",
+    "vehicle_model",
+    "min_turning_radius",
+    "current_x",
+    "current_y",
+    "current_heading",
+    "vehicle_status",
+    "route_id",
+    "zone_id"
+   ]
+  },
+  {
+   "name": "zones_obstacles",
+   "rows": 8,
+   "columns": [
+    "zone_id",
+    "obstacle_id"
+   ]
+  },
+  {
+   "name": "obstacles_circles",
+   "rows": 8,
+   "columns": [
+    "obstacle_id",
+    "tangent_circle_id"
+   ]
+  },
+  {
+   "name": "circles_segments",
+   "rows": 8,
+   "columns": [
+    "tangent_circle_id",
+    "path_segment_id"
+   ]
+  },
+  {
+   "name": "routes_segments",
+   "rows": 8,
+   "columns": [
+    "route_id",
+    "path_segment_id"
+   ]
+  },
+  {
+   "name": "vehicles_obstacles",
+   "rows": 8,
+   "columns": [
+    "vehicle_id",
+    "obstacle_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_zone_obstacle_detail",
+  "v_zone_checkpoint",
+  "v_obstacle_zone",
+  "v_obstacle_tangent_circle_detail",
+  "v_tangent_circle_obstacle",
+  "v_tangent_circle_path_segment_detail",
+  "v_path_segment_tangent_circle",
+  "v_path_segment_route",
+  "v_route_path_segment_detail",
+  "v_route_zone",
+  "v_route_checkpoint",
+  "v_checkpoint_zone",
+  "v_checkpoint_route",
+  "v_vehicle_route",
+  "v_vehicle_obstacle_detail",
+  "v_vehicle_zone"
+ ]
+}

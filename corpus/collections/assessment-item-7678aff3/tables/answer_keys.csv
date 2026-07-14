@@ -1,0 +1,5 @@
+id,key_identifier,response_text,is_correct,alternative_accepted,format_type,assessment_item_id,concept_id
+1,KEY-2124,adaptive-response-47,false,true,Single Choice,1,1
+2,KEY-2127,distributed-response-48,true,false,Multiple Choice,2,2
+3,KEY-2130,baseline-response-49,false,true,Short Answer,3,3
+4,KEY-2133,pilot-response-50,true,false,Long Answer,4,4

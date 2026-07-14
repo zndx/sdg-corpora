@@ -1,0 +1,5 @@
+id,streamId,streamType,sourceJurisdiction,deliveryFrequency,averageWeightTons,contaminationRatePercent,facilityId,systemId,createdAt
+1000,2839512,municipal_solid_waste,compact-source-86,daily,0.76,12.70,69447,1000,2025-01-01 00:14:00
+1001,e7a5231e-8fc3-11eb-924d-9cd76263cbd0,recyclables,composite-source-87,weekly,0.4194766,14.40,1040,1001,2025-02-06 03:14:00
+1002,3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,refuse,primary-source-88,as_needed,1.48,16.10,2986228,1002,2025-03-11 06:14:00
+1003,1186092,municipal_solid_waste,adaptive-source-89,daily,0.7,17.80,ChIJvSxSbfdv5kcRanVzI8RRu20,1003,2025-04-16 09:14:00

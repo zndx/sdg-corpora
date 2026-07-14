@@ -1,0 +1,5 @@
+id,call_sign,ssid,location_qth,region_qra,status,signal_id,certificate_id
+1,seasonal-call-77,16,baseline-location-73,integrated-region-76,active,317,778563
+2,regional-call-78,27,pilot-location-74,seasonal-region-77,inactive,6564371,7119762
+3,legacy-call-79,38,extended-location-75,regional-region-78,certified,4463669,22106999
+4,compact-call-80,49,integrated-location-76,legacy-region-79,active,6969425,2986238

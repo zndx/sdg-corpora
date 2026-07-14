@@ -1,0 +1,158 @@
+{
+ "construct_id": "47877451254d8039",
+ "slug": "legal-case-47877451",
+ "passage": "47877451254d8039ef66c8364b96cb6e4a263b3a9dfb1264d9504e4058fbf1bf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "LegalCase",
+  "LegalPerson",
+  "Judgment",
+  "LegalStatute",
+  "ProfessionalBody",
+  "LegalPublication"
+ ],
+ "terms": [
+  {
+   "name": "LegalCase",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalPerson",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Judgment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalStatute",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProfessionalBody",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LegalPublication",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "legal_cases",
+   "rows": 4,
+   "columns": [
+    "id",
+    "case_identifier",
+    "court_name",
+    "case_type",
+    "year_filed",
+    "status",
+    "judgment_date",
+    "citation",
+    "judgment_id"
+   ]
+  },
+  {
+   "name": "legal_persons",
+   "rows": 4,
+   "columns": [
+    "legal_person_id",
+    "person_id",
+    "full_name",
+    "role",
+    "jurisdiction",
+    "qualification_year",
+    "specialization",
+    "legal_case_id",
+    "judges_legal_case_id",
+    "professional_body_id"
+   ]
+  },
+  {
+   "name": "judgments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "judgment_id",
+    "ruling_type",
+    "sentence_length",
+    "fine_amount",
+    "legal_reasoning",
+    "appeal_status",
+    "legal_case_id",
+    "legal_statute_id"
+   ]
+  },
+  {
+   "name": "legal_statutes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statute_id",
+    "title",
+    "enactment_year",
+    "jurisdiction",
+    "section_number",
+    "status",
+    "legal_statute_id",
+    "is_amended_by_legal_statute_id"
+   ]
+  },
+  {
+   "name": "professional_bodies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "body_id",
+    "name",
+    "founding_year",
+    "jurisdiction",
+    "membership_type",
+    "legal_person_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "legal_publications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pub_id",
+    "title",
+    "publication_date",
+    "publisher",
+    "journal_name",
+    "topic",
+    "legal_person_id",
+    "legal_case_id"
+   ]
+  },
+  {
+   "name": "cases_persons",
+   "rows": 8,
+   "columns": [
+    "legal_case_id",
+    "legal_person_id"
+   ]
+  }
+ ],
+ "views": [
+  "legal_case_legal_person_detail_view",
+  "legal_case_judgment_view",
+  "legal_person_legal_case_view",
+  "legal_person_professional_body_view",
+  "judgment_legal_case_view",
+  "judgment_legal_statute_view",
+  "legal_statute_legal_statute_view",
+  "professional_body_legal_person_view",
+  "legal_publication_legal_person_view",
+  "legal_publication_legal_case_view"
+ ]
+}

@@ -1,0 +1,23 @@
+CREATE TABLE discretionary_place_applications (
+  discretionary_place_application_id INTEGER NOT NULL,
+  application_id VARCHAR(32),
+  submission_date TIMESTAMP,
+  academic_year VARCHAR(32),
+  status VARCHAR(32),
+  total_score DECIMAL,
+  rank INTEGER,
+  interview_date TIMESTAMP,
+  student_id INTEGER,
+  school_id INTEGER,
+  admission_committee_id INTEGER,
+  academic_record_id INTEGER,
+  interview_score_id INTEGER,
+  extracurricular_record_id INTEGER,
+  PRIMARY KEY (discretionary_place_application_id),
+  FOREIGN KEY (student_id) REFERENCES students (id),
+  FOREIGN KEY (school_id) REFERENCES schools (school_id),
+  FOREIGN KEY (admission_committee_id) REFERENCES admission_committees (id),
+  FOREIGN KEY (academic_record_id) REFERENCES academic_records (id),
+  FOREIGN KEY (interview_score_id) REFERENCES interview_scores (interview_score_id),
+  FOREIGN KEY (extracurricular_record_id) REFERENCES extracurricular_records (extracurricular_record_id)
+);

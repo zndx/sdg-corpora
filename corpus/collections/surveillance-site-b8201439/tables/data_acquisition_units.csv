@@ -1,0 +1,5 @@
+id,acquisition_unit_id,firmware_version,sampling_rate,data_format,status,last_sync_timestamp,radar_station_id
+1000,2106717,distributed-firmware-48,18.45,primary-data-16,active,2022-05-25T16:48:00,1000
+1001,state_uk_16,baseline-firmware-49,22.90,adaptive-data-17,standby,2023-10-09T23:05:00,1001
+1002,1450653,pilot-firmware-50,27.35,distributed-data-18,fault,2024-03-20T06:22:00,1002
+1003,6926350,extended-firmware-51,31.80,baseline-data-19,active,2025-08-04T13:39:00,1003

@@ -1,0 +1,5 @@
+id,enrollment_id,academic_year,education_level,total_students,dropout_rate,male_dropout_rate,female_dropout_rate,failure_rate,male_failure_rate,female_failure_rate,geographic_region_id,demographic_survey_id
+1000,4447035,legacy-academic-43,pilot-educatio-62,11,10.45,11.45,18.45,4.45,14.45,10.70,1000,1
+1001,gd_taxc_2121,compact-academic-44,extended-educatio-63,2791,14.90,13.90,22.90,7.90,16.90,14.40,1001,2
+1002,id_30,composite-academic-45,integrated-educatio-64,14,19.35,16.35,27.35,11.35,19.35,18.10,1002,3
+1003,b_VB-EC-0,primary-academic-46,seasonal-educatio-65,12,23.80,18.80,31.80,14.80,21.80,21.80,1003,4

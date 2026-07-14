@@ -1,0 +1,5 @@
+service_id,platform_name,api_endpoint,support_level,is_active,last_updated,forti_d_do_s_appliance_id,athena_platform_id,d_do_s_attack_id,created_at
+1996925,Baseline Initiative D,integrated-api-64,extended-support-39,true,2023-06-17T17:27:00,1,1,1000,2025-01-01 00:14:00
+3990164,Distributed Model,seasonal-api-65,integrated-support-40,false,2024-11-01T00:44:00,2,2,1001,2025-02-06 03:14:00
+5844258,Adaptive Cluster,regional-api-66,seasonal-support-41,true,2025-04-12T07:01:00,3,3,1002,2025-03-11 06:14:00
+e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Primary Review A,legacy-api-67,regional-support-42,false,2022-09-23T14:18:00,4,4,1003,2025-04-16 09:14:00

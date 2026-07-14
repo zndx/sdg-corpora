@@ -1,0 +1,5 @@
+id,device_identifier,device_type,nominal_impedance,port_count,isolation_rating,theoretical_insertion_loss,phase_relationship,status,signal_characteristic_id,created_at
+1,DEV-2372,simple_T,9.20,2,5.70,6.70,0_degrees,active,100,2025-01-01 00:14:00
+2,DEV-2378,lumped_element,12.40,4,7.40,10.40,180_degrees,standby,101,2025-02-06 03:14:00
+3,DEV-2384,transformer_based,15.60,0,9.10,14.10,0_degrees,fault,102,2025-03-11 06:14:00
+4,DEV-2390,simple_T,18.80,2,10.80,17.80,180_degrees,active,103,2025-04-16 09:14:00

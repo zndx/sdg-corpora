@@ -1,0 +1,168 @@
+{
+ "construct_id": "ee11d4cbf8824dea",
+ "slug": "nonprofit-organization-ee11d4cb",
+ "passage": "ee11d4cbf8824dea2afc7d1908e3f2723ff34372f810eb4c316ff620c915739a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 16,
+ "entities": [
+  "NonprofitOrganization",
+  "CommunityProgram",
+  "EducationalCurriculum",
+  "Person",
+  "ResearchInstitution",
+  "GovernmentAgency"
+ ],
+ "terms": [
+  {
+   "name": "NonprofitOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CommunityProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationalCurriculum",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ResearchInstitution",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GovernmentAgency",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "NonprofitOrganization",
+   "rows": 4,
+   "columns": [
+    "organizationId",
+    "legalName",
+    "taxExemptStatus",
+    "foundingYear",
+    "operationalStatus",
+    "foundingLocation",
+    "personId"
+   ]
+  },
+  {
+   "name": "CommunityProgram",
+   "rows": 4,
+   "columns": [
+    "programId",
+    "programName",
+    "targetAgeRange",
+    "totalParticipants",
+    "programDurationYears",
+    "primaryFocusArea",
+    "evidenceBasedStatus",
+    "organizationId",
+    "institutionId",
+    "curriculumId"
+   ]
+  },
+  {
+   "name": "EducationalCurriculum",
+   "rows": 4,
+   "columns": [
+    "curriculumId",
+    "curriculumTitle",
+    "totalSessions",
+    "pedagogicalApproach",
+    "approvalAgency",
+    "approvalStatus",
+    "personId",
+    "institutionId"
+   ]
+  },
+  {
+   "name": "Person",
+   "rows": 4,
+   "columns": [
+    "personId",
+    "fullName",
+    "birthPlace",
+    "highestDegree",
+    "degreeField",
+    "professionalRole",
+    "yearsOfExperience",
+    "organizationId",
+    "curriculumId",
+    "agencyId"
+   ]
+  },
+  {
+   "name": "ResearchInstitution",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institutionName",
+    "evaluationStatus",
+    "evaluationOutcome",
+    "hostingInstitute",
+    "programId",
+    "curriculumId"
+   ]
+  },
+  {
+   "name": "GovernmentAgency",
+   "rows": 4,
+   "columns": [
+    "agencyId",
+    "agencyName",
+    "jurisdictionLevel",
+    "approvalGranted",
+    "grantReviewRole",
+    "curriculumId",
+    "programId",
+    "personId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "NonprofitOrganizationCommunityProgram",
+   "rows": 8,
+   "columns": [
+    "organizationId",
+    "programId"
+   ]
+  },
+  {
+   "name": "EducationalCurriculumCommunityProgram",
+   "rows": 8,
+   "columns": [
+    "curriculumId",
+    "programId"
+   ]
+  }
+ ],
+ "views": [
+  "v_nonprofit_organization_community_program_detail",
+  "v_nonprofit_organization_person",
+  "v_community_program_nonprofit_organization",
+  "v_community_program_research_institution",
+  "v_community_program_educational_curriculum",
+  "v_educational_curriculum_person",
+  "v_educational_curriculum_community_program_detail",
+  "v_educational_curriculum_research_institution",
+  "v_person_nonprofit_organization",
+  "v_person_educational_curriculum",
+  "v_person_government_agency",
+  "v_research_institution_community_program",
+  "v_research_institution_educational_curriculum",
+  "v_government_agency_educational_curriculum",
+  "v_government_agency_community_program",
+  "v_government_agency_person"
+ ]
+}

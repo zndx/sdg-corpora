@@ -1,0 +1,5 @@
+educational_institution_id,institution_name,location_city,location_state,accreditation_status,founding_year,person_id,degree_program_id
+1,Extended Corridor,seasonal-location-23,composite-location-93,regional-accredit-66,43,1,1
+2,Pilot Series A,regional-location-24,primary-location-94,legacy-accredit-67,48,2,2
+3,Baseline Assessment,legacy-location-25,adaptive-location-95,compact-accredit-68,53,3,3
+4,Distributed Survey,compact-location-26,distributed-location-96,composite-accredit-69,58,4,4

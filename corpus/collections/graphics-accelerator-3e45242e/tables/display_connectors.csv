@@ -1,0 +1,5 @@
+display_connector_id,connector_type,specification_version,max_resolution_x,max_resolution_y,refresh_rate_hz,color_depth_bits,supports_audio,supports_hdcp,graphics_accelerator_id,adapter_id,created_at
+1,compact-connecto-92,compact-specific-56,33,18,25,22,true,false,1,100,2025-01-01 00:14:00
+2,composite-connecto-93,composite-specific-57,37,25,34,29,false,true,2,101,2025-02-06 03:14:00
+3,primary-connecto-94,primary-specific-58,41,32,43,36,true,false,3,102,2025-03-11 06:14:00
+4,adaptive-connecto-95,adaptive-specific-59,45,39,52,43,false,true,4,103,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+bailout_program_id,program_name,start_date,end_date,total_cost,currency,status,financial_crisis_id
+1,Extended Review,2022-09-05T20:24:00,2022-09-01T08:00:00,61.82,seasonal-currency-71,active,1
+2,Pilot Initiative A,2023-02-16T03:41:00,2023-02-12T15:17:00,89.53,regional-currency-72,completed,2
+3,Baseline Model,2024-07-27T10:58:00,2024-07-23T22:34:00,29.24,legacy-currency-73,terminated,3
+4,Distributed Cluster,2025-12-11T17:15:00,2025-12-07T05:51:00,13.94,compact-currency-74,active,4

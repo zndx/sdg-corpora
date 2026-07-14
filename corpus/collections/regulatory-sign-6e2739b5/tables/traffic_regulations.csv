@@ -1,0 +1,5 @@
+id,regulation_code,regulation_type,effective_date,jurisdiction,penalty_amount,is_active,regulatory_sign_id,roadway_segment_id
+1000,5917296,speed_limit,2023-02-14,state,"2,604",true,1000,1
+1001,82874,stop,2024-07-25,county,442.51,false,1001,2
+1002,1336197,yield,2025-12-09,municipal,"1,997",true,1002,3
+1003,57e54d62-8fcd-11eb-924d-9cd76263cbd0,no_turn,2022-05-20,state,"3,813",false,1003,4

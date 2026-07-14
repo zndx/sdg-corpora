@@ -1,0 +1,5 @@
+id,pds_id,issue_date,valid_until_date,total_fees,significant_risks,financial_product_id,financial_licence_id,created_at,updated_at
+1,9125623,2023-02-01,2024-07-19,"8,258",baseline-signific-19,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2087758,2024-07-12,2025-12-03,"8,263",pilot-signific-20,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,5f8fcc36-8fcd-11eb-924d-9cd76263cbd0,2025-12-23,2022-05-14,"1,740",extended-signific-21,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,7441146,2022-05-07,2023-10-25,906.39,integrated-signific-22,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

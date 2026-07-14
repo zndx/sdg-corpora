@@ -1,0 +1,5 @@
+address_id,street,city,county,post_code,address_type,guardian_id,child_id
+727063,compact-street-32,integrated-city-34,primary-county-52,1450652,Permanent,1,100
+89419,composite-street-33,seasonal-city-35,adaptive-county-53,6564374,Temporary,2,101
+1450665,primary-street-34,regional-city-36,distributed-county-54,727070,School,3,102
+48bea25f-2061-4754-9819-a957dd3d28fb,adaptive-street-35,legacy-city-37,baseline-county-55,727043,Permanent,4,103

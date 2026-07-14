@@ -1,0 +1,5 @@
+environmental_authority_id,authority_code,authority_name,country_code,established_date,competence_level,is_competent_authority,regulation_id
+100,6926376,Sean Green,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,2024-03-27,national,false,2087741
+101,5fc685e2-8fcc-11eb-924d-9cd76263cbd0,Elizabeth Woods,lu_tax_code_template_m_I_2,2025-08-11,regional,true,4057
+102,9246326,Kimberly Smith,default_chart_a_account_57,2022-01-22,local,false,5917301
+103,9085244,Kimberly Smith,727045,2023-06-06,national,true,10445633

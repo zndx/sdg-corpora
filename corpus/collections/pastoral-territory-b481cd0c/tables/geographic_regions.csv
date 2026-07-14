@@ -1,0 +1,5 @@
+geographic_region_id,region_identifier,region_name,region_type,area_hectares,average_annual_rainfall,climate_classification,elevation_meters
+1,REG-2093,Distributed Assessment,county,10.20,2.20,baseline-climate-55,23.70
+2,REG-2100,Adaptive Survey D,desert,14.40,4.40,pilot-climate-56,28.40
+3,REG-2107,Primary Corridor,basin,18.60,6.60,extended-climate-57,33.10
+4,REG-2114,Composite Series,ecological_zone,22.80,8.80,integrated-climate-58,37.80

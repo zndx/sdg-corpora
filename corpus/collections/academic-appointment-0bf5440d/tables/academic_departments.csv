@@ -1,0 +1,5 @@
+id,department_id,name,parent_institution_id,established_date,academic_institution_id,person_id
+1000,2087755,Extended Review,209215,2024-03-27,1,100
+1001,790483,Pilot Initiative A,14c2e512-8fcd-11eb-924d-9cd76263cbd0,2025-08-11,2,101
+1002,505978,Baseline Model,505979,2022-01-22,3,102
+1003,id_6,Distributed Cluster,1186081,2023-06-06,4,103

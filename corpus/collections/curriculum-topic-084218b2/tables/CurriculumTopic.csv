@@ -1,0 +1,5 @@
+id,topicId,topicName,bfoGenus,complexityLevel,isCore,requiresPrerequisiteTopicId
+1000,lu_tax_code_template_b_VB-IC-Tab,Regional Model,legacy-bfo-43,37,false,1000
+1001,8387534,Seasonal Cluster D,compact-bfo-44,45,true,1001
+1002,2933463,Integrated Review,composite-bfo-45,53,false,1002
+1003,2839516,Extended Initiative,primary-bfo-46,61,true,1003

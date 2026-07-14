@@ -1,0 +1,111 @@
+{
+ "construct_id": "6e2739b5e48fd8cd",
+ "slug": "regulatory-sign-6e2739b5",
+ "passage": "6e2739b5e48fd8cddedcd823be4ca8e3d652c5e5c60a9ab8a4460761bd535f7b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 4,
+ "n_views": 8,
+ "entities": [
+  "RegulatorySign",
+  "TrafficRegulation",
+  "RoadwaySegment",
+  "SignStandard"
+ ],
+ "terms": [
+  {
+   "name": "RegulatorySign",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrafficRegulation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RoadwaySegment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SignStandard",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "regulatory_signs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sign_identifier",
+    "sign_message",
+    "sign_shape",
+    "sign_color",
+    "is_retroreflectorized",
+    "is_illuminated",
+    "installation_date",
+    "status",
+    "traffic_regulation_id",
+    "roadway_segment_id",
+    "sign_standard_id"
+   ]
+  },
+  {
+   "name": "traffic_regulations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "regulation_code",
+    "regulation_type",
+    "effective_date",
+    "jurisdiction",
+    "penalty_amount",
+    "is_active",
+    "regulatory_sign_id",
+    "roadway_segment_id"
+   ]
+  },
+  {
+   "name": "roadway_segments",
+   "rows": 4,
+   "columns": [
+    "roadway_segment_id",
+    "segment_identifier",
+    "road_name",
+    "start_mile_marker",
+    "end_mile_marker",
+    "surface_type",
+    "lane_count",
+    "speed_limit",
+    "regulatory_sign_id",
+    "traffic_regulation_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "sign_standards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standard_code",
+    "standard_version",
+    "required_size",
+    "required_legend",
+    "retroreflectivity_level",
+    "illumination_requirement",
+    "regulatory_sign_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_regulatory_sign_traffic_regulation",
+  "v_regulatory_sign_roadway_segment",
+  "v_regulatory_sign_sign_standard",
+  "v_traffic_regulation_regulatory_sign",
+  "v_traffic_regulation_roadway_segment",
+  "v_roadway_segment_regulatory_sign",
+  "v_roadway_segment_traffic_regulation",
+  "v_sign_standard_regulatory_sign"
+ ]
+}

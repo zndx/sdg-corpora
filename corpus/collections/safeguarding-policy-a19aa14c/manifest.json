@@ -1,0 +1,251 @@
+{
+ "construct_id": "a19aa14c6b055c53",
+ "slug": "safeguarding-policy-a19aa14c",
+ "passage": "a19aa14c6b055c538e6aa1d174f9d44d9f8b9edc164a25a454774c6b612945f8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 20,
+ "entities": [
+  "SafeguardingPolicy",
+  "LegalFramework",
+  "AbuseType",
+  "Incident",
+  "Student",
+  "StaffMember",
+  "SafeguardingProtocol",
+  "Referral"
+ ],
+ "terms": [
+  {
+   "name": "SafeguardingPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LegalFramework",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AbuseType",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Incident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SafeguardingProtocol",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Referral",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "safeguarding_policies",
+   "rows": 4,
+   "columns": [
+    "safeguarding_policy_id",
+    "policy_identifier",
+    "effective_date",
+    "issuing_authority",
+    "jurisdiction",
+    "compliance_standard",
+    "review_cycle",
+    "status",
+    "supersedes_safeguarding_policy_id",
+    "student_id",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "legal_frameworks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "framework_identifier",
+    "jurisdiction",
+    "enactment_date",
+    "issuing_body",
+    "framework_type",
+    "status",
+    "safeguarding_policy_id"
+   ]
+  },
+  {
+   "name": "abuse_types",
+   "rows": 4,
+   "columns": [
+    "abuse_code",
+    "definition",
+    "severity_level",
+    "requires_mandatory_reporting",
+    "classification",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "incidents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "incident_id",
+    "reported_date",
+    "incident_date",
+    "location",
+    "severity_rating",
+    "status",
+    "risk_level",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "first_name",
+    "last_name",
+    "date_of_birth",
+    "enrollment_status",
+    "guardian_contact_id",
+    "risk_profile",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_id",
+    "first_name",
+    "last_name",
+    "employment_status",
+    "role",
+    "last_training_date",
+    "background_check_status",
+    "staff_member_staff_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "safeguarding_protocols",
+   "rows": 4,
+   "columns": [
+    "protocol_id",
+    "protocol_name",
+    "trigger_condition",
+    "required_action",
+    "deadline_hours",
+    "status",
+    "incident_id",
+    "referral_id"
+   ]
+  },
+  {
+   "name": "referrals",
+   "rows": 4,
+   "columns": [
+    "referral_id",
+    "submitted_date",
+    "recipient_agency",
+    "agency_contact",
+    "referral_type",
+    "status",
+    "incident_id",
+    "staff_member_staff_id"
+   ]
+  },
+  {
+   "name": "policies_frameworks",
+   "rows": 8,
+   "columns": [
+    "safeguarding_policy_id",
+    "legal_framework_id"
+   ]
+  },
+  {
+   "name": "frameworks_types",
+   "rows": 8,
+   "columns": [
+    "legal_framework_id",
+    "abuse_type_abuse_code"
+   ]
+  },
+  {
+   "name": "types_protocols",
+   "rows": 8,
+   "columns": [
+    "abuse_type_abuse_code",
+    "protocol_id"
+   ]
+  },
+  {
+   "name": "incidents_students",
+   "rows": 8,
+   "columns": [
+    "incident_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "incidents_types",
+   "rows": 8,
+   "columns": [
+    "incident_id",
+    "abuse_type_abuse_code"
+   ]
+  },
+  {
+   "name": "members_protocols",
+   "rows": 8,
+   "columns": [
+    "staff_member_staff_id",
+    "protocol_id"
+   ]
+  },
+  {
+   "name": "protocols_members",
+   "rows": 8,
+   "columns": [
+    "protocol_id",
+    "staff_member_staff_id"
+   ]
+  }
+ ],
+ "views": [
+  "safeguarding_policy_safeguarding_policy_view",
+  "safeguarding_policy_legal_framework_detail_view",
+  "safeguarding_policy_student_view",
+  "safeguarding_policy_staff_member_view",
+  "legal_framework_safeguarding_policy_view",
+  "legal_framework_abuse_type_detail_view",
+  "abuse_type_incident_view",
+  "abuse_type_safeguarding_protocol_detail_view",
+  "incident_student_detail_view",
+  "incident_staff_member_view",
+  "incident_abuse_type_detail_view",
+  "student_incident_view",
+  "staff_member_staff_member_view",
+  "staff_member_incident_view",
+  "staff_member_safeguarding_protocol_detail_view",
+  "safeguarding_protocol_incident_view",
+  "safeguarding_protocol_staff_member_detail_view",
+  "safeguarding_protocol_referral_view",
+  "referral_incident_view",
+  "referral_staff_member_view"
+ ]
+}

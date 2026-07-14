@@ -1,0 +1,5 @@
+id,waiver_type,approval_date,approved_by,is_one_time_only,student_id,school_id
+1,ForeignExchange,2023-10-10,regional-approved-54,false,392507,1
+2,AgeOfMajority,2024-03-21,legacy-approved-55,true,25388256,2
+3,WardOfCourt,2025-08-05,compact-approved-56,false,id_16,3
+4,SchoolClosure,2022-01-16,composite-approved-57,true,gd_taxc_2211,4

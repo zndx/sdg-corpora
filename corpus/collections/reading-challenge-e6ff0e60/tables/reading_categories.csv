@@ -1,0 +1,5 @@
+reading_category_id,category_id,category_name,description,is_required,year_group,reading_challenge_id
+1,state_et_9,Legacy Programme D,Extended Survey,true,seasonal-year-35,1
+2,c744c896-8fcc-11eb-924d-9cd76263cbd0,Regional Standard,Pilot Corridor A,false,regional-year-36,2
+3,1186099,Seasonal Framework,Baseline Series,true,legacy-year-37,3
+4,2b2c096e-8fcd-11eb-924d-9cd76263cbd0,Integrated Protocol A,Distributed Assessment,false,compact-year-38,4

@@ -1,0 +1,5 @@
+id,declaration_id,declaration_date,revision_date,form_version,certification_status,perjury_acknowledged,member_id,minor_dependent_id
+1000,10966231,2022-09-25,2023-02-03,distributed-form-96,pending,true,10207158,100
+1001,1996917,2023-02-09,2024-07-14,baseline-form-97,verified,false,10207158,101
+1002,557,2024-07-20,2025-12-25,pilot-form-98,rejected,true,25820616,102
+1003,default_chart_a_tax_code_26,2025-12-04,2022-05-09,extended-form-99,pending,false,2002007020250,103

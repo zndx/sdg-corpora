@@ -1,0 +1,5 @@
+id,solution_identifier,solution_name,is_real_time,monitors_device_inventory,detects_vulnerabilities,last_scan_date,alert_threshold,cyber_threat_id,clinical_site_id
+1,SOL-2254,Primary Review A,true,true,false,2025-08-15T07:21:00,11.45,100,100
+2,SOL-2258,Composite Initiative,false,false,true,2022-01-26T14:38:00,14.90,101,101
+3,SOL-2262,Compact Model,true,true,false,2023-06-10T21:55:00,18.35,102,102
+4,SOL-2266,Legacy Cluster D,false,false,true,2024-11-21T04:12:00,21.80,103,103

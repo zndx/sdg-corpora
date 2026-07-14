@@ -1,0 +1,5 @@
+id,station_id,installation_date,last_calibration_date,operational_status,manufacturer,model_number,emission_source_id,test_crew_id
+1,strategic-networking,2022-01-10,2025-12-01,active,Standard Chartered,MOD-2238,100,1000
+2,974947,2023-06-21,2022-05-12,inactive,General Motors,MOD-2244,101,1001
+3,374,2024-11-05,2023-10-23,under_maintenance,Column Name cannot be empty,MOD-2250,102,1002
+4,dce72594-8fcd-11eb-924d-9cd76263cbd0,2025-04-16,2024-03-07,active,Financial Information Service Co. Ltd.,MOD-2256,103,1003

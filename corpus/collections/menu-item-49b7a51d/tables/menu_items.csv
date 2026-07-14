@@ -1,0 +1,5 @@
+menu_item_id,name,price,category,is_alcoholic,is_spicy,side_item_id,method_id
+MEN-2563,Extended Review,12.87,Mains,false,true,100,209228
+MEN-2569,Pilot Initiative A,35.45,Fruits & Grains,true,false,101,7441161
+MEN-2575,Baseline Model,29.24,Sandwiches,false,true,102,89447
+MEN-2581,Distributed Cluster,29.99,Avocado Toasts,true,false,103,4180941

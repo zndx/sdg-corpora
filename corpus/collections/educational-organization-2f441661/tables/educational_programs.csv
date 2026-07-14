@@ -1,0 +1,5 @@
+id,program_id,program_name,program_type,target_audience,is_draft_exempt,enrollment_count,educational_organization_id,building_id
+1,103176,Extended Review,college,high-school,true,26,1,1
+2,2986219,Pilot Initiative A,curriculum,undergraduate,false,1,2,2
+3,1186079,Baseline Model,teacher-training,graduate,true,33,3,3
+4,1562855,Distributed Cluster,math-contest,teachers,false,15,4,4

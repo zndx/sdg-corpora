@@ -1,0 +1,5 @@
+id,policy_id,coverage_type,coverage_limit,deductible_amount,is_excess_coverage,claim_excess_threshold,event_id,organization_id,participant_id
+100,5844252,adaptive-coverage-53,22.20,233.57,true,2.70,1,100,1
+101,10207142,distributed-coverage-54,25.40,"2,190",false,5.40,2,101,2
+102,1562847,baseline-coverage-55,28.60,"3,374",true,8.10,3,102,3
+103,ChIJkzsYUIBt5kcRM6_JHx26ONk,pilot-coverage-56,31.80,55.49,false,10.80,4,103,4

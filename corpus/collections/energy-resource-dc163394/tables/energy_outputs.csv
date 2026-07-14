@@ -1,0 +1,5 @@
+energy_output_id,output_id,output_date,energy_quantity,unit,conversion_type,sustainability_limit,energy_extraction_id,energy_resource_id
+1,3717613,2023-02-02T01:15:00,8.20,MW,electricity,11.45,1,1
+2,937738,2024-07-13T08:32:00,10.40,GWh,thermal,15.90,2,2
+3,974934,2025-12-24T15:49:00,12.60,Joules,direct use,20.35,3,3
+4,5f8f9bda-8fcd-11eb-924d-9cd76263cbd0,2022-05-08T22:06:00,14.80,MW,electricity,24.80,4,4

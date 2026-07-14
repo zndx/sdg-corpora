@@ -1,0 +1,5 @@
+sanction_id,sanction_type,severity_level,is_regimented,norm_id,norm_violation_id,agent_id
+1,baseline-sanction-79,29,false,1,1,1
+2,pilot-sanction-80,40,true,2,2,2
+3,extended-sanction-81,51,false,3,3,3
+4,integrated-sanction-82,62,true,4,4,4

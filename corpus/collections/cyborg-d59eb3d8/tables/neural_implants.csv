@@ -1,0 +1,5 @@
+neural_implant_id,implant_id,type,material,power_source,signal_format,nerve_fiber_id,computer_system_id
+1000,6564393,siliconChip,primary-material-94,primary-power-94,analog,1000,1
+1001,8928499,osmoticPump,adaptive-material-95,adaptive-power-95,digital,1001,2
+1002,df2dc8c2-8fcc-11eb-924d-9cd76263cbd0,cochlearImplant,distributed-material-96,distributed-power-96,analog,1002,3
+1003,4180956,bionicEye,baseline-material-97,baseline-power-97,digital,1003,4

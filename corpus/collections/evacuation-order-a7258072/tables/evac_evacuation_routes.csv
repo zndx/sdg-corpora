@@ -1,0 +1,5 @@
+id,route_identifier,route_name,start_point,end_point,route_length,road_condition,recommended,geographic_zone_id,connects_to_geographic_zone_id,evacuation_order_id
+1000,ROU-2146,Pilot Survey,compact-start-62,composite-end-69,576.33914,open,true,100,100,1
+1001,ROU-2152,Baseline Corridor,composite-start-63,primary-end-70,41.28334045410156,blocked,false,101,101,2
+1002,ROU-2158,Distributed Series A,primary-start-64,adaptive-end-71,0.07500005,washed_out,true,102,102,3
+1003,ROU-2164,Adaptive Assessment,adaptive-start-65,distributed-end-72,0.6000001,flooded,false,103,103,4

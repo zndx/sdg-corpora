@@ -1,0 +1,5 @@
+id,interventionId,interventionType,startDate,endDate,status,budget,zoneId
+100,d64c33f2-8fc1-11eb-924d-9cd76263cbd0,informationProvision,2022-09-05,2022-09-01,planned,35.45,937724
+101,L408,skillsTraining,2023-02-16,2023-02-12,active,18.47,99504
+102,eff2857c-8fcb-11eb-924d-9cd76263cbd0,infrastructureDevelopment,2024-07-27,2024-07-23,completed,26.25,10207142
+103,2618554,informationProvision,2025-12-11,2025-12-07,cancelled,17.12,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3

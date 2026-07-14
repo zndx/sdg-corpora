@@ -1,0 +1,162 @@
+{
+ "construct_id": "5e90afed3bba1a39",
+ "slug": "quality-assurance-system-5e90afed",
+ "passage": "5e90afed3bba1a39b63bacb85d2f086159181b0ed10b3544aefb6411d7677e1f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "QualityAssuranceSystem",
+  "RegionalCommission",
+  "AcademicProgram",
+  "University",
+  "QualityBenchmark",
+  "ExpertPanel"
+ ],
+ "terms": [
+  {
+   "name": "QualityAssuranceSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RegionalCommission",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AcademicProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "University",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "QualityBenchmark",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExpertPanel",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "quality_assurance_systems",
+   "rows": 4,
+   "columns": [
+    "quality_assurance_system_id",
+    "system_identifier",
+    "implementation_date",
+    "status",
+    "region",
+    "framework_version",
+    "regional_commission_id",
+    "academic_program_id",
+    "quality_benchmark_id"
+   ]
+  },
+  {
+   "name": "regional_commissions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "commission_code",
+    "established_date",
+    "jurisdiction",
+    "commission_type",
+    "operational_status",
+    "quality_assurance_system_id",
+    "university_code"
+   ]
+  },
+  {
+   "name": "academic_programs",
+   "rows": 4,
+   "columns": [
+    "academic_program_id",
+    "program_code",
+    "program_name",
+    "qualification_level",
+    "credit_hours",
+    "accreditation_status",
+    "learning_outcomes",
+    "university_code",
+    "quality_assurance_system_id"
+   ]
+  },
+  {
+   "name": "universities",
+   "rows": 4,
+   "columns": [
+    "university_code",
+    "institution_name",
+    "country",
+    "established_year",
+    "institution_type",
+    "qa_compliance_level",
+    "quality_assurance_system_id",
+    "regional_commission_id"
+   ]
+  },
+  {
+   "name": "quality_benchmarks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "benchmark_id",
+    "metric_name",
+    "target_value",
+    "measurement_unit",
+    "evaluation_frequency",
+    "status",
+    "academic_program_id",
+    "regional_commission_id",
+    "expert_panel_id"
+   ]
+  },
+  {
+   "name": "expert_panels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "panel_id",
+    "panel_name",
+    "expertise_domain",
+    "commissioning_body",
+    "panel_status",
+    "regional_commission_id",
+    "quality_benchmark_id",
+    "university_code"
+   ]
+  },
+  {
+   "name": "universities_programs",
+   "rows": 8,
+   "columns": [
+    "university_code",
+    "academic_program_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_quality_assurance_system_regional_commission",
+  "v_quality_assurance_system_academic_program",
+  "v_quality_assurance_system_quality_benchmark",
+  "v_regional_commission_quality_assurance_system",
+  "v_regional_commission_university",
+  "v_academic_program_university",
+  "v_academic_program_quality_assurance_system",
+  "v_university_quality_assurance_system",
+  "v_university_academic_program_detail",
+  "v_university_regional_commission",
+  "v_quality_benchmark_academic_program",
+  "v_quality_benchmark_regional_commission",
+  "v_quality_benchmark_expert_panel",
+  "v_expert_panel_regional_commission",
+  "v_expert_panel_quality_benchmark",
+  "v_expert_panel_university"
+ ]
+}

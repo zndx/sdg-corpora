@@ -1,0 +1,5 @@
+id,sign_identifier,sign_message,sign_shape,sign_color,is_retroreflectorized,is_illuminated,installation_date,status,traffic_regulation_id,roadway_segment_id,sign_standard_id
+1000,SIG-2078,legacy-sign-13,octagon,red,true,true,2022-01-10T00:12:00,active,1000,1,1
+1001,SIG-2079,compact-sign-14,rectangle,white,false,false,2023-06-21T07:29:00,removed,1001,2,2
+1002,SIG-2080,composite-sign-15,circle,black,true,true,2024-11-05T14:46:00,damaged,1002,3,3
+1003,SIG-2081,primary-sign-16,diamond,green,false,false,2025-04-16T21:03:00,active,1003,4,4

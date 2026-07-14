@@ -1,0 +1,5 @@
+id,plan_identifier,jurisdiction_name,implementation_status,adoption_date,policy_scope,responsible_agency,jurisdiction_id
+1,PLA-2674,Pilot Cluster,developing,2025-08-12,adaptive-policy-41,General Telephone & Electronics,1
+2,PLA-2676,Baseline Review,partially_implemented,2022-01-23,distributed-policy-42,New Mexico Business Roundtable for Educational Excellence,2
+3,PLA-2678,Distributed Initiative A,fully_implemented,2023-06-07,baseline-policy-43,Senseonics Holdings Inc.,3
+4,PLA-2680,Adaptive Model,not_adopted,2024-11-18,pilot-policy-44,National University of Singapore,4

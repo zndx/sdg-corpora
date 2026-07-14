@@ -1,0 +1,5 @@
+lecture_session_id,session_identifier,scheduled_date,duration_minutes,topic,status
+1,SES-2443,2024-11-27,35,distributed-topic-60,scheduled
+2,SES-2449,2025-04-11,38,baseline-topic-61,completed
+3,SES-2455,2022-09-22,41,pilot-topic-62,cancelled
+4,SES-2461,2023-02-06,44,extended-topic-63,scheduled

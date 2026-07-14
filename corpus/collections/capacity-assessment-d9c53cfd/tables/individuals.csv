@@ -1,0 +1,5 @@
+individual_id,individual_identifier,date_of_birth,legal_status,primary_language,communication_needs,legal_representative_id
+1,IND-2258,2025-04-02,adult,primary-primary-10,integrated-communic-16,1
+2,IND-2262,2022-09-13,minor,adaptive-primary-11,seasonal-communic-17,2
+3,IND-2266,2023-02-24,vulnerable,distributed-primary-12,regional-communic-18,3
+4,IND-2270,2024-07-08,adult,baseline-primary-13,legacy-communic-19,4

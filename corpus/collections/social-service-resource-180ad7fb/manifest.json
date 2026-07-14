@@ -1,0 +1,124 @@
+{
+ "construct_id": "180ad7fb886675f8",
+ "slug": "social-service-resource-180ad7fb",
+ "passage": "180ad7fb886675f837efc37b628fad659b40c9126a78399580e0499d216a8d83.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "SocialServiceResource",
+  "ServiceOrganization",
+  "HotlineService",
+  "SocialIssue",
+  "ServiceLocation"
+ ],
+ "terms": [
+  {
+   "name": "SocialServiceResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "HotlineService",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SocialIssue",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceLocation",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "social_service_resources",
+   "rows": 4,
+   "columns": [
+    "social_service_resource_id",
+    "resource_identifier",
+    "service_category",
+    "service_status",
+    "language_availability",
+    "operating_hours",
+    "is_confidential",
+    "service_organization_id",
+    "service_location_id"
+   ]
+  },
+  {
+   "name": "service_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_name",
+    "jurisdiction_level",
+    "contact_phone_number",
+    "website_url",
+    "is_toll_free",
+    "social_service_resource_id",
+    "hotline_service_phone_number"
+   ]
+  },
+  {
+   "name": "hotline_services",
+   "rows": 4,
+   "columns": [
+    "hotline_identifier",
+    "phone_number",
+    "text_keyword",
+    "availability_schedule",
+    "is_free",
+    "is_confidential",
+    "service_organization_id",
+    "social_issue_id",
+    "social_service_resource_id"
+   ]
+  },
+  {
+   "name": "social_issues",
+   "rows": 4,
+   "columns": [
+    "social_issue_id",
+    "issue_category",
+    "severity_level",
+    "requires_law_enforcement",
+    "hotline_service_phone_number",
+    "social_service_resource_id"
+   ]
+  },
+  {
+   "name": "service_locations",
+   "rows": 4,
+   "columns": [
+    "service_location_id",
+    "location_name",
+    "location_type",
+    "geographic_scope",
+    "supported_languages",
+    "social_service_resource_id",
+    "hotline_service_phone_number"
+   ]
+  }
+ ],
+ "views": [
+  "v_social_service_resource_service_organization",
+  "v_social_service_resource_service_location",
+  "v_service_organization_social_service_resource",
+  "v_service_organization_hotline_service",
+  "v_hotline_service_service_organization",
+  "v_hotline_service_social_issue",
+  "v_hotline_service_social_service_resource",
+  "v_social_issue_hotline_service",
+  "v_social_issue_social_service_resource",
+  "v_service_location_social_service_resource",
+  "v_service_location_hotline_service"
+ ]
+}

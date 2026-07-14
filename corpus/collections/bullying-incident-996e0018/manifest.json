@@ -1,0 +1,185 @@
+{
+ "construct_id": "996e0018c665b4d9",
+ "slug": "bullying-incident-996e0018",
+ "passage": "996e0018c665b4d93b8d46e54a982e5a94056177f2ab5f062f624a4a87d46d30.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 15,
+ "entities": [
+  "BullyingIncident",
+  "Student",
+  "StaffMember",
+  "Parent",
+  "SupportService",
+  "ExternalAuthority"
+ ],
+ "terms": [
+  {
+   "name": "BullyingIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Parent",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SupportService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExternalAuthority",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "bullying_incidents",
+   "rows": 4,
+   "columns": [
+    "bullying_incident_id",
+    "incident_id",
+    "date_reported",
+    "severity_level",
+    "incident_type",
+    "status",
+    "location",
+    "description",
+    "staff_member_id",
+    "authority_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "grade_level",
+    "enrollment_status",
+    "date_of_birth",
+    "guardian_contact_id",
+    "bullying_incident_id",
+    "involved_in_incident_as_perpetrator_bullying_incident_id",
+    "service_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "full_name",
+    "role",
+    "employment_status",
+    "department",
+    "cybersafety_trained",
+    "bullying_incident_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "parents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parent_id",
+    "full_name",
+    "contact_number",
+    "email_address",
+    "relationship_to_student",
+    "bullying_incident_id",
+    "participates_in_conciliation_bullying_incident_id"
+   ]
+  },
+  {
+   "name": "support_services",
+   "rows": 4,
+   "columns": [
+    "service_id",
+    "service_type",
+    "provider_name",
+    "start_date",
+    "end_date",
+    "status",
+    "staff_member_id",
+    "bullying_incident_id"
+   ]
+  },
+  {
+   "name": "external_authorities",
+   "rows": 4,
+   "columns": [
+    "authority_id",
+    "authority_name",
+    "contact_person",
+    "contact_number",
+    "authority_type",
+    "bullying_incident_id",
+    "staff_member_id"
+   ]
+  },
+  {
+   "name": "incidents_students",
+   "rows": 8,
+   "columns": [
+    "bullying_incident_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "students_parents",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "parents_students",
+   "rows": 8,
+   "columns": [
+    "parent_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "services_students",
+   "rows": 8,
+   "columns": [
+    "service_id",
+    "student_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_bullying_incident_student_detail",
+  "vw_bullying_incident_staff_member",
+  "vw_bullying_incident_external_authority",
+  "vw_student_parent_detail",
+  "vw_student_bullying_incident",
+  "vw_student_support_service",
+  "vw_staff_member_bullying_incident",
+  "vw_staff_member_student",
+  "vw_parent_student_detail",
+  "vw_parent_bullying_incident",
+  "vw_support_service_student_detail",
+  "vw_support_service_staff_member",
+  "vw_support_service_bullying_incident",
+  "vw_external_authority_bullying_incident",
+  "vw_external_authority_staff_member"
+ ]
+}

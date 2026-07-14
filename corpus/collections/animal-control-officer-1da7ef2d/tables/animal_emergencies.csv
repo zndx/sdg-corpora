@@ -1,0 +1,5 @@
+id,emergency_id,incident_date_time,severity_level,location,resolution_status,requires_immobilization,animal_control_officer_id,animal_id,incident_report_id
+1,Invoice,2022-01-08T00:48:00,Low,extended-location-99,Open,true,100,100,100
+2,4463645,2023-06-19T07:05:00,Medium,integrated-location-100,In Progress,false,101,101,101
+3,state_uk_29,2024-11-03T14:22:00,High,seasonal-location-101,Resolved,true,102,102,102
+4,3012811,2025-04-14T21:39:00,Critical,regional-location-102,Closed,false,103,103,103

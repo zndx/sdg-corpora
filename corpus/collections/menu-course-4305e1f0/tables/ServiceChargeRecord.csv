@@ -1,0 +1,5 @@
+id,recordId,transactionDate,totalChargeAmount,chargePercentage,paymentMethod,isDeductedByCompany,packageId,staffId
+100,10449530,2023-02-25T01:39:00,"10,296",15.70,cash,Council Of The Great City Schools,100,100
+101,10445619,2024-07-09T08:56:00,"13,785",17.40,credit_card,Alaska Air Group Inc,101,101
+102,9568457,2025-12-20T15:13:00,89.53,19.10,cash,Amazon.com Inc.,102,102
+103,20743593,2022-05-04T22:30:00,"9,957",20.80,credit_card,School District of Philadelphia,103,103

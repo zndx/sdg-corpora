@@ -1,0 +1,5 @@
+animal_id,species,breed,weight_kg,health_status,microchip_id,animal_emergency_id,animal_control_officer_id
+100,pilot-species-14,compact-breed-80,1.48,Healthy,5f8fcc36-8fcd-11eb-924d-9cd76263cbd0,1,100
+101,extended-species-15,composite-breed-81,0.385,Injured,778559,2,101
+102,integrated-species-16,primary-breed-82,0.5465680900000001,Sick,1996925,3,102
+103,seasonal-species-17,adaptive-breed-83,0.9,Deceased,4057,4,103

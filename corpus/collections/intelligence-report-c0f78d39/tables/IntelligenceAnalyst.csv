@@ -1,0 +1,5 @@
+analystId,analystBadgeNumber,analystName,agencyAffiliation,clearanceLevel,assignmentDate,status,unitId,repositoryId,agencyId,createdAt,updatedAt
+1,ANA-2730,Seasonal Survey,Philadelphia Police Department,Public,2024-11-03,Active,1000,100,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ANA-2732,Integrated Corridor,FBI,Law Enforcement Sensitive,2025-04-14,On Leave,1001,101,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,ANA-2734,Extended Series D,State Police,Confidential,2022-09-25,Inactive,1002,102,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ANA-2736,Pilot Assessment,Federal Partner,Secret,2023-02-09,Active,1003,103,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

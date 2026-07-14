@@ -1,0 +1,5 @@
+id,server_id,server_type,server_address,is_primary,mobile_worker_id
+100,911352d5dab64576b7a6da51aa69d76d,Active Directory,integrated-server-28,true,1
+101,1450637,LDAP,seasonal-server-29,false,2
+102,4985152,RADIUS,regional-server-30,true,3
+103,9736887,Active Directory,legacy-server-31,false,4

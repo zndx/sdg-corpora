@@ -1,0 +1,5 @@
+knowledge_base_id,data_source,model_type,resolution,last_updated,validation_status,community_id,strategy_id,interacts_with_knowledge_base_id
+220,satellite_imagery,probabilistic_hazard,high,2023-06-17T17:27:00,peer_reviewed,1,392481,220
+5844261,seismic_monitoring,vulnerability_index,medium,2024-11-01T00:44:00,preliminary,2,24897677,5844261
+flexible-thinking,historical_records,exposure_map,low,2025-04-12T07:01:00,field_validated,3,9736901,flexible-thinking
+727060,field_survey,risk_matrix,high,2022-09-23T14:18:00,peer_reviewed,4,25893422,727060

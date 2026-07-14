@@ -1,0 +1,335 @@
+{
+ "construct_id": "b82014394f31dc23",
+ "slug": "surveillance-site-b8201439",
+ "passage": "b82014394f31dc231b16ca042638c57dd67e98875e9fc6b9ab294fe62ef5f306.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 25,
+ "n_views": 25,
+ "entities": [
+  "SurveillanceSite",
+  "ControlCentre",
+  "RadarStation",
+  "DataAcquisitionUnit",
+  "NetworkLink",
+  "MonitoringEvent",
+  "ProcessingServer",
+  "MonitoringApplication"
+ ],
+ "terms": [
+  {
+   "name": "SurveillanceSite",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ControlCentre",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RadarStation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DataAcquisitionUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "NetworkLink",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MonitoringEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProcessingServer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MonitoringApplication",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "surveillance_sites",
+   "rows": 4,
+   "columns": [
+    "surveillance_site_id",
+    "site_identifier",
+    "site_name",
+    "latitude",
+    "longitude",
+    "site_type",
+    "operational_status",
+    "deployment_date"
+   ]
+  },
+  {
+   "name": "control_centres",
+   "rows": 4,
+   "columns": [
+    "id",
+    "centre_identifier",
+    "centre_name",
+    "jurisdiction",
+    "centre_type",
+    "established_date",
+    "is_primary"
+   ]
+  },
+  {
+   "name": "radar_stations",
+   "rows": 4,
+   "columns": [
+    "radar_station_id",
+    "radar_identifier",
+    "radar_model",
+    "frequency_band",
+    "max_range",
+    "installation_date",
+    "last_maintenance_date",
+    "is_upgraded",
+    "surveillance_site_id",
+    "data_acquisition_unit_id"
+   ]
+  },
+  {
+   "name": "data_acquisition_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "acquisition_unit_id",
+    "firmware_version",
+    "sampling_rate",
+    "data_format",
+    "status",
+    "last_sync_timestamp",
+    "radar_station_id"
+   ]
+  },
+  {
+   "name": "network_links",
+   "rows": 4,
+   "columns": [
+    "id",
+    "link_identifier",
+    "link_type",
+    "bandwidth",
+    "latency",
+    "is_redundant",
+    "protocol",
+    "surveillance_site_id",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "monitoring_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_id",
+    "event_timestamp",
+    "event_type",
+    "severity",
+    "description",
+    "resolved",
+    "resolution_time",
+    "surveillance_site_id"
+   ]
+  },
+  {
+   "name": "processing_servers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "server_role",
+    "os_version",
+    "database_type",
+    "uptime",
+    "last_health_check",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "monitoring_applications",
+   "rows": 4,
+   "columns": [
+    "monitoring_application_id",
+    "app_id",
+    "app_name",
+    "version",
+    "interface_type",
+    "is_customized",
+    "last_updated",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "sites_centres",
+   "rows": 8,
+   "columns": [
+    "surveillance_site_id",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "sites_stations",
+   "rows": 8,
+   "columns": [
+    "surveillance_site_id",
+    "radar_station_id"
+   ]
+  },
+  {
+   "name": "sites_links",
+   "rows": 8,
+   "columns": [
+    "surveillance_site_id",
+    "network_link_id"
+   ]
+  },
+  {
+   "name": "centres_sites",
+   "rows": 8,
+   "columns": [
+    "control_centre_id",
+    "surveillance_site_id"
+   ]
+  },
+  {
+   "name": "centres_applications",
+   "rows": 8,
+   "columns": [
+    "control_centre_id",
+    "monitoring_application_id"
+   ]
+  },
+  {
+   "name": "centres_links",
+   "rows": 8,
+   "columns": [
+    "control_centre_id",
+    "network_link_id"
+   ]
+  },
+  {
+   "name": "stations_centres",
+   "rows": 8,
+   "columns": [
+    "radar_station_id",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "units_links",
+   "rows": 8,
+   "columns": [
+    "data_acquisition_unit_id",
+    "network_link_id"
+   ]
+  },
+  {
+   "name": "units_servers",
+   "rows": 8,
+   "columns": [
+    "data_acquisition_unit_id",
+    "processing_server_id"
+   ]
+  },
+  {
+   "name": "links_units",
+   "rows": 8,
+   "columns": [
+    "network_link_id",
+    "data_acquisition_unit_id"
+   ]
+  },
+  {
+   "name": "events_stations",
+   "rows": 8,
+   "columns": [
+    "monitoring_event_id",
+    "radar_station_id"
+   ]
+  },
+  {
+   "name": "events_units",
+   "rows": 8,
+   "columns": [
+    "monitoring_event_id",
+    "data_acquisition_unit_id"
+   ]
+  },
+  {
+   "name": "events_centres",
+   "rows": 8,
+   "columns": [
+    "monitoring_event_id",
+    "control_centre_id"
+   ]
+  },
+  {
+   "name": "servers_units",
+   "rows": 8,
+   "columns": [
+    "processing_server_id",
+    "data_acquisition_unit_id"
+   ]
+  },
+  {
+   "name": "servers_applications",
+   "rows": 8,
+   "columns": [
+    "processing_server_id",
+    "monitoring_application_id"
+   ]
+  },
+  {
+   "name": "applications_servers",
+   "rows": 8,
+   "columns": [
+    "monitoring_application_id",
+    "processing_server_id"
+   ]
+  },
+  {
+   "name": "applications_sites",
+   "rows": 8,
+   "columns": [
+    "monitoring_application_id",
+    "surveillance_site_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_surveillance_site_control_centre_detail",
+  "v_surveillance_site_radar_station_detail",
+  "v_surveillance_site_network_link_detail",
+  "v_control_centre_surveillance_site_detail",
+  "v_control_centre_monitoring_application_detail",
+  "v_control_centre_network_link_detail",
+  "v_radar_station_surveillance_site",
+  "v_radar_station_data_acquisition_unit",
+  "v_radar_station_control_centre_detail",
+  "v_data_acquisition_unit_radar_station",
+  "v_data_acquisition_unit_network_link_detail",
+  "v_data_acquisition_unit_processing_server_detail",
+  "v_network_link_surveillance_site",
+  "v_network_link_control_centre",
+  "v_network_link_data_acquisition_unit_detail",
+  "v_monitoring_event_surveillance_site",
+  "v_monitoring_event_radar_station_detail",
+  "v_monitoring_event_data_acquisition_unit_detail",
+  "v_monitoring_event_control_centre_detail",
+  "v_processing_server_control_centre",
+  "v_processing_server_data_acquisition_unit_detail",
+  "v_processing_server_monitoring_application_detail",
+  "v_monitoring_application_processing_server_detail",
+  "v_monitoring_application_control_centre",
+  "v_monitoring_application_surveillance_site_detail"
+ ]
+}

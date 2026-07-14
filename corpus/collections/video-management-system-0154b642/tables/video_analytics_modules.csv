@@ -1,0 +1,5 @@
+id,analytics_id,rule_count,is_multi_rule_enabled,detection_type,sdk_version,processing_location,video_management_system_version_number
+1000,IVCart15,2,true,IntrusionDetection,legacy-sdk-13,Edge,VER-2245
+1001,de_CH,9,false,PeopleCounting,compact-sdk-14,Server,VER-2249
+1002,15392839,9,true,LicensePlateRecognition,composite-sdk-15,Embedded,VER-2253
+1003,account_pymes_132,16,false,SpeedViolation,primary-sdk-16,Edge,VER-2257

@@ -1,0 +1,131 @@
+{
+ "construct_id": "ee1f40d58d721ae5",
+ "slug": "medication-ee1f40d5",
+ "passage": "ee1f40d58d721ae5729521512e33226cc0e811cf7806babcc634804b441349ae.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "Medication",
+  "MedicationFactSheet",
+  "Patient",
+  "DisplayEndpoint",
+  "HCAHPSMetric"
+ ],
+ "terms": [
+  {
+   "name": "Medication",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MedicationFactSheet",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Patient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "DisplayEndpoint",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HCAHPSMetric",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "medications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "medication_id",
+    "brand_name",
+    "generic_name",
+    "dosage_form",
+    "strength",
+    "administration_route",
+    "medication_fact_sheet_id",
+    "patient_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "medication_fact_sheets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fact_sheet_id",
+    "title",
+    "last_updated",
+    "source_system",
+    "language",
+    "readability_level",
+    "medication_id",
+    "display_endpoint_id"
+   ]
+  },
+  {
+   "name": "patients",
+   "rows": 4,
+   "columns": [
+    "patient_id",
+    "admission_date",
+    "discharge_date",
+    "room_number",
+    "bed_number",
+    "hcahps_score",
+    "medication_id",
+    "medication_fact_sheet_id",
+    "display_endpoint_id"
+   ]
+  },
+  {
+   "name": "display_endpoints",
+   "rows": 4,
+   "columns": [
+    "id",
+    "endpoint_id",
+    "device_type",
+    "ip_address",
+    "status",
+    "location_room",
+    "last_heartbeat",
+    "medication_fact_sheet_id",
+    "patient_id"
+   ]
+  },
+  {
+   "name": "h_c_a_h_p_s_metrics",
+   "rows": 4,
+   "columns": [
+    "h_c_a_h_p_s_metric_id",
+    "metric_id",
+    "survey_date",
+    "category",
+    "score",
+    "benchmark",
+    "trend",
+    "patient_id",
+    "medication_fact_sheet_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_medication_medication_fact_sheet",
+  "v_medication_patient",
+  "v_medication_fact_sheet_medication",
+  "v_medication_fact_sheet_display_endpoint",
+  "v_patient_medication",
+  "v_patient_medication_fact_sheet",
+  "v_patient_display_endpoint",
+  "v_display_endpoint_medication_fact_sheet",
+  "v_display_endpoint_patient",
+  "v_h_c_a_h_p_s_metric_patient",
+  "v_h_c_a_h_p_s_metric_medication_fact_sheet"
+ ]
+}

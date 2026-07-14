@@ -1,0 +1,20 @@
+CREATE TABLE restaurants (
+  id INTEGER NOT NULL,
+  restaurant_id VARCHAR(44),
+  name VARCHAR(32),
+  city VARCHAR(32),
+  state VARCHAR(32),
+  operating_since INTEGER,
+  corkage_fee DECIMAL,
+  has_grand_award BOOLEAN,
+  grand_award_year INTEGER,
+  wine_award_id INTEGER,
+  person_id INTEGER,
+  has_owner_person_id INTEGER,
+  event_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (wine_award_id) REFERENCES wine_awards (id),
+  FOREIGN KEY (person_id) REFERENCES persons (person_id),
+  FOREIGN KEY (has_owner_person_id) REFERENCES persons (person_id),
+  FOREIGN KEY (event_id) REFERENCES events (event_id)
+);

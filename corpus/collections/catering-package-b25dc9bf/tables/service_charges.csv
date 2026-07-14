@@ -1,0 +1,5 @@
+id,charge_id,charge_type,charge_value,charge_name,applies_to_group_size,catering_package_id
+100,19655015,Percentage,22.70,Service Charge,All Groups,1
+101,3717635,Fixed Fee,26.40,Sales Tax,Groups of 20 or less,2
+102,3717620,Percentage,30.10,Small Group Fee,All Groups,3
+103,209232,Fixed Fee,33.80,Service Charge,Groups of 20 or less,4

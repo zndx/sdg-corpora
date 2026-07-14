@@ -1,0 +1,5 @@
+id,case_number,court_name,filing_date,case_type,status,government_agency_id,case_review_protocol_id
+100,CAS-2649,Baseline Series D,2023-02-09,adaptive-case-95,active,100,1
+101,CAS-2654,Distributed Assessment,2024-07-20,distributed-case-96,closed,101,2
+102,CAS-2659,Adaptive Survey,2025-12-04,baseline-case-97,pending,102,3
+103,CAS-2664,Primary Corridor A,2022-05-15,pilot-case-98,active,103,4

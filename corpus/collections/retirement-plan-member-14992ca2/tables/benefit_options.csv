@@ -1,0 +1,5 @@
+id,option_id,option_name,payment_duration,has_guarantee_period,guarantee_months,survivor_benefit_percentage
+1,a4e3c328-8fb9-11eb-924d-9cd76263cbd0,Seasonal Initiative,Lifetime,true,22,14.45
+2,1204-0009-S,Integrated Model,Lifetime with Survivor,false,31,17.90
+3,9424920,Extended Cluster D,Lifetime,true,40,21.35
+4,1186083,Pilot Review,Lifetime with Survivor,false,49,24.80

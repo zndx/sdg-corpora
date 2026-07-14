@@ -1,0 +1,5 @@
+snubber_id,location,is_operable,is_functional,regulatory_address,support_system_id,maintenance_action_id
+195345,extended-location-99,false,false,seasonal-regulato-41,1,100
+influencing,integrated-location-100,true,true,regional-regulato-42,2,101
+X7ON99,seasonal-location-101,false,false,legacy-regulato-43,3,102
+e6196808-8fd1-11eb-924d-9cd76263cbd0,regional-location-102,true,true,compact-regulato-44,4,103

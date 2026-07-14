@@ -1,0 +1,5 @@
+internal_communication_event_id,event_identifier,timestamp,communication_direction,content_type,is_formal,effectiveness_rating,social_media_platform_id,employee_id
+100,EVE-2706,2024-07-08T18:18:00,horizontal,text,false,4.20,1,Norma Fisher
+101,EVE-2707,2025-12-19T01:35:00,vertical,image,true,7.40,2,Tasha Rodriguez
+102,EVE-2708,2022-05-03T08:52:00,diagonal,video,false,10.60,3,Theodore Mcgrath
+103,EVE-2709,2023-10-14T15:09:00,horizontal,file,true,13.80,4,Peter Mcdowell

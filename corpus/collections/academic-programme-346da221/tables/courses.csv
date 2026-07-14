@@ -1,0 +1,5 @@
+course_id,course_code,course_name,credit_hours,semester,year,status,prerequisite_course_id,department_id,school_id,university_id
+1,10238263,Legacy Protocol D,14,fall,12,planned,lu_tax_code_template_m09,2087755,1152671,gd_acc_160002
+2,4463667,Regional Programme,22,spring,21,active,account_pymes_2405,790483,1186099,d87f6fa90b894eb8be0b031dcc4d667a
+3,24077793,Seasonal Standard,30,summer,30,suspended,Invoices,505978,7441154,2002007020150
+4,1204-0009-L,Integrated Framework A,38,winter,39,discontinued,255,id_6,338514,392482

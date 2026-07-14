@@ -1,0 +1,200 @@
+{
+ "construct_id": "f1e204b571c13a8d",
+ "slug": "customer-account-f1e204b5",
+ "passage": "f1e204b571c13a8d8fc2f1de45d677e86aee0c1f956ef31cb88dadb4953d819a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 12,
+ "entities": [
+  "CustomerAccount",
+  "Customer",
+  "IntroducingFirm",
+  "FinancialTransaction",
+  "ThirdPartyService",
+  "SecuritySafeguard"
+ ],
+ "terms": [
+  {
+   "name": "CustomerAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Customer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "IntroducingFirm",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FinancialTransaction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ThirdPartyService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SecuritySafeguard",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "customer_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_identifier",
+    "account_status",
+    "opening_date",
+    "closing_date",
+    "account_type",
+    "customer_id",
+    "introducing_firm_registration_number"
+   ]
+  },
+  {
+   "name": "customers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "customer_identifier",
+    "full_name",
+    "ssn",
+    "date_of_birth",
+    "occupation",
+    "annual_income",
+    "address",
+    "telephone_number",
+    "created_at"
+   ]
+  },
+  {
+   "name": "introducing_firms",
+   "rows": 4,
+   "columns": [
+    "firm_identifier",
+    "firm_name",
+    "registration_number",
+    "contact_email",
+    "contact_phone"
+   ]
+  },
+  {
+   "name": "financial_transactions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transaction_id",
+    "transaction_date",
+    "transaction_type",
+    "amount",
+    "currency_code",
+    "status",
+    "customer_account_id",
+    "third_party_service_id"
+   ]
+  },
+  {
+   "name": "third_party_services",
+   "rows": 4,
+   "columns": [
+    "id",
+    "service_id",
+    "service_name",
+    "service_type",
+    "contract_start_date",
+    "contract_end_date",
+    "security_level"
+   ]
+  },
+  {
+   "name": "security_safeguards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "safeguard_id",
+    "safeguard_name",
+    "safeguard_type",
+    "implementation_date",
+    "last_audit_date",
+    "compliance_status",
+    "third_party_service_id"
+   ]
+  },
+  {
+   "name": "accounts_transactions",
+   "rows": 8,
+   "columns": [
+    "customer_account_id",
+    "financial_transaction_id"
+   ]
+  },
+  {
+   "name": "customers_accounts",
+   "rows": 8,
+   "columns": [
+    "customer_id",
+    "customer_account_id"
+   ]
+  },
+  {
+   "name": "firms_customers",
+   "rows": 8,
+   "columns": [
+    "introducing_firm_registration_number",
+    "customer_id"
+   ]
+  },
+  {
+   "name": "firms_accounts",
+   "rows": 8,
+   "columns": [
+    "introducing_firm_registration_number",
+    "customer_account_id"
+   ]
+  },
+  {
+   "name": "services_accounts",
+   "rows": 8,
+   "columns": [
+    "third_party_service_id",
+    "customer_account_id"
+   ]
+  },
+  {
+   "name": "services_customers",
+   "rows": 8,
+   "columns": [
+    "third_party_service_id",
+    "customer_id"
+   ]
+  },
+  {
+   "name": "safeguards_accounts",
+   "rows": 8,
+   "columns": [
+    "security_safeguard_id",
+    "customer_account_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_customer_account_customer",
+  "v_customer_account_introducing_firm",
+  "v_customer_account_financial_transaction_detail",
+  "v_customer_customer_account_detail",
+  "v_introducing_firm_customer_detail",
+  "v_introducing_firm_customer_account_detail",
+  "v_financial_transaction_customer_account",
+  "v_financial_transaction_third_party_service",
+  "v_third_party_service_customer_account_detail",
+  "v_third_party_service_customer_detail",
+  "v_security_safeguard_customer_account_detail",
+  "v_security_safeguard_third_party_service"
+ ]
+}

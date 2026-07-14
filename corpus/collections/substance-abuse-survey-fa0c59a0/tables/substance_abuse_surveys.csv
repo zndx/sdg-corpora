@@ -1,0 +1,5 @@
+id,survey_id,conducted_date,response_rate,total_counties_responded,data_format,status
+100,21005921,2023-06-03T17:51:00,18.45,41,electronic,planned
+101,726059,2024-11-14T00:08:00,21.90,23,paper,active
+102,32814,2025-04-25T07:25:00,25.35,100,hybrid,complete
+103,b83e028a-8fcd-11eb-924d-9cd76263cbd0,2022-09-09T14:42:00,28.80,3,electronic,archived

@@ -1,0 +1,5 @@
+electrical_rating_id,symbol,value,unit,condition,is_repetitive,is_surge,component_part_id
+1,compact-symbol-38,19.95,distributed-unit-18,seasonal-conditio-89,true,false,100
+2,composite-symbol-39,21.90,baseline-unit-19,regional-conditio-90,false,true,101
+3,primary-symbol-40,23.85,pilot-unit-20,legacy-conditio-91,true,false,102
+4,adaptive-symbol-41,25.80,extended-unit-21,compact-conditio-92,false,true,103

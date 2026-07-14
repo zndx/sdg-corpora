@@ -1,0 +1,5 @@
+id,downlink_id,timestamp,downlink_type,call_signs_included,message_count,satellite_id,amateur_radio_station_id,extracted_message_id
+1000,id_5,2024-07-08T18:18:00,cw,legacy-call-73,4,id_18,1,1
+1001,5006448,2025-12-19T01:35:00,fm_packet,compact-call-74,100,884366,2,2
+1002,2986243,2022-05-03T08:52:00,cw,composite-call-75,17,69447,3,3
+1003,937725,2023-10-14T15:09:00,fm_packet,primary-call-76,9,lu_tax_code_template_m_I_2_6,4,4

@@ -1,0 +1,5 @@
+id,transaction_id,transaction_date,total_amount,payment_method,store_location,items_purchased,customer_profile_id,vendor_id
+1000,937738,2023-02-25T01:39:00,112.11,CreditCard,composite-store-21,primary-items-16,1,Continental Group
+1001,89509,2024-07-09T08:56:00,"1,979",DebitCard,primary-store-22,adaptive-items-17,2,PubMatic Inc.
+1002,1186092,2025-12-20T15:13:00,"15,418",Cash,adaptive-store-23,distributed-items-18,3,Dhillon Crane Service
+1003,9085243,2022-05-04T22:30:00,"12,579",CreditCard,distributed-store-24,baseline-items-19,4,Sealed Air

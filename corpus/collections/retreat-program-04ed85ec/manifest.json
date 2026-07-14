@@ -1,0 +1,135 @@
+{
+ "construct_id": "04ed85ecda9cd28a",
+ "slug": "retreat-program-04ed85ec",
+ "passage": "04ed85ecda9cd28aa11f12a49bb228676b9ecb1354abcd8fd83ffd2901f0ef61.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 13,
+ "entities": [
+  "RetreatProgram",
+  "Donation",
+  "SpiritualSeeker",
+  "SpiritualPath",
+  "SpiritualOrganization"
+ ],
+ "terms": [
+  {
+   "name": "RetreatProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Donation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SpiritualSeeker",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SpiritualPath",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SpiritualOrganization",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "retreat_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_identifier",
+    "program_name",
+    "start_date",
+    "end_date",
+    "location",
+    "is_annual",
+    "spiritual_organization_id",
+    "donation_id"
+   ]
+  },
+  {
+   "name": "donations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "donation_id",
+    "amount",
+    "currency_code",
+    "donation_date",
+    "status",
+    "is_anonymous",
+    "spiritual_seeker_id",
+    "spiritual_organization_id",
+    "retreat_program_id"
+   ]
+  },
+  {
+   "name": "spiritual_seekers",
+   "rows": 4,
+   "columns": [
+    "spiritual_seeker_id",
+    "seeker_id",
+    "first_name",
+    "last_name",
+    "email_address",
+    "member_since",
+    "is_anonymous",
+    "donation_id",
+    "retreat_program_id",
+    "spiritual_path_id"
+   ]
+  },
+  {
+   "name": "spiritual_paths",
+   "rows": 4,
+   "columns": [
+    "spiritual_path_id",
+    "path_id",
+    "path_name",
+    "core_principle",
+    "origin_tradition",
+    "is_universal",
+    "spiritual_seeker_id",
+    "retreat_program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "spiritual_organizations",
+   "rows": 4,
+   "columns": [
+    "spiritual_organization_id",
+    "org_id",
+    "org_name",
+    "founding_date",
+    "mission_statement",
+    "is_non_profit",
+    "retreat_program_id",
+    "donation_id",
+    "spiritual_seeker_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_retreat_program_spiritual_organization",
+  "v_retreat_program_donation",
+  "v_donation_spiritual_seeker",
+  "v_donation_spiritual_organization",
+  "v_donation_retreat_program",
+  "v_spiritual_seeker_donation",
+  "v_spiritual_seeker_retreat_program",
+  "v_spiritual_seeker_spiritual_path",
+  "v_spiritual_path_spiritual_seeker",
+  "v_spiritual_path_retreat_program",
+  "v_spiritual_organization_retreat_program",
+  "v_spiritual_organization_donation",
+  "v_spiritual_organization_spiritual_seeker"
+ ]
+}

@@ -1,0 +1,5 @@
+id,provider_id,provider_name,role,access_permission,treatment_event_id,disclosure_record_disclosure_id
+100,3717633,Primary Initiative A,physician,false,1,195359
+101,ChIJYRd8uPtt5kcRunQjrWb4IKs,Composite Model,nurse,true,2,1250217
+102,8928519,Compact Cluster,admin,false,3,4447022
+103,lu_tax_code_template_m13,Legacy Review D,compliance,true,4,1437596

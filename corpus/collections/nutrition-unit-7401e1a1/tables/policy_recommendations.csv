@@ -1,0 +1,5 @@
+id,policy_id,policy_title,issue_date,target_policy_area,adoption_status,influence_level,source_study,research_study_id,government_body_id,beneficiary_group_id,nutrition_unit_id,created_at,updated_at
+1000,5844252,Baseline Initiative D,2023-02-01,malnutrition_treatment,adopted,high,integrated-source-22,1,1,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,10207142,Distributed Model,2024-07-12,community_health,rejected,medium,seasonal-source-23,2,2,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,1562847,Adaptive Cluster,2025-12-23,training_standards,pending,low,regional-source-24,3,3,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,ChIJkzsYUIBt5kcRM6_JHx26ONk,Primary Review A,2022-05-07,resource_allocation,partially_adopted,high,legacy-source-25,4,4,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+environment_id,physical_safety_level,emotional_safety_level,has_group_agreement,stress_reduction_measures,accessibility_compliance,workshop_session_id
+726050,low,low,true,integrated-stress-10,false,1
+1996940,medium,medium,false,seasonal-stress-11,true,2
+2986218,high,high,true,regional-stress-12,false,3
+8350020,low,low,false,legacy-stress-13,true,4

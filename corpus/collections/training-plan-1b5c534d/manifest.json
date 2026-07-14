@@ -1,0 +1,190 @@
+{
+ "construct_id": "1b5c534db371321f",
+ "slug": "training-plan-1b5c534d",
+ "passage": "1b5c534db371321f88638562591de8d86690278aa746851b48c085dab5c57cb9.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 12,
+ "entities": [
+  "TrainingPlan",
+  "WeeklySchedule",
+  "DailyActivity",
+  "Dog",
+  "Owner",
+  "PhysicalEvent"
+ ],
+ "terms": [
+  {
+   "name": "TrainingPlan",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WeeklySchedule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DailyActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Dog",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Owner",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PhysicalEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "training_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_identifier",
+    "plan_title",
+    "target_event",
+    "duration_weeks",
+    "start_date",
+    "end_date",
+    "status",
+    "physical_event_id"
+   ]
+  },
+  {
+   "name": "weekly_schedules",
+   "rows": 4,
+   "columns": [
+    "weekly_schedule_id",
+    "week_number",
+    "plan_identifier",
+    "total_distance",
+    "target_distance",
+    "intensity_level",
+    "training_plan_id"
+   ]
+  },
+  {
+   "name": "daily_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_type",
+    "scheduled_day",
+    "duration_minutes",
+    "distance_km",
+    "pace",
+    "is_rest_day",
+    "weekly_schedule_id",
+    "dog_id",
+    "owner_id"
+   ]
+  },
+  {
+   "name": "dogs",
+   "rows": 4,
+   "columns": [
+    "dog_id",
+    "dog_identifier",
+    "breed",
+    "age_years",
+    "weight_kg",
+    "fitness_level",
+    "health_status"
+   ]
+  },
+  {
+   "name": "owners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "owner_identifier",
+    "full_name",
+    "contact_email",
+    "experience_level",
+    "dog_id"
+   ]
+  },
+  {
+   "name": "physical_events",
+   "rows": 4,
+   "columns": [
+    "physical_event_id",
+    "event_identifier",
+    "event_name",
+    "event_date",
+    "distance_km",
+    "event_status"
+   ]
+  },
+  {
+   "name": "plans_schedules",
+   "rows": 8,
+   "columns": [
+    "training_plan_id",
+    "weekly_schedule_id"
+   ]
+  },
+  {
+   "name": "schedules_activities",
+   "rows": 8,
+   "columns": [
+    "weekly_schedule_id",
+    "daily_activity_id"
+   ]
+  },
+  {
+   "name": "dogs_plans",
+   "rows": 8,
+   "columns": [
+    "dog_id",
+    "training_plan_id"
+   ]
+  },
+  {
+   "name": "dogs_activities",
+   "rows": 8,
+   "columns": [
+    "dog_id",
+    "daily_activity_id"
+   ]
+  },
+  {
+   "name": "owners_activities",
+   "rows": 8,
+   "columns": [
+    "owner_id",
+    "daily_activity_id"
+   ]
+  },
+  {
+   "name": "events_plans",
+   "rows": 8,
+   "columns": [
+    "physical_event_id",
+    "training_plan_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_training_plan_physical_event",
+  "v_training_plan_weekly_schedule_detail",
+  "v_weekly_schedule_training_plan",
+  "v_weekly_schedule_daily_activity_detail",
+  "v_daily_activity_weekly_schedule",
+  "v_daily_activity_dog",
+  "v_daily_activity_owner",
+  "v_dog_training_plan_detail",
+  "v_dog_daily_activity_detail",
+  "v_owner_daily_activity_detail",
+  "v_owner_dog",
+  "v_physical_event_training_plan_detail"
+ ]
+}

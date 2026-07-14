@@ -1,0 +1,257 @@
+{
+ "construct_id": "c0f78d39959ee7e3",
+ "slug": "intelligence-report-c0f78d39",
+ "passage": "c0f78d39959ee7e30032117f4ee6411c817ebb4911cdca330830dd0ed07036a3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 26,
+ "entities": [
+  "IntelligenceReport",
+  "IntelligenceRepository",
+  "IntelligenceUnit",
+  "IntelligenceAnalyst",
+  "PartnerAgency",
+  "SubjectOfInterest",
+  "SuspiciousActivityReport"
+ ],
+ "terms": [
+  {
+   "name": "IntelligenceReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "IntelligenceRepository",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IntelligenceUnit",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "IntelligenceAnalyst",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "PartnerAgency",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SubjectOfInterest",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SuspiciousActivityReport",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "IntelligenceReport",
+   "rows": 4,
+   "columns": [
+    "id",
+    "reportIdentifier",
+    "reportDate",
+    "classificationLevel",
+    "threatCategory",
+    "status",
+    "complianceStandard",
+    "repositoryId",
+    "analystId",
+    "interestId",
+    "agencyId"
+   ]
+  },
+  {
+   "name": "IntelligenceRepository",
+   "rows": 4,
+   "columns": [
+    "repositoryId",
+    "facilityIdentifier",
+    "facilityName",
+    "locationCity",
+    "locationState",
+    "operationalStatus",
+    "jurisdictionCoverage",
+    "unitId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "IntelligenceUnit",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unitCode",
+    "unitName",
+    "parentOrganization",
+    "missionScope",
+    "establishmentDate",
+    "repositoryId",
+    "agencyId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "IntelligenceAnalyst",
+   "rows": 4,
+   "columns": [
+    "analystId",
+    "analystBadgeNumber",
+    "analystName",
+    "agencyAffiliation",
+    "clearanceLevel",
+    "assignmentDate",
+    "status",
+    "unitId",
+    "repositoryId",
+    "agencyId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "PartnerAgency",
+   "rows": 4,
+   "columns": [
+    "agencyId",
+    "agencyIdentifier",
+    "agencyName",
+    "agencyType",
+    "jurisdictionRegion",
+    "contactEmail",
+    "unitId",
+    "sharesDataWithAgencyId"
+   ]
+  },
+  {
+   "name": "SubjectOfInterest",
+   "rows": 4,
+   "columns": [
+    "interestId",
+    "subjectIdentifier",
+    "subjectName",
+    "subjectType",
+    "riskLevel",
+    "lastKnownLocation",
+    "associatedThreats",
+    "unitId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "SuspiciousActivityReport",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sarIdentifier",
+    "reportDate",
+    "activityType",
+    "reviewStatus",
+    "privacyComplianceCheck",
+    "reviewingAnalystID",
+    "unitId",
+    "interestId",
+    "reportId",
+    "agencyId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "IntelligenceRepositoryIntelligenceReport",
+   "rows": 8,
+   "columns": [
+    "repositoryId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "IntelligenceRepositoryIntelligenceAnalyst",
+   "rows": 8,
+   "columns": [
+    "repositoryId",
+    "analystId"
+   ]
+  },
+  {
+   "name": "IntelligenceUnitIntelligenceAnalyst",
+   "rows": 8,
+   "columns": [
+    "unitId",
+    "analystId"
+   ]
+  },
+  {
+   "name": "IntelligenceUnitIntelligenceReport",
+   "rows": 8,
+   "columns": [
+    "unitId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "IntelligenceAnalystIntelligenceReport",
+   "rows": 8,
+   "columns": [
+    "analystId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "PartnerAgencyIntelligenceReport",
+   "rows": 8,
+   "columns": [
+    "agencyId",
+    "reportId"
+   ]
+  },
+  {
+   "name": "PartnerAgencyIntelligenceAnalyst",
+   "rows": 8,
+   "columns": [
+    "agencyId",
+    "analystId"
+   ]
+  },
+  {
+   "name": "SubjectOfInterestIntelligenceReport",
+   "rows": 8,
+   "columns": [
+    "interestId",
+    "reportId"
+   ]
+  }
+ ],
+ "views": [
+  "v_intelligence_report_intelligence_repository",
+  "v_intelligence_report_intelligence_analyst",
+  "v_intelligence_report_subject_of_interest",
+  "v_intelligence_report_partner_agency",
+  "v_intelligence_repository_intelligence_unit",
+  "v_intelligence_repository_intelligence_report_detail",
+  "v_intelligence_repository_intelligence_analyst_detail",
+  "v_intelligence_unit_intelligence_repository",
+  "v_intelligence_unit_intelligence_analyst_detail",
+  "v_intelligence_unit_partner_agency",
+  "v_intelligence_unit_intelligence_report_detail",
+  "v_intelligence_analyst_intelligence_unit",
+  "v_intelligence_analyst_intelligence_repository",
+  "v_intelligence_analyst_intelligence_report_detail",
+  "v_intelligence_analyst_partner_agency",
+  "v_partner_agency_intelligence_unit",
+  "v_partner_agency_intelligence_report_detail",
+  "v_partner_agency_intelligence_analyst_detail",
+  "v_partner_agency_partner_agency",
+  "v_subject_of_interest_intelligence_unit",
+  "v_subject_of_interest_intelligence_report_detail",
+  "v_subject_of_interest_suspicious_activity_report",
+  "v_suspicious_activity_report_intelligence_unit",
+  "v_suspicious_activity_report_subject_of_interest",
+  "v_suspicious_activity_report_intelligence_report",
+  "v_suspicious_activity_report_partner_agency"
+ ]
+}

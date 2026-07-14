@@ -1,0 +1,126 @@
+{
+ "construct_id": "849918009fd13849",
+ "slug": "menu-item-84991800",
+ "passage": "849918009fd13849f7cdefc81c56d87231ed9e889d78c0a2c0e936bba259be24.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 8,
+ "entities": [
+  "MenuItem",
+  "Ingredient",
+  "SideDish",
+  "PriceOption",
+  "BreadType"
+ ],
+ "terms": [
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SideDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PriceOption",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BreadType",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "id",
+    "menu_id",
+    "name",
+    "base_price",
+    "category",
+    "is_vegetarian",
+    "is_vegan",
+    "is_gluten_free",
+    "serving_time",
+    "side_dish_id",
+    "price_option_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "is_house_made",
+    "origin",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "side_dishes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "side_id",
+    "name",
+    "price",
+    "portion_type",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "price_options",
+   "rows": 4,
+   "columns": [
+    "id",
+    "option_id",
+    "price",
+    "type",
+    "description",
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "bread_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "bread_id",
+    "name",
+    "is_house_made",
+    "menu_item_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_item_id",
+    "ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_item_ingredient_detail",
+  "vw_menu_item_side_dish",
+  "vw_menu_item_price_option",
+  "vw_ingredient_menu_item",
+  "vw_side_dish_menu_item",
+  "vw_price_option_menu_item",
+  "vw_price_option_ingredient",
+  "vw_bread_type_menu_item"
+ ]
+}

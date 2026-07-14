@@ -1,0 +1,5 @@
+chemical_substance_id,cas_number,common_name,molecular_formula,physical_state,solubility_in_water,solubility_in_organic_solvents,melting_point,boiling_point,carcinogenicity_assessment_id,pharmacokinetic_parameter_id,has_half_life_in_rodents_pharmacokinetic_parameter_id,receptor_id
+1,CAS-2785,Seasonal Review,distributed-molecula-84,solid,false,distributed-solubili-66,2.20,18.95,1,1,1,790471
+2,CAS-2788,Integrated Initiative,baseline-molecula-85,liquid,true,baseline-solubili-67,4.40,20.90,2,2,2,3001009030190
+3,CAS-2791,Extended Model D,pilot-molecula-86,gas,false,pilot-solubili-68,6.60,22.85,3,3,3,3717630
+4,CAS-2794,Pilot Cluster,extended-molecula-87,solid,true,extended-solubili-69,8.80,24.80,4,4,4,1250200

@@ -1,0 +1,150 @@
+{
+ "construct_id": "1814e44d5fe04568",
+ "slug": "course-1814e44d",
+ "passage": "1814e44d5fe04568ace78eb25f314d121997e45808faf9767a09edcbd64782db.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "Course",
+  "DegreeRequirement",
+  "AcademicProgram",
+  "CourseList",
+  "Subfield"
+ ],
+ "terms": [
+  {
+   "name": "Course",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "DegreeRequirement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "AcademicProgram",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CourseList",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Subfield",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_code",
+    "title",
+    "units",
+    "level",
+    "status",
+    "degree_requirement_id",
+    "course_list_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "degree_requirements",
+   "rows": 4,
+   "columns": [
+    "degree_requirement_id",
+    "requirement_id",
+    "title",
+    "category",
+    "min_courses",
+    "status",
+    "academic_program_id"
+   ]
+  },
+  {
+   "name": "academic_programs",
+   "rows": 4,
+   "columns": [
+    "academic_program_id",
+    "program_code",
+    "title",
+    "degree_type",
+    "effective_date",
+    "status"
+   ]
+  },
+  {
+   "name": "course_lists",
+   "rows": 4,
+   "columns": [
+    "id",
+    "list_id",
+    "title",
+    "selection_count",
+    "status",
+    "degree_requirement_id"
+   ]
+  },
+  {
+   "name": "subfields",
+   "rows": 4,
+   "columns": [
+    "id",
+    "subfield_code",
+    "title",
+    "discipline",
+    "status",
+    "academic_program_id"
+   ]
+  },
+  {
+   "name": "requirements_courses",
+   "rows": 8,
+   "columns": [
+    "degree_requirement_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "programs_requirements",
+   "rows": 8,
+   "columns": [
+    "academic_program_id",
+    "degree_requirement_id"
+   ]
+  },
+  {
+   "name": "lists_courses",
+   "rows": 8,
+   "columns": [
+    "course_list_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "subfields_courses",
+   "rows": 8,
+   "columns": [
+    "subfield_id",
+    "course_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_course_degree_requirement",
+  "v_course_course_list",
+  "v_degree_requirement_course_detail",
+  "v_degree_requirement_academic_program",
+  "v_academic_program_degree_requirement_detail",
+  "v_course_list_course_detail",
+  "v_course_list_degree_requirement",
+  "v_subfield_course_detail",
+  "v_subfield_academic_program"
+ ]
+}

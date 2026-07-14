@@ -1,0 +1,5 @@
+resource_management_system_id,rms_id,system_version,optimization_goal,total_capacity,allocated_capacity,last_optimization_run,service_level_agreement_id,performance_metric_id
+1000,id_23,seasonal-system-41,revenue,22.45,15.45,2024-11-02T22:06:00,100,100
+1001,10238280,regional-system-42,utilization,25.90,18.90,2025-04-13T05:23:00,101,101
+1002,4985156,legacy-system-43,latency,29.35,22.35,2022-09-24T12:40:00,102,102
+1003,5082963,compact-system-44,revenue,32.80,25.80,2023-02-08T19:57:00,103,103

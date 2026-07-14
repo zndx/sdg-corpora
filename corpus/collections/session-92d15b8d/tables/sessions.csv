@@ -1,0 +1,5 @@
+session_id,session_identifier,start_time,end_time,title,status,program_day_id
+100,SES-2443,2024-03-27T14:42:00,2023-02-26T13:27:00,Compact Initiative,scheduled,1
+101,SES-2449,2025-08-11T21:59:00,2024-07-10T20:44:00,Legacy Model,completed,2
+102,SES-2455,2022-01-22T04:16:00,2025-12-21T03:01:00,Regional Cluster A,cancelled,3
+103,SES-2461,2023-06-06T11:33:00,2022-05-05T10:18:00,Seasonal Review,scheduled,4

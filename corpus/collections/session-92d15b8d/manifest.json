@@ -1,0 +1,202 @@
+{
+ "construct_id": "92d15b8d5142e558",
+ "slug": "session-92d15b8d",
+ "passage": "92d15b8d5142e558e1fc78f2e9c3af3060a7eaf56cc55efe1c3be7bb3b1acb6c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 12,
+ "entities": [
+  "Session",
+  "ProgramDay",
+  "FacultyMember",
+  "AcademicTopic",
+  "ARRALDProgram",
+  "Resident"
+ ],
+ "terms": [
+  {
+   "name": "Session",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProgramDay",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AcademicTopic",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ARRALDProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Resident",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "sessions",
+   "rows": 4,
+   "columns": [
+    "session_id",
+    "session_identifier",
+    "start_time",
+    "end_time",
+    "title",
+    "status",
+    "program_day_id"
+   ]
+  },
+  {
+   "name": "program_days",
+   "rows": 4,
+   "columns": [
+    "program_day_id",
+    "date",
+    "day_number",
+    "location",
+    "a_r_r_a_l_d_program_id"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "faculty_member_id",
+    "faculty_id",
+    "full_name",
+    "credential",
+    "affiliation"
+   ]
+  },
+  {
+   "name": "academic_topics",
+   "rows": 4,
+   "columns": [
+    "academic_topic_id",
+    "topic_id",
+    "topic_name",
+    "category"
+   ]
+  },
+  {
+   "name": "a_r_r_a_l_d_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "organizing_body"
+   ]
+  },
+  {
+   "name": "residents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resident_id",
+    "full_name",
+    "institution",
+    "year_of_training",
+    "a_r_r_a_l_d_program_id"
+   ]
+  },
+  {
+   "name": "sessions_members",
+   "rows": 8,
+   "columns": [
+    "session_id",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "sessions_topics",
+   "rows": 8,
+   "columns": [
+    "session_id",
+    "academic_topic_id"
+   ]
+  },
+  {
+   "name": "days_sessions",
+   "rows": 8,
+   "columns": [
+    "program_day_id",
+    "session_id"
+   ]
+  },
+  {
+   "name": "members_sessions",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "session_id"
+   ]
+  },
+  {
+   "name": "members_topics",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "academic_topic_id"
+   ]
+  },
+  {
+   "name": "topics_sessions",
+   "rows": 8,
+   "columns": [
+    "academic_topic_id",
+    "session_id"
+   ]
+  },
+  {
+   "name": "programs_days",
+   "rows": 8,
+   "columns": [
+    "a_r_r_a_l_d_program_id",
+    "program_day_id"
+   ]
+  },
+  {
+   "name": "programs_residents",
+   "rows": 8,
+   "columns": [
+    "a_r_r_a_l_d_program_id",
+    "resident_id"
+   ]
+  },
+  {
+   "name": "residents_sessions",
+   "rows": 8,
+   "columns": [
+    "resident_id",
+    "session_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_session_faculty_member_detail",
+  "v_session_program_day",
+  "v_session_academic_topic_detail",
+  "v_program_day_session_detail",
+  "v_program_day_a_r_r_a_l_d_program",
+  "v_faculty_member_session_detail",
+  "v_faculty_member_academic_topic_detail",
+  "v_academic_topic_session_detail",
+  "v_a_r_r_a_l_d_program_program_day_detail",
+  "v_a_r_r_a_l_d_program_resident_detail",
+  "v_resident_a_r_r_a_l_d_program",
+  "v_resident_session_detail"
+ ]
+}

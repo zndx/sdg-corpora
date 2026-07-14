@@ -1,0 +1,214 @@
+{
+ "construct_id": "7afa1cab7d346a7b",
+ "slug": "university-support-system-7afa1cab",
+ "passage": "7afa1cab7d346a7bc69f15414df311b26145e26a8826736376e737695a88749f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 14,
+ "entities": [
+  "UniversitySupportSystem",
+  "StudentLedBusinessInitiative",
+  "StudentEntrepreneur",
+  "Mentor",
+  "UniversityDepartment",
+  "GeographicJurisdiction"
+ ],
+ "terms": [
+  {
+   "name": "UniversitySupportSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StudentLedBusinessInitiative",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StudentEntrepreneur",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Mentor",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "UniversityDepartment",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GeographicJurisdiction",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "university_support_systems",
+   "rows": 4,
+   "columns": [
+    "university_support_system_id",
+    "system_id",
+    "system_name",
+    "system_type",
+    "start_date",
+    "end_date",
+    "status",
+    "budget",
+    "accessibility_score",
+    "department_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "student_led_business_initiatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "initiative_id",
+    "initiative_name",
+    "status",
+    "founded_date",
+    "sector",
+    "revenue",
+    "employee_count",
+    "success_rating",
+    "student_entrepreneur_student_id",
+    "geographic_jurisdiction_id"
+   ]
+  },
+  {
+   "name": "student_entrepreneurs",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "full_name",
+    "major",
+    "enrollment_status",
+    "demographic_group",
+    "contact_email",
+    "satisfaction_score",
+    "department_id",
+    "mentor_id"
+   ]
+  },
+  {
+   "name": "mentors",
+   "rows": 4,
+   "columns": [
+    "mentor_id",
+    "full_name",
+    "expertise_area",
+    "years_of_experience",
+    "affiliation",
+    "rating",
+    "availability_status",
+    "contact_info",
+    "department_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "university_departments",
+   "rows": 4,
+   "columns": [
+    "department_id",
+    "department_name",
+    "department_code",
+    "head_of_department",
+    "location",
+    "established_date",
+    "operational_status",
+    "budget_allocation",
+    "mentor_id"
+   ]
+  },
+  {
+   "name": "geographic_jurisdictions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "jurisdiction_id",
+    "jurisdiction_name",
+    "jurisdiction_type",
+    "population",
+    "gdp",
+    "entrepreneurship_index",
+    "government_policies",
+    "last_updated"
+   ]
+  },
+  {
+   "name": "systems_initiatives",
+   "rows": 8,
+   "columns": [
+    "university_support_system_id",
+    "student_led_business_initiative_id"
+   ]
+  },
+  {
+   "name": "initiatives_systems",
+   "rows": 8,
+   "columns": [
+    "student_led_business_initiative_id",
+    "university_support_system_id"
+   ]
+  },
+  {
+   "name": "entrepreneurs_initiatives",
+   "rows": 8,
+   "columns": [
+    "student_entrepreneur_student_id",
+    "student_led_business_initiative_id"
+   ]
+  },
+  {
+   "name": "mentors_entrepreneurs",
+   "rows": 8,
+   "columns": [
+    "mentor_id",
+    "student_entrepreneur_student_id"
+   ]
+  },
+  {
+   "name": "departments_systems",
+   "rows": 8,
+   "columns": [
+    "department_id",
+    "university_support_system_id"
+   ]
+  },
+  {
+   "name": "departments_entrepreneurs",
+   "rows": 8,
+   "columns": [
+    "department_id",
+    "student_entrepreneur_student_id"
+   ]
+  },
+  {
+   "name": "jurisdictions_initiatives",
+   "rows": 8,
+   "columns": [
+    "geographic_jurisdiction_id",
+    "student_led_business_initiative_id"
+   ]
+  }
+ ],
+ "views": [
+  "university_support_system_student_led_business_initiative_detail_view",
+  "university_support_system_university_department_view",
+  "student_led_business_initiative_university_support_system_detail_view",
+  "student_led_business_initiative_student_entrepreneur_view",
+  "student_led_business_initiative_geographic_jurisdiction_view",
+  "student_entrepreneur_student_led_business_initiative_detail_view",
+  "student_entrepreneur_university_department_view",
+  "student_entrepreneur_mentor_view",
+  "mentor_student_entrepreneur_detail_view",
+  "mentor_university_department_view",
+  "university_department_university_support_system_detail_view",
+  "university_department_mentor_view",
+  "university_department_student_entrepreneur_detail_view",
+  "geographic_jurisdiction_student_led_business_initiative_detail_view"
+ ]
+}

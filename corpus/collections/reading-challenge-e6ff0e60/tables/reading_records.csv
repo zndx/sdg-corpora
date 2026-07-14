@@ -1,0 +1,5 @@
+id,record_id,book_title,author_name,completion_date,category,page_count,cover_color,is_recommended,recommended_by,participant_id,reading_category_id,book_id
+1000,10449530,Primary Corridor A,Sarah Villanueva,2024-03-14,compact-category-92,6,Purple,true,teacher,3990185,1,1
+1001,10445619,Composite Series,Terry Pratchett,2025-08-25,composite-category-93,7,White,false,family,4716387,2,2
+1002,9568457,Compact Assessment,Nicole Smith,2022-01-09,primary-category-94,0,Blue,true,list,69430,3,3
+1003,20743593,Legacy Survey D,Collin Lopez,2023-06-20,adaptive-category-95,15,Pink,false,teacher,c7460a44-8fcc-11eb-924d-9cd76263cbd0,4,4

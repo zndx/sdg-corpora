@@ -1,0 +1,5 @@
+gage_specification_id,large_end_diameter,small_end_diameter,taper_per_foot,taper_per_inch,taper_tolerance,half_angle,included_angle,has_steps,step_location,taper_gage_id
+1,21.95,13.45,6.20,3.70,5.95,9.95,7.20,true,LARGE_END,1
+2,25.90,16.90,9.40,6.40,7.90,12.90,11.40,false,SMALL_END,2
+3,29.85,20.35,12.60,9.10,9.85,15.85,15.60,true,NONE,3
+4,33.80,23.80,15.80,11.80,11.80,18.80,19.80,false,LARGE_END,4

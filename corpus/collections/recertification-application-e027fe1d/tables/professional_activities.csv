@@ -1,0 +1,5 @@
+activity_id,activity_type,start_date,end_date,authorship_role,accreditation_status,is_part_of_regular_duties,credits_awarded,certified_professional_id,document_id,course_id
+8843761,publication,2022-09-05,2022-09-01,1st_author,peer_reviewed,true,4,100,IVC10I,100
+4180957,conference_attendance,2023-02-16,2023-02-12,2nd_or_3rd_author,accredited_agency,false,7,101,605943,101
+168545,conference_presenting,2024-07-27,2024-07-23,>3rd_author,non_accredited,true,10,102,10449525,102
+default_chart_a_account_53,teaching,2025-12-11,2025-12-07,primary_presenter,peer_reviewed,false,13,103,5f93a090-8fcd-11eb-924d-9cd76263cbd0,103

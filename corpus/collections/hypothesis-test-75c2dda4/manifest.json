@@ -1,0 +1,133 @@
+{
+ "construct_id": "75c2dda43099f8e5",
+ "slug": "hypothesis-test-75c2dda4",
+ "passage": "75c2dda43099f8e5412037ac3256fb238910ed6969aea3aed69205d8e47b7a22.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "HypothesisTest",
+  "StatisticalHypothesis",
+  "TestStatistic",
+  "PopulationParameter",
+  "CriticalRegion"
+ ],
+ "terms": [
+  {
+   "name": "HypothesisTest",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StatisticalHypothesis",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TestStatistic",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PopulationParameter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CriticalRegion",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "hypothesis_tests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "test_identifier",
+    "test_type",
+    "significance_level",
+    "actual_significance_level",
+    "conclusion",
+    "conclusion_text",
+    "test_statistic_id",
+    "population_parameter_id",
+    "critical_region_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "statistical_hypothesises",
+   "rows": 4,
+   "columns": [
+    "statistical_hypothesis_id",
+    "hypothesis_type",
+    "parameter_symbol",
+    "operator",
+    "threshold_value",
+    "hypothesis_test_id",
+    "population_parameter_id"
+   ]
+  },
+  {
+   "name": "test_statistics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "statistic_symbol",
+    "observed_value",
+    "distribution_model",
+    "distribution_parameter",
+    "hypothesis_test_id",
+    "population_parameter_id"
+   ]
+  },
+  {
+   "name": "population_parameters",
+   "rows": 4,
+   "columns": [
+    "population_parameter_id",
+    "parameter_symbol",
+    "parameter_name",
+    "true_value",
+    "test_statistic_id",
+    "statistical_hypothesis_id"
+   ]
+  },
+  {
+   "name": "critical_regions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "region_type",
+    "lower_bound",
+    "upper_bound",
+    "critical_value",
+    "hypothesis_test_id",
+    "test_statistic_id"
+   ]
+  },
+  {
+   "name": "tests_hypothesises",
+   "rows": 8,
+   "columns": [
+    "hypothesis_test_id",
+    "statistical_hypothesis_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_hypothesis_test_statistical_hypothesis_detail",
+  "v_hypothesis_test_test_statistic",
+  "v_hypothesis_test_population_parameter",
+  "v_hypothesis_test_critical_region",
+  "v_statistical_hypothesis_hypothesis_test",
+  "v_statistical_hypothesis_population_parameter",
+  "v_test_statistic_hypothesis_test",
+  "v_test_statistic_population_parameter",
+  "v_population_parameter_test_statistic",
+  "v_population_parameter_statistical_hypothesis",
+  "v_critical_region_hypothesis_test",
+  "v_critical_region_test_statistic"
+ ]
+}

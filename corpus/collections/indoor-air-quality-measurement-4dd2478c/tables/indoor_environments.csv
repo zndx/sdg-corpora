@@ -1,0 +1,5 @@
+indoor_environment_id,environment_id,environment_type,building_age,ventilation_rate,occupancy_level,last_inspection_date,indoor_pollutant_id
+1,726050,home,23,10.45,28,2025-04-12,100
+2,1996940,school,31,13.90,36,2022-09-23,101
+3,2986218,healthcare_facility,39,17.35,44,2023-02-07,102
+4,8350020,office,47,20.80,52,2024-07-18,103

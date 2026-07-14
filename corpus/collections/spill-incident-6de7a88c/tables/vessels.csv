@@ -1,0 +1,5 @@
+id,vessel_id,vessel_name,vessel_type,vessel_length,vessel_status,owner_name,owner_location,total_constructive_loss,spill_incident_id,geographic_location_id,moved_to_geographic_location_id
+1,16620628,Extended Model,adaptive-vessel-29,0.48,sunk,Craig Childs,Bobby Flores,false,100,1,1
+2,c9e1850d388444ca97c062544b127908,Pilot Cluster A,distributed-vessel-30,0.85,salvaged,Kimberly Smith,Johnny Morris,true,101,2,2
+3,12570447,Baseline Review,baseline-vessel-31,1.42,scuttled,Michelle Kelley,Mercy Mission,false,102,3,3
+4,168538,Distributed Initiative,pilot-vessel-32,0.585,dismantled,Jorge Sullivan,Jorge Sullivan,true,103,4,4

@@ -1,0 +1,5 @@
+id,name,region,slavic_root,source_map,confidence_level,historical_region_id,gaulish_tribe_id,historical_document_id
+100,Extended Review,distributed-region-12,primary-slavic-10,adaptive-source-89,baseline-confiden-91,1,1000,1
+101,Pilot Initiative A,baseline-region-13,adaptive-slavic-11,distributed-source-90,pilot-confiden-92,2,1001,2
+102,Baseline Model,pilot-region-14,distributed-slavic-12,baseline-source-91,extended-confiden-93,3,1002,3
+103,Distributed Cluster,extended-region-15,baseline-slavic-13,pilot-source-92,integrated-confiden-94,4,1003,4

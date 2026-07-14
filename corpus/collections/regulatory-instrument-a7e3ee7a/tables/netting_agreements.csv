@@ -1,0 +1,5 @@
+id,agreement_identifier,agreement_type,enforceability_review_status,reviewed_by,effective_date,termination_date,regulatory_instrument_id,created_at
+1000,AGR-2766,ISDA Master Agreement,pending,internal,2023-02-14T13:27:00,2022-09-11T20:24:00,100,2025-01-01 00:14:00
+1001,AGR-2771,Custom Netting Agreement,completed,third party,2024-07-25T20:44:00,2023-02-22T03:41:00,101,2025-02-06 03:14:00
+1002,AGR-2776,ISDA Master Agreement,failed,internal,2025-12-09T03:01:00,2024-07-06T10:58:00,102,2025-03-11 06:14:00
+1003,AGR-2781,Custom Netting Agreement,pending,third party,2022-05-20T10:18:00,2025-12-17T17:15:00,103,2025-04-16 09:14:00

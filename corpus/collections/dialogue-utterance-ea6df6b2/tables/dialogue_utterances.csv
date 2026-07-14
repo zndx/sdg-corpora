@@ -1,0 +1,5 @@
+id,utterance_id,quoted_text,speaker_name,timestamp,is_internal_thought,vocalization_mode,character_id,event_id
+1,1250223,legacy-quoted-31,Distributed Standard,2024-07-08T18:18:00,false,said,7021001070170,2002007020060
+2,3990165,compact-quoted-32,Adaptive Framework D,2025-12-19T01:35:00,true,shouted,a0f8eb4e-8fcd-11eb-924d-9cd76263cbd0,168535
+3,gd_acc_160003,composite-quoted-33,Primary Protocol,2022-05-03T08:52:00,false,yelled,4793488,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0
+4,6b79636f-5851-491d-aa2f-815615d61cff,primary-quoted-34,Composite Programme,2023-10-14T15:09:00,true,cried,id_31,1186089

@@ -1,0 +1,5 @@
+id,record_id,assessment_date,raw_score,normalized_score,feedback_notes,review_status,data_integrity_check,metric_id,student_id,school_library_program_id
+1,10449530,2022-05-10,5.45,10.20,regional-feedback-90,draft,true,3744010,392507,100
+2,10445619,2023-10-21,9.90,12.40,legacy-feedback-91,submitted,false,136630a8-8fcc-11eb-924d-9cd76263cbd0,25388256,101
+3,9568457,2024-03-05,14.35,14.60,compact-feedback-92,approved,true,2986226,id_16,102
+4,20743593,2025-08-16,18.80,16.80,composite-feedback-93,archived,false,2002007020010,gd_taxc_2211,103

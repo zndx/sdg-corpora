@@ -1,0 +1,5 @@
+student_id,full_name,enrollment_status,current_gpa,cumulative_gpa,semester_hours_earned,degree_program,major_declared,semester_of_enrollment,compliance_coordinator_id,certifying_officer_id,head_coach_id,term_id,degree_program_id
+392507,Theodore Mcgrath,full-time,11.95,11.95,19,baseline-degree-13,true,10,1,100,1,model_delegation_child0,1
+25388256,Account Name,part-time,15.90,15.90,25,pilot-degree-14,false,17,2,101,2,2986222,2
+id_16,Saipan International Airport,inactive,19.85,19.85,31,extended-degree-15,true,24,3,102,3,id_26,3
+gd_taxc_2211,Norma Fisher,full-time,23.80,23.80,37,integrated-degree-16,false,31,4,103,4,5006436,4

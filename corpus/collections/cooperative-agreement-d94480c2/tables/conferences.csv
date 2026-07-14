@@ -1,0 +1,5 @@
+conference_id,conference_identifier,conference_name,start_date,end_date,frequency,location,organization_id,individual_id,communication_goal_id
+1,CON-2543,Integrated Programme A,2022-05-02,2022-05-08,biennial,baseline-location-97,100,1,1
+2,CON-2545,Extended Standard,2023-10-13,2023-10-19,annual,pilot-location-98,101,2,2
+3,CON-2547,Pilot Framework,2024-03-24,2024-03-03,quarterly,extended-location-99,102,3,3
+4,CON-2549,Baseline Protocol D,2025-08-08,2025-08-14,biennial,integrated-location-100,103,4,4

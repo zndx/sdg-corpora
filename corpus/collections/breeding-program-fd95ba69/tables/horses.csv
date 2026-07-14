@@ -1,0 +1,5 @@
+id,horse_id,horse_name,registration_number,date_of_birth,sex,breed,status,breeding_program_id,owner_id,has_sire_horse_id,has_dam_horse_id
+100,ChIJt4hBkzhu5kcRJJDUNqGUpso,Integrated Programme A,REG-2136,2025-04-02,stallion,compact-breed-80,selected,1,1,100,100
+101,3001009030160,Extended Standard,REG-2142,2022-09-13,mare,composite-breed-81,rejected,2,2,101,101
+102,5006443,Pilot Framework,REG-2148,2023-02-24,stallion,primary-breed-82,pending,3,3,102,102
+103,2933481,Baseline Protocol D,REG-2154,2024-07-08,mare,adaptive-breed-83,selected,4,4,103,103

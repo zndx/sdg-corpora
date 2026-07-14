@@ -1,0 +1,5 @@
+id,user_id,user_type,has_disability,disability_type,parenting_status,needs_acknowledged,service_user_id,needs_assessment_id
+1,9736910,disabled_parent,false,learning,active_parent,false,1,1000
+2,40c1e50ce74c42d6801b1e2f409c1cfc,child,true,physical,expectant_parent,true,2,1001
+3,92297f70-9bad-11eb-a8a2-19ed5c03f8d3,carer,false,sensory,non_parent,false,3,1002
+4,9125634,disabled_parent,true,chronic_sickness,active_parent,true,4,1003

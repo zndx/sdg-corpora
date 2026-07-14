@@ -1,0 +1,163 @@
+{
+ "construct_id": "d94480c278c0993c",
+ "slug": "cooperative-agreement-d94480c2",
+ "passage": "d94480c278c0993c8c1dc5ee9221a910bbf911711b31bb449b9638bac959ac3e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "CooperativeAgreement",
+  "Organization",
+  "Individual",
+  "AssistiveTechnology",
+  "CommunicationGoal",
+  "Conference"
+ ],
+ "terms": [
+  {
+   "name": "CooperativeAgreement",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Individual",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AssistiveTechnology",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CommunicationGoal",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Conference",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "cooperative_agreements",
+   "rows": 4,
+   "columns": [
+    "cooperative_agreement_id",
+    "agreement_identifier",
+    "start_date",
+    "end_date",
+    "status",
+    "description",
+    "communication_goal_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_identifier",
+    "organization_name",
+    "legal_status",
+    "headquarters_location",
+    "website_url",
+    "cooperative_agreement_id",
+    "individual_id",
+    "conference_id"
+   ]
+  },
+  {
+   "name": "individuals",
+   "rows": 4,
+   "columns": [
+    "individual_id",
+    "individual_identifier",
+    "first_name",
+    "last_name",
+    "role",
+    "needs_complex_communication",
+    "organization_id",
+    "assistive_technology_id"
+   ]
+  },
+  {
+   "name": "assistive_technologies",
+   "rows": 4,
+   "columns": [
+    "assistive_technology_id",
+    "technology_identifier",
+    "product_name",
+    "technology_type",
+    "manufacturer",
+    "availability_status",
+    "organization_id",
+    "individual_id",
+    "communication_goal_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "communication_goals",
+   "rows": 4,
+   "columns": [
+    "communication_goal_id",
+    "goal_identifier",
+    "goal_description",
+    "target_audience",
+    "priority_level",
+    "organization_id",
+    "assistive_technology_id",
+    "individual_id"
+   ]
+  },
+  {
+   "name": "conferences",
+   "rows": 4,
+   "columns": [
+    "conference_id",
+    "conference_identifier",
+    "conference_name",
+    "start_date",
+    "end_date",
+    "frequency",
+    "location",
+    "organization_id",
+    "individual_id",
+    "communication_goal_id"
+   ]
+  },
+  {
+   "name": "agreements_organizations",
+   "rows": 8,
+   "columns": [
+    "cooperative_agreement_id",
+    "organization_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_cooperative_agreement_organization_detail",
+  "v_cooperative_agreement_communication_goal",
+  "v_organization_cooperative_agreement",
+  "v_organization_individual",
+  "v_organization_conference",
+  "v_individual_organization",
+  "v_individual_assistive_technology",
+  "v_assistive_technology_organization",
+  "v_assistive_technology_individual",
+  "v_assistive_technology_communication_goal",
+  "v_communication_goal_organization",
+  "v_communication_goal_assistive_technology",
+  "v_communication_goal_individual",
+  "v_conference_organization",
+  "v_conference_individual",
+  "v_conference_communication_goal"
+ ]
+}

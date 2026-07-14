@@ -1,0 +1,5 @@
+id,note_id,title,version_number,page_count,last_modified,format,lecture_session_id,computational_example_id,created_at,updated_at
+1,account_pymes_100,Compact Initiative,16,6,2022-05-05T04:36:00,pdf,1000,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,5917294,Legacy Model,27,7,2023-10-16T11:53:00,docx,1001,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,9568439,Regional Cluster A,38,0,2024-03-27T18:10:00,markdown,1002,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,168556,Seasonal Review,49,15,2025-08-11T01:27:00,pdf,1003,103,2025-04-16 09:14:00,2025-04-23 15:41:00

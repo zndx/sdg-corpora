@@ -1,0 +1,5 @@
+packet_id,payload_size_bytes,timestamp,encryption_algorithm,protocol_type,is_encrypted,integrity_check_hash,vpn_client_id,vpn_server_id,network_device_id
+gd_acc_762000,34,2024-07-08T18:18:00,primary-encrypti-82,http,false,pilot-integrit-50,1,100,1
+605946,37,2025-12-19T01:35:00,adaptive-encrypti-83,https,true,extended-integrit-51,2,101,2
+32826,40,2022-05-03T08:52:00,distributed-encrypti-84,ftp,false,integrated-integrit-52,3,102,3
+BJamUT,43,2023-10-14T15:09:00,baseline-encrypti-85,ssh,true,seasonal-integrit-53,4,103,4

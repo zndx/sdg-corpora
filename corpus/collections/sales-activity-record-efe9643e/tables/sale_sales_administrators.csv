@@ -1,0 +1,5 @@
+id,admin_id,full_name,department,office_location,weekly_hours,salary_grade,marketing_manager_id,quotation_id,sales_report_id,created_at,updated_at
+1000,2986232,Theodore Mcgrath,adaptive-departme-89,composite-office-99,43,integrated-salary-88,1,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,Account Name,distributed-departme-90,primary-office-100,51,seasonal-salary-89,2,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,859ac854-9bad-11eb-a8a2-19ed5c03f8d3,Saipan International Airport,baseline-departme-91,adaptive-office-101,59,regional-salary-90,3,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,57e4c59a-8fcd-11eb-924d-9cd76263cbd0,Norma Fisher,pilot-departme-92,distributed-office-102,67,legacy-salary-91,4,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

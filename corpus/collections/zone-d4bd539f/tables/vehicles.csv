@@ -1,0 +1,5 @@
+id,vehicle_id,vehicle_model,min_turning_radius,current_x,current_y,current_heading,vehicle_status,route_id,zone_id
+1,5917273,compact-vehicle-80,20.70,6.70,11.95,11.95,idle,1000,1
+2,ptchol,composite-vehicle-81,25.40,8.40,15.90,14.90,planning,1001,2
+3,m09,primary-vehicle-82,30.10,10.10,19.85,17.85,navigating,1002,3
+4,3158135,adaptive-vehicle-83,34.80,11.80,23.80,20.80,parked,1003,4

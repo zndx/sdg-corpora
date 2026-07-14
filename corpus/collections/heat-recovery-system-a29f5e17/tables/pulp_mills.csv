@@ -1,0 +1,5 @@
+id,mill_identifier,location,country,operational_status,primary_product,heat_recovery_system_id,steam_turbine_id
+100,MIL-2782,extended-location-99,compact-country-26,active,compact-primary-20,1,1000
+101,MIL-2784,integrated-location-100,composite-country-27,idle,composite-primary-21,2,1001
+102,MIL-2786,seasonal-location-101,primary-country-28,decommissioned,primary-primary-22,3,1002
+103,MIL-2788,regional-location-102,adaptive-country-29,active,adaptive-primary-23,4,1003

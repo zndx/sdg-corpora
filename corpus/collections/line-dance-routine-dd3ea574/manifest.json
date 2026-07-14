@@ -1,0 +1,152 @@
+{
+ "construct_id": "dd3ea57456afb90f",
+ "slug": "line-dance-routine-dd3ea574",
+ "passage": "dd3ea57456afb90fbefc221698d9a026f1f3030384ad9ea0a3687dd066e3166a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 8,
+ "entities": [
+  "LineDanceRoutine",
+  "DanceSection",
+  "FootworkStep",
+  "AudioTrack",
+  "Choreographer"
+ ],
+ "terms": [
+  {
+   "name": "LineDanceRoutine",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DanceSection",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FootworkStep",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AudioTrack",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Choreographer",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "line_dance_routines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "routine_identifier",
+    "title",
+    "level",
+    "total_wall_count",
+    "total_counts",
+    "bpm",
+    "track_start_offset",
+    "choreographer_name",
+    "dedication_text",
+    "creation_date",
+    "audio_track_id",
+    "choreographer_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "dance_sections",
+   "rows": 4,
+   "columns": [
+    "id",
+    "section_index",
+    "step_count_range",
+    "footwork_description",
+    "calling_suggestion",
+    "section_identifier",
+    "line_dance_routine_id"
+   ]
+  },
+  {
+   "name": "footwork_steps",
+   "rows": 4,
+   "columns": [
+    "footwork_step_id",
+    "step_name",
+    "foot_used",
+    "direction",
+    "turn_angle",
+    "execution_count",
+    "step_type",
+    "dance_section_id"
+   ]
+  },
+  {
+   "name": "audio_tracks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "track_title",
+    "artist_name",
+    "album_title",
+    "tempo_bpm",
+    "total_duration_seconds",
+    "line_dance_routine_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "choreographers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "choreographer_name",
+    "nationality",
+    "creation_date",
+    "dedication_target",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "routines_sections",
+   "rows": 8,
+   "columns": [
+    "line_dance_routine_id",
+    "dance_section_id"
+   ]
+  },
+  {
+   "name": "sections_steps",
+   "rows": 8,
+   "columns": [
+    "dance_section_id",
+    "footwork_step_id"
+   ]
+  },
+  {
+   "name": "choreographers_routines",
+   "rows": 8,
+   "columns": [
+    "choreographer_id",
+    "line_dance_routine_id"
+   ]
+  }
+ ],
+ "views": [
+  "line_dance_routine_dance_section_detail_view",
+  "line_dance_routine_audio_track_view",
+  "line_dance_routine_choreographer_view",
+  "dance_section_line_dance_routine_view",
+  "dance_section_footwork_step_detail_view",
+  "footwork_step_dance_section_view",
+  "audio_track_line_dance_routine_view",
+  "choreographer_line_dance_routine_detail_view"
+ ]
+}

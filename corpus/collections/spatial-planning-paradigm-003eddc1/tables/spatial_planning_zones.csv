@@ -1,0 +1,5 @@
+spatial_planning_zone_id,zone_id,name,region,country,area_km2,transit_oriented_development_id,ecological_system_id
+1,937724,Extended Review,distributed-region-12,compact-country-26,14.70,1,ChIJ9_yxvThu5kcRRx3ldW98aY0
+2,99504,Pilot Initiative A,baseline-region-13,composite-country-27,16.40,2,2002007020090
+3,10207142,Baseline Model,pilot-region-14,primary-country-28,18.10,3,default_chart_a_tax_code_30
+4,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,Distributed Cluster,extended-region-15,adaptive-country-29,19.80,4,136630a8-8fcc-11eb-924d-9cd76263cbd0

@@ -1,0 +1,5 @@
+environmental_variable_id,variable_identifier,variable_name,measurement_unit,trend_direction,impact_severity,observation_period,coastal_zone_id,fishery_survey_id,fishermen_population_id
+1,VAR-2153,Extended Framework,extended-measurem-87,increasing,low,extended-observat-93,100,100,1000
+2,VAR-2155,Pilot Protocol A,integrated-measurem-88,decreasing,moderate,integrated-observat-94,101,101,1001
+3,VAR-2157,Baseline Programme,seasonal-measurem-89,stable,high,seasonal-observat-95,102,102,1002
+4,VAR-2159,Distributed Standard,regional-measurem-90,volatile,critical,regional-observat-96,103,103,1003

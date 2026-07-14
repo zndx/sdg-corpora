@@ -1,0 +1,5 @@
+instrument_code,instrument_name,format,administering_body,validity_period_months,is_deprecated,version_number
+5006445,ACT,Computer,seasonal-administ-83,33,true,VER-2245
+6564383,SAT,Paper,regional-administ-84,37,false,VER-2249
+476,COMPASS,Adaptive,legacy-administ-85,41,true,VER-2253
+12300298,Asset,Computer,compact-administ-86,45,false,VER-2257

@@ -1,0 +1,161 @@
+{
+ "construct_id": "84b708d6b2f644e9",
+ "slug": "advertising-rule-84b708d6",
+ "passage": "84b708d6b2f644e949afd992649cf3ad68512768bbd34d7ce771a0b6b23d1706.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 14,
+ "entities": [
+  "AdvertisingRule",
+  "Advertisement",
+  "Lawyer",
+  "LegalClaim",
+  "Disclaimer",
+  "AdvertisingRequirement"
+ ],
+ "terms": [
+  {
+   "name": "AdvertisingRule",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Advertisement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Lawyer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "LegalClaim",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Disclaimer",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AdvertisingRequirement",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "advertising_rules",
+   "rows": 4,
+   "columns": [
+    "advertising_rule_id",
+    "rule_number",
+    "rule_title",
+    "effective_date",
+    "status",
+    "section_identifier",
+    "advertisement_id"
+   ]
+  },
+  {
+   "name": "advertisements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ad_identifier",
+    "media_type",
+    "publication_date",
+    "compliance_status",
+    "language",
+    "fee_offered",
+    "fee_validity_days",
+    "lawyer_id",
+    "advertising_rule_id",
+    "legal_claim_id",
+    "disclaimer_id"
+   ]
+  },
+  {
+   "name": "lawyers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "bar_membership_number",
+    "lawyer_name",
+    "firm_name",
+    "office_location",
+    "certification_status",
+    "is_outof_state",
+    "practice_areas",
+    "lawyer_id",
+    "advertisement_id",
+    "provides_referral_to_lawyer_id"
+   ]
+  },
+  {
+   "name": "legal_claims",
+   "rows": 4,
+   "columns": [
+    "legal_claim_id",
+    "claim_text",
+    "claim_type",
+    "is_verifiable",
+    "is_misleading",
+    "requires_disclaimer",
+    "disclaimer_text",
+    "advertisement_id",
+    "advertising_rule_id"
+   ]
+  },
+  {
+   "name": "disclaimers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "disclaimer_text",
+    "disclaimer_type",
+    "prominence_level",
+    "is_mandatory",
+    "advertisement_id",
+    "advertising_rule_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "advertising_requirements",
+   "rows": 4,
+   "columns": [
+    "advertising_requirement_id",
+    "requirement_text",
+    "requirement_category",
+    "is_safe_harbor",
+    "applies_to_media",
+    "advertising_rule_id",
+    "advertisement_id"
+   ]
+  },
+  {
+   "name": "rules_requirements",
+   "rows": 8,
+   "columns": [
+    "advertising_rule_id",
+    "advertising_requirement_id"
+   ]
+  }
+ ],
+ "views": [
+  "advertising_rule_advertising_requirement_detail_view",
+  "advertising_rule_advertisement_view",
+  "advertisement_lawyer_view",
+  "advertisement_advertising_rule_view",
+  "advertisement_legal_claim_view",
+  "advertisement_disclaimer_view",
+  "lawyer_lawyer_view",
+  "lawyer_advertisement_view",
+  "legal_claim_advertisement_view",
+  "legal_claim_advertising_rule_view",
+  "disclaimer_advertisement_view",
+  "disclaimer_advertising_rule_view",
+  "advertising_requirement_advertising_rule_view",
+  "advertising_requirement_advertisement_view"
+ ]
+}

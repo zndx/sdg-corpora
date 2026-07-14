@@ -1,0 +1,89 @@
+{
+ "construct_id": "1dcabe79064dd793",
+ "slug": "microenterprise-1dcabe79",
+ "passage": "1dcabe79064dd793ccbc011d2baea026ecdcc27318c2813be497d405d272495b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 4,
+ "n_views": 4,
+ "entities": [
+  "Microenterprise",
+  "RECPPractice",
+  "ProjectActivity"
+ ],
+ "terms": [
+  {
+   "name": "Microenterprise",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RECPPractice",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProjectActivity",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "microenterprises",
+   "rows": 4,
+   "columns": [
+    "microenterprise_id",
+    "identifier",
+    "legal_name",
+    "cluster_location",
+    "sector_type",
+    "registration_date",
+    "is_demonstration_site",
+    "project_activity_id",
+    "r_e_c_p_practice_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "r_e_c_p_practices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "practice_code",
+    "practice_name",
+    "category",
+    "resource_efficiency_gain",
+    "climate_resilience_score",
+    "adoption_status",
+    "microenterprise_id"
+   ]
+  },
+  {
+   "name": "project_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_i_d",
+    "activity_type",
+    "start_date",
+    "end_date",
+    "status",
+    "location"
+   ]
+  },
+  {
+   "name": "activities_microenterprises",
+   "rows": 8,
+   "columns": [
+    "project_activity_id",
+    "microenterprise_id"
+   ]
+  }
+ ],
+ "views": [
+  "microenterprise_project_activity_view",
+  "microenterprise_r_e_c_p_practice_view",
+  "r_e_c_p_practice_microenterprise_view",
+  "project_activity_microenterprise_detail_view"
+ ]
+}

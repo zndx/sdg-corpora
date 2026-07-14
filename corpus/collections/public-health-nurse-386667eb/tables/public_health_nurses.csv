@@ -1,0 +1,5 @@
+id,nurse_id,full_name,license_number,contact_phone,email,status,school_id,board_id,created_at,updated_at
+1,6969414,Theodore Mcgrath,LIC-2589,Joe Tsai,seasonal-email-11,active,1,ChIJH2V4UYBt5kcR5doeFwuU7Ns,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2b2bb518-8fcd-11eb-924d-9cd76263cbd0,Account Name,LIC-2596,Stephanie Collins,regional-email-12,inactive,2,168553,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,1250196,Saipan International Airport,LIC-2603,Tasha Rodriguez,legacy-email-13,on_leave,3,5006454,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,9125616,Norma Fisher,LIC-2610,Walter Pratt,compact-email-14,active,4,1437585,2025-04-16 09:14:00,2025-04-23 15:41:00

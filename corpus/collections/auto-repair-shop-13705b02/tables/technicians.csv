@@ -1,0 +1,5 @@
+id,technician_id,first_name,last_name,hourly_rate,skill_level,is_assigned_to_repair,auto_repair_shop_id,task_id
+1000,611494,Stephanie Collins,Paul Allen,13.45,entry_level,true,100,7731870
+1001,5006464,Janice Johnston,Heather Beasley,17.90,basic,false,101,id_28
+1002,2404,Upal Saha,Audrey Taylor,22.35,master,true,102,7119763
+1003,1186102,Katherine Snyder,Susan Wagner,26.80,entry_level,false,103,lu_tax_code_template_m82

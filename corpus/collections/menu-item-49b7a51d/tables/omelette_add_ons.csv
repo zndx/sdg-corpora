@@ -1,0 +1,5 @@
+id,add_on_id,name,additional_cost,category,menu_item_id,ingredient_id
+100,4011,Extended Review,0.11,Cheese,MEN-2563,1
+101,68f46afd953b4de8824b596a1bff565c,Pilot Initiative A,13.13,Vegetable,MEN-2569,2
+102,974918,Baseline Model,0.22,Meat,MEN-2575,3
+103,884345,Distributed Cluster,9.99,Premium,MEN-2581,4

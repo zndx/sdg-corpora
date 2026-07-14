@@ -1,0 +1,5 @@
+beverage_id,beverage_name,price,type,is_available,party_platter_id,box_lunch_id
+884345,Compact Initiative,12.87,soft_drink,true,1000,1
+4447029,Legacy Model,35.45,water,false,1001,2
+2002007020170,Regional Cluster A,29.24,juice,true,1002,3
+3158148,Seasonal Review,29.99,soft_drink,false,1003,4

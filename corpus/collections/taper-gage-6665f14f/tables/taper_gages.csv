@@ -1,0 +1,5 @@
+id,gage_type,tool_number,mark_size,large_end_diameter,small_end_diameter,taper_rate,taper_tolerance,included_angle,dimensional_specification_id,tolerance_requirement_id
+1000,Ring,TOO-2137,compact-mark-38,21.95,13.45,15.45,5.95,7.20,100,1
+1001,Plug,TOO-2139,composite-mark-39,25.90,16.90,19.90,7.90,11.40,101,2
+1002,Ring,TOO-2141,primary-mark-40,29.85,20.35,24.35,9.85,15.60,102,3
+1003,Plug,TOO-2143,adaptive-mark-41,33.80,23.80,28.80,11.80,19.80,103,4

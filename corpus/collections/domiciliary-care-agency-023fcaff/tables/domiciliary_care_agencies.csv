@@ -1,0 +1,5 @@
+domiciliary_care_agency_id,registration_number,legal_name,physical_address,telephone,website,operational_status,registered_manager_id,regulatory_inspection_id,created_at,updated_at
+100,REG-2136,Adaptive Model,pilot-physical-98,adaptive-telephon-23,https://bugs.launchpad.net/murano/+bug/1294080,active,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,REG-2142,Primary Cluster,extended-physical-99,distributed-telephon-24,https://bugs.launchpad.net/murano/+bug/1294080,suspended,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,REG-2148,Composite Review D,integrated-physical-100,baseline-telephon-25,https://www.nature.com/articles/nphoton.2008.245,closed,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,REG-2154,Compact Initiative,seasonal-physical-101,pilot-telephon-26,https://bugs.launchpad.net/trove/+bug/1347114,active,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,requirement_id,category,required_credits,is_optional,effective_date,course_id,degree_program_id
+1,778568,Business Core,27,true,2023-02-14T13:27:00,1,1
+2,lu_tax_code_template_b_VB-EC-0,Professional Development,36,false,2024-07-25T20:44:00,2,2
+3,99901,Elective,45,true,2025-12-09T03:01:00,3,3
+4,5917277,Business Core,54,false,2022-05-20T10:18:00,4,4

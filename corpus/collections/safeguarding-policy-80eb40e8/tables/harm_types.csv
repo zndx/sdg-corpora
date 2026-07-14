@@ -1,0 +1,5 @@
+id,harm_code,harm_category,severity_level,description,requires_mandatory_reporting
+100,3001009030150,compact-harm-68,29,Extended Survey,true
+101,52ef0c068b8f4ba5b4fcc52c95ef9e5e,composite-harm-69,40,Pilot Corridor A,false
+102,gd_taxc_1211,primary-harm-70,51,Baseline Series,true
+103,10966231,adaptive-harm-71,62,Distributed Assessment,false

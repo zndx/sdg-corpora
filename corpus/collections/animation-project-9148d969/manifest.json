@@ -1,0 +1,176 @@
+{
+ "construct_id": "9148d9695d6e360c",
+ "slug": "animation-project-9148d969",
+ "passage": "9148d9695d6e360c9f47eb0622f0de3f5a14ed93deb358c62478af283c737c95.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "AnimationProject",
+  "DigitalAsset",
+  "RiggingSystem",
+  "AnimationControl",
+  "AudioTrack",
+  "SoftwareTool",
+  "VideoFile"
+ ],
+ "terms": [
+  {
+   "name": "AnimationProject",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DigitalAsset",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "RiggingSystem",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AnimationControl",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AudioTrack",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SoftwareTool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "VideoFile",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "animation_projects",
+   "rows": 4,
+   "columns": [
+    "animation_project_id",
+    "project_identifier",
+    "project_title",
+    "creation_date",
+    "total_frames",
+    "render_resolution",
+    "is_rigged",
+    "has_green_screen",
+    "software_tool_id",
+    "digital_asset_id",
+    "audio_track_id",
+    "video_file_id"
+   ]
+  },
+  {
+   "name": "digital_assets",
+   "rows": 4,
+   "columns": [
+    "id",
+    "asset_identifier",
+    "asset_name",
+    "asset_type",
+    "polygon_count",
+    "is_rigged",
+    "source_origin",
+    "animation_project_id",
+    "rigging_system_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "rigging_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rig_identifier",
+    "rig_type",
+    "joint_count",
+    "has_controls",
+    "is_constrained",
+    "digital_asset_id",
+    "animation_control_id"
+   ]
+  },
+  {
+   "name": "animation_controls",
+   "rows": 4,
+   "columns": [
+    "id",
+    "control_identifier",
+    "control_name",
+    "control_type",
+    "is_constrained",
+    "rigging_system_id",
+    "digital_asset_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "audio_tracks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "track_identifier",
+    "track_title",
+    "file_format",
+    "is_original",
+    "duration_seconds",
+    "animation_project_id",
+    "software_tool_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "software_tools",
+   "rows": 4,
+   "columns": [
+    "software_tool_id",
+    "tool_identifier",
+    "tool_name",
+    "tool_category",
+    "version",
+    "animation_project_id",
+    "audio_track_id"
+   ]
+  },
+  {
+   "name": "video_files",
+   "rows": 4,
+   "columns": [
+    "id",
+    "file_identifier",
+    "file_name",
+    "file_format",
+    "resolution",
+    "has_lighting",
+    "animation_project_id",
+    "software_tool_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_animation_project_software_tool",
+  "vw_animation_project_digital_asset",
+  "vw_animation_project_audio_track",
+  "vw_animation_project_video_file",
+  "vw_digital_asset_animation_project",
+  "vw_digital_asset_rigging_system",
+  "vw_rigging_system_digital_asset",
+  "vw_rigging_system_animation_control",
+  "vw_animation_control_rigging_system",
+  "vw_animation_control_digital_asset",
+  "vw_audio_track_animation_project",
+  "vw_audio_track_software_tool",
+  "vw_software_tool_animation_project",
+  "vw_software_tool_audio_track",
+  "vw_video_file_animation_project",
+  "vw_video_file_software_tool"
+ ]
+}

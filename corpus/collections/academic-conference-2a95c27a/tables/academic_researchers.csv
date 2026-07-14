@@ -1,0 +1,5 @@
+id,identifier,full_name,affiliation,email,role,is_fellow,academic_institution_id,steering_committee_id,programme_committee_id,local_organization_committee_id,academic_lecture_id,academic_paper_id
+1,IDE-2086,Theodore Mcgrath,baseline-affiliat-55,seasonal-email-11,plenary-speaker,false,1000,100,1000,1,100,100
+2,IDE-2091,Account Name,pilot-affiliat-56,regional-email-12,invited-speaker,true,1001,101,1001,2,101,101
+3,IDE-2096,Saipan International Airport,extended-affiliat-57,legacy-email-13,contributed-author,false,1002,102,1002,3,102,102
+4,IDE-2101,Norma Fisher,integrated-affiliat-58,compact-email-14,committee-member,true,1003,103,1003,4,103,103

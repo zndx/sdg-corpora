@@ -1,0 +1,5 @@
+donor_id,donor_name,street_address,city,state,zip_code,email_address,is_anonymous,donation_id,contact_request_id
+3012833,Regional Framework,composite-street-15,integrated-city-34,distributed-state-84,69434,primary-email-70,true,1,1
+05c8953a-8fc7-11eb-924d-9cd76263cbd0,Seasonal Protocol D,primary-street-16,seasonal-city-35,baseline-state-85,13589,adaptive-email-71,false,2,2
+4793488,Integrated Programme,adaptive-street-17,regional-city-36,pilot-state-86,9bb5fec0-8fcc-11eb-924d-9cd76263cbd0,distributed-email-72,true,3,3
+3717626,Extended Standard,distributed-street-18,legacy-city-37,extended-state-87,1250214,baseline-email-73,false,4,4

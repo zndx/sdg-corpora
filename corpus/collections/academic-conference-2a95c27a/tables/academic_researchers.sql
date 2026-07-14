@@ -1,0 +1,22 @@
+CREATE TABLE academic_researchers (
+  id INTEGER NOT NULL,
+  identifier VARCHAR(32),
+  full_name VARCHAR(36),
+  affiliation VARCHAR(32),
+  email VARCHAR(32),
+  role VARCHAR(32),
+  is_fellow BOOLEAN,
+  academic_institution_id INTEGER,
+  steering_committee_id INTEGER,
+  programme_committee_id INTEGER,
+  local_organization_committee_id INTEGER,
+  academic_lecture_id INTEGER,
+  academic_paper_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (academic_institution_id) REFERENCES academic_institutions (id),
+  FOREIGN KEY (steering_committee_id) REFERENCES steering_committees (id),
+  FOREIGN KEY (programme_committee_id) REFERENCES programme_committees (programme_committee_id),
+  FOREIGN KEY (local_organization_committee_id) REFERENCES local_organization_committees (id),
+  FOREIGN KEY (academic_lecture_id) REFERENCES academic_lectures (id),
+  FOREIGN KEY (academic_paper_id) REFERENCES academic_papers (id)
+);

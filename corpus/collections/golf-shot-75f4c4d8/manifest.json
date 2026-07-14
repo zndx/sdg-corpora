@@ -1,0 +1,168 @@
+{
+ "construct_id": "75f4c4d8ce3be0bd",
+ "slug": "golf-shot-75f4c4d8",
+ "passage": "75f4c4d8ce3be0bda9dbbbda4cc735d1bafd92d37af7cf355ceb0f6c685fe04e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 6,
+ "entities": [
+  "GolfShot",
+  "GolfClub",
+  "Golfer",
+  "TargetSpot",
+  "ShotRoutine",
+  "GripTechnique",
+  "AimProcedure",
+  "PostureSetup"
+ ],
+ "terms": [
+  {
+   "name": "GolfShot",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GolfClub",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Golfer",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TargetSpot",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ShotRoutine",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GripTechnique",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AimProcedure",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PostureSetup",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "GolfShot",
+   "rows": 4,
+   "columns": [
+    "shotId",
+    "shotType",
+    "distance",
+    "direction",
+    "decision",
+    "outcome",
+    "observedResult",
+    "clubId",
+    "golferId",
+    "spotId"
+   ]
+  },
+  {
+   "name": "GolfClub",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clubId",
+    "clubType",
+    "material",
+    "length",
+    "weight",
+    "loft"
+   ]
+  },
+  {
+   "name": "Golfer",
+   "rows": 4,
+   "columns": [
+    "golferId",
+    "name",
+    "handPreference",
+    "skillLevel",
+    "routine"
+   ]
+  },
+  {
+   "name": "TargetSpot",
+   "rows": 4,
+   "columns": [
+    "id",
+    "spotId",
+    "xCoordinate",
+    "yCoordinate",
+    "zCoordinate",
+    "surfaceType",
+    "distanceFromHole"
+   ]
+  },
+  {
+   "name": "ShotRoutine",
+   "rows": 4,
+   "columns": [
+    "routineId",
+    "routineName",
+    "steps",
+    "duration",
+    "successRate",
+    "techniqueId",
+    "procedureId",
+    "setupId"
+   ]
+  },
+  {
+   "name": "GripTechnique",
+   "rows": 4,
+   "columns": [
+    "techniqueId",
+    "techniqueName",
+    "handPlacement",
+    "pressure",
+    "applicableShotTypes"
+   ]
+  },
+  {
+   "name": "AimProcedure",
+   "rows": 4,
+   "columns": [
+    "procedureId",
+    "procedureName",
+    "targetLine",
+    "alignmentMethod",
+    "visualCue"
+   ]
+  },
+  {
+   "name": "PostureSetup",
+   "rows": 4,
+   "columns": [
+    "id",
+    "setupId",
+    "setupName",
+    "hipAngle",
+    "armPosition",
+    "weightDistribution",
+    "createdAt",
+    "updatedAt"
+   ]
+  }
+ ],
+ "views": [
+  "golf_shot_golf_club_view",
+  "golf_shot_golfer_view",
+  "golf_shot_target_spot_view",
+  "shot_routine_grip_technique_view",
+  "shot_routine_aim_procedure_view",
+  "shot_routine_posture_setup_view"
+ ]
+}

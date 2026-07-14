@@ -1,0 +1,5 @@
+id,structure_id,pdb_code,resolution,method,date_resolved,chain_count,rmsd_value,software_tool_id,protein_id
+1000,2405,c746bff2-8fcc-11eb-924d-9cd76263cbd0,13.20,seasonal-method-77,2022-09-15T20:48:00,16,13.95,100,1
+1001,7441140,9736914,16.40,regional-method-78,2023-02-26T03:05:00,0,15.90,101,2
+1002,7119772,b_VB-IC-6,19.60,legacy-method-79,2024-07-10T10:22:00,7,17.85,102,3
+1003,1996930,8189500,22.80,compact-method-80,2025-12-21T17:39:00,0,19.80,103,4

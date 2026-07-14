@@ -1,0 +1,5 @@
+id,statementText,isNecessary,isUniversal,requiresConstruction,proofMethod,conceptId,hasPredicateConceptConceptId
+100,regional-statemen-60,true,true,false,primary-proof-16,1,1
+101,legacy-statemen-61,false,false,true,adaptive-proof-17,2,2
+102,compact-statemen-62,true,true,false,distributed-proof-18,3,3
+103,composite-statemen-63,false,false,true,baseline-proof-19,4,4

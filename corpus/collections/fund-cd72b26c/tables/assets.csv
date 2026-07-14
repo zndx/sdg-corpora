@@ -1,0 +1,5 @@
+asset_id,asset_identifier,asset_name,asset_type,market_cap,sector,country_of_incorporation,currency_denomination,is_equity,is_fixed_income,underlying_fund_id,benchmark_index_id
+1,ASS-2752,Pilot Programme,pilot-asset-86,3.95,adaptive-sector-53,adaptive-country-11,primary-currency-16,false,false,100,1
+2,ASS-2756,Baseline Standard,extended-asset-87,5.90,distributed-sector-54,distributed-country-12,adaptive-currency-17,true,true,101,2
+3,ASS-2760,Distributed Framework A,integrated-asset-88,7.85,baseline-sector-55,baseline-country-13,distributed-currency-18,false,false,102,3
+4,ASS-2764,Adaptive Protocol,seasonal-asset-89,9.80,pilot-sector-56,pilot-country-14,baseline-currency-19,true,true,103,4

@@ -1,0 +1,5 @@
+surveillance_installation_id,installation_id,project_name,target_scale,deployment_date,status,total_cost,server_hardware_id,storage_system_id,video_management_software_id,client_organization_org_id,channel_partner_id
+100,5917288,Compact Survey,small-scale,2023-02-14T13:51:00,designing,61.82,100,1,1,790471,1
+101,325468,Legacy Corridor,mid-sized,2024-07-25T20:08:00,implementation,89.53,101,2,2,1717,2
+102,2106712,Regional Series A,large-scale,2025-12-09T03:25:00,pricing,29.24,102,3,3,69437,3
+103,611502,Seasonal Assessment,small-scale,2022-05-20T10:42:00,complete,13.94,103,4,4,m16,4

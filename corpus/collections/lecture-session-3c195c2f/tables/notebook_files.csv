@@ -1,0 +1,5 @@
+notebook_file_id,file_identifier,file_name,file_extension,creation_date,checksum,computational_example_id
+1,FIL-2398,Compact Standard,baseline-file-67,2022-01-13,integrated-checksum-40,1000
+2,FIL-2400,Legacy Framework,pilot-file-68,2023-06-24,seasonal-checksum-41,1001
+3,FIL-2402,Regional Protocol A,extended-file-69,2024-11-08,regional-checksum-42,1002
+4,FIL-2404,Seasonal Programme,integrated-file-70,2025-04-19,legacy-checksum-43,1003

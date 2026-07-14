@@ -1,0 +1,5 @@
+organizational_unit_id,unit_identifier,unit_name,department_type,implementation_role,information_logistics_strategy_id,analytical_information_system_id,created_at
+1,UNI-2580,Compact Series,finance,planner,1,1,2025-01-01 00:14:00
+2,UNI-2584,Legacy Assessment,operations,implementer,2,2,2025-02-06 03:14:00
+3,UNI-2588,Regional Survey A,IT,user,3,3,2025-03-11 06:14:00
+4,UNI-2592,Seasonal Corridor,HR,governor,4,4,2025-04-16 09:14:00

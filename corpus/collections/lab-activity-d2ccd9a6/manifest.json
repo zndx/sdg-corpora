@@ -1,0 +1,180 @@
+{
+ "construct_id": "d2ccd9a655da9c30",
+ "slug": "lab-activity-d2ccd9a6",
+ "passage": "d2ccd9a655da9c30105dffd7c73610dd149aa15eb1f2b01aba68e139a412594a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 12,
+ "entities": [
+  "LabActivity",
+  "FacultyMember",
+  "Student",
+  "TeachingAssistant",
+  "Course",
+  "LabMaterial"
+ ],
+ "terms": [
+  {
+   "name": "LabActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FacultyMember",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "TeachingAssistant",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LabMaterial",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "lab_activities",
+   "rows": 4,
+   "columns": [
+    "lab_activity_id",
+    "activity_id",
+    "title",
+    "description",
+    "duration_minutes",
+    "difficulty_level",
+    "status",
+    "faculty_member_id",
+    "lab_material_id"
+   ]
+  },
+  {
+   "name": "faculty_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "faculty_id",
+    "first_name",
+    "last_name",
+    "department",
+    "email",
+    "years_of_service",
+    "teaching_assistant_ta_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "first_name",
+    "last_name",
+    "major",
+    "enrollment_status",
+    "course_id"
+   ]
+  },
+  {
+   "name": "teaching_assistants",
+   "rows": 4,
+   "columns": [
+    "ta_id",
+    "first_name",
+    "last_name",
+    "assigned_course",
+    "hours_per_week",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_code",
+    "course_name",
+    "credits",
+    "semester",
+    "department",
+    "faculty_member_id"
+   ]
+  },
+  {
+   "name": "lab_materials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_id",
+    "name",
+    "quantity",
+    "unit",
+    "storage_location",
+    "lab_activity_id"
+   ]
+  },
+  {
+   "name": "activities_students",
+   "rows": 8,
+   "columns": [
+    "lab_activity_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "members_activities",
+   "rows": 8,
+   "columns": [
+    "faculty_member_id",
+    "lab_activity_id"
+   ]
+  },
+  {
+   "name": "students_activities",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "lab_activity_id"
+   ]
+  },
+  {
+   "name": "assistants_students",
+   "rows": 8,
+   "columns": [
+    "teaching_assistant_ta_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "courses_activities",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "lab_activity_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_lab_activity_faculty_member",
+  "v_lab_activity_student_detail",
+  "v_lab_activity_lab_material",
+  "v_faculty_member_lab_activity_detail",
+  "v_faculty_member_teaching_assistant",
+  "v_student_course",
+  "v_student_lab_activity_detail",
+  "v_teaching_assistant_faculty_member",
+  "v_teaching_assistant_student_detail",
+  "v_course_lab_activity_detail",
+  "v_course_faculty_member",
+  "v_lab_material_lab_activity"
+ ]
+}

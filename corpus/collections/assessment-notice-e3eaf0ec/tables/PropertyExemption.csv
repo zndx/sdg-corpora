@@ -1,0 +1,5 @@
+exemptionId,exemptionIdentifier,exemptionType,taxYear,reductionAmount,status,applicationDate,parcelLandUseCode,assessorsId
+1,EXE-2099,Personal Property,26,5.06,Pending,2022-05-16,IVC10,1
+2,EXE-2103,Conservation Use,36,"76,784",Submitted for Approval,2023-10-27,1202-0001-S,2
+3,EXE-2107,Homestead,46,"1,979",Approved,2024-03-11,82873,3
+4,EXE-2111,Disability,56,89.53,Rejected,2025-08-22,1336178,4

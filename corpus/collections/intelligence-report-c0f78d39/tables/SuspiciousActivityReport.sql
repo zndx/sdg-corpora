@@ -1,0 +1,20 @@
+CREATE TABLE SuspiciousActivityReport (
+  id INTEGER NOT NULL,
+  sarIdentifier VARCHAR(32),
+  reportDate TIMESTAMP,
+  activityType VARCHAR(34),
+  reviewStatus VARCHAR(34),
+  privacyComplianceCheck BOOLEAN,
+  reviewingAnalystID VARCHAR(32),
+  unitId INTEGER,
+  interestId INTEGER,
+  reportId INTEGER,
+  agencyId INTEGER,
+  createdAt TIMESTAMP,
+  updatedAt TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (unitId) REFERENCES IntelligenceUnit (id),
+  FOREIGN KEY (interestId) REFERENCES SubjectOfInterest (interestId),
+  FOREIGN KEY (reportId) REFERENCES IntelligenceReport (id),
+  FOREIGN KEY (agencyId) REFERENCES PartnerAgency (agencyId)
+);

@@ -1,0 +1,5 @@
+insurance_product_id,product_id,product_name,product_type,underwriter,coverage_scope,financial_institution_id
+100,PRO-2172,Composite Assessment,pilot-product-50,extended-underwri-51,extended-coverage-81,1
+101,PRO-2179,Compact Survey A,extended-product-51,integrated-underwri-52,integrated-coverage-82,2
+102,PRO-2186,Legacy Corridor,integrated-product-52,seasonal-underwri-53,seasonal-coverage-83,3
+103,PRO-2193,Regional Series,seasonal-product-53,regional-underwri-54,regional-coverage-84,4

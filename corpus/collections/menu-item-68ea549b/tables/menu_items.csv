@@ -1,0 +1,5 @@
+id,item_id,name,price,category,is_vegetarian,description,weight_grams,ingredient_id,course_id
+100,ITE-2792,Extended Review,12.87,APERITIF COCKTAILS,true,Extended Survey,22,1,6983
+101,ITE-2795,Pilot Initiative A,35.45,STARTERS,false,Pilot Corridor A,32,2,8189505
+102,ITE-2798,Baseline Model,29.24,MAINS,true,Baseline Series,42,3,9246307
+103,ITE-2801,Distributed Cluster,29.99,VEGETABLES & SALADS,false,Distributed Assessment,52,4,99615

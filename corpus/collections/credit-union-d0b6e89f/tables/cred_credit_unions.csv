@@ -1,0 +1,5 @@
+id,identifier,legal_name,founding_date,headquarters_city,headquarters_state,member_eligibility_criteria,regulatory_status,executive_role_id,award_id
+1,IDE-2086,Adaptive Model,2023-06-24,seasonal-headquar-83,compact-headquar-74,regional-member-66,NCRUC,1,1000
+2,IDE-2091,Primary Cluster,2024-11-08,regional-headquar-84,composite-headquar-75,legacy-member-67,NCUA,2,1001
+3,IDE-2096,Composite Review D,2025-04-19,legacy-headquar-85,primary-headquar-76,compact-member-68,NCRUC,3,1002
+4,IDE-2101,Compact Initiative,2022-09-03,compact-headquar-86,adaptive-headquar-77,composite-member-69,NCUA,4,1003

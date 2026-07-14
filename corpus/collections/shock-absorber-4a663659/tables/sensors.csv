@@ -1,0 +1,5 @@
+id,identifier,type,accuracy,status,installation_date,calibration_date,temperature_reading_id,power_system_id,structure_id
+100,IDE-2086,composite-type-69,17.20,pending,2022-01-10T00:12:00,2023-02-08T01:51:00,1,100,1000
+101,IDE-2091,primary-type-70,21.40,running,2023-06-21T07:29:00,2024-07-19T08:08:00,2,101,1001
+102,IDE-2096,adaptive-type-71,25.60,complete,2024-11-05T14:46:00,2025-12-03T15:25:00,3,102,1002
+103,IDE-2101,distributed-type-72,29.80,failed,2025-04-16T21:03:00,2022-05-14T22:42:00,4,103,1003

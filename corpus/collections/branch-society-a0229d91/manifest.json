@@ -1,0 +1,166 @@
+{
+ "construct_id": "a0229d91d58ecbc6",
+ "slug": "branch-society-a0229d91",
+ "passage": "a0229d91d58ecbc60fbb17624d8e8e88ff8d4c054e747eb5e6a4b9c2a6e448a6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 14,
+ "entities": [
+  "BranchSociety",
+  "BranchMeeting",
+  "Physician",
+  "Committee",
+  "Location",
+  "CommitteeMeeting"
+ ],
+ "terms": [
+  {
+   "name": "BranchSociety",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BranchMeeting",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Physician",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Committee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Location",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CommitteeMeeting",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "BranchSociety",
+   "rows": 4,
+   "columns": [
+    "societyId",
+    "branchCode",
+    "geographicArea",
+    "meetingFrequency",
+    "primaryAddress",
+    "meetingId",
+    "physicianId"
+   ]
+  },
+  {
+   "name": "BranchMeeting",
+   "rows": 4,
+   "columns": [
+    "meetingId",
+    "meetingDate",
+    "startTime",
+    "durationHours",
+    "location",
+    "topic",
+    "status",
+    "societyId",
+    "physicianId"
+   ]
+  },
+  {
+   "name": "Physician",
+   "rows": 4,
+   "columns": [
+    "physicianId",
+    "physicianID",
+    "fullName",
+    "age",
+    "yearsInPractice",
+    "primaryAddress",
+    "membershipStatus",
+    "societyId",
+    "meetingId",
+    "committeeCode"
+   ]
+  },
+  {
+   "name": "Committee",
+   "rows": 4,
+   "columns": [
+    "committeeName",
+    "committeeCode",
+    "meetingFrequency",
+    "meetingTime",
+    "meetingLocation",
+    "appointmentMonth",
+    "locationId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "Location",
+   "rows": 4,
+   "columns": [
+    "id",
+    "locationID",
+    "address",
+    "city",
+    "state",
+    "venueType",
+    "meetingId",
+    "hostsMeetingMeetingId"
+   ]
+  },
+  {
+   "name": "CommitteeMeeting",
+   "rows": 4,
+   "columns": [
+    "meetingId",
+    "meetingDate",
+    "startTime",
+    "durationHours",
+    "agenda",
+    "status",
+    "committeeCode",
+    "locationId"
+   ]
+  },
+  {
+   "name": "CommitteePhysician",
+   "rows": 8,
+   "columns": [
+    "committeeCode",
+    "physicianId"
+   ]
+  },
+  {
+   "name": "CommitteeMeetingPhysician",
+   "rows": 8,
+   "columns": [
+    "meetingId",
+    "physicianId"
+   ]
+  }
+ ],
+ "views": [
+  "v_branch_society_branch_meeting",
+  "v_branch_society_physician",
+  "v_branch_meeting_branch_society",
+  "v_branch_meeting_physician",
+  "v_physician_branch_society",
+  "v_physician_branch_meeting",
+  "v_physician_committee",
+  "v_committee_location",
+  "v_committee_physician_detail",
+  "v_location_branch_meeting",
+  "v_location_committee_meeting",
+  "v_committee_meeting_committee",
+  "v_committee_meeting_location",
+  "v_committee_meeting_physician_detail"
+ ]
+}

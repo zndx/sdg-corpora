@@ -1,0 +1,5 @@
+heat_transport_mechanism_id,mechanism_id,mechanism_type,transport_speed,recharge_rate,time_scale,energy_resource_id,energy_extraction_id
+1,2106718,advection,fast,9.70,human time scale,1,1
+2,9085252,thermal conduction,slow,14.40,geological time scale,2,2
+3,2935,convection,instantaneous,19.10,centuries,3,3
+4,TERIMA,advection,fast,23.80,human time scale,4,4

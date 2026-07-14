@@ -1,0 +1,5 @@
+workplace_award_id,award_id,award_name,award_year,rank,issuing_body,criteria_met,award_description,organization_id,workplace_survey_id,media_partner_id
+1,e02275d4-8fd1-11eb-924d-9cd76263cbd0,Primary Review A,36,16,baseline-issuing-13,false,Composite Cluster,1,1,1
+2,3012811,Composite Initiative,43,20,pilot-issuing-14,true,Compact Review A,2,2,2
+3,15493350,Compact Model,50,24,extended-issuing-15,false,Legacy Initiative,3,3,3
+4,state_uk_17,Legacy Cluster D,57,28,integrated-issuing-16,true,Regional Model,4,4,4

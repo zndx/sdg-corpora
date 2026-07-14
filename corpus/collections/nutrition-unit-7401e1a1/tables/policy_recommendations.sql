@@ -1,0 +1,21 @@
+CREATE TABLE policy_recommendations (
+  id INTEGER NOT NULL,
+  policy_id VARCHAR(35),
+  policy_title VARCHAR(32),
+  issue_date DATE,
+  target_policy_area VARCHAR(32),
+  adoption_status VARCHAR(32),
+  influence_level VARCHAR(32),
+  source_study VARCHAR(32),
+  research_study_id INTEGER,
+  government_body_id INTEGER,
+  beneficiary_group_id INTEGER,
+  nutrition_unit_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (research_study_id) REFERENCES research_studies (research_study_id),
+  FOREIGN KEY (government_body_id) REFERENCES government_bodies (government_body_id),
+  FOREIGN KEY (beneficiary_group_id) REFERENCES beneficiary_groups (beneficiary_group_id),
+  FOREIGN KEY (nutrition_unit_id) REFERENCES nutrition_units (id)
+);

@@ -1,0 +1,5 @@
+social_issue_id,issue_category,severity_level,requires_law_enforcement,hotline_service_phone_number,social_service_resource_id
+1,Substance Abuse,Low,false,PHO-2092,1000
+2,Mental Health,Moderate,true,PHO-2093,1001
+3,Human Trafficking,High,false,PHO-2094,1002
+4,Sexual Assault,Critical,true,PHO-2095,1003

@@ -1,0 +1,5 @@
+id,stream_identifier,source_process,temperature,humidity_level,flow_rate,fouling_potential,heat_recovery_system_id,pulp_mill_id
+100,STR-2595,seasonal-source-77,1.33,primary-humidity-46,11.45,low,1,100
+101,STR-2599,regional-source-78,1.1714807757148185,adaptive-humidity-47,15.90,medium,2,101
+102,STR-2603,legacy-source-79,0.51,distributed-humidity-48,20.35,high,3,102
+103,STR-2607,compact-source-80,0.85,baseline-humidity-49,24.80,low,4,103

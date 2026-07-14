@@ -1,0 +1,5 @@
+id,species_code,common_name,is_primary_vector,breeding_preference,is_urban_adapted,pathogen_id,surveillance_site_id
+1,Aedes aegypti,Seasonal Review,false,seasonal-breeding-59,true,1,1
+2,Aedes albopictus,Integrated Initiative,true,regional-breeding-60,false,2,2
+3,Aedes aegypti,Extended Model D,false,legacy-breeding-61,true,3,3
+4,Aedes albopictus,Pilot Cluster,true,compact-breeding-62,false,4,4

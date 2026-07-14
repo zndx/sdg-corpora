@@ -1,0 +1,5 @@
+ingredient_id,name,state,is_allergen,origin,menu_line_item_id
+100,Extended Review,Solid,false,distributed-origin-66,1
+101,Pilot Initiative A,Liquid,true,baseline-origin-67,2
+102,Baseline Model,Creamy,false,pilot-origin-68,3
+103,Distributed Cluster,Solid,true,extended-origin-69,4

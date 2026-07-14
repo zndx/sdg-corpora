@@ -1,0 +1,5 @@
+id,script_id,script_name,platform,is_legacy,execution_frequency,server_id,data_transaction_id
+1,2618563,Baseline Series D,Windows,true,OnDemand,100,1
+2,13683100-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,HP-UX,false,Scheduled,101,2
+3,5844258,Adaptive Survey,Red Hat Enterprise Linux,true,Continuous,102,3
+4,9736895,Primary Corridor A,Sun Solaris,false,OnDemand,103,4

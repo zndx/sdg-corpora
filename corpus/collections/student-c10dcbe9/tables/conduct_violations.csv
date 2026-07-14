@@ -1,0 +1,5 @@
+id,violation_id,description,date_of_incident,location,severity_level,status,student_id,student_conduct_board_id,student_conduct_administrator_id,created_at
+1,3990166,Extended Survey,2023-06-17T17:39:00,extended-location-99,29,pending,100,1000,1000,2025-01-01 00:14:00
+2,m16,Pilot Corridor A,2024-11-01T00:56:00,integrated-location-100,40,under_review,101,1001,1001,2025-02-06 03:14:00
+3,7731883,Baseline Series,2025-04-12T07:13:00,seasonal-location-101,51,resolved,102,1002,1002,2025-03-11 06:14:00
+4,325461,Distributed Assessment,2022-09-23T14:30:00,regional-location-102,62,appealed,103,1003,1003,2025-04-16 09:14:00

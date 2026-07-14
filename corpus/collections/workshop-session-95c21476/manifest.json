@@ -1,0 +1,247 @@
+{
+ "construct_id": "95c21476a21f3671",
+ "slug": "workshop-session-95c21476",
+ "passage": "95c21476a21f367172cc753a3c54d44c4c19999853acd455cabe4bc660d59c81.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 19,
+ "entities": [
+  "WorkshopSession",
+  "LearningEnvironment",
+  "Participant",
+  "MotivationType",
+  "PracticeActivity",
+  "LearningModule",
+  "PhysicalAmenity",
+  "GroupAgreement"
+ ],
+ "terms": [
+  {
+   "name": "WorkshopSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LearningEnvironment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Participant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MotivationType",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "PracticeActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LearningModule",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PhysicalAmenity",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GroupAgreement",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "workshop_sessions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "session_identifier",
+    "start_date",
+    "end_date",
+    "location",
+    "topic",
+    "status",
+    "learning_environment_id"
+   ]
+  },
+  {
+   "name": "learning_environments",
+   "rows": 4,
+   "columns": [
+    "learning_environment_id",
+    "environment_id",
+    "safety_level",
+    "noise_level",
+    "lighting_condition",
+    "temperature",
+    "is_secure",
+    "workshop_session_id",
+    "group_agreement_id"
+   ]
+  },
+  {
+   "name": "participants",
+   "rows": 4,
+   "columns": [
+    "participant_id",
+    "full_name",
+    "email",
+    "registration_date",
+    "attendance_status",
+    "prior_knowledge_level",
+    "motivation_type_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "motivation_types",
+   "rows": 4,
+   "columns": [
+    "id",
+    "motivation_id",
+    "motivation_category",
+    "intensity",
+    "trigger_source",
+    "is_sustainable",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "practice_activities",
+   "rows": 4,
+   "columns": [
+    "practice_activity_id",
+    "activity_id",
+    "activity_name",
+    "duration_minutes",
+    "complexity_level",
+    "is_hands_on",
+    "completion_rate",
+    "workshop_session_id",
+    "learning_module_id"
+   ]
+  },
+  {
+   "name": "learning_modules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "module_id",
+    "title",
+    "content_format",
+    "duration_minutes",
+    "difficulty_level",
+    "is_relevant",
+    "workshop_session_id",
+    "practice_activity_id"
+   ]
+  },
+  {
+   "name": "physical_amenities",
+   "rows": 4,
+   "columns": [
+    "physical_amenity_id",
+    "amenity_id",
+    "amenity_type",
+    "quantity_provided",
+    "is_clean",
+    "is_accessible",
+    "learning_environment_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "group_agreements",
+   "rows": 4,
+   "columns": [
+    "group_agreement_id",
+    "agreement_id",
+    "rule_description",
+    "is_enforced",
+    "violation_count",
+    "learning_environment_id"
+   ]
+  },
+  {
+   "name": "sessions_modules",
+   "rows": 8,
+   "columns": [
+    "workshop_session_id",
+    "learning_module_id"
+   ]
+  },
+  {
+   "name": "sessions_participants",
+   "rows": 8,
+   "columns": [
+    "workshop_session_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "environments_amenities",
+   "rows": 8,
+   "columns": [
+    "learning_environment_id",
+    "physical_amenity_id"
+   ]
+  },
+  {
+   "name": "participants_sessions",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "workshop_session_id"
+   ]
+  },
+  {
+   "name": "participants_activities",
+   "rows": 8,
+   "columns": [
+    "participant_id",
+    "practice_activity_id"
+   ]
+  },
+  {
+   "name": "activities_participants",
+   "rows": 8,
+   "columns": [
+    "practice_activity_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "agreements_participants",
+   "rows": 8,
+   "columns": [
+    "group_agreement_id",
+    "participant_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_workshop_session_learning_environment",
+  "v_workshop_session_learning_module_detail",
+  "v_workshop_session_participant_detail",
+  "v_learning_environment_workshop_session",
+  "v_learning_environment_physical_amenity_detail",
+  "v_learning_environment_group_agreement",
+  "v_participant_workshop_session_detail",
+  "v_participant_motivation_type",
+  "v_participant_practice_activity_detail",
+  "v_motivation_type_participant",
+  "v_practice_activity_workshop_session",
+  "v_practice_activity_participant_detail",
+  "v_practice_activity_learning_module",
+  "v_learning_module_workshop_session",
+  "v_learning_module_practice_activity",
+  "v_physical_amenity_learning_environment",
+  "v_physical_amenity_participant",
+  "v_group_agreement_learning_environment",
+  "v_group_agreement_participant_detail"
+ ]
+}

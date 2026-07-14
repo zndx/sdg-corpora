@@ -1,0 +1,5 @@
+ingredient_id,name,is_allergen,allergen_type,menu_item_id
+1000,Extended Review,false,pilot-allergen-38,1
+1001,Pilot Initiative A,true,extended-allergen-39,2
+1002,Baseline Model,false,integrated-allergen-40,3
+1003,Distributed Cluster,true,seasonal-allergen-41,4

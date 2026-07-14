@@ -1,0 +1,22 @@
+CREATE TABLE adult_adoptees (
+  id INTEGER NOT NULL,
+  full_name VARCHAR(36),
+  date_of_birth DATE,
+  social_security_number VARCHAR(32),
+  street_address VARCHAR(32),
+  city VARCHAR(32),
+  state VARCHAR(32),
+  zip_code VARCHAR(44),
+  phone_number VARCHAR(32),
+  email_address VARCHAR(32),
+  date_moved_to_nevada DATE,
+  birth_city_state VARCHAR(32),
+  preferred_post_adoption_name VARCHAR(32),
+  birth_mother_name VARCHAR(32),
+  birth_father_name VARCHAR(32),
+  adoption_petitioner_social_security_number VARCHAR(32),
+  jurisdiction_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (adoption_petitioner_social_security_number) REFERENCES adoption_petitioners (social_security_number),
+  FOREIGN KEY (jurisdiction_id) REFERENCES jurisdictions (jurisdiction_id)
+);

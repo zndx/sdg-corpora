@@ -1,0 +1,5 @@
+emission_source_id,source_id,source_type,commissioning_date,operational_status,fuel_type,capacity_mw,emissions_monitoring_station_id,test_crew_id,created_at
+100,3e9b5c70-8fcd-11eb-924d-9cd76263cbd0,coal_fired_boiler,2025-12-03,operational,coal,18.70,1,1000,2025-01-01 00:14:00
+101,7021001070050,oil_fired_boiler,2022-05-14,decommissioned,oil,20.40,2,1001,2025-02-06 03:14:00
+102,achat,gas_turbine,2023-10-25,standby,natural_gas,22.10,3,1002,2025-03-11 06:14:00
+103,template_impcode_pagata_10det50,foundry,2024-03-09,operational,waste,23.80,4,1003,2025-04-16 09:14:00

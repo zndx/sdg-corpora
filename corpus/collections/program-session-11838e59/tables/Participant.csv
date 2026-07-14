@@ -1,0 +1,5 @@
+participantId,participantIdentifier,firstName,lastName,ageGroup,hasPhotoID,isSupervisor,registrationDate,isSupervisedByParticipantId
+1,PAR-2722,Stephanie Collins,Paul Allen,integrated-age-22,true,true,2023-06-19T17:27:00,1
+2,PAR-2725,Janice Johnston,Heather Beasley,seasonal-age-23,false,false,2024-11-03T00:44:00,2
+3,PAR-2728,Upal Saha,Audrey Taylor,regional-age-24,true,true,2025-04-14T07:01:00,3
+4,PAR-2731,Katherine Snyder,Susan Wagner,legacy-age-25,false,false,2022-09-25T14:18:00,4

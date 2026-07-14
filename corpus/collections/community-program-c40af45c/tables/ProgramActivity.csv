@@ -1,0 +1,5 @@
+activityId,activityIdentifier,activityName,startDate,endDate,frequency,duration,programId
+1,ACT-2184,Composite Programme,2022-09-05T20:24:00,2022-09-01T08:00:00,one_time,4.20,1
+2,ACT-2190,Compact Standard A,2023-02-16T03:41:00,2023-02-12T15:17:00,daily,8.40,2
+3,ACT-2196,Legacy Framework,2024-07-27T10:58:00,2024-07-23T22:34:00,weekly,12.60,3
+4,ACT-2202,Regional Protocol,2025-12-11T17:15:00,2025-12-07T05:51:00,monthly,16.80,4

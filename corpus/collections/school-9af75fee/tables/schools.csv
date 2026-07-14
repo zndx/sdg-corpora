@@ -1,0 +1,5 @@
+id,school_id,name,country_code,latitude,longitude,enrollment_count,connectivity_status,device_id,country_id,connectivity_provider_id
+100,1152671,Extended Review,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,13.95,21.20,26,connected,3744015,1000,1
+101,1186099,Pilot Initiative A,lu_tax_code_template_m_I_2,17.90,25.40,1,unconnected,392495,1001,2
+102,7441154,Baseline Model,default_chart_a_account_57,21.85,29.60,33,partially_connected,209205,1002,3
+103,338514,Distributed Cluster,727045,25.80,33.80,15,connected,22106999,1003,4

@@ -1,0 +1,5 @@
+test_preparation_resource_id,test_prep_id,test_prep_name,requires_app_installation,authentication_method_id,created_at,updated_at
+1000,0d593f52-9bac-11eb-a8a2-19ed5c03f8d3,Baseline Model D,false,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,2002007020240,Distributed Cluster,true,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,5f8f9bda-8fcd-11eb-924d-9cd76263cbd0,Adaptive Review,false,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,1437577,Primary Initiative A,true,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

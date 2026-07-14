@@ -1,0 +1,148 @@
+{
+ "construct_id": "b7198f4010447b15",
+ "slug": "religious-practice-b7198f40",
+ "passage": "b7198f4010447b15456659ed9450a20df4bcfba34f31fa205b81bef579a8ffc5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "ReligiousPractice",
+  "ReligiousIdentity",
+  "SurveyResponse",
+  "TraditionalHealer",
+  "SacredObject",
+  "TraditionalMedicine"
+ ],
+ "terms": [
+  {
+   "name": "ReligiousPractice",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReligiousIdentity",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SurveyResponse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TraditionalHealer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SacredObject",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TraditionalMedicine",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "religious_practices",
+   "rows": 4,
+   "columns": [
+    "religious_practice_id",
+    "practice_id",
+    "practice_name",
+    "practice_type",
+    "prevalence_percentage",
+    "region",
+    "is_syncretic",
+    "survey_response_id",
+    "religious_identity_id"
+   ]
+  },
+  {
+   "name": "religious_identities",
+   "rows": 4,
+   "columns": [
+    "religious_identity_id",
+    "identity_id",
+    "identity_label",
+    "is_primary",
+    "adherence_level",
+    "survey_response_id",
+    "religious_practice_id"
+   ]
+  },
+  {
+   "name": "survey_responses",
+   "rows": 4,
+   "columns": [
+    "survey_response_id",
+    "response_id",
+    "survey_date",
+    "respondent_age",
+    "respondent_gender",
+    "country",
+    "household_size",
+    "is_sick_in_household",
+    "religious_identity_id",
+    "religious_practice_id",
+    "traditional_healer_id",
+    "sacred_object_id"
+   ]
+  },
+  {
+   "name": "traditional_healers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "healer_id",
+    "specialist_type",
+    "region_of_practice",
+    "is_recognized",
+    "survey_response_id",
+    "traditional_medicine_id"
+   ]
+  },
+  {
+   "name": "sacred_objects",
+   "rows": 4,
+   "columns": [
+    "id",
+    "object_id",
+    "object_type",
+    "protective_purpose",
+    "is_kept_at_home",
+    "survey_response_id",
+    "religious_practice_id"
+   ]
+  },
+  {
+   "name": "traditional_medicines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "medicine_id",
+    "medicine_name",
+    "source_material",
+    "intended_effect",
+    "traditional_healer_id",
+    "survey_response_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_religious_practice_survey_response",
+  "vw_religious_practice_religious_identity",
+  "vw_religious_identity_survey_response",
+  "vw_religious_identity_religious_practice",
+  "vw_survey_response_religious_identity",
+  "vw_survey_response_religious_practice",
+  "vw_survey_response_traditional_healer",
+  "vw_survey_response_sacred_object",
+  "vw_traditional_healer_survey_response",
+  "vw_traditional_healer_traditional_medicine",
+  "vw_sacred_object_survey_response",
+  "vw_sacred_object_religious_practice",
+  "vw_traditional_medicine_traditional_healer",
+  "vw_traditional_medicine_survey_response"
+ ]
+}

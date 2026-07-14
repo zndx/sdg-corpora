@@ -1,0 +1,156 @@
+{
+ "construct_id": "4305e1f0bd80b0a9",
+ "slug": "menu-course-4305e1f0",
+ "passage": "4305e1f0bd80b0a9dc2ed0d330e276536a041755d72d950d4e64698939fcd3b6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "MenuCourse",
+  "DiningPackage",
+  "FoodIngredient",
+  "RestaurantOutlet",
+  "RestaurantStaff",
+  "ServiceChargeRecord"
+ ],
+ "terms": [
+  {
+   "name": "MenuCourse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DiningPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RestaurantOutlet",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RestaurantStaff",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "ServiceChargeRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "MenuCourse",
+   "rows": 4,
+   "columns": [
+    "id",
+    "courseIdentifier",
+    "courseName",
+    "price",
+    "isVegetarian",
+    "isVegan",
+    "description",
+    "packageId",
+    "ingredientId"
+   ]
+  },
+  {
+   "name": "DiningPackage",
+   "rows": 4,
+   "columns": [
+    "id",
+    "packageId",
+    "packageName",
+    "totalPrice",
+    "currencyCode",
+    "includesChampagneCocktail",
+    "serviceChargePercentage",
+    "outletId"
+   ]
+  },
+  {
+   "name": "FoodIngredient",
+   "rows": 4,
+   "columns": [
+    "ingredientId",
+    "ingredientName",
+    "category",
+    "allergenFlag",
+    "originRegion",
+    "courseId"
+   ]
+  },
+  {
+   "name": "RestaurantOutlet",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outletId",
+    "outletName",
+    "addressLine1",
+    "city",
+    "postalCode",
+    "operatingHours",
+    "packageId",
+    "staffId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "RestaurantStaff",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staffId",
+    "staffName",
+    "roleType",
+    "shiftStart",
+    "shiftEnd",
+    "receivesServiceChargeShare",
+    "outletId",
+    "courseId"
+   ]
+  },
+  {
+   "name": "ServiceChargeRecord",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recordId",
+    "transactionDate",
+    "totalChargeAmount",
+    "chargePercentage",
+    "paymentMethod",
+    "isDeductedByCompany",
+    "packageId",
+    "staffId"
+   ]
+  },
+  {
+   "name": "DiningPackageMenuCourse",
+   "rows": 8,
+   "columns": [
+    "packageId",
+    "courseId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_menu_course_dining_package",
+  "vw_menu_course_food_ingredient",
+  "vw_dining_package_menu_course_detail",
+  "vw_dining_package_restaurant_outlet",
+  "vw_food_ingredient_menu_course",
+  "vw_restaurant_outlet_dining_package",
+  "vw_restaurant_outlet_restaurant_staff",
+  "vw_restaurant_staff_restaurant_outlet",
+  "vw_restaurant_staff_menu_course",
+  "vw_service_charge_record_dining_package",
+  "vw_service_charge_record_restaurant_staff"
+ ]
+}

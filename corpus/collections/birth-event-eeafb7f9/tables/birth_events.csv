@@ -1,0 +1,5 @@
+birth_event_id,identifier,birth_date,location_name,parent_female_name,parent_male_name,infant_name,location_id,human_id,involves_mother_human_id,involves_father_human_id
+100,IDE-2086,2023-10-18,Legacy Review D,Legacy Assessment D,Extended Standard,Pilot Protocol,1,1,1,1
+101,IDE-2091,2024-03-02,Regional Initiative,Regional Survey,Pilot Framework A,Baseline Programme,2,2,2,2
+102,IDE-2096,2025-08-13,Seasonal Model,Seasonal Corridor,Baseline Protocol,Distributed Standard A,3,3,3,3
+103,IDE-2101,2022-01-24,Integrated Cluster A,Integrated Series A,Distributed Programme,Adaptive Framework,4,4,4,4

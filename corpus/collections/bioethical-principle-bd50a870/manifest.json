@@ -1,0 +1,144 @@
+{
+ "construct_id": "bd50a870176d2435",
+ "slug": "bioethical-principle-bd50a870",
+ "passage": "bd50a870176d2435f90de86ba6a85d9615c9e5d05d648ca1ab40cb288425c782.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 10,
+ "entities": [
+  "BioethicalPrinciple",
+  "EthicalDecision",
+  "BioethicalTopic",
+  "MedicalProfessional",
+  "Course"
+ ],
+ "terms": [
+  {
+   "name": "BioethicalPrinciple",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EthicalDecision",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BioethicalTopic",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MedicalProfessional",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Course",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "bioethical_principles",
+   "rows": 4,
+   "columns": [
+    "bioethical_principle_id",
+    "principle_code",
+    "principle_name",
+    "is_foundational",
+    "description"
+   ]
+  },
+  {
+   "name": "ethical_decisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "decision_identifier",
+    "decision_date",
+    "decision_status",
+    "clinical_context",
+    "is_controversial",
+    "bioethical_topic_id",
+    "medical_professional_id"
+   ]
+  },
+  {
+   "name": "bioethical_topics",
+   "rows": 4,
+   "columns": [
+    "bioethical_topic_id",
+    "topic_code",
+    "topic_name",
+    "is_controversial",
+    "regulatory_status",
+    "course_id",
+    "ethical_decision_id"
+   ]
+  },
+  {
+   "name": "medical_professionals",
+   "rows": 4,
+   "columns": [
+    "medical_professional_id",
+    "professional_i_d",
+    "full_name",
+    "medical_license_number",
+    "employment_status",
+    "specialty",
+    "ethical_decision_id",
+    "course_id"
+   ]
+  },
+  {
+   "name": "courses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "course_code",
+    "course_title",
+    "schedule_start",
+    "schedule_end",
+    "location",
+    "duration_hours",
+    "medical_professional_id"
+   ]
+  },
+  {
+   "name": "principles_decisions",
+   "rows": 8,
+   "columns": [
+    "bioethical_principle_id",
+    "ethical_decision_id"
+   ]
+  },
+  {
+   "name": "decisions_principles",
+   "rows": 8,
+   "columns": [
+    "ethical_decision_id",
+    "bioethical_principle_id"
+   ]
+  },
+  {
+   "name": "courses_topics",
+   "rows": 8,
+   "columns": [
+    "course_id",
+    "bioethical_topic_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_bioethical_principle_ethical_decision_detail",
+  "v_ethical_decision_bioethical_principle_detail",
+  "v_ethical_decision_bioethical_topic",
+  "v_ethical_decision_medical_professional",
+  "v_bioethical_topic_course",
+  "v_bioethical_topic_ethical_decision",
+  "v_medical_professional_ethical_decision",
+  "v_medical_professional_course",
+  "v_course_bioethical_topic_detail",
+  "v_course_medical_professional"
+ ]
+}

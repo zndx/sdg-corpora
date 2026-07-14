@@ -1,0 +1,5 @@
+id,zone_identifier,zone_length,zone_width,zone_elevation,zone_status,checkpoint_id,has_exit_point_checkpoint_id,created_at,updated_at
+1,ZON-2258,0.6000001,0.50102748,baseline-zone-97,active,21956270,21956270,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,ZON-2263,0.6,1.24,pilot-zone-98,inactive,195341,195341,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,ZON-2268,0.58,0.51,extended-zone-99,completed,3158149,3158149,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,ZON-2273,0.77,0.99,integrated-zone-100,active,974918,974918,2025-04-16 09:14:00,2025-04-23 15:41:00

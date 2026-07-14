@@ -1,0 +1,5 @@
+project_report_id,report_identifier,title,publication_date,status,word_count,contains_insights,world_caf_event_id,security_project_id,created_at,updated_at
+1,REP-2544,Compact Initiative,2025-12-01T23:33:00,draft,25,true,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,REP-2545,Legacy Model,2022-05-12T06:50:00,review,425,false,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,REP-2546,Regional Cluster A,2023-10-23T13:07:00,published,15,true,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,REP-2547,Seasonal Review,2024-03-07T20:24:00,archived,40,false,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+support_service_id,service_id,service_name,service_type,description,frequency,is_mandatory,m_e_s_a_program_id
+1,1996925,Distributed Initiative,workshop,Extended Survey,regional-frequenc-36,true,1
+2,3990164,Adaptive Model D,center,Pilot Corridor A,legacy-frequenc-37,false,2
+3,5844258,Primary Cluster,opportunity,Baseline Series,compact-frequenc-38,true,3
+4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,activity,Distributed Assessment,composite-frequenc-39,false,4

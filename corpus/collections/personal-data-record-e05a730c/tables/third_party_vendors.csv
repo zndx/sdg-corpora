@@ -1,0 +1,5 @@
+vendor_id,vendor_name,service_type,data_access_level,contract_start_date,personal_data_record_id,purchase_transaction_id
+Continental Group,Microsoft Corporation,PaymentProcessing,FullAccess,2022-01-26,1,1000
+PubMatic Inc.,PureCycle Technologies.,Analytics,LimitedAccess,2023-06-10,2,1001
+Dhillon Crane Service,American International Group,Advertising,Anonymized,2024-11-21,3,1002
+Sealed Air,American Airlines Group,PaymentProcessing,FullAccess,2025-04-05,4,1003

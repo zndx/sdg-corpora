@@ -1,0 +1,5 @@
+animal_control_patrol_id,patrol_id,assigned_area,start_time,end_time,patrol_type,weather_conditions,officer_badge_number,officer_id,incident_report_id
+1,10238262,distributed-assigned-78,2024-03-27T14:42:00,2023-02-26T13:27:00,emergency,distributed-weather-42,OFF-2116,103165,1
+2,2106715,baseline-assigned-79,2025-08-11T21:59:00,2024-07-10T20:44:00,non-emergency,baseline-weather-43,OFF-2118,2933464,2
+3,69444,pilot-assigned-80,2022-01-22T04:16:00,2025-12-21T03:01:00,routine,pilot-weather-44,OFF-2120,10445622,3
+4,5243,extended-assigned-81,2023-06-06T11:33:00,2022-05-05T10:18:00,emergency,extended-weather-45,OFF-2122,7441150,4

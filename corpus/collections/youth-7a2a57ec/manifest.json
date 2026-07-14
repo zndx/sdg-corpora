@@ -1,0 +1,152 @@
+{
+ "construct_id": "7a2a57ec6ec46de9",
+ "slug": "youth-7a2a57ec",
+ "passage": "7a2a57ec6ec46de918698880b15278ad6f092f74f3ef6128c5db2f247b56a974.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "Youth",
+  "HealthCareSummary",
+  "TransferEvent",
+  "ReleaseEvent",
+  "HealthcareFacility",
+  "Authorization"
+ ],
+ "terms": [
+  {
+   "name": "Youth",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "HealthCareSummary",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TransferEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ReleaseEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareFacility",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Authorization",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "youths",
+   "rows": 4,
+   "columns": [
+    "id",
+    "youth_identifier",
+    "date_of_birth",
+    "current_status",
+    "jurisdiction_code",
+    "health_care_summary_format_code",
+    "transfer_event_id",
+    "release_event_id"
+   ]
+  },
+  {
+   "name": "health_care_summaries",
+   "rows": 4,
+   "columns": [
+    "summary_identifier",
+    "creation_date",
+    "format_code",
+    "has_records",
+    "confidentiality_status",
+    "youth_id",
+    "healthcare_facility_id",
+    "authorization_id"
+   ]
+  },
+  {
+   "name": "transfer_events",
+   "rows": 4,
+   "columns": [
+    "transfer_event_id",
+    "transfer_identifier",
+    "transfer_date",
+    "origin_facility_code",
+    "destination_facility_code",
+    "has_communicable_disease",
+    "youth_id",
+    "health_care_summary_format_code",
+    "healthcare_facility_id"
+   ]
+  },
+  {
+   "name": "release_events",
+   "rows": 4,
+   "columns": [
+    "release_event_id",
+    "release_identifier",
+    "release_date",
+    "release_type",
+    "authorization_obtained",
+    "youth_id",
+    "health_care_summary_format_code",
+    "healthcare_facility_id"
+   ]
+  },
+  {
+   "name": "healthcare_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_code",
+    "facility_name",
+    "facility_type",
+    "jurisdiction_code",
+    "health_care_summary_format_code",
+    "transfer_event_id",
+    "is_destination_of_transfer_event_id"
+   ]
+  },
+  {
+   "name": "authorizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "authorization_identifier",
+    "issue_date",
+    "grantor_type",
+    "is_court_ordered",
+    "status",
+    "youth_id",
+    "transfer_event_id",
+    "release_event_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_youth_health_care_summary",
+  "vw_youth_transfer_event",
+  "vw_youth_release_event",
+  "vw_health_care_summary_youth",
+  "vw_health_care_summary_healthcare_facility",
+  "vw_health_care_summary_authorization",
+  "vw_transfer_event_youth",
+  "vw_transfer_event_health_care_summary",
+  "vw_transfer_event_healthcare_facility",
+  "vw_release_event_youth",
+  "vw_release_event_health_care_summary",
+  "vw_release_event_healthcare_facility",
+  "vw_healthcare_facility_health_care_summary",
+  "vw_healthcare_facility_transfer_event",
+  "vw_authorization_youth",
+  "vw_authorization_transfer_event",
+  "vw_authorization_release_event"
+ ]
+}

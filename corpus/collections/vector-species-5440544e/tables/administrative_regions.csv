@@ -1,0 +1,5 @@
+id,region_code,region_name,region_level,bordering_country,climate_zone,health_authority_id
+100,1562837,Distributed Assessment,Country,baseline-borderin-91,Tropical,100
+101,6564391,Adaptive Survey D,District,pilot-borderin-92,Sub-tropical,101
+102,778560,Primary Corridor,Province,extended-borderin-93,Temperate,102
+103,8667ec1da10c4a0293d91388b49bc77c,Composite Series,Country,integrated-borderin-94,Tropical,103

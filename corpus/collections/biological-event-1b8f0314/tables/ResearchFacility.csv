@@ -1,0 +1,5 @@
+facilityID,facilityName,locationCountry,biosafetyLevel,operationalStatus,lastInspectionDate,accidentRate,advancementId,normID
+FAC-2492,Integrated Protocol A,adaptive-location-47,19,active,2025-04-12,5.20,1,NOR-2779
+FAC-2499,Extended Programme,distributed-location-48,30,inactive,2022-09-23,7.40,2,NOR-2781
+FAC-2506,Pilot Standard,baseline-location-49,41,under_construction,2023-02-07,9.60,3,NOR-2783
+FAC-2513,Baseline Framework D,pilot-location-50,52,active,2024-07-18,11.80,4,NOR-2785

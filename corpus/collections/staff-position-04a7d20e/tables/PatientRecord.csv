@@ -1,0 +1,5 @@
+recordId,dateOfBirth,insuranceProvider,policyNumber,lastUpdated,hipaaCompliant,transactionId
+100,2025-04-02,seasonal-insuranc-11,POL-2302,2023-06-17T17:27:00,true,1
+101,2022-09-13,regional-insuranc-12,POL-2304,2024-11-01T00:44:00,false,2
+102,2023-02-24,legacy-insuranc-13,POL-2306,2025-04-12T07:01:00,true,3
+103,2024-07-08,compact-insuranc-14,POL-2308,2022-09-23T14:18:00,false,4

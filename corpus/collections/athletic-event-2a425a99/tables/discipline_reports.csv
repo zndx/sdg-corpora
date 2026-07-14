@@ -1,0 +1,5 @@
+id,report_id,incident_date,incident_type,severity_level,resolved,forwarded_to_coordinator,participant_id,athletic_event_id
+1,1202-0008-S,2022-09-26T20:48:00,injury,29,true,true,100,1
+2,8189500,2023-02-10T03:05:00,misconduct,40,false,false,101,2
+3,L355,2024-07-21T10:22:00,dispute,51,true,true,102,3
+4,5844272,2025-12-05T17:39:00,injury,62,false,false,103,4

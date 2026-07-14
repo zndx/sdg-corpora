@@ -1,0 +1,203 @@
+{
+ "construct_id": "d301a6f77a5a9ee9",
+ "slug": "restaurant-d301a6f7",
+ "passage": "d301a6f77a5a9ee92b5353d6bf3ba1bedc50f8c301d8d41c69916cdd01c913a8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 20,
+ "entities": [
+  "Restaurant",
+  "WineAward",
+  "Person",
+  "Wine",
+  "Vineyard",
+  "Event",
+  "Food",
+  "Chemical"
+ ],
+ "terms": [
+  {
+   "name": "Restaurant",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "WineAward",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Wine",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Vineyard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "Food",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Chemical",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "restaurants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "restaurant_id",
+    "name",
+    "city",
+    "state",
+    "operating_since",
+    "corkage_fee",
+    "has_grand_award",
+    "grand_award_year",
+    "wine_award_id",
+    "person_id",
+    "has_owner_person_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "wine_awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_id",
+    "award_name",
+    "issuing_organization",
+    "award_year",
+    "minimum_selections",
+    "is_grand_award",
+    "restaurant_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "person_id",
+    "first_name",
+    "last_name",
+    "role",
+    "is_celebrity",
+    "restaurant_id",
+    "works_as_chef_restaurant_id",
+    "wine_id",
+    "vineyard_id"
+   ]
+  },
+  {
+   "name": "wines",
+   "rows": 4,
+   "columns": [
+    "wine_id",
+    "producer",
+    "vintage",
+    "variety",
+    "appellation",
+    "vineyard_source",
+    "parker_rating",
+    "contains_resveratrol",
+    "person_id",
+    "vineyard_id",
+    "restaurant_id",
+    "food_id"
+   ]
+  },
+  {
+   "name": "vineyards",
+   "rows": 4,
+   "columns": [
+    "vineyard_id",
+    "name",
+    "location",
+    "acres",
+    "average_vine_age",
+    "ownership_type",
+    "wine_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "event_type",
+    "date",
+    "min_participants",
+    "is_special_menu",
+    "restaurant_id",
+    "wine_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "foods",
+   "rows": 4,
+   "columns": [
+    "id",
+    "food_id",
+    "name",
+    "category",
+    "is_staining",
+    "preparation_method",
+    "wine_id",
+    "restaurant_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "chemicals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "chemical_id",
+    "name",
+    "location_in_wine",
+    "biological_effect",
+    "tested_on_organism",
+    "wine_id",
+    "person_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_restaurant_wine_award",
+  "vw_restaurant_person",
+  "vw_restaurant_event",
+  "vw_wine_award_restaurant",
+  "vw_person_restaurant",
+  "vw_person_wine",
+  "vw_person_vineyard",
+  "vw_wine_person",
+  "vw_wine_vineyard",
+  "vw_wine_restaurant",
+  "vw_wine_food",
+  "vw_vineyard_wine",
+  "vw_vineyard_person",
+  "vw_event_restaurant",
+  "vw_event_wine",
+  "vw_event_person",
+  "vw_food_wine",
+  "vw_food_restaurant",
+  "vw_chemical_wine",
+  "vw_chemical_person"
+ ]
+}

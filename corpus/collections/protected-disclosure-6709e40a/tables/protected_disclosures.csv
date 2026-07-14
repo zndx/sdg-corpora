@@ -1,0 +1,5 @@
+disclosure_id,disclosure_date,disclosure_method,is_good_faith,subject_matter,retaliation_status,whistleblower_id,investigation_id,created_at
+195359,2025-08-02T19:33:00,email,true,seasonal-subject-29,none,1,100,2025-01-01 00:14:00
+1250217,2022-01-13T02:50:00,phone,false,regional-subject-30,reported,2,101,2025-02-06 03:14:00
+4447022,2023-06-24T09:07:00,in-person,true,legacy-subject-31,investigating,3,102,2025-03-11 06:14:00
+1437596,2024-11-08T16:24:00,written,false,compact-subject-32,substantiated,4,103,2025-04-16 09:14:00

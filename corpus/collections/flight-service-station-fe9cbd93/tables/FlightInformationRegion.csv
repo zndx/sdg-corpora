@@ -1,0 +1,5 @@
+regionId,firIdentifier,firName,firType,areaSize,upperLimit,lowerLimit,controllingAuthority,overlapsRegionId
+1,FIR-2566,Extended Standard,domestic,1.52,compact-upper-32,adaptive-lower-11,integrated-controll-88,1
+2,FIR-2571,Pilot Framework A,oceanic,0.65,composite-upper-33,distributed-lower-12,seasonal-controll-89,2
+3,FIR-2576,Baseline Protocol,mixed,0.43012016,primary-upper-34,baseline-lower-13,regional-controll-90,3
+4,FIR-2581,Distributed Programme,domestic,0.6000001,adaptive-upper-35,pilot-lower-14,legacy-controll-91,4

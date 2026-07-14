@@ -1,0 +1,5 @@
+id,incident_id,timestamp,severity_level,dwell_time,status,false_positive_flag,threat_detection_system_id,asset_id,created_at
+100,1336174,2024-07-08T18:18:00,29,9.20,detected,false,1000,7731874,2025-01-01 00:14:00
+101,state_uk_4,2025-12-19T01:35:00,40,11.40,investigating,true,1001,6564392,2025-02-06 03:14:00
+102,2933483,2022-05-03T08:52:00,51,13.60,contained,false,1002,5917296,2025-03-11 06:14:00
+103,2986243,2023-10-14T15:09:00,62,15.80,neutralized,true,1003,990e161e10664c5885182d95dc07e606,2025-04-16 09:14:00

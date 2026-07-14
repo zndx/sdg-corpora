@@ -1,0 +1,5 @@
+id,programme_id,programme_name,degree_level,department_id,start_date,status,credit_hours,duration_years,offered_by_department_id,created_at,updated_at
+1,1186102,Extended Standard,primary-degree-22,2087755,2022-09-05T20:24:00,planned,14,14,2087755,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,168535,Pilot Framework A,adaptive-degree-23,790483,2023-02-16T03:41:00,active,22,18,790483,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,17788643,Baseline Protocol,distributed-degree-24,505978,2024-07-27T10:58:00,suspended,30,22,505978,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,f852e24c-9bac-11eb-a8a2-19ed5c03f8d3,Distributed Programme,baseline-degree-25,id_6,2025-12-11T17:15:00,discontinued,38,26,id_6,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+marketing_campaign_id,campaign_i_d,campaign_name,start_date,end_date,budget,channel,status,inventory_item_id,created_at
+1,CAM-2016,Compact Framework,2022-09-05,2022-09-01,35.45,email,planned,1,2025-01-01 00:14:00
+2,CAM-2022,Legacy Protocol,2023-02-16,2023-02-12,18.47,web,active,2,2025-02-06 03:14:00
+3,CAM-2028,Regional Programme A,2024-07-27,2024-07-23,26.25,print,completed,3,2025-03-11 06:14:00
+4,CAM-2034,Seasonal Standard,2025-12-11,2025-12-07,17.12,social,cancelled,4,2025-04-16 09:14:00

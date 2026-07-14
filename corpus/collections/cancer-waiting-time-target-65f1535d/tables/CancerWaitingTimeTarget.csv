@@ -1,0 +1,5 @@
+targetId,targetIdentifier,effectiveDate,tolerancePercentage,targetStatus,applicablePatientAgeMinimum,typeId,boardId
+1,62-day-urgent-referral,2023-02-14,18.45,active,35,1,1
+2,31-day-decision-to-treat,2024-07-25,22.90,legacy,42,2,2
+3,62-day-urgent-referral,2025-12-09,27.35,national-standard,49,3,3
+4,31-day-decision-to-treat,2022-05-20,31.80,active,56,4,4

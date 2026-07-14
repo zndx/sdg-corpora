@@ -1,0 +1,179 @@
+{
+ "construct_id": "a6bfd6bbeef0bfe3",
+ "slug": "healthcare-organization-a6bfd6bb",
+ "passage": "a6bfd6bbeef0bfe36d7730b5906aa1e9e92f9804282e3b921680510314e43322.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 13,
+ "entities": [
+  "HealthcareOrganization",
+  "ElectronicHealthRecord",
+  "ClinicalDataPoint",
+  "HealthcareProfessional",
+  "AnalyticsSolution",
+  "ClinicalDecisionSupport"
+ ],
+ "terms": [
+  {
+   "name": "HealthcareOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ElectronicHealthRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClinicalDataPoint",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HealthcareProfessional",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AnalyticsSolution",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ClinicalDecisionSupport",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "healthcare_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_id",
+    "name",
+    "location",
+    "established_date",
+    "operating_margin",
+    "is_sustainable",
+    "electronic_health_record_ehr_id",
+    "healthcare_professional_id",
+    "analytics_solution_id"
+   ]
+  },
+  {
+   "name": "electronic_health_records",
+   "rows": 4,
+   "columns": [
+    "ehr_id",
+    "patient_id",
+    "collection_date",
+    "data_volume",
+    "data_variety",
+    "status",
+    "healthcare_organization_id"
+   ]
+  },
+  {
+   "name": "clinical_data_points",
+   "rows": 4,
+   "columns": [
+    "clinical_data_point_id",
+    "data_point_id",
+    "measurement_type",
+    "value",
+    "unit",
+    "timestamp",
+    "is_anomalous",
+    "electronic_health_record_ehr_id",
+    "healthcare_professional_id"
+   ]
+  },
+  {
+   "name": "healthcare_professionals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "professional_id",
+    "name",
+    "specialty",
+    "license_number",
+    "employment_status",
+    "healthcare_organization_id"
+   ]
+  },
+  {
+   "name": "analytics_solutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "solution_id",
+    "name",
+    "type",
+    "provider",
+    "deployment_date",
+    "is_web_based",
+    "healthcare_organization_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "clinical_decision_supports",
+   "rows": 4,
+   "columns": [
+    "cds_id",
+    "trigger_condition",
+    "recommendation",
+    "effectiveness_score",
+    "last_updated",
+    "is_proactive",
+    "analytics_solution_id"
+   ]
+  },
+  {
+   "name": "records_points",
+   "rows": 8,
+   "columns": [
+    "electronic_health_record_ehr_id",
+    "clinical_data_point_id"
+   ]
+  },
+  {
+   "name": "professionals_points",
+   "rows": 8,
+   "columns": [
+    "healthcare_professional_id",
+    "clinical_data_point_id"
+   ]
+  },
+  {
+   "name": "solutions_records",
+   "rows": 8,
+   "columns": [
+    "analytics_solution_id",
+    "electronic_health_record_ehr_id"
+   ]
+  },
+  {
+   "name": "supports_professionals",
+   "rows": 8,
+   "columns": [
+    "clinical_decision_support_cds_id",
+    "healthcare_professional_id"
+   ]
+  }
+ ],
+ "views": [
+  "healthcare_organization_electronic_health_record_view",
+  "healthcare_organization_healthcare_professional_view",
+  "healthcare_organization_analytics_solution_view",
+  "electronic_health_record_healthcare_organization_view",
+  "electronic_health_record_clinical_data_point_detail_view",
+  "clinical_data_point_electronic_health_record_view",
+  "clinical_data_point_healthcare_professional_view",
+  "healthcare_professional_healthcare_organization_view",
+  "healthcare_professional_clinical_data_point_detail_view",
+  "analytics_solution_healthcare_organization_view",
+  "analytics_solution_electronic_health_record_detail_view",
+  "clinical_decision_support_analytics_solution_view",
+  "clinical_decision_support_healthcare_professional_detail_view"
+ ]
+}

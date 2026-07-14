@@ -1,0 +1,5 @@
+id,service_id,service_name,endpoint_url,uptime_percentage,max_concurrent_users,active_status,parsed_data_store_id,center_id
+100,1996925,Distributed Initiative,http://news.sys-con.com/node/4234365,16.45,33,false,1000,5844261
+101,3990164,Adaptive Model D,http://marvel.wikia.com/Thor_Odinson_(Earth-616),18.90,43,true,1001,1437588
+102,5844258,Primary Cluster,https://bugs.launchpad.net/keystone/+bug/1437032,21.35,53,false,1002,6564397
+103,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,Composite Review,https://leetcode.com/problems/snakes-and-ladders,23.80,63,true,1003,default_chart_a_tax_13

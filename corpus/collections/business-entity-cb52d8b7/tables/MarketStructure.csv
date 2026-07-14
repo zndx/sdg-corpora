@@ -1,0 +1,5 @@
+id,structureType,numberOfFirms,barrierToEntry,priceControl,productDifferentiation,entityId,policyId
+1,perfect_competition,18,low,false,none,1000,1
+2,monopoly,25,medium,true,low,1001,2
+3,oligopoly,32,high,false,high,1002,3
+4,monopolistic_competition,39,none,true,none,1003,4

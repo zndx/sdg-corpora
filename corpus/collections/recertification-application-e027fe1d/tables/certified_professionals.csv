@@ -1,0 +1,5 @@
+certified_professional_id,professional_id,certification_status,current_certification_period_start,current_certification_period_end,ru_requirement,code_of_ethics_pledge,employment_type,recertification_application_id,professional_society_role_id,created_at,updated_at
+100,5082965,active,2024-11-07,2025-08-18,38,884363,full_time,100,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,2618560,retired,2025-04-18,2022-01-02,43,922a1b88-9bad-11eb-a8a2-19ed5c03f8d3,part_time,101,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,3355767,suspended,2022-09-02,2023-06-13,48,937731,retired,102,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,3355784,expired,2023-02-13,2024-11-24,53,3717633,unemployed,103,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

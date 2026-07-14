@@ -1,0 +1,165 @@
+{
+ "construct_id": "82a785b0a182e414",
+ "slug": "information-logistics-strategy-82a785b0",
+ "passage": "82a785b0a182e4142ed498a1f275a5d44f4165fd905419bc31b13976dda64c43.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 14,
+ "entities": [
+  "InformationLogisticsStrategy",
+  "SuccessFactor",
+  "EmpiricalStudy",
+  "OrganizationalPerformance",
+  "OrganizationalUnit",
+  "AnalyticalInformationSystem"
+ ],
+ "terms": [
+  {
+   "name": "InformationLogisticsStrategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SuccessFactor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EmpiricalStudy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OrganizationalPerformance",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OrganizationalUnit",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnalyticalInformationSystem",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "information_logistics_strategies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "strategy_identifier",
+    "formulation_date",
+    "implementation_status",
+    "target_organizational_scope",
+    "alignment_with_i_t_strategy",
+    "alignment_with_business_strategy",
+    "empirical_study_id",
+    "organizational_unit_id"
+   ]
+  },
+  {
+   "name": "success_factors",
+   "rows": 4,
+   "columns": [
+    "success_factor_id",
+    "factor_name",
+    "factor_category",
+    "validation_status",
+    "influence_strength",
+    "measurement_method",
+    "information_logistics_strategy_id",
+    "empirical_study_id"
+   ]
+  },
+  {
+   "name": "empirical_studies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "study_identifier",
+    "conducted_date",
+    "methodology",
+    "sample_size",
+    "publication_status",
+    "journal_name",
+    "information_logistics_strategy_id",
+    "organizational_performance_id"
+   ]
+  },
+  {
+   "name": "organizational_performances",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_name",
+    "measurement_date",
+    "value",
+    "unit_of_measure",
+    "performance_category",
+    "information_logistics_strategy_id",
+    "empirical_study_id"
+   ]
+  },
+  {
+   "name": "organizational_units",
+   "rows": 4,
+   "columns": [
+    "organizational_unit_id",
+    "unit_identifier",
+    "unit_name",
+    "department_type",
+    "implementation_role",
+    "information_logistics_strategy_id",
+    "analytical_information_system_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "analytical_information_systems",
+   "rows": 4,
+   "columns": [
+    "analytical_information_system_id",
+    "system_identifier",
+    "system_name",
+    "system_type",
+    "deployment_date",
+    "coverage_scope",
+    "organizational_unit_id",
+    "extends_analytical_information_system_id"
+   ]
+  },
+  {
+   "name": "strategies_factors",
+   "rows": 8,
+   "columns": [
+    "information_logistics_strategy_id",
+    "success_factor_id"
+   ]
+  },
+  {
+   "name": "studies_factors",
+   "rows": 8,
+   "columns": [
+    "empirical_study_id",
+    "success_factor_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_information_logistics_strategy_success_factor_detail",
+  "v_information_logistics_strategy_empirical_study",
+  "v_information_logistics_strategy_organizational_unit",
+  "v_success_factor_information_logistics_strategy",
+  "v_success_factor_empirical_study",
+  "v_empirical_study_information_logistics_strategy",
+  "v_empirical_study_success_factor_detail",
+  "v_empirical_study_organizational_performance",
+  "v_organizational_performance_information_logistics_strategy",
+  "v_organizational_performance_empirical_study",
+  "v_organizational_unit_information_logistics_strategy",
+  "v_organizational_unit_analytical_information_system",
+  "v_analytical_information_system_organizational_unit",
+  "v_analytical_information_system_analytical_information_system"
+ ]
+}

@@ -1,0 +1,5 @@
+policy_number,title,last_updated,issued_by,approved_by,status,policy_document_policy_number,is_superseded_by_policy_document_policy_number,references_policy_document_policy_number,personnel_role_id
+POL-2302,Compact Initiative,2023-06-17,compact-issued-50,regional-approved-54,Active,POL-2302,POL-2302,POL-2302,1
+POL-2304,Legacy Model,2024-11-01,composite-issued-51,legacy-approved-55,In Process,POL-2304,POL-2304,POL-2304,2
+POL-2306,Regional Cluster A,2025-04-12,primary-issued-52,compact-approved-56,Superseded,POL-2306,POL-2306,POL-2306,3
+POL-2308,Seasonal Review,2022-09-23,adaptive-issued-53,composite-approved-57,Active,POL-2308,POL-2308,POL-2308,4

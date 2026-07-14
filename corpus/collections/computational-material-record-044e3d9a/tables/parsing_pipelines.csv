@@ -1,0 +1,5 @@
+pipeline_id,pipeline_name,start_date_time,end_date_time,status,records_processed,center_id,parsed_data_store_id
+en_US,Adaptive Series,2024-07-24T18:42:00,2025-12-16T11:09:00,pending,33,5844261,1000
+43197171,Primary Assessment,2025-12-08T01:59:00,2022-05-27T18:26:00,running,38,1437588,1001
+7731880,Composite Survey D,2022-05-19T08:16:00,2023-10-11T01:43:00,completed,43,6564397,1002
+10782184,Compact Corridor,2023-10-03T15:33:00,2024-03-22T08:00:00,failed,48,default_chart_a_tax_13,1003

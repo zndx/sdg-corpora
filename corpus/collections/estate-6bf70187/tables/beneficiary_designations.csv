@@ -1,0 +1,5 @@
+id,designation_id,account_reference,named_beneficiary,percentage_share,effective_date,revocable,investment_fund_account_id,person_id
+1,605954,legacy-account-61,regional-named-54,2.45,2023-02-14,false,1,100
+2,32829,compact-account-62,legacy-named-55,4.90,2024-07-25,true,2,101
+3,1202-0001-S,composite-account-63,compact-named-56,7.35,2025-12-09,false,3,102
+4,ale,primary-account-64,composite-named-57,9.80,2022-05-20,true,4,103

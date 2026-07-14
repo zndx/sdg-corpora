@@ -1,0 +1,218 @@
+{
+ "construct_id": "d48edc8ad633938b",
+ "slug": "information-sharing-agreement-d48edc8a",
+ "passage": "d48edc8ad633938b0f2ba45a1a9cea95ecb357e0f42873ee24a2b43ad83bd333.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 17,
+ "entities": [
+  "InformationSharingAgreement",
+  "ChiefInformationOfficer",
+  "GovernanceBoard",
+  "InteroperabilityStandard",
+  "InformationEnvironment",
+  "MissionService"
+ ],
+ "terms": [
+  {
+   "name": "InformationSharingAgreement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ChiefInformationOfficer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "GovernanceBoard",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InteroperabilityStandard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "InformationEnvironment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MissionService",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "InformationSharingAgreement",
+   "rows": 4,
+   "columns": [
+    "agreementId",
+    "issueDate",
+    "agreementType",
+    "status",
+    "scope",
+    "boardId"
+   ]
+  },
+  {
+   "name": "ChiefInformationOfficer",
+   "rows": 4,
+   "columns": [
+    "officerId",
+    "fullName",
+    "organization",
+    "rankOrTitle",
+    "appointmentDate",
+    "boardId",
+    "agreementId"
+   ]
+  },
+  {
+   "name": "GovernanceBoard",
+   "rows": 4,
+   "columns": [
+    "id",
+    "boardId",
+    "establishmentDate",
+    "governanceScope",
+    "meetingFrequency",
+    "decisionAuthority",
+    "environmentId"
+   ]
+  },
+  {
+   "name": "InteroperabilityStandard",
+   "rows": 4,
+   "columns": [
+    "id",
+    "standardId",
+    "standardName",
+    "version",
+    "technologyType",
+    "complianceLevel",
+    "effectiveDate",
+    "boardId",
+    "environmentId"
+   ]
+  },
+  {
+   "name": "InformationEnvironment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "environmentId",
+    "environmentName",
+    "architectureType",
+    "operationalStatus",
+    "visibilityLevel",
+    "boardId"
+   ]
+  },
+  {
+   "name": "MissionService",
+   "rows": 4,
+   "columns": [
+    "id",
+    "serviceId",
+    "serviceName",
+    "serviceCategory",
+    "securityClassification",
+    "availabilityStatus",
+    "providerOrganization",
+    "environmentId"
+   ]
+  },
+  {
+   "name": "InformationSharingAgreementInteroperabilityStandard",
+   "rows": 8,
+   "columns": [
+    "agreementId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "InformationSharingAgreementChiefInformationOfficer",
+   "rows": 8,
+   "columns": [
+    "agreementId",
+    "officerId"
+   ]
+  },
+  {
+   "name": "GovernanceBoardChiefInformationOfficer",
+   "rows": 8,
+   "columns": [
+    "boardId",
+    "officerId"
+   ]
+  },
+  {
+   "name": "GovernanceBoardInteroperabilityStandard",
+   "rows": 8,
+   "columns": [
+    "boardId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "InteroperabilityStandardMissionService",
+   "rows": 8,
+   "columns": [
+    "standardId",
+    "serviceId"
+   ]
+  },
+  {
+   "name": "InformationEnvironmentInteroperabilityStandard",
+   "rows": 8,
+   "columns": [
+    "environmentId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "InformationEnvironmentMissionService",
+   "rows": 8,
+   "columns": [
+    "environmentId",
+    "serviceId"
+   ]
+  },
+  {
+   "name": "MissionServiceInteroperabilityStandard",
+   "rows": 8,
+   "columns": [
+    "serviceId",
+    "standardId"
+   ]
+  },
+  {
+   "name": "MissionServiceMissionService",
+   "rows": 8,
+   "columns": [
+    "serviceId",
+    "usedByServiceId"
+   ]
+  }
+ ],
+ "views": [
+  "information_sharing_agreement_governance_board_view",
+  "information_sharing_agreement_interoperability_standard_detail_view",
+  "information_sharing_agreement_chief_information_officer_detail_view",
+  "chief_information_officer_governance_board_view",
+  "chief_information_officer_information_sharing_agreement_view",
+  "governance_board_chief_information_officer_detail_view",
+  "governance_board_interoperability_standard_detail_view",
+  "governance_board_information_environment_view",
+  "interoperability_standard_governance_board_view",
+  "interoperability_standard_information_environment_view",
+  "interoperability_standard_mission_service_detail_view",
+  "information_environment_governance_board_view",
+  "information_environment_interoperability_standard_detail_view",
+  "information_environment_mission_service_detail_view",
+  "mission_service_interoperability_standard_detail_view",
+  "mission_service_information_environment_view",
+  "mission_service_mission_service_detail_view"
+ ]
+}

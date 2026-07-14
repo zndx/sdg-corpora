@@ -1,0 +1,150 @@
+{
+ "construct_id": "3f2e5f74a1055dcb",
+ "slug": "provider-change-request-3f2e5f74",
+ "passage": "3f2e5f74a1055dcb9e354cd1151769469ddeede3e7c3707f069cd8ba93849e66.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "ProviderChangeRequest",
+  "Client",
+  "Manager",
+  "ProviderRole",
+  "Provider",
+  "Clinic"
+ ],
+ "terms": [
+  {
+   "name": "ProviderChangeRequest",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Client",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Manager",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ProviderRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Provider",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Clinic",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "provider_change_requests",
+   "rows": 4,
+   "columns": [
+    "provider_change_request_id",
+    "request_id",
+    "client_mh_number",
+    "client_name",
+    "guardian_name",
+    "contact_phone",
+    "request_date",
+    "reason_for_change",
+    "status",
+    "client_id",
+    "manager_id",
+    "provider_role_id",
+    "provider_id"
+   ]
+  },
+  {
+   "name": "clients",
+   "rows": 4,
+   "columns": [
+    "client_id",
+    "mh_number",
+    "full_name",
+    "is_minor",
+    "primary_contact_phone",
+    "assigned_clinic",
+    "provider_change_request_id",
+    "clinic_id"
+   ]
+  },
+  {
+   "name": "managers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manager_id",
+    "printed_name",
+    "signature",
+    "review_date",
+    "decision_text",
+    "notification_date",
+    "provider_change_request_id",
+    "clinic_id"
+   ]
+  },
+  {
+   "name": "provider_roles",
+   "rows": 4,
+   "columns": [
+    "provider_role_id",
+    "role_code",
+    "role_name",
+    "is_clinical",
+    "provider_change_request_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "providers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "provider_id",
+    "provider_name",
+    "provider_type",
+    "provider_change_request_id",
+    "clinic_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "clinics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "clinic_code",
+    "clinic_name",
+    "location_code",
+    "manager_id",
+    "provider_id",
+    "client_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_provider_change_request_client",
+  "v_provider_change_request_manager",
+  "v_provider_change_request_provider_role",
+  "v_provider_change_request_provider",
+  "v_client_provider_change_request",
+  "v_client_clinic",
+  "v_manager_provider_change_request",
+  "v_manager_clinic",
+  "v_provider_role_provider_change_request",
+  "v_provider_provider_change_request",
+  "v_provider_clinic",
+  "v_clinic_manager",
+  "v_clinic_provider",
+  "v_clinic_client"
+ ]
+}

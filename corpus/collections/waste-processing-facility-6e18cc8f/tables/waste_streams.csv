@@ -1,0 +1,5 @@
+id,stream_id,waste_type,origin_jurisdiction,daily_volume_tons,collection_frequency,hauler_contract_id,waste_processing_facility_id,created_at,updated_at
+100,2839512,municipal_solid_waste,integrated-origin-94,10.20,daily,4277016,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,e7a5231e-8fc3-11eb-924d-9cd76263cbd0,recyclables,seasonal-origin-95,13.40,weekly,1437584,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,3e41f384-9bac-11eb-a8a2-19ed5c03f8d3,refuse,regional-origin-96,16.60,biweekly,1437604,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,1186092,municipal_solid_waste,legacy-origin-97,19.80,daily,2618566,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

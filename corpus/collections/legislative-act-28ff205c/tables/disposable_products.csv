@@ -1,0 +1,5 @@
+id,product_code,product_name,material_composition,shelf_life,disposal_method,planned_obsolescence,consumer_id
+100,PRO-2675,Composite Assessment,distributed-material-18,28,landfill,false,1
+101,PRO-2681,Compact Survey A,baseline-material-19,34,incineration,true,2
+102,PRO-2687,Legacy Corridor,pilot-material-20,40,recycling,false,3
+103,PRO-2693,Regional Series,extended-material-21,46,landfill,true,4

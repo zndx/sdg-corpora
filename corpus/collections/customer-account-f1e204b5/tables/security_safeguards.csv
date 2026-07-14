@@ -1,0 +1,5 @@
+id,safeguard_id,safeguard_name,safeguard_type,implementation_date,last_audit_date,compliance_status,third_party_service_id
+1,id_23,Compact Model,firewall,2024-11-14,2023-10-23,compliant,100
+2,2933462,Legacy Cluster,encryption,2025-04-25,2024-03-07,non_compliant,101
+3,10445644,Regional Review A,user_authentication,2022-09-09,2025-08-18,pending_review,102
+4,3990177,Seasonal Initiative,access_control,2023-02-20,2022-01-02,compliant,103

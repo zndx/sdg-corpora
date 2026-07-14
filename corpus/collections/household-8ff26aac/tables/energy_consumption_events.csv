@@ -1,0 +1,5 @@
+id,event_timestamp,consumption_kwh,interval_duration,measurement_quality,tariff_band,electricity_meter_id,household_id,tariff_code
+100,2025-04-17T15:57:00,19.20,36,verified,adaptive-tariff-89,1,1000,lu_tax_code_template_m41
+101,2022-09-01T22:14:00,21.40,42,estimated,distributed-tariff-90,2,1001,lu_tax_code_template_m14
+102,2023-02-12T05:31:00,23.60,48,flagged,baseline-tariff-91,3,1002,209229
+103,2024-07-23T12:48:00,25.80,54,verified,pilot-tariff-92,4,1003,7119770

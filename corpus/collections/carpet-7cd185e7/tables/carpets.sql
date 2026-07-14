@@ -1,0 +1,20 @@
+CREATE TABLE carpets (
+  id INTEGER NOT NULL,
+  carpet_id INTEGER,
+  design_style VARCHAR(32),
+  origin_region VARCHAR(32),
+  production_date TIMESTAMP,
+  dimensions VARCHAR(32),
+  material_composition VARCHAR(32),
+  current_location VARCHAR(32),
+  condition_status VARCHAR(32),
+  workshop_id INTEGER,
+  household_id INTEGER,
+  market_region_id INTEGER,
+  design_pattern_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (workshop_id) REFERENCES workshops (id),
+  FOREIGN KEY (household_id) REFERENCES royal_households (household_id),
+  FOREIGN KEY (market_region_id) REFERENCES market_regions (market_region_id),
+  FOREIGN KEY (design_pattern_id) REFERENCES design_patterns (design_pattern_id)
+);

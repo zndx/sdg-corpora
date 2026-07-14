@@ -1,0 +1,5 @@
+warning_method_id,method_identifier,method_name,reach,reliability,active_during_power_outage,evacuation_order_id,population_id
+1,MET-2663,Pilot Assessment,local,high,true,1,1
+2,MET-2670,Baseline Survey,regional,medium,false,2,2
+3,MET-2677,Distributed Corridor A,national,low,true,3,3
+4,MET-2684,Adaptive Series,local,high,false,4,4

@@ -1,0 +1,5 @@
+extracted_personal_data_record_id,record_identifier,extraction_method,source_language_code,output_format,data_archive_status,extraction_timestamp,official_identification_document_id,optical_character_recognition_engine_id
+100,REC-2601,MRZ recognition,10782179,PDF,archived,2024-11-03T22:42:00,1,100
+101,REC-2604,OCR text recognition,7441146,Word,exported,2025-04-14T05:59:00,2,101
+102,REC-2607,MRZ recognition,3990189,Excel,pending,2022-09-25T12:16:00,3,102
+103,REC-2610,OCR text recognition,IVC4ind,PDF,archived,2023-02-09T19:33:00,4,103

@@ -1,0 +1,5 @@
+board_appointment_id,appointment_id,appointment_date,term_start_date,term_end_date,term_length_years,confirmation_status,statutory_authority,board_of_trustees_id,county_executive_id
+1000,2087748,2022-05-03T16:12:00,2022-05-26,2025-08-24,13,pending,extended-statutor-93,1,1000
+1001,ChIJJ60m-q5t5kcRMZ9MdM8fVm4,2023-10-14T23:29:00,2023-10-10,2022-01-08,22,confirmed,integrated-statutor-94,2,1001
+1002,2087740,2024-03-25T06:46:00,2024-03-21,2023-06-19,31,rejected,seasonal-statutor-95,3,1002
+1003,1250223,2025-08-09T13:03:00,2025-08-05,2024-11-03,40,pending,regional-statutor-96,4,1003

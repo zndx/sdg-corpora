@@ -1,0 +1,5 @@
+core_characteristic_id,trait_id,trait_name,description,impact_level,faculty_researcher_id
+1000,505988,Pilot Assessment,Extended Survey,Low,1
+1001,4180945,Baseline Survey,Pilot Corridor A,Medium,2
+1002,4463653,Distributed Corridor A,Baseline Series,High,3
+1003,2bf31fca-8fb6-11eb-924d-9cd76263cbd0,Adaptive Series,Distributed Assessment,Low,4

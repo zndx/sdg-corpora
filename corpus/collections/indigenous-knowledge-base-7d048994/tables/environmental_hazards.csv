@@ -1,0 +1,5 @@
+hazard_id,hazard_type,frequency,magnitude,affected_area,last_occurrence,community_id,knowledge_base_id
+3012829,tsunami,annual,11.70,extended-affected-15,2023-06-26T05:03:00,1,220
+103167,volcanic_ash,decadal,14.40,integrated-affected-16,2024-11-10T12:20:00,2,5844261
+pgc_pyme_551,landslide,centennial,17.10,seasonal-affected-17,2025-04-21T19:37:00,3,flexible-thinking
+3012826,cyclone,rare,19.80,regional-affected-18,2022-09-05T02:54:00,4,727060

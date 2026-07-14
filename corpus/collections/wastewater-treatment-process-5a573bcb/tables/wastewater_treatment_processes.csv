@@ -1,0 +1,5 @@
+id,process_identifier,process_type,efficiency_rating,resource_consumption_rate,status,target_pollutant_class,research_project_id
+1,PRO-2267,photocatalysis,16.95,16.45,design,persistent organic pollutants,1000
+2,PRO-2271,photo-electrocatalysis,20.90,18.90,development,dye stuff,1001
+3,PRO-2275,advanced oxidation process,24.85,21.35,dissemination,heavy metals,1002
+4,PRO-2279,photocatalysis,28.80,23.80,operational,recalcitrant organic pollutants,1003

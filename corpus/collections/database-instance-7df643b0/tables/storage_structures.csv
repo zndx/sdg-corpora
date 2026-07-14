@@ -1,0 +1,5 @@
+id,structure_id,structure_type,size_g_b,storage_location,instance_id
+100,2405,tablespace,0.74,distributed-storage-48,26730215
+101,7441140,datafile,0.73,baseline-storage-49,en_AU
+102,7119772,block,0.286487255225401,pilot-storage-50,IVC20det15
+103,1996930,tablespace,0.6000001,extended-storage-51,937736

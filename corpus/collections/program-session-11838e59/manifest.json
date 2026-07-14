@@ -1,0 +1,162 @@
+{
+ "construct_id": "11838e59e328ae20",
+ "slug": "program-session-11838e59",
+ "passage": "11838e59e328ae2026e9eab793a7a3f22e37de1ac18d028cee6c17e13ff63c52.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 9,
+ "entities": [
+  "ProgramSession",
+  "Facility",
+  "Room",
+  "PricingTier",
+  "Participant",
+  "Equipment"
+ ],
+ "terms": [
+  {
+   "name": "ProgramSession",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Facility",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "Room",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "PricingTier",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "Participant",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "Equipment",
+   "genus": "bfo:00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ProgramSession",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sessionIdentifier",
+    "programName",
+    "dayOfWeek",
+    "startTime",
+    "endTime",
+    "seasonEndDate",
+    "isClosed",
+    "facilityId",
+    "tierId"
+   ]
+  },
+  {
+   "name": "Facility",
+   "rows": 4,
+   "columns": [
+    "facilityId",
+    "facilityIdentifier",
+    "facilityName",
+    "streetAddress",
+    "city",
+    "state",
+    "postalCode",
+    "phoneNumber",
+    "website"
+   ]
+  },
+  {
+   "name": "Room",
+   "rows": 4,
+   "columns": [
+    "id",
+    "roomIdentifier",
+    "roomName",
+    "roomType",
+    "hasChangingTables",
+    "allowsFood",
+    "requiresShoeRemoval",
+    "facilityId",
+    "equipmentId"
+   ]
+  },
+  {
+   "name": "PricingTier",
+   "rows": 4,
+   "columns": [
+    "tierId",
+    "tierIdentifier",
+    "tierName",
+    "costPerChild",
+    "ticketCount",
+    "totalCost",
+    "paymentMethod",
+    "sessionId"
+   ]
+  },
+  {
+   "name": "Participant",
+   "rows": 4,
+   "columns": [
+    "participantId",
+    "participantIdentifier",
+    "firstName",
+    "lastName",
+    "ageGroup",
+    "hasPhotoID",
+    "isSupervisor",
+    "registrationDate",
+    "isSupervisedByParticipantId"
+   ]
+  },
+  {
+   "name": "Equipment",
+   "rows": 4,
+   "columns": [
+    "id",
+    "equipmentIdentifier",
+    "equipmentName",
+    "equipmentType",
+    "isSkidFree",
+    "isChangingTable",
+    "roomId"
+   ]
+  },
+  {
+   "name": "FacilityRoom",
+   "rows": 8,
+   "columns": [
+    "facilityId",
+    "roomId"
+   ]
+  },
+  {
+   "name": "ParticipantProgramSession",
+   "rows": 8,
+   "columns": [
+    "participantId",
+    "sessionId"
+   ]
+  }
+ ],
+ "views": [
+  "v_program_session_facility",
+  "v_program_session_pricing_tier",
+  "v_facility_room_detail",
+  "v_room_facility",
+  "v_room_equipment",
+  "v_pricing_tier_program_session",
+  "v_participant_program_session_detail",
+  "v_participant_participant",
+  "v_equipment_room"
+ ]
+}

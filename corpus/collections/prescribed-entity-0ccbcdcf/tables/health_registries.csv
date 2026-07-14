@@ -1,0 +1,5 @@
+health_registry_id,registry_id,registry_name,data_category,last_updated,record_count,prescribed_entity_id,patient_record_id
+1000,136630a8-8fcc-11eb-924d-9cd76263cbd0,Legacy Programme D,oncology,2023-06-17T17:27:00,50,100,100
+1001,4793487,Regional Standard,cardiology,2024-11-01T00:44:00,17,101,101
+1002,69430,Seasonal Framework,general,2025-04-12T07:01:00,19,102,102
+1003,8250,Integrated Protocol A,oncology,2022-09-23T14:18:00,17,103,103

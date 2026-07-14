@@ -1,0 +1,5 @@
+business_identifier,vat_number,registered_address,subscription_status,primary_language,software_administrator_id,method_id,labor_costing_software_id
+BUS-2254,VAT-2449,regional-register-36,active,English,100,209228,1
+BUS-2255,VAT-2453,legacy-register-37,suspended,Romanian,101,7441161,2
+BUS-2256,VAT-2457,compact-register-38,expired,English,102,89447,3
+BUS-2257,VAT-2461,composite-register-39,pending_verification,Romanian,103,4180941,4

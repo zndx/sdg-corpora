@@ -1,0 +1,143 @@
+{
+ "construct_id": "ac7bde243c861ff6",
+ "slug": "position-ac7bde24",
+ "passage": "ac7bde243c861ff66e51fd41d2d35c1a5e614d9b5de731f26f97d6656dc85ec6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "Position",
+  "Employee",
+  "Department",
+  "CollectiveBargainingAgreement",
+  "PerformanceReview"
+ ],
+ "terms": [
+  {
+   "name": "Position",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Employee",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Department",
+   "genus": "bfo:0000003"
+  },
+  {
+   "name": "CollectiveBargainingAgreement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PerformanceReview",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "positions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "position_id",
+    "title",
+    "classification",
+    "salary_range",
+    "approval_date",
+    "status",
+    "employee_id",
+    "supervises_position_id",
+    "receives_direction_from_position_id",
+    "department_id"
+   ]
+  },
+  {
+   "name": "employees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "employee_id",
+    "first_name",
+    "last_name",
+    "hire_date",
+    "termination_date",
+    "employment_status",
+    "position_id",
+    "supervises_employee_id",
+    "department_id"
+   ]
+  },
+  {
+   "name": "departments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "department_id",
+    "name",
+    "code",
+    "established_date",
+    "status",
+    "employee_id",
+    "reports_to_department_id"
+   ]
+  },
+  {
+   "name": "collective_bargaining_agreements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agreement_id",
+    "effective_date",
+    "expiration_date",
+    "union_name",
+    "status",
+    "employee_id",
+    "position_id",
+    "administered_by_employee_id"
+   ]
+  },
+  {
+   "name": "performance_reviews",
+   "rows": 4,
+   "columns": [
+    "review_id",
+    "review_date",
+    "rating",
+    "status",
+    "comments",
+    "employee_id",
+    "conducted_by_employee_id",
+    "position_id",
+    "collective_bargaining_agreement_id"
+   ]
+  },
+  {
+   "name": "departments_positions",
+   "rows": 8,
+   "columns": [
+    "department_id",
+    "position_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_position_employee",
+  "vw_position_position",
+  "vw_position_department",
+  "vw_employee_position",
+  "vw_employee_employee",
+  "vw_employee_department",
+  "vw_department_position_detail",
+  "vw_department_employee",
+  "vw_department_department",
+  "vw_collective_bargaining_agreement_employee",
+  "vw_collective_bargaining_agreement_position",
+  "vw_performance_review_employee",
+  "vw_performance_review_position",
+  "vw_performance_review_collective_bargaining_agreement"
+ ]
+}

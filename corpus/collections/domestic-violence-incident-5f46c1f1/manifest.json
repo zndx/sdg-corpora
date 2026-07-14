@@ -1,0 +1,207 @@
+{
+ "construct_id": "5f46c1f17e6e0f2c",
+ "slug": "domestic-violence-incident-5f46c1f1",
+ "passage": "5f46c1f17e6e0f2c3339c03417535aff6d98ce88fe91fd0dfc18ab4d6b78653d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 15,
+ "entities": [
+  "DomesticViolenceIncident",
+  "PoliceReport",
+  "Victim",
+  "Offender",
+  "LegalAdvocate",
+  "ProtectionOrder",
+  "Prosecutor"
+ ],
+ "terms": [
+  {
+   "name": "DomesticViolenceIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PoliceReport",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Victim",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Offender",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "LegalAdvocate",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ProtectionOrder",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Prosecutor",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "domestic_violence_incidents",
+   "rows": 4,
+   "columns": [
+    "incident_id",
+    "report_date",
+    "severity_level",
+    "location",
+    "offender_id",
+    "victim_id",
+    "police_report_number",
+    "lethality_score",
+    "police_report_id",
+    "involves_victim_victim_id",
+    "involves_offender_offender_id"
+   ]
+  },
+  {
+   "name": "police_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "officer_id",
+    "report_date",
+    "incident_id",
+    "status",
+    "narrative",
+    "evidence_collected",
+    "records_incident_incident_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "victims",
+   "rows": 4,
+   "columns": [
+    "id",
+    "victim_id",
+    "full_name",
+    "date_of_birth",
+    "contact_number",
+    "safety_plan_status",
+    "crisis_call_count",
+    "referral_status",
+    "legal_advocate_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "offenders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "offender_id",
+    "full_name",
+    "date_of_birth",
+    "criminal_history",
+    "accountability_status"
+   ]
+  },
+  {
+   "name": "legal_advocates",
+   "rows": 4,
+   "columns": [
+    "legal_advocate_id",
+    "advocate_id",
+    "full_name",
+    "education_level",
+    "on_call_rotation",
+    "supervisor_id",
+    "case_load",
+    "prosecutor_id",
+    "protection_order_id"
+   ]
+  },
+  {
+   "name": "protection_orders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "order_id",
+    "issue_date",
+    "expiration_date",
+    "order_type",
+    "court_case_number",
+    "status",
+    "victim_id",
+    "offender_id",
+    "legal_advocate_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "prosecutors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "prosecutor_id",
+    "full_name",
+    "case_load",
+    "court_assignment",
+    "legal_advocate_id"
+   ]
+  },
+  {
+   "name": "victims_incidents",
+   "rows": 8,
+   "columns": [
+    "victim_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "offenders_incidents",
+   "rows": 8,
+   "columns": [
+    "offender_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "advocates_victims",
+   "rows": 8,
+   "columns": [
+    "legal_advocate_id",
+    "victim_id"
+   ]
+  },
+  {
+   "name": "prosecutors_incidents",
+   "rows": 8,
+   "columns": [
+    "prosecutor_id",
+    "incident_id"
+   ]
+  }
+ ],
+ "views": [
+  "domestic_violence_incident_police_report_view",
+  "domestic_violence_incident_victim_view",
+  "domestic_violence_incident_offender_view",
+  "police_report_domestic_violence_incident_view",
+  "victim_domestic_violence_incident_detail_view",
+  "victim_legal_advocate_view",
+  "offender_domestic_violence_incident_detail_view",
+  "legal_advocate_victim_detail_view",
+  "legal_advocate_prosecutor_view",
+  "legal_advocate_protection_order_view",
+  "protection_order_victim_view",
+  "protection_order_offender_view",
+  "protection_order_legal_advocate_view",
+  "prosecutor_domestic_violence_incident_detail_view",
+  "prosecutor_legal_advocate_view"
+ ]
+}

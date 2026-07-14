@@ -1,0 +1,20 @@
+CREATE TABLE taper_gages (
+  taper_gage_id INTEGER NOT NULL,
+  gage_type VARCHAR(32),
+  tool_number VARCHAR(32),
+  mark_size VARCHAR(32),
+  status VARCHAR(32),
+  large_end_diameter DECIMAL,
+  small_end_diameter DECIMAL,
+  taper_per_foot DECIMAL,
+  taper_per_inch DECIMAL,
+  taper_tolerance DECIMAL,
+  included_angle DECIMAL,
+  gage_specification_id INTEGER,
+  manufacturer_id INTEGER,
+  requestor_id INTEGER,
+  PRIMARY KEY (taper_gage_id),
+  FOREIGN KEY (gage_specification_id) REFERENCES gage_specifications (gage_specification_id),
+  FOREIGN KEY (manufacturer_id) REFERENCES manufacturers (id),
+  FOREIGN KEY (requestor_id) REFERENCES requestors (requestor_id)
+);

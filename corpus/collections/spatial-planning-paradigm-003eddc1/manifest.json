@@ -1,0 +1,220 @@
+{
+ "construct_id": "003eddc137fcedfc",
+ "slug": "spatial-planning-paradigm-003eddc1",
+ "passage": "003eddc137fcedfc9db7bbef5ebd8d98f42bf0b1a02a5e1431f806be8bc9587c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 20,
+ "entities": [
+  "SpatialPlanningParadigm",
+  "LandUse",
+  "TransitOrientedDevelopment",
+  "EcologicalSystem",
+  "NaturalFeature",
+  "PublicPerception",
+  "PolicyInstrument",
+  "SpatialPlanningZone"
+ ],
+ "terms": [
+  {
+   "name": "SpatialPlanningParadigm",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LandUse",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TransitOrientedDevelopment",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EcologicalSystem",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NaturalFeature",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PublicPerception",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SpatialPlanningZone",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "spatial_planning_paradigms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "paradigm_id",
+    "name",
+    "theoretical_focus",
+    "methodological_focus",
+    "status",
+    "land_use_id",
+    "ecological_system_id",
+    "policy_instrument_id"
+   ]
+  },
+  {
+   "name": "land_uses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "land_use_id",
+    "zoning_district",
+    "density_class",
+    "primary_function",
+    "last_survey_date",
+    "spatial_planning_zone_id",
+    "transit_oriented_development_id",
+    "spatial_planning_paradigm_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "transit_oriented_developments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tod_id",
+    "name",
+    "conurbation",
+    "coverage_radius",
+    "implementation_status",
+    "spatial_planning_zone_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "ecological_systems",
+   "rows": 4,
+   "columns": [
+    "ecological_system_id",
+    "name",
+    "type",
+    "area_hectares",
+    "conservation_status",
+    "spatial_planning_zone_id"
+   ]
+  },
+  {
+   "name": "natural_features",
+   "rows": 4,
+   "columns": [
+    "id",
+    "feature_id",
+    "name",
+    "category",
+    "perceived_value",
+    "ecological_system_id",
+    "public_perception_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "public_perceptions",
+   "rows": 4,
+   "columns": [
+    "public_perception_id",
+    "perception_id",
+    "methodology",
+    "subject",
+    "sentiment_score",
+    "survey_date",
+    "natural_feature_id",
+    "spatial_planning_zone_id"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "policy_instrument_id",
+    "policy_id",
+    "name",
+    "jurisdiction",
+    "effective_date",
+    "status",
+    "public_perception_id",
+    "land_use_id",
+    "spatial_planning_zone_id"
+   ]
+  },
+  {
+   "name": "spatial_planning_zones",
+   "rows": 4,
+   "columns": [
+    "spatial_planning_zone_id",
+    "zone_id",
+    "name",
+    "region",
+    "country",
+    "area_km2",
+    "transit_oriented_development_id",
+    "ecological_system_id"
+   ]
+  },
+  {
+   "name": "developments_uses",
+   "rows": 8,
+   "columns": [
+    "transit_oriented_development_id",
+    "land_use_id"
+   ]
+  },
+  {
+   "name": "systems_features",
+   "rows": 8,
+   "columns": [
+    "ecological_system_id",
+    "natural_feature_id"
+   ]
+  },
+  {
+   "name": "zones_uses",
+   "rows": 8,
+   "columns": [
+    "spatial_planning_zone_id",
+    "land_use_id"
+   ]
+  }
+ ],
+ "views": [
+  "spatial_planning_paradigm_land_use_view",
+  "spatial_planning_paradigm_ecological_system_view",
+  "spatial_planning_paradigm_policy_instrument_view",
+  "land_use_spatial_planning_zone_view",
+  "land_use_transit_oriented_development_view",
+  "land_use_spatial_planning_paradigm_view",
+  "transit_oriented_development_land_use_detail_view",
+  "transit_oriented_development_spatial_planning_zone_view",
+  "ecological_system_natural_feature_detail_view",
+  "ecological_system_spatial_planning_zone_view",
+  "natural_feature_ecological_system_view",
+  "natural_feature_public_perception_view",
+  "public_perception_natural_feature_view",
+  "public_perception_spatial_planning_zone_view",
+  "policy_instrument_public_perception_view",
+  "policy_instrument_land_use_view",
+  "policy_instrument_spatial_planning_zone_view",
+  "spatial_planning_zone_land_use_detail_view",
+  "spatial_planning_zone_transit_oriented_development_view",
+  "spatial_planning_zone_ecological_system_view"
+ ]
+}

@@ -1,0 +1,5 @@
+id,intervention_id,intervention_name,subject_area,grade_range,requires_app_installation,authentication_method_id
+1,d64c33f2-8fc1-11eb-924d-9cd76263cbd0,Lexia Core5,Reading,legacy-grade-79,false,1000
+2,L408,Lexia PowerUp,Math,compact-grade-80,true,1001
+3,eff2857c-8fcb-11eb-924d-9cd76263cbd0,MobyMax,Reading,composite-grade-81,false,1002
+4,2618554,Lexia Core5,Math,primary-grade-82,true,1003

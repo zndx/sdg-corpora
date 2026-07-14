@@ -1,0 +1,5 @@
+id,member_id,full_name,appointment_date,term_end_date,is_chairman,fee_amount,payment_method,annual_general_meeting_id,resolution_id
+1,10207158,Theodore Mcgrath,2022-05-03,2025-08-24,true,38.08,direct,1,1000
+2,10207158,Account Name,2023-10-14,2022-01-08,false,18.47,via_company,2,1001
+3,25820616,Saipan International Airport,2024-03-25,2023-06-19,true,38.08,direct,3,1002
+4,2002007020250,Norma Fisher,2025-08-09,2024-11-03,false,26.25,via_company,4,1003

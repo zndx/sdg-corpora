@@ -1,0 +1,5 @@
+abuse_code,definition,severity_level,requires_mandatory_reporting,classification,incident_id
+c747f9a8-8fcc-11eb-924d-9cd76263cbd0,primary-definiti-22,29,true,physical,1
+4447035,adaptive-definiti-23,40,false,emotional,2
+8189490,distributed-definiti-24,51,true,sexual,3
+4bbb5d4c-9bad-11eb-a8a2-19ed5c03f8d3,baseline-definiti-25,62,false,neglect,4

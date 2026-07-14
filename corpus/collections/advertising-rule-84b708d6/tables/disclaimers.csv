@@ -1,0 +1,5 @@
+id,disclaimer_text,disclaimer_type,prominence_level,is_mandatory,advertisement_id,advertising_rule_id,created_at
+1,adaptive-disclaim-89,not_employee,prominent,true,1,100,2025-01-01 00:14:00
+2,distributed-disclaim-90,dramatization,legible,false,2,101,2025-02-06 03:14:00
+3,baseline-disclaim-91,actor,intelligible,true,3,102,2025-03-11 06:14:00
+4,pilot-disclaim-92,fee_disclosure,prominent,false,4,103,2025-04-16 09:14:00

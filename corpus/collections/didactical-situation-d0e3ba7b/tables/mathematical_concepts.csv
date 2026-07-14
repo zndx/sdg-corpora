@@ -1,0 +1,5 @@
+id,concept_id,name,domain,complexity_level,prerequisite_concept_id,is_abstract,mathematical_concept_id
+1,884350,Extended Review,algebra,37,778560,false,1
+2,392497,Pilot Initiative A,geometry,45,505992,true,2
+3,2106713,Baseline Model,calculus,53,account_pymes_132,false,3
+4,4463648,Distributed Cluster,number_theory,61,32806,true,4

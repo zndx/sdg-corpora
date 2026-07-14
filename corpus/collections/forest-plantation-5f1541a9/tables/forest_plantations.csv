@@ -1,0 +1,5 @@
+id,plantation_id,area_hectares,establishment_year,certification_status,primary_species,land_use_history,country_code,company_id,wood_product_id,created_at
+1,10238270,10.20,26,FSC_Certified,seasonal-primary-77,Grassland,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,Link Title,1,2025-01-01 00:14:00
+2,strategic-thinking,14.40,31,Pending_Certification,regional-primary-78,Degraded_Forestland,lu_tax_code_template_m_I_2,Interac Association,2,2025-02-06 03:14:00
+3,Bjornfant,18.60,36,Not_Certified,legacy-primary-79,Natural_Forest,default_chart_a_account_57,Stern Electronics,3,2025-03-11 06:14:00
+4,3717623,22.80,41,FSC_Certified,compact-primary-80,Grassland,727045,Navistar International,4,2025-04-16 09:14:00

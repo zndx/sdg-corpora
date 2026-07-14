@@ -1,0 +1,20 @@
+CREATE TABLE provider_change_requests (
+  provider_change_request_id INTEGER NOT NULL,
+  request_id INTEGER,
+  client_mh_number VARCHAR(32),
+  client_name VARCHAR(32),
+  guardian_name VARCHAR(32),
+  contact_phone VARCHAR(32),
+  request_date TIMESTAMP,
+  reason_for_change VARCHAR(32),
+  status VARCHAR(32),
+  client_id INTEGER,
+  manager_id INTEGER,
+  provider_role_id INTEGER,
+  provider_id INTEGER,
+  PRIMARY KEY (provider_change_request_id),
+  FOREIGN KEY (client_id) REFERENCES clients (client_id),
+  FOREIGN KEY (manager_id) REFERENCES managers (id),
+  FOREIGN KEY (provider_role_id) REFERENCES provider_roles (provider_role_id),
+  FOREIGN KEY (provider_id) REFERENCES providers (id)
+);

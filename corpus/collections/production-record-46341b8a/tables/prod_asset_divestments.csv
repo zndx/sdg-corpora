@@ -1,0 +1,5 @@
+divestment_id,total_value,currency,start_date,end_date,status,company_id,transferred_to_company_id
+mensuel,9.45,seasonal-currency-71,2022-09-05T20:24:00,2022-09-01T08:00:00,regional-status-84,1,1
+338541,12.90,regional-currency-72,2023-02-16T03:41:00,2023-02-12T15:17:00,legacy-status-85,2,2
+24704630,16.35,legacy-currency-73,2024-07-27T10:58:00,2024-07-23T22:34:00,compact-status-86,3,3
+Q1ZVN2,19.80,compact-currency-74,2025-12-11T17:15:00,2025-12-07T05:51:00,composite-status-87,4,4

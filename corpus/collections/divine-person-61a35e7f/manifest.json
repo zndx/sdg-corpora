@@ -1,0 +1,151 @@
+{
+ "construct_id": "61a35e7f90ea440d",
+ "slug": "divine-person-61a35e7f",
+ "passage": "61a35e7f90ea440d7892c22423f89643e00ee8a350a323868e33e751b0897655.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 17,
+ "entities": [
+  "DivinePerson",
+  "DivineAct",
+  "Humanity",
+  "Salvation",
+  "Church",
+  "TheologicalProposition"
+ ],
+ "terms": [
+  {
+   "name": "DivinePerson",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DivineAct",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Humanity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Salvation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Church",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TheologicalProposition",
+   "genus": "bfo:0000030"
+  }
+ ],
+ "tables": [
+  {
+   "name": "divine_persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_name",
+    "has_role",
+    "has_nature",
+    "has_position",
+    "divine_act_id",
+    "theological_proposition_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "divine_acts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_act_type",
+    "has_temporal_phase",
+    "has_location",
+    "has_outcome",
+    "divine_person_id",
+    "humanity_id",
+    "salvation_id"
+   ]
+  },
+  {
+   "name": "humanities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_image_status",
+    "has_sin_condition",
+    "has_reconciliation_status",
+    "has_eternal_destiny",
+    "divine_person_id",
+    "divine_act_id",
+    "church_id"
+   ]
+  },
+  {
+   "name": "salvations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_source",
+    "has_mechanism",
+    "has_recipient",
+    "has_result",
+    "divine_act_id",
+    "humanity_id",
+    "divine_person_id"
+   ]
+  },
+  {
+   "name": "churches",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_role",
+    "has_mission",
+    "has_unity_type",
+    "has_responsibility",
+    "humanity_id",
+    "divine_person_id",
+    "divine_act_id"
+   ]
+  },
+  {
+   "name": "theological_propositions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_proposition_type",
+    "has_authority",
+    "has_truth_value",
+    "has_scope",
+    "divine_person_id",
+    "humanity_id",
+    "salvation_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_divine_person_divine_act",
+  "v_divine_person_theological_proposition",
+  "v_divine_act_divine_person",
+  "v_divine_act_humanity",
+  "v_divine_act_salvation",
+  "v_humanity_divine_person",
+  "v_humanity_divine_act",
+  "v_humanity_church",
+  "v_salvation_divine_act",
+  "v_salvation_humanity",
+  "v_salvation_divine_person",
+  "v_church_humanity",
+  "v_church_divine_person",
+  "v_church_divine_act",
+  "v_theological_proposition_divine_person",
+  "v_theological_proposition_humanity",
+  "v_theological_proposition_salvation"
+ ]
+}

@@ -1,0 +1,5 @@
+id,authority_code,authority_name,authority_type,is_regulatory,funding_source,administrative_region_id,research_project_id
+100,6926376,Sean Green,National Council,false,baseline-funding-73,100,1000
+101,5fc685e2-8fcc-11eb-924d-9cd76263cbd0,Elizabeth Woods,Department,true,pilot-funding-74,101,1001
+102,9246326,Kimberly Smith,Ministry,false,extended-funding-75,102,1002
+103,9085244,Kimberly Smith,WHO Office,true,integrated-funding-76,103,1003

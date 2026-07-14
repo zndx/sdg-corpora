@@ -1,0 +1,99 @@
+{
+ "construct_id": "6665f14fab2b957a",
+ "slug": "taper-gage-6665f14f",
+ "passage": "6665f14fab2b957a701392be66b44fc6c4e7fa1a15eaca966fa133da2b402f65.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 4,
+ "n_views": 5,
+ "entities": [
+  "TaperGage",
+  "DimensionalSpecification",
+  "ToleranceRequirement",
+  "GageStep"
+ ],
+ "terms": [
+  {
+   "name": "TaperGage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DimensionalSpecification",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ToleranceRequirement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "GageStep",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "taper_gages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "gage_type",
+    "tool_number",
+    "mark_size",
+    "large_end_diameter",
+    "small_end_diameter",
+    "taper_rate",
+    "taper_tolerance",
+    "included_angle",
+    "dimensional_specification_id",
+    "tolerance_requirement_id"
+   ]
+  },
+  {
+   "name": "dimensional_specifications",
+   "rows": 4,
+   "columns": [
+    "dimensional_specification_id",
+    "large_end_diameter",
+    "small_end_diameter",
+    "taper_rate_per_foot",
+    "taper_rate_per_inch",
+    "half_angle",
+    "included_angle",
+    "taper_gage_id"
+   ]
+  },
+  {
+   "name": "tolerance_requirements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "large_end_tolerance",
+    "taper_tolerance_per_inch",
+    "reference_standard",
+    "taper_gage_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "gage_steps",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location",
+    "is_present",
+    "taper_gage_id",
+    "created_at",
+    "updated_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_taper_gage_dimensional_specification",
+  "v_taper_gage_tolerance_requirement",
+  "v_dimensional_specification_taper_gage",
+  "v_tolerance_requirement_taper_gage",
+  "v_gage_step_taper_gage"
+ ]
+}

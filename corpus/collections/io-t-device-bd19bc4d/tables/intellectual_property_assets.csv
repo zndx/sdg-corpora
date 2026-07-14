@@ -1,0 +1,5 @@
+asset_id,asset_name,asset_type,valuation_amount,currency_code,registration_date,is_licensed,io_t_device_id,manufacturer_id
+7731874,Pilot Programme,pilot-asset-86,442.51,gd_fp_eu_acc3,2023-06-19,true,1,1
+6564392,Baseline Standard,extended-asset-87,33.06,managing-resources,2024-11-03,false,2,2
+5917296,Distributed Framework A,integrated-asset-88,"3,079",f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,2025-04-14,true,3,3
+990e161e10664c5885182d95dc07e606,Adaptive Protocol,seasonal-asset-89,"45,650",10445649,2022-09-25,false,4,4

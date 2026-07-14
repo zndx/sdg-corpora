@@ -1,0 +1,164 @@
+{
+ "construct_id": "fd95ba699bc7670d",
+ "slug": "breeding-program-fd95ba69",
+ "passage": "fd95ba699bc7670d46e08908b4275b8c817767f8b65c01723ad1ae711ccd17cc.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 10,
+ "entities": [
+  "BreedingProgram",
+  "Horse",
+  "Owner",
+  "PerformanceTest",
+  "Evaluator",
+  "CompetitionRecord",
+  "Pedigree"
+ ],
+ "terms": [
+  {
+   "name": "BreedingProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Horse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Owner",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "PerformanceTest",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Evaluator",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "CompetitionRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Pedigree",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "breeding_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "status"
+   ]
+  },
+  {
+   "name": "horses",
+   "rows": 4,
+   "columns": [
+    "id",
+    "horse_id",
+    "horse_name",
+    "registration_number",
+    "date_of_birth",
+    "sex",
+    "breed",
+    "status",
+    "breeding_program_id",
+    "owner_id",
+    "has_sire_horse_id",
+    "has_dam_horse_id"
+   ]
+  },
+  {
+   "name": "owners",
+   "rows": 4,
+   "columns": [
+    "owner_id",
+    "owner_name",
+    "address",
+    "city",
+    "state",
+    "zip_code",
+    "phone",
+    "email",
+    "horse_id"
+   ]
+  },
+  {
+   "name": "performance_tests",
+   "rows": 4,
+   "columns": [
+    "test_id",
+    "test_date",
+    "jumping_score",
+    "breeding_value",
+    "test_type",
+    "horse_id",
+    "evaluator_id"
+   ]
+  },
+  {
+   "name": "evaluators",
+   "rows": 4,
+   "columns": [
+    "id",
+    "evaluator_id",
+    "evaluator_name",
+    "organization",
+    "role",
+    "test_id"
+   ]
+  },
+  {
+   "name": "competition_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "competition_name",
+    "competition_level",
+    "competition_date",
+    "result",
+    "competition_type",
+    "horse_id",
+    "evaluator_id"
+   ]
+  },
+  {
+   "name": "pedigrees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pedigree_id",
+    "sire_name",
+    "dam_name",
+    "grand_sire_name",
+    "grand_dam_name",
+    "jumping_sire_count",
+    "horse_id",
+    "includes_sire_horse_id",
+    "includes_dam_horse_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_horse_breeding_program",
+  "v_horse_owner",
+  "v_horse_horse",
+  "v_owner_horse",
+  "v_performance_test_horse",
+  "v_performance_test_evaluator",
+  "v_evaluator_performance_test",
+  "v_competition_record_horse",
+  "v_competition_record_evaluator",
+  "v_pedigree_horse"
+ ]
+}

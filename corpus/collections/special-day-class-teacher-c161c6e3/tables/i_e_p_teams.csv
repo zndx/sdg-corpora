@@ -1,0 +1,5 @@
+team_id,team_name,meeting_frequency,last_meeting_date,next_scheduled_meeting,compliance_status,created_at,updated_at
+1450649,Composite Model,Monthly,2023-10-06,2024-03-09,Compliant,2025-01-01 00:14:00,2025-01-02 00:41:00
+1437598,Compact Cluster A,Quarterly,2024-03-17,2025-08-20,Non-Compliant,2025-02-06 03:14:00,2025-02-09 05:41:00
+id_14,Legacy Review,As Needed,2025-08-01,2022-01-04,Under Review,2025-03-11 06:14:00,2025-03-16 10:41:00
+99701,Regional Initiative,Monthly,2022-01-12,2023-06-15,Compliant,2025-04-16 09:14:00,2025-04-23 15:41:00

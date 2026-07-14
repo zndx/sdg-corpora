@@ -1,0 +1,5 @@
+id,transition_id,start_date,end_date,transition_type,status,description,service_user_id,carer_id,health_care_setting_id,destined_for_health_care_setting_id
+1,BJewellGraham,2022-09-05T20:24:00,2022-09-01T08:00:00,hospital discharge,planned,Extended Survey,1,1,1,1
+2,2106698,2023-02-16T03:41:00,2023-02-12T15:17:00,community care,in progress,Pilot Corridor A,2,2,2,2
+3,state_uk_21,2024-07-27T10:58:00,2024-07-23T22:34:00,residential care,completed,Baseline Series,3,3,3,3
+4,4332,2025-12-11T17:15:00,2025-12-07T05:51:00,hospital discharge,failed,Distributed Assessment,4,4,4,4

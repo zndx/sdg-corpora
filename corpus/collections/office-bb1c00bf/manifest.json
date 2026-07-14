@@ -1,0 +1,154 @@
+{
+ "construct_id": "bb1c00bf0aa59a57",
+ "slug": "office-bb1c00bf",
+ "passage": "bb1c00bf0aa59a57f13941b4614098e75641894c7561976a56e34e7330e3859d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 13,
+ "entities": [
+  "Office",
+  "Server",
+  "SoftwareVersion",
+  "SystemMetric",
+  "MonitoringTool",
+  "AuditLog"
+ ],
+ "terms": [
+  {
+   "name": "Office",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Server",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SoftwareVersion",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SystemMetric",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MonitoringTool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AuditLog",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "offices",
+   "rows": 4,
+   "columns": [
+    "office_id",
+    "city",
+    "region",
+    "country",
+    "is_active",
+    "established_date",
+    "server_id",
+    "software_version_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "servers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "server_id",
+    "model",
+    "partition_type",
+    "ipar_count",
+    "status",
+    "last_health_check_date",
+    "office_id",
+    "software_version_id",
+    "system_metric_id"
+   ]
+  },
+  {
+   "name": "software_versions",
+   "rows": 4,
+   "columns": [
+    "software_version_id",
+    "software_id",
+    "application_name",
+    "version_number",
+    "release_date",
+    "is_obsolete",
+    "maintenance_status",
+    "office_id",
+    "server_id"
+   ]
+  },
+  {
+   "name": "system_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_id",
+    "metric_type",
+    "value",
+    "timestamp",
+    "unit",
+    "is_anomalous",
+    "server_id",
+    "monitoring_tool_id"
+   ]
+  },
+  {
+   "name": "monitoring_tools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tool_id",
+    "tool_name",
+    "version",
+    "vendor",
+    "is_automated",
+    "last_run_date",
+    "server_id",
+    "system_metric_id"
+   ]
+  },
+  {
+   "name": "audit_logs",
+   "rows": 4,
+   "columns": [
+    "audit_log_id",
+    "log_id",
+    "action_type",
+    "user_id",
+    "timestamp",
+    "status",
+    "is_suspicious",
+    "monitoring_tool_id",
+    "system_metric_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_office_server",
+  "v_office_software_version",
+  "v_server_office",
+  "v_server_software_version",
+  "v_server_system_metric",
+  "v_software_version_office",
+  "v_software_version_server",
+  "v_system_metric_server",
+  "v_system_metric_monitoring_tool",
+  "v_monitoring_tool_server",
+  "v_monitoring_tool_system_metric",
+  "v_audit_log_monitoring_tool",
+  "v_audit_log_system_metric"
+ ]
+}

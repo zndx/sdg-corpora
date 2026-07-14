@@ -1,0 +1,5 @@
+broadcast_program_id,program_title,broadcast_date,network,duration_minutes,is_documentary,director_name,premiere_venue,news_organization_id,journalist_id,historical_event_id
+100,Legacy Review D,2024-03-21T14:06:00,primary-network-40,35,true,Primary Standard A,primary-premiere-52,100,1,1
+101,Regional Initiative,2025-08-05T21:23:00,adaptive-network-41,38,false,Composite Framework,adaptive-premiere-53,101,2,2
+102,Seasonal Model,2022-01-16T04:40:00,distributed-network-42,41,true,Compact Protocol,distributed-premiere-54,102,3,3
+103,Integrated Cluster A,2023-06-27T11:57:00,baseline-network-43,44,false,Legacy Programme D,baseline-premiere-55,103,4,4

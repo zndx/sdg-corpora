@@ -1,0 +1,5 @@
+need_id,need_type,severity_level,is_addressed_by_physician,requires_conversion,physician_id,conversion_moment_id
+10966213,pilot-need-62,29,false,false,5006449,100
+619,extended-need-63,40,true,true,338540,101
+92841674-9bad-11eb-a8a2-19ed5c03f8d3,integrated-need-64,51,false,false,default_chart_a_tax_5,102
+15426389,seasonal-need-65,62,true,true,103195,103

@@ -1,0 +1,184 @@
+{
+ "construct_id": "8645374f4ba80787",
+ "slug": "board-member-8645374f",
+ "passage": "8645374f4ba8078721e3aae5b62a7d03a25c3817329d4493918ce3c6ac6d787f.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 18,
+ "entities": [
+  "BoardMember",
+  "GovernanceBoard",
+  "Person",
+  "Organization",
+  "AcademicQualification",
+  "BusinessVenture",
+  "LeadershipPosition"
+ ],
+ "terms": [
+  {
+   "name": "BoardMember",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "GovernanceBoard",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicQualification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BusinessVenture",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LeadershipPosition",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "board_members",
+   "rows": 4,
+   "columns": [
+    "board_member_id",
+    "member_id",
+    "role_type",
+    "appointment_date",
+    "termination_date",
+    "is_current_member",
+    "board_id",
+    "person_id",
+    "position_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "governance_boards",
+   "rows": 4,
+   "columns": [
+    "board_id",
+    "board_name",
+    "organization_id",
+    "established_date",
+    "status",
+    "oversees_organization_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "person_id",
+    "first_name",
+    "last_name",
+    "professional_title",
+    "years_of_experience",
+    "organization_id",
+    "academic_qualification_qual_id",
+    "board_id",
+    "business_venture_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "headquarters_location",
+    "listing_status",
+    "person_id",
+    "business_venture_id",
+    "board_id"
+   ]
+  },
+  {
+   "name": "academic_qualifications",
+   "rows": 4,
+   "columns": [
+    "qual_id",
+    "degree_type",
+    "field_of_study",
+    "awarding_institution",
+    "graduation_year",
+    "distinction",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "business_ventures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "venture_id",
+    "venture_name",
+    "industry_sector",
+    "operational_status",
+    "geographic_scope",
+    "organization_id",
+    "person_id"
+   ]
+  },
+  {
+   "name": "leadership_positions",
+   "rows": 4,
+   "columns": [
+    "position_id",
+    "position_title",
+    "sector",
+    "start_date",
+    "end_date",
+    "is_current",
+    "person_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "boards_members",
+   "rows": 8,
+   "columns": [
+    "board_id",
+    "board_member_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_board_member_governance_board",
+  "v_board_member_person",
+  "v_board_member_leadership_position",
+  "v_governance_board_organization",
+  "v_governance_board_board_member_detail",
+  "v_person_organization",
+  "v_person_academic_qualification",
+  "v_person_governance_board",
+  "v_person_business_venture",
+  "v_organization_person",
+  "v_organization_business_venture",
+  "v_organization_governance_board",
+  "v_academic_qualification_person",
+  "v_academic_qualification_organization",
+  "v_business_venture_organization",
+  "v_business_venture_person",
+  "v_leadership_position_person",
+  "v_leadership_position_organization"
+ ]
+}

@@ -1,0 +1,5 @@
+data_transaction_id,transaction_id,timestamp,protocol,data_volume_bytes,status,compliance_standard,encryption_key_id,automated_script_id,audit_trail_id
+1,937738,2024-07-08T18:18:00,OpenPGP,15.45,pending,IndustryRegulation,1000,1,100
+2,89509,2025-12-19T01:35:00,S/MIME,17.90,encrypting,InternalPolicy,1001,2,101
+3,1186092,2022-05-03T08:52:00,LegacyFileTransfer,20.35,transmitted,IndustryRegulation,1002,3,102
+4,9085243,2023-10-14T15:09:00,Email,22.80,decrypted,InternalPolicy,1003,4,103

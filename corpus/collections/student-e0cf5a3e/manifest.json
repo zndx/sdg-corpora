@@ -1,0 +1,263 @@
+{
+ "construct_id": "e0cf5a3e8910cce1",
+ "slug": "student-e0cf5a3e",
+ "passage": "e0cf5a3e8910cce1b5d8836c7037186d867b8c1f457e0c726bd06d587413e76a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 17,
+ "n_views": 24,
+ "entities": [
+  "Student",
+  "CodeOfConduct",
+  "InterimSuspension",
+  "NoContactDirective",
+  "StudentActivity",
+  "Hearing",
+  "CampusHearingBoard",
+  "DeanOfStudentsStaff"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CodeOfConduct",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "InterimSuspension",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "NoContactDirective",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "StudentActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Hearing",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CampusHearingBoard",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DeanOfStudentsStaff",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "student_id",
+    "first_name",
+    "last_name",
+    "email_address",
+    "enrollment_status",
+    "enrollment_year",
+    "code_of_conduct_id",
+    "interim_suspension_id",
+    "no_contact_directive_id",
+    "student_activity_id"
+   ]
+  },
+  {
+   "name": "code_of_conducts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_id",
+    "title",
+    "effective_date",
+    "version_number",
+    "approval_date",
+    "issuing_body",
+    "interim_suspension_id",
+    "no_contact_directive_id",
+    "student_activity_id"
+   ]
+  },
+  {
+   "name": "interim_suspensions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "suspension_id",
+    "imposition_date",
+    "hearing_date",
+    "issuing_authority",
+    "reason",
+    "status",
+    "student_id",
+    "hearing_id",
+    "dean_of_students_staff_id"
+   ]
+  },
+  {
+   "name": "no_contact_directives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "directive_id",
+    "issue_date",
+    "issuing_office",
+    "contact_type",
+    "status",
+    "dean_of_students_staff_id"
+   ]
+  },
+  {
+   "name": "student_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "activity_name",
+    "category",
+    "status",
+    "governing_policy",
+    "code_of_conduct_id",
+    "dean_of_students_staff_id"
+   ]
+  },
+  {
+   "name": "hearings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "hearing_id",
+    "scheduled_date",
+    "status",
+    "outcome",
+    "interim_suspension_id",
+    "campus_hearing_board_id"
+   ]
+  },
+  {
+   "name": "campus_hearing_boards",
+   "rows": 4,
+   "columns": [
+    "campus_hearing_board_id",
+    "board_id",
+    "board_name",
+    "established_date"
+   ]
+  },
+  {
+   "name": "dean_of_students_staffs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "role_title",
+    "department"
+   ]
+  },
+  {
+   "name": "conducts_students",
+   "rows": 8,
+   "columns": [
+    "code_of_conduct_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "directives_students",
+   "rows": 8,
+   "columns": [
+    "no_contact_directive_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "activities_students",
+   "rows": 8,
+   "columns": [
+    "student_activity_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "hearings_students",
+   "rows": 8,
+   "columns": [
+    "hearing_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "boards_hearings",
+   "rows": 8,
+   "columns": [
+    "campus_hearing_board_id",
+    "hearing_id"
+   ]
+  },
+  {
+   "name": "boards_students",
+   "rows": 8,
+   "columns": [
+    "campus_hearing_board_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "staffs_suspensions",
+   "rows": 8,
+   "columns": [
+    "dean_of_students_staff_id",
+    "interim_suspension_id"
+   ]
+  },
+  {
+   "name": "staffs_directives",
+   "rows": 8,
+   "columns": [
+    "dean_of_students_staff_id",
+    "no_contact_directive_id"
+   ]
+  },
+  {
+   "name": "staffs_activities",
+   "rows": 8,
+   "columns": [
+    "dean_of_students_staff_id",
+    "student_activity_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_code_of_conduct",
+  "v_student_interim_suspension",
+  "v_student_no_contact_directive",
+  "v_student_student_activity",
+  "v_code_of_conduct_student_detail",
+  "v_code_of_conduct_interim_suspension",
+  "v_code_of_conduct_no_contact_directive",
+  "v_code_of_conduct_student_activity",
+  "v_interim_suspension_student",
+  "v_interim_suspension_hearing",
+  "v_interim_suspension_dean_of_students_staff",
+  "v_no_contact_directive_student_detail",
+  "v_no_contact_directive_dean_of_students_staff",
+  "v_student_activity_student_detail",
+  "v_student_activity_code_of_conduct",
+  "v_student_activity_dean_of_students_staff",
+  "v_hearing_interim_suspension",
+  "v_hearing_campus_hearing_board",
+  "v_hearing_student_detail",
+  "v_campus_hearing_board_hearing_detail",
+  "v_campus_hearing_board_student_detail",
+  "v_dean_of_students_staff_interim_suspension_detail",
+  "v_dean_of_students_staff_no_contact_directive_detail",
+  "v_dean_of_students_staff_student_activity_detail"
+ ]
+}

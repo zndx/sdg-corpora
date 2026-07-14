@@ -1,0 +1,5 @@
+knowledge_organization_system_id,identifier,name,version,last_updated,scope,status,tagging_activity_id
+1,IDE-2086,Extended Review,seasonal-version-71,2023-06-17T17:27:00,integrated-scope-52,active,1
+2,IDE-2091,Pilot Initiative A,regional-version-72,2024-11-01T00:44:00,seasonal-scope-53,deprecated,2
+3,IDE-2096,Baseline Model,legacy-version-73,2025-04-12T07:01:00,regional-scope-54,draft,3
+4,IDE-2101,Distributed Cluster,compact-version-74,2022-09-23T14:18:00,legacy-scope-55,active,4

@@ -1,0 +1,5 @@
+prize_id,prize_type,prize_value,eligibility_status,bowler_id,tournament_id
+100,scratch,18.20,eligible,100,100
+101,handicap,20.40,disqualified,101,101
+102,scratch,22.60,forfeited,102,102
+103,handicap,24.80,eligible,103,103

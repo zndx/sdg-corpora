@@ -1,0 +1,5 @@
+id,ingredient_id,name,type,is_allergen,is_vegetarian,is_vegan,is_gluten_free,menu_item_id
+1,1450638,Extended Review,Vegetable,false,true,false,true,1000
+2,5844284,Pilot Initiative A,Protein,true,false,true,false,1001
+3,template_ivacode_pagata_20det40ind,Baseline Model,Cheese,false,true,false,true,1002
+4,2087735,Distributed Cluster,Sauce,true,false,true,false,1003

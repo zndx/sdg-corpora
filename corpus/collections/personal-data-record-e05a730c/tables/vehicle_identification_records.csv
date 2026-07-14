@@ -1,0 +1,5 @@
+vehicle_identification_record_id,record_id,license_plate_number,state_issued,vehicle_make,vehicle_model,capture_timestamp,ocr_confidence_score,customer_profile_id,personal_data_record_id
+1,10449530,LIC-2494,pilot-state-50,seasonal-vehicle-95,compact-vehicle-80,2025-08-15T19:33:00,14.70,1,1
+2,10445619,LIC-2497,extended-state-51,regional-vehicle-96,composite-vehicle-81,2022-01-26T02:50:00,16.40,2,2
+3,9568457,LIC-2500,integrated-state-52,legacy-vehicle-97,primary-vehicle-82,2023-06-10T09:07:00,18.10,3,3
+4,20743593,LIC-2503,seasonal-state-53,compact-vehicle-98,adaptive-vehicle-83,2024-11-21T16:24:00,19.80,4,4

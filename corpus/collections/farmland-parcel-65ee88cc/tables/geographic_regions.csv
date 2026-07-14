@@ -1,0 +1,5 @@
+geographic_region_id,region_id,region_name,region_type,total_agricultural_acreage,average_land_price,dominant_crops
+1,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,state,3.70,11.88,baseline-dominant-61
+2,4180948,Adaptive Survey D,county,7.40,18.47,pilot-dominant-62
+3,3012829,Primary Corridor,district,11.10,37.54,extended-dominant-63
+4,778576,Composite Series,state,14.80,12.72,integrated-dominant-64

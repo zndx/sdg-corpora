@@ -1,0 +1,5 @@
+id,needId,needDescription,urgencyLevel,satisfactionStatus,lastAssessedDate,processId
+1000,10966213,Baseline Series D,low,unmet,2022-05-01T16:48:00,1
+1001,619,Distributed Assessment,medium,partially_met,2023-10-12T23:05:00,2
+1002,92841674-9bad-11eb-a8a2-19ed5c03f8d3,Adaptive Survey,high,fully_met,2024-03-23T06:22:00,3
+1003,15426389,Primary Corridor A,critical,unmet,2025-08-07T13:39:00,4

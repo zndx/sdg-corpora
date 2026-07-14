@@ -1,0 +1,5 @@
+id,legal_name,founded_year,annual_revenue,employee_count,volunteer_count,location,is_nonprofit,facility_id,donor_id
+1,Adaptive Model,27,"12,608",131,85,extended-location-99,false,1000,1
+2,Primary Cluster,31,"56,418",428,5,integrated-location-100,true,1001,2
+3,Composite Review D,35,"16,254",3,4,seasonal-location-101,false,1002,3
+4,Compact Initiative,39,"745,000",9,32,regional-location-102,true,1003,4

@@ -1,0 +1,5 @@
+nerve_fascicle_id,nerve_id,nerve_name,is_compressed,has_paresthesia,has_weakness,has_atrophy,ganglion_cyst_id
+1,3717619,Baseline Model D,false,true,true,false,1000
+2,32814,Distributed Cluster,true,false,false,true,1001
+3,state_et_4,Adaptive Review,false,true,true,false,1002
+4,6926374,Primary Initiative A,true,false,false,true,1003

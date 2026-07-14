@@ -1,0 +1,5 @@
+id,contactType,contactValue,contactStartDate,contactEndDate,isPrimary,unitId
+1,email,Jennifer Summers,2024-07-16T18:30:00,2025-04-23T15:57:00,true,1
+2,phone,Friedrich Nietzsche,2025-12-27T01:47:00,2022-09-07T22:14:00,false,2
+3,address,Theodore Mcgrath,2022-05-11T08:04:00,2023-02-18T05:31:00,true,3
+4,web,Tasha Rodriguez,2023-10-22T15:21:00,2024-07-02T12:48:00,false,4

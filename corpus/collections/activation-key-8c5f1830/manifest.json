@@ -1,0 +1,121 @@
+{
+ "construct_id": "8c5f1830d0606c16",
+ "slug": "activation-key-8c5f1830",
+ "passage": "8c5f1830d0606c16e9bf33f23bcb4c8b53e2d2dc3988527cb36dcaadb5a60e60.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "ActivationKey",
+  "LicensedSoftware",
+  "Customer",
+  "AuthorisedUser",
+  "UserSession"
+ ],
+ "terms": [
+  {
+   "name": "ActivationKey",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "LicensedSoftware",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Customer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AuthorisedUser",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "UserSession",
+   "genus": "bfo:0000155"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ActivationKey",
+   "rows": 4,
+   "columns": [
+    "id",
+    "keyString",
+    "issuedDate",
+    "licenseType",
+    "licensePeriodStart",
+    "licensePeriodEnd",
+    "maxConcurrentSessions",
+    "softwareId",
+    "customerRegistrationNumber"
+   ]
+  },
+  {
+   "name": "LicensedSoftware",
+   "rows": 4,
+   "columns": [
+    "id",
+    "softwareName",
+    "versionNumber",
+    "isCloudService",
+    "lastUpdated",
+    "keyId",
+    "userId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "Customer",
+   "rows": 4,
+   "columns": [
+    "customerType",
+    "legalName",
+    "registrationNumber",
+    "registeredAddress",
+    "keyId",
+    "userId"
+   ]
+  },
+  {
+   "name": "AuthorisedUser",
+   "rows": 4,
+   "columns": [
+    "id",
+    "userName",
+    "userRole",
+    "isConcurrent",
+    "customerRegistrationNumber",
+    "softwareId",
+    "sessionId"
+   ]
+  },
+  {
+   "name": "UserSession",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sessionStart",
+    "sessionEnd",
+    "isCurrent",
+    "userId",
+    "keyId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_activation_key_licensed_software",
+  "vw_activation_key_customer",
+  "vw_licensed_software_activation_key",
+  "vw_licensed_software_authorised_user",
+  "vw_customer_activation_key",
+  "vw_customer_authorised_user",
+  "vw_authorised_user_customer",
+  "vw_authorised_user_licensed_software",
+  "vw_authorised_user_user_session",
+  "vw_user_session_authorised_user",
+  "vw_user_session_activation_key"
+ ]
+}

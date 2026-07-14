@@ -1,0 +1,5 @@
+asset_id,asset_name,asset_type,os_type,criticality_level,last_compliance_check,security_platform_id,security_event_id
+7731874,Pilot Programme,server,windows,26,2025-12-03,1,1
+6564392,Baseline Standard,database,linux,37,2022-05-14,2,2
+5917296,Distributed Framework A,endpoint,macos,48,2023-10-25,3,3
+990e161e10664c5885182d95dc07e606,Adaptive Protocol,application,unknown,59,2024-03-09,4,4

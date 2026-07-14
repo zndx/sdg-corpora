@@ -1,0 +1,5 @@
+id,lease_id,start_date,end_date,annual_rent,lease_status,crop_type,farmland_parcel_id,institutional_investor_id,owner_id
+100,5844284,2022-09-05T20:24:00,2022-09-01T08:00:00,1.70,active,corn,1000,1000,Brian Hamilton
+101,168551,2023-02-16T03:41:00,2023-02-12T15:17:00,3.40,pending,soybeans,1001,1001,Kerry West
+102,338517,2024-07-27T10:58:00,2024-07-23T22:34:00,5.10,terminated,wheat,1002,1002,Peter Montgomery
+103,195354,2025-12-11T17:15:00,2025-12-07T05:51:00,6.80,expired,mixed,1003,1003,Susan Wagner

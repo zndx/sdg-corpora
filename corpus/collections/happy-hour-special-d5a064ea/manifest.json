@@ -1,0 +1,126 @@
+{
+ "construct_id": "d5a064ea93c68c49",
+ "slug": "happy-hour-special-d5a064ea",
+ "passage": "d5a064ea93c68c498b9be76a2457e1210049481e3cde5d760b7934be1faf8304.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 6,
+ "entities": [
+  "HappyHourSpecial",
+  "Beverage",
+  "FoodItem",
+  "Ingredient",
+  "DippingSauce"
+ ],
+ "terms": [
+  {
+   "name": "HappyHourSpecial",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Beverage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DippingSauce",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "happy_hour_specials",
+   "rows": 4,
+   "columns": [
+    "id",
+    "start_time",
+    "end_time",
+    "discount_percentage",
+    "is_active",
+    "created_at"
+   ]
+  },
+  {
+   "name": "beverages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "beverage_type",
+    "brand",
+    "volume",
+    "unit",
+    "price",
+    "happy_hour_special_id"
+   ]
+  },
+  {
+   "name": "food_items",
+   "rows": 4,
+   "columns": [
+    "food_item_id",
+    "name",
+    "category",
+    "price",
+    "serving_size",
+    "ingredients",
+    "happy_hour_special_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "name",
+    "type",
+    "origin",
+    "food_item_id"
+   ]
+  },
+  {
+   "name": "dipping_sauces",
+   "rows": 4,
+   "columns": [
+    "dipping_sauce_id",
+    "name",
+    "flavor_profile",
+    "spiciness",
+    "food_item_id"
+   ]
+  },
+  {
+   "name": "specials_beverages",
+   "rows": 8,
+   "columns": [
+    "happy_hour_special_id",
+    "beverage_id"
+   ]
+  },
+  {
+   "name": "specials_items",
+   "rows": 8,
+   "columns": [
+    "happy_hour_special_id",
+    "food_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_happy_hour_special_beverage_detail",
+  "v_happy_hour_special_food_item_detail",
+  "v_beverage_happy_hour_special",
+  "v_food_item_happy_hour_special",
+  "v_ingredient_food_item",
+  "v_dipping_sauce_food_item"
+ ]
+}

@@ -1,0 +1,5 @@
+id,order_id,issue_date,expiration_date,order_type,court_case_number,status,victim_id,offender_id,legal_advocate_id,created_at
+1000,1030,2023-02-01T13:51:00,2025-08-18T19:45:00,temporary,COU-2209,pending,100,100,1,2025-01-01 00:14:00
+1001,comi,2024-07-12T20:08:00,2022-01-02T02:02:00,permanent,COU-2216,active,101,101,2,2025-02-06 03:14:00
+1002,state_uk_22,2025-12-23T03:25:00,2023-06-13T09:19:00,emergency,COU-2223,expired,102,102,3,2025-03-11 06:14:00
+1003,99669,2022-05-07T10:42:00,2024-11-24T16:36:00,temporary,COU-2230,revoked,103,103,4,2025-04-16 09:14:00

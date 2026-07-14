@@ -1,0 +1,5 @@
+whistleblowerId,role,campusAffiliation,isProtectedFromRetaliation,contactEmail,contactPhone,disclosureId,campusId
+100,employee,davenport,false,Christopher Wilson,Joe Tsai,1,1
+101,faculty,west,true,Charles Larsen,Stephanie Collins,2,2
+102,student,florida,false,Mary Alvarez,Tasha Rodriguez,3,3
+103,affiliated_person,other,true,April Snyder,Walter Pratt,4,4

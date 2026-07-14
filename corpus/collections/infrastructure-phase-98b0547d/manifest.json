@@ -1,0 +1,234 @@
+{
+ "construct_id": "98b0547db1442c6b",
+ "slug": "infrastructure-phase-98b0547d",
+ "passage": "98b0547db1442c6b76b45800a804187d46e2c6cbe5c130516d9b3adc3c9b2536.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 21,
+ "entities": [
+  "InfrastructurePhase",
+  "InspectionEvent",
+  "TestSheet",
+  "Drawing",
+  "Deficiency",
+  "Regulation",
+  "Contractor",
+  "Developer"
+ ],
+ "terms": [
+  {
+   "name": "InfrastructurePhase",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InspectionEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TestSheet",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Drawing",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Deficiency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Regulation",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Contractor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Developer",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "InfrastructurePhase",
+   "rows": 4,
+   "columns": [
+    "phaseId",
+    "phaseIdentifier",
+    "phaseName",
+    "startDate",
+    "endDate",
+    "status",
+    "isGuaranteed"
+   ]
+  },
+  {
+   "name": "InspectionEvent",
+   "rows": 4,
+   "columns": [
+    "id",
+    "inspectionId",
+    "inspectionType",
+    "inspectionDate",
+    "inspectorRole",
+    "deficiencyCount",
+    "punchListItems",
+    "status",
+    "notes",
+    "phaseId",
+    "deficiencyId",
+    "sheetTestSheetId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "TestSheet",
+   "rows": 4,
+   "columns": [
+    "testSheetId",
+    "testType",
+    "testDate",
+    "resultStatus",
+    "approvedBy",
+    "approvalDate",
+    "testSpecification",
+    "isElectronic",
+    "phaseId",
+    "eventId",
+    "regulationId",
+    "createdAt"
+   ]
+  },
+  {
+   "name": "Drawing",
+   "rows": 4,
+   "columns": [
+    "id",
+    "drawingId",
+    "drawingType",
+    "submissionDate",
+    "format",
+    "status",
+    "fileSize",
+    "isElectronic",
+    "phaseId",
+    "regulationId",
+    "referencesPhaseId"
+   ]
+  },
+  {
+   "name": "Deficiency",
+   "rows": 4,
+   "columns": [
+    "deficiencyId",
+    "description",
+    "severity",
+    "identifiedDate",
+    "correctedDate",
+    "status",
+    "requiresReInspection",
+    "eventId",
+    "contractorId",
+    "verifiedByEventId"
+   ]
+  },
+  {
+   "name": "Regulation",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ruleId",
+    "ruleNumber",
+    "ruleTitle",
+    "effectiveDate",
+    "issuingAuthority",
+    "isElectronicRequired",
+    "scope",
+    "sheetTestSheetId",
+    "drawingId",
+    "phaseId"
+   ]
+  },
+  {
+   "name": "Contractor",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contractorId",
+    "contractorName",
+    "licenseNumber",
+    "contactEmail",
+    "status",
+    "deficiencyId",
+    "developerId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "Developer",
+   "rows": 4,
+   "columns": [
+    "developerId",
+    "developerName",
+    "contactEmail",
+    "representativeName",
+    "phaseId",
+    "contractorId",
+    "drawingId"
+   ]
+  },
+  {
+   "name": "InfrastructurePhaseInspectionEvent",
+   "rows": 8,
+   "columns": [
+    "phaseId",
+    "eventId"
+   ]
+  },
+  {
+   "name": "InfrastructurePhaseTestSheet",
+   "rows": 8,
+   "columns": [
+    "phaseId",
+    "sheetTestSheetId"
+   ]
+  },
+  {
+   "name": "InfrastructurePhaseDrawing",
+   "rows": 8,
+   "columns": [
+    "phaseId",
+    "drawingId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_infrastructure_phase_inspection_event_detail",
+  "vw_infrastructure_phase_test_sheet_detail",
+  "vw_infrastructure_phase_drawing_detail",
+  "vw_inspection_event_infrastructure_phase",
+  "vw_inspection_event_deficiency",
+  "vw_inspection_event_test_sheet",
+  "vw_test_sheet_infrastructure_phase",
+  "vw_test_sheet_inspection_event",
+  "vw_test_sheet_regulation",
+  "vw_drawing_infrastructure_phase",
+  "vw_drawing_regulation",
+  "vw_deficiency_inspection_event",
+  "vw_deficiency_contractor",
+  "vw_regulation_test_sheet",
+  "vw_regulation_drawing",
+  "vw_regulation_infrastructure_phase",
+  "vw_contractor_deficiency",
+  "vw_contractor_developer",
+  "vw_developer_infrastructure_phase",
+  "vw_developer_contractor",
+  "vw_developer_drawing"
+ ]
+}

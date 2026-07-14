@@ -1,0 +1,195 @@
+{
+ "construct_id": "a4f5e5a0bb1709b8",
+ "slug": "expedition-a4f5e5a0",
+ "passage": "a4f5e5a0bb1709b8f80f35f1a5fb8cce68fee4639dafc1d2b130feca2ac221b6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 16,
+ "entities": [
+  "Expedition",
+  "Explorer",
+  "Equipment",
+  "Observation",
+  "GeographicArea",
+  "Award",
+  "Document",
+  "HumanitarianAction"
+ ],
+ "terms": [
+  {
+   "name": "Expedition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Explorer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Equipment",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Observation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GeographicArea",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Award",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Document",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "HumanitarianAction",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "expeditions",
+   "rows": 4,
+   "columns": [
+    "expedition_id",
+    "start_date",
+    "end_date",
+    "duration_days",
+    "objective",
+    "status",
+    "team_size",
+    "region",
+    "explorer_id",
+    "equipment_id",
+    "observation_id",
+    "geographic_area_id"
+   ]
+  },
+  {
+   "name": "explorers",
+   "rows": 4,
+   "columns": [
+    "explorer_id",
+    "full_name",
+    "birth_date",
+    "death_date",
+    "nationality",
+    "specialization",
+    "skills",
+    "expedition_id",
+    "award_id",
+    "document_id"
+   ]
+  },
+  {
+   "name": "equipments",
+   "rows": 4,
+   "columns": [
+    "equipment_id",
+    "name",
+    "type",
+    "weight_kg",
+    "designer",
+    "status",
+    "expedition_id"
+   ]
+  },
+  {
+   "name": "observations",
+   "rows": 4,
+   "columns": [
+    "observation_id",
+    "timestamp",
+    "parameter",
+    "value",
+    "unit",
+    "status",
+    "expedition_id",
+    "equipment_id"
+   ]
+  },
+  {
+   "name": "geographic_areas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "area_id",
+    "name",
+    "type",
+    "latitude",
+    "longitude",
+    "description",
+    "expedition_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_id",
+    "name",
+    "year",
+    "category",
+    "reason",
+    "explorer_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "document_id",
+    "name",
+    "type",
+    "issue_date",
+    "issuing_authority",
+    "recognized_by",
+    "explorer_id",
+    "action_id"
+   ]
+  },
+  {
+   "name": "humanitarian_actions",
+   "rows": 4,
+   "columns": [
+    "action_id",
+    "start_date",
+    "end_date",
+    "type",
+    "beneficiaries_count",
+    "status",
+    "explorer_id",
+    "document_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_expedition_explorer",
+  "v_expedition_equipment",
+  "v_expedition_observation",
+  "v_expedition_geographic_area",
+  "v_explorer_expedition",
+  "v_explorer_award",
+  "v_explorer_document",
+  "v_equipment_expedition",
+  "v_observation_expedition",
+  "v_observation_equipment",
+  "v_geographic_area_expedition",
+  "v_award_explorer",
+  "v_document_explorer",
+  "v_document_humanitarian_action",
+  "v_humanitarian_action_explorer",
+  "v_humanitarian_action_document"
+ ]
+}

@@ -1,0 +1,5 @@
+top_level_domain_id,tld_identifier,delegation_date,registry_operator,is_delegated,total_registered_names,retail_price,abuse_rate_id,security_protocol_id
+1000,legacy,2025-04-25,distributed-registry-18,true,8603,18.59,100,1
+1001,new,2022-09-09,baseline-registry-19,false,4,43.25,101,2
+1002,legacy,2023-02-20,pilot-registry-20,true,7,29.99,102,3
+1003,new,2024-07-04,extended-registry-21,false,4,13.49,103,4

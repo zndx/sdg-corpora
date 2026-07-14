@@ -1,0 +1,149 @@
+{
+ "construct_id": "9d03f103a661ebd1",
+ "slug": "researcher-9d03f103",
+ "passage": "9d03f103a661ebd1a4570d2b9a3a0db29b93c9e1bb92916171b1c537605fcdc2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "Researcher",
+  "SurveyResponse",
+  "TelephoneInterview",
+  "GeographicLocation",
+  "PolicyInstrument",
+  "QualitativeInsight"
+ ],
+ "terms": [
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SurveyResponse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TelephoneInterview",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicLocation",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "QualitativeInsight",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "researcher_id",
+    "nationality",
+    "career_stage",
+    "gender",
+    "sector",
+    "primary_field",
+    "geographic_location_id",
+    "response_id",
+    "telephone_interview_id"
+   ]
+  },
+  {
+   "name": "survey_responses",
+   "rows": 4,
+   "columns": [
+    "response_id",
+    "submission_date",
+    "respondent_status",
+    "total_score",
+    "completion_status",
+    "researcher_id",
+    "policy_instrument_id"
+   ]
+  },
+  {
+   "name": "telephone_interviews",
+   "rows": 4,
+   "columns": [
+    "id",
+    "interview_id",
+    "start_date",
+    "end_date",
+    "duration_minutes",
+    "interviewer_id",
+    "researcher_id",
+    "geographic_location_id",
+    "qualitative_insight_id"
+   ]
+  },
+  {
+   "name": "geographic_locations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "location_id",
+    "location_name",
+    "country_code",
+    "region_type",
+    "researcher_id",
+    "telephone_interview_id"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "instrument_id",
+    "instrument_name",
+    "launch_date",
+    "status",
+    "target_group",
+    "researcher_id",
+    "response_id",
+    "telephone_interview_id"
+   ]
+  },
+  {
+   "name": "qualitative_insights",
+   "rows": 4,
+   "columns": [
+    "id",
+    "insight_id",
+    "theme",
+    "sentiment",
+    "priority_level",
+    "summary_text",
+    "telephone_interview_id",
+    "policy_instrument_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_researcher_geographic_location",
+  "vw_researcher_survey_response",
+  "vw_researcher_telephone_interview",
+  "vw_survey_response_researcher",
+  "vw_survey_response_policy_instrument",
+  "vw_telephone_interview_researcher",
+  "vw_telephone_interview_geographic_location",
+  "vw_telephone_interview_qualitative_insight",
+  "vw_geographic_location_researcher",
+  "vw_geographic_location_telephone_interview",
+  "vw_policy_instrument_researcher",
+  "vw_policy_instrument_survey_response",
+  "vw_policy_instrument_telephone_interview",
+  "vw_qualitative_insight_telephone_interview",
+  "vw_qualitative_insight_policy_instrument"
+ ]
+}

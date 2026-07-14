@@ -1,0 +1,5 @@
+id,outcomeId,outcomeType,qualificationName,qualificationGrade,destinationType,destinationProvider,achievementDate,isSuccessful,enrolmentId,programmeId,memberId
+100,2618555,qualification,Integrated Series A,pilot-qualific-14,further education,distributed-destinat-66,2022-05-05,true,1,1,1
+101,lu_tax_code_template_m46,destination,Extended Assessment,extended-qualific-15,employment,baseline-destinat-67,2023-10-16,false,2,2,2
+102,168561,personal development,Pilot Survey,integrated-qualific-16,training,pilot-destinat-68,2024-03-27,true,3,3,3
+103,1210-0007-M,qualification,Baseline Corridor D,seasonal-qualific-17,other,extended-destinat-69,2025-08-11,false,4,4,4

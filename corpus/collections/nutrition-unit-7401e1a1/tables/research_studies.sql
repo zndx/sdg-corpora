@@ -1,0 +1,20 @@
+CREATE TABLE research_studies (
+  research_study_id INTEGER NOT NULL,
+  study_id VARCHAR(32),
+  study_title VARCHAR(32),
+  start_date DATE,
+  end_date DATE,
+  study_type VARCHAR(32),
+  sample_size INTEGER,
+  primary_outcome VARCHAR(32),
+  publication_status VARCHAR(32),
+  nutrition_unit_id INTEGER,
+  staff_member_id INTEGER,
+  beneficiary_group_id INTEGER,
+  policy_recommendation_id INTEGER,
+  PRIMARY KEY (research_study_id),
+  FOREIGN KEY (nutrition_unit_id) REFERENCES nutrition_units (id),
+  FOREIGN KEY (staff_member_id) REFERENCES staff_members (staff_member_id),
+  FOREIGN KEY (beneficiary_group_id) REFERENCES beneficiary_groups (beneficiary_group_id),
+  FOREIGN KEY (policy_recommendation_id) REFERENCES policy_recommendations (id)
+);

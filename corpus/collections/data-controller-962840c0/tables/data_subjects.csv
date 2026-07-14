@@ -1,0 +1,5 @@
+id,subject_identifier,consent_given,contact_method,data_controller_id,data_processor_id
+1,SUB-2370,false,Peter Fleming,1000,1
+2,SUB-2374,true,Kristen Austin,1001,2
+3,SUB-2378,false,Darrell Rodriguez,1002,3
+4,SUB-2382,true,Lorraine Garcia,1003,4

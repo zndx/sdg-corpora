@@ -1,0 +1,185 @@
+{
+ "construct_id": "0fd2158805b6c4b6",
+ "slug": "mental-health-education-program-0fd21588",
+ "passage": "0fd2158805b6c4b6541dbf18c4c0d99e50e91d3cea2ce254f71726d2a90c3675.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 14,
+ "entities": [
+  "MentalHealthEducationProgram",
+  "TrainedSpeaker",
+  "YouthDemographic",
+  "MentalHealthIssue",
+  "EducationalVenue",
+  "PreventionInitiative"
+ ],
+ "terms": [
+  {
+   "name": "MentalHealthEducationProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "TrainedSpeaker",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "YouthDemographic",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MentalHealthIssue",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EducationalVenue",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PreventionInitiative",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "mental_health_education_programs",
+   "rows": 4,
+   "columns": [
+    "mental_health_education_program_id",
+    "program_identifier",
+    "program_title",
+    "target_age_group",
+    "delivery_mode",
+    "is_evidence_based",
+    "start_date",
+    "end_date",
+    "status",
+    "trained_speaker_id",
+    "youth_demographic_id",
+    "educational_venue_id"
+   ]
+  },
+  {
+   "name": "trained_speakers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "speaker_identifier",
+    "full_name",
+    "training_completion_date",
+    "specialization",
+    "presentation_count",
+    "is_available",
+    "bio_url",
+    "mental_health_issue_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "youth_demographics",
+   "rows": 4,
+   "columns": [
+    "youth_demographic_id",
+    "demographic_identifier",
+    "age_range_start",
+    "age_range_end",
+    "role",
+    "institution_type",
+    "total_reached",
+    "mental_health_education_program_id",
+    "mental_health_issue_id"
+   ]
+  },
+  {
+   "name": "mental_health_issues",
+   "rows": 4,
+   "columns": [
+    "mental_health_issue_id",
+    "issue_code",
+    "issue_name",
+    "severity_level",
+    "is_treatable",
+    "prevalence_in_teens",
+    "barrier_to_treatment",
+    "youth_demographic_id"
+   ]
+  },
+  {
+   "name": "educational_venues",
+   "rows": 4,
+   "columns": [
+    "educational_venue_id",
+    "venue_identifier",
+    "venue_name",
+    "address",
+    "venue_type",
+    "capacity",
+    "is_accessible",
+    "mental_health_education_program_id",
+    "youth_demographic_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "prevention_initiatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "initiative_identifier",
+    "initiative_name",
+    "launch_date",
+    "target_behavior",
+    "is_best_practice",
+    "qualifies_for_training",
+    "mental_health_education_program_id",
+    "mental_health_issue_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "programs_issues",
+   "rows": 8,
+   "columns": [
+    "mental_health_education_program_id",
+    "mental_health_issue_id"
+   ]
+  },
+  {
+   "name": "speakers_programs",
+   "rows": 8,
+   "columns": [
+    "trained_speaker_id",
+    "mental_health_education_program_id"
+   ]
+  },
+  {
+   "name": "issues_programs",
+   "rows": 8,
+   "columns": [
+    "mental_health_issue_id",
+    "mental_health_education_program_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_mental_health_education_program_trained_speaker",
+  "v_mental_health_education_program_youth_demographic",
+  "v_mental_health_education_program_mental_health_issue_detail",
+  "v_mental_health_education_program_educational_venue",
+  "v_trained_speaker_mental_health_education_program_detail",
+  "v_trained_speaker_mental_health_issue",
+  "v_youth_demographic_mental_health_education_program",
+  "v_youth_demographic_mental_health_issue",
+  "v_mental_health_issue_mental_health_education_program_detail",
+  "v_mental_health_issue_youth_demographic",
+  "v_educational_venue_mental_health_education_program",
+  "v_educational_venue_youth_demographic",
+  "v_prevention_initiative_mental_health_education_program",
+  "v_prevention_initiative_mental_health_issue"
+ ]
+}

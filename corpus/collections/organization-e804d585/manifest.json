@@ -1,0 +1,127 @@
+{
+ "construct_id": "e804d585fad8cf6c",
+ "slug": "organization-e804d585",
+ "passage": "e804d585fad8cf6c85857de2c2be3d8fe4b9acee9d599fbd36937e79ed596c52.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 10,
+ "entities": [
+  "Organization",
+  "GamblingActivity",
+  "GamblingFund",
+  "Campaign",
+  "RegulatoryStatute"
+ ],
+ "terms": [
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GamblingActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GamblingFund",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Campaign",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RegulatoryStatute",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "organization_name",
+    "registration_status",
+    "organization_type",
+    "contact_phone_number",
+    "website_url",
+    "gambling_activity_id"
+   ]
+  },
+  {
+   "name": "gambling_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_id",
+    "activity_name",
+    "is_consideration_required",
+    "legal_status",
+    "start_date",
+    "end_date",
+    "organization_id",
+    "gambling_fund_id",
+    "regulatory_statute_id"
+   ]
+  },
+  {
+   "name": "gambling_funds",
+   "rows": 4,
+   "columns": [
+    "id",
+    "fund_id",
+    "fund_amount",
+    "currency_code",
+    "source_activity_id",
+    "restriction_status",
+    "gambling_activity_id",
+    "campaign_id"
+   ]
+  },
+  {
+   "name": "campaigns",
+   "rows": 4,
+   "columns": [
+    "campaign_id",
+    "campaign_name",
+    "candidate_name",
+    "office_sought",
+    "ballot_question",
+    "status",
+    "gambling_fund_id",
+    "regulatory_statute_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "regulatory_statutes",
+   "rows": 4,
+   "columns": [
+    "regulatory_statute_id",
+    "statute_id",
+    "statute_title",
+    "jurisdiction",
+    "effective_date",
+    "restriction_type",
+    "gambling_activity_id",
+    "campaign_id"
+   ]
+  }
+ ],
+ "views": [
+  "organization_gambling_activity_view",
+  "gambling_activity_organization_view",
+  "gambling_activity_gambling_fund_view",
+  "gambling_activity_regulatory_statute_view",
+  "gambling_fund_gambling_activity_view",
+  "gambling_fund_campaign_view",
+  "campaign_gambling_fund_view",
+  "campaign_regulatory_statute_view",
+  "regulatory_statute_gambling_activity_view",
+  "regulatory_statute_campaign_view"
+ ]
+}

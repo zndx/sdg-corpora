@@ -1,0 +1,5 @@
+id,region_code,region_name,region_type,population,primary_language,business_unit_id,c_s_r_component_id
+1,1562837,Distributed Assessment,continent,42,primary-primary-10,1,1000
+2,6564391,Adaptive Survey D,country,49,adaptive-primary-11,2,1001
+3,778560,Primary Corridor,city,56,distributed-primary-12,3,1002
+4,8667ec1da10c4a0293d91388b49bc77c,Composite Series,market,63,baseline-primary-13,4,1003

@@ -1,0 +1,5 @@
+weekly_schedule_id,week_number,plan_identifier,total_distance,target_distance,intensity_level,training_plan_id
+100,7,PLA-2674,249.44281,1.09,low,1
+101,14,PLA-2676,34.366668701171875,0.04999995,moderate,2
+102,21,PLA-2678,256.0,0.4,high,3
+103,28,PLA-2680,0.07499999,0.01999998,low,4

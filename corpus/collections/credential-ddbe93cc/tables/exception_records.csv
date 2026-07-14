@@ -1,0 +1,5 @@
+id,exception_id,exception_date,nature_of_exception,alignment_confirmation,risk_description,approval_status,student_id,program_of_study_id
+1,2087741,2024-07-03T18:30:00,regional-nature-24,true,Regional Corridor,Approved,1,100
+2,974938,2025-12-14T01:47:00,legacy-nature-25,false,Seasonal Series D,Pending,2,101
+3,7731874,2022-05-25T08:04:00,compact-nature-26,true,Integrated Assessment,Rejected,3,102
+4,8843762,2023-10-09T15:21:00,composite-nature-27,false,Extended Survey,Approved,4,103

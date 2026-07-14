@@ -1,0 +1,5 @@
+id,initiative_id,initiative_name,target_region,status,description,professional_role_id,geographic_market_id,industry_sector_id
+100,compta,Baseline Corridor D,extended-target-87,planned,Extended Survey,100,1,1
+101,f209107c-8fcd-11eb-924d-9cd76263cbd0,Distributed Series,integrated-target-88,active,Pilot Corridor A,101,2,2
+102,8928495,Adaptive Assessment,seasonal-target-89,completed,Baseline Series,102,3,3
+103,392495,Primary Survey A,regional-target-90,cancelled,Distributed Assessment,103,4,4

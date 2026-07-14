@@ -1,0 +1,5 @@
+service_provider_id,legal_name,incorporation_date,shareholding_structure,compliance_status,account_number
+1000,Adaptive Model,2025-08-22,legacy-sharehol-73,compliant,ACC-2253
+1001,Primary Cluster,2022-01-06,compact-sharehol-74,non_compliant,ACC-2256
+1002,Composite Review D,2023-06-17,composite-sharehol-75,under_review,ACC-2259
+1003,Compact Initiative,2024-11-01,primary-sharehol-76,compliant,ACC-2262

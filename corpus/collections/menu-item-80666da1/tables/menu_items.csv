@@ -1,0 +1,5 @@
+menu_item_id,item_id,name,price,weight,cooking_time,is_vegetarian,is_vegan,category,side_dish_side_id,section_id
+1,ITE-2792,Extended Review,12.87,pilot-weight-32,44,true,false,compact-category-92,ChIJD7fiBh9u5kcRYJSMaMOCCwQ,195362
+2,ITE-2795,Pilot Initiative A,35.45,extended-weight-33,55,false,true,composite-category-93,937737,7731870
+3,ITE-2798,Baseline Model,29.24,integrated-weight-34,66,true,false,primary-category-94,6564389,4447016
+4,ITE-2801,Distributed Cluster,29.99,seasonal-weight-35,77,false,true,adaptive-category-95,103178,3001009030220

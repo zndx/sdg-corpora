@@ -1,0 +1,5 @@
+id,course_number,course_type,is_choice,description,fixed_price_menu_id
+100,1,FIRST COURSE,false,Extended Survey,1
+101,2,SECOND COURSE,true,Pilot Corridor A,2
+102,3,DESSERT,false,Baseline Series,3
+103,1,FIRST COURSE,true,Distributed Assessment,4

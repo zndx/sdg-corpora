@@ -1,0 +1,171 @@
+{
+ "construct_id": "42ec9b460feb0002",
+ "slug": "user-account-42ec9b46",
+ "passage": "42ec9b460feb00027126f44316d054fbb5a369464f9d0da04652338b61996201.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "UserAccount",
+  "AuthenticationCredential",
+  "DigitalService",
+  "SoftwareApplication",
+  "UserDevice",
+  "CloudStorage",
+  "UserDocument"
+ ],
+ "terms": [
+  {
+   "name": "UserAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AuthenticationCredential",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DigitalService",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SoftwareApplication",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "UserDevice",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CloudStorage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "UserDocument",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "UserAccount",
+   "rows": 4,
+   "columns": [
+    "id",
+    "accountId",
+    "username",
+    "temporaryPassword",
+    "status",
+    "enrollmentDate",
+    "lastLoginTimestamp",
+    "credentialId",
+    "serviceId",
+    "deviceId"
+   ]
+  },
+  {
+   "name": "AuthenticationCredential",
+   "rows": 4,
+   "columns": [
+    "credentialId",
+    "credentialType",
+    "isTemporary",
+    "issueDate",
+    "expiryDate",
+    "accountId",
+    "serviceId"
+   ]
+  },
+  {
+   "name": "DigitalService",
+   "rows": 4,
+   "columns": [
+    "id",
+    "serviceId",
+    "serviceName",
+    "baseUrl",
+    "serviceType",
+    "status",
+    "lastUpdated",
+    "applicationId",
+    "storageId"
+   ]
+  },
+  {
+   "name": "SoftwareApplication",
+   "rows": 4,
+   "columns": [
+    "id",
+    "appId",
+    "appName",
+    "version",
+    "platform",
+    "isBlendedLearningTool",
+    "serviceId",
+    "deviceId"
+   ]
+  },
+  {
+   "name": "UserDevice",
+   "rows": 4,
+   "columns": [
+    "id",
+    "deviceId",
+    "deviceType",
+    "osType",
+    "lastSyncDate",
+    "accountId",
+    "applicationId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "CloudStorage",
+   "rows": 4,
+   "columns": [
+    "id",
+    "storageId",
+    "storageName",
+    "capacityTb",
+    "isPrivate",
+    "autoSaveEnabled",
+    "serviceId",
+    "documentId"
+   ]
+  },
+  {
+   "name": "UserDocument",
+   "rows": 4,
+   "columns": [
+    "documentId",
+    "fileName",
+    "fileType",
+    "lastModified",
+    "isSynced",
+    "accountId",
+    "storageId",
+    "applicationId"
+   ]
+  }
+ ],
+ "views": [
+  "v_user_account_authentication_credential",
+  "v_user_account_digital_service",
+  "v_user_account_user_device",
+  "v_authentication_credential_user_account",
+  "v_authentication_credential_digital_service",
+  "v_digital_service_software_application",
+  "v_digital_service_cloud_storage",
+  "v_software_application_digital_service",
+  "v_software_application_user_device",
+  "v_user_device_user_account",
+  "v_user_device_software_application",
+  "v_cloud_storage_digital_service",
+  "v_cloud_storage_user_document",
+  "v_user_document_user_account",
+  "v_user_document_cloud_storage",
+  "v_user_document_software_application"
+ ]
+}

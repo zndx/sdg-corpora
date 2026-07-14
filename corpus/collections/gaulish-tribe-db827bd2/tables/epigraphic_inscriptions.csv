@@ -1,0 +1,5 @@
+epigraphic_inscription_id,inscription_text,script_type,discovery_location,deciphered_meaning,source_reference,historical_region_id,linguistic_analysis_id,gaulish_tribe_id
+100,distributed-inscript-78,regional-script-18,baseline-discover-43,baseline-decipher-85,integrated-source-58,1,1000,1000
+101,baseline-inscript-79,legacy-script-19,pilot-discover-44,pilot-decipher-86,seasonal-source-59,2,1001,1001
+102,pilot-inscript-80,compact-script-20,extended-discover-45,extended-decipher-87,regional-source-60,3,1002,1002
+103,extended-inscript-81,composite-script-21,integrated-discover-46,integrated-decipher-88,legacy-source-61,4,1003,1003

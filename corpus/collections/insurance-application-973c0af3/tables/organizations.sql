@@ -1,0 +1,20 @@
+CREATE TABLE organizations (
+  id INTEGER NOT NULL,
+  organization_id VARCHAR(40),
+  official_name VARCHAR(32),
+  license_number VARCHAR(32),
+  formation_date DATE,
+  chartered_state VARCHAR(32),
+  headquarters_address VARCHAR(32),
+  telephone_number VARCHAR(32),
+  fax_number VARCHAR(32),
+  has_coach_instruction_program BOOLEAN,
+  has_injury_control_program BOOLEAN,
+  officer_id INTEGER,
+  insurance_application_id INTEGER,
+  event_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (officer_id) REFERENCES officers (id),
+  FOREIGN KEY (insurance_application_id) REFERENCES insurance_applications (insurance_application_id),
+  FOREIGN KEY (event_id) REFERENCES events (event_id)
+);

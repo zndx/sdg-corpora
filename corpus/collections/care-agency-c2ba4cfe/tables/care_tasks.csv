@@ -1,0 +1,5 @@
+id,task_id,task_description,task_category,requires_two_staff,care_plan_id,staff_assignment_id
+1000,7731870,Legacy Standard D,personal care,false,1,1
+1001,id_28,Regional Framework,medication,true,2,2
+1002,7119763,Seasonal Protocol,nutrition,false,3,3
+1003,lu_tax_code_template_m82,Integrated Programme A,mobility,true,4,4

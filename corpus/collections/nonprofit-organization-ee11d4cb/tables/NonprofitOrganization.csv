@@ -1,0 +1,5 @@
+organizationId,legalName,taxExemptStatus,foundingYear,operationalStatus,foundingLocation,personId
+1,Adaptive Model,regional-tax-12,43,active,baseline-founding-49,1
+2,Primary Cluster,legacy-tax-13,48,inactive,pilot-founding-50,2
+3,Composite Review D,compact-tax-14,53,dissolved,extended-founding-51,3
+4,Compact Initiative,composite-tax-15,58,active,integrated-founding-52,4

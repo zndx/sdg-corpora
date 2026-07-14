@@ -1,0 +1,153 @@
+{
+ "construct_id": "97f46b4c4f02a403",
+ "slug": "canape-97f46b4c",
+ "passage": "97f46b4c4f02a403aed2d6dc1e7880c196dc701d52e9bd3b86cd83f896035925.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 7,
+ "entities": [
+  "Canape",
+  "CanapeCategory",
+  "Ingredient",
+  "TastingDish",
+  "DishCategory"
+ ],
+ "terms": [
+  {
+   "name": "Canape",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CanapeCategory",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TastingDish",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DishCategory",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "canapes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "canape_id",
+    "name",
+    "unit_price",
+    "dietary_category",
+    "description",
+    "serving_size",
+    "canape_category_id"
+   ]
+  },
+  {
+   "name": "canape_categories",
+   "rows": 4,
+   "columns": [
+    "id",
+    "category_id",
+    "category_name",
+    "recommended_serving_size",
+    "event_type",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "ingredient_id",
+    "name",
+    "category",
+    "allergen_flag"
+   ]
+  },
+  {
+   "name": "tasting_dishes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "dish_id",
+    "name",
+    "unit_price",
+    "dietary_category",
+    "description",
+    "serving_size",
+    "dish_category_id"
+   ]
+  },
+  {
+   "name": "dish_categories",
+   "rows": 4,
+   "columns": [
+    "dish_category_id",
+    "category_id",
+    "category_name",
+    "recommended_serving_size",
+    "event_type"
+   ]
+  },
+  {
+   "name": "canapes_ingredients",
+   "rows": 8,
+   "columns": [
+    "canape_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "categories_canapes",
+   "rows": 8,
+   "columns": [
+    "canape_category_id",
+    "canape_id"
+   ]
+  },
+  {
+   "name": "ingredients_canapes",
+   "rows": 8,
+   "columns": [
+    "ingredient_id",
+    "canape_id"
+   ]
+  },
+  {
+   "name": "dishes_ingredients",
+   "rows": 8,
+   "columns": [
+    "tasting_dish_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "categories_dishes",
+   "rows": 8,
+   "columns": [
+    "dish_category_id",
+    "tasting_dish_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_canape_canape_category",
+  "v_canape_ingredient_detail",
+  "v_canape_category_canape_detail",
+  "v_ingredient_canape_detail",
+  "v_tasting_dish_dish_category",
+  "v_tasting_dish_ingredient_detail",
+  "v_dish_category_tasting_dish_detail"
+ ]
+}

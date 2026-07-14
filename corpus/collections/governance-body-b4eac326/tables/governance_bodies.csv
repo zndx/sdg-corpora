@@ -1,0 +1,5 @@
+id,body_identifier,body_name,body_type,meeting_frequency,establishment_date,is_external,business_unit_id,audits_business_unit_id
+100,BOD-2053,Regional Corridor,Board of Directors,compact-meeting-80,2024-07-11,true,100,100
+101,BOD-2058,Seasonal Series D,Board of Auditors,composite-meeting-81,2025-12-22,false,101,101
+102,BOD-2063,Integrated Assessment,Management Meeting,primary-meeting-82,2022-05-06,true,102,102
+103,BOD-2068,Extended Survey,Management Advisory Committee,adaptive-meeting-83,2023-10-17,false,103,103

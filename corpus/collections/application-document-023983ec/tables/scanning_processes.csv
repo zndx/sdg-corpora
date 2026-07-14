@@ -1,0 +1,5 @@
+id,process_id,start_date,end_date,device_type,app_used,status,document_id,mobile_device_id,created_at
+1000,template_ivacode_pagata_art15,2022-09-05T20:24:00,2022-09-01T08:00:00,iPhone,Notes,pending,IVC10I,1,2025-01-01 00:14:00
+1001,27cebc1c-9bad-11eb-a8a2-19ed5c03f8d3,2023-02-16T03:41:00,2023-02-12T15:17:00,Android,Genius Scan,in_progress,605943,2,2025-02-06 03:14:00
+1002,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,2024-07-27T10:58:00,2024-07-23T22:34:00,Scanner,Notes,complete,10449525,3,2025-03-11 06:14:00
+1003,1205-0002-XL,2025-12-11T17:15:00,2025-12-07T05:51:00,iPhone,Genius Scan,failed,5f93a090-8fcd-11eb-924d-9cd76263cbd0,4,2025-04-16 09:14:00

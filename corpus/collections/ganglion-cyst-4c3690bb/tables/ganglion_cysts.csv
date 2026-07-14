@@ -1,0 +1,5 @@
+id,cyst_id,diameter_cm,is_multilocular,cyst_location,cyst_type,contains_mucinous_fluid,has_synovial_lining,anatomical_region_id,connective_tissue_id,nerve_fascicle_id,imaging_study_id
+1000,8387527,21.70,false,baseline-cyst-79,intraosseous,false,true,1,1,1,1
+1001,46cf6b73-02b4-4298-a314-f28840b25c46,25.40,true,pilot-cyst-80,periosteal,true,false,2,2,2,2
+1002,69428,29.10,false,extended-cyst-81,soft_tissue,false,true,3,3,3,3
+1003,4716410,32.80,true,integrated-cyst-82,intra_articular,true,false,4,4,4,4

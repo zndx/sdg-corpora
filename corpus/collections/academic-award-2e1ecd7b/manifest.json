@@ -1,0 +1,136 @@
+{
+ "construct_id": "2e1ecd7bb9adf4fc",
+ "slug": "academic-award-2e1ecd7b",
+ "passage": "2e1ecd7bb9adf4fc0b264f3ba958779e3d0656390e54e6b3dfb1a9d75bdd5b22.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 12,
+ "entities": [
+  "AcademicAward",
+  "Researcher",
+  "ProfessionalSociety",
+  "LeadershipPosition",
+  "AcademicInstitution"
+ ],
+ "terms": [
+  {
+   "name": "AcademicAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ProfessionalSociety",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "LeadershipPosition",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "AcademicInstitution",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_awards",
+   "rows": 4,
+   "columns": [
+    "academic_award_id",
+    "award_identifier",
+    "award_name",
+    "issuing_organization",
+    "award_date",
+    "award_category",
+    "researcher_id",
+    "professional_society_id"
+   ]
+  },
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "researcher_identifier",
+    "full_legal_name",
+    "primary_degree",
+    "secondary_degree",
+    "current_institution",
+    "current_title",
+    "research_focus",
+    "academic_award_id",
+    "leadership_position_id",
+    "academic_institution_id"
+   ]
+  },
+  {
+   "name": "professional_societies",
+   "rows": 4,
+   "columns": [
+    "professional_society_id",
+    "society_identifier",
+    "society_name",
+    "founding_year",
+    "headquarters_location",
+    "membership_count",
+    "primary_discipline",
+    "academic_award_id",
+    "researcher_id",
+    "leadership_position_id"
+   ]
+  },
+  {
+   "name": "leadership_positions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "position_identifier",
+    "position_title",
+    "organization_name",
+    "start_date",
+    "end_date",
+    "position_status",
+    "researcher_id",
+    "professional_society_id"
+   ]
+  },
+  {
+   "name": "academic_institutions",
+   "rows": 4,
+   "columns": [
+    "academic_institution_id",
+    "institution_identifier",
+    "institution_name",
+    "founding_year",
+    "location_city",
+    "location_state",
+    "location_country",
+    "institution_type",
+    "researcher_id",
+    "awarded_degree_to_researcher_id",
+    "leadership_position_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_academic_award_researcher",
+  "v_academic_award_professional_society",
+  "v_researcher_academic_award",
+  "v_researcher_leadership_position",
+  "v_researcher_academic_institution",
+  "v_professional_society_academic_award",
+  "v_professional_society_researcher",
+  "v_professional_society_leadership_position",
+  "v_leadership_position_researcher",
+  "v_leadership_position_professional_society",
+  "v_academic_institution_researcher",
+  "v_academic_institution_leadership_position"
+ ]
+}

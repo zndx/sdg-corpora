@@ -1,0 +1,218 @@
+{
+ "construct_id": "b1abd42ad3481431",
+ "slug": "administrative-staff-member-b1abd42a",
+ "passage": "b1abd42ad34814317908dbd4e1d515f9b3bc67c1f6d7551e1717e4c7d822d6bb.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 16,
+ "entities": [
+  "AdministrativeStaffMember",
+  "AdministrativeRole",
+  "OfficeRoom",
+  "OfficeEquipment",
+  "TravelRequest",
+  "TravelVoucher",
+  "Receipt",
+  "OfficeServiceRequest",
+  "RequestForm"
+ ],
+ "terms": [
+  {
+   "name": "AdministrativeStaffMember",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdministrativeRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "OfficeRoom",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "OfficeEquipment",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TravelRequest",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TravelVoucher",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Receipt",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OfficeServiceRequest",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RequestForm",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "administrative_staff_members",
+   "rows": 4,
+   "columns": [
+    "id",
+    "staff_id",
+    "full_name",
+    "office_location",
+    "phone_number",
+    "role_title",
+    "department",
+    "administrative_role_id",
+    "office_room_id"
+   ]
+  },
+  {
+   "name": "administrative_roles",
+   "rows": 4,
+   "columns": [
+    "administrative_role_id",
+    "role_name",
+    "role_category",
+    "is_supervisory",
+    "reporting_line",
+    "administrative_staff_member_id"
+   ]
+  },
+  {
+   "name": "office_rooms",
+   "rows": 4,
+   "columns": [
+    "office_room_id",
+    "room_number",
+    "building_name",
+    "floor_number",
+    "room_type",
+    "is_locked",
+    "office_equipment_id",
+    "administrative_staff_member_id"
+   ]
+  },
+  {
+   "name": "office_equipments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "equipment_id",
+    "equipment_type",
+    "location_room",
+    "is_restricted",
+    "maintenance_status",
+    "office_room_id",
+    "administrative_staff_member_id"
+   ]
+  },
+  {
+   "name": "travel_requests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "request_id",
+    "submission_date",
+    "travel_purpose",
+    "destination",
+    "funding_source",
+    "approval_status",
+    "is_emergency",
+    "administrative_staff_member_id",
+    "processed_by_administrative_staff_member_id",
+    "travel_voucher_id"
+   ]
+  },
+  {
+   "name": "travel_vouchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "voucher_id",
+    "submission_date",
+    "total_amount",
+    "currency",
+    "is_notarized",
+    "receipt_count",
+    "administrative_staff_member_id",
+    "travel_request_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "receipts",
+   "rows": 4,
+   "columns": [
+    "receipt_id",
+    "issue_date",
+    "vendor_name",
+    "expense_amount",
+    "expense_category",
+    "is_original",
+    "travel_voucher_id"
+   ]
+  },
+  {
+   "name": "office_service_requests",
+   "rows": 4,
+   "columns": [
+    "id",
+    "request_id",
+    "submission_date",
+    "service_type",
+    "page_count",
+    "is_copyrighted",
+    "estimated_completion_time",
+    "is_emergency",
+    "administrative_staff_member_id",
+    "processed_by_administrative_staff_member_id",
+    "form_id"
+   ]
+  },
+  {
+   "name": "request_forms",
+   "rows": 4,
+   "columns": [
+    "form_id",
+    "form_type",
+    "is_complete",
+    "copyright_info_provided",
+    "location_in_office",
+    "office_service_request_id"
+   ]
+  },
+  {
+   "name": "vouchers_receipts",
+   "rows": 8,
+   "columns": [
+    "travel_voucher_id",
+    "receipt_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_administrative_staff_member_administrative_role",
+  "v_administrative_staff_member_office_room",
+  "v_administrative_role_administrative_staff_member",
+  "v_office_room_office_equipment",
+  "v_office_room_administrative_staff_member",
+  "v_office_equipment_office_room",
+  "v_office_equipment_administrative_staff_member",
+  "v_travel_request_administrative_staff_member",
+  "v_travel_request_travel_voucher",
+  "v_travel_voucher_administrative_staff_member",
+  "v_travel_voucher_travel_request",
+  "v_travel_voucher_receipt_detail",
+  "v_receipt_travel_voucher",
+  "v_office_service_request_administrative_staff_member",
+  "v_office_service_request_request_form",
+  "v_request_form_office_service_request"
+ ]
+}

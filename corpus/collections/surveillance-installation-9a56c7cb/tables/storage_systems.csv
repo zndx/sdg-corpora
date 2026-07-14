@@ -1,0 +1,5 @@
+id,storage_id,storage_type,capacity_t_b,manufacturer,model_number,encryption_enabled,surveillance_installation_id
+1,82868,SAN,15.45,Standard Chartered,MOD-2238,false,100
+2,611501,NAS,17.90,General Motors,MOD-2244,true,101
+3,id_29,DAS,20.35,Column Name cannot be empty,MOD-2250,false,102
+4,ZUGLB8,backup,22.80,Financial Information Service Co. Ltd.,MOD-2256,true,103

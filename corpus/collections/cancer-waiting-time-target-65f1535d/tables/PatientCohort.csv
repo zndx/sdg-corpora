@@ -1,0 +1,5 @@
+cohortId,cohortIdentifier,diagnosisDateRangeStart,diagnosisDateRangeEnd,totalEligiblePatients,patientsTreatedWithinTarget,compliancePercentage,typeId,boardId,targetId
+1,COH-2349,2024-03-04,2025-08-15,5,37,3.95,1,1,1
+2,COH-2350,2025-08-15,2022-01-26,85,42,7.90,2,2,2
+3,COH-2351,2022-01-26,2023-06-10,21,47,11.85,3,3,3
+4,COH-2352,2023-06-10,2024-11-21,52,52,15.80,4,4,4

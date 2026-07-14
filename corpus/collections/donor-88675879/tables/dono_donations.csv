@@ -1,0 +1,5 @@
+donation_id,amount,is_anonymous,is_memorial,is_honor,donation_date,donor_id,honoree_id,fund_id
+1,13.49,true,false,true,2022-01-26,3012833,1,1
+2,25.47,false,true,false,2023-06-10,05c8953a-8fc7-11eb-924d-9cd76263cbd0,2,2
+3,19.72,true,false,true,2024-11-21,4793488,3,3
+4,12.74,false,true,false,2025-04-05,3717626,4,4

@@ -1,0 +1,5 @@
+id,consent_i_d,consent_date,consent_method,is_withdrawable,withdrawal_date,individual_id,privacy_policy_id
+1,CON-2383,2023-10-03T09:15:00,implied_by_usage,false,2024-07-20T18:18:00,1,1000
+2,CON-2386,2024-03-14T16:32:00,explicit_click,true,2025-12-04T01:35:00,2,1001
+3,CON-2389,2025-08-25T23:49:00,implied_by_usage,false,2022-05-15T08:52:00,3,1002
+4,CON-2392,2022-01-09T06:06:00,explicit_click,true,2023-10-26T15:09:00,4,1003

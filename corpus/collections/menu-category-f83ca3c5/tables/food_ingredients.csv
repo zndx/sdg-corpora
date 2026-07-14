@@ -1,0 +1,5 @@
+id,ingredient_code,ingredient_name,is_protein,is_dairy,is_gluten_source,allergen_category,item_code,created_at,updated_at
+100,c7451d32-8fcc-11eb-924d-9cd76263cbd0,Pilot Assessment,true,true,true,none,ITE-2446,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,id_13,Baseline Survey,false,false,false,dairy,ITE-2452,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,2e55c2f2-8fcc-11eb-924d-9cd76263cbd0,Distributed Corridor A,true,true,true,gluten,ITE-2458,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,2002007020210,Adaptive Series,false,false,false,nuts,ITE-2464,2025-04-16 09:14:00,2025-04-23 15:41:00

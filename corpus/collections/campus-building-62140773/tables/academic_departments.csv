@@ -1,0 +1,5 @@
+academic_department_id,department_id,department_name,parent_university,has_museum,offers_graduate_program,number_of_students,campus_building_id,campus_event_id
+1,2087755,Baseline Framework D,legacy-parent-91,true,false,16,1,100
+2,790483,Distributed Protocol,compact-parent-92,false,true,20,2,101
+3,505978,Adaptive Programme,composite-parent-93,true,false,24,3,102
+4,id_6,Primary Standard A,primary-parent-94,false,true,28,4,103

@@ -1,0 +1,158 @@
+{
+ "construct_id": "ad47342481d34342",
+ "slug": "faculty-researcher-ad473424",
+ "passage": "ad47342481d3434204b4bde29464e0e6d8f1cc4e653371989ae1cdd9cb67fe05.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "FacultyResearcher",
+  "AcademicRank",
+  "University",
+  "ResearchField",
+  "CoreCharacteristic",
+  "Publication",
+  "Journal"
+ ],
+ "terms": [
+  {
+   "name": "FacultyResearcher",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AcademicRank",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "University",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ResearchField",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CoreCharacteristic",
+   "genus": "bfo:0000016"
+  },
+  {
+   "name": "Publication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Journal",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "faculty_researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "researcher_id",
+    "full_name",
+    "age",
+    "is_married",
+    "highest_degree",
+    "university",
+    "research_field",
+    "publication_count",
+    "academic_rank_id",
+    "university_id",
+    "field_code",
+    "core_characteristic_id"
+   ]
+  },
+  {
+   "name": "academic_ranks",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rank_code",
+    "rank_title",
+    "level",
+    "responsibilities",
+    "faculty_researcher_id"
+   ]
+  },
+  {
+   "name": "universities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "university_id",
+    "university_name",
+    "location",
+    "country",
+    "research_output_rank",
+    "faculty_researcher_id"
+   ]
+  },
+  {
+   "name": "research_fields",
+   "rows": 4,
+   "columns": [
+    "field_code",
+    "field_name",
+    "category",
+    "faculty_researcher_id"
+   ]
+  },
+  {
+   "name": "core_characteristics",
+   "rows": 4,
+   "columns": [
+    "core_characteristic_id",
+    "trait_id",
+    "trait_name",
+    "description",
+    "impact_level",
+    "faculty_researcher_id"
+   ]
+  },
+  {
+   "name": "publications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "publication_id",
+    "title",
+    "publication_date",
+    "journal_name",
+    "is_international",
+    "citation_count",
+    "faculty_researcher_id",
+    "journal_id"
+   ]
+  },
+  {
+   "name": "journals",
+   "rows": 4,
+   "columns": [
+    "journal_id",
+    "journal_name",
+    "issn",
+    "is_international",
+    "impact_factor",
+    "publication_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_faculty_researcher_academic_rank",
+  "vw_faculty_researcher_university",
+  "vw_faculty_researcher_research_field",
+  "vw_faculty_researcher_core_characteristic",
+  "vw_academic_rank_faculty_researcher",
+  "vw_university_faculty_researcher",
+  "vw_research_field_faculty_researcher",
+  "vw_core_characteristic_faculty_researcher",
+  "vw_publication_faculty_researcher",
+  "vw_publication_journal",
+  "vw_journal_publication"
+ ]
+}

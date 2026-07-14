@@ -1,0 +1,5 @@
+id,observer_identifier,full_name,birth_date,death_date,location,affiliation,role,observation_id,telescope_id
+100,OBS-2038,Theodore Mcgrath,2023-10-18,2022-01-12,extended-location-99,baseline-affiliat-55,pilot-role-20,100,1000
+101,OBS-2040,Account Name,2024-03-02,2023-06-23,integrated-location-100,pilot-affiliat-56,extended-role-21,101,1001
+102,OBS-2042,Saipan International Airport,2025-08-13,2024-11-07,seasonal-location-101,extended-affiliat-57,integrated-role-22,102,1002
+103,OBS-2044,Norma Fisher,2022-01-24,2025-04-18,regional-location-102,integrated-affiliat-58,seasonal-role-23,103,1003

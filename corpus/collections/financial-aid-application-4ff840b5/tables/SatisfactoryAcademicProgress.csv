@@ -1,0 +1,5 @@
+id,completionRatePercent,cumulativeGPA,maxTimeframePercent,isEligible,studentId
+1000,21.45,18.20,6.20,true,100
+1001,25.90,21.40,8.40,false,101
+1002,30.35,24.60,10.60,true,102
+1003,34.80,27.80,12.80,false,103

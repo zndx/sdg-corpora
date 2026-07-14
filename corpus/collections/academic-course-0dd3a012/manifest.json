@@ -1,0 +1,157 @@
+{
+ "construct_id": "0dd3a012ddc24595",
+ "slug": "academic-course-0dd3a012",
+ "passage": "0dd3a012ddc2459513fe3fdb86540c2b89fc780247b18a882845f47bf6a0d3ec.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 10,
+ "entities": [
+  "AcademicCourse",
+  "EducationalMaterial",
+  "StudentClass",
+  "Student",
+  "StudentOrder"
+ ],
+ "terms": [
+  {
+   "name": "AcademicCourse",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EducationalMaterial",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StudentClass",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "StudentOrder",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "academic_courses",
+   "rows": 4,
+   "columns": [
+    "course_code",
+    "course_name",
+    "grade_level",
+    "is_mother_tongue",
+    "is_compulsory",
+    "class_code"
+   ]
+  },
+  {
+   "name": "educational_materials",
+   "rows": 4,
+   "columns": [
+    "material_code",
+    "title",
+    "publisher",
+    "unit_price",
+    "category",
+    "is_optional",
+    "required_quantity",
+    "course_code",
+    "student_order_id"
+   ]
+  },
+  {
+   "name": "student_classes",
+   "rows": 4,
+   "columns": [
+    "class_code",
+    "grade_level",
+    "academic_year",
+    "school_name"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_name",
+    "contact_number",
+    "class_code",
+    "order_status",
+    "belongs_from_class_class_code"
+   ]
+  },
+  {
+   "name": "student_orders",
+   "rows": 4,
+   "columns": [
+    "student_order_id",
+    "order_date",
+    "total_amount",
+    "section_a",
+    "section_b",
+    "section_c",
+    "collection_status",
+    "student_id"
+   ]
+  },
+  {
+   "name": "courses_materials",
+   "rows": 8,
+   "columns": [
+    "course_code",
+    "material_code"
+   ]
+  },
+  {
+   "name": "classes_students",
+   "rows": 8,
+   "columns": [
+    "class_code",
+    "student_id"
+   ]
+  },
+  {
+   "name": "classes_materials",
+   "rows": 8,
+   "columns": [
+    "class_code",
+    "material_code"
+   ]
+  },
+  {
+   "name": "students_orders",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "student_order_id"
+   ]
+  },
+  {
+   "name": "orders_materials",
+   "rows": 8,
+   "columns": [
+    "student_order_id",
+    "material_code"
+   ]
+  }
+ ],
+ "views": [
+  "v_academic_course_educational_material_detail",
+  "v_academic_course_student_class",
+  "v_educational_material_academic_course",
+  "v_educational_material_student_order",
+  "v_student_class_student_detail",
+  "v_student_class_educational_material_detail",
+  "v_student_student_class",
+  "v_student_student_order_detail",
+  "v_student_order_student",
+  "v_student_order_educational_material_detail"
+ ]
+}

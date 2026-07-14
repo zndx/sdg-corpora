@@ -1,0 +1,174 @@
+{
+ "construct_id": "e2988a1a51b849d8",
+ "slug": "enrollee-e2988a1a",
+ "passage": "e2988a1a51b849d84f87ec5cd96cab2271a21fd71a87fc6fb601ea50656ae551.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 12,
+ "entities": [
+  "Enrollee",
+  "Prescription",
+  "Medication",
+  "Provider",
+  "ReminderLetter",
+  "TransitionPeriod"
+ ],
+ "terms": [
+  {
+   "name": "Enrollee",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Prescription",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Medication",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Provider",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ReminderLetter",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "TransitionPeriod",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "enrollees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "enrollee_id",
+    "enrollment_date",
+    "plan_name",
+    "status",
+    "reminder_letter_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "prescriptions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "prescription_id",
+    "fill_date",
+    "quantity",
+    "dosage",
+    "requires_prior_authorization",
+    "is_non_formulary",
+    "schedule",
+    "provider_id",
+    "medication_id",
+    "enrollee_id",
+    "reminder_letter_id"
+   ]
+  },
+  {
+   "name": "medications",
+   "rows": 4,
+   "columns": [
+    "medication_id",
+    "brand_name",
+    "generic_name",
+    "is_formulary",
+    "mme_limit",
+    "controlled_substance_schedule"
+   ]
+  },
+  {
+   "name": "providers",
+   "rows": 4,
+   "columns": [
+    "provider_id",
+    "specialty",
+    "contact_number",
+    "created_at"
+   ]
+  },
+  {
+   "name": "reminder_letters",
+   "rows": 4,
+   "columns": [
+    "reminder_letter_id",
+    "letter_id",
+    "sent_date",
+    "reminder_type",
+    "enrollee_id",
+    "prescription_id"
+   ]
+  },
+  {
+   "name": "transition_periods",
+   "rows": 4,
+   "columns": [
+    "transition_period_id",
+    "period_id",
+    "start_date",
+    "end_date",
+    "duration_days",
+    "status",
+    "enrollee_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "enrollees_prescriptions",
+   "rows": 8,
+   "columns": [
+    "enrollee_id",
+    "prescription_id"
+   ]
+  },
+  {
+   "name": "medications_prescriptions",
+   "rows": 8,
+   "columns": [
+    "medication_id",
+    "prescription_id"
+   ]
+  },
+  {
+   "name": "providers_prescriptions",
+   "rows": 8,
+   "columns": [
+    "provider_id",
+    "prescription_id"
+   ]
+  },
+  {
+   "name": "periods_prescriptions",
+   "rows": 8,
+   "columns": [
+    "transition_period_id",
+    "prescription_id"
+   ]
+  }
+ ],
+ "views": [
+  "enrollee_prescription_detail_view",
+  "enrollee_reminder_letter_view",
+  "prescription_provider_view",
+  "prescription_medication_view",
+  "prescription_enrollee_view",
+  "prescription_reminder_letter_view",
+  "medication_prescription_detail_view",
+  "provider_prescription_detail_view",
+  "reminder_letter_enrollee_view",
+  "reminder_letter_prescription_view",
+  "transition_period_enrollee_view",
+  "transition_period_prescription_detail_view"
+ ]
+}

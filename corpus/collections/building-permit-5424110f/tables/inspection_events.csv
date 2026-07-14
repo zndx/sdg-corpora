@@ -1,0 +1,5 @@
+id,inspection_id,scheduled_date,completion_date,inspection_type,result_status,completed_within24_hours,inspector_badge_number,permit_id,property_parcel_id,project_segment_id
+100,BJanecke,2024-11-27T22:18:00,2024-03-14T02:06:00,compact-inspecti-44,passed,false,INS-2007,3ac831c6-8fb5-11eb-924d-9cd76263cbd0,1,1
+101,575199,2025-04-11T05:35:00,2025-08-25T09:23:00,composite-inspecti-45,failed,true,INS-2013,ase,2,2
+102,state_uk_4,2022-09-22T12:52:00,2022-01-09T16:40:00,primary-inspecti-46,pending,false,INS-2019,6969410,3,3
+103,8350011,2023-02-06T19:09:00,2023-06-20T23:57:00,adaptive-inspecti-47,re-inspection_required,true,INS-2025,727069,4,4

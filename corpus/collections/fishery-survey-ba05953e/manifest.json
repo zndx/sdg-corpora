@@ -1,0 +1,172 @@
+{
+ "construct_id": "ba05953eb036193b",
+ "slug": "fishery-survey-ba05953e",
+ "passage": "ba05953eb036193b78bdd9e01b3f33b0185707b9ae2b9a9bc0bad67acce4975b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 14,
+ "entities": [
+  "FisherySurvey",
+  "CoastalZone",
+  "FishermenPopulation",
+  "EnvironmentalVariable",
+  "AdaptationIntervention"
+ ],
+ "terms": [
+  {
+   "name": "FisherySurvey",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CoastalZone",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "FishermenPopulation",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EnvironmentalVariable",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AdaptationIntervention",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "fishery_surveys",
+   "rows": 4,
+   "columns": [
+    "fishery_survey_id",
+    "survey_identifier",
+    "sampling_method",
+    "total_respondents",
+    "start_date",
+    "end_date",
+    "status",
+    "coastal_zone_id",
+    "fishermen_population_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "coastal_zones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "zone_identifier",
+    "zone_name",
+    "state_jurisdiction",
+    "latitude",
+    "longitude",
+    "flood_vulnerability_index"
+   ]
+  },
+  {
+   "name": "fishermen_populations",
+   "rows": 4,
+   "columns": [
+    "fishermen_population_id",
+    "population_identifier",
+    "registered_count",
+    "primary_gear_type",
+    "average_vessel_size",
+    "adaptation_readiness",
+    "coastal_zone_id",
+    "fishery_survey_id"
+   ]
+  },
+  {
+   "name": "environmental_variables",
+   "rows": 4,
+   "columns": [
+    "environmental_variable_id",
+    "variable_identifier",
+    "variable_name",
+    "measurement_unit",
+    "trend_direction",
+    "impact_severity",
+    "observation_period",
+    "coastal_zone_id",
+    "fishery_survey_id",
+    "fishermen_population_id"
+   ]
+  },
+  {
+   "name": "adaptation_interventions",
+   "rows": 4,
+   "columns": [
+    "adaptation_intervention_id",
+    "intervention_identifier",
+    "intervention_type",
+    "target_audience",
+    "implementation_date",
+    "status",
+    "budget_allocated",
+    "fishermen_population_id",
+    "coastal_zone_id"
+   ]
+  },
+  {
+   "name": "surveys_variables",
+   "rows": 8,
+   "columns": [
+    "fishery_survey_id",
+    "environmental_variable_id"
+   ]
+  },
+  {
+   "name": "zones_populations",
+   "rows": 8,
+   "columns": [
+    "coastal_zone_id",
+    "fishermen_population_id"
+   ]
+  },
+  {
+   "name": "zones_variables",
+   "rows": 8,
+   "columns": [
+    "coastal_zone_id",
+    "environmental_variable_id"
+   ]
+  },
+  {
+   "name": "populations_variables",
+   "rows": 8,
+   "columns": [
+    "fishermen_population_id",
+    "environmental_variable_id"
+   ]
+  },
+  {
+   "name": "interventions_variables",
+   "rows": 8,
+   "columns": [
+    "adaptation_intervention_id",
+    "environmental_variable_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_fishery_survey_coastal_zone",
+  "v_fishery_survey_fishermen_population",
+  "v_fishery_survey_environmental_variable_detail",
+  "v_coastal_zone_fishermen_population_detail",
+  "v_coastal_zone_environmental_variable_detail",
+  "v_fishermen_population_coastal_zone",
+  "v_fishermen_population_fishery_survey",
+  "v_fishermen_population_environmental_variable_detail",
+  "v_environmental_variable_coastal_zone",
+  "v_environmental_variable_fishery_survey",
+  "v_environmental_variable_fishermen_population",
+  "v_adaptation_intervention_fishermen_population",
+  "v_adaptation_intervention_environmental_variable_detail",
+  "v_adaptation_intervention_coastal_zone"
+ ]
+}

@@ -1,0 +1,5 @@
+id,session_identifier,start_time,end_time,duration_minutes,theme,table_number,status,notes_summary,world_caf_event_id,field_moderator_id,discussion_session_id
+100,SES-2443,2024-03-27T14:42:00,2023-02-26T13:27:00,35,baseline-theme-79,21,scheduled,baseline-notes-61,1000,1,100
+101,SES-2449,2025-08-11T21:59:00,2024-07-10T20:44:00,38,pilot-theme-80,31,active,pilot-notes-62,1001,2,101
+102,SES-2455,2022-01-22T04:16:00,2025-12-21T03:01:00,41,extended-theme-81,41,completed,extended-notes-63,1002,3,102
+103,SES-2461,2023-06-06T11:33:00,2022-05-05T10:18:00,44,integrated-theme-82,51,abruptly_stopped,integrated-notes-64,1003,4,103

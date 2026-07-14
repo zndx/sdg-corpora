@@ -1,0 +1,5 @@
+corrective_action_plan_id,plan_id,submission_date,compliance_deadline,status,corrective_steps_taken,preventive_measures,regulatory_violation_id,licensee_id
+1,505977,2025-04-24T03:57:00,2023-02-24T01:03:00,draft,integrated-correcti-46,adaptive-preventi-53,1,100
+2,727038,2022-09-08T10:14:00,2024-07-08T08:20:00,submitted,seasonal-correcti-47,distributed-preventi-54,2,101
+3,937726,2023-02-19T17:31:00,2025-12-19T15:37:00,under_review,regional-correcti-48,baseline-preventi-55,3,102
+4,1290,2024-07-03T00:48:00,2022-05-03T22:54:00,approved,legacy-correcti-49,pilot-preventi-56,4,103

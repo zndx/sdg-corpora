@@ -1,0 +1,186 @@
+{
+ "construct_id": "f66f7951e3ea6cb9",
+ "slug": "research-award-f66f7951",
+ "passage": "f66f7951e3ea6cb954de03206ef1d673228d2f99d092ea9b3b7d049ec4ec26d2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 21,
+ "entities": [
+  "ResearchAward",
+  "Researcher",
+  "ResearchOrganization",
+  "ResearchProject",
+  "GeographicLocation",
+  "HealthCondition",
+  "Biomarker"
+ ],
+ "terms": [
+  {
+   "name": "ResearchAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ResearchOrganization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicLocation",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HealthCondition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Biomarker",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "research_awards",
+   "rows": 4,
+   "columns": [
+    "id",
+    "award_identifier",
+    "award_year",
+    "award_title",
+    "award_date",
+    "issuing_organization",
+    "researcher_id",
+    "research_organization_id"
+   ]
+  },
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "researcher_identifier",
+    "full_legal_name",
+    "professional_title",
+    "military_rank",
+    "years_of_experience",
+    "specialization",
+    "research_award_id",
+    "research_organization_id",
+    "researcher_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "research_organizations",
+   "rows": 4,
+   "columns": [
+    "research_organization_id",
+    "organization_identifier",
+    "organization_name",
+    "founding_year",
+    "headquarters_location",
+    "website_u_r_l",
+    "organization_type",
+    "research_award_id",
+    "researcher_id",
+    "research_project_id",
+    "geographic_location_id"
+   ]
+  },
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "research_project_id",
+    "project_identifier",
+    "project_title",
+    "project_start_date",
+    "project_end_date",
+    "project_status",
+    "funding_source",
+    "grant_program_name",
+    "researcher_id",
+    "research_organization_id",
+    "geographic_location_id",
+    "health_condition_id",
+    "biomarker_id"
+   ]
+  },
+  {
+   "name": "geographic_locations",
+   "rows": 4,
+   "columns": [
+    "geographic_location_id",
+    "location_identifier",
+    "location_name",
+    "location_type",
+    "city",
+    "state",
+    "country",
+    "research_organization_id",
+    "research_project_id"
+   ]
+  },
+  {
+   "name": "health_conditions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "condition_identifier",
+    "condition_name",
+    "condition_category",
+    "prevalence_rate",
+    "risk_factors",
+    "research_project_id",
+    "biomarker_id"
+   ]
+  },
+  {
+   "name": "biomarkers",
+   "rows": 4,
+   "columns": [
+    "biomarker_id",
+    "biomarker_identifier",
+    "biomarker_name",
+    "biomarker_type",
+    "measurement_unit",
+    "normal_range",
+    "research_project_id",
+    "health_condition_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "vw_research_award_researcher",
+  "vw_research_award_research_organization",
+  "vw_researcher_research_award",
+  "vw_researcher_research_organization",
+  "vw_researcher_researcher",
+  "vw_researcher_research_project",
+  "vw_research_organization_research_award",
+  "vw_research_organization_researcher",
+  "vw_research_organization_research_project",
+  "vw_research_organization_geographic_location",
+  "vw_research_project_researcher",
+  "vw_research_project_research_organization",
+  "vw_research_project_geographic_location",
+  "vw_research_project_health_condition",
+  "vw_research_project_biomarker",
+  "vw_geographic_location_research_organization",
+  "vw_geographic_location_research_project",
+  "vw_health_condition_research_project",
+  "vw_health_condition_biomarker",
+  "vw_biomarker_research_project",
+  "vw_biomarker_health_condition"
+ ]
+}

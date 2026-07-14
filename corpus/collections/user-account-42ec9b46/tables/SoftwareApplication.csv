@@ -1,0 +1,5 @@
+id,appId,appName,version,platform,isBlendedLearningTool,serviceId,deviceId
+1,d6267a5e-8fc1-11eb-924d-9cd76263cbd0,Pilot Cluster,seasonal-version-71,web,true,1,1000
+2,4463647,Baseline Review,regional-version-72,desktop,false,2,1001
+3,ceffd6ca-8fd1-11eb-924d-9cd76263cbd0,Distributed Initiative A,legacy-version-73,mobile,true,3,1002
+4,89820,Adaptive Model,compact-version-74,web,false,4,1003

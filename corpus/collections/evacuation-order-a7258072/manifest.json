@@ -1,0 +1,159 @@
+{
+ "construct_id": "a725807298667309",
+ "slug": "evacuation-order-a7258072",
+ "passage": "a72580729866730909e780b1e9724cd78f941eeb7340e9ea25c11a0aaaadbc03.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "EvacuationOrder",
+  "HazardEvent",
+  "GeographicZone",
+  "EvacuationRoute",
+  "WarningMethod",
+  "Population"
+ ],
+ "terms": [
+  {
+   "name": "EvacuationOrder",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HazardEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeographicZone",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EvacuationRoute",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WarningMethod",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Population",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "evac_evacuation_orders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "order_identifier",
+    "issuance_date_time",
+    "issuing_authority",
+    "evacuation_zone",
+    "hazard_type",
+    "status",
+    "mandatory",
+    "hazard_event_id",
+    "geographic_zone_id",
+    "warning_method_id"
+   ]
+  },
+  {
+   "name": "evac_hazard_events",
+   "rows": 4,
+   "columns": [
+    "id",
+    "event_identifier",
+    "start_time",
+    "end_time",
+    "event_type",
+    "severity_level",
+    "affected_area",
+    "monitored",
+    "evacuation_order_id",
+    "geographic_zone_id"
+   ]
+  },
+  {
+   "name": "evac_geographic_zones",
+   "rows": 4,
+   "columns": [
+    "geographic_zone_id",
+    "zone_identifier",
+    "zone_name",
+    "risk_level",
+    "population_count",
+    "area_size",
+    "boundary_coordinates",
+    "evacuation_order_id",
+    "evacuation_route_id",
+    "hazard_event_id"
+   ]
+  },
+  {
+   "name": "evac_evacuation_routes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "route_identifier",
+    "route_name",
+    "start_point",
+    "end_point",
+    "route_length",
+    "road_condition",
+    "recommended",
+    "geographic_zone_id",
+    "connects_to_geographic_zone_id",
+    "evacuation_order_id"
+   ]
+  },
+  {
+   "name": "evac_warning_methods",
+   "rows": 4,
+   "columns": [
+    "warning_method_id",
+    "method_identifier",
+    "method_name",
+    "reach",
+    "reliability",
+    "active_during_power_outage",
+    "evacuation_order_id",
+    "population_id"
+   ]
+  },
+  {
+   "name": "evac_populations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "population_identifier",
+    "household_count",
+    "average_household_size",
+    "evacuation_compliance_rate",
+    "transportation_access",
+    "geographic_zone_id",
+    "warning_method_id",
+    "evacuation_order_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_evacuation_order_hazard_event",
+  "vw_evacuation_order_geographic_zone",
+  "vw_evacuation_order_warning_method",
+  "vw_hazard_event_evacuation_order",
+  "vw_hazard_event_geographic_zone",
+  "vw_geographic_zone_evacuation_order",
+  "vw_geographic_zone_evacuation_route",
+  "vw_geographic_zone_hazard_event",
+  "vw_evacuation_route_geographic_zone",
+  "vw_evacuation_route_evacuation_order",
+  "vw_warning_method_evacuation_order",
+  "vw_warning_method_population",
+  "vw_population_geographic_zone",
+  "vw_population_warning_method",
+  "vw_population_evacuation_order"
+ ]
+}

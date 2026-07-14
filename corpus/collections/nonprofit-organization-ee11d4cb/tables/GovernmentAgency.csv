@@ -1,0 +1,5 @@
+agencyId,agencyName,jurisdictionLevel,approvalGranted,grantReviewRole,curriculumId,programId,personId,createdAt
+1,FSG Social Impact Advisors,federal,false,panel_member,1,1,1,2025-01-01 00:14:00
+2,Whirlpool Corporation,state,true,funding_authority,2,2,2,2025-02-06 03:14:00
+3,Education Writers Association,local,false,regulator,3,3,3,2025-03-11 06:14:00
+4,Switch Card Services Ltd.,federal,true,panel_member,4,4,4,2025-04-16 09:14:00

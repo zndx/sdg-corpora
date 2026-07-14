@@ -1,0 +1,152 @@
+{
+ "construct_id": "f83ca3c505933d83",
+ "slug": "menu-category-f83ca3c5",
+ "passage": "f83ca3c505933d836f4c041bf6f6ee91d09ca082c6b309dd95c36172b25732ba.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 8,
+ "entities": [
+  "MenuCategory",
+  "MenuItem",
+  "FoodIngredient",
+  "PricingTier",
+  "PricingAddon",
+  "BreadType"
+ ],
+ "terms": [
+  {
+   "name": "MenuCategory",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MenuItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FoodIngredient",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "PricingTier",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "PricingAddon",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "BreadType",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "menu_categories",
+   "rows": 4,
+   "columns": [
+    "category_code",
+    "category_label",
+    "availability_start",
+    "availability_end"
+   ]
+  },
+  {
+   "name": "menu_items",
+   "rows": 4,
+   "columns": [
+    "item_code",
+    "item_name",
+    "base_price",
+    "is_vegetarian",
+    "is_vegan",
+    "is_gluten_free",
+    "serving_style",
+    "category_code"
+   ]
+  },
+  {
+   "name": "food_ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_code",
+    "ingredient_name",
+    "is_protein",
+    "is_dairy",
+    "is_gluten_source",
+    "allergen_category",
+    "item_code",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "pricing_tiers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "tier_code",
+    "tier_label",
+    "price",
+    "portion_size",
+    "is_add_on",
+    "item_code",
+    "addon_code"
+   ]
+  },
+  {
+   "name": "pricing_addons",
+   "rows": 4,
+   "columns": [
+    "addon_code",
+    "addon_name",
+    "additional_cost",
+    "addon_type",
+    "item_code",
+    "created_at"
+   ]
+  },
+  {
+   "name": "bread_types",
+   "rows": 4,
+   "columns": [
+    "bread_type_id",
+    "bread_code",
+    "bread_name",
+    "is_house_made",
+    "is_gluten_free",
+    "is_vegan",
+    "item_code"
+   ]
+  },
+  {
+   "name": "categories_items",
+   "rows": 8,
+   "columns": [
+    "category_code",
+    "item_code"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "item_code",
+    "food_ingredient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_menu_category_menu_item_detail",
+  "v_menu_item_menu_category",
+  "v_menu_item_food_ingredient_detail",
+  "v_food_ingredient_menu_item",
+  "v_pricing_tier_menu_item",
+  "v_pricing_tier_pricing_addon",
+  "v_pricing_addon_menu_item",
+  "v_bread_type_menu_item"
+ ]
+}

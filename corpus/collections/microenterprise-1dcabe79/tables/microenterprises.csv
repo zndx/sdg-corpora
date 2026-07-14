@@ -1,0 +1,5 @@
+microenterprise_id,identifier,legal_name,cluster_location,sector_type,registration_date,is_demonstration_site,project_activity_id,r_e_c_p_practice_id,created_at
+1,IDE-2086,Adaptive Model,composite-cluster-39,integrated-sector-40,2023-06-19,true,1,1,2025-01-01 00:14:00
+2,IDE-2091,Primary Cluster,primary-cluster-40,seasonal-sector-41,2024-11-03,false,2,2,2025-02-06 03:14:00
+3,IDE-2096,Composite Review D,adaptive-cluster-41,regional-sector-42,2025-04-14,true,3,3,2025-03-11 06:14:00
+4,IDE-2101,Compact Initiative,distributed-cluster-42,legacy-sector-43,2022-09-25,false,4,4,2025-04-16 09:14:00

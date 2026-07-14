@@ -1,0 +1,5 @@
+id,area_id,area_name,area_type,is_wireless_enabled,area_description,campus_building_id,statue_id,campus_area_id
+100,default_chart_a_tax_19,Primary Programme A,Garden,true,Pilot Protocol,1,1000,100
+101,fro,Composite Standard,Quad,false,Baseline Programme,2,1001,101
+102,account_pymes_296,Compact Framework,ParkingLot,true,Distributed Standard A,3,1002,102
+103,57e52fbc-8fcd-11eb-924d-9cd76263cbd0,Legacy Protocol D,Path,false,Adaptive Framework,4,1003,103

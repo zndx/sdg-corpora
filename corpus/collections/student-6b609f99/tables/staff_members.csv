@@ -1,0 +1,5 @@
+staff_member_id,staff_id,full_name,role,department,is_qualified,employment_status,staff_training_module_id,student_id,health_safety_risk_assessment_id,created_at
+1,937735,Theodore Mcgrath,teacher,SEN,false,active,1,1000,1,2025-01-01 00:14:00
+2,3158139,Account Name,therapist,therapy,true,on_leave,2,1001,2,2025-02-06 03:14:00
+3,8189502,Saipan International Airport,support_staff,administration,false,terminated,3,1002,3,2025-03-11 06:14:00
+4,69438,Norma Fisher,executive_headteacher,leadership,true,active,4,1003,4,2025-04-16 09:14:00

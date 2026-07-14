@@ -1,0 +1,167 @@
+{
+ "construct_id": "aef07dc32aab242f",
+ "slug": "research-report-aef07dc3",
+ "passage": "aef07dc32aab242fef2314fbb7f6ce8f102a9dfe7504df4cd0aa191736c79370.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 12,
+ "entities": [
+  "ResearchReport",
+  "ClientAccount",
+  "AccountManager",
+  "SalesCampaign",
+  "Executive",
+  "SalesReport"
+ ],
+ "terms": [
+  {
+   "name": "ResearchReport",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClientAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AccountManager",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SalesCampaign",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Executive",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "SalesReport",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "research_reports",
+   "rows": 4,
+   "columns": [
+    "id",
+    "report_id",
+    "publish_date",
+    "ticker_symbol",
+    "recommendation",
+    "performance_vs_index",
+    "is_bold_call",
+    "client_account_id"
+   ]
+  },
+  {
+   "name": "client_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_id",
+    "client_type",
+    "region",
+    "account_status",
+    "revenue_generated",
+    "account_manager_id",
+    "research_report_id"
+   ]
+  },
+  {
+   "name": "account_managers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "manager_id",
+    "employee_name",
+    "sales_target",
+    "crm_usage_level",
+    "compliance_status",
+    "executive_id"
+   ]
+  },
+  {
+   "name": "sales_campaigns",
+   "rows": 4,
+   "columns": [
+    "id",
+    "campaign_id",
+    "campaign_type",
+    "open_rate",
+    "start_date",
+    "end_date",
+    "client_account_id",
+    "account_manager_id"
+   ]
+  },
+  {
+   "name": "executives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "executive_id",
+    "executive_name",
+    "title",
+    "decision_authority",
+    "report_id"
+   ]
+  },
+  {
+   "name": "sales_reports",
+   "rows": 4,
+   "columns": [
+    "report_id",
+    "submission_date",
+    "observation_type",
+    "priority_level",
+    "is_actionable",
+    "account_manager_id",
+    "executive_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "managers_accounts",
+   "rows": 8,
+   "columns": [
+    "account_manager_id",
+    "client_account_id"
+   ]
+  },
+  {
+   "name": "managers_campaigns",
+   "rows": 8,
+   "columns": [
+    "account_manager_id",
+    "sales_campaign_id"
+   ]
+  },
+  {
+   "name": "executives_managers",
+   "rows": 8,
+   "columns": [
+    "executive_id",
+    "account_manager_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_research_report_client_account",
+  "v_client_account_account_manager",
+  "v_client_account_research_report",
+  "v_account_manager_client_account_detail",
+  "v_account_manager_executive",
+  "v_account_manager_sales_campaign_detail",
+  "v_sales_campaign_client_account",
+  "v_sales_campaign_account_manager",
+  "v_executive_account_manager_detail",
+  "v_executive_sales_report",
+  "v_sales_report_account_manager",
+  "v_sales_report_executive"
+ ]
+}

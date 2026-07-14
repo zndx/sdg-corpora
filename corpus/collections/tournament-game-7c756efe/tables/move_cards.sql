@@ -1,0 +1,22 @@
+CREATE TABLE move_cards (
+  move_card_id INTEGER NOT NULL,
+  card_id VARCHAR(35),
+  move_number INTEGER,
+  player_id VARCHAR(32),
+  move_notation VARCHAR(32),
+  time_used DECIMAL,
+  postmark_date DATE,
+  transmission_timestamp TIMESTAMP,
+  is_ambiguous BOOLEAN,
+  status VARCHAR(32),
+  tournament_game_id INTEGER,
+  submitted_by_player_id VARCHAR(32),
+  received_by_player_id VARCHAR(32),
+  tournament_director_td_id INTEGER,
+  created_at TIMESTAMP,
+  PRIMARY KEY (move_card_id),
+  FOREIGN KEY (tournament_game_id) REFERENCES tournament_games (id),
+  FOREIGN KEY (submitted_by_player_id) REFERENCES players (player_id),
+  FOREIGN KEY (received_by_player_id) REFERENCES players (player_id),
+  FOREIGN KEY (tournament_director_td_id) REFERENCES tournament_directors (td_id)
+);

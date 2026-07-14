@@ -1,0 +1,5 @@
+school_zone_id,zone_id,zone_type,privacy_level,is_indoor,capacity,surveillance_camera_id,student_search_event_id,created_at,updated_at
+100,937724,classroom,high,false,32,1000,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,99504,locker_room,medium,true,41,1001,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,10207142,hallway,low,false,50,1002,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,bus,high,true,59,1003,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

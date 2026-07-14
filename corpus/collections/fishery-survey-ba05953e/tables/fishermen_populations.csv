@@ -1,0 +1,5 @@
+fishermen_population_id,population_identifier,registered_count,primary_gear_type,average_vessel_size,adaptation_readiness,coastal_zone_id,fishery_survey_id
+1000,POP-2555,7,integrated-primary-94,0.74,low,100,100
+1001,POP-2556,26,seasonal-primary-95,1.33,moderate,101,101
+1002,POP-2557,39,regional-primary-96,0.6,high,102,102
+1003,POP-2558,6,legacy-primary-97,0.6,low,103,103

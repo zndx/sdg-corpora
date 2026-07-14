@@ -1,0 +1,5 @@
+id,country_code,name,region,gdp_per_capita,internet_penetration,school_connectivity_rate,school_id,connectivity_provider_id,created_at
+1000,2e55e0b6-8fcc-11eb-924d-9cd76263cbd0,Extended Review,distributed-region-12,11.20,11.95,10.45,100,1,2025-01-01 00:14:00
+1001,lu_tax_code_template_m_I_2,Pilot Initiative A,baseline-region-13,13.40,15.90,13.90,101,2,2025-02-06 03:14:00
+1002,default_chart_a_account_57,Baseline Model,pilot-region-14,15.60,19.85,17.35,102,3,2025-03-11 06:14:00
+1003,727045,Distributed Cluster,extended-region-15,17.80,23.80,20.80,103,4,2025-04-16 09:14:00

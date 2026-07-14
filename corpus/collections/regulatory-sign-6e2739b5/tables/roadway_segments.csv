@@ -1,0 +1,5 @@
+roadway_segment_id,segment_identifier,road_name,start_mile_marker,end_mile_marker,surface_type,lane_count,speed_limit,regulatory_sign_id,traffic_regulation_id,created_at
+1,SEG-2495,Composite Model,19.45,1.70,asphalt,6,24,1000,1000,2025-01-01 00:14:00
+2,SEG-2502,Compact Cluster A,21.90,3.40,concrete,2,27,1001,1001,2025-02-06 03:14:00
+3,SEG-2509,Legacy Review,24.35,5.10,gravel,3,30,1002,1002,2025-03-11 06:14:00
+4,SEG-2516,Regional Initiative,26.80,6.80,asphalt,4,33,1003,1003,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+id,donor_identifier,full_name,home_address,email_address,total_donation_amount,tax_receipt_issued,donation_transaction_id
+1,DON-2650,Theodore Mcgrath,distributed-home-60,primary-email-70,434.86,true,1
+2,DON-2654,Account Name,baseline-home-61,adaptive-email-71,"12,025",false,2
+3,DON-2658,Saipan International Airport,pilot-home-62,distributed-email-72,66.14,true,3
+4,DON-2662,Norma Fisher,extended-home-63,baseline-email-73,"3,069",false,4

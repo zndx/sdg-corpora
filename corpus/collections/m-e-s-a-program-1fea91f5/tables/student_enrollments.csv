@@ -1,0 +1,5 @@
+student_enrollment_id,enrollment_id,student_id,major,ethnicity,transfer_status,target_university,enrollment_date,graduation_date,m_e_s_a_program_id,four_year_university_id
+100,4447035,392507,primary-major-94,primary-ethnicit-28,pending,distributed-target-48,2022-05-11T16:00:00,2024-03-15,1,100
+101,gd_taxc_2121,25388256,adaptive-major-95,adaptive-ethnicit-29,transferred,baseline-target-49,2023-10-22T23:17:00,2025-08-26,2,101
+102,id_30,id_16,distributed-major-96,distributed-ethnicit-30,incomplete,pilot-target-50,2024-03-06T06:34:00,2022-01-10,3,102
+103,b_VB-EC-0,gd_taxc_2211,baseline-major-97,baseline-ethnicit-31,pending,extended-target-51,2025-08-17T13:51:00,2023-06-21,4,103

@@ -1,0 +1,5 @@
+benchmark_index_id,index_name,index_ticker,index_type,currency,rebalancing_frequency,weighting_scheme,number_of_components,is_hedged,fund_id,underlying_fund_id,created_at,updated_at
+1,Primary Initiative A,primary-index-94,regional-index-84,seasonal-currency-71,compact-rebalanc-26,composite-weightin-45,41,false,100,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,Composite Model,adaptive-index-95,legacy-index-85,regional-currency-72,composite-rebalanc-27,primary-weightin-46,49,true,101,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,Compact Cluster,distributed-index-96,compact-index-86,legacy-currency-73,primary-rebalanc-28,adaptive-weightin-47,57,false,102,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,Legacy Review D,baseline-index-97,composite-index-87,compact-currency-74,adaptive-rebalanc-29,distributed-weightin-48,65,true,103,103,2025-04-16 09:14:00,2025-04-23 15:41:00

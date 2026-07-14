@@ -1,0 +1,5 @@
+id,network_id,peering_i_s_ps,firewall_enabled,vpn_required,tls_version,ddos_protection_enabled,arbour_system_id
+1,e6196808-8fd1-11eb-924d-9cd76263cbd0,distributed-peering-48,false,false,regional-tls-90,true,1
+2,7441146,baseline-peering-49,true,true,legacy-tls-91,false,2
+3,8387535,pilot-peering-50,false,false,compact-tls-92,true,3
+4,6589,extended-peering-51,true,true,composite-tls-93,false,4

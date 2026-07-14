@@ -1,0 +1,188 @@
+{
+ "construct_id": "f2a9e5c48247bd2c",
+ "slug": "managed-investment-scheme-f2a9e5c4",
+ "passage": "f2a9e5c48247bd2ce6fb2e15ad2f60d29c69290cbe22a108f33fa50f5c469478.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 12,
+ "entities": [
+  "ManagedInvestmentScheme",
+  "AuthorisedRepresentative",
+  "FinancialProduct",
+  "ProductDisclosureStatement",
+  "Investor",
+  "RemunerationEvent"
+ ],
+ "terms": [
+  {
+   "name": "ManagedInvestmentScheme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AuthorisedRepresentative",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "FinancialProduct",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProductDisclosureStatement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Investor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RemunerationEvent",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "managed_investment_schemes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "arsn",
+    "scheme_name",
+    "status",
+    "listing_status",
+    "responsible_entity",
+    "authorised_representative_id"
+   ]
+  },
+  {
+   "name": "authorised_representatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "rep_id",
+    "rep_name",
+    "authorisation_date",
+    "authorisation_status",
+    "licensing_entity"
+   ]
+  },
+  {
+   "name": "financial_products",
+   "rows": 4,
+   "columns": [
+    "product_id",
+    "product_type",
+    "issue_price",
+    "management_fee",
+    "risk_rating",
+    "managed_investment_scheme_id",
+    "product_disclosure_statement_id"
+   ]
+  },
+  {
+   "name": "product_disclosure_statements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pds_id",
+    "issue_date",
+    "version_number",
+    "regulatory_status",
+    "document_url",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "investors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "investor_id",
+    "investor_name",
+    "registration_date",
+    "account_status",
+    "total_investment",
+    "authorised_representative_id"
+   ]
+  },
+  {
+   "name": "remuneration_events",
+   "rows": 4,
+   "columns": [
+    "remuneration_event_id",
+    "event_id",
+    "event_date",
+    "amount",
+    "fee_type",
+    "currency",
+    "authorised_representative_id",
+    "investor_id"
+   ]
+  },
+  {
+   "name": "schemes_investors",
+   "rows": 8,
+   "columns": [
+    "managed_investment_scheme_id",
+    "investor_id"
+   ]
+  },
+  {
+   "name": "representatives_schemes",
+   "rows": 8,
+   "columns": [
+    "authorised_representative_id",
+    "managed_investment_scheme_id"
+   ]
+  },
+  {
+   "name": "representatives_products",
+   "rows": 8,
+   "columns": [
+    "authorised_representative_id",
+    "product_id"
+   ]
+  },
+  {
+   "name": "statements_products",
+   "rows": 8,
+   "columns": [
+    "product_disclosure_statement_id",
+    "product_id"
+   ]
+  },
+  {
+   "name": "statements_investors",
+   "rows": 8,
+   "columns": [
+    "product_disclosure_statement_id",
+    "investor_id"
+   ]
+  },
+  {
+   "name": "investors_schemes",
+   "rows": 8,
+   "columns": [
+    "investor_id",
+    "managed_investment_scheme_id"
+   ]
+  }
+ ],
+ "views": [
+  "managed_investment_scheme_authorised_representative_view",
+  "managed_investment_scheme_investor_detail_view",
+  "authorised_representative_managed_investment_scheme_detail_view",
+  "authorised_representative_financial_product_detail_view",
+  "financial_product_managed_investment_scheme_view",
+  "financial_product_product_disclosure_statement_view",
+  "product_disclosure_statement_financial_product_detail_view",
+  "product_disclosure_statement_investor_detail_view",
+  "investor_managed_investment_scheme_detail_view",
+  "investor_authorised_representative_view",
+  "remuneration_event_authorised_representative_view",
+  "remuneration_event_investor_view"
+ ]
+}

@@ -1,0 +1,20 @@
+CREATE TABLE InspectionEvent (
+  id INTEGER NOT NULL,
+  inspectionId VARCHAR(32),
+  startDate TIMESTAMP,
+  endDate TIMESTAMP,
+  inspectionType VARCHAR(32),
+  overallEffectiveness VARCHAR(32),
+  qualityOfEducation VARCHAR(32),
+  behaviourAndAttitudes VARCHAR(32),
+  personalDevelopment VARCHAR(32),
+  leadershipAndManagement VARCHAR(32),
+  welfareAndSafeguarding VARCHAR(32),
+  siteId INTEGER,
+  programmeId INTEGER,
+  outcomeId INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (siteId) REFERENCES SchoolSite (id),
+  FOREIGN KEY (programmeId) REFERENCES CurriculumProgramme (programmeId),
+  FOREIGN KEY (outcomeId) REFERENCES StudentOutcome (id)
+);

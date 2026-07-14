@@ -1,0 +1,5 @@
+food_ingredient_id,ingredient_name,is_raw,is_cooked,is_condiment,is_side_dish,is_subtype_of_food_ingredient_id
+1,Pilot Assessment,false,false,false,false,1
+2,Baseline Survey,true,true,true,true,2
+3,Distributed Corridor A,false,false,false,false,3
+4,Adaptive Series,true,true,true,true,4

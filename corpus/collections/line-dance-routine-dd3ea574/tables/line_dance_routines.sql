@@ -1,0 +1,20 @@
+CREATE TABLE line_dance_routines (
+  id INTEGER NOT NULL,
+  routine_identifier VARCHAR(32),
+  title VARCHAR(32),
+  level VARCHAR(32),
+  total_wall_count INTEGER,
+  total_counts INTEGER,
+  bpm INTEGER,
+  track_start_offset INTEGER,
+  choreographer_name VARCHAR(32),
+  dedication_text VARCHAR(32),
+  creation_date DATE,
+  audio_track_id INTEGER,
+  choreographer_id INTEGER,
+  created_at TIMESTAMP,
+  updated_at TIMESTAMP,
+  PRIMARY KEY (id),
+  FOREIGN KEY (audio_track_id) REFERENCES audio_tracks (id),
+  FOREIGN KEY (choreographer_id) REFERENCES choreographers (id)
+);

@@ -1,0 +1,5 @@
+id,sku,item_type,quantity_on_hand,unit_cost,location_code,status,shipment_record_id
+1,SKU-2021,diamond,7,10.72,9736909,in_stock,1
+2,SKU-2025,jewelry,4,29.99,9125640,reserved,2
+3,SKU-2029,antique_radio,6,18.47,1450633,shipped,3
+4,SKU-2033,diamond,6,43.48,21005921,damaged,4

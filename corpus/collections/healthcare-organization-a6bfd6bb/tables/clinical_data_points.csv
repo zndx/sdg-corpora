@@ -1,0 +1,5 @@
+clinical_data_point_id,data_point_id,measurement_type,value,unit,timestamp,is_anomalous,electronic_health_record_ehr_id,healthcare_professional_id
+1,726063,adaptive-measurem-89,19.95,distributed-unit-18,2024-07-08T18:18:00,true,195366,1
+2,id_24,distributed-measurem-90,21.90,baseline-unit-19,2025-12-19T01:35:00,false,611509,2
+3,e878ea4c-8fd1-11eb-924d-9cd76263cbd0,baseline-measurem-91,23.85,pilot-unit-20,2022-05-03T08:52:00,true,884338,3
+4,ar_001,pilot-measurem-92,25.80,extended-unit-21,2023-10-14T15:09:00,false,gd_taxc_1123,4

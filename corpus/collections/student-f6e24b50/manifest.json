@@ -1,0 +1,143 @@
+{
+ "construct_id": "f6e24b50c11bdd52",
+ "slug": "student-f6e24b50",
+ "passage": "f6e24b50c11bdd526631424d2829babe51bf62ed775b182c3cb801a77e9a871a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 9,
+ "entities": [
+  "Student",
+  "Parent",
+  "EmergencyContact",
+  "Enrollment",
+  "AcquisitionSource"
+ ],
+ "terms": [
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Parent",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "EmergencyContact",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Enrollment",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "AcquisitionSource",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "given_name",
+    "chinese_name",
+    "birth_date",
+    "school_name",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "parents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "given_name",
+    "chinese_name",
+    "home_phone",
+    "cell_phone",
+    "email",
+    "home_address",
+    "city",
+    "zip_code",
+    "emergency_contact_id"
+   ]
+  },
+  {
+   "name": "emergency_contacts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "contact_name",
+    "contact_phone",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "enrollments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "registration_fee",
+    "monthly_tuition",
+    "late_fee_amount",
+    "payment_due_day",
+    "late_fee_deadline_day",
+    "program_months",
+    "consent_given",
+    "waiver_signed",
+    "enrollment_date",
+    "student_id",
+    "acquisition_source_id"
+   ]
+  },
+  {
+   "name": "acquisition_sources",
+   "rows": 4,
+   "columns": [
+    "acquisition_source_id",
+    "source_type",
+    "other_details",
+    "enrollment_id"
+   ]
+  },
+  {
+   "name": "students_parents",
+   "rows": 8,
+   "columns": [
+    "student_id",
+    "parent_id"
+   ]
+  },
+  {
+   "name": "parents_students",
+   "rows": 8,
+   "columns": [
+    "parent_id",
+    "student_id"
+   ]
+  },
+  {
+   "name": "enrollments_parents",
+   "rows": 8,
+   "columns": [
+    "enrollment_id",
+    "parent_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_student_parent_detail",
+  "v_student_enrollment",
+  "v_parent_student_detail",
+  "v_parent_emergency_contact",
+  "v_emergency_contact_parent",
+  "v_enrollment_student",
+  "v_enrollment_parent_detail",
+  "v_enrollment_acquisition_source",
+  "v_acquisition_source_enrollment"
+ ]
+}

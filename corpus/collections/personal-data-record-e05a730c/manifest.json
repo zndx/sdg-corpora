@@ -1,0 +1,187 @@
+{
+ "construct_id": "e05a730c836b7463",
+ "slug": "personal-data-record-e05a730c",
+ "passage": "e05a730c836b746394458dad29e9afe49700e2ccf3eb953b6c98f10b85a7b79b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 15,
+ "entities": [
+  "PersonalDataRecord",
+  "DigitalPlatform",
+  "TrackingSoftware",
+  "CustomerProfile",
+  "PurchaseTransaction",
+  "ThirdPartyVendor",
+  "VehicleIdentificationRecord"
+ ],
+ "terms": [
+  {
+   "name": "PersonalDataRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DigitalPlatform",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrackingSoftware",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CustomerProfile",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PurchaseTransaction",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ThirdPartyVendor",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VehicleIdentificationRecord",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "personal_data_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "record_id",
+    "collection_date",
+    "data_category",
+    "is_sensitive",
+    "retention_period_months",
+    "disclosure_status",
+    "digital_platform_id",
+    "customer_profile_id",
+    "vendor_id"
+   ]
+  },
+  {
+   "name": "digital_platforms",
+   "rows": 4,
+   "columns": [
+    "id",
+    "platform_id",
+    "platform_name",
+    "platform_type",
+    "url",
+    "cookie_enabled",
+    "analytics_provider",
+    "tracking_software_id"
+   ]
+  },
+  {
+   "name": "tracking_softwares",
+   "rows": 4,
+   "columns": [
+    "id",
+    "software_id",
+    "software_name",
+    "provider_name",
+    "function_type",
+    "data_collected",
+    "digital_platform_id",
+    "personal_data_record_id"
+   ]
+  },
+  {
+   "name": "customer_profiles",
+   "rows": 4,
+   "columns": [
+    "id",
+    "profile_id",
+    "customer_name",
+    "household_id",
+    "profile_status",
+    "last_updated",
+    "preference_tags",
+    "purchase_transaction_id"
+   ]
+  },
+  {
+   "name": "purchase_transactions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transaction_id",
+    "transaction_date",
+    "total_amount",
+    "payment_method",
+    "store_location",
+    "items_purchased",
+    "customer_profile_id",
+    "vendor_id"
+   ]
+  },
+  {
+   "name": "third_party_vendors",
+   "rows": 4,
+   "columns": [
+    "vendor_id",
+    "vendor_name",
+    "service_type",
+    "data_access_level",
+    "contract_start_date",
+    "personal_data_record_id",
+    "purchase_transaction_id"
+   ]
+  },
+  {
+   "name": "vehicle_identification_records",
+   "rows": 4,
+   "columns": [
+    "vehicle_identification_record_id",
+    "record_id",
+    "license_plate_number",
+    "state_issued",
+    "vehicle_make",
+    "vehicle_model",
+    "capture_timestamp",
+    "ocr_confidence_score",
+    "customer_profile_id",
+    "personal_data_record_id"
+   ]
+  },
+  {
+   "name": "platforms_records",
+   "rows": 8,
+   "columns": [
+    "digital_platform_id",
+    "personal_data_record_id"
+   ]
+  },
+  {
+   "name": "profiles_records",
+   "rows": 8,
+   "columns": [
+    "customer_profile_id",
+    "personal_data_record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_personal_data_record_digital_platform",
+  "v_personal_data_record_customer_profile",
+  "v_personal_data_record_third_party_vendor",
+  "v_digital_platform_personal_data_record_detail",
+  "v_digital_platform_tracking_software",
+  "v_tracking_software_digital_platform",
+  "v_tracking_software_personal_data_record",
+  "v_customer_profile_personal_data_record_detail",
+  "v_customer_profile_purchase_transaction",
+  "v_purchase_transaction_customer_profile",
+  "v_purchase_transaction_third_party_vendor",
+  "v_third_party_vendor_personal_data_record",
+  "v_third_party_vendor_purchase_transaction",
+  "v_vehicle_identification_record_customer_profile",
+  "v_vehicle_identification_record_personal_data_record"
+ ]
+}

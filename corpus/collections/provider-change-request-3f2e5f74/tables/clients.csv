@@ -1,0 +1,5 @@
+client_id,mh_number,full_name,is_minor,primary_contact_phone,assigned_clinic,provider_change_request_id,clinic_id
+1000,MH-2064,Theodore Mcgrath,true,Pensacola Regional Airport,baseline-assigned-91,1,1
+1001,MH-2069,Account Name,false,Michelle Kelley,pilot-assigned-92,2,2
+1002,MH-2074,Saipan International Airport,true,Janice Johnston,extended-assigned-93,3,3
+1003,MH-2079,Norma Fisher,false,Alice Alvarez,integrated-assigned-94,4,4

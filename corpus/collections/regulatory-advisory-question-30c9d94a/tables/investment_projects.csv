@@ -1,0 +1,5 @@
+investment_project_id,project_id,provider_name,funding_source,total_value,implementation_status,risk_category,cost_of_capital_id,regulatory_advisory_question_id
+1,1437597,Primary Initiative A,baseline-funding-73,9.45,distributed-implemen-72,regional-risk-90,100,1
+2,df5a6648-8fd1-11eb-924d-9cd76263cbd0,Composite Model,pilot-funding-74,12.90,baseline-implemen-73,legacy-risk-91,101,2
+3,5006462,Compact Cluster,extended-funding-75,16.35,pilot-implemen-74,compact-risk-92,102,3
+4,10207143,Legacy Review D,integrated-funding-76,19.80,extended-implemen-75,composite-risk-93,103,4

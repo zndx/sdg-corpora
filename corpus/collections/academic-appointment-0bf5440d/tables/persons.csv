@@ -1,0 +1,5 @@
+person_id,first_name,last_name,birth_date,nationality,academic_appointment_id,law_enforcement_appointment_id,academic_award_id,academic_institution_id,created_at,updated_at
+100,Stephanie Collins,Paul Allen,2023-10-18,composite-national-39,1,1,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,Janice Johnston,Heather Beasley,2024-03-02,primary-national-40,2,2,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,Upal Saha,Audrey Taylor,2025-08-13,adaptive-national-41,3,3,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,Katherine Snyder,Susan Wagner,2022-01-24,distributed-national-42,4,4,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

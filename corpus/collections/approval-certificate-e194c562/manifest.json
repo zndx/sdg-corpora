@@ -1,0 +1,149 @@
+{
+ "construct_id": "e194c56245113257",
+ "slug": "approval-certificate-e194c562",
+ "passage": "e194c56245113257252934d3cd91ace92ff06890332a3bfd038b7a489bf61311.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "ApprovalCertificate",
+  "Manufacturer",
+  "ProductModel",
+  "MaterialSpecification",
+  "DimensionalStandard"
+ ],
+ "terms": [
+  {
+   "name": "ApprovalCertificate",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Manufacturer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ProductModel",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MaterialSpecification",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DimensionalStandard",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "approval_certificates",
+   "rows": 4,
+   "columns": [
+    "id",
+    "approval_id",
+    "approval_standard",
+    "approval_granted_date",
+    "date_authorized",
+    "revision_request",
+    "issuing_organization",
+    "issuing_officer",
+    "issuing_officer_title",
+    "manufacturer_id"
+   ]
+  },
+  {
+   "name": "manufacturers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "address",
+    "city",
+    "postal_code",
+    "country"
+   ]
+  },
+  {
+   "name": "product_models",
+   "rows": 4,
+   "columns": [
+    "product_model_id",
+    "model_number",
+    "product_description",
+    "nominal_pipe_size",
+    "rated_working_pressure_psi",
+    "rated_working_pressure_kpa",
+    "remarks",
+    "approval_certificate_id",
+    "manufacturer_id",
+    "material_specification_id",
+    "dimensional_standard_id"
+   ]
+  },
+  {
+   "name": "material_specifications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "material_type",
+    "service_application"
+   ]
+  },
+  {
+   "name": "dimensional_standards",
+   "rows": 4,
+   "columns": [
+    "dimensional_standard_id",
+    "standard_name",
+    "standard_version",
+    "pressure_rating_basis"
+   ]
+  },
+  {
+   "name": "certificates_models",
+   "rows": 8,
+   "columns": [
+    "approval_certificate_id",
+    "product_model_id"
+   ]
+  },
+  {
+   "name": "manufacturers_models",
+   "rows": 8,
+   "columns": [
+    "manufacturer_id",
+    "product_model_id"
+   ]
+  },
+  {
+   "name": "specifications_models",
+   "rows": 8,
+   "columns": [
+    "material_specification_id",
+    "product_model_id"
+   ]
+  },
+  {
+   "name": "standards_models",
+   "rows": 8,
+   "columns": [
+    "dimensional_standard_id",
+    "product_model_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_approval_certificate_product_model_detail",
+  "vw_approval_certificate_manufacturer",
+  "vw_manufacturer_product_model_detail",
+  "vw_product_model_approval_certificate",
+  "vw_product_model_manufacturer",
+  "vw_product_model_material_specification",
+  "vw_product_model_dimensional_standard",
+  "vw_material_specification_product_model_detail",
+  "vw_dimensional_standard_product_model_detail"
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "construct_id": "26eb427d339444b2",
+ "slug": "clinical-study-26eb427d",
+ "passage": "26eb427d339444b2c14814b7c371ea44799a6096f6361cc81d42478546509409.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 13,
+ "entities": [
+  "ClinicalStudy",
+  "Researcher",
+  "FundingAward",
+  "FundingAgency",
+  "MedicalCondition",
+  "Intervention",
+  "ClinicalOutcome"
+ ],
+ "terms": [
+  {
+   "name": "ClinicalStudy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Researcher",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FundingAward",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FundingAgency",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MedicalCondition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Intervention",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalOutcome",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "clinical_studies",
+   "rows": 4,
+   "columns": [
+    "clinical_study_id",
+    "study_id",
+    "title",
+    "status",
+    "start_date",
+    "end_date",
+    "funding_agency",
+    "primary_objective",
+    "researcher_id",
+    "funding_award_id"
+   ]
+  },
+  {
+   "name": "researchers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "researcher_id",
+    "full_name",
+    "role",
+    "affiliation",
+    "credentials",
+    "clinical_study_id",
+    "collaborates_with_researcher_id"
+   ]
+  },
+  {
+   "name": "funding_awards",
+   "rows": 4,
+   "columns": [
+    "funding_award_id",
+    "award_id",
+    "award_date",
+    "total_amount",
+    "duration_months",
+    "status",
+    "clinical_study_id",
+    "funding_agency_id"
+   ]
+  },
+  {
+   "name": "funding_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_id",
+    "agency_name",
+    "website",
+    "funding_award_id"
+   ]
+  },
+  {
+   "name": "medical_conditions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "condition_id",
+    "condition_name",
+    "category",
+    "clinical_study_id"
+   ]
+  },
+  {
+   "name": "interventions",
+   "rows": 4,
+   "columns": [
+    "intervention_id",
+    "intervention_name",
+    "type",
+    "dosage",
+    "clinical_study_id"
+   ]
+  },
+  {
+   "name": "clinical_outcomes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "outcome_id",
+    "outcome_name",
+    "measurement_type",
+    "unit",
+    "clinical_study_id"
+   ]
+  },
+  {
+   "name": "studies_conditions",
+   "rows": 8,
+   "columns": [
+    "clinical_study_id",
+    "medical_condition_id"
+   ]
+  },
+  {
+   "name": "studies_interventions",
+   "rows": 8,
+   "columns": [
+    "clinical_study_id",
+    "intervention_id"
+   ]
+  },
+  {
+   "name": "studies_outcomes",
+   "rows": 8,
+   "columns": [
+    "clinical_study_id",
+    "clinical_outcome_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_clinical_study_researcher",
+  "v_clinical_study_funding_award",
+  "v_clinical_study_medical_condition_detail",
+  "v_clinical_study_intervention_detail",
+  "v_clinical_study_clinical_outcome_detail",
+  "v_researcher_clinical_study",
+  "v_researcher_researcher",
+  "v_funding_award_clinical_study",
+  "v_funding_award_funding_agency",
+  "v_funding_agency_funding_award",
+  "v_medical_condition_clinical_study",
+  "v_intervention_clinical_study",
+  "v_clinical_outcome_clinical_study"
+ ]
+}

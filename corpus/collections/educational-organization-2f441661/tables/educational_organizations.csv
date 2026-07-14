@@ -1,0 +1,5 @@
+educational_organization_id,organization_id,name,founding_date,legal_status,tuition_policy,is_state_supported,building_id,educational_program_id
+1,Shell Oil,Extended Review,2023-06-24,nonprofit,free,true,1,1
+2,GlobalPlatform Inc.,Pilot Initiative A,2024-11-08,state-supported,tuition-charging,false,2,2
+3,Whatsapp Inc.,Baseline Model,2025-04-19,independent,scholarship-providing,true,3,3
+4,American Institutes for Research,Distributed Cluster,2022-09-03,nonprofit,free,false,4,4

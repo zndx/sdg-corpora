@@ -1,0 +1,222 @@
+{
+ "construct_id": "973c0af3c2e4fcb7",
+ "slug": "insurance-application-973c0af3",
+ "passage": "973c0af3c2e4fcb715ef8f70ac4bacb3071beecac926c0efc73cafe7a234bf2e.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 20,
+ "entities": [
+  "InsuranceApplication",
+  "Organization",
+  "Officer",
+  "OfficerRole",
+  "Event",
+  "CoveragePolicy",
+  "ClaimRecord",
+  "Participant"
+ ],
+ "terms": [
+  {
+   "name": "InsuranceApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Organization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Officer",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "OfficerRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "Event",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CoveragePolicy",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ClaimRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Participant",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "insurance_applications",
+   "rows": 4,
+   "columns": [
+    "insurance_application_id",
+    "application_id",
+    "organization_name",
+    "headquarters_street",
+    "headquarters_city",
+    "headquarters_state",
+    "headquarters_zip",
+    "date_of_formation",
+    "chartered_in_state",
+    "submission_date",
+    "is_binding",
+    "organization_id",
+    "event_id",
+    "coverage_policy_id",
+    "claim_record_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organization_id",
+    "official_name",
+    "license_number",
+    "formation_date",
+    "chartered_state",
+    "headquarters_address",
+    "telephone_number",
+    "fax_number",
+    "has_coach_instruction_program",
+    "has_injury_control_program",
+    "officer_id",
+    "insurance_application_id",
+    "event_id"
+   ]
+  },
+  {
+   "name": "officers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "officer_id",
+    "full_name",
+    "role_title",
+    "appointment_date",
+    "is_insurance_coordinator",
+    "organization_id",
+    "role_code"
+   ]
+  },
+  {
+   "name": "officer_roles",
+   "rows": 4,
+   "columns": [
+    "role_code",
+    "role_name",
+    "is_executive",
+    "requires_insurance_training",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "events",
+   "rows": 4,
+   "columns": [
+    "event_id",
+    "event_name",
+    "location_name",
+    "estimated_date",
+    "expected_attendance",
+    "is_minor_participant_event",
+    "coverage_requested",
+    "organization_id",
+    "coverage_policy_id"
+   ]
+  },
+  {
+   "name": "coverage_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "coverage_type",
+    "coverage_limit",
+    "deductible_amount",
+    "is_excess_coverage",
+    "claim_excess_threshold",
+    "event_id",
+    "organization_id",
+    "participant_id"
+   ]
+  },
+  {
+   "name": "claim_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "claim_id",
+    "claim_year",
+    "premium_paid",
+    "total_incurred_claims",
+    "claim_description",
+    "exceeds_threshold",
+    "threshold_amount",
+    "organization_id",
+    "coverage_policy_id"
+   ]
+  },
+  {
+   "name": "participants",
+   "rows": 4,
+   "columns": [
+    "participant_id",
+    "full_name",
+    "is_minor",
+    "waiver_signed",
+    "assumption_of_risk_signed",
+    "event_id",
+    "coverage_policy_id"
+   ]
+  },
+  {
+   "name": "organizations_officers",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "officer_id"
+   ]
+  },
+  {
+   "name": "events_participants",
+   "rows": 8,
+   "columns": [
+    "event_id",
+    "participant_id"
+   ]
+  }
+ ],
+ "views": [
+  "insurance_application_organization_view",
+  "insurance_application_event_view",
+  "insurance_application_coverage_policy_view",
+  "insurance_application_claim_record_view",
+  "organization_officer_detail_view",
+  "organization_officer_view",
+  "organization_insurance_application_view",
+  "organization_event_view",
+  "officer_organization_view",
+  "officer_officer_role_view",
+  "event_organization_view",
+  "event_coverage_policy_view",
+  "event_participant_detail_view",
+  "coverage_policy_event_view",
+  "coverage_policy_organization_view",
+  "coverage_policy_participant_view",
+  "claim_record_organization_view",
+  "claim_record_coverage_policy_view",
+  "participant_event_view",
+  "participant_coverage_policy_view"
+ ]
+}

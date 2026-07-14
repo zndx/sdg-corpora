@@ -1,0 +1,241 @@
+{
+ "construct_id": "ff7837756fed76a7",
+ "slug": "information-logistics-strategy-ff783775",
+ "passage": "ff7837756fed76a758920c616c7eadfc5b02b5ccd07a1880fab9e43ec0c6ca75.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 17,
+ "n_views": 21,
+ "entities": [
+  "InformationLogisticsStrategy",
+  "SuccessFactor",
+  "AnalyticalInformationSystem",
+  "OrganizationalUnit",
+  "DecisionMaker",
+  "PerformanceMetric"
+ ],
+ "terms": [
+  {
+   "name": "InformationLogisticsStrategy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SuccessFactor",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "AnalyticalInformationSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OrganizationalUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DecisionMaker",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "PerformanceMetric",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "information_logistics_strategies",
+   "rows": 4,
+   "columns": [
+    "information_logistics_strategy_id",
+    "strategy_identifier",
+    "formulation_date",
+    "implementation_status",
+    "target_scope",
+    "alignment_level"
+   ]
+  },
+  {
+   "name": "success_factors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "factor_identifier",
+    "factor_name",
+    "validation_status",
+    "impact_coefficient",
+    "measurement_method",
+    "performance_metric_id",
+    "organizational_unit_id"
+   ]
+  },
+  {
+   "name": "analytical_information_systems",
+   "rows": 4,
+   "columns": [
+    "id",
+    "system_identifier",
+    "system_name",
+    "deployment_date",
+    "system_type",
+    "uptime_percentage",
+    "organizational_unit_id",
+    "information_logistics_strategy_id"
+   ]
+  },
+  {
+   "name": "organizational_units",
+   "rows": 4,
+   "columns": [
+    "organizational_unit_id",
+    "unit_identifier",
+    "unit_name",
+    "department_code",
+    "head_count",
+    "budget_allocation",
+    "information_logistics_strategy_id",
+    "reports_to_organizational_unit_id"
+   ]
+  },
+  {
+   "name": "decision_makers",
+   "rows": 4,
+   "columns": [
+    "decision_maker_id",
+    "stakeholder_identifier",
+    "role_title",
+    "decision_frequency",
+    "information_requirement_level",
+    "satisfaction_score",
+    "organizational_unit_id",
+    "performance_metric_id"
+   ]
+  },
+  {
+   "name": "performance_metrics",
+   "rows": 4,
+   "columns": [
+    "id",
+    "metric_identifier",
+    "metric_name",
+    "measurement_date",
+    "target_value",
+    "actual_value",
+    "status",
+    "success_factor_id",
+    "analytical_information_system_id"
+   ]
+  },
+  {
+   "name": "strategies_factors",
+   "rows": 8,
+   "columns": [
+    "information_logistics_strategy_id",
+    "success_factor_id"
+   ]
+  },
+  {
+   "name": "strategies_systems",
+   "rows": 8,
+   "columns": [
+    "information_logistics_strategy_id",
+    "analytical_information_system_id"
+   ]
+  },
+  {
+   "name": "strategies_metrics",
+   "rows": 8,
+   "columns": [
+    "information_logistics_strategy_id",
+    "performance_metric_id"
+   ]
+  },
+  {
+   "name": "factors_strategies",
+   "rows": 8,
+   "columns": [
+    "success_factor_id",
+    "information_logistics_strategy_id"
+   ]
+  },
+  {
+   "name": "systems_makers",
+   "rows": 8,
+   "columns": [
+    "analytical_information_system_id",
+    "decision_maker_id"
+   ]
+  },
+  {
+   "name": "units_systems",
+   "rows": 8,
+   "columns": [
+    "organizational_unit_id",
+    "analytical_information_system_id"
+   ]
+  },
+  {
+   "name": "units_makers",
+   "rows": 8,
+   "columns": [
+    "organizational_unit_id",
+    "decision_maker_id"
+   ]
+  },
+  {
+   "name": "makers_systems",
+   "rows": 8,
+   "columns": [
+    "decision_maker_id",
+    "analytical_information_system_id"
+   ]
+  },
+  {
+   "name": "makers_factors",
+   "rows": 8,
+   "columns": [
+    "decision_maker_id",
+    "success_factor_id"
+   ]
+  },
+  {
+   "name": "metrics_strategies",
+   "rows": 8,
+   "columns": [
+    "performance_metric_id",
+    "information_logistics_strategy_id"
+   ]
+  },
+  {
+   "name": "metrics_makers",
+   "rows": 8,
+   "columns": [
+    "performance_metric_id",
+    "decision_maker_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_information_logistics_strategy_success_factor_detail",
+  "v_information_logistics_strategy_analytical_information_system_detail",
+  "v_information_logistics_strategy_performance_metric_detail",
+  "v_success_factor_information_logistics_strategy_detail",
+  "v_success_factor_performance_metric",
+  "v_success_factor_organizational_unit",
+  "v_analytical_information_system_organizational_unit",
+  "v_analytical_information_system_decision_maker_detail",
+  "v_analytical_information_system_information_logistics_strategy",
+  "v_organizational_unit_analytical_information_system_detail",
+  "v_organizational_unit_decision_maker_detail",
+  "v_organizational_unit_information_logistics_strategy",
+  "v_organizational_unit_organizational_unit",
+  "v_decision_maker_analytical_information_system_detail",
+  "v_decision_maker_organizational_unit",
+  "v_decision_maker_success_factor_detail",
+  "v_decision_maker_performance_metric",
+  "v_performance_metric_information_logistics_strategy_detail",
+  "v_performance_metric_success_factor",
+  "v_performance_metric_decision_maker_detail",
+  "v_performance_metric_analytical_information_system"
+ ]
+}

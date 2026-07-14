@@ -1,0 +1,5 @@
+admin_id,full_name,role_level,appointment_date,is_authorized_to_revoke,network_account_id,acceptable_use_policy_id
+2986232,Theodore Mcgrath,districtwide,2022-05-03,false,1,1000
+9222f51a-9bad-11eb-a8a2-19ed5c03f8d3,Account Name,school,2023-10-14,true,2,1001
+859ac854-9bad-11eb-a8a2-19ed5c03f8d3,Saipan International Airport,districtwide,2024-03-25,false,3,1002
+57e4c59a-8fcd-11eb-924d-9cd76263cbd0,Norma Fisher,school,2025-08-09,true,4,1003

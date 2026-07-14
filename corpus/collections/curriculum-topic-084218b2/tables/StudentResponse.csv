@@ -1,0 +1,5 @@
+id,responseId,responseValue,isCorrect,scoreEarned,responseTimestamp,attemptNumber,itemId,studentId
+1,ChIJr7cItPtt5kcRM6ry7ecIYgw,baseline-response-31,false,13.95,2025-08-03T19:21:00,21,100,100
+2,9736917,pilot-response-32,true,17.90,2022-01-14T02:38:00,30,101,101
+3,8189493,extended-response-33,false,21.85,2023-06-25T09:55:00,39,102,102
+4,Invoice,integrated-response-34,true,25.80,2024-11-09T16:12:00,48,103,103

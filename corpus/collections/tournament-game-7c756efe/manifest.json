@@ -1,0 +1,235 @@
+{
+ "construct_id": "7c756efe7c2c011e",
+ "slug": "tournament-game-7c756efe",
+ "passage": "7c756efe7c2c011e181b722b65f52456aaf6ee2987ba066d1276ee02c69edd13.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 20,
+ "entities": [
+  "TournamentGame",
+  "Player",
+  "Team",
+  "TeamCaptain",
+  "MoveCard",
+  "TournamentDirector"
+ ],
+ "terms": [
+  {
+   "name": "TournamentGame",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Player",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Team",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "TeamCaptain",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "MoveCard",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "TournamentDirector",
+   "genus": "bfo:0000023"
+  }
+ ],
+ "tables": [
+  {
+   "name": "tournament_games",
+   "rows": 4,
+   "columns": [
+    "id",
+    "game_id",
+    "start_date",
+    "end_date",
+    "time_control",
+    "status",
+    "notation_agreement",
+    "transmission_mode",
+    "is_team_event",
+    "tournament_director_td_id",
+    "team_id"
+   ]
+  },
+  {
+   "name": "players",
+   "rows": 4,
+   "columns": [
+    "player_id",
+    "full_name",
+    "email_address",
+    "country_code",
+    "is_team_captain",
+    "vacation_periods",
+    "total_time_used",
+    "accumulated_time",
+    "team_id",
+    "tournament_director_td_id",
+    "team_captain_id"
+   ]
+  },
+  {
+   "name": "teams",
+   "rows": 4,
+   "columns": [
+    "team_id",
+    "team_name",
+    "country_code",
+    "captain_id",
+    "registration_date",
+    "status",
+    "team_captain_id"
+   ]
+  },
+  {
+   "name": "team_captains",
+   "rows": 4,
+   "columns": [
+    "id",
+    "captain_id",
+    "full_name",
+    "email_address",
+    "team_id",
+    "notification_preference",
+    "represents_team_team_id",
+    "tournament_director_td_id"
+   ]
+  },
+  {
+   "name": "move_cards",
+   "rows": 4,
+   "columns": [
+    "move_card_id",
+    "card_id",
+    "move_number",
+    "player_id",
+    "move_notation",
+    "time_used",
+    "postmark_date",
+    "transmission_timestamp",
+    "is_ambiguous",
+    "status",
+    "tournament_game_id",
+    "submitted_by_player_id",
+    "received_by_player_id",
+    "tournament_director_td_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "tournament_directors",
+   "rows": 4,
+   "columns": [
+    "td_id",
+    "full_name",
+    "email_address",
+    "jurisdiction",
+    "active_games_count",
+    "dispute_resolution_log"
+   ]
+  },
+  {
+   "name": "games_players",
+   "rows": 8,
+   "columns": [
+    "tournament_game_id",
+    "player_id"
+   ]
+  },
+  {
+   "name": "games_cards",
+   "rows": 8,
+   "columns": [
+    "tournament_game_id",
+    "move_card_id"
+   ]
+  },
+  {
+   "name": "players_games",
+   "rows": 8,
+   "columns": [
+    "player_id",
+    "tournament_game_id"
+   ]
+  },
+  {
+   "name": "teams_players",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "player_id"
+   ]
+  },
+  {
+   "name": "teams_games",
+   "rows": 8,
+   "columns": [
+    "team_id",
+    "tournament_game_id"
+   ]
+  },
+  {
+   "name": "directors_games",
+   "rows": 8,
+   "columns": [
+    "tournament_director_td_id",
+    "tournament_game_id"
+   ]
+  },
+  {
+   "name": "directors_players",
+   "rows": 8,
+   "columns": [
+    "tournament_director_td_id",
+    "player_id"
+   ]
+  },
+  {
+   "name": "directors_captains",
+   "rows": 8,
+   "columns": [
+    "tournament_director_td_id",
+    "team_captain_id"
+   ]
+  },
+  {
+   "name": "directors_cards",
+   "rows": 8,
+   "columns": [
+    "tournament_director_td_id",
+    "move_card_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_tournament_game_player_detail",
+  "vw_tournament_game_tournament_director",
+  "vw_tournament_game_team",
+  "vw_tournament_game_move_card_detail",
+  "vw_player_tournament_game_detail",
+  "vw_player_team",
+  "vw_player_tournament_director",
+  "vw_player_team_captain",
+  "vw_team_team_captain",
+  "vw_team_player_detail",
+  "vw_team_tournament_game_detail",
+  "vw_team_captain_team",
+  "vw_team_captain_tournament_director",
+  "vw_move_card_tournament_game",
+  "vw_move_card_player",
+  "vw_move_card_tournament_director",
+  "vw_tournament_director_tournament_game_detail",
+  "vw_tournament_director_player_detail",
+  "vw_tournament_director_team_captain_detail",
+  "vw_tournament_director_move_card_detail"
+ ]
+}

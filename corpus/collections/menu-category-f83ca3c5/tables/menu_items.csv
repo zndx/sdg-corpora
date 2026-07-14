@@ -1,0 +1,5 @@
+item_code,item_name,base_price,is_vegetarian,is_vegan,is_gluten_free,serving_style,category_code
+ITE-2446,Seasonal Survey,12.72,true,false,true,cup,breakfast
+ITE-2452,Integrated Corridor,12.87,false,true,false,bowl,brunch
+ITE-2458,Extended Series D,17.41,true,false,true,whole,sandwich
+ITE-2464,Pilot Assessment,18.59,false,true,false,half,salad_and_soup

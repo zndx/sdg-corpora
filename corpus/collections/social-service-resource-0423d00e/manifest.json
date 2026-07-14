@@ -1,0 +1,219 @@
+{
+ "construct_id": "0423d00e8549b3e1",
+ "slug": "social-service-resource-0423d00e",
+ "passage": "0423d00e8549b3e1507d015aa02b80a81d2287d49be9373f8b81943a78a7c3bb.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 15,
+ "n_views": 16,
+ "entities": [
+  "SocialServiceResource",
+  "ServiceOrganization",
+  "Hotline",
+  "Incident",
+  "Beneficiary",
+  "AccessChannel"
+ ],
+ "terms": [
+  {
+   "name": "SocialServiceResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ServiceOrganization",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Hotline",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Incident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Beneficiary",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "AccessChannel",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "SocialServiceResource",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resourceIdentifier",
+    "resourceName",
+    "serviceCategory",
+    "isConfidential",
+    "isFree",
+    "operatingHours",
+    "organizationId"
+   ]
+  },
+  {
+   "name": "ServiceOrganization",
+   "rows": 4,
+   "columns": [
+    "id",
+    "organizationIdentifier",
+    "organizationName",
+    "jurisdiction",
+    "isGovernmentAgency",
+    "websiteUrl"
+   ]
+  },
+  {
+   "name": "Hotline",
+   "rows": 4,
+   "columns": [
+    "id",
+    "phoneNumber",
+    "smsKeyword",
+    "hotlineType",
+    "isAvailable247",
+    "isConfidential",
+    "organizationId"
+   ]
+  },
+  {
+   "name": "Incident",
+   "rows": 4,
+   "columns": [
+    "id",
+    "incidentIdentifier",
+    "incidentType",
+    "reportedDateTime",
+    "isConfirmed",
+    "severityLevel",
+    "hotlineId",
+    "organizationId"
+   ]
+  },
+  {
+   "name": "Beneficiary",
+   "rows": 4,
+   "columns": [
+    "id",
+    "beneficiaryIdentifier",
+    "primaryLanguage",
+    "immigrationStatus",
+    "needsAssistance",
+    "requiresInterpreter",
+    "hotlineId",
+    "incidentId"
+   ]
+  },
+  {
+   "name": "AccessChannel",
+   "rows": 4,
+   "columns": [
+    "channelId",
+    "channelIdentifier",
+    "channelType",
+    "urlOrEndpoint",
+    "supportsMultilingual",
+    "isFree",
+    "organizationId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "SocialServiceResourceBeneficiary",
+   "rows": 8,
+   "columns": [
+    "resourceId",
+    "beneficiaryId"
+   ]
+  },
+  {
+   "name": "SocialServiceResourceAccessChannel",
+   "rows": 8,
+   "columns": [
+    "resourceId",
+    "channelId"
+   ]
+  },
+  {
+   "name": "ServiceOrganizationSocialServiceResource",
+   "rows": 8,
+   "columns": [
+    "organizationId",
+    "resourceId"
+   ]
+  },
+  {
+   "name": "ServiceOrganizationHotline",
+   "rows": 8,
+   "columns": [
+    "organizationId",
+    "hotlineId"
+   ]
+  },
+  {
+   "name": "HotlineIncident",
+   "rows": 8,
+   "columns": [
+    "hotlineId",
+    "incidentId"
+   ]
+  },
+  {
+   "name": "HotlineSocialServiceResource",
+   "rows": 8,
+   "columns": [
+    "hotlineId",
+    "resourceId"
+   ]
+  },
+  {
+   "name": "IncidentBeneficiary",
+   "rows": 8,
+   "columns": [
+    "incidentId",
+    "beneficiaryId"
+   ]
+  },
+  {
+   "name": "BeneficiarySocialServiceResource",
+   "rows": 8,
+   "columns": [
+    "beneficiaryId",
+    "resourceId"
+   ]
+  },
+  {
+   "name": "AccessChannelSocialServiceResource",
+   "rows": 8,
+   "columns": [
+    "channelId",
+    "resourceId"
+   ]
+  }
+ ],
+ "views": [
+  "v_social_service_resource_beneficiary_detail",
+  "v_social_service_resource_service_organization",
+  "v_social_service_resource_access_channel_detail",
+  "v_service_organization_social_service_resource_detail",
+  "v_service_organization_hotline_detail",
+  "v_hotline_service_organization",
+  "v_hotline_incident_detail",
+  "v_hotline_social_service_resource_detail",
+  "v_incident_hotline",
+  "v_incident_beneficiary_detail",
+  "v_incident_service_organization",
+  "v_beneficiary_social_service_resource_detail",
+  "v_beneficiary_hotline",
+  "v_beneficiary_incident",
+  "v_access_channel_social_service_resource_detail",
+  "v_access_channel_service_organization"
+ ]
+}

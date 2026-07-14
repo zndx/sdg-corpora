@@ -1,0 +1,5 @@
+id,concentration_id,name,required_electives,status,course_id,degree_program_id
+1,10445632,Extended Review,8,active,1,1
+2,3744015,Pilot Initiative A,13,inactive,2,2
+3,5f937da4-8fcd-11eb-924d-9cd76263cbd0,Baseline Model,18,active,3,3
+4,8843763,Distributed Cluster,23,inactive,4,4

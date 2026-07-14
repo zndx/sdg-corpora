@@ -1,0 +1,185 @@
+{
+ "construct_id": "65305101927f0c82",
+ "slug": "adopted-person-65305101",
+ "passage": "65305101927f0c8281c73b9d36b0c71e336577e8a1620a043b43a2d70d3507a4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 12,
+ "n_views": 11,
+ "entities": [
+  "AdoptedPerson",
+  "AdoptionSpirit",
+  "DivinePrivilege",
+  "DivineFather",
+  "AdoptionSeal",
+  "EternalInheritance"
+ ],
+ "terms": [
+  {
+   "name": "AdoptedPerson",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdoptionSpirit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DivinePrivilege",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "DivineFather",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AdoptionSeal",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EternalInheritance",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "adopted_persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "person_id",
+    "justification_date",
+    "adoption_status",
+    "spiritual_name",
+    "inheritance_status",
+    "redemption_day",
+    "adoption_spirit_id",
+    "adoption_seal_id"
+   ]
+  },
+  {
+   "name": "adoption_spirits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "spirit_id",
+    "bestowal_date",
+    "spirit_type",
+    "function_description"
+   ]
+  },
+  {
+   "name": "divine_privileges",
+   "rows": 4,
+   "columns": [
+    "id",
+    "privilege_id",
+    "privilege_type",
+    "scriptural_reference",
+    "beneficiary_count",
+    "divine_father_id"
+   ]
+  },
+  {
+   "name": "divine_fathers",
+   "rows": 4,
+   "columns": [
+    "divine_father_id",
+    "father_id",
+    "divine_name",
+    "relationship_type",
+    "covenant_status",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "adoption_seals",
+   "rows": 4,
+   "columns": [
+    "adoption_seal_id",
+    "seal_id",
+    "seal_date",
+    "seal_type",
+    "valid_until",
+    "eternal_inheritance_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "eternal_inheritances",
+   "rows": 4,
+   "columns": [
+    "eternal_inheritance_id",
+    "inheritance_id",
+    "inheritance_type",
+    "distribution_date",
+    "value_description",
+    "adoption_seal_id"
+   ]
+  },
+  {
+   "name": "persons_privileges",
+   "rows": 8,
+   "columns": [
+    "adopted_person_id",
+    "divine_privilege_id"
+   ]
+  },
+  {
+   "name": "spirits_persons",
+   "rows": 8,
+   "columns": [
+    "adoption_spirit_id",
+    "adopted_person_id"
+   ]
+  },
+  {
+   "name": "privileges_persons",
+   "rows": 8,
+   "columns": [
+    "divine_privilege_id",
+    "adopted_person_id"
+   ]
+  },
+  {
+   "name": "fathers_persons",
+   "rows": 8,
+   "columns": [
+    "divine_father_id",
+    "adopted_person_id"
+   ]
+  },
+  {
+   "name": "seals_persons",
+   "rows": 8,
+   "columns": [
+    "adoption_seal_id",
+    "adopted_person_id"
+   ]
+  },
+  {
+   "name": "inheritances_persons",
+   "rows": 8,
+   "columns": [
+    "eternal_inheritance_id",
+    "adopted_person_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_adopted_person_adoption_spirit",
+  "vw_adopted_person_divine_privilege_detail",
+  "vw_adopted_person_adoption_seal",
+  "vw_adoption_spirit_adopted_person_detail",
+  "vw_divine_privilege_adopted_person_detail",
+  "vw_divine_privilege_divine_father",
+  "vw_divine_father_adopted_person_detail",
+  "vw_adoption_seal_adopted_person_detail",
+  "vw_adoption_seal_eternal_inheritance",
+  "vw_eternal_inheritance_adopted_person_detail",
+  "vw_eternal_inheritance_adoption_seal"
+ ]
+}

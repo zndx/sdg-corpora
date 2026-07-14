@@ -1,0 +1,5 @@
+id,appliance_id,model,firmware_version,deployment_location,max_throughput_gbps,is_always_on,last_health_check,network_service_id,service_id,d_do_s_attack_id
+1,b_VB-IC-12,composite-model-81,distributed-firmware-48,composite-deployme-93,9.70,false,2023-06-08T05:39:00,1,1996925,1000
+2,CH9UT3,primary-model-82,baseline-firmware-49,primary-deployme-94,11.40,true,2024-11-19T12:56:00,2,3990164,1001
+3,790487,adaptive-model-83,pilot-firmware-50,adaptive-deployme-95,13.10,false,2025-04-03T19:13:00,3,5844258,1002
+4,9125640,distributed-model-84,extended-firmware-51,distributed-deployme-96,14.80,true,2022-09-14T02:30:00,4,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,1003

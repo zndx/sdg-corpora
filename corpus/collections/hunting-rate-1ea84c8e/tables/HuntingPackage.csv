@@ -1,0 +1,5 @@
+packageId,packageName,totalPrice,currency,durationNights,durationDays,status,accommodationId
+1000,Legacy Standard D,43.48,seasonal-currency-71,22,38,available,1
+1001,Regional Framework,25.36,regional-currency-72,32,49,booked,2
+1002,Seasonal Protocol,16.11,legacy-currency-73,42,60,cancelled,3
+1003,Integrated Programme A,14.31,compact-currency-74,52,71,available,4

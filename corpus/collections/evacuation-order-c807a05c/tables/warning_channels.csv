@@ -1,0 +1,5 @@
+warning_channel_id,channel_identifier,channel_name,channel_type,power_dependency,coverage_area,is_reliable_during_outage,evacuation_order_id,household_id
+100,CHA-2292,Adaptive Corridor,radio,true,extended-coverage-87,false,1,1000
+101,CHA-2294,Primary Series,television,false,integrated-coverage-88,true,2,1001
+102,CHA-2296,Composite Assessment D,siren,true,seasonal-coverage-89,false,3,1002
+103,CHA-2298,Compact Survey,telephone,false,regional-coverage-90,true,4,1003

@@ -1,0 +1,147 @@
+{
+ "construct_id": "035642bce131d966",
+ "slug": "special-interest-group-035642bc",
+ "passage": "035642bce131d966dded810fae944759ca17cc02fb6629608e6eb225e442da67.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 11,
+ "entities": [
+  "SpecialInterestGroup",
+  "Officer",
+  "Conference",
+  "ResearchArea",
+  "Newsletter",
+  "Curriculum"
+ ],
+ "terms": [
+  {
+   "name": "SpecialInterestGroup",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Officer",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Conference",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "ResearchArea",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Newsletter",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Curriculum",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "special_interest_groups",
+   "rows": 4,
+   "columns": [
+    "id",
+    "identifier",
+    "name",
+    "founding_year",
+    "status",
+    "mission_statement",
+    "newsletter_id",
+    "conference_id",
+    "special_interest_group_id"
+   ]
+  },
+  {
+   "name": "officers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "role",
+    "appointment_date",
+    "term_end_date",
+    "status",
+    "special_interest_group_id"
+   ]
+  },
+  {
+   "name": "conferences",
+   "rows": 4,
+   "columns": [
+    "conference_id",
+    "name",
+    "location",
+    "start_date",
+    "end_date",
+    "expected_attendance",
+    "cluster",
+    "special_interest_group_id"
+   ]
+  },
+  {
+   "name": "research_areas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "name",
+    "classification",
+    "description",
+    "special_interest_group_id",
+    "curriculum_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "newsletters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "frequency",
+    "format",
+    "start_date",
+    "status",
+    "special_interest_group_id"
+   ]
+  },
+  {
+   "name": "curriculums",
+   "rows": 4,
+   "columns": [
+    "id",
+    "level",
+    "institution_type",
+    "status",
+    "special_interest_group_id",
+    "research_area_id"
+   ]
+  },
+  {
+   "name": "groups_officers",
+   "rows": 8,
+   "columns": [
+    "special_interest_group_id",
+    "officer_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_special_interest_group_officer_detail",
+  "v_special_interest_group_newsletter",
+  "v_special_interest_group_conference",
+  "v_special_interest_group_special_interest_group",
+  "v_officer_special_interest_group",
+  "v_conference_special_interest_group",
+  "v_research_area_special_interest_group",
+  "v_research_area_curriculum",
+  "v_newsletter_special_interest_group",
+  "v_curriculum_special_interest_group",
+  "v_curriculum_research_area"
+ ]
+}

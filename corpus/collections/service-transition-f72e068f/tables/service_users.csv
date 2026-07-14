@@ -1,0 +1,5 @@
+id,user_id,name,date_of_birth,age_group,gender,primary_condition,health_care_setting_id,carer_id,service_transition_id
+1,9736910,Dana Nguyen,2025-04-02,65-74,male,distributed-primary-18,1,1,1
+2,40c1e50ce74c42d6801b1e2f409c1cfc,Kimberly Myers,2022-09-13,75-84,female,baseline-primary-19,2,2,2
+3,92297f70-9bad-11eb-a8a2-19ed5c03f8d3,Kimberly Myers,2023-02-24,85+,other,pilot-primary-20,3,3,3
+4,9125634,Guam International Airport,2024-07-08,65-74,male,extended-primary-21,4,4,4

@@ -1,0 +1,5 @@
+id,server_id,manufacturer,form_factor,model_number,serial_number,warranty_expiry,is_managed_service,surveillance_installation_id
+100,911352d5dab64576b7a6da51aa69d76d,Standard Chartered,rack,MOD-2238,5844275,2024-11-09,true,100
+101,1450637,General Motors,blade,MOD-2244,69422,2025-04-20,false,101
+102,4985152,Column Name cannot be empty,tower,MOD-2250,7731874,2022-09-04,true,102
+103,9736887,Financial Information Service Co. Ltd.,hyperscale,MOD-2256,10445632,2023-02-15,false,103

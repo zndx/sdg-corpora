@@ -1,0 +1,5 @@
+id,meeting_identifier,meeting_date,agenda_item,minutes_status,confidentiality_level,board_of_governors_id,document_id,fund_operation_id
+100,MEE-2370,2023-10-23T21:39:00,seasonal-agenda-71,draft,public,1,1,100
+101,MEE-2377,2024-03-07T04:56:00,regional-agenda-72,approved,restricted,2,2,101
+102,MEE-2384,2025-08-18T11:13:00,legacy-agenda-73,archived,confidential,3,3,102
+103,MEE-2391,2022-01-02T18:30:00,compact-agenda-74,draft,public,4,4,103

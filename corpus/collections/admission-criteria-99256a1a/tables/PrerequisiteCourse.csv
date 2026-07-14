@@ -1,0 +1,5 @@
+id,courseCode,courseTitle,credits,departmentId,status,criteriaId,offeredByDepartmentId
+1000,10238263,Baseline Series D,28,2087755,active,100,2087755
+1001,4463667,Distributed Assessment,33,790483,inactive,101,790483
+1002,24077793,Adaptive Survey,38,505978,deprecated,102,505978
+1003,1204-0009-L,Primary Corridor A,43,id_6,active,103,id_6

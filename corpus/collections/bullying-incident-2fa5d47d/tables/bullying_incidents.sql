@@ -1,0 +1,21 @@
+CREATE TABLE bullying_incidents (
+  incident_id VARCHAR(32) NOT NULL,
+  incident_date TIMESTAMP,
+  severity_level VARCHAR(32),
+  is_repeated BOOLEAN,
+  is_cyber_bullying BOOLEAN,
+  description VARCHAR(32),
+  location VARCHAR(32),
+  status VARCHAR(32),
+  person_id INTEGER,
+  targeted_by_person_id INTEGER,
+  perpetrated_by_person_id INTEGER,
+  type_id VARCHAR(44),
+  role_id VARCHAR(44),
+  PRIMARY KEY (incident_id),
+  FOREIGN KEY (person_id) REFERENCES persons (id),
+  FOREIGN KEY (targeted_by_person_id) REFERENCES persons (id),
+  FOREIGN KEY (perpetrated_by_person_id) REFERENCES persons (id),
+  FOREIGN KEY (type_id) REFERENCES bullying_types (type_id),
+  FOREIGN KEY (role_id) REFERENCES staff_roles (role_id)
+);

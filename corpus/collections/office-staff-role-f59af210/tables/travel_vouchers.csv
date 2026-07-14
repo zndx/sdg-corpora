@@ -1,0 +1,5 @@
+voucher_id,submission_date,total_amount,has_all_receipts,missing_receipts_count,is_notarized,travel_request_id,person_id
+2986224,2025-04-24,112.11,true,0,true,100,1
+5917292,2022-09-08,"1,979",false,9,false,101,2
+5006456,2023-02-19,"15,418",true,4,true,102,3
+974947,2024-07-03,"12,579",false,1,false,103,4

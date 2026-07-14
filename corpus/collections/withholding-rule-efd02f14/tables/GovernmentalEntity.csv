@@ -1,0 +1,5 @@
+entityId,entityIdentifier,entityName,jurisdictionLevel,annualPaymentVolume,isInstrumentality
+100,ENT-2129,Regional Cluster,federal,16.70,false
+101,ENT-2135,Seasonal Review D,state,18.40,true
+102,ENT-2141,Integrated Initiative,local,20.10,false
+103,ENT-2147,Extended Model,subdivision,21.80,true

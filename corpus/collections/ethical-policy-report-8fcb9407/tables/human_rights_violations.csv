@@ -1,0 +1,5 @@
+violation_id,violation_type,severity_level,date_reported,documented_by,territory_id,entity_id,group_id
+3990166,distributed-violatio-54,minor,2023-06-04,pilot-document-38,1000,1996912,10449530
+m16,baseline-violatio-55,moderate,2024-11-15,extended-document-39,1001,57e4a9d4-8fcd-11eb-924d-9cd76263cbd0,8189483
+7731883,pilot-violatio-56,severe,2025-04-26,integrated-document-40,1002,9736894,3718658437
+325461,extended-violatio-57,systemic,2022-09-10,seasonal-document-41,1003,974946,IVC0

@@ -1,0 +1,5 @@
+case_id,case_title,start_date,end_date,case_status,case_type,data_volume,lab_id,engine_id,data_analysis_tool_id
+39800622,Integrated Assessment A,2022-09-05T20:24:00,2022-09-01T08:00:00,pending,compliance_breach,9.95,2106706,5006437,100
+4891,Extended Survey,2023-02-16T03:41:00,2023-02-12T15:17:00,active,litigation,12.90,1437591,726035,101
+17374813,Pilot Corridor,2024-07-27T10:58:00,2024-07-23T22:34:00,closed,fraud,15.85,12042,8843749,102
+state_uk_9,Baseline Series D,2025-12-11T17:15:00,2025-12-07T05:51:00,failed,cyber_security,18.80,1562831,209207,103

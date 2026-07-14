@@ -1,0 +1,5 @@
+entity_id,entity_name,industry_sector,country_of_operation,un_database_listed,financial_institution_id,territory_id,settlement_project_id,created_at
+1996912,Regional Cluster,seasonal-industry-35,pilot-country-50,false,1,1000,1000,2025-01-01 00:14:00
+57e4a9d4-8fcd-11eb-924d-9cd76263cbd0,Seasonal Review D,regional-industry-36,extended-country-51,true,2,1001,1001,2025-02-06 03:14:00
+9736894,Integrated Initiative,legacy-industry-37,integrated-country-52,false,3,1002,1002,2025-03-11 06:14:00
+974946,Extended Model,compact-industry-38,seasonal-country-53,true,4,1003,1003,2025-04-16 09:14:00

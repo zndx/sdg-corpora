@@ -1,0 +1,154 @@
+{
+ "construct_id": "e738d90ad2dc841e",
+ "slug": "bus-route-e738d90a",
+ "passage": "e738d90ad2dc841e62ddf4b1209a7039868c8bd44ad7966e8c56dfb06069207a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 10,
+ "entities": [
+  "BusRoute",
+  "SchoolCampus",
+  "PickupZone",
+  "BusOperator",
+  "District"
+ ],
+ "terms": [
+  {
+   "name": "BusRoute",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SchoolCampus",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PickupZone",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "BusOperator",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "District",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "bus_routes",
+   "rows": 4,
+   "columns": [
+    "bus_route_id",
+    "route_code",
+    "district",
+    "round_trip_fee",
+    "single_trip_fee",
+    "academic_year",
+    "status",
+    "school_campus_id",
+    "bus_operator_license_number"
+   ]
+  },
+  {
+   "name": "school_campuses",
+   "rows": 4,
+   "columns": [
+    "school_campus_id",
+    "campus_name",
+    "campus_code",
+    "campus_type",
+    "district",
+    "academic_year",
+    "district_id"
+   ]
+  },
+  {
+   "name": "pickup_zones",
+   "rows": 4,
+   "columns": [
+    "zone_name",
+    "zone_code",
+    "district",
+    "special_instructions",
+    "bus_route_id",
+    "district_id"
+   ]
+  },
+  {
+   "name": "bus_operators",
+   "rows": 4,
+   "columns": [
+    "company_name",
+    "contact_person",
+    "contact_phone",
+    "license_number"
+   ]
+  },
+  {
+   "name": "districts",
+   "rows": 4,
+   "columns": [
+    "district_id",
+    "district_name",
+    "district_code",
+    "region"
+   ]
+  },
+  {
+   "name": "routes_zones",
+   "rows": 8,
+   "columns": [
+    "bus_route_id",
+    "zone_code"
+   ]
+  },
+  {
+   "name": "campuses_routes",
+   "rows": 8,
+   "columns": [
+    "school_campus_id",
+    "bus_route_id"
+   ]
+  },
+  {
+   "name": "operators_routes",
+   "rows": 8,
+   "columns": [
+    "bus_operator_license_number",
+    "bus_route_id"
+   ]
+  },
+  {
+   "name": "districts_zones",
+   "rows": 8,
+   "columns": [
+    "district_id",
+    "zone_code"
+   ]
+  },
+  {
+   "name": "districts_campuses",
+   "rows": 8,
+   "columns": [
+    "district_id",
+    "school_campus_id"
+   ]
+  }
+ ],
+ "views": [
+  "bus_route_school_campus_view",
+  "bus_route_pickup_zone_detail_view",
+  "bus_route_bus_operator_view",
+  "school_campus_bus_route_detail_view",
+  "school_campus_district_view",
+  "pickup_zone_bus_route_view",
+  "pickup_zone_district_view",
+  "bus_operator_bus_route_detail_view",
+  "district_pickup_zone_detail_view",
+  "district_school_campus_detail_view"
+ ]
+}

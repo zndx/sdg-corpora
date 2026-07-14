@@ -1,0 +1,5 @@
+support_system_id,system_identifier,system_name,is_technical_specification_bound,operability_status,risk_significance_level,limiting_condition_of_operation_id,hazard_barrier_id,maintenance_action_id,alternate_temporary_system_id,created_at
+1,SYS-2050,Legacy Programme D,false,Operable,High,100,1,100,1,2025-01-01 00:14:00
+2,SYS-2051,Regional Standard,true,Inoperable,Medium,101,2,101,2,2025-02-06 03:14:00
+3,SYS-2052,Seasonal Framework,false,Degraded,Low,102,3,102,3,2025-03-11 06:14:00
+4,SYS-2053,Integrated Protocol A,true,Functional,Negligible,103,4,103,4,2025-04-16 09:14:00

@@ -1,0 +1,5 @@
+database_record_id,record_i_d,table_name,last_modified,modified_by,record_hash,is_duplicate,inventory_item_id,customer_account_id
+1,REC-2433,Integrated Assessment A,2022-05-05T04:36:00,composite-modified-51,compact-record-26,false,1,100
+2,REC-2438,Extended Survey,2023-10-16T11:53:00,primary-modified-52,composite-record-27,true,2,101
+3,REC-2443,Pilot Corridor,2024-03-27T18:10:00,adaptive-modified-53,primary-record-28,false,3,102
+4,REC-2448,Baseline Series D,2025-08-11T01:27:00,distributed-modified-54,adaptive-record-29,true,4,103

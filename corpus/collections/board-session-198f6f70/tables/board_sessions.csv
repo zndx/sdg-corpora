@@ -1,0 +1,5 @@
+board_session_id,session_date,start_time,end_time,session_type,panel_designation,location,chairperson_name,is_precedent_setting,zoning_case_id,created_at,updated_at
+1,2022-09-11,2024-03-27T14:42:00,2023-02-26T13:27:00,Briefing,baseline-panel-19,extended-location-99,Jennifer Summers,false,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,2023-02-22,2025-08-11T21:59:00,2024-07-10T20:44:00,Public Hearing,pilot-panel-20,integrated-location-100,Michael Oconnell,true,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,2024-07-06,2022-01-22T04:16:00,2025-12-21T03:01:00,Briefing,extended-panel-21,seasonal-location-101,Sean Green,false,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,2025-12-17,2023-06-06T11:33:00,2022-05-05T10:18:00,Public Hearing,integrated-panel-22,regional-location-102,Kimberly Myers,true,4,2025-04-16 09:14:00,2025-04-23 15:41:00

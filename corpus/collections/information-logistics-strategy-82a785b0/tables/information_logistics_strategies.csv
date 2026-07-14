@@ -1,0 +1,5 @@
+id,strategy_identifier,formulation_date,implementation_status,target_organizational_scope,alignment_with_i_t_strategy,alignment_with_business_strategy,empirical_study_id,organizational_unit_id
+1,STR-2614,2025-08-01T19:57:00,planned,regional-target-66,false,true,1,1
+2,STR-2615,2022-01-12T02:14:00,implementing,legacy-target-67,true,false,2,2
+3,STR-2616,2023-06-23T09:31:00,implemented,compact-target-68,false,true,3,3
+4,STR-2617,2024-11-07T16:48:00,abandoned,composite-target-69,true,false,4,4

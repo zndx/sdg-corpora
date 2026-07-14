@@ -1,0 +1,246 @@
+{
+ "construct_id": "c807a05ccf8d54f3",
+ "slug": "evacuation-order-c807a05c",
+ "passage": "c807a05ccf8d54f3fa6bd009a1a4ec1185e0a35784462ad9bb1a1e70769c0347.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 14,
+ "n_views": 20,
+ "entities": [
+  "EvacuationOrder",
+  "HazardEvent",
+  "EvacuationZone",
+  "EvacuationRoute",
+  "Property",
+  "Household",
+  "Shelter",
+  "WarningChannel"
+ ],
+ "terms": [
+  {
+   "name": "EvacuationOrder",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HazardEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EvacuationZone",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EvacuationRoute",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Property",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Household",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Shelter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "WarningChannel",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "evacuation_orders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "order_identifier",
+    "issuing_authority",
+    "issue_date_time",
+    "evacuation_type",
+    "warning_method",
+    "compliance_status",
+    "hazard_event_id",
+    "warning_channel_id"
+   ]
+  },
+  {
+   "name": "hazard_events",
+   "rows": 4,
+   "columns": [
+    "hazard_event_id",
+    "event_identifier",
+    "event_category",
+    "severity_level",
+    "onset_date_time",
+    "peak_intensity_date_time",
+    "affected_population_count",
+    "is_monitored",
+    "evacuation_order_id",
+    "evacuation_route_id"
+   ]
+  },
+  {
+   "name": "evacuation_zones",
+   "rows": 4,
+   "columns": [
+    "id",
+    "zone_identifier",
+    "zone_name",
+    "risk_category",
+    "estimated_resident_count",
+    "zone_boundary_coordinates",
+    "is_coastal",
+    "evacuation_order_id"
+   ]
+  },
+  {
+   "name": "evacuation_routes",
+   "rows": 4,
+   "columns": [
+    "evacuation_route_id",
+    "route_identifier",
+    "route_name",
+    "route_status",
+    "capacity_rating",
+    "is_shortcut",
+    "flood_risk_level",
+    "shelter_id"
+   ]
+  },
+  {
+   "name": "properties",
+   "rows": 4,
+   "columns": [
+    "id",
+    "property_identifier",
+    "address",
+    "property_type",
+    "occupancy_status",
+    "has_vehicle_access",
+    "flooding_risk",
+    "evacuation_zone_id",
+    "household_id",
+    "evacuation_route_id"
+   ]
+  },
+  {
+   "name": "households",
+   "rows": 4,
+   "columns": [
+    "id",
+    "household_identifier",
+    "vehicle_count",
+    "has_transportation_arrangement",
+    "disaster_kit_ready",
+    "evacuation_status",
+    "fuel_level_percent",
+    "property_id",
+    "shelter_id",
+    "warning_channel_id"
+   ]
+  },
+  {
+   "name": "shelters",
+   "rows": 4,
+   "columns": [
+    "id",
+    "shelter_identifier",
+    "shelter_name",
+    "shelter_type",
+    "current_occupancy",
+    "max_capacity",
+    "operational_status"
+   ]
+  },
+  {
+   "name": "warning_channels",
+   "rows": 4,
+   "columns": [
+    "warning_channel_id",
+    "channel_identifier",
+    "channel_name",
+    "channel_type",
+    "power_dependency",
+    "coverage_area",
+    "is_reliable_during_outage",
+    "evacuation_order_id",
+    "household_id"
+   ]
+  },
+  {
+   "name": "orders_zones",
+   "rows": 8,
+   "columns": [
+    "evacuation_order_id",
+    "evacuation_zone_id"
+   ]
+  },
+  {
+   "name": "zones_properties",
+   "rows": 8,
+   "columns": [
+    "evacuation_zone_id",
+    "property_id"
+   ]
+  },
+  {
+   "name": "zones_routes",
+   "rows": 8,
+   "columns": [
+    "evacuation_zone_id",
+    "evacuation_route_id"
+   ]
+  },
+  {
+   "name": "routes_zones",
+   "rows": 8,
+   "columns": [
+    "evacuation_route_id",
+    "evacuation_zone_id"
+   ]
+  },
+  {
+   "name": "shelters_routes",
+   "rows": 8,
+   "columns": [
+    "shelter_id",
+    "evacuation_route_id"
+   ]
+  },
+  {
+   "name": "shelters_households",
+   "rows": 8,
+   "columns": [
+    "shelter_id",
+    "household_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_evacuation_order_hazard_event",
+  "vw_evacuation_order_evacuation_zone_detail",
+  "vw_evacuation_order_warning_channel",
+  "vw_hazard_event_evacuation_order",
+  "vw_hazard_event_evacuation_route",
+  "vw_evacuation_zone_evacuation_order",
+  "vw_evacuation_zone_property_detail",
+  "vw_evacuation_zone_evacuation_route_detail",
+  "vw_evacuation_route_evacuation_zone_detail",
+  "vw_evacuation_route_shelter",
+  "vw_property_evacuation_zone",
+  "vw_property_household",
+  "vw_property_evacuation_route",
+  "vw_household_property",
+  "vw_household_shelter",
+  "vw_household_warning_channel",
+  "vw_shelter_evacuation_route_detail",
+  "vw_shelter_household_detail",
+  "vw_warning_channel_evacuation_order",
+  "vw_warning_channel_household"
+ ]
+}

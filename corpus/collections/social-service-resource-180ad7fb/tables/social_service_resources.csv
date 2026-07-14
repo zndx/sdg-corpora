@@ -1,0 +1,5 @@
+social_service_resource_id,resource_identifier,service_category,service_status,language_availability,operating_hours,is_confidential,service_organization_id,service_location_id
+1000,RES-2673,Food Pantry,Active,8,pilot-operatin-50,false,1,1
+1001,RES-2676,Emergency Shelter,Inactive,15,extended-operatin-51,true,2,2
+1002,RES-2679,Childcare,Suspended,22,integrated-operatin-52,false,3,3
+1003,RES-2682,Housing,Active,29,seasonal-operatin-53,true,4,4

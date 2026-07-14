@@ -1,0 +1,5 @@
+id,resource_identifier,resource_name,renewability_status,exploitation_rate,expected_reserves_years,share_in_energy_mix,classification_standard,energy_extraction_id,formation_id
+1,RES-2673,Adaptive Corridor,renewable,8.70,16,3.20,integrated-classifi-88,1,4985147
+2,RES-2676,Primary Series,depleting,12.40,20,5.40,seasonal-classifi-89,2,168542
+3,RES-2679,Composite Assessment D,finite,16.10,24,7.60,regional-classifi-90,3,727068
+4,RES-2682,Compact Survey,unlimited,19.80,28,9.80,legacy-classifi-91,4,13483868

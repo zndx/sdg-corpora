@@ -1,0 +1,146 @@
+{
+ "construct_id": "6beafc0aa3ef01c2",
+ "slug": "social-media-account-6beafc0a",
+ "passage": "6beafc0aa3ef01c2eab1f5414f193afbbc2f14eb66455c9adecca0473c3b5e19.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "SocialMediaAccount",
+  "DistrictEmployee",
+  "ElectronicCommunication",
+  "SchoolEntity",
+  "SecureCredentialStore",
+  "PolicyDocument"
+ ],
+ "terms": [
+  {
+   "name": "SocialMediaAccount",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "DistrictEmployee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ElectronicCommunication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "SchoolEntity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "SecureCredentialStore",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PolicyDocument",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "social_media_accounts",
+   "rows": 4,
+   "columns": [
+    "id",
+    "account_identifier",
+    "platform",
+    "representing_entity",
+    "is_official",
+    "registration_date",
+    "status",
+    "district_employee_id",
+    "school_entity_id",
+    "secure_credential_store_id"
+   ]
+  },
+  {
+   "name": "district_employees",
+   "rows": 4,
+   "columns": [
+    "district_employee_id",
+    "employee_id",
+    "full_name",
+    "role",
+    "employment_status",
+    "contact_extension",
+    "social_media_account_id",
+    "electronic_communication_id"
+   ]
+  },
+  {
+   "name": "electronic_communications",
+   "rows": 4,
+   "columns": [
+    "electronic_communication_id",
+    "communication_id",
+    "content_type",
+    "sent_date_time",
+    "is_public_record",
+    "platform_used",
+    "content_status",
+    "district_employee_id",
+    "school_entity_id"
+   ]
+  },
+  {
+   "name": "school_entities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "entity_id",
+    "entity_name",
+    "entity_type",
+    "parent_district",
+    "social_media_account_id",
+    "district_employee_id"
+   ]
+  },
+  {
+   "name": "secure_credential_stores",
+   "rows": 4,
+   "columns": [
+    "secure_credential_store_id",
+    "store_identifier",
+    "access_level",
+    "last_accessed",
+    "is_encrypted",
+    "social_media_account_id"
+   ]
+  },
+  {
+   "name": "policy_documents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_number",
+    "title",
+    "effective_date",
+    "version",
+    "electronic_communication_id",
+    "social_media_account_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_social_media_account_district_employee",
+  "v_social_media_account_school_entity",
+  "v_social_media_account_secure_credential_store",
+  "v_district_employee_social_media_account",
+  "v_district_employee_electronic_communication",
+  "v_electronic_communication_district_employee",
+  "v_electronic_communication_school_entity",
+  "v_school_entity_social_media_account",
+  "v_school_entity_district_employee",
+  "v_secure_credential_store_social_media_account",
+  "v_policy_document_electronic_communication",
+  "v_policy_document_social_media_account"
+ ]
+}

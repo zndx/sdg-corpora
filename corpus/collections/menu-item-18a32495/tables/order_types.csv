@@ -1,0 +1,5 @@
+id,order_type_id,name,minimum_quantity,requires_advance_notice,policy_id,created_at
+1,4463640,Standard,3,false,100,2025-01-01 00:14:00
+2,726044,Catering,0,true,101,2025-02-06 03:14:00
+3,050bdfa8-8fc7-11eb-924d-9cd76263cbd0,Bulk,3,false,102,2025-03-11 06:14:00
+4,17969,Standard,6,true,103,2025-04-16 09:14:00

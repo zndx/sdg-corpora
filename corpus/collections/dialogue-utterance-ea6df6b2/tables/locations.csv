@@ -1,0 +1,5 @@
+id,location_id,name,type,has_slide,water_temperature,is_indoor,event_id
+1,778556,Extended Review,park,false,2.23,false,2002007020060
+2,1250220,Pilot Initiative A,pool,true,0.13,true,168535
+3,14511,Baseline Model,shop,false,0.5465680900000001,false,ab8e1d18-8fcd-11eb-924d-9cd76263cbd0
+4,611510,Distributed Cluster,home,true,0.075,true,1186089

@@ -1,0 +1,184 @@
+{
+ "construct_id": "22b483b2bc3d148b",
+ "slug": "protected-disclosure-22b483b2",
+ "passage": "22b483b2bc3d148bbf8293b04520e41843475a5886081a86c5629d5863e8c57c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 20,
+ "entities": [
+  "ProtectedDisclosure",
+  "Whistleblower",
+  "ImproperConduct",
+  "Investigation",
+  "Investigator",
+  "InvestigationSubject",
+  "CollegeCampus"
+ ],
+ "terms": [
+  {
+   "name": "ProtectedDisclosure",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Whistleblower",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ImproperConduct",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Investigation",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Investigator",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "InvestigationSubject",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CollegeCampus",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "ProtectedDisclosure",
+   "rows": 4,
+   "columns": [
+    "disclosureId",
+    "disclosureDate",
+    "disclosureMethod",
+    "isGoodFaith",
+    "contentSummary",
+    "status",
+    "whistleblowerId",
+    "conductId",
+    "investigationId"
+   ]
+  },
+  {
+   "name": "Whistleblower",
+   "rows": 4,
+   "columns": [
+    "whistleblowerId",
+    "role",
+    "campusAffiliation",
+    "isProtectedFromRetaliation",
+    "contactEmail",
+    "contactPhone",
+    "disclosureId",
+    "campusId"
+   ]
+  },
+  {
+   "name": "ImproperConduct",
+   "rows": 4,
+   "columns": [
+    "id",
+    "conductId",
+    "conductType",
+    "description",
+    "occurrenceDate",
+    "severityLevel",
+    "isCriminal",
+    "disclosureId",
+    "subjectId",
+    "campusId"
+   ]
+  },
+  {
+   "name": "Investigation",
+   "rows": 4,
+   "columns": [
+    "investigationId",
+    "startDate",
+    "endDate",
+    "status",
+    "findingsSummary",
+    "correctiveActionTaken",
+    "conductId",
+    "subjectId",
+    "disclosureId"
+   ]
+  },
+  {
+   "name": "Investigator",
+   "rows": 4,
+   "columns": [
+    "investigatorId",
+    "role",
+    "department",
+    "isAuthorized",
+    "contactEmail",
+    "investigationId",
+    "campusId"
+   ]
+  },
+  {
+   "name": "InvestigationSubject",
+   "rows": 4,
+   "columns": [
+    "subjectId",
+    "role",
+    "campusAffiliation",
+    "isSubjectOfRetaliation",
+    "contactEmail",
+    "investigationId",
+    "campusId"
+   ]
+  },
+  {
+   "name": "CollegeCampus",
+   "rows": 4,
+   "columns": [
+    "id",
+    "campusId",
+    "campusName",
+    "legalEntity",
+    "address",
+    "isActive",
+    "investigationId",
+    "investigatorId",
+    "whistleblowerId",
+    "subjectId"
+   ]
+  },
+  {
+   "name": "InvestigationInvestigator",
+   "rows": 8,
+   "columns": [
+    "investigationId",
+    "investigatorId"
+   ]
+  }
+ ],
+ "views": [
+  "v_protected_disclosure_whistleblower",
+  "v_protected_disclosure_improper_conduct",
+  "v_protected_disclosure_investigation",
+  "v_whistleblower_protected_disclosure",
+  "v_whistleblower_college_campus",
+  "v_improper_conduct_protected_disclosure",
+  "v_improper_conduct_investigation_subject",
+  "v_improper_conduct_college_campus",
+  "v_investigation_improper_conduct",
+  "v_investigation_investigator_detail",
+  "v_investigation_investigation_subject",
+  "v_investigation_protected_disclosure",
+  "v_investigator_investigation",
+  "v_investigator_college_campus",
+  "v_investigation_subject_investigation",
+  "v_investigation_subject_college_campus",
+  "v_college_campus_investigation",
+  "v_college_campus_investigator",
+  "v_college_campus_whistleblower",
+  "v_college_campus_investigation_subject"
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "construct_id": "1d2fc353a8ac5ff2",
+ "slug": "tax-registration-1d2fc353",
+ "passage": "1d2fc353a8ac5ff2d1ebca29d4ad9dc5d0b18c6859e5263656622770e2236104.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 20,
+ "entities": [
+  "TaxRegistration",
+  "Trader",
+  "Jurisdiction",
+  "TaxableSupply",
+  "InputTaxCredit",
+  "TrainingCentre",
+  "GovernmentMission",
+  "GovernmentAgency"
+ ],
+ "terms": [
+  {
+   "name": "TaxRegistration",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Trader",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TaxableSupply",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InputTaxCredit",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "TrainingCentre",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "GovernmentMission",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentAgency",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "tax_registrations",
+   "rows": 4,
+   "columns": [
+    "registration_id",
+    "issue_date",
+    "expiry_date",
+    "status",
+    "turnover_threshold",
+    "state_of_registration",
+    "application_submission_date",
+    "is_exempted",
+    "trader_id",
+    "jurisdiction_code",
+    "input_tax_credit_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "traders",
+   "rows": 4,
+   "columns": [
+    "id",
+    "trader_id",
+    "legal_name",
+    "pan_number",
+    "contact_email",
+    "contact_mobile",
+    "annual_aggregate_turnover",
+    "is_special_category_state",
+    "registration_status",
+    "registration_id",
+    "jurisdiction_code",
+    "taxable_supply_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "jurisdictions",
+   "rows": 4,
+   "columns": [
+    "jurisdiction_code",
+    "jurisdiction_name",
+    "jurisdiction_type",
+    "is_special_category",
+    "turnover_threshold",
+    "trader_id",
+    "registration_id"
+   ]
+  },
+  {
+   "name": "taxable_supplies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "supply_id",
+    "supply_date",
+    "supply_type",
+    "is_exempted",
+    "value",
+    "tax_rate",
+    "trader_id",
+    "received_by_trader_id",
+    "jurisdiction_code",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "input_tax_credits",
+   "rows": 4,
+   "columns": [
+    "id",
+    "credit_id",
+    "credit_amount",
+    "credit_date",
+    "status",
+    "linked_supply_id",
+    "trader_id",
+    "taxable_supply_id",
+    "registration_id"
+   ]
+  },
+  {
+   "name": "training_centres",
+   "rows": 4,
+   "columns": [
+    "training_centre_id",
+    "centre_id",
+    "centre_name",
+    "centre_type",
+    "inauguration_date",
+    "location",
+    "capacity",
+    "government_agency_id",
+    "government_mission_id"
+   ]
+  },
+  {
+   "name": "government_missions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "mission_id",
+    "mission_name",
+    "launch_date",
+    "anniversary_year",
+    "objective",
+    "government_agency_id",
+    "training_centre_id"
+   ]
+  },
+  {
+   "name": "government_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_id",
+    "agency_name",
+    "ministry",
+    "established_date",
+    "government_mission_id",
+    "training_centre_id",
+    "registration_id"
+   ]
+  }
+ ],
+ "views": [
+  "tax_registration_trader_view",
+  "tax_registration_jurisdiction_view",
+  "tax_registration_input_tax_credit_view",
+  "trader_tax_registration_view",
+  "trader_jurisdiction_view",
+  "trader_taxable_supply_view",
+  "jurisdiction_trader_view",
+  "jurisdiction_tax_registration_view",
+  "taxable_supply_trader_view",
+  "taxable_supply_jurisdiction_view",
+  "input_tax_credit_trader_view",
+  "input_tax_credit_taxable_supply_view",
+  "input_tax_credit_tax_registration_view",
+  "training_centre_government_agency_view",
+  "training_centre_government_mission_view",
+  "government_mission_government_agency_view",
+  "government_mission_training_centre_view",
+  "government_agency_government_mission_view",
+  "government_agency_training_centre_view",
+  "government_agency_tax_registration_view"
+ ]
+}

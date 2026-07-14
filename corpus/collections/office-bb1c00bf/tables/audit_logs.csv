@@ -1,0 +1,5 @@
+audit_log_id,log_id,action_type,user_id,timestamp,status,is_suspicious,monitoring_tool_id,system_metric_id
+1,d5dc19c8-8fc1-11eb-924d-9cd76263cbd0,compact-action-62,9736910,2024-07-08T18:18:00,regional-status-84,true,1000,1
+2,2618582,composite-action-63,40c1e50ce74c42d6801b1e2f409c1cfc,2025-12-19T01:35:00,legacy-status-85,false,1001,2
+3,10449536,primary-action-64,92297f70-9bad-11eb-a8a2-19ed5c03f8d3,2022-05-03T08:52:00,compact-status-86,true,1002,3
+4,6564387,adaptive-action-65,9125634,2023-10-14T15:09:00,composite-status-87,false,1003,4

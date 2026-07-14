@@ -1,0 +1,5 @@
+id,account_number,fund_type,tax_efficiency,current_balance,currency_code,account_status,person_id,systematic_withdrawal_id,beneficiary_designation_id,joint_ownership_id
+1,ACC-2253,compact-fund-62,false,"1,387",gd_fp_eu_acc3,active,100,1,1,100
+2,ACC-2256,composite-fund-63,true,"1,867",managing-resources,closed,101,2,2,101
+3,ACC-2259,primary-fund-64,false,65.72,f28f9a76-9bac-11eb-a8a2-19ed5c03f8d3,frozen,102,3,3,102
+4,ACC-2262,adaptive-fund-65,true,"2,453",10445649,active,103,4,4,103

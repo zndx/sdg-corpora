@@ -1,0 +1,150 @@
+{
+ "construct_id": "a5c35e9dc5c95960",
+ "slug": "amateur-radio-station-a5c35e9d",
+ "passage": "a5c35e9dc5c95960a0c8d9aa01d9a8afd312839eb9c4d43b0496668491a488cf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 15,
+ "entities": [
+  "AmateurRadioStation",
+  "LignoSatUplinkSignal",
+  "LignoSat",
+  "LignoSatDownlinkSignal",
+  "ExtractedMessage",
+  "CommunicationCertificate"
+ ],
+ "terms": [
+  {
+   "name": "AmateurRadioStation",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LignoSatUplinkSignal",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "LignoSat",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "LignoSatDownlinkSignal",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ExtractedMessage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CommunicationCertificate",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "amateur_radio_stations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "call_sign",
+    "ssid",
+    "location_qth",
+    "region_qra",
+    "status",
+    "signal_id",
+    "certificate_id"
+   ]
+  },
+  {
+   "name": "ligno_sat_uplink_signals",
+   "rows": 4,
+   "columns": [
+    "signal_id",
+    "timestamp",
+    "frequency",
+    "protocol_version",
+    "message_content",
+    "amateur_radio_station_id",
+    "satellite_id",
+    "extracted_message_id"
+   ]
+  },
+  {
+   "name": "ligno_sats",
+   "rows": 4,
+   "columns": [
+    "satellite_id",
+    "orbit_type",
+    "memory_capacity",
+    "downlink_mode",
+    "status",
+    "signal_id",
+    "ligno_sat_downlink_signal_id"
+   ]
+  },
+  {
+   "name": "ligno_sat_downlink_signals",
+   "rows": 4,
+   "columns": [
+    "id",
+    "downlink_id",
+    "timestamp",
+    "downlink_type",
+    "call_signs_included",
+    "message_count",
+    "satellite_id",
+    "amateur_radio_station_id",
+    "extracted_message_id"
+   ]
+  },
+  {
+   "name": "extracted_messages",
+   "rows": 4,
+   "columns": [
+    "id",
+    "message_id",
+    "message_type",
+    "content",
+    "extraction_timestamp",
+    "storage_status",
+    "signal_id",
+    "satellite_id",
+    "ligno_sat_downlink_signal_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "communication_certificates",
+   "rows": 4,
+   "columns": [
+    "certificate_id",
+    "issue_date",
+    "valid_until",
+    "communication_type",
+    "status",
+    "amateur_radio_station_id",
+    "signal_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_amateur_radio_station_ligno_sat_uplink_signal",
+  "v_amateur_radio_station_communication_certificate",
+  "v_ligno_sat_uplink_signal_amateur_radio_station",
+  "v_ligno_sat_uplink_signal_ligno_sat",
+  "v_ligno_sat_uplink_signal_extracted_message",
+  "v_ligno_sat_ligno_sat_uplink_signal",
+  "v_ligno_sat_ligno_sat_downlink_signal",
+  "v_ligno_sat_downlink_signal_ligno_sat",
+  "v_ligno_sat_downlink_signal_amateur_radio_station",
+  "v_ligno_sat_downlink_signal_extracted_message",
+  "v_extracted_message_ligno_sat_uplink_signal",
+  "v_extracted_message_ligno_sat",
+  "v_extracted_message_ligno_sat_downlink_signal",
+  "v_communication_certificate_amateur_radio_station",
+  "v_communication_certificate_ligno_sat_uplink_signal"
+ ]
+}

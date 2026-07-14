@@ -1,0 +1,5 @@
+patient_safety_metric_id,metric_identifier,metric_name,baseline_value,current_value,target_value,measurement_date,n_h_s_foundation_trust_id,nursing_workstream_id,nursing_leader_id
+100,MET-2589,MRSA rate,9.70,11.20,13.45,2024-07-01,1,100,1
+101,MET-2595,C.diff rate,12.40,14.40,15.90,2025-12-12,2,101,2
+102,MET-2601,avoidable deaths,15.10,17.60,18.35,2022-05-23,3,102,3
+103,MET-2607,patient experience score,17.80,20.80,20.80,2023-10-07,4,103,4

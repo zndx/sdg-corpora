@@ -1,0 +1,5 @@
+id,athlete_id,first_name,last_name,date_of_birth,membership_status,citizenship_status,black_belt_rank,background_check_status,membership_id,competition_id,black_belt_verification_id,created_at,updated_at
+1000,7441146,Stephanie Collins,Paul Allen,2025-04-02,active,us_citizen,37,true,100,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,ebdf79bc-8fd1-11eb-924d-9cd76263cbd0,Janice Johnston,Heather Beasley,2022-09-13,inactive,resident,43,false,101,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,ChIJJ60m-q5t5kcRMZ9MdM8fVm4,Upal Saha,Audrey Taylor,2023-02-24,suspended,us_citizen,49,true,102,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,89146,Katherine Snyder,Susan Wagner,2024-07-08,active,resident,55,false,103,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+cryptosystem_id,algorithm_type,security_basis,key_length,vulnerability_status,mathematical_problem_id,cyber_security_protocol_id
+100,RSA,factoring,15,secure,100,100
+101,ECDSA,discrete_log,25,vulnerable,101,101
+102,DSA,laws_of_nature,35,deprecated,102,102
+103,QKD,factoring,45,secure,103,103

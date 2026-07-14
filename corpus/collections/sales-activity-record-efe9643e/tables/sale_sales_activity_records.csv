@@ -1,0 +1,5 @@
+id,activity_id,activity_date,activity_type,duration_minutes,outcome,notes,sales_administrator_id,prospective_customer_id,sales_report_id
+100,8843761,2024-11-08T22:30:00,Telemarketing,35,Successful,extended-notes-75,1000,1,1000
+101,4180957,2025-04-19T05:47:00,Appointment Setting,38,Unsuccessful,integrated-notes-76,1001,2,1001
+102,168545,2022-09-03T12:04:00,Client Inquiry,41,Pending,seasonal-notes-77,1002,3,1002
+103,default_chart_a_account_53,2023-02-14T19:21:00,Quotation Preparation,44,Successful,regional-notes-78,1003,4,1003

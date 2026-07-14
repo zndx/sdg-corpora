@@ -1,0 +1,5 @@
+id,boundary_id,agency_type,tension_level,encroachment_present,impact_on_role,c_l_d_n_id,enactment_id,perception_id
+1000,89005,health,low,true,positive,1,8189497,2106694
+1001,2106716,social_care,medium,false,negative,2,1562836,id_26
+1002,9125638,education,high,true,neutral,3,575200,1562849
+1003,168541,other,low,false,positive,4,10445649,3001009030160

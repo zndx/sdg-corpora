@@ -1,0 +1,5 @@
+radar_station_id,radar_identifier,radar_model,frequency_band,max_range,installation_date,last_maintenance_date,is_upgraded,surveillance_site_id,data_acquisition_unit_id
+1000,RAD-2323,adaptive-radar-65,integrated-frequenc-94,2.70,2022-01-10,2024-03-27,false,1,1000
+1001,RAD-2330,distributed-radar-66,seasonal-frequenc-95,5.40,2023-06-21,2025-08-11,true,2,1001
+1002,RAD-2337,baseline-radar-67,regional-frequenc-96,8.10,2024-11-05,2022-01-22,false,3,1002
+1003,RAD-2344,pilot-radar-68,legacy-frequenc-97,10.80,2025-04-16,2023-06-06,true,4,1003

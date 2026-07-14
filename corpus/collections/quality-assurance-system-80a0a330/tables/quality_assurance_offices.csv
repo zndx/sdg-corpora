@@ -1,0 +1,5 @@
+id,office_id,office_name,establishment_date,location,status,staff_count,quality_assurance_system_id,capacity_building_training_id,created_at
+100,5917279,Pilot Review,2024-07-11,extended-location-99,planned,21,1000,1,2025-01-01 00:14:00
+101,10445641,Baseline Initiative,2025-12-22,integrated-location-100,established,40,1001,2,2025-02-06 03:14:00
+102,12715698,Distributed Model A,2022-05-06,seasonal-location-101,operational,3,1002,3,2025-03-11 06:14:00
+103,3012823,Adaptive Cluster,2023-10-17,regional-location-102,dissolved,8,1003,4,2025-04-16 09:14:00

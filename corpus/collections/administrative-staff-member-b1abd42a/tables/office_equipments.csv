@@ -1,0 +1,5 @@
+id,equipment_id,equipment_type,location_room,is_restricted,maintenance_status,office_room_id,administrative_staff_member_id
+1,128,integrated-equipmen-58,baseline-location-97,false,extended-maintena-33,1,1
+2,lu_tax_code_template_m_I_2,seasonal-equipmen-59,pilot-location-98,true,integrated-maintena-34,2,2
+3,1336190,regional-equipmen-60,extended-location-99,false,seasonal-maintena-35,3,3
+4,611514,legacy-equipmen-61,integrated-location-100,true,regional-maintena-36,4,4

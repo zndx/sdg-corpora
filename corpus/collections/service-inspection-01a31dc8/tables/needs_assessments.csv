@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,assessment_type,is_service_led,needs_identified,assessment_outcome,agency_id,service_code
+1000,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,holistic,false,47,eligible,U.S. Steel,20789856
+1001,19508914,2023-10-21T11:41:00,adult_focused,true,56,ineligible,Nikola Corporation,3990167
+1002,506000,2024-03-05T18:58:00,child_focused,false,65,pending_review,Oberthur Technologies,14484998
+1003,1204-0009-M,2025-08-16T01:15:00,holistic,true,74,eligible,General Telephone & Electronics,Total

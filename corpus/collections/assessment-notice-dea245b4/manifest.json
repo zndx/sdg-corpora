@@ -1,0 +1,148 @@
+{
+ "construct_id": "dea245b47e1e46fd",
+ "slug": "assessment-notice-dea245b4",
+ "passage": "dea245b47e1e46fd6b5dfb21ee15f449055fd2b2a2619210c07bf5da3f7226f2.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 12,
+ "entities": [
+  "AssessmentNotice",
+  "PropertyExemption",
+  "AppealWaiver",
+  "PropertyParcel",
+  "BoardOfAssessors",
+  "BoardOfEqualization"
+ ],
+ "terms": [
+  {
+   "name": "AssessmentNotice",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PropertyExemption",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AppealWaiver",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PropertyParcel",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BoardOfAssessors",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BoardOfEqualization",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "assessment_notices",
+   "rows": 4,
+   "columns": [
+    "id",
+    "notice_id",
+    "issue_date",
+    "property_type",
+    "notice_type",
+    "status",
+    "property_identifier",
+    "property_parcel_id",
+    "board_of_assessors_id"
+   ]
+  },
+  {
+   "name": "property_exemptions",
+   "rows": 4,
+   "columns": [
+    "exemption_id",
+    "exemption_type",
+    "approval_date",
+    "status",
+    "property_identifier",
+    "applicable_year",
+    "property_parcel_id",
+    "board_of_assessors_id"
+   ]
+  },
+  {
+   "name": "appeal_waivers",
+   "rows": 4,
+   "columns": [
+    "appeal_waiver_id",
+    "waiver_id",
+    "waiver_date",
+    "property_identifier",
+    "status",
+    "certified_by",
+    "property_parcel_id",
+    "board_of_equalization_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "property_parcels",
+   "rows": 4,
+   "columns": [
+    "id",
+    "parcel_id",
+    "address",
+    "land_use",
+    "area",
+    "zoning_district",
+    "owner_name",
+    "assessment_notice_id",
+    "exemption_id",
+    "appeal_waiver_id"
+   ]
+  },
+  {
+   "name": "board_of_assessorses",
+   "rows": 4,
+   "columns": [
+    "board_of_assessors_id",
+    "board_id",
+    "jurisdiction",
+    "meeting_date",
+    "status",
+    "assessment_notice_id",
+    "exemption_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "board_of_equalizations",
+   "rows": 4,
+   "columns": [
+    "board_of_equalization_id",
+    "board_id",
+    "jurisdiction",
+    "meeting_date",
+    "status",
+    "appeal_waiver_id"
+   ]
+  }
+ ],
+ "views": [
+  "assessment_notice_property_parcel_view",
+  "assessment_notice_board_of_assessors_view",
+  "property_exemption_property_parcel_view",
+  "property_exemption_board_of_assessors_view",
+  "appeal_waiver_property_parcel_view",
+  "appeal_waiver_board_of_equalization_view",
+  "property_parcel_assessment_notice_view",
+  "property_parcel_property_exemption_view",
+  "property_parcel_appeal_waiver_view",
+  "board_of_assessors_assessment_notice_view",
+  "board_of_assessors_property_exemption_view",
+  "board_of_equalization_appeal_waiver_view"
+ ]
+}

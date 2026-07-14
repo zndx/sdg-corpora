@@ -1,0 +1,5 @@
+regulatory_statute_id,statute_id,statute_title,jurisdiction,effective_date,restriction_type,gambling_activity_id,campaign_id
+1,3744010,Extended Framework,regional-jurisdic-30,2023-02-14,prohibits_gambling_funds_for_political_use,100,1
+2,10238287,Pilot Protocol A,legacy-jurisdic-31,2024-07-25,defines_raffle_criteria,101,2
+3,6926373,Baseline Programme,compact-jurisdic-32,2025-12-09,authorizes_nonprofit_gambling,102,3
+4,4364,Distributed Standard,composite-jurisdic-33,2022-05-20,prohibits_gambling_funds_for_political_use,103,4

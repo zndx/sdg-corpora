@@ -1,0 +1,5 @@
+legislative_act_id,act_identifier,jurisdiction,enactment_date,status,target_chemical_class,legal_effect
+1,ACT-2177,regional-jurisdic-30,2022-01-04T12:24:00,proposed,regional-target-36,extended-legal-81
+2,ACT-2182,legacy-jurisdic-31,2023-06-15T19:41:00,enacted,legacy-target-37,integrated-legal-82
+3,ACT-2187,compact-jurisdic-32,2024-11-26T02:58:00,vetoed,compact-target-38,seasonal-legal-83
+4,ACT-2192,composite-jurisdic-33,2025-04-10T09:15:00,repealed,composite-target-39,regional-legal-84

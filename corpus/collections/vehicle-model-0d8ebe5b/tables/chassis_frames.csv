@@ -1,0 +1,5 @@
+chassis_frame_id,frame_designation,technology_name,geometry_control,wheelbase,ground_clearance,suspension_system_id,brake_system_id,capacity_specification_id,created_at,updated_at
+1,distributed-frame-60,Baseline Framework D,compact-geometry-26,22.45,8.95,1,1,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,baseline-frame-61,Distributed Protocol,composite-geometry-27,26.90,12.90,2,2,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,pilot-frame-62,Adaptive Programme,primary-geometry-28,31.35,16.85,3,3,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,extended-frame-63,Primary Standard A,adaptive-geometry-29,35.80,20.80,4,4,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

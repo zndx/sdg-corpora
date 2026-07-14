@@ -1,0 +1,5 @@
+normID,normName,issuingBody,effectiveDate,enforcementLevel,complianceRate,facilityID,eventId,mechanismId
+NOR-2779,Distributed Assessment,baseline-issuing-13,2023-02-14,voluntary,9.45,FAC-2492,1000,1
+NOR-2781,Adaptive Survey D,pilot-issuing-14,2024-07-25,national,13.90,FAC-2499,1001,2
+NOR-2783,Primary Corridor,extended-issuing-15,2025-12-09,international,18.35,FAC-2506,1002,3
+NOR-2785,Composite Series,integrated-issuing-16,2022-05-20,voluntary,22.80,FAC-2513,1003,4

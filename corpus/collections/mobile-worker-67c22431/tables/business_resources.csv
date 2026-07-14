@@ -1,0 +1,5 @@
+id,resource_id,resource_name,resource_type,access_protocol,is_s_s_o_supported,max_connections,user_role_id,corporate_network_id,created_at,updated_at
+100,1167,Adaptive Corridor,Web URL,HTTPS,true,28,100,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,2106708,Primary Series,Terminal Service,RDP,false,34,101,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,4180945,Composite Assessment D,File Share,SSH,true,40,102,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,10238270,Compact Survey,Email,SMB,false,46,103,4,2025-04-16 09:14:00,2025-04-23 15:41:00

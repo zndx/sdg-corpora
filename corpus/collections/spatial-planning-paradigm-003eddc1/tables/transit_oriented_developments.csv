@@ -1,0 +1,5 @@
+id,tod_id,name,conurbation,coverage_radius,implementation_status,spatial_planning_zone_id,created_at,updated_at
+1,10238282,Extended Review,compact-conurbat-68,20.45,planned,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,3012808,Pilot Initiative A,composite-conurbat-69,24.90,under_construction,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,3001009030280,Baseline Model,primary-conurbat-70,29.35,operational,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,2640,Distributed Cluster,adaptive-conurbat-71,33.80,planned,4,2025-04-16 09:14:00,2025-04-23 15:41:00

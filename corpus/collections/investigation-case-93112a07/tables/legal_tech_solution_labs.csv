@@ -1,0 +1,5 @@
+lab_id,lab_name,location,establishment_date,isms_compliant,service_scope,supported_languages,discovery_operation_center_id,forensic_operation_center_id,engine_id,data_analysis_tool_id
+2106706,Baseline Protocol D,extended-location-99,2024-07-11,false,discovery,english,1,100,5006437,100
+1437591,Distributed Programme,integrated-location-100,2025-12-22,true,forensics,japanese,2,101,726035,101
+12042,Adaptive Standard,seasonal-location-101,2022-05-06,false,cyber_security,chinese,3,102,8843749,102
+1562831,Primary Framework A,regional-location-102,2023-10-17,true,independent_committee,korean,4,103,209207,103

@@ -1,0 +1,5 @@
+water_harvesting_system_id,system_type,capacity_liters,installation_date,material_type,system_status,manufacturer,facility_id,corporate_sponsor_id
+100,extended-system-69,5.45,2022-01-10,adaptive-material-71,installed,Standard Chartered,1000,1
+101,integrated-system-70,8.90,2023-06-21,distributed-material-72,operational,General Motors,1001,2
+102,seasonal-system-71,12.35,2024-11-05,baseline-material-73,maintenance_required,Column Name cannot be empty,1002,3
+103,regional-system-72,15.80,2025-04-16,pilot-material-74,decommissioned,Financial Information Service Co. Ltd.,1003,4

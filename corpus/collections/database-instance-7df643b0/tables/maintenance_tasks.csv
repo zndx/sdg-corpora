@@ -1,0 +1,5 @@
+id,task_id,task_type,start_date,end_date,status,tool_used,d_b_a_id,instance_id
+1000,7731870,backup,2022-09-05T20:24:00,2022-09-01T08:00:00,pending,extended-tool-75,1,26730215
+1001,id_28,recovery,2023-02-16T03:41:00,2023-02-12T15:17:00,running,integrated-tool-76,2,en_AU
+1002,7119763,tuning,2024-07-27T10:58:00,2024-07-23T22:34:00,complete,seasonal-tool-77,3,IVC20det15
+1003,lu_tax_code_template_m82,patching,2025-12-11T17:15:00,2025-12-07T05:51:00,failed,regional-tool-78,4,937736

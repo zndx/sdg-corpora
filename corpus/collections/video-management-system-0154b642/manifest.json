@@ -1,0 +1,182 @@
+{
+ "construct_id": "0154b6428292b92f",
+ "slug": "video-management-system-0154b642",
+ "passage": "0154b6428292b92f57fc1cfe77c419bcf761f4ffeaf11b0d13675d90015ee858.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 10,
+ "n_views": 13,
+ "entities": [
+  "VideoManagementSystem",
+  "VideoAnalyticsModule",
+  "SurveillanceCamera",
+  "VideoStream",
+  "ControlCenter",
+  "ForensicEvidence"
+ ],
+ "terms": [
+  {
+   "name": "VideoManagementSystem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VideoAnalyticsModule",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SurveillanceCamera",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "VideoStream",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ControlCenter",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ForensicEvidence",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "video_management_systems",
+   "rows": 4,
+   "columns": [
+    "system_identifier",
+    "version_number",
+    "deployment_mode",
+    "is_scalable",
+    "last_maintenance_date",
+    "manufacturer_id",
+    "center_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "video_analytics_modules",
+   "rows": 4,
+   "columns": [
+    "id",
+    "analytics_id",
+    "rule_count",
+    "is_multi_rule_enabled",
+    "detection_type",
+    "sdk_version",
+    "processing_location",
+    "video_management_system_version_number"
+   ]
+  },
+  {
+   "name": "surveillance_cameras",
+   "rows": 4,
+   "columns": [
+    "id",
+    "camera_serial_number",
+    "camera_type",
+    "resolution",
+    "is_embedded_analytics",
+    "installation_date",
+    "firmware_version",
+    "video_stream_id",
+    "video_management_system_version_number"
+   ]
+  },
+  {
+   "name": "video_streams",
+   "rows": 4,
+   "columns": [
+    "id",
+    "stream_id",
+    "bitrate",
+    "frame_rate",
+    "codec_type",
+    "encryption_status",
+    "recording_status",
+    "surveillance_camera_id",
+    "video_analytics_module_id"
+   ]
+  },
+  {
+   "name": "control_centers",
+   "rows": 4,
+   "columns": [
+    "center_id",
+    "center_name",
+    "has_video_wall",
+    "has25_d_maps",
+    "operator_capacity",
+    "operational_status",
+    "video_management_system_version_number"
+   ]
+  },
+  {
+   "name": "forensic_evidences",
+   "rows": 4,
+   "columns": [
+    "id",
+    "evidence_id",
+    "event_timestamp",
+    "evidence_type",
+    "confidence_score",
+    "is_verified",
+    "storage_location",
+    "video_analytics_module_id",
+    "video_management_system_version_number",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "systems_modules",
+   "rows": 8,
+   "columns": [
+    "video_management_system_version_number",
+    "video_analytics_module_id"
+   ]
+  },
+  {
+   "name": "systems_cameras",
+   "rows": 8,
+   "columns": [
+    "video_management_system_version_number",
+    "surveillance_camera_id"
+   ]
+  },
+  {
+   "name": "modules_streams",
+   "rows": 8,
+   "columns": [
+    "video_analytics_module_id",
+    "video_stream_id"
+   ]
+  },
+  {
+   "name": "modules_evidences",
+   "rows": 8,
+   "columns": [
+    "video_analytics_module_id",
+    "forensic_evidence_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_video_management_system_video_analytics_module_detail",
+  "vw_video_management_system_surveillance_camera_detail",
+  "vw_video_management_system_control_center",
+  "vw_video_analytics_module_video_management_system",
+  "vw_video_analytics_module_video_stream_detail",
+  "vw_video_analytics_module_forensic_evidence_detail",
+  "vw_surveillance_camera_video_stream",
+  "vw_surveillance_camera_video_management_system",
+  "vw_video_stream_surveillance_camera",
+  "vw_video_stream_video_analytics_module",
+  "vw_control_center_video_management_system",
+  "vw_forensic_evidence_video_analytics_module",
+  "vw_forensic_evidence_video_management_system"
+ ]
+}

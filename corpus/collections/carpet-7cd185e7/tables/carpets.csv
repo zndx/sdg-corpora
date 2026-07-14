@@ -1,0 +1,5 @@
+id,carpet_id,design_style,origin_region,production_date,dimensions,material_composition,current_location,condition_status,workshop_id,household_id,market_region_id,design_pattern_id
+1000,209204,Ottoman,Anatolia,2025-04-06T03:21:00,distributed-dimensio-42,wool,baseline-current-43,intact,1,726044,1,100
+1001,20024447,Iranian,Persia,2022-09-17T10:38:00,baseline-dimensio-43,silk,pilot-current-44,fragmented,2,16605652,2,101
+1002,7731885,Safavid,Central Asia,2023-02-01T17:55:00,pilot-dimensio-44,cotton,extended-current-45,restored,3,8928495,3,102
+1003,10445627,Mughal,Anatolia,2024-07-12T00:12:00,extended-dimensio-45,wool,integrated-current-46,intact,4,5844284,4,103

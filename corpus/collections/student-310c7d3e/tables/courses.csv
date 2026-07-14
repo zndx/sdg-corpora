@@ -1,0 +1,5 @@
+course_id,prefix,title,credits,is_upper_division,is_waived,curriculum_requirement_id
+100,distributed-prefix-18,Compact Initiative,28,false,false,1
+101,baseline-prefix-19,Legacy Model,33,true,true,2
+102,pilot-prefix-20,Regional Cluster A,38,false,false,3
+103,extended-prefix-21,Seasonal Review,43,true,true,4

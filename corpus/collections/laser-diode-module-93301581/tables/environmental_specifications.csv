@@ -1,0 +1,5 @@
+environmental_specification_id,operating_temperature_min,operating_temperature_max,storage_temperature_min,storage_temperature_max,soldering_temperature,soldering_duration,laser_diode_module_part_number
+1,0.77,12.45,0.351342673308077,6.45,13.45,3.70,PAR-2291
+2,0.74,16.90,1.24,10.90,16.90,5.40,PAR-2297
+3,0.48,21.35,0.83,15.35,20.35,7.10,PAR-2303
+4,1.02669,25.80,0.6000001,19.80,23.80,8.80,PAR-2309

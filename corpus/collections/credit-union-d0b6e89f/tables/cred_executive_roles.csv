@@ -1,0 +1,5 @@
+executive_role_id,role_title,appointment_date,termination_date,reporting_to,compensation_band,is_current,person_id,credit_union_id,previously_held_executive_role_id,created_at
+1,Distributed Standard,2022-05-03,2022-09-11,integrated-reportin-82,legacy-compensa-79,true,1,1,1,2025-01-01 00:14:00
+2,Adaptive Framework D,2023-10-14,2023-02-22,seasonal-reportin-83,compact-compensa-80,false,2,2,2,2025-02-06 03:14:00
+3,Primary Protocol,2024-03-25,2024-07-06,regional-reportin-84,composite-compensa-81,true,3,3,3,2025-03-11 06:14:00
+4,Composite Programme,2025-08-09,2025-12-17,legacy-reportin-85,primary-compensa-82,false,4,4,4,2025-04-16 09:14:00

@@ -1,0 +1,21 @@
+CREATE TABLE research_projects (
+  research_project_id INTEGER NOT NULL,
+  project_identifier VARCHAR(32),
+  project_title VARCHAR(32),
+  project_start_date TIMESTAMP,
+  project_end_date TIMESTAMP,
+  project_status VARCHAR(32),
+  funding_source VARCHAR(32),
+  grant_program_name VARCHAR(32),
+  researcher_id INTEGER,
+  research_organization_id INTEGER,
+  geographic_location_id INTEGER,
+  health_condition_id INTEGER,
+  biomarker_id INTEGER,
+  PRIMARY KEY (research_project_id),
+  FOREIGN KEY (researcher_id) REFERENCES researchers (id),
+  FOREIGN KEY (research_organization_id) REFERENCES research_organizations (research_organization_id),
+  FOREIGN KEY (geographic_location_id) REFERENCES geographic_locations (geographic_location_id),
+  FOREIGN KEY (health_condition_id) REFERENCES health_conditions (id),
+  FOREIGN KEY (biomarker_id) REFERENCES biomarkers (biomarker_id)
+);

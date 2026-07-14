@@ -1,0 +1,5 @@
+student_id,date_of_birth,primary_diagnosis,has_communication_difficulty,has_medical_needs,has_continence_needs,age,student_placement_id,education_health_care_plan_id,assessment_id
+392507,2025-04-02,Autistic Spectrum Condition,false,true,true,35,1,1,template_ivacode_pagata_20det40ind
+25388256,2022-09-13,Pathological Demand Avoidance,true,false,false,40,2,2,19508914
+id_16,2023-02-24,Chromosome Disorders,false,true,true,45,3,3,506000
+gd_taxc_2211,2024-07-08,other,true,false,false,50,4,4,1204-0009-M

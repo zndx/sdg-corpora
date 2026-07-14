@@ -1,0 +1,20 @@
+CREATE TABLE directory_entries (
+  id INTEGER NOT NULL,
+  handle VARCHAR(32),
+  full_name VARCHAR(32),
+  middle_initial VARCHAR(32),
+  mailing_address VARCHAR(32),
+  zip_code VARCHAR(44),
+  telephone VARCHAR(32),
+  autovon_number VARCHAR(32),
+  fts_number VARCHAR(32),
+  network_mailbox VARCHAR(32),
+  registration_date TIMESTAMP,
+  network_information_center_id INTEGER,
+  network_host_id INTEGER,
+  network_mailbox_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (network_information_center_id) REFERENCES network_information_centers (id),
+  FOREIGN KEY (network_host_id) REFERENCES network_hosts (network_host_id),
+  FOREIGN KEY (network_mailbox_id) REFERENCES network_mailboxes (id)
+);

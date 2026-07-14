@@ -1,0 +1,5 @@
+infra_id,infra_type,capacity,current_utilization,condition,municipality_id,land_parcel_id
+10449522,hospital,32,19.95,adequate,1000,1000
+168539,school,41,23.90,insufficient,1001,1001
+9568467,clinic,50,27.85,overloaded,1002,1002
+3012834,road,59,31.80,new,1003,1003

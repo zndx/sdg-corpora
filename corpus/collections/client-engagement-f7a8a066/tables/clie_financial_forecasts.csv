@@ -1,0 +1,5 @@
+forecast_id,forecast_type,projection_period,projected_revenue,projected_expenses,projected_net_cash,confidence_level,engagement_id,financial_controller_id,account_id,created_at,updated_at
+7119771,CashFlow,Monthly,"2,499",10.95,21.20,Low,3717629,1,fbc33b0c-9bac-11eb-a8a2-19ed5c03f8d3,2025-01-01 00:14:00,2025-01-02 00:41:00
+3012834,Profit,Quarterly,"8,598",13.90,23.40,Medium,1562852,2,10207152,2025-02-06 03:14:00,2025-02-09 05:41:00
+2b2bb518-8fcd-11eb-924d-9cd76263cbd0,Combined,Annually,"3,334",16.85,25.60,High,9246331,3,a4afb8ee-9bad-11eb-a8a2-19ed5c03f8d3,2025-03-11 06:14:00,2025-03-16 10:41:00
+13219,CashFlow,Monthly,0.22,19.80,27.80,Low,32827,4,3717632,2025-04-16 09:14:00,2025-04-23 15:41:00

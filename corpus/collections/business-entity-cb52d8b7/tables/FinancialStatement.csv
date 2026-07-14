@@ -1,0 +1,5 @@
+statementId,statementType,reportingPeriod,totalRevenue,totalExpenses,netIncome,preparedBy,auditStatus,entityId,auditorId
+1000,income_statement,2023-06-18,29.24,8.20,8.88,composite-prepared-15,pending,1000,1
+1001,balance_sheet,2024-11-02,18.47,12.40,2685024.13,primary-prepared-16,audited,1001,2
+1002,cash_flow_statement,2025-04-13,19.93,16.60,38.08,adaptive-prepared-17,unaudited,1002,3
+1003,income_statement,2022-09-24,24.09,20.80,"2,949",distributed-prepared-18,pending,1003,4

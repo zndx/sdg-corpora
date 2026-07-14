@@ -1,0 +1,5 @@
+id,judgment_id,ruling_type,sentence_length,fine_amount,legal_reasoning,appeal_status,legal_case_id,legal_statute_id
+1,9568457,Guilty,0.56,29.99,seasonal-legal-71,None,100,1
+2,ChIJt4hBkzhu5kcRJJDUNqGUpso,Not Guilty,0.58,16.11,regional-legal-72,Pending,101,2
+3,9736893,Dismissed,0.6000001,32.21,legacy-legal-73,Granted,102,3
+4,8189480,Sentenced,0.6,35.45,compact-legal-74,Denied,103,4

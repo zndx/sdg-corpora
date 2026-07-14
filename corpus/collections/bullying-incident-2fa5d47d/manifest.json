@@ -1,0 +1,151 @@
+{
+ "construct_id": "2fa5d47dd29fd189",
+ "slug": "bullying-incident-2fa5d47d",
+ "passage": "2fa5d47dd29fd18994429b06e551dd84a8711b2bcc5c96707a9f41a725df0fbf.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 11,
+ "entities": [
+  "BullyingIncident",
+  "Person",
+  "StaffRole",
+  "BullyingType",
+  "PolicyReview",
+  "PolicyDocument"
+ ],
+ "terms": [
+  {
+   "name": "BullyingIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Person",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "StaffRole",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "BullyingType",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PolicyReview",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PolicyDocument",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "bullying_incidents",
+   "rows": 4,
+   "columns": [
+    "incident_id",
+    "incident_date",
+    "severity_level",
+    "is_repeated",
+    "is_cyber_bullying",
+    "description",
+    "location",
+    "status",
+    "person_id",
+    "targeted_by_person_id",
+    "perpetrated_by_person_id",
+    "type_id",
+    "role_id"
+   ]
+  },
+  {
+   "name": "persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "person_id",
+    "full_name",
+    "role",
+    "year_group",
+    "email_address",
+    "is_vulnerable",
+    "special_needs",
+    "role_id",
+    "incident_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "staff_roles",
+   "rows": 4,
+   "columns": [
+    "role_id",
+    "role_name",
+    "responsibilities",
+    "is_policy_owner",
+    "year_group",
+    "person_id",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "bullying_types",
+   "rows": 4,
+   "columns": [
+    "type_id",
+    "type_name",
+    "description",
+    "is_cyber_bullying",
+    "is_physical",
+    "is_verbal",
+    "incident_id"
+   ]
+  },
+  {
+   "name": "policy_reviews",
+   "rows": 4,
+   "columns": [
+    "policy_review_id",
+    "review_id",
+    "review_date",
+    "review_status",
+    "reviewer",
+    "findings",
+    "recommendations",
+    "person_id",
+    "document_id"
+   ]
+  },
+  {
+   "name": "policy_documents",
+   "rows": 4,
+   "columns": [
+    "document_id",
+    "title",
+    "version",
+    "effective_date",
+    "expiry_date",
+    "status",
+    "policy_review_id"
+   ]
+  }
+ ],
+ "views": [
+  "bullying_incident_person_view",
+  "bullying_incident_bullying_type_view",
+  "bullying_incident_staff_role_view",
+  "person_staff_role_view",
+  "person_bullying_incident_view",
+  "staff_role_person_view",
+  "staff_role_bullying_incident_view",
+  "bullying_type_bullying_incident_view",
+  "policy_review_person_view",
+  "policy_review_policy_document_view",
+  "policy_document_policy_review_view"
+ ]
+}

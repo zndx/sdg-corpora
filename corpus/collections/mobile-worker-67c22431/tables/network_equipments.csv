@@ -1,0 +1,5 @@
+equipment_id,manufacturer,model,firmware_version,status,v_p_n_gateway_id
+128,Standard Chartered,composite-model-81,distributed-firmware-48,Operational,1
+lu_tax_code_template_m_I_2,General Motors,primary-model-82,baseline-firmware-49,Degraded,2
+1336190,Column Name cannot be empty,adaptive-model-83,pilot-firmware-50,Failed,3
+611514,Financial Information Service Co. Ltd.,distributed-model-84,extended-firmware-51,Operational,4

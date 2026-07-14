@@ -1,0 +1,213 @@
+{
+ "construct_id": "73a1da492cccf291",
+ "slug": "job-application-73a1da49",
+ "passage": "73a1da492cccf291669d5efc0afb585b647c93a9f48b166ce5023210cc15eb1c.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 14,
+ "entities": [
+  "JobApplication",
+  "Applicant",
+  "Organization",
+  "EmploymentRecord",
+  "EducationRecord",
+  "Reference"
+ ],
+ "terms": [
+  {
+   "name": "JobApplication",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Applicant",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EmploymentRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EducationRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Reference",
+   "genus": "bfo:0000002"
+  }
+ ],
+ "tables": [
+  {
+   "name": "job_applications",
+   "rows": 4,
+   "columns": [
+    "id",
+    "application_id",
+    "submission_date",
+    "desired_position",
+    "desired_wage",
+    "availability_status",
+    "overtime_eligibility",
+    "preferred_shift",
+    "shift_flexibility",
+    "earliest_start_date",
+    "applicant_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "applicants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ssn",
+    "first_name",
+    "last_name",
+    "middle_name",
+    "home_phone",
+    "cell_phone",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "age_eligible",
+    "employment_eligibility",
+    "has_drivers_license",
+    "license_state",
+    "license_number",
+    "criminal_history",
+    "currently_employed",
+    "previous_applicant",
+    "last_application_date",
+    "organization_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "organization_name",
+    "street_address",
+    "city",
+    "state",
+    "zip_code",
+    "telephone",
+    "fax",
+    "eopo_status"
+   ]
+  },
+  {
+   "name": "employment_records",
+   "rows": 4,
+   "columns": [
+    "employment_record_id",
+    "start_date",
+    "end_date",
+    "salary",
+    "position_title",
+    "reason_for_leaving",
+    "contact_permission",
+    "employer_name",
+    "employer_address",
+    "employer_phone",
+    "applicant_id",
+    "organization_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "education_records",
+   "rows": 4,
+   "columns": [
+    "education_record_id",
+    "institution_name",
+    "institution_address",
+    "institution_phone",
+    "years_attended",
+    "course_of_study",
+    "degree_or_diploma",
+    "education_level",
+    "applicant_id",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "references",
+   "rows": 4,
+   "columns": [
+    "reference_id",
+    "full_name",
+    "address",
+    "phone",
+    "relationship_type",
+    "is_relative",
+    "applicant_id"
+   ]
+  },
+  {
+   "name": "applications_references",
+   "rows": 8,
+   "columns": [
+    "job_application_id",
+    "reference_id"
+   ]
+  },
+  {
+   "name": "applications_records",
+   "rows": 8,
+   "columns": [
+    "job_application_id",
+    "employment_record_id"
+   ]
+  },
+  {
+   "name": "applicants_applications",
+   "rows": 8,
+   "columns": [
+    "applicant_id",
+    "job_application_id"
+   ]
+  },
+  {
+   "name": "organizations_applications",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "job_application_id"
+   ]
+  },
+  {
+   "name": "organizations_applicants",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "applicant_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_job_application_applicant",
+  "v_job_application_organization",
+  "v_job_application_reference_detail",
+  "v_job_application_employment_record_detail",
+  "v_job_application_education_record_detail",
+  "v_applicant_job_application_detail",
+  "v_applicant_organization",
+  "v_organization_job_application_detail",
+  "v_organization_applicant_detail",
+  "v_employment_record_applicant",
+  "v_employment_record_organization",
+  "v_education_record_applicant",
+  "v_education_record_organization",
+  "v_reference_applicant"
+ ]
+}

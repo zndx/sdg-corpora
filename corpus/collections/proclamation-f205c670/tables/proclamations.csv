@@ -1,0 +1,5 @@
+id,proclamation_id,issuer,target_audience,date_issued,status,content_summary,monarch_id
+1000,access_extension_0,primary-issuer-46,legacy-target-25,2023-10-10T09:39:00,pending,seasonal-content-41,1
+1001,1562845,adaptive-issuer-47,compact-target-26,2024-03-21T16:56:00,active,regional-content-42,2
+1002,9424922,distributed-issuer-48,composite-target-27,2025-08-05T23:13:00,archived,legacy-content-43,3
+1003,8387557,baseline-issuer-49,primary-target-28,2022-01-16T06:30:00,pending,compact-content-44,4

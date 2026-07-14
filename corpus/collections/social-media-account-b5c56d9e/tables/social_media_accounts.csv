@@ -1,0 +1,5 @@
+social_media_account_id,account_identifier,platform_type,registration_status,creation_date,last_audit_date,district_employee_id,school_district_entity_id,board_policy_id
+1,ACC-2500,Twitter,registered,2022-01-13T12:24:00,2023-10-23T09:51:00,100,100,1
+2,ACC-2502,Blog,unregistered,2023-06-24T19:41:00,2024-03-07T16:08:00,101,101,2
+3,ACC-2504,Website,registered,2024-11-08T02:58:00,2025-08-18T23:25:00,102,102,3
+4,ACC-2506,Twitter,unregistered,2025-04-19T09:15:00,2022-01-02T06:42:00,103,103,4

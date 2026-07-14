@@ -1,0 +1,5 @@
+member_id,full_name,ssn,role,age,is_senior,immigration_status_declaration_id,housing_unit_id
+10207158,Theodore Mcgrath,legacy-ssn-43,Head of Household,35,false,1000,1
+10207158,Account Name,compact-ssn-44,Adult Non-Head,40,true,1001,2
+25820616,Saipan International Airport,composite-ssn-45,Head of Household,45,false,1002,3
+2002007020250,Norma Fisher,primary-ssn-46,Adult Non-Head,50,true,1003,4

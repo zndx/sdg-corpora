@@ -1,0 +1,5 @@
+person_with_albinism_id,person_id,name,date_of_birth,vision_level,skin_sensitivity,current_location,enrolled_in_program,education_program_id,social_stigma_id,environmental_accommodation_id
+1,George Bernard Shaw,Dana Nguyen,2025-04-02,low,high,baseline-current-43,true,100,1,100
+2,Maria Rodriguez,Kimberly Myers,2022-09-13,severe,moderate,pilot-current-44,false,101,2,101
+3,Sarah Villanueva,Kimberly Myers,2023-02-24,blind,low,extended-current-45,true,102,3,102
+4,Susan Wagner,Guam International Airport,2024-07-08,low,high,integrated-current-46,false,103,4,103

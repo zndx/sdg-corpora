@@ -1,0 +1,5 @@
+id,employee_id,full_name,job_title,office_location,hire_date,is_manager,division_id,budget_submission_id
+1000,Norma Fisher,Theodore Mcgrath,Primary Initiative A,composite-office-99,2023-06-01,true,89512,100
+1001,Tasha Rodriguez,Account Name,Composite Model,primary-office-100,2024-11-12,false,10207146,101
+1002,Theodore Mcgrath,Saipan International Airport,Compact Cluster,adaptive-office-101,2025-04-23,true,212,102
+1003,Peter Mcdowell,Norma Fisher,Legacy Review D,distributed-office-102,2022-09-07,false,id_14,103

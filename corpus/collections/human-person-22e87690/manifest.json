@@ -1,0 +1,167 @@
+{
+ "construct_id": "22e87690fc308493",
+ "slug": "human-person-22e87690",
+ "passage": "22e87690fc3084937d79e1840a923452e9668778b2c7969f638f488c96e474e8.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 16,
+ "entities": [
+  "HumanPerson",
+  "Settlement",
+  "Building",
+  "BirthEvent",
+  "CensusRegistration",
+  "GovernmentDecree",
+  "InfantCareItem"
+ ],
+ "terms": [
+  {
+   "name": "HumanPerson",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Settlement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Building",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "BirthEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "CensusRegistration",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentDecree",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "InfantCareItem",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "human_persons",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_given_name",
+    "has_family_name",
+    "has_occupation_role",
+    "has_residence_location",
+    "has_ancestral_origin_location",
+    "human_person_id",
+    "has_spouse_human_person_id",
+    "settlement_id",
+    "census_registration_id"
+   ]
+  },
+  {
+   "name": "settlements",
+   "rows": 4,
+   "columns": [
+    "settlement_id",
+    "has_settlement_name",
+    "has_geographic_region",
+    "has_population_density",
+    "building_id",
+    "census_registration_id"
+   ]
+  },
+  {
+   "name": "buildings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_building_type",
+    "has_material_composition",
+    "has_occupancy_status",
+    "has_animal_occupants",
+    "settlement_id",
+    "birth_event_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "birth_events",
+   "rows": 4,
+   "columns": [
+    "birth_event_id",
+    "has_event_date",
+    "has_birth_location",
+    "building_id",
+    "human_person_id",
+    "has_father_human_person_id",
+    "has_child_human_person_id"
+   ]
+  },
+  {
+   "name": "census_registrations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_registration_date",
+    "has_registration_location",
+    "has_mandating_authority",
+    "has_purpose",
+    "government_decree_id",
+    "human_person_id",
+    "settlement_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "government_decrees",
+   "rows": 4,
+   "columns": [
+    "id",
+    "has_decree_title",
+    "has_issuing_emperor",
+    "has_enforcement_date",
+    "has_legal_requirement",
+    "human_person_id",
+    "census_registration_id"
+   ]
+  },
+  {
+   "name": "infant_care_items",
+   "rows": 4,
+   "columns": [
+    "infant_care_item_id",
+    "has_item_name",
+    "has_material_type",
+    "has_physical_condition",
+    "birth_event_id",
+    "building_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "human_person_human_person_view",
+  "human_person_settlement_view",
+  "human_person_census_registration_view",
+  "settlement_building_view",
+  "settlement_census_registration_view",
+  "building_settlement_view",
+  "building_birth_event_view",
+  "birth_event_building_view",
+  "birth_event_human_person_view",
+  "census_registration_government_decree_view",
+  "census_registration_human_person_view",
+  "census_registration_settlement_view",
+  "government_decree_human_person_view",
+  "government_decree_census_registration_view",
+  "infant_care_item_birth_event_view",
+  "infant_care_item_building_view"
+ ]
+}

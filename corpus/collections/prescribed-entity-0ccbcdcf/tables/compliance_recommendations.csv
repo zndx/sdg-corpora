@@ -1,0 +1,5 @@
+id,recommendation_id,issue_date,priority_level,status,description,privacy_review_id,prescribed_entity_id
+100,3158134,2023-02-01T13:51:00,high,pending,Extended Survey,1,100
+101,4649,2024-07-12T20:08:00,medium,addressed,Pilot Corridor A,2,101
+102,9fff478e-9bac-11eb-a8a2-19ed5c03f8d3,2025-12-23T03:25:00,low,overdue,Baseline Series,3,102
+103,89820,2022-05-07T10:42:00,high,pending,Distributed Assessment,4,103

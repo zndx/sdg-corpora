@@ -1,0 +1,143 @@
+{
+ "construct_id": "7d0489948f8d9e79",
+ "slug": "indigenous-knowledge-base-7d048994",
+ "passage": "7d0489948f8d9e798429f7ef0a039f17348b199e8f0310657ed064fea4230e08.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 6,
+ "n_views": 14,
+ "entities": [
+  "IndigenousKnowledgeBase",
+  "ScientificKnowledgeBase",
+  "Community",
+  "RiskReductionStrategy",
+  "EnvironmentalHazard"
+ ],
+ "terms": [
+  {
+   "name": "IndigenousKnowledgeBase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ScientificKnowledgeBase",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Community",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "RiskReductionStrategy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EnvironmentalHazard",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "indigenous_knowledge_bases",
+   "rows": 4,
+   "columns": [
+    "knowledge_base_id",
+    "community_name",
+    "region",
+    "primary_hazard_type",
+    "transmission_mode",
+    "last_verified_date",
+    "is_integrated",
+    "community_id",
+    "strategy_id",
+    "interacts_with_knowledge_base_id"
+   ]
+  },
+  {
+   "name": "scientific_knowledge_bases",
+   "rows": 4,
+   "columns": [
+    "knowledge_base_id",
+    "data_source",
+    "model_type",
+    "resolution",
+    "last_updated",
+    "validation_status",
+    "community_id",
+    "strategy_id",
+    "interacts_with_knowledge_base_id"
+   ]
+  },
+  {
+   "name": "communities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "community_id",
+    "community_name",
+    "province",
+    "population",
+    "island_group",
+    "primary_livelihood",
+    "vulnerability_level",
+    "knowledge_base_id",
+    "hosts_scientific_assessment_knowledge_base_id"
+   ]
+  },
+  {
+   "name": "risk_reduction_strategies",
+   "rows": 4,
+   "columns": [
+    "strategy_id",
+    "strategy_name",
+    "integration_level",
+    "implementation_status",
+    "target_hazard",
+    "start_date",
+    "end_date",
+    "community_id",
+    "knowledge_base_id",
+    "draws_from_scientific_knowledge_knowledge_base_id"
+   ]
+  },
+  {
+   "name": "environmental_hazards",
+   "rows": 4,
+   "columns": [
+    "hazard_id",
+    "hazard_type",
+    "frequency",
+    "magnitude",
+    "affected_area",
+    "last_occurrence",
+    "community_id",
+    "knowledge_base_id"
+   ]
+  },
+  {
+   "name": "communities_strategies",
+   "rows": 8,
+   "columns": [
+    "community_id",
+    "strategy_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_indigenous_knowledge_base_community",
+  "v_indigenous_knowledge_base_risk_reduction_strategy",
+  "v_indigenous_knowledge_base_scientific_knowledge_base",
+  "v_scientific_knowledge_base_community",
+  "v_scientific_knowledge_base_risk_reduction_strategy",
+  "v_scientific_knowledge_base_indigenous_knowledge_base",
+  "v_community_indigenous_knowledge_base",
+  "v_community_scientific_knowledge_base",
+  "v_community_risk_reduction_strategy_detail",
+  "v_risk_reduction_strategy_community",
+  "v_risk_reduction_strategy_indigenous_knowledge_base",
+  "v_risk_reduction_strategy_scientific_knowledge_base",
+  "v_environmental_hazard_community",
+  "v_environmental_hazard_scientific_knowledge_base"
+ ]
+}

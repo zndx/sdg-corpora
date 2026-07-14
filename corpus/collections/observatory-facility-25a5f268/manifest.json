@@ -1,0 +1,195 @@
+{
+ "construct_id": "25a5f26854d94332",
+ "slug": "observatory-facility-25a5f268",
+ "passage": "25a5f26854d94332ccd5dd2e1722117c87b91fdd778d22d8c1ec39a6bcfc6db3.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 14,
+ "entities": [
+  "ObservatoryFacility",
+  "Telescope",
+  "AstronomicalSurvey",
+  "ManagingOrganization",
+  "FundingAgency",
+  "LandOwner"
+ ],
+ "terms": [
+  {
+   "name": "ObservatoryFacility",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Telescope",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "AstronomicalSurvey",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ManagingOrganization",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "FundingAgency",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "LandOwner",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "observatory_facilities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "facility_id",
+    "facility_name",
+    "location",
+    "land_area_acres",
+    "land_ownership_type",
+    "operational_status",
+    "established_date",
+    "managing_organization_id"
+   ]
+  },
+  {
+   "name": "telescopes",
+   "rows": 4,
+   "columns": [
+    "id",
+    "telescope_id",
+    "telescope_name",
+    "aperture_meters",
+    "telescope_class",
+    "primary_instrument",
+    "observation_mode",
+    "community_access_percentage",
+    "funding_consortium",
+    "observatory_facility_id",
+    "astronomical_survey_id",
+    "managing_organization_id"
+   ]
+  },
+  {
+   "name": "astronomical_surveys",
+   "rows": 4,
+   "columns": [
+    "astronomical_survey_id",
+    "survey_id",
+    "survey_name",
+    "start_date",
+    "end_date",
+    "nights_allocated_per_year",
+    "primary_objective",
+    "status",
+    "telescope_id",
+    "funding_agency_id"
+   ]
+  },
+  {
+   "name": "managing_organizations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "org_id",
+    "org_name",
+    "org_type",
+    "agreement_start_date",
+    "agreement_end_date",
+    "oversight_level",
+    "conflict_of_interest_disclosure",
+    "funding_agency_id",
+    "land_owner_id"
+   ]
+  },
+  {
+   "name": "funding_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_id",
+    "agency_name",
+    "agency_type",
+    "division",
+    "program_code",
+    "oversight_responsibility"
+   ]
+  },
+  {
+   "name": "land_owners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "owner_id",
+    "owner_name",
+    "owner_type",
+    "land_area_acres",
+    "lease_rate_per_year",
+    "lease_purpose_restriction",
+    "managing_organization_id"
+   ]
+  },
+  {
+   "name": "facilities_telescopes",
+   "rows": 8,
+   "columns": [
+    "observatory_facility_id",
+    "telescope_id"
+   ]
+  },
+  {
+   "name": "organizations_facilities",
+   "rows": 8,
+   "columns": [
+    "managing_organization_id",
+    "observatory_facility_id"
+   ]
+  },
+  {
+   "name": "agencies_organizations",
+   "rows": 8,
+   "columns": [
+    "funding_agency_id",
+    "managing_organization_id"
+   ]
+  },
+  {
+   "name": "agencies_facilities",
+   "rows": 8,
+   "columns": [
+    "funding_agency_id",
+    "observatory_facility_id"
+   ]
+  },
+  {
+   "name": "owners_facilities",
+   "rows": 8,
+   "columns": [
+    "land_owner_id",
+    "observatory_facility_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_observatory_facility_telescope_detail",
+  "vw_observatory_facility_managing_organization",
+  "vw_telescope_observatory_facility",
+  "vw_telescope_astronomical_survey",
+  "vw_telescope_managing_organization",
+  "vw_astronomical_survey_telescope",
+  "vw_astronomical_survey_funding_agency",
+  "vw_managing_organization_observatory_facility_detail",
+  "vw_managing_organization_funding_agency",
+  "vw_managing_organization_land_owner",
+  "vw_funding_agency_managing_organization_detail",
+  "vw_funding_agency_observatory_facility_detail",
+  "vw_land_owner_managing_organization",
+  "vw_land_owner_observatory_facility_detail"
+ ]
+}

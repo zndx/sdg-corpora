@@ -1,0 +1,5 @@
+clinic_id,clinic_name,location,has_workshops,healthcare_professional_id
+100,Distributed Standard,extended-location-99,false,1000
+101,Adaptive Framework D,integrated-location-100,true,1001
+102,Primary Protocol,seasonal-location-101,false,1002
+103,Composite Programme,regional-location-102,true,1003

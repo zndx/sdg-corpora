@@ -1,0 +1,5 @@
+id,access_status,finance_type,banking_sector_impact,amount_requested,amount_approved,s_m_e_employer_id,survey_wave_id,created_at
+1,available,loan,positive,30.51,55.49,1,1,2025-01-01 00:14:00
+2,restricted,equity,neutral,24.09,"9,957",2,2,2025-02-06 03:14:00
+3,denied,grant,negative,10.72,"1,040",3,3,2025-03-11 06:14:00
+4,available,loan,positive,12.74,43.25,4,4,2025-04-16 09:14:00

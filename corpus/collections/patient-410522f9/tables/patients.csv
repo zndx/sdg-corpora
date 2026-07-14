@@ -1,0 +1,5 @@
+id,patient_id,age,sex,diagnosis,disease_duration,baseline_visual_acuity,baseline_visual_field,baseline_v_e_p,baseline_p_r_c_s_t,treatment_group,ozone_therapy_protocol_id
+1,8387541,35,male,optic atrophy,21.95,12.20,14.95,20.95,17.95,integrated-treatmen-28,100
+2,10207142,40,female,leber optic atrophy,25.90,16.40,18.90,23.90,19.90,seasonal-treatmen-29,101
+3,7119782,45,other,other optic nerve dysfunction,29.85,20.60,22.85,26.85,21.85,regional-treatmen-30,102
+4,gd_acc_160003,50,male,optic atrophy,33.80,24.80,26.80,29.80,23.80,legacy-treatmen-31,103

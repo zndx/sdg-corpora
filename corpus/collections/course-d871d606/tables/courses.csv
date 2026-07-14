@@ -1,0 +1,5 @@
+id,course_code,title,credit_value,is_prerequisite,category,course_id,degree_requirement_id
+1,10238263,Compact Initiative,24,false,Business Core,1,1
+2,4463667,Legacy Model,30,true,Professional Development,2,2
+3,24077793,Regional Cluster A,36,false,Elective,3,3
+4,1204-0009-L,Seasonal Review,42,true,Business Core,4,4

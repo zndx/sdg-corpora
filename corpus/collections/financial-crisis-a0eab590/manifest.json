@@ -1,0 +1,180 @@
+{
+ "construct_id": "a0eab5907300eee9",
+ "slug": "financial-crisis-a0eab590",
+ "passage": "a0eab5907300eee95aa5f023299951d32e29767d7c673d377455462a5f7fb29a.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 16,
+ "entities": [
+  "FinancialCrisis",
+  "EconomicCondition",
+  "BailoutProgram",
+  "GovernmentAgency",
+  "FinancialInstitution",
+  "PolicyDecision"
+ ],
+ "terms": [
+  {
+   "name": "FinancialCrisis",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "EconomicCondition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "BailoutProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GovernmentAgency",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "FinancialInstitution",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "PolicyDecision",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "financial_crisises",
+   "rows": 4,
+   "columns": [
+    "id",
+    "start_date",
+    "end_date",
+    "severity_index",
+    "affected_regions",
+    "primary_trigger",
+    "policy_decision_id",
+    "bailout_program_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "economic_conditions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "condition_type",
+    "measurement_value",
+    "measurement_unit",
+    "geographic_scope",
+    "time_period",
+    "financial_crisis_id"
+   ]
+  },
+  {
+   "name": "bailout_programs",
+   "rows": 4,
+   "columns": [
+    "bailout_program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "total_cost",
+    "currency",
+    "status",
+    "financial_crisis_id"
+   ]
+  },
+  {
+   "name": "government_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_name",
+    "jurisdiction",
+    "established_date",
+    "agency_type",
+    "legal_authority",
+    "bailout_program_id",
+    "financial_institution_id",
+    "policy_decision_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "financial_institutions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "institution_name",
+    "institution_type",
+    "asset_size",
+    "currency",
+    "risk_rating",
+    "is_systemically_important",
+    "bailout_program_id",
+    "government_agency_id",
+    "economic_condition_id"
+   ]
+  },
+  {
+   "name": "policy_decisions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "decision_title",
+    "effective_date",
+    "decision_type",
+    "issuing_authority",
+    "legal_basis",
+    "economic_condition_id",
+    "government_agency_id",
+    "financial_crisis_id"
+   ]
+  },
+  {
+   "name": "crisises_conditions",
+   "rows": 8,
+   "columns": [
+    "financial_crisis_id",
+    "economic_condition_id"
+   ]
+  },
+  {
+   "name": "programs_agencies",
+   "rows": 8,
+   "columns": [
+    "bailout_program_id",
+    "government_agency_id"
+   ]
+  },
+  {
+   "name": "programs_institutions",
+   "rows": 8,
+   "columns": [
+    "bailout_program_id",
+    "financial_institution_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_financial_crisis_economic_condition_detail",
+  "v_financial_crisis_policy_decision",
+  "v_financial_crisis_bailout_program",
+  "v_economic_condition_financial_crisis",
+  "v_bailout_program_government_agency_detail",
+  "v_bailout_program_financial_institution_detail",
+  "v_bailout_program_financial_crisis",
+  "v_government_agency_bailout_program",
+  "v_government_agency_financial_institution",
+  "v_government_agency_policy_decision",
+  "v_financial_institution_bailout_program",
+  "v_financial_institution_government_agency",
+  "v_financial_institution_economic_condition",
+  "v_policy_decision_economic_condition",
+  "v_policy_decision_government_agency",
+  "v_policy_decision_financial_crisis"
+ ]
+}

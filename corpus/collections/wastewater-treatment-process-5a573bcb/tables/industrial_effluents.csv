@@ -1,0 +1,5 @@
+id,effluent_identifier,source_industry,pollutant_concentration,biodegradability_status,toxicity_level,sample_collection_date
+1000,EFF-2121,textile & dyeing,18.95,non-biodegradable,highly toxic,2025-12-06T23:57:00
+1001,EFF-2128,tannery,21.90,recalcitrant,hazardous,2022-05-17T06:14:00
+1002,EFF-2135,paper & pulp,24.85,persistent,moderate,2023-10-01T13:31:00
+1003,EFF-2142,chemical,27.80,non-biodegradable,highly toxic,2024-03-12T20:48:00

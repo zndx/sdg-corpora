@@ -1,0 +1,134 @@
+{
+ "construct_id": "43cb487986008b38",
+ "slug": "accreditation-certificate-43cb4879",
+ "passage": "43cb487986008b381365d62c95b260aad105119db73e45d810f83dde5a841760.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 9,
+ "entities": [
+  "AccreditationCertificate",
+  "CalibrationLaboratory",
+  "CalibrationStandard",
+  "CalibrationParameter",
+  "MeasurementEquipment"
+ ],
+ "terms": [
+  {
+   "name": "AccreditationCertificate",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CalibrationLaboratory",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "CalibrationStandard",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CalibrationParameter",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "MeasurementEquipment",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "accreditation_certificates",
+   "rows": 4,
+   "columns": [
+    "certificate_number",
+    "issue_date",
+    "expiry_date",
+    "accreditation_body",
+    "status",
+    "calibration_laboratory_id"
+   ]
+  },
+  {
+   "name": "calibration_laboratories",
+   "rows": 4,
+   "columns": [
+    "calibration_laboratory_id",
+    "laboratory_name",
+    "address",
+    "contact_phone",
+    "contact_person",
+    "facility_type",
+    "certificate_number"
+   ]
+  },
+  {
+   "name": "calibration_standards",
+   "rows": 4,
+   "columns": [
+    "calibration_standard_id",
+    "standard_identifier",
+    "standard_name",
+    "publication_year",
+    "issuing_organization",
+    "certificate_number"
+   ]
+  },
+  {
+   "name": "calibration_parameters",
+   "rows": 4,
+   "columns": [
+    "calibration_parameter_id",
+    "parameter_name",
+    "measurement_range",
+    "expanded_uncertainty",
+    "uncertainty_unit",
+    "frequency_range",
+    "coverage_factor",
+    "calibration_laboratory_id",
+    "calibration_standard_id"
+   ]
+  },
+  {
+   "name": "measurement_equipments",
+   "rows": 4,
+   "columns": [
+    "equipment_type",
+    "equipment_model",
+    "serial_number",
+    "manufacturer",
+    "calibration_status",
+    "calibration_parameter_id",
+    "calibration_laboratory_id"
+   ]
+  },
+  {
+   "name": "certificates_standards",
+   "rows": 8,
+   "columns": [
+    "certificate_number",
+    "calibration_standard_id"
+   ]
+  },
+  {
+   "name": "laboratories_parameters",
+   "rows": 8,
+   "columns": [
+    "calibration_laboratory_id",
+    "calibration_parameter_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_accreditation_certificate_calibration_laboratory",
+  "v_accreditation_certificate_calibration_standard_detail",
+  "v_calibration_laboratory_accreditation_certificate",
+  "v_calibration_laboratory_calibration_parameter_detail",
+  "v_calibration_standard_accreditation_certificate",
+  "v_calibration_parameter_calibration_laboratory",
+  "v_calibration_parameter_calibration_standard",
+  "v_measurement_equipment_calibration_parameter",
+  "v_measurement_equipment_calibration_laboratory"
+ ]
+}

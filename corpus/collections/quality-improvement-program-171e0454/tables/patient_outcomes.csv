@@ -1,0 +1,5 @@
+id,outcome_i_d,measurement_date,outcome_type,value,unit_of_measure,improvement_direction,quality_improvement_program_id,quantitative_analytic_tool_id,first_responder_organization_id,created_at,updated_at
+100,OUT-2379,2024-07-01T18:54:00,mortality,19.95,composite-unit-69,improved,100,1000,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,OUT-2380,2025-12-12T01:11:00,morbidity,21.90,primary-unit-70,worsened,101,1001,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,OUT-2381,2022-05-23T08:28:00,recoveryRate,23.85,adaptive-unit-71,unchanged,102,1002,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,OUT-2382,2023-10-07T15:45:00,complicationRate,25.80,distributed-unit-72,improved,103,1003,4,2025-04-16 09:14:00,2025-04-23 15:41:00

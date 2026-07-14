@@ -1,0 +1,5 @@
+id,document_identifier,document_type,version_number,issue_date,distribution_status,contains_grandfather_status,requires_amendment,health_plan_id
+1,DOC-2128,SPD,VER-2245,2023-02-01,draft,true,true,100
+2,DOC-2129,plan_document,VER-2249,2024-07-12,approved,false,false,101
+3,DOC-2130,wrap_document,VER-2253,2025-12-23,distributed,true,true,102
+4,DOC-2131,enrollment_material,VER-2257,2022-05-07,archived,false,false,103

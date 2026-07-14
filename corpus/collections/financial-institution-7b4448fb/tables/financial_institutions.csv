@@ -1,0 +1,5 @@
+id,institution_id,legal_name,jurisdiction,market_value_rank,established_year,is_cross_border,regulatory_status,sanctions_screening_tool_id,financial_institution_id
+1000,9424913,Adaptive Model,regional-jurisdic-30,16,10,true,compliant,100,1000
+1001,8189481,Primary Cluster,legacy-jurisdic-31,19,16,false,non-compliant,101,1001
+1002,1437604,Composite Review D,compact-jurisdic-32,22,22,true,under-review,102,1002
+1003,884346,Compact Initiative,composite-jurisdic-33,25,28,false,compliant,103,1003

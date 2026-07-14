@@ -1,0 +1,5 @@
+mathematical_problem_id,problem_name,classical_complexity,quantum_complexity,quantum_computer_id
+100,integer_factorization,hard,easy,1000
+101,discrete_logarithm,easy,hard,1001
+102,integer_factorization,hard,easy,1002
+103,discrete_logarithm,easy,hard,1003

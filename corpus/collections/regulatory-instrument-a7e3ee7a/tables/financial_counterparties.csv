@@ -1,0 +1,5 @@
+financial_counterparty_id,counterparty_identifier,legal_name,entity_type,jurisdiction,registration_status,clearing_threshold_exceeded,regulatory_instrument_id,collateral_id,created_at,updated_at
+1000,COU-2085,Adaptive Model,UCITS,regional-jurisdic-30,authorised,true,100,1000,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,COU-2092,Primary Cluster,AIF,legacy-jurisdic-31,registered,false,101,1001,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,COU-2099,Composite Review D,FinancialCounterparty,compact-jurisdic-32,unregistered,true,102,1002,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,COU-2106,Compact Initiative,UCITS,composite-jurisdic-33,authorised,false,103,1003,2025-04-16 09:14:00,2025-04-23 15:41:00

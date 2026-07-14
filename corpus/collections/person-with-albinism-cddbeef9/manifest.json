@@ -1,0 +1,173 @@
+{
+ "construct_id": "cddbeef9542b9b75",
+ "slug": "person-with-albinism-cddbeef9",
+ "passage": "cddbeef9542b9b756c96da340d331dc0d1e4fd67c3a71e484df2000dbe3443f7.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 15,
+ "entities": [
+  "PersonWithAlbinism",
+  "EducationProgram",
+  "MainstreamSchool",
+  "EnvironmentalAccommodation",
+  "SocialStigma"
+ ],
+ "terms": [
+  {
+   "name": "PersonWithAlbinism",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EducationProgram",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MainstreamSchool",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnvironmentalAccommodation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "SocialStigma",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "person_with_albinisms",
+   "rows": 4,
+   "columns": [
+    "person_with_albinism_id",
+    "person_id",
+    "name",
+    "date_of_birth",
+    "vision_level",
+    "skin_sensitivity",
+    "current_location",
+    "enrolled_in_program",
+    "education_program_id",
+    "social_stigma_id",
+    "environmental_accommodation_id"
+   ]
+  },
+  {
+   "name": "education_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "status",
+    "target_demographic",
+    "funding_source",
+    "mainstream_school_id",
+    "environmental_accommodation_id"
+   ]
+  },
+  {
+   "name": "mainstream_schools",
+   "rows": 4,
+   "columns": [
+    "id",
+    "school_id",
+    "school_name",
+    "location",
+    "academic_standard",
+    "enrollment_capacity",
+    "has_inclusive_policy",
+    "last_inspection_date",
+    "environmental_accommodation_id",
+    "social_stigma_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "environmental_accommodations",
+   "rows": 4,
+   "columns": [
+    "environmental_accommodation_id",
+    "accommodation_id",
+    "accommodation_type",
+    "implementation_date",
+    "effectiveness_rating",
+    "status",
+    "description",
+    "mainstream_school_id",
+    "education_program_id"
+   ]
+  },
+  {
+   "name": "social_stigmas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "stigma_id",
+    "stigma_type",
+    "severity_level",
+    "location",
+    "date_reported",
+    "source",
+    "mainstream_school_id",
+    "education_program_id",
+    "created_at"
+   ]
+  },
+  {
+   "name": "programs_albinisms",
+   "rows": 8,
+   "columns": [
+    "education_program_id",
+    "person_with_albinism_id"
+   ]
+  },
+  {
+   "name": "schools_albinisms",
+   "rows": 8,
+   "columns": [
+    "mainstream_school_id",
+    "person_with_albinism_id"
+   ]
+  },
+  {
+   "name": "accommodations_albinisms",
+   "rows": 8,
+   "columns": [
+    "environmental_accommodation_id",
+    "person_with_albinism_id"
+   ]
+  },
+  {
+   "name": "stigmas_albinisms",
+   "rows": 8,
+   "columns": [
+    "social_stigma_id",
+    "person_with_albinism_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_person_with_albinism_education_program",
+  "vw_person_with_albinism_social_stigma",
+  "vw_person_with_albinism_environmental_accommodation",
+  "vw_education_program_person_with_albinism_detail",
+  "vw_education_program_mainstream_school",
+  "vw_education_program_environmental_accommodation",
+  "vw_mainstream_school_person_with_albinism_detail",
+  "vw_mainstream_school_environmental_accommodation",
+  "vw_mainstream_school_social_stigma",
+  "vw_environmental_accommodation_mainstream_school",
+  "vw_environmental_accommodation_person_with_albinism_detail",
+  "vw_environmental_accommodation_education_program",
+  "vw_social_stigma_person_with_albinism_detail",
+  "vw_social_stigma_mainstream_school",
+  "vw_social_stigma_education_program"
+ ]
+}

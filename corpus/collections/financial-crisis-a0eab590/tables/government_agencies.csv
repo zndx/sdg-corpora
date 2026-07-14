@@ -1,0 +1,5 @@
+id,agency_name,jurisdiction,established_date,agency_type,legal_authority,bailout_program_id,financial_institution_id,policy_decision_id,created_at,updated_at
+1000,FSG Social Impact Advisors,regional-jurisdic-30,2024-03-27,centralBank,regional-legal-78,1,1,1,2025-01-01 00:14:00,2025-01-02 00:41:00
+1001,Whirlpool Corporation,legacy-jurisdic-31,2025-08-11,treasury,legacy-legal-79,2,2,2,2025-02-06 03:14:00,2025-02-09 05:41:00
+1002,Education Writers Association,compact-jurisdic-32,2022-01-22,regulator,compact-legal-80,3,3,3,2025-03-11 06:14:00,2025-03-16 10:41:00
+1003,Switch Card Services Ltd.,composite-jurisdic-33,2023-06-06,centralBank,composite-legal-81,4,4,4,2025-04-16 09:14:00,2025-04-23 15:41:00

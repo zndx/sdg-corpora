@@ -1,0 +1,170 @@
+{
+ "construct_id": "c17b84251544aeb9",
+ "slug": "health-and-safety-policy-c17b8425",
+ "passage": "c17b84251544aeb92b89a81c7a2e1898b7dfb3d23e18c7735b76c70ca892e940.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 15,
+ "entities": [
+  "HealthAndSafetyPolicy",
+  "WorkplaceActivity",
+  "Worker",
+  "SafetyIncident",
+  "FacilityZone",
+  "HarassmentPolicy",
+  "ViolencePolicy"
+ ],
+ "terms": [
+  {
+   "name": "HealthAndSafetyPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "WorkplaceActivity",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Worker",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "SafetyIncident",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FacilityZone",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HarassmentPolicy",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ViolencePolicy",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "health_and_safety_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_identifier",
+    "effective_date",
+    "issuing_authority",
+    "compliance_standard",
+    "policy_status",
+    "workplace_activity_id"
+   ]
+  },
+  {
+   "name": "workplace_activities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "activity_code",
+    "location_zone",
+    "risk_level",
+    "scheduled_date",
+    "status",
+    "worker_id",
+    "facility_zone_id",
+    "health_and_safety_policy_id"
+   ]
+  },
+  {
+   "name": "workers",
+   "rows": 4,
+   "columns": [
+    "worker_id",
+    "role",
+    "department",
+    "safety_training_status",
+    "certification_expiry",
+    "workplace_activity_id",
+    "reports_to_worker_id",
+    "harassment_policy_id"
+   ]
+  },
+  {
+   "name": "safety_incidents",
+   "rows": 4,
+   "columns": [
+    "id",
+    "incident_id",
+    "incident_type",
+    "severity_level",
+    "reported_date",
+    "investigation_status",
+    "worker_id",
+    "facility_zone_id",
+    "investigated_by_worker_id"
+   ]
+  },
+  {
+   "name": "facility_zones",
+   "rows": 4,
+   "columns": [
+    "facility_zone_id",
+    "zone_code",
+    "zone_name",
+    "occupancy_limit",
+    "hazard_rating",
+    "last_inspection_date",
+    "safety_incident_id",
+    "workplace_activity_id"
+   ]
+  },
+  {
+   "name": "harassment_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_identifier",
+    "effective_date",
+    "issuing_authority",
+    "compliance_standard",
+    "policy_status",
+    "worker_id",
+    "safety_incident_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "violence_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_identifier",
+    "effective_date",
+    "issuing_authority",
+    "compliance_standard",
+    "policy_status",
+    "worker_id",
+    "safety_incident_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_health_and_safety_policy_workplace_activity",
+  "v_workplace_activity_worker",
+  "v_workplace_activity_facility_zone",
+  "v_workplace_activity_health_and_safety_policy",
+  "v_worker_workplace_activity",
+  "v_worker_worker",
+  "v_worker_harassment_policy",
+  "v_safety_incident_worker",
+  "v_safety_incident_facility_zone",
+  "v_facility_zone_safety_incident",
+  "v_facility_zone_workplace_activity",
+  "v_harassment_policy_worker",
+  "v_harassment_policy_safety_incident",
+  "v_violence_policy_worker",
+  "v_violence_policy_safety_incident"
+ ]
+}

@@ -1,0 +1,5 @@
+carcinogenicity_assessment_id,assessment_date,carcinogenicity_status,evidence_level,reporting_body,report_year,report_title,is_mutagenic,genotoxicity_findings,chemical_substance_id,mechanism_of_carcinogenesis_id
+1,2022-05-10T04:24:00,known to be a human carcinogen,sufficient evidence,IARC,22,Composite Protocol,true,consistent,1,100
+2,2023-10-21T11:41:00,reasonably anticipated to be a human carcinogen,limited evidence,NTP,26,Compact Programme A,false,inconclusive,2,101
+3,2024-03-05T18:58:00,not classifiable as to its carcinogenicity to humans,inadequate evidence,EPA,30,Legacy Standard,true,equivocal,3,102
+4,2025-08-16T01:15:00,known to be a human carcinogen,sufficient evidence,IARC,34,Regional Framework,false,consistent,4,103

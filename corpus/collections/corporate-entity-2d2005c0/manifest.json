@@ -1,0 +1,123 @@
+{
+ "construct_id": "2d2005c0c3d9bd6b",
+ "slug": "corporate-entity-2d2005c0",
+ "passage": "2d2005c0c3d9bd6b95c9834b5d824ac70c96931b8cbfabbf28927dfbd4a2c8ac.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 9,
+ "entities": [
+  "CorporateEntity",
+  "CorporateExecutive",
+  "Consultant",
+  "FinancialAdvisor",
+  "CommunicationsAdvisor"
+ ],
+ "terms": [
+  {
+   "name": "CorporateEntity",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CorporateExecutive",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Consultant",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialAdvisor",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CommunicationsAdvisor",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "corporate_entities",
+   "rows": 4,
+   "columns": [
+    "id",
+    "legal_name",
+    "ticker_symbol",
+    "market_listing",
+    "headquarters_country",
+    "market_segment",
+    "corporate_executive_id",
+    "consultant_id",
+    "financial_advisor_id",
+    "communications_advisor_id"
+   ]
+  },
+  {
+   "name": "corporate_executives",
+   "rows": 4,
+   "columns": [
+    "corporate_executive_id",
+    "full_name",
+    "job_title",
+    "reporting_line",
+    "appointment_status",
+    "primary_domain",
+    "reports_to_corporate_executive_id",
+    "corporate_entity_id",
+    "holds_role_at_corporate_entity_id"
+   ]
+  },
+  {
+   "name": "consultants",
+   "rows": 4,
+   "columns": [
+    "id",
+    "consultant_name",
+    "service_type",
+    "contact_phone",
+    "advisor_role",
+    "corporate_entity_id",
+    "represents_corporate_entity_id"
+   ]
+  },
+  {
+   "name": "financial_advisors",
+   "rows": 4,
+   "columns": [
+    "financial_advisor_id",
+    "advisor_firm_name",
+    "service_category",
+    "contact_phone",
+    "advisor_representative",
+    "corporate_entity_id",
+    "represents_corporate_entity_id"
+   ]
+  },
+  {
+   "name": "communications_advisors",
+   "rows": 4,
+   "columns": [
+    "communications_advisor_id",
+    "pr_firm_name",
+    "service_category",
+    "contact_phone",
+    "pr_representative",
+    "corporate_entity_id",
+    "represents_corporate_entity_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_corporate_entity_corporate_executive",
+  "vw_corporate_entity_consultant",
+  "vw_corporate_entity_financial_advisor",
+  "vw_corporate_entity_communications_advisor",
+  "vw_corporate_executive_corporate_executive",
+  "vw_corporate_executive_corporate_entity",
+  "vw_consultant_corporate_entity",
+  "vw_financial_advisor_corporate_entity",
+  "vw_communications_advisor_corporate_entity"
+ ]
+}

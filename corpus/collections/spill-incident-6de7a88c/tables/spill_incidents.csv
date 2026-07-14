@@ -1,0 +1,5 @@
+id,incident_id,incident_name,spill_number,incident_date_time,incident_status,vessel_name,vessel_type,vessel_length,geographic_location_id,vessel_id,ecological_resource_id,response_agency_id,created_at,updated_at
+100,1336174,Regional Corridor,SPI-2398,2022-01-08T00:48:00,pending,Extended Model,adaptive-vessel-29,0.48,1,1,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,state_uk_4,Seasonal Series D,SPI-2405,2023-06-19T07:05:00,active,Pilot Cluster A,distributed-vessel-30,0.85,2,2,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,2933483,Integrated Assessment,SPI-2412,2024-11-03T14:22:00,contained,Baseline Review,baseline-vessel-31,1.42,3,3,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,2986243,Extended Survey,SPI-2419,2025-04-14T21:39:00,closed,Distributed Initiative,pilot-vessel-32,0.585,4,4,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

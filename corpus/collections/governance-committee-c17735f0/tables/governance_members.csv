@@ -1,0 +1,5 @@
+id,member_i_d,role_title,is_external,certification_type,appointment_date,governance_committee_id,unit_i_d
+100,MEM-2021,Distributed Standard,true,distributed-certific-96,2022-05-03,1,UNI-2698
+101,MEM-2023,Adaptive Framework D,false,baseline-certific-97,2023-10-14,2,UNI-2702
+102,MEM-2025,Primary Protocol,true,pilot-certific-98,2024-03-25,3,UNI-2706
+103,MEM-2027,Composite Programme,false,extended-certific-99,2025-08-09,4,UNI-2710

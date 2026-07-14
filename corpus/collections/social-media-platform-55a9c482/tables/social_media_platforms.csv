@@ -1,0 +1,5 @@
+id,platform_identifier,platform_name,primary_function,adoption_status,usage_frequency,is_enterprise_grade
+1,PLA-2037,Baseline Initiative D,messaging,officially_adopted,daily,true
+2,PLA-2041,Distributed Model,file_sharing,informally_used,weekly,false
+3,PLA-2045,Adaptive Cluster,video_calling,not_adopted,monthly,true
+4,PLA-2049,Primary Review A,micro_blogging,officially_adopted,rarely,false

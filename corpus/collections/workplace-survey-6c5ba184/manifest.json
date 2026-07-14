@@ -1,0 +1,236 @@
+{
+ "construct_id": "6c5ba1842905ffc5",
+ "slug": "workplace-survey-6c5ba184",
+ "passage": "6c5ba1842905ffc5bc1116e8db4c2a933642138537d01272f305c1c06caa5c82.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 13,
+ "n_views": 21,
+ "entities": [
+  "WorkplaceSurvey",
+  "ResearchFirm",
+  "Organization",
+  "WorkplaceAward",
+  "MediaPartner",
+  "Employee",
+  "ClientSector"
+ ],
+ "terms": [
+  {
+   "name": "WorkplaceSurvey",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ResearchFirm",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Organization",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "WorkplaceAward",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "MediaPartner",
+   "genus": "bfo:00000958"
+  },
+  {
+   "name": "Employee",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClientSector",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "workplace_surveys",
+   "rows": 4,
+   "columns": [
+    "id",
+    "survey_id",
+    "administered_by",
+    "survey_date",
+    "total_employees",
+    "organizational_health_score",
+    "alignment_score",
+    "execution_score",
+    "connection_score",
+    "status",
+    "research_firm_id",
+    "organization_id",
+    "workplace_award_id"
+   ]
+  },
+  {
+   "name": "research_firms",
+   "rows": 4,
+   "columns": [
+    "research_firm_id",
+    "firm_id",
+    "firm_name",
+    "headquarters_location",
+    "founding_year",
+    "b_corp_member",
+    "specialization",
+    "consulting_services",
+    "organization_id"
+   ]
+  },
+  {
+   "name": "organizations",
+   "rows": 4,
+   "columns": [
+    "organization_id",
+    "org_id",
+    "org_name",
+    "established_year",
+    "industry",
+    "employee_count",
+    "platinum_member",
+    "parent_org",
+    "acquisition_date",
+    "workplace_survey_id",
+    "workplace_award_id",
+    "acquired_organization_id"
+   ]
+  },
+  {
+   "name": "workplace_awards",
+   "rows": 4,
+   "columns": [
+    "workplace_award_id",
+    "award_id",
+    "award_name",
+    "award_year",
+    "rank",
+    "issuing_body",
+    "criteria_met",
+    "award_description",
+    "organization_id",
+    "workplace_survey_id",
+    "media_partner_id"
+   ]
+  },
+  {
+   "name": "media_partners",
+   "rows": 4,
+   "columns": [
+    "id",
+    "partner_id",
+    "partner_name",
+    "country",
+    "prestige_level",
+    "campaign_participation",
+    "research_firm_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "employees",
+   "rows": 4,
+   "columns": [
+    "employee_id",
+    "employee_name",
+    "department",
+    "years_employed",
+    "feedback_submitted",
+    "professionalism_rating",
+    "teamwork_rating",
+    "organization_id",
+    "workplace_survey_id",
+    "client_sector_id"
+   ]
+  },
+  {
+   "name": "client_sectors",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sector_id",
+    "sector_name",
+    "sector_type",
+    "service_level",
+    "implementation_complexity",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "firms_surveys",
+   "rows": 8,
+   "columns": [
+    "research_firm_id",
+    "workplace_survey_id"
+   ]
+  },
+  {
+   "name": "firms_partners",
+   "rows": 8,
+   "columns": [
+    "research_firm_id",
+    "media_partner_id"
+   ]
+  },
+  {
+   "name": "organizations_employees",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "employee_id"
+   ]
+  },
+  {
+   "name": "organizations_sectors",
+   "rows": 8,
+   "columns": [
+    "organization_id",
+    "client_sector_id"
+   ]
+  },
+  {
+   "name": "partners_awards",
+   "rows": 8,
+   "columns": [
+    "media_partner_id",
+    "workplace_award_id"
+   ]
+  },
+  {
+   "name": "sectors_organizations",
+   "rows": 8,
+   "columns": [
+    "client_sector_id",
+    "organization_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_workplace_survey_research_firm",
+  "v_workplace_survey_organization",
+  "v_workplace_survey_workplace_award",
+  "v_research_firm_workplace_survey_detail",
+  "v_research_firm_media_partner_detail",
+  "v_research_firm_organization",
+  "v_organization_workplace_survey",
+  "v_organization_workplace_award",
+  "v_organization_organization",
+  "v_organization_employee_detail",
+  "v_organization_client_sector_detail",
+  "v_workplace_award_organization",
+  "v_workplace_award_workplace_survey",
+  "v_workplace_award_media_partner",
+  "v_media_partner_workplace_award_detail",
+  "v_media_partner_research_firm",
+  "v_employee_organization",
+  "v_employee_workplace_survey",
+  "v_employee_client_sector",
+  "v_client_sector_organization_detail",
+  "v_client_sector_employee"
+ ]
+}

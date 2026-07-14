@@ -1,0 +1,5 @@
+programId,programName,degreeLevel,departmentId,status,totalCreditsRequired,criteriaId,offeredByDepartmentId
+1,Extended Review,A.A.S.,2087755,active,2,100,2087755
+2,Pilot Initiative A,B.S.,790483,proposed,5,101,790483
+3,Baseline Model,M.S.,505978,closed,2,102,505978
+4,Distributed Cluster,Ph.D.,id_6,suspended,20,103,id_6

@@ -1,0 +1,5 @@
+id,plan_id,position_title,full_time_equivalent,salary_range,is_executive,requires_specialized_skills,statutory_agency_id,administrative_unit_id
+100,505977,Extended Model,7.20,distributed-salary-96,false,true,100,1
+101,727038,Pilot Cluster A,9.40,baseline-salary-97,true,false,101,2
+102,937726,Baseline Review,11.60,pilot-salary-98,false,true,102,3
+103,1290,Distributed Initiative,13.80,extended-salary-99,true,false,103,4

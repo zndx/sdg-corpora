@@ -1,0 +1,180 @@
+{
+ "construct_id": "a59d098fee825c92",
+ "slug": "clinical-trial-a59d098f",
+ "passage": "a59d098fee825c9255ce4f6ffd2f587442aa27fe672234c422d1bb515206c189.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 11,
+ "n_views": 11,
+ "entities": [
+  "ClinicalTrial",
+  "Intervention",
+  "ControlGroup",
+  "ControlIntervention",
+  "OutcomeMeasure",
+  "ClinicalSite"
+ ],
+ "terms": [
+  {
+   "name": "ClinicalTrial",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Intervention",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ControlGroup",
+   "genus": "bfo:00000995"
+  },
+  {
+   "name": "ControlIntervention",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "OutcomeMeasure",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ClinicalSite",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "clinical_trials",
+   "rows": 4,
+   "columns": [
+    "clinical_trial_id",
+    "trial_identifier",
+    "title",
+    "start_date",
+    "end_date",
+    "status",
+    "phase",
+    "primary_outcome",
+    "sample_size",
+    "control_group_id"
+   ]
+  },
+  {
+   "name": "interventions",
+   "rows": 4,
+   "columns": [
+    "intervention_id",
+    "name",
+    "dosage",
+    "unit",
+    "frequency",
+    "route",
+    "clinical_trial_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "control_groups",
+   "rows": 4,
+   "columns": [
+    "control_group_id",
+    "type",
+    "size",
+    "clinical_trial_id",
+    "control_intervention_id"
+   ]
+  },
+  {
+   "name": "control_interventions",
+   "rows": 4,
+   "columns": [
+    "control_intervention_id",
+    "name",
+    "dosage",
+    "unit",
+    "control_group_id"
+   ]
+  },
+  {
+   "name": "outcome_measures",
+   "rows": 4,
+   "columns": [
+    "id",
+    "measure_id",
+    "name",
+    "type",
+    "unit",
+    "collection_method",
+    "clinical_trial_id"
+   ]
+  },
+  {
+   "name": "clinical_sites",
+   "rows": 4,
+   "columns": [
+    "id",
+    "site_id",
+    "name",
+    "address",
+    "city",
+    "state",
+    "country",
+    "principal_investigator"
+   ]
+  },
+  {
+   "name": "trials_interventions",
+   "rows": 8,
+   "columns": [
+    "clinical_trial_id",
+    "intervention_id"
+   ]
+  },
+  {
+   "name": "trials_measures",
+   "rows": 8,
+   "columns": [
+    "clinical_trial_id",
+    "outcome_measure_id"
+   ]
+  },
+  {
+   "name": "trials_sites",
+   "rows": 8,
+   "columns": [
+    "clinical_trial_id",
+    "clinical_site_id"
+   ]
+  },
+  {
+   "name": "sites_trials",
+   "rows": 8,
+   "columns": [
+    "clinical_site_id",
+    "clinical_trial_id"
+   ]
+  },
+  {
+   "name": "sites_measures",
+   "rows": 8,
+   "columns": [
+    "clinical_site_id",
+    "outcome_measure_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_clinical_trial_intervention_detail",
+  "v_clinical_trial_control_group",
+  "v_clinical_trial_outcome_measure_detail",
+  "v_clinical_trial_clinical_site_detail",
+  "v_intervention_clinical_trial",
+  "v_control_group_clinical_trial",
+  "v_control_group_control_intervention",
+  "v_control_intervention_control_group",
+  "v_outcome_measure_clinical_trial",
+  "v_clinical_site_clinical_trial_detail",
+  "v_clinical_site_outcome_measure_detail"
+ ]
+}

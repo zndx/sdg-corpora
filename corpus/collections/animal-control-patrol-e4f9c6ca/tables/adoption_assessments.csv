@@ -1,0 +1,5 @@
+id,assessment_id,assessment_date,temperament_score,health_score,adoptability_rating,special_needs,assessor_id,animal_id,officer_id,adoption_record_adoption_id
+1000,template_ivacode_pagata_20det40ind,2022-05-10T04:24:00,14,23,highly_adoptable,false,5f901eb6-8fcd-11eb-924d-9cd76263cbd0,100,103165,726055
+1001,19508914,2023-10-21T11:41:00,25,34,moderately_adoptable,true,4060646,101,2933464,b83e028a-8fcd-11eb-924d-9cd76263cbd0
+1002,506000,2024-03-05T18:58:00,36,45,low_adoptability,false,eff24a44-8fcb-11eb-924d-9cd76263cbd0,102,10445622,1152667
+1003,1204-0009-M,2025-08-16T01:15:00,47,56,not_adoptable,true,2933475,103,7441150,9246307

@@ -1,0 +1,5 @@
+fund_id,fund_identifier,fund_name,inception_date,fund_class,total_assets_under_management,management_fee_rate,performance_fee_rate,charitable_donation_status,benchmark_index_id,charitable_cause_id,created_at,updated_at
+100,FUN-2670,Seasonal Programme,2024-07-19,seasonal-fund-59,13.95,29.43,10.72,false,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+101,FUN-2672,Integrated Standard,2025-12-03,regional-fund-60,16.90,0.12,0.37,true,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+102,FUN-2674,Extended Framework D,2022-05-14,legacy-fund-61,19.85,89.53,9.54,false,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+103,FUN-2676,Pilot Protocol,2023-10-25,compact-fund-62,22.80,14.31,89.53,true,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

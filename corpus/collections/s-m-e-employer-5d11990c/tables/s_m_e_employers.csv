@@ -1,0 +1,5 @@
+id,employer_id,employee_count,commercial_sector,region,export_status,training_commitment,survey_wave_id,growth_performance_id,finance_access_id
+1,The Hongkong and Shanghai Banking Corporation Limited,131,seasonal-commerci-83,distributed-region-12,false,positive,1,1,1
+2,ChargePoint Holdings.,428,regional-commerci-84,baseline-region-13,true,neutral,2,2,2
+3,Intl. Business Machines,3,legacy-commerci-85,pilot-region-14,false,negative,3,3,3
+4,Feedback Ratings,9,compact-commerci-86,extended-region-15,true,positive,4,4,4

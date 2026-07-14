@@ -1,0 +1,169 @@
+{
+ "construct_id": "99256a1aeed1644b",
+ "slug": "admission-criteria-99256a1a",
+ "passage": "99256a1aeed1644b0708d68265eea02d32867719a8513768cf9b97ec608de5b6.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 13,
+ "entities": [
+  "AdmissionCriteria",
+  "AcademicProgram",
+  "PrerequisiteCourse",
+  "StandardizedExam",
+  "ExperientialRequirement",
+  "Department"
+ ],
+ "terms": [
+  {
+   "name": "AdmissionCriteria",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AcademicProgram",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "PrerequisiteCourse",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "StandardizedExam",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExperientialRequirement",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Department",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "AdmissionCriteria",
+   "rows": 4,
+   "columns": [
+    "id",
+    "criteriaId",
+    "effectiveDate",
+    "minimumGPA",
+    "status",
+    "description",
+    "programId",
+    "examId",
+    "requirementId",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "AcademicProgram",
+   "rows": 4,
+   "columns": [
+    "programId",
+    "programName",
+    "degreeLevel",
+    "departmentId",
+    "status",
+    "totalCreditsRequired",
+    "criteriaId",
+    "offeredByDepartmentId"
+   ]
+  },
+  {
+   "name": "PrerequisiteCourse",
+   "rows": 4,
+   "columns": [
+    "id",
+    "courseCode",
+    "courseTitle",
+    "credits",
+    "departmentId",
+    "status",
+    "criteriaId",
+    "offeredByDepartmentId"
+   ]
+  },
+  {
+   "name": "StandardizedExam",
+   "rows": 4,
+   "columns": [
+    "id",
+    "examCode",
+    "examName",
+    "status",
+    "administeredBy",
+    "lastUsedDate",
+    "criteriaId"
+   ]
+  },
+  {
+   "name": "ExperientialRequirement",
+   "rows": 4,
+   "columns": [
+    "id",
+    "requirementId",
+    "description",
+    "minimumHours",
+    "verificationMethod",
+    "status",
+    "criteriaId"
+   ]
+  },
+  {
+   "name": "Department",
+   "rows": 4,
+   "columns": [
+    "departmentId",
+    "departmentName",
+    "collegeId",
+    "chairpersonName",
+    "status",
+    "criteriaId"
+   ]
+  },
+  {
+   "name": "AdmissionCriteriaPrerequisiteCourse",
+   "rows": 8,
+   "columns": [
+    "criteriaId",
+    "courseId"
+   ]
+  },
+  {
+   "name": "DepartmentAcademicProgram",
+   "rows": 8,
+   "columns": [
+    "departmentId",
+    "programId"
+   ]
+  },
+  {
+   "name": "DepartmentPrerequisiteCourse",
+   "rows": 8,
+   "columns": [
+    "departmentId",
+    "courseId"
+   ]
+  }
+ ],
+ "views": [
+  "v_admission_criteria_academic_program",
+  "v_admission_criteria_prerequisite_course_detail",
+  "v_admission_criteria_standardized_exam",
+  "v_admission_criteria_experiential_requirement",
+  "v_academic_program_admission_criteria",
+  "v_academic_program_department",
+  "v_prerequisite_course_admission_criteria",
+  "v_prerequisite_course_department",
+  "v_standardized_exam_admission_criteria",
+  "v_experiential_requirement_admission_criteria",
+  "v_department_academic_program_detail",
+  "v_department_prerequisite_course_detail",
+  "v_department_admission_criteria"
+ ]
+}

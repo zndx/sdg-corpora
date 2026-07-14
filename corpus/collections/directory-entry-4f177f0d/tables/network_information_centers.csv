@@ -1,0 +1,5 @@
+id,center_name,operating_institution,sponsoring_agency,service_port,service_protocol,service_host,service_status,directory_service_id
+100,Legacy Protocol D,baseline-operatin-91,The GEO Group Inc.,30,primary-service-46,integrated-service-16,active,1000
+101,Regional Programme,pilot-operatin-92,Tata Steel,41,adaptive-service-47,seasonal-service-17,deprecated,1001
+102,Seasonal Standard,extended-operatin-93,RECRUIT EXPRESS PTE LTD,52,distributed-service-48,regional-service-18,active,1002
+103,Integrated Framework A,integrated-operatin-94,American Institutes for Research,63,baseline-service-49,legacy-service-19,deprecated,1003

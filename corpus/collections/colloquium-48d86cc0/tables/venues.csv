@@ -1,0 +1,5 @@
+identifier,building_name,room_number,floor,capacity,location_type,colloquium_id
+IDE-2086,Compact Initiative,ROO-2106,11,32,lecture_hall,1
+IDE-2091,Legacy Model,ROO-2113,19,41,conference_room,2
+IDE-2096,Regional Cluster A,ROO-2120,27,50,auditorium,3
+IDE-2101,Seasonal Review,ROO-2127,35,59,lecture_hall,4

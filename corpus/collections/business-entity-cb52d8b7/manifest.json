@@ -1,0 +1,194 @@
+{
+ "construct_id": "cb52d8b7f49f8bd9",
+ "slug": "business-entity-cb52d8b7",
+ "passage": "cb52d8b7f49f8bd976a82f22b8e5c26b988534b5c25fe6806dd7d9cd7305efc4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 17,
+ "entities": [
+  "BusinessEntity",
+  "Jurisdiction",
+  "MarketStructure",
+  "GovernmentPolicy",
+  "InnovativeBusiness",
+  "IntellectualProperty",
+  "FinancialStatement",
+  "Auditor"
+ ],
+ "terms": [
+  {
+   "name": "BusinessEntity",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Jurisdiction",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "MarketStructure",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernmentPolicy",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "InnovativeBusiness",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "IntellectualProperty",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "FinancialStatement",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "Auditor",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "BusinessEntity",
+   "rows": 4,
+   "columns": [
+    "id",
+    "registrationNumber",
+    "legalForm",
+    "registrationDate",
+    "jurisdiction",
+    "status",
+    "taxIdentificationNumber",
+    "jurisdictionCountryCode",
+    "structureId",
+    "statementId"
+   ]
+  },
+  {
+   "name": "Jurisdiction",
+   "rows": 4,
+   "columns": [
+    "countryCode",
+    "countryName",
+    "registrationAuthority",
+    "taxRate",
+    "legalFrameworkVersion",
+    "entityId"
+   ]
+  },
+  {
+   "name": "MarketStructure",
+   "rows": 4,
+   "columns": [
+    "id",
+    "structureType",
+    "numberOfFirms",
+    "barrierToEntry",
+    "priceControl",
+    "productDifferentiation",
+    "entityId",
+    "policyId"
+   ]
+  },
+  {
+   "name": "GovernmentPolicy",
+   "rows": 4,
+   "columns": [
+    "policyId",
+    "policyType",
+    "issuingAuthority",
+    "effectiveDate",
+    "expirationDate",
+    "targetSector",
+    "entityId",
+    "jurisdictionCountryCode",
+    "businessId"
+   ]
+  },
+  {
+   "name": "InnovativeBusiness",
+   "rows": 4,
+   "columns": [
+    "businessId",
+    "innovationType",
+    "patentCount",
+    "rAndDInvestment",
+    "marketShare",
+    "growthRate",
+    "entityId",
+    "propertyId",
+    "policyId"
+   ]
+  },
+  {
+   "name": "IntellectualProperty",
+   "rows": 4,
+   "columns": [
+    "propertyId",
+    "ipId",
+    "ipType",
+    "registrationDate",
+    "expirationDate",
+    "owner",
+    "jurisdiction",
+    "entityId",
+    "jurisdictionCountryCode",
+    "createdAt",
+    "updatedAt"
+   ]
+  },
+  {
+   "name": "FinancialStatement",
+   "rows": 4,
+   "columns": [
+    "statementId",
+    "statementType",
+    "reportingPeriod",
+    "totalRevenue",
+    "totalExpenses",
+    "netIncome",
+    "preparedBy",
+    "auditStatus",
+    "entityId",
+    "auditorId"
+   ]
+  },
+  {
+   "name": "Auditor",
+   "rows": 4,
+   "columns": [
+    "id",
+    "auditorId",
+    "auditorName",
+    "licenseNumber",
+    "firmName",
+    "certificationBody",
+    "statementId"
+   ]
+  }
+ ],
+ "views": [
+  "vw_business_entity_jurisdiction",
+  "vw_business_entity_market_structure",
+  "vw_business_entity_financial_statement",
+  "vw_jurisdiction_business_entity",
+  "vw_market_structure_business_entity",
+  "vw_market_structure_government_policy",
+  "vw_government_policy_business_entity",
+  "vw_government_policy_jurisdiction",
+  "vw_government_policy_innovative_business",
+  "vw_innovative_business_business_entity",
+  "vw_innovative_business_intellectual_property",
+  "vw_innovative_business_government_policy",
+  "vw_intellectual_property_business_entity",
+  "vw_intellectual_property_jurisdiction",
+  "vw_financial_statement_business_entity",
+  "vw_financial_statement_auditor",
+  "vw_auditor_financial_statement"
+ ]
+}

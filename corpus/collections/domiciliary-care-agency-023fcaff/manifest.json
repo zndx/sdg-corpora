@@ -1,0 +1,178 @@
+{
+ "construct_id": "023fcaffae3de422",
+ "slug": "domiciliary-care-agency-023fcaff",
+ "passage": "023fcaffae3de422fd908fad8b1ce7c6cdd9ffef467d639f6c973081b53b3c2b.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 12,
+ "entities": [
+  "DomiciliaryCareAgency",
+  "RegisteredManager",
+  "RegulatoryInspection",
+  "ServiceRating",
+  "CarePlan",
+  "CareRecipient",
+  "CareStaff"
+ ],
+ "terms": [
+  {
+   "name": "DomiciliaryCareAgency",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "RegisteredManager",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "RegulatoryInspection",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceRating",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "CarePlan",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "CareRecipient",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "CareStaff",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "domiciliary_care_agencies",
+   "rows": 4,
+   "columns": [
+    "domiciliary_care_agency_id",
+    "registration_number",
+    "legal_name",
+    "physical_address",
+    "telephone",
+    "website",
+    "operational_status",
+    "registered_manager_id",
+    "regulatory_inspection_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "registered_managers",
+   "rows": 4,
+   "columns": [
+    "registered_manager_id",
+    "manager_id",
+    "full_name",
+    "registration_date",
+    "legal_responsibility_scope",
+    "domiciliary_care_agency_id"
+   ]
+  },
+  {
+   "name": "regulatory_inspections",
+   "rows": 4,
+   "columns": [
+    "regulatory_inspection_id",
+    "inspection_id",
+    "inspection_date",
+    "publication_date",
+    "notice_period",
+    "inspection_type",
+    "overall_compliance_status",
+    "domiciliary_care_agency_id",
+    "service_rating_id"
+   ]
+  },
+  {
+   "name": "service_ratings",
+   "rows": 4,
+   "columns": [
+    "service_rating_id",
+    "rating_id",
+    "safety_rating",
+    "effectiveness_rating",
+    "caring_rating",
+    "responsiveness_rating",
+    "well_led_rating",
+    "regulatory_inspection_id"
+   ]
+  },
+  {
+   "name": "care_plans",
+   "rows": 4,
+   "columns": [
+    "id",
+    "plan_id",
+    "last_review_date",
+    "dietary_requirements",
+    "medication_regimen",
+    "risk_assessment_status",
+    "care_recipient_id"
+   ]
+  },
+  {
+   "name": "care_recipients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "recipient_id",
+    "date_of_birth",
+    "mental_capacity_status",
+    "primary_language",
+    "domiciliary_care_agency_id",
+    "care_plan_id"
+   ]
+  },
+  {
+   "name": "care_staffs",
+   "rows": 4,
+   "columns": [
+    "care_staff_id",
+    "staff_id",
+    "security_clearance_status",
+    "training_completion_date",
+    "employment_status",
+    "domiciliary_care_agency_id"
+   ]
+  },
+  {
+   "name": "plans_staffs",
+   "rows": 8,
+   "columns": [
+    "care_plan_id",
+    "care_staff_id"
+   ]
+  },
+  {
+   "name": "staffs_recipients",
+   "rows": 8,
+   "columns": [
+    "care_staff_id",
+    "care_recipient_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_domiciliary_care_agency_registered_manager",
+  "v_domiciliary_care_agency_regulatory_inspection",
+  "v_registered_manager_domiciliary_care_agency",
+  "v_regulatory_inspection_domiciliary_care_agency",
+  "v_regulatory_inspection_service_rating",
+  "v_service_rating_regulatory_inspection",
+  "v_care_plan_care_recipient",
+  "v_care_plan_care_staff_detail",
+  "v_care_recipient_domiciliary_care_agency",
+  "v_care_recipient_care_plan",
+  "v_care_staff_domiciliary_care_agency",
+  "v_care_staff_care_recipient_detail"
+ ]
+}

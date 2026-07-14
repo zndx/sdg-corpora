@@ -1,0 +1,5 @@
+service_location_id,location_name,location_type,geographic_scope,supported_languages,social_service_resource_id,hotline_service_phone_number
+1,Legacy Review D,Physical Facility,Local,composite-supporte-69,1000,PHO-2092
+2,Regional Initiative,Virtual Platform,Regional,primary-supporte-70,1001,PHO-2093
+3,Seasonal Model,App Interface,National,adaptive-supporte-71,1002,PHO-2094
+4,Integrated Cluster A,Jurisdiction,International,distributed-supporte-72,1003,PHO-2095

@@ -1,0 +1,131 @@
+{
+ "construct_id": "dc1633944c9fc4d1",
+ "slug": "energy-resource-dc163394",
+ "passage": "dc1633944c9fc4d1cb62299291d91200a340fca6cfebaa966db6f80f249ec0f1.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "EnergyResource",
+  "EnergyExtraction",
+  "HeatTransportMechanism",
+  "GeologicalFormation",
+  "EnergyOutput"
+ ],
+ "terms": [
+  {
+   "name": "EnergyResource",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "EnergyExtraction",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "HeatTransportMechanism",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "GeologicalFormation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "EnergyOutput",
+   "genus": "cco:ont00000995"
+  }
+ ],
+ "tables": [
+  {
+   "name": "energy_resources",
+   "rows": 4,
+   "columns": [
+    "id",
+    "resource_identifier",
+    "resource_name",
+    "renewability_status",
+    "exploitation_rate",
+    "expected_reserves_years",
+    "share_in_energy_mix",
+    "classification_standard",
+    "energy_extraction_id",
+    "formation_id"
+   ]
+  },
+  {
+   "name": "energy_extractions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "extraction_id",
+    "extraction_date",
+    "extraction_method",
+    "extraction_rate",
+    "sustainability_status",
+    "capacity_installed",
+    "capacity_limited",
+    "energy_resource_id",
+    "heat_transport_mechanism_id",
+    "energy_output_id"
+   ]
+  },
+  {
+   "name": "heat_transport_mechanisms",
+   "rows": 4,
+   "columns": [
+    "heat_transport_mechanism_id",
+    "mechanism_id",
+    "mechanism_type",
+    "transport_speed",
+    "recharge_rate",
+    "time_scale",
+    "energy_resource_id",
+    "energy_extraction_id"
+   ]
+  },
+  {
+   "name": "geological_formations",
+   "rows": 4,
+   "columns": [
+    "formation_id",
+    "formation_name",
+    "formation_type",
+    "depth",
+    "temperature",
+    "location_region",
+    "energy_resource_id",
+    "heat_transport_mechanism_id"
+   ]
+  },
+  {
+   "name": "energy_outputs",
+   "rows": 4,
+   "columns": [
+    "energy_output_id",
+    "output_id",
+    "output_date",
+    "energy_quantity",
+    "unit",
+    "conversion_type",
+    "sustainability_limit",
+    "energy_extraction_id",
+    "energy_resource_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_energy_resource_energy_extraction",
+  "v_energy_resource_geological_formation",
+  "v_energy_extraction_energy_resource",
+  "v_energy_extraction_heat_transport_mechanism",
+  "v_energy_extraction_energy_output",
+  "v_heat_transport_mechanism_energy_resource",
+  "v_heat_transport_mechanism_energy_extraction",
+  "v_geological_formation_energy_resource",
+  "v_geological_formation_heat_transport_mechanism",
+  "v_energy_output_energy_extraction",
+  "v_energy_output_energy_resource"
+ ]
+}

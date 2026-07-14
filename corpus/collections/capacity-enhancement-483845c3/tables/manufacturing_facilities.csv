@@ -1,0 +1,5 @@
+id,facility_name,location,facility_type,operational_status,geographic_region_id,product_line_id
+1000,Integrated Protocol A,extended-location-99,integrated,planned,1000,1
+1001,Extended Programme,integrated-location-100,standalone,under_construction,1001,2
+1002,Pilot Standard,seasonal-location-101,joint_venture,operational,1002,3
+1003,Baseline Framework D,regional-location-102,integrated,decommissioned,1003,4

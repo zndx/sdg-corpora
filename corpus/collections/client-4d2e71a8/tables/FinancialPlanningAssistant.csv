@@ -1,0 +1,5 @@
+id,employeeId,fullName,licenseStatus,licenseExpiryDate,officeLocation,employmentStatus,yearsExperience,plannerId,transactionId,clientId,recordId
+1,Norma Fisher,Theodore Mcgrath,licensed,2023-10-06,composite-office-99,active,16,1,1,1000,10449530
+2,Tasha Rodriguez,Account Name,in_training,2024-03-17,primary-office-100,on_leave,22,2,2,1001,10445619
+3,Theodore Mcgrath,Saipan International Airport,expired,2025-08-01,adaptive-office-101,terminated,28,3,3,1002,9568457
+4,Peter Mcdowell,Norma Fisher,licensed,2022-01-12,distributed-office-102,active,34,4,4,1003,20743593

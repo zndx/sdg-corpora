@@ -1,0 +1,153 @@
+{
+ "construct_id": "6b7d1c8b41500d04",
+ "slug": "catering-package-6b7d1c8b",
+ "passage": "6b7d1c8b41500d04a29f7483e5c6303ffcc49c750daed12cd0b95be4551cdf6d.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 9,
+ "n_views": 9,
+ "entities": [
+  "CateringPackage",
+  "MenuFoodItem",
+  "Ingredient",
+  "Sauce",
+  "OrderLine"
+ ],
+ "terms": [
+  {
+   "name": "CateringPackage",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "MenuFoodItem",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Ingredient",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "Sauce",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "OrderLine",
+   "genus": "bfo:0000015"
+  }
+ ],
+ "tables": [
+  {
+   "name": "catering_packages",
+   "rows": 4,
+   "columns": [
+    "catering_package_id",
+    "package_id",
+    "title",
+    "base_price",
+    "epic_price",
+    "serves_count",
+    "status",
+    "menu_food_item_id"
+   ]
+  },
+  {
+   "name": "menu_food_items",
+   "rows": 4,
+   "columns": [
+    "menu_food_item_id",
+    "item_id",
+    "name",
+    "category",
+    "unit_price",
+    "portion_size",
+    "is_gluten_free",
+    "is_vegetarian",
+    "served_with_menu_food_item_id"
+   ]
+  },
+  {
+   "name": "ingredients",
+   "rows": 4,
+   "columns": [
+    "id",
+    "ingredient_id",
+    "name",
+    "type",
+    "certification",
+    "is_allergen"
+   ]
+  },
+  {
+   "name": "sauces",
+   "rows": 4,
+   "columns": [
+    "id",
+    "sauce_id",
+    "name",
+    "is_homemade",
+    "spice_level"
+   ]
+  },
+  {
+   "name": "order_lines",
+   "rows": 4,
+   "columns": [
+    "id",
+    "line_id",
+    "quantity",
+    "unit_price",
+    "total_price",
+    "selected_sauce",
+    "is_epic_upgrade",
+    "menu_food_item_id",
+    "catering_package_id",
+    "sauce_id"
+   ]
+  },
+  {
+   "name": "packages_items",
+   "rows": 8,
+   "columns": [
+    "catering_package_id",
+    "menu_food_item_id"
+   ]
+  },
+  {
+   "name": "items_ingredients",
+   "rows": 8,
+   "columns": [
+    "menu_food_item_id",
+    "ingredient_id"
+   ]
+  },
+  {
+   "name": "ingredients_items",
+   "rows": 8,
+   "columns": [
+    "ingredient_id",
+    "menu_food_item_id"
+   ]
+  },
+  {
+   "name": "sauces_items",
+   "rows": 8,
+   "columns": [
+    "sauce_id",
+    "menu_food_item_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_catering_package_menu_food_item_detail",
+  "v_catering_package_menu_food_item",
+  "v_menu_food_item_ingredient_detail",
+  "v_menu_food_item_menu_food_item",
+  "v_ingredient_menu_food_item_detail",
+  "v_sauce_menu_food_item_detail",
+  "v_order_line_menu_food_item",
+  "v_order_line_catering_package",
+  "v_order_line_sauce"
+ ]
+}

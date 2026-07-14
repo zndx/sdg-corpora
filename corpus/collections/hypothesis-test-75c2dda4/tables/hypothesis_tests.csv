@@ -1,0 +1,5 @@
+id,test_identifier,test_type,significance_level,actual_significance_level,conclusion,conclusion_text,test_statistic_id,population_parameter_id,critical_region_id,created_at,updated_at
+1,TES-2761,one-tailed,7.70,15.70,reject null,adaptive-conclusi-41,100,1,100,2025-01-01 00:14:00,2025-01-02 00:41:00
+2,TES-2765,two-tailed,12.40,17.40,fail to reject null,distributed-conclusi-42,101,2,101,2025-02-06 03:14:00,2025-02-09 05:41:00
+3,TES-2769,one-tailed,17.10,19.10,reject null,baseline-conclusi-43,102,3,102,2025-03-11 06:14:00,2025-03-16 10:41:00
+4,TES-2773,two-tailed,21.80,20.80,fail to reject null,pilot-conclusi-44,103,4,103,2025-04-16 09:14:00,2025-04-23 15:41:00

@@ -1,0 +1,5 @@
+id,org_id,org_name,org_type,established_year,location,status,membership,program_id,beneficiary_id
+1,790471,Extended Review,NGO,10,extended-location-99,active,distributed-membersh-24,1000,325448
+2,1717,Pilot Initiative A,CBO,16,integrated-location-100,inactive,baseline-membersh-25,1001,7731875
+3,69437,Baseline Model,network,22,seasonal-location-101,suspended,pilot-membersh-26,1002,4447008
+4,m16,Distributed Cluster,NGO,28,regional-location-102,active,extended-membersh-27,1003,39800616

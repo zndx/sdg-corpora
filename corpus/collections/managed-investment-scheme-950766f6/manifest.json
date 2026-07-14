@@ -1,0 +1,257 @@
+{
+ "construct_id": "950766f6cf363de4",
+ "slug": "managed-investment-scheme-950766f6",
+ "passage": "950766f6cf363de472fe280ba92bd5ecf2cf10fc045a17b5637049101777f4c5.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 17,
+ "n_views": 19,
+ "entities": [
+  "ManagedInvestmentScheme",
+  "FinancialLicence",
+  "AuthorisedRepresentative",
+  "FinancialProduct",
+  "ProductDisclosureStatement",
+  "Investor",
+  "ComplaintRecord",
+  "ExternalOmbudsman"
+ ],
+ "terms": [
+  {
+   "name": "ManagedInvestmentScheme",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "FinancialLicence",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "AuthorisedRepresentative",
+   "genus": "bfo:0000023"
+  },
+  {
+   "name": "FinancialProduct",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ProductDisclosureStatement",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "Investor",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "ComplaintRecord",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "ExternalOmbudsman",
+   "genus": "bfo:0000004"
+  }
+ ],
+ "tables": [
+  {
+   "name": "managed_investment_schemes",
+   "rows": 4,
+   "columns": [
+    "managed_investment_scheme_id",
+    "scheme_identifier",
+    "scheme_name",
+    "responsible_entity",
+    "is_unlisted",
+    "establishment_date",
+    "financial_licence_id"
+   ]
+  },
+  {
+   "name": "financial_licences",
+   "rows": 4,
+   "columns": [
+    "id",
+    "licence_number",
+    "licence_holder",
+    "issuing_authority",
+    "status",
+    "compliance_date"
+   ]
+  },
+  {
+   "name": "authorised_representatives",
+   "rows": 4,
+   "columns": [
+    "id",
+    "representative_id",
+    "representative_name",
+    "authorisation_date",
+    "remuneration_rate",
+    "contact_email",
+    "financial_licence_id"
+   ]
+  },
+  {
+   "name": "financial_products",
+   "rows": 4,
+   "columns": [
+    "id",
+    "product_type",
+    "product_code",
+    "issue_price",
+    "minimum_investment",
+    "risk_rating",
+    "managed_investment_scheme_id",
+    "product_disclosure_statement_id"
+   ]
+  },
+  {
+   "name": "product_disclosure_statements",
+   "rows": 4,
+   "columns": [
+    "id",
+    "pds_id",
+    "issue_date",
+    "valid_until_date",
+    "total_fees",
+    "significant_risks",
+    "financial_product_id",
+    "financial_licence_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "investors",
+   "rows": 4,
+   "columns": [
+    "investor_id",
+    "investor_name",
+    "registration_date",
+    "total_invested",
+    "contact_phone",
+    "complaint_record_id"
+   ]
+  },
+  {
+   "name": "complaint_records",
+   "rows": 4,
+   "columns": [
+    "id",
+    "complaint_id",
+    "lodged_date",
+    "status",
+    "resolution_date",
+    "escalated_to",
+    "investor_id",
+    "authorised_representative_id",
+    "external_ombudsman_id"
+   ]
+  },
+  {
+   "name": "external_ombudsmans",
+   "rows": 4,
+   "columns": [
+    "external_ombudsman_id",
+    "ombudsman_name",
+    "contact_phone",
+    "contact_email",
+    "jurisdiction",
+    "established_date"
+   ]
+  },
+  {
+   "name": "schemes_products",
+   "rows": 8,
+   "columns": [
+    "managed_investment_scheme_id",
+    "financial_product_id"
+   ]
+  },
+  {
+   "name": "licences_representatives",
+   "rows": 8,
+   "columns": [
+    "financial_licence_id",
+    "authorised_representative_id"
+   ]
+  },
+  {
+   "name": "representatives_products",
+   "rows": 8,
+   "columns": [
+    "authorised_representative_id",
+    "financial_product_id"
+   ]
+  },
+  {
+   "name": "representatives_schemes",
+   "rows": 8,
+   "columns": [
+    "authorised_representative_id",
+    "managed_investment_scheme_id"
+   ]
+  },
+  {
+   "name": "products_representatives",
+   "rows": 8,
+   "columns": [
+    "financial_product_id",
+    "authorised_representative_id"
+   ]
+  },
+  {
+   "name": "statements_investors",
+   "rows": 8,
+   "columns": [
+    "product_disclosure_statement_id",
+    "investor_id"
+   ]
+  },
+  {
+   "name": "investors_schemes",
+   "rows": 8,
+   "columns": [
+    "investor_id",
+    "managed_investment_scheme_id"
+   ]
+  },
+  {
+   "name": "investors_representatives",
+   "rows": 8,
+   "columns": [
+    "investor_id",
+    "authorised_representative_id"
+   ]
+  },
+  {
+   "name": "ombudsmans_records",
+   "rows": 8,
+   "columns": [
+    "external_ombudsman_id",
+    "complaint_record_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_managed_investment_scheme_financial_licence",
+  "v_managed_investment_scheme_financial_product_detail",
+  "v_financial_licence_authorised_representative_detail",
+  "v_authorised_representative_financial_licence",
+  "v_authorised_representative_financial_product_detail",
+  "v_authorised_representative_managed_investment_scheme_detail",
+  "v_financial_product_managed_investment_scheme",
+  "v_financial_product_authorised_representative_detail",
+  "v_financial_product_product_disclosure_statement",
+  "v_product_disclosure_statement_financial_product",
+  "v_product_disclosure_statement_financial_licence",
+  "v_product_disclosure_statement_investor_detail",
+  "v_investor_managed_investment_scheme_detail",
+  "v_investor_authorised_representative_detail",
+  "v_investor_complaint_record",
+  "v_complaint_record_investor",
+  "v_complaint_record_authorised_representative",
+  "v_complaint_record_external_ombudsman",
+  "v_external_ombudsman_complaint_record_detail"
+ ]
+}

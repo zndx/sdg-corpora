@@ -1,0 +1,5 @@
+student_search_event_id,search_id,timestamp,initiated_by,reasonableness_inception,reasonableness_scope,intrusiveness_level,outcome,student_id,school_zone_id,school_policy_id
+1000,ea9700d4-8fd1-11eb-924d-9cd76263cbd0,2024-07-08T18:18:00,distributed-initiate-42,false,false,minimal,contraband_found,1,100,100
+1001,1208-0004-M,2025-12-19T01:35:00,baseline-initiate-43,true,true,moderate,no_violation,2,101,101
+1002,ca9ccc68-8fcd-11eb-924d-9cd76263cbd0,2022-05-03T08:52:00,pilot-initiate-44,false,false,excessive,inconclusive,3,102,102
+1003,1996926,2023-10-14T15:09:00,extended-initiate-45,true,true,minimal,contraband_found,4,103,103

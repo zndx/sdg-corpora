@@ -1,0 +1,5 @@
+id,item_name,price,is_available,preparation_method,serving_size,allergen_info,course_id
+1,Seasonal Survey,12.87,true,pilot-preparat-56,primary-serving-40,distributed-allergen-72,100
+2,Integrated Corridor,35.45,false,extended-preparat-57,adaptive-serving-41,baseline-allergen-73,101
+3,Extended Series D,29.24,true,integrated-preparat-58,distributed-serving-42,pilot-allergen-74,102
+4,Pilot Assessment,29.99,false,seasonal-preparat-59,baseline-serving-43,extended-allergen-75,103

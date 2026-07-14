@@ -1,0 +1,5 @@
+id,report_id,report_type,issuance_date,fiscal_period,consolidation_status,publication_url,auditor_name,company_id,regulatory_authority_id
+1000,1202-0008-S,annual,2022-01-17,distributed-fiscal-66,consolidated,https://twitter.com/EvaUNICEF/status/1383845464630456320,Compact Initiative,Link Title,1
+1001,8189500,semi-annual,2023-06-01,baseline-fiscal-67,separate,https://bugs.launchpad.net/fuel/+bug/1621491,Legacy Model,Interac Association,2
+1002,L355,quarterly,2024-11-12,pilot-fiscal-68,consolidated,https://bugs.launchpad.net/kolla-ansible/+bug/1665005,Regional Cluster A,Stern Electronics,3
+1003,5844272,annual,2025-04-23,extended-fiscal-69,separate,https://bugs.launchpad.net/fuel/+bug/1256271,Seasonal Review,Navistar International,4

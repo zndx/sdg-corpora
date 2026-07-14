@@ -1,0 +1,5 @@
+testSheetId,testType,testDate,resultStatus,approvedBy,approvalDate,testSpecification,isElectronic,phaseId,eventId,regulationId,createdAt
+2106711,sanitary_sewer,2024-11-13T22:42:00,pass,regional-approved-54,2023-10-10T21:27:00,compact-test-80,false,1,100,1,2025-01-01 00:14:00
+5006448,storm_sewer,2025-04-24T05:59:00,fail,legacy-approved-55,2024-03-21T04:44:00,composite-test-81,true,2,101,2,2025-02-06 03:14:00
+3001009030020,pressure,2022-09-08T12:16:00,pending_review,compact-approved-56,2025-08-05T11:01:00,primary-test-82,false,3,102,3,2025-03-11 06:14:00
+c7460a44-8fcc-11eb-924d-9cd76263cbd0,flow,2023-02-19T19:33:00,pass,composite-approved-57,2022-01-16T18:18:00,adaptive-test-83,true,4,103,4,2025-04-16 09:14:00

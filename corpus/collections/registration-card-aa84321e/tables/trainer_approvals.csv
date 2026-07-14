@@ -1,0 +1,5 @@
+trainer_approval_id,approval_id,approval_type,grant_date,expiry_date,vat_excluded_price,trainer_id
+1,17629497,New,2022-05-11,2023-10-24,"8,627",1000
+2,3355765,Renewal,2023-10-22,2024-03-08,0.18,1001
+3,18175211,AdditionalScheme,2024-03-06,2025-08-19,289.59,1002
+4,6564391,New,2025-08-17,2022-01-03,442.51,1003

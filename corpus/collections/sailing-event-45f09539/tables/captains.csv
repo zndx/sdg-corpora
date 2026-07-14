@@ -1,0 +1,5 @@
+captain_id,license_number,years_experience,current_status,sailboat_id,sailing_event_id
+1,LIC-2589,16,active,100,1
+2,LIC-2596,22,terminated_event,101,2
+3,LIC-2603,28,active,102,3
+4,LIC-2610,34,terminated_event,103,4

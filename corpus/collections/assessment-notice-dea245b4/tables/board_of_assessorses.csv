@@ -1,0 +1,5 @@
+board_of_assessors_id,board_id,jurisdiction,meeting_date,status,assessment_notice_id,exemption_id,created_at
+1,ChIJH2V4UYBt5kcR5doeFwuU7Ns,regional-jurisdic-30,2023-10-23,regional-status-84,1,5006458,2025-01-01 00:14:00
+2,168553,legacy-jurisdic-31,2024-03-07,legacy-status-85,2,611515,2025-02-06 03:14:00
+3,5006454,compact-jurisdic-32,2025-08-18,compact-status-86,3,e29bafe2-8fd1-11eb-924d-9cd76263cbd0,2025-03-11 06:14:00
+4,1437585,composite-jurisdic-33,2022-01-02,composite-status-87,4,10238272,2025-04-16 09:14:00

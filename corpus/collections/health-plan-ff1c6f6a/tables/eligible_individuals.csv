@@ -1,0 +1,5 @@
+id,individual_identifier,first_name,last_name,date_of_birth,relationship_to_employee,is_adult_dependent,coverage_status,health_plan_id,healthcare_provider_id,created_at
+1,IND-2258,Stephanie Collins,Paul Allen,2025-04-02,employee,false,active,100,1,2025-01-01 00:14:00
+2,IND-2262,Janice Johnston,Heather Beasley,2022-09-13,spouse,true,terminated,101,2,2025-02-06 03:14:00
+3,IND-2266,Upal Saha,Audrey Taylor,2023-02-24,child,false,pending_enrollment,102,3,2025-03-11 06:14:00
+4,IND-2270,Katherine Snyder,Susan Wagner,2024-07-08,early_retiree,true,active,103,4,2025-04-16 09:14:00

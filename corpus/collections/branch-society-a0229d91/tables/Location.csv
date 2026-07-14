@@ -1,0 +1,5 @@
+id,locationID,address,city,state,venueType,meetingId,hostsMeetingMeetingId
+1,LOC-2154,distributed-address-72,integrated-city-34,distributed-state-84,office,1,1
+2,LOC-2157,baseline-address-73,seasonal-city-35,baseline-state-85,museum,2,2
+3,LOC-2160,pilot-address-74,regional-city-36,pilot-state-86,capitol,3,3
+4,LOC-2163,extended-address-75,legacy-city-37,extended-state-87,community_center,4,4

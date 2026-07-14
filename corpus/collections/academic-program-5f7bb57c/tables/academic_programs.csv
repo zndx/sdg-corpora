@@ -1,0 +1,5 @@
+academic_program_id,program_code,degree_level,concentration,total_credit_hours_required,max_advanced_standing_credits,enrollment_mode,effective_date,status,concentration_id,professional_role_id
+1,191,primary-degree-22,distributed-concentr-54,0,13,full-time,2023-02-14,active,1000,100
+2,1186082,adaptive-degree-23,baseline-concentr-55,28,23,part-time,2024-07-25,pending,1001,101
+3,3990187,distributed-degree-24,pilot-concentr-56,8,33,full-time,2025-12-09,archived,1002,102
+4,flexible-thinking,baseline-degree-25,extended-concentr-57,14,43,part-time,2022-05-20,active,1003,103

@@ -1,0 +1,132 @@
+{
+ "construct_id": "2622a44ee410f981",
+ "slug": "surveillance-camera-2622a44e",
+ "passage": "2622a44ee410f9816f69ca8c8a6acdb399fed9a16d5ed0f9d3acc60e1d432689.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 5,
+ "n_views": 11,
+ "entities": [
+  "SurveillanceCamera",
+  "SchoolZone",
+  "StudentSearchEvent",
+  "Student",
+  "SchoolPolicy"
+ ],
+ "terms": [
+  {
+   "name": "SurveillanceCamera",
+   "genus": "cco:ont00000995"
+  },
+  {
+   "name": "SchoolZone",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "StudentSearchEvent",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "Student",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "SchoolPolicy",
+   "genus": "cco:ont00000958"
+  }
+ ],
+ "tables": [
+  {
+   "name": "surveillance_cameras",
+   "rows": 4,
+   "columns": [
+    "id",
+    "camera_id",
+    "location",
+    "installation_date",
+    "is_active",
+    "coverage_area",
+    "resolution",
+    "school_zone_id"
+   ]
+  },
+  {
+   "name": "school_zones",
+   "rows": 4,
+   "columns": [
+    "school_zone_id",
+    "zone_id",
+    "zone_type",
+    "privacy_level",
+    "is_indoor",
+    "capacity",
+    "surveillance_camera_id",
+    "student_search_event_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "student_search_events",
+   "rows": 4,
+   "columns": [
+    "student_search_event_id",
+    "search_id",
+    "timestamp",
+    "initiated_by",
+    "reasonableness_inception",
+    "reasonableness_scope",
+    "intrusiveness_level",
+    "outcome",
+    "student_id",
+    "school_zone_id",
+    "school_policy_id"
+   ]
+  },
+  {
+   "name": "students",
+   "rows": 4,
+   "columns": [
+    "id",
+    "student_id",
+    "age",
+    "sex",
+    "grade_level",
+    "enrollment_status",
+    "student_search_event_id",
+    "school_zone_id"
+   ]
+  },
+  {
+   "name": "school_policies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "title",
+    "effective_date",
+    "last_reviewed",
+    "approval_status",
+    "jurisdiction",
+    "student_search_event_id",
+    "surveillance_camera_id",
+    "school_policy_id"
+   ]
+  }
+ ],
+ "views": [
+  "vw_surveillance_camera_school_zone",
+  "vw_school_zone_surveillance_camera",
+  "vw_school_zone_student_search_event",
+  "vw_student_search_event_student",
+  "vw_student_search_event_school_zone",
+  "vw_student_search_event_school_policy",
+  "vw_student_student_search_event",
+  "vw_student_school_zone",
+  "vw_school_policy_student_search_event",
+  "vw_school_policy_surveillance_camera",
+  "vw_school_policy_school_policy"
+ ]
+}

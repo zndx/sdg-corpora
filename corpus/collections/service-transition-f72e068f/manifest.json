@@ -1,0 +1,179 @@
+{
+ "construct_id": "f72e068ff2c2fb47",
+ "slug": "service-transition-f72e068f",
+ "passage": "f72e068ff2c2fb47f45a60598c2e10a1981b42ab6ed524b911eb5df399a72c93.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 7,
+ "n_views": 18,
+ "entities": [
+  "ServiceTransition",
+  "ServiceUser",
+  "Carer",
+  "HealthCareSetting",
+  "PolicyInstrument",
+  "ResearchProject",
+  "FundingAgency"
+ ],
+ "terms": [
+  {
+   "name": "ServiceTransition",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "ServiceUser",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "Carer",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "HealthCareSetting",
+   "genus": "bfo:0000004"
+  },
+  {
+   "name": "PolicyInstrument",
+   "genus": "cco:ont00000958"
+  },
+  {
+   "name": "ResearchProject",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "FundingAgency",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "service_transitions",
+   "rows": 4,
+   "columns": [
+    "id",
+    "transition_id",
+    "start_date",
+    "end_date",
+    "transition_type",
+    "status",
+    "description",
+    "service_user_id",
+    "carer_id",
+    "health_care_setting_id",
+    "destined_for_health_care_setting_id"
+   ]
+  },
+  {
+   "name": "service_users",
+   "rows": 4,
+   "columns": [
+    "id",
+    "user_id",
+    "name",
+    "date_of_birth",
+    "age_group",
+    "gender",
+    "primary_condition",
+    "health_care_setting_id",
+    "carer_id",
+    "service_transition_id"
+   ]
+  },
+  {
+   "name": "carers",
+   "rows": 4,
+   "columns": [
+    "id",
+    "carer_id",
+    "name",
+    "relationship_to_user",
+    "care_level",
+    "contact_number",
+    "service_user_id",
+    "service_transition_id"
+   ]
+  },
+  {
+   "name": "health_care_settings",
+   "rows": 4,
+   "columns": [
+    "id",
+    "setting_id",
+    "name",
+    "type",
+    "location",
+    "contact_info",
+    "service_user_id",
+    "service_transition_id",
+    "destined_for_transition_service_transition_id"
+   ]
+  },
+  {
+   "name": "policy_instruments",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "name",
+    "type",
+    "effective_date",
+    "status",
+    "description",
+    "service_user_id",
+    "health_care_setting_id",
+    "service_transition_id"
+   ]
+  },
+  {
+   "name": "research_projects",
+   "rows": 4,
+   "columns": [
+    "research_project_id",
+    "project_id",
+    "title",
+    "start_date",
+    "end_date",
+    "funding_source",
+    "status",
+    "service_transition_id",
+    "service_user_id",
+    "carer_id",
+    "funding_agency_id"
+   ]
+  },
+  {
+   "name": "funding_agencies",
+   "rows": 4,
+   "columns": [
+    "id",
+    "agency_id",
+    "name",
+    "type",
+    "contact_info",
+    "research_project_id"
+   ]
+  }
+ ],
+ "views": [
+  "v_service_transition_service_user",
+  "v_service_transition_carer",
+  "v_service_transition_health_care_setting",
+  "v_service_user_health_care_setting",
+  "v_service_user_carer",
+  "v_service_user_service_transition",
+  "v_carer_service_user",
+  "v_carer_service_transition",
+  "v_health_care_setting_service_user",
+  "v_health_care_setting_service_transition",
+  "v_policy_instrument_service_user",
+  "v_policy_instrument_health_care_setting",
+  "v_policy_instrument_service_transition",
+  "v_research_project_service_transition",
+  "v_research_project_service_user",
+  "v_research_project_carer",
+  "v_research_project_funding_agency",
+  "v_funding_agency_research_project"
+ ]
+}

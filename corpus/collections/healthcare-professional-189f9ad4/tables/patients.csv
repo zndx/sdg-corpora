@@ -1,0 +1,5 @@
+patient_id,date_of_birth,diagnosis_date,status,is_minor,healthcare_professional_id,person_id,has_family_member_person_id,has_close_friend_person_id
+100,2025-04-02,2023-10-26,regional-status-84,true,1000,George Bernard Shaw,George Bernard Shaw,George Bernard Shaw
+101,2022-09-13,2024-03-10,legacy-status-85,false,1001,Maria Rodriguez,Maria Rodriguez,Maria Rodriguez
+102,2023-02-24,2025-08-21,compact-status-86,true,1002,Sarah Villanueva,Sarah Villanueva,Sarah Villanueva
+103,2024-07-08,2022-01-05,composite-status-87,false,1003,Susan Wagner,Susan Wagner,Susan Wagner

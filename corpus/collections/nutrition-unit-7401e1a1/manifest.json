@@ -1,0 +1,232 @@
+{
+ "construct_id": "7401e1a1733917cd",
+ "slug": "nutrition-unit-7401e1a1",
+ "passage": "7401e1a1733917cdfb32bfd75d3e9c8ca21087770990277c8fda416b579645d4.txt",
+ "registers": [
+  "natural.md",
+  "semantic.md"
+ ],
+ "n_tables": 8,
+ "n_views": 25,
+ "entities": [
+  "NutritionUnit",
+  "GeographicArea",
+  "BeneficiaryGroup",
+  "TrainingProgram",
+  "StaffMember",
+  "ResearchStudy",
+  "PolicyRecommendation",
+  "GovernmentBody"
+ ],
+ "terms": [
+  {
+   "name": "NutritionUnit",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GeographicArea",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "BeneficiaryGroup",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "TrainingProgram",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "StaffMember",
+   "genus": "bfo:0000002"
+  },
+  {
+   "name": "ResearchStudy",
+   "genus": "bfo:0000015"
+  },
+  {
+   "name": "PolicyRecommendation",
+   "genus": "bfo:0000040"
+  },
+  {
+   "name": "GovernmentBody",
+   "genus": "bfo:0000040"
+  }
+ ],
+ "tables": [
+  {
+   "name": "nutrition_units",
+   "rows": 4,
+   "columns": [
+    "id",
+    "unit_id",
+    "established_date",
+    "annual_budget",
+    "currency_code",
+    "service_status",
+    "operational_scope",
+    "target_population",
+    "management_quality",
+    "geographic_area_id",
+    "beneficiary_group_id",
+    "research_study_id",
+    "staff_member_id"
+   ]
+  },
+  {
+   "name": "geographic_areas",
+   "rows": 4,
+   "columns": [
+    "id",
+    "area_id",
+    "area_name",
+    "population_density",
+    "mortality_rate",
+    "morbidity_rate",
+    "administrative_zone",
+    "socioeconomic_status",
+    "infrastructure_level",
+    "nutrition_unit_id",
+    "beneficiary_group_id",
+    "geographic_area_id"
+   ]
+  },
+  {
+   "name": "beneficiary_groups",
+   "rows": 4,
+   "columns": [
+    "beneficiary_group_id",
+    "group_id",
+    "group_name",
+    "age_range",
+    "gender",
+    "enrollment_date",
+    "discharge_date",
+    "recovery_status",
+    "participation_level",
+    "nutrition_unit_id",
+    "training_program_id"
+   ]
+  },
+  {
+   "name": "training_programs",
+   "rows": 4,
+   "columns": [
+    "id",
+    "program_id",
+    "program_name",
+    "start_date",
+    "end_date",
+    "duration_hours",
+    "target_audience",
+    "completion_rate",
+    "effectiveness_rating",
+    "nutrition_unit_id",
+    "staff_member_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "staff_members",
+   "rows": 4,
+   "columns": [
+    "staff_member_id",
+    "staff_id",
+    "full_name",
+    "role",
+    "employer",
+    "training_completion_date",
+    "performance_rating",
+    "motivation_level",
+    "years_of_experience",
+    "training_program_id",
+    "beneficiary_group_id",
+    "research_study_id"
+   ]
+  },
+  {
+   "name": "research_studies",
+   "rows": 4,
+   "columns": [
+    "research_study_id",
+    "study_id",
+    "study_title",
+    "start_date",
+    "end_date",
+    "study_type",
+    "sample_size",
+    "primary_outcome",
+    "publication_status",
+    "nutrition_unit_id",
+    "staff_member_id",
+    "beneficiary_group_id",
+    "policy_recommendation_id"
+   ]
+  },
+  {
+   "name": "policy_recommendations",
+   "rows": 4,
+   "columns": [
+    "id",
+    "policy_id",
+    "policy_title",
+    "issue_date",
+    "target_policy_area",
+    "adoption_status",
+    "influence_level",
+    "source_study",
+    "research_study_id",
+    "government_body_id",
+    "beneficiary_group_id",
+    "nutrition_unit_id",
+    "created_at",
+    "updated_at"
+   ]
+  },
+  {
+   "name": "government_bodies",
+   "rows": 4,
+   "columns": [
+    "government_body_id",
+    "body_id",
+    "body_name",
+    "country_code",
+    "policy_status",
+    "budget_allocation",
+    "coordination_level",
+    "last_policy_review",
+    "policy_recommendation_id",
+    "nutrition_unit_id",
+    "staff_member_id",
+    "created_at"
+   ]
+  }
+ ],
+ "views": [
+  "v_nutrition_unit_geographic_area",
+  "v_nutrition_unit_beneficiary_group",
+  "v_nutrition_unit_research_study",
+  "v_nutrition_unit_staff_member",
+  "v_geographic_area_nutrition_unit",
+  "v_geographic_area_beneficiary_group",
+  "v_geographic_area_geographic_area",
+  "v_beneficiary_group_nutrition_unit",
+  "v_beneficiary_group_training_program",
+  "v_training_program_nutrition_unit",
+  "v_training_program_staff_member",
+  "v_staff_member_training_program",
+  "v_staff_member_beneficiary_group",
+  "v_staff_member_research_study",
+  "v_research_study_nutrition_unit",
+  "v_research_study_staff_member",
+  "v_research_study_beneficiary_group",
+  "v_research_study_policy_recommendation",
+  "v_policy_recommendation_research_study",
+  "v_policy_recommendation_government_body",
+  "v_policy_recommendation_beneficiary_group",
+  "v_policy_recommendation_nutrition_unit",
+  "v_government_body_policy_recommendation",
+  "v_government_body_nutrition_unit",
+  "v_government_body_staff_member"
+ ]
+}

@@ -1,0 +1,5 @@
+hydrological_stress_id,stress_level,duration,affected_area,impact_on_livelihood,pastoral_community_id,territory_id,water_management_practice_id
+1,compact-stress-20,28,extended-affected-15,regional-impact-36,1,1000,1
+2,composite-stress-21,36,integrated-affected-16,legacy-impact-37,2,1001,2
+3,primary-stress-22,44,seasonal-affected-17,compact-impact-38,3,1002,3
+4,adaptive-stress-23,52,regional-affected-18,composite-impact-39,4,1003,4

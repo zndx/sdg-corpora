@@ -1,0 +1,5 @@
+geographic_region_id,region_id,region_name,country,demographic_survey_id,record_id,education_enrollment_id,child_labor_statistic_id,poverty_index_id,created_at
+1000,46d49f56-8fcc-11eb-924d-9cd76263cbd0,Distributed Assessment,compact-country-26,1,10449530,1000,100,4277031,2025-01-01 00:14:00
+1001,4180948,Adaptive Survey D,composite-country-27,2,10445619,1001,101,1204-0009-M,2025-02-06 03:14:00
+1002,3012829,Primary Corridor,primary-country-28,3,9568457,1002,102,618,2025-03-11 06:14:00
+1003,778576,Composite Series,adaptive-country-29,4,20743593,1003,103,48753450,2025-04-16 09:14:00

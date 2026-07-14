@@ -1,0 +1,5 @@
+service_level_agreement_id,sla_id,provider_id,customer_class,max_bandwidth,latency_threshold,packet_loss_limit,effective_date,expiration_date,traffic_class_id,resource_management_system_id
+100,9568441,3717633,gold,13.95,5.70,5.20,2023-02-14,2025-08-18,1,1000
+101,884346,ChIJYRd8uPtt5kcRunQjrWb4IKs,silver,16.90,7.40,9.40,2024-07-25,2022-01-02,2,1001
+102,9424932,8928519,bronze,19.85,9.10,13.60,2025-12-09,2023-06-13,3,1002
+103,7731866,lu_tax_code_template_m13,gold,22.80,10.80,17.80,2022-05-20,2024-11-24,4,1003

@@ -1,0 +1,5 @@
+record_id,cause_of_death,cause_percentage,male_percentage,female_percentage,age_group,record_year,region,geographic_region_id
+10449530,compact-cause-68,11.70,19.70,9.45,integrated-age-22,17,distributed-region-12,1000
+10445619,composite-cause-69,14.40,21.40,11.90,seasonal-age-23,23,baseline-region-13,1001
+9568457,primary-cause-70,17.10,23.10,14.35,regional-age-24,29,pilot-region-14,1002
+20743593,adaptive-cause-71,19.80,24.80,16.80,legacy-age-25,35,extended-region-15,1003
