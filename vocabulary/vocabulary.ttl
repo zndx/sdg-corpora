@@ -366,7 +366,6 @@
     skos:notation "5.9" ;
     skos:altLabel "INVESTOR_RELATIONS_DIRECTOR_ROLE" ;
     skos:altLabel "InvestorRelationsDirectorRole" ;
-    skos:altLabel "CorporateAgent" ;
     skos:altLabel "InvestorRelationsActivity" ;
     skos:definition "An InvestorRelationsDirectorRole is a role borne by exactly one CorporateAgent that realizes an InvestorRelationsActivity." ;
     skos:broader <https://signals.zndx.org/sdg#SDG_ROLE> ;
@@ -656,9 +655,6 @@
     skos:prefLabel "Cardiothoracic Radiologist Role" ;
     skos:notation "5.16" ;
     skos:altLabel "CARDIOTHORACIC_RADIOLOGIST_ROLE" ;
-    skos:altLabel "CardiothoracicRadiologistRole" ;
-    skos:altLabel "Person" ;
-    skos:altLabel "DiagnosticImagingPractice" ;
     skos:definition "A CardiothoracicRadiologistRole is a role borne by exactly one Person and realizing a DiagnosticImagingPractice." ;
     skos:broader <https://signals.zndx.org/sdg#SDG_ROLE> ;
     skos:inScheme <https://signals.zndx.org/sdg/scheme> .
@@ -1801,7 +1797,6 @@
     skos:notation "5.42" ;
     skos:altLabel "EXECUTIVE_OFFICER_ROLE" ;
     skos:altLabel "ExecutiveOfficerRole" ;
-    skos:altLabel "CorporateAgent" ;
     skos:altLabel "ExecutiveExecutionFunction" ;
     skos:definition "An ExecutiveOfficerRole is a role borne by exactly one CorporateAgent that realizes an ExecutiveExecutionFunction." ;
     skos:broader <https://signals.zndx.org/sdg#SDG_ROLE> ;
@@ -5306,7 +5301,6 @@
     skos:prefLabel "Filler Decisionaction" ;
     skos:notation "0.41" ;
     skos:altLabel "FILLER_DECISIONACTION" ;
-    skos:altLabel "DecisionAction" ;
     skos:definition "An action that is a part of a decision-making process." ;
     skos:broader <https://signals.zndx.org/sdg#SDG_GENERIC> ;
     skos:inScheme <https://signals.zndx.org/sdg/scheme> .
