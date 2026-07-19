@@ -1,16 +1,16 @@
 {
-  "run_id": "3006a01e8b050cb0",
-  "created_at": "2026-07-12T23:12:02.028261+00:00",
+  "run_id": "ae50005cc0a9b7b5",
+  "created_at": "2026-07-19T16:28:16.749841+00:00",
   "catalog_files": [
     "catalog.json"
   ],
-  "n_templates": 486,
-  "n_tables": 486,
+  "n_templates": 506,
+  "n_tables": 506,
   "naming": "natural",
   "n_naturalized_templates": 432,
   "name_provenance_distribution": {
-    "semantic-passthrough": 595,
-    "engine-derived": 906
+    "semantic-passthrough": 715,
+    "engine-derived": 846
   },
   "dialects": [
     "trino",
@@ -19,13 +19,13 @@
   "per_family": null,
   "validated": true,
   "cross_family_fks_emitted": 0,
-  "valid_all_dialects": 485,
+  "valid_all_dialects": 505,
   "materialized_rows": true,
   "row_seed": 44641,
   "realize": false,
   "realize_summary": {},
   "referential_integrity_ok": true,
-  "n_base_cells": 9097,
-  "n_views": 483,
-  "views_valid": 483
+  "n_base_cells": 9472,
+  "n_views": 503,
+  "views_valid": 503
 }
