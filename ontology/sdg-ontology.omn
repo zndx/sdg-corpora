@@ -42,6 +42,45 @@ ObjectProperty: bfo:0000178
 ObjectProperty: bfo:0000196
 ObjectProperty: bfo:0000197
 
+ObjectProperty: bfo:0000055
+    Domain: bfo:0000015
+    Range: bfo:0000017
+    InverseOf: bfo:0000054
+ObjectProperty: bfo:0000054
+    Domain: bfo:0000017
+    Range: bfo:0000015
+ObjectProperty: bfo:0000056
+    Domain: bfo:0000002
+    Range: bfo:0000015
+    InverseOf: bfo:0000057
+ObjectProperty: bfo:0000057
+    Domain: bfo:0000015
+    Range: bfo:0000002
+ObjectProperty: bfo:0000196
+    Domain: bfo:0000004
+    Range: bfo:0000020
+    InverseOf: bfo:0000197
+ObjectProperty: bfo:0000197
+    Domain: bfo:0000020
+    Range: bfo:0000004
+ObjectProperty: bfo:0000176
+    Domain: bfo:0000002
+    Range: bfo:0000002
+    InverseOf: bfo:0000178
+ObjectProperty: bfo:0000178
+    Domain: bfo:0000002
+    Range: bfo:0000002
+ObjectProperty: bfo:0000132
+    Domain: bfo:0000003
+    Range: bfo:0000003
+    InverseOf: bfo:0000117
+ObjectProperty: bfo:0000117
+    Domain: bfo:0000003
+    Range: bfo:0000003
+ObjectProperty: bfo:0000066
+    Domain: bfo:0000003
+    Range: bfo:0000004
+
 
 
 Class: bfo:0000003
@@ -65,12 +104,12 @@ Class: <https://signals.zndx.org/sdg#DisabledAdult>
 Class: <https://signals.zndx.org/sdg#ParentingActivity>
     Annotations: rdfs:label "parenting activity"
 
-Class: <https://signals.zndx.org/sdg#ParentingRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#DisabledAdult>, sdg:realizes some <https://signals.zndx.org/sdg#ParentingActivity>
+Class: <https://signals.zndx.org/sdg#ParentingRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#DisabledAdult>, sdg:realizedIn some <https://signals.zndx.org/sdg#ParentingActivity>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -148,15 +187,16 @@ Class: <https://signals.zndx.org/sdg#YoungResearcherRole>
 Class: <https://signals.zndx.org/sdg#IndependentContinuant>
     Annotations: rdfs:label "independent continuant"
 
-Class: <https://signals.zndx.org/sdg#ResearchActivity>
-    Annotations: rdfs:label "research activity"
+Class: <https://signals.zndx.org/sdg#YoungResearcherResearchProcess>
+    Annotations: rdfs:label "young researcher research process"
 
-Class: <https://signals.zndx.org/sdg#YoungResearcherRole> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizes some <https://signals.zndx.org/sdg#ResearchActivity>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#YoungResearcherRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizedIn some <https://signals.zndx.org/sdg#YoungResearcherResearchProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -171,12 +211,12 @@ Class: <https://signals.zndx.org/sdg#Student>
 Class: <https://signals.zndx.org/sdg#LibraryAssistanceActivity>
     Annotations: rdfs:label "library assistance activity"
 
-Class: <https://signals.zndx.org/sdg#LibraryStudentAssistantRole> SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#Student>, sdg:realizes some <https://signals.zndx.org/sdg#LibraryAssistanceActivity>
+Class: <https://signals.zndx.org/sdg#LibraryStudentAssistantRole> SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#Student>, sdg:realizedIn some <https://signals.zndx.org/sdg#LibraryAssistanceActivity>
 ObjectProperty: sdg:borneBy
     Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -208,15 +248,16 @@ Class: <https://signals.zndx.org/sdg#IndigenousChildRole>
 Class: <https://signals.zndx.org/sdg#IndependentContinuant>
     Annotations: rdfs:label "independent continuant"
 
-Class: <https://signals.zndx.org/sdg#RightsExercise>
-    Annotations: rdfs:label "rights exercise"
+Class: <https://signals.zndx.org/sdg#RightsExerciseProcess>
+    Annotations: rdfs:label "rights exercise process"
 
-Class: <https://signals.zndx.org/sdg#IndigenousChildRole> SubClassOf: bfo:0000023, sdg:bearsOn exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizes some <https://signals.zndx.org/sdg#RightsExercise>
-ObjectProperty: sdg:bearsOn
-    Annotations: rdfs:label "bears on"
+Class: <https://signals.zndx.org/sdg#IndigenousChildRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizedIn some <https://signals.zndx.org/sdg#RightsExerciseProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -228,15 +269,16 @@ Class: <https://signals.zndx.org/sdg#PoliceOfficerRole>
 Class: <https://signals.zndx.org/sdg#LawEnforcementAgency>
     Annotations: rdfs:label "law enforcement agency"
 
-Class: <https://signals.zndx.org/sdg#OperationalUnit>
-    Annotations: rdfs:label "operational unit"
+Class: <https://signals.zndx.org/sdg#PolicePatrolProcess>
+    Annotations: rdfs:label "police patrol process"
 
-Class: <https://signals.zndx.org/sdg#PoliceOfficerRole> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#LawEnforcementAgency>, sdg:realizes some <https://signals.zndx.org/sdg#OperationalUnit>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#PoliceOfficerRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#LawEnforcementAgency>, sdg:realizedIn some <https://signals.zndx.org/sdg#PolicePatrolProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -529,9 +571,6 @@ Class: bfo:0000015
 Class: <https://signals.zndx.org/sdg#InvestorRelationsDirectorRole>
     Annotations: rdfs:label "investor relations director role"
 
-Class: <https://signals.zndx.org/sdg#CorporateAgent>
-    Annotations: rdfs:label "corporate agent"
-
 Class: <https://signals.zndx.org/sdg#InvestorRelationsActivity>
     Annotations: rdfs:label "investor relations activity"
 
@@ -589,15 +628,16 @@ Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerRole>
 Class: <https://signals.zndx.org/sdg#Person>
     Annotations: rdfs:label "person"
 
-Class: <https://signals.zndx.org/sdg#CollegeAdministration>
-    Annotations: rdfs:label "college administration"
+Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess>
+    Annotations: rdfs:label "chief compliance officer service delivery process"
 
-Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#CollegeAdministration>
-ObjectProperty: sdg:inheresIn
-    Annotations: rdfs:label "inheres in"
+Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -649,15 +689,16 @@ Class: <https://signals.zndx.org/sdg#CollegeOfficialRole>
 Class: <https://signals.zndx.org/sdg#Person>
     Annotations: rdfs:label "person"
 
-Class: <https://signals.zndx.org/sdg#CollegeAdministration>
-    Annotations: rdfs:label "college administration"
+Class: <https://signals.zndx.org/sdg#CollegeAdministrationProcess>
+    Annotations: rdfs:label "college administration process"
 
-Class: <https://signals.zndx.org/sdg#CollegeOfficialRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#CollegeAdministration>
+Class: <https://signals.zndx.org/sdg#CollegeOfficialRole>
+    SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#CollegeAdministrationProcess>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -706,12 +747,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#AthleticMonitoringActivity>
     Annotations: rdfs:label "athletic monitoring activity"
 
-Class: <https://signals.zndx.org/sdg#AthleticAttendantRole> SubClassOf: bfo:0000023, sdg:hasRoleBearer exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#AthleticMonitoringActivity>
+Class: <https://signals.zndx.org/sdg#AthleticAttendantRole> SubClassOf: bfo:0000023, sdg:hasRoleBearer exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#AthleticMonitoringActivity>
 ObjectProperty: sdg:hasRoleBearer
     Annotations: rdfs:label "has role bearer"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -817,12 +858,12 @@ Class: <https://signals.zndx.org/sdg#DepartingEmployee>
 Class: <https://signals.zndx.org/sdg#TransferAuthorization>
     Annotations: rdfs:label "transfer authorization"
 
-Class: <https://signals.zndx.org/sdg#RetainingEmployeeRole> SubClassOf: bfo:0000023, sdg:realizesRoleIn exactly 1 <https://signals.zndx.org/sdg#DepartingEmployee>, sdg:grantsTransferPermission some <https://signals.zndx.org/sdg#TransferAuthorization>
+Class: <https://signals.zndx.org/sdg#RetainingEmployeeRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#DepartingEmployee>, sdg:grantsTransferPermission some <https://signals.zndx.org/sdg#TransferAuthorization>
 ObjectProperty: sdg:grantsTransferPermission
     Annotations: rdfs:label "grants transfer permission"
 
-ObjectProperty: sdg:realizesRoleIn
-    Annotations: rdfs:label "realizes role in"
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1003,21 +1044,24 @@ Class: cco:ont00000958
 
 
 Class: <https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse>
+    Annotations: rdfs:label "community learning disability nurse"
+
 Class: <https://signals.zndx.org/sdg#HealthcareAgent>
     Annotations: rdfs:label "healthcare agent"
 
-Class: <https://signals.zndx.org/sdg#CommunityHealthcareSetting>
-    Annotations: rdfs:label "community healthcare setting"
+Class: <https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess>
+    Annotations: rdfs:label "community healthcare service delivery process"
 
 Class: <https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse>
-ObjectProperty: bfo:0000054
-    Annotations: rdfs:label "realized in"
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#HealthcareAgent>, sdg:fulfillsProfessionalRole exactly 1 <https://signals.zndx.org/sdg#HealthcareAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
 ObjectProperty: sdg:fulfillsProfessionalRole
     Annotations: rdfs:label "fulfills professional role"
 
-ObjectProperty: sdg:realizesRole
-    Annotations: rdfs:label "realizes role"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1036,13 +1080,6 @@ ObjectProperty: sdg:cognitivelyRepresents
 Class: cco:ont00000958
     Annotations: rdfs:label "information content entity"
 
-
-Class: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-Class: <https://signals.zndx.org/sdg#Person>
-    Annotations: rdfs:label "person"
-
-Class: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-    Annotations: rdfs:label "diagnostic imaging practice"
 
 Class: sdg:CardiothoracicRadiologistRole
 ObjectProperty: bfo:0000055
@@ -1081,15 +1118,16 @@ Class: <https://signals.zndx.org/sdg#GeneralManagerRole>
 Class: <https://signals.zndx.org/sdg#HumanAgent>
     Annotations: rdfs:label "human agent"
 
-Class: <https://signals.zndx.org/sdg#OrganizationalFunction>
-    Annotations: rdfs:label "organizational function"
+Class: <https://signals.zndx.org/sdg#GeneralManagerFunctionExecution>
+    Annotations: rdfs:label "general manager function execution"
 
-Class: <https://signals.zndx.org/sdg#GeneralManagerRole> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizes some <https://signals.zndx.org/sdg#OrganizationalFunction>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#GeneralManagerRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#GeneralManagerFunctionExecution>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1384,20 +1422,16 @@ Class: bfo:0000015
 
 
 Class: <https://signals.zndx.org/sdg#RenderedAnimationArtifact>
-    Annotations: rdfs:label "rendered animation artifact"
-
 Class: <https://signals.zndx.org/sdg#AnimationSequence>
     Annotations: rdfs:label "animation sequence"
 
 Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
-    Annotations: rdfs:label "rendering environment"
+Class: <https://signals.zndx.org/sdg#RenderedAnimationArtifact>
+ObjectProperty: sdg:concretizes
+    Annotations: rdfs:label "concretizes"
 
-Class: <https://signals.zndx.org/sdg#RenderedAnimationArtifact> SubClassOf: bfo:0000004, sdg:realizes some <https://signals.zndx.org/sdg#AnimationSequence>, sdg:abstracts some <https://signals.zndx.org/sdg#RenderingEnvironment>
-ObjectProperty: sdg:abstracts
-    Annotations: rdfs:label "abstracts"
-
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000004
     Annotations: rdfs:label "independent continuant"
@@ -1409,15 +1443,16 @@ Class: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
 Class: <https://signals.zndx.org/sdg#DistrictEmployee>
     Annotations: rdfs:label "district employee"
 
-Class: <https://signals.zndx.org/sdg#AccountManagementFunction>
-    Annotations: rdfs:label "account management function"
+Class: <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
+    Annotations: rdfs:label "social media account management process"
 
-Class: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#DistrictEmployee>, sdg:realizes some <https://signals.zndx.org/sdg#AccountManagementFunction>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#DistrictEmployee>, sdg:realizedIn some <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1444,20 +1479,16 @@ Class: bfo:0000015
 
 
 Class: <https://signals.zndx.org/sdg#ChiefFinancialOfficerRole>
-    Annotations: rdfs:label "chief financial officer role"
-
 Class: <https://signals.zndx.org/sdg#OrganizationalAgent>
     Annotations: rdfs:label "organizational agent"
 
 Class: <https://signals.zndx.org/sdg#FinancialManagementProcess>
-    Annotations: rdfs:label "financial management process"
+Class: <https://signals.zndx.org/sdg#ChiefFinancialOfficerRole>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-Class: <https://signals.zndx.org/sdg#ChiefFinancialOfficerRole> SubClassOf: bfo:0000023, sdg:bearsAgent exactly 1 <https://signals.zndx.org/sdg#OrganizationalAgent>, sdg:realizes some <https://signals.zndx.org/sdg#FinancialManagementProcess>
-ObjectProperty: sdg:bearsAgent
-    Annotations: rdfs:label "bears agent"
-
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1519,15 +1550,16 @@ Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingIndividual>
 Class: <https://signals.zndx.org/sdg#Person>
     Annotations: rdfs:label "person"
 
-Class: <https://signals.zndx.org/sdg#SourceTestingCertification>
-    Annotations: rdfs:label "source testing certification"
+Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingProcess>
+    Annotations: rdfs:label "qualified source testing process"
 
-Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingIndividual> SubClassOf: bfo:0000023, sdg:inheres_in exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#SourceTestingCertification>
-ObjectProperty: sdg:inheres_in
-    Annotations: rdfs:label "inheres in"
+Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingIndividual>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#QualifiedSourceTestingProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1642,12 +1674,12 @@ Class: <https://signals.zndx.org/sdg#StaffMember>
 Class: <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
     Annotations: rdfs:label "social media account management process"
 
-Class: <https://signals.zndx.org/sdg#StaffSocialMediaAccountAdministratorRole> SubClassOf: bfo:0000023, sdg:inheres_in_bearer exactly 1 <https://signals.zndx.org/sdg#StaffMember>, sdg:role_realizes some <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
-ObjectProperty: sdg:inheres_in_bearer
-    Annotations: rdfs:label "inheres in bearer"
+Class: <https://signals.zndx.org/sdg#StaffSocialMediaAccountAdministratorRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#StaffMember>, sdg:realizedIn some <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:role_realizes
-    Annotations: rdfs:label "role realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1716,12 +1748,12 @@ Class: <https://signals.zndx.org/sdg#RestaurantStaff>
 Class: <https://signals.zndx.org/sdg#ServiceProvisionActivity>
     Annotations: rdfs:label "service provision activity"
 
-Class: <https://signals.zndx.org/sdg#ServiceStaffRole> SubClassOf: bfo:0000023, sdg:hasBearer exactly 1 <https://signals.zndx.org/sdg#RestaurantStaff>, sdg:realizes some <https://signals.zndx.org/sdg#ServiceProvisionActivity>
+Class: <https://signals.zndx.org/sdg#ServiceStaffRole> SubClassOf: bfo:0000023, sdg:hasBearer exactly 1 <https://signals.zndx.org/sdg#RestaurantStaff>, sdg:realizedIn some <https://signals.zndx.org/sdg#ServiceProvisionActivity>
 ObjectProperty: sdg:hasBearer
     Annotations: rdfs:label "has bearer"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -1972,12 +2004,12 @@ Class: <https://signals.zndx.org/sdg#LegalProfessional>
 Class: <https://signals.zndx.org/sdg#LegalAdvertisementActivity>
     Annotations: rdfs:label "legal advertisement activity"
 
-Class: <https://signals.zndx.org/sdg#LegalServiceAdvertiserRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#LegalProfessional>, sdg:realizes some <https://signals.zndx.org/sdg#LegalAdvertisementActivity>
+Class: <https://signals.zndx.org/sdg#LegalServiceAdvertiserRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#LegalProfessional>, sdg:realizedIn some <https://signals.zndx.org/sdg#LegalAdvertisementActivity>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2156,15 +2188,16 @@ Class: <https://signals.zndx.org/sdg#LegalTechServiceProvision>
 Class: <https://signals.zndx.org/sdg#ServiceProvider>
     Annotations: rdfs:label "service provider"
 
-Class: <https://signals.zndx.org/sdg#LegalTechSolutionLab>
-    Annotations: rdfs:label "legal tech solution lab"
+Class: <https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess>
+    Annotations: rdfs:label "legal tech service delivery process"
 
-Class: <https://signals.zndx.org/sdg#LegalTechServiceProvision> SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#ServiceProvider>, sdg:realizes some <https://signals.zndx.org/sdg#LegalTechSolutionLab>
+Class: <https://signals.zndx.org/sdg#LegalTechServiceProvision>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#ServiceProvider>, sdg:realizedIn some <https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess>
 ObjectProperty: sdg:borneBy
     Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2188,15 +2221,16 @@ Class: <https://signals.zndx.org/sdg#AuthorizedRepresentativeRole>
 Class: <https://signals.zndx.org/sdg#FinancialServicesEntity>
     Annotations: rdfs:label "financial services entity"
 
-Class: <https://signals.zndx.org/sdg#AuthorizedEntity>
-    Annotations: rdfs:label "authorized entity"
+Class: <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
+    Annotations: rdfs:label "authorized entity authorization process"
 
-Class: <https://signals.zndx.org/sdg#AuthorizedRepresentativeRole> SubClassOf: bfo:0000023, sdg:inheres_in exactly 1 <https://signals.zndx.org/sdg#FinancialServicesEntity>, sdg:realizes some <https://signals.zndx.org/sdg#AuthorizedEntity>
-ObjectProperty: sdg:inheres_in
-    Annotations: rdfs:label "inheres in"
+Class: <https://signals.zndx.org/sdg#AuthorizedRepresentativeRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#FinancialServicesEntity>, sdg:realizedIn some <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2245,12 +2279,12 @@ Class: <https://signals.zndx.org/sdg#Agent>
 Class: <https://signals.zndx.org/sdg#FinalInspectionProcess>
     Annotations: rdfs:label "final inspection process"
 
-Class: <https://signals.zndx.org/sdg#DeveloperRepresentativeRole> SubClassOf: bfo:0000023, sdg:hasRoleBearer exactly 1 <https://signals.zndx.org/sdg#Agent>, sdg:realizes some <https://signals.zndx.org/sdg#FinalInspectionProcess>
+Class: <https://signals.zndx.org/sdg#DeveloperRepresentativeRole> SubClassOf: bfo:0000023, sdg:hasRoleBearer exactly 1 <https://signals.zndx.org/sdg#Agent>, sdg:realizedIn some <https://signals.zndx.org/sdg#FinalInspectionProcess>
 ObjectProperty: sdg:hasRoleBearer
     Annotations: rdfs:label "has role bearer"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2305,12 +2339,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess>
     Annotations: rdfs:label "device procurement advisory process"
 
-Class: <https://signals.zndx.org/sdg#DeviceExpertRole> SubClassOf: bfo:0000023, sdg:bears exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess>
-ObjectProperty: sdg:bears
-    Annotations: rdfs:label "bears"
+Class: <https://signals.zndx.org/sdg#DeviceExpertRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2462,12 +2496,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#ServiceManagementProcess>
     Annotations: rdfs:label "service management process"
 
-Class: <https://signals.zndx.org/sdg#RegisteredManagerRole> SubClassOf: bfo:0000023, sdg:realizesServiceManagement exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:inheresInPerson some <https://signals.zndx.org/sdg#ServiceManagementProcess>
-ObjectProperty: sdg:inheresInPerson
-    Annotations: rdfs:label "inheres in person"
+Class: <https://signals.zndx.org/sdg#RegisteredManagerRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#ServiceManagementProcess>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizesServiceManagement
-    Annotations: rdfs:label "realizes service management"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2537,13 +2571,13 @@ Class: <https://signals.zndx.org/sdg#YoungPhysicianAmbassadorRole>
 Class: <https://signals.zndx.org/sdg#PhysicianMember>
     Annotations: rdfs:label "physician member"
 
-Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipRole>
+Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipProcess>
 Class: <https://signals.zndx.org/sdg#YoungPhysicianAmbassadorRole>
-ObjectProperty: sdg:inheres_in
+ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2567,15 +2601,11 @@ Class: xsd:decimal
 
 
 Class: <https://signals.zndx.org/sdg#CMESeminar>
-    Annotations: rdfs:label "c m e seminar"
-
 Class: <https://signals.zndx.org/sdg#PracticeManagementTopic>
-    Annotations: rdfs:label "practice management topic"
-
 Class: <https://signals.zndx.org/sdg#ProfessionalDevelopmentGoal>
     Annotations: rdfs:label "professional development goal"
 
-Class: <https://signals.zndx.org/sdg#CMESeminar> EquivalentTo: bfo:0000015 and sdg:has_topic_focus some <https://signals.zndx.org/sdg#PracticeManagementTopic> and sdg:has_educational_goal some <https://signals.zndx.org/sdg#ProfessionalDevelopmentGoal>
+Class: <https://signals.zndx.org/sdg#CMESeminar>
 ObjectProperty: sdg:has_educational_goal
     Annotations: rdfs:label "has educational goal"
 
@@ -2728,15 +2758,9 @@ Class: xsd:decimal
 
 
 Class: <https://signals.zndx.org/sdg#EmployeeFeedbackSurvey>
-    Annotations: rdfs:label "employee feedback survey"
-
 Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
-    Annotations: rdfs:label "workplace culture dimension"
-
 Class: <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
-    Annotations: rdfs:label "organizational health metric"
-
-Class: <https://signals.zndx.org/sdg#EmployeeFeedbackSurvey> EquivalentTo: bfo:0000015 and sdg:measuresDimension some <https://signals.zndx.org/sdg#WorkplaceCultureDimension> and sdg:assessesHealthAspect some <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
+Class: <https://signals.zndx.org/sdg#EmployeeFeedbackSurvey>
 ObjectProperty: sdg:assessesHealthAspect
     Annotations: rdfs:label "assesses health aspect"
 
@@ -2748,12 +2772,8 @@ Class: bfo:0000015
 
 
 Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
-    Annotations: rdfs:label "workplace culture dimension"
-
 Class: <https://signals.zndx.org/sdg#CulturalAttribute>
-    Annotations: rdfs:label "cultural attribute"
-
-Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension> EquivalentTo: cco:ont00000853 and sdg:categorizesAttribute some <https://signals.zndx.org/sdg#CulturalAttribute>
+Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
 ObjectProperty: sdg:categorizesAttribute
     Annotations: rdfs:label "categorizes attribute"
 
@@ -2804,15 +2824,16 @@ Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
 Class: <https://signals.zndx.org/sdg#HumanAgent>
     Annotations: rdfs:label "human agent"
 
-Class: <https://signals.zndx.org/sdg#HealerFunction>
-    Annotations: rdfs:label "healer function"
+Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess>
+    Annotations: rdfs:label "traditional religious healing process"
 
-Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole> SubClassOf: bfo:0000023, sdg:bearsRoleOn exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizes some <https://signals.zndx.org/sdg#HealerFunction>
-ObjectProperty: sdg:bearsRoleOn
-    Annotations: rdfs:label "bears role on"
+Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2858,15 +2879,16 @@ Class: <https://signals.zndx.org/sdg#DisabledAdultParentRole>
 Class: <https://signals.zndx.org/sdg#Adult>
     Annotations: rdfs:label "adult"
 
-Class: <https://signals.zndx.org/sdg#ParentingFunction>
-    Annotations: rdfs:label "parenting function"
+Class: <https://signals.zndx.org/sdg#ParentingProcess>
+    Annotations: rdfs:label "parenting process"
 
-Class: <https://signals.zndx.org/sdg#DisabledAdultParentRole> SubClassOf: bfo:0000023, sdg:bears exactly 1 <https://signals.zndx.org/sdg#Adult>, sdg:realizes some <https://signals.zndx.org/sdg#ParentingFunction>
-ObjectProperty: sdg:bears
-    Annotations: rdfs:label "bears"
+Class: <https://signals.zndx.org/sdg#DisabledAdultParentRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#Adult>, sdg:realizedIn some <https://signals.zndx.org/sdg#ParentingProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -2881,12 +2903,12 @@ Class: <https://signals.zndx.org/sdg#HumanAgent>
 Class: <https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity>
     Annotations: rdfs:label "municipal pool operations management activity"
 
-Class: <https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizes some <https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity>
+Class: <https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#HumanAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3032,12 +3054,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#AcademicActivity>
     Annotations: rdfs:label "academic activity"
 
-Class: <https://signals.zndx.org/sdg#AcademicRole> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#AcademicActivity>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#AcademicRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#AcademicActivity>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3052,12 +3074,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#AdministrativeActivity>
     Annotations: rdfs:label "administrative activity"
 
-Class: <https://signals.zndx.org/sdg#AdministrativeRole> SubClassOf: bfo:0000023, sdg:bearsRole exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#AdministrativeActivity>
-ObjectProperty: sdg:bearsRole
-    Annotations: rdfs:label "bears role"
+Class: <https://signals.zndx.org/sdg#AdministrativeRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#AdministrativeActivity>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3065,9 +3087,6 @@ Class: bfo:0000023
 
 Class: <https://signals.zndx.org/sdg#ExecutiveOfficerRole>
     Annotations: rdfs:label "executive officer role"
-
-Class: <https://signals.zndx.org/sdg#CorporateAgent>
-    Annotations: rdfs:label "corporate agent"
 
 Class: <https://signals.zndx.org/sdg#ExecutiveExecutionFunction>
     Annotations: rdfs:label "executive execution function"
@@ -3291,8 +3310,6 @@ Class: bfo:0000015
 
 
 Class: <https://signals.zndx.org/sdg#CleanTrafficRedirection>
-    Annotations: rdfs:label "clean traffic redirection"
-
 Class: <https://signals.zndx.org/sdg#NetworkScrubbingCenter>
     Annotations: rdfs:label "network scrubbing center"
 
@@ -3302,7 +3319,7 @@ Class: <https://signals.zndx.org/sdg#CustomerNetwork>
 Class: <https://signals.zndx.org/sdg#ScrubbingActivity>
     Annotations: rdfs:label "scrubbing activity"
 
-Class: <https://signals.zndx.org/sdg#CleanTrafficRedirection> EquivalentTo: bfo:0000015 and sdg:originatesFrom some <https://signals.zndx.org/sdg#NetworkScrubbingCenter> and sdg:deliversTo some <https://signals.zndx.org/sdg#CustomerNetwork> and bfo:0000056 some <https://signals.zndx.org/sdg#ScrubbingActivity>
+Class: <https://signals.zndx.org/sdg#CleanTrafficRedirection>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
@@ -3325,12 +3342,12 @@ Class: <https://signals.zndx.org/sdg#IndependentEconomicAgent>
 Class: <https://signals.zndx.org/sdg#BusinessActivityProcess>
     Annotations: rdfs:label "business activity process"
 
-Class: <https://signals.zndx.org/sdg#EntrepreneurRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#IndependentEconomicAgent>, sdg:realizes some <https://signals.zndx.org/sdg#BusinessActivityProcess>
+Class: <https://signals.zndx.org/sdg#EntrepreneurRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#IndependentEconomicAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#BusinessActivityProcess>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3402,15 +3419,16 @@ Class: <https://signals.zndx.org/sdg#JointBoardChairRole>
 Class: <https://signals.zndx.org/sdg#IndependentContinuantAgent>
     Annotations: rdfs:label "independent continuant agent"
 
-Class: <https://signals.zndx.org/sdg#GovernanceFunction>
-    Annotations: rdfs:label "governance function"
+Class: <https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess>
+    Annotations: rdfs:label "joint board chair service delivery process"
 
-Class: <https://signals.zndx.org/sdg#JointBoardChairRole> SubClassOf: bfo:0000023, sdg:designates exactly 1 <https://signals.zndx.org/sdg#IndependentContinuantAgent>, sdg:realizes some <https://signals.zndx.org/sdg#GovernanceFunction>
+Class: <https://signals.zndx.org/sdg#JointBoardChairRole>
+    SubClassOf: bfo:0000023, sdg:designates exactly 1 <https://signals.zndx.org/sdg#IndependentContinuantAgent>, sdg:realizedIn some <https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess>
 ObjectProperty: sdg:designates
     Annotations: rdfs:label "designates"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3502,24 +3520,26 @@ Class: cco:ont00000853
 
 
 Class: <https://signals.zndx.org/sdg#PetitionerRole>
+    Annotations: rdfs:label "petitioner role"
+
 Class: <https://signals.zndx.org/sdg#Person>
     Annotations: rdfs:label "person"
 
 Class: <https://signals.zndx.org/sdg#AdultAdoptionProcess>
     Annotations: rdfs:label "adult adoption process"
 
-Class: <https://signals.zndx.org/sdg#PetitionerRole>
-ObjectProperty: bfo:0000054
-    Annotations: rdfs:label "realized in"
-
+Class: <https://signals.zndx.org/sdg#PetitionerRole> SubClassOf: bfo:0000023, sdg:inheresIn some <https://signals.zndx.org/sdg#Person>, bfo:0000056 some <https://signals.zndx.org/sdg#AdultAdoptionProcess>, sdg:hasBearer exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#AdultAdoptionProcess>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
 ObjectProperty: sdg:hasBearer
     Annotations: rdfs:label "has bearer"
 
-ObjectProperty: sdg:realizesRole
-    Annotations: rdfs:label "realizes role"
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
+
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3563,15 +3583,11 @@ Class: xsd:decimal
 
 
 Class: <https://signals.zndx.org/sdg#HealthcareAnalyticsProcess>
-    Annotations: rdfs:label "healthcare analytics process"
-
 Class: <https://signals.zndx.org/sdg#DataInput>
-    Annotations: rdfs:label "data input"
-
 Class: <https://signals.zndx.org/sdg#IntelligenceOutput>
     Annotations: rdfs:label "intelligence output"
 
-Class: <https://signals.zndx.org/sdg#HealthcareAnalyticsProcess> EquivalentTo: bfo:0000015 and sdg:processesInput some <https://signals.zndx.org/sdg#DataInput> and sdg:producesOutput some <https://signals.zndx.org/sdg#IntelligenceOutput>
+Class: <https://signals.zndx.org/sdg#HealthcareAnalyticsProcess>
 ObjectProperty: sdg:processesInput
     Annotations: rdfs:label "processes input"
 
@@ -3602,15 +3618,16 @@ Class: <https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole>
 Class: <https://signals.zndx.org/sdg#HealthcareOrganization>
     Annotations: rdfs:label "healthcare organization"
 
-Class: <https://signals.zndx.org/sdg#PatientPopulation>
-    Annotations: rdfs:label "patient population"
+Class: <https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess>
+    Annotations: rdfs:label "performance based care delivery process"
 
-Class: <https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole> SubClassOf: bfo:0000023, sdg:realizesRoleIn exactly 1 <https://signals.zndx.org/sdg#HealthcareOrganization>, sdg:realizesFor some <https://signals.zndx.org/sdg#PatientPopulation>
-ObjectProperty: sdg:realizesFor
-    Annotations: rdfs:label "realizes for"
+Class: <https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole>
+    SubClassOf: bfo:0000023, sdg:borneBy exactly 1 <https://signals.zndx.org/sdg#HealthcareOrganization>, sdg:realizedIn some <https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess>
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizesRoleIn
-    Annotations: rdfs:label "realizes role in"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3642,11 +3659,11 @@ Class: <https://signals.zndx.org/sdg#IndependentContinuant>
 
 Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
 Class: <https://signals.zndx.org/sdg#DecisionMakerRole>
-ObjectProperty: sdg:bears
-    Annotations: rdfs:label "bears"
+ObjectProperty: sdg:borneBy
+    Annotations: rdfs:label "borne by"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3793,12 +3810,12 @@ Class: <https://signals.zndx.org/sdg#MinorPerson>
 Class: <https://signals.zndx.org/sdg#TaxiRideProcess>
     Annotations: rdfs:label "taxi ride process"
 
-Class: <https://signals.zndx.org/sdg#UnaccompaniedMinorRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#MinorPerson>, sdg:realizes some <https://signals.zndx.org/sdg#TaxiRideProcess>
+Class: <https://signals.zndx.org/sdg#UnaccompaniedMinorRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#MinorPerson>, sdg:realizedIn some <https://signals.zndx.org/sdg#TaxiRideProcess>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3929,15 +3946,16 @@ Class: <https://signals.zndx.org/sdg#BoardMemberRole>
 Class: <https://signals.zndx.org/sdg#IndependentContinuant>
     Annotations: rdfs:label "independent continuant"
 
-Class: <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
-    Annotations: rdfs:label "board of assessors meeting"
+Class: <https://signals.zndx.org/sdg#BoardMemberRoleRealization>
+    Annotations: rdfs:label "board member role realization"
 
-Class: <https://signals.zndx.org/sdg#BoardMemberRole> SubClassOf: bfo:0000023, sdg:hasBorneAgent exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizes some <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
+Class: <https://signals.zndx.org/sdg#BoardMemberRole>
+    SubClassOf: bfo:0000023, sdg:hasBorneAgent exactly 1 <https://signals.zndx.org/sdg#IndependentContinuant>, sdg:realizedIn some <https://signals.zndx.org/sdg#BoardMemberRoleRealization>
 ObjectProperty: sdg:hasBorneAgent
     Annotations: rdfs:label "has borne agent"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -3984,12 +4002,12 @@ Class: <https://signals.zndx.org/sdg#NonprofitOrganization>
 Class: <https://signals.zndx.org/sdg#RaffleConductingActivity>
     Annotations: rdfs:label "raffle conducting activity"
 
-Class: <https://signals.zndx.org/sdg#EligibleRaffleConductorRole> SubClassOf: bfo:0000023, sdg:bears exactly 1 <https://signals.zndx.org/sdg#NonprofitOrganization>, sdg:realizes some <https://signals.zndx.org/sdg#RaffleConductingActivity>
-ObjectProperty: sdg:bears
-    Annotations: rdfs:label "bears"
+Class: <https://signals.zndx.org/sdg#EligibleRaffleConductorRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#NonprofitOrganization>, sdg:realizedIn some <https://signals.zndx.org/sdg#RaffleConductingActivity>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -4064,12 +4082,12 @@ Class: <https://signals.zndx.org/sdg#Person>
 Class: <https://signals.zndx.org/sdg#SalesAdministrationActivity>
     Annotations: rdfs:label "sales administration activity"
 
-Class: <https://signals.zndx.org/sdg#TelemarketerSalesAdministratorRole> SubClassOf: bfo:0000023, sdg:bearsRoleHolder exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizes some <https://signals.zndx.org/sdg#SalesAdministrationActivity>
-ObjectProperty: sdg:bearsRoleHolder
-    Annotations: rdfs:label "bears role holder"
+Class: <https://signals.zndx.org/sdg#TelemarketerSalesAdministratorRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#Person>, sdg:realizedIn some <https://signals.zndx.org/sdg#SalesAdministrationActivity>
+ObjectProperty: sdg:inheresIn
+    Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -4133,15 +4151,16 @@ Class: <https://signals.zndx.org/sdg#ClearingBrokerRole>
 Class: <https://signals.zndx.org/sdg#CustomerAccount>
     Annotations: rdfs:label "customer account"
 
-Class: <https://signals.zndx.org/sdg#ClearingProcess>
-    Annotations: rdfs:label "clearing process"
+Class: <https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess>
+    Annotations: rdfs:label "clearing broker service delivery process"
 
-Class: <https://signals.zndx.org/sdg#ClearingBrokerRole> SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#CustomerAccount>, sdg:realizes some <https://signals.zndx.org/sdg#ClearingProcess>
+Class: <https://signals.zndx.org/sdg#ClearingBrokerRole>
+    SubClassOf: bfo:0000023, sdg:inheresIn exactly 1 <https://signals.zndx.org/sdg#CustomerAccount>, sdg:realizedIn some <https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess>
 ObjectProperty: sdg:inheresIn
     Annotations: rdfs:label "inheres in"
 
-ObjectProperty: sdg:realizes
-    Annotations: rdfs:label "realizes"
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
 
 Class: bfo:0000023
     Annotations: rdfs:label "role"
@@ -4209,8 +4228,6 @@ Class: bfo:0000015
 
 Class: <https://signals.zndx.org/sdg#ReferralSourceRole>
 Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem>
-    Annotations: rdfs:label "criminal justice system"
-
 Class: <https://signals.zndx.org/sdg#ReferralProcess>
 Class: <https://signals.zndx.org/sdg#ReferralSourceRole>
 ObjectProperty: bfo:0000054
@@ -4778,9 +4795,7 @@ Class: sdg:LegalProceeding
 
 
 Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem>
-    Annotations: rdfs:label "criminal justice system"
-
-Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem> EquivalentTo: cco:ont00000870 and bfo:0000056 some sdg:CriminalJusticeProcess
+Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
@@ -4788,13 +4803,8 @@ Class: cco:ont00000870
     Annotations: rdfs:label "ont00000870"
 
 Class: sdg:CriminalJusticeProcess
-    Annotations: rdfs:label "criminal justice process"
-
-
 Class: <https://signals.zndx.org/sdg#CulturalAttribute>
-    Annotations: rdfs:label "cultural attribute"
-
-Class: <https://signals.zndx.org/sdg#CulturalAttribute> EquivalentTo: bfo:0000019 and bfo:0000197 some sdg:OrganizationalCulture
+Class: <https://signals.zndx.org/sdg#CulturalAttribute>
 ObjectProperty: bfo:0000197
     Annotations: rdfs:label "0000197"
 
@@ -5489,9 +5499,7 @@ Class: sdg:SchoolSecurityPolicy
 
 
 Class: <https://signals.zndx.org/sdg#PracticeManagementTopic>
-    Annotations: rdfs:label "practice management topic"
-
-Class: <https://signals.zndx.org/sdg#PracticeManagementTopic> EquivalentTo: cco:ont00001075 and sdg:addresses some sdg:RiskManagementActivity
+Class: <https://signals.zndx.org/sdg#PracticeManagementTopic>
 ObjectProperty: sdg:addresses
     Annotations: rdfs:label "addresses"
 
@@ -5499,9 +5507,6 @@ Class: cco:ont00001075
     Annotations: rdfs:label "ont00001075"
 
 Class: sdg:RiskManagementActivity
-    Annotations: rdfs:label "risk management activity"
-
-
 Class: <https://signals.zndx.org/sdg#PracticeSession>
     Annotations: rdfs:label "practice session"
 
@@ -6165,9 +6170,7 @@ Class: sdg:MonitoringProtocol
 
 
 Class: <https://signals.zndx.org/sdg#DataInput>
-    Annotations: rdfs:label "data input"
-
-Class: <https://signals.zndx.org/sdg#DataInput> EquivalentTo: bfo:0000057 some bfo:0000054 and bfo:0000056 some bfo:0000055
+Class: <https://signals.zndx.org/sdg#DataInput>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
@@ -6181,7 +6184,6 @@ Class: bfo:0000055
     Annotations: rdfs:label "realizes"
 
 
-Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
 Class: sdg:DecisionMakingProcess
 ObjectProperty: bfo:0000117
     Annotations: rdfs:label "0000117"
@@ -6668,9 +6670,7 @@ Class: sdg:AnimationSequenceCreation
 
 
 Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
-    Annotations: rdfs:label "rendering environment"
-
-Class: <https://signals.zndx.org/sdg#RenderingEnvironment> EquivalentTo: sdg:IndoorEnvironment and sdg:supportsRendering some sdg:RenderedAnimationArtifact
+Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
 ObjectProperty: sdg:supportsRendering
     Annotations: rdfs:label "supports rendering"
 
@@ -6678,9 +6678,6 @@ Class: sdg:IndoorEnvironment
     Annotations: rdfs:label "indoor environment"
 
 Class: sdg:RenderedAnimationArtifact
-    Annotations: rdfs:label "rendered animation artifact"
-
-
 Class: <https://signals.zndx.org/sdg#ReportingChannel>
     Annotations: rdfs:label "reporting channel"
 
@@ -6794,9 +6791,7 @@ Class: sdg:FinancialResource
 
 
 Class: <https://signals.zndx.org/sdg#FinancialManagementProcess>
-    Annotations: rdfs:label "financial management process"
-
-Class: <https://signals.zndx.org/sdg#FinancialManagementProcess> EquivalentTo: sdg:FinancialActivity and sdg:involves some sdg:FinancialStrategyOversight
+Class: <https://signals.zndx.org/sdg#FinancialManagementProcess>
 ObjectProperty: sdg:involves
     Annotations: rdfs:label "involves"
 
@@ -6804,9 +6799,6 @@ Class: sdg:FinancialActivity
     Annotations: rdfs:label "financial activity"
 
 Class: sdg:FinancialStrategyOversight
-    Annotations: rdfs:label "financial strategy oversight"
-
-
 Class: <https://signals.zndx.org/sdg#FinancialProduct>
     Annotations: rdfs:label "financial product"
 
@@ -7183,15 +7175,11 @@ Class: sdg:GeneralManagerRole
 
 
 Class: <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
-    Annotations: rdfs:label "organizational health metric"
-
-Class: <https://signals.zndx.org/sdg#OrganizationalHealthMetric> EquivalentTo: sdg:HealthOutcomeMetric and bfo:0000056 some sdg:EmployeeFeedbackSurvey
+Class: <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
 Class: sdg:EmployeeFeedbackSurvey
-    Annotations: rdfs:label "employee feedback survey"
-
 Class: sdg:HealthOutcomeMetric
     Annotations: rdfs:label "health outcome metric"
 
@@ -7468,9 +7456,7 @@ Class: sdg:HigherEducationInstitution
 
 
 Class: <https://signals.zndx.org/sdg#CriminalJusticeProcess>
-    Annotations: rdfs:label "criminal justice process"
-
-Class: <https://signals.zndx.org/sdg#CriminalJusticeProcess> EquivalentTo: bfo:0000015 and bfo:0000056 some sdg:CriminalJusticeAdministration
+Class: <https://signals.zndx.org/sdg#CriminalJusticeProcess>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
@@ -7509,7 +7495,6 @@ Class: sdg:CloudStorageVolume
     Annotations: rdfs:label "cloud storage volume"
 
 
-Class: <https://signals.zndx.org/sdg#DecisionAction>
 Class: sdg:DecisionAction
 ObjectProperty: cco:ont00001777
     Annotations: rdfs:label "ont00001777"
@@ -7640,9 +7625,7 @@ Class: sdg:FinancialProduct
 
 
 Class: <https://signals.zndx.org/sdg#FinancialStrategyOversight>
-    Annotations: rdfs:label "financial strategy oversight"
-
-Class: <https://signals.zndx.org/sdg#FinancialStrategyOversight> EquivalentTo: bfo:0000015 and bfo:0000056 some sdg:FinancialManagementProcess
+Class: <https://signals.zndx.org/sdg#FinancialStrategyOversight>
 ObjectProperty: bfo:0000056
     Annotations: rdfs:label "participates in"
 
@@ -7650,9 +7633,6 @@ Class: bfo:0000015
     Annotations: rdfs:label "process"
 
 Class: sdg:FinancialManagementProcess
-    Annotations: rdfs:label "financial management process"
-
-
 Class: <https://signals.zndx.org/sdg#HigherEducationInstitution>
     Annotations: rdfs:label "higher education institution"
 
@@ -7866,13 +7846,8 @@ Class: bfo:0000023
 
 
 Class: <https://signals.zndx.org/sdg#RiskManagementActivity>
-    Annotations: rdfs:label "risk management activity"
-
-Class: <https://signals.zndx.org/sdg#RiskManagementActivity> SubClassOf: sdg:FinancialManagementProcess
+Class: <https://signals.zndx.org/sdg#RiskManagementActivity>
 Class: sdg:FinancialManagementProcess
-    Annotations: rdfs:label "financial management process"
-
-
 Class: <https://signals.zndx.org/sdg#Chemical>
     Annotations: rdfs:label "chemical"
 
@@ -7944,6 +7919,293 @@ Class: <https://signals.zndx.org/sdg#SocialNetworkingServiceUsage> SubClassOf: s
 Class: sdg:ServiceUsageCategory
     Annotations: rdfs:label "service usage category"
 
+
+Class: <https://signals.zndx.org/sdg#BoardMemberRoleRealization>
+    Annotations: rdfs:label "board member role realization"
+
+Class: <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
+    Annotations: rdfs:label "board of assessors meeting"
+
+Class: <https://signals.zndx.org/sdg#BoardMemberRoleRealization>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess>
+    Annotations: rdfs:label "chief compliance officer service delivery process"
+
+Class: <https://signals.zndx.org/sdg#CollegeAdministration>
+    Annotations: rdfs:label "college administration"
+
+Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#CollegeAdministration>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#CollegeAdministrationProcess>
+    Annotations: rdfs:label "college administration process"
+
+Class: <https://signals.zndx.org/sdg#CollegeAdministration>
+    Annotations: rdfs:label "college administration"
+
+Class: <https://signals.zndx.org/sdg#CollegeAdministrationProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#CollegeAdministration>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#GeneralManagerFunctionExecution>
+    Annotations: rdfs:label "general manager function execution"
+
+Class: <https://signals.zndx.org/sdg#OrganizationalFunction>
+    Annotations: rdfs:label "organizational function"
+
+Class: <https://signals.zndx.org/sdg#GeneralManagerFunctionExecution>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#OrganizationalFunction>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess>
+    Annotations: rdfs:label "legal tech service delivery process"
+
+Class: <https://signals.zndx.org/sdg#LegalTechSolutionLab>
+    Annotations: rdfs:label "legal tech solution lab"
+
+Class: <https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#LegalTechSolutionLab>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess>
+    Annotations: rdfs:label "performance based care delivery process"
+
+Class: <https://signals.zndx.org/sdg#PatientPopulation>
+    Annotations: rdfs:label "patient population"
+
+Class: <https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#PatientPopulation>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#PolicePatrolProcess>
+    Annotations: rdfs:label "police patrol process"
+
+Class: <https://signals.zndx.org/sdg#OperationalUnit>
+    Annotations: rdfs:label "operational unit"
+
+Class: <https://signals.zndx.org/sdg#PolicePatrolProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#OperationalUnit>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingProcess>
+    Annotations: rdfs:label "qualified source testing process"
+
+Class: <https://signals.zndx.org/sdg#SourceTestingCertification>
+    Annotations: rdfs:label "source testing certification"
+
+Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#SourceTestingCertification>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess>
+    Annotations: rdfs:label "clearing broker service delivery process"
+
+Class: <https://signals.zndx.org/sdg#ClearingProcess>
+    Annotations: rdfs:label "clearing process"
+
+Class: <https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#ClearingProcess>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#RightsExerciseProcess>
+    Annotations: rdfs:label "rights exercise process"
+
+Class: <https://signals.zndx.org/sdg#IndigenousChild>
+    Annotations: rdfs:label "indigenous child"
+
+Class: <https://signals.zndx.org/sdg#RightsExerciseProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#IndigenousChild>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
+    Annotations: rdfs:label "authorized entity authorization process"
+
+Class: <https://signals.zndx.org/sdg#AuthorizedEntity>
+    Annotations: rdfs:label "authorized entity"
+
+Class: <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#AuthorizedEntity>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess>
+    Annotations: rdfs:label "joint board chair service delivery process"
+
+Class: <https://signals.zndx.org/sdg#GovernanceFunction>
+    Annotations: rdfs:label "governance function"
+
+Class: <https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#GovernanceFunction>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
+    Annotations: rdfs:label "social media account management process"
+
+Class: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
+    Annotations: rdfs:label "social media account administrator"
+
+Class: <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess>
+    Annotations: rdfs:label "community healthcare service delivery process"
+
+Class: <https://signals.zndx.org/sdg#CommunityHealthcareSetting>
+    Annotations: rdfs:label "community healthcare setting"
+
+Class: <https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#CommunityHealthcareSetting>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
+Class: <https://signals.zndx.org/sdg#IndependentContinuant>
+    Annotations: rdfs:label "independent continuant"
+
+Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#ParentingProcess>
+    Annotations: rdfs:label "parenting process"
+
+Class: <https://signals.zndx.org/sdg#DisabledAdult>
+    Annotations: rdfs:label "disabled adult"
+
+Class: <https://signals.zndx.org/sdg#ParentingProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#DisabledAdult>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
+Class: <https://signals.zndx.org/sdg#RenderedAnimationArtifact>
+Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess>
+    Annotations: rdfs:label "traditional religious healing process"
+
+Class: <https://signals.zndx.org/sdg#HumanAgent>
+    Annotations: rdfs:label "human agent"
+
+Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#HumanAgent>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipProcess>
+Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipRole>
+Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipProcess>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#YoungResearcherResearchProcess>
+    Annotations: rdfs:label "young researcher research process"
+
+Class: <https://signals.zndx.org/sdg#ResearchActivity>
+    Annotations: rdfs:label "research activity"
+
+Class: <https://signals.zndx.org/sdg#YoungResearcherResearchProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some <https://signals.zndx.org/sdg#ResearchActivity>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
 DisjointClasses: <https://signals.zndx.org/sdg#RequestedProviderType>, <https://signals.zndx.org/sdg#SocialNetworkingServiceType>
 DisjointClasses: <https://signals.zndx.org/sdg#AgendaSubject>, <https://signals.zndx.org/sdg#MathematicalConcept>
 DisjointClasses: <https://signals.zndx.org/sdg#AcademicProgramRequirement>, <https://signals.zndx.org/sdg#NetworkResourceMapping>
@@ -8007,7 +8269,6 @@ Class: <https://signals.zndx.org/sdg#AcademicPresentation> SubClassOf: bfo:00000
 Class: <https://signals.zndx.org/sdg#AcademicRecord> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AcademicTerm> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AccessControlMechanism> SubClassOf: bfo:0000002
-Class: <https://signals.zndx.org/sdg#AccountManagementFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AdministrativeActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#AdministrativeOffice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AdmissionDecision> SubClassOf: bfo:0000002
@@ -8026,7 +8287,6 @@ Class: <https://signals.zndx.org/sdg#ArcticRegion> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AttendanceRecord> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AuditMethodology> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#BiologicalSpecimen> SubClassOf: bfo:0000002
-Class: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
 Class: <https://signals.zndx.org/sdg#CatalogStructure> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ClearingFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ClinicalImagingData> SubClassOf: bfo:0000002
@@ -8037,12 +8297,9 @@ Class: <https://signals.zndx.org/sdg#ContactInformation> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#CustomerAccount> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DataDeterminationActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#DdosAttackEvent> SubClassOf: bfo:0000003
-Class: <https://signals.zndx.org/sdg#DecisionAction>
-Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
 Class: <https://signals.zndx.org/sdg#DepartmentOfHealthStandard> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DepartmentalSortingRule> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess> SubClassOf: bfo:0000003
-Class: <https://signals.zndx.org/sdg#DiagnosticImagingPractice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DieselPoweredVehicle> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DietaryAdvice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DisabledAdult> SubClassOf: bfo:0000002
@@ -8066,11 +8323,11 @@ Class: <https://signals.zndx.org/sdg#GenomicData> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#GenomicSpecimen> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#GiftAllocationPurpose> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#HazardEvent> SubClassOf: bfo:0000003
-Class: <https://signals.zndx.org/sdg#HealerFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#HealthCondition> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#HealthProfile> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#IndependentContinuant> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#IndependentContinuantAgent> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#IndigenousChild> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#IndividualClinician> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#InspectionChecklistItem> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#InternalAuditingFunction> SubClassOf: bfo:0000002
@@ -8082,7 +8339,6 @@ Class: <https://signals.zndx.org/sdg#MedicationFactSheet> SubClassOf: bfo:000000
 Class: <https://signals.zndx.org/sdg#MolecularTarget> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#NutritionalAnthropologyMethod> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ParentingActivity> SubClassOf: bfo:0000003
-Class: <https://signals.zndx.org/sdg#ParentingFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ParticipantInteraction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#PatientEducationPurpose> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#PatientEncounter> SubClassOf: bfo:0000002
@@ -8103,7 +8359,6 @@ Class: <https://signals.zndx.org/sdg#ResearchQuestion> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResidentialStreet> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResponsiveDesignTechnique> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RestaurantStaff> SubClassOf: bfo:0000002
-Class: <https://signals.zndx.org/sdg#RightsExercise> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RiskMetric> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RoleConcept> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#SacredArtifact> SubClassOf: bfo:0000002
@@ -8178,19 +8433,17 @@ Class: <https://signals.zndx.org/sdg#AcademicProgramRequirement>
 Class: <https://signals.zndx.org/sdg#AcademicRecord>
     Annotations: iao:0000115 "A academic record.", rdfs:comment "A academic record."
 Class: <https://signals.zndx.org/sdg#AcademicRole>
-    Annotations: iao:0000115 "An AcademicRole is a role borne by exactly one Person that realizes some AcademicActivity.", rdfs:comment "An AcademicRole is a role borne by exactly one Person that realizes some AcademicActivity."
+    Annotations: iao:0000115 "{AcademicRole} is a role that inheres in exactly one {Person}, and that is realized in some {AcademicActivity}", rdfs:comment "{AcademicRole} is a role that inheres in exactly one {Person}, and that is realized in some {AcademicActivity}"
 Class: <https://signals.zndx.org/sdg#AcademicTerm>
     Annotations: iao:0000115 "A academic term.", rdfs:comment "A academic term."
 Class: <https://signals.zndx.org/sdg#AccessControlMechanism>
     Annotations: iao:0000115 "A access control mechanism.", rdfs:comment "A access control mechanism."
-Class: <https://signals.zndx.org/sdg#AccountManagementFunction>
-    Annotations: iao:0000115 "A account management function.", rdfs:comment "A account management function."
 Class: <https://signals.zndx.org/sdg#AdministrativeActivity>
     Annotations: iao:0000115 "A administrative activity.", rdfs:comment "A administrative activity."
 Class: <https://signals.zndx.org/sdg#AdministrativeOffice>
     Annotations: iao:0000115 "A administrative office.", rdfs:comment "A administrative office."
 Class: <https://signals.zndx.org/sdg#AdministrativeRole>
-    Annotations: iao:0000115 "An AdministrativeRole is a role borne by exactly one Person that realizes some AdministrativeActivity.", rdfs:comment "An AdministrativeRole is a role borne by exactly one Person that realizes some AdministrativeActivity."
+    Annotations: iao:0000115 "{AdministrativeRole} is a role that inheres in exactly one {Person}, and that is realized in some {AdministrativeActivity}", rdfs:comment "{AdministrativeRole} is a role that inheres in exactly one {Person}, and that is realized in some {AdministrativeActivity}"
 Class: <https://signals.zndx.org/sdg#AdmissionDecision>
     Annotations: iao:0000115 "A admission decision.", rdfs:comment "A admission decision."
 Class: <https://signals.zndx.org/sdg#AdopteeRole>
@@ -8243,7 +8496,7 @@ Class: <https://signals.zndx.org/sdg#AssessmentParticipant>
 Class: <https://signals.zndx.org/sdg#AssessmentStandard>
     Annotations: iao:0000115 "An AssessmentStandard is a DescriptiveICE that has at least one AssessmentMethod.", rdfs:comment "An AssessmentStandard is a DescriptiveICE that has at least one AssessmentMethod."
 Class: <https://signals.zndx.org/sdg#AthleticAttendantRole>
-    Annotations: iao:0000115 "An AthleticAttendantRole is an agent_role that hasRoleBearer exactly one Person and realizes an AthleticMonitoringActivity.", rdfs:comment "An AthleticAttendantRole is an agent_role that hasRoleBearer exactly one Person and realizes an AthleticMonitoringActivity."
+    Annotations: iao:0000115 "{AthleticAttendantRole} is a role that has role bearer exactly one {Person}, and that is realized in some {AthleticMonitoringActivity}", rdfs:comment "{AthleticAttendantRole} is a role that has role bearer exactly one {Person}, and that is realized in some {AthleticMonitoringActivity}"
 Class: <https://signals.zndx.org/sdg#AthleticMonitoringActivity>
     Annotations: iao:0000115 "A video surveillance activity that tracks athlete performance.", rdfs:comment "A video surveillance activity that tracks athlete performance."
 Class: <https://signals.zndx.org/sdg#AttendanceRecord>
@@ -8256,8 +8509,10 @@ Class: <https://signals.zndx.org/sdg#AuditObjective>
     Annotations: iao:0000115 "An objective that guides an internal audit.", rdfs:comment "An objective that guides an internal audit."
 Class: <https://signals.zndx.org/sdg#AuthorizedEntity>
     Annotations: iao:0000115 "An organization member that holds authorization.", rdfs:comment "An organization member that holds authorization."
+Class: <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
+    Annotations: iao:0000115 "{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}", rdfs:comment "{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}"
 Class: <https://signals.zndx.org/sdg#AuthorizedRepresentativeRole>
-    Annotations: iao:0000115 "An AuthorizedRepresentativeRole is a role that inheres_in exactly one FinancialServicesEntity and realizes some AuthorizedEntity.", rdfs:comment "An AuthorizedRepresentativeRole is a role that inheres_in exactly one FinancialServicesEntity and realizes some AuthorizedEntity."
+    Annotations: iao:0000115 "{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}", rdfs:comment "{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}"
 Class: <https://signals.zndx.org/sdg#AutohemotherapyProcedure>
     Annotations: iao:0000115 "A process that involves autotransfusion.", rdfs:comment "A process that involves autotransfusion."
 Class: <https://signals.zndx.org/sdg#AutomatedSystem>
@@ -8281,7 +8536,9 @@ Class: <https://signals.zndx.org/sdg#BoardMeetingAgendaItem>
 Class: <https://signals.zndx.org/sdg#BoardMember>
     Annotations: iao:0000115 "An organization member role that holds a seat on a board.", rdfs:comment "An organization member role that holds a seat on a board."
 Class: <https://signals.zndx.org/sdg#BoardMemberRole>
-    Annotations: iao:0000115 "A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting.", rdfs:comment "A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting."
+    Annotations: iao:0000115 "{BoardMemberRole} is a role that has borne agent exactly one {IndependentContinuant}, and that is realized in some {BoardMemberRoleRealization}", rdfs:comment "{BoardMemberRole} is a role that has borne agent exactly one {IndependentContinuant}, and that is realized in some {BoardMemberRoleRealization}"
+Class: <https://signals.zndx.org/sdg#BoardMemberRoleRealization>
+    Annotations: iao:0000115 "{BoardMemberRoleRealization} is a process that has participant some {BoardOfAssessorsMeeting}", rdfs:comment "{BoardMemberRoleRealization} is a process that has participant some {BoardOfAssessorsMeeting}"
 Class: <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
     Annotations: iao:0000115 "An act of meeting conducted by assessors.", rdfs:comment "An act of meeting conducted by assessors."
 Class: <https://signals.zndx.org/sdg#BoardOfAuditorsRole>
@@ -8303,7 +8560,6 @@ Class: <https://signals.zndx.org/sdg#BusinessInitiative>
 Class: <https://signals.zndx.org/sdg#BusinessPlan>
     Annotations: iao:0000115 "A BusinessPlan is an InformationContentEntity that describes a FutureBusinessScenario and targets an InvestorFundingSituation.", rdfs:comment "A BusinessPlan is an InformationContentEntity that describes a FutureBusinessScenario and targets an InvestorFundingSituation."
 Class: <https://signals.zndx.org/sdg#CMESeminar>
-    Annotations: iao:0000115 "A CMESeminar is an Occurrent that has_topic_focus some PracticeManagementTopic and has_educational_goal some ProfessionalDevelopmentGoal.", rdfs:comment "A CMESeminar is an Occurrent that has_topic_focus some PracticeManagementTopic and has_educational_goal some ProfessionalDevelopmentGoal."
 Class: <https://signals.zndx.org/sdg#CalendarProduct>
     Annotations: iao:0000115 "A calendar product is a generically dependent continuant that implements a calendar system and specifies temporal references for calendar months.", rdfs:comment "A calendar product is a generically dependent continuant that implements a calendar system and specifies temporal references for calendar months."
 Class: <https://signals.zndx.org/sdg#CalendarProductSpecification>
@@ -8320,7 +8576,6 @@ Class: <https://signals.zndx.org/sdg#CancerPatient>
     Annotations: iao:0000115 "A person who has a disease.", rdfs:comment "A person who has a disease."
 Class: <https://signals.zndx.org/sdg#CancerSupportProgram>
     Annotations: iao:0000115 "A CancerSupportProgram is a BFO process that targets a CancerPatient and delivers a SupportService.", rdfs:comment "A CancerSupportProgram is a BFO process that targets a CancerPatient and delivers a SupportService."
-Class: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
 Class: <https://signals.zndx.org/sdg#CareQualityAssessment>
     Annotations: iao:0000115 "A quality specification that assesses the quality of clinical care.", rdfs:comment "A quality specification that assesses the quality of clinical care."
 Class: <https://signals.zndx.org/sdg#CatalogStructure>
@@ -8334,17 +8589,19 @@ Class: <https://signals.zndx.org/sdg#Chemical>
 Class: <https://signals.zndx.org/sdg#ChemicalInstallation>
     Annotations: iao:0000115 "A chemical manufacturing facility that involves a chemical as an object.", rdfs:comment "A chemical manufacturing facility that involves a chemical as an object."
 Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerRole>
-    Annotations: iao:0000115 "A ChiefComplianceOfficerRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.", rdfs:comment "A ChiefComplianceOfficerRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration."
+    Annotations: iao:0000115 "{ChiefComplianceOfficerRole} is a role that is borne by exactly one {Person}, and that is realized in some {ChiefComplianceOfficerServiceDeliveryProcess}", rdfs:comment "{ChiefComplianceOfficerRole} is a role that is borne by exactly one {Person}, and that is realized in some {ChiefComplianceOfficerServiceDeliveryProcess}"
+Class: <https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess>
+    Annotations: iao:0000115 "{ChiefComplianceOfficerServiceDeliveryProcess} is a process that has participant some {CollegeAdministration}", rdfs:comment "{ChiefComplianceOfficerServiceDeliveryProcess} is a process that has participant some {CollegeAdministration}"
 Class: <https://signals.zndx.org/sdg#ChiefFinancialOfficerRole>
-    Annotations: iao:0000115 "A ChiefFinancialOfficerRole is a role that bears exactly one OrganizationalAgent and realizes a FinancialManagementProcess.", rdfs:comment "A ChiefFinancialOfficerRole is a role that bears exactly one OrganizationalAgent and realizes a FinancialManagementProcess."
 Class: <https://signals.zndx.org/sdg#Child>
     Annotations: iao:0000115 "A child is a person who is in the early developmental stage of life and has at least one biological parent.", rdfs:comment "A child is a person who is in the early developmental stage of life and has at least one biological parent."
 Class: <https://signals.zndx.org/sdg#ChildProtectionTeam>
     Annotations: iao:0000115 "An organization that protects a child.", rdfs:comment "An organization that protects a child."
 Class: <https://signals.zndx.org/sdg#CleanTrafficRedirection>
-    Annotations: iao:0000115 "Clean traffic redirection is a process that originates from a network scrubbing center, delivers to a customer network, and is realized in a scrubbing activity.", rdfs:comment "Clean traffic redirection is a process that originates from a network scrubbing center, delivers to a customer network, and is realized in a scrubbing activity."
 Class: <https://signals.zndx.org/sdg#ClearingBrokerRole>
-    Annotations: iao:0000115 "A clearing broker role is a role that inheres in exactly one customer account and realizes some clearing process.", rdfs:comment "A clearing broker role is a role that inheres in exactly one customer account and realizes some clearing process."
+    Annotations: iao:0000115 "{ClearingBrokerRole} is a role that inheres in exactly one {CustomerAccount}, and that is realized in some {ClearingBrokerServiceDeliveryProcess}", rdfs:comment "{ClearingBrokerRole} is a role that inheres in exactly one {CustomerAccount}, and that is realized in some {ClearingBrokerServiceDeliveryProcess}"
+Class: <https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess>
+    Annotations: iao:0000115 "{ClearingBrokerServiceDeliveryProcess} is a process that has participant some {ClearingProcess}", rdfs:comment "{ClearingBrokerServiceDeliveryProcess} is a process that has participant some {ClearingProcess}"
 Class: <https://signals.zndx.org/sdg#ClearingFunction>
     Annotations: iao:0000115 "A clearing function.", rdfs:comment "A clearing function."
 Class: <https://signals.zndx.org/sdg#ClearingProcess>
@@ -8379,21 +8636,26 @@ Class: <https://signals.zndx.org/sdg#CollateralExchangeProcess>
     Annotations: iao:0000115 "A financial deposit process that involves the corresponding withdrawal or exchange of collateral assets.", rdfs:comment "A financial deposit process that involves the corresponding withdrawal or exchange of collateral assets."
 Class: <https://signals.zndx.org/sdg#CollegeAdministration>
     Annotations: iao:0000115 "An organizational body responsible for the management and governance of a higher education institution.", rdfs:comment "An organizational body responsible for the management and governance of a higher education institution."
+Class: <https://signals.zndx.org/sdg#CollegeAdministrationProcess>
+    Annotations: iao:0000115 "{CollegeAdministrationProcess} is a process that has participant some {CollegeAdministration}", rdfs:comment "{CollegeAdministrationProcess} is a process that has participant some {CollegeAdministration}"
 Class: <https://signals.zndx.org/sdg#CollegeCommunityMember>
     Annotations: iao:0000115 "An organization member who holds membership within an educational organization or college community.", rdfs:comment "An organization member who holds membership within an educational organization or college community."
 Class: <https://signals.zndx.org/sdg#CollegeOfficial>
     Annotations: iao:0000115 "A staff member who holds an official administrative or academic position within a higher education institution.", rdfs:comment "A staff member who holds an official administrative or academic position within a higher education institution."
 Class: <https://signals.zndx.org/sdg#CollegeOfficialRole>
-    Annotations: iao:0000115 "A CollegeOfficialRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.", rdfs:comment "A CollegeOfficialRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration."
+    Annotations: iao:0000115 "{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}", rdfs:comment "{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}"
 Class: <https://signals.zndx.org/sdg#CollegeResource>
     Annotations: iao:0000115 "A college resource.", rdfs:comment "A college resource."
 Class: <https://signals.zndx.org/sdg#CommunicableDiseaseNotificationRequirement>
     Annotations: iao:0000115 "A communicable disease notification requirement is a directive ICE that requires disclosure of a health care summary and is directed to receiving facility staff.", rdfs:comment "A communicable disease notification requirement is a directive ICE that requires disclosure of a health care summary and is directed to receiving facility staff."
 Class: <https://signals.zndx.org/sdg#CommunicationSecurityAspect>
     Annotations: iao:0000115 "Communication security aspect is a quality that pertains to a communication channel and ensures the security of a communication system.", rdfs:comment "Communication security aspect is a quality that pertains to a communication channel and ensures the security of a communication system."
+Class: <https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess>
+    Annotations: iao:0000115 "{CommunityHealthcareServiceDeliveryProcess} is a process that has participant some {CommunityHealthcareSetting}", rdfs:comment "{CommunityHealthcareServiceDeliveryProcess} is a process that has participant some {CommunityHealthcareSetting}"
 Class: <https://signals.zndx.org/sdg#CommunityHealthcareSetting>
     Annotations: iao:0000115 "A healthcare facility that delivers clinical care services within a community-based environment.", rdfs:comment "A healthcare facility that delivers clinical care services within a community-based environment."
 Class: <https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse>
+    Annotations: iao:0000115 "{CommunityLearningDisabilityNurse} is a role that is borne by exactly one {HealthcareAgent}, and that is realized in some {CommunityHealthcareServiceDeliveryProcess}", rdfs:comment "{CommunityLearningDisabilityNurse} is a role that is borne by exactly one {HealthcareAgent}, and that is realized in some {CommunityHealthcareServiceDeliveryProcess}"
 Class: <https://signals.zndx.org/sdg#ComplianceAudit>
     Annotations: iao:0000115 "A compliance audit.", rdfs:comment "A compliance audit."
 Class: <https://signals.zndx.org/sdg#ComplianceCoordinatorRole>
@@ -8451,11 +8713,8 @@ Class: <https://signals.zndx.org/sdg#CourtDocument>
 Class: <https://signals.zndx.org/sdg#CreditHourCertificationProcess>
     Annotations: iao:0000115 "A CreditHourCertificationProcess is an occurrent that participates_in an AcademicTerm.", rdfs:comment "A CreditHourCertificationProcess is an occurrent that participates_in an AcademicTerm."
 Class: <https://signals.zndx.org/sdg#CriminalJusticeProcess>
-    Annotations: iao:0000115 "A criminal justice process that is realized in an administration process.", rdfs:comment "A criminal justice process that is realized in an administration process."
 Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem>
-    Annotations: iao:0000115 "An infrastructure system that participates in criminal justice processes.", rdfs:comment "An infrastructure system that participates in criminal justice processes."
 Class: <https://signals.zndx.org/sdg#CulturalAttribute>
-    Annotations: iao:0000115 "A quality that inheres in an organizational culture.", rdfs:comment "A quality that inheres in an organizational culture."
 Class: <https://signals.zndx.org/sdg#Curriculum>
     Annotations: iao:0000115 "A generically dependent continuant that comprises a structured set of courses for educational instruction.", rdfs:comment "A generically dependent continuant that comprises a structured set of courses for educational instruction."
 Class: <https://signals.zndx.org/sdg#CustomerAccount>
@@ -8477,7 +8736,6 @@ Class: <https://signals.zndx.org/sdg#DataDeterminationActivity>
 Class: <https://signals.zndx.org/sdg#DataExportProcess>
     Annotations: iao:0000115 "A DataExportProcess is a process that generates ExportedDataArtifact via SoftwareInterface.", rdfs:comment "A DataExportProcess is a process that generates ExportedDataArtifact via SoftwareInterface."
 Class: <https://signals.zndx.org/sdg#DataInput>
-    Annotations: iao:0000115 "A data input is an act of information processing that has a form document as a participant and involves a database.", rdfs:comment "A data input is an act of information processing that has a form document as a participant and involves a database."
 Class: <https://signals.zndx.org/sdg#DatabaseContainer>
     Annotations: iao:0000115 "A container that is used for storage in a cloud storage volume.", rdfs:comment "A container that is used for storage in a cloud storage volume."
 Class: <https://signals.zndx.org/sdg#DdosAttackEvent>
@@ -8486,7 +8744,6 @@ Class: <https://signals.zndx.org/sdg#DdosMitigationProcess>
     Annotations: iao:0000115 "A DdosMitigationProcess is a Process that hasTriggeringAttack some DdosAttackEvent and hasProtectedInfrastructure some NetworkInfrastructure.", rdfs:comment "A DdosMitigationProcess is a Process that hasTriggeringAttack some DdosAttackEvent and hasProtectedInfrastructure some NetworkInfrastructure."
 Class: <https://signals.zndx.org/sdg#DebtCaseworkProcess>
     Annotations: iao:0000115 "A debt casework process is a process that targets a housing client and addresses a housing debt issue.", rdfs:comment "A debt casework process is a process that targets a housing client and addresses a housing debt issue."
-Class: <https://signals.zndx.org/sdg#DecisionAction>
 Class: <https://signals.zndx.org/sdg#DecisionMakerRole>
 Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
 Class: <https://signals.zndx.org/sdg#DecisionTransitionAction>
@@ -8498,17 +8755,15 @@ Class: <https://signals.zndx.org/sdg#DepartmentOfHealthStandard>
 Class: <https://signals.zndx.org/sdg#DepartmentalSortingRule>
     Annotations: iao:0000115 "A departmental sorting rule.", rdfs:comment "A departmental sorting rule."
 Class: <https://signals.zndx.org/sdg#DeveloperRepresentativeRole>
-    Annotations: iao:0000115 "A DeveloperRepresentativeRole is an agent role that has exactly one role bearer which is an Agent, and realizes some FinalInspectionProcess.", rdfs:comment "A DeveloperRepresentativeRole is an agent role that has exactly one role bearer which is an Agent, and realizes some FinalInspectionProcess."
+    Annotations: iao:0000115 "{DeveloperRepresentativeRole} is a role that has role bearer exactly one {Agent}, and that is realized in some {FinalInspectionProcess}", rdfs:comment "{DeveloperRepresentativeRole} is a role that has role bearer exactly one {Agent}, and that is realized in some {FinalInspectionProcess}"
 Class: <https://signals.zndx.org/sdg#DeviceExpertRole>
-    Annotations: iao:0000115 "A DeviceExpertRole is a role borne by exactly one Person and realizes a DeviceProcurementAdvisoryProcess.", rdfs:comment "A DeviceExpertRole is a role borne by exactly one Person and realizes a DeviceProcurementAdvisoryProcess."
+    Annotations: iao:0000115 "{DeviceExpertRole} is a role that inheres in exactly one {Person}, and that is realized in some {DeviceProcurementAdvisoryProcess}", rdfs:comment "{DeviceExpertRole} is a role that inheres in exactly one {Person}, and that is realized in some {DeviceProcurementAdvisoryProcess}"
 Class: <https://signals.zndx.org/sdg#DeviceInventoryRecord>
     Annotations: iao:0000115 "A DeviceInventoryRecord is an InformationContentEntity that enumerates a MedicalDevice.", rdfs:comment "A DeviceInventoryRecord is an InformationContentEntity that enumerates a MedicalDevice."
 Class: <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess>
     Annotations: iao:0000115 "A device procurement advisory process.", rdfs:comment "A device procurement advisory process."
 Class: <https://signals.zndx.org/sdg#DiagnosticImaging>
     Annotations: iao:0000115 "A process that is facilitated by imaging equipment for diagnostic purposes.", rdfs:comment "A process that is facilitated by imaging equipment for diagnostic purposes."
-Class: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-    Annotations: iao:0000115 "A diagnostic imaging practice.", rdfs:comment "A diagnostic imaging practice."
 Class: <https://signals.zndx.org/sdg#DieselPoweredVehicle>
     Annotations: iao:0000115 "A diesel powered vehicle.", rdfs:comment "A diesel powered vehicle."
 Class: <https://signals.zndx.org/sdg#DietaryAdvice>
@@ -8517,7 +8772,7 @@ Class: <https://signals.zndx.org/sdg#DigitalForensicAnalysis>
 Class: <https://signals.zndx.org/sdg#DisabledAdult>
     Annotations: iao:0000115 "A disabled adult.", rdfs:comment "A disabled adult."
 Class: <https://signals.zndx.org/sdg#DisabledAdultParentRole>
-    Annotations: iao:0000115 "A DisabledAdultParentRole is a role that is borne by exactly one Adult and realizes a ParentingFunction.", rdfs:comment "A DisabledAdultParentRole is a role that is borne by exactly one Adult and realizes a ParentingFunction."
+    Annotations: iao:0000115 "{DisabledAdultParentRole} is a role that is borne by exactly one {Adult}, and that is realized in some {ParentingProcess}", rdfs:comment "{DisabledAdultParentRole} is a role that is borne by exactly one {Adult}, and that is realized in some {ParentingProcess}"
 Class: <https://signals.zndx.org/sdg#DisasterSupplyItem>
     Annotations: iao:0000115 "A disaster supply item.", rdfs:comment "A disaster supply item."
 Class: <https://signals.zndx.org/sdg#Dish>
@@ -8553,19 +8808,18 @@ Class: <https://signals.zndx.org/sdg#EducationalPlacementProcess>
 Class: <https://signals.zndx.org/sdg#EligibilityComplianceCheck>
     Annotations: iao:0000115 "A eligibility compliance check.", rdfs:comment "A eligibility compliance check."
 Class: <https://signals.zndx.org/sdg#EligibleRaffleConductorRole>
-    Annotations: iao:0000115 "An EligibleRaffleConductorRole is a BFO role borne by exactly one NonprofitOrganization that realizes a RaffleConductingActivity.", rdfs:comment "An EligibleRaffleConductorRole is a BFO role borne by exactly one NonprofitOrganization that realizes a RaffleConductingActivity."
+    Annotations: iao:0000115 "{EligibleRaffleConductorRole} is a role that inheres in exactly one {NonprofitOrganization}, and that is realized in some {RaffleConductingActivity}", rdfs:comment "{EligibleRaffleConductorRole} is a role that inheres in exactly one {NonprofitOrganization}, and that is realized in some {RaffleConductingActivity}"
 Class: <https://signals.zndx.org/sdg#EmergencyResponse>
     Annotations: iao:0000115 "A emergency response.", rdfs:comment "A emergency response."
 Class: <https://signals.zndx.org/sdg#EmergencySuppliesKit>
     Annotations: iao:0000115 "An EmergencySuppliesKit is an artifact that contains a DisasterSupplyItem.", rdfs:comment "An EmergencySuppliesKit is an artifact that contains a DisasterSupplyItem."
 Class: <https://signals.zndx.org/sdg#EmployeeFeedbackSurvey>
-    Annotations: iao:0000115 "An EmployeeFeedbackSurvey is a process that measures a WorkplaceCultureDimension and assesses an OrganizationalHealthMetric.", rdfs:comment "An EmployeeFeedbackSurvey is a process that measures a WorkplaceCultureDimension and assesses an OrganizationalHealthMetric."
 Class: <https://signals.zndx.org/sdg#EnergyEfficientAppliance>
     Annotations: iao:0000115 "An EnergyEfficientAppliance is an independent continuant that has a component that is an EnergySavingComponent.", rdfs:comment "An EnergyEfficientAppliance is an independent continuant that has a component that is an EnergySavingComponent."
 Class: <https://signals.zndx.org/sdg#EnergySavingComponent>
     Annotations: iao:0000115 "A power source component used within a heating system to improve energy efficiency.", rdfs:comment "A power source component used within a heating system to improve energy efficiency."
 Class: <https://signals.zndx.org/sdg#EntrepreneurRole>
-    Annotations: iao:0000115 "An EntrepreneurRole is a phase-sortal role that inheres_in exactly one IndependentEconomicAgent and realizes a BusinessActivityProcess.", rdfs:comment "An EntrepreneurRole is a phase-sortal role that inheres_in exactly one IndependentEconomicAgent and realizes a BusinessActivityProcess."
+    Annotations: iao:0000115 "{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}", rdfs:comment "{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}"
 Class: <https://signals.zndx.org/sdg#EntrepreneurialActivityProcess>
     Annotations: iao:0000115 "An EntrepreneurialActivityProcess is a Process that produces EconomicGoodsAndServices and targets MarketDemand.", rdfs:comment "An EntrepreneurialActivityProcess is a Process that produces EconomicGoodsAndServices and targets MarketDemand."
 Class: <https://signals.zndx.org/sdg#EnvironmentalPermittingSupervisionActivity>
@@ -8639,7 +8893,6 @@ Class: <https://signals.zndx.org/sdg#FinancialFund>
     Annotations: iao:0000115 "A financial facility that involves a financial resource.", rdfs:comment "A financial facility that involves a financial resource."
 Class: <https://signals.zndx.org/sdg#FinancialInstrument>
 Class: <https://signals.zndx.org/sdg#FinancialManagementProcess>
-    Annotations: iao:0000115 "A financial activity that involves financial strategy oversight.", rdfs:comment "A financial activity that involves financial strategy oversight."
 Class: <https://signals.zndx.org/sdg#FinancialPlanningProcess>
     Annotations: iao:0000115 "A FinancialPlanningProcess is an occurrent that involves some OrganizationalAgent and aims at some FinancialStrategy.", rdfs:comment "A FinancialPlanningProcess is an occurrent that involves some OrganizationalAgent and aims at some FinancialStrategy."
 Class: <https://signals.zndx.org/sdg#FinancialProduct>
@@ -8661,11 +8914,10 @@ Class: <https://signals.zndx.org/sdg#FinancialStrategy>
 Class: <https://signals.zndx.org/sdg#FinancialStrategyAndPlanningProcess>
     Annotations: iao:0000115 "A financial strategy and planning process is a process involving an executive leadership process and outputting a financial report.", rdfs:comment "A financial strategy and planning process is a process involving an executive leadership process and outputting a financial report."
 Class: <https://signals.zndx.org/sdg#FinancialStrategyOversight>
-    Annotations: iao:0000115 "A process that is involved in a financial management process.", rdfs:comment "A process that is involved in a financial management process."
 Class: <https://signals.zndx.org/sdg#FinancialSystemDisruption>
     Annotations: iao:0000115 "A financial system disruption.", rdfs:comment "A financial system disruption."
 Class: <https://signals.zndx.org/sdg#FineAssessmentEvent>
-    Annotations: iao:0000115 "A FineAssessmentEvent is an InformationContentEntity that assessesOwner some PropertyOwner, addressesViolation some PolicyViolation, and has assessmentAmount some xsd:decimal.", rdfs:comment "A FineAssessmentEvent is an InformationContentEntity that assessesOwner some PropertyOwner, addressesViolation some PolicyViolation, and has assessmentAmount some xsd:decimal."
+    Annotations: iao:0000115 "A FineAssessmentEvent is classified as an InformationContentEntity that carries an assessesOwner link to a PropertyOwner, an addressesViolation link to a PolicyViolation, and a has assessmentAmount link to an xsd:decimal.", rdfs:comment "A FineAssessmentEvent is classified as an InformationContentEntity that carries an assessesOwner link to a PropertyOwner, an addressesViolation link to a PolicyViolation, and a has assessmentAmount link to an xsd:decimal."
 Class: <https://signals.zndx.org/sdg#FloodAssetConditionAssessment>
     Annotations: iao:0000115 "An activity that assesses flood infrastructure and utilizes earth observation data.", rdfs:comment "An activity that assesses flood infrastructure and utilizes earth observation data."
 Class: <https://signals.zndx.org/sdg#FloodInfrastructure>
@@ -8676,8 +8928,10 @@ Class: <https://signals.zndx.org/sdg#FutureBusinessScenario>
     Annotations: iao:0000115 "A future business scenario.", rdfs:comment "A future business scenario."
 Class: <https://signals.zndx.org/sdg#GaulishTribe>
     Annotations: iao:0000115 "A gaulish tribe.", rdfs:comment "A gaulish tribe."
+Class: <https://signals.zndx.org/sdg#GeneralManagerFunctionExecution>
+    Annotations: iao:0000115 "{GeneralManagerFunctionExecution} is a process that has participant some {OrganizationalFunction}", rdfs:comment "{GeneralManagerFunctionExecution} is a process that has participant some {OrganizationalFunction}"
 Class: <https://signals.zndx.org/sdg#GeneralManagerRole>
-    Annotations: iao:0000115 "A General Manager Role is a BFO Role borne by exactly one Human Agent and realizing some Organizational Function.", rdfs:comment "A General Manager Role is a BFO Role borne by exactly one Human Agent and realizing some Organizational Function."
+    Annotations: iao:0000115 "{GeneralManagerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {GeneralManagerFunctionExecution}", rdfs:comment "{GeneralManagerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {GeneralManagerFunctionExecution}"
 Class: <https://signals.zndx.org/sdg#GenomicData>
     Annotations: iao:0000115 "A genomic data.", rdfs:comment "A genomic data."
 Class: <https://signals.zndx.org/sdg#GenomicSequencingTest>
@@ -8698,8 +8952,6 @@ Class: <https://signals.zndx.org/sdg#HSSSEQ_Situation>
     Annotations: iao:0000115 "A stasis condition documenting the operational status or readiness level of a system or unit.", rdfs:comment "A stasis condition documenting the operational status or readiness level of a system or unit."
 Class: <https://signals.zndx.org/sdg#HazardEvent>
     Annotations: iao:0000115 "A hazard event.", rdfs:comment "A hazard event."
-Class: <https://signals.zndx.org/sdg#HealerFunction>
-    Annotations: iao:0000115 "A healer function.", rdfs:comment "A healer function."
 Class: <https://signals.zndx.org/sdg#HealthCareSummary>
     Annotations: iao:0000115 "An information content entity that consolidates key clinical care and outcome data for a patient.", rdfs:comment "An information content entity that consolidates key clinical care and outcome data for a patient."
 Class: <https://signals.zndx.org/sdg#HealthCondition>
@@ -8713,7 +8965,6 @@ Class: <https://signals.zndx.org/sdg#HealthStandardCompliance>
 Class: <https://signals.zndx.org/sdg#HealthcareAgent>
     Annotations: iao:0000115 "An agent that delivers or coordinates healthcare services within a medical facility or community.", rdfs:comment "An agent that delivers or coordinates healthcare services within a medical facility or community."
 Class: <https://signals.zndx.org/sdg#HealthcareAnalyticsProcess>
-    Annotations: iao:0000115 "A HealthcareAnalyticsProcess is a process that processesInput some DataInput and producesOutput some IntelligenceOutput.", rdfs:comment "A HealthcareAnalyticsProcess is a process that processesInput some DataInput and producesOutput some IntelligenceOutput."
 Class: <https://signals.zndx.org/sdg#HealthcareNetworkInfrastructure>
     Annotations: iao:0000115 "An infrastructure system that provides the underlying network support for healthcare services.", rdfs:comment "An infrastructure system that provides the underlying network support for healthcare services."
 Class: <https://signals.zndx.org/sdg#HealthcareOrganization>
@@ -8752,8 +9003,10 @@ Class: <https://signals.zndx.org/sdg#IndependentContinuantAgent>
     Annotations: iao:0000115 "A independent continuant agent.", rdfs:comment "A independent continuant agent."
 Class: <https://signals.zndx.org/sdg#IndependentEconomicAgent>
     Annotations: iao:0000115 "An agent that engages in market exchange with external business partners.", rdfs:comment "An agent that engages in market exchange with external business partners."
+Class: <https://signals.zndx.org/sdg#IndigenousChild>
+    Annotations: iao:0000115 "A indigenous child.", rdfs:comment "A indigenous child."
 Class: <https://signals.zndx.org/sdg#IndigenousChildRole>
-    Annotations: iao:0000115 "An IndigenousChildRole is a role borne by exactly one IndependentContinuant that realizes a RightsExercise.", rdfs:comment "An IndigenousChildRole is a role borne by exactly one IndependentContinuant that realizes a RightsExercise."
+    Annotations: iao:0000115 "{IndigenousChildRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {RightsExerciseProcess}", rdfs:comment "{IndigenousChildRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {RightsExerciseProcess}"
 Class: <https://signals.zndx.org/sdg#Individual>
     Annotations: iao:0000115 "A material entity that constitutes a human person.", rdfs:comment "A material entity that constitutes a human person."
 Class: <https://signals.zndx.org/sdg#IndividualClinician>
@@ -8801,7 +9054,9 @@ Class: <https://signals.zndx.org/sdg#InvestorRelationsActivity>
 Class: <https://signals.zndx.org/sdg#InvestorRelationsDirectorRole>
     Annotations: iao:0000115 "An InvestorRelationsDirectorRole is a role borne by exactly one CorporateAgent that realizes an InvestorRelationsActivity.", rdfs:comment "An InvestorRelationsDirectorRole is a role borne by exactly one CorporateAgent that realizes an InvestorRelationsActivity."
 Class: <https://signals.zndx.org/sdg#JointBoardChairRole>
-    Annotations: iao:0000115 "A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.", rdfs:comment "A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction."
+    Annotations: iao:0000115 "{JointBoardChairRole} is a role that designates exactly one {IndependentContinuantAgent}, and that is realized in some {JointBoardChairServiceDeliveryProcess}", rdfs:comment "{JointBoardChairRole} is a role that designates exactly one {IndependentContinuantAgent}, and that is realized in some {JointBoardChairServiceDeliveryProcess}"
+Class: <https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess>
+    Annotations: iao:0000115 "{JointBoardChairServiceDeliveryProcess} is a process that has participant some {GovernanceFunction}", rdfs:comment "{JointBoardChairServiceDeliveryProcess} is a process that has participant some {GovernanceFunction}"
 Class: <https://signals.zndx.org/sdg#JointInformationEnvironment>
     Annotations: iao:0000115 "A JointInformationEnvironment is a bfo:0000004 that isPartOf some SecureInfrastructureService.", rdfs:comment "A JointInformationEnvironment is a bfo:0000004 that isPartOf some SecureInfrastructureService."
 Class: <https://signals.zndx.org/sdg#JuvenileOffenderPatientRole>
@@ -8833,9 +9088,11 @@ Class: <https://signals.zndx.org/sdg#LegalProceeding>
 Class: <https://signals.zndx.org/sdg#LegalProfessional>
     Annotations: iao:0000115 "A legal advocate role filled by an individual who possesses formal legal qualifications.", rdfs:comment "A legal advocate role filled by an individual who possesses formal legal qualifications."
 Class: <https://signals.zndx.org/sdg#LegalServiceAdvertiserRole>
-    Annotations: iao:0000115 "A LegalServiceAdvertiserRole is a BFO Role that inheres_in exactly one LegalProfessional and realizes some LegalAdvertisementActivity.", rdfs:comment "A LegalServiceAdvertiserRole is a BFO Role that inheres_in exactly one LegalProfessional and realizes some LegalAdvertisementActivity."
+    Annotations: iao:0000115 "{LegalServiceAdvertiserRole} is a role that inheres in exactly one {LegalProfessional}, and that is realized in some {LegalAdvertisementActivity}", rdfs:comment "{LegalServiceAdvertiserRole} is a role that inheres in exactly one {LegalProfessional}, and that is realized in some {LegalAdvertisementActivity}"
+Class: <https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess>
+    Annotations: iao:0000115 "{LegalTechServiceDeliveryProcess} is a process that has participant some {LegalTechSolutionLab}", rdfs:comment "{LegalTechServiceDeliveryProcess} is a process that has participant some {LegalTechSolutionLab}"
 Class: <https://signals.zndx.org/sdg#LegalTechServiceProvision>
-    Annotations: iao:0000115 "A LegalTech Service Provision is a role borne by a Service Provider that realizes a LegalTech Solution Lab.", rdfs:comment "A LegalTech Service Provision is a role borne by a Service Provider that realizes a LegalTech Solution Lab."
+    Annotations: iao:0000115 "{LegalTechServiceProvision} is a role that is borne by exactly one {ServiceProvider}, and that is realized in some {LegalTechServiceDeliveryProcess}", rdfs:comment "{LegalTechServiceProvision} is a role that is borne by exactly one {ServiceProvider}, and that is realized in some {LegalTechServiceDeliveryProcess}"
 Class: <https://signals.zndx.org/sdg#LegalTechSolutionLab>
     Annotations: iao:0000115 "A commercial organization dedicated to fostering legal technology innovation.", rdfs:comment "A commercial organization dedicated to fostering legal technology innovation."
 Class: <https://signals.zndx.org/sdg#LegislativeDepartment>
@@ -8843,7 +9100,7 @@ Class: <https://signals.zndx.org/sdg#LegislativeDepartment>
 Class: <https://signals.zndx.org/sdg#LibraryAssistanceActivity>
     Annotations: iao:0000115 "A library assistance activity.", rdfs:comment "A library assistance activity."
 Class: <https://signals.zndx.org/sdg#LibraryStudentAssistantRole>
-    Annotations: iao:0000115 "LibraryStudentAssistantRole is a role borne by exactly one student and realizes some library assistance activity.", rdfs:comment "LibraryStudentAssistantRole is a role borne by exactly one student and realizes some library assistance activity."
+    Annotations: iao:0000115 "{LibraryStudentAssistantRole} is a role that is borne by exactly one {Student}, and that is realized in some {LibraryAssistanceActivity}", rdfs:comment "{LibraryStudentAssistantRole} is a role that is borne by exactly one {Student}, and that is realized in some {LibraryAssistanceActivity}"
 Class: <https://signals.zndx.org/sdg#LifeguardStaff>
     Annotations: iao:0000115 "An organization member role filled by staff who ensure aquatic safety.", rdfs:comment "An organization member role filled by staff who ensure aquatic safety."
 Class: <https://signals.zndx.org/sdg#LocalAuthority>
@@ -8919,7 +9176,7 @@ Class: <https://signals.zndx.org/sdg#MunicipalPoolFacility>
 Class: <https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity>
     Annotations: iao:0000115 "A MunicipalPoolOperationsManagementActivity is a process that involves_participant some LifeguardStaff and involves_object some MunicipalPoolFacility.", rdfs:comment "A MunicipalPoolOperationsManagementActivity is a process that involves_participant some LifeguardStaff and involves_object some MunicipalPoolFacility."
 Class: <https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager>
-    Annotations: iao:0000115 "A MunicipalSwimmingPoolAssistantManager is a role that inheres_in exactly one HumanAgent and realizes some MunicipalPoolOperationsManagementActivity.", rdfs:comment "A MunicipalSwimmingPoolAssistantManager is a role that inheres_in exactly one HumanAgent and realizes some MunicipalPoolOperationsManagementActivity."
+    Annotations: iao:0000115 "{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}", rdfs:comment "{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}"
 Class: <https://signals.zndx.org/sdg#NetworkInfrastructure>
     Annotations: iao:0000115 "A network infrastructure is a telecommunication infrastructure that supports data transmission for a computer network.", rdfs:comment "A network infrastructure is a telecommunication infrastructure that supports data transmission for a computer network."
 Class: <https://signals.zndx.org/sdg#NetworkProvider>
@@ -8973,7 +9230,7 @@ Class: <https://signals.zndx.org/sdg#OrganizationalCulture>
 Class: <https://signals.zndx.org/sdg#OrganizationalFunction>
     Annotations: iao:0000115 "A capability of an organization that realizes the duties of a general manager.", rdfs:comment "A capability of an organization that realizes the duties of a general manager."
 Class: <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
-    Annotations: iao:0000115 "A health outcome measure derived from or applied to employee feedback surveys.", rdfs:comment "A health outcome measure derived from or applied to employee feedback surveys."
+Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipProcess>
 Class: <https://signals.zndx.org/sdg#OrganizationalLeadershipRole>
 Class: <https://signals.zndx.org/sdg#OriginalDocument>
     Annotations: iao:0000115 "A document content entity that is the source of information content for a copied document.", rdfs:comment "A document content entity that is the source of information content for a copied document."
@@ -8983,10 +9240,10 @@ Class: <https://signals.zndx.org/sdg#OzoneTherapySession>
     Annotations: iao:0000115 "An OzoneTherapySession is a process that administers an OzoneOxygenMixture and utilizes an AutohemotherapyProcedure.", rdfs:comment "An OzoneTherapySession is a process that administers an OzoneOxygenMixture and utilizes an AutohemotherapyProcedure."
 Class: <https://signals.zndx.org/sdg#ParentingActivity>
     Annotations: iao:0000115 "A parenting activity.", rdfs:comment "A parenting activity."
-Class: <https://signals.zndx.org/sdg#ParentingFunction>
-    Annotations: iao:0000115 "A parenting function.", rdfs:comment "A parenting function."
+Class: <https://signals.zndx.org/sdg#ParentingProcess>
+    Annotations: iao:0000115 "{ParentingProcess} is a process that has participant some {DisabledAdult}", rdfs:comment "{ParentingProcess} is a process that has participant some {DisabledAdult}"
 Class: <https://signals.zndx.org/sdg#ParentingRole>
-    Annotations: iao:0000115 "A ParentingRole is a role that inheresIn exactly one DisabledAdult and realizes some ParentingActivity.", rdfs:comment "A ParentingRole is a role that inheresIn exactly one DisabledAdult and realizes some ParentingActivity."
+    Annotations: iao:0000115 "{ParentingRole} is a role that inheres in exactly one {DisabledAdult}, and that is realized in some {ParentingActivity}", rdfs:comment "{ParentingRole} is a role that inheres in exactly one {DisabledAdult}, and that is realized in some {ParentingActivity}"
 Class: <https://signals.zndx.org/sdg#ParticipantInteraction>
     Annotations: iao:0000115 "A participant interaction.", rdfs:comment "A participant interaction."
 Class: <https://signals.zndx.org/sdg#Patient>
@@ -9009,8 +9266,10 @@ Class: <https://signals.zndx.org/sdg#PdfExportProcess>
     Annotations: iao:0000115 "A PdfExportProcess is a Process that ingests a ScannedImageSet and produces a PdfDocument, inheriting in an ExportExecution.", rdfs:comment "A PdfExportProcess is a Process that ingests a ScannedImageSet and produces a PdfDocument, inheriting in an ExportExecution."
 Class: <https://signals.zndx.org/sdg#PdfFormat>
     Annotations: iao:0000115 "A quality that applies to a PDF document.", rdfs:comment "A quality that applies to a PDF document."
+Class: <https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess>
+    Annotations: iao:0000115 "{PerformanceBasedCareDeliveryProcess} is a process that has participant some {PatientPopulation}", rdfs:comment "{PerformanceBasedCareDeliveryProcess} is a process that has participant some {PatientPopulation}"
 Class: <https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole>
-    Annotations: iao:0000115 "A PerformanceBasedCareProviderRole is a role realized by a HealthcareOrganization exactly once and realizesFor some PatientPopulation.", rdfs:comment "A PerformanceBasedCareProviderRole is a role realized by a HealthcareOrganization exactly once and realizesFor some PatientPopulation."
+    Annotations: iao:0000115 "{PerformanceBasedCareProviderRole} is a role that is borne by exactly one {HealthcareOrganization}, and that is realized in some {PerformanceBasedCareDeliveryProcess}", rdfs:comment "{PerformanceBasedCareProviderRole} is a role that is borne by exactly one {HealthcareOrganization}, and that is realized in some {PerformanceBasedCareDeliveryProcess}"
 Class: <https://signals.zndx.org/sdg#PermittingDecision>
     Annotations: iao:0000115 "A permitting decision.", rdfs:comment "A permitting decision."
 Class: <https://signals.zndx.org/sdg#Person>
@@ -9026,6 +9285,7 @@ Class: <https://signals.zndx.org/sdg#PersonalHealthRecord>
 Class: <https://signals.zndx.org/sdg#PersonallyIdentifiableInformation>
     Annotations: iao:0000115 "An information content entity that identifies a person.", rdfs:comment "An information content entity that identifies a person."
 Class: <https://signals.zndx.org/sdg#PetitionerRole>
+    Annotations: iao:0000115 "{PetitionerRole} is a role that inheres in exactly one {Person}, and that 0000056 some {AdultAdoptionProcess}", rdfs:comment "{PetitionerRole} is a role that inheres in exactly one {Person}, and that 0000056 some {AdultAdoptionProcess}"
 Class: <https://signals.zndx.org/sdg#PhysicalManifestation>
     Annotations: iao:0000115 "A physical manifestation.", rdfs:comment "A physical manifestation."
 Class: <https://signals.zndx.org/sdg#PhysicianMember>
@@ -9033,7 +9293,9 @@ Class: <https://signals.zndx.org/sdg#PhysicianMember>
 Class: <https://signals.zndx.org/sdg#PickDropLocation>
     Annotations: iao:0000115 "A PickDropLocation is a Continuant that is part of a TransportRoute.", rdfs:comment "A PickDropLocation is a Continuant that is part of a TransportRoute."
 Class: <https://signals.zndx.org/sdg#PoliceOfficerRole>
-    Annotations: iao:0000115 "A PoliceOfficerRole is a role that inheres in exactly one LawEnforcementAgency and realizes some OperationalUnit.", rdfs:comment "A PoliceOfficerRole is a role that inheres in exactly one LawEnforcementAgency and realizes some OperationalUnit."
+    Annotations: iao:0000115 "{PoliceOfficerRole} is a role that is borne by exactly one {LawEnforcementAgency}, and that is realized in some {PolicePatrolProcess}", rdfs:comment "{PoliceOfficerRole} is a role that is borne by exactly one {LawEnforcementAgency}, and that is realized in some {PolicePatrolProcess}"
+Class: <https://signals.zndx.org/sdg#PolicePatrolProcess>
+    Annotations: iao:0000115 "{PolicePatrolProcess} is a process that has participant some {OperationalUnit}", rdfs:comment "{PolicePatrolProcess} is a process that has participant some {OperationalUnit}"
 Class: <https://signals.zndx.org/sdg#PolicyViolation>
     Annotations: iao:0000115 "A planned act that contravenes a specified institutional policy.", rdfs:comment "A planned act that contravenes a specified institutional policy."
 Class: <https://signals.zndx.org/sdg#PoolWaterQualityParameter>
@@ -9041,7 +9303,6 @@ Class: <https://signals.zndx.org/sdg#PoolWaterQualityParameter>
 Class: <https://signals.zndx.org/sdg#Population>
     Annotations: iao:0000115 "A group of persons that is the subject of a prevalence rate.", rdfs:comment "A group of persons that is the subject of a prevalence rate."
 Class: <https://signals.zndx.org/sdg#PracticeManagementTopic>
-    Annotations: iao:0000115 "A training instruction act focused on the management aspects of a professional practice.", rdfs:comment "A training instruction act focused on the management aspects of a professional practice."
 Class: <https://signals.zndx.org/sdg#PracticeSession>
     Annotations: iao:0000115 "An act of training conducted specifically to improve professional skills through repetition.", rdfs:comment "An act of training conducted specifically to improve professional skills through repetition."
 Class: <https://signals.zndx.org/sdg#PreclinicalImagingCore>
@@ -9075,7 +9336,9 @@ Class: <https://signals.zndx.org/sdg#QoSConstraint>
 Class: <https://signals.zndx.org/sdg#QualificationLevel>
     Annotations: iao:0000115 "An academic degree that indicates statistical significance.", rdfs:comment "An academic degree that indicates statistical significance."
 Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingIndividual>
-    Annotations: iao:0000115 "QualifiedSourceTestingIndividual is an agent role that inheres_in exactly 1 Person and realizes some SourceTestingCertification.", rdfs:comment "QualifiedSourceTestingIndividual is an agent role that inheres_in exactly 1 Person and realizes some SourceTestingCertification."
+    Annotations: iao:0000115 "{QualifiedSourceTestingIndividual} is a role that is borne by exactly one {Person}, and that is realized in some {QualifiedSourceTestingProcess}", rdfs:comment "{QualifiedSourceTestingIndividual} is a role that is borne by exactly one {Person}, and that is realized in some {QualifiedSourceTestingProcess}"
+Class: <https://signals.zndx.org/sdg#QualifiedSourceTestingProcess>
+    Annotations: iao:0000115 "{QualifiedSourceTestingProcess} is a process that has participant some {SourceTestingCertification}", rdfs:comment "{QualifiedSourceTestingProcess} is a process that has participant some {SourceTestingCertification}"
 Class: <https://signals.zndx.org/sdg#QualityImprovementFramework>
     Annotations: iao:0000115 "A structured quality specification that provides a systematic approach for planning and executing quality improvement initiatives.", rdfs:comment "A structured quality specification that provides a systematic approach for planning and executing quality improvement initiatives."
 Class: <https://signals.zndx.org/sdg#QualityImprovementPresentation>
@@ -9103,7 +9366,7 @@ Class: <https://signals.zndx.org/sdg#RecoveredState>
 Class: <https://signals.zndx.org/sdg#ReferralProcess>
 Class: <https://signals.zndx.org/sdg#ReferralSourceRole>
 Class: <https://signals.zndx.org/sdg#RegisteredManagerRole>
-    Annotations: iao:0000115 "A registered manager role is a phase-sortal role that inheres in a person and realizes a service management process.", rdfs:comment "A registered manager role is a phase-sortal role that inheres in a person and realizes a service management process."
+    Annotations: iao:0000115 "{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}", rdfs:comment "{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}"
 Class: <https://signals.zndx.org/sdg#RegulatoryAuthority>
     Annotations: iao:0000115 "An authority role that exercises regulation over a process.", rdfs:comment "An authority role that exercises regulation over a process."
 Class: <https://signals.zndx.org/sdg#RegulatoryBody>
@@ -9111,11 +9374,9 @@ Class: <https://signals.zndx.org/sdg#RegulatoryBody>
 Class: <https://signals.zndx.org/sdg#Regulatory_Context>
     Annotations: iao:0000115 "A regulatory  context.", rdfs:comment "A regulatory  context."
 Class: <https://signals.zndx.org/sdg#RenderedAnimationArtifact>
-    Annotations: iao:0000115 "A RenderedAnimationArtifact is an independent continuant that realizes an AnimationSequence and abstracts a RenderingEnvironment.", rdfs:comment "A RenderedAnimationArtifact is an independent continuant that realizes an AnimationSequence and abstracts a RenderingEnvironment."
 Class: <https://signals.zndx.org/sdg#RenderingEngine>
     Annotations: iao:0000115 "An engine that renders an animation sequence creation process.", rdfs:comment "An engine that renders an animation sequence creation process."
 Class: <https://signals.zndx.org/sdg#RenderingEnvironment>
-    Annotations: iao:0000115 "An indoor environment that supports the rendering of an animation artifact.", rdfs:comment "An indoor environment that supports the rendering of an animation artifact."
 Class: <https://signals.zndx.org/sdg#ReportingChannel>
     Annotations: iao:0000115 "A communication channel that transmits a protected disclosure process.", rdfs:comment "A communication channel that transmits a protected disclosure process."
 Class: <https://signals.zndx.org/sdg#ReportingPeriod>
@@ -9135,7 +9396,7 @@ Class: <https://signals.zndx.org/sdg#ResearchProject>
 Class: <https://signals.zndx.org/sdg#ResearchQuestion>
     Annotations: iao:0000115 "A research question.", rdfs:comment "A research question."
 Class: <https://signals.zndx.org/sdg#ResidencyRequirement>
-    Annotations: iao:0000115 "A ResidencyRequirement is a DirectiveICE that mandatesCompletion some StudentAgent and enforcedByOffice some AdministrativeOffice.", rdfs:comment "A ResidencyRequirement is a DirectiveICE that mandatesCompletion some StudentAgent and enforcedByOffice some AdministrativeOffice."
+    Annotations: iao:0000115 "Every instance of ResidencyRequirement qualifies as a DirectiveICE, and each such instance is linked to at least one StudentAgent through the mandatesCompletion relation and to at least one AdministrativeOffice through the enforcedByOffice relation.", rdfs:comment "Every instance of ResidencyRequirement qualifies as a DirectiveICE, and each such instance is linked to at least one StudentAgent through the mandatesCompletion relation and to at least one AdministrativeOffice through the enforcedByOffice relation."
 Class: <https://signals.zndx.org/sdg#ResidentialStreet>
     Annotations: iao:0000115 "A residential street.", rdfs:comment "A residential street."
 Class: <https://signals.zndx.org/sdg#ResponsibleInvestmentFundCollection>
@@ -9148,14 +9409,13 @@ Class: <https://signals.zndx.org/sdg#RestaurantStaff>
     Annotations: iao:0000115 "A restaurant staff.", rdfs:comment "A restaurant staff."
 Class: <https://signals.zndx.org/sdg#RetailLeadershipTeamMember>
 Class: <https://signals.zndx.org/sdg#RetainingEmployeeRole>
-    Annotations: iao:0000115 "A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization.", rdfs:comment "A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization."
+    Annotations: iao:0000115 "{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}", rdfs:comment "{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}"
 Class: <https://signals.zndx.org/sdg#RetirementBenefitOption>
     Annotations: iao:0000115 "A RetirementBenefitOption is a descriptive information entity that specifies a survivor percentage and specifies guarantee months.", rdfs:comment "A RetirementBenefitOption is a descriptive information entity that specifies a survivor percentage and specifies guarantee months."
-Class: <https://signals.zndx.org/sdg#RightsExercise>
-    Annotations: iao:0000115 "A rights exercise.", rdfs:comment "A rights exercise."
+Class: <https://signals.zndx.org/sdg#RightsExerciseProcess>
+    Annotations: iao:0000115 "{RightsExerciseProcess} is a process that has participant some {IndigenousChild}", rdfs:comment "{RightsExerciseProcess} is a process that has participant some {IndigenousChild}"
 Class: <https://signals.zndx.org/sdg#RiskInformedAcceptabilityEvaluation>
 Class: <https://signals.zndx.org/sdg#RiskManagementActivity>
-    Annotations: iao:0000115 "A corporate process involving the identification, assessment, and mitigation of potential hazards or uncertainties.", rdfs:comment "A corporate process involving the identification, assessment, and mitigation of potential hazards or uncertainties."
 Class: <https://signals.zndx.org/sdg#RiskMetric>
     Annotations: iao:0000115 "A risk metric.", rdfs:comment "A risk metric."
 Class: <https://signals.zndx.org/sdg#RitualActToRestoreOrder>
@@ -9209,7 +9469,7 @@ Class: <https://signals.zndx.org/sdg#ServiceProvisionActivity>
 Class: <https://signals.zndx.org/sdg#ServiceRequest>
     Annotations: iao:0000115 "An act of requesting that requests a service function.", rdfs:comment "An act of requesting that requests a service function."
 Class: <https://signals.zndx.org/sdg#ServiceStaffRole>
-    Annotations: iao:0000115 "A ServiceStaffRole is a role borne by exactly one RestaurantStaff that realizes a ServiceProvisionActivity.", rdfs:comment "A ServiceStaffRole is a role borne by exactly one RestaurantStaff that realizes a ServiceProvisionActivity."
+    Annotations: iao:0000115 "{ServiceStaffRole} is a role that has bearer exactly one {RestaurantStaff}, and that is realized in some {ServiceProvisionActivity}", rdfs:comment "{ServiceStaffRole} is a role that has bearer exactly one {RestaurantStaff}, and that is realized in some {ServiceProvisionActivity}"
 Class: <https://signals.zndx.org/sdg#SignificanceLevel>
     Annotations: iao:0000115 "A ratio measurement information content entity that indicates the statistical significance of a qualification level.", rdfs:comment "A ratio measurement information content entity that indicates the statistical significance of a qualification level."
 Class: <https://signals.zndx.org/sdg#SimulationSoftware>
@@ -9223,7 +9483,7 @@ Class: <https://signals.zndx.org/sdg#SmallGroupSurchargeRule>
 Class: <https://signals.zndx.org/sdg#SocialHarmonyRestoration>
     Annotations: iao:0000115 "A social act that restores harmony within a social network.", rdfs:comment "A social act that restores harmony within a social network."
 Class: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
-    Annotations: iao:0000115 "A SocialMediaAccountAdministrator is an agent role borne by exactly one DistrictEmployee that realizes an AccountManagementFunction.", rdfs:comment "A SocialMediaAccountAdministrator is an agent role borne by exactly one DistrictEmployee that realizes an AccountManagementFunction."
+    Annotations: iao:0000115 "{SocialMediaAccountAdministrator} is a role that is borne by exactly one {DistrictEmployee}, and that is realized in some {SocialMediaAccountManagementProcess}", rdfs:comment "{SocialMediaAccountAdministrator} is a role that is borne by exactly one {DistrictEmployee}, and that is realized in some {SocialMediaAccountManagementProcess}"
 Class: <https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess>
     Annotations: iao:0000115 "A process that manages account authorization records for social networking services.", rdfs:comment "A process that manages account authorization records for social networking services."
 Class: <https://signals.zndx.org/sdg#SocialMediaAccountRegistration>
@@ -9253,7 +9513,7 @@ Class: <https://signals.zndx.org/sdg#SpousalConsentReason>
 Class: <https://signals.zndx.org/sdg#StaffMember>
     Annotations: iao:0000115 "A staff member.", rdfs:comment "A staff member."
 Class: <https://signals.zndx.org/sdg#StaffSocialMediaAccountAdministratorRole>
-    Annotations: iao:0000115 "A Staff Social Media Account Administrator Role is a role that inheres in exactly one Staff Member and realizes some Social Media Account Management Process.", rdfs:comment "A Staff Social Media Account Administrator Role is a role that inheres in exactly one Staff Member and realizes some Social Media Account Management Process."
+    Annotations: iao:0000115 "{StaffSocialMediaAccountAdministratorRole} is a role that inheres in exactly one {StaffMember}, and that is realized in some {SocialMediaAccountManagementProcess}", rdfs:comment "{StaffSocialMediaAccountAdministratorRole} is a role that inheres in exactly one {StaffMember}, and that is realized in some {SocialMediaAccountManagementProcess}"
 Class: <https://signals.zndx.org/sdg#Stage5Checklist>
     Annotations: iao:0000115 "A Stage5Checklist is an information content entity that contains some InspectionChecklistItem.", rdfs:comment "A Stage5Checklist is an information content entity that contains some InspectionChecklistItem."
 Class: <https://signals.zndx.org/sdg#StakeholderNeed>
@@ -9319,7 +9579,7 @@ Class: <https://signals.zndx.org/sdg#TeamFunction>
 Class: <https://signals.zndx.org/sdg#TeleSalesActivity>
     Annotations: iao:0000115 "A process that conducts sales activities via telephone communication.", rdfs:comment "A process that conducts sales activities via telephone communication."
 Class: <https://signals.zndx.org/sdg#TelemarketerSalesAdministratorRole>
-    Annotations: iao:0000115 "A TelemarketerSalesAdministratorRole is a Role that bears exactly one Person and realizes some SalesAdministrationActivity.", rdfs:comment "A TelemarketerSalesAdministratorRole is a Role that bears exactly one Person and realizes some SalesAdministrationActivity."
+    Annotations: iao:0000115 "{TelemarketerSalesAdministratorRole} is a role that inheres in exactly one {Person}, and that is realized in some {SalesAdministrationActivity}", rdfs:comment "{TelemarketerSalesAdministratorRole} is a role that inheres in exactly one {Person}, and that is realized in some {SalesAdministrationActivity}"
 Class: <https://signals.zndx.org/sdg#TelemarketingKPIConstraint>
     Annotations: iao:0000115 "A TelemarketingKPIConstraint is an InformationContentEntity that applies to some TelemarketerSalesAdministratorRole, measures some CallVolumeMetric, and specifies a minimumCallsPerHour of type xsd:decimal.", rdfs:comment "A TelemarketingKPIConstraint is an InformationContentEntity that applies to some TelemarketerSalesAdministratorRole, measures some CallVolumeMetric, and specifies a minimumCallsPerHour of type xsd:decimal."
 Class: <https://signals.zndx.org/sdg#TelescopeInstrumentArtifact>
@@ -9337,7 +9597,9 @@ Class: <https://signals.zndx.org/sdg#TimePeriod>
 Class: <https://signals.zndx.org/sdg#TopWorkplaceAward>
     Annotations: iao:0000115 "A TopWorkplaceAward is a directive information entity granted by a RecognizingOrganization and verifies HealthStandardCompliance.", rdfs:comment "A TopWorkplaceAward is a directive information entity granted by a RecognizingOrganization and verifies HealthStandardCompliance."
 Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
-    Annotations: iao:0000115 "A TraditionalReligiousHealerRole is a BFO role that is borne by exactly one HumanAgent and realizes a HealerFunction.", rdfs:comment "A TraditionalReligiousHealerRole is a BFO role that is borne by exactly one HumanAgent and realizes a HealerFunction."
+    Annotations: iao:0000115 "{TraditionalReligiousHealerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {TraditionalReligiousHealingProcess}", rdfs:comment "{TraditionalReligiousHealerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {TraditionalReligiousHealingProcess}"
+Class: <https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess>
+    Annotations: iao:0000115 "{TraditionalReligiousHealingProcess} is a process that has participant some {HumanAgent}", rdfs:comment "{TraditionalReligiousHealingProcess} is a process that has participant some {HumanAgent}"
 Class: <https://signals.zndx.org/sdg#TrafficPath>
     Annotations: iao:0000115 "A traffic path.", rdfs:comment "A traffic path."
 Class: <https://signals.zndx.org/sdg#TransferAuthorization>
@@ -9345,7 +9607,7 @@ Class: <https://signals.zndx.org/sdg#TransferAuthorization>
 Class: <https://signals.zndx.org/sdg#TransportRoute>
     Annotations: iao:0000115 "A transport route.", rdfs:comment "A transport route."
 Class: <https://signals.zndx.org/sdg#UnaccompaniedMinorRole>
-    Annotations: iao:0000115 "An UnaccompaniedMinorRole is a Role that inheres in exactly one MinorPerson and realizes a TaxiRideProcess.", rdfs:comment "An UnaccompaniedMinorRole is a Role that inheres in exactly one MinorPerson and realizes a TaxiRideProcess."
+    Annotations: iao:0000115 "{UnaccompaniedMinorRole} is a role that inheres in exactly one {MinorPerson}, and that is realized in some {TaxiRideProcess}", rdfs:comment "{UnaccompaniedMinorRole} is a role that inheres in exactly one {MinorPerson}, and that is realized in some {TaxiRideProcess}"
 Class: <https://signals.zndx.org/sdg#UrineDrugScreeningProcedure>
     Annotations: iao:0000115 "A UrineDrugScreeningProcedure is a clinical process that collects a BiologicalSpecimen and targets an AnalyteTarget.", rdfs:comment "A UrineDrugScreeningProcedure is a clinical process that collects a BiologicalSpecimen and targets an AnalyteTarget."
 Class: <https://signals.zndx.org/sdg#UtilityInfrastructure>
@@ -9379,14 +9641,15 @@ Class: <https://signals.zndx.org/sdg#WetChemistryMethod>
 Class: <https://signals.zndx.org/sdg#WidthMeasurement>
     Annotations: iao:0000115 "A width measurement.", rdfs:comment "A width measurement."
 Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
-    Annotations: iao:0000115 "A WorkplaceCultureDimension is a descriptive information entity that categorizes a CulturalAttribute.", rdfs:comment "A WorkplaceCultureDimension is a descriptive information entity that categorizes a CulturalAttribute."
 Class: <https://signals.zndx.org/sdg#WorkspaceAllocation>
     Annotations: iao:0000115 "A workspace allocation.", rdfs:comment "A workspace allocation."
 Class: <https://signals.zndx.org/sdg#YoungPhysicianAmbassadorRole>
 Class: <https://signals.zndx.org/sdg#YoungPhysicianEligibilityConstraint>
     Annotations: iao:0000115 "A YoungPhysicianEligibilityConstraint is a DescriptiveICE that has_max_age_years some decimal and has_max_practice_years some decimal.", rdfs:comment "A YoungPhysicianEligibilityConstraint is a DescriptiveICE that has_max_age_years some decimal and has_max_practice_years some decimal."
+Class: <https://signals.zndx.org/sdg#YoungResearcherResearchProcess>
+    Annotations: iao:0000115 "{YoungResearcherResearchProcess} is a process that has participant some {ResearchActivity}", rdfs:comment "{YoungResearcherResearchProcess} is a process that has participant some {ResearchActivity}"
 Class: <https://signals.zndx.org/sdg#YoungResearcherRole>
-    Annotations: iao:0000115 "A YoungResearcherRole is a role borne by exactly one IndependentContinuant that realizes some ResearchActivity.", rdfs:comment "A YoungResearcherRole is a role borne by exactly one IndependentContinuant that realizes some ResearchActivity."
+    Annotations: iao:0000115 "{YoungResearcherRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {YoungResearcherResearchProcess}", rdfs:comment "{YoungResearcherRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {YoungResearcherResearchProcess}"
 Class: <https://signals.zndx.org/sdg#YouthHealthCareSummary>
     Annotations: iao:0000115 "A youth health care summary is an information content entity that describes a youth health status and is formatted as an established data format.", rdfs:comment "A youth health care summary is an information content entity that describes a youth health status and is formatted as an established data format."
 Class: <https://signals.zndx.org/sdg#YouthHealthStatus>
@@ -9493,8 +9756,8 @@ Class: <https://signals.zndx.org/sdg#SmallGroupSurchargeRule> SubClassOf: sdg:ha
 Class: <https://signals.zndx.org/sdg#SmallGroupSurchargeRule> SubClassOf: sdg:hasDimensionKind some xsd:string
 Class: <https://signals.zndx.org/sdg#ServiceChargeRate> SubClassOf: sdg:hasConfidence some xsd:decimal
 Class: <https://signals.zndx.org/sdg#ServiceChargeRate> SubClassOf: sdg:hasDimensionKind some xsd:string
-Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension> SubClassOf: sdg:hasConfidence some xsd:decimal
-Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension> SubClassOf: sdg:hasDimensionKind some xsd:string
+Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
+Class: <https://signals.zndx.org/sdg#WorkplaceCultureDimension>
 Class: <https://signals.zndx.org/sdg#TopWorkplaceAward> SubClassOf: sdg:hasEffectiveDate some xsd:date
 Class: <https://signals.zndx.org/sdg#TopWorkplaceAward> SubClassOf: sdg:hasEnforcement some xsd:string
 Class: <https://signals.zndx.org/sdg#ThermalOperatingRangeConstraint> SubClassOf: sdg:hasConfidence some xsd:decimal
@@ -10501,10 +10764,6 @@ Individual: <https://signals.zndx.org/sdg#i_access_token_refresh>
 Individual: <https://signals.zndx.org/sdg#i_access_waiver_code>
     Annotations: rdfs:label "Access Waiver Code"
     Types: <https://signals.zndx.org/sdg#TransferAuthorization>
-
-Individual: <https://signals.zndx.org/sdg#i_accesscontrolmatrix>
-    Annotations: rdfs:label "AccessControlMatrix"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_accesscontrolswitch>
     Annotations: rdfs:label "AccessControlSwitch"
@@ -11590,17 +11849,9 @@ Individual: <https://signals.zndx.org/sdg#i_analyticsteam>
     Annotations: rdfs:label "AnalyticsTeam"
     Types: <https://signals.zndx.org/sdg#RequestingClient>
 
-Individual: <https://signals.zndx.org/sdg#i_ancestor_veneration>
-    Annotations: rdfs:label "Ancestor Veneration"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_ancestral_binding_pact>
     Annotations: rdfs:label "Ancestral Binding Pact"
     Types: <https://signals.zndx.org/sdg#RitualActToRestoreOrder>
-
-Individual: <https://signals.zndx.org/sdg#i_ancestral_communion_rite>
-    Annotations: rdfs:label "ancestral communion rite"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_ancestral_spirit_medium>
     Annotations: rdfs:label "ancestral spirit medium"
@@ -11941,10 +12192,6 @@ Individual: <https://signals.zndx.org/sdg#i_anycastredirection>
 Individual: <https://signals.zndx.org/sdg#i_aon_hewitt>
     Annotations: rdfs:label "Aon Hewitt"
     Types: <https://signals.zndx.org/sdg#RecognizingOrganization>
-
-Individual: <https://signals.zndx.org/sdg#i_aorticdissectionimaging>
-    Annotations: rdfs:label "AorticDissectionImaging"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
 
 Individual: <https://signals.zndx.org/sdg#i_ap_calculus_bc>
     Annotations: rdfs:label "AP Calculus BC"
@@ -12821,10 +13068,6 @@ Individual: <https://signals.zndx.org/sdg#i_auditcompliance>
 Individual: <https://signals.zndx.org/sdg#i_auditlead_22f>
     Annotations: rdfs:label "AuditLead-22F"
     Types: <https://signals.zndx.org/sdg#CertifiedInternalAuditor>
-
-Individual: <https://signals.zndx.org/sdg#i_auditloggeneration>
-    Annotations: rdfs:label "AuditLogGeneration"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_auditlogservice>
     Annotations: rdfs:label "AuditLogService"
@@ -14150,10 +14393,6 @@ Individual: <https://signals.zndx.org/sdg#i_bone_marrow_aspirate>
     Annotations: rdfs:label "Bone Marrow Aspirate"
     Types: <https://signals.zndx.org/sdg#GenomicSpecimen>
 
-Individual: <https://signals.zndx.org/sdg#i_bone_reading>
-    Annotations: rdfs:label "Bone Reading"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_bonferroni_adjusted_0_05>
     Annotations: rdfs:label "Bonferroni adjusted 0.05"
     Types: <https://signals.zndx.org/sdg#SignificanceLevel>
@@ -14269,10 +14508,6 @@ Individual: <https://signals.zndx.org/sdg#i_brand_protection_registry>
 Individual: <https://signals.zndx.org/sdg#i_brand_sentiment_index>
     Annotations: rdfs:label "Brand Sentiment Index"
     Types: <https://signals.zndx.org/sdg#CorporateReputationMetric>
-
-Individual: <https://signals.zndx.org/sdg#i_brandguidelinecheck>
-    Annotations: rdfs:label "BrandGuidelineCheck"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_brandmanager>
     Annotations: rdfs:label "BrandManager"
@@ -15134,25 +15369,13 @@ Individual: <https://signals.zndx.org/sdg#i_cardiacmonitoring>
     Annotations: rdfs:label "CardiacMonitoring"
     Types: <https://signals.zndx.org/sdg#PersonalHealthRecord>
 
-Individual: <https://signals.zndx.org/sdg#i_cardiacmriprotocol>
-    Annotations: rdfs:label "CardiacMRIProtocol"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-
 Individual: <https://signals.zndx.org/sdg#i_cardiff_county>
     Annotations: rdfs:label "Cardiff County"
     Types: <https://signals.zndx.org/sdg#LocalAuthority>
 
-Individual: <https://signals.zndx.org/sdg#i_cardiothoracicscreeningradiologist>
-    Annotations: rdfs:label "CardiothoracicScreeningRadiologist"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_care_coordinator>
     Annotations: rdfs:label "Care Coordinator"
     Types: <https://signals.zndx.org/sdg#CommunityHealthcareSetting>
-
-Individual: <https://signals.zndx.org/sdg#i_care_level_3>
-    Annotations: rdfs:label "CARE-LEVEL-3"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_care_navigator>
     Annotations: rdfs:label "Care Navigator"
@@ -15874,10 +16097,6 @@ Individual: <https://signals.zndx.org/sdg#i_channel_diversification_framework>
     Annotations: rdfs:label "Channel Diversification Framework"
     Types: <https://signals.zndx.org/sdg#MarketingPlan>
 
-Individual: <https://signals.zndx.org/sdg#i_chant_therapy>
-    Annotations: rdfs:label "Chant Therapy"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_char_lip_sync>
     Annotations: rdfs:label "char_lip_sync"
     Types: <https://signals.zndx.org/sdg#KeyframeTimeline>
@@ -16146,10 +16365,6 @@ Individual: <https://signals.zndx.org/sdg#i_chiefcommercialoperator>
     Annotations: rdfs:label "ChiefCommercialOperator"
     Types: <https://signals.zndx.org/sdg#EntrepreneurRole>
 
-Individual: <https://signals.zndx.org/sdg#i_chiefctradiologist>
-    Annotations: rdfs:label "ChiefCTRadiologist"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_chiefwealtharchitect>
     Annotations: rdfs:label "ChiefWealthArchitect"
     Types: <https://signals.zndx.org/sdg#ChiefFinancialOfficerRole>
@@ -16157,10 +16372,6 @@ Individual: <https://signals.zndx.org/sdg#i_chiefwealtharchitect>
 Individual: <https://signals.zndx.org/sdg#i_child_advocacy_center>
     Annotations: rdfs:label "Child Advocacy Center"
     Types: <https://signals.zndx.org/sdg#ChildProtectionTeam>
-
-Individual: <https://signals.zndx.org/sdg#i_child_care_05>
-    Annotations: rdfs:label "CHILD-CARE-05"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_child_case_7710>
     Annotations: rdfs:label "Child-Case-7710"
@@ -17366,10 +17577,6 @@ Individual: <https://signals.zndx.org/sdg#i_comint_intercept>
     Annotations: rdfs:label "COMINT intercept"
     Types: <https://signals.zndx.org/sdg#IntelligenceAnalysisProcess>
 
-Individual: <https://signals.zndx.org/sdg#i_commentfiltering>
-    Annotations: rdfs:label "CommentFiltering"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_commercial_insurance_members>
     Annotations: rdfs:label "Commercial Insurance Members"
     Types: <https://signals.zndx.org/sdg#PatientPopulation>
@@ -17437,10 +17644,6 @@ Individual: <https://signals.zndx.org/sdg#i_community_aid_network>
 Individual: <https://signals.zndx.org/sdg#i_community_alert_corps>
     Annotations: rdfs:label "COMMUNITY-ALERT-CORPS"
     Types: <https://signals.zndx.org/sdg#ChildProtectionTeam>
-
-Individual: <https://signals.zndx.org/sdg#i_community_blessing_ceremony>
-    Annotations: rdfs:label "community blessing ceremony"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_community_blessing_leader>
     Annotations: rdfs:label "community blessing leader"
@@ -18106,10 +18309,6 @@ Individual: <https://signals.zndx.org/sdg#i_content_strategy_manager>
     Annotations: rdfs:label "Content Strategy Manager"
     Types: <https://signals.zndx.org/sdg#StaffSocialMediaAccountAdministratorRole>
 
-Individual: <https://signals.zndx.org/sdg#i_contentarchival>
-    Annotations: rdfs:label "ContentArchival"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_contentmoderator>
     Annotations: rdfs:label "ContentModerator"
     Types: <https://signals.zndx.org/sdg#DistrictEmployee>
@@ -18397,10 +18596,6 @@ Individual: <https://signals.zndx.org/sdg#i_coreswitch_alpha>
 Individual: <https://signals.zndx.org/sdg#i_coresync_ehr_platform>
     Annotations: rdfs:label "CoreSync EHR Platform"
     Types: <https://signals.zndx.org/sdg#InformationSystem>
-
-Individual: <https://signals.zndx.org/sdg#i_coronaryctareporting>
-    Annotations: rdfs:label "CoronaryCTAReporting"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
 
 Individual: <https://signals.zndx.org/sdg#i_corporate_audit_directorate>
     Annotations: rdfs:label "Corporate Audit Directorate"
@@ -18970,10 +19165,6 @@ Individual: <https://signals.zndx.org/sdg#i_crisiscommunicator>
     Annotations: rdfs:label "CrisisCommunicator"
     Types: <https://signals.zndx.org/sdg#DistrictEmployee>
 
-Individual: <https://signals.zndx.org/sdg#i_crisisresponseprotocol>
-    Annotations: rdfs:label "CrisisResponseProtocol"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_crispy_bacon_bits>
     Annotations: rdfs:label "Crispy bacon bits"
     Types: <https://signals.zndx.org/sdg#AvailableTopping>
@@ -19117,10 +19308,6 @@ Individual: <https://signals.zndx.org/sdg#i_crossfunctional_verification>
 Individual: <https://signals.zndx.org/sdg#i_crossmarketexpansion>
     Annotations: rdfs:label "CrossMarketExpansion"
     Types: <https://signals.zndx.org/sdg#EntrepreneurialActivityProcess>
-
-Individual: <https://signals.zndx.org/sdg#i_crossplatformsync>
-    Annotations: rdfs:label "CrossPlatformSync"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_crossroads_testing_grounds>
     Annotations: rdfs:label "Crossroads Testing Grounds"
@@ -19266,10 +19453,6 @@ Individual: <https://signals.zndx.org/sdg#i_ct_head_018>
     Annotations: rdfs:label "CT-Head-018"
     Types: <https://signals.zndx.org/sdg#ClinicalImagingData>
 
-Individual: <https://signals.zndx.org/sdg#i_ctangiographyservice>
-    Annotations: rdfs:label "CTAngiographyService"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-
 Individual: <https://signals.zndx.org/sdg#i_culex_pipiens>
     Annotations: rdfs:label "Culex pipiens"
     Types: <https://signals.zndx.org/sdg#VectorControlActivity>
@@ -19281,10 +19464,6 @@ Individual: <https://signals.zndx.org/sdg#i_culicoides_impunctatus>
 Individual: <https://signals.zndx.org/sdg#i_cultural_continuity_restoration>
     Annotations: rdfs:label "Cultural Continuity Restoration"
     Types: <https://signals.zndx.org/sdg#SocialHarmonyRestoration>
-
-Individual: <https://signals.zndx.org/sdg#i_cultural_enrollment>
-    Annotations: rdfs:label "Cultural enrollment"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_cultural_infant_feeding>
     Annotations: rdfs:label "Cultural Infant Feeding"
@@ -19341,10 +19520,6 @@ Individual: <https://signals.zndx.org/sdg#i_custodialparent>
 Individual: <https://signals.zndx.org/sdg#i_custodialsignatory>
     Annotations: rdfs:label "CustodialSignatory"
     Types: <https://signals.zndx.org/sdg#RecordAuthorizationRole>
-
-Individual: <https://signals.zndx.org/sdg#i_custody_transfer>
-    Annotations: rdfs:label "Custody transfer"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_custody_transition_protocol>
     Annotations: rdfs:label "Custody Transition Protocol"
@@ -20106,10 +20281,6 @@ Individual: <https://signals.zndx.org/sdg#i_datareplicationlag>
     Annotations: rdfs:label "DataReplicationLag"
     Types: <https://signals.zndx.org/sdg#RiskInformedAcceptabilityEvaluation>
 
-Individual: <https://signals.zndx.org/sdg#i_dataretentionpolicy>
-    Annotations: rdfs:label "DataRetentionPolicy"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_datascience_mentors>
     Annotations: rdfs:label "DataScience Mentors"
     Types: <https://signals.zndx.org/sdg#MentorshipProgram>
@@ -20153,6 +20324,10 @@ Individual: <https://signals.zndx.org/sdg#i_david_chen_partner>
 Individual: <https://signals.zndx.org/sdg#i_david_nguyen>
     Annotations: rdfs:label "David Nguyen"
     Types: <https://signals.zndx.org/sdg#HousingClient>
+
+Individual: <https://signals.zndx.org/sdg#i_david_okafor>
+    Annotations: rdfs:label "David Okafor"
+    Types: <https://signals.zndx.org/sdg#CollegeOfficial>, <https://signals.zndx.org/sdg#PetitionerRole>
 
 Individual: <https://signals.zndx.org/sdg#i_david_okoro>
     Annotations: rdfs:label "David Okoro"
@@ -21390,10 +21565,6 @@ Individual: <https://signals.zndx.org/sdg#i_dividendclearingrun>
     Annotations: rdfs:label "DividendClearingRun"
     Types: <https://signals.zndx.org/sdg#ClearingProcess>
 
-Individual: <https://signals.zndx.org/sdg#i_divination_ritual>
-    Annotations: rdfs:label "Divination Ritual"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_division_director>
     Annotations: rdfs:label "Division Director"
     Types: <https://signals.zndx.org/sdg#SecretaryRole>
@@ -21561,10 +21732,6 @@ Individual: <https://signals.zndx.org/sdg#i_doh_recreational_criteria>
 Individual: <https://signals.zndx.org/sdg#i_doi_10_1234_abstract>
     Annotations: rdfs:label "doi_10_1234_abstract"
     Types: <https://signals.zndx.org/sdg#InformationItem>
-
-Individual: <https://signals.zndx.org/sdg#i_dom_role_44>
-    Annotations: rdfs:label "DOM-ROLE-44"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_domain_dispute_framework>
     Annotations: rdfs:label "Domain Dispute Framework"
@@ -21834,17 +22001,9 @@ Individual: <https://signals.zndx.org/sdg#i_drdavidkim>
     Annotations: rdfs:label "DrDavidKim"
     Types: <https://signals.zndx.org/sdg#IndividualClinician>
 
-Individual: <https://signals.zndx.org/sdg#i_dream_interpretation>
-    Annotations: rdfs:label "Dream Interpretation"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_dream_interpretation_elder>
     Annotations: rdfs:label "dream interpretation elder"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
-
-Individual: <https://signals.zndx.org/sdg#i_dream_interpretation_protocol>
-    Annotations: rdfs:label "dream interpretation protocol"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_drelenarostova>
     Annotations: rdfs:label "DrElenaRostova"
@@ -22270,17 +22429,9 @@ Individual: <https://signals.zndx.org/sdg#i_edtechlearninghub>
     Annotations: rdfs:label "EdTechLearningHub"
     Types: <https://signals.zndx.org/sdg#ResponsiveWebsiteDevelopment>
 
-Individual: <https://signals.zndx.org/sdg#i_edu_support_11>
-    Annotations: rdfs:label "EDU-SUPPORT-11"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_education_attendance_unit>
     Annotations: rdfs:label "EDUCATION-ATTENDANCE-UNIT"
     Types: <https://signals.zndx.org/sdg#ExternalAgency>
-
-Individual: <https://signals.zndx.org/sdg#i_education_enrollment>
-    Annotations: rdfs:label "Education enrollment"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_education_funding_strategy>
     Annotations: rdfs:label "Education Funding Strategy"
@@ -22722,10 +22873,6 @@ Individual: <https://signals.zndx.org/sdg#i_emergency_transfer_log>
     Annotations: rdfs:label "Emergency-Transfer-Log"
     Types: <https://signals.zndx.org/sdg#ServiceExperienceSituation>
 
-Individual: <https://signals.zndx.org/sdg#i_emergencyctradiologist>
-    Annotations: rdfs:label "EmergencyCTRadiologist"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_emergencyops>
     Annotations: rdfs:label "@EmergencyOps"
     Types: <https://signals.zndx.org/sdg#SocialMediaAccountAdministrator>
@@ -23061,10 +23208,6 @@ Individual: <https://signals.zndx.org/sdg#i_eng_ops_lead>
 Individual: <https://signals.zndx.org/sdg#i_engagement_index>
     Annotations: rdfs:label "engagement index"
     Types: <https://signals.zndx.org/sdg#OrganizationalHealthMetric>
-
-Individual: <https://signals.zndx.org/sdg#i_engagementanalytics>
-    Annotations: rdfs:label "EngagementAnalytics"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_engine_config_stable>
     Annotations: rdfs:label "engine_config_stable"
@@ -24566,10 +24709,6 @@ Individual: <https://signals.zndx.org/sdg#i_fellowship_ramp_up_primary>
     Annotations: rdfs:label "FELLOWSHIP_RAMP_UP_PRIMARY"
     Types: <https://signals.zndx.org/sdg#YoungPhysicianEligibilityConstraint>
 
-Individual: <https://signals.zndx.org/sdg#i_fellowshipctradiologist>
-    Annotations: rdfs:label "FellowshipCTRadiologist"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_fema_flood_zone_b3>
     Annotations: rdfs:label "FEMA Flood Zone B3"
     Types: <https://signals.zndx.org/sdg#ComplianceRequirement>
@@ -24826,10 +24965,6 @@ Individual: <https://signals.zndx.org/sdg#i_fin_budget_osei>
     Annotations: rdfs:label "Fin_Budget_Osei"
     Types: <https://signals.zndx.org/sdg#BusinessDecision>
 
-Individual: <https://signals.zndx.org/sdg#i_fin_proxy_40>
-    Annotations: rdfs:label "FIN-PROXY-40"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_final_assembly_inspection>
     Annotations: rdfs:label "Final Assembly Inspection"
     Types: <https://signals.zndx.org/sdg#FinalInspectionProcess>
@@ -25065,10 +25200,6 @@ Individual: <https://signals.zndx.org/sdg#i_fire_alarm_loop_check>
 Individual: <https://signals.zndx.org/sdg#i_fire_ceremony_guide>
     Annotations: rdfs:label "fire ceremony guide"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
-
-Individual: <https://signals.zndx.org/sdg#i_fire_cleansing_rite>
-    Annotations: rdfs:label "fire cleansing rite"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_fire_exit_clearance>
     Annotations: rdfs:label "Fire Exit Clearance"
@@ -25725,10 +25856,6 @@ Individual: <https://signals.zndx.org/sdg#i_fullattendancebadge>
 Individual: <https://signals.zndx.org/sdg#i_func_lab_cleanse>
     Annotations: rdfs:label "Func-Lab-Cleanse"
     Types: <https://signals.zndx.org/sdg#MathematicaExample>
-
-Individual: <https://signals.zndx.org/sdg#i_func_parent_01>
-    Annotations: rdfs:label "FUNC-PARENT-01"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_functional_code_zeta>
     Annotations: rdfs:label "Functional Code Zeta"
@@ -26818,10 +26945,6 @@ Individual: <https://signals.zndx.org/sdg#i_guard_ref_22a>
     Annotations: rdfs:label "GUARD-REF-22A"
     Types: <https://signals.zndx.org/sdg#MinorPerson>
 
-Individual: <https://signals.zndx.org/sdg#i_guard_unit_12>
-    Annotations: rdfs:label "GUARD-UNIT-12"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_guardant360_cdx>
     Annotations: rdfs:label "Guardant360 CDx"
     Types: <https://signals.zndx.org/sdg#ClinicalGenomicAnalysisProgram>
@@ -26837,10 +26960,6 @@ Individual: <https://signals.zndx.org/sdg#i_guardianadlitem>
 Individual: <https://signals.zndx.org/sdg#i_guardianentity_alpha>
     Annotations: rdfs:label "GuardianEntity-Alpha"
     Types: <https://signals.zndx.org/sdg#YouthOrGuardian>
-
-Individual: <https://signals.zndx.org/sdg#i_guardianship_assignment>
-    Annotations: rdfs:label "Guardianship assignment"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_guardianship_board>
     Annotations: rdfs:label "Guardianship Board"
@@ -27254,10 +27373,6 @@ Individual: <https://signals.zndx.org/sdg#i_health_sciences_authority>
     Annotations: rdfs:label "Health Sciences Authority"
     Types: <https://signals.zndx.org/sdg#RegulatoryAuthority>
 
-Individual: <https://signals.zndx.org/sdg#i_health_screening>
-    Annotations: rdfs:label "Health screening"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
-
 Individual: <https://signals.zndx.org/sdg#i_health_visitor>
     Annotations: rdfs:label "Health Visitor"
     Types: <https://signals.zndx.org/sdg#HealthcareAgent>
@@ -27414,10 +27529,6 @@ Individual: <https://signals.zndx.org/sdg#i_heraeus_relyx>
     Annotations: rdfs:label "Heraeus RelyX"
     Types: <https://signals.zndx.org/sdg#Donor>
 
-Individual: <https://signals.zndx.org/sdg#i_herbal_remedy_preparation>
-    Annotations: rdfs:label "Herbal Remedy Preparation"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_herbal_rite_conductor>
     Annotations: rdfs:label "herbal rite conductor"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
@@ -27429,10 +27540,6 @@ Individual: <https://signals.zndx.org/sdg#i_hereditary_cancer_panel>
 Individual: <https://signals.zndx.org/sdg#i_hereditary_cardiac_risk_assessment>
     Annotations: rdfs:label "Hereditary Cardiac Risk Assessment"
     Types: <https://signals.zndx.org/sdg#ClinicalGenomicAnalysisProgram>
-
-Individual: <https://signals.zndx.org/sdg#i_heritage_registration>
-    Annotations: rdfs:label "Heritage registration"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_hero_walk_cycle>
     Annotations: rdfs:label "hero_walk_cycle"
@@ -27645,10 +27752,6 @@ Individual: <https://signals.zndx.org/sdg#i_holidaygadgetline>
 Individual: <https://signals.zndx.org/sdg#i_holm_bonferroni_adjusted_0_01>
     Annotations: rdfs:label "Holm-Bonferroni adjusted 0.01"
     Types: <https://signals.zndx.org/sdg#SignificanceLevel>
-
-Individual: <https://signals.zndx.org/sdg#i_home_admin_99>
-    Annotations: rdfs:label "HOME-ADMIN-99"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_home_health_visit>
     Annotations: rdfs:label "Home Health Visit"
@@ -28253,10 +28356,6 @@ Individual: <https://signals.zndx.org/sdg#i_identity_broker>
 Individual: <https://signals.zndx.org/sdg#i_identity_provider_federation>
     Annotations: rdfs:label "Identity Provider Federation"
     Types: <https://signals.zndx.org/sdg#SecurityInfrastructure>
-
-Individual: <https://signals.zndx.org/sdg#i_identity_verification>
-    Annotations: rdfs:label "Identity verification"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_identity_verification_protocol>
     Annotations: rdfs:label "Identity Verification Protocol"
@@ -29222,14 +29321,6 @@ Individual: <https://signals.zndx.org/sdg#i_intertribal_ceasefire>
     Annotations: rdfs:label "Intertribal Ceasefire"
     Types: <https://signals.zndx.org/sdg#SocialHarmonyRestoration>
 
-Individual: <https://signals.zndx.org/sdg#i_interventionalctattending>
-    Annotations: rdfs:label "InterventionalCTAttending"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
-Individual: <https://signals.zndx.org/sdg#i_interventionalradiologysupport>
-    Annotations: rdfs:label "InterventionalRadiologySupport"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-
 Individual: <https://signals.zndx.org/sdg#i_intraday_collateral_swap>
     Annotations: rdfs:label "Intraday Collateral Swap"
     Types: <https://signals.zndx.org/sdg#CollateralExchangeProcess>
@@ -29773,6 +29864,10 @@ Individual: <https://signals.zndx.org/sdg#i_james_carter>
 Individual: <https://signals.zndx.org/sdg#i_james_holloway>
     Annotations: rdfs:label "James Holloway"
     Types: <https://signals.zndx.org/sdg#Person>
+
+Individual: <https://signals.zndx.org/sdg#i_james_liu>
+    Annotations: rdfs:label "James Liu"
+    Types: <https://signals.zndx.org/sdg#DistrictEmployee>, <https://signals.zndx.org/sdg#Person>, <https://signals.zndx.org/sdg#PetitionerRole>
 
 Individual: <https://signals.zndx.org/sdg#i_james_mcallister>
     Annotations: rdfs:label "James McAllister"
@@ -30754,10 +30849,6 @@ Individual: <https://signals.zndx.org/sdg#i_language_proficiency_screening>
     Annotations: rdfs:label "Language Proficiency Screening"
     Types: <https://signals.zndx.org/sdg#EducationalPlacementProcess>
 
-Individual: <https://signals.zndx.org/sdg#i_language_program>
-    Annotations: rdfs:label "Language program"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
-
 Individual: <https://signals.zndx.org/sdg#i_laptev_sea>
     Annotations: rdfs:label "Laptev Sea"
     Types: <https://signals.zndx.org/sdg#ArcticRegion>
@@ -31042,10 +31133,6 @@ Individual: <https://signals.zndx.org/sdg#i_leadsprintmonitor>
     Annotations: rdfs:label "LeadSprintMonitor"
     Types: <https://signals.zndx.org/sdg#AthleticAttendantRole>
 
-Individual: <https://signals.zndx.org/sdg#i_leadthoracicimagingattending>
-    Annotations: rdfs:label "LeadThoracicImagingAttending"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_leadventurearchitect>
     Annotations: rdfs:label "LeadVentureArchitect"
     Types: <https://signals.zndx.org/sdg#EntrepreneurRole>
@@ -31205,10 +31292,6 @@ Individual: <https://signals.zndx.org/sdg#i_legal_incapacity>
 Individual: <https://signals.zndx.org/sdg#i_legal_next_of_kin_file>
     Annotations: rdfs:label "Legal Next Of Kin File"
     Types: <https://signals.zndx.org/sdg#PetitionerRole>
-
-Individual: <https://signals.zndx.org/sdg#i_legal_representation>
-    Annotations: rdfs:label "Legal representation"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_legalaidreferral>
     Annotations: rdfs:label "LegalAidReferral"
@@ -31981,10 +32064,6 @@ Individual: <https://signals.zndx.org/sdg#i_lump_sum_cash>
 Individual: <https://signals.zndx.org/sdg#i_luna_nguyen>
     Annotations: rdfs:label "Luna Nguyen"
     Types: <https://signals.zndx.org/sdg#AdopteeRole>
-
-Individual: <https://signals.zndx.org/sdg#i_lungcancerscreening>
-    Annotations: rdfs:label "LungCancerScreening"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
 
 Individual: <https://signals.zndx.org/sdg#i_lutzomyia_longipalpis>
     Annotations: rdfs:label "Lutzomyia longipalpis"
@@ -32766,10 +32845,6 @@ Individual: <https://signals.zndx.org/sdg#i_mechanical_engineering>
     Annotations: rdfs:label "Mechanical Engineering"
     Types: <https://signals.zndx.org/sdg#ProgramOfStudy>
 
-Individual: <https://signals.zndx.org/sdg#i_med_advocacy_23>
-    Annotations: rdfs:label "MED-ADVOCACY-23"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_med_rec_2215>
     Annotations: rdfs:label "MED-REC-2215"
     Types: <https://signals.zndx.org/sdg#DeviceInventoryRecord>
@@ -32813,10 +32888,6 @@ Individual: <https://signals.zndx.org/sdg#i_mediapublisher>
 Individual: <https://signals.zndx.org/sdg#i_mediaquerybreakpoints>
     Annotations: rdfs:label "MediaQueryBreakpoints"
     Types: <https://signals.zndx.org/sdg#ResponsiveDesignTechnique>
-
-Individual: <https://signals.zndx.org/sdg#i_mediastinalmassevaluation>
-    Annotations: rdfs:label "MediastinalMassEvaluation"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
 
 Individual: <https://signals.zndx.org/sdg#i_medicaid_enrollees>
     Annotations: rdfs:label "Medicaid Enrollees"
@@ -34118,10 +34189,6 @@ Individual: <https://signals.zndx.org/sdg#i_moon_phase_healer>
     Annotations: rdfs:label "moon phase healer"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
 
-Individual: <https://signals.zndx.org/sdg#i_moon_phase_healing_sequence>
-    Annotations: rdfs:label "moon phase healing sequence"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_morning_telemetry_run>
     Annotations: rdfs:label "morning telemetry run"
     Types: <https://signals.zndx.org/sdg#PracticeSession>
@@ -34381,10 +34448,6 @@ Individual: <https://signals.zndx.org/sdg#i_multi_year_investment_roadmap>
 Individual: <https://signals.zndx.org/sdg#i_multidrug_resistant_infections>
     Annotations: rdfs:label "Multidrug-resistant infections"
     Types: <https://signals.zndx.org/sdg#EvidenceBasedMedicine>
-
-Individual: <https://signals.zndx.org/sdg#i_multifactorauth>
-    Annotations: rdfs:label "MultiFactorAuth"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_multilateral_netting>
     Annotations: rdfs:label "Multilateral Netting"
@@ -34733,10 +34796,6 @@ Individual: <https://signals.zndx.org/sdg#i_neonatal_genomic_screening_initiativ
 Individual: <https://signals.zndx.org/sdg#i_neonatal_hyperbilirubinemia>
     Annotations: rdfs:label "Neonatal hyperbilirubinemia"
     Types: <https://signals.zndx.org/sdg#EvidenceBasedMedicine>
-
-Individual: <https://signals.zndx.org/sdg#i_neonatalctradiologist>
-    Annotations: rdfs:label "NeonatalCTRadiologist"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
 
 Individual: <https://signals.zndx.org/sdg#i_neoncityintro>
     Annotations: rdfs:label "NeonCityIntro"
@@ -37258,10 +37317,6 @@ Individual: <https://signals.zndx.org/sdg#i_pediatric_vaccination_appointment>
     Annotations: rdfs:label "Pediatric-Vaccination-Appointment"
     Types: <https://signals.zndx.org/sdg#ServiceExperienceSituation>
 
-Individual: <https://signals.zndx.org/sdg#i_pediatriccardiothoracicreader>
-    Annotations: rdfs:label "PediatricCardiothoracicReader"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_peer_assessment_cycle>
     Annotations: rdfs:label "Peer Assessment Cycle"
     Types: <https://signals.zndx.org/sdg#BoardOfAssessorsMeeting>
@@ -38366,10 +38421,6 @@ Individual: <https://signals.zndx.org/sdg#i_postal_mailing>
     Annotations: rdfs:label "Postal mailing"
     Types: <https://signals.zndx.org/sdg#OfflineChannel>
 
-Individual: <https://signals.zndx.org/sdg#i_postapprovalworkflow>
-    Annotations: rdfs:label "PostApprovalWorkflow"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_postdoc_cleared_2023>
     Annotations: rdfs:label "POSTDOC_CLEARED_2023"
     Types: <https://signals.zndx.org/sdg#YoungPhysicianEligibilityConstraint>
@@ -38454,10 +38505,6 @@ Individual: <https://signals.zndx.org/sdg#i_postoperative_review>
     Annotations: rdfs:label "Postoperative Review"
     Types: <https://signals.zndx.org/sdg#ClinicalDocumentationActivity>
 
-Individual: <https://signals.zndx.org/sdg#i_postopthoracicimaging>
-    Annotations: rdfs:label "PostOpThoracicImaging"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-
 Individual: <https://signals.zndx.org/sdg#i_postpartum_hemorrhage_events>
     Annotations: rdfs:label "Postpartum hemorrhage events"
     Types: <https://signals.zndx.org/sdg#EvidenceBasedMedicine>
@@ -38497,10 +38544,6 @@ Individual: <https://signals.zndx.org/sdg#i_power_plant_stack_co_monitor>
 Individual: <https://signals.zndx.org/sdg#i_practice_supervisor>
     Annotations: rdfs:label "Practice Supervisor"
     Types: <https://signals.zndx.org/sdg#HealthcareAgent>
-
-Individual: <https://signals.zndx.org/sdg#i_prayer_healing>
-    Annotations: rdfs:label "Prayer Healing"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_pre_crisis_expansion>
     Annotations: rdfs:label "Pre-Crisis Expansion"
@@ -38909,6 +38952,10 @@ Individual: <https://signals.zndx.org/sdg#i_privileged_access_management_console
 Individual: <https://signals.zndx.org/sdg#i_priya_gupta>
     Annotations: rdfs:label "Priya Gupta"
     Types: <https://signals.zndx.org/sdg#StudentEntity>
+
+Individual: <https://signals.zndx.org/sdg#i_priya_mehta>
+    Annotations: rdfs:label "Priya Mehta"
+    Types: <https://signals.zndx.org/sdg#BoardMember>, <https://signals.zndx.org/sdg#ExecutiveTeamRoster>, <https://signals.zndx.org/sdg#Person>, <https://signals.zndx.org/sdg#PetitionerRole>
 
 Individual: <https://signals.zndx.org/sdg#i_priya_nair>
     Annotations: rdfs:label "Priya Nair"
@@ -39762,10 +39809,6 @@ Individual: <https://signals.zndx.org/sdg#i_pull_request_442>
     Annotations: rdfs:label "pull_request_442"
     Types: <https://signals.zndx.org/sdg#InformationItem>
 
-Individual: <https://signals.zndx.org/sdg#i_pulmonarynoduletracking>
-    Annotations: rdfs:label "PulmonaryNoduleTracking"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
-
 Individual: <https://signals.zndx.org/sdg#i_pulp_mill_kettle>
     Annotations: rdfs:label "Pulp Mill Kettle"
     Types: <https://signals.zndx.org/sdg#IndustrialEmissionSource>
@@ -40109,10 +40152,6 @@ Individual: <https://signals.zndx.org/sdg#i_quality_oversight_coordinator>
 Individual: <https://signals.zndx.org/sdg#i_quality_standard_alignment>
     Annotations: rdfs:label "Quality Standard Alignment"
     Types: <https://signals.zndx.org/sdg#EvaluationOutcome>
-
-Individual: <https://signals.zndx.org/sdg#i_qualityassurancectattending>
-    Annotations: rdfs:label "QualityAssuranceCTAttending"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
 
 Individual: <https://signals.zndx.org/sdg#i_qualityassuranceinspector>
     Annotations: rdfs:label "QualityAssuranceInspector"
@@ -41990,10 +42029,6 @@ Individual: <https://signals.zndx.org/sdg#i_research_team>
     Annotations: rdfs:label "research-team"
     Types: <https://signals.zndx.org/sdg#RequestingEntity>
 
-Individual: <https://signals.zndx.org/sdg#i_researchctfellow>
-    Annotations: rdfs:label "ResearchCTFellow"
-    Types: <https://signals.zndx.org/sdg#CardiothoracicRadiologistRole>
-
 Individual: <https://signals.zndx.org/sdg#i_researcher_r_okonkwo>
     Annotations: rdfs:label "Researcher R. Okonkwo"
     Types: <https://signals.zndx.org/sdg#AcademicAgent>
@@ -42490,10 +42525,6 @@ Individual: <https://signals.zndx.org/sdg#i_riskregister>
     Annotations: rdfs:label "RiskRegister"
     Types: <https://signals.zndx.org/sdg#EvaluationOutcome>
 
-Individual: <https://signals.zndx.org/sdg#i_ritual_bone_alignment>
-    Annotations: rdfs:label "ritual bone alignment"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_ritual_bone_setter>
     Annotations: rdfs:label "ritual bone setter"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
@@ -42593,6 +42624,10 @@ Individual: <https://signals.zndx.org/sdg#i_roasted_vegetables>
 Individual: <https://signals.zndx.org/sdg#i_robert_chen>
     Annotations: rdfs:label "Robert Chen"
     Types: <https://signals.zndx.org/sdg#LegalProfessional>
+
+Individual: <https://signals.zndx.org/sdg#i_robert_hayes>
+    Annotations: rdfs:label "Robert Hayes"
+    Types: <https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager>, <https://signals.zndx.org/sdg#Person>, <https://signals.zndx.org/sdg#PetitionerRole>
 
 Individual: <https://signals.zndx.org/sdg#i_robert_j_hayes>
     Annotations: rdfs:label "Robert J. Hayes"
@@ -42925,10 +42960,6 @@ Individual: <https://signals.zndx.org/sdg#i_sable_mercer>
 Individual: <https://signals.zndx.org/sdg#i_sacred_water_channeler>
     Annotations: rdfs:label "sacred water channeler"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
-
-Individual: <https://signals.zndx.org/sdg#i_sacred_water_purification>
-    Annotations: rdfs:label "sacred water purification"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_sae_as85045_std>
     Annotations: rdfs:label "SAE-AS85045-Std"
@@ -43309,10 +43340,6 @@ Individual: <https://signals.zndx.org/sdg#i_scheduled>
 Individual: <https://signals.zndx.org/sdg#i_scheduled_cron_job>
     Annotations: rdfs:label "Scheduled cron job"
     Types: <https://signals.zndx.org/sdg#AutomatedSystem>
-
-Individual: <https://signals.zndx.org/sdg#i_scheduledpublishing>
-    Annotations: rdfs:label "ScheduledPublishing"
-    Types: <https://signals.zndx.org/sdg#AccountManagementFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_schedulernodemaster>
     Annotations: rdfs:label "SchedulerNodeMaster"
@@ -44750,10 +44777,6 @@ Individual: <https://signals.zndx.org/sdg#i_smithjprofile>
     Annotations: rdfs:label "SmithJProfile"
     Types: <https://signals.zndx.org/sdg#ClientProfile>
 
-Individual: <https://signals.zndx.org/sdg#i_smoke_purification>
-    Annotations: rdfs:label "Smoke Purification"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_snap_nov_w03>
     Annotations: rdfs:label "SNAP-NOV-W03"
     Types: <https://signals.zndx.org/sdg#WeeklySalesReport>
@@ -45082,10 +45105,6 @@ Individual: <https://signals.zndx.org/sdg#i_sort_center_five>
     Annotations: rdfs:label "Sort Center Five"
     Types: <https://signals.zndx.org/sdg#MailDropLocation>
 
-Individual: <https://signals.zndx.org/sdg#i_soul_retrieval>
-    Annotations: rdfs:label "Soul Retrieval"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_sound_pressure_level>
     Annotations: rdfs:label "Sound Pressure Level"
     Types: <https://signals.zndx.org/sdg#MeasurementParameter>
@@ -45286,21 +45305,9 @@ Individual: <https://signals.zndx.org/sdg#i_spirit_medium>
     Annotations: rdfs:label "Spirit Medium"
     Types: <https://signals.zndx.org/sdg#TraditionalReligiousHealerRole>
 
-Individual: <https://signals.zndx.org/sdg#i_spirit_possession_channeling>
-    Annotations: rdfs:label "spirit possession channeling"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
-Individual: <https://signals.zndx.org/sdg#i_spirit_possession_mediation>
-    Annotations: rdfs:label "spirit possession mediation"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_spiritmediumpark>
     Annotations: rdfs:label "SpiritMediumPark"
     Types: <https://signals.zndx.org/sdg#AncestralSpiritCommunity>
-
-Individual: <https://signals.zndx.org/sdg#i_spiritual_cleansing>
-    Annotations: rdfs:label "Spiritual Cleansing"
-    Types: <https://signals.zndx.org/sdg#HealerFunction>
 
 Individual: <https://signals.zndx.org/sdg#i_split>
     Annotations: rdfs:label "Split"
@@ -46906,10 +46913,6 @@ Individual: <https://signals.zndx.org/sdg#i_support_renewal>
     Annotations: rdfs:label "SUPPORT-RENEWAL"
     Types: <https://signals.zndx.org/sdg#TeleSalesActivity>
 
-Individual: <https://signals.zndx.org/sdg#i_support_set_77>
-    Annotations: rdfs:label "SUPPORT-SET-77"
-    Types: <https://signals.zndx.org/sdg#ParentingFunction>
-
 Individual: <https://signals.zndx.org/sdg#i_support_tier_2>
     Annotations: rdfs:label "Support Tier 2"
     Types: <https://signals.zndx.org/sdg#ServiceChargeRate>
@@ -48381,10 +48384,6 @@ Individual: <https://signals.zndx.org/sdg#i_thomson_reuters_legal>
 Individual: <https://signals.zndx.org/sdg#i_thomson_reuters_legal_labs>
     Annotations: rdfs:label "Thomson Reuters Legal Labs"
     Types: <https://signals.zndx.org/sdg#LegalTechSolutionLab>
-
-Individual: <https://signals.zndx.org/sdg#i_thoracicctscreening>
-    Annotations: rdfs:label "ThoracicCTScreening"
-    Types: <https://signals.zndx.org/sdg#DiagnosticImagingPractice>
 
 Individual: <https://signals.zndx.org/sdg#i_threads>
     Annotations: rdfs:label "Threads"
@@ -51081,10 +51080,6 @@ Individual: <https://signals.zndx.org/sdg#i_weightroomsupervisor>
 Individual: <https://signals.zndx.org/sdg#i_welfare_inspections>
     Annotations: rdfs:label "Welfare Inspections"
     Types: <https://signals.zndx.org/sdg#AnimalControlActivity>
-
-Individual: <https://signals.zndx.org/sdg#i_welfare_placement>
-    Annotations: rdfs:label "Welfare placement"
-    Types: <https://signals.zndx.org/sdg#RightsExercise>
 
 Individual: <https://signals.zndx.org/sdg#i_welfareinspection>
     Annotations: rdfs:label "WelfareInspection"

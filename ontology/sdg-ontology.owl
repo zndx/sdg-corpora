@@ -64,19 +64,29 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label>participates in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -85,6 +95,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:label>has participant</rdfs:label>
     </owl:ObjectProperty>
     
@@ -92,7 +104,10 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </owl:ObjectProperty>
     
 
 
@@ -107,6 +122,9 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000117 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000117">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000132"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:label>0000117</rdfs:label>
     </owl:ObjectProperty>
     
@@ -122,19 +140,28 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000132 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000132"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000132">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000176 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000176">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000178"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000178 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000178">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:label>0000178</rdfs:label>
     </owl:ObjectProperty>
     
@@ -142,13 +169,19 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000196 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000196">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000197 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000197">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:label>0000197</rdfs:label>
     </owl:ObjectProperty>
     
@@ -158,14 +191,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#abstractionOfServicePerformanceMetric">
         <rdfs:label>abstraction of service performance metric</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#abstracts -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#abstracts">
-        <rdfs:label>abstracts</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -442,54 +467,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#bears -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bears">
-        <rdfs:label>bears</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#bearsAgent -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bearsAgent">
-        <rdfs:label>bears agent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#bearsOn -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bearsOn">
-        <rdfs:label>bears on</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#bearsRole -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bearsRole">
-        <rdfs:label>bears role</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#bearsRoleHolder -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bearsRoleHolder">
-        <rdfs:label>bears role holder</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#bearsRoleOn -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bearsRoleOn">
-        <rdfs:label>bears role on</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals.zndx.org/sdg#bindsProvider -->
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#bindsProvider"/>
@@ -612,6 +589,14 @@
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#concernsTopic">
         <rdfs:label>concerns topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#concretizes -->
+
+    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#concretizes">
+        <rdfs:label>concretizes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2232,30 +2217,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#inheresInPerson -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#inheresInPerson">
-        <rdfs:label>inheres in person</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#inheres_in -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#inheres_in">
-        <rdfs:label>inheres in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#inheres_in_bearer -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#inheres_in_bearer">
-        <rdfs:label>inheres in bearer</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://signals.zndx.org/sdg#inspects -->
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#inspects">
@@ -3094,6 +3055,14 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#realizedIn -->
+
+    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizedIn">
+        <rdfs:label>realized in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals.zndx.org/sdg#realized_in -->
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realized_in">
@@ -3106,14 +3075,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizes">
         <rdfs:label>realizes</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#realizesFor -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizesFor">
-        <rdfs:label>realizes for</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3138,30 +3099,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizesMonitoringProtocol">
         <rdfs:label>realizes monitoring protocol</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#realizesRole -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizesRole">
-        <rdfs:label>realizes role</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#realizesRoleIn -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizesRoleIn">
-        <rdfs:label>realizes role in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#realizesServiceManagement -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#realizesServiceManagement">
-        <rdfs:label>realizes service management</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3322,14 +3259,6 @@
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#resultsInRole">
         <rdfs:label>results in role</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#role_realizes -->
-
-    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#role_realizes">
-        <rdfs:label>role realizes</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -4460,19 +4389,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AcademicActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AcademicRole is a role borne by exactly one Person that realizes some AcademicActivity.</obo:IAO_0000115>
-        <rdfs:comment>An AcademicRole is a role borne by exactly one Person that realizes some AcademicActivity.</rdfs:comment>
+        <obo:IAO_0000115>{AcademicRole} is a role that inheres in exactly one {Person}, and that is realized in some {AcademicActivity}</obo:IAO_0000115>
+        <rdfs:comment>{AcademicRole} is a role that inheres in exactly one {Person}, and that is realized in some {AcademicActivity}</rdfs:comment>
         <rdfs:label>academic role</rdfs:label>
     </owl:Class>
     
@@ -4509,17 +4438,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#AccountManagementFunction -->
-
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#AccountManagementFunction">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A account management function.</obo:IAO_0000115>
-        <rdfs:comment>A account management function.</rdfs:comment>
-        <rdfs:label>account management function</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals.zndx.org/sdg#AdministrativeActivity -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#AdministrativeActivity">
@@ -4548,19 +4466,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AdministrativeActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AdministrativeRole is a role borne by exactly one Person that realizes some AdministrativeActivity.</obo:IAO_0000115>
-        <rdfs:comment>An AdministrativeRole is a role borne by exactly one Person that realizes some AdministrativeActivity.</rdfs:comment>
+        <obo:IAO_0000115>{AdministrativeRole} is a role that inheres in exactly one {Person}, and that is realized in some {AdministrativeActivity}</obo:IAO_0000115>
+        <rdfs:comment>{AdministrativeRole} is a role that inheres in exactly one {Person}, and that is realized in some {AdministrativeActivity}</rdfs:comment>
         <rdfs:label>administrative role</rdfs:label>
     </owl:Class>
     
@@ -5030,7 +4948,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AthleticMonitoringActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5041,8 +4959,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AthleticAttendantRole is an agent_role that hasRoleBearer exactly one Person and realizes an AthleticMonitoringActivity.</obo:IAO_0000115>
-        <rdfs:comment>An AthleticAttendantRole is an agent_role that hasRoleBearer exactly one Person and realizes an AthleticMonitoringActivity.</rdfs:comment>
+        <obo:IAO_0000115>{AthleticAttendantRole} is a role that has role bearer exactly one {Person}, and that is realized in some {AthleticMonitoringActivity}</obo:IAO_0000115>
+        <rdfs:comment>{AthleticAttendantRole} is a role that has role bearer exactly one {Person}, and that is realized in some {AthleticMonitoringActivity}</rdfs:comment>
         <rdfs:label>athletic attendant role</rdfs:label>
     </owl:Class>
     
@@ -5158,25 +5076,42 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AuthorizedEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}</obo:IAO_0000115>
+        <rdfs:comment>{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}</rdfs:comment>
+        <rdfs:label>authorized entity authorization process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#AuthorizedRepresentativeRole -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#AuthorizedRepresentativeRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AuthorizedEntity"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheres_in"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#FinancialServicesEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An AuthorizedRepresentativeRole is a role that inheres_in exactly one FinancialServicesEntity and realizes some AuthorizedEntity.</obo:IAO_0000115>
-        <rdfs:comment>An AuthorizedRepresentativeRole is a role that inheres_in exactly one FinancialServicesEntity and realizes some AuthorizedEntity.</rdfs:comment>
+        <obo:IAO_0000115>{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}</obo:IAO_0000115>
+        <rdfs:comment>{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}</rdfs:comment>
         <rdfs:label>authorized representative role</rdfs:label>
     </owl:Class>
     
@@ -5458,8 +5393,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#BoardOfAssessorsMeeting"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#BoardMemberRoleRealization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5469,9 +5404,26 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#IndependentContinuant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting.</obo:IAO_0000115>
-        <rdfs:comment>A board member role is a role borne by exactly one independent continuant that realizes participation in a board of assessors meeting.</rdfs:comment>
+        <obo:IAO_0000115>{BoardMemberRole} is a role that has borne agent exactly one {IndependentContinuant}, and that is realized in some {BoardMemberRoleRealization}</obo:IAO_0000115>
+        <rdfs:comment>{BoardMemberRole} is a role that has borne agent exactly one {IndependentContinuant}, and that is realized in some {BoardMemberRoleRealization}</rdfs:comment>
         <rdfs:label>board member role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#BoardMemberRoleRealization -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#BoardMemberRoleRealization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#BoardOfAssessorsMeeting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{BoardMemberRoleRealization} is a process that has participant some {BoardOfAssessorsMeeting}</obo:IAO_0000115>
+        <rdfs:comment>{BoardMemberRoleRealization} is a process that has participant some {BoardOfAssessorsMeeting}</rdfs:comment>
+        <rdfs:label>board member role realization</rdfs:label>
     </owl:Class>
     
 
@@ -5724,26 +5676,7 @@
 
     <!-- https://signals.zndx.org/sdg#CMESeminar -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CMESeminar">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#has_educational_goal"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ProfessionalDevelopmentGoal"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#has_topic_focus"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#PracticeManagementTopic"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A CMESeminar is an Occurrent that has_topic_focus some PracticeManagementTopic and has_educational_goal some ProfessionalDevelopmentGoal.</obo:IAO_0000115>
-        <rdfs:comment>A CMESeminar is an Occurrent that has_topic_focus some PracticeManagementTopic and has_educational_goal some ProfessionalDevelopmentGoal.</rdfs:comment>
-        <rdfs:label>c m e seminar</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CMESeminar"/>
     
 
 
@@ -6067,45 +6000,44 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CollegeAdministration"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ChiefComplianceOfficerRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.</obo:IAO_0000115>
-        <rdfs:comment>A ChiefComplianceOfficerRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.</rdfs:comment>
+        <obo:IAO_0000115>{ChiefComplianceOfficerRole} is a role that is borne by exactly one {Person}, and that is realized in some {ChiefComplianceOfficerServiceDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{ChiefComplianceOfficerRole} is a role that is borne by exactly one {Person}, and that is realized in some {ChiefComplianceOfficerServiceDeliveryProcess}</rdfs:comment>
         <rdfs:label>chief compliance officer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ChiefComplianceOfficerServiceDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CollegeAdministration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{ChiefComplianceOfficerServiceDeliveryProcess} is a process that has participant some {CollegeAdministration}</obo:IAO_0000115>
+        <rdfs:comment>{ChiefComplianceOfficerServiceDeliveryProcess} is a process that has participant some {CollegeAdministration}</rdfs:comment>
+        <rdfs:label>chief compliance officer service delivery process</rdfs:label>
     </owl:Class>
     
 
 
     <!-- https://signals.zndx.org/sdg#ChiefFinancialOfficerRole -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#ChiefFinancialOfficerRole">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#FinancialManagementProcess"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsAgent"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://signals.zndx.org/sdg#OrganizationalAgent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A ChiefFinancialOfficerRole is a role that bears exactly one OrganizationalAgent and realizes a FinancialManagementProcess.</obo:IAO_0000115>
-        <rdfs:comment>A ChiefFinancialOfficerRole is a role that bears exactly one OrganizationalAgent and realizes a FinancialManagementProcess.</rdfs:comment>
-        <rdfs:label>chief financial officer role</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ChiefFinancialOfficerRole"/>
     
 
 
@@ -6157,30 +6089,7 @@
 
     <!-- https://signals.zndx.org/sdg#CleanTrafficRedirection -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CleanTrafficRedirection">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ScrubbingActivity"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#deliversTo"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CustomerNetwork"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#originatesFrom"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#NetworkScrubbingCenter"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>Clean traffic redirection is a process that originates from a network scrubbing center, delivers to a customer network, and is realized in a scrubbing activity.</obo:IAO_0000115>
-        <rdfs:comment>Clean traffic redirection is a process that originates from a network scrubbing center, delivers to a customer network, and is realized in a scrubbing activity.</rdfs:comment>
-        <rdfs:label>clean traffic redirection</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CleanTrafficRedirection"/>
     
 
 
@@ -6190,8 +6099,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ClearingProcess"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6201,9 +6110,26 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#CustomerAccount"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A clearing broker role is a role that inheres in exactly one customer account and realizes some clearing process.</obo:IAO_0000115>
-        <rdfs:comment>A clearing broker role is a role that inheres in exactly one customer account and realizes some clearing process.</rdfs:comment>
+        <obo:IAO_0000115>{ClearingBrokerRole} is a role that inheres in exactly one {CustomerAccount}, and that is realized in some {ClearingBrokerServiceDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{ClearingBrokerRole} is a role that inheres in exactly one {CustomerAccount}, and that is realized in some {ClearingBrokerServiceDeliveryProcess}</rdfs:comment>
         <rdfs:label>clearing broker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ClearingBrokerServiceDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ClearingProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{ClearingBrokerServiceDeliveryProcess} is a process that has participant some {ClearingProcess}</obo:IAO_0000115>
+        <rdfs:comment>{ClearingBrokerServiceDeliveryProcess} is a process that has participant some {ClearingProcess}</rdfs:comment>
+        <rdfs:label>clearing broker service delivery process</rdfs:label>
     </owl:Class>
     
 
@@ -6617,6 +6543,23 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#CollegeAdministrationProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CollegeAdministrationProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CollegeAdministration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{CollegeAdministrationProcess} is a process that has participant some {CollegeAdministration}</obo:IAO_0000115>
+        <rdfs:comment>{CollegeAdministrationProcess} is a process that has participant some {CollegeAdministration}</rdfs:comment>
+        <rdfs:label>college administration process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#CollegeCommunityMember -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#CollegeCommunityMember">
@@ -6665,8 +6608,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CollegeAdministration"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CollegeAdministrationProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6676,8 +6619,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A CollegeOfficialRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.</obo:IAO_0000115>
-        <rdfs:comment>A CollegeOfficialRole is a Role that inheresIn exactly 1 Person and realizes some CollegeAdministration.</rdfs:comment>
+        <obo:IAO_0000115>{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}</obo:IAO_0000115>
+        <rdfs:comment>{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}</rdfs:comment>
         <rdfs:label>college official role</rdfs:label>
     </owl:Class>
     
@@ -6766,6 +6709,23 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CommunityHealthcareSetting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{CommunityHealthcareServiceDeliveryProcess} is a process that has participant some {CommunityHealthcareSetting}</obo:IAO_0000115>
+        <rdfs:comment>{CommunityHealthcareServiceDeliveryProcess} is a process that has participant some {CommunityHealthcareSetting}</rdfs:comment>
+        <rdfs:label>community healthcare service delivery process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#CommunityHealthcareSetting -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#CommunityHealthcareSetting">
@@ -6789,7 +6749,32 @@
 
     <!-- https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse"/>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CommunityLearningDisabilityNurse">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CommunityHealthcareServiceDeliveryProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HealthcareAgent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#fulfillsProfessionalRole"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HealthcareAgent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{CommunityLearningDisabilityNurse} is a role that is borne by exactly one {HealthcareAgent}, and that is realized in some {CommunityHealthcareServiceDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{CommunityLearningDisabilityNurse} is a role that is borne by exactly one {HealthcareAgent}, and that is realized in some {CommunityHealthcareServiceDeliveryProcess}</rdfs:comment>
+        <rdfs:label>community learning disability nurse</rdfs:label>
+    </owl:Class>
     
 
 
@@ -7414,64 +7399,19 @@
 
     <!-- https://signals.zndx.org/sdg#CriminalJusticeProcess -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CriminalJusticeProcess">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CriminalJusticeAdministration"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A criminal justice process that is realized in an administration process.</obo:IAO_0000115>
-        <rdfs:comment>A criminal justice process that is realized in an administration process.</rdfs:comment>
-        <rdfs:label>criminal justice process</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CriminalJusticeProcess"/>
     
 
 
     <!-- https://signals.zndx.org/sdg#CriminalJusticeSystem -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CriminalJusticeSystem">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000870"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CriminalJusticeProcess"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>An infrastructure system that participates in criminal justice processes.</obo:IAO_0000115>
-        <rdfs:comment>An infrastructure system that participates in criminal justice processes.</rdfs:comment>
-        <rdfs:label>criminal justice system</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CriminalJusticeSystem"/>
     
 
 
     <!-- https://signals.zndx.org/sdg#CulturalAttribute -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#CulturalAttribute">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000197"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OrganizationalCulture"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A quality that inheres in an organizational culture.</obo:IAO_0000115>
-        <rdfs:comment>A quality that inheres in an organizational culture.</rdfs:comment>
-        <rdfs:label>cultural attribute</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#CulturalAttribute"/>
     
 
 
@@ -7676,24 +7616,7 @@
     <!-- https://signals.zndx.org/sdg#DataInput -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#DataInput">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <owl:disjointWith rdf:resource="https://signals.zndx.org/sdg#InvestmentChoiceDecision"/>
-        <obo:IAO_0000115>A data input is an act of information processing that has a form document as a participant and involves a database.</obo:IAO_0000115>
-        <rdfs:comment>A data input is an act of information processing that has a form document as a participant and involves a database.</rdfs:comment>
-        <rdfs:label>data input</rdfs:label>
     </owl:Class>
     
 
@@ -7875,7 +7798,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#FinalInspectionProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7886,8 +7809,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A DeveloperRepresentativeRole is an agent role that has exactly one role bearer which is an Agent, and realizes some FinalInspectionProcess.</obo:IAO_0000115>
-        <rdfs:comment>A DeveloperRepresentativeRole is an agent role that has exactly one role bearer which is an Agent, and realizes some FinalInspectionProcess.</rdfs:comment>
+        <obo:IAO_0000115>{DeveloperRepresentativeRole} is a role that has role bearer exactly one {Agent}, and that is realized in some {FinalInspectionProcess}</obo:IAO_0000115>
+        <rdfs:comment>{DeveloperRepresentativeRole} is a role that has role bearer exactly one {Agent}, and that is realized in some {FinalInspectionProcess}</rdfs:comment>
         <rdfs:label>developer representative role</rdfs:label>
     </owl:Class>
     
@@ -7899,19 +7822,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bears"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A DeviceExpertRole is a role borne by exactly one Person and realizes a DeviceProcurementAdvisoryProcess.</obo:IAO_0000115>
-        <rdfs:comment>A DeviceExpertRole is a role borne by exactly one Person and realizes a DeviceProcurementAdvisoryProcess.</rdfs:comment>
+        <obo:IAO_0000115>{DeviceExpertRole} is a role that inheres in exactly one {Person}, and that is realized in some {DeviceProcurementAdvisoryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{DeviceExpertRole} is a role that inheres in exactly one {Person}, and that is realized in some {DeviceProcurementAdvisoryProcess}</rdfs:comment>
         <rdfs:label>device expert role</rdfs:label>
     </owl:Class>
     
@@ -7982,17 +7905,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#DiagnosticImagingPractice -->
-
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#DiagnosticImagingPractice">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A diagnostic imaging practice.</obo:IAO_0000115>
-        <rdfs:comment>A diagnostic imaging practice.</rdfs:comment>
-        <rdfs:label>diagnostic imaging practice</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals.zndx.org/sdg#DieselPoweredVehicle -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#DieselPoweredVehicle">
@@ -8038,19 +7950,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ParentingProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bears"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Adult"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A DisabledAdultParentRole is a role that is borne by exactly one Adult and realizes a ParentingFunction.</obo:IAO_0000115>
-        <rdfs:comment>A DisabledAdultParentRole is a role that is borne by exactly one Adult and realizes a ParentingFunction.</rdfs:comment>
+        <obo:IAO_0000115>{DisabledAdultParentRole} is a role that is borne by exactly one {Adult}, and that is realized in some {ParentingProcess}</obo:IAO_0000115>
+        <rdfs:comment>{DisabledAdultParentRole} is a role that is borne by exactly one {Adult}, and that is realized in some {ParentingProcess}</rdfs:comment>
         <rdfs:label>disabled adult parent role</rdfs:label>
     </owl:Class>
     
@@ -8500,19 +8412,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RaffleConductingActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bears"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#NonprofitOrganization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An EligibleRaffleConductorRole is a BFO role borne by exactly one NonprofitOrganization that realizes a RaffleConductingActivity.</obo:IAO_0000115>
-        <rdfs:comment>An EligibleRaffleConductorRole is a BFO role borne by exactly one NonprofitOrganization that realizes a RaffleConductingActivity.</rdfs:comment>
+        <obo:IAO_0000115>{EligibleRaffleConductorRole} is a role that inheres in exactly one {NonprofitOrganization}, and that is realized in some {RaffleConductingActivity}</obo:IAO_0000115>
+        <rdfs:comment>{EligibleRaffleConductorRole} is a role that inheres in exactly one {NonprofitOrganization}, and that is realized in some {RaffleConductingActivity}</rdfs:comment>
         <rdfs:label>eligible raffle conductor role</rdfs:label>
     </owl:Class>
     
@@ -8556,26 +8468,7 @@
 
     <!-- https://signals.zndx.org/sdg#EmployeeFeedbackSurvey -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#EmployeeFeedbackSurvey">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#assessesHealthAspect"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OrganizationalHealthMetric"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#measuresDimension"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#WorkplaceCultureDimension"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>An EmployeeFeedbackSurvey is a process that measures a WorkplaceCultureDimension and assesses an OrganizationalHealthMetric.</obo:IAO_0000115>
-        <rdfs:comment>An EmployeeFeedbackSurvey is a process that measures a WorkplaceCultureDimension and assesses an OrganizationalHealthMetric.</rdfs:comment>
-        <rdfs:label>employee feedback survey</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#EmployeeFeedbackSurvey"/>
     
 
 
@@ -8627,7 +8520,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#BusinessActivityProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8638,8 +8531,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#IndependentEconomicAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An EntrepreneurRole is a phase-sortal role that inheres_in exactly one IndependentEconomicAgent and realizes a BusinessActivityProcess.</obo:IAO_0000115>
-        <rdfs:comment>An EntrepreneurRole is a phase-sortal role that inheres_in exactly one IndependentEconomicAgent and realizes a BusinessActivityProcess.</rdfs:comment>
+        <obo:IAO_0000115>{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}</obo:IAO_0000115>
+        <rdfs:comment>{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}</rdfs:comment>
         <rdfs:label>entrepreneur role</rdfs:label>
     </owl:Class>
     
@@ -9452,22 +9345,7 @@
 
     <!-- https://signals.zndx.org/sdg#FinancialManagementProcess -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#FinancialManagementProcess">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://signals.zndx.org/sdg#FinancialActivity"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#involves"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#FinancialStrategyOversight"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A financial activity that involves financial strategy oversight.</obo:IAO_0000115>
-        <rdfs:comment>A financial activity that involves financial strategy oversight.</rdfs:comment>
-        <rdfs:label>financial management process</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#FinancialManagementProcess"/>
     
 
 
@@ -9684,22 +9562,7 @@
 
     <!-- https://signals.zndx.org/sdg#FinancialStrategyOversight -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#FinancialStrategyOversight">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#FinancialManagementProcess"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A process that is involved in a financial management process.</obo:IAO_0000115>
-        <rdfs:comment>A process that is involved in a financial management process.</rdfs:comment>
-        <rdfs:label>financial strategy oversight</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#FinancialStrategyOversight"/>
     
 
 
@@ -9749,8 +9612,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://signals.zndx.org/sdg#InspectionReport"/>
-        <obo:IAO_0000115>A FineAssessmentEvent is an InformationContentEntity that assessesOwner some PropertyOwner, addressesViolation some PolicyViolation, and has assessmentAmount some xsd:decimal.</obo:IAO_0000115>
-        <rdfs:comment>A FineAssessmentEvent is an InformationContentEntity that assessesOwner some PropertyOwner, addressesViolation some PolicyViolation, and has assessmentAmount some xsd:decimal.</rdfs:comment>
+        <obo:IAO_0000115>A FineAssessmentEvent is classified as an InformationContentEntity that carries an assessesOwner link to a PropertyOwner, an addressesViolation link to a PolicyViolation, and a has assessmentAmount link to an xsd:decimal.</obo:IAO_0000115>
+        <rdfs:comment>A FineAssessmentEvent is classified as an InformationContentEntity that carries an assessesOwner link to a PropertyOwner, an addressesViolation link to a PolicyViolation, and a has assessmentAmount link to an xsd:decimal.</rdfs:comment>
         <rdfs:label>fine assessment event</rdfs:label>
     </owl:Class>
     
@@ -9825,25 +9688,42 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#GeneralManagerFunctionExecution -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#GeneralManagerFunctionExecution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OrganizationalFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{GeneralManagerFunctionExecution} is a process that has participant some {OrganizationalFunction}</obo:IAO_0000115>
+        <rdfs:comment>{GeneralManagerFunctionExecution} is a process that has participant some {OrganizationalFunction}</rdfs:comment>
+        <rdfs:label>general manager function execution</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#GeneralManagerRole -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#GeneralManagerRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OrganizationalFunction"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#GeneralManagerFunctionExecution"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HumanAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A General Manager Role is a BFO Role borne by exactly one Human Agent and realizing some Organizational Function.</obo:IAO_0000115>
-        <rdfs:comment>A General Manager Role is a BFO Role borne by exactly one Human Agent and realizing some Organizational Function.</rdfs:comment>
+        <obo:IAO_0000115>{GeneralManagerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {GeneralManagerFunctionExecution}</obo:IAO_0000115>
+        <rdfs:comment>{GeneralManagerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {GeneralManagerFunctionExecution}</rdfs:comment>
         <rdfs:label>general manager role</rdfs:label>
     </owl:Class>
     
@@ -10043,17 +9923,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#HealerFunction -->
-
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#HealerFunction">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A healer function.</obo:IAO_0000115>
-        <rdfs:comment>A healer function.</rdfs:comment>
-        <rdfs:label>healer function</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://signals.zndx.org/sdg#HealthCareSummary -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#HealthCareSummary">
@@ -10172,26 +10041,7 @@
 
     <!-- https://signals.zndx.org/sdg#HealthcareAnalyticsProcess -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#HealthcareAnalyticsProcess">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#processesInput"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#DataInput"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#producesOutput"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#IntelligenceOutput"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A HealthcareAnalyticsProcess is a process that processesInput some DataInput and producesOutput some IntelligenceOutput.</obo:IAO_0000115>
-        <rdfs:comment>A HealthcareAnalyticsProcess is a process that processesInput some DataInput and producesOutput some IntelligenceOutput.</rdfs:comment>
-        <rdfs:label>healthcare analytics process</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#HealthcareAnalyticsProcess"/>
     
 
 
@@ -10608,25 +10458,36 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#IndigenousChild -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#IndigenousChild">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A indigenous child.</obo:IAO_0000115>
+        <rdfs:comment>A indigenous child.</rdfs:comment>
+        <rdfs:label>indigenous child</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#IndigenousChildRole -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#IndigenousChildRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RightsExerciseProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsOn"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#IndependentContinuant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An IndigenousChildRole is a role borne by exactly one IndependentContinuant that realizes a RightsExercise.</obo:IAO_0000115>
-        <rdfs:comment>An IndigenousChildRole is a role borne by exactly one IndependentContinuant that realizes a RightsExercise.</rdfs:comment>
+        <obo:IAO_0000115>{IndigenousChildRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {RightsExerciseProcess}</obo:IAO_0000115>
+        <rdfs:comment>{IndigenousChildRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {RightsExerciseProcess}</rdfs:comment>
         <rdfs:label>indigenous child role</rdfs:label>
     </owl:Class>
     
@@ -11153,8 +11014,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#GovernanceFunction"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11164,9 +11025,26 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#IndependentContinuantAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.</obo:IAO_0000115>
-        <rdfs:comment>A JointBoardChairRole is a bfo:0000023 that designates exactly 1 IndependentContinuantAgent and realizes some GovernanceFunction.</rdfs:comment>
+        <obo:IAO_0000115>{JointBoardChairRole} is a role that designates exactly one {IndependentContinuantAgent}, and that is realized in some {JointBoardChairServiceDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{JointBoardChairRole} is a role that designates exactly one {IndependentContinuantAgent}, and that is realized in some {JointBoardChairServiceDeliveryProcess}</rdfs:comment>
         <rdfs:label>joint board chair role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#JointBoardChairServiceDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#GovernanceFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{JointBoardChairServiceDeliveryProcess} is a process that has participant some {GovernanceFunction}</obo:IAO_0000115>
+        <rdfs:comment>{JointBoardChairServiceDeliveryProcess} is a process that has participant some {GovernanceFunction}</rdfs:comment>
+        <rdfs:label>joint board chair service delivery process</rdfs:label>
     </owl:Class>
     
 
@@ -11537,7 +11415,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#LegalAdvertisementActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11548,9 +11426,26 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#LegalProfessional"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A LegalServiceAdvertiserRole is a BFO Role that inheres_in exactly one LegalProfessional and realizes some LegalAdvertisementActivity.</obo:IAO_0000115>
-        <rdfs:comment>A LegalServiceAdvertiserRole is a BFO Role that inheres_in exactly one LegalProfessional and realizes some LegalAdvertisementActivity.</rdfs:comment>
+        <obo:IAO_0000115>{LegalServiceAdvertiserRole} is a role that inheres in exactly one {LegalProfessional}, and that is realized in some {LegalAdvertisementActivity}</obo:IAO_0000115>
+        <rdfs:comment>{LegalServiceAdvertiserRole} is a role that inheres in exactly one {LegalProfessional}, and that is realized in some {LegalAdvertisementActivity}</rdfs:comment>
         <rdfs:label>legal service advertiser role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#LegalTechSolutionLab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{LegalTechServiceDeliveryProcess} is a process that has participant some {LegalTechSolutionLab}</obo:IAO_0000115>
+        <rdfs:comment>{LegalTechServiceDeliveryProcess} is a process that has participant some {LegalTechSolutionLab}</rdfs:comment>
+        <rdfs:label>legal tech service delivery process</rdfs:label>
     </owl:Class>
     
 
@@ -11561,8 +11456,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#LegalTechSolutionLab"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#LegalTechServiceDeliveryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11572,8 +11467,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#ServiceProvider"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A LegalTech Service Provision is a role borne by a Service Provider that realizes a LegalTech Solution Lab.</obo:IAO_0000115>
-        <rdfs:comment>A LegalTech Service Provision is a role borne by a Service Provider that realizes a LegalTech Solution Lab.</rdfs:comment>
+        <obo:IAO_0000115>{LegalTechServiceProvision} is a role that is borne by exactly one {ServiceProvider}, and that is realized in some {LegalTechServiceDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{LegalTechServiceProvision} is a role that is borne by exactly one {ServiceProvider}, and that is realized in some {LegalTechServiceDeliveryProcess}</rdfs:comment>
         <rdfs:label>legal tech service provision</rdfs:label>
     </owl:Class>
     
@@ -11640,7 +11535,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#LibraryAssistanceActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -11651,8 +11546,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Student"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>LibraryStudentAssistantRole is a role borne by exactly one student and realizes some library assistance activity.</obo:IAO_0000115>
-        <rdfs:comment>LibraryStudentAssistantRole is a role borne by exactly one student and realizes some library assistance activity.</rdfs:comment>
+        <obo:IAO_0000115>{LibraryStudentAssistantRole} is a role that is borne by exactly one {Student}, and that is realized in some {LibraryAssistanceActivity}</obo:IAO_0000115>
+        <rdfs:comment>{LibraryStudentAssistantRole} is a role that is borne by exactly one {Student}, and that is realized in some {LibraryAssistanceActivity}</rdfs:comment>
         <rdfs:label>library student assistant role</rdfs:label>
     </owl:Class>
     
@@ -12513,7 +12408,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12524,8 +12419,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HumanAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A MunicipalSwimmingPoolAssistantManager is a role that inheres_in exactly one HumanAgent and realizes some MunicipalPoolOperationsManagementActivity.</obo:IAO_0000115>
-        <rdfs:comment>A MunicipalSwimmingPoolAssistantManager is a role that inheres_in exactly one HumanAgent and realizes some MunicipalPoolOperationsManagementActivity.</rdfs:comment>
+        <obo:IAO_0000115>{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}</obo:IAO_0000115>
+        <rdfs:comment>{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}</rdfs:comment>
         <rdfs:label>municipal swimming pool assistant manager</rdfs:label>
     </owl:Class>
     
@@ -13129,22 +13024,13 @@
 
     <!-- https://signals.zndx.org/sdg#OrganizationalHealthMetric -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#OrganizationalHealthMetric">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://signals.zndx.org/sdg#HealthOutcomeMetric"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#EmployeeFeedbackSurvey"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A health outcome measure derived from or applied to employee feedback surveys.</obo:IAO_0000115>
-        <rdfs:comment>A health outcome measure derived from or applied to employee feedback surveys.</rdfs:comment>
-        <rdfs:label>organizational health metric</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#OrganizationalHealthMetric"/>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#OrganizationalLeadershipProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#OrganizationalLeadershipProcess"/>
     
 
 
@@ -13232,13 +13118,19 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#ParentingFunction -->
+    <!-- https://signals.zndx.org/sdg#ParentingProcess -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#ParentingFunction">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A parenting function.</obo:IAO_0000115>
-        <rdfs:comment>A parenting function.</rdfs:comment>
-        <rdfs:label>parenting function</rdfs:label>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ParentingProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#DisabledAdult"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{ParentingProcess} is a process that has participant some {DisabledAdult}</obo:IAO_0000115>
+        <rdfs:comment>{ParentingProcess} is a process that has participant some {DisabledAdult}</rdfs:comment>
+        <rdfs:label>parenting process</rdfs:label>
     </owl:Class>
     
 
@@ -13249,7 +13141,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ParentingActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13260,8 +13152,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#DisabledAdult"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ParentingRole is a role that inheresIn exactly one DisabledAdult and realizes some ParentingActivity.</obo:IAO_0000115>
-        <rdfs:comment>A ParentingRole is a role that inheresIn exactly one DisabledAdult and realizes some ParentingActivity.</rdfs:comment>
+        <obo:IAO_0000115>{ParentingRole} is a role that inheres in exactly one {DisabledAdult}, and that is realized in some {ParentingActivity}</obo:IAO_0000115>
+        <rdfs:comment>{ParentingRole} is a role that inheres in exactly one {DisabledAdult}, and that is realized in some {ParentingActivity}</rdfs:comment>
         <rdfs:label>parenting role</rdfs:label>
     </owl:Class>
     
@@ -13519,25 +13411,42 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#PatientPopulation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{PerformanceBasedCareDeliveryProcess} is a process that has participant some {PatientPopulation}</obo:IAO_0000115>
+        <rdfs:comment>{PerformanceBasedCareDeliveryProcess} is a process that has participant some {PatientPopulation}</rdfs:comment>
+        <rdfs:label>performance based care delivery process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#PerformanceBasedCareProviderRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizesFor"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#PatientPopulation"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#PerformanceBasedCareDeliveryProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizesRoleIn"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HealthcareOrganization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A PerformanceBasedCareProviderRole is a role realized by a HealthcareOrganization exactly once and realizesFor some PatientPopulation.</obo:IAO_0000115>
-        <rdfs:comment>A PerformanceBasedCareProviderRole is a role realized by a HealthcareOrganization exactly once and realizesFor some PatientPopulation.</rdfs:comment>
+        <obo:IAO_0000115>{PerformanceBasedCareProviderRole} is a role that is borne by exactly one {HealthcareOrganization}, and that is realized in some {PerformanceBasedCareDeliveryProcess}</obo:IAO_0000115>
+        <rdfs:comment>{PerformanceBasedCareProviderRole} is a role that is borne by exactly one {HealthcareOrganization}, and that is realized in some {PerformanceBasedCareDeliveryProcess}</rdfs:comment>
         <rdfs:label>performance based care provider role</rdfs:label>
     </owl:Class>
     
@@ -13709,7 +13618,37 @@
 
     <!-- https://signals.zndx.org/sdg#PetitionerRole -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#PetitionerRole"/>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#PetitionerRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AdultAdoptionProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AdultAdoptionProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasBearer"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{PetitionerRole} is a role that inheres in exactly one {Person}, and that 0000056 some {AdultAdoptionProcess}</obo:IAO_0000115>
+        <rdfs:comment>{PetitionerRole} is a role that inheres in exactly one {Person}, and that 0000056 some {AdultAdoptionProcess}</rdfs:comment>
+        <rdfs:label>petitioner role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -13762,20 +13701,37 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OperationalUnit"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#PolicePatrolProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#LawEnforcementAgency"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A PoliceOfficerRole is a role that inheres in exactly one LawEnforcementAgency and realizes some OperationalUnit.</obo:IAO_0000115>
-        <rdfs:comment>A PoliceOfficerRole is a role that inheres in exactly one LawEnforcementAgency and realizes some OperationalUnit.</rdfs:comment>
+        <obo:IAO_0000115>{PoliceOfficerRole} is a role that is borne by exactly one {LawEnforcementAgency}, and that is realized in some {PolicePatrolProcess}</obo:IAO_0000115>
+        <rdfs:comment>{PoliceOfficerRole} is a role that is borne by exactly one {LawEnforcementAgency}, and that is realized in some {PolicePatrolProcess}</rdfs:comment>
         <rdfs:label>police officer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#PolicePatrolProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#PolicePatrolProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#OperationalUnit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{PolicePatrolProcess} is a process that has participant some {OperationalUnit}</obo:IAO_0000115>
+        <rdfs:comment>{PolicePatrolProcess} is a process that has participant some {OperationalUnit}</rdfs:comment>
+        <rdfs:label>police patrol process</rdfs:label>
     </owl:Class>
     
 
@@ -13835,22 +13791,7 @@
 
     <!-- https://signals.zndx.org/sdg#PracticeManagementTopic -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#PracticeManagementTopic">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00001075"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#addresses"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RiskManagementActivity"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A training instruction act focused on the management aspects of a professional practice.</obo:IAO_0000115>
-        <rdfs:comment>A training instruction act focused on the management aspects of a professional practice.</rdfs:comment>
-        <rdfs:label>practice management topic</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#PracticeManagementTopic"/>
     
 
 
@@ -14223,20 +14164,37 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SourceTestingCertification"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#QualifiedSourceTestingProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheres_in"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>QualifiedSourceTestingIndividual is an agent role that inheres_in exactly 1 Person and realizes some SourceTestingCertification.</obo:IAO_0000115>
-        <rdfs:comment>QualifiedSourceTestingIndividual is an agent role that inheres_in exactly 1 Person and realizes some SourceTestingCertification.</rdfs:comment>
+        <obo:IAO_0000115>{QualifiedSourceTestingIndividual} is a role that is borne by exactly one {Person}, and that is realized in some {QualifiedSourceTestingProcess}</obo:IAO_0000115>
+        <rdfs:comment>{QualifiedSourceTestingIndividual} is a role that is borne by exactly one {Person}, and that is realized in some {QualifiedSourceTestingProcess}</rdfs:comment>
         <rdfs:label>qualified source testing individual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#QualifiedSourceTestingProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#QualifiedSourceTestingProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SourceTestingCertification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{QualifiedSourceTestingProcess} is a process that has participant some {SourceTestingCertification}</obo:IAO_0000115>
+        <rdfs:comment>{QualifiedSourceTestingProcess} is a process that has participant some {SourceTestingCertification}</rdfs:comment>
+        <rdfs:label>qualified source testing process</rdfs:label>
     </owl:Class>
     
 
@@ -14488,19 +14446,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresInPerson"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ServiceManagementProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizesServiceManagement"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A registered manager role is a phase-sortal role that inheres in a person and realizes a service management process.</obo:IAO_0000115>
-        <rdfs:comment>A registered manager role is a phase-sortal role that inheres in a person and realizes a service management process.</rdfs:comment>
+        <obo:IAO_0000115>{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}</obo:IAO_0000115>
+        <rdfs:comment>{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}</rdfs:comment>
         <rdfs:label>registered manager role</rdfs:label>
     </owl:Class>
     
@@ -14561,24 +14519,7 @@
 
     <!-- https://signals.zndx.org/sdg#RenderedAnimationArtifact -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#RenderedAnimationArtifact">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#abstracts"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RenderingEnvironment"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AnimationSequence"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A RenderedAnimationArtifact is an independent continuant that realizes an AnimationSequence and abstracts a RenderingEnvironment.</obo:IAO_0000115>
-        <rdfs:comment>A RenderedAnimationArtifact is an independent continuant that realizes an AnimationSequence and abstracts a RenderingEnvironment.</rdfs:comment>
-        <rdfs:label>rendered animation artifact</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#RenderedAnimationArtifact"/>
     
 
 
@@ -14605,22 +14546,7 @@
 
     <!-- https://signals.zndx.org/sdg#RenderingEnvironment -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#RenderingEnvironment">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://signals.zndx.org/sdg#IndoorEnvironment"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#supportsRendering"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#RenderedAnimationArtifact"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>An indoor environment that supports the rendering of an animation artifact.</obo:IAO_0000115>
-        <rdfs:comment>An indoor environment that supports the rendering of an animation artifact.</rdfs:comment>
-        <rdfs:label>rendering environment</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#RenderingEnvironment"/>
     
 
 
@@ -14831,8 +14757,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ResidencyRequirement is a DirectiveICE that mandatesCompletion some StudentAgent and enforcedByOffice some AdministrativeOffice.</obo:IAO_0000115>
-        <rdfs:comment>A ResidencyRequirement is a DirectiveICE that mandatesCompletion some StudentAgent and enforcedByOffice some AdministrativeOffice.</rdfs:comment>
+        <obo:IAO_0000115>Every instance of ResidencyRequirement qualifies as a DirectiveICE, and each such instance is linked to at least one StudentAgent through the mandatesCompletion relation and to at least one AdministrativeOffice through the enforcedByOffice relation.</obo:IAO_0000115>
+        <rdfs:comment>Every instance of ResidencyRequirement qualifies as a DirectiveICE, and each such instance is linked to at least one StudentAgent through the mandatesCompletion relation and to at least one AdministrativeOffice through the enforcedByOffice relation.</rdfs:comment>
         <rdfs:label>residency requirement</rdfs:label>
     </owl:Class>
     
@@ -14947,13 +14873,13 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizesRoleIn"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#DepartingEmployee"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization.</obo:IAO_0000115>
-        <rdfs:comment>A RetainingEmployeeRole is a BFO role realized by a DepartingEmployee that grants a TransferAuthorization.</rdfs:comment>
+        <obo:IAO_0000115>{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}</obo:IAO_0000115>
+        <rdfs:comment>{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}</rdfs:comment>
         <rdfs:label>retaining employee role</rdfs:label>
     </owl:Class>
     
@@ -14997,13 +14923,19 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#RightsExercise -->
+    <!-- https://signals.zndx.org/sdg#RightsExerciseProcess -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#RightsExercise">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A rights exercise.</obo:IAO_0000115>
-        <rdfs:comment>A rights exercise.</rdfs:comment>
-        <rdfs:label>rights exercise</rdfs:label>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#RightsExerciseProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#IndigenousChild"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{RightsExerciseProcess} is a process that has participant some {IndigenousChild}</obo:IAO_0000115>
+        <rdfs:comment>{RightsExerciseProcess} is a process that has participant some {IndigenousChild}</rdfs:comment>
+        <rdfs:label>rights exercise process</rdfs:label>
     </owl:Class>
     
 
@@ -15016,12 +14948,7 @@
 
     <!-- https://signals.zndx.org/sdg#RiskManagementActivity -->
 
-    <owl:Class rdf:about="https://signals.zndx.org/sdg#RiskManagementActivity">
-        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#FinancialManagementProcess"/>
-        <obo:IAO_0000115>A corporate process involving the identification, assessment, and mitigation of potential hazards or uncertainties.</obo:IAO_0000115>
-        <rdfs:comment>A corporate process involving the identification, assessment, and mitigation of potential hazards or uncertainties.</rdfs:comment>
-        <rdfs:label>risk management activity</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#RiskManagementActivity"/>
     
 
 
@@ -15571,7 +15498,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ServiceProvisionActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -15582,8 +15509,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#RestaurantStaff"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ServiceStaffRole is a role borne by exactly one RestaurantStaff that realizes a ServiceProvisionActivity.</obo:IAO_0000115>
-        <rdfs:comment>A ServiceStaffRole is a role borne by exactly one RestaurantStaff that realizes a ServiceProvisionActivity.</rdfs:comment>
+        <obo:IAO_0000115>{ServiceStaffRole} is a role that has bearer exactly one {RestaurantStaff}, and that is realized in some {ServiceProvisionActivity}</obo:IAO_0000115>
+        <rdfs:comment>{ServiceStaffRole} is a role that has bearer exactly one {RestaurantStaff}, and that is realized in some {ServiceProvisionActivity}</rdfs:comment>
         <rdfs:label>service staff role</rdfs:label>
     </owl:Class>
     
@@ -15746,19 +15673,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#DistrictEmployee"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A SocialMediaAccountAdministrator is an agent role borne by exactly one DistrictEmployee that realizes an AccountManagementFunction.</obo:IAO_0000115>
-        <rdfs:comment>A SocialMediaAccountAdministrator is an agent role borne by exactly one DistrictEmployee that realizes an AccountManagementFunction.</rdfs:comment>
+        <obo:IAO_0000115>{SocialMediaAccountAdministrator} is a role that is borne by exactly one {DistrictEmployee}, and that is realized in some {SocialMediaAccountManagementProcess}</obo:IAO_0000115>
+        <rdfs:comment>{SocialMediaAccountAdministrator} is a role that is borne by exactly one {DistrictEmployee}, and that is realized in some {SocialMediaAccountManagementProcess}</rdfs:comment>
         <rdfs:label>social media account administrator</rdfs:label>
     </owl:Class>
     
@@ -15778,6 +15705,13 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SocialMediaAccountAdministrator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A process that manages account authorization records for social networking services.</obo:IAO_0000115>
         <rdfs:comment>A process that manages account authorization records for social networking services.</rdfs:comment>
         <rdfs:label>social media account management process</rdfs:label>
@@ -16039,19 +15973,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#role_realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SocialMediaAccountManagementProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheres_in_bearer"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#StaffMember"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A Staff Social Media Account Administrator Role is a role that inheres in exactly one Staff Member and realizes some Social Media Account Management Process.</obo:IAO_0000115>
-        <rdfs:comment>A Staff Social Media Account Administrator Role is a role that inheres in exactly one Staff Member and realizes some Social Media Account Management Process.</rdfs:comment>
+        <obo:IAO_0000115>{StaffSocialMediaAccountAdministratorRole} is a role that inheres in exactly one {StaffMember}, and that is realized in some {SocialMediaAccountManagementProcess}</obo:IAO_0000115>
+        <rdfs:comment>{StaffSocialMediaAccountAdministratorRole} is a role that inheres in exactly one {StaffMember}, and that is realized in some {SocialMediaAccountManagementProcess}</rdfs:comment>
         <rdfs:label>staff social media account administrator role</rdfs:label>
     </owl:Class>
     
@@ -16672,19 +16606,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#SalesAdministrationActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRoleHolder"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#inheresIn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#Person"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A TelemarketerSalesAdministratorRole is a Role that bears exactly one Person and realizes some SalesAdministrationActivity.</obo:IAO_0000115>
-        <rdfs:comment>A TelemarketerSalesAdministratorRole is a Role that bears exactly one Person and realizes some SalesAdministrationActivity.</rdfs:comment>
+        <obo:IAO_0000115>{TelemarketerSalesAdministratorRole} is a role that inheres in exactly one {Person}, and that is realized in some {SalesAdministrationActivity}</obo:IAO_0000115>
+        <rdfs:comment>{TelemarketerSalesAdministratorRole} is a role that inheres in exactly one {Person}, and that is realized in some {SalesAdministrationActivity}</rdfs:comment>
         <rdfs:label>telemarketer sales administrator role</rdfs:label>
     </owl:Class>
     
@@ -16897,20 +16831,37 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRoleOn"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#HumanAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A TraditionalReligiousHealerRole is a BFO role that is borne by exactly one HumanAgent and realizes a HealerFunction.</obo:IAO_0000115>
-        <rdfs:comment>A TraditionalReligiousHealerRole is a BFO role that is borne by exactly one HumanAgent and realizes a HealerFunction.</rdfs:comment>
+        <obo:IAO_0000115>{TraditionalReligiousHealerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {TraditionalReligiousHealingProcess}</obo:IAO_0000115>
+        <rdfs:comment>{TraditionalReligiousHealerRole} is a role that is borne by exactly one {HumanAgent}, and that is realized in some {TraditionalReligiousHealingProcess}</rdfs:comment>
         <rdfs:label>traditional religious healer role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#TraditionalReligiousHealingProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#HumanAgent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{TraditionalReligiousHealingProcess} is a process that has participant some {HumanAgent}</obo:IAO_0000115>
+        <rdfs:comment>{TraditionalReligiousHealingProcess} is a process that has participant some {HumanAgent}</rdfs:comment>
+        <rdfs:label>traditional religious healing process</rdfs:label>
     </owl:Class>
     
 
@@ -16954,7 +16905,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
                 <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#TaxiRideProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16965,8 +16916,8 @@
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#MinorPerson"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An UnaccompaniedMinorRole is a Role that inheres in exactly one MinorPerson and realizes a TaxiRideProcess.</obo:IAO_0000115>
-        <rdfs:comment>An UnaccompaniedMinorRole is a Role that inheres in exactly one MinorPerson and realizes a TaxiRideProcess.</rdfs:comment>
+        <obo:IAO_0000115>{UnaccompaniedMinorRole} is a role that inheres in exactly one {MinorPerson}, and that is realized in some {TaxiRideProcess}</obo:IAO_0000115>
+        <rdfs:comment>{UnaccompaniedMinorRole} is a role that inheres in exactly one {MinorPerson}, and that is realized in some {TaxiRideProcess}</rdfs:comment>
         <rdfs:label>unaccompanied minor role</rdfs:label>
     </owl:Class>
     
@@ -17313,33 +17264,7 @@
     <!-- https://signals.zndx.org/sdg#WorkplaceCultureDimension -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#WorkplaceCultureDimension">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.commoncoreontologies.org/ont00000853"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#categorizesAttribute"/>
-                        <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#CulturalAttribute"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasDimensionKind"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://signals.zndx.org/sdg#YoungPhysicianEligibilityConstraint"/>
-        <obo:IAO_0000115>A WorkplaceCultureDimension is a descriptive information entity that categorizes a CulturalAttribute.</obo:IAO_0000115>
-        <rdfs:comment>A WorkplaceCultureDimension is a descriptive information entity that categorizes a CulturalAttribute.</rdfs:comment>
-        <rdfs:label>workplace culture dimension</rdfs:label>
     </owl:Class>
     
 
@@ -17398,25 +17323,42 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#YoungResearcherResearchProcess -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#YoungResearcherResearchProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ResearchActivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>{YoungResearcherResearchProcess} is a process that has participant some {ResearchActivity}</obo:IAO_0000115>
+        <rdfs:comment>{YoungResearcherResearchProcess} is a process that has participant some {ResearchActivity}</rdfs:comment>
+        <rdfs:label>young researcher research process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#YoungResearcherRole -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#YoungResearcherRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizes"/>
-                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#ResearchActivity"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#realizedIn"/>
+                <owl:someValuesFrom rdf:resource="https://signals.zndx.org/sdg#YoungResearcherResearchProcess"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#bearsRole"/>
+                <owl:onProperty rdf:resource="https://signals.zndx.org/sdg#borneBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="https://signals.zndx.org/sdg#IndependentContinuant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A YoungResearcherRole is a role borne by exactly one IndependentContinuant that realizes some ResearchActivity.</obo:IAO_0000115>
-        <rdfs:comment>A YoungResearcherRole is a role borne by exactly one IndependentContinuant that realizes some ResearchActivity.</rdfs:comment>
+        <obo:IAO_0000115>{YoungResearcherRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {YoungResearcherResearchProcess}</obo:IAO_0000115>
+        <rdfs:comment>{YoungResearcherRole} is a role that is borne by exactly one {IndependentContinuant}, and that is realized in some {YoungResearcherResearchProcess}</rdfs:comment>
         <rdfs:label>young researcher role</rdfs:label>
     </owl:Class>
     
@@ -20914,15 +20856,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_accesscontrolmatrix -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_accesscontrolmatrix">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>AccessControlMatrix</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_accesscontrolswitch -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_accesscontrolswitch">
@@ -23363,29 +23296,11 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_ancestor_veneration -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ancestor_veneration">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Ancestor Veneration</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_ancestral_binding_pact -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ancestral_binding_pact">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#RitualActToRestoreOrder"/>
         <rdfs:label>Ancestral Binding Pact</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_ancestral_communion_rite -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ancestral_communion_rite">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>ancestral communion rite</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -24151,15 +24066,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_aon_hewitt">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#RecognizingOrganization"/>
         <rdfs:label>Aon Hewitt</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_aorticdissectionimaging -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_aorticdissectionimaging">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>AorticDissectionImaging</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -26132,15 +26038,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_auditlead_22f">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#CertifiedInternalAuditor"/>
         <rdfs:label>AuditLead-22F</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_auditloggeneration -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_auditloggeneration">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>AuditLogGeneration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -29126,15 +29023,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_bone_reading -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_bone_reading">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Bone Reading</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_bonferroni_adjusted_0_05 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_bonferroni_adjusted_0_05">
@@ -29392,15 +29280,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_brand_sentiment_index">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#CorporateReputationMetric"/>
         <rdfs:label>Brand Sentiment Index</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_brandguidelinecheck -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_brandguidelinecheck">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>BrandGuidelineCheck</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -31341,15 +31220,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_cardiacmriprotocol -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_cardiacmriprotocol">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>CardiacMRIProtocol</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_cardiff_county -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_cardiff_county">
@@ -31359,29 +31229,11 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_cardiothoracicscreeningradiologist -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_cardiothoracicscreeningradiologist">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>CardiothoracicScreeningRadiologist</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_care_coordinator -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_care_coordinator">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#CommunityHealthcareSetting"/>
         <rdfs:label>Care Coordinator</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_care_level_3 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_care_level_3">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>CARE-LEVEL-3</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -33008,15 +32860,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_chant_therapy -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_chant_therapy">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Chant Therapy</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_char_lip_sync -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_char_lip_sync">
@@ -33620,15 +33463,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_chiefctradiologist -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_chiefctradiologist">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>ChiefCTRadiologist</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_chiefwealtharchitect -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_chiefwealtharchitect">
@@ -33643,15 +33477,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_child_advocacy_center">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#ChildProtectionTeam"/>
         <rdfs:label>Child Advocacy Center</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_child_care_05 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_child_care_05">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>CHILD-CARE-05</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -36368,15 +36193,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_commentfiltering -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_commentfiltering">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>CommentFiltering</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_commercial_insurance_members -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_commercial_insurance_members">
@@ -36526,15 +36342,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_community_alert_corps">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#ChildProtectionTeam"/>
         <rdfs:label>COMMUNITY-ALERT-CORPS</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_community_blessing_ceremony -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_community_blessing_ceremony">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>community blessing ceremony</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -38034,15 +37841,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_contentarchival -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_contentarchival">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>ContentArchival</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_contentmoderator -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_contentmoderator">
@@ -38688,15 +38486,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_coresync_ehr_platform">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#InformationSystem"/>
         <rdfs:label>CoreSync EHR Platform</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_coronaryctareporting -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_coronaryctareporting">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>CoronaryCTAReporting</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -39979,15 +39768,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_crisisresponseprotocol -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_crisisresponseprotocol">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>CrisisResponseProtocol</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_crispy_bacon_bits -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_crispy_bacon_bits">
@@ -40308,15 +40088,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_crossmarketexpansion">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#EntrepreneurialActivityProcess"/>
         <rdfs:label>CrossMarketExpansion</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_crossplatformsync -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_crossplatformsync">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>CrossPlatformSync</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -40645,15 +40416,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_ctangiographyservice -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ctangiographyservice">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>CTAngiographyService</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_culex_pipiens -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_culex_pipiens">
@@ -40677,15 +40439,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_cultural_continuity_restoration">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#SocialHarmonyRestoration"/>
         <rdfs:label>Cultural Continuity Restoration</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_cultural_enrollment -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_cultural_enrollment">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Cultural enrollment</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -40812,15 +40565,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_custodialsignatory">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#RecordAuthorizationRole"/>
         <rdfs:label>CustodialSignatory</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_custody_transfer -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_custody_transfer">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Custody transfer</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -42535,15 +42279,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_dataretentionpolicy -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_dataretentionpolicy">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>DataRetentionPolicy</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_datascience_mentors -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_datascience_mentors">
@@ -42640,6 +42375,16 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_david_nguyen">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#HousingClient"/>
         <rdfs:label>David Nguyen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#i_david_okafor -->
+
+    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_david_okafor">
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CollegeOfficial"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#PetitionerRole"/>
+        <rdfs:label>David Okafor</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -45436,15 +45181,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_divination_ritual -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_divination_ritual">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Divination Ritual</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_division_director -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_division_director">
@@ -45819,15 +45555,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_doi_10_1234_abstract">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#InformationItem"/>
         <rdfs:label>doi_10_1234_abstract</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_dom_role_44 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_dom_role_44">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>DOM-ROLE-44</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -46436,29 +46163,11 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_dream_interpretation -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_dream_interpretation">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Dream Interpretation</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_dream_interpretation_elder -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_dream_interpretation_elder">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#TraditionalReligiousHealerRole"/>
         <rdfs:label>dream interpretation elder</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_dream_interpretation_protocol -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_dream_interpretation_protocol">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>dream interpretation protocol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -47418,29 +47127,11 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_edu_support_11 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_edu_support_11">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>EDU-SUPPORT-11</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_education_attendance_unit -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_education_attendance_unit">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#ExternalAgency"/>
         <rdfs:label>EDUCATION-ATTENDANCE-UNIT</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_education_enrollment -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_education_enrollment">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Education enrollment</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -48437,15 +48128,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_emergencyctradiologist -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_emergencyctradiologist">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>EmergencyCTRadiologist</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_emergencyops -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_emergencyops">
@@ -49198,15 +48880,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_engagement_index">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#OrganizationalHealthMetric"/>
         <rdfs:label>engagement index</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_engagementanalytics -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_engagementanalytics">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>EngagementAnalytics</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -52590,15 +52263,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_fellowshipctradiologist -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_fellowshipctradiologist">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>FellowshipCTRadiologist</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_fema_flood_zone_b3 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_fema_flood_zone_b3">
@@ -53175,15 +52839,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_fin_proxy_40 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_fin_proxy_40">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>FIN-PROXY-40</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_final_assembly_inspection -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_final_assembly_inspection">
@@ -53711,15 +53366,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_fire_ceremony_guide">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#TraditionalReligiousHealerRole"/>
         <rdfs:label>fire ceremony guide</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_fire_cleansing_rite -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_fire_cleansing_rite">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>fire cleansing rite</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -55196,15 +54842,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_func_lab_cleanse">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#MathematicaExample"/>
         <rdfs:label>Func-Lab-Cleanse</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_func_parent_01 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_func_parent_01">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>FUNC-PARENT-01</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -57657,15 +57294,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_guard_unit_12 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_guard_unit_12">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>GUARD-UNIT-12</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_guardant360_cdx -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_guardant360_cdx">
@@ -57698,15 +57326,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_guardianentity_alpha">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#YouthOrGuardian"/>
         <rdfs:label>GuardianEntity-Alpha</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_guardianship_assignment -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_guardianship_assignment">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Guardianship assignment</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -58639,15 +58258,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_health_screening -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_health_screening">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Health screening</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_health_visitor -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_health_visitor">
@@ -58999,15 +58609,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_herbal_remedy_preparation -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_herbal_remedy_preparation">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Herbal Remedy Preparation</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_herbal_rite_conductor -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_herbal_rite_conductor">
@@ -59031,15 +58632,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_hereditary_cardiac_risk_assessment">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#ClinicalGenomicAnalysisProgram"/>
         <rdfs:label>Hereditary Cardiac Risk Assessment</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_heritage_registration -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_heritage_registration">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Heritage registration</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -59517,15 +59109,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_holm_bonferroni_adjusted_0_01">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#SignificanceLevel"/>
         <rdfs:label>Holm-Bonferroni adjusted 0.01</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_home_admin_99 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_home_admin_99">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>HOME-ADMIN-99</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -60885,15 +60468,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_identity_provider_federation">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#SecurityInfrastructure"/>
         <rdfs:label>Identity Provider Federation</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_identity_verification -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_identity_verification">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Identity verification</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -63068,24 +62642,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_interventionalctattending -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_interventionalctattending">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>InterventionalCTAttending</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_interventionalradiologysupport -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_interventionalradiologysupport">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>InterventionalRadiologySupport</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_intraday_collateral_swap -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_intraday_collateral_swap">
@@ -64306,6 +63862,17 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_james_holloway">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#Person"/>
         <rdfs:label>James Holloway</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#i_james_liu -->
+
+    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_james_liu">
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DistrictEmployee"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#Person"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#PetitionerRole"/>
+        <rdfs:label>James Liu</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -66521,15 +66088,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_language_program -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_language_program">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Language program</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_laptev_sea -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_laptev_sea">
@@ -67169,15 +66727,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_leadthoracicimagingattending -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_leadthoracicimagingattending">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>LeadThoracicImagingAttending</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_leadventurearchitect -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_leadventurearchitect">
@@ -67535,15 +67084,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_legal_next_of_kin_file">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#PetitionerRole"/>
         <rdfs:label>Legal Next Of Kin File</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_legal_representation -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_legal_representation">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Legal representation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -69287,15 +68827,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_luna_nguyen">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#AdopteeRole"/>
         <rdfs:label>Luna Nguyen</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_lungcancerscreening -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_lungcancerscreening">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>LungCancerScreening</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -71057,15 +70588,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_med_advocacy_23 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_med_advocacy_23">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>MED-ADVOCACY-23</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_med_rec_2215 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_med_rec_2215">
@@ -71161,15 +70683,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_mediaquerybreakpoints">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#ResponsiveDesignTechnique"/>
         <rdfs:label>MediaQueryBreakpoints</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_mediastinalmassevaluation -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_mediastinalmassevaluation">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>MediastinalMassEvaluation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -74103,15 +73616,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_moon_phase_healing_sequence -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_moon_phase_healing_sequence">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>moon phase healing sequence</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_morning_telemetry_run -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_morning_telemetry_run">
@@ -74693,15 +74197,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_multidrug_resistant_infections">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#EvidenceBasedMedicine"/>
         <rdfs:label>Multidrug-resistant infections</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_multifactorauth -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_multifactorauth">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>MultiFactorAuth</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -75485,15 +74980,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_neonatal_hyperbilirubinemia">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#EvidenceBasedMedicine"/>
         <rdfs:label>Neonatal hyperbilirubinemia</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_neonatalctradiologist -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_neonatalctradiologist">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>NeonatalCTRadiologist</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -81169,15 +80655,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_pediatriccardiothoracicreader -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_pediatriccardiothoracicreader">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>PediatricCardiothoracicReader</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_peer_assessment_cycle -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_peer_assessment_cycle">
@@ -83666,15 +83143,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_postapprovalworkflow -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_postapprovalworkflow">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>PostApprovalWorkflow</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_postdoc_cleared_2023 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_postdoc_cleared_2023">
@@ -83864,15 +83332,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_postopthoracicimaging -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_postopthoracicimaging">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>PostOpThoracicImaging</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_postpartum_hemorrhage_events -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_postpartum_hemorrhage_events">
@@ -83959,15 +83418,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_practice_supervisor">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealthcareAgent"/>
         <rdfs:label>Practice Supervisor</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_prayer_healing -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_prayer_healing">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Prayer Healing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -84887,6 +84337,18 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_priya_gupta">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#StudentEntity"/>
         <rdfs:label>Priya Gupta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#i_priya_mehta -->
+
+    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_priya_mehta">
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#BoardMember"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ExecutiveTeamRoster"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#Person"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#PetitionerRole"/>
+        <rdfs:label>Priya Mehta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -86813,15 +86275,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_pulmonarynoduletracking -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_pulmonarynoduletracking">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>PulmonaryNoduleTracking</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_pulp_mill_kettle -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_pulp_mill_kettle">
@@ -87592,15 +87045,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_quality_standard_alignment">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#EvaluationOutcome"/>
         <rdfs:label>Quality Standard Alignment</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_qualityassurancectattending -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_qualityassurancectattending">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>QualityAssuranceCTAttending</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -91832,15 +91276,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_researchctfellow -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_researchctfellow">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#CardiothoracicRadiologistRole"/>
-        <rdfs:label>ResearchCTFellow</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_researcher_r_okonkwo -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_researcher_r_okonkwo">
@@ -92957,15 +92392,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_ritual_bone_alignment -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ritual_bone_alignment">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>ritual bone alignment</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_ritual_bone_setter -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_ritual_bone_setter">
@@ -93187,6 +92613,17 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_robert_chen">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#LegalProfessional"/>
         <rdfs:label>Robert Chen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#i_robert_hayes -->
+
+    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_robert_hayes">
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#Person"/>
+        <rdf:type rdf:resource="https://signals.zndx.org/sdg#PetitionerRole"/>
+        <rdfs:label>Robert Hayes</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -93934,15 +93371,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_sacred_water_channeler">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#TraditionalReligiousHealerRole"/>
         <rdfs:label>sacred water channeler</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_sacred_water_purification -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_sacred_water_purification">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>sacred water purification</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -94803,15 +94231,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_scheduled_cron_job">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#AutomatedSystem"/>
         <rdfs:label>Scheduled cron job</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_scheduledpublishing -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_scheduledpublishing">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#AccountManagementFunction"/>
-        <rdfs:label>ScheduledPublishing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -98049,15 +97468,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_smoke_purification -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_smoke_purification">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Smoke Purification</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_snap_nov_w03 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_snap_nov_w03">
@@ -98800,15 +98210,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_soul_retrieval -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_soul_retrieval">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Soul Retrieval</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_sound_pressure_level -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_sound_pressure_level">
@@ -99259,38 +98660,11 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_spirit_possession_channeling -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_spirit_possession_channeling">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>spirit possession channeling</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_spirit_possession_mediation -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_spirit_possession_mediation">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>spirit possession mediation</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_spiritmediumpark -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_spiritmediumpark">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#AncestralSpiritCommunity"/>
         <rdfs:label>SpiritMediumPark</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_spiritual_cleansing -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_spiritual_cleansing">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#HealerFunction"/>
-        <rdfs:label>Spiritual Cleansing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -102906,15 +102280,6 @@
     
 
 
-    <!-- https://signals.zndx.org/sdg#i_support_set_77 -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_support_set_77">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#ParentingFunction"/>
-        <rdfs:label>SUPPORT-SET-77</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://signals.zndx.org/sdg#i_support_tier_2 -->
 
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_support_tier_2">
@@ -106231,15 +105596,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_thomson_reuters_legal_labs">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#LegalTechSolutionLab"/>
         <rdfs:label>Thomson Reuters Legal Labs</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_thoracicctscreening -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_thoracicctscreening">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#DiagnosticImagingPractice"/>
-        <rdfs:label>ThoracicCTScreening</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -112309,15 +111665,6 @@
     <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_welfare_inspections">
         <rdf:type rdf:resource="https://signals.zndx.org/sdg#AnimalControlActivity"/>
         <rdfs:label>Welfare Inspections</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://signals.zndx.org/sdg#i_welfare_placement -->
-
-    <owl:NamedIndividual rdf:about="https://signals.zndx.org/sdg#i_welfare_placement">
-        <rdf:type rdf:resource="https://signals.zndx.org/sdg#RightsExercise"/>
-        <rdfs:label>Welfare placement</rdfs:label>
     </owl:NamedIndividual>
     
 
