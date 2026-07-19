@@ -1,0 +1,135 @@
+{
+  "catalog": "src/aegir/ontology/catalog/combined.json",
+  "spine_run": "corpora/ddl/ae50005cc0a9b7b5",
+  "gate_green": true,
+  "n_checks": 10,
+  "n_pass": 10,
+  "dimensions_evaluated": [
+    "verbalization",
+    "value",
+    "decanning",
+    "quality"
+  ],
+  "dimensions": {
+    "verbalization": {
+      "checks": [
+        {
+          "metric": "distinct_skeletons",
+          "value": 270,
+          "op": "\u2265",
+          "floor": 90,
+          "pass": true
+        },
+        {
+          "metric": "top5_skeleton_share",
+          "value": 0.1501,
+          "op": "\u2264",
+          "floor": 0.55,
+          "pass": true
+        },
+        {
+          "metric": "relational_share",
+          "value": 0.9931,
+          "op": "\u2265",
+          "floor": 0.3,
+          "pass": true
+        }
+      ],
+      "context": {
+        "n_with_verbalization": 433,
+        "bare_subsumption_share": 0.0069,
+        "skeleton_entropy_bits": 7.569
+      }
+    },
+    "value": {
+      "checks": [
+        {
+          "metric": "placeholder_ratio",
+          "value": 0.1946,
+          "op": "\u2264",
+          "floor": 0.3,
+          "pass": true
+        },
+        {
+          "metric": "domain_fraction",
+          "value": 0.7563,
+          "op": "\u2265",
+          "floor": 0.4,
+          "pass": true
+        },
+        {
+          "metric": "time_order_violations",
+          "value": 0,
+          "op": "==",
+          "floor": 0,
+          "pass": true
+        }
+      ],
+      "context": {
+        "n_content_cells": 6425,
+        "typed_fraction": 0.0492
+      }
+    },
+    "decanning": {
+      "checks": [
+        {
+          "metric": "canned_anchors_by_entropy",
+          "value": 0,
+          "op": "==",
+          "floor": 0,
+          "pass": true
+        }
+      ],
+      "context": {
+        "n_anchors": 8,
+        "schemapile_h_colset_p10": 2.585,
+        "schemapile_h_colset_median": 4.237,
+        "h_colset_range": [
+          2.58,
+          7.87
+        ],
+        "canned_by_entropy": [],
+        "schemapile_distinct_ratio_p10": 0.5,
+        "distinct_ratio_range": [
+          0.434,
+          1.0
+        ],
+        "distinct_ratio_below_p10": [
+          "bfo:0000023"
+        ]
+      }
+    },
+    "quality": {
+      "checks": [
+        {
+          "metric": "judge_faithful_mean",
+          "value": 4.82,
+          "op": "\u2265",
+          "floor": 4.0,
+          "pass": true
+        },
+        {
+          "metric": "judge_winrate_vs_legacy",
+          "value": 0.5,
+          "op": "\u2265",
+          "floor": 0.5,
+          "pass": true
+        },
+        {
+          "metric": "ppl_frames_over_legacy",
+          "value": 0.39,
+          "op": "\u2264",
+          "floor": 0.8,
+          "pass": true
+        }
+      ],
+      "context": {
+        "tag": "post-rescreen",
+        "judge_n": 108,
+        "ppl_n": 454,
+        "judge_natural_mean": 4.91,
+        "human_sheet": "/home/rch/local/src/zndx/aegir/build/verbalization_human_sample.md"
+      }
+    }
+  }
+}
