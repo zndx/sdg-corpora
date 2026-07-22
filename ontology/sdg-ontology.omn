@@ -8206,6 +8206,226 @@ ObjectProperty: sdg:hasParticipant
 Class: bfo:0000015
     Annotations: rdfs:label "process"
 
+
+Class: <https://signals.zndx.org/sdg#ReviewPanelSession>
+    Annotations: rdfs:label "review panel session"
+
+Class: <https://signals.zndx.org/sdg#PanelReviewer>
+    Annotations: rdfs:label "panel reviewer"
+
+Class: <https://signals.zndx.org/sdg#ReviewPanelSession>
+    SubClassOf: bfo:0000015, sdg:hasParticipant min 3 <https://signals.zndx.org/sdg#PanelReviewer>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#CohortEnrollmentProcess>
+    Annotations: rdfs:label "cohort enrollment process"
+
+Class: <https://signals.zndx.org/sdg#EnrolledParticipant>
+    Annotations: rdfs:label "enrolled participant"
+
+Class: <https://signals.zndx.org/sdg#CohortEnrollmentProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant max 24 <https://signals.zndx.org/sdg#EnrolledParticipant>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#DualCustodySignoffProcess>
+    Annotations: rdfs:label "dual custody signoff process"
+
+Class: <https://signals.zndx.org/sdg#AuthorizedSignatory>
+    Annotations: rdfs:label "authorized signatory"
+
+Class: <https://signals.zndx.org/sdg#CustodyControlRole>
+    Annotations: rdfs:label "custody control role"
+
+Class: <https://signals.zndx.org/sdg#DualCustodySignoffProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant min 2 <https://signals.zndx.org/sdg#AuthorizedSignatory>, sdg:realizes some <https://signals.zndx.org/sdg#CustodyControlRole>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+ObjectProperty: sdg:realizes
+    Annotations: rdfs:label "realizes"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#StandingCommitteeAssembly>
+    Annotations: rdfs:label "standing committee assembly"
+
+Class: <https://signals.zndx.org/sdg#CommitteeMember>
+    Annotations: rdfs:label "committee member"
+
+Class: <https://signals.zndx.org/sdg#StandingCommitteeAssembly>
+    SubClassOf: bfo:0000015, sdg:hasParticipant min 5 <https://signals.zndx.org/sdg#CommitteeMember>, sdg:hasParticipant max 15 <https://signals.zndx.org/sdg#CommitteeMember>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#RegisteredIdentifierBearer>
+    Annotations: rdfs:label "registered identifier bearer"
+
+Class: <https://signals.zndx.org/sdg#NaturalPersonRegistrant>
+    Annotations: rdfs:label "natural person registrant"
+
+Class: <https://signals.zndx.org/sdg#RegisteredOrganization>
+    Annotations: rdfs:label "registered organization"
+
+Class: <https://signals.zndx.org/sdg#RegisteredIdentifierBearer>
+    SubClassOf: (<https://signals.zndx.org/sdg#NaturalPersonRegistrant> or <https://signals.zndx.org/sdg#RegisteredOrganization>)
+
+
+Class: <https://signals.zndx.org/sdg#ComplianceNotificationProcess>
+    Annotations: rdfs:label "compliance notification process"
+
+Class: <https://signals.zndx.org/sdg#ResponsibleOfficer>
+    Annotations: rdfs:label "responsible officer"
+
+Class: <https://signals.zndx.org/sdg#DelegatedAgent>
+    Annotations: rdfs:label "delegated agent"
+
+Class: <https://signals.zndx.org/sdg#ComplianceNotificationProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant some (<https://signals.zndx.org/sdg#ResponsibleOfficer> or <https://signals.zndx.org/sdg#DelegatedAgent>)
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#IncidentEscalationProcess>
+    Annotations: rdfs:label "incident escalation process"
+
+Class: <https://signals.zndx.org/sdg#SupervisoryReview>
+    Annotations: rdfs:label "supervisory review"
+
+Class: <https://signals.zndx.org/sdg#ExternalAuditReview>
+    Annotations: rdfs:label "external audit review"
+
+Class: <https://signals.zndx.org/sdg#IncidentEscalationProcess>
+    SubClassOf: bfo:0000015, sdg:realizedIn only (<https://signals.zndx.org/sdg#SupervisoryReview> or <https://signals.zndx.org/sdg#ExternalAuditReview>)
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#ScoredAssessmentRecord>
+    Annotations: rdfs:label "scored assessment record"
+
+Class: <https://signals.zndx.org/sdg#ScoredAssessmentRecord>
+    SubClassOf: bfo:0000031, sdg:hasConfidenceScore exactly 1 xsd:decimal
+ObjectProperty: sdg:hasConfidenceScore
+    Annotations: rdfs:label "has confidence score"
+
+Class: bfo:0000031
+    Annotations: rdfs:label "generically dependent continuant"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals.zndx.org/sdg#VersionedIntakeForm>
+    Annotations: rdfs:label "versioned intake form"
+
+Class: <https://signals.zndx.org/sdg#VersionedIntakeForm>
+    SubClassOf: bfo:0000031, sdg:formVersion min 1 xsd:string
+ObjectProperty: sdg:formVersion
+    Annotations: rdfs:label "form version"
+
+Class: bfo:0000031
+    Annotations: rdfs:label "generically dependent continuant"
+
+Class: xsd:string
+    Annotations: rdfs:label "string"
+
+
+Class: <https://signals.zndx.org/sdg#BoundedMetricSeries>
+    Annotations: rdfs:label "bounded metric series"
+
+Class: <https://signals.zndx.org/sdg#BoundedMetricSeries>
+    SubClassOf: bfo:0000031, sdg:hasEngagementMetric max 12 xsd:decimal
+ObjectProperty: sdg:hasEngagementMetric
+    Annotations: rdfs:label "has engagement metric"
+
+Class: bfo:0000031
+    Annotations: rdfs:label "generically dependent continuant"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
+
+Class: <https://signals.zndx.org/sdg#AccreditedReviewProcess>
+    Annotations: rdfs:label "accredited review process"
+
+Class: <https://signals.zndx.org/sdg#CredentialedReviewer>
+    Annotations: rdfs:label "credentialed reviewer"
+
+Class: <https://signals.zndx.org/sdg#AccreditedReviewProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant only <https://signals.zndx.org/sdg#CredentialedReviewer>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#OnCallCoverageRole>
+    Annotations: rdfs:label "on call coverage role"
+
+Class: <https://signals.zndx.org/sdg#ScheduledShiftProcess>
+    Annotations: rdfs:label "scheduled shift process"
+
+Class: <https://signals.zndx.org/sdg#OnCallCoverageRole>
+    SubClassOf: bfo:0000023, sdg:realizedIn only <https://signals.zndx.org/sdg#ScheduledShiftProcess>
+ObjectProperty: sdg:realizedIn
+    Annotations: rdfs:label "realized in"
+
+Class: bfo:0000023
+    Annotations: rdfs:label "role"
+
+
+Class: <https://signals.zndx.org/sdg#ArchivalCustodyProcess>
+    Annotations: rdfs:label "archival custody process"
+
+Class: <https://signals.zndx.org/sdg#AccessionedRecord>
+    Annotations: rdfs:label "accessioned record"
+
+Class: <https://signals.zndx.org/sdg#ArchivalCustodyProcess>
+    SubClassOf: bfo:0000015, sdg:hasParticipant only <https://signals.zndx.org/sdg#AccessionedRecord>, sdg:hasParticipant min 1 <https://signals.zndx.org/sdg#AccessionedRecord>
+ObjectProperty: sdg:hasParticipant
+    Annotations: rdfs:label "has participant"
+
+Class: bfo:0000015
+    Annotations: rdfs:label "process"
+
+
+Class: <https://signals.zndx.org/sdg#MeasuredSeriesReading>
+    Annotations: rdfs:label "measured series reading"
+
+Class: <https://signals.zndx.org/sdg#MeasuredSeriesReading>
+    SubClassOf: bfo:0000031, sdg:hasMeasuredValue some xsd:decimal
+ObjectProperty: sdg:hasMeasuredValue
+    Annotations: rdfs:label "has measured value"
+
+Class: bfo:0000031
+    Annotations: rdfs:label "generically dependent continuant"
+
+Class: xsd:decimal
+    Annotations: rdfs:label "decimal"
+
 DisjointClasses: <https://signals.zndx.org/sdg#RequestedProviderType>, <https://signals.zndx.org/sdg#SocialNetworkingServiceType>
 DisjointClasses: <https://signals.zndx.org/sdg#AgendaSubject>, <https://signals.zndx.org/sdg#MathematicalConcept>
 DisjointClasses: <https://signals.zndx.org/sdg#AcademicProgramRequirement>, <https://signals.zndx.org/sdg#NetworkResourceMapping>
@@ -8269,6 +8489,7 @@ Class: <https://signals.zndx.org/sdg#AcademicPresentation> SubClassOf: bfo:00000
 Class: <https://signals.zndx.org/sdg#AcademicRecord> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AcademicTerm> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AccessControlMechanism> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#AccessionedRecord> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AdministrativeActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#AdministrativeOffice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AdmissionDecision> SubClassOf: bfo:0000002
@@ -8286,17 +8507,22 @@ Class: <https://signals.zndx.org/sdg#AppealWaiver> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ArcticRegion> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AttendanceRecord> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#AuditMethodology> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#AuthorizedSignatory> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#BiologicalSpecimen> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#CatalogStructure> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ClearingFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ClinicalImagingData> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#CollegeResource> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#CommitteeMember> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ComplianceAudit> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ComplianceRequirement> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ContactInformation> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#CredentialedReviewer> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#CustodyControlRole> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#CustomerAccount> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DataDeterminationActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#DdosAttackEvent> SubClassOf: bfo:0000003
+Class: <https://signals.zndx.org/sdg#DelegatedAgent> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DepartmentOfHealthStandard> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DepartmentalSortingRule> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#DeviceProcurementAdvisoryProcess> SubClassOf: bfo:0000003
@@ -8307,9 +8533,11 @@ Class: <https://signals.zndx.org/sdg#DisasterSupplyItem> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#EconomicCondition> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#EligibilityComplianceCheck> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#EmergencyResponse> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#EnrolledParticipant> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#EstablishedDataFormat> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#EvidenceBasedMedicine> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ExecutiveLeadershipProcess> SubClassOf: bfo:0000003
+Class: <https://signals.zndx.org/sdg#ExternalAuditReview> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#FieldOperation> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#FinancialServicesEntity> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#FinancialStatus> SubClassOf: bfo:0000002
@@ -8337,7 +8565,9 @@ Class: <https://signals.zndx.org/sdg#MeasurementRange> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#MedicalDevice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#MedicationFactSheet> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#MolecularTarget> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#NaturalPersonRegistrant> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#NutritionalAnthropologyMethod> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#PanelReviewer> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ParentingActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#ParticipantInteraction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#PatientEducationPurpose> SubClassOf: bfo:0000002
@@ -8352,11 +8582,13 @@ Class: <https://signals.zndx.org/sdg#ProfessionalDevelopmentGoal> SubClassOf: bf
 Class: <https://signals.zndx.org/sdg#QuantitativeMeasurement> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#QuantityPractice> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RecognizingOrganization> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#RegisteredOrganization> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#Regulatory_Context> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ReportingPeriod> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResearchProject> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResearchQuestion> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResidentialStreet> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#ResponsibleOfficer> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResponsiveDesignTechnique> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RestaurantStaff> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#RiskMetric> SubClassOf: bfo:0000002
@@ -8364,6 +8596,7 @@ Class: <https://signals.zndx.org/sdg#RoleConcept> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#SacredArtifact> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#SalesAdministrationActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#ScannedImageSet> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#ScheduledShiftProcess> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#ScientificMeeting> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ScrubbingActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#SeniorAnimalServicesOfficer> SubClassOf: bfo:0000002
@@ -8385,6 +8618,7 @@ Class: <https://signals.zndx.org/sdg#StudentEntrepreneur> SubClassOf: bfo:000000
 Class: <https://signals.zndx.org/sdg#StudentRole> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#StudentTalentCultivation> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#SubstanceType> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#SupervisoryReview> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#Supplier> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#SupportService> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#SurveyResponseRecord> SubClassOf: bfo:0000002
@@ -8438,6 +8672,10 @@ Class: <https://signals.zndx.org/sdg#AcademicTerm>
     Annotations: iao:0000115 "A academic term.", rdfs:comment "A academic term."
 Class: <https://signals.zndx.org/sdg#AccessControlMechanism>
     Annotations: iao:0000115 "A access control mechanism.", rdfs:comment "A access control mechanism."
+Class: <https://signals.zndx.org/sdg#AccessionedRecord>
+    Annotations: iao:0000115 "A accessioned record.", rdfs:comment "A accessioned record."
+Class: <https://signals.zndx.org/sdg#AccreditedReviewProcess>
+    Annotations: iao:0000115 "An {AccreditedReviewProcess} admits only {CredentialedReviewer} participants — the universal typing carries the constraint, membership stays open.", rdfs:comment "An {AccreditedReviewProcess} admits only {CredentialedReviewer} participants — the universal typing carries the constraint, membership stays open."
 Class: <https://signals.zndx.org/sdg#AdministrativeActivity>
     Annotations: iao:0000115 "A administrative activity.", rdfs:comment "A administrative activity."
 Class: <https://signals.zndx.org/sdg#AdministrativeOffice>
@@ -8485,6 +8723,8 @@ Class: <https://signals.zndx.org/sdg#AppealWaiverCertification>
     Annotations: iao:0000115 "An AppealWaiverCertification is an InformationContentEntity that certifies for exactly one BoardOfEqualization, certifies exactly one AppealWaiver, and has some certificationTime.", rdfs:comment "An AppealWaiverCertification is an InformationContentEntity that certifies for exactly one BoardOfEqualization, certifies exactly one AppealWaiver, and has some certificationTime."
 Class: <https://signals.zndx.org/sdg#ApprovalRecommendation>
     Annotations: iao:0000115 "An act of advising that concerns property assessment.", rdfs:comment "An act of advising that concerns property assessment."
+Class: <https://signals.zndx.org/sdg#ArchivalCustodyProcess>
+    Annotations: iao:0000115 "An {ArchivalCustodyProcess} involves at least one {AccessionedRecord} and nothing but {AccessionedRecord}s — the only+min pairing FHIR renders as typed required elements.", rdfs:comment "An {ArchivalCustodyProcess} involves at least one {AccessionedRecord} and nothing but {AccessionedRecord}s — the only+min pairing FHIR renders as typed required elements."
 Class: <https://signals.zndx.org/sdg#ArcticExpedition>
     Annotations: iao:0000115 "An ArcticExpedition is a process that involves at least one ExpeditionParticipant and utilizes at least one ExpeditionEquipment.", rdfs:comment "An ArcticExpedition is a process that involves at least one ExpeditionParticipant and utilizes at least one ExpeditionEquipment."
 Class: <https://signals.zndx.org/sdg#ArcticRegion>
@@ -8513,6 +8753,8 @@ Class: <https://signals.zndx.org/sdg#AuthorizedEntityAuthorizationProcess>
     Annotations: iao:0000115 "{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}", rdfs:comment "{AuthorizedEntityAuthorizationProcess} is a process that has participant some {AuthorizedEntity}"
 Class: <https://signals.zndx.org/sdg#AuthorizedRepresentativeRole>
     Annotations: iao:0000115 "{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}", rdfs:comment "{AuthorizedRepresentativeRole} is a role that is borne by exactly one {FinancialServicesEntity}, and that is realized in some {AuthorizedEntityAuthorizationProcess}"
+Class: <https://signals.zndx.org/sdg#AuthorizedSignatory>
+    Annotations: iao:0000115 "A authorized signatory.", rdfs:comment "A authorized signatory."
 Class: <https://signals.zndx.org/sdg#AutohemotherapyProcedure>
     Annotations: iao:0000115 "A process that involves autotransfusion.", rdfs:comment "A process that involves autotransfusion."
 Class: <https://signals.zndx.org/sdg#AutomatedSystem>
@@ -8545,6 +8787,8 @@ Class: <https://signals.zndx.org/sdg#BoardOfAuditorsRole>
     Annotations: iao:0000115 "A board of auditors role is a role that is realized in a process and realizes a process.", rdfs:comment "A board of auditors role is a role that is realized in a process and realizes a process."
 Class: <https://signals.zndx.org/sdg#BoardOfEqualization>
     Annotations: iao:0000115 "A board that handles tax appeals.", rdfs:comment "A board that handles tax appeals."
+Class: <https://signals.zndx.org/sdg#BoundedMetricSeries>
+    Annotations: iao:0000115 "A {BoundedMetricSeries} carries at most twelve decimal engagement metrics.", rdfs:comment "A {BoundedMetricSeries} carries at most twelve decimal engagement metrics."
 Class: <https://signals.zndx.org/sdg#BreedingProgramApplication>
     Annotations: iao:0000115 "A BreedingProgramApplication is an InformationContentEntity that contains a FormSection and identifies a HorseIdentity.", rdfs:comment "A BreedingProgramApplication is an InformationContentEntity that contains a FormSection and identifies a HorseIdentity."
 Class: <https://signals.zndx.org/sdg#BuildingFloorStructure>
@@ -8632,6 +8876,8 @@ Class: <https://signals.zndx.org/sdg#ClinicalSystem>
     Annotations: iao:0000115 "An infrastructure system dedicated to delivering clinical care services.", rdfs:comment "An infrastructure system dedicated to delivering clinical care services."
 Class: <https://signals.zndx.org/sdg#CloudStorageVolume>
     Annotations: iao:0000115 "A digital storage device partition or allocation used to hold database containers in a cloud environment.", rdfs:comment "A digital storage device partition or allocation used to hold database containers in a cloud environment."
+Class: <https://signals.zndx.org/sdg#CohortEnrollmentProcess>
+    Annotations: iao:0000115 "A {CohortEnrollmentProcess} is a process that has at most twenty-four {EnrolledParticipant} participants.", rdfs:comment "A {CohortEnrollmentProcess} is a process that has at most twenty-four {EnrolledParticipant} participants."
 Class: <https://signals.zndx.org/sdg#CollateralExchangeProcess>
     Annotations: iao:0000115 "A financial deposit process that involves the corresponding withdrawal or exchange of collateral assets.", rdfs:comment "A financial deposit process that involves the corresponding withdrawal or exchange of collateral assets."
 Class: <https://signals.zndx.org/sdg#CollegeAdministration>
@@ -8646,6 +8892,8 @@ Class: <https://signals.zndx.org/sdg#CollegeOfficialRole>
     Annotations: iao:0000115 "{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}", rdfs:comment "{CollegeOfficialRole} is a role that inheres in exactly one {Person}, and that is realized in some {CollegeAdministrationProcess}"
 Class: <https://signals.zndx.org/sdg#CollegeResource>
     Annotations: iao:0000115 "A college resource.", rdfs:comment "A college resource."
+Class: <https://signals.zndx.org/sdg#CommitteeMember>
+    Annotations: iao:0000115 "A committee member.", rdfs:comment "A committee member."
 Class: <https://signals.zndx.org/sdg#CommunicableDiseaseNotificationRequirement>
     Annotations: iao:0000115 "A communicable disease notification requirement is a directive ICE that requires disclosure of a health care summary and is directed to receiving facility staff.", rdfs:comment "A communicable disease notification requirement is a directive ICE that requires disclosure of a health care summary and is directed to receiving facility staff."
 Class: <https://signals.zndx.org/sdg#CommunicationSecurityAspect>
@@ -8660,6 +8908,8 @@ Class: <https://signals.zndx.org/sdg#ComplianceAudit>
     Annotations: iao:0000115 "A compliance audit.", rdfs:comment "A compliance audit."
 Class: <https://signals.zndx.org/sdg#ComplianceCoordinatorRole>
     Annotations: iao:0000115 "A ComplianceCoordinatorRole is a role that exactly certifiesAcademicStanding for an AcademicRecord and monitorsEligibilityStatus during an EligibilityComplianceCheck.", rdfs:comment "A ComplianceCoordinatorRole is a role that exactly certifiesAcademicStanding for an AcademicRecord and monitorsEligibilityStatus during an EligibilityComplianceCheck."
+Class: <https://signals.zndx.org/sdg#ComplianceNotificationProcess>
+    Annotations: iao:0000115 "A {ComplianceNotificationProcess} is a process with at least one participant that is a {ResponsibleOfficer} or a {DelegatedAgent}.", rdfs:comment "A {ComplianceNotificationProcess} is a process with at least one participant that is a {ResponsibleOfficer} or a {DelegatedAgent}."
 Class: <https://signals.zndx.org/sdg#ComplianceRequirement>
     Annotations: iao:0000115 "A compliance requirement.", rdfs:comment "A compliance requirement."
 Class: <https://signals.zndx.org/sdg#ConceptConstructionProcess>
@@ -8710,6 +8960,8 @@ Class: <https://signals.zndx.org/sdg#CourseSelectionSet>
     Annotations: iao:0000115 "A set of course selections classified as an information content entity.", rdfs:comment "A set of course selections classified as an information content entity."
 Class: <https://signals.zndx.org/sdg#CourtDocument>
     Annotations: iao:0000115 "A form document that participates in a legal proceeding.", rdfs:comment "A form document that participates in a legal proceeding."
+Class: <https://signals.zndx.org/sdg#CredentialedReviewer>
+    Annotations: iao:0000115 "A credentialed reviewer.", rdfs:comment "A credentialed reviewer."
 Class: <https://signals.zndx.org/sdg#CreditHourCertificationProcess>
     Annotations: iao:0000115 "A CreditHourCertificationProcess is an occurrent that participates_in an AcademicTerm.", rdfs:comment "A CreditHourCertificationProcess is an occurrent that participates_in an AcademicTerm."
 Class: <https://signals.zndx.org/sdg#CriminalJusticeProcess>
@@ -8717,6 +8969,8 @@ Class: <https://signals.zndx.org/sdg#CriminalJusticeSystem>
 Class: <https://signals.zndx.org/sdg#CulturalAttribute>
 Class: <https://signals.zndx.org/sdg#Curriculum>
     Annotations: iao:0000115 "A generically dependent continuant that comprises a structured set of courses for educational instruction.", rdfs:comment "A generically dependent continuant that comprises a structured set of courses for educational instruction."
+Class: <https://signals.zndx.org/sdg#CustodyControlRole>
+    Annotations: iao:0000115 "A custody control role.", rdfs:comment "A custody control role."
 Class: <https://signals.zndx.org/sdg#CustomerAccount>
     Annotations: iao:0000115 "A customer account.", rdfs:comment "A customer account."
 Class: <https://signals.zndx.org/sdg#CustomerDevice>
@@ -8748,6 +9002,8 @@ Class: <https://signals.zndx.org/sdg#DecisionMakerRole>
 Class: <https://signals.zndx.org/sdg#DecisionMakingProcess>
 Class: <https://signals.zndx.org/sdg#DecisionTransitionAction>
 Class: <https://signals.zndx.org/sdg#DegradedSystemCondition>
+Class: <https://signals.zndx.org/sdg#DelegatedAgent>
+    Annotations: iao:0000115 "A delegated agent.", rdfs:comment "A delegated agent."
 Class: <https://signals.zndx.org/sdg#DepartingEmployee>
     Annotations: iao:0000115 "A departing employee is defined by having a specific role and a departure status, excluding the disjoint function conjunct.", rdfs:comment "A departing employee is defined by having a specific role and a departure status, excluding the disjoint function conjunct."
 Class: <https://signals.zndx.org/sdg#DepartmentOfHealthStandard>
@@ -8791,6 +9047,8 @@ Class: <https://signals.zndx.org/sdg#DonorAgent>
     Annotations: iao:0000115 "An agent that participates in an act of donating.", rdfs:comment "An agent that participates in an act of donating."
 Class: <https://signals.zndx.org/sdg#DonorProfile>
     Annotations: iao:0000115 "A DonorProfile is an InformationContentEntity that has some ContactInformation.", rdfs:comment "A DonorProfile is an InformationContentEntity that has some ContactInformation."
+Class: <https://signals.zndx.org/sdg#DualCustodySignoffProcess>
+    Annotations: iao:0000115 "A {DualCustodySignoffProcess} is a process realizing some {CustodyControlRole} with no fewer than two {AuthorizedSignatory} participants.", rdfs:comment "A {DualCustodySignoffProcess} is a process realizing some {CustodyControlRole} with no fewer than two {AuthorizedSignatory} participants."
 Class: <https://signals.zndx.org/sdg#DuplicatingRequest>
     Annotations: iao:0000115 "A duplicating request involves a requester, a turnaround time, and a document that is a material entity.", rdfs:comment "A duplicating request involves a requester, a turnaround time, and a document that is a material entity."
 Class: <https://signals.zndx.org/sdg#EarthObservationData>
@@ -8818,10 +9076,12 @@ Class: <https://signals.zndx.org/sdg#EnergyEfficientAppliance>
     Annotations: iao:0000115 "An EnergyEfficientAppliance is an independent continuant that has a component that is an EnergySavingComponent.", rdfs:comment "An EnergyEfficientAppliance is an independent continuant that has a component that is an EnergySavingComponent."
 Class: <https://signals.zndx.org/sdg#EnergySavingComponent>
     Annotations: iao:0000115 "A power source component used within a heating system to improve energy efficiency.", rdfs:comment "A power source component used within a heating system to improve energy efficiency."
+Class: <https://signals.zndx.org/sdg#EnrolledParticipant>
+    Annotations: iao:0000115 "A enrolled participant.", rdfs:comment "A enrolled participant."
 Class: <https://signals.zndx.org/sdg#EntrepreneurRole>
     Annotations: iao:0000115 "{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}", rdfs:comment "{EntrepreneurRole} is a role that inheres in exactly one {IndependentEconomicAgent}, and that is realized in some {BusinessActivityProcess}"
 Class: <https://signals.zndx.org/sdg#EntrepreneurialActivityProcess>
-    Annotations: iao:0000115 "An EntrepreneurialActivityProcess is a Process that produces EconomicGoodsAndServices and targets MarketDemand.", rdfs:comment "An EntrepreneurialActivityProcess is a Process that produces EconomicGoodsAndServices and targets MarketDemand."
+    Annotations: iao:0000115 "{EntrepreneurialActivityProcess} is exactly a process that produces some {EconomicGoodsAndServices} and targets some {MarketDemand}.", rdfs:comment "{EntrepreneurialActivityProcess} is exactly a process that produces some {EconomicGoodsAndServices} and targets some {MarketDemand}."
 Class: <https://signals.zndx.org/sdg#EnvironmentalPermittingSupervisionActivity>
     Annotations: iao:0000115 "An EnvironmentalPermittingSupervisionActivity is a process that oversees some PermittingDecision and inspects some ChemicalInstallation.", rdfs:comment "An EnvironmentalPermittingSupervisionActivity is a process that oversees some PermittingDecision and inspects some ChemicalInstallation."
 Class: <https://signals.zndx.org/sdg#EstablishedDataFormat>
@@ -8862,7 +9122,7 @@ Class: <https://signals.zndx.org/sdg#ExecutiveTeam>
 Class: <https://signals.zndx.org/sdg#ExecutiveTeamMember>
     Annotations: iao:0000115 "An executive team member is an organizational role/person that serves on some executive leadership process.", rdfs:comment "An executive team member is an organizational role/person that serves on some executive leadership process."
 Class: <https://signals.zndx.org/sdg#ExecutiveTeamRoster>
-    Annotations: iao:0000115 "A roster for an executive team is a function that is realized in an executive leadership process, aligning the process filler with the range of realized_in.", rdfs:comment "A roster for an executive team is a function that is realized in an executive leadership process, aligning the process filler with the range of realized_in."
+    Annotations: iao:0000115 "{ExecutiveTeamRoster} is exactly a role that participates in some {ExecutiveLeadershipProcess}.", rdfs:comment "{ExecutiveTeamRoster} is exactly a role that participates in some {ExecutiveLeadershipProcess}."
 Class: <https://signals.zndx.org/sdg#ExpeditionEquipment>
     Annotations: iao:0000115 "Equipment designed or utilized for the purpose of an arctic expedition.", rdfs:comment "Equipment designed or utilized for the purpose of an arctic expedition."
 Class: <https://signals.zndx.org/sdg#ExpeditionParticipant>
@@ -8875,6 +9135,8 @@ Class: <https://signals.zndx.org/sdg#ExportedDataArtifact>
     Annotations: iao:0000115 "A material artifact that is produced by a data export process.", rdfs:comment "A material artifact that is produced by a data export process."
 Class: <https://signals.zndx.org/sdg#ExternalAgency>
     Annotations: iao:0000115 "An agent that maintains an external business partner relationship with an organization.", rdfs:comment "An agent that maintains an external business partner relationship with an organization."
+Class: <https://signals.zndx.org/sdg#ExternalAuditReview>
+    Annotations: iao:0000115 "A external audit review.", rdfs:comment "A external audit review."
 Class: <https://signals.zndx.org/sdg#ExternalBusinessPartner>
     Annotations: iao:0000115 "An interpersonal relationship role that has a relationship with an external agency and engages in market exchange with an independent economic agent.", rdfs:comment "An interpersonal relationship role that has a relationship with an external agency and engages in market exchange with an independent economic agent."
 Class: <https://signals.zndx.org/sdg#FacilityInfrastructure>
@@ -8943,7 +9205,7 @@ Class: <https://signals.zndx.org/sdg#GeographicRegion>
 Class: <https://signals.zndx.org/sdg#GiftAllocationPurpose>
     Annotations: iao:0000115 "A gift allocation purpose.", rdfs:comment "A gift allocation purpose."
 Class: <https://signals.zndx.org/sdg#GovernanceFunction>
-    Annotations: iao:0000115 "A function that enables an entity to exercise administrative authority or oversight over an organization or domain.", rdfs:comment "A function that enables an entity to exercise administrative authority or oversight over an organization or domain."
+    Annotations: iao:0000115 "{GovernanceFunction} is exactly a function that exercises governance over some organization.", rdfs:comment "{GovernanceFunction} is exactly a function that exercises governance over some organization."
 Class: <https://signals.zndx.org/sdg#GraduationEligibilityAssessment>
     Annotations: iao:0000115 "A GraduationEligibilityAssessment is a process that assessesProgram some ProgramOfStudy and evaluatesStudent some StudentAgent.", rdfs:comment "A GraduationEligibilityAssessment is a process that assessesProgram some ProgramOfStudy and evaluatesStudent some StudentAgent."
 Class: <https://signals.zndx.org/sdg#HSSSEQ_Issue_Document>
@@ -8993,6 +9255,8 @@ Class: <https://signals.zndx.org/sdg#ImagingEquipment>
     Annotations: iao:0000115 "An imaging instrument that facilitates diagnostic imaging procedures.", rdfs:comment "An imaging instrument that facilitates diagnostic imaging procedures."
 Class: <https://signals.zndx.org/sdg#ImproperConductEvent>
     Annotations: iao:0000115 "An ImproperConductEvent is a Process that misuses some CollegeResource and performedBy some CollegeCommunityMember.", rdfs:comment "An ImproperConductEvent is a Process that misuses some CollegeResource and performedBy some CollegeCommunityMember."
+Class: <https://signals.zndx.org/sdg#IncidentEscalationProcess>
+    Annotations: iao:0000115 "An {IncidentEscalationProcess} is realized only in a {SupervisoryReview} or an {ExternalAuditReview} — no other realization channel exists.", rdfs:comment "An {IncidentEscalationProcess} is realized only in a {SupervisoryReview} or an {ExternalAuditReview} — no other realization channel exists."
 Class: <https://signals.zndx.org/sdg#IncubationProgram>
     Annotations: iao:0000115 "An incubation program is an occurrent that participates-in some workspace allocation.", rdfs:comment "An incubation program is an occurrent that participates-in some workspace allocation."
 Class: <https://signals.zndx.org/sdg#IndependentCommitteeInvestigation>
@@ -9137,6 +9401,8 @@ Class: <https://signals.zndx.org/sdg#MathematicalConcept>
     Annotations: iao:0000115 "A subject concept that underpins mathematical reasoning and abstract quantitative relationships.", rdfs:comment "A subject concept that underpins mathematical reasoning and abstract quantitative relationships."
 Class: <https://signals.zndx.org/sdg#MathematicalLearningProcess>
     Annotations: iao:0000115 "MathematicalLearningProcess is an occurrent that involves some mathematical concept and targets some student role.", rdfs:comment "MathematicalLearningProcess is an occurrent that involves some mathematical concept and targets some student role."
+Class: <https://signals.zndx.org/sdg#MeasuredSeriesReading>
+    Annotations: iao:0000115 "A {MeasuredSeriesReading} carries some decimal measured value.", rdfs:comment "A {MeasuredSeriesReading} carries some decimal measured value."
 Class: <https://signals.zndx.org/sdg#MeasurementCapability>
     Annotations: iao:0000115 "A MeasurementCapability is an InformationContentEntity that has some MeasurementParameter, has some MeasurementRange, and has some decimal ExpandedUncertainty.", rdfs:comment "A MeasurementCapability is an InformationContentEntity that has some MeasurementParameter, has some MeasurementRange, and has some decimal ExpandedUncertainty."
 Class: <https://signals.zndx.org/sdg#MeasurementCapabilityProfile>
@@ -9177,6 +9443,8 @@ Class: <https://signals.zndx.org/sdg#MunicipalPoolOperationsManagementActivity>
     Annotations: iao:0000115 "A MunicipalPoolOperationsManagementActivity is a process that involves_participant some LifeguardStaff and involves_object some MunicipalPoolFacility.", rdfs:comment "A MunicipalPoolOperationsManagementActivity is a process that involves_participant some LifeguardStaff and involves_object some MunicipalPoolFacility."
 Class: <https://signals.zndx.org/sdg#MunicipalSwimmingPoolAssistantManager>
     Annotations: iao:0000115 "{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}", rdfs:comment "{MunicipalSwimmingPoolAssistantManager} is a role that inheres in exactly one {HumanAgent}, and that is realized in some {MunicipalPoolOperationsManagementActivity}"
+Class: <https://signals.zndx.org/sdg#NaturalPersonRegistrant>
+    Annotations: iao:0000115 "A natural person registrant.", rdfs:comment "A natural person registrant."
 Class: <https://signals.zndx.org/sdg#NetworkInfrastructure>
     Annotations: iao:0000115 "A network infrastructure is a telecommunication infrastructure that supports data transmission for a computer network.", rdfs:comment "A network infrastructure is a telecommunication infrastructure that supports data transmission for a computer network."
 Class: <https://signals.zndx.org/sdg#NetworkProvider>
@@ -9205,6 +9473,8 @@ Class: <https://signals.zndx.org/sdg#ObservatoryMountingStructure>
     Annotations: iao:0000115 "An equipment mount that supports an observatory instrument.", rdfs:comment "An equipment mount that supports an observatory instrument."
 Class: <https://signals.zndx.org/sdg#OfflineChannel>
     Annotations: iao:0000115 "A dissemination channel that utilizes offline media.", rdfs:comment "A dissemination channel that utilizes offline media."
+Class: <https://signals.zndx.org/sdg#OnCallCoverageRole>
+    Annotations: iao:0000115 "An {OnCallCoverageRole} is realized only in a {ScheduledShiftProcess} — every realization event is of that kind.", rdfs:comment "An {OnCallCoverageRole} is realized only in a {ScheduledShiftProcess} — every realization event is of that kind."
 Class: <https://signals.zndx.org/sdg#OnlineChannel>
     Annotations: iao:0000115 "A dissemination channel that utilizes online media.", rdfs:comment "A dissemination channel that utilizes online media."
 Class: <https://signals.zndx.org/sdg#OperationalDisruption>
@@ -9238,6 +9508,8 @@ Class: <https://signals.zndx.org/sdg#OzoneOxygenMixture>
     Annotations: iao:0000115 "A portion of oxidizer used as a therapeutic agent in ozone therapy sessions.", rdfs:comment "A portion of oxidizer used as a therapeutic agent in ozone therapy sessions."
 Class: <https://signals.zndx.org/sdg#OzoneTherapySession>
     Annotations: iao:0000115 "An OzoneTherapySession is a process that administers an OzoneOxygenMixture and utilizes an AutohemotherapyProcedure.", rdfs:comment "An OzoneTherapySession is a process that administers an OzoneOxygenMixture and utilizes an AutohemotherapyProcedure."
+Class: <https://signals.zndx.org/sdg#PanelReviewer>
+    Annotations: iao:0000115 "A panel reviewer.", rdfs:comment "A panel reviewer."
 Class: <https://signals.zndx.org/sdg#ParentingActivity>
     Annotations: iao:0000115 "A parenting activity.", rdfs:comment "A parenting activity."
 Class: <https://signals.zndx.org/sdg#ParentingProcess>
@@ -9365,8 +9637,12 @@ Class: <https://signals.zndx.org/sdg#RecoveredState>
     Annotations: iao:0000115 "A constituent state representing the successful restoration of health or nutritional status following a period of deficiency or illness.", rdfs:comment "A constituent state representing the successful restoration of health or nutritional status following a period of deficiency or illness."
 Class: <https://signals.zndx.org/sdg#ReferralProcess>
 Class: <https://signals.zndx.org/sdg#ReferralSourceRole>
+Class: <https://signals.zndx.org/sdg#RegisteredIdentifierBearer>
+    Annotations: iao:0000115 "Every {RegisteredIdentifierBearer} is a {NaturalPersonRegistrant} or a {RegisteredOrganization} — the union is the superclass, disjunction asserted, not enumerated.", rdfs:comment "Every {RegisteredIdentifierBearer} is a {NaturalPersonRegistrant} or a {RegisteredOrganization} — the union is the superclass, disjunction asserted, not enumerated."
 Class: <https://signals.zndx.org/sdg#RegisteredManagerRole>
     Annotations: iao:0000115 "{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}", rdfs:comment "{RegisteredManagerRole} is a role that inheres in exactly one {Person}, and that is realized in some {ServiceManagementProcess}"
+Class: <https://signals.zndx.org/sdg#RegisteredOrganization>
+    Annotations: iao:0000115 "A registered organization.", rdfs:comment "A registered organization."
 Class: <https://signals.zndx.org/sdg#RegulatoryAuthority>
     Annotations: iao:0000115 "An authority role that exercises regulation over a process.", rdfs:comment "An authority role that exercises regulation over a process."
 Class: <https://signals.zndx.org/sdg#RegulatoryBody>
@@ -9401,6 +9677,8 @@ Class: <https://signals.zndx.org/sdg#ResidentialStreet>
     Annotations: iao:0000115 "A residential street.", rdfs:comment "A residential street."
 Class: <https://signals.zndx.org/sdg#ResponsibleInvestmentFundCollection>
     Annotations: iao:0000115 "A ResponsibleInvestmentFundCollection is an InformationContentEntity that comprises some EthicalInvestmentAsset.", rdfs:comment "A ResponsibleInvestmentFundCollection is an InformationContentEntity that comprises some EthicalInvestmentAsset."
+Class: <https://signals.zndx.org/sdg#ResponsibleOfficer>
+    Annotations: iao:0000115 "A responsible officer.", rdfs:comment "A responsible officer."
 Class: <https://signals.zndx.org/sdg#ResponsiveDesignTechnique>
     Annotations: iao:0000115 "A responsive design technique.", rdfs:comment "A responsive design technique."
 Class: <https://signals.zndx.org/sdg#ResponsiveWebsiteDevelopment>
@@ -9412,6 +9690,8 @@ Class: <https://signals.zndx.org/sdg#RetainingEmployeeRole>
     Annotations: iao:0000115 "{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}", rdfs:comment "{RetainingEmployeeRole} is a role that inheres in exactly one {DepartingEmployee}, and that grants transfer permission some {TransferAuthorization}"
 Class: <https://signals.zndx.org/sdg#RetirementBenefitOption>
     Annotations: iao:0000115 "A RetirementBenefitOption is a descriptive information entity that specifies a survivor percentage and specifies guarantee months.", rdfs:comment "A RetirementBenefitOption is a descriptive information entity that specifies a survivor percentage and specifies guarantee months."
+Class: <https://signals.zndx.org/sdg#ReviewPanelSession>
+    Annotations: iao:0000115 "A {ReviewPanelSession} is a process that has at least three {PanelReviewer} participants — quorum is structural, not procedural.", rdfs:comment "A {ReviewPanelSession} is a process that has at least three {PanelReviewer} participants — quorum is structural, not procedural."
 Class: <https://signals.zndx.org/sdg#RightsExerciseProcess>
     Annotations: iao:0000115 "{RightsExerciseProcess} is a process that has participant some {IndigenousChild}", rdfs:comment "{RightsExerciseProcess} is a process that has participant some {IndigenousChild}"
 Class: <https://signals.zndx.org/sdg#RiskInformedAcceptabilityEvaluation>
@@ -9434,12 +9714,16 @@ Class: <https://signals.zndx.org/sdg#SalesAdministrationActivity>
     Annotations: iao:0000115 "A sales administration activity.", rdfs:comment "A sales administration activity."
 Class: <https://signals.zndx.org/sdg#ScannedImageSet>
     Annotations: iao:0000115 "A scanned image set.", rdfs:comment "A scanned image set."
+Class: <https://signals.zndx.org/sdg#ScheduledShiftProcess>
+    Annotations: iao:0000115 "A scheduled shift process.", rdfs:comment "A scheduled shift process."
 Class: <https://signals.zndx.org/sdg#SchoolSecurityPolicy>
     Annotations: iao:0000115 "A specifically dependent continuant that specifies rules and procedures for security within a school environment.", rdfs:comment "A specifically dependent continuant that specifies rules and procedures for security within a school environment."
 Class: <https://signals.zndx.org/sdg#ScientificMeeting>
     Annotations: iao:0000115 "A scientific meeting.", rdfs:comment "A scientific meeting."
 Class: <https://signals.zndx.org/sdg#ScientificOrganization>
     Annotations: iao:0000115 "A scientific organization is an artifact that publishes_journal some academic journal and organizes_meetings some scientific meeting.", rdfs:comment "A scientific organization is an artifact that publishes_journal some academic journal and organizes_meetings some scientific meeting."
+Class: <https://signals.zndx.org/sdg#ScoredAssessmentRecord>
+    Annotations: iao:0000115 "A {ScoredAssessmentRecord} carries exactly one decimal confidence score — single-valued by definition.", rdfs:comment "A {ScoredAssessmentRecord} carries exactly one decimal confidence score — single-valued by definition."
 Class: <https://signals.zndx.org/sdg#ScrubbingActivity>
     Annotations: iao:0000115 "A scrubbing activity.", rdfs:comment "A scrubbing activity."
 Class: <https://signals.zndx.org/sdg#SecretaryRole>
@@ -9522,6 +9806,8 @@ Class: <https://signals.zndx.org/sdg#StakeholderRole>
     Annotations: iao:0000115 "A stakeholder role.", rdfs:comment "A stakeholder role."
 Class: <https://signals.zndx.org/sdg#StandardWebTechnology>
     Annotations: iao:0000115 "A standard web technology.", rdfs:comment "A standard web technology."
+Class: <https://signals.zndx.org/sdg#StandingCommitteeAssembly>
+    Annotations: iao:0000115 "A {StandingCommitteeAssembly} is a process with between five and fifteen {CommitteeMember} participants — both bounds carried by the class itself.", rdfs:comment "A {StandingCommitteeAssembly} is a process with between five and fifteen {CommitteeMember} participants — both bounds carried by the class itself."
 Class: <https://signals.zndx.org/sdg#StartupVenture>
     Annotations: iao:0000115 "A startup venture.", rdfs:comment "A startup venture."
 Class: <https://signals.zndx.org/sdg#StateAction>
@@ -9554,6 +9840,8 @@ Class: <https://signals.zndx.org/sdg#SubstanceType>
     Annotations: iao:0000115 "A substance type.", rdfs:comment "A substance type."
 Class: <https://signals.zndx.org/sdg#SupervisedTestUnitCatalog>
     Annotations: iao:0000115 "SupervisedTestUnitCatalog is an information content entity that contains some IndustrialEmissionSource.", rdfs:comment "SupervisedTestUnitCatalog is an information content entity that contains some IndustrialEmissionSource."
+Class: <https://signals.zndx.org/sdg#SupervisoryReview>
+    Annotations: iao:0000115 "A supervisory review.", rdfs:comment "A supervisory review."
 Class: <https://signals.zndx.org/sdg#Supplier>
     Annotations: iao:0000115 "A supplier.", rdfs:comment "A supplier."
 Class: <https://signals.zndx.org/sdg#SupplierLandscapeSurvey>
@@ -9622,6 +9910,8 @@ Class: <https://signals.zndx.org/sdg#VehiclePowerType>
     Annotations: iao:0000115 "A vehicle power type is equivalent to either a diesel powered vehicle or a non diesel powered vehicle.", rdfs:comment "A vehicle power type is equivalent to either a diesel powered vehicle or a non diesel powered vehicle."
 Class: <https://signals.zndx.org/sdg#VenueOperationsOversight>
     Annotations: iao:0000115 "VenueOperationsOversight is a bfo:0000015 that overseesInfrastructure some FacilityInfrastructure and enforcesProtocol some OperationalProtocol.", rdfs:comment "VenueOperationsOversight is a bfo:0000015 that overseesInfrastructure some FacilityInfrastructure and enforcesProtocol some OperationalProtocol."
+Class: <https://signals.zndx.org/sdg#VersionedIntakeForm>
+    Annotations: iao:0000115 "A {VersionedIntakeForm} bears at least one version designation string.", rdfs:comment "A {VersionedIntakeForm} bears at least one version designation string."
 Class: <https://signals.zndx.org/sdg#VulnerabilityState>
     Annotations: iao:0000115 "VulnerabilityState is grounded as a Vulnerability.", rdfs:comment "VulnerabilityState is grounded as a Vulnerability."
 Class: <https://signals.zndx.org/sdg#WaterQualityMonitoringActivity>
@@ -9835,6 +10125,7 @@ Class: <https://signals.zndx.org/sdg#IntermediateFloorAssembly> SubClassOf: bfo:
 Class: <https://signals.zndx.org/sdg#LegalAdvocateRole> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#OrganizationalActivity> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#ParticipantGroup> SubClassOf: bfo:0000002
+Class: <https://signals.zndx.org/sdg#RegisteredIdentifierBearer> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ResearchProcess> SubClassOf: bfo:0000003
 Class: <https://signals.zndx.org/sdg#ServiceFunction> SubClassOf: bfo:0000002
 Class: <https://signals.zndx.org/sdg#ServiceType> SubClassOf: bfo:0000002
