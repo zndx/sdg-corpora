@@ -12,7 +12,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://signals.zndx.org/sdg">
-        <owl:imports rdf:resource="file:/home/rch/local/src/zndx/aegir/build/grounding/cco-module.ttl"/>
+        <owl:imports rdf:resource="https://signals.zndx.org/sdg/imports/cco-module"/>
     </owl:Ontology>
     
 

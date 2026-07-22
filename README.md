@@ -25,3 +25,23 @@ tables — **without** the per-column reference codes. Atelier pins the release 
 columns into the SKOS vocabulary **blind** (values + vocab only); the reference (column→code,
 deterministic from the spine) is held back as the scoring key → independent, pre-training
 efficacy feedback on the corpus, and a clean measure of Aegir's downstream lift over it.
+
+## Loading the ontology in Protégé
+
+This repository is **standalone**: a fresh clone loads with nothing but its own files.
+
+1. **File → Open → `ontology/sdg-ontology-comprehensive.owl`** — the comprehensive
+   release: the catalog *and* the entity generations, with armed `rdfs:domain`/`range`
+   semantics and BFO/CCO grounding — the certified union (HermiT-verified; see
+   `ontology/HERMIT_CERTIFICATE.md` and `ontology/grounding_certificate.json`).
+   Open `ontology/sdg-ontology.owl` instead for the catalog-scope ontology only.
+   Manchester-syntax twins (`.omn`) sit beside both.
+2. **Imports resolve locally.** Protégé reads `ontology/catalog-v001.xml` and maps the
+   BFO + π(CCO) import IRI to `ontology/imports/cco-module.ttl`. No network access, no
+   other repositories.
+3. **Reasoning.** HermiT ships with Protégé; the certificates above record the verdicts
+   this release was published under.
+
+`just check` verifies the standalone invariants (imports resolvable, no machine-local
+paths, artifacts parse); `just protege` prints these instructions. Both are optional —
+the steps above need only Protégé itself.

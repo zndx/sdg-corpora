@@ -16,7 +16,7 @@ Prefix: dbo: <http://dbpedia.org/ontology/>
 Prefix: sdg: <https://signals.zndx.org/sdg#>
 
 Ontology: <https://signals.zndx.org/sdg>
-Import: <file:/home/rch/local/src/zndx/aegir/build/grounding/cco-module.ttl>
+Import: <https://signals.zndx.org/sdg/imports/cco-module>
 
 Class: bfo:0000001
 Class: bfo:0000002 SubClassOf: bfo:0000001
