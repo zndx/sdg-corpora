@@ -1,11 +1,31 @@
 # sdg-corpora — standalone commands (no external repos required).
 #
-#   just check    — verify the standalone invariants (imports resolvable, no
-#                   machine-local paths, artifacts parse where rdflib is available)
-#   just protege  — how to load the ontology in Protégé
+#   just check          — verify the standalone invariants (imports resolvable, no
+#                         machine-local paths, artifacts parse where rdflib is available)
+#   just protege        — how to load the ontology in Protégé
+#   just load-postgres  — load the generated schema + data + views into PostgreSQL
 
 default:
     @just --list
+
+# Load the released relational corpus into PostgreSQL. The parquet files remain the
+# dataset of record; ddl/<run>/sql/ is the directly-loadable projection, one flavor
+# per directory (postgres/, trino/, spark/). Each table ships its template/BFO
+# provenance as COMMENT ON TABLE (query: obj_description('<table>'::regclass));
+# ontology↔table associations: ddl/<run>/ontology_entity_associations.json.
+#   just load-postgres                                    # psql defaults ($PGHOST …)
+#   just load-postgres "postgresql://user@host:5432/db"   # explicit connection
+load-postgres conn="":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    sqldir=$(ls -d ddl/*/sql/postgres 2>/dev/null | head -1)
+    [ -n "$sqldir" ] || { echo "no ddl/<run>/sql/postgres bundle in this checkout"; exit 1; }
+    conn="{{conn}}"
+    run_psql() { if [ -n "$conn" ]; then psql "$conn" "$@"; else psql "$@"; fi; }
+    echo "loading $sqldir (schema → data → views)…"
+    run_psql -v ON_ERROR_STOP=1 -q \
+        -f "$sqldir/00_schema.sql" -f "$sqldir/01_data.sql" -f "$sqldir/02_views.sql"
+    run_psql -tAc "SELECT 'loaded: '||(SELECT count(*) FROM information_schema.tables WHERE table_schema='public' AND table_type='BASE TABLE')||' tables, '||(SELECT count(*) FROM information_schema.views WHERE table_schema='public')||' views'"
 
 # The standalone contract: a fresh clone must load with nothing but this repo.
 check:

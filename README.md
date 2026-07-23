@@ -26,6 +26,29 @@ columns into the SKOS vocabulary **blind** (values + vocab only); the reference 
 deterministic from the spine) is held back as the scoring key → independent, pre-training
 efficacy feedback on the corpus, and a clean measure of Aegir's downstream lift over it.
 
+## Loading the relational corpus into PostgreSQL
+
+The parquet files under `ddl/<run>/` remain the dataset of record; `ddl/<run>/sql/`
+is the directly-loadable projection, **one database flavor per directory**:
+
+| flavor | schema source |
+|---|---|
+| `sql/postgres/` | assembled from the recorded column specs, types mapped by polyglot_sql |
+| `sql/trino/`    | the native `ddl_text` |
+| `sql/spark/`    | the Iceberg flavor (`ddl_iceberg`) |
+
+Each directory is self-contained — load the files in numeric order:
+
+```sh
+just load-postgres                                     # psql defaults ($PGHOST, $PGPORT, …)
+just load-postgres "postgresql://user@host:5432/mydb"  # explicit connection
+```
+
+Every table carries its template/BFO provenance in-database as a table comment
+(`SELECT obj_description('<table>'::regclass);`), and the ontology↔table associations
+ship beside the SQL in `ddl/<run>/ontology_entity_associations.json` — a loaded
+database remains fully tag-able back to the ontology.
+
 ## Loading the ontology in Protégé
 
 This repository is **standalone**: a fresh clone loads with nothing but its own files.
