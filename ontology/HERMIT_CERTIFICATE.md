@@ -1,7 +1,7 @@
 # HermiT consistency certificate — `sdg-ontology`
 
 - **isConsistent**: `True`
-- **named classes**: 893
+- **named classes**: 918
 - **unsatisfiable classes**: 0
 - **domain-narrowed**: 40 class(es) shed as unsatisfiable vs the theory — justifications recorded in `build/realize_signals.json` (the re-authoring signal)
 - **realized from**: the 520 FinePDFs-derived templates (`catalog.json`)

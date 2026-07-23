@@ -1,0 +1,15 @@
+{
+  "reasoner": "HermiT",
+  "skipped": false,
+  "mode": "decomposed (classes-only HermiT \u2295 mechanical enum layer)",
+  "enum_layer": {
+    "n_members": 1831,
+    "n_violations": 0,
+    "n_facts_frames": 0,
+    "violations": [],
+    "premise": "each member enumerated by exactly ONE Kind, with no other individual-position assertion (HasValue/Facts) \u21d2 {m:K} is consistent iff K is satisfiable \u2014 certified in pass A; class/property token punning is OWL 2 DL-legal"
+  },
+  "isConsistent": true,
+  "n_classes": 4783,
+  "unsat": []
+}

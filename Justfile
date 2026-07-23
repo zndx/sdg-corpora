@@ -27,6 +27,21 @@ load-postgres conn="":
         -f "$sqldir/00_schema.sql" -f "$sqldir/01_data.sql" -f "$sqldir/02_views.sql"
     run_psql -tAc "SELECT 'loaded: '||(SELECT count(*) FROM information_schema.tables WHERE table_schema='public' AND table_type='BASE TABLE')||' tables, '||(SELECT count(*) FROM information_schema.views WHERE table_schema='public')||' views'"
 
+# Load the COMPREHENSIVE lowering (schema-only: the certified-union kvasir DDL over the
+# full ontology — ~5k tables with FK constraints as a post-CREATE pass). Every table's
+# ontological source is in ddl-comprehensive/<run>/ontology_entity_associations.json.
+#   just load-comprehensive "postgresql://user@host:5432/db"
+load-comprehensive conn="":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    f=$(ls ddl-comprehensive/*/ddl.sql 2>/dev/null | head -1)
+    [ -n "$f" ] || { echo "no ddl-comprehensive/<run>/ddl.sql in this checkout"; exit 1; }
+    conn="{{conn}}"
+    run_psql() { if [ -n "$conn" ]; then psql "$conn" "$@"; else psql "$@"; fi; }
+    echo "loading $f (schema-only)…"
+    run_psql -v ON_ERROR_STOP=1 -q -f "$f"
+    run_psql -tAc "SELECT 'loaded: '||count(*)||' tables' FROM information_schema.tables WHERE table_schema='public'"
+
 # The standalone contract: a fresh clone must load with nothing but this repo.
 check:
     #!/usr/bin/env bash

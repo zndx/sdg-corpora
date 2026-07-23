@@ -17076,6 +17076,17 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#prodmlConcernsWell -->
+
+    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#prodmlConcernsWell">
+        <rdfs:domain rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <rdfs:range rdf:resource="https://signals.zndx.org/sdg#ProdmlWell"/>
+        <obo:IAO_0000115>Relates a PRODML report to the well its content reports on — the join a database-only or HDF5-only consumer uses to tag payloads back to the asset.</obo:IAO_0000115>
+        <rdfs:label>prodml concerns well</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://signals.zndx.org/sdg#producedBy -->
 
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#producedBy">
@@ -21678,6 +21689,17 @@
     <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#synonymOf">
         <rdfs:domain rdf:resource="https://www.commoncoreontologies.org/ont00000995"/>
         <rdfs:range rdf:resource="https://www.commoncoreontologies.org/ont00000995"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#sysmlVerifies -->
+
+    <owl:ObjectProperty rdf:about="https://signals.zndx.org/sdg#sysmlVerifies">
+        <rdfs:domain rdf:resource="https://signals.zndx.org/sdg#SysmlVerificationCase"/>
+        <rdfs:range rdf:resource="https://signals.zndx.org/sdg#SysmlRequirement"/>
+        <obo:IAO_0000115>Relates a verification case to the requirement it verifies — the load-bearing MBSE traceability relation.</obo:IAO_0000115>
+        <rdfs:label>sysml verifies</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -74147,6 +74169,149 @@
     
 
 
+    <!-- https://signals.zndx.org/sdg#ProdmlDasAcquisition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlDasAcquisition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A distributed acoustic sensing acquisition process interrogating a fiber optical path; its raw/processed arrays land in HDF5 per the PRODML DAS transfer.</obo:IAO_0000115>
+        <rdfs:label>PRODML DAS Acquisition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#DasAcquisition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlDasRawDataSet -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlDasRawDataSet">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <obo:IAO_0000115>The raw/FBE/spectra array dataset of a DAS acquisition — the HDF5-resident payload a conforming file&apos;s groups and datasets map to.</obo:IAO_0000115>
+        <rdfs:label>PRODML DAS Raw Data Set</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#DasRaw"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlDtsMeasurementTrace -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlDtsMeasurementTrace">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <obo:IAO_0000115>A temperature-versus-depth measurement trace produced by a DTS survey.</obo:IAO_0000115>
+        <rdfs:label>PRODML DTS Measurement Trace</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#DtsMeasurement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlDtsSurvey -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlDtsSurvey">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A distributed temperature sensing survey process along an installed system, yielding measurement traces.</obo:IAO_0000115>
+        <rdfs:label>PRODML DTS Survey</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#DtsInstalledSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlFiberOpticalPath -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlFiberOpticalPath">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>The installed optical fiber material entity along a wellbore that distributed sensing acquisitions interrogate.</obo:IAO_0000115>
+        <rdfs:label>PRODML Fiber Optical Path</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#FiberOpticalPath"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlFluidAnalysis -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlFluidAnalysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A laboratory analysis process over a fluid sample — PVT studies and compositional assays in the PRODML fluid analysis family.</obo:IAO_0000115>
+        <rdfs:label>PRODML Fluid Analysis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#FluidAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlFluidAnalysisReport -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlFluidAnalysisReport">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <obo:IAO_0000115>The reported results of a fluid analysis — the ICE output of the analysis process.</obo:IAO_0000115>
+        <rdfs:label>PRODML Fluid Analysis Report</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#FluidAnalysisReport"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlFluidSample -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlFluidSample">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A reservoir fluid sample material entity with chain-of-custody, the input to fluid analyses.</obo:IAO_0000115>
+        <rdfs:label>PRODML Fluid Sample</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#FluidSample"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlProductVolumeReport -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlProductVolumeReport">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <obo:IAO_0000115>Reported production volumes and dispositions per well, facility, and period — PRODML&apos;s product volume object.</obo:IAO_0000115>
+        <rdfs:label>PRODML Product Volume Report</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#ProductVolume"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlProductionOperationReport -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlProductionOperationReport">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#ProdmlReport"/>
+        <obo:IAO_0000115>Daily production operations reporting: activities, shutdowns, safety events, operational parameters across producing assets.</obo:IAO_0000115>
+        <rdfs:label>PRODML Production Operation Report</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2#ProductionOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlReport -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlReport">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000958"/>
+        <obo:IAO_0000115>An information content entity of the PRODML reporting families — the parent of product volume, fluid analysis, production operation reports and sensing datasets.</obo:IAO_0000115>
+        <rdfs:label>PRODML Report</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/prodmlv2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlWell -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlWell">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A well as identified in Energistics energyml common: the engineered material entity whose production PRODML objects report on.</obo:IAO_0000115>
+        <rdfs:label>PRODML Well</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/commonv2#Well"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#ProdmlWellbore -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#ProdmlWellbore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115>A wellbore of a well per energyml common — the drilled independent continuant along which sensing installations and tests are located.</obo:IAO_0000115>
+        <rdfs:label>PRODML Wellbore</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.energistics.org/energyml/data/commonv2#Wellbore"/>
+    </owl:Class>
+    
+
+
     <!-- https://signals.zndx.org/sdg#ProductDisclosureStatement -->
 
     <owl:Class rdf:about="https://signals.zndx.org/sdg#ProductDisclosureStatement">
@@ -76893,6 +77058,138 @@
         <obo:IAO_0000115>A survey response record.</obo:IAO_0000115>
         <rdfs:comment>A survey response record.</rdfs:comment>
         <rdfs:label>survey response record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlActionDefinition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlActionDefinition">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A behavioral definition of actions a system performs, composable into sequences and control structures.</obo:IAO_0000115>
+        <rdfs:label>SysML Action Definition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/ActionDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlAttributeUsage -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlAttributeUsage">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>An attribute usage carrying a typed value slot on a definition or usage.</obo:IAO_0000115>
+        <rdfs:label>SysML Attribute Usage</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/AttributeUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlConnectionUsage -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlConnectionUsage">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A connection between usages — the modeled link binding ports/parts in a structural decomposition.</obo:IAO_0000115>
+        <rdfs:label>SysML Connection Usage</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/ConnectionUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlConstraintDefinition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlConstraintDefinition">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A parametric constraint definition — an analyzable relation over attribute usages.</obo:IAO_0000115>
+        <rdfs:label>SysML Constraint Definition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/ConstraintDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlModelElement -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlModelElement">
+        <rdfs:subClassOf rdf:resource="https://www.commoncoreontologies.org/ont00000958"/>
+        <obo:IAO_0000115>An information content entity of a SysMLv2/KerML model — model elements describe systems and are never the described systems themselves.</obo:IAO_0000115>
+        <rdfs:label>SysML Model Element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlPackage -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlPackage">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A namespace-owning container model element grouping definitions and usages.</obo:IAO_0000115>
+        <rdfs:label>SysML Package</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/Package"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlPartDefinition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlPartDefinition">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A definition of a class of systems or parts — the structural type SysMLv2 part usages instantiate.</obo:IAO_0000115>
+        <rdfs:label>SysML Part Definition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/PartDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlPartUsage -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlPartUsage">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A usage of a part within a structural decomposition — the compositional occurrence of a part definition.</obo:IAO_0000115>
+        <rdfs:label>SysML Part Usage</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/PartUsage"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlPortDefinition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlPortDefinition">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A definition of an interaction point through which parts connect and exchange.</obo:IAO_0000115>
+        <rdfs:label>SysML Port Definition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/PortDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlRequirement -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlRequirement">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A requirement definition or usage: a constraint-bearing model element stating what a system shall satisfy, with traceability structure.</obo:IAO_0000115>
+        <rdfs:label>SysML Requirement</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/RequirementDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlStateDefinition -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlStateDefinition">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A behavioral definition of system states and transitions — SysMLv2 state-based occurrence modeling.</obo:IAO_0000115>
+        <rdfs:label>SysML State Definition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/StateDefinition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://signals.zndx.org/sdg#SysmlVerificationCase -->
+
+    <owl:Class rdf:about="https://signals.zndx.org/sdg#SysmlVerificationCase">
+        <rdfs:subClassOf rdf:resource="https://signals.zndx.org/sdg#SysmlModelElement"/>
+        <obo:IAO_0000115>A verification case binding requirements to analysis, inspection, and test evidence — SysMLv2 verification practice.</obo:IAO_0000115>
+        <rdfs:label>SysML Verification Case</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.omg.org/spec/SysML/VerificationCaseDefinition"/>
     </owl:Class>
     
 

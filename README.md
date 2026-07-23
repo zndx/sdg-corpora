@@ -49,6 +49,21 @@ Every table carries its template/BFO provenance in-database as a table comment
 ship beside the SQL in `ddl/<run>/ontology_entity_associations.json` — a loaded
 database remains fully tag-able back to the ontology.
 
+## The comprehensive lowering (`ddl-comprehensive/`)
+
+Where `ddl/` is the 520-table catalog spine WITH row data and views, `ddl-comprehensive/`
+is kvasir's deterministic schema over the ENTIRE certified union — every entity class,
+junction, and closed vocabulary the ontology carries (~5k relations, schema-only), each
+with its ontological source in `ontology_entity_associations.json` and its election
+citation in `plan.json`. FK constraints ship as a post-CREATE pass, so one command loads
+it anywhere:
+
+```sh
+just load-comprehensive "postgresql://user@host:5432/mydb"
+```
+
+Shipped only under a green HermiT certificate (`certificate.json` records the verdict).
+
 ## Loading the ontology in Protégé
 
 This repository is **standalone**: a fresh clone loads with nothing but its own files.
