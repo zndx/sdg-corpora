@@ -1,0 +1,662 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix clt:  <https://signals.zndx.org/clt/qwen3-1.7b-20k#> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> a skos:ConceptScheme ;
+    dct:title "Bluelight CLT Qwen3-1.7B 20k" ;
+    dct:description "Activation kinds observed on Gaius-admitted 512-token items. Distinct from the SDG domain scheme." ;
+    skos:prefLabel "bluelight-clt-qwen3-1.7b-20k" .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F254> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:254" ;
+    skos:prefLabel "L0 F254 (）, ..., 。)" ;
+    skos:altLabel "）" , "..." , "。" , "，" , ")" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F537> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:537" ;
+    skos:prefLabel "L0 F537 (**, .)" ;
+    skos:altLabel "**" , "." ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F2154> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:2154" ;
+    skos:prefLabel "L0 F2154 (Hour, Years, Hours)" ;
+    skos:altLabel "Hour" , "Years" , "Hours" , "Hundred" , "-Year" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F2609> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:2609" ;
+    skos:prefLabel "L0 F2609 (.”, ., ,)" ;
+    skos:altLabel ".”" , "." , "," ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F2711> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:2711" ;
+    skos:prefLabel "L0 F2711 (They, Besides, Usually)" ;
+    skos:altLabel "They" , "Besides" , "Usually" , "Though" , "Also" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F4845> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:4845" ;
+    skos:prefLabel "L0 F4845 (*, -, +)" ;
+    skos:altLabel "*" , "-" , "+" , "*/" , "*@" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F5899> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:5899" ;
+    skos:prefLabel "L0 F5899 (Moreover, Nonetheless, Consequently)" ;
+    skos:altLabel "Moreover" , "Nonetheless" , "Consequently" , "Sadly" , "Furthermore" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F6900> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:6900" ;
+    skos:prefLabel "L0 F6900 (:, :, ):)" ;
+    skos:altLabel ":" , ":" , "):" , ")" , "':" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F7283> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:7283" ;
+    skos:prefLabel "L0 F7283 (A, \", \"A)" ;
+    skos:altLabel "A" , "\"" , "\"A" , "*" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F8338> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:8338" ;
+    skos:prefLabel "L0 F8338 (,, ., :)" ;
+    skos:altLabel "," , "." , ":" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F9598> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:9598" ;
+    skos:prefLabel "L0 F9598" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F14403> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:14403" ;
+    skos:prefLabel "L0 F14403 (/or, consequently, 其它)" ;
+    skos:altLabel "/or" , "consequently" , "其它" , "elsewhere" , "furthermore" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F14929> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:14929" ;
+    skos:prefLabel "L0 F14929 (*, \", [)" ;
+    skos:altLabel "*" , "\"" , "[" , "A" , "The" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F16468> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:16468" ;
+    skos:prefLabel "L0 F16468 (www, ”—, �)" ;
+    skos:altLabel "www" , "”—" , "�" , "----------------" , "Vin" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F18738> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "0:18738" ;
+    skos:prefLabel "L0 F18738 (提, 第, 標)" ;
+    skos:altLabel "提" , "第" , "標" , "恒" , "生" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F4476> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:4476" ;
+    skos:prefLabel "L1 F4476 (:, ：, :)" ;
+    skos:altLabel ":" , "：" , ":" , ":" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F6501> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:6501" ;
+    skos:prefLabel "L1 F6501 (by, By, by)" ;
+    skos:altLabel "by" , "By" , "by" , "Posted" , "By" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F6580> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:6580" ;
+    skos:prefLabel "L1 F6580 (i, azz, �)" ;
+    skos:altLabel "i" , "azz" , "�" , "mana" , "ogi" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F6971> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:6971" ;
+    skos:prefLabel "L1 F6971 (-One, -Agent, _Mode)" ;
+    skos:altLabel "-One" , "-Agent" , "_Mode" , "-Length" , "_Point" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F8238> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:8238" ;
+    skos:prefLabel "L1 F8238 (ableObject, 免责声明, StdString)" ;
+    skos:altLabel "ableObject" , "免责声明" , "StdString" , "InputChange" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F13214> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:13214" ;
+    skos:prefLabel "L1 F13214 (acies, ika, ators)" ;
+    skos:altLabel "acies" , "ika" , "ators" , "omo" , "oma" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F14651> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:14651" ;
+    skos:prefLabel "L1 F14651 (”, .”, ，)" ;
+    skos:altLabel "”" , ".”" , "，" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F16820> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:16820" ;
+    skos:prefLabel "L1 F16820 (->__, .TODO, ISIS)" ;
+    skos:altLabel "->__" , ".TODO" , "ISIS" , "sö" , "瓜" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F20369> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "1:20369" ;
+    skos:prefLabel "L1 F20369 (yet, yet, ,)" ;
+    skos:altLabel "yet" , "yet" , "," , "Yet" , "registers" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F479> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:479" ;
+    skos:prefLabel "L2 F479 (<strong, tics, &T)" ;
+    skos:altLabel "<strong" , "tics" , "&T" , "<b" , "<button" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F795> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:795" ;
+    skos:prefLabel "L2 F795 (Met, Ther, Met)" ;
+    skos:altLabel "Met" , "Ther" , "Met" , "Knot" , "Gravity" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F1852> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:1852" ;
+    skos:prefLabel "L2 F1852 (ewith, ontology, ography)" ;
+    skos:altLabel "ewith" , "ontology" , "ography" , "inity" , "itional" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F2855> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:2855" ;
+    skos:prefLabel "L2 F2855 (–, ‒, /********************************************************)" ;
+    skos:altLabel "–" , "‒" , "/********************************************************" , "[…]" , "–" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F7984> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:7984" ;
+    skos:prefLabel "L2 F7984 (<?, ${, 【)" ;
+    skos:altLabel "<?" , "${" , "【" , "#__" , "{}\\" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F8184> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:8184" ;
+    skos:prefLabel "L2 F8184 (_voltage, _token, _price)" ;
+    skos:altLabel "_voltage" , "_token" , "_price" , "_cost" , "_logits" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F8533> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:8533" ;
+    skos:prefLabel "L2 F8533 (yne, phans, yh)" ;
+    skos:altLabel "yne" , "phans" , "yh" , "chy" , "chsel" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F9032> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:9032" ;
+    skos:prefLabel "L2 F9032 (ctions, 的年轻人, ADX)" ;
+    skos:altLabel "ctions" , "的年轻人" , "ADX" , "TPP" , "TPM" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F10375> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:10375" ;
+    skos:prefLabel "L2 F10375 (..., ..., …)" ;
+    skos:altLabel "..." , "..." , "…" , "...\"" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F11615> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:11615" ;
+    skos:prefLabel "L2 F11615 (**, //)" ;
+    skos:altLabel "**" , "//" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F12485> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:12485" ;
+    skos:prefLabel "L2 F12485 (ivr, ivol, ivid)" ;
+    skos:altLabel "ivr" , "ivol" , "ivid" , "ир" , "��" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F12514> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:12514" ;
+    skos:prefLabel "L2 F12514 (==, #, 全长)" ;
+    skos:altLabel "==" , "#" , "全长" , "=" , "+=" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F14338> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:14338" ;
+    skos:prefLabel "L2 F14338 (opération, marché, propriété)" ;
+    skos:altLabel "opération" , "marché" , "propriété" , "état" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F15409> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:15409" ;
+    skos:prefLabel "L2 F15409 (-O, /H, -Th)" ;
+    skos:altLabel "-O" , "/H" , "-Th" , "-C" , "-Tr" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F16632> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:16632" ;
+    skos:prefLabel "L2 F16632 ('+, /',, %\",)" ;
+    skos:altLabel "'+" , "/'," , "%\"," , "()," , "%'," ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F16800> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:16800" ;
+    skos:prefLabel "L2 F16800 (1)" ;
+    skos:altLabel "1" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F19119> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "2:19119" ;
+    skos:prefLabel "L2 F19119 ((b, (n, ()" ;
+    skos:altLabel "(b" , "(n" , "(" , "/b" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L3F6353> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "3:6353" ;
+    skos:prefLabel "L3 F6353 (\"%(, )\",\", ო)" ;
+    skos:altLabel "\"%(" , ")\",\"" , "ო" , "\",\"\"," , "წ" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L3F19547> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "3:19547" ;
+    skos:prefLabel "L3 F19547 (’est, /, loophole)" ;
+    skos:altLabel "’est" , "/" , "loophole" , "目標" , "IPL" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L4F3155> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "4:3155" ;
+    skos:prefLabel "L4 F3155 (äh, pedia, 开发者)" ;
+    skos:altLabel "äh" , "pedia" , "开发者" , "�认" , "相关" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L4F16198> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "4:16198" ;
+    skos:prefLabel "L4 F16198 (ByExample, -command, js)" ;
+    skos:altLabel "ByExample" , "-command" , "js" , "JS" , "Awesome" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L5F89> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "5:89" ;
+    skos:prefLabel "L5 F89 (Crypt, Pod, Git)" ;
+    skos:altLabel "Crypt" , "Pod" , "Git" , "Hack" , "Spell" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L5F486> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "5:486" ;
+    skos:prefLabel "L5 F486 (_RGB, Spell, _Pods)" ;
+    skos:altLabel "_RGB" , "Spell" , "_Pods" , ".java" , "RSA" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L5F3015> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "5:3015" ;
+    skos:prefLabel "L5 F3015 (�新, 版权归, �)" ;
+    skos:altLabel "�新" , "版权归" , "�" , "屡" , "插" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L5F7955> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "5:7955" ;
+    skos:prefLabel "L5 F7955 (chlor, phosph, progen)" ;
+    skos:altLabel "chlor" , "phosph" , "progen" , "methyl" , "nanop" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L5F17965> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "5:17965" ;
+    skos:prefLabel "L5 F17965 (0, �, vener)" ;
+    skos:altLabel "0" , "�" , "vener" , "今天" , "1" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L6F2203> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "6:2203" ;
+    skos:prefLabel "L6 F2203 (PHP, .js, /XML)" ;
+    skos:altLabel "PHP" , ".js" , "/XML" , "/mysql" , "/javascript" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L6F3236> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "6:3236" ;
+    skos:prefLabel "L6 F3236 (...\", ...\", ...')" ;
+    skos:altLabel "...\"" , "...\"" , "...'" , "..." , "...)" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L6F3605> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "6:3605" ;
+    skos:prefLabel "L6 F3605 (Views, views, viewers)" ;
+    skos:altLabel "Views" , "views" , "viewers" , "follower" , "Views" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L6F16046> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "6:16046" ;
+    skos:prefLabel "L6 F16046 (1, 0, 3)" ;
+    skos:altLabel "1" , "0" , "3" , "6" , "2" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L6F19403> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "6:19403" ;
+    skos:prefLabel "L6 F19403 (.io, .co, .IO)" ;
+    skos:altLabel ".io" , ".co" , ".IO" , ".xyz" , ".ai" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F7007> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:7007" ;
+    skos:prefLabel "L7 F7007 (IPC, Transport, IPC)" ;
+    skos:altLabel "IPC" , "Transport" , "IPC" , "WindowManager" , ".rpc" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F10825> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:10825" ;
+    skos:prefLabel "L7 F10825 (XML, Linux, Windows)" ;
+    skos:altLabel "XML" , "Linux" , "Windows" , "Linux" , "OpenGL" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F17981> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:17981" ;
+    skos:prefLabel "L7 F17981 (Confirmation, Parameter, Transition)" ;
+    skos:altLabel "Confirmation" , "Parameter" , "Transition" , "Execution" , "Validation" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F18233> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:18233" ;
+    skos:prefLabel "L7 F18233 (',, )',, )',)" ;
+    skos:altLabel "'," , ")'," , ")'," , ")**" , "}'." ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F19311> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:19311" ;
+    skos:prefLabel "L7 F19311 (ᴇ, ?',, Mé)" ;
+    skos:altLabel "ᴇ" , "?'," , "Mé" , "?\"," , "Gün" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F20148> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "7:20148" ;
+    skos:prefLabel "L7 F20148 (+, #, \\\"\");)" ;
+    skos:altLabel "+" , "#" , "\\\"\");" , "|" , "|" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L8F574> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "8:574" ;
+    skos:prefLabel "L8 F574 (?!, ?!, Fucking)" ;
+    skos:altLabel "?!" , "?!" , "Fucking" , "assh" , "!?" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L8F9689> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "8:9689" ;
+    skos:prefLabel "L8 F9689 (性能, 量子, 稀)" ;
+    skos:altLabel "性能" , "量子" , "稀" , "プログラ" , "Monte" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L8F12821> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "8:12821" ;
+    skos:prefLabel "L8 F12821 (Bias, Principle, Bias)" ;
+    skos:altLabel "Bias" , "Principle" , "Bias" , "Principles" , "指数" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L8F15611> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "8:15611" ;
+    skos:prefLabel "L8 F15611 (/ng, quete, ROID)" ;
+    skos:altLabel "/ng" , "quete" , "ROID" , "/count" , "dale" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L8F18420> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "8:18420" ;
+    skos:prefLabel "L8 F18420 (【, （, �)" ;
+    skos:altLabel "【" , "（" , "�" , "____" , "，" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F365> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:365" ;
+    skos:prefLabel "L9 F365 (�, �, �)" ;
+    skos:altLabel "�" , "�" , "�" , "�" , "�" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F560> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:560" ;
+    skos:prefLabel "L9 F560 (.”)" ;
+    skos:altLabel ".”" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F686> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:686" ;
+    skos:prefLabel "L9 F686 (返回搜狐, �, �)" ;
+    skos:altLabel "返回搜狐" , "�" , "�" , "内" , "注" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F924> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:924" ;
+    skos:prefLabel "L9 F924 (Commerce, .io, .ai)" ;
+    skos:altLabel "Commerce" , ".io" , ".ai" , "labs" , "Technologies" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F2407> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:2407" ;
+    skos:prefLabel "L9 F2407 (…, ..., ...\")" ;
+    skos:altLabel "…" , "..." , "...\"" , "..." , "…\"" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F5994> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:5994" ;
+    skos:prefLabel "L9 F5994 (:-, :!, :.)" ;
+    skos:altLabel ":-" , ":!" , ":." , ":['" , ":^" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F8260> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:8260" ;
+    skos:prefLabel "L9 F8260 (ersh, elight, swear)" ;
+    skos:altLabel "ersh" , "elight" , "swear" , "ancode" , "butto" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F10153> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "9:10153" ;
+    skos:prefLabel "L9 F10153 (旁, _SHA, Heap)" ;
+    skos:altLabel "旁" , "_SHA" , "Heap" , "可观" , "Rust" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F1009> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:1009" ;
+    skos:prefLabel "L10 F1009 (._, ., .')" ;
+    skos:altLabel "._" , "." , ".'" , "." , ".*" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F1186> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:1186" ;
+    skos:prefLabel "L10 F1186 (℠, LAB, Labs)" ;
+    skos:altLabel "℠" , "LAB" , "Labs" , ".Platform" , "®," ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F3486> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:3486" ;
+    skos:prefLabel "L10 F3486 ('/', ##, \"/\")" ;
+    skos:altLabel "'/'" , "##" , "\"/\"" , "::" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F4959> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:4959" ;
+    skos:prefLabel "L10 F4959 (点点头, 铎, arto)" ;
+    skos:altLabel "点点头" , "铎" , "arto" , "itura" , "ми" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F5640> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:5640" ;
+    skos:prefLabel "L10 F5640 (层, Layer, /loader)" ;
+    skos:altLabel "层" , "Layer" , "/loader" , "-proxy" , "/router" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#L10F7731> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:notation "10:7731" ;
+    skos:prefLabel "L10 F7731 (Highlights, Answers, Directions)" ;
+    skos:altLabel "Highlights" , "Answers" , "Directions" , ".LA" , ".RESULT" ;
+    skos:scopeNote "observed on 4 admitted items" ;
+    skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:prefLabel "Early-layer (lexical / local token) CLT activations" ;
+    skos:topConceptOf <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> skos:hasTopConcept <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
+    skos:prefLabel "Mid-layer (argument / structure) CLT activations" ;
+    skos:topConceptOf <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> .
+
+<https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> skos:hasTopConcept <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
+
