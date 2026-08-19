@@ -10,7 +10,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F254> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "0:254" ;
-    skos:prefLabel "L0 F254 (）, ..., 。)" ;
+    skos:prefLabel "Punctuation Marks" ;
     skos:altLabel "）" , "..." , "。" , "，" , ")" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
@@ -18,7 +18,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F537> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "0:537" ;
-    skos:prefLabel "L0 F537 (**, .)" ;
+    skos:prefLabel "example phrase" ;
     skos:altLabel "**" , "." ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
@@ -585,7 +585,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L9F8260> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "9:8260" ;
-    skos:prefLabel "L9 F8260 (ersh, elight, swear)" ;
+    skos:prefLabel "Temporal introduction replay" ;
     skos:altLabel "ersh" , "elight" , "swear" , "ancode" , "butto" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_mid> .
