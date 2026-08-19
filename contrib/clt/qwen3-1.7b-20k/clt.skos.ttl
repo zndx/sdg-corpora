@@ -201,7 +201,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F479> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "2:479" ;
-    skos:prefLabel "L2 F479 (<strong, tics, &T)" ;
+    skos:prefLabel "HTML markup" ;
     skos:altLabel "<strong" , "tics" , "&T" , "<b" , "<button" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
