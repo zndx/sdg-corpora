@@ -10,7 +10,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F254> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "0:254" ;
-    skos:prefLabel "Punctuation Marks" ;
+    skos:prefLabel "0:254" ;
     skos:altLabel "）" , "..." , "。" , "，" , ")" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
@@ -18,7 +18,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F537> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "0:537" ;
-    skos:prefLabel "example phrase" ;
+    skos:prefLabel "0:537" ;
     skos:altLabel "**" , "." ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
@@ -201,7 +201,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F479> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "2:479" ;
-    skos:prefLabel "HTML markup" ;
+    skos:prefLabel "2:479" ;
     skos:altLabel "<strong" , "tics" , "&T" , "<b" , "<button" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
