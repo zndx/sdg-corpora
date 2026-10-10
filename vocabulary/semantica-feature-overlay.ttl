@@ -1,0 +1,34 @@
+## ----------------------------------------------------------------------
+## Semantica feature overlay
+## ----------------------------------------------------------------------
+##
+## The generated vocabulary already has prefLabel, altLabel, notation,
+## definition, broader, and (on domain concepts) scopeNote. Semantica's
+## concept detail also reads hiddenLabel, editorialNote, related, and the
+## four SKOS mapping predicates. This file adds one concept that carries
+## those predicates so the panels can be exercised.
+##
+## Aegir should fold the same predicates into the SKOS generator
+## (scripts/build_skos_vocab.py and the domain-concept authoring step).
+## This file is the specimen, not a second vocabulary.
+##
+## License: Apache-2.0
+## ----------------------------------------------------------------------
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://signals.zndx.org/sdg#SemanticaFeatureProbe> a skos:Concept ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> ;
+    skos:broader <https://signals.zndx.org/sdg#LIMS> ;
+    skos:prefLabel "Semantica feature probe" ;
+    skos:altLabel "feature probe" ;
+    skos:hiddenLabel "hidden probe label" ;
+    skos:notation "9.9" ;
+    skos:definition "A synthetic concept that carries every lexical and mapping field the Semantica concept detail reads." ;
+    skos:scopeNote "Scope note stored for the Semantica scope-note panel." ;
+    skos:editorialNote "Editorial note. Aegir's SKOS generator should emit skos:editorialNote when a curator needs to record guidance that is not the definition." ;
+    skos:related <https://signals.zndx.org/sdg#LIMS_QUALITY_TRACEABILITY> ;
+    skos:exactMatch <https://signals.zndx.org/sdg#LIMS> ;
+    skos:closeMatch <https://signals.zndx.org/sdg#LIMS_ASSAY_EXECUTION> ;
+    skos:broadMatch <https://signals.zndx.org/sdg#LIMS_RESULT_INTERPRETATION> ;
+    skos:narrowMatch <https://signals.zndx.org/sdg#LIMS_SPECIMEN_LIFECYCLE> .

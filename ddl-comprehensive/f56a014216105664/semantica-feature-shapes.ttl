@@ -1,0 +1,39 @@
+## Shapes that select nodes Semantica actually stores.
+##
+## ddl-comprehensive shapes.ttl uses sh:targetClass on domain classes
+## (AIEngine, ALPARC, ...). Those shapes validate instances. Semantica's
+## OWL load keeps classes and properties, not named individuals, so the
+## generated file selects no focus nodes.
+##
+## Aegir's SHACL emit (realize_sdg.py via `kvasir shapes`) should also write
+## a profile whose targets are the SKOS concepts and TBox terms that get
+## loaded, or emit one exemplar individual per targetClass. This file is
+## that profile for the feature probe.
+##
+## Validate it against the concept scheme
+## (https://signals.zndx.org/sdg/scheme), not the OWL ontology IRI.
+## A concept that carries scheme_uri is owned by the scheme, so it is
+## absent from the ontology data graph and both minCounts fail there
+## even when the notation is stored. Against the scheme, the notation
+## shape conforms and the example shape reports the missing skos:example.
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://signals.zndx.org/sdg/shape/probe-notation>
+    a sh:NodeShape ;
+    sh:targetNode <https://signals.zndx.org/sdg#SemanticaFeatureProbe> ;
+    sh:property [
+        sh:path skos:notation ;
+        sh:minCount 1 ;
+    ] .
+
+<https://signals.zndx.org/sdg/shape/probe-example>
+    a sh:NodeShape ;
+    sh:targetNode <https://signals.zndx.org/sdg#SemanticaFeatureProbe> ;
+    sh:property [
+        sh:path skos:example ;
+        sh:minCount 1 ;
+        sh:name "example" ;
+        sh:message "Aegir does not emit skos:example, and Semantica's concept detail has no example field." ;
+    ] .
