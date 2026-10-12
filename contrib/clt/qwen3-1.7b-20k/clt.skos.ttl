@@ -257,7 +257,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L2F9032> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "2:9032" ;
-    skos:prefLabel "Lima Bean Agronomy" ;
+    skos:prefLabel "Environmental Contaminant" ;
     skos:altLabel "ctions" , "的年轻人" , "ADX" , "TPP" , "TPM" ;
     skos:scopeNote "observed on 4 admitted items" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
@@ -778,7 +778,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L0F16> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "0:16" ;
-    skos:prefLabel "two main perspectives" ;
+    skos:prefLabel "Dual Perspectives" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
 
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L1F13553> a skos:Concept ;
@@ -1120,7 +1120,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F17741> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "7:17741" ;
-    skos:prefLabel "GPU Accelerated Solvers" ;
+    skos:prefLabel "Quantum Circuit Simulation" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
 
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L7F13097> a skos:Concept ;
@@ -1138,7 +1138,7 @@
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L4F12011> a skos:Concept ;
     skos:inScheme <https://signals.zndx.org/clt/qwen3-1.7b-20k/scheme> ;
     skos:notation "4:12011" ;
-    skos:prefLabel "Communication Distance" ;
+    skos:prefLabel "Hybrid Attention Models" ;
     skos:broader <https://signals.zndx.org/clt/qwen3-1.7b-20k#band_early> .
 
 <https://signals.zndx.org/clt/qwen3-1.7b-20k#L4F12492> a skos:Concept ;
