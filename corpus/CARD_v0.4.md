@@ -97,8 +97,11 @@ published collection tables ships in `corpus/tagging/answer_key.csv`: join
 the OWL association the construct recorded when the table was realized.
 `reference_code` is the SKOS concept that association entails (`ref_basis` says
 which hop). A coined genus follows its recorded parent in the published ontology
-to a BFO/CCO anchor. A genus with no such anchor is `SDG.GENERIC`. An audit
-timestamp carries that same class code and an empty property IRI. A blind
+to a BFO/CCO anchor. A genus with no such anchor stays uncoded. `SDG.GENERIC`
+is not that stand-in: its children are not one structural kind, and a column
+receives a `SDG.GENERIC.*` code only when its recorded name is that concept.
+An audit timestamp carries the domain class's code when the class has an
+anchor, and an empty property IRI. A blind
 run must not read `corpus/tagging/`. Predict a code per column from its values;
 score against this key.
 

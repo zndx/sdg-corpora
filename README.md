@@ -43,10 +43,10 @@ is the SKOS concept that record entails:
 | `entity-leaf`, `fk-target` | the denoted class's name is already a vocabulary concept |
 | `genus-anchor`, `genus-name` | the denoted class's recorded genus is that anchor, or the genus's local name is itself a concept |
 | `genus-walk` | the genus is a coined class in the published ontology; the code is the BFO/CCO anchor on that class's recorded `SubClassOf` chain |
-| `genus-generic` | the ontology records the genus and does not place it under a specific anchor. The code is `SDG.GENERIC` |
+| `genus-unmapped` | the ontology records the genus and does not place it under a specific anchor. The code is empty. `SDG.GENERIC` is not a stand-in: that bucket's children are not one structural kind |
 | `leaf` | the attribute's property name is already a vocabulary concept |
 | `range-class`, `range-genus`, `range-name` | the attribute's restriction filler is another entity in the same construct; the code is that entity's concept or genus anchor. `genus` stays the domain class's genus; read the code off `range_iri` |
-| `domain-genus`, `domain-name`, `domain-walk`, `domain-generic` | an attribute, or an audit timestamp, whose property is not itself a concept. The code is the domain class's entailed anchor, a walked parent, or `SDG.GENERIC`. An audit timestamp still has an empty `property_iri` |
+| `domain-genus`, `domain-name`, `domain-walk` | an attribute, or an audit timestamp, whose property is not itself a concept. The code is the domain class's entailed anchor or a walked parent. An audit timestamp still has an empty `property_iri`. The same unanchored genus is `genus-unmapped` |
 
 `summary.json` counts the basis mix. Regenerate from the matching construct run
 with `just emit-column-answer-key` in aegir.

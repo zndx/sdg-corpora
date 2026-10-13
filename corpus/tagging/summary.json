@@ -1,8 +1,8 @@
 {
   "n_collections": 453,
   "n_columns": 26446,
-  "n_with_code": 26446,
-  "n_unresolved": 0,
+  "n_with_code": 26239,
+  "n_unresolved": 207,
   "n_with_class_iri": 26446,
   "n_with_property_iri": 20741,
   "by_role": {
@@ -12,22 +12,42 @@
     "sdg:SurrogateIdentifierColumn": 2405
   },
   "by_basis": {
-    "domain-generic": 135,
     "domain-genus": 11477,
     "domain-name": 488,
     "domain-walk": 3693,
     "entity-leaf": 173,
     "fk-target": 613,
     "genus-anchor": 6699,
-    "genus-generic": 72,
     "genus-name": 350,
+    "genus-unmapped": 207,
     "genus-walk": 2176,
     "leaf": 565,
     "range-class": 1,
     "range-genus": 4
   },
-  "n_unresolved_concepts": 0,
-  "unresolved_concepts_top": [],
+  "n_unresolved_concepts": 5,
+  "unresolved_concepts_top": [
+    {
+      "concept": "bfo:00000995",
+      "n": 145
+    },
+    {
+      "concept": "bfo:0000003",
+      "n": 33
+    },
+    {
+      "concept": "bfo:0000001",
+      "n": 14
+    },
+    {
+      "concept": "bfo:00000958",
+      "n": 10
+    },
+    {
+      "concept": "bfo:0000155",
+      "n": 5
+    }
+  ],
   "source_run": "corpus-v06",
   "vocab_codes": 1036
 }
