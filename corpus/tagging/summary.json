@@ -1,183 +1,174 @@
 {
   "n_collections": 453,
   "n_columns": 26446,
-  "n_with_code": 8456,
-  "n_unresolved": 17990,
+  "n_with_code": 19836,
+  "n_unresolved": 6610,
+  "n_with_class_iri": 26446,
+  "n_with_property_iri": 20741,
   "by_role": {
-    "sdg:AttributeColumn": 15253,
+    "sdg:AttributeColumn": 15658,
     "sdg:AuditTimestampColumn": 705,
     "sdg:ForeignKeyColumn": 7678,
-    "sdg:SurrogateIdentifierColumn": 2810
+    "sdg:SurrogateIdentifierColumn": 2405
   },
   "by_basis": {
-    "entity-leaf": 195,
-    "fk-target": 606,
-    "genus-anchor": 6733,
-    "genus-name": 357,
+    "audit-unclaimed": 705,
+    "domain-genus": 10971,
+    "domain-name": 460,
+    "entity-leaf": 173,
+    "fk-target": 613,
+    "genus-anchor": 6699,
+    "genus-name": 350,
+    "genus-unmapped": 5905,
     "leaf": 565,
-    "unresolved": 17990
+    "range-class": 1,
+    "range-genus": 4
   },
-  "n_unresolved_concepts": 8325,
+  "n_unresolved_concepts": 36,
   "unresolved_concepts_top": [
     {
-      "concept": "status",
-      "n": 442
+      "concept": "sdg:EducationalEntity",
+      "n": 721
     },
     {
-      "concept": "created",
-      "n": 435
+      "concept": "sdg:HealthcareEntity",
+      "n": 298
     },
     {
-      "concept": "updated",
-      "n": 269
+      "concept": "sdg:DiningPackage",
+      "n": 295
     },
     {
-      "concept": "name",
+      "concept": "sdg:GeographicEntity",
+      "n": 266
+    },
+    {
+      "concept": "sdg:ResearchEntity",
+      "n": 245
+    },
+    {
+      "concept": "sdg:Program",
+      "n": 229
+    },
+    {
+      "concept": "sdg:CommunityEntity",
+      "n": 203
+    },
+    {
+      "concept": "sdg:Book",
+      "n": 199
+    },
+    {
+      "concept": "sdg:Record",
+      "n": 199
+    },
+    {
+      "concept": "sdg:CompetitionEntity",
+      "n": 199
+    },
+    {
+      "concept": "sdg:Entity",
+      "n": 195
+    },
+    {
+      "concept": "sdg:FinancialEntity",
+      "n": 192
+    },
+    {
+      "concept": "sdg:Document",
+      "n": 189
+    },
+    {
+      "concept": "sdg:AssessmentTool",
       "n": 183
     },
     {
-      "concept": "fullName",
-      "n": 179
+      "concept": "sdg:NetworkEntity",
+      "n": 183
     },
     {
-      "concept": "startDate",
+      "concept": "sdg:Resource",
+      "n": 180
+    },
+    {
+      "concept": "sdg:Report",
+      "n": 169
+    },
+    {
+      "concept": "sdg:SecuritySystemComponent",
+      "n": 162
+    },
+    {
+      "concept": "sdg:SecurityAndSafetyMeasure",
       "n": 155
     },
     {
-      "concept": "endDate",
+      "concept": "sdg:DataEntity",
+      "n": 144
+    },
+    {
+      "concept": "sdg:LegalEntity",
+      "n": 142
+    },
+    {
+      "concept": "sdg:ProgramActivity",
+      "n": 142
+    },
+    {
+      "concept": "bfo:00000995",
+      "n": 142
+    },
+    {
+      "concept": "sdg:Event",
+      "n": 139
+    },
+    {
+      "concept": "sdg:RegulatoryComplianceConcept",
+      "n": 134
+    },
+    {
+      "concept": "sdg:GovernmentPolicy",
       "n": 133
     },
     {
-      "concept": "title",
-      "n": 87
+      "concept": "sdg:System",
+      "n": 127
     },
     {
-      "concept": "description",
-      "n": 72
+      "concept": "sdg:TheologicalConcept",
+      "n": 124
     },
     {
-      "concept": "contactEmail",
-      "n": 57
+      "concept": "sdg:Authority",
+      "n": 119
     },
     {
-      "concept": "category",
-      "n": 54
-    },
-    {
-      "concept": "type",
-      "n": 53
-    },
-    {
-      "concept": "students",
-      "n": 52
-    },
-    {
-      "concept": "department",
-      "n": 46
-    },
-    {
-      "concept": "establishedDate",
-      "n": 46
-    },
-    {
-      "concept": "dateOfBirth",
-      "n": 46
-    },
-    {
-      "concept": "contactPhone",
-      "n": 44
-    },
-    {
-      "concept": "issueDate",
-      "n": 44
-    },
-    {
-      "concept": "city",
-      "n": 42
-    },
-    {
-      "concept": "firstName",
-      "n": 40
-    },
-    {
-      "concept": "employmentStatus",
-      "n": 40
-    },
-    {
-      "concept": "operationalStatus",
-      "n": 39
-    },
-    {
-      "concept": "lastName",
-      "n": 38
-    },
-    {
-      "concept": "programName",
-      "n": 37
-    },
-    {
-      "concept": "region",
-      "n": 37
-    },
-    {
-      "concept": "legalName",
-      "n": 36
-    },
-    {
-      "concept": "version",
-      "n": 35
-    },
-    {
-      "concept": "price",
-      "n": 35
-    },
-    {
-      "concept": "submissionDate",
-      "n": 34
-    },
-    {
-      "concept": "severityLevel",
-      "n": 34
-    },
-    {
-      "concept": "emailAddress",
+      "concept": "bfo:0000003",
       "n": 31
     },
     {
-      "concept": "lastUpdated",
-      "n": 31
+      "concept": "bfo:0000030",
+      "n": 22
     },
     {
-      "concept": "foundingYear",
-      "n": 30
+      "concept": "bfo:0000001",
+      "n": 13
     },
     {
-      "concept": "address",
-      "n": 30
+      "concept": "bfo:0000141",
+      "n": 10
     },
     {
-      "concept": "publicationDate",
-      "n": 28
+      "concept": "bfo:0000017",
+      "n": 8
     },
     {
-      "concept": "appointmentDate",
-      "n": 27
+      "concept": "bfo:00000958",
+      "n": 8
     },
     {
-      "concept": "registrationDate",
-      "n": 27
-    },
-    {
-      "concept": "specialization",
-      "n": 27
-    },
-    {
-      "concept": "Student",
-      "n": 26
-    },
-    {
-      "concept": "establishmentDate",
-      "n": 26
+      "concept": "bfo:0000155",
+      "n": 5
     }
   ],
   "source_run": "corpus-v06",

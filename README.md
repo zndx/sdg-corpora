@@ -27,16 +27,29 @@ every published collection table. Join on `collection`, `table`, `column`.
 | column | meaning |
 |---|---|
 | `role` | `sdg:SurrogateIdentifierColumn`, `sdg:ForeignKeyColumn`, `sdg:AttributeColumn`, or `sdg:AuditTimestampColumn` |
-| `concept` | the generator's recorded concept for the column |
+| `class_iri` | OWL class the column is grounded in: the table's realized class, or the referenced class for a foreign key |
+| `property_iri` | OWL property the generator assigned. Empty for a surrogate identifier, and for an audit timestamp (no property is asserted) |
+| `range_iri` | Manchester restriction filler (`xsd:*` or a class). For a foreign key or surrogate identifier, the class the values denote |
+| `genus` | recorded genus of `class_iri` |
 | `reference_code` | a code in `vocabulary/annotations.csv`, or empty |
-| `ref_basis` | how the code was obtained: `leaf`, `entity-leaf`, `fk-target`, `genus-anchor`, `genus-name`, or `unresolved` |
+| `ref_basis` | which recorded link produced the code (below) |
 
-A code is written only when a recorded link already names a vocabulary concept:
-the column concept for an attribute, or the designated entity (its class, else its
-BFO/CCO genus anchor) for an identifier or foreign key. Unresolved rows keep the
-concept, the structural role, the entity, and the genus — they do not receive an
-invented code. `summary.json` counts the basis mix. Regenerate from the matching
-construct run with `just emit-column-answer-key` in aegir.
+The association is the construct's own OWL record (key plan → class, Manchester
+restriction → property and range), not a guess from the column name. `reference_code`
+is the SKOS concept that record entails:
+
+| `ref_basis` | code |
+|---|---|
+| `entity-leaf`, `fk-target` | the denoted class's name is already a vocabulary concept |
+| `genus-anchor`, `genus-name` | the denoted class's recorded genus entails that anchor, or the genus's local name is itself a concept |
+| `leaf` | the attribute's property name is already a vocabulary concept |
+| `range-class`, `range-genus`, `range-name` | the attribute's restriction filler is another entity in the same construct; the code is that entity's concept or genus anchor. `genus` stays the domain class's genus; read the code off `range_iri` |
+| `domain-genus`, `domain-name` | an attribute whose property is not itself a concept; the code is the domain class's entailed anchor. `property_iri` remains the column's own identity |
+| `genus-unmapped` | a genus was recorded (often a coined `sdg:` parent) and it is not a vocabulary concept. The genus IRI is the parent; no code is invented |
+| `audit-unclaimed` | an audit timestamp. The generator asserts no property. `class_iri` is still the table's class |
+
+`summary.json` counts the basis mix. Regenerate from the matching construct run
+with `just emit-column-answer-key` in aegir.
 
 A **blind** classification run must not read this directory. Downstream training
 and scoring should. The separate opaque-id DDL release
