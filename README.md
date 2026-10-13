@@ -12,6 +12,7 @@ reproducible convergence snapshot** of the whole derivation chain — ontology �
 | `vocabulary/` | `annotations.{csv,parquet}` (Atelier ReferenceCategory) + `vocabulary.ttl` (SKOS) | the shared type-system key, **derived** from the ontology |
 | `ddl/`        | deterministic relational footprint (CREATE TABLEs + cross-family FKs) | the schema |
 | `corpus/`     | generated textbook documents + populated relational tables (views on the footprint) | the data *(added by generation runs)* |
+| `corpus/tagging/` | `answer_key.{csv,parquet}` — one row per published column | the CTA/SKOS answer key for downstream training and scoring |
 
 ## The SKOS vocabulary (`vocabulary/`)
 **548 concepts**: 7 BFO/CCO upper anchors (`bfo:Process`, `cco:Artifact`, `cco:*ICE`, …) + 540
@@ -19,12 +20,28 @@ template leaves — hierarchical (`code` / `notation` / `label` / `abbrev` / `pa
 `description`). It is *grounded*: the codes **are** the ontology (`bfo_anchor_path` → hierarchy;
 template → leaf). Regenerate via `aegir/scripts/build_skos_vocab.py`.
 
-## Releases (for Atelier's git data source)
-A tagged release packages `vocabulary/annotations.parquet` + `ontology/` + the populated DDL
-tables — **without** the per-column reference codes. Atelier pins the release and classifies
-columns into the SKOS vocabulary **blind** (values + vocab only); the reference (column→code,
-deterministic from the spine) is held back as the scoring key → independent, pre-training
-efficacy feedback on the corpus, and a clean measure of Aegir's downstream lift over it.
+## Column answer key (`corpus/tagging/`)
+`answer_key.csv` (and the parquet twin) is the relational CTA/SKOS ground truth for
+every published collection table. Join on `collection`, `table`, `column`.
+
+| column | meaning |
+|---|---|
+| `role` | `sdg:SurrogateIdentifierColumn`, `sdg:ForeignKeyColumn`, `sdg:AttributeColumn`, or `sdg:AuditTimestampColumn` |
+| `concept` | the generator's recorded concept for the column |
+| `reference_code` | a code in `vocabulary/annotations.csv`, or empty |
+| `ref_basis` | how the code was obtained: `leaf`, `entity-leaf`, `fk-target`, `genus-anchor`, `genus-name`, or `unresolved` |
+
+A code is written only when a recorded link already names a vocabulary concept:
+the column concept for an attribute, or the designated entity (its class, else its
+BFO/CCO genus anchor) for an identifier or foreign key. Unresolved rows keep the
+concept, the structural role, the entity, and the genus — they do not receive an
+invented code. `summary.json` counts the basis mix. Regenerate from the matching
+construct run with `just emit-column-answer-key` in aegir.
+
+A **blind** classification run must not read this directory. Downstream training
+and scoring should. The separate opaque-id DDL release
+(`aegir/scripts/build_atelier_release.py`) still keeps its own `reference.parquet`
+beside that blind surface; this key is the collection-keyed one.
 
 ## Loading the relational corpus into PostgreSQL
 

@@ -67,6 +67,45 @@ check:
     else
         echo "· rdflib unavailable — parse check skipped (file checks only)"
     fi
+    python3 - << 'PY'
+import csv, json, sys
+from pathlib import Path
+root = Path(".")
+key_path = root / "corpus/tagging/answer_key.csv"
+vocab_path = root / "vocabulary/annotations.csv"
+if not key_path.is_file():
+    print("✗ corpus/tagging/answer_key.csv MISSING"); sys.exit(1)
+codes = set()
+with vocab_path.open(newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row.get("code"):
+            codes.add(row["code"])
+seen = {}
+with key_path.open(newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        key = (row["collection"], row["table"], row["column"])
+        if key in seen:
+            print("✗ duplicate answer-key row", key); sys.exit(1)
+        code = row.get("reference_code") or ""
+        if code and code not in codes:
+            print("✗ answer-key code not in vocabulary:", code); sys.exit(1)
+        if bool(code) == (row.get("ref_basis") == "unresolved"):
+            print("✗ answer-key basis/code disagree", key); sys.exit(1)
+        seen[key] = int(row["ordinal"])
+n = 0
+for manifest_path in sorted((root / "corpus/collections").glob("*/manifest.json")):
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    slug = manifest_path.parent.name
+    for spec in manifest.get("tables") or []:
+        for ordinal, column in enumerate(spec.get("columns") or []):
+            n += 1
+            key = (slug, spec["name"], column)
+            if seen.get(key) != ordinal:
+                print("✗ answer key missing or mis-ordered", key); sys.exit(1)
+if len(seen) != n:
+    print(f"✗ answer key has {len(seen)} rows; manifests have {n}"); sys.exit(1)
+print(f"✓ corpus/tagging/answer_key.csv covers {n} columns; codes ⊆ vocabulary")
+PY
     [ "$ok" = "1" ] && echo "STANDALONE: OK" || { echo "STANDALONE: FAILED"; exit 1; }
 
 # Loading the release in Protégé.

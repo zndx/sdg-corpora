@@ -91,10 +91,12 @@ Headline: **1,977 chapters · 4,116 relational tables · 11.3M corpus tokens**, 
 
 ## The column-classification benchmark (`columns`)
 
-A **blind** task: each column carries sampled values plus opaque `table_id`/`column_id` — no table
-names, template ids, or labels. The label space is `vocabulary` (the SKOS codes). Per-column
-ground-truth (column → SKOS code) is **held out** as the answer key. Predict a code per column from
-its values; request scoring against the held-out key.
+The label space is `vocabulary` (the SKOS codes). Per-column ground truth for the
+published collection tables ships in `corpus/tagging/answer_key.csv`: join
+`collection` / `table` / `column` to `reference_code`. The code is a recorded link
+from the generator concept or the entity genus into that vocabulary (`ref_basis`
+says which). A blind run must not read `corpus/tagging/`. Predict a code per column
+from its values; score against this key.
 
 ## Reasoning / agent traces
 
