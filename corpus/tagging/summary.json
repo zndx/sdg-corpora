@@ -1,8 +1,8 @@
 {
   "n_collections": 453,
   "n_columns": 26446,
-  "n_with_code": 19836,
-  "n_unresolved": 6610,
+  "n_with_code": 26446,
+  "n_unresolved": 0,
   "n_with_class_iri": 26446,
   "n_with_property_iri": 20741,
   "by_role": {
@@ -12,165 +12,22 @@
     "sdg:SurrogateIdentifierColumn": 2405
   },
   "by_basis": {
-    "audit-unclaimed": 705,
-    "domain-genus": 10971,
-    "domain-name": 460,
+    "domain-generic": 135,
+    "domain-genus": 11477,
+    "domain-name": 488,
+    "domain-walk": 3693,
     "entity-leaf": 173,
     "fk-target": 613,
     "genus-anchor": 6699,
+    "genus-generic": 72,
     "genus-name": 350,
-    "genus-unmapped": 5905,
+    "genus-walk": 2176,
     "leaf": 565,
     "range-class": 1,
     "range-genus": 4
   },
-  "n_unresolved_concepts": 36,
-  "unresolved_concepts_top": [
-    {
-      "concept": "sdg:EducationalEntity",
-      "n": 721
-    },
-    {
-      "concept": "sdg:HealthcareEntity",
-      "n": 298
-    },
-    {
-      "concept": "sdg:DiningPackage",
-      "n": 295
-    },
-    {
-      "concept": "sdg:GeographicEntity",
-      "n": 266
-    },
-    {
-      "concept": "sdg:ResearchEntity",
-      "n": 245
-    },
-    {
-      "concept": "sdg:Program",
-      "n": 229
-    },
-    {
-      "concept": "sdg:CommunityEntity",
-      "n": 203
-    },
-    {
-      "concept": "sdg:Book",
-      "n": 199
-    },
-    {
-      "concept": "sdg:Record",
-      "n": 199
-    },
-    {
-      "concept": "sdg:CompetitionEntity",
-      "n": 199
-    },
-    {
-      "concept": "sdg:Entity",
-      "n": 195
-    },
-    {
-      "concept": "sdg:FinancialEntity",
-      "n": 192
-    },
-    {
-      "concept": "sdg:Document",
-      "n": 189
-    },
-    {
-      "concept": "sdg:AssessmentTool",
-      "n": 183
-    },
-    {
-      "concept": "sdg:NetworkEntity",
-      "n": 183
-    },
-    {
-      "concept": "sdg:Resource",
-      "n": 180
-    },
-    {
-      "concept": "sdg:Report",
-      "n": 169
-    },
-    {
-      "concept": "sdg:SecuritySystemComponent",
-      "n": 162
-    },
-    {
-      "concept": "sdg:SecurityAndSafetyMeasure",
-      "n": 155
-    },
-    {
-      "concept": "sdg:DataEntity",
-      "n": 144
-    },
-    {
-      "concept": "sdg:LegalEntity",
-      "n": 142
-    },
-    {
-      "concept": "sdg:ProgramActivity",
-      "n": 142
-    },
-    {
-      "concept": "bfo:00000995",
-      "n": 142
-    },
-    {
-      "concept": "sdg:Event",
-      "n": 139
-    },
-    {
-      "concept": "sdg:RegulatoryComplianceConcept",
-      "n": 134
-    },
-    {
-      "concept": "sdg:GovernmentPolicy",
-      "n": 133
-    },
-    {
-      "concept": "sdg:System",
-      "n": 127
-    },
-    {
-      "concept": "sdg:TheologicalConcept",
-      "n": 124
-    },
-    {
-      "concept": "sdg:Authority",
-      "n": 119
-    },
-    {
-      "concept": "bfo:0000003",
-      "n": 31
-    },
-    {
-      "concept": "bfo:0000030",
-      "n": 22
-    },
-    {
-      "concept": "bfo:0000001",
-      "n": 13
-    },
-    {
-      "concept": "bfo:0000141",
-      "n": 10
-    },
-    {
-      "concept": "bfo:0000017",
-      "n": 8
-    },
-    {
-      "concept": "bfo:00000958",
-      "n": 8
-    },
-    {
-      "concept": "bfo:0000155",
-      "n": 5
-    }
-  ],
+  "n_unresolved_concepts": 0,
+  "unresolved_concepts_top": [],
   "source_run": "corpus-v06",
   "vocab_codes": 1036
 }

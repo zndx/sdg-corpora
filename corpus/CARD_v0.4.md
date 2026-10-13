@@ -96,10 +96,9 @@ published collection tables ships in `corpus/tagging/answer_key.csv`: join
 `collection` / `table` / `column`. `class_iri`, `property_iri`, and `range_iri` are
 the OWL association the construct recorded when the table was realized.
 `reference_code` is the SKOS concept that association entails (`ref_basis` says
-which hop). A property that is not itself a vocabulary concept carries the domain
-class's genus anchor (`domain-genus`), or the filler entity's anchor when the
-restriction points at another entity (`range-genus`). The property IRI stays on
-the row. A blind
+which hop). A coined genus follows its recorded parent in the published ontology
+to a BFO/CCO anchor. A genus with no such anchor is `SDG.GENERIC`. An audit
+timestamp carries that same class code and an empty property IRI. A blind
 run must not read `corpus/tagging/`. Predict a code per column from its values;
 score against this key.
 
