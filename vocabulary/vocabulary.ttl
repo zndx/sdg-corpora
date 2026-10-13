@@ -10499,6 +10499,436 @@
     skos:broader <https://signals.zndx.org/sdg#DOM_SCHEMA_EVOLUTION> ;
     skos:inScheme <https://signals.zndx.org/sdg/scheme> .
 
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> a skos:Concept ;
+    skos:prefLabel "Agent organization" ;
+    skos:notation "2.2.K1" ;
+    skos:altLabel "AGENT_ORGANIZATION" ;
+    skos:altLabel "operating company" ;
+    skos:altLabel "public agency" ;
+    skos:altLabel "partner organization" ;
+    skos:altLabel "department" ;
+    skos:definition "A group of agents that has members and a set of organizational rules, and that can bear roles. An operating company, a public agency, a partner media organization, and a department that is itself organized are agent organizations. A collection of agents with no organizational rules is an agent group. A human being is a covered person, an enrolled participant, or a service recipient." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_BUS_OPERATOR> a skos:Concept ;
+    skos:prefLabel "Bus operator" ;
+    skos:notation "2.2.K1.1" ;
+    skos:altLabel "BUS_OPERATOR" ;
+    skos:altLabel "BusOperator" ;
+    skos:definition "A commercial transportation organization that operates buses." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_GOVERNMENT_AGENCY> a skos:Concept ;
+    skos:prefLabel "Government agency" ;
+    skos:notation "2.2.K1.2" ;
+    skos:altLabel "GOVERNMENT_AGENCY" ;
+    skos:altLabel "GovernmentAgency" ;
+    skos:definition "A public institution organized as an agency, with members and institutional rules." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_MEDIA_PARTNER> a skos:Concept ;
+    skos:prefLabel "Media partner" ;
+    skos:notation "2.2.K1.3" ;
+    skos:altLabel "MEDIA_PARTNER" ;
+    skos:altLabel "MediaPartner" ;
+    skos:definition "A media organization that partners with a research firm." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_DEPARTMENT> a skos:Concept ;
+    skos:prefLabel "Department" ;
+    skos:notation "2.2.K1.4" ;
+    skos:altLabel "DEPARTMENT" ;
+    skos:altLabel "Department" ;
+    skos:definition "A functional unit within an organization, with members and the rules of that unit." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP> a skos:Concept ;
+    skos:prefLabel "Agent group" ;
+    skos:notation "2.2.K2" ;
+    skos:altLabel "AGENT_GROUP" ;
+    skos:altLabel "team" ;
+    skos:altLabel "control group" ;
+    skos:altLabel "participant group" ;
+    skos:definition "An object aggregate whose member parts are agents and that has no set of organizational rules. A team of players and a control group of trial participants are agent groups. A company, an agency, or a department with members and organizational rules is an agent organization." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP_TEAM> a skos:Concept ;
+    skos:prefLabel "Team" ;
+    skos:notation "2.2.K2.1" ;
+    skos:altLabel "TEAM" ;
+    skos:altLabel "Team" ;
+    skos:definition "A group of players fielded together, without the rules of an organization." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP_CONTROL_GROUP> a skos:Concept ;
+    skos:prefLabel "Control group" ;
+    skos:notation "2.2.K2.2" ;
+    skos:altLabel "CONTROL_GROUP" ;
+    skos:altLabel "ControlGroup" ;
+    skos:definition "A group of clinical-trial participants held as the comparison aggregate." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_COVERED_PERSON> a skos:Concept ;
+    skos:prefLabel "Covered person" ;
+    skos:notation "2.2.K3" ;
+    skos:altLabel "COVERED_PERSON" ;
+    skos:altLabel "eligible individual" ;
+    skos:altLabel "covered employee" ;
+    skos:altLabel "dependent" ;
+    skos:altLabel "early retiree" ;
+    skos:definition "A person a health plan's coverage is about, including an employee, a dependent, and an early retiree. The covered person is the human continuant. An organization that holds the policy is an agent organization. A person registered for a program is an enrolled participant." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_COVERED_PERSON_ELIGIBLE_INDIVIDUAL> a skos:Concept ;
+    skos:prefLabel "Eligible individual" ;
+    skos:notation "2.2.K3.1" ;
+    skos:altLabel "ELIGIBLE_INDIVIDUAL" ;
+    skos:altLabel "EligibleIndividual" ;
+    skos:definition "A person who qualifies for coverage under a health plan, including an employee, a dependent, or an early retiree." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_COVERED_PERSON> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_ENROLLED_PARTICIPANT> a skos:Concept ;
+    skos:prefLabel "Enrolled participant" ;
+    skos:notation "2.2.K4" ;
+    skos:altLabel "ENROLLED_PARTICIPANT" ;
+    skos:altLabel "program participant" ;
+    skos:altLabel "attendee" ;
+    skos:altLabel "registrant" ;
+    skos:definition "A person registered for or attending a program. A person a health plan covers is a covered person. A person assisting instruction, in that circumstance, bears an instructional assistant role." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_ENROLLED_PARTICIPANT_PARTICIPANT> a skos:Concept ;
+    skos:prefLabel "Participant" ;
+    skos:notation "2.2.K4.1" ;
+    skos:altLabel "PARTICIPANT" ;
+    skos:altLabel "Participant" ;
+    skos:definition "A person registered for or attending a program." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_ENROLLED_PARTICIPANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_SERVICE_RECIPIENT> a skos:Concept ;
+    skos:prefLabel "Service recipient" ;
+    skos:notation "2.2.K5" ;
+    skos:altLabel "SERVICE_RECIPIENT" ;
+    skos:altLabel "coaching client" ;
+    skos:altLabel "person receiving a service" ;
+    skos:definition "A person who receives a service directed at that person, such as coaching: the record names the person, the occupation, and the need. An agent that receives a financial product advice service remains SDG.MATERIAL_ENTITY.CLIENT. The organization that provides the service is an agent organization." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_SERVICE_RECIPIENT_COACHING_CLIENT> a skos:Concept ;
+    skos:prefLabel "Coaching client" ;
+    skos:notation "2.2.K5.1" ;
+    skos:altLabel "COACHING_CLIENT" ;
+    skos:altLabel "CoachingClient" ;
+    skos:definition "A person who receives coaching. The published coaching tables name this class Client; this example covers that unanchored class and does not subclass the financial-advice client." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_SERVICE_RECIPIENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ROLE_INSTRUCTIONAL_ASSISTANT> a skos:Concept ;
+    skos:prefLabel "Instructional assistant" ;
+    skos:notation "5.K1" ;
+    skos:altLabel "INSTRUCTIONAL_ASSISTANT" ;
+    skos:altLabel "teaching assistant" ;
+    skos:altLabel "graduate assistant" ;
+    skos:definition "A role realized in assisting instruction, borne by a person in the circumstances of a course. A teaching assistant bears this role. The person continuant, apart from the role, is an enrolled participant or another person kind. A faculty appointment is a separate role." ;
+    skos:broader <https://signals.zndx.org/sdg#ROLE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ROLE_INSTRUCTIONAL_ASSISTANT_TEACHING_ASSISTANT> a skos:Concept ;
+    skos:prefLabel "Teaching assistant" ;
+    skos:notation "5.K1.1" ;
+    skos:altLabel "TEACHING_ASSISTANT" ;
+    skos:altLabel "TeachingAssistant" ;
+    skos:definition "A role, often borne by a graduate student, realized in assisting faculty with instruction." ;
+    skos:broader <https://signals.zndx.org/sdg#ROLE_INSTRUCTIONAL_ASSISTANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_PURPOSE_FACILITY> a skos:Concept ;
+    skos:prefLabel "Purpose facility" ;
+    skos:notation "2.1.K1" ;
+    skos:altLabel "PURPOSE_FACILITY" ;
+    skos:altLabel "program building" ;
+    skos:altLabel "campus" ;
+    skos:altLabel "host facility" ;
+    skos:definition "A material artifact designed as a building or campus dedicated to a purpose, and used to host a program. A room demarcated inside that building is a functional space. A piece of equipment kept there is material equipment. A place designated as a stop on a route is a route stop." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_PURPOSE_FACILITY_FACILITY> a skos:Concept ;
+    skos:prefLabel "Purpose-built facility" ;
+    skos:notation "2.1.K1.1" ;
+    skos:altLabel "FACILITY" ;
+    skos:altLabel "Facility" ;
+    skos:definition "A building or campus where programs are hosted." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT_PURPOSE_FACILITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_ROUTE_STOP> a skos:Concept ;
+    skos:prefLabel "Route stop" ;
+    skos:notation "2.1.K2" ;
+    skos:altLabel "ROUTE_STOP" ;
+    skos:altLabel "pickup zone" ;
+    skos:altLabel "bus stop" ;
+    skos:altLabel "designated stop" ;
+    skos:definition "A facility or a residential estate designated as a stop on a route, such as a pickup zone. The building where a program is hosted is a purpose facility. The route the stop belongs to is a separate entity." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_ROUTE_STOP_PICKUP_ZONE> a skos:Concept ;
+    skos:prefLabel "Pickup zone" ;
+    skos:notation "2.1.K2.1" ;
+    skos:altLabel "PICKUP_ZONE" ;
+    skos:altLabel "PickupZone" ;
+    skos:definition "A residential building or estate designated as a stop on a bus route." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT_ROUTE_STOP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_FUNCTIONAL_SPACE> a skos:Concept ;
+    skos:prefLabel "Functional space" ;
+    skos:notation "2.2.K6" ;
+    skos:altLabel "FUNCTIONAL_SPACE" ;
+    skos:altLabel "room" ;
+    skos:altLabel "functional room" ;
+    skos:definition "A fiat object part of a purpose facility: a space such as a room, demarcated within the building by fiat surfaces and a continuant part of that facility. The building itself is a purpose facility. Equipment placed in the space is material equipment." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#MATERIAL_ENTITY_FUNCTIONAL_SPACE_ROOM> a skos:Concept ;
+    skos:prefLabel "Room" ;
+    skos:notation "2.2.K6.1" ;
+    skos:altLabel "ROOM" ;
+    skos:altLabel "Room" ;
+    skos:definition "A functional space within a facility." ;
+    skos:broader <https://signals.zndx.org/sdg#MATERIAL_ENTITY_FUNCTIONAL_SPACE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_MATERIAL_EQUIPMENT> a skos:Concept ;
+    skos:prefLabel "Material equipment" ;
+    skos:notation "2.1.K3" ;
+    skos:altLabel "MATERIAL_EQUIPMENT" ;
+    skos:altLabel "equipment" ;
+    skos:altLabel "apparatus" ;
+    skos:definition "A material artifact that is a piece of equipment used in a place, such as a mat or a changing table. The building it is used in is a purpose facility. A room of that building is a functional space." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_MATERIAL_EQUIPMENT_EQUIPMENT> a skos:Concept ;
+    skos:prefLabel "Equipment item" ;
+    skos:notation "2.1.K3.1" ;
+    skos:altLabel "EQUIPMENT" ;
+    skos:altLabel "Equipment" ;
+    skos:definition "A physical item of equipment, such as a mat or a changing table." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT_MATERIAL_EQUIPMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT> a skos:Concept ;
+    skos:prefLabel "Contractual agreement" ;
+    skos:notation "3.2.K1" ;
+    skos:altLabel "CONTRACTUAL_AGREEMENT" ;
+    skos:altLabel "contract" ;
+    skos:altLabel "binding agreement" ;
+    skos:definition "A prescriptive information content entity that states the obligations the parties are to fulfill: a legally binding agreement. A regulation issued by an authority is a regulatory instrument. A payment that transfers the amounts named in the agreement is a separate entity." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DIRECTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT_CONTRACT> a skos:Concept ;
+    skos:prefLabel "Contract" ;
+    skos:notation "3.2.K1.1" ;
+    skos:altLabel "CONTRACT" ;
+    skos:altLabel "Contract" ;
+    skos:definition "A legally binding agreement stating the obligations of the parties." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DIRECTIVE_REGULATORY_INSTRUMENT> a skos:Concept ;
+    skos:prefLabel "Regulatory instrument" ;
+    skos:notation "3.2.K2" ;
+    skos:altLabel "REGULATORY_INSTRUMENT" ;
+    skos:altLabel "regulation" ;
+    skos:altLabel "legal instrument" ;
+    skos:altLabel "environmental regulation" ;
+    skos:definition "A prescriptive information content entity issued as a formal legal instrument, such as an environmental regulation. An agreement between parties is a contractual agreement." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DIRECTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DIRECTIVE_REGULATORY_INSTRUMENT_ENVIRONMENTAL_REGULATION> a skos:Concept ;
+    skos:prefLabel "Environmental regulation" ;
+    skos:notation "3.2.K2.1" ;
+    skos:altLabel "ENVIRONMENTAL_REGULATION" ;
+    skos:altLabel "EnvironmentalRegulation" ;
+    skos:definition "A formal legal instrument that states an environmental requirement." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DIRECTIVE_REGULATORY_INSTRUMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_INSCRIBED_RECORD> a skos:Concept ;
+    skos:prefLabel "Inscribed record" ;
+    skos:notation "2.1.K4" ;
+    skos:altLabel "INSCRIBED_RECORD" ;
+    skos:altLabel "inscription" ;
+    skos:altLabel "epigraphic inscription" ;
+    skos:altLabel "inscribed object" ;
+    skos:definition "A material artifact designed to carry an inscription, such as an epigraphic object on which writing is borne. The propositional content apart from that object is a descriptive information content entity. A record of what an activity did, such as a move notation, is an activity record." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ARTIFACT_INSCRIBED_RECORD_EPIGRAPHIC_INSCRIPTION> a skos:Concept ;
+    skos:prefLabel "Epigraphic inscription" ;
+    skos:notation "2.1.K4.1" ;
+    skos:altLabel "EPIGRAPHIC_INSCRIPTION" ;
+    skos:altLabel "EpigraphicInscription" ;
+    skos:definition "A physical object that bears an inscribed writing." ;
+    skos:broader <https://signals.zndx.org/sdg#ARTIFACT_INSCRIBED_RECORD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_ACTIVITY_RECORD> a skos:Concept ;
+    skos:prefLabel "Activity record" ;
+    skos:notation "3.1.K1" ;
+    skos:altLabel "ACTIVITY_RECORD" ;
+    skos:altLabel "move card" ;
+    skos:altLabel "move notation" ;
+    skos:altLabel "activity log" ;
+    skos:definition "A descriptive information content entity that records what an activity did: the notation, the time, and the move, as on a move card. The activity itself is a process. An object that bears an inscription is an inscribed record." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_ACTIVITY_RECORD_MOVE_CARD> a skos:Concept ;
+    skos:prefLabel "Move card" ;
+    skos:notation "3.1.K1.1" ;
+    skos:altLabel "MOVE_CARD" ;
+    skos:altLabel "MoveCard" ;
+    skos:definition "A record of a player's move: the notation and the time of the move." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_ACTIVITY_RECORD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_PRICE_SCHEDULE> a skos:Concept ;
+    skos:prefLabel "Price schedule" ;
+    skos:notation "3.1.K2" ;
+    skos:altLabel "PRICE_SCHEDULE" ;
+    skos:altLabel "pricing tier" ;
+    skos:altLabel "price tier" ;
+    skos:altLabel "cost structure" ;
+    skos:definition "A descriptive information content entity that states a defined cost structure: the amounts and the tier they belong to. A payment that transfers those amounts is a separate entity. An agreement that obligates a party to the price is a contractual agreement." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_PRICE_SCHEDULE_PRICING_TIER> a skos:Concept ;
+    skos:prefLabel "Pricing tier" ;
+    skos:notation "3.1.K2.1" ;
+    skos:altLabel "PRICING_TIER" ;
+    skos:altLabel "PricingTier" ;
+    skos:definition "A defined cost structure stating the amounts in a tier." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_PRICE_SCHEDULE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESIGNATIVE_CONFERRED_RECOGNITION> a skos:Concept ;
+    skos:prefLabel "Conferred recognition" ;
+    skos:notation "3.3.K1" ;
+    skos:altLabel "CONFERRED_RECOGNITION" ;
+    skos:altLabel "workplace award" ;
+    skos:altLabel "award designation" ;
+    skos:altLabel "recognition" ;
+    skos:definition "A designative information content entity that designates an organization as having met stated criteria: the recognition's name, year, rank, issuing body, and criteria. A survey that measured those criteria is a process or a descriptive record of that survey. A recognition framed as the ceremony that confers it is a process." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESIGNATIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESIGNATIVE_CONFERRED_RECOGNITION_WORKPLACE_AWARD> a skos:Concept ;
+    skos:prefLabel "Workplace award designation" ;
+    skos:notation "3.3.K1.1" ;
+    skos:altLabel "WORKPLACE_AWARD" ;
+    skos:altLabel "WorkplaceAward" ;
+    skos:definition "A recognition conferred on an organization, naming the year, the rank, the issuing body, and the criteria met." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESIGNATIVE_CONFERRED_RECOGNITION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_DECISION_SUBJECT> a skos:Concept ;
+    skos:prefLabel "Decision subject" ;
+    skos:notation "3.1.K3" ;
+    skos:altLabel "DECISION_SUBJECT" ;
+    skos:altLabel "decision topic" ;
+    skos:altLabel "matter for decision" ;
+    skos:definition "A descriptive information content entity that states the matter a decision is about. A decision topic is this subject. The process of assessing or making the decision is a process. The person or body that decides is an agent." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_DECISION_SUBJECT_DECISION_TOPIC> a skos:Concept ;
+    skos:prefLabel "Decision topic" ;
+    skos:notation "3.1.K3.1" ;
+    skos:altLabel "DECISION_TOPIC" ;
+    skos:altLabel "DecisionTopic" ;
+    skos:definition "A specific matter or choice a decision is about." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_DECISION_SUBJECT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_CULTURE_DIMENSION> a skos:Concept ;
+    skos:prefLabel "Culture dimension" ;
+    skos:notation "3.1.K4" ;
+    skos:altLabel "CULTURE_DIMENSION" ;
+    skos:altLabel "workplace culture dimension" ;
+    skos:altLabel "culture category" ;
+    skos:definition "A descriptive information content entity that categorizes one dimension of workplace culture, such as a named dimension used to score a cultural attribute. A survey that measures the dimension is a process. An award conferred for a culture outcome is a conferred recognition." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_CULTURE_DIMENSION_WORKPLACE_CULTURE_DIMENSION> a skos:Concept ;
+    skos:prefLabel "Workplace culture dimension example" ;
+    skos:notation "3.1.K4.1" ;
+    skos:altLabel "WORKPLACE_CULTURE_DIMENSION" ;
+    skos:altLabel "WorkplaceCultureDimension" ;
+    skos:definition "A descriptive category of one dimension of workplace culture." ;
+    skos:broader <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_CULTURE_DIMENSION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#PROCESS_SCHEDULED_ACT> a skos:Concept ;
+    skos:prefLabel "Scheduled act" ;
+    skos:notation "1.K1" ;
+    skos:altLabel "SCHEDULED_ACT" ;
+    skos:altLabel "scheduled event" ;
+    skos:altLabel "scheduled activity" ;
+    skos:definition "A process prescribed to occur at a time, such as a scheduled dinner or a class. An occasion of someone actively using a system, bounded by a start and an end, is a use session. A document that states the plan is a directive information content entity." ;
+    skos:broader <https://signals.zndx.org/sdg#PROCESS> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#PROCESS_SCHEDULED_ACT_EVENT> a skos:Concept ;
+    skos:prefLabel "Scheduled event example" ;
+    skos:notation "1.K1.1" ;
+    skos:altLabel "EVENT" ;
+    skos:altLabel "Event" ;
+    skos:definition "A scheduled activity or occurrence, such as a dinner or a class." ;
+    skos:broader <https://signals.zndx.org/sdg#PROCESS_SCHEDULED_ACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#PROCESS_USE_SESSION> a skos:Concept ;
+    skos:prefLabel "Use session" ;
+    skos:notation "1.K2" ;
+    skos:altLabel "USE_SESSION" ;
+    skos:altLabel "user session" ;
+    skos:altLabel "login session" ;
+    skos:altLabel "active session" ;
+    skos:definition "A process that is one bounded occasion of an authorized user actively using a licensed system, with a start and an end. A process prescribed to occur at a scheduled time is a scheduled act. The user is a person, and the license is a separate information entity." ;
+    skos:broader <https://signals.zndx.org/sdg#PROCESS> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#PROCESS_USE_SESSION_USER_SESSION> a skos:Concept ;
+    skos:prefLabel "User session example" ;
+    skos:notation "1.K2.1" ;
+    skos:altLabel "USER_SESSION" ;
+    skos:altLabel "UserSession" ;
+    skos:definition "A real-time occasion of an authorized user actively using licensed software." ;
+    skos:broader <https://signals.zndx.org/sdg#PROCESS_USE_SESSION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
 <https://signals.zndx.org/sdg#SDG_PROCESS> a skos:Concept ;
     skos:prefLabel "Process" ;
     owl:deprecated true ;
@@ -16713,6 +17143,270 @@
     skos:prefLabel "Schema Revision Of" ;
     owl:deprecated true ;
     dct:isReplacedBy <https://signals.zndx.org/sdg#DOM_SCHEMA_REVISION_OF> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_ORGANIZATION> a skos:Concept ;
+    skos:prefLabel "Agent organization" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_ORGANIZATION_BUS_OPERATOR> a skos:Concept ;
+    skos:prefLabel "Bus operator" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_BUS_OPERATOR> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_ORGANIZATION_GOVERNMENT_AGENCY> a skos:Concept ;
+    skos:prefLabel "Government agency" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_GOVERNMENT_AGENCY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_ORGANIZATION_MEDIA_PARTNER> a skos:Concept ;
+    skos:prefLabel "Media partner" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_MEDIA_PARTNER> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_ORGANIZATION_DEPARTMENT> a skos:Concept ;
+    skos:prefLabel "Department" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_ORGANIZATION_DEPARTMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_GROUP> a skos:Concept ;
+    skos:prefLabel "Agent group" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_GROUP_TEAM> a skos:Concept ;
+    skos:prefLabel "Team" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP_TEAM> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_AGENT_GROUP_CONTROL_GROUP> a skos:Concept ;
+    skos:prefLabel "Control group" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_AGENT_GROUP_CONTROL_GROUP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_COVERED_PERSON> a skos:Concept ;
+    skos:prefLabel "Covered person" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_COVERED_PERSON> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_COVERED_PERSON_ELIGIBLE_INDIVIDUAL> a skos:Concept ;
+    skos:prefLabel "Eligible individual" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_COVERED_PERSON_ELIGIBLE_INDIVIDUAL> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_ENROLLED_PARTICIPANT> a skos:Concept ;
+    skos:prefLabel "Enrolled participant" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_ENROLLED_PARTICIPANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_ENROLLED_PARTICIPANT_PARTICIPANT> a skos:Concept ;
+    skos:prefLabel "Participant" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_ENROLLED_PARTICIPANT_PARTICIPANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_SERVICE_RECIPIENT> a skos:Concept ;
+    skos:prefLabel "Service recipient" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_SERVICE_RECIPIENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_SERVICE_RECIPIENT_COACHING_CLIENT> a skos:Concept ;
+    skos:prefLabel "Coaching client" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_SERVICE_RECIPIENT_COACHING_CLIENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ROLE_INSTRUCTIONAL_ASSISTANT> a skos:Concept ;
+    skos:prefLabel "Instructional assistant" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ROLE_INSTRUCTIONAL_ASSISTANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ROLE_INSTRUCTIONAL_ASSISTANT_TEACHING_ASSISTANT> a skos:Concept ;
+    skos:prefLabel "Teaching assistant" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ROLE_INSTRUCTIONAL_ASSISTANT_TEACHING_ASSISTANT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_PURPOSE_FACILITY> a skos:Concept ;
+    skos:prefLabel "Purpose facility" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_PURPOSE_FACILITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_PURPOSE_FACILITY_FACILITY> a skos:Concept ;
+    skos:prefLabel "Purpose-built facility" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_PURPOSE_FACILITY_FACILITY> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_ROUTE_STOP> a skos:Concept ;
+    skos:prefLabel "Route stop" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_ROUTE_STOP> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_ROUTE_STOP_PICKUP_ZONE> a skos:Concept ;
+    skos:prefLabel "Pickup zone" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_ROUTE_STOP_PICKUP_ZONE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_FUNCTIONAL_SPACE> a skos:Concept ;
+    skos:prefLabel "Functional space" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_FUNCTIONAL_SPACE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_MATERIAL_ENTITY_FUNCTIONAL_SPACE_ROOM> a skos:Concept ;
+    skos:prefLabel "Room" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#MATERIAL_ENTITY_FUNCTIONAL_SPACE_ROOM> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_MATERIAL_EQUIPMENT> a skos:Concept ;
+    skos:prefLabel "Material equipment" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_MATERIAL_EQUIPMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_MATERIAL_EQUIPMENT_EQUIPMENT> a skos:Concept ;
+    skos:prefLabel "Equipment item" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_MATERIAL_EQUIPMENT_EQUIPMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT> a skos:Concept ;
+    skos:prefLabel "Contractual agreement" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT_CONTRACT> a skos:Concept ;
+    skos:prefLabel "Contract" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DIRECTIVE_CONTRACTUAL_AGREEMENT_CONTRACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DIRECTIVE_REGULATORY_INSTRUMENT> a skos:Concept ;
+    skos:prefLabel "Regulatory instrument" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DIRECTIVE_REGULATORY_INSTRUMENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DIRECTIVE_REGULATORY_INSTRUMENT_ENVIRONMENTAL_REGULATION> a skos:Concept ;
+    skos:prefLabel "Environmental regulation" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DIRECTIVE_REGULATORY_INSTRUMENT_ENVIRONMENTAL_REGULATION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_INSCRIBED_RECORD> a skos:Concept ;
+    skos:prefLabel "Inscribed record" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_INSCRIBED_RECORD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ARTIFACT_INSCRIBED_RECORD_EPIGRAPHIC_INSCRIPTION> a skos:Concept ;
+    skos:prefLabel "Epigraphic inscription" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ARTIFACT_INSCRIBED_RECORD_EPIGRAPHIC_INSCRIPTION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_ACTIVITY_RECORD> a skos:Concept ;
+    skos:prefLabel "Activity record" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_ACTIVITY_RECORD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_ACTIVITY_RECORD_MOVE_CARD> a skos:Concept ;
+    skos:prefLabel "Move card" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_ACTIVITY_RECORD_MOVE_CARD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_PRICE_SCHEDULE> a skos:Concept ;
+    skos:prefLabel "Price schedule" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_PRICE_SCHEDULE> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_PRICE_SCHEDULE_PRICING_TIER> a skos:Concept ;
+    skos:prefLabel "Pricing tier" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_PRICE_SCHEDULE_PRICING_TIER> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESIGNATIVE_CONFERRED_RECOGNITION> a skos:Concept ;
+    skos:prefLabel "Conferred recognition" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESIGNATIVE_CONFERRED_RECOGNITION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESIGNATIVE_CONFERRED_RECOGNITION_WORKPLACE_AWARD> a skos:Concept ;
+    skos:prefLabel "Workplace award designation" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESIGNATIVE_CONFERRED_RECOGNITION_WORKPLACE_AWARD> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_DECISION_SUBJECT> a skos:Concept ;
+    skos:prefLabel "Decision subject" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_DECISION_SUBJECT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_DECISION_SUBJECT_DECISION_TOPIC> a skos:Concept ;
+    skos:prefLabel "Decision topic" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_DECISION_SUBJECT_DECISION_TOPIC> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_CULTURE_DIMENSION> a skos:Concept ;
+    skos:prefLabel "Culture dimension" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_CULTURE_DIMENSION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_ICE_DESCRIPTIVE_CULTURE_DIMENSION_WORKPLACE_CULTURE_DIMENSION> a skos:Concept ;
+    skos:prefLabel "Workplace culture dimension example" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#ICE_DESCRIPTIVE_CULTURE_DIMENSION_WORKPLACE_CULTURE_DIMENSION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_PROCESS_SCHEDULED_ACT> a skos:Concept ;
+    skos:prefLabel "Scheduled act" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#PROCESS_SCHEDULED_ACT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_PROCESS_SCHEDULED_ACT_EVENT> a skos:Concept ;
+    skos:prefLabel "Scheduled event example" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#PROCESS_SCHEDULED_ACT_EVENT> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_PROCESS_USE_SESSION> a skos:Concept ;
+    skos:prefLabel "Use session" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#PROCESS_USE_SESSION> ;
+    skos:inScheme <https://signals.zndx.org/sdg/scheme> .
+
+<https://signals.zndx.org/sdg#SDG_PROCESS_USE_SESSION_USER_SESSION> a skos:Concept ;
+    skos:prefLabel "User session example" ;
+    owl:deprecated true ;
+    dct:isReplacedBy <https://signals.zndx.org/sdg#PROCESS_USE_SESSION_USER_SESSION> ;
     skos:inScheme <https://signals.zndx.org/sdg/scheme> .
 
 <https://signals.zndx.org/sdg#SDG_PROCESS_FILLER_BUSINESSACTIVITYPROCESS> a skos:Concept ;

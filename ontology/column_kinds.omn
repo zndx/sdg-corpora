@@ -1,0 +1,539 @@
+# Column kinds for published entities whose recorded genus does not entail a
+# BFO/CCO anchor. Each kind is an OWL class in this namespace, subclass of a
+# real BFO or CCO class (those axioms live in imports/cco-module.ttl; this
+# module does not restate them and does not rewrite a typo genus IRI).
+# SKOS is projected from these axioms by aegir.ontology.column_kinds.
+# A published column is tagged with the kind, not with the example class,
+# so an unseen entity of the same kind aligns to the kind.
+#
+# sdg:Client is not subclassed here. The coaching tables use that name for a
+# person who receives coaching; sdg:CoachingClient covers that unanchored
+# class. Financial-advice clients stay SDG.MATERIAL_ENTITY.CLIENT.
+
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+Prefix: iao: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: bfo: <http://purl.obolibrary.org/obo/BFO_>
+Prefix: cco: <https://www.commoncoreontologies.org/>
+Prefix: sdg: <https://signals.zndx.org/sdg#>
+
+Ontology: <https://signals.zndx.org/sdg/column-kinds>
+
+AnnotationProperty: sdg:skosCode
+AnnotationProperty: sdg:skosParent
+AnnotationProperty: sdg:notation
+AnnotationProperty: sdg:exampleOf
+AnnotationProperty: sdg:coversUnanchored
+
+Class: bfo:0000015
+Class: bfo:0000023
+Class: bfo:0000024
+Class: cco:ont00000192
+Class: cco:ont00000228
+Class: cco:ont00000300
+Class: cco:ont00000686
+Class: cco:ont00000798
+Class: cco:ont00000853
+Class: cco:ont00000965
+Class: cco:ont00000995
+Class: cco:ont00001180
+Class: cco:ont00001262
+
+Class: sdg:AgentOrganization
+    Annotations:
+        rdfs:label "Agent organization"
+        iao:0000115 "A group of agents that has members and a set of organizational rules, and that can bear roles. An operating company, a public agency, a partner media organization, and a department that is itself organized are agent organizations. A collection of agents with no organizational rules is an agent group. A human being is a covered person, an enrolled participant, or a service recipient."
+        skos:altLabel "operating company"
+        skos:altLabel "public agency"
+        skos:altLabel "partner organization"
+        skos:altLabel "department"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_ORGANIZATION"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K1"
+    SubClassOf:
+        cco:ont00001180
+
+Class: sdg:BusOperator
+    Annotations:
+        rdfs:label "Bus operator"
+        iao:0000115 "A commercial transportation organization that operates buses."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_ORGANIZATION.BUS_OPERATOR"
+        sdg:notation "2.2.K1.1"
+        sdg:exampleOf "sdg:AgentOrganization"
+    SubClassOf:
+        sdg:AgentOrganization
+
+Class: sdg:GovernmentAgency
+    Annotations:
+        rdfs:label "Government agency"
+        iao:0000115 "A public institution organized as an agency, with members and institutional rules."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_ORGANIZATION.GOVERNMENT_AGENCY"
+        sdg:notation "2.2.K1.2"
+        sdg:exampleOf "sdg:AgentOrganization"
+    SubClassOf:
+        sdg:AgentOrganization
+
+Class: sdg:MediaPartner
+    Annotations:
+        rdfs:label "Media partner"
+        iao:0000115 "A media organization that partners with a research firm."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_ORGANIZATION.MEDIA_PARTNER"
+        sdg:notation "2.2.K1.3"
+        sdg:exampleOf "sdg:AgentOrganization"
+    SubClassOf:
+        sdg:AgentOrganization
+
+Class: sdg:Department
+    Annotations:
+        rdfs:label "Department"
+        iao:0000115 "A functional unit within an organization, with members and the rules of that unit."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_ORGANIZATION.DEPARTMENT"
+        sdg:notation "2.2.K1.4"
+        sdg:exampleOf "sdg:AgentOrganization"
+    SubClassOf:
+        sdg:AgentOrganization
+
+Class: sdg:AgentGroup
+    Annotations:
+        rdfs:label "Agent group"
+        iao:0000115 "An object aggregate whose member parts are agents and that has no set of organizational rules. A team of players and a control group of trial participants are agent groups. A company, an agency, or a department with members and organizational rules is an agent organization."
+        skos:altLabel "team"
+        skos:altLabel "control group"
+        skos:altLabel "participant group"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_GROUP"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K2"
+    SubClassOf:
+        cco:ont00000300
+
+Class: sdg:Team
+    Annotations:
+        rdfs:label "Team"
+        iao:0000115 "A group of players fielded together, without the rules of an organization."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_GROUP.TEAM"
+        sdg:notation "2.2.K2.1"
+        sdg:exampleOf "sdg:AgentGroup"
+    SubClassOf:
+        sdg:AgentGroup
+
+Class: sdg:ControlGroup
+    Annotations:
+        rdfs:label "Control group"
+        iao:0000115 "A group of clinical-trial participants held as the comparison aggregate."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.AGENT_GROUP.CONTROL_GROUP"
+        sdg:notation "2.2.K2.2"
+        sdg:exampleOf "sdg:AgentGroup"
+    SubClassOf:
+        sdg:AgentGroup
+
+Class: sdg:CoveredPerson
+    Annotations:
+        rdfs:label "Covered person"
+        iao:0000115 "A person a health plan's coverage is about, including an employee, a dependent, and an early retiree. The covered person is the human continuant. An organization that holds the policy is an agent organization. A person registered for a program is an enrolled participant."
+        skos:altLabel "eligible individual"
+        skos:altLabel "covered employee"
+        skos:altLabel "dependent"
+        skos:altLabel "early retiree"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.COVERED_PERSON"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K3"
+    SubClassOf:
+        cco:ont00001262
+
+Class: sdg:EligibleIndividual
+    Annotations:
+        rdfs:label "Eligible individual"
+        iao:0000115 "A person who qualifies for coverage under a health plan, including an employee, a dependent, or an early retiree."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.COVERED_PERSON.ELIGIBLE_INDIVIDUAL"
+        sdg:notation "2.2.K3.1"
+        sdg:exampleOf "sdg:CoveredPerson"
+    SubClassOf:
+        sdg:CoveredPerson
+
+Class: sdg:EnrolledParticipant
+    Annotations:
+        rdfs:label "Enrolled participant"
+        iao:0000115 "A person registered for or attending a program. A person a health plan covers is a covered person. A person assisting instruction, in that circumstance, bears an instructional assistant role."
+        skos:altLabel "program participant"
+        skos:altLabel "attendee"
+        skos:altLabel "registrant"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.ENROLLED_PARTICIPANT"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K4"
+    SubClassOf:
+        cco:ont00001262
+
+Class: sdg:Participant
+    Annotations:
+        rdfs:label "Participant"
+        iao:0000115 "A person registered for or attending a program."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.ENROLLED_PARTICIPANT.PARTICIPANT"
+        sdg:notation "2.2.K4.1"
+        sdg:exampleOf "sdg:EnrolledParticipant"
+    SubClassOf:
+        sdg:EnrolledParticipant
+
+Class: sdg:ServiceRecipient
+    Annotations:
+        rdfs:label "Service recipient"
+        iao:0000115 "A person who receives a service directed at that person, such as coaching: the record names the person, the occupation, and the need. An agent that receives a financial product advice service remains SDG.MATERIAL_ENTITY.CLIENT. The organization that provides the service is an agent organization."
+        skos:altLabel "coaching client"
+        skos:altLabel "person receiving a service"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.SERVICE_RECIPIENT"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K5"
+    SubClassOf:
+        cco:ont00001262
+
+Class: sdg:CoachingClient
+    Annotations:
+        rdfs:label "Coaching client"
+        iao:0000115 "A person who receives coaching. The published coaching tables name this class Client; this example covers that unanchored class and does not subclass the financial-advice client."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.SERVICE_RECIPIENT.COACHING_CLIENT"
+        sdg:notation "2.2.K5.1"
+        sdg:exampleOf "sdg:ServiceRecipient"
+        sdg:coversUnanchored "sdg:Client"
+    SubClassOf:
+        sdg:ServiceRecipient
+
+Class: sdg:InstructionalAssistant
+    Annotations:
+        rdfs:label "Instructional assistant"
+        iao:0000115 "A role realized in assisting instruction, borne by a person in the circumstances of a course. A teaching assistant bears this role. The person continuant, apart from the role, is an enrolled participant or another person kind. A faculty appointment is a separate role."
+        skos:altLabel "teaching assistant"
+        skos:altLabel "graduate assistant"
+        sdg:skosCode "SDG.ROLE.INSTRUCTIONAL_ASSISTANT"
+        sdg:skosParent "SDG.ROLE"
+        sdg:notation "5.K1"
+    SubClassOf:
+        bfo:0000023
+
+Class: sdg:TeachingAssistant
+    Annotations:
+        rdfs:label "Teaching assistant"
+        iao:0000115 "A role, often borne by a graduate student, realized in assisting faculty with instruction."
+        sdg:skosCode "SDG.ROLE.INSTRUCTIONAL_ASSISTANT.TEACHING_ASSISTANT"
+        sdg:notation "5.K1.1"
+        sdg:exampleOf "sdg:InstructionalAssistant"
+    SubClassOf:
+        sdg:InstructionalAssistant
+
+Class: sdg:PurposeFacility
+    Annotations:
+        rdfs:label "Purpose facility"
+        iao:0000115 "A material artifact designed as a building or campus dedicated to a purpose, and used to host a program. A room demarcated inside that building is a functional space. A piece of equipment kept there is material equipment. A place designated as a stop on a route is a route stop."
+        skos:altLabel "program building"
+        skos:altLabel "campus"
+        skos:altLabel "host facility"
+        sdg:skosCode "SDG.ARTIFACT.PURPOSE_FACILITY"
+        sdg:skosParent "SDG.ARTIFACT"
+        sdg:notation "2.1.K1"
+    SubClassOf:
+        cco:ont00000192
+
+Class: sdg:Facility
+    Annotations:
+        rdfs:label "Purpose-built facility"
+        iao:0000115 "A building or campus where programs are hosted."
+        sdg:skosCode "SDG.ARTIFACT.PURPOSE_FACILITY.FACILITY"
+        sdg:notation "2.1.K1.1"
+        sdg:exampleOf "sdg:PurposeFacility"
+    SubClassOf:
+        sdg:PurposeFacility
+
+Class: sdg:RouteStop
+    Annotations:
+        rdfs:label "Route stop"
+        iao:0000115 "A facility or a residential estate designated as a stop on a route, such as a pickup zone. The building where a program is hosted is a purpose facility. The route the stop belongs to is a separate entity."
+        skos:altLabel "pickup zone"
+        skos:altLabel "bus stop"
+        skos:altLabel "designated stop"
+        sdg:skosCode "SDG.ARTIFACT.ROUTE_STOP"
+        sdg:skosParent "SDG.ARTIFACT"
+        sdg:notation "2.1.K2"
+    SubClassOf:
+        cco:ont00000192
+
+Class: sdg:PickupZone
+    Annotations:
+        rdfs:label "Pickup zone"
+        iao:0000115 "A residential building or estate designated as a stop on a bus route."
+        sdg:skosCode "SDG.ARTIFACT.ROUTE_STOP.PICKUP_ZONE"
+        sdg:notation "2.1.K2.1"
+        sdg:exampleOf "sdg:RouteStop"
+    SubClassOf:
+        sdg:RouteStop
+
+Class: sdg:FunctionalSpace
+    Annotations:
+        rdfs:label "Functional space"
+        iao:0000115 "A fiat object part of a purpose facility: a space such as a room, demarcated within the building by fiat surfaces and a continuant part of that facility. The building itself is a purpose facility. Equipment placed in the space is material equipment."
+        skos:altLabel "room"
+        skos:altLabel "functional room"
+        sdg:skosCode "SDG.MATERIAL_ENTITY.FUNCTIONAL_SPACE"
+        sdg:skosParent "SDG.MATERIAL_ENTITY"
+        sdg:notation "2.2.K6"
+    SubClassOf:
+        bfo:0000024,
+        bfo:0000176 some cco:ont00000192
+
+Class: sdg:Room
+    Annotations:
+        rdfs:label "Room"
+        iao:0000115 "A functional space within a facility."
+        sdg:skosCode "SDG.MATERIAL_ENTITY.FUNCTIONAL_SPACE.ROOM"
+        sdg:notation "2.2.K6.1"
+        sdg:exampleOf "sdg:FunctionalSpace"
+    SubClassOf:
+        sdg:FunctionalSpace
+
+Class: sdg:MaterialEquipment
+    Annotations:
+        rdfs:label "Material equipment"
+        iao:0000115 "A material artifact that is a piece of equipment used in a place, such as a mat or a changing table. The building it is used in is a purpose facility. A room of that building is a functional space."
+        skos:altLabel "equipment"
+        skos:altLabel "apparatus"
+        sdg:skosCode "SDG.ARTIFACT.MATERIAL_EQUIPMENT"
+        sdg:skosParent "SDG.ARTIFACT"
+        sdg:notation "2.1.K3"
+    SubClassOf:
+        cco:ont00000995
+
+Class: sdg:Equipment
+    Annotations:
+        rdfs:label "Equipment item"
+        iao:0000115 "A physical item of equipment, such as a mat or a changing table."
+        sdg:skosCode "SDG.ARTIFACT.MATERIAL_EQUIPMENT.EQUIPMENT"
+        sdg:notation "2.1.K3.1"
+        sdg:exampleOf "sdg:MaterialEquipment"
+    SubClassOf:
+        sdg:MaterialEquipment
+
+Class: sdg:ContractualAgreement
+    Annotations:
+        rdfs:label "Contractual agreement"
+        iao:0000115 "A prescriptive information content entity that states the obligations the parties are to fulfill: a legally binding agreement. A regulation issued by an authority is a regulatory instrument. A payment that transfers the amounts named in the agreement is a separate entity."
+        skos:altLabel "contract"
+        skos:altLabel "binding agreement"
+        sdg:skosCode "SDG.ICE.DIRECTIVE.CONTRACTUAL_AGREEMENT"
+        sdg:skosParent "SDG.ICE.DIRECTIVE"
+        sdg:notation "3.2.K1"
+    SubClassOf:
+        cco:ont00000965
+
+Class: sdg:Contract
+    Annotations:
+        rdfs:label "Contract"
+        iao:0000115 "A legally binding agreement stating the obligations of the parties."
+        sdg:skosCode "SDG.ICE.DIRECTIVE.CONTRACTUAL_AGREEMENT.CONTRACT"
+        sdg:notation "3.2.K1.1"
+        sdg:exampleOf "sdg:ContractualAgreement"
+    SubClassOf:
+        sdg:ContractualAgreement
+
+Class: sdg:RegulatoryInstrument
+    Annotations:
+        rdfs:label "Regulatory instrument"
+        iao:0000115 "A prescriptive information content entity issued as a formal legal instrument, such as an environmental regulation. An agreement between parties is a contractual agreement."
+        skos:altLabel "regulation"
+        skos:altLabel "legal instrument"
+        skos:altLabel "environmental regulation"
+        sdg:skosCode "SDG.ICE.DIRECTIVE.REGULATORY_INSTRUMENT"
+        sdg:skosParent "SDG.ICE.DIRECTIVE"
+        sdg:notation "3.2.K2"
+    SubClassOf:
+        cco:ont00000965
+
+Class: sdg:EnvironmentalRegulation
+    Annotations:
+        rdfs:label "Environmental regulation"
+        iao:0000115 "A formal legal instrument that states an environmental requirement."
+        sdg:skosCode "SDG.ICE.DIRECTIVE.REGULATORY_INSTRUMENT.ENVIRONMENTAL_REGULATION"
+        sdg:notation "3.2.K2.1"
+        sdg:exampleOf "sdg:RegulatoryInstrument"
+    SubClassOf:
+        sdg:RegulatoryInstrument
+
+Class: sdg:InscribedRecord
+    Annotations:
+        rdfs:label "Inscribed record"
+        iao:0000115 "A material artifact designed to carry an inscription, such as an epigraphic object on which writing is borne. The propositional content apart from that object is a descriptive information content entity. A record of what an activity did, such as a move notation, is an activity record."
+        skos:altLabel "inscription"
+        skos:altLabel "epigraphic inscription"
+        skos:altLabel "inscribed object"
+        sdg:skosCode "SDG.ARTIFACT.INSCRIBED_RECORD"
+        sdg:skosParent "SDG.ARTIFACT"
+        sdg:notation "2.1.K4"
+    SubClassOf:
+        cco:ont00000798
+
+Class: sdg:EpigraphicInscription
+    Annotations:
+        rdfs:label "Epigraphic inscription"
+        iao:0000115 "A physical object that bears an inscribed writing."
+        sdg:skosCode "SDG.ARTIFACT.INSCRIBED_RECORD.EPIGRAPHIC_INSCRIPTION"
+        sdg:notation "2.1.K4.1"
+        sdg:exampleOf "sdg:InscribedRecord"
+    SubClassOf:
+        sdg:InscribedRecord
+
+Class: sdg:ActivityRecord
+    Annotations:
+        rdfs:label "Activity record"
+        iao:0000115 "A descriptive information content entity that records what an activity did: the notation, the time, and the move, as on a move card. The activity itself is a process. An object that bears an inscription is an inscribed record."
+        skos:altLabel "move card"
+        skos:altLabel "move notation"
+        skos:altLabel "activity log"
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.ACTIVITY_RECORD"
+        sdg:skosParent "SDG.ICE.DESCRIPTIVE"
+        sdg:notation "3.1.K1"
+    SubClassOf:
+        cco:ont00000853
+
+Class: sdg:MoveCard
+    Annotations:
+        rdfs:label "Move card"
+        iao:0000115 "A record of a player's move: the notation and the time of the move."
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.ACTIVITY_RECORD.MOVE_CARD"
+        sdg:notation "3.1.K1.1"
+        sdg:exampleOf "sdg:ActivityRecord"
+    SubClassOf:
+        sdg:ActivityRecord
+
+Class: sdg:PriceSchedule
+    Annotations:
+        rdfs:label "Price schedule"
+        iao:0000115 "A descriptive information content entity that states a defined cost structure: the amounts and the tier they belong to. A payment that transfers those amounts is a separate entity. An agreement that obligates a party to the price is a contractual agreement."
+        skos:altLabel "pricing tier"
+        skos:altLabel "price tier"
+        skos:altLabel "cost structure"
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.PRICE_SCHEDULE"
+        sdg:skosParent "SDG.ICE.DESCRIPTIVE"
+        sdg:notation "3.1.K2"
+    SubClassOf:
+        cco:ont00000853
+
+Class: sdg:PricingTier
+    Annotations:
+        rdfs:label "Pricing tier"
+        iao:0000115 "A defined cost structure stating the amounts in a tier."
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.PRICE_SCHEDULE.PRICING_TIER"
+        sdg:notation "3.1.K2.1"
+        sdg:exampleOf "sdg:PriceSchedule"
+    SubClassOf:
+        sdg:PriceSchedule
+
+Class: sdg:ConferredRecognition
+    Annotations:
+        rdfs:label "Conferred recognition"
+        iao:0000115 "A designative information content entity that designates an organization as having met stated criteria: the recognition's name, year, rank, issuing body, and criteria. A survey that measured those criteria is a process or a descriptive record of that survey. A recognition framed as the ceremony that confers it is a process."
+        skos:altLabel "workplace award"
+        skos:altLabel "award designation"
+        skos:altLabel "recognition"
+        sdg:skosCode "SDG.ICE.DESIGNATIVE.CONFERRED_RECOGNITION"
+        sdg:skosParent "SDG.ICE.DESIGNATIVE"
+        sdg:notation "3.3.K1"
+    SubClassOf:
+        cco:ont00000686
+
+Class: sdg:WorkplaceAward
+    Annotations:
+        rdfs:label "Workplace award designation"
+        iao:0000115 "A recognition conferred on an organization, naming the year, the rank, the issuing body, and the criteria met."
+        sdg:skosCode "SDG.ICE.DESIGNATIVE.CONFERRED_RECOGNITION.WORKPLACE_AWARD"
+        sdg:notation "3.3.K1.1"
+        sdg:exampleOf "sdg:ConferredRecognition"
+    SubClassOf:
+        sdg:ConferredRecognition
+
+Class: sdg:DecisionSubject
+    Annotations:
+        rdfs:label "Decision subject"
+        iao:0000115 "A descriptive information content entity that states the matter a decision is about. A decision topic is this subject. The process of assessing or making the decision is a process. The person or body that decides is an agent."
+        skos:altLabel "decision topic"
+        skos:altLabel "matter for decision"
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.DECISION_SUBJECT"
+        sdg:skosParent "SDG.ICE.DESCRIPTIVE"
+        sdg:notation "3.1.K3"
+    SubClassOf:
+        cco:ont00000853
+
+Class: sdg:DecisionTopic
+    Annotations:
+        rdfs:label "Decision topic"
+        iao:0000115 "A specific matter or choice a decision is about."
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.DECISION_SUBJECT.DECISION_TOPIC"
+        sdg:notation "3.1.K3.1"
+        sdg:exampleOf "sdg:DecisionSubject"
+    SubClassOf:
+        sdg:DecisionSubject
+
+Class: sdg:CultureDimension
+    Annotations:
+        rdfs:label "Culture dimension"
+        iao:0000115 "A descriptive information content entity that categorizes one dimension of workplace culture, such as a named dimension used to score a cultural attribute. A survey that measures the dimension is a process. An award conferred for a culture outcome is a conferred recognition."
+        skos:altLabel "workplace culture dimension"
+        skos:altLabel "culture category"
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.CULTURE_DIMENSION"
+        sdg:skosParent "SDG.ICE.DESCRIPTIVE"
+        sdg:notation "3.1.K4"
+    SubClassOf:
+        cco:ont00000853
+
+Class: sdg:WorkplaceCultureDimension
+    Annotations:
+        rdfs:label "Workplace culture dimension example"
+        iao:0000115 "A descriptive category of one dimension of workplace culture."
+        sdg:skosCode "SDG.ICE.DESCRIPTIVE.CULTURE_DIMENSION.WORKPLACE_CULTURE_DIMENSION"
+        sdg:notation "3.1.K4.1"
+        sdg:exampleOf "sdg:CultureDimension"
+    SubClassOf:
+        sdg:CultureDimension
+
+Class: sdg:ScheduledAct
+    Annotations:
+        rdfs:label "Scheduled act"
+        iao:0000115 "A process prescribed to occur at a time, such as a scheduled dinner or a class. An occasion of someone actively using a system, bounded by a start and an end, is a use session. A document that states the plan is a directive information content entity."
+        skos:altLabel "scheduled event"
+        skos:altLabel "scheduled activity"
+        sdg:skosCode "SDG.PROCESS.SCHEDULED_ACT"
+        sdg:skosParent "SDG.PROCESS"
+        sdg:notation "1.K1"
+    SubClassOf:
+        cco:ont00000228
+
+Class: sdg:Event
+    Annotations:
+        rdfs:label "Scheduled event example"
+        iao:0000115 "A scheduled activity or occurrence, such as a dinner or a class."
+        sdg:skosCode "SDG.PROCESS.SCHEDULED_ACT.EVENT"
+        sdg:notation "1.K1.1"
+        sdg:exampleOf "sdg:ScheduledAct"
+    SubClassOf:
+        sdg:ScheduledAct
+
+Class: sdg:UseSession
+    Annotations:
+        rdfs:label "Use session"
+        iao:0000115 "A process that is one bounded occasion of an authorized user actively using a licensed system, with a start and an end. A process prescribed to occur at a scheduled time is a scheduled act. The user is a person, and the license is a separate information entity."
+        skos:altLabel "user session"
+        skos:altLabel "login session"
+        skos:altLabel "active session"
+        sdg:skosCode "SDG.PROCESS.USE_SESSION"
+        sdg:skosParent "SDG.PROCESS"
+        sdg:notation "1.K2"
+    SubClassOf:
+        bfo:0000015
+
+Class: sdg:UserSession
+    Annotations:
+        rdfs:label "User session example"
+        iao:0000115 "A real-time occasion of an authorized user actively using licensed software."
+        sdg:skosCode "SDG.PROCESS.USE_SESSION.USER_SESSION"
+        sdg:notation "1.K2.1"
+        sdg:exampleOf "sdg:UseSession"
+    SubClassOf:
+        sdg:UseSession
